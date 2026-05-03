@@ -1,8 +1,8 @@
 backend:
   name: github
-  repo: YOUR-GITHUB-USERNAME/YOUR-REPO-NAME
+   repo: beewax/kandaka
   branch: main
-  base_url: https://YOUR-SITE.pages.dev
+    base_url: https://kandaka.pages.dev
   auth_endpoint: api/auth
 
 media_folder: "static/images/uploads"
