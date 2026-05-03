@@ -1,7 +1,7 @@
 baseURL = "https://kandaka.pages.dev/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "kandaka- A Sudan Think-Tank"
 theme = "ananke"
 
 [params]
-  description = "A site built with Hugo and Decap CMS"
+  description = "A melting pot of ideas"
