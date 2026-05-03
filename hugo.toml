@@ -1,0 +1,7 @@
+baseURL = "https://example.com/"
+languageCode = "en-us"
+title = "My New Hugo Site"
+theme = "ananke"
+
+[params]
+  description = "A site built with Hugo and Decap CMS"
