@@ -9,26 +9,44 @@
     #009A3D 66.66%,
     #009A3D 100%
   );
-  min-height: 50vh;
+  min-height: 60vh;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 2rem;
-  margin-bottom: 2rem;
+  padding: 3rem 1rem;
+  margin: 0;
+}
+
+.flag-hero-content {
+  max-width: 800px;
 }
 
 .flag-hero h1 {
   color: white;
-  font-size: 3.5rem;
-  margin: 0;
-  text-shadow: 2px 2px 12px rgba(0, 0, 0, 0.9);
-  font-weight: bold;
+  font-size: clamp(2.5rem, 6vw, 5rem);
+  margin: 0 0 0.5rem 0;
+  text-shadow: 2px 2px 16px rgba(0, 0, 0, 0.95), 0 0 40px rgba(0, 0, 0, 0.5);
+  font-weight: 800;
+  letter-spacing: -0.02em;
 }
 
 .flag-hero p {
   color: white;
-  font-size: 1.25rem;
-  margin-top: 1rem;
-  text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.9);
+  font-size: clamp(1rem, 2vw, 1.5rem);
+  margin: 0;
+  text-shadow: 1px 1px 12px rgba(0, 0, 0, 0.95);
+  font-weight: 400;
+}
+
+/* Hide Ananke's default page header on the homepage */
+body.kind-home #site-header,
+.cover-bg.bg-black {
+  display: none !important;
+}
+
+/* Remove any default body margin causing black space */
+body {
+  margin: 0;
+  padding: 0;
 }

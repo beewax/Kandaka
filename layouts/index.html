@@ -1,24 +1,22 @@
 {{ define "main" }}
 <div class="flag-hero">
-  <div>
+  <div class="flag-hero-content">
     <h1>{{ .Site.Title }}</h1>
     {{ with .Site.Params.description }}<p>{{ . }}</p>{{ end }}
   </div>
 </div>
 
-<section class="section ph4 pv5-ns pv4 max-w-wrapper-l center w-100">
+<section class="ph4 pv4 mw8 center">
   <h2 class="f3 mb4">Recent Posts</h2>
-  <div class="dt-row dt--fixed">
-    {{ range first 10 (where .Site.RegularPages "Section" "posts") }}
-      <article class="mb4">
-        <h3 class="f4 fw6">
-          <a href="{{ .RelPermalink }}" class="link black hover-blue">{{ .Title }}</a>
-        </h3>
-        <p class="f6 gray">{{ .Date.Format "January 2, 2006" }}</p>
-        <p>{{ .Summary }}</p>
-        <a href="{{ .RelPermalink }}" class="link blue">Read more →</a>
-      </article>
-    {{ end }}
-  </div>
+  {{ range first 10 (where .Site.RegularPages "Section" "posts") }}
+    <article class="mb4 pb4 bb b--black-10">
+      <h3 class="f4 fw6 mb2">
+        <a href="{{ .RelPermalink }}" class="link near-black hover-blue">{{ .Title }}</a>
+      </h3>
+      <p class="f6 gray mb2">{{ .Date.Format "January 2, 2006" }}</p>
+      <p class="lh-copy">{{ .Summary }}</p>
+      <a href="{{ .RelPermalink }}" class="link blue f6">Read more →</a>
+    </article>
+  {{ end }}
 </section>
 {{ end }}
