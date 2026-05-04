@@ -4,9 +4,5 @@ title = "Kandaka"
 theme = "ananke"
 
 [params]
-  description = "An Economics Development Website for Sudan"
-  show_reading_time = true
-  featured_image = "/images/hero.jpg"
-
-[markup.goldmark.renderer]
-  unsafe = true
+description = "An Economics Development Website for Sudan"
+custom_css = ["custom.css"]

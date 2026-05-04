@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on kandaka- A Sudan Think-Tank</title>
+    <title>Posts on Kandaka</title>
     <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Posts on kandaka- A Sudan Think-Tank</description>
+    <description>Recent content in Posts on Kandaka</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 02 May 2026 20:30:32 -0500</lastBuildDate>
+    <lastBuildDate>Sun, 03 May 2026 21:09:00 -0500</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Hello World</title>
-      <link>http://localhost:1313/posts/hello-world/</link>
-      <pubDate>Sat, 02 May 2026 20:30:32 -0500</pubDate>
-      <guid>http://localhost:1313/posts/hello-world/</guid>
-      <description></description>
+      <title>My first CMS post</title>
+      <link>http://localhost:1313/posts/my-first-cms-post/</link>
+      <pubDate>Sun, 03 May 2026 21:09:00 -0500</pubDate>
+      <guid>http://localhost:1313/posts/my-first-cms-post/</guid>
+      <description>&lt;p&gt;testing&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
