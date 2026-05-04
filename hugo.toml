@@ -5,9 +5,8 @@ theme = "ananke"
 
 [params]
   description = "An Economics Development Website for Sudan"
-  custom_css = ["ananke/css/custom.css"]
+  custom_css = ["custom.css"]
   show_reading_time = true
-  background_color_class = "bg-black"
   featured_image = "/images/hero.jpg"
 
 [markup.goldmark.renderer]
