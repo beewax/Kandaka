@@ -1,5 +1,13 @@
-/* Transform Ananke's hero banner into the Sudan 1956 flag */
-.cover-bg {
+/* Sudan 1956 Flag - Apply to ANY hero/cover element */
+.cover-bg,
+.cover,
+.bg-black,
+.bg-dark-gray,
+section.cover,
+.featured_image,
+[class*="cover"],
+.bg-near-black,
+header[role="banner"] + div {
   background-color: transparent !important;
   background-image: linear-gradient(
     to bottom,
@@ -13,19 +21,27 @@
   min-height: 70vh !important;
 }
 
-/* Make hero text readable on the flag */
-.cover-bg h1,
-.cover-bg .b,
-.cover-bg .f1,
-.cover-bg .f2,
-.cover-bg p {
+/* Make all hero text white with shadow */
+.cover-bg *,
+.cover *,
+section.cover *,
+[class*="cover"] * {
   color: white !important;
   text-shadow: 2px 2px 16px rgba(0, 0, 0, 0.95), 0 0 30px rgba(0, 0, 0, 0.6) !important;
 }
 
-/* Remove the dark overlay that Ananke adds */
-.cover-bg .bg-black-60,
-.cover-bg .bg-black-70,
-.cover-bg .bg-black-80 {
-  background-color: transparent !important;
+/* Don't apply to nav header itself */
+nav.bg-black,
+header.bg-black,
+.bg-black.pa3 {
+  background-image: none !important;
+  background-color: black !important;
+  min-height: auto !important;
+}
+
+nav.bg-black *,
+header.bg-black *,
+.bg-black.pa3 * {
+  color: white !important;
+  text-shadow: none !important;
 }
