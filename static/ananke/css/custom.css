@@ -1,3 +1,11 @@
+/* Hide Ananke's default site header */
+#site-header,
+header.site-header,
+.site-header,
+.bg-black.pa3.pa4-ns {
+  display: none !important;
+}
+
 /* Sudan 1956 Flag Hero Banner */
 .flag-hero {
   background: linear-gradient(
@@ -9,7 +17,7 @@
     #009A3D 66.66%,
     #009A3D 100%
   );
-  min-height: 60vh;
+  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -39,13 +47,7 @@
   font-weight: 400;
 }
 
-/* Hide Ananke's default page header on the homepage */
-body.kind-home #site-header,
-.cover-bg.bg-black {
-  display: none !important;
-}
-
-/* Remove any default body margin causing black space */
+/* Clean body */
 body {
   margin: 0;
   padding: 0;
