@@ -1,9 +1,6 @@
 backend:
-  name: github
-  repo: beewax/kandaka
+  name: git-gateway
   branch: main
-  base_url: https://kandaka.pages.dev
-  auth_endpoint: api/auth
 
 media_folder: "static/images/uploads"
 public_folder: "/images/uploads"
