@@ -1,14 +1,7 @@
-/* Hide Ananke's default site header */
-#site-header,
-header.site-header,
-.site-header,
-.bg-black.pa3.pa4-ns {
-  display: none !important;
-}
-
-/* Sudan 1956 Flag Hero Banner */
-.flag-hero {
-  background: linear-gradient(
+/* Transform Ananke's hero banner into the Sudan 1956 flag */
+.cover-bg {
+  background-color: transparent !important;
+  background-image: linear-gradient(
     to bottom,
     #0F3DAB 0%,
     #0F3DAB 33.33%,
@@ -16,39 +9,23 @@ header.site-header,
     #FFEB00 66.66%,
     #009A3D 66.66%,
     #009A3D 100%
-  );
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  padding: 3rem 1rem;
-  margin: 0;
+  ) !important;
+  min-height: 70vh !important;
 }
 
-.flag-hero-content {
-  max-width: 800px;
+/* Make hero text readable on the flag */
+.cover-bg h1,
+.cover-bg .b,
+.cover-bg .f1,
+.cover-bg .f2,
+.cover-bg p {
+  color: white !important;
+  text-shadow: 2px 2px 16px rgba(0, 0, 0, 0.95), 0 0 30px rgba(0, 0, 0, 0.6) !important;
 }
 
-.flag-hero h1 {
-  color: white;
-  font-size: clamp(2.5rem, 6vw, 5rem);
-  margin: 0 0 0.5rem 0;
-  text-shadow: 2px 2px 16px rgba(0, 0, 0, 0.95), 0 0 40px rgba(0, 0, 0, 0.5);
-  font-weight: 800;
-  letter-spacing: -0.02em;
-}
-
-.flag-hero p {
-  color: white;
-  font-size: clamp(1rem, 2vw, 1.5rem);
-  margin: 0;
-  text-shadow: 1px 1px 12px rgba(0, 0, 0, 0.95);
-  font-weight: 400;
-}
-
-/* Clean body */
-body {
-  margin: 0;
-  padding: 0;
+/* Remove the dark overlay that Ananke adds */
+.cover-bg .bg-black-60,
+.cover-bg .bg-black-70,
+.cover-bg .bg-black-80 {
+  background-color: transparent !important;
 }
