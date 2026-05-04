@@ -1,0 +1,22 @@
+/* 1956 Sudanese Independence Flag - Hero Banner */
+.cover-bg {
+  background-image: linear-gradient(
+    to bottom,
+    #0F3DAB 0%,
+    #0F3DAB 33.33%,
+    #FFEB00 33.33%,
+    #FFEB00 66.66%,
+    #009A3D 66.66%,
+    #009A3D 100%
+  ) !important;
+  background-size: cover !important;
+  background-color: transparent !important;
+  min-height: 60vh;
+}
+
+/* Make the title text more readable on the flag */
+.cover-bg h1,
+.cover-bg .f2 {
+  text-shadow: 2px 2px 12px rgba(0, 0, 0, 0.85);
+  color: white !important;
+}

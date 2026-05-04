@@ -5,3 +5,6 @@ theme = "ananke"
 
 [params]
   description = "Kandaka | A Sudan Think-Tank"
+  custom_css = ["ananke/css/custom.css"]
+  featured_image = "/"
+  show_reading_time = true
