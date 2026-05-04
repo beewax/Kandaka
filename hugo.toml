@@ -1,0 +1,7 @@
+baseURL = "https://kandaka.netlify.app/"
+languageCode = "en-us"
+title = "Kandaka"
+theme = "ananke"
+
+[params]
+  description = "Kandaka | A Sudan Think-Tank"
