@@ -4,6 +4,6 @@ title = "Kandaka"
 theme = "ananke"
 
 [params]
-  description = "Kandaka | An Economics Development Website for Sudan"
+  description = "An Economics Development Website for Sudan"
   custom_css = ["ananke/css/custom.css"]
   show_reading_time = true
