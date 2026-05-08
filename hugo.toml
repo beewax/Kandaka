@@ -1,6 +1,6 @@
 baseURL = "https://kandaka.netlify.app/"
 languageCode = "en-us"
-Title = "Kandaka"
+title = "Kandaka"
 theme = "PaperMod"
 
 enableRobotsTXT = true
@@ -14,7 +14,7 @@ buildExpired = false
 
 [params]
   env = "production"
-    title = "Kandaka"
+  title = "Kandaka"
   description = "An Economics Development Website for Sudan"
   keywords = ["Economics", "Sudan", "Development"]
   author = "Kandaka"
@@ -29,7 +29,7 @@ buildExpired = false
   UseHugoToc = true
 
   [params.homeInfoParams]
-     Title = "Kandaka"
+    Title = "Kandaka"
     Content = "An Economics Development Website for Sudan. Welcome — explore articles on Sudan's economy, development, and future."
 
   [[params.socialIcons]]
