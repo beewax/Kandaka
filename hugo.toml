@@ -1,6 +1,6 @@
 baseURL = "https://kandaka.netlify.app/"
 languageCode = "en-us"
-title = "Kandaka"
+Title = "Kandaka"
 theme = "PaperMod"
 
 enableRobotsTXT = true
@@ -14,8 +14,7 @@ buildExpired = false
 
 [params]
   env = "production"
-  customCSS = ["css/custom.css"]
-  title = "Kandaka"
+    title = "Kandaka"
   description = "An Economics Development Website for Sudan"
   keywords = ["Economics", "Sudan", "Development"]
   author = "Kandaka"
