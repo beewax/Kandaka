@@ -29,7 +29,7 @@ buildExpired = false
   UseHugoToc = true
 
   [params.homeInfoParams]
-    Title = "Kandaka 🇸🇩"
+    Title = "Kandaka <svg width='40' height='27' viewBox='0 0 1200 800' style='display:inline-block;vertical-align:middle;margin-left:8px;border-radius:3px'><rect width='1200' height='267' fill='#0F3DAB'/><rect y='267' width='1200' height='266' fill='#FFEB00'/><rect y='533' width='1200' height='267' fill='#009A3D'/></svg>"
     Content = "An Economics Development Website for Sudan. Welcome — explore articles on Sudan's economy, development, and future."
 
   [[params.socialIcons]]
