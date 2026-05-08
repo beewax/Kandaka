@@ -1,5 +1,5 @@
 ﻿/* Sudan 1956 Flag banner on homepage */
-.home-info::before {
+article.first-entry.home-info::before {
   content: "";
   display: block;
   width: 100%;
