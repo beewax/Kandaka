@@ -3,12 +3,13 @@ article.first-entry.home-info::before {
   content: "";
   display: block;
   width: 100%;
-  height: 200px;
+  max-width: 500px;
+  height: 280px;
   background-image: url("/images/flag.svg");
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
   background-position: center;
-  border-radius: 12px;
-  margin-bottom: 2rem;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin: 0 auto 2rem;
+  /* No more rounded corners or shadow — let the flag speak for itself */
 }
 </style>

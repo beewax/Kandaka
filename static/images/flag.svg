@@ -1,5 +1,72 @@
-﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" preserveAspectRatio="xMidYMid slice">
-  <rect width="1200" height="200" fill="#0F3DAB"/>
-  <rect y="200" width="1200" height="200" fill="#FFEB00"/>
-  <rect y="400" width="1200" height="200" fill="#009A3D"/>
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <filter id="wave" x="-20%" y="-20%" width="140%" height="140%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.015 0.04" numOctaves="2" seed="2">
+        <animate attributeName="baseFrequency" dur="8s" values="0.015 0.04;0.02 0.05;0.015 0.04" repeatCount="indefinite"/>
+      </feTurbulence>
+      <feDisplacementMap in="SourceGraphic" scale="14"/>
+    </filter>
+    <linearGradient id="shading" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="rgba(0,0,0,0.18)"/>
+      <stop offset="20%" stop-color="rgba(0,0,0,0)"/>
+      <stop offset="50%" stop-color="rgba(255,255,255,0.12)"/>
+      <stop offset="80%" stop-color="rgba(0,0,0,0)"/>
+      <stop offset="100%" stop-color="rgba(0,0,0,0.22)"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Flagpole -->
+  <rect x="38" y="30" width="6" height="260" fill="#8b6f47"/>
+  <circle cx="41" cy="30" r="8" fill="#d4a13a"/>
+  <circle cx="41" cy="30" r="4" fill="#f0c75e"/>
+
+  <!-- Flag (with wave filter) -->
+  <g filter="url(#wave)">
+    <rect x="44" y="40" width="320" height="60" fill="#0F3DAB"/>
+    <rect x="44" y="100" width="320" height="60" fill="#FFEB00"/>
+    <rect x="44" y="160" width="320" height="60" fill="#009A3D"/>
+    <!-- Light/shadow shading on top of stripes for depth -->
+    <rect x="44" y="40" width="320" height="180" fill="url(#shading)"/>
+  </g>
+
+  <!-- Subtle attachment ties at the pole -->
+  <circle cx="48" cy="55" r="2.5" fill="#5a4a30"/>
+  <circle cx="48" cy="130" r="2.5" fill="#5a4a30"/>
+  <circle cx="48" cy="205" r
+@'
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <filter id="wave" x="-20%" y="-20%" width="140%" height="140%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.015 0.04" numOctaves="2" seed="2">
+        <animate attributeName="baseFrequency" dur="8s" values="0.015 0.04;0.02 0.05;0.015 0.04" repeatCount="indefinite"/>
+      </feTurbulence>
+      <feDisplacementMap in="SourceGraphic" scale="14"/>
+    </filter>
+    <linearGradient id="shading" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="rgba(0,0,0,0.18)"/>
+      <stop offset="20%" stop-color="rgba(0,0,0,0)"/>
+      <stop offset="50%" stop-color="rgba(255,255,255,0.12)"/>
+      <stop offset="80%" stop-color="rgba(0,0,0,0)"/>
+      <stop offset="100%" stop-color="rgba(0,0,0,0.22)"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Flagpole -->
+  <rect x="38" y="30" width="6" height="260" fill="#8b6f47"/>
+  <circle cx="41" cy="30" r="8" fill="#d4a13a"/>
+  <circle cx="41" cy="30" r="4" fill="#f0c75e"/>
+
+  <!-- Flag (with wave filter) -->
+  <g filter="url(#wave)">
+    <rect x="44" y="40" width="320" height="60" fill="#0F3DAB"/>
+    <rect x="44" y="100" width="320" height="60" fill="#FFEB00"/>
+    <rect x="44" y="160" width="320" height="60" fill="#009A3D"/>
+    <!-- Light/shadow shading on top of stripes for depth -->
+    <rect x="44" y="40" width="320" height="180" fill="url(#shading)"/>
+  </g>
+
+  <!-- Subtle attachment ties at the pole -->
+  <circle cx="48" cy="55" r="2.5" fill="#5a4a30"/>
+  <circle cx="48" cy="130" r="2.5" fill="#5a4a30"/>
+  <circle cx="48" cy="205" r="2.5" fill="#5a4a30"/>
 </svg>
