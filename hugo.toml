@@ -1,8 +1,74 @@
 baseURL = "https://kandaka.netlify.app/"
 languageCode = "en-us"
 title = "Kandaka"
-theme = "ananke"
+theme = "PaperMod"
+
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+[minify]
+  disableXML = true
+  minifyOutput = true
 
 [params]
-description = "An Economics Development Website for Sudan"
-custom_css = ["custom.css"]
+  env = "production"
+  title = "Kandaka"
+  description = "An Economics Development Website for Sudan"
+  keywords = ["Economics", "Sudan", "Development"]
+  author = "Kandaka"
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+  ShowRssButtonInSectionTermList = true
+  UseHugoToc = true
+
+  [params.homeInfoParams]
+    Title = "Kandaka 🇸🇩"
+    Content = "An Economics Development Website for Sudan. Welcome — explore articles on Sudan's economy, development, and future."
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/beewax/Kandaka"
+
+[[menu.main]]
+  identifier = "posts"
+  name = "Posts"
+  url = "/posts/"
+  weight = 10
+
+[[menu.main]]
+  identifier = "archive"
+  name = "Archive"
+  url = "/archives/"
+  weight = 20
+
+[[menu.main]]
+  identifier = "search"
+  name = "Search"
+  url = "/search/"
+  weight = 30
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  @'
+---
+title: "Search"
+layout: "search"
+summary: "search"
+placeholder: "Type something..."
+---
+'@ | Out-File -FilePath "content\search.md" -Encoding utf8
+@'
+---
+title: "Archive"
+layout: "archives"
+url: "/archives/"
+summary: "archives"
+---
+'@ | Out-File -FilePath "content\archives.md" -Encoding utf8
