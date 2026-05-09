@@ -13,10 +13,9 @@ article.first-entry.home-info::before {
   margin: 0 auto 2rem;
 }
 
-/* Language switcher: full names */
+/* Language switcher: full names — minimal interference */
 html[lang="en"] .lang-menu a[href*="/ar/"] {
   font-size: 0;
-  white-space: nowrap;
 }
 html[lang="en"] .lang-menu a[href*="/ar/"]::after {
   content: "العربية";
@@ -25,25 +24,14 @@ html[lang="en"] .lang-menu a[href*="/ar/"]::after {
 }
 html[lang="ar"] .lang-menu a[href$="/"]:not([href*="/ar"]) {
   font-size: 0;
-  white-space: nowrap;
 }
 html[lang="ar"] .lang-menu a[href$="/"]:not([href*="/ar"])::after {
   content: "English";
   font-size: 14px;
   white-space: nowrap;
 }
-.lang-menu {
-  white-space: nowrap;
-}
-.lang-menu li {
-  white-space: nowrap;
-}
-.lang-menu a {
-  white-space: nowrap;
-  display: inline-block;
-}
 
-/* Kandaka wordmark — Nubian Bronze with flag-color stripe */
+/* Kandaka wordmark — Nubian Bronze with flag stripe BELOW */
 .logo a {
   font-family: Georgia, "Times New Roman", serif;
   font-weight: 800;
@@ -52,7 +40,6 @@ html[lang="ar"] .lang-menu a[href$="/"]:not([href*="/ar"])::after {
   color: #6B3410;
   position: relative;
   padding-bottom: 8px;
-  display: inline-block;
 }
 .logo a::after {
   content: "";
