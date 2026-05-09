@@ -13,7 +13,7 @@ article.first-entry.home-info::before {
   margin: 0 auto 2rem;
 }
 
-/* Language switcher: full names — minimal interference */
+/* Language switcher: full names */
 html[lang="en"] .lang-menu a[href*="/ar/"] {
   font-size: 0;
 }
@@ -31,24 +31,14 @@ html[lang="ar"] .lang-menu a[href$="/"]:not([href*="/ar"])::after {
   white-space: nowrap;
 }
 
-/* Kandaka wordmark — Nubian Bronze with flag stripe BELOW */
+/* Kandaka wordmark — Nubian Bronze, no extra positioning */
 .logo a {
   font-family: Georgia, "Times New Roman", serif;
   font-weight: 800;
   font-size: 1.7rem;
   letter-spacing: -0.02em;
   color: #6B3410;
-  position: relative;
-  padding-bottom: 8px;
-}
-.logo a::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  height: 5px;
-  background: linear-gradient(
+  background-image: linear-gradient(
     to right,
     #0F3DAB 0%,
     #0F3DAB 33.33%,
@@ -57,6 +47,10 @@ html[lang="ar"] .lang-menu a[href$="/"]:not([href*="/ar"])::after {
     #009A3D 66.66%,
     #009A3D 100%
   );
+  background-repeat: no-repeat;
+  background-size: 100% 5px;
+  background-position: 0 100%;
+  padding-bottom: 7px;
 }
 
 /* Hide "Powered by" credit in footer */
