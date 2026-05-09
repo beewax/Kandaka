@@ -1,4 +1,5 @@
 ﻿<style>
+/* Sudan 1956 flag hero */
 article.first-entry.home-info::before {
   content: "";
   display: block;
@@ -10,5 +11,28 @@ article.first-entry.home-info::before {
   background-repeat: no-repeat;
   background-position: center;
   margin: 0 auto 2rem;
+}
+
+/* Make language switcher show full names instead of "Ar" / "En" */
+.lang-switch ul li:not(.logo-switches) a {
+  font-size: 14px;
+}
+
+/* English page → show "العربية" link */
+html[lang="en"] .lang-switch ul li:not(.logo-switches) a[href*="/ar/"] {
+  font-size: 0;
+}
+html[lang="en"] .lang-switch ul li:not(.logo-switches) a[href*="/ar/"]::after {
+  content: "العربية";
+  font-size: 14px;
+}
+
+/* Arabic page → show "English" link */
+html[lang="ar"] .lang-switch ul li:not(.logo-switches) a[href$="/"]:not([href*="/ar"]) {
+  font-size: 0;
+}
+html[lang="ar"] .lang-switch ul li:not(.logo-switches) a[href$="/"]:not([href*="/ar"])::after {
+  content: "English";
+  font-size: 14px;
 }
 </style>
