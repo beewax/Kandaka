@@ -31,7 +31,7 @@ html[lang="ar"] .lang-menu a[href$="/"]:not([href*="/ar"])::after {
   white-space: nowrap;
 }
 
-/* Kandaka wordmark — Nubian Bronze with flag stripe (DIRECT child only) */
+/* Kandaka wordmark — Nubian Bronze with flag stripe */
 .logo > a {
   font-family: Georgia, "Times New Roman", serif;
   font-weight: 800;
@@ -52,10 +52,20 @@ html[lang="ar"] .lang-menu a[href$="/"]:not([href*="/ar"])::after {
   background-position: 0 100%;
   padding-bottom: 7px;
 }
+
+/* Hide "Powered by Hugo & PaperMod" footer line */
+.footer span:nth-of-type(2) {
+  display: none;
+}
+.footer span:nth-of-type(1) + span,
+.footer > span + ::before {
+  content: "";
+}
 </style>
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
+  // Improve dark mode toggle tooltip
   var toggle = document.getElementById('theme-toggle');
   if (toggle) {
     var lang = document.documentElement.lang;
@@ -65,6 +75,17 @@ document.addEventListener('DOMContentLoaded', function() {
     } else {
       toggle.title = 'Switch between light and dark mode';
       toggle.setAttribute('aria-label', 'Switch between light and dark mode');
+    }
+  }
+
+  // Remove "Powered by" footer text dynamically
+  var footer = document.querySelector('.footer');
+  if (footer) {
+    var spans = footer.querySelectorAll('span');
+    if (spans.length > 1) {
+      spans[1].remove();
+      // Also remove the · separator (which is text content between spans)
+      footer.innerHTML = footer.innerHTML.replace(/·\s*$/, '').replace(/·\s*<span><\/span>/, '');
     }
   }
 });
