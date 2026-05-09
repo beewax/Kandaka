@@ -29,11 +29,11 @@ buildExpired = false
   title = "Kandaka"
 
   [languages.en.params]
-    description = "An Economics Development Website for Sudan"
+    description = "Independent analysis on Sudan's economy, development, history, and culture."
 
     [languages.en.params.homeInfoParams]
       Title = "Kandaka"
-      Content = "An Economics Development Website for Sudan. Welcome — explore articles on Sudan's economy, development, and future."
+      Content = "Named for the Kandakas — the warrior queens of ancient Nubia — this site brings their spirit of clarity and resolve to today's questions about Sudan. Articles and analysis on the country's economy and development, alongside reflections on its past, culture, and the people who shape its future."
 
   [[languages.en.menu.main]]
     identifier = "posts"
@@ -64,11 +64,11 @@ buildExpired = false
   title = "كنداكة"
 
   [languages.ar.params]
-    description = "موقع للتنمية الاقتصادية في السودان"
+    description = "تحليلات مستقلة حول اقتصاد السودان وتنميته وتاريخه وثقافته."
 
     [languages.ar.params.homeInfoParams]
       Title = "كنداكة"
-      Content = "موقع للتنمية الاقتصادية في السودان. مرحبًا — استكشف المقالات حول اقتصاد السودان وتنميته ومستقبله."
+      Content = "سُمّي هذا الموقع تيمنًا بالكنداكات — ملكات النوبة المحاربات — وهو يستلهم روحهنّ في الوضوح والعزيمة لمقاربة قضايا السودان اليوم. مقالات وتحليلات حول الاقتصاد والتنمية، إلى جانب تأملات في تاريخ البلاد وثقافتها والناس الذين يصنعون مستقبلها."
 
   [[languages.ar.menu.main]]
     identifier = "posts"
