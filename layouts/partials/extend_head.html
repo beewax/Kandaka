@@ -1,4 +1,5 @@
-﻿<style>
+﻿@'
+<style>
 /* Sudan 1956 flag hero */
 article.first-entry.home-info::before {
   content: "";
@@ -13,7 +14,7 @@ article.first-entry.home-info::before {
   margin: 0 auto 2rem;
 }
 
-/* English page → replace "Ar" with "العربية" */
+/* Language switcher: full names */
 html[lang="en"] .lang-menu a[href*="/ar/"] {
   font-size: 0;
 }
@@ -21,8 +22,6 @@ html[lang="en"] .lang-menu a[href*="/ar/"]::after {
   content: "العربية";
   font-size: 14px;
 }
-
-/* Arabic page → replace "En" with "English" */
 html[lang="ar"] .lang-menu a[href$="/"]:not([href*="/ar"]) {
   font-size: 0;
 }
@@ -31,3 +30,21 @@ html[lang="ar"] .lang-menu a[href$="/"]:not([href*="/ar"])::after {
   font-size: 14px;
 }
 </style>
+
+<script>
+// Improve dark mode toggle tooltip
+document.addEventListener('DOMContentLoaded', function() {
+  var toggle = document.getElementById('theme-toggle');
+  if (toggle) {
+    var lang = document.documentElement.lang;
+    if (lang === 'ar') {
+      toggle.title = 'تبديل بين الوضع الفاتح والداكن';
+      toggle.setAttribute('aria-label', 'تبديل بين الوضع الفاتح والداكن');
+    } else {
+      toggle.title = 'Switch between light and dark mode';
+      toggle.setAttribute('aria-label', 'Switch between light and dark mode');
+    }
+  }
+});
+</script>
+'@ | Out-File -FilePath "layouts\partials\extend_head.html" -Encoding utf8
