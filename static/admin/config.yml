@@ -5,14 +5,21 @@ backend:
 media_folder: "static/images/uploads"
 public_folder: "/images/uploads"
 
+i18n:
+  structure: multiple_files
+  locales: [en, ar]
+  default_locale: en
+
 collections:
   - name: "posts"
     label: "Blog Posts"
     folder: "content/posts"
     create: true
     slug: "{{slug}}"
+    i18n: true
     fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Draft", name: "draft", widget: "boolean", default: false }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Title", name: "title", widget: "string", i18n: true }
+      - { label: "Author", name: "author", widget: "string", i18n: true, required: false }
+      - { label: "Publish Date", name: "date", widget: "datetime", i18n: "duplicate" }
+      - { label: "Draft", name: "draft", widget: "boolean", default: false, i18n: "duplicate" }
+      - { label: "Body", name: "body", widget: "markdown", i18n: true }

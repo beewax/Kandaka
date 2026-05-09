@@ -1,7 +1,8 @@
 baseURL = "https://kandaka.com/"
-languageCode = "en-us"
 title = "Kandaka"
 theme = "PaperMod"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
 
 [services.googleAnalytics]
   ID = "G-MQ6B4L68WB"
@@ -15,11 +16,83 @@ buildExpired = false
   disableXML = true
   minifyOutput = true
 
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+# ============================================
+# LANGUAGE: ENGLISH
+# ============================================
+[languages.en]
+  languageName = "English"
+  languageCode = "en-us"
+  weight = 1
+  title = "Kandaka"
+
+  [languages.en.params]
+    description = "An Economics Development Website for Sudan"
+
+    [languages.en.params.homeInfoParams]
+      Title = "Kandaka"
+      Content = "An Economics Development Website for Sudan. Welcome — explore articles on Sudan's economy, development, and future."
+
+  [[languages.en.menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 10
+
+  [[languages.en.menu.main]]
+    identifier = "archive"
+    name = "Archive"
+    url = "/archives/"
+    weight = 20
+
+  [[languages.en.menu.main]]
+    identifier = "search"
+    name = "Search"
+    url = "/search/"
+    weight = 30
+
+# ============================================
+# LANGUAGE: ARABIC
+# ============================================
+[languages.ar]
+  languageName = "العربية"
+  languageCode = "ar"
+  languageDirection = "rtl"
+  weight = 2
+  title = "كنداكة"
+
+  [languages.ar.params]
+    description = "موقع للتنمية الاقتصادية في السودان"
+
+    [languages.ar.params.homeInfoParams]
+      Title = "كنداكة"
+      Content = "موقع للتنمية الاقتصادية في السودان. مرحبًا — استكشف المقالات حول اقتصاد السودان وتنميته ومستقبله."
+
+  [[languages.ar.menu.main]]
+    identifier = "posts"
+    name = "المقالات"
+    url = "/ar/posts/"
+    weight = 10
+
+  [[languages.ar.menu.main]]
+    identifier = "archive"
+    name = "الأرشيف"
+    url = "/ar/archives/"
+    weight = 20
+
+  [[languages.ar.menu.main]]
+    identifier = "search"
+    name = "بحث"
+    url = "/ar/search/"
+    weight = 30
+
+# ============================================
+# SHARED PARAMS
+# ============================================
 [params]
   env = "production"
-  title = "Kandaka"
-  description = "An Economics Development Website for Sudan"
-  keywords = ["Economics", "Sudan", "Development"]
   author = "Kandaka"
   defaultTheme = "auto"
   ShowReadingTime = true
@@ -30,33 +103,9 @@ buildExpired = false
   ShowWordCount = true
   ShowRssButtonInSectionTermList = true
   UseHugoToc = true
+  ShowLanguageSwitcher = true
   googleAnalytics = "G-MQ6B4L68WB"
-
-  [params.homeInfoParams]
-    Title = "Kandaka"
-    Content = "An Economics Development Website for Sudan. Welcome — explore articles on Sudan's economy, development, and future."
 
   [[params.socialIcons]]
     name = "github"
     url = "https://github.com/beewax/Kandaka"
-
-[[menu.main]]
-  identifier = "posts"
-  name = "Posts"
-  url = "/posts/"
-  weight = 10
-
-[[menu.main]]
-  identifier = "archive"
-  name = "Archive"
-  url = "/archives/"
-  weight = 20
-
-[[menu.main]]
-  identifier = "search"
-  name = "Search"
-  url = "/search/"
-  weight = 30
-
-[outputs]
-  home = ["HTML", "RSS", "JSON"]
