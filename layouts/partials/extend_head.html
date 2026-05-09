@@ -16,17 +16,31 @@ article.first-entry.home-info::before {
 /* Language switcher: full names */
 html[lang="en"] .lang-menu a[href*="/ar/"] {
   font-size: 0;
+  white-space: nowrap;
 }
 html[lang="en"] .lang-menu a[href*="/ar/"]::after {
   content: "العربية";
   font-size: 14px;
+  white-space: nowrap;
 }
 html[lang="ar"] .lang-menu a[href$="/"]:not([href*="/ar"]) {
   font-size: 0;
+  white-space: nowrap;
 }
 html[lang="ar"] .lang-menu a[href$="/"]:not([href*="/ar"])::after {
   content: "English";
   font-size: 14px;
+  white-space: nowrap;
+}
+.lang-menu {
+  white-space: nowrap;
+}
+.lang-menu li {
+  white-space: nowrap;
+}
+.lang-menu a {
+  white-space: nowrap;
+  display: inline-block;
 }
 
 /* Kandaka wordmark — Nubian Bronze with flag-color stripe */
