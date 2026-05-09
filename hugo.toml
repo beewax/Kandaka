@@ -106,6 +106,4 @@ buildExpired = false
   ShowLanguageSwitcher = true
   googleAnalytics = "G-MQ6B4L68WB"
 
-  [[params.socialIcons]]
-    name = "github"
-    url = "https://github.com/beewax/Kandaka"
+  

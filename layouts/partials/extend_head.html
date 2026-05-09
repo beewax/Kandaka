@@ -1,4 +1,5 @@
-﻿<style>
+﻿@'
+<style>
 /* Sudan 1956 flag hero */
 article.first-entry.home-info::before {
   content: "";
@@ -31,7 +32,7 @@ html[lang="ar"] .lang-menu a[href$="/"]:not([href*="/ar"])::after {
   white-space: nowrap;
 }
 
-/* Kandaka wordmark — Nubian Bronze, no extra positioning */
+/* Kandaka wordmark — Nubian Bronze with flag stripe */
 .logo a {
   font-family: Georgia, "Times New Roman", serif;
   font-weight: 800;
@@ -52,11 +53,6 @@ html[lang="ar"] .lang-menu a[href$="/"]:not([href*="/ar"])::after {
   background-position: 0 100%;
   padding-bottom: 7px;
 }
-
-/* Hide "Powered by" credit in footer */
-.footer span:nth-of-type(2) {
-  display: none;
-}
 </style>
 
 <script>
@@ -74,3 +70,4 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 });
 </script>
+'@ | Out-File -FilePath "layouts\partials\extend_head.html" -Encoding utf8
