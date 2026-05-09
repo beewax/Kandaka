@@ -2,6 +2,8 @@ baseURL = "https://kandaka.com/"
 languageCode = "en-us"
 title = "Kandaka"
 theme = "PaperMod"
+[services.googleAnalytics]
+  ID = "G-MQ6B4L68WB"
 
 enableRobotsTXT = true
 buildDrafts = false
@@ -27,6 +29,7 @@ buildExpired = false
   ShowWordCount = true
   ShowRssButtonInSectionTermList = true
   UseHugoToc = true
+  googleAnalytics = "G-MQ6B4L68WB"
 
   [params.homeInfoParams]
     Title = "Kandaka"
