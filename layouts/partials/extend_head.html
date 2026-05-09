@@ -29,12 +29,38 @@ html[lang="ar"] .lang-menu a[href$="/"]:not([href*="/ar"])::after {
   font-size: 14px;
 }
 
-/* Hide "Powered by Hugo & PaperMod" credit */
+/* Kandaka wordmark — Nubian Bronze with flag-color stripe */
+.logo a {
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 800;
+  font-size: 1.7rem;
+  letter-spacing: -0.02em;
+  color: #6B3410;
+  position: relative;
+  padding-bottom: 8px;
+  display: inline-block;
+}
+.logo a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 5px;
+  background: linear-gradient(
+    to right,
+    #0F3DAB 0%,
+    #0F3DAB 33.33%,
+    #FFC700 33.33%,
+    #FFC700 66.66%,
+    #009A3D 66.66%,
+    #009A3D 100%
+  );
+}
+
+/* Hide "Powered by" credit in footer */
 .footer span:nth-of-type(2) {
   display: none;
-}
-.footer span:nth-of-type(1)::after {
-  content: "";
 }
 </style>
 
