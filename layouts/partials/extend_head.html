@@ -28,6 +28,14 @@ html[lang="ar"] .lang-menu a[href$="/"]:not([href*="/ar"])::after {
   content: "English";
   font-size: 14px;
 }
+
+/* Hide "Powered by Hugo & PaperMod" credit */
+.footer span:nth-of-type(2) {
+  display: none;
+}
+.footer span:nth-of-type(1)::after {
+  content: "";
+}
 </style>
 
 <script>
