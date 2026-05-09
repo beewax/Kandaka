@@ -1,5 +1,4 @@
-﻿@'
-<style>
+﻿<style>
 /* Sudan 1956 flag hero */
 article.first-entry.home-info::before {
   content: "";
@@ -32,7 +31,6 @@ html[lang="ar"] .lang-menu a[href$="/"]:not([href*="/ar"])::after {
 </style>
 
 <script>
-// Improve dark mode toggle tooltip
 document.addEventListener('DOMContentLoaded', function() {
   var toggle = document.getElementById('theme-toggle');
   if (toggle) {
@@ -47,4 +45,3 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 });
 </script>
-'@ | Out-File -FilePath "layouts\partials\extend_head.html" -Encoding utf8
