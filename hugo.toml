@@ -2,6 +2,7 @@ baseURL = "https://kandaka.com/"
 languageCode = "en-us"
 title = "Kandaka"
 theme = "PaperMod"
+
 [services.googleAnalytics]
   ID = "G-MQ6B4L68WB"
 
