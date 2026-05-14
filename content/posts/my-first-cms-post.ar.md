@@ -4,7 +4,7 @@ author: الزين، م. (2017)
 date: 2026-05-03T21:09:00-05:00
 draft: false
 ---
-![](/images/uploads/sudan_solar_nubian_v3.svg)
+![Sudan's Solar Energy Potential](/images/uploads/sudan_solar_nubian_v3.svg "Sudan's Solar Energy Potential")
 
 *استناداً إلى: "إمكانات الطاقة الشمسية في السودان" — مساداق الزين، جامعة أوبسالا (2017)*
 
