@@ -4,7 +4,9 @@ author: Musadag El Zein 2017
 date: 2026-05-03T21:09:00.000-05:00
 draft: false
 ---
-_Based on: "Solar Energy Potential in The Sudan" — Musadag El Zein, Uppsala University (2017)_
+![](/images/uploads/sudan_solar_nubian_v3.svg)
+
+*Based on: "Solar Energy Potential in The Sudan" — Musadag El Zein, Uppsala University (2017)*
 
 ### Overview
 
@@ -22,10 +24,10 @@ Unlike hydropower — Sudan's current dominant energy source at roughly 70% of t
 
 Sudan's energy deficit is stark and economically damaging:
 
-- Only **30% of the population** has access to electricity, mostly in urban areas
-- Over **70% of the population lives in rural areas** with little to no power access
-- Biomass (firewood and charcoal) accounts for roughly **57% of total energy consumption**, causing serious environmental and public health harm
-- The agriculture sector — which contributes about **41% of GDP** and employs over **65% of the labor force** — is severely constrained by unreliable energy access
+* Only **30% of the population** has access to electricity, mostly in urban areas
+* Over **70% of the population lives in rural areas** with little to no power access
+* Biomass (firewood and charcoal) accounts for roughly **57% of total energy consumption**, causing serious environmental and public health harm
+* The agriculture sector — which contributes about **41% of GDP** and employs over **65% of the labor force** — is severely constrained by unreliable energy access
 
 Energy poverty is not just a humanitarian issue; it is a direct brake on productivity, trade, and GDP growth.
 
@@ -45,11 +47,11 @@ The research identifies solar energy as a multi-dimensional economic opportunity
 
 Despite Sudan's natural solar endowment, actual solar deployment remains minimal — photovoltaic systems provide only **0.03% of Sudan's electricity supply**. The barriers are primarily policy-driven, not resource-driven:
 
-- **Punitive import duties** on solar PV equipment make the technology less cost-competitive than diesel generators
-- **Fuel subsidies** artificially lower the cost of conventional energy, skewing the market against renewables
-- **No feed-in tariff** or comparable mechanism to encourage private solar investment
-- **Limited access to soft loans or concessional financing** for solar projects
-- **Weak grid infrastructure** makes large-scale grid-connected solar projects difficult
+* **Punitive import duties** on solar PV equipment make the technology less cost-competitive than diesel generators
+* **Fuel subsidies** artificially lower the cost of conventional energy, skewing the market against renewables
+* **No feed-in tariff** or comparable mechanism to encourage private solar investment
+* **Limited access to soft loans or concessional financing** for solar projects
+* **Weak grid infrastructure** makes large-scale grid-connected solar projects difficult
 
 A 2006 comparison study in Northern Kurdufan and Dongola found that Sudan's customs and tax policies added enough cost to PV systems to make diesel generators the more economical choice for rural communities — a policy outcome directly counter to development goals.
 
@@ -57,22 +59,22 @@ A 2006 comparison study in Northern Kurdufan and Dongola found that Sudan's cust
 
 Sudan's Intended Nationally Determined Contributions report commits to:
 
-- **1,000 MW** of solar PV (on- and off-grid)
-- **100 MW** of Concentrated Solar Power
-- Installation of **1.1 million Solar Home Systems** by 2030
-- Total energy sector investment of approximately **$7.55 billion**
+* **1,000 MW** of solar PV (on- and off-grid)
+* **100 MW** of Concentrated Solar Power
+* Installation of **1.1 million Solar Home Systems** by 2030
+* Total energy sector investment of approximately **$7.55 billion**
 
 The gap between stated ambition and on-the-ground action is the central challenge. The Ministry of Water Resources and Electricity has acknowledged the core obstacles plainly: financing gaps, lack of supportive policies such as feed-in tariffs and power purchase agreements, and weak grid infrastructure.
 
 ### Regional Benchmarks: What Neighbors Are Achieving
 
-|Country|Achievement|
-|---|---|
-|**Kenya**|320,000+ rural households with solar home systems; 25,000–30,000 PV units sold annually|
-|**Morocco**|3,633 villages electrified with solar power, benefitting ~52,000 households|
-|**Tunisia**|Solar water heater program grew installed capacity from 120,000 m² to 490,000 m² in six years through subsidies and concessional loans|
-|**Senegal**|35 hybrid solar/battery/diesel mini-grid systems installed in rural areas|
-|**Saudi Arabia**|Solar energy projected to account for 76% of sustainable energy plans by 2040, saving an estimated $87 billion|
+| Country          | Achievement                                                                                                                            |
+| ---------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| **Kenya**        | 320,000+ rural households with solar home systems; 25,000–30,000 PV units sold annually                                                |
+| **Morocco**      | 3,633 villages electrified with solar power, benefitting ~52,000 households                                                            |
+| **Tunisia**      | Solar water heater program grew installed capacity from 120,000 m² to 490,000 m² in six years through subsidies and concessional loans |
+| **Senegal**      | 35 hybrid solar/battery/diesel mini-grid systems installed in rural areas                                                              |
+| **Saudi Arabia** | Solar energy projected to account for 76% of sustainable energy plans by 2040, saving an estimated $87 billion                         |
 
 The common thread across successful programs: enabling policy frameworks paired with accessible financing mechanisms.
 
@@ -92,6 +94,6 @@ Sudan possesses one of the most favorable solar resource bases in the world. Its
 
 The binding constraint is not sunlight — it is policy will, financing architecture, and institutional capacity. For a country seeking to rebuild its economic foundations, solar energy represents one of the most concrete, scalable, and immediately impactful levers available.
 
----
+- - -
 
-_Source: El Zein, M. (2017). Solar Energy potential in The Sudan. Master thesis in Sustainable Development, Uppsala University, No. 2017/16._
+*Source: El Zein, M. (2017). Solar Energy potential in The Sudan. Master thesis in Sustainable Development, Uppsala University, No. 2017/16.*
