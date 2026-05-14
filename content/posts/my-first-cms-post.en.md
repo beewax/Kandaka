@@ -4,6 +4,8 @@ author: Musadag El Zein 2017
 date: 2026-05-03T21:09:00.000-05:00
 draft: false
 ---
+![](/images/uploads/sudan_solar_nubian_v3.svg)
+
 Based on: "Solar Energy Potential in The Sudan" — Musadag El Zein, Uppsala University (2017)
 Overview
 Sudan stands at a critical economic crossroads. The 2011 independence of South Sudan stripped the country of approximately three-quarters of its oil production, causing crude oil export revenues to plummet from nearly $11 billion in 2010 to just under $1.8 billion in 2012. This fiscal shock forced a national rethink — and solar energy has emerged as one of the most promising paths forward.
