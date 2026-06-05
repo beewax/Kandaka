@@ -1,0 +1,33 @@
+backend:
+  name: github
+  repo: beewax/thinktank-site
+  branch: main
+
+i18n:
+  structure: multiple_folders
+  locales: [en, ar]
+  default_locale: en
+
+media_folder: static/images/uploads
+public_folder: /images/uploads
+
+collections:
+  - name: posts
+    label: "Posts"
+    folder: content/posts
+    create: true
+    slug: "{{slug}}"
+    i18n: true
+    fields:
+      - { label: "Title", name: "title", widget: "string", i18n: true }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Author", name: "author", widget: "string", i18n: true }
+      - { label: "Summary", name: "summary", widget: "text", i18n: true }
+      - { label: "Featured Image", name: "image", widget: "image", required: false }
+      - label: "Category"
+        name: "categories"
+        widget: "select"
+        multiple: true
+        options: ["Technology", "Lifestyle", "Culture", "Economics"]
+      - { label: "Tags", name: "tags", widget: "list", i18n: true }
+      - { label: "Body", name: "body", widget: "markdown", i18n: true }

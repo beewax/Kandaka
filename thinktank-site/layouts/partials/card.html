@@ -1,0 +1,13 @@
+<article class="card">
+  {{ with .Params.image }}
+  <div class="card-image"><img src="{{ . }}" alt="{{ $.Title }}" loading="lazy"></div>
+  {{ end }}
+  <div class="card-body">
+    {{ with .Params.categories }}
+    <div class="card-categories">{{ range . }}<span class="badge">{{ . }}</span> {{ end }}</div>
+    {{ end }}
+    <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+    {{ with .Params.summary }}<p class="card-summary">{{ . }}</p>{{ end }}
+    <time class="card-date">{{ .Date.Format "Jan 2, 2006" }}</time>
+  </div>
+</article>

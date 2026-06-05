@@ -1,0 +1,38 @@
+{{ define "main" }}
+<section class="hero">
+  <div class="container">
+    <h1>{{ .Site.Title }}</h1>
+    <p class="hero-sub">{{ .Site.Params.description }}</p>
+  </div>
+</section>
+
+{{ $research := where .Site.RegularPages "Section" "research" }}
+{{ if $research }}
+<section class="section">
+  <div class="container">
+    <h2 class="section-title">{{ if eq .Language.Lang "ar" }}أحدث الأبحاث{{ else }}Latest Research{{ end }}</h2>
+    <div class="card-grid">{{ range first 3 $research }}{{ partial "card.html" . }}{{ end }}</div>
+  </div>
+</section>
+{{ end }}
+
+{{ $news := where .Site.RegularPages "Section" "news" }}
+{{ if $news }}
+<section class="section alt">
+  <div class="container">
+    <h2 class="section-title">{{ if eq .Language.Lang "ar" }}آخر الأخبار{{ else }}Latest News{{ end }}</h2>
+    <div class="card-grid">{{ range first 3 $news }}{{ partial "card.html" . }}{{ end }}</div>
+  </div>
+</section>
+{{ end }}
+
+{{ $videos := where .Site.RegularPages "Section" "videos" }}
+{{ if $videos }}
+<section class="section">
+  <div class="container">
+    <h2 class="section-title">{{ if eq .Language.Lang "ar" }}الفيديو{{ else }}Videos{{ end }}</h2>
+    <div class="card-grid">{{ range first 3 $videos }}{{ partial "card.html" . }}{{ end }}</div>
+  </div>
+</section>
+{{ end }}
+{{ end }}

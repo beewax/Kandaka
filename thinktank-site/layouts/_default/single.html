@@ -1,0 +1,41 @@
+{{ define "main" }}
+<article>
+  <header class="page-header">
+    <div class="container">
+      {{ with .Params.categories }}
+      <div class="article-cats">{{ range . }}<span class="badge light">{{ . }}</span> {{ end }}</div>
+      {{ end }}
+      <h1>{{ .Title }}</h1>
+      <div class="article-meta">
+        <time>{{ .Date.Format "January 2, 2006" }}</time>
+        {{ with .Params.author }}<span> &mdash; {{ . }}</span>{{ end }}
+      </div>
+    </div>
+  </header>
+
+  {{ with .Params.image }}
+  <div class="container" style="padding-top:2rem"><img src="{{ . }}" alt="{{ $.Title }}" style="border-radius:6px;max-height:500px;width:100%;object-fit:cover"></div>
+  {{ end }}
+
+  {{ if and (eq $.Section "videos") $.Params.youtube_url }}
+  <div class="container" style="padding-top:2rem">
+    <div class="video-embed">
+      <iframe src="{{ .Params.youtube_url | replaceRE `watch\\?v=` `embed/` }}" frameborder="0" allowfullscreen loading="lazy"></iframe>
+    </div>
+  </div>
+  {{ end }}
+
+  <div class="container narrow article-body">
+    {{ .Content }}
+    {{ with .Params.pdf }}
+    <p><a href="{{ . }}" class="btn" download>{{ if eq $.Language.Lang "ar" }}تحميل PDF{{ else }}Download PDF{{ end }}</a></p>
+    {{ end }}
+  </div>
+
+  {{ with .Params.tags }}
+  <div class="container narrow" style="padding-bottom:3rem">
+    {{ range . }}<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}/" class="tag">#{{ . }}</a> {{ end }}
+  </div>
+  {{ end }}
+</article>
+{{ end }}
