@@ -36,22 +36,40 @@ buildExpired = false
       Content = "Named for the Kandakas — the warrior queens of ancient Nubia — this site brings their spirit of clarity and resolve to today's questions about Sudan. Articles and analysis on the country's economy and development, alongside reflections on its past, culture, and the people who shape its future."
 
   [[languages.en.menu.main]]
-    identifier = "posts"
-    name = "Posts"
-    url = "/posts/"
+    identifier = "news"
+    name = "News"
+    url = "/news/"
     weight = 10
 
   [[languages.en.menu.main]]
-    identifier = "archive"
-    name = "Archive"
-    url = "/archives/"
+    identifier = "library"
+    name = "Library"
+    url = "/library/"
     weight = 20
+
+  [[languages.en.menu.main]]
+    identifier = "development"
+    name = "Development"
+    url = "/development/"
+    weight = 30
+
+  [[languages.en.menu.main]]
+    identifier = "ideas"
+    name = "Ideas"
+    url = "/ideas/"
+    weight = 40
+
+  [[languages.en.menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 50
 
   [[languages.en.menu.main]]
     identifier = "search"
     name = "Search"
     url = "/search/"
-    weight = 30
+    weight = 60
 
 # ============================================
 # LANGUAGE: ARABIC
@@ -71,22 +89,40 @@ buildExpired = false
       Content = "سُمّي هذا الموقع تيمنًا بالكنداكات — ملكات النوبة المحاربات — وهو يستلهم روحهنّ في الوضوح والعزيمة لمقاربة قضايا السودان اليوم. مقالات وتحليلات حول الاقتصاد والتنمية، إلى جانب تأملات في تاريخ البلاد وثقافتها والناس الذين يصنعون مستقبلها."
 
   [[languages.ar.menu.main]]
-    identifier = "posts"
-    name = "المقالات"
-    url = "/ar/posts/"
+    identifier = "news"
+    name = "أخبار"
+    url = "/ar/news/"
     weight = 10
 
   [[languages.ar.menu.main]]
-    identifier = "archive"
-    name = "الأرشيف"
-    url = "/ar/archives/"
+    identifier = "library"
+    name = "المكتبة"
+    url = "/ar/library/"
     weight = 20
+
+  [[languages.ar.menu.main]]
+    identifier = "development"
+    name = "التنمية"
+    url = "/ar/development/"
+    weight = 30
+
+  [[languages.ar.menu.main]]
+    identifier = "ideas"
+    name = "الأفكار"
+    url = "/ar/ideas/"
+    weight = 40
+
+  [[languages.ar.menu.main]]
+    identifier = "about"
+    name = "حول"
+    url = "/ar/about/"
+    weight = 50
 
   [[languages.ar.menu.main]]
     identifier = "search"
     name = "بحث"
     url = "/ar/search/"
-    weight = 30
+    weight = 60
 
 # ============================================
 # SHARED PARAMS
@@ -105,5 +141,3 @@ buildExpired = false
   UseHugoToc = true
   ShowLanguageSwitcher = true
   googleAnalytics = "G-MQ6B4L68WB"
-
-  
