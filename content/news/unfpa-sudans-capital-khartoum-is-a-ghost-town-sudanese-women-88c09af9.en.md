@@ -5,6 +5,7 @@ date: '2026-06-03T10:29:00+00:00'
 source: Radio Dabanga
 externalLink: https://www.dabangasudan.org/en/all-news/article/unfpa-sudans-capital-khartoum-is-a-ghost-town-sudanese-women-carry-their-homeland-on-their-shoulders
 language: en
+category: Culture & Society
 description: 'The UN Population Fund (UNFPA) has described parts of the capital Khartoum
   as a “ghost...
 
