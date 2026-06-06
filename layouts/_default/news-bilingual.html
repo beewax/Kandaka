@@ -9,7 +9,6 @@
   <button class="filter-btn" onclick="filterNews('Culture & Society', this)">Culture</button>
   <button class="filter-btn" onclick="filterNews('International', this)">International</button>
 </div>
-
 <div class="news-bilingual">
   <div class="news-col news-col-en">
     <h2 class="news-col-title">English</h2>
@@ -30,7 +29,7 @@
     {{- range where .Site.RegularPages "Section" "news" }}
     {{- if eq (string .Params.language) "ar" }}
     <article class="news-card" data-category="{{ .Params.category }}">
-      <span class="news-cat news-cat-{{ .Params.category | urlize }}">{{ .Params.clabel | default .Params.category }}</span>
+      <span class="news-cat news-cat-{{ .Params.category | urlize }}">{{ .Params.category }}</span>
       <h3 class="news-card-title"><a href="{{ .Params.externallink | default .Permalink }}" target="_blank" rel="noopener">{{ .Title }}</a></h3>
       <p class="news-card-desc">{{ .Description }}</p>
       <p class="news-card-meta">{{ .Params.source }} · {{ .Date.Format "2 Jan 2006" }}</p>
@@ -39,7 +38,6 @@
     {{- end }}
   </div>
 </div>
-
 <style>
 .news-filters{display:flex;flex-wrap:wrap;gap:.5rem;margin:1.5rem auto 2rem;max-width:1200px;padding:0 1rem}
 .filter-btn{padding:.4rem .9rem;border:1px solid var(--border);border-radius:20px;background:transparent;color:var(--secondary);font-size:.8rem;cursor:pointer;transition:all .2s}
@@ -62,4 +60,38 @@
 .news-cat-general{background:var(--border);color:var(--secondary)}
 .news-card-title{font-size:1rem;font-weight:600;line-height:1.4;margin:0 0 .4rem}
 .news-card-title a{color:var(--primary);text-decoration:none}
-.news-ca
+.news-card-title a:hover{text-decoration:underline}
+.news-card-desc{font-size:.875rem;color:var(--secondary);line-height:1.5;margin:0 0 .4rem}
+.news-card-meta{font-size:.8rem;color:var(--secondary);margin:0}
+@media(max-width:768px){.news-bilingual{flex-direction:column-reverse}.news-divider{width:100%;height:1px;margin:1.5rem 0}}
+</style>
+<script>
+const AR_LABELS = {
+  "War & Conflict": "\u062d\u0631\u0628 \u0648\u0635\u0631\u0627\u0639",
+  "Politics": "\u0633\u064a\u0627\u0633\u0629",
+  "Economy": "\u0627\u0642\u062a\u0635\u0627\u062f",
+  "Humanitarian": "\u0625\u0646\u0633\u0627\u0646\u064a",
+  "Infrastructure": "\u0628\u0646\u064a\u0629 \u062a\u062d\u062a\u064a\u0629",
+  "Culture & Society": "\u062b\u0642\u0627\u0641\u0629 \u0648\u0645\u062c\u062a\u0645\u0639",
+  "International": "\u062f\u0648\u0644\u064a",
+  "General": "\u0639\u0627\u0645"
+};
+document.addEventListener("DOMContentLoaded", function() {
+  document.querySelectorAll('.news-col-ar .news-cat').forEach(badge => {
+    const cat = badge.closest('.news-card').dataset.category;
+    if (AR_LABELS[cat]) badge.textContent = AR_LABELS[cat];
+  });
+});
+function filterNews(cat, btn) {
+  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  document.querySelectorAll('.news-card').forEach(card => {
+    if (cat === 'all' || card.dataset.category === cat) {
+      card.classList.remove('hidden');
+    } else {
+      card.classList.add('hidden');
+    }
+  });
+}
+</script>
+{{- end }}
