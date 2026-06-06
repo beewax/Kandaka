@@ -4,6 +4,7 @@ date: "2026-06-03T17:01:56+00:00"
 source: "African Arguments"
 externalLink: "https://africanarguments.org/2026/06/can-sudans-dried-meat-delicacy-escape-the-suitcase-and-conquer-new-markets/?utm_source=rss&utm_medium=rss&utm_campaign=can-sudans-dried-meat-delicacy-escape-the-suitcase-and-conquer-new-markets"
 description: "Sharmout, a traditional Sudanese dried meat, is already popular among Sudanese communities abroad where it is transported and sold through the ‘suitcase trade.’ The challenge now is turning an informa"
+language: "en"
 draft: false
 ---
 

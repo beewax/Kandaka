@@ -1,4 +1,4 @@
-﻿import os, re, hashlib, html
+import os, re, hashlib, html
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from urllib.request import urlopen, Request
@@ -9,8 +9,8 @@ MAX_TOTAL_ITEMS = 80
 
 SUDAN_KEYWORDS = ["sudan", "khartoum", "darfur", "nile", "rsf", "omdurman",
                   "sudanese", "gezira", "kassala", "atbara", "juba",
-                  "السودان", "الخرطوم", "دارفور", "سوداني", "سودانية",
-                  "الجزيرة", "كسلا", "أمدرمان"]
+                  "???????", "???????", "??????", "??????", "???????",
+                  "???????", "????", "???????"]
 
 FEEDS = [
     {"name": "Radio Dabanga",        "url": "https://www.dabangasudan.org/en/feed",                     "lang": "en", "sudan_only": False},
@@ -22,11 +22,11 @@ FEEDS = [
     {"name": "Rift Valley Institute","url": "https://riftvalley.net/feed/rss",                          "lang": "en", "sudan_only": True},
     {"name": "Al Jazeera English",   "url": "https://www.aljazeera.com/xml/rss/all.xml",                "lang": "en", "sudan_only": True},
     {"name": "The Africa Report",    "url": "https://www.theafricareport.com/feed/",                    "lang": "en", "sudan_only": True},
-    {"name": "راديو دبنقا",          "url": "https://www.dabangasudan.org/ar/feed",                     "lang": "ar", "sudan_only": False},
-    {"name": "الراكوبة",             "url": "https://alrakoba.net/feed",                                "lang": "ar", "sudan_only": False},
-    {"name": "الشرق الأوسط",        "url": "https://aawsat.com/feed",                                  "lang": "ar", "sudan_only": True},
-    {"name": "بي بي سي عربي",       "url": "https://feeds.bbci.co.uk/arabic/rss.xml",                  "lang": "ar", "sudan_only": True},
-    {"name": "الجزيرة",             "url": "https://www.aljazeera.com/xml/rss/all.xml",                "lang": "ar", "sudan_only": True},
+    {"name": "????? ?????",          "url": "https://www.dabangasudan.org/ar/feed",                     "lang": "ar", "sudan_only": False},
+    {"name": "????????",             "url": "https://alrakoba.net/feed",                                "lang": "ar", "sudan_only": False},
+    {"name": "????? ??????",        "url": "https://aawsat.com/feed",                                  "lang": "ar", "sudan_only": True},
+    {"name": "?? ?? ?? ????",       "url": "https://feeds.bbci.co.uk/arabic/rss.xml",                  "lang": "ar", "sudan_only": True},
+    {"name": "???????",             "url": "https://www.aljazeera.com/xml/rss/all.xml",                "lang": "ar", "sudan_only": True},
 ]
 
 def is_sudan_relevant(title, description):
@@ -98,6 +98,7 @@ date: "{item['date']}"
 source: "{safe_source}"
 externalLink: "{item['link']}"
 description: "{safe_desc}"
+language: "{item['lang']}"
 draft: false
 ---
 
@@ -128,3 +129,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

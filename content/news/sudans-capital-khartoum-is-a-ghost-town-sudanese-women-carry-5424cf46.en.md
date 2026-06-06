@@ -4,6 +4,7 @@ date: "2026-06-04T03:36:36"
 source: "AllAfrica Sudan"
 externalLink: "https://allafrica.com/stories/202606040011.html"
 description: "[Dabanga] Ansterdam / Cairo / Geneva / Khartoum / Darfur -- The UN Population Fund (UNFPA) has described parts of the capital Khartoum as a \"ghost town\" teeming with burnt buildings and darkness, \""
+language: "en"
 draft: false
 ---
 

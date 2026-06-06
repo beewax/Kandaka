@@ -4,6 +4,7 @@ date: "2026-06-05T19:10:41"
 source: "AllAfrica Sudan"
 externalLink: "https://allafrica.com/stories/202606050719.html"
 description: "[SNA] KHARTOUM, June 3, 2026 (SUNA) - Secretary-General of the Zakat Chamber Dr. Yahya Ahmed Abdullah Al-Qamrawi met on Wednesday in his office with Commissioner-General of the Social Safety, Solidari"
+language: "en"
 draft: false
 ---
 

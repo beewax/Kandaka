@@ -4,6 +4,7 @@ date: "2026-06-04T07:15:33"
 source: "AllAfrica Sudan"
 externalLink: "https://allafrica.com/stories/202606040102.html"
 description: "[allAfrica]"
+language: "en"
 draft: false
 ---
 

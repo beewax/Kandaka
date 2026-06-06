@@ -4,6 +4,7 @@ date: "2026-06-05T04:12:35"
 source: "AllAfrica Sudan"
 externalLink: "https://allafrica.com/stories/202606050009.html"
 description: "[SNA] KHARTOUM, June 4, 2026 (SUNA) - Finance Minister Dr. Gebreil Ibrahim on Thursday signed an agreement at the Ministry of Finance in Khartoum with the African Development Bank (AfDB) and UNICEF, a"
+language: "en"
 draft: false
 ---
 
