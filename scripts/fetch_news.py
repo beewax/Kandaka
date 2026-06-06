@@ -97,7 +97,7 @@ title: "{safe_title}"
 date: "{item['date']}"
 source: "{safe_source}"
 link: "{item['link']}"
-lang: "{item['lang']}"
+language: "{item['lang']}"
 category: "{item['category']}"
 description: "{safe_desc[:200]}"
 draft: false
@@ -131,4 +131,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
