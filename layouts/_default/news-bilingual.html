@@ -1,4 +1,4 @@
-﻿{{- define "main" }}
+{{- define "main" }}
 {{- $enPages := where .Site.RegularPages "Section" "news" }}
 {{- $arSite := index .Site.Sites 1 }}
 {{- $arPages := where $arSite.RegularPages "Section" "news" }}
@@ -20,7 +20,7 @@
       <span class="news-cat news-cat-{{ .Params.category | urlize }}">{{ .Params.category }}</span>
       <h3 class="news-card-title"><a href="{{ .Params.externallink | default .Permalink }}" target="_blank" rel="noopener">{{ .Title }}</a></h3>
       <p class="news-card-desc">{{ .Description }}</p>
-      <p class="news-card-meta">{{ .Params.source }} Â· {{ .Date.Format "Jan 2, 2006" }}</p>
+      <p class="news-card-meta">{{ .Params.source }} · {{ .Date.Format "Jan 2, 2006" }}</p>
     </article>
     {{- end }}
   </div>
@@ -32,7 +32,7 @@
       <span class="news-cat news-cat-{{ .Params.category | urlize }}">{{ .Params.clabel | default .Params.category }}</span>
       <h3 class="news-card-title"><a href="{{ .Params.externallink | default .Permalink }}" target="_blank" rel="noopener">{{ .Title }}</a></h3>
       <p class="news-card-desc">{{ .Description }}</p>
-      <p class="news-card-meta">{{ .Params.source }} Â· {{ .Date.Format "2 Jan 2006" }}</p>
+      <p class="news-card-meta">{{ .Params.source }} · {{ .Date.Format "2 Jan 2006" }}</p>
     </article>
     {{- end }}
   </div>
