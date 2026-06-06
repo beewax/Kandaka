@@ -1,4 +1,4 @@
-import os, re, hashlib, html
+﻿import os, re, hashlib, html, yaml
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from urllib.request import urlopen, Request
@@ -8,25 +8,21 @@ MAX_ITEMS_PER_FEED = 10
 MAX_TOTAL_ITEMS = 80
 
 SUDAN_KEYWORDS = ["sudan", "khartoum", "darfur", "nile", "rsf", "omdurman",
-                  "sudanese", "gezira", "kassala", "atbara", "juba",
-                  "???????", "???????", "??????", "??????", "???????",
-                  "???????", "????", "???????"]
+                  "sudanese", "gezira", "kassala", "juba",
+                  "السودان", "الخرطوم", "دارفور", "سوداني", "سودانية", "أمدرمان"]
 
 FEEDS = [
-    {"name": "Radio Dabanga",        "url": "https://www.dabangasudan.org/en/feed",                     "lang": "en", "sudan_only": False},
-    {"name": "Sudan Tribune",        "url": "https://sudantribune.net/feed",                            "lang": "en", "sudan_only": False},
-    {"name": "Ayin Network",         "url": "https://3ayin.com/en/feed",                                "lang": "en", "sudan_only": False},
+    {"name": "Radio Dabanga",        "url": "https://www.dabangasudan.org/en/feed",                          "lang": "en", "sudan_only": False},
+    {"name": "Sudan Tribune",        "url": "https://sudantribune.net/feed",                                 "lang": "en", "sudan_only": False},
+    {"name": "Ayin Network",         "url": "https://3ayin.com/en/feed",                                     "lang": "en", "sudan_only": False},
     {"name": "AllAfrica Sudan",      "url": "https://allafrica.com/tools/headlines/rdf/sudan/headlines.rdf", "lang": "en", "sudan_only": False},
-    {"name": "BBC Africa",           "url": "https://feeds.bbci.co.uk/news/world/africa/rss.xml",       "lang": "en", "sudan_only": True},
-    {"name": "African Arguments",    "url": "https://africanarguments.org/feed",                        "lang": "en", "sudan_only": True},
-    {"name": "Rift Valley Institute","url": "https://riftvalley.net/feed/rss",                          "lang": "en", "sudan_only": True},
-    {"name": "Al Jazeera English",   "url": "https://www.aljazeera.com/xml/rss/all.xml",                "lang": "en", "sudan_only": True},
-    {"name": "The Africa Report",    "url": "https://www.theafricareport.com/feed/",                    "lang": "en", "sudan_only": True},
-    {"name": "????? ?????",          "url": "https://www.dabangasudan.org/ar/feed",                     "lang": "ar", "sudan_only": False},
-    {"name": "????????",             "url": "https://alrakoba.net/feed",                                "lang": "ar", "sudan_only": False},
-    {"name": "????? ??????",        "url": "https://aawsat.com/feed",                                  "lang": "ar", "sudan_only": True},
-    {"name": "?? ?? ?? ????",       "url": "https://feeds.bbci.co.uk/arabic/rss.xml",                  "lang": "ar", "sudan_only": True},
-    {"name": "???????",             "url": "https://www.aljazeera.com/xml/rss/all.xml",                "lang": "ar", "sudan_only": True},
+    {"name": "BBC Africa",           "url": "https://feeds.bbci.co.uk/news/world/africa/rss.xml",            "lang": "en", "sudan_only": True},
+    {"name": "African Arguments",    "url": "https://africanarguments.org/feed",                             "lang": "en", "sudan_only": True},
+    {"name": "Al Jazeera English",   "url": "https://www.aljazeera.com/xml/rss/all.xml",                     "lang": "en", "sudan_only": True},
+    {"name": "راديو دبنقا",          "url": "https://www.dabangasudan.org/ar/feed",                          "lang": "ar", "sudan_only": False},
+    {"name": "الراكوبة",             "url": "https://alrakoba.net/feed",                                     "lang": "ar", "sudan_only": False},
+    {"name": "الشرق الأوسط",        "url": "https://aawsat.com/feed",                                       "lang": "ar", "sudan_only": True},
+    {"name": "بي بي سي عربي",       "url": "https://feeds.bbci.co.uk/arabic/rss.xml",                       "lang": "ar", "sudan_only": True},
 ]
 
 def is_sudan_relevant(title, description):
@@ -42,7 +38,7 @@ def clean_html(text):
     if not text: return ""
     text = re.sub(r"<[^>]+>", "", text)
     text = html.unescape(text)
-    return text.strip()[:500]
+    return text.strip()[:300]
 
 def parse_date(date_str):
     if not date_str: return datetime.now(timezone.utc).isoformat()
@@ -74,7 +70,6 @@ def fetch_feed(feed):
             date_el = entry.find("pubDate")
             pub_date = parse_date(date_el.text if date_el is not None else "")
             if not title or not link: continue
-            # Apply Sudan filter only to general feeds
             if feed["sudan_only"] and not is_sudan_relevant(title, description):
                 continue
             items.append({"title": title, "link": link, "description": description,
@@ -89,26 +84,22 @@ def write_page(item, out_dir):
     url_hash = hashlib.md5(item["link"].encode()).hexdigest()[:8]
     slug = slug_from(item["title"]) or url_hash
     filename = f"{slug}-{url_hash}.{item['lang']}.md"
-    safe_title = item["title"].replace('"', '\\"').replace("\n", " ")
-    safe_desc = item["description"].replace('"', '\\"').replace("\n", " ")[:200]
-    safe_source = item["source"].replace('"', '\\"')
-    content = f"""---
-title: "{safe_title}"
-date: "{item['date']}"
-source: "{safe_source}"
-externalLink: "{item['link']}"
-language: "{item['lang']}"
-description: "{safe_desc}"
-language: "{item['lang']}"
-draft: false
----
-
-{item['description']}
-
-**Source: [{item['source']}]({item['link']})**
-"""
-    with open(os.path.join(out_dir, filename), "w", encoding="utf-8") as f:
-        f.write(content)
+    meta = {
+        "title": item["title"],
+        "date": item["date"],
+        "source": item["source"],
+        "externalLink": item["link"],
+        "language": item["lang"],
+        "description": item["description"],
+        "draft": False,
+    }
+    filepath = os.path.join(out_dir, filename)
+    with open(filepath, "w", encoding="utf-8") as f:
+        f.write("---\n")
+        yaml.safe_dump(meta, f, allow_unicode=True, sort_keys=False)
+        f.write("---\n\n")
+        f.write(item["description"] + "\n\n")
+        f.write(f"**Source: [{item['source']}]({item['link']})**\n")
 
 def main():
     print("=" * 60)
@@ -125,10 +116,8 @@ def main():
     all_items = all_items[:MAX_TOTAL_ITEMS]
     for item in all_items:
         try: write_page(item, OUTPUT_DIR)
-        except Exception as e: print(f"  Error writing: {e}")
+        except Exception as e: print(f"  Error: {e}")
     print(f"\nDONE - {len(all_items)} items written to {OUTPUT_DIR}/")
 
 if __name__ == "__main__":
     main()
-
-

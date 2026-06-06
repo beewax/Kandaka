@@ -1,11 +1,10 @@
 ---
-title: "All of Africa Today - June 3, 2026"
-date: "2026-06-03T06:42:58"
-source: "AllAfrica Sudan"
-externalLink: "https://allafrica.com/stories/202606030086.html"
-language: "en"
-description: "[allAfrica]"
-language: "en"
+title: All of Africa Today - June 3, 2026
+date: '2026-06-03T06:42:58'
+source: AllAfrica Sudan
+externalLink: https://allafrica.com/stories/202606030086.html
+language: en
+description: '[allAfrica]'
 draft: false
 ---
 
