@@ -1,14 +1,14 @@
 ---
 title: "‘Pervasive fear’ grips Gaza as Israeli attacks persist despite ceasefire"
-date: "2026-06-06T03:23:04.328334+00:00"
-source: "Al Jazeera English"
+date: "2026-06-05T20:17:35+00:00"
+source: "الجزيرة"
 link: "https://www.aljazeera.com/news/2026/6/5/pervasive-fear-grips-gaza-as-israeli-attacks-persist-despite-ceasefire?traffic_source=rss"
-lang: "en"
-category: "International"
-description: ""
+lang: "ar"
+category: "دولي"
+description: "A drone attack killed a young woman and injured 15 others near Khan Younis, reported the Wafa news agency."
 draft: false
 ---
 
+A drone attack killed a young woman and injured 15 others near Khan Younis, reported the Wafa news agency.
 
-
-**[Al Jazeera English](https://www.aljazeera.com/news/2026/6/5/pervasive-fear-grips-gaza-as-israeli-attacks-persist-despite-ceasefire?traffic_source=rss) →**
+**[الجزيرة](https://www.aljazeera.com/news/2026/6/5/pervasive-fear-grips-gaza-as-israeli-attacks-persist-despite-ceasefire?traffic_source=rss) ->**
