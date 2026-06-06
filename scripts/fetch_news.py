@@ -1,4 +1,4 @@
-﻿import os, re, hashlib, html, yaml
+import os, re, hashlib, html, yaml
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from urllib.request import urlopen, Request
@@ -9,6 +9,16 @@ MAX_TOTAL_ITEMS = 80
 
 SUDAN_EN = ["sudan","khartoum","darfur","sudanese","omdurman","gezira","kassala","juba","rsf","nile","rapid support","dabanga"]
 SUDAN_AR = ["\u0627\u0644\u0633\u0648\u062f\u0627\u0646","\u0627\u0644\u062e\u0631\u0637\u0648\u0645","\u062f\u0627\u0631\u0641\u0648\u0631","\u0633\u0648\u062f\u0627\u0646\u064a","\u0623\u0645\u062f\u0631\u0645\u0627\u0646","\u062f\u0628\u0646\u0642\u0627","\u0627\u0644\u0631\u0627\u0643\u0648\u0628\u0629"]
+
+CATEGORIES = {
+    "War & Conflict": ["rsf","saf","drone","attack","killed","fighting","ceasefire","military","armed","war","battle","offensive","sniper","airstrike","shelling","paramilitary","\u062d\u0631\u0628","\u0642\u062a\u0644","\u0647\u062c\u0648\u0645","\u0645\u0633\u064a\u0631\u0629","\u062f\u0639\u0645 \u0633\u0631\u064a\u0639"],
+    "Politics": ["government","parliament","minister","president","political","party","election","coup","negotiations","peace talks","transition","delegation","talks","agreement","summit","\u062d\u0643\u0648\u0645\u0629","\u0633\u064a\u0627\u0633\u064a","\u0645\u0641\u0627\u0648\u0636\u0627\u062a","\u0633\u0644\u0627\u0645"],
+    "Economy": ["economy","gdp","inflation","trade","investment","bank","currency","pound","budget","finance","oil","gold","minerals","agriculture","market","\u0627\u0642\u062a\u0635\u0627\u062f","\u0627\u0633\u062a\u062b\u0645\u0627\u0631","\u0628\u0646\u0643","\u0645\u064a\u0632\u0627\u0646\u064a\u0629"],
+    "Humanitarian": ["aid","refugees","displaced","famine","hunger","unicef","unhcr","relief","flood","crisis","cholera","shelter","civilian","\u0644\u0627\u062c\u0626\u064a\u0646","\u0646\u0627\u0632\u062d\u064a\u0646","\u0625\u063a\u0627\u062b\u0629","\u0645\u062c\u0627\u0639\u0629"],
+    "Infrastructure": ["road","railway","power","electricity","water","dam","bridge","construction","port","airport","infrastructure","\u0628\u0646\u064a\u0629 \u062a\u062d\u062a\u064a\u0629","\u0643\u0647\u0631\u0628\u0627\u0621","\u0645\u064a\u0627\u0647"],
+    "Culture & Society": ["culture","art","music","heritage","nubian","festival","education","university","school","tradition","history","\u062b\u0642\u0627\u0641\u0629","\u062a\u0639\u0644\u064a\u0645","\u062a\u0631\u0627\u062b","\u0641\u0646"],
+    "International": ["united nations","african union","igad","egypt","ethiopia","saudi","usa","eu ","sanctions","diplomacy","international","\u0627\u0644\u0623\u0645\u0645 \u0627\u0644\u0645\u062a\u062d\u062f\u0629","\u0627\u0644\u0627\u062a\u062d\u0627\u062f \u0627\u0644\u0623\u0641\u0631\u064a\u0642\u064a","\u0639\u0642\u0648\u0628\u0627\u062a"],
+}
 
 FEEDS = [
     {"name":"Radio Dabanga","url":"https://www.dabangasudan.org/en/feed","lang":"en","sudan_only":False},
@@ -22,6 +32,13 @@ FEEDS = [
     {"name":"Asharq Al-Awsat","url":"https://aawsat.com/feed","lang":"ar","sudan_only":True},
     {"name":"BBC Arabic","url":"https://feeds.bbci.co.uk/arabic/rss.xml","lang":"ar","sudan_only":True},
 ]
+
+def categorize(title, desc):
+    text = (title + " " + desc).lower()
+    for cat, keywords in CATEGORIES.items():
+        if any(k.lower() in text for k in keywords):
+            return cat
+    return "General"
 
 def is_arabic(text):
     if not text: return False
@@ -64,6 +81,8 @@ def fetch(feed):
             te = e.find("title")
             title = clean(te.text if te is not None else "")
             if not title: continue
+            if any(x in title.lower() for x in ["all of africa today","africa today","allafrica today","today -"]):
+                continue
             le = e.find("link")
             link = (le.text or "").strip() if le is not None else ""
             de = e.find("description")
@@ -71,12 +90,10 @@ def fetch(feed):
             dte = e.find("pubDate")
             date = parse_date(dte.text if dte is not None else "")
             if not title or not link: continue
-            # Skip AllAfrica daily digest wrappers
-            if any(x in title.lower() for x in ["all of africa today", "africa today", "allafrica today", "today -", "june ", "july ", "august "]):
-                continue
             lang = detect_lang(title, desc, feed["lang"])
             if feed["sudan_only"] and not is_sudan(title, desc): continue
-            items.append({"title":title,"link":link,"description":desc,"date":date,"source":feed["name"],"lang":lang})
+            category = categorize(title, desc)
+            items.append({"title":title,"link":link,"description":desc,"date":date,"source":feed["name"],"lang":lang,"category":category})
             count += 1
         print(f"  + {feed['name']}: {count} items")
     except Exception as ex:
@@ -89,7 +106,7 @@ def write_page(item, d):
     fname = f"{s}-{h}.{item['lang']}.md"
     meta = {"title":item["title"],"date":item["date"],"source":item["source"],
             "externalLink":item["link"],"language":item["lang"],
-            "description":item["description"],"draft":False}
+            "category":item["category"],"description":item["description"],"draft":False}
     with open(os.path.join(d, fname), "w", encoding="utf-8") as f:
         f.write("---\n")
         yaml.safe_dump(meta, f, allow_unicode=True, sort_keys=False)
@@ -117,4 +134,3 @@ def main():
     print(f"DONE  Total:{len(all_items)}  EN:{en}  AR:{ar}")
 
 if __name__ == "__main__": main()
-
