@@ -3,6 +3,7 @@ title: "US Congress pushes RSF terror designation"
 date: "2026-05-21T19:14:26+00:00"
 source: "Ayin Network"
 externalLink: "https://3ayin.com/en/uscongress-/"
+language: "en"
 description: "21 May 2026 A US Congress-led bipartisan bill recognising genocide in Darfur and calling for the paramilitary Rapid Support Forces (RSF) to be designated a terrorist organisation has opened debate ove"
 language: "en"
 draft: false

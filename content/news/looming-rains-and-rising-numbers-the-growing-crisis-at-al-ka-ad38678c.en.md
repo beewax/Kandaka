@@ -3,6 +3,7 @@ title: "Looming rains and rising numbers: The growing crisis at al-Karama Camp, 
 date: "2026-05-22T19:14:39+00:00"
 source: "Ayin Network"
 externalLink: "https://3ayin.com/en/bluenile-2-/"
+language: "en"
 description: "22 May 2026 The number of displaced people keeps rising in al-Karama Camp, just outside Damazin, the capital of the Blue Nile State. According to a local volunteer working for the Emergency Response R"
 language: "en"
 draft: false

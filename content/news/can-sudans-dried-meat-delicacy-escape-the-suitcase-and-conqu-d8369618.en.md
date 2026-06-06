@@ -3,6 +3,7 @@ title: "Can Sudan's Dried Meat Delicacy Escape the Suitcase and Conquer New Mark
 date: "2026-06-04T03:36:37"
 source: "AllAfrica Sudan"
 externalLink: "https://allafrica.com/stories/202606040013.html"
+language: "en"
 description: "[African Arguments] Sharmout, a traditional Sudanese dried meat, is already popular among Sudanese communities abroad where it is transported and sold through the 'suitcase trade.' The challenge now i"
 language: "en"
 draft: false

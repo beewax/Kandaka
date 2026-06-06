@@ -3,6 +3,7 @@ title: "Minnawi Urges Immediate Halt to Fighting Between Salamat and Beni Halba,
 date: "2026-06-03T09:03:54"
 source: "AllAfrica Sudan"
 externalLink: "https://allafrica.com/stories/202606030164.html"
+language: "en"
 description: "[SNA] Khartoum, June 2, 2026 (SUNA) - The Governor of Darfur Region, Minni Arko Minnawi, has called for an immediate halt to the tribal clashes between the Salamat and Beni Halba tribes, which he said"
 language: "en"
 draft: false

@@ -97,6 +97,7 @@ title: "{safe_title}"
 date: "{item['date']}"
 source: "{safe_source}"
 externalLink: "{item['link']}"
+language: "{item['lang']}"
 description: "{safe_desc}"
 language: "{item['lang']}"
 draft: false
@@ -129,4 +130,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 

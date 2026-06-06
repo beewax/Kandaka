@@ -3,6 +3,7 @@ title: "Democratic Bloc Split Over Addis Ababa Dialogue As SLM-Abdelwahid Joins 
 date: "2026-06-04T03:36:38"
 source: "AllAfrica Sudan"
 externalLink: "https://allafrica.com/stories/202606040015.html"
+language: "en"
 description: "[Dabanga] Addis Ababa -- Divisions emerged within Sudan's Democratic Bloc ahead of Sudanese-Sudanese dialogue talks in Addis Ababa, while the Sudan Liberation Movement led by Abdelwahid El Nur (SLM-AW"
 language: "en"
 draft: false
