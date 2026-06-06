@@ -1,10 +1,10 @@
-﻿import os, re, hashlib, html
+import os, re, hashlib, html
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from urllib.request import urlopen, Request
 from urllib.error import URLError
 
-OUTPUT_DIR = "content/news/items"
+OUTPUT_DIR = "content/news"
 MAX_ITEMS_PER_FEED = 10
 MAX_TOTAL_ITEMS = 80
 
@@ -20,11 +20,11 @@ FEEDS = [
     {"name": "Africa Is a Country",  "url": "https://africasacountry.com/feed",                         "lang": "en", "category": "Culture"},
     {"name": "Al Jazeera English",   "url": "https://www.aljazeera.com/xml/rss/all.xml",                "lang": "en", "category": "International"},
     {"name": "The Africa Report",    "url": "https://www.theafricareport.com/feed/",                    "lang": "en", "category": "Development"},
-    {"name": "راديو دبنقا",          "url": "https://www.dabangasudan.org/ar/feed",                     "lang": "ar", "category": "أخبار السودان"},
-    {"name": "الراكوبة",             "url": "https://alrakoba.net/feed",                                "lang": "ar", "category": "أخبار السودان"},
-    {"name": "الجزيرة",             "url": "https://www.aljazeera.com/xml/rss/all.xml",                "lang": "ar", "category": "دولي"},
-    {"name": "الشرق الأوسط",        "url": "https://aawsat.com/feed",                                  "lang": "ar", "category": "تحليل"},
-    {"name": "بي بي سي عربي",       "url": "https://feeds.bbci.co.uk/arabic/rss.xml",                  "lang": "ar", "category": "دولي"},
+    {"name": "????? ?????",          "url": "https://www.dabangasudan.org/ar/feed",                     "lang": "ar", "category": "????? ???????"},
+    {"name": "????????",             "url": "https://alrakoba.net/feed",                                "lang": "ar", "category": "????? ???????"},
+    {"name": "???????",             "url": "https://www.aljazeera.com/xml/rss/all.xml",                "lang": "ar", "category": "????"},
+    {"name": "????? ??????",        "url": "https://aawsat.com/feed",                                  "lang": "ar", "category": "?????"},
+    {"name": "?? ?? ?? ????",       "url": "https://feeds.bbci.co.uk/arabic/rss.xml",                  "lang": "ar", "category": "????"},
 ]
 
 def slug_from(text):
