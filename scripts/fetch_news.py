@@ -11,13 +11,13 @@ SUDAN_EN = ["sudan","khartoum","darfur","sudanese","omdurman","gezira","kassala"
 SUDAN_AR = ["\u0627\u0644\u0633\u0648\u062f\u0627\u0646","\u0627\u0644\u062e\u0631\u0637\u0648\u0645","\u062f\u0627\u0631\u0641\u0648\u0631","\u0633\u0648\u062f\u0627\u0646\u064a","\u0623\u0645\u062f\u0631\u0645\u0627\u0646","\u062f\u0628\u0646\u0642\u0627","\u0627\u0644\u0631\u0627\u0643\u0648\u0628\u0629"]
 
 CATEGORIES = {
-    "War & Conflict": ["rsf","saf","drone","attack","killed","fighting","ceasefire","military","armed","war","battle","offensive","sniper","airstrike","shelling","paramilitary","\u062d\u0631\u0628","\u0642\u062a\u0644","\u0647\u062c\u0648\u0645","\u0645\u0633\u064a\u0631\u0629","\u062f\u0639\u0645 \u0633\u0631\u064a\u0639"],
+    "War & Conflict": ["rsf","saf","drone","attack","killed","fighting","ceasefire","military","armed","war","battle","offensive","sniper","airstrike","shelling","paramilitary","\u062d\u0631\u0628","\u0642\u062a\u0644","\u0647\u062c\u0648\u0645","\u0645\u0633\u064a\u0631\u0629"],
     "Politics": ["government","parliament","minister","president","political","party","election","coup","negotiations","peace talks","transition","delegation","talks","agreement","summit","\u062d\u0643\u0648\u0645\u0629","\u0633\u064a\u0627\u0633\u064a","\u0645\u0641\u0627\u0648\u0636\u0627\u062a","\u0633\u0644\u0627\u0645"],
-    "Economy": ["economy","gdp","inflation","trade","investment","bank","currency","pound","budget","finance","oil","gold","minerals","agriculture","market","\u0627\u0642\u062a\u0635\u0627\u062f","\u0627\u0633\u062a\u062b\u0645\u0627\u0631","\u0628\u0646\u0643","\u0645\u064a\u0632\u0627\u0646\u064a\u0629"],
+    "Economy": ["economy","gdp","inflation","trade","investment","bank","currency","pound","budget","finance","oil","gold","minerals","agriculture","market","\u0627\u0642\u062a\u0635\u0627\u062f","\u0627\u0633\u062a\u062b\u0645\u0627\u0631","\u0628\u0646\u0643"],
     "Humanitarian": ["aid","refugees","displaced","famine","hunger","unicef","unhcr","relief","flood","crisis","cholera","shelter","civilian","\u0644\u0627\u062c\u0626\u064a\u0646","\u0646\u0627\u0632\u062d\u064a\u0646","\u0625\u063a\u0627\u062b\u0629","\u0645\u062c\u0627\u0639\u0629"],
-    "Infrastructure": ["road","railway","power","electricity","water","dam","bridge","construction","port","airport","infrastructure","\u0628\u0646\u064a\u0629 \u062a\u062d\u062a\u064a\u0629","\u0643\u0647\u0631\u0628\u0627\u0621","\u0645\u064a\u0627\u0647"],
-    "Culture & Society": ["culture","art","music","heritage","nubian","festival","education","university","school","tradition","history","\u062b\u0642\u0627\u0641\u0629","\u062a\u0639\u0644\u064a\u0645","\u062a\u0631\u0627\u062b","\u0641\u0646"],
-    "International": ["united nations","african union","igad","egypt","ethiopia","saudi","usa","eu ","sanctions","diplomacy","international","\u0627\u0644\u0623\u0645\u0645 \u0627\u0644\u0645\u062a\u062d\u062f\u0629","\u0627\u0644\u0627\u062a\u062d\u0627\u062f \u0627\u0644\u0623\u0641\u0631\u064a\u0642\u064a","\u0639\u0642\u0648\u0628\u0627\u062a"],
+    "Infrastructure": ["road","railway","power","electricity","water","dam","bridge","construction","port","airport","\u0643\u0647\u0631\u0628\u0627\u0621","\u0645\u064a\u0627\u0647"],
+    "Culture & Society": ["culture","art","music","heritage","nubian","festival","education","university","school","tradition","\u062b\u0642\u0627\u0641\u0629","\u062a\u0639\u0644\u064a\u0645","\u062a\u0631\u0627\u062b"],
+    "International": ["united nations","african union","igad","egypt","ethiopia","saudi","usa","sanctions","diplomacy","\u0627\u0644\u0623\u0645\u0645 \u0627\u0644\u0645\u062a\u062d\u062f\u0629","\u0639\u0642\u0648\u0628\u0627\u062a"],
 }
 
 CATEGORIES_AR = {
@@ -84,16 +84,19 @@ def fetch(feed):
     items = []
     try:
         req = Request(feed["url"], headers={"User-Agent":"Kandaka/1.0"})
-        with urlopen(req, timeout=15) as r: content = r.read()
+        with urlopen(req, timeout=15) as r:
+            content = r.read()
         root = ET.fromstring(content)
         ch = root.find("channel")
         entries = ch.findall("item") if ch is not None else []
         count = 0
         for e in entries:
-            if count >= MAX_ITEMS_PER_FEED: break
+            if count >= MAX_ITEMS_PER_FEED:
+                break
             te = e.find("title")
             title = clean(te.text if te is not None else "")
-            if not title: continue
+            if not title:
+                continue
             if any(x in title.lower() for x in ["all of africa today","africa today","allafrica today","today -"]):
                 continue
             le = e.find("link")
@@ -102,7 +105,71 @@ def fetch(feed):
             desc = clean(de.text if de is not None else "")
             dte = e.find("pubDate")
             date = parse_date(dte.text if dte is not None else "")
-            if not title or not link: continue
+            if not title or not link:
+                continue
             lang = detect_lang(title, desc, feed["lang"])
-            if feed["sudan_only"] and not is_sudan(title, desc): continue
-            category, clabel = catego
+            if feed["sudan_only"] and not is_sudan(title, desc):
+                continue
+            category, clabel = categorize(title, desc, lang)
+            items.append({
+                "title": title,
+                "link": link,
+                "description": desc,
+                "date": date,
+                "source": feed["name"],
+                "lang": lang,
+                "category": category,
+                "clabel": clabel
+            })
+            count += 1
+        print(f"  + {feed['name']}: {count} items")
+    except Exception as ex:
+        print(f"  x {feed['name']}: {ex}")
+    return items
+
+def write_page(item, d):
+    h = hashlib.md5(item["link"].encode()).hexdigest()[:8]
+    s = slug(item["title"]) or h
+    fname = f"{s}-{h}.{item['lang']}.md"
+    meta = {
+        "title": item["title"],
+        "date": item["date"],
+        "source": item["source"],
+        "externalLink": item["link"],
+        "language": item["lang"],
+        "category": item["category"],
+        "clabel": item["clabel"],
+        "description": item["description"],
+        "draft": False
+    }
+    with open(os.path.join(d, fname), "w", encoding="utf-8") as f:
+        f.write("---\n")
+        yaml.safe_dump(meta, f, allow_unicode=True, sort_keys=False)
+        f.write("---\n\n")
+        f.write(item["description"] + "\n\n")
+        f.write(f"**Source: [{item['source']}]({item['link']})**\n")
+
+def main():
+    print("=" * 60)
+    print("KANDAKA NEWS FETCHER")
+    print("=" * 60)
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
+    for f in os.listdir(OUTPUT_DIR):
+        if f.endswith(".md") and not f.startswith("_index"):
+            os.remove(os.path.join(OUTPUT_DIR, f))
+    all_items = []
+    for feed in FEEDS:
+        all_items.extend(fetch(feed))
+    all_items.sort(key=lambda x: x["date"], reverse=True)
+    all_items = all_items[:MAX_TOTAL_ITEMS]
+    en = sum(1 for i in all_items if i["lang"] == "en")
+    ar = sum(1 for i in all_items if i["lang"] == "ar")
+    for item in all_items:
+        try:
+            write_page(item, OUTPUT_DIR)
+        except Exception as ex:
+            print(f"  Error: {ex}")
+    print(f"DONE  Total:{len(all_items)}  EN:{en}  AR:{ar}")
+
+if __name__ == "__main__":
+    main()
