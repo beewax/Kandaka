@@ -1,4 +1,3 @@
-@"
 import os, re, hashlib, html, yaml
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
@@ -115,5 +114,3 @@ def main():
     print(f"DONE  Total:{len(all_items)}  EN:{en}  AR:{ar}")
 
 if __name__ == "__main__": main()
-"@ | Out-File -FilePath "scripts\fetch_news.py" -Encoding utf8NoBOM
-python scripts\fetch_news.py
