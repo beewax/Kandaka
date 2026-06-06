@@ -1,4 +1,4 @@
-import os, re, hashlib, html, yaml
+﻿import os, re, hashlib, html, yaml
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from urllib.request import urlopen, Request
@@ -71,6 +71,9 @@ def fetch(feed):
             dte = e.find("pubDate")
             date = parse_date(dte.text if dte is not None else "")
             if not title or not link: continue
+            # Skip AllAfrica daily digest wrappers
+            if "all of africa today" in title.lower() or "africa today" in title.lower():
+                continue
             lang = detect_lang(title, desc, feed["lang"])
             if feed["sudan_only"] and not is_sudan(title, desc): continue
             items.append({"title":title,"link":link,"description":desc,"date":date,"source":feed["name"],"lang":lang})
@@ -114,3 +117,4 @@ def main():
     print(f"DONE  Total:{len(all_items)}  EN:{en}  AR:{ar}")
 
 if __name__ == "__main__": main()
+
