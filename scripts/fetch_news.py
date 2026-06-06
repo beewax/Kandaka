@@ -74,6 +74,11 @@ def fetch_feed(feed):
             date_el = entry.find("pubDate")
             if date_el is None: date_el = entry.find("published")
             pub_date = parse_date(date_el.text if date_el is not None else "")
+            sudan_keywords = ["sudan", "khartoum", "darfur", "nile", "rsf", "saf ", "omdurman", "sudanese", "???????", "???????", "??????", "?????"]
+            is_sudan_feed = feed["category"] in ["Sudan News", "????? ???????", "Humanitarian", "Analysis"]
+            has_sudan_keyword = any(kw in title.lower() or kw in description.lower() for kw in sudan_keywords)
+            if not is_sudan_feed and not has_sudan_keyword:
+                continue
             if title and link:
                 items.append({"title":title,"link":link,"description":description,
                               "date":pub_date,"source":feed["name"],
@@ -131,6 +136,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
