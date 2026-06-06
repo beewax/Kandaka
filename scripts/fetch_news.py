@@ -20,7 +20,7 @@ FEEDS = [
     {"name": "African Arguments",    "url": "https://africanarguments.org/feed",                             "lang": "en", "sudan_only": True},
     {"name": "Al Jazeera English",   "url": "https://www.aljazeera.com/xml/rss/all.xml",                     "lang": "en", "sudan_only": True},
     {"name": "????? ?????",          "url": "https://www.dabangasudan.org/ar/feed",                          "lang": "ar", "sudan_only": False},
-    {"name": "????????",             "url": "https://alrakoba.net/feed",                                     "lang": "ar", "sudan_only": False},
+    {"name": "????????",             "url": "https://alrakoba.net/feed",                                     "lang": "ar", "sudan_only": True},
     {"name": "????? ??????",        "url": "https://aawsat.com/feed",                                       "lang": "ar", "sudan_only": True},
     {"name": "?? ?? ?? ????",       "url": "https://feeds.bbci.co.uk/arabic/rss.xml",                       "lang": "ar", "sudan_only": True},
 ]
@@ -125,5 +125,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
 
 
