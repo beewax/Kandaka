@@ -1,4 +1,4 @@
-import os, re, hashlib, html, yaml
+﻿import os, re, hashlib, html, yaml
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from urllib.request import urlopen, Request
@@ -19,10 +19,10 @@ FEEDS = [
     {"name": "BBC Africa",           "url": "https://feeds.bbci.co.uk/news/world/africa/rss.xml",            "lang": "en", "sudan_only": True},
     {"name": "African Arguments",    "url": "https://africanarguments.org/feed",                             "lang": "en", "sudan_only": True},
     {"name": "Al Jazeera English",   "url": "https://www.aljazeera.com/xml/rss/all.xml",                     "lang": "en", "sudan_only": True},
-    {"name": "????? ?????",          "url": "https://www.dabangasudan.org/ar/feed",                          "lang": "ar", "sudan_only": False},
-    {"name": "????????",             "url": "https://alrakoba.net/feed",                                     "lang": "ar", "sudan_only": True},
-    {"name": "????? ??????",        "url": "https://aawsat.com/feed",                                       "lang": "ar", "sudan_only": True},
-    {"name": "?? ?? ?? ????",       "url": "https://feeds.bbci.co.uk/arabic/rss.xml",                       "lang": "ar", "sudan_only": True},
+    {"name": "Dabanga Arabic",          "url": "https://www.dabangasudan.org/ar/feed",                          "lang": "ar", "sudan_only": False},
+    {"name": "Al Rakoba",             "url": "https://alrakoba.net/feed",                                     "lang": "ar", "sudan_only": True},
+    {"name": "Asharq Al-Awsat",        "url": "https://aawsat.com/feed",                                       "lang": "ar", "sudan_only": True},
+    {"name": "BBC Arabic",       "url": "https://feeds.bbci.co.uk/arabic/rss.xml",                       "lang": "ar", "sudan_only": True},
 ]
 
 def is_arabic(text):
@@ -125,6 +125,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
