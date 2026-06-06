@@ -72,7 +72,7 @@ def fetch(feed):
             date = parse_date(dte.text if dte is not None else "")
             if not title or not link: continue
             # Skip AllAfrica daily digest wrappers
-            if "all of africa today" in title.lower() or "africa today" in title.lower():
+            if any(x in title.lower() for x in ["all of africa today", "africa today", "allafrica today", "today -", "june ", "july ", "august "]):
                 continue
             lang = detect_lang(title, desc, feed["lang"])
             if feed["sudan_only"] and not is_sudan(title, desc): continue
