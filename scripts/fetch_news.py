@@ -87,7 +87,8 @@ def fetch_feed(feed):
 def write_page(item, out_dir):
     url_hash = hashlib.md5(item["link"].encode()).hexdigest()[:8]
     slug = slug_from(item["title"])
-    filename = f"{slug}-{url_hash}.md"
+    lang_suffix = item["lang"]
+    filename = f"{slug}-{url_hash}.{lang_suffix}.md"
     safe_title = item["title"].replace('"', '\\"')
     safe_desc = item["description"].replace('"', '\\"').replace("\n", " ")
     safe_source = item["source"].replace('"', '\\"')
@@ -130,3 +131,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
