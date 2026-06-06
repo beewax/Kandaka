@@ -1,0 +1,121 @@
+﻿{{- define "main" }}
+<div class="news-bilingual">
+
+  <div class="news-col news-col-en">
+    <h2 class="news-col-title">English</h2>
+    {{- range where (where .Site.RegularPages "Section" "news") "Language.Lang" "en" }}
+    <article class="news-card">
+      <h3 class="news-card-title">
+        <a href="{{ .Params.externalLink | default .Permalink }}" target="_blank" rel="noopener">
+          {{ .Title }}
+        </a>
+      </h3>
+      <p class="news-card-desc">{{ .Description }}</p>
+      <p class="news-card-meta">
+        <span class="news-source">{{ .Params.source }}</span> &middot;
+        <span class="news-date">{{ .Date.Format "Jan 2, 2006" }}</span>
+      </p>
+    </article>
+    {{- end }}
+  </div>
+
+  <div class="news-divider"></div>
+
+  <div class="news-col news-col-ar" dir="rtl">
+    <h2 class="news-col-title">العربية</h2>
+    {{- range where (where .Site.RegularPages "Section" "news") "Language.Lang" "ar" }}
+    <article class="news-card">
+      <h3 class="news-card-title">
+        <a href="{{ .Params.externalLink | default .Permalink }}" target="_blank" rel="noopener">
+          {{ .Title }}
+        </a>
+      </h3>
+      <p class="news-card-desc">{{ .Description }}</p>
+      <p class="news-card-meta">
+        <span class="news-source">{{ .Params.source }}</span> &middot;
+        <span class="news-date">{{ .Date.Format "2 Jan 2006" }}</span>
+      </p>
+    </article>
+    {{- end }}
+  </div>
+
+</div>
+
+<style>
+.news-bilingual {
+  display: flex;
+  gap: 0;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+.news-col {
+  flex: 1;
+  padding: 0 1.5rem;
+}
+.news-col-title {
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--secondary);
+  border-bottom: 2px solid var(--border);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+.news-divider {
+  width: 1px;
+  background: var(--border);
+  align-self: stretch;
+  min-height: 100%;
+  flex-shrink: 0;
+}
+.news-card {
+  margin-bottom: 1.8rem;
+  padding-bottom: 1.8rem;
+  border-bottom: 1px solid var(--border);
+}
+.news-card:last-child {
+  border-bottom: none;
+}
+.news-card-title {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.4;
+  margin: 0 0 0.4rem 0;
+}
+.news-card-title a {
+  color: var(--primary);
+  text-decoration: none;
+}
+.news-card-title a:hover {
+  text-decoration: underline;
+}
+.news-card-desc {
+  font-size: 0.875rem;
+  color: var(--secondary);
+  line-height: 1.5;
+  margin: 0 0 0.4rem 0;
+}
+.news-card-meta {
+  font-size: 0.8rem;
+  color: var(--secondary);
+  margin: 0;
+}
+@media (max-width: 768px) {
+  .news-bilingual {
+    flex-direction: column;
+  }
+  .news-divider {
+    width: 100%;
+    height: 1px;
+    min-height: unset;
+    margin: 1rem 0;
+  }
+  .news-col-ar {
+    order: -1;
+  }
+}
+</style>
+{{- end }}
