@@ -14,6 +14,7 @@
   <div class="news-col news-col-en">
     <h2 class="news-col-title">English</h2>
     {{- range where .Site.RegularPages "Section" "news" }}
+    {{- if eq (string .Params.language) "en" }}
     <article class="news-card" data-category="{{ .Params.category }}">
       <span class="news-cat news-cat-{{ .Params.category | urlize }}">{{ .Params.category }}</span>
       <h3 class="news-card-title"><a href="{{ .Params.externallink | default .Permalink }}" target="_blank" rel="noopener">{{ .Title }}</a></h3>
@@ -21,17 +22,20 @@
       <p class="news-card-meta">{{ .Params.source }} · {{ .Date.Format "Jan 2, 2006" }}</p>
     </article>
     {{- end }}
+    {{- end }}
   </div>
   <div class="news-divider"></div>
   <div class="news-col news-col-ar" dir="rtl">
     <h2 class="news-col-title">العربية</h2>
-    {{- range first 30 (where ((index .Site.Sites 1).RegularPages) "Section" "news") }}
+    {{- range where .Site.RegularPages "Section" "news" }}
+    {{- if eq (string .Params.language) "ar" }}
     <article class="news-card" data-category="{{ .Params.category }}">
       <span class="news-cat news-cat-{{ .Params.category | urlize }}">{{ .Params.clabel | default .Params.category }}</span>
       <h3 class="news-card-title"><a href="{{ .Params.externallink | default .Permalink }}" target="_blank" rel="noopener">{{ .Title }}</a></h3>
       <p class="news-card-desc">{{ .Description }}</p>
       <p class="news-card-meta">{{ .Params.source }} · {{ .Date.Format "2 Jan 2006" }}</p>
     </article>
+    {{- end }}
     {{- end }}
   </div>
 </div>
@@ -58,23 +62,4 @@
 .news-cat-general{background:var(--border);color:var(--secondary)}
 .news-card-title{font-size:1rem;font-weight:600;line-height:1.4;margin:0 0 .4rem}
 .news-card-title a{color:var(--primary);text-decoration:none}
-.news-card-title a:hover{text-decoration:underline}
-.news-card-desc{font-size:.875rem;color:var(--secondary);line-height:1.5;margin:0 0 .4rem}
-.news-card-meta{font-size:.8rem;color:var(--secondary);margin:0}
-@media(max-width:768px){.news-bilingual{flex-direction:column-reverse}.news-divider{width:100%;height:1px;margin:1.5rem 0}}
-</style>
-
-<script>
-function filterNews(cat, btn) {
-  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-  btn.classList.add('active');
-  document.querySelectorAll('.news-card').forEach(card => {
-    if (cat === 'all' || card.dataset.category === cat) {
-      card.classList.remove('hidden');
-    } else {
-      card.classList.add('hidden');
-    }
-  });
-}
-</script>
-{{- end }}
+.news-ca
