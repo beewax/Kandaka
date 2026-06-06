@@ -4,7 +4,7 @@ from datetime import datetime, timezone
 from urllib.request import urlopen, Request
 from urllib.error import URLError
 
-OUTPUT_DIR = "content/news"
+OUTPUT_DIR = "content/posts"
 MAX_ITEMS_PER_FEED = 10
 MAX_TOTAL_ITEMS = 80
 
@@ -131,5 +131,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
