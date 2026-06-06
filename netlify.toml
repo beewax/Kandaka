@@ -1,5 +1,5 @@
 [build]
-  command = "python3 scripts/fetch_news.py && hugo --minify"
+  command = "pip3 install -r requirements.txt && python3 scripts/fetch_news.py && hugo --minify"
   publish = "public"
 
 [build.environment]
