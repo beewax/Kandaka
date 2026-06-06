@@ -12,8 +12,8 @@
 <div class="news-bilingual">
   <div class="news-col news-col-en">
     <h2 class="news-col-title">English</h2>
-    {{- $allNews := where .Site.RegularPages "Section" "news" }}
-    {{- range where $allNews ".Params.language" "en" }}
+    {{- range where .Site.RegularPages "Section" "news" }}
+    {{- if eq .Params.language "en" }}
     <article class="news-card" data-category="{{ .Params.category }}">
       <span class="news-cat news-cat-{{ .Params.category | urlize }}">{{ .Params.category }}</span>
       <h3 class="news-card-title"><a href="{{ .Params.externallink | default .Permalink }}" target="_blank" rel="noopener">{{ .Title }}</a></h3>
@@ -21,18 +21,20 @@
       <p class="news-card-meta">{{ .Params.source }} · {{ .Date.Format "Jan 2, 2006" }}</p>
     </article>
     {{- end }}
+    {{- end }}
   </div>
   <div class="news-divider"></div>
   <div class="news-col news-col-ar" dir="rtl">
     <h2 class="news-col-title">العربية</h2>
-    {{- $allNews := where .Site.RegularPages "Section" "news" }}
-    {{- range where $allNews ".Params.language" "ar" }}
+    {{- range where .Site.RegularPages "Section" "news" }}
+    {{- if eq .Params.language "ar" }}
     <article class="news-card" data-category="{{ .Params.category }}">
       <span class="news-cat news-cat-{{ .Params.category | urlize }}">{{ .Params.category }}</span>
       <h3 class="news-card-title"><a href="{{ .Params.externallink | default .Permalink }}" target="_blank" rel="noopener">{{ .Title }}</a></h3>
       <p class="news-card-desc">{{ .Description }}</p>
       <p class="news-card-meta">{{ .Params.source }} · {{ .Date.Format "2 Jan 2006" }}</p>
     </article>
+    {{- end }}
     {{- end }}
   </div>
 </div>
