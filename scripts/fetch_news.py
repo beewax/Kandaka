@@ -1,4 +1,4 @@
-﻿import os, re, hashlib, html, yaml
+import os, re, hashlib, html, yaml
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from urllib.request import urlopen, Request
@@ -9,7 +9,7 @@ MAX_TOTAL_ITEMS = 80
 
 SUDAN_KEYWORDS = ["sudan", "khartoum", "darfur", "nile", "rsf", "omdurman",
                   "sudanese", "gezira", "kassala", "juba",
-                  "السودان", "الخرطوم", "دارفور", "سوداني", "سودانية", "أمدرمان"]
+                  "???????", "???????", "??????", "??????", "???????", "???????"]
 
 FEEDS = [
     {"name": "Radio Dabanga",        "url": "https://www.dabangasudan.org/en/feed",                          "lang": "en", "sudan_only": False},
@@ -19,11 +19,15 @@ FEEDS = [
     {"name": "BBC Africa",           "url": "https://feeds.bbci.co.uk/news/world/africa/rss.xml",            "lang": "en", "sudan_only": True},
     {"name": "African Arguments",    "url": "https://africanarguments.org/feed",                             "lang": "en", "sudan_only": True},
     {"name": "Al Jazeera English",   "url": "https://www.aljazeera.com/xml/rss/all.xml",                     "lang": "en", "sudan_only": True},
-    {"name": "راديو دبنقا",          "url": "https://www.dabangasudan.org/ar/feed",                          "lang": "ar", "sudan_only": False},
-    {"name": "الراكوبة",             "url": "https://alrakoba.net/feed",                                     "lang": "ar", "sudan_only": False},
-    {"name": "الشرق الأوسط",        "url": "https://aawsat.com/feed",                                       "lang": "ar", "sudan_only": True},
-    {"name": "بي بي سي عربي",       "url": "https://feeds.bbci.co.uk/arabic/rss.xml",                       "lang": "ar", "sudan_only": True},
+    {"name": "????? ?????",          "url": "https://www.dabangasudan.org/ar/feed",                          "lang": "ar", "sudan_only": False},
+    {"name": "????????",             "url": "https://alrakoba.net/feed",                                     "lang": "ar", "sudan_only": False},
+    {"name": "????? ??????",        "url": "https://aawsat.com/feed",                                       "lang": "ar", "sudan_only": True},
+    {"name": "?? ?? ?? ????",       "url": "https://feeds.bbci.co.uk/arabic/rss.xml",                       "lang": "ar", "sudan_only": True},
 ]
+
+def is_arabic(text):
+    arabic_chars = sum(1 for c in text if "\\u0600" <= c <= "\\u06FF")
+    return arabic_chars > len(text) * 0.2
 
 def is_sudan_relevant(title, description):
     text = (title + " " + description).lower()
@@ -73,7 +77,7 @@ def fetch_feed(feed):
             if feed["sudan_only"] and not is_sudan_relevant(title, description):
                 continue
             items.append({"title": title, "link": link, "description": description,
-                          "date": pub_date, "source": feed["name"], "lang": feed["lang"]})
+                          "date": pub_date, "source": feed["name"], "lang": "ar" if is_arabic(title + " " + description) else feed["lang"]})
             count += 1
         print(f"  + {feed['name']}: {count} items")
     except Exception as e:
@@ -121,3 +125,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
