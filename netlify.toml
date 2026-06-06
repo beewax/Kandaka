@@ -1,14 +1,7 @@
-[build]
+﻿[build]
   command = "python3 scripts/fetch_news.py && hugo --minify"
   publish = "public"
 
 [build.environment]
   HUGO_VERSION = "0.160.0"
   PYTHON_VERSION = "3.11"
-
-# Rebuild every 6 hours to refresh news
-[[plugins]]
-  package = "@netlify/plugin-cron"
-
-  [plugins.inputs]
-    cron = "0 */6 * * *"
