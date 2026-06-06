@@ -6,6 +6,7 @@ source: Radio Dabanga
 externalLink: https://www.dabangasudan.org/en/all-news/article/nine-killed-in-fresh-drone-strike-on-south-darfur-sniper-deployment-amid-rising-intertribal-kassala-tensions
 language: en
 category: War & Conflict
+category_label: War & Conflict
 description: 'At least nine civilians were killed in a fresh drone attack on the town
   of...
 

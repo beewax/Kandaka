@@ -5,6 +5,7 @@ source: Radio Dabanga
 externalLink: https://www.dabangasudan.org/en/all-news/article/sudan-gov-reports-58-dead-in-rsf-attack-on-north-kordofan-villages
 language: en
 category: War & Conflict
+category_label: War & Conflict
 description: 'The death toll from a paramilitary Rapid Support Forces (RSF) attack
   on villages west of...
 

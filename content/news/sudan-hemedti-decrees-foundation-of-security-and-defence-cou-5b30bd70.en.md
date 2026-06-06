@@ -6,6 +6,7 @@ source: Radio Dabanga
 externalLink: https://www.dabangasudan.org/en/all-news/article/sudan-hemedti-decrees-foundation-of-security-and-defence-council-for-tasees-govt
 language: en
 category: Infrastructure
+category_label: Infrastructure
 description: 'The commander of the Rapid Support forces, Lt Gen Mohammed Hamdan ‘Hemedti’
   Dagalo, has issued...
 

@@ -5,6 +5,7 @@ source: Radio Dabanga
 externalLink: https://www.dabangasudan.org/en/all-news/article/radio-dabanga-nominated-for-2026-ipi-ims-free-media-pioneer-award
 language: en
 category: War & Conflict
+category_label: War & Conflict
 description: 'Radio Dabanga has been shortlisted as one of 11 ‘trailblazing’ media
   organisations nominated for the...
 

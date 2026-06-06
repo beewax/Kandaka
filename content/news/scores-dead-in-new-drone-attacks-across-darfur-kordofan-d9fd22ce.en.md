@@ -5,6 +5,7 @@ source: Radio Dabanga
 externalLink: https://www.dabangasudan.org/en/all-news/article/scores-dead-in-new-drone-attacks-across-darfur-kordofan
 language: en
 category: War & Conflict
+category_label: War & Conflict
 description: 'New drone attacks have left a swathe of death and material destruction
   across Darfur and...
 

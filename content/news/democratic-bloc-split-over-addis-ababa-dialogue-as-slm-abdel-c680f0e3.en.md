@@ -5,6 +5,7 @@ source: Radio Dabanga
 externalLink: https://www.dabangasudan.org/en/all-news/article/democratic-bloc-split-over-addis-ababa-dialogue-as-slm-abdelwahid-joins-talks
 language: en
 category: Politics
+category_label: Politics
 description: 'Divisions emerged within Sudan’s Democratic Bloc ahead of Sudanese-Sudanese
   dialogue talks in Addis Ababa, while...
 

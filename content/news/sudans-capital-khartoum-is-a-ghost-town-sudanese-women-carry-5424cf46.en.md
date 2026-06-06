@@ -6,6 +6,7 @@ source: AllAfrica Sudan
 externalLink: https://allafrica.com/stories/202606040011.html
 language: en
 category: Infrastructure
+category_label: Infrastructure
 description: '[Dabanga] Ansterdam / Cairo / Geneva / Khartoum / Darfur -- The UN Population
   Fund (UNFPA) has described parts of the capital Khartoum as a "ghost town" teeming
   with burnt buildings and darkness, "however, people are coming back to it, because

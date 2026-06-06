@@ -5,6 +5,7 @@ source: BBC Arabic
 externalLink: https://www.bbc.com/arabic/articles/cjwp6g239e4o?at_medium=RSS&at_campaign=rss
 language: ar
 category: War & Conflict
+category_label: حرب وصراع
 description: من غزة إلى السودان واليمن ولبنان... شباب من منطقة الشرق الأوسط وشمال
   أفريقيا يروون كيف غيّرت الحرب حياتهم، بين النزوح والفنّ والأمل والسعي إلى السلام.
 draft: false

@@ -6,6 +6,7 @@ source: Radio Dabanga
 externalLink: https://www.dabangasudan.org/en/all-news/article/sudans-rival-leaders-push-competing-visions-as-el-burhan-calls-for-national-dialogue
 language: en
 category: General
+category_label: General
 description: 'Sudan’s rival leaders used Eid El Adha speeches to promote sharply competing
   visions for the...
 

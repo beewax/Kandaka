@@ -6,6 +6,7 @@ source: AllAfrica Sudan
 externalLink: https://allafrica.com/stories/202606050717.html
 language: en
 category: Politics
+category_label: Politics
 description: '[SNA] - Minister of Religious Affairs and Endowments and General Supervisor
   of Sudanese Endowments Bashir Haroun Abdel Karim received a briefing on Wednesday
   from Dr. Fahd bin Rabah Al-Sulami, Deputy Supervisor of Sudanese Endowments in the

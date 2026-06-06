@@ -5,6 +5,7 @@ source: AllAfrica Sudan
 externalLink: https://allafrica.com/stories/202606040015.html
 language: en
 category: Politics
+category_label: Politics
 description: '[Dabanga] Addis Ababa -- Divisions emerged within Sudan''s Democratic
   Bloc ahead of Sudanese-Sudanese dialogue talks in Addis Ababa, while the Sudan Liberation
   Movement led by Abdelwahid El Nur (SLM-AW) announced its participation in the process.'
