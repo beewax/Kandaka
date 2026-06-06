@@ -12,8 +12,8 @@
 <div class="news-bilingual">
   <div class="news-col news-col-en">
     <h2 class="news-col-title">English</h2>
-    {{- range where .Site.RegularPages "Section" "news" }}
-    {{- if eq .Language.Lang "en" }}
+    {{- $allNews := where .Site.RegularPages "Section" "news" }}
+    {{- range where $allNews ".Params.language" "en" }}
     <article class="news-card" data-category="{{ .Params.category }}">
       <span class="news-cat news-cat-{{ .Params.category | urlize }}">{{ .Params.category }}</span>
       <h3 class="news-card-title"><a href="{{ .Params.externallink | default .Permalink }}" target="_blank" rel="noopener">{{ .Title }}</a></h3>
@@ -21,12 +21,12 @@
       <p class="news-card-meta">{{ .Params.source }} · {{ .Date.Format "Jan 2, 2006" }}</p>
     </article>
     {{- end }}
-    {{- end }}
   </div>
   <div class="news-divider"></div>
   <div class="news-col news-col-ar" dir="rtl">
     <h2 class="news-col-title">العربية</h2>
-    {{- range first 40 (where (.Site.Sites.Last.RegularPages) "Section" "news") }}
+    {{- $allNews := where .Site.RegularPages "Section" "news" }}
+    {{- range where $allNews ".Params.language" "ar" }}
     <article class="news-card" data-category="{{ .Params.category }}">
       <span class="news-cat news-cat-{{ .Params.category | urlize }}">{{ .Params.category }}</span>
       <h3 class="news-card-title"><a href="{{ .Params.externallink | default .Permalink }}" target="_blank" rel="noopener">{{ .Title }}</a></h3>
@@ -59,7 +59,7 @@
 .news-card-title{font-size:1rem;font-weight:600;line-height:1.4;margin:0 0 .4rem}
 .news-card-title a{color:var(--primary);text-decoration:none}
 .news-card-title a:hover{text-decoration:underline}
-.news-card-desc{font-size:.875rem;color:var(--secondary);line-height:1.5;margin:0 0 .4rem}
+.news-card-desc{font-size:.875rem;color:var(--secondary);line-height:1.5;margin:0 0 .4rem;overflow:hidden;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical}
 .news-card-meta{font-size:.8rem;color:var(--secondary);margin:0}
 @media(max-width:768px){.news-bilingual{flex-direction:column-reverse}.news-divider{width:100%;height:1px;margin:1.5rem 0}}
 </style>
