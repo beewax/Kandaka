@@ -1,4 +1,4 @@
-{{- define "main" }}
+﻿{{- define "main" }}
 {{- $enPages := where .Site.RegularPages "Section" "news" }}
 {{- $arSite := index .Site.Sites 1 }}
 {{- $arPages := where $arSite.RegularPages "Section" "news" }}
@@ -20,25 +20,25 @@
       <span class="news-cat news-cat-{{ .Params.category | urlize }}">{{ .Params.category }}</span>
       <h3 class="news-card-title"><a href="{{ .Params.externallink | default .Permalink }}" target="_blank" rel="noopener">{{ .Title }}</a></h3>
       <p class="news-card-desc">{{ .Description }}</p>
-      <p class="news-card-meta">{{ .Params.source }} · {{ .Date.Format "Jan 2, 2006" }}</p>
+      <p class="news-card-meta">{{ .Params.source }} Â· {{ .Date.Format "Jan 2, 2006" }}</p>
     </article>
     {{- end }}
   </div>
   <div class="news-divider"></div>
   <div class="news-col news-col-ar" dir="rtl">
-    <h2 class="news-col-title">العربية</h2>
+    <h2 class="news-col-title">Ø§Ù„Ø¹Ø±Ø¨ÙŠØ©</h2>
     {{- range $arPages }}
     <article class="news-card" data-category="{{ .Params.category }}">
       <span class="news-cat news-cat-{{ .Params.category | urlize }}">{{ .Params.clabel | default .Params.category }}</span>
       <h3 class="news-card-title"><a href="{{ .Params.externallink | default .Permalink }}" target="_blank" rel="noopener">{{ .Title }}</a></h3>
       <p class="news-card-desc">{{ .Description }}</p>
-      <p class="news-card-meta">{{ .Params.source }} · {{ .Date.Format "2 Jan 2006" }}</p>
+      <p class="news-card-meta">{{ .Params.source }} Â· {{ .Date.Format "2 Jan 2006" }}</p>
     </article>
     {{- end }}
   </div>
 </div>
 <style>
-.news-filters{display:flex;flex-wrap:wrap;gap:.5rem;margin:1.5rem auto 2rem;max-width:1200px;padding:0 1rem}
+.news-filters{display:flex;flex-wrap:nowrap;gap:.4rem;margin:1.5rem auto 2rem;max-width:1200px;padding:0 1rem;overflow-x:auto;scrollbar-width:none}
 .filter-btn{padding:.4rem .9rem;border:1px solid var(--border);border-radius:20px;background:transparent;color:var(--secondary);font-size:.8rem;cursor:pointer;transition:all .2s}
 .filter-btn:hover,.filter-btn.active{background:var(--primary);color:var(--theme);border-color:var(--primary)}
 .news-bilingual{display:flex;gap:0;align-items:flex-start;max-width:1200px;margin:0 auto;padding:0 1rem}
@@ -78,3 +78,4 @@ function filterNews(cat, btn) {
 }
 </script>
 {{- end }}
+
