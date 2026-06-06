@@ -105,46 +105,4 @@ def fetch(feed):
             if not title or not link: continue
             lang = detect_lang(title, desc, feed["lang"])
             if feed["sudan_only"] and not is_sudan(title, desc): continue
-            category, category_label = categorize(title, desc, lang)
-            items.append({"title":title,"link":link,"description":desc,"date":date,"source":feed["name"],"lang":lang,"category":category,"category_label":category_label})
-            count += 1
-        print(f"  + {feed['name']}: {count} items")
-    except Exception as ex:
-        print(f"  x {feed['name']}: {ex}")
-    return items
-
-def write_page(item, d):
-    h = hashlib.md5(item["link"].encode()).hexdigest()[:8]
-    s = slug(item["title"]) or h
-    fname = f"{s}-{h}.{item['lang']}.md"
-    meta = {"title":item["title"],"date":item["date"],"source":item["source"],
-            "externalLink":item["link"],"language":item["lang"],
-            "category":item["category"],"category_label":item["category_label"],
-            "description":item["description"],"draft":False}
-    with open(os.path.join(d, fname), "w", encoding="utf-8") as f:
-        f.write("---\n")
-        yaml.safe_dump(meta, f, allow_unicode=True, sort_keys=False)
-        f.write("---\n\n")
-        f.write(item["description"] + "\n\n")
-        f.write(f"**Source: [{item['source']}]({item['link']})**\n")
-
-def main():
-    print("=" * 60)
-    print("KANDAKA NEWS FETCHER")
-    print("=" * 60)
-    os.makedirs(OUTPUT_DIR, exist_ok=True)
-    for f in os.listdir(OUTPUT_DIR):
-        if f.endswith(".md") and not f.startswith("_index"):
-            os.remove(os.path.join(OUTPUT_DIR, f))
-    all_items = []
-    for feed in FEEDS: all_items.extend(fetch(feed))
-    all_items.sort(key=lambda x: x["date"], reverse=True)
-    all_items = all_items[:MAX_TOTAL_ITEMS]
-    en = sum(1 for i in all_items if i["lang"]=="en")
-    ar = sum(1 for i in all_items if i["lang"]=="ar")
-    for item in all_items:
-        try: write_page(item, OUTPUT_DIR)
-        except Exception as ex: print(f"  Error: {ex}")
-    print(f"DONE  Total:{len(all_items)}  EN:{en}  AR:{ar}")
-
-if __name__ == "__main__": main()
+            category, clabel = catego
