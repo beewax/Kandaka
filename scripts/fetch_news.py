@@ -20,6 +20,17 @@ CATEGORIES = {
     "International": ["united nations","african union","igad","egypt","ethiopia","saudi","usa","eu ","sanctions","diplomacy","international","\u0627\u0644\u0623\u0645\u0645 \u0627\u0644\u0645\u062a\u062d\u062f\u0629","\u0627\u0644\u0627\u062a\u062d\u0627\u062f \u0627\u0644\u0623\u0641\u0631\u064a\u0642\u064a","\u0639\u0642\u0648\u0628\u0627\u062a"],
 }
 
+CATEGORIES_AR = {
+    "War & Conflict": "\u062d\u0631\u0628 \u0648\u0635\u0631\u0627\u0639",
+    "Politics": "\u0633\u064a\u0627\u0633\u0629",
+    "Economy": "\u0627\u0642\u062a\u0635\u0627\u062f",
+    "Humanitarian": "\u0625\u0646\u0633\u0627\u0646\u064a",
+    "Infrastructure": "\u0628\u0646\u064a\u0629 \u062a\u062d\u062a\u064a\u0629",
+    "Culture & Society": "\u062b\u0642\u0627\u0641\u0629 \u0648\u0645\u062c\u062a\u0645\u0639",
+    "International": "\u062f\u0648\u0644\u064a",
+    "General": "\u0639\u0627\u0645",
+}
+
 FEEDS = [
     {"name":"Radio Dabanga","url":"https://www.dabangasudan.org/en/feed","lang":"en","sudan_only":False},
     {"name":"Sudan Tribune","url":"https://sudantribune.net/feed","lang":"en","sudan_only":False},
@@ -33,12 +44,14 @@ FEEDS = [
     {"name":"BBC Arabic","url":"https://feeds.bbci.co.uk/arabic/rss.xml","lang":"ar","sudan_only":True},
 ]
 
-def categorize(title, desc):
+def categorize(title, desc, lang="en"):
     text = (title + " " + desc).lower()
     for cat, keywords in CATEGORIES.items():
         if any(k.lower() in text for k in keywords):
-            return cat
-    return "General"
+            label = CATEGORIES_AR.get(cat, cat) if lang == "ar" else cat
+            return cat, label
+    label = CATEGORIES_AR["General"] if lang == "ar" else "General"
+    return "General", label
 
 def is_arabic(text):
     if not text: return False
@@ -92,8 +105,8 @@ def fetch(feed):
             if not title or not link: continue
             lang = detect_lang(title, desc, feed["lang"])
             if feed["sudan_only"] and not is_sudan(title, desc): continue
-            category = categorize(title, desc)
-            items.append({"title":title,"link":link,"description":desc,"date":date,"source":feed["name"],"lang":lang,"category":category})
+            category, category_label = categorize(title, desc, lang)
+            items.append({"title":title,"link":link,"description":desc,"date":date,"source":feed["name"],"lang":lang,"category":category,"category_label":category_label})
             count += 1
         print(f"  + {feed['name']}: {count} items")
     except Exception as ex:
@@ -106,7 +119,8 @@ def write_page(item, d):
     fname = f"{s}-{h}.{item['lang']}.md"
     meta = {"title":item["title"],"date":item["date"],"source":item["source"],
             "externalLink":item["link"],"language":item["lang"],
-            "category":item["category"],"description":item["description"],"draft":False}
+            "category":item["category"],"category_label":item["category_label"],
+            "description":item["description"],"draft":False}
     with open(os.path.join(d, fname), "w", encoding="utf-8") as f:
         f.write("---\n")
         yaml.safe_dump(meta, f, allow_unicode=True, sort_keys=False)
