@@ -14,7 +14,7 @@
 </div>
 <div class="news-bilingual">
   <div class="news-col news-col-en">
-    <h2 class="news-col-title">&#1575;&#1604;&#1593;&#1585;&#1576;&#1610;&#1577;</h2>
+    <h2 class="news-col-title">ENGLISH</h2>
     {{- range $enPages }}
     <article class="news-card" data-category="{{ .Params.category }}">
       <span class="news-cat news-cat-{{ .Params.category | urlize }}">{{ .Params.category }}</span>
@@ -26,7 +26,7 @@
   </div>
   <div class="news-divider"></div>
   <div class="news-col news-col-ar" dir="rtl">
-    <h2 class="news-col-title">Ø§Ù„Ø¹Ø±Ø¨ÙŠØ©</h2>
+    <h2 class="news-col-title">&#1575;&#1604;&#1593;&#1585;&#1576;&#1610;&#1577;</h2>
     {{- range $arPages }}
     <article class="news-card" data-category="{{ .Params.category }}">
       <span class="news-cat news-cat-{{ .Params.category | urlize }}">{{ .Params.clabel | default .Params.category }}</span>
