@@ -2,142 +2,129 @@ baseURL = "https://kandaka.com/"
 title = "Kandaka"
 theme = "PaperMod"
 defaultContentLanguage = "en"
-defaultContentLanguageInSubdir = false
-
-[services.googleAnalytics]
-  ID = "G-MQ6B4L68WB"
 
 enableRobotsTXT = true
 buildDrafts = false
 buildFuture = false
 buildExpired = false
 
-[minify]
-  disableXML = true
-  minifyOutput = true
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+
+[services.googleAnalytics]
+  ID = "G-MQ6B4L68WB"
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 
-# ============================================
 # LANGUAGE: ENGLISH
-# ============================================
 [languages.en]
+  languageCode = "en"
   languageName = "English"
-  languageCode = "en-us"
+  languageDirection = "ltr"
   weight = 1
   title = "Kandaka"
 
   [languages.en.params]
-    description = "Independent analysis on Sudan's economy, development, history, and culture."
+    description = "Sudan news, analysis, and a digital library of scholarship on the country."
 
     [languages.en.params.homeInfoParams]
-      Title = "Kandaka"
       Content = "Named for the Kandakas — the warrior queens of ancient Nubia — this site brings their spirit of clarity and resolve to today's questions about Sudan. Articles and analysis on the country's economy and development, alongside reflections on its past, culture, and the people who shape its future."
 
   [[languages.en.menu.main]]
     identifier = "news"
     name = "News"
     url = "/news/"
-    weight = 10
 
   [[languages.en.menu.main]]
     identifier = "library"
     name = "Library"
     url = "/library/"
-    weight = 20
 
   [[languages.en.menu.main]]
     identifier = "development"
     name = "Development"
     url = "/development/"
-    weight = 30
 
   [[languages.en.menu.main]]
     identifier = "ideas"
     name = "Ideas"
     url = "/ideas/"
-    weight = 40
 
   [[languages.en.menu.main]]
     identifier = "about"
     name = "About"
     url = "/about/"
-    weight = 50
 
   [[languages.en.menu.main]]
     identifier = "search"
     name = "Search"
     url = "/search/"
-    weight = 60
 
-# ============================================
 # LANGUAGE: ARABIC
-# ============================================
 [languages.ar]
-  languageName = "العربية"
   languageCode = "ar"
+  languageName = "العربية"
   languageDirection = "rtl"
   weight = 2
-  title = "كنداكة"
+  title = "كاندكة"
 
   [languages.ar.params]
-    description = "تحليلات مستقلة حول اقتصاد السودان وتنميته وتاريخه وثقافته."
+    description = "تحليلات وأخبار السودان ومكتبة رقمية للدراسات المتعلقة بالبلاد."
 
     [languages.ar.params.homeInfoParams]
-      Title = "كنداكة"
-      Content = "سُمّي هذا الموقع تيمنًا بالكنداكات — ملكات النوبة المحاربات — وهو يستلهم روحهنّ في الوضوح والعزيمة لمقاربة قضايا السودان اليوم. مقالات وتحليلات حول الاقتصاد والتنمية، إلى جانب تأملات في تاريخ البلاد وثقافتها والناس الذين يصنعون مستقبلها."
+      Content = "نسبة إلى الكنداكة — ملكات النوبة المحاربات — تجلب هذه الروح من الوضوح والعزم إلى أسئلة اليوم عن السودان. مقالات وتحليلات حول اقتصاد البلاد وتطورها، إلى جانب تأملات في ماضيها وثقافتها وشعبها الذي يشكل مستقبلها."
 
   [[languages.ar.menu.main]]
     identifier = "news"
-    name = "أخبار"
+    name = "الأخبار"
     url = "/ar/news/"
-    weight = 10
 
   [[languages.ar.menu.main]]
     identifier = "library"
     name = "المكتبة"
     url = "/ar/library/"
-    weight = 20
 
   [[languages.ar.menu.main]]
     identifier = "development"
     name = "التنمية"
     url = "/ar/development/"
-    weight = 30
 
   [[languages.ar.menu.main]]
     identifier = "ideas"
-    name = "الأفكار"
+    name = "أفكار"
     url = "/ar/ideas/"
-    weight = 40
 
   [[languages.ar.menu.main]]
     identifier = "about"
     name = "حول"
     url = "/ar/about/"
-    weight = 50
 
   [[languages.ar.menu.main]]
     identifier = "search"
     name = "بحث"
     url = "/ar/search/"
-    weight = 60
 
-# ============================================
 # SHARED PARAMS
-# ============================================
 [params]
   env = "production"
   author = "Kandaka"
   defaultTheme = "auto"
   ShowReadingTime = true
   ShowShareButtons = true
-  ShowPostNavLinks = true
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
-  ShowWordCount = true
-  ShowRssButtonInSectionTermList = true
-  UseHugoToc = true
-  ShowLanguageSwitcher = true
-  googleAnalytics = "G-MQ6B4L68WB"
+  ShowPostNavLinks = true
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/beewax/Kandaka"
+
+  [[params.socialIcons]]
+    name = "x"
+    url = "https://x.com/kandaka"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
