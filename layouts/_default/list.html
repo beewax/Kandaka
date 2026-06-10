@@ -1,0 +1,498 @@
+{{- define "main" }}
+{{- $isAr := eq .Site.Language.Lang "ar" }}
+{{- $isHome := .IsHome }}
+
+{{- if not $isHome }}
+  {{/* Non-home: use PaperMod default list behaviour */}}
+  {{- if .Title }}
+  <header class="page-header">
+    {{- partial "breadcrumbs.html" . }}
+    <h1>{{ .Title }}</h1>
+    {{- if .Description }}<div class="post-description">{{ .Description | markdownify }}</div>{{- end }}
+  </header>
+  {{- end }}
+  {{- if .Content }}<div class="post-content md-content">{{ .Content }}</div>{{- end }}
+  {{- $pages := union .RegularPages .Sections }}
+  {{- $paginator := .Paginate $pages }}
+  {{- range $paginator.Pages }}
+  <article class="post-entry">
+    <header class="entry-header"><h2>{{ .Title }}</h2></header>
+    {{- if (ne (.Param "hideSummary") true) }}
+    <div class="entry-content"><p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p></div>
+    {{- end }}
+    <footer class="entry-footer">{{- partial "post_meta.html" . -}}</footer>
+    <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
+  </article>
+  {{- end }}
+  {{- if gt $paginator.TotalPages 1 }}
+  <footer class="page-footer"><nav class="pagination">
+    {{- if $paginator.HasPrev }}<a class="prev" href="{{ $paginator.Prev.URL | absURL }}">«&nbsp;{{ i18n "prev_page" }}</a>{{- end }}
+    {{- if $paginator.HasNext }}<a class="next" href="{{ $paginator.Next.URL | absURL }}">{{ i18n "next_page" }}&nbsp;»</a>{{- end }}
+  </nav></footer>
+  {{- end }}
+{{- else }}
+
+{{/* ═══════════════════════════════════════════════
+     KANDAKA CUSTOM HOMEPAGE
+     ═══════════════════════════════════════════════ */}}
+
+<style>
+/* ── Reset home-info flag image (replaced by SVG hero) ── */
+article.first-entry.home-info::before { display: none !important; }
+
+/* ── Hero ── */
+.k-hero {
+  position: relative;
+  overflow: hidden;
+  border-radius: 14px;
+  margin: 0 0 48px;
+  background: linear-gradient(135deg, #0a1a3a 0%, #0f2d5a 60%, #1a4a2e 100%);
+  padding: 48px 36px 40px;
+  color: #fff;
+}
+.k-hero-svg {
+  position: absolute; inset: 0;
+  width: 100%; height: 100%;
+  opacity: 0.13; pointer-events: none;
+}
+.k-hero-inner { position: relative; z-index: 1; flex: 1; min-width: 0; }
+.k-hero-layout {
+  position: relative; z-index: 1;
+  display: flex; align-items: center; gap: 24px;
+}
+.k-hero-flag {
+  flex-shrink: 0;
+  opacity: 0.92;
+  filter: drop-shadow(0 4px 16px rgba(0,0,0,0.4));
+}
+.k-hero-flag img { display: block; width: 160px; height: auto; }
+@media (max-width: 600px) { .k-hero-flag { display: none; } }
+.k-hero h1 {
+  font-size: clamp(1.8rem, 4vw, 2.8rem);
+  font-weight: 800;
+  margin: 0 0 14px;
+  line-height: 1.15;
+  color: #fff;
+  font-family: Georgia, serif;
+}
+.k-hero h1 span {
+  background: linear-gradient(90deg, #FFC700, #FFD84D);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.k-hero p {
+  font-size: 1.05rem;
+  line-height: 1.65;
+  color: rgba(255,255,255,0.85);
+  margin: 0 0 24px;
+}
+.k-hero-cta { display: flex; gap: 12px; flex-wrap: wrap; }
+.k-btn {
+  display: inline-block;
+  padding: 10px 22px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none !important;
+}
+.k-btn-primary { background: #FFC700; color: #0a1a3a !important; }
+.k-btn-secondary { background: rgba(255,255,255,0.12); color: #fff !important; border: 1px solid rgba(255,255,255,0.25); }
+.k-btn:hover { opacity: 0.88; }
+
+/* ── Section headers ── */
+.k-section { margin: 0 0 48px; }
+.k-section-head {
+  display: flex; align-items: baseline;
+  justify-content: space-between;
+  border-bottom: 2px solid var(--border);
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+.k-section-head h2 { font-size: 1.25rem; margin: 0; color: var(--primary); }
+.k-section-head a { font-size: 13px; color: var(--secondary); text-decoration: none; }
+.k-section-head a:hover { color: var(--primary); }
+
+/* ── News grid ── */
+.k-news-grid {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+}
+.k-news-card {
+  background: var(--entry);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 18px;
+  display: flex; flex-direction: column;
+  position: relative;
+}
+.k-news-badge {
+  display: inline-block;
+  font-size: 11px; font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+.badge-war { background: #fef2f2; color: #991b1b; }
+.badge-politics { background: #eff6ff; color: #1d4ed8; }
+.badge-economy { background: #f0fdf4; color: #166534; }
+.badge-international { background: #faf5ff; color: #6b21a8; }
+.badge-analysis { background: #fff7ed; color: #9a3412; }
+.badge-default { background: var(--code-bg); color: var(--secondary); }
+html[data-theme="dark"] .badge-war { background: #450a0a; color: #fca5a5; }
+html[data-theme="dark"] .badge-politics { background: #1e3a5f; color: #93c5fd; }
+html[data-theme="dark"] .badge-economy { background: #052e16; color: #86efac; }
+html[data-theme="dark"] .badge-international { background: #2e1065; color: #d8b4fe; }
+html[data-theme="dark"] .badge-analysis { background: #431407; color: #fdba74; }
+.k-news-card h3 { font-size: 15px; line-height: 1.4; margin: 0 0 8px; color: var(--primary); }
+.k-news-desc { font-size: 13px; color: var(--secondary); line-height: 1.5; margin: 0 0 14px; flex: 1; }
+.k-news-footer { display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: var(--secondary); margin-top: auto; }
+.k-news-link {
+  display: inline-block; font-size: 12px; font-weight: 600;
+  color: var(--primary) !important; text-decoration: none;
+  padding: 4px 10px; border: 1px solid var(--border);
+  border-radius: 5px; white-space: nowrap;
+}
+.k-news-link:hover { background: var(--border); }
+
+/* ── Photo + Library strip ── */
+.k-two-col { display: grid; gap: 32px; grid-template-columns: 1fr 1fr; }
+@media (max-width: 800px) { .k-two-col { grid-template-columns: 1fr; } }
+
+/* ── Illustration cards ── */
+.k-photo-stack { display: flex; flex-direction: column; gap: 14px; }
+.k-photo-card {
+  border-radius: 10px; overflow: hidden;
+  position: relative; background: var(--entry);
+  border: 1px solid var(--border);
+}
+.k-photo-card svg { width: 100%; height: 180px; display: block; }
+.k-photo-caption {
+  padding: 10px 14px;
+  font-size: 13px; color: var(--secondary);
+  border-top: 1px solid var(--border);
+}
+.k-photo-caption strong { color: var(--primary); display: block; margin-bottom: 2px; }
+.k-photo-caption a { color: var(--secondary); font-size: 11px; }
+
+/* ── Library featured ── */
+.k-lib-stack { display: flex; flex-direction: column; gap: 14px; }
+.k-lib-card {
+  background: var(--entry);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 16px;
+  display: flex; gap: 14px; align-items: flex-start;
+}
+.k-lib-icon {
+  flex-shrink: 0;
+  width: 42px; height: 52px;
+  background: linear-gradient(135deg, #0f3dab, #0a2260);
+  border-radius: 6px;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 20px;
+}
+.k-lib-body { flex: 1; min-width: 0; }
+.k-lib-body h3 { font-size: 14px; line-height: 1.35; margin: 0 0 4px; color: var(--primary); }
+.k-lib-body p { font-size: 12px; color: var(--secondary); margin: 0 0 10px; }
+.k-lib-btn {
+  font-size: 12px; font-weight: 600;
+  padding: 4px 10px; border-radius: 5px;
+  text-decoration: none !important;
+  display: inline-block;
+}
+.k-lib-btn-dl { background: var(--primary); color: var(--theme) !important; }
+.k-lib-btn-src { border: 1px solid var(--border); color: var(--primary) !important; }
+
+/* ── SEO: visually hidden ── */
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
+</style>
+
+{{/* ── SEO: JSON-LD WebSite schema ── */}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "{{ .Site.Title }}",
+  "url": "{{ .Site.BaseURL }}",
+  "description": "{{ if $isAr }}تحليلات مستقلة حول اقتصاد السودان وتنميته وتاريخه وثقافته{{ else }}Independent analysis on Sudan's economy, development, history, and culture{{ end }}",
+  "inLanguage": ["en", "ar"],
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "{{ .Site.BaseURL }}{{ if $isAr }}ar/{{ end }}search/?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+
+{{/* ══════════════════ HERO ══════════════════ */}}
+<section class="k-hero" aria-label="{{ if $isAr }}مقدمة{{ else }}Introduction{{ end }}">
+  <svg class="k-hero-svg" viewBox="0 0 900 320" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <polygon points="120,260 180,140 240,260" fill="#FFC700" opacity="0.6"/>
+    <polygon points="210,260 285,100 360,260" fill="#FFC700" opacity="0.5"/>
+    <polygon points="320,260 405,70 490,260" fill="#FFC700" opacity="0.4"/>
+    <path d="M0,290 Q100,270 200,290 Q300,310 400,290 Q500,270 600,290 Q700,310 800,290 Q850,282 900,290 L900,320 L0,320 Z" fill="#0F3DAB" opacity="0.35"/>
+    <circle cx="640" cy="70" r="2.5" fill="#FFC700" opacity="0.8"/>
+    <circle cx="700" cy="45" r="1.8" fill="#fff" opacity="0.6"/>
+    <circle cx="760" cy="85" r="2" fill="#fff" opacity="0.5"/>
+    <circle cx="820" cy="55" r="1.5" fill="#FFC700" opacity="0.7"/>
+    <circle cx="580" cy="115" r="1.5" fill="#fff" opacity="0.5"/>
+  </svg>
+  <div class="k-hero-layout">
+    <div class="k-hero-inner">
+      {{- if $isAr }}
+      <h1>{{ .Site.Title }} — <span>كنداكة</span></h1>
+      <p>{{ (.Site.Params.homeInfoParams.Content) | default "منصة تحليلية مستقلة حول السودان — اقتصاداً وتاريخاً وثقافةً وتنمية." }}</p>
+      <div class="k-hero-cta">
+        <a class="k-btn k-btn-primary" href="/ar/news/">آخر الأخبار</a>
+        <a class="k-btn k-btn-secondary" href="/ar/library/">المكتبة</a>
+      </div>
+      {{- else }}
+      <h1>Kandaka — <span>The Sudan Knowledge Platform</span></h1>
+      <p>{{ (.Site.Params.homeInfoParams.Content) | default "Independent analysis on Sudan's economy, development, history, and culture." }}</p>
+      <div class="k-hero-cta">
+        <a class="k-btn k-btn-primary" href="/news/">Latest News</a>
+        <a class="k-btn k-btn-secondary" href="/library/">Browse Library</a>
+      </div>
+      {{- end }}
+    </div>
+    <div class="k-hero-flag">
+      <img src="/images/flag.svg" alt="Sudan flag" width="180" height="120">
+    </div>
+  </div>
+</section>
+
+{{/* ══════════════════ LATEST NEWS ══════════════════ */}}
+{{- $allPosts := where site.RegularPages "Section" "posts" }}
+{{- if $isAr }}
+  {{- $allPosts = where $allPosts "Params.language" "ar" }}
+{{- else }}
+  {{- $allPosts = where $allPosts "Params.language" "en" }}
+{{- end }}
+{{- $latestPosts := first 6 ($allPosts | complement (where $allPosts "Params.hiddenInHomeList" true)) }}
+
+<section class="k-section" aria-labelledby="news-heading">
+  <div class="k-section-head">
+    <h2 id="news-heading">{{ if $isAr }}آخر الأخبار{{ else }}Latest News{{ end }}</h2>
+    <a href="{{ if $isAr }}/ar/news/{{ else }}/news/{{ end }}">{{ if $isAr }}كل الأخبار ←{{ else }}All news →{{ end }}</a>
+  </div>
+  <div class="k-news-grid" role="list">
+  {{- range $latestPosts }}
+    {{- $cat := .Params.category | default "" | lower }}
+    {{- $badgeClass := "badge-default" }}
+    {{- if or (eq $cat "war") (eq $cat "conflict") (eq $cat "humanitarian") }}{{- $badgeClass = "badge-war" }}
+    {{- else if or (eq $cat "politics") (eq $cat "governance") (eq $cat "diplomacy") }}{{- $badgeClass = "badge-politics" }}
+    {{- else if or (eq $cat "economy") (eq $cat "business") (eq $cat "finance") }}{{- $badgeClass = "badge-economy" }}
+    {{- else if eq $cat "international" }}{{- $badgeClass = "badge-international" }}
+    {{- else if eq $cat "analysis" }}{{- $badgeClass = "badge-analysis" }}
+    {{- end }}
+    <article class="k-news-card" role="listitem">
+      {{- with .Params.category }}
+      <span class="k-news-badge {{ $badgeClass }}">{{ . }}</span>
+      {{- end }}
+      <h3>{{ .Title | truncate 90 }}</h3>
+      {{- with .Params.description }}
+      <p class="k-news-desc">{{ . | truncate 130 }}</p>
+      {{- end }}
+      <div class="k-news-footer">
+        <span>{{ if .Params.source }}{{ .Params.source }}{{ end }}</span>
+        {{- if .Params.link }}
+        <a class="k-news-link" href="{{ .Params.link }}" target="_blank" rel="noopener noreferrer">
+          {{ if $isAr }}اقرأ ←{{ else }}Read →{{ end }}
+        </a>
+        {{- else }}
+        <a class="k-news-link" href="{{ .Permalink }}">
+          {{ if $isAr }}اقرأ ←{{ else }}Read →{{ end }}
+        </a>
+        {{- end }}
+      </div>
+    </article>
+  {{- end }}
+  </div>
+</section>
+
+{{/* ══════════════════ PHOTOS + LIBRARY ══════════════════ */}}
+<div class="k-two-col">
+
+  {{/* ── Sudan Photography ── */}}
+  <section class="k-section" aria-labelledby="photos-heading">
+    <div class="k-section-head">
+      <h2 id="photos-heading">{{ if $isAr }}السودان بالصور{{ else }}Sudan in Images{{ end }}</h2>
+    </div>
+    <div class="k-photo-stack">
+
+      <div class="k-photo-card">
+        <svg viewBox="0 0 400 180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="{{ if $isAr }}أهرامات مروي{{ else }}Meroe Pyramids{{ end }}">
+          <!-- Sky -->
+          <rect width="400" height="180" fill="#1a3a5c"/>
+          <!-- Stars -->
+          <circle cx="40" cy="25" r="1.2" fill="#fff" opacity="0.8"/>
+          <circle cx="80" cy="15" r="0.9" fill="#fff" opacity="0.6"/>
+          <circle cx="130" cy="30" r="1.1" fill="#fff" opacity="0.7"/>
+          <circle cx="200" cy="12" r="1.3" fill="#FFC700" opacity="0.9"/>
+          <circle cx="260" cy="28" r="0.9" fill="#fff" opacity="0.6"/>
+          <circle cx="330" cy="18" r="1.1" fill="#fff" opacity="0.7"/>
+          <circle cx="370" cy="35" r="0.8" fill="#fff" opacity="0.5"/>
+          <!-- Desert ground -->
+          <rect x="0" y="140" width="400" height="40" fill="#c4922a"/>
+          <rect x="0" y="145" width="400" height="35" fill="#d4a235" opacity="0.5"/>
+          <!-- Pyramid 1 (tallest, centre) -->
+          <polygon points="200,55 240,140 160,140" fill="#e8c060"/>
+          <polygon points="200,55 240,140 220,140" fill="#b8922a" opacity="0.4"/>
+          <!-- Pyramid 2 (left) -->
+          <polygon points="130,75 165,140 95,140" fill="#dab84a"/>
+          <polygon points="130,75 165,140 148,140" fill="#b8922a" opacity="0.35"/>
+          <!-- Pyramid 3 (right) -->
+          <polygon points="285,80 318,140 252,140" fill="#d4a840"/>
+          <polygon points="285,80 318,140 302,140" fill="#b8922a" opacity="0.35"/>
+          <!-- Pyramid 4 (far left, small) -->
+          <polygon points="55,100 78,140 32,140" fill="#c89830" opacity="0.8"/>
+          <!-- Pyramid 5 (far right, small) -->
+          <polygon points="355,105 375,140 335,140" fill="#c89830" opacity="0.8"/>
+          <!-- Moon -->
+          <circle cx="340" cy="30" r="14" fill="#FFC700" opacity="0.9"/>
+          <circle cx="348" cy="26" r="11" fill="#1a3a5c"/>
+        </svg>
+        <div class="k-photo-caption">
+          <strong>{{ if $isAr }}أهرامات مروي — إرث النوبة الملكي{{ else }}Meroe Pyramids — Royal Nubian Heritage{{ end }}</strong>
+          {{ if $isAr }}ولاية نهر النيل، السودان{{ else }}Nile State, Sudan{{ end }}
+        </div>
+      </div>
+
+      <div class="k-photo-card">
+        <svg viewBox="0 0 400 180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="{{ if $isAr }}نهر النيل عند الخرطوم{{ else }}Nile at Khartoum{{ end }}">
+          <!-- Sky gradient -->
+          <defs>
+            <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stop-color="#ff7043"/>
+              <stop offset="40%" stop-color="#ffa726"/>
+              <stop offset="100%" stop-color="#1a3a5c"/>
+            </linearGradient>
+            <linearGradient id="waterGrad" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stop-color="#1565c0"/>
+              <stop offset="100%" stop-color="#0d47a1"/>
+            </linearGradient>
+          </defs>
+          <rect width="400" height="180" fill="url(#skyGrad)"/>
+          <!-- Sun -->
+          <circle cx="200" cy="70" r="28" fill="#FFC700" opacity="0.95"/>
+          <circle cx="200" cy="70" r="22" fill="#FFD740"/>
+          <!-- City silhouette -->
+          <rect x="0" y="100" width="40" height="40" fill="#0d2137"/>
+          <rect x="35" y="88" width="25" height="52" fill="#0d2137"/>
+          <rect x="55" y="105" width="30" height="35" fill="#0d2137"/>
+          <rect x="80" y="95" width="20" height="45" fill="#0d2137"/>
+          <!-- Mosque dome and minaret -->
+          <rect x="105" y="100" width="35" height="40" fill="#0d2137"/>
+          <ellipse cx="122" cy="100" rx="18" ry="10" fill="#0d2137"/>
+          <rect x="138" y="78" width="6" height="30" fill="#0d2137"/>
+          <circle cx="141" cy="76" r="4" fill="#0d2137"/>
+          <!-- More buildings -->
+          <rect x="155" y="105" width="25" height="35" fill="#0d2137"/>
+          <rect x="175" y="95" width="20" height="45" fill="#0d2137"/>
+          <rect x="190" y="108" width="30" height="32" fill="#0d2137"/>
+          <rect x="215" y="98" width="22" height="42" fill="#0d2137"/>
+          <rect x="232" y="105" width="28" height="35" fill="#0d2137"/>
+          <rect x="255" y="92" width="18" height="48" fill="#0d2137"/>
+          <rect x="268" y="103" width="32" height="37" fill="#0d2137"/>
+          <rect x="295" y="97" width="20" height="43" fill="#0d2137"/>
+          <rect x="310" y="106" width="28" height="34" fill="#0d2137"/>
+          <rect x="333" y="100" width="22" height="40" fill="#0d2137"/>
+          <rect x="350" y="108" width="50" height="32" fill="#0d2137"/>
+          <!-- Nile water -->
+          <rect x="0" y="135" width="400" height="45" fill="url(#waterGrad)"/>
+          <!-- Reflections on water -->
+          <path d="M160,140 Q180,145 200,140 Q220,135 240,140" stroke="#FFC700" stroke-width="1.5" fill="none" opacity="0.5"/>
+          <path d="M150,150 Q175,155 200,150 Q225,145 250,150" stroke="#FFC700" stroke-width="1" fill="none" opacity="0.3"/>
+          <!-- Felucca boat -->
+          <path d="M90,143 Q110,138 130,143" stroke="#e8c060" stroke-width="1.5" fill="none"/>
+          <line x1="110" y1="143" x2="110" y2="128" stroke="#e8c060" stroke-width="1"/>
+          <path d="M110,128 Q122,133 110,138" fill="#e8c060" opacity="0.8"/>
+        </svg>
+        <div class="k-photo-caption">
+          <strong>{{ if $isAr }}الخرطوم على النيل — غروب الشمس{{ else }}Khartoum on the Nile — Sunset{{ end }}</strong>
+          {{ if $isAr }}ملتقى النيلين الأبيض والأزرق{{ else }}Confluence of the Blue and White Nile{{ end }}
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  {{/* ── Featured Library ── */}}
+  <section class="k-section" aria-labelledby="library-heading">
+    <div class="k-section-head">
+      <h2 id="library-heading">{{ if $isAr }}من المكتبة{{ else }}From the Library{{ end }}</h2>
+      <a href="{{ if $isAr }}/ar/library/{{ else }}/library/{{ end }}">{{ if $isAr }}كل الكتب ←{{ else }}All books →{{ end }}</a>
+    </div>
+    <div class="k-lib-stack">
+
+      {{/* Featured 1: The Sudan Handbook */}}
+      {{- $feat1 := dict }}
+      {{- range site.Data.library.books }}
+        {{- if eq .title "The Sudan Handbook" }}{{- $feat1 = . }}{{- end }}
+      {{- end }}
+      {{- with $feat1 }}
+      <div class="k-lib-card">
+        <div class="k-lib-icon">📖</div>
+        <div class="k-lib-body">
+          <h3>{{ if and $isAr .title_ar }}{{ .title_ar }}{{ else }}{{ .title }}{{ end }}</h3>
+          <p>{{ .author }}{{ with .year }} · {{ . }}{{ end }}</p>
+          {{- with .download }}
+          <a class="k-lib-btn k-lib-btn-dl" href="{{ . }}" target="_blank" rel="noopener">
+            {{ if $isAr }}تحميل PDF{{ else }}Download PDF{{ end }}
+          </a>
+          {{- end }}
+        </div>
+      </div>
+      {{- end }}
+
+      {{/* Featured 2: Osman Digna */}}
+      {{- $feat2 := dict }}
+      {{- range site.Data.library.books }}
+        {{- if eq .title "Osman Digna" }}{{- $feat2 = . }}{{- end }}
+      {{- end }}
+      {{- with $feat2 }}
+      <div class="k-lib-card">
+        <div class="k-lib-icon">⚔️</div>
+        <div class="k-lib-body">
+          <h3>{{ if and $isAr .title_ar }}{{ .title_ar }}{{ else }}{{ .title }}{{ end }}</h3>
+          <p>{{ .author }}{{ with .year }} · {{ . }}{{ end }}</p>
+          {{- with .download }}
+          <a class="k-lib-btn k-lib-btn-dl" href="{{ . }}" target="_blank" rel="noopener">
+            {{ if $isAr }}تحميل PDF{{ else }}Download PDF{{ end }}
+          </a>
+          {{- end }}
+        </div>
+      </div>
+      {{- end }}
+
+      {{/* Featured 3: UNCTAD Investment Policy Review */}}
+      {{- $feat3 := dict }}
+      {{- range site.Data.library.books }}
+        {{- if eq .title "Investment Policy Review of the Sudan" }}{{- $feat3 = . }}{{- end }}
+      {{- end }}
+      {{- with $feat3 }}
+      <div class="k-lib-card">
+        <div class="k-lib-icon">📊</div>
+        <div class="k-lib-body">
+          <h3>{{ if and $isAr .title_ar }}{{ .title_ar }}{{ else }}{{ .title }}{{ end }}</h3>
+          <p>{{ .author }}{{ with .year }} · {{ . }}{{ end }}</p>
+          {{- with .download }}
+          <a class="k-lib-btn k-lib-btn-dl" href="{{ . }}" target="_blank" rel="noopener">
+            {{ if $isAr }}تحميل PDF{{ else }}Download PDF{{ end }}
+          </a>
+          {{- end }}
+        </div>
+      </div>
+      {{- end }}
+
+    </div>
+  </section>
+
+</div>
+
+{{- end }}{{/* end isHome */}}
+{{- end }}{{/* end main */}}

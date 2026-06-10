@@ -1,0 +1,153 @@
+{{ define "main" }}
+{{- $isAr := eq .Site.Language.Lang "ar" -}}
+<style>
+.lib-header { margin: 24px 0 12px; }
+.lib-header h1 { margin-bottom: 8px; }
+.lib-intro { color: var(--secondary); margin-bottom: 20px; }
+.lib-controls { margin-bottom: 20px; }
+#lib-search {
+  width: 100%; padding: 10px 14px; font-size: 16px;
+  border: 1px solid var(--border); border-radius: 8px;
+  background: var(--entry); color: var(--primary);
+  margin-bottom: 12px;
+}
+.lib-tags { display: flex; flex-wrap: wrap; gap: 8px; }
+.lib-tag {
+  padding: 5px 12px; font-size: 13px; cursor: pointer;
+  border: 1px solid var(--border); border-radius: 16px;
+  background: var(--entry); color: var(--secondary);
+}
+.lib-tag.active { background: var(--primary); color: var(--theme); border-color: var(--primary); }
+.lib-count { font-size: 14px; color: var(--secondary); margin: 14px 0; }
+.lib-grid {
+  display: grid; gap: 16px;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+}
+.lib-card {
+  background: var(--entry); border: 1px solid var(--border);
+  border-radius: 10px; padding: 18px;
+  display: flex; flex-direction: column;
+}
+.lib-card h3 { font-size: 16px; line-height: 1.4; margin: 0 0 8px; color: var(--primary); }
+.lib-meta { font-size: 13px; color: var(--secondary); margin-bottom: 10px; }
+.lib-orig { font-size: 12px; color: var(--secondary); opacity: 0.75; margin: -4px 0 8px; }
+.lib-desc { font-size: 13px; color: var(--secondary); line-height: 1.5; margin: 0 0 12px; }
+.lib-chips { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 14px; }
+.lib-chip {
+  font-size: 11px; padding: 2px 9px; border-radius: 10px;
+  background: var(--code-bg); color: var(--secondary);
+}
+.lib-action { margin-top: auto; }
+.lib-btn {
+  display: inline-block; padding: 7px 14px; font-size: 13px;
+  border-radius: 6px; text-decoration: none; font-weight: 500;
+}
+.lib-btn-dl { background: var(--primary); color: var(--theme) !important; }
+.lib-btn-src { border: 1px solid var(--primary); color: var(--primary) !important; }
+.lib-card.hidden { display: none; }
+</style>
+
+<header class="lib-header page-header">
+  <h1>{{ .Title }}</h1>
+  <div class="lib-intro">{{ .Content }}</div>
+</header>
+
+<div class="lib-controls">
+  <input type="text" id="lib-search" placeholder="{{ if $isAr }}ابحث بالعنوان أو المؤلف…{{ else }}Search by title or author…{{ end }}">
+  <div class="lib-tags" id="lib-tags">
+    <span class="lib-tag active" data-tag="">{{ if $isAr }}الكل{{ else }}All{{ end }}</span>
+    {{- $tagsAr := dict
+      "History" "التاريخ"
+      "Archaeology & Heritage" "الآثار والتراث"
+      "Economy & Development" "الاقتصاد والتنمية"
+      "Agriculture" "الزراعة"
+      "Water & Nile" "المياه والنيل"
+      "Infrastructure" "البنية التحتية"
+      "Urban Planning" "التخطيط العمراني"
+      "Energy" "الطاقة"
+      "Governance & Politics" "الحكم والسياسة"
+      "Minerals & Mining" "المعادن والتعدين"
+      "Environment & Climate" "البيئة والمناخ"
+      "Religion & Society" "الدين والمجتمع"
+      "Education" "التعليم"
+      "Regional & Geopolitics" "الإقليم والجيوسياسة"
+      "Maps & Reference" "خرائط ومراجع"
+    -}}
+    {{- $allTags := slice -}}
+    {{- range site.Data.library.books -}}
+      {{- range .tags -}}
+        {{- if not (in $allTags .) }}{{ $allTags = $allTags | append . }}{{ end -}}
+      {{- end -}}
+    {{- end -}}
+    {{- range sort $allTags }}
+    <span class="lib-tag" data-tag="{{ . }}">{{ if $isAr }}{{ index $tagsAr . | default . }}{{ else }}{{ . }}{{ end }}</span>
+    {{- end }}
+  </div>
+</div>
+
+<div class="lib-count"><span id="lib-shown"></span> {{ if $isAr }}من{{ else }}of{{ end }} <span id="lib-total"></span> {{ if $isAr }}مادة{{ else }}items{{ end }}</div>
+
+<div class="lib-grid" id="lib-grid">
+  {{- range sort site.Data.library.books "title" }}
+  {{- $b := . }}
+  <div class="lib-card" data-tags="{{ delimit .tags "|" }}" data-text="{{ lower .title }} {{ lower .author }}{{ with .title_ar }} {{ . }}{{ end }}">
+    <h3>{{ if and $isAr .title_ar }}{{ .title_ar }}{{ else }}{{ .title }}{{ end }}</h3>
+    {{- if and $isAr .title_ar }}<div class="lib-orig">{{ .title }}</div>{{ end }}
+    <div class="lib-meta">{{ .author }}{{ with .year }} · {{ . }}{{ end }}</div>
+    {{- if $isAr }}{{ with .desc_ar }}<p class="lib-desc">{{ . }}</p>{{ end }}{{ else }}{{ with .desc }}<p class="lib-desc">{{ . }}</p>{{ end }}{{ end }}
+    <div class="lib-chips">
+      {{- range .tags }}
+      <span class="lib-chip">{{ if $isAr }}{{ index $tagsAr . | default . }}{{ else }}{{ . }}{{ end }}</span>
+      {{- end }}
+    </div>
+    <div class="lib-action">
+      {{- with .download }}
+      <a class="lib-btn lib-btn-dl" href="{{ . }}" target="_blank" rel="noopener">{{ if $isAr }}تحميل PDF{{ else }}Download PDF{{ end }}</a>
+      {{- else }}
+        {{- if $b.source }}
+        <a class="lib-btn lib-btn-src" href="{{ $b.source }}" target="_blank" rel="noopener noreferrer">{{ if $isAr }}عرض المصدر{{ else }}View at source{{ end }}</a>
+        {{- else }}
+        <a class="lib-btn lib-btn-src" href="https://www.google.com/search?q={{ urlquery (printf "%q %s" $b.title $b.author) }}" target="_blank" rel="noopener noreferrer">{{ if $isAr }}ابحث عنه{{ else }}Find online{{ end }}</a>
+        {{- end }}
+      {{- end }}
+    </div>
+  </div>
+  {{- end }}
+</div>
+
+<script>
+(function () {
+  var cards = Array.from(document.querySelectorAll('.lib-card'));
+  var search = document.getElementById('lib-search');
+  var tagBtns = Array.from(document.querySelectorAll('.lib-tag'));
+  var shown = document.getElementById('lib-shown');
+  var total = document.getElementById('lib-total');
+  var activeTag = '';
+  total.textContent = cards.length;
+
+  function apply() {
+    var q = search.value.trim().toLowerCase();
+    var n = 0;
+    cards.forEach(function (c) {
+      var okTag = !activeTag || c.dataset.tags.split('|').indexOf(activeTag) !== -1;
+      var okText = !q || c.dataset.text.indexOf(q) !== -1;
+      var show = okTag && okText;
+      c.classList.toggle('hidden', !show);
+      if (show) n++;
+    });
+    shown.textContent = n;
+  }
+
+  search.addEventListener('input', apply);
+  tagBtns.forEach(function (b) {
+    b.addEventListener('click', function () {
+      tagBtns.forEach(function (x) { x.classList.remove('active'); });
+      b.classList.add('active');
+      activeTag = b.dataset.tag;
+      apply();
+    });
+  });
+  apply();
+})();
+</script>
+{{ end }}

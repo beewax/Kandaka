@@ -1,4 +1,25 @@
-﻿<style>
+﻿{{/* ── SEO: Open Graph + Twitter Cards for every page ── */}}
+{{- $desc := .Description | default .Site.Params.description }}
+{{- $title := .Title | default .Site.Title }}
+<meta property="og:site_name" content="{{ .Site.Title }}">
+<meta property="og:locale" content="{{ .Site.Language.LanguageCode }}">
+{{- if .IsHome }}
+<meta property="og:type" content="website">
+{{- else }}
+<meta property="og:type" content="article">
+{{- end }}
+<meta property="og:title" content="{{ $title }}">
+<meta property="og:description" content="{{ $desc | truncate 200 }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Meroe_Pyramids_23deg06min18sec_E_16deg56min17sec_N.jpg/800px-Meroe_Pyramids_23deg06min18sec_E_16deg56min17sec_N.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ $title }}">
+<meta name="twitter:description" content="{{ $desc | truncate 200 }}">
+<meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Meroe_Pyramids_23deg06min18sec_E_16deg56min17sec_N.jpg/800px-Meroe_Pyramids_23deg06min18sec_E_16deg56min17sec_N.jpg">
+{{- with .Params.source }}<meta name="article:publisher" content="{{ . }}">{{- end }}
+<link rel="canonical" href="{{ .Permalink }}">
+
+<style>
 /* Sudan 1956 flag hero */
 article.first-entry.home-info::before {
   content: "";
@@ -52,6 +73,10 @@ html[lang="ar"] .lang-menu a[href$="/"]:not([href*="/ar"])::after {
   background-position: 0 100%;
   padding-bottom: 7px;
 }
+
+/* ── RTL support for Arabic ── */
+html[lang="ar"] body { direction: rtl; }
+html[lang="ar"] .k-section-head a { direction: ltr; }
 
 /* Hide "Powered by Hugo & PaperMod" footer line */
 .footer span:nth-of-type(2) {
