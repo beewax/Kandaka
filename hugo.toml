@@ -43,6 +43,11 @@ pygmentsCodeFences = true
     url = "/development/"
 
   [[languages.en.menu.main]]
+    identifier = "ideas"
+    name = "Ideas"
+    url = "/ideas/"
+
+  [[languages.en.menu.main]]
     identifier = "about"
     name = "About"
     url = "/about/"
@@ -76,6 +81,11 @@ pygmentsCodeFences = true
     identifier = "development"
     name = "التنمية"
     url = "/ar/development/"
+
+  [[languages.ar.menu.main]]
+    identifier = "ideas"
+    name = "أفكار"
+    url = "/ar/ideas/"
 
   [[languages.ar.menu.main]]
     identifier = "about"
