@@ -242,23 +242,23 @@ html[data-theme="dark"] .badge-analysis { background: #431407; color: #fdba74; }
     <circle cx="580" cy="115" r="1.5" fill="#fff" opacity="0.5"/>
   </svg>
   <div class="k-hero-layout">
-    <div class="k-hero-inner">
-      {{- if $isAr }}
-      <h1>{{ .Site.Title }} — <span>كنداكة</span></h1>
-      <p>{{ (.Site.Params.homeInfoParams.Content) | default "منصة تحليلية مستقلة حول السودان — اقتصاداً وتاريخاً وثقافةً وتنمية." }}</p>
-      <div class="k-hero-cta">
-        <a class="k-btn k-btn-primary" href="/ar/news/">آخر الأخبار</a>
-        <a class="k-btn k-btn-secondary" href="/ar/library/">المكتبة</a>
-      </div>
-      {{- else }}
-      <h1>Kandaka — <span>The Sudan Knowledge Platform</span></h1>
-      <p>{{ (.Site.Params.homeInfoParams.Content) | default "Independent analysis on Sudan's economy, development, history, and culture." }}</p>
-      <div class="k-hero-cta">
-        <a class="k-btn k-btn-primary" href="/news/">Latest News</a>
-        <a class="k-btn k-btn-secondary" href="/library/">Browse Library</a>
-      </div>
-      {{- end }}
-    </div>
+<div class="k-hero-inner">
+  {{- if $isAr }}
+  <h1>{{ .Site.Title }} — <span>كاندكة</span></h1>
+  <p>نسبة إلى الكنداكة — ملكات النوبة المحاربات — تجلب هذه الروح من الوضوح والعزم إلى أسئلة اليوم عن السودان. مقالات وتحليلات حول اقتصاد البلاد وتطورها، إلى جانب تأملات في ماضيها وثقافتها وشعبها الذي يشكل مستقبلها.</p>
+  <div class="k-hero-cta">
+    <a class="k-btn k-btn-primary" href="/ar/news/">آخر الأخبار</a>
+    <a class="k-btn k-btn-secondary" href="/ar/library/">المكتبة</a>
+  </div>
+  {{- else }}
+  <h1>Kandaka — <span>The Sudan Knowledge Platform</span></h1>
+  <p>Named for the Kandakas — the warrior queens of ancient Nubia — this site brings their spirit of clarity and resolve to today's questions about Sudan. Articles and analysis on the country's economy and development, alongside reflections on its past, culture, and the people who shape its future.</p>
+  <div class="k-hero-cta">
+    <a class="k-btn k-btn-primary" href="/news/">Latest News</a>
+    <a class="k-btn k-btn-secondary" href="/library/">Library</a>
+  </div>
+  {{- end }}
+</div>
     <div class="k-hero-flag">
       <img src="/images/flag.svg" alt="Sudan flag" width="180" height="120">
     </div>
@@ -290,8 +290,8 @@ html[data-theme="dark"] .badge-analysis { background: #431407; color: #fdba74; }
     {{- else if eq $cat "analysis" }}{{- $badgeClass = "badge-analysis" }}
     {{- end }}
     <article class="k-news-card" role="listitem">
-      {{- with .Params.category }}
-      <span class="k-news-badge {{ $badgeClass }}">{{ . }}</span>
+      {{- if .Params.category }}
+      <span class="k-news-badge {{ $badgeClass }}">{{ if and $isAr .Params.clabel }}{{ .Params.clabel }}{{ else }}{{ .Params.category }}{{ end }}</span>
       {{- end }}
       <h3>{{ .Title | truncate 90 }}</h3>
       {{- with .Params.description }}

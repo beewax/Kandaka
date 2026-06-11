@@ -27,10 +27,6 @@ pygmentsCodeFences = true
 
   [languages.en.params]
     description = "Sudan news, analysis, and a digital library of scholarship on the country."
-
-    [languages.en.params.homeInfoParams]
-      Content = "Named for the Kandakas — the warrior queens of ancient Nubia — this site brings their spirit of clarity and resolve to today's questions about Sudan. Articles and analysis on the country's economy and development, alongside reflections on its past, culture, and the people who shape its future."
-
   [[languages.en.menu.main]]
     identifier = "news"
     name = "News"
@@ -64,48 +60,43 @@ pygmentsCodeFences = true
 # LANGUAGE: ARABIC
 [languages.ar]
   languageCode = "ar"
-  languageName = "العربية"
+  languageName = "Ã˜Â§Ã™â€žÃ˜Â¹Ã˜Â±Ã˜Â¨Ã™Å Ã˜Â©"
   languageDirection = "rtl"
   weight = 2
-  title = "كاندكة"
+  title = "Ã™Æ’Ã˜Â§Ã™â€ Ã˜Â¯Ã™Æ’Ã˜Â©"
 
   [languages.ar.params]
-    description = "تحليلات وأخبار السودان ومكتبة رقمية للدراسات المتعلقة بالبلاد."
-
-    [languages.ar.params.homeInfoParams]
-      Content = "نسبة إلى الكنداكة — ملكات النوبة المحاربات — تجلب هذه الروح من الوضوح والعزم إلى أسئلة اليوم عن السودان. مقالات وتحليلات حول اقتصاد البلاد وتطورها، إلى جانب تأملات في ماضيها وثقافتها وشعبها الذي يشكل مستقبلها."
-
+    description = "Ã˜ÂªÃ˜Â­Ã™â€žÃ™Å Ã™â€žÃ˜Â§Ã˜Âª Ã™Ë†Ã˜Â£Ã˜Â®Ã˜Â¨Ã˜Â§Ã˜Â± Ã˜Â§Ã™â€žÃ˜Â³Ã™Ë†Ã˜Â¯Ã˜Â§Ã™â€  Ã™Ë†Ã™â€¦Ã™Æ’Ã˜ÂªÃ˜Â¨Ã˜Â© Ã˜Â±Ã™â€šÃ™â€¦Ã™Å Ã˜Â© Ã™â€žÃ™â€žÃ˜Â¯Ã˜Â±Ã˜Â§Ã˜Â³Ã˜Â§Ã˜Âª Ã˜Â§Ã™â€žÃ™â€¦Ã˜ÂªÃ˜Â¹Ã™â€žÃ™â€šÃ˜Â© Ã˜Â¨Ã˜Â§Ã™â€žÃ˜Â¨Ã™â€žÃ˜Â§Ã˜Â¯."
   [[languages.ar.menu.main]]
     identifier = "news"
-    name = "الأخبار"
+    name = "Ã˜Â§Ã™â€žÃ˜Â£Ã˜Â®Ã˜Â¨Ã˜Â§Ã˜Â±"
     url = "/ar/news/"
 
   [[languages.ar.menu.main]]
     identifier = "library"
-    name = "المكتبة"
+    name = "Ã˜Â§Ã™â€žÃ™â€¦Ã™Æ’Ã˜ÂªÃ˜Â¨Ã˜Â©"
     url = "/ar/library/"
 
   [[languages.ar.menu.main]]
     identifier = "development"
-    name = "التنمية"
+    name = "Ã˜Â§Ã™â€žÃ˜ÂªÃ™â€ Ã™â€¦Ã™Å Ã˜Â©"
     url = "/ar/development/"
 
   [[languages.ar.menu.main]]
     identifier = "ideas"
-    name = "أفكار"
+    name = "Ã˜Â£Ã™ÂÃ™Æ’Ã˜Â§Ã˜Â±"
     url = "/ar/ideas/"
 
   [[languages.ar.menu.main]]
     identifier = "about"
-    name = "حول"
+    name = "Ã˜Â­Ã™Ë†Ã™â€ž"
     url = "/ar/about/"
 
   [[languages.ar.menu.main]]
     identifier = "search"
-    name = "بحث"
+    name = "Ã˜Â¨Ã˜Â­Ã˜Â«"
     url = "/ar/search/"
 
-# SHARED PARAMS
 [params]
   env = "production"
   author = "Kandaka"
