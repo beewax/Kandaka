@@ -1,0 +1,31 @@
+{{- $p := .page }}
+{{- $isAr := .isAr }}
+{{- $cat := $p.Params.category | default "" | lower }}
+{{- $badgeClass := "badge-default" }}
+{{- if or (eq $cat "war") (eq $cat "conflict") (eq $cat "humanitarian") }}{{- $badgeClass = "badge-war" }}
+{{- else if or (eq $cat "politics") (eq $cat "governance") (eq $cat "diplomacy") }}{{- $badgeClass = "badge-politics" }}
+{{- else if or (eq $cat "economy") (eq $cat "business") (eq $cat "finance") }}{{- $badgeClass = "badge-economy" }}
+{{- else if eq $cat "international" }}{{- $badgeClass = "badge-international" }}
+{{- else if eq $cat "analysis" }}{{- $badgeClass = "badge-analysis" }}
+{{- end }}
+<article class="k-news-card" role="listitem">
+  {{- if $p.Params.category }}
+  <span class="k-news-badge {{ $badgeClass }}">{{ if and $isAr $p.Params.clabel }}{{ $p.Params.clabel }}{{ else }}{{ $p.Params.category }}{{ end }}</span>
+  {{- end }}
+  <h3>{{ $p.Title | truncate 90 }}</h3>
+  {{- with $p.Params.description }}
+  <p class="k-news-desc">{{ . | truncate 130 }}</p>
+  {{- end }}
+  <div class="k-news-footer">
+    <span>{{ if $p.Params.source }}{{ $p.Params.source }}{{ end }}</span>
+    {{- if $p.Params.link }}
+    <a class="k-news-link" href="{{ $p.Params.link }}" target="_blank" rel="noopener noreferrer">
+      {{ if $isAr }}اقرأ ←{{ else }}Read →{{ end }}
+    </a>
+    {{- else }}
+    <a class="k-news-link" href="{{ $p.Permalink }}">
+      {{ if $isAr }}اقرأ ←{{ else }}Read →{{ end }}
+    </a>
+    {{- end }}
+  </div>
+</article>
