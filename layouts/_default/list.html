@@ -208,6 +208,36 @@ html[data-theme="dark"] .badge-analysis { background: #431407; color: #fdba74; }
 .k-lib-btn-dl { background: var(--primary); color: var(--theme) !important; }
 .k-lib-btn-src { border: 1px solid var(--border); color: var(--primary) !important; }
 
+/* ── Bilingual news columns ── */
+.k-news-bilingual {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+@media (max-width: 700px) {
+  .k-news-bilingual { grid-template-columns: 1fr; }
+}
+.k-news-col-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 8px;
+  margin-bottom: 12px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--secondary);
+}
+.k-news-col-head a {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--secondary);
+  text-decoration: none;
+}
+.k-news-col-head a:hover { color: var(--primary); }
+.k-news-col .k-news-card { margin-bottom: 12px; }
+.k-news-col .k-news-card:last-child { margin-bottom: 0; }
+
 /* ── SEO: visually hidden ── */
 .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
 </style>
@@ -266,52 +296,78 @@ html[data-theme="dark"] .badge-analysis { background: #431407; color: #fdba74; }
   </div>
 </section>
 
-{{/* ══════════════════ LATEST NEWS ══════════════════ */}}
+{{/* ══════════════════ LATEST NEWS — bilingual 3+3 ══════════════════ */}}
 {{- $allPosts := where site.RegularPages "Section" "posts" }}
-{{- if $isAr }}
-  {{- $allPosts = where $allPosts "Params.language" "ar" }}
-{{- else }}
-  {{- $allPosts = where $allPosts "Params.language" "en" }}
+{{- $enPosts := first 3 (where $allPosts "Params.language" "en") }}
+{{- $arPosts := first 3 (where $allPosts "Params.language" "ar") }}
+
+{{/* shared macro: render a news card */}}
+{{- define "newsCard" }}
+  {{- $p := .page }}
+  {{- $isAr := .isAr }}
+  {{- $cat := $p.Params.category | default "" | lower }}
+  {{- $badgeClass := "badge-default" }}
+  {{- if or (eq $cat "war") (eq $cat "conflict") (eq $cat "humanitarian") }}{{- $badgeClass = "badge-war" }}
+  {{- else if or (eq $cat "politics") (eq $cat "governance") (eq $cat "diplomacy") }}{{- $badgeClass = "badge-politics" }}
+  {{- else if or (eq $cat "economy") (eq $cat "business") (eq $cat "finance") }}{{- $badgeClass = "badge-economy" }}
+  {{- else if eq $cat "international" }}{{- $badgeClass = "badge-international" }}
+  {{- else if eq $cat "analysis" }}{{- $badgeClass = "badge-analysis" }}
+  {{- end }}
+  <article class="k-news-card" role="listitem">
+    {{- if $p.Params.category }}
+    <span class="k-news-badge {{ $badgeClass }}">{{ if and $isAr $p.Params.clabel }}{{ $p.Params.clabel }}{{ else }}{{ $p.Params.category }}{{ end }}</span>
+    {{- end }}
+    <h3>{{ $p.Title | truncate 90 }}</h3>
+    {{- with $p.Params.description }}
+    <p class="k-news-desc">{{ . | truncate 130 }}</p>
+    {{- end }}
+    <div class="k-news-footer">
+      <span>{{ if $p.Params.source }}{{ $p.Params.source }}{{ end }}</span>
+      {{- if $p.Params.link }}
+      <a class="k-news-link" href="{{ $p.Params.link }}" target="_blank" rel="noopener noreferrer">
+        {{ if $isAr }}اقرأ ←{{ else }}Read →{{ end }}
+      </a>
+      {{- else }}
+      <a class="k-news-link" href="{{ $p.Permalink }}">
+        {{ if $isAr }}اقرأ ←{{ else }}Read →{{ end }}
+      </a>
+      {{- end }}
+    </div>
+  </article>
 {{- end }}
-{{- $latestPosts := first 6 ($allPosts | complement (where $allPosts "Params.hiddenInHomeList" true)) }}
 
 <section class="k-section" aria-labelledby="news-heading">
   <div class="k-section-head">
     <h2 id="news-heading">{{ if $isAr }}آخر الأخبار{{ else }}Latest News{{ end }}</h2>
-    <a href="{{ if $isAr }}/ar/news/{{ else }}/news/{{ end }}">{{ if $isAr }}كل الأخبار ←{{ else }}All news →{{ end }}</a>
   </div>
-  <div class="k-news-grid" role="list">
-  {{- range $latestPosts }}
-    {{- $cat := .Params.category | default "" | lower }}
-    {{- $badgeClass := "badge-default" }}
-    {{- if or (eq $cat "war") (eq $cat "conflict") (eq $cat "humanitarian") }}{{- $badgeClass = "badge-war" }}
-    {{- else if or (eq $cat "politics") (eq $cat "governance") (eq $cat "diplomacy") }}{{- $badgeClass = "badge-politics" }}
-    {{- else if or (eq $cat "economy") (eq $cat "business") (eq $cat "finance") }}{{- $badgeClass = "badge-economy" }}
-    {{- else if eq $cat "international" }}{{- $badgeClass = "badge-international" }}
-    {{- else if eq $cat "analysis" }}{{- $badgeClass = "badge-analysis" }}
-    {{- end }}
-    <article class="k-news-card" role="listitem">
-      {{- if .Params.category }}
-      <span class="k-news-badge {{ $badgeClass }}">{{ if and $isAr .Params.clabel }}{{ .Params.clabel }}{{ else }}{{ .Params.category }}{{ end }}</span>
-      {{- end }}
-      <h3>{{ .Title | truncate 90 }}</h3>
-      {{- with .Params.description }}
-      <p class="k-news-desc">{{ . | truncate 130 }}</p>
-      {{- end }}
-      <div class="k-news-footer">
-        <span>{{ if .Params.source }}{{ .Params.source }}{{ end }}</span>
-        {{- if .Params.link }}
-        <a class="k-news-link" href="{{ .Params.link }}" target="_blank" rel="noopener noreferrer">
-          {{ if $isAr }}اقرأ ←{{ else }}Read →{{ end }}
-        </a>
-        {{- else }}
-        <a class="k-news-link" href="{{ .Permalink }}">
-          {{ if $isAr }}اقرأ ←{{ else }}Read →{{ end }}
-        </a>
+  <div class="k-news-bilingual">
+
+    {{/* ── English column ── */}}
+    <div class="k-news-col">
+      <div class="k-news-col-head">
+        <span>English</span>
+        <a href="/news/">All news →</a>
+      </div>
+      <div role="list">
+        {{- range $enPosts }}
+        {{- template "newsCard" (dict "page" . "isAr" false) }}
         {{- end }}
       </div>
-    </article>
-  {{- end }}
+    </div>
+
+    {{/* ── Arabic column ── */}}
+    <div class="k-news-col" dir="rtl">
+      <div class="k-news-col-head">
+        <span>العربية</span>
+        <a href="/ar/news/">كل الأخبار ←</a>
+      </div>
+      <div role="list">
+        {{- range $arPosts }}
+        {{- template "newsCard" (dict "page" . "isAr" true) }}
+        {{- end }}
+      </div>
+    </div>
+
   </div>
 </section>
 
