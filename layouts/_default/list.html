@@ -437,80 +437,36 @@ html[data-theme="dark"] .badge-analysis { background: #431407; color: #fdba74; }
     </div>
   </section>
 
-  {{/* ── Featured Library ── */}}
+  {{/* ── Featured Library — 3 random books per build ── */}}
   <section class="k-section" aria-labelledby="library-heading">
     <div class="k-section-head">
       <h2 id="library-heading">{{ if $isAr }}من المكتبة{{ else }}From the Library{{ end }}</h2>
       <a href="{{ if $isAr }}/ar/library/{{ else }}/library/{{ end }}">{{ if $isAr }}كل الكتب ←{{ else }}All books →{{ end }}</a>
     </div>
     <div class="k-lib-stack">
-
-      {{/* Featured 1: The Sudan Handbook */}}
-      {{- $feat1 := dict }}
-      {{- range site.Data.library.books }}
-        {{- if eq .title "The Sudan Handbook" }}{{- $feat1 = . }}{{- end }}
-      {{- end }}
-      {{- with $feat1 }}
+      {{- $icons := slice "📖" "📊" "🗺️" "⚔️" "🌍" "🏛️" "💧" "🌾" "🔬" "📜" }}
+      {{- $featured := first 3 (shuffle site.Data.library.books) }}
+      {{- range $i, $book := $featured }}
+      {{- $icon := index $icons (mod $i (len $icons)) }}
       <div class="k-lib-card">
-        <div class="k-lib-icon">📖</div>
+        <div class="k-lib-icon">{{ $icon }}</div>
         <div class="k-lib-body">
-          <h3>{{ if and $isAr .title_ar }}{{ .title_ar }}{{ else }}{{ .title }}{{ end }}</h3>
-          <p>{{ .author }}{{ with .year }} · {{ . }}{{ end }}</p>
-          {{- $d1 := cond (and $isAr .desc_ar) .desc_ar .desc }}
-          {{- with $d1 }}<p style="font-size:11px;color:var(--secondary);margin:-4px 0 8px;line-height:1.5;">{{ . | truncate 110 }}</p>{{- end }}
-          {{- with .download }}
-          <a class="k-lib-btn k-lib-btn-dl" href="{{ . }}" target="_blank" rel="noopener">
+          <h3>{{ if and $isAr $book.title_ar }}{{ $book.title_ar }}{{ else }}{{ $book.title }}{{ end }}</h3>
+          <p>{{ $book.author }}{{ with $book.year }} · {{ . }}{{ end }}</p>
+          {{- $desc := cond (and $isAr $book.desc_ar) $book.desc_ar $book.desc }}
+          {{- with $desc }}<p style="font-size:11px;color:var(--secondary);margin:-4px 0 8px;line-height:1.5;">{{ . | truncate 110 }}</p>{{- end }}
+          {{- if $book.download }}
+          <a class="k-lib-btn k-lib-btn-dl" href="{{ $book.download }}" target="_blank" rel="noopener">
             {{ if $isAr }}تحميل PDF{{ else }}Download PDF{{ end }}
+          </a>
+          {{- else if $book.link }}
+          <a class="k-lib-btn k-lib-btn-src" href="{{ $book.link }}" target="_blank" rel="noopener">
+            {{ if $isAr }}عرض المصدر{{ else }}View source{{ end }}
           </a>
           {{- end }}
         </div>
       </div>
       {{- end }}
-
-      {{/* Featured 2: Osman Digna */}}
-      {{- $feat2 := dict }}
-      {{- range site.Data.library.books }}
-        {{- if eq .title "Osman Digna" }}{{- $feat2 = . }}{{- end }}
-      {{- end }}
-      {{- with $feat2 }}
-      <div class="k-lib-card">
-        <div class="k-lib-icon">⚔️</div>
-        <div class="k-lib-body">
-          <h3>{{ if and $isAr .title_ar }}{{ .title_ar }}{{ else }}{{ .title }}{{ end }}</h3>
-          <p>{{ .author }}{{ with .year }} · {{ . }}{{ end }}</p>
-          {{- $d2 := cond (and $isAr .desc_ar) .desc_ar .desc }}
-          {{- with $d2 }}<p style="font-size:11px;color:var(--secondary);margin:-4px 0 8px;line-height:1.5;">{{ . | truncate 110 }}</p>{{- end }}
-          {{- with .download }}
-          <a class="k-lib-btn k-lib-btn-dl" href="{{ . }}" target="_blank" rel="noopener">
-            {{ if $isAr }}تحميل PDF{{ else }}Download PDF{{ end }}
-          </a>
-          {{- end }}
-        </div>
-      </div>
-      {{- end }}
-
-      {{/* Featured 3: UNCTAD Investment Policy Review */}}
-      {{- $feat3 := dict }}
-      {{- range site.Data.library.books }}
-        {{- if eq .title "Investment Policy Review of the Sudan" }}{{- $feat3 = . }}{{- end }}
-      {{- end }}
-      {{- with $feat3 }}
-      <div class="k-lib-card">
-        <div class="k-lib-icon">📊</div>
-        <div class="k-lib-body">
-          <h3>{{ if and $isAr .title_ar }}{{ .title_ar }}{{ else }}{{ .title }}{{ end }}</h3>
-          <p>{{ .author }}{{ with .year }} · {{ . }}{{ end }}</p>
-          {{- $d3 := cond (and $isAr .desc_ar) .desc_ar .desc }}
-          {{- with $d3 }}<p style="font-size:11px;color:var(--secondary);margin:-4px 0 8px;line-height:1.5;">{{ . | truncate 110 }}</p>{{- end }}
-          {{- with .download }}
-          <a class="k-lib-btn k-lib-btn-dl" href="{{ . }}" target="_blank" rel="noopener">
-            {{ if $isAr }}تحميل PDF{{ else }}Download PDF{{ end }}
-          </a>
-          {{- end }}
-        </div>
-      </div>
-      {{- end }}
-
     </div>
   </section>
 
