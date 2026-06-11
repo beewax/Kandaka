@@ -35,7 +35,7 @@ The report's recovery framework rests on three pillars:
 
 ## What the Report Does Not Say
 
-The report does not discuss industrialization. Like every major Western assessment before it, the recovery vision for Sudan is: stabilize → grow agriculture → open markets. The question of what productive industrial structure Sudan should be building over 15–20 years is not asked. See the [Kandaka Library Analysis 2026](/development/sudan-library-analysis-2026/) for a full critique of this pattern.
+The report does not discuss industrialization. Like every major Western assessment before it, the recovery vision for Sudan is: stabilize → grow agriculture → open markets. The question of what productive industrial structure Sudan should be building over 15–20 years is not asked. This pattern — agriculture as the ceiling, not the floor — is one of the defining gaps in how Western institutions have analyzed Sudan for forty years.
 
 ---
 

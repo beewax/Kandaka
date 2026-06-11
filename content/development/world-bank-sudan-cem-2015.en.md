@@ -42,7 +42,7 @@ The CEM maps a sequenced development pathway specific to Sudan's endowments:
 
 The 2025 World Bank Sudan Economic Update confirmed that the 2023 war has dramatically set back Sudan's economy — but it did not change the underlying diagnosis. The agricultural endowments remain. The potential remains. The CEM describes what Sudan needs to rebuild *toward*; the 2025 update describes how much further back the starting line has moved.
 
-Read the [Kandaka Library Analysis 2026](/development/sudan-library-analysis-2026/) for context on this paper's place in the full collection, including a critique of what the CEM — and Western development analysis of Sudan more broadly — leaves out.
+This paper reads best alongside the [World Bank Sudan Economic Update 2025](/development/world-bank-sudan-economic-update-2025/), which documents how much the 2023 war has deepened the crisis the CEM was trying to address.
 
 ---
 
