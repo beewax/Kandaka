@@ -33,7 +33,7 @@ We believe in evidence over ideology, in local knowledge over imported prescript
 
 ## Editorial Standards
 
-Kandaka is editorially independent. We do not accept sponsored content, paid placements, or political funding. Advertising may appear on this site through third-party networks; it has no influence on our editorial decisions or content.
+Kandaka is editorially independent. We do not accept sponsored content, paid placements, or political funding.
 
 We link to original sources rather than reproducing copyrighted material.
 
