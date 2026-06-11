@@ -1,0 +1,13 @@
+name: Daily rebuild
+
+on:
+  schedule:
+    - cron: '0 6 * * *'   # 6 AM UTC = 2 AM ET / 9 AM Sudan time
+  workflow_dispatch:        # also allow manual trigger from GitHub
+
+jobs:
+  trigger-netlify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Netlify build hook
+        run: curl -X POST -d '{}' https://api.netlify.com/build_hooks/6a243f5aba8dd56f53b2e624
