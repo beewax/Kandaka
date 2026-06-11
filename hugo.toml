@@ -60,41 +60,41 @@ pygmentsCodeFences = true
 # LANGUAGE: ARABIC
 [languages.ar]
   languageCode = "ar"
-  languageName = "Ã˜Â§Ã™â€žÃ˜Â¹Ã˜Â±Ã˜Â¨Ã™Å Ã˜Â©"
+  languageName = "العربية"
   languageDirection = "rtl"
   weight = 2
-  title = "Ã™Æ’Ã˜Â§Ã™â€ Ã˜Â¯Ã™Æ’Ã˜Â©"
+  title = "كاندكة"
 
   [languages.ar.params]
-    description = "Ã˜ÂªÃ˜Â­Ã™â€žÃ™Å Ã™â€žÃ˜Â§Ã˜Âª Ã™Ë†Ã˜Â£Ã˜Â®Ã˜Â¨Ã˜Â§Ã˜Â± Ã˜Â§Ã™â€žÃ˜Â³Ã™Ë†Ã˜Â¯Ã˜Â§Ã™â€  Ã™Ë†Ã™â€¦Ã™Æ’Ã˜ÂªÃ˜Â¨Ã˜Â© Ã˜Â±Ã™â€šÃ™â€¦Ã™Å Ã˜Â© Ã™â€žÃ™â€žÃ˜Â¯Ã˜Â±Ã˜Â§Ã˜Â³Ã˜Â§Ã˜Âª Ã˜Â§Ã™â€žÃ™â€¦Ã˜ÂªÃ˜Â¹Ã™â€žÃ™â€šÃ˜Â© Ã˜Â¨Ã˜Â§Ã™â€žÃ˜Â¨Ã™â€žÃ˜Â§Ã˜Â¯."
+    description = "تحليلات وأخبار السودان ومكتبة رقمية للدراسات المتعلقة بالبلاد."
   [[languages.ar.menu.main]]
     identifier = "news"
-    name = "Ã˜Â§Ã™â€žÃ˜Â£Ã˜Â®Ã˜Â¨Ã˜Â§Ã˜Â±"
+    name = "الأخبار"
     url = "/ar/news/"
 
   [[languages.ar.menu.main]]
     identifier = "library"
-    name = "Ã˜Â§Ã™â€žÃ™â€¦Ã™Æ’Ã˜ÂªÃ˜Â¨Ã˜Â©"
+    name = "المكتبة"
     url = "/ar/library/"
 
   [[languages.ar.menu.main]]
     identifier = "development"
-    name = "Ã˜Â§Ã™â€žÃ˜ÂªÃ™â€ Ã™â€¦Ã™Å Ã˜Â©"
+    name = "التنمية"
     url = "/ar/development/"
 
   [[languages.ar.menu.main]]
     identifier = "ideas"
-    name = "Ã˜Â£Ã™ÂÃ™Æ’Ã˜Â§Ã˜Â±"
+    name = "أفكار"
     url = "/ar/ideas/"
 
   [[languages.ar.menu.main]]
     identifier = "about"
-    name = "Ã˜Â­Ã™Ë†Ã™â€ž"
+    name = "حول"
     url = "/ar/about/"
 
   [[languages.ar.menu.main]]
     identifier = "search"
-    name = "Ã˜Â¨Ã˜Â­Ã˜Â«"
+    name = "بحث"
     url = "/ar/search/"
 
 [params]
