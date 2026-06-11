@@ -297,12 +297,26 @@ html[data-theme="dark"] .badge-analysis { background: #431407; color: #fdba74; }
 </section>
 
 {{/* ══════════════════ LATEST NEWS — bilingual 3+3 ══════════════════ */}}
-{{- $enPosts := first 3 (where site.RegularPages "Params.language" "en") }}
-{{- $arSite := index (where site.Sites "Language.Lang" "ar") 0 }}
+{{/* Split by Arabic script in title — reliable regardless of language param */}}
+{{- $allRecent := first 40 (where site.RegularPages "Section" "posts") }}
+{{- $enPosts := slice }}
 {{- $arPosts := slice }}
-{{- if $arSite }}
-  {{- $arPosts = first 3 (where $arSite.RegularPages "Section" "posts") }}
+{{- range $allRecent }}
+  {{- if findRE "[\x{0600}-\x{06FF}]" .Title }}
+    {{- $arPosts = $arPosts | append . }}
+  {{- else }}
+    {{- $enPosts = $enPosts | append . }}
+  {{- end }}
 {{- end }}
+{{/* Also pull properly-filed .ar.md posts from the Arabic site */}}
+{{- $arSite := index (where site.Sites "Language.Lang" "ar") 0 }}
+{{- if $arSite }}
+  {{- range first 5 (where $arSite.RegularPages "Section" "posts") }}
+    {{- $arPosts = $arPosts | append . }}
+  {{- end }}
+{{- end }}
+{{- $enPosts = first 3 $enPosts }}
+{{- $arPosts = first 3 $arPosts }}
 
 <section class="k-section" aria-labelledby="news-heading">
   <div class="k-section-head">
