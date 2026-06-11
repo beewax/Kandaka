@@ -1,6 +1,6 @@
 ---
 title: "The Nile as a Highway: River Transport for Sudan's Future"
-date: '2026-06-11'
+date: '2026-06-01'
 author: "Kandaka"
 category: "Infrastructure"
 description: "Sudan has one of the world's great rivers running through its heart for nearly 2,000 kilometres. Its roads are broken, its railway is collapsed, and its fuel supply is disrupted. The answer to the transport crisis may have been there all along."

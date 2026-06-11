@@ -1,6 +1,6 @@
 ---
 title: "The Cheapest Investment Sudan Can Make: A National School Lunch Programme"
-date: '2026-06-11'
+date: '2026-06-01'
 author: "Kandaka"
 category: "Education"
 description: "A bowl of food at school is one of the highest-return investments a country can make. It keeps children in school, supports local farmers, and builds the human capital that every other development goal depends on. Sudan needs a national school feeding programme — and the model already exists."

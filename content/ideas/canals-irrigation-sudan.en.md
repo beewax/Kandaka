@@ -1,6 +1,6 @@
 ---
 title: "Sudan's Unfarmed Breadbasket: The Case for New Irrigation Canals"
-date: '2026-06-11'
+date: '2026-06-01'
 author: "Kandaka"
 category: "Agriculture"
 description: "Sudan has 80 million hectares of arable land and enough Nile water to irrigate far more of it than it does. A century after the Gezira Scheme proved the concept, the infrastructure to unlock Sudan's agricultural potential still hasn't been built."
