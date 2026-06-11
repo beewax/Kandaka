@@ -2,4 +2,4 @@
 title: "Ideas"
 description: "Development ideas, best practices, and futurology for Sudan."
 ---
-Ideas and best practices for Sudan's future. Coming soon.
+Development ideas, proposals, and thinking for Sudan's future — across energy, agriculture, infrastructure, and education.
