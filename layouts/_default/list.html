@@ -297,9 +297,12 @@ html[data-theme="dark"] .badge-analysis { background: #431407; color: #fdba74; }
 </section>
 
 {{/* ══════════════════ LATEST NEWS — bilingual 3+3 ══════════════════ */}}
-{{- $allPosts := where site.RegularPages "Section" "posts" }}
-{{- $enPosts := first 3 (where $allPosts "Params.language" "en") }}
-{{- $arPosts := first 3 (where $allPosts "Params.language" "ar") }}
+{{- $enPosts := first 3 (where site.RegularPages "Params.language" "en") }}
+{{- $arSite := index (where site.Sites "Language.Lang" "ar") 0 }}
+{{- $arPosts := slice }}
+{{- if $arSite }}
+  {{- $arPosts = first 3 (where $arSite.RegularPages "Section" "posts") }}
+{{- end }}
 
 <section class="k-section" aria-labelledby="news-heading">
   <div class="k-section-head">
