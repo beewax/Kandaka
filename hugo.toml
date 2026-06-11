@@ -28,7 +28,7 @@ pygmentsCodeFences = true
   [languages.en.params]
     description = "Sudan news, analysis, and a digital library of scholarship on the country."
     [languages.en.params.footer]
-      text = "[About](/about/) · [Contact](mailto:admin@kandaka.com)"
+      text = "[About](/about/) - [Contact](mailto:admin@kandaka.com)"
   [[languages.en.menu.main]]
     identifier = "news"
     name = "News"
@@ -70,7 +70,7 @@ pygmentsCodeFences = true
   [languages.ar.params]
     description = "تحليلات وأخبار السودان ومكتبة رقمية للدراسات المتعلقة بالبلاد."
     [languages.ar.params.footer]
-      text = "[حول](/ar/about/) · [تواصل](mailto:admin@kandaka.com)"
+      text = "[حول](/ar/about/) - [تواصل](mailto:admin@kandaka.com)"
   [[languages.ar.menu.main]]
     identifier = "news"
     name = "الأخبار"
@@ -110,7 +110,6 @@ pygmentsCodeFences = true
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
   ShowPostNavLinks = true
-
 
   [[params.socialIcons]]
     name = "github"

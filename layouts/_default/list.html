@@ -315,7 +315,7 @@ html[data-theme="dark"] .badge-analysis { background: #431407; color: #fdba74; }
 {{/* EN posts: from EN site, exclude Arabic-script titles (misfiled posts) */}}
 {{- if $enSite }}
   {{- range first 20 (where $enSite.RegularPages "Section" "posts") }}
-    {{- if not (findRE "[\x{0600}-\x{06FF}]" .Title) }}
+    {{- if not (findRE `[\x{0600}-\x{06FF}]` .Title) }}
       {{- $enPosts = $enPosts | append . }}
     {{- end }}
   {{- end }}
@@ -328,7 +328,7 @@ html[data-theme="dark"] .badge-analysis { background: #431407; color: #fdba74; }
 {{- end }}
 {{- if $enSite }}
   {{- range first 20 (where $enSite.RegularPages "Section" "posts") }}
-    {{- if findRE "[\x{0600}-\x{06FF}]" .Title }}
+    {{- if findRE `[\x{0600}-\x{06FF}]` .Title }}
       {{- $arPosts = $arPosts | append . }}
     {{- end }}
   {{- end }}
