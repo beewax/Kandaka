@@ -144,7 +144,13 @@ Sudan's agricultural potential has been described and quantified in dozens of re
 
 The vision of Sudan as a breadbasket — for the Arab world, for East Africa, for itself — is not a fantasy. It is an engineering problem with known solutions, manageable costs, and documented returns, sitting behind a set of institutional and governance challenges that are hard but not impossible. The canal is not a metaphor. It is a ditch in the ground that carries water from where there is too much to where there is none.
 
-Sudan has been digging those ditches for five thousand years, since the Nubians first channelled the Nile onto their fields. The only question is whether the country will find the governance and the financing to do it at the scale that the land — and its people — deserve.
+But the breadbasket vision only makes sense if it is understood correctly. Sudan growing more sorghum and exporting it raw is a step forward. Sudan growing more sorghum, milling it into flour, and exporting the flour is a bigger step — more value retained, more employment created, more sophisticated productive capacity built. Sudan growing sorghum, milling it, using the bran for animal feed, and exporting both flour and livestock products is bigger still. The canal creates the agricultural base. What happens next — the processing plants, the cold storage, the packaging facilities, the logistics chains — is where the development actually occurs.
+
+This is not a novel argument. Alexander Hamilton made it in 1791 when he argued that the United States should not simply export raw cotton to British mills but should build the capacity to turn cotton into cloth. Every country that has successfully developed has followed some version of this sequence: first the productive infrastructure, then the industries that use it, then the exports that reflect value added rather than raw endowment. Sudan's canal network is infrastructure in Hamilton's sense — not just useful in itself, but the physical precondition for the manufacturing and processing sector that should follow.
+
+The countries that advise Sudan to "stick to its comparative advantage" in raw agricultural exports are, consciously or not, advising it to remain in a permanent position of subordination to those who add value downstream. That advice should be heard, understood, and rejected.
+
+Sudan has been digging irrigation ditches for five thousand years, since the Nubians first channelled the Nile onto their fields. The only question is whether the country will find the governance and the financing to do it at the scale the land deserves — and the political clarity to insist on capturing the value of what grows there.
 
 ---
 
