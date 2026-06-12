@@ -16,8 +16,12 @@ The Ideas section draws on a specific tradition in development economics. These 
 4. **Ha-Joon Chang — *Economics: The User's Guide***
    Accessible demystification of economic concepts. There are at least nine schools of economic thought; when an economist presents something as "the economics of X" they are presenting one school's contested view as objective science. When the IMF says Sudan "must" liberalise its exchange rate, that is a neoclassical prescription -- not a law of nature. The register (intelligent general reader, no jargon) is also a model for how Kandaka should write.
 
+5. **William Foote Whyte & Kathleen King Whyte — *Making Mondragón: The Growth and Dynamics of the Worker Cooperative Complex***
+   The Mondragón cooperatives in the Basque Country are the most successful example of worker-owned industrial enterprise in the 20th century — a network of manufacturing companies, a bank, a university, and social services, all cooperative-owned and worker-governed. The book documents how they were built: starting from one small workshop in 1956, scaling deliberately, using the cooperative bank (Caja Laboral) as the financial engine for new enterprise creation, and maintaining democratic governance through growth. Key lessons for Sudan: cooperative ownership is not an obstacle to industrial scale; the financial institution (the bank) was the strategic hub; local ownership of productive assets keeps value in the community; and the model emerged from a poor, peripheral, politically marginalised region — not from a wealthy country with mature institutions. The Mondragón model is relevant to the solar cooperative argument, agricultural processing cooperatives, and any article about ownership structure in Sudanese enterprises.
+
 ## The Intellectual Lineage
 Hamilton → Friedrich List → Gerschenkron → Ha-Joon Chang
+Mondragón: Arizmendiarrieta → cooperative industrial enterprise at scale
 
 ## Editorial Voice
 - Empirically grounded, not ideological. Not arguing for socialism — pointing out what successful developers actually did.
@@ -32,6 +36,7 @@ Hamilton → Friedrich List → Gerschenkron → Ha-Joon Chang
 - **Local ownership and capability-building** must be the design principle of every project, not an afterthought. International contractors who build and leave create assets without capabilities.
 - **The "natural endowment" trap.** Being told you're an agricultural country is not a compliment — it's a ceiling. Hamilton destroyed this argument in 1791.
 - **Historical precedent exists.** Sudan's challenges are not unique. Other countries solved them with deliberate policy.
+- **Cooperative ownership scales.** Mondragón disproves the assumption that worker-owned enterprises must stay small. The cooperative bank financing new cooperative enterprises is a replicable model — relevant to solar, agricultural processing, and beyond.
 
 ## What Kandaka Is Not
 - Not a free-market libertarian site
