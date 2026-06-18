@@ -36,6 +36,18 @@ SUDAN_AR = [
     "كسلا", "عطبرة"
 ]
 
+# Non-Sudan countries/regions to block when Sudan is not in the title
+AFRICA_OTHER = [
+    "kenya", "nigeria", "ghana", "ethiopia", "somalia", "libya",
+    "egypt", "tanzania", "uganda", "rwanda", "liberia", "mali",
+    "senegal", "cameroon", "angola", "mozambique", "zimbabwe",
+    "zambia", "congo", "drc", "ivory coast", "burkina faso",
+    "south africa", "niger", "chad", "eritrea", "djibouti",
+    "morocco", "algeria", "tunisia", "botswana", "namibia",
+    "madagascar", "malawi", "sierra leone", "guinea", "togo",
+    "benin", "gabon", "lesotho", "eswatini", "comoros"
+]
+
 def is_sudan_relevant(text_en, text_ar=""):
     text_en_lower = (text_en or "").lower()
     for kw in SUDAN_EN:
@@ -45,6 +57,13 @@ def is_sudan_relevant(text_en, text_ar=""):
         if kw in (text_ar or ""):
             return True
     return False
+
+def is_other_africa_only(title, desc):
+    """Returns True if article is about another African country but NOT Sudan."""
+    combined = (title + " " + desc).lower()
+    has_other = any(kw in combined for kw in AFRICA_OTHER)
+    sudan_in_title = any(kw in title.lower() for kw in SUDAN_EN)
+    return has_other and not sudan_in_title
 
 def detect_arabic(text):
     if not text:
@@ -199,6 +218,9 @@ def main():
                 if not is_sudan_relevant(title + " " + desc):
                     skipped += 1
                     continue
+                if is_other_africa_only(title, desc):
+                    skipped += 1
+                    continue
 
             # Skip digest wrappers
             if "all of africa today" in title.lower():
@@ -221,7 +243,7 @@ def main():
                 "draft":    False,
             }
 
-            body = f"{desc}\n\n[{feed['name']} →]({link})" if desc else f"[{feed['name']} →]({link})"
+            body = f"{desc}\n\n[{feed['name']} ->]({link})" if desc else f"[{feed['name']} ->]({link})"
 
             write_article(content_dir, slug, lang, front_matter, body)
             written += 1
