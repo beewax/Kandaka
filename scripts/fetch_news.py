@@ -22,7 +22,6 @@ except ImportError:
     import yaml
 
 # ── SUDAN KEYWORD FILTERS ────────────────────────────────────────────────────
-# These must appear as whole words to avoid false matches like "sat" in "commercialisation"
 SUDAN_KEYWORDS = [
     "sudan", "sudanese", "khartoum", "darfur", "juba", "omdurman",
     "port sudan", "rsf", "rapid support forces", "splm", "spla",
@@ -39,7 +38,6 @@ SUDAN_AR = [
     "كسلا", "عطبرة"
 ]
 
-# Non-Sudan countries to block when Sudan keyword not in title
 BLOCKLIST = [
     "kenya", "nigeria", "ghana", "ethiopia", "somalia", "libya",
     "tanzania", "uganda", "rwanda", "liberia", "mali", "senegal",
@@ -54,36 +52,25 @@ BLOCKLIST = [
 ]
 
 def is_sudan_relevant(title, desc=""):
-    """Check title first (strict), then desc (whole-word only)."""
     title_lower = (title or "").lower()
     desc_lower = (desc or "").lower()
-
-    # Check title — any keyword match
     for kw in SUDAN_KEYWORDS:
         if kw in title_lower:
             return True
-
-    # Check Arabic
     for kw in SUDAN_AR:
         if kw in title_lower or kw in desc_lower:
             return True
-
-    # Check desc — whole-word match only to avoid substring false positives
     for kw in SUDAN_KEYWORDS:
         pattern = r'\b' + re.escape(kw) + r'\b'
         if re.search(pattern, desc_lower):
             return True
-
     return False
 
 def is_blocked(title, desc):
-    """Block articles primarily about other countries/regions."""
     title_lower = (title or "").lower()
-    # If Sudan is in the title, never block
     for kw in SUDAN_KEYWORDS:
         if kw in title_lower:
             return False
-    # If title mentions a blocked topic, reject
     for kw in BLOCKLIST:
         if kw in title_lower:
             return True
@@ -96,15 +83,16 @@ def detect_arabic(text):
     return arabic_chars / max(len(text), 1) > 0.25
 
 # ── RSS FEEDS ────────────────────────────────────────────────────────────────
+# "max" controls how many articles per feed (default 15)
 FEEDS = [
     # === PASS-THROUGH (Sudan-specific, no keyword filter needed) ===
-    {"name": "Radio Dabanga",        "url": "https://www.dabangasudan.org/en/feed",                 "category": "Sudan News",    "lang": "en", "filter": False},
-    {"name": "Sudan Tribune",        "url": "https://sudantribune.net/feed",                        "category": "Sudan News",    "lang": "en", "filter": False},
-    {"name": "Ayin Network",         "url": "https://www.ayinnews.com/feed",                        "category": "Humanitarian",  "lang": "en", "filter": False},
-    {"name": "ReliefWeb Sudan",      "url": "https://reliefweb.int/country/sdn/feed",               "category": "Humanitarian",  "lang": "en", "filter": False},
-    {"name": "SUNA English",         "url": "https://suna-sd.net/en/feed",                          "category": "Sudan News",    "lang": "en", "filter": False},
+    {"name": "Radio Dabanga",        "url": "https://www.dabangasudan.org/en/feed",                 "category": "Sudan News",    "lang": "en", "filter": False, "max": 5},
+    {"name": "Sudan Tribune",        "url": "https://sudantribune.net/feed",                        "category": "Sudan News",    "lang": "en", "filter": False, "max": 5},
+    {"name": "Ayin Network",         "url": "https://www.ayinnews.com/feed",                        "category": "Humanitarian",  "lang": "en", "filter": False, "max": 5},
+    {"name": "ReliefWeb Sudan",      "url": "https://reliefweb.int/country/sdn/feed",               "category": "Humanitarian",  "lang": "en", "filter": False, "max": 5},
+    {"name": "SUNA English",         "url": "https://suna-sd.net/en/feed",                          "category": "Sudan News",    "lang": "en", "filter": False, "max": 5},
 
-    # === FILTERED ===
+    # === FILTERED (general feeds — only Sudan-relevant articles pass) ===
 
     # International News
     {"name": "BBC Africa",           "url": "https://feeds.bbci.co.uk/news/world/africa/rss.xml",   "category": "International", "lang": "en", "filter": True},
@@ -205,7 +193,6 @@ def main():
     content_dir = os.path.join(os.path.dirname(__file__), "..", "content")
     news_dir = os.path.join(content_dir, "news")
 
-    # Clear old generated articles on every build
     print("Clearing old news articles...")
     for f in glob.glob(os.path.join(news_dir, "*.md")):
         if "_index" not in os.path.basename(f):
@@ -224,8 +211,9 @@ def main():
 
         items = parse_feed(xml_bytes)
         feed_written = 0
+        max_items = feed.get("max", 15)
 
-        for item in items[:15]:
+        for item in items[:max_items]:
             title = clean_html(item["title"])
             desc  = clean_html(item["desc"])
             link  = item["link"]
@@ -234,11 +222,9 @@ def main():
                 continue
 
             if feed["filter"]:
-                # Must be Sudan relevant
                 if not is_sudan_relevant(title, desc):
                     skipped += 1
                     continue
-                # Must not be primarily about another country
                 if is_blocked(title, desc):
                     skipped += 1
                     continue
