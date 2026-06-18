@@ -31,13 +31,11 @@ SUDAN_KEYWORDS = [
     "al-bashir", "al-burhan"
 ]
 
-# Arabic keywords — use full compound phrases to avoid false matches
 SUDAN_AR = [
     "السودان", "سوداني", "سودانية", "الخرطوم", "دارفور", "جوبا",
     "أم درمان", "بورتسودان", "الدعم السريع", "البشير", "حمدوك",
     "البرهان", "حميدتي", "جبال النوبة", "مروي", "كسلا", "عطبرة",
-    "الفاشر", "الأبيض السوداني", "ود مدني", "النيل الأزرق السوداني",
-    "النيل الأبيض السوداني", "الحرب في السودان", "أزمة السودان",
+    "الفاشر", "ود مدني", "الحرب في السودان", "أزمة السودان",
     "الجنجويد", "الحركة الشعبية", "الحركة السودانية"
 ]
 
@@ -80,14 +78,12 @@ def is_sudan_relevant(title, desc=""):
 
 def is_blocked(title, desc):
     title_lower = (title or "").lower()
-    # Never block if Sudan keyword in title
     for kw in SUDAN_KEYWORDS:
         if kw in title_lower:
             return False
     for kw in SUDAN_AR:
         if kw in (title or ""):
             return False
-    # Block if blocklist term in title
     for kw in BLOCKLIST:
         if kw in title_lower:
             return True
@@ -103,6 +99,8 @@ def detect_arabic(text):
     return arabic_chars / max(len(text), 1) > 0.25
 
 # ── RSS FEEDS ────────────────────────────────────────────────────────────────
+# NOTE: All categories use English slugs so CSS badge colors work for both
+# English and Arabic articles. The template handles display translation.
 FEEDS = [
     # === ENGLISH PASS-THROUGH ===
     {"name": "Radio Dabanga",        "url": "https://www.dabangasudan.org/en/feed",                   "category": "Sudan News",    "lang": "en", "filter": False, "max": 5},
@@ -141,24 +139,24 @@ FEEDS = [
     {"name": "World History Enc",    "url": "https://www.worldhistory.org/feed/",                     "category": "Culture",       "lang": "en", "filter": True},
     {"name": "The New Humanitarian", "url": "https://www.thenewhumanitarian.org/rss.xml",             "category": "Humanitarian",  "lang": "en", "filter": True},
 
-    # === ARABIC PASS-THROUGH ===
-    {"name": "راديو دبنقا",          "url": "https://www.dabangasudan.org/ar/feed",                   "category": "أخبار السودان", "lang": "ar", "filter": False, "max": 5},
-    {"name": "الراكوبة",             "url": "https://www.alrakoba.net/feed/",                         "category": "أخبار السودان", "lang": "ar", "filter": False, "max": 5},
-    {"name": "سودانيز أونلاين",      "url": "https://www.sudaneseonline.com/feed/",                   "category": "أخبار السودان", "lang": "ar", "filter": False, "max": 5},
-    {"name": "سونا",                 "url": "https://suna-sd.net/ar/feed",                            "category": "أخبار السودان", "lang": "ar", "filter": False, "max": 5},
-    {"name": "الطيار",               "url": "https://www.altayar.net/feed/",                          "category": "أخبار السودان", "lang": "ar", "filter": False, "max": 5},
-    {"name": "حريات",                "url": "https://www.hurriyatsudan.com/?feed=rss2",               "category": "أخبار السودان", "lang": "ar", "filter": False, "max": 5},
+    # === ARABIC PASS-THROUGH — English category slugs for CSS compatibility ===
+    {"name": "راديو دبنقا",          "url": "https://www.dabangasudan.org/ar/feed",                   "category": "Sudan News",    "lang": "ar", "filter": False, "max": 5},
+    {"name": "الراكوبة",             "url": "https://www.alrakoba.net/feed/",                         "category": "Sudan News",    "lang": "ar", "filter": False, "max": 5},
+    {"name": "سودانيز أونلاين",      "url": "https://www.sudaneseonline.com/feed/",                   "category": "Sudan News",    "lang": "ar", "filter": False, "max": 5},
+    {"name": "سونا",                 "url": "https://suna-sd.net/ar/feed",                            "category": "Sudan News",    "lang": "ar", "filter": False, "max": 5},
+    {"name": "الطيار",               "url": "https://www.altayar.net/feed/",                          "category": "Sudan News",    "lang": "ar", "filter": False, "max": 5},
+    {"name": "حريات",                "url": "https://www.hurriyatsudan.com/?feed=rss2",               "category": "Sudan News",    "lang": "ar", "filter": False, "max": 5},
 
-    # === ARABIC FILTERED ===
-    {"name": "الجزيرة",              "url": "https://www.aljazeera.net/xml/rss/all.xml",              "category": "دولي",          "lang": "ar", "filter": True},
-    {"name": "بي بي سي عربي",        "url": "https://feeds.bbci.co.uk/arabic/rss.xml",                "category": "دولي",          "lang": "ar", "filter": True},
-    {"name": "الشرق الأوسط",         "url": "https://aawsat.com/feed",                                "category": "تحليل",         "lang": "ar", "filter": True},
-    {"name": "سكاي نيوز عربية",      "url": "https://www.skynewsarabia.com/rss.xml",                  "category": "دولي",          "lang": "ar", "filter": True},
-    {"name": "فرانس 24 عربي",        "url": "https://www.france24.com/ar/rss",                        "category": "دولي",          "lang": "ar", "filter": True},
-    {"name": "DW عربي",              "url": "https://rss.dw.com/rdf/rss-ara-all",                    "category": "دولي",          "lang": "ar", "filter": True},
-    {"name": "العربي الجديد",        "url": "https://www.alaraby.co.uk/rss.xml",                      "category": "تحليل",         "lang": "ar", "filter": True},
-    {"name": "الأناضول عربي",        "url": "https://www.aa.com.tr/ar/rss/default?cat=home",          "category": "دولي",          "lang": "ar", "filter": True},
-    {"name": "أخبار الأمم المتحدة",  "url": "https://news.un.org/feed/subscribe/ar/news/all/rss.xml", "category": "إنساني",        "lang": "ar", "filter": True},
+    # === ARABIC FILTERED — English category slugs for CSS compatibility ===
+    {"name": "الجزيرة",              "url": "https://www.aljazeera.net/xml/rss/all.xml",              "category": "International", "lang": "ar", "filter": True},
+    {"name": "بي بي سي عربي",        "url": "https://feeds.bbci.co.uk/arabic/rss.xml",                "category": "International", "lang": "ar", "filter": True},
+    {"name": "الشرق الأوسط",         "url": "https://aawsat.com/feed",                                "category": "Analysis",      "lang": "ar", "filter": True},
+    {"name": "سكاي نيوز عربية",      "url": "https://www.skynewsarabia.com/rss.xml",                  "category": "International", "lang": "ar", "filter": True},
+    {"name": "فرانس 24 عربي",        "url": "https://www.france24.com/ar/rss",                        "category": "International", "lang": "ar", "filter": True},
+    {"name": "DW عربي",              "url": "https://rss.dw.com/rdf/rss-ara-all",                    "category": "International", "lang": "ar", "filter": True},
+    {"name": "العربي الجديد",        "url": "https://www.alaraby.co.uk/rss.xml",                      "category": "Analysis",      "lang": "ar", "filter": True},
+    {"name": "الأناضول عربي",        "url": "https://www.aa.com.tr/ar/rss/default?cat=home",          "category": "International", "lang": "ar", "filter": True},
+    {"name": "أخبار الأمم المتحدة",  "url": "https://news.un.org/feed/subscribe/ar/news/all/rss.xml", "category": "Humanitarian",  "lang": "ar", "filter": True},
 ]
 
 # ── HELPERS ──────────────────────────────────────────────────────────────────
