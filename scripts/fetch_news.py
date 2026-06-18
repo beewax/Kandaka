@@ -22,11 +22,14 @@ except ImportError:
     import yaml
 
 # ── SUDAN KEYWORD FILTERS ────────────────────────────────────────────────────
-SUDAN_EN = [
+# These must appear as whole words to avoid false matches like "sat" in "commercialisation"
+SUDAN_KEYWORDS = [
     "sudan", "sudanese", "khartoum", "darfur", "juba", "omdurman",
-    "port sudan", "nile", "rsf", "rapid support", "sat", "splm",
+    "port sudan", "rsf", "rapid support forces", "splm", "spla",
     "bashir", "hamdok", "burhan", "hemedti", "nubia", "nubian",
-    "meroe", "kush", "gezira", "kassala", "atbara"
+    "meroe", "gezira", "kassala", "atbara", "el fasher", "el obeid",
+    "wad madani", "blue nile", "white nile", "nuba mountains",
+    "al-bashir", "al-burhan"
 ]
 
 SUDAN_AR = [
@@ -36,34 +39,55 @@ SUDAN_AR = [
     "كسلا", "عطبرة"
 ]
 
-# Non-Sudan countries/regions to block when Sudan is not in the title
-AFRICA_OTHER = [
+# Non-Sudan countries to block when Sudan keyword not in title
+BLOCKLIST = [
     "kenya", "nigeria", "ghana", "ethiopia", "somalia", "libya",
-    "egypt", "tanzania", "uganda", "rwanda", "liberia", "mali",
-    "senegal", "cameroon", "angola", "mozambique", "zimbabwe",
-    "zambia", "congo", "drc", "ivory coast", "burkina faso",
-    "south africa", "niger", "chad", "eritrea", "djibouti",
-    "morocco", "algeria", "tunisia", "botswana", "namibia",
-    "madagascar", "malawi", "sierra leone", "guinea", "togo",
-    "benin", "gabon", "lesotho", "eswatini", "comoros"
+    "tanzania", "uganda", "rwanda", "liberia", "mali", "senegal",
+    "cameroon", "angola", "mozambique", "zimbabwe", "zambia",
+    "congo", "drc", "ivory coast", "burkina faso", "south africa",
+    "niger", "eritrea", "djibouti", "morocco", "algeria", "tunisia",
+    "botswana", "namibia", "madagascar", "malawi", "sierra leone",
+    "guinea", "togo", "benin", "gabon", "israel", "israeli",
+    "palestine", "palestinian", "west bank", "gaza", "lebanon",
+    "syria", "iraq", "iran", "yemen", "turkey", "ukraine", "russia",
+    "china", "india", "pakistan", "afghanistan", "myanmar"
 ]
 
-def is_sudan_relevant(text_en, text_ar=""):
-    text_en_lower = (text_en or "").lower()
-    for kw in SUDAN_EN:
-        if kw in text_en_lower:
+def is_sudan_relevant(title, desc=""):
+    """Check title first (strict), then desc (whole-word only)."""
+    title_lower = (title or "").lower()
+    desc_lower = (desc or "").lower()
+
+    # Check title — any keyword match
+    for kw in SUDAN_KEYWORDS:
+        if kw in title_lower:
             return True
+
+    # Check Arabic
     for kw in SUDAN_AR:
-        if kw in (text_ar or ""):
+        if kw in title_lower or kw in desc_lower:
             return True
+
+    # Check desc — whole-word match only to avoid substring false positives
+    for kw in SUDAN_KEYWORDS:
+        pattern = r'\b' + re.escape(kw) + r'\b'
+        if re.search(pattern, desc_lower):
+            return True
+
     return False
 
-def is_other_africa_only(title, desc):
-    """Returns True if article is about another African country but NOT Sudan."""
-    combined = (title + " " + desc).lower()
-    has_other = any(kw in combined for kw in AFRICA_OTHER)
-    sudan_in_title = any(kw in title.lower() for kw in SUDAN_EN)
-    return has_other and not sudan_in_title
+def is_blocked(title, desc):
+    """Block articles primarily about other countries/regions."""
+    title_lower = (title or "").lower()
+    # If Sudan is in the title, never block
+    for kw in SUDAN_KEYWORDS:
+        if kw in title_lower:
+            return False
+    # If title mentions a blocked topic, reject
+    for kw in BLOCKLIST:
+        if kw in title_lower:
+            return True
+    return False
 
 def detect_arabic(text):
     if not text:
@@ -80,7 +104,7 @@ FEEDS = [
     {"name": "ReliefWeb Sudan",      "url": "https://reliefweb.int/country/sdn/feed",               "category": "Humanitarian",  "lang": "en", "filter": False},
     {"name": "SUNA English",         "url": "https://suna-sd.net/en/feed",                          "category": "Sudan News",    "lang": "en", "filter": False},
 
-    # === FILTERED (general feeds — only Sudan-relevant articles pass) ===
+    # === FILTERED ===
 
     # International News
     {"name": "BBC Africa",           "url": "https://feeds.bbci.co.uk/news/world/africa/rss.xml",   "category": "International", "lang": "en", "filter": True},
@@ -141,7 +165,6 @@ def parse_feed(xml_bytes):
     ns = {"atom": "http://www.w3.org/2005/Atom"}
     items = []
 
-    # RSS
     for item in root.findall(".//item"):
         title = (item.findtext("title") or "").strip()
         link  = (item.findtext("link") or "").strip()
@@ -149,7 +172,6 @@ def parse_feed(xml_bytes):
         pub   = (item.findtext("pubDate") or "").strip()
         items.append({"title": title, "link": link, "desc": desc, "pub": pub})
 
-    # Atom
     if not items:
         for entry in root.findall("atom:entry", ns):
             title = (entry.findtext("atom:title", namespaces=ns) or "").strip()
@@ -171,14 +193,12 @@ def make_slug(title, uid):
 def write_article(content_dir, slug, lang, front_matter, body):
     lang_dir = os.path.join(content_dir, "news")
     os.makedirs(lang_dir, exist_ok=True)
-    filename = f"{slug}.{lang}.md"
-    filepath = os.path.join(lang_dir, filename)
+    filepath = os.path.join(lang_dir, f"{slug}.{lang}.md")
     with open(filepath, "w", encoding="utf-8") as f:
         f.write("---\n")
         yaml.dump(front_matter, f, allow_unicode=True, default_flow_style=False)
         f.write("---\n\n")
         f.write(body + "\n")
-    return True
 
 # ── MAIN ─────────────────────────────────────────────────────────────────────
 def main():
@@ -205,7 +225,7 @@ def main():
         items = parse_feed(xml_bytes)
         feed_written = 0
 
-        for item in items[:15]:  # max 15 per feed
+        for item in items[:15]:
             title = clean_html(item["title"])
             desc  = clean_html(item["desc"])
             link  = item["link"]
@@ -213,24 +233,21 @@ def main():
             if not title or not link:
                 continue
 
-            # Sudan filter
             if feed["filter"]:
-                if not is_sudan_relevant(title + " " + desc):
+                # Must be Sudan relevant
+                if not is_sudan_relevant(title, desc):
                     skipped += 1
                     continue
-                if is_other_africa_only(title, desc):
+                # Must not be primarily about another country
+                if is_blocked(title, desc):
                     skipped += 1
                     continue
 
-            # Skip digest wrappers
             if "all of africa today" in title.lower():
                 continue
 
-            lang = feed["lang"]
-            if detect_arabic(title):
-                lang = "ar"
-
-            uid = hashlib.md5(link.encode()).hexdigest()
+            lang = "ar" if detect_arabic(title) else feed["lang"]
+            uid  = hashlib.md5(link.encode()).hexdigest()
             slug = make_slug(title, uid)
 
             front_matter = {
@@ -244,7 +261,6 @@ def main():
             }
 
             body = f"{desc}\n\n[{feed['name']} ->]({link})" if desc else f"[{feed['name']} ->]({link})"
-
             write_article(content_dir, slug, lang, front_matter, body)
             written += 1
             feed_written += 1
