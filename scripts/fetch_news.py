@@ -61,6 +61,17 @@ BLOCKLIST_AR = [
     "البيت الأبيض", "ترامب", "واشنطن العاصمة", "الكونغرس"
 ]
 
+# Arabic display labels for each English category slug
+CATEGORY_AR_LABEL = {
+    "Sudan News":    "أخبار السودان",
+    "International": "دولي",
+    "Analysis":      "تحليل",
+    "Humanitarian":  "إنساني",
+    "Economy":       "اقتصاد",
+    "Culture":       "ثقافة",
+    "Politics":      "سياسة",
+}
+
 def is_sudan_relevant(title, desc=""):
     title_lower = (title or "").lower()
     desc_lower = (desc or "").lower()
@@ -99,8 +110,6 @@ def detect_arabic(text):
     return arabic_chars / max(len(text), 1) > 0.25
 
 # ── RSS FEEDS ────────────────────────────────────────────────────────────────
-# NOTE: All categories use English slugs so CSS badge colors work for both
-# English and Arabic articles. The template handles display translation.
 FEEDS = [
     # === ENGLISH PASS-THROUGH ===
     {"name": "Radio Dabanga",        "url": "https://www.dabangasudan.org/en/feed",                   "category": "Sudan News",    "lang": "en", "filter": False, "max": 5},
@@ -139,7 +148,7 @@ FEEDS = [
     {"name": "World History Enc",    "url": "https://www.worldhistory.org/feed/",                     "category": "Culture",       "lang": "en", "filter": True},
     {"name": "The New Humanitarian", "url": "https://www.thenewhumanitarian.org/rss.xml",             "category": "Humanitarian",  "lang": "en", "filter": True},
 
-    # === ARABIC PASS-THROUGH — English category slugs for CSS compatibility ===
+    # === ARABIC PASS-THROUGH ===
     {"name": "راديو دبنقا",          "url": "https://www.dabangasudan.org/ar/feed",                   "category": "Sudan News",    "lang": "ar", "filter": False, "max": 5},
     {"name": "الراكوبة",             "url": "https://www.alrakoba.net/feed/",                         "category": "Sudan News",    "lang": "ar", "filter": False, "max": 5},
     {"name": "سودانيز أونلاين",      "url": "https://www.sudaneseonline.com/feed/",                   "category": "Sudan News",    "lang": "ar", "filter": False, "max": 5},
@@ -147,7 +156,7 @@ FEEDS = [
     {"name": "الطيار",               "url": "https://www.altayar.net/feed/",                          "category": "Sudan News",    "lang": "ar", "filter": False, "max": 5},
     {"name": "حريات",                "url": "https://www.hurriyatsudan.com/?feed=rss2",               "category": "Sudan News",    "lang": "ar", "filter": False, "max": 5},
 
-    # === ARABIC FILTERED — English category slugs for CSS compatibility ===
+    # === ARABIC FILTERED ===
     {"name": "الجزيرة",              "url": "https://www.aljazeera.net/xml/rss/all.xml",              "category": "International", "lang": "ar", "filter": True},
     {"name": "بي بي سي عربي",        "url": "https://feeds.bbci.co.uk/arabic/rss.xml",                "category": "International", "lang": "ar", "filter": True},
     {"name": "الشرق الأوسط",         "url": "https://aawsat.com/feed",                                "category": "Analysis",      "lang": "ar", "filter": True},
@@ -276,6 +285,12 @@ def main():
                 "language": lang,
                 "draft":    False,
             }
+
+            # Add Arabic display label for badge
+            if lang == "ar":
+                clabel = CATEGORY_AR_LABEL.get(feed["category"], "")
+                if clabel:
+                    front_matter["clabel"] = clabel
 
             body = f"{desc}\n\n[{feed['name']} ->]({link})" if desc else f"[{feed['name']} ->]({link})"
             write_article(content_dir, slug, lang, front_matter, body)
