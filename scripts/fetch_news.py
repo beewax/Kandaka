@@ -7,6 +7,7 @@ Run at Netlify build time.
 
 import os
 import re
+import glob
 import hashlib
 import datetime
 import xml.etree.ElementTree as ET
@@ -54,51 +55,51 @@ def detect_arabic(text):
 # ── RSS FEEDS ────────────────────────────────────────────────────────────────
 FEEDS = [
     # === PASS-THROUGH (Sudan-specific, no keyword filter needed) ===
-    {"name": "Radio Dabanga",      "url": "https://www.dabangasudan.org/en/feed",            "category": "Sudan News",     "lang": "en", "filter": False},
-    {"name": "Sudan Tribune",      "url": "https://sudantribune.net/feed",                   "category": "Sudan News",     "lang": "en", "filter": False},
-    {"name": "Ayin Network",       "url": "https://www.ayinnews.com/feed",                   "category": "Humanitarian",   "lang": "en", "filter": False},
-    {"name": "ReliefWeb Sudan",    "url": "https://reliefweb.int/country/sdn/feed",          "category": "Humanitarian",   "lang": "en", "filter": False},
-    {"name": "SUNA English",       "url": "https://suna-sd.net/en/feed",                     "category": "Sudan News",     "lang": "en", "filter": False},
+    {"name": "Radio Dabanga",        "url": "https://www.dabangasudan.org/en/feed",                 "category": "Sudan News",    "lang": "en", "filter": False},
+    {"name": "Sudan Tribune",        "url": "https://sudantribune.net/feed",                        "category": "Sudan News",    "lang": "en", "filter": False},
+    {"name": "Ayin Network",         "url": "https://www.ayinnews.com/feed",                        "category": "Humanitarian",  "lang": "en", "filter": False},
+    {"name": "ReliefWeb Sudan",      "url": "https://reliefweb.int/country/sdn/feed",               "category": "Humanitarian",  "lang": "en", "filter": False},
+    {"name": "SUNA English",         "url": "https://suna-sd.net/en/feed",                          "category": "Sudan News",    "lang": "en", "filter": False},
 
     # === FILTERED (general feeds — only Sudan-relevant articles pass) ===
 
     # International News
-    {"name": "BBC Africa",         "url": "https://feeds.bbci.co.uk/news/world/africa/rss.xml",    "category": "International",  "lang": "en", "filter": True},
-    {"name": "Al Jazeera English", "url": "https://www.aljazeera.com/xml/rss/all.xml",              "category": "International",  "lang": "en", "filter": True},
-    {"name": "PBS NewsHour",       "url": "https://www.pbs.org/newshour/feeds/rss/world",           "category": "International",  "lang": "en", "filter": True},
-    {"name": "NPR World",          "url": "https://feeds.npr.org/1004/rss.xml",                     "category": "International",  "lang": "en", "filter": True},
-    {"name": "The Guardian",       "url": "https://www.theguardian.com/world/rss",                  "category": "International",  "lang": "en", "filter": True},
-    {"name": "Foreign Policy",     "url": "https://foreignpolicy.com/feed/",                        "category": "Analysis",       "lang": "en", "filter": True},
-    {"name": "Al Monitor",         "url": "https://www.al-monitor.com/rss",                         "category": "International",  "lang": "en", "filter": True},
-    {"name": "Middle East Eye",    "url": "https://www.middleeasteye.net/rss",                      "category": "International",  "lang": "en", "filter": True},
-    {"name": "Arab News",          "url": "https://www.arabnews.com/rss.xml",                       "category": "International",  "lang": "en", "filter": True},
+    {"name": "BBC Africa",           "url": "https://feeds.bbci.co.uk/news/world/africa/rss.xml",   "category": "International", "lang": "en", "filter": True},
+    {"name": "Al Jazeera English",   "url": "https://www.aljazeera.com/xml/rss/all.xml",            "category": "International", "lang": "en", "filter": True},
+    {"name": "PBS NewsHour",         "url": "https://www.pbs.org/newshour/feeds/rss/world",         "category": "International", "lang": "en", "filter": True},
+    {"name": "NPR World",            "url": "https://feeds.npr.org/1004/rss.xml",                   "category": "International", "lang": "en", "filter": True},
+    {"name": "The Guardian",         "url": "https://www.theguardian.com/world/rss",                "category": "International", "lang": "en", "filter": True},
+    {"name": "Foreign Policy",       "url": "https://foreignpolicy.com/feed/",                      "category": "Analysis",      "lang": "en", "filter": True},
+    {"name": "Al Monitor",           "url": "https://www.al-monitor.com/rss",                       "category": "International", "lang": "en", "filter": True},
+    {"name": "Middle East Eye",      "url": "https://www.middleeasteye.net/rss",                    "category": "International", "lang": "en", "filter": True},
+    {"name": "Arab News",            "url": "https://www.arabnews.com/rss.xml",                     "category": "International", "lang": "en", "filter": True},
 
     # Europe
-    {"name": "Deutsche Welle Africa", "url": "https://rss.dw.com/rdf/rss-en-africa",               "category": "International",  "lang": "en", "filter": True},
-    {"name": "France 24 Africa",   "url": "https://www.france24.com/en/africa/rss",                 "category": "International",  "lang": "en", "filter": True},
-    {"name": "Euronews",           "url": "https://www.euronews.com/rss",                           "category": "International",  "lang": "en", "filter": True},
+    {"name": "Deutsche Welle Africa","url": "https://rss.dw.com/rdf/rss-en-africa",                "category": "International", "lang": "en", "filter": True},
+    {"name": "France 24 Africa",     "url": "https://www.france24.com/en/africa/rss",               "category": "International", "lang": "en", "filter": True},
+    {"name": "Euronews",             "url": "https://www.euronews.com/rss",                         "category": "International", "lang": "en", "filter": True},
 
     # Africa
-    {"name": "The Africa Report",  "url": "https://www.theafricareport.com/feed/",                  "category": "Analysis",       "lang": "en", "filter": True},
-    {"name": "African Arguments",  "url": "https://africanarguments.org/feed/",                     "category": "Analysis",       "lang": "en", "filter": True},
-    {"name": "The East African",   "url": "https://www.theeastafrican.co.ke/feed",                  "category": "International",  "lang": "en", "filter": True},
-    {"name": "Egypt Independent",  "url": "https://egyptindependent.com/feed/",                     "category": "International",  "lang": "en", "filter": True},
-    {"name": "Africanews",         "url": "https://www.africanews.com/feed/rss",                    "category": "International",  "lang": "en", "filter": True},
+    {"name": "The Africa Report",    "url": "https://www.theafricareport.com/feed/",                "category": "Analysis",      "lang": "en", "filter": True},
+    {"name": "African Arguments",    "url": "https://africanarguments.org/feed/",                   "category": "Analysis",      "lang": "en", "filter": True},
+    {"name": "The East African",     "url": "https://www.theeastafrican.co.ke/feed",                "category": "International", "lang": "en", "filter": True},
+    {"name": "Egypt Independent",    "url": "https://egyptindependent.com/feed/",                   "category": "International", "lang": "en", "filter": True},
+    {"name": "Africanews",           "url": "https://www.africanews.com/feed/rss",                  "category": "International", "lang": "en", "filter": True},
 
     # Development & Economics
-    {"name": "African Dev Bank",   "url": "https://www.afdb.org/en/rss-feeds/news-events",          "category": "Economy",        "lang": "en", "filter": True},
-    {"name": "African Union",      "url": "https://au.int/en/rss.xml",                              "category": "International",  "lang": "en", "filter": True},
-    {"name": "IMF News",           "url": "https://www.imf.org/en/news/rss",                        "category": "Economy",        "lang": "en", "filter": True},
-    {"name": "World Bank",         "url": "https://blogs.worldbank.org/en/rss/all",                 "category": "Economy",        "lang": "en", "filter": True},
-    {"name": "UNDP Africa",        "url": "https://www.undp.org/rss/africa",                        "category": "Humanitarian",   "lang": "en", "filter": True},
-    {"name": "UN OCHA",            "url": "https://reliefweb.int/organization/ocha/feed",           "category": "Humanitarian",   "lang": "en", "filter": True},
+    {"name": "African Dev Bank",     "url": "https://www.afdb.org/en/rss-feeds/news-events",        "category": "Economy",       "lang": "en", "filter": True},
+    {"name": "African Union",        "url": "https://au.int/en/rss.xml",                            "category": "International", "lang": "en", "filter": True},
+    {"name": "IMF News",             "url": "https://www.imf.org/en/news/rss",                      "category": "Economy",       "lang": "en", "filter": True},
+    {"name": "World Bank",           "url": "https://blogs.worldbank.org/en/rss/all",               "category": "Economy",       "lang": "en", "filter": True},
+    {"name": "UNDP Africa",          "url": "https://www.undp.org/rss/africa",                      "category": "Humanitarian",  "lang": "en", "filter": True},
+    {"name": "UN OCHA",              "url": "https://reliefweb.int/organization/ocha/feed",         "category": "Humanitarian",  "lang": "en", "filter": True},
 
     # Analysis & Heritage
-    {"name": "Rift Valley Inst",   "url": "https://riftvalley.net/feed",                            "category": "Analysis",       "lang": "en", "filter": True},
-    {"name": "Crisis Group Africa","url": "https://www.crisisgroup.org/rss/africa.xml",             "category": "Analysis",       "lang": "en", "filter": True},
-    {"name": "Archaeology Mag",    "url": "https://www.archaeology.org/feed",                       "category": "Culture",        "lang": "en", "filter": True},
-    {"name": "World History Enc",  "url": "https://www.worldhistory.org/feed/",                     "category": "Culture",        "lang": "en", "filter": True},
-    {"name": "The New Humanitarian","url": "https://www.thenewhumanitarian.org/rss.xml",            "category": "Humanitarian",   "lang": "en", "filter": True},
+    {"name": "Rift Valley Inst",     "url": "https://riftvalley.net/feed",                          "category": "Analysis",      "lang": "en", "filter": True},
+    {"name": "Crisis Group Africa",  "url": "https://www.crisisgroup.org/rss/africa.xml",           "category": "Analysis",      "lang": "en", "filter": True},
+    {"name": "Archaeology Mag",      "url": "https://www.archaeology.org/feed",                     "category": "Culture",       "lang": "en", "filter": True},
+    {"name": "World History Enc",    "url": "https://www.worldhistory.org/feed/",                   "category": "Culture",       "lang": "en", "filter": True},
+    {"name": "The New Humanitarian", "url": "https://www.thenewhumanitarian.org/rss.xml",           "category": "Humanitarian",  "lang": "en", "filter": True},
 ]
 
 # ── HELPERS ──────────────────────────────────────────────────────────────────
@@ -153,8 +154,6 @@ def write_article(content_dir, slug, lang, front_matter, body):
     os.makedirs(lang_dir, exist_ok=True)
     filename = f"{slug}.{lang}.md"
     filepath = os.path.join(lang_dir, filename)
-    if os.path.exists(filepath):
-        return False
     with open(filepath, "w", encoding="utf-8") as f:
         f.write("---\n")
         yaml.dump(front_matter, f, allow_unicode=True, default_flow_style=False)
@@ -165,6 +164,14 @@ def write_article(content_dir, slug, lang, front_matter, body):
 # ── MAIN ─────────────────────────────────────────────────────────────────────
 def main():
     content_dir = os.path.join(os.path.dirname(__file__), "..", "content")
+    news_dir = os.path.join(content_dir, "news")
+
+    # Clear old generated articles on every build
+    print("Clearing old news articles...")
+    for f in glob.glob(os.path.join(news_dir, "*.md")):
+        if "_index" not in os.path.basename(f):
+            os.remove(f)
+
     written = 0
     skipped = 0
 
@@ -216,11 +223,11 @@ def main():
 
             body = f"{desc}\n\n[{feed['name']} →]({link})" if desc else f"[{feed['name']} →]({link})"
 
-            if write_article(content_dir, slug, lang, front_matter, body):
-                written += 1
-                feed_written += 1
+            write_article(content_dir, slug, lang, front_matter, body)
+            written += 1
+            feed_written += 1
 
-        print(f"    → {feed_written} articles written")
+        print(f"    -> {feed_written} articles written")
 
     print(f"\nDone. Written: {written} | Skipped (non-Sudan): {skipped}")
 
