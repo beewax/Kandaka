@@ -1,4 +1,4 @@
-﻿/* Sudan 1956 Flag banner on homepage */
+/* Sudan 1956 Flag banner on homepage */
 article.first-entry.home-info::before {
   content: "";
   display: block;
@@ -10,4 +10,64 @@ article.first-entry.home-info::before {
   border-radius: 12px;
   margin-bottom: 2rem;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* ── News Category Badges ─────────────────────────────────────────── */
+.k-news-badge {
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: 12px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+/* Default / Sudan News — deep green */
+.badge-default {
+  background-color: #1a5c38;
+  color: #ffffff;
+}
+
+/* War / Conflict / Humanitarian — red */
+.badge-war {
+  background-color: #c0392b;
+  color: #ffffff;
+}
+
+/* Politics / Governance / Diplomacy — navy */
+.badge-politics {
+  background-color: #1a2e5a;
+  color: #ffffff;
+}
+
+/* Economy / Business / Finance — teal */
+.badge-economy {
+  background-color: #0e7490;
+  color: #ffffff;
+}
+
+/* International — slate blue */
+.badge-international {
+  background-color: #3b5998;
+  color: #ffffff;
+}
+
+/* Analysis — indigo */
+.badge-analysis {
+  background-color: #4338ca;
+  color: #ffffff;
+}
+
+/* Culture / Archaeology / Heritage — peach/terracotta */
+.badge-culture {
+  background-color: #c2714f;
+  color: #ffffff;
+}
+
+/* Sudan News (pass-through feeds) — gold */
+.badge-sudan {
+  background-color: #b8860b;
+  color: #ffffff;
 }
