@@ -31,12 +31,14 @@ SUDAN_KEYWORDS = [
     "al-bashir", "al-burhan"
 ]
 
+# Arabic keywords — use full compound phrases to avoid false matches
 SUDAN_AR = [
-    "السودان", "سوداني", "الخرطوم", "دارفور", "جوبا", "أم درمان",
-    "بورتسودان", "النيل", "الدعم السريع", "البشير", "حمدوك",
-    "البرهان", "حميدتي", "نوبة", "مروي", "كوش", "الجزيرة",
-    "كسلا", "عطبرة", "الفاشر", "الأبيض", "ود مدني", "النيل الأزرق",
-    "النيل الأبيض", "جبال النوبة", "الجنجويد", "مليشيا", "الحرب السودانية"
+    "السودان", "سوداني", "سودانية", "الخرطوم", "دارفور", "جوبا",
+    "أم درمان", "بورتسودان", "الدعم السريع", "البشير", "حمدوك",
+    "البرهان", "حميدتي", "جبال النوبة", "مروي", "كسلا", "عطبرة",
+    "الفاشر", "الأبيض السوداني", "ود مدني", "النيل الأزرق السوداني",
+    "النيل الأبيض السوداني", "الحرب في السودان", "أزمة السودان",
+    "الجنجويد", "الحركة الشعبية", "الحركة السودانية"
 ]
 
 BLOCKLIST = [
@@ -49,14 +51,16 @@ BLOCKLIST = [
     "guinea", "togo", "benin", "gabon", "israel", "israeli",
     "palestine", "palestinian", "west bank", "gaza", "lebanon",
     "syria", "iraq", "iran", "yemen", "turkey", "ukraine", "russia",
-    "china", "india", "pakistan", "afghanistan", "myanmar"
+    "china", "india", "pakistan", "afghanistan", "myanmar",
+    "white house", "trump", "biden", "congress", "senate"
 ]
 
 BLOCKLIST_AR = [
     "إسرائيل", "فلسطين", "غزة", "لبنان", "سوريا", "العراق",
     "إيران", "اليمن", "تركيا", "أوكرانيا", "روسيا", "الصين",
     "الهند", "باكستان", "أفغانستان", "نيجيريا", "كينيا", "إثيوبيا",
-    "الصومال", "ليبيا", "المغرب", "الجزائر", "تونس", "مصر"
+    "الصومال", "ليبيا", "المغرب", "الجزائر", "تونس",
+    "البيت الأبيض", "ترامب", "واشنطن العاصمة", "الكونغرس"
 ]
 
 def is_sudan_relevant(title, desc=""):
@@ -76,12 +80,14 @@ def is_sudan_relevant(title, desc=""):
 
 def is_blocked(title, desc):
     title_lower = (title or "").lower()
+    # Never block if Sudan keyword in title
     for kw in SUDAN_KEYWORDS:
         if kw in title_lower:
             return False
     for kw in SUDAN_AR:
         if kw in (title or ""):
             return False
+    # Block if blocklist term in title
     for kw in BLOCKLIST:
         if kw in title_lower:
             return True
@@ -99,60 +105,60 @@ def detect_arabic(text):
 # ── RSS FEEDS ────────────────────────────────────────────────────────────────
 FEEDS = [
     # === ENGLISH PASS-THROUGH ===
-    {"name": "Radio Dabanga",        "url": "https://www.dabangasudan.org/en/feed",                 "category": "Sudan News",    "lang": "en", "filter": False, "max": 5},
-    {"name": "Sudan Tribune",        "url": "https://sudantribune.net/feed",                        "category": "Sudan News",    "lang": "en", "filter": False, "max": 5},
-    {"name": "Ayin Network",         "url": "https://www.ayinnews.com/feed",                        "category": "Humanitarian",  "lang": "en", "filter": False, "max": 5},
-    {"name": "ReliefWeb Sudan",      "url": "https://reliefweb.int/country/sdn/feed",               "category": "Humanitarian",  "lang": "en", "filter": False, "max": 5},
-    {"name": "SUNA English",         "url": "https://suna-sd.net/en/feed",                          "category": "Sudan News",    "lang": "en", "filter": False, "max": 5},
+    {"name": "Radio Dabanga",        "url": "https://www.dabangasudan.org/en/feed",                   "category": "Sudan News",    "lang": "en", "filter": False, "max": 5},
+    {"name": "Sudan Tribune",        "url": "https://sudantribune.net/feed",                          "category": "Sudan News",    "lang": "en", "filter": False, "max": 5},
+    {"name": "Ayin Network",         "url": "https://www.ayinnews.com/feed",                          "category": "Humanitarian",  "lang": "en", "filter": False, "max": 5},
+    {"name": "ReliefWeb Sudan",      "url": "https://reliefweb.int/country/sdn/feed",                 "category": "Humanitarian",  "lang": "en", "filter": False, "max": 5},
+    {"name": "SUNA English",         "url": "https://suna-sd.net/en/feed",                            "category": "Sudan News",    "lang": "en", "filter": False, "max": 5},
 
     # === ENGLISH FILTERED ===
-    {"name": "BBC Africa",           "url": "https://feeds.bbci.co.uk/news/world/africa/rss.xml",   "category": "International", "lang": "en", "filter": True},
-    {"name": "Al Jazeera English",   "url": "https://www.aljazeera.com/xml/rss/all.xml",            "category": "International", "lang": "en", "filter": True},
-    {"name": "PBS NewsHour",         "url": "https://www.pbs.org/newshour/feeds/rss/world",         "category": "International", "lang": "en", "filter": True},
-    {"name": "NPR World",            "url": "https://feeds.npr.org/1004/rss.xml",                   "category": "International", "lang": "en", "filter": True},
-    {"name": "The Guardian",         "url": "https://www.theguardian.com/world/rss",                "category": "International", "lang": "en", "filter": True},
-    {"name": "Foreign Policy",       "url": "https://foreignpolicy.com/feed/",                      "category": "Analysis",      "lang": "en", "filter": True},
-    {"name": "Al Monitor",           "url": "https://www.al-monitor.com/rss",                       "category": "International", "lang": "en", "filter": True},
-    {"name": "Middle East Eye",      "url": "https://www.middleeasteye.net/rss",                    "category": "International", "lang": "en", "filter": True},
-    {"name": "Arab News",            "url": "https://www.arabnews.com/rss.xml",                     "category": "International", "lang": "en", "filter": True},
-    {"name": "Deutsche Welle Africa","url": "https://rss.dw.com/rdf/rss-en-africa",                "category": "International", "lang": "en", "filter": True},
-    {"name": "France 24 Africa",     "url": "https://www.france24.com/en/africa/rss",               "category": "International", "lang": "en", "filter": True},
-    {"name": "Euronews",             "url": "https://www.euronews.com/rss",                         "category": "International", "lang": "en", "filter": True},
-    {"name": "The Africa Report",    "url": "https://www.theafricareport.com/feed/",                "category": "Analysis",      "lang": "en", "filter": True},
-    {"name": "African Arguments",    "url": "https://africanarguments.org/feed/",                   "category": "Analysis",      "lang": "en", "filter": True},
-    {"name": "The East African",     "url": "https://www.theeastafrican.co.ke/feed",                "category": "International", "lang": "en", "filter": True},
-    {"name": "Egypt Independent",    "url": "https://egyptindependent.com/feed/",                   "category": "International", "lang": "en", "filter": True},
-    {"name": "Africanews",           "url": "https://www.africanews.com/feed/rss",                  "category": "International", "lang": "en", "filter": True},
-    {"name": "African Dev Bank",     "url": "https://www.afdb.org/en/rss-feeds/news-events",        "category": "Economy",       "lang": "en", "filter": True},
-    {"name": "African Union",        "url": "https://au.int/en/rss.xml",                            "category": "International", "lang": "en", "filter": True},
-    {"name": "IMF News",             "url": "https://www.imf.org/en/news/rss",                      "category": "Economy",       "lang": "en", "filter": True},
-    {"name": "World Bank",           "url": "https://blogs.worldbank.org/en/rss/all",               "category": "Economy",       "lang": "en", "filter": True},
-    {"name": "UNDP Africa",          "url": "https://www.undp.org/rss/africa",                      "category": "Humanitarian",  "lang": "en", "filter": True},
-    {"name": "UN OCHA",              "url": "https://reliefweb.int/organization/ocha/feed",         "category": "Humanitarian",  "lang": "en", "filter": True},
-    {"name": "Rift Valley Inst",     "url": "https://riftvalley.net/feed",                          "category": "Analysis",      "lang": "en", "filter": True},
-    {"name": "Crisis Group Africa",  "url": "https://www.crisisgroup.org/rss/africa.xml",           "category": "Analysis",      "lang": "en", "filter": True},
-    {"name": "Archaeology Mag",      "url": "https://www.archaeology.org/feed",                     "category": "Culture",       "lang": "en", "filter": True},
-    {"name": "World History Enc",    "url": "https://www.worldhistory.org/feed/",                   "category": "Culture",       "lang": "en", "filter": True},
-    {"name": "The New Humanitarian", "url": "https://www.thenewhumanitarian.org/rss.xml",           "category": "Humanitarian",  "lang": "en", "filter": True},
+    {"name": "BBC Africa",           "url": "https://feeds.bbci.co.uk/news/world/africa/rss.xml",     "category": "International", "lang": "en", "filter": True},
+    {"name": "Al Jazeera English",   "url": "https://www.aljazeera.com/xml/rss/all.xml",              "category": "International", "lang": "en", "filter": True},
+    {"name": "PBS NewsHour",         "url": "https://www.pbs.org/newshour/feeds/rss/world",           "category": "International", "lang": "en", "filter": True},
+    {"name": "NPR World",            "url": "https://feeds.npr.org/1004/rss.xml",                     "category": "International", "lang": "en", "filter": True},
+    {"name": "The Guardian",         "url": "https://www.theguardian.com/world/rss",                  "category": "International", "lang": "en", "filter": True},
+    {"name": "Foreign Policy",       "url": "https://foreignpolicy.com/feed/",                        "category": "Analysis",      "lang": "en", "filter": True},
+    {"name": "Al Monitor",           "url": "https://www.al-monitor.com/rss",                         "category": "International", "lang": "en", "filter": True},
+    {"name": "Middle East Eye",      "url": "https://www.middleeasteye.net/rss",                      "category": "International", "lang": "en", "filter": True},
+    {"name": "Arab News",            "url": "https://www.arabnews.com/rss.xml",                       "category": "International", "lang": "en", "filter": True},
+    {"name": "Deutsche Welle Africa","url": "https://rss.dw.com/rdf/rss-en-africa",                  "category": "International", "lang": "en", "filter": True},
+    {"name": "France 24 Africa",     "url": "https://www.france24.com/en/africa/rss",                 "category": "International", "lang": "en", "filter": True},
+    {"name": "Euronews",             "url": "https://www.euronews.com/rss",                           "category": "International", "lang": "en", "filter": True},
+    {"name": "The Africa Report",    "url": "https://www.theafricareport.com/feed/",                  "category": "Analysis",      "lang": "en", "filter": True},
+    {"name": "African Arguments",    "url": "https://africanarguments.org/feed/",                     "category": "Analysis",      "lang": "en", "filter": True},
+    {"name": "The East African",     "url": "https://www.theeastafrican.co.ke/feed",                  "category": "International", "lang": "en", "filter": True},
+    {"name": "Egypt Independent",    "url": "https://egyptindependent.com/feed/",                     "category": "International", "lang": "en", "filter": True},
+    {"name": "Africanews",           "url": "https://www.africanews.com/feed/rss",                    "category": "International", "lang": "en", "filter": True},
+    {"name": "African Dev Bank",     "url": "https://www.afdb.org/en/rss-feeds/news-events",          "category": "Economy",       "lang": "en", "filter": True},
+    {"name": "African Union",        "url": "https://au.int/en/rss.xml",                              "category": "International", "lang": "en", "filter": True},
+    {"name": "IMF News",             "url": "https://www.imf.org/en/news/rss",                        "category": "Economy",       "lang": "en", "filter": True},
+    {"name": "World Bank",           "url": "https://blogs.worldbank.org/en/rss/all",                 "category": "Economy",       "lang": "en", "filter": True},
+    {"name": "UNDP Africa",          "url": "https://www.undp.org/rss/africa",                        "category": "Humanitarian",  "lang": "en", "filter": True},
+    {"name": "UN OCHA",              "url": "https://reliefweb.int/organization/ocha/feed",           "category": "Humanitarian",  "lang": "en", "filter": True},
+    {"name": "Rift Valley Inst",     "url": "https://riftvalley.net/feed",                            "category": "Analysis",      "lang": "en", "filter": True},
+    {"name": "Crisis Group Africa",  "url": "https://www.crisisgroup.org/rss/africa.xml",             "category": "Analysis",      "lang": "en", "filter": True},
+    {"name": "Archaeology Mag",      "url": "https://www.archaeology.org/feed",                       "category": "Culture",       "lang": "en", "filter": True},
+    {"name": "World History Enc",    "url": "https://www.worldhistory.org/feed/",                     "category": "Culture",       "lang": "en", "filter": True},
+    {"name": "The New Humanitarian", "url": "https://www.thenewhumanitarian.org/rss.xml",             "category": "Humanitarian",  "lang": "en", "filter": True},
 
     # === ARABIC PASS-THROUGH ===
-    {"name": "راديو دبنقا",          "url": "https://www.dabangasudan.org/ar/feed",                 "category": "أخبار السودان", "lang": "ar", "filter": False, "max": 5},
-    {"name": "الراكوبة",             "url": "https://www.alrakoba.net/feed/",                       "category": "أخبار السودان", "lang": "ar", "filter": False, "max": 5},
-    {"name": "سودانيز أونلاين",      "url": "https://www.sudaneseonline.com/feed/",                 "category": "أخبار السودان", "lang": "ar", "filter": False, "max": 5},
-    {"name": "سونا",                 "url": "https://suna-sd.net/ar/feed",                          "category": "أخبار السودان", "lang": "ar", "filter": False, "max": 5},
+    {"name": "راديو دبنقا",          "url": "https://www.dabangasudan.org/ar/feed",                   "category": "أخبار السودان", "lang": "ar", "filter": False, "max": 5},
+    {"name": "الراكوبة",             "url": "https://www.alrakoba.net/feed/",                         "category": "أخبار السودان", "lang": "ar", "filter": False, "max": 5},
+    {"name": "سودانيز أونلاين",      "url": "https://www.sudaneseonline.com/feed/",                   "category": "أخبار السودان", "lang": "ar", "filter": False, "max": 5},
+    {"name": "سونا",                 "url": "https://suna-sd.net/ar/feed",                            "category": "أخبار السودان", "lang": "ar", "filter": False, "max": 5},
+    {"name": "الطيار",               "url": "https://www.altayar.net/feed/",                          "category": "أخبار السودان", "lang": "ar", "filter": False, "max": 5},
+    {"name": "حريات",                "url": "https://www.hurriyatsudan.com/?feed=rss2",               "category": "أخبار السودان", "lang": "ar", "filter": False, "max": 5},
 
     # === ARABIC FILTERED ===
-    {"name": "الجزيرة",              "url": "https://www.aljazeera.net/xml/rss/all.xml",            "category": "دولي",          "lang": "ar", "filter": True},
-    {"name": "بي بي سي عربي",        "url": "https://feeds.bbci.co.uk/arabic/rss.xml",              "category": "دولي",          "lang": "ar", "filter": True},
-    {"name": "الشرق الأوسط",         "url": "https://aawsat.com/feed",                              "category": "تحليل",         "lang": "ar", "filter": True},
-    {"name": "سكاي نيوز عربية",      "url": "https://www.skynewsarabia.com/rss.xml",               "category": "دولي",          "lang": "ar", "filter": True},
-    {"name": "فرانس 24 عربي",        "url": "https://www.france24.com/ar/rss",                     "category": "دولي",          "lang": "ar", "filter": True},
-    {"name": "DW عربي",              "url": "https://rss.dw.com/rdf/rss-ara-all",                  "category": "دولي",          "lang": "ar", "filter": True},
-    {"name": "العربي الجديد",        "url": "https://www.alaraby.co.uk/rss.xml",                   "category": "تحليل",         "lang": "ar", "filter": True},
-    {"name": "الأناضول عربي",        "url": "https://www.aa.com.tr/ar/rss/default?cat=home",       "category": "دولي",          "lang": "ar", "filter": True},
-    {"name": "أخبار الأمم المتحدة",  "url": "https://news.un.org/feed/subscribe/ar/news/all/rss.xml","category": "إنساني",       "lang": "ar", "filter": True},
-    {"name": "الطيار",               "url": "https://www.altayar.net/feed/",                       "category": "أخبار السودان", "lang": "ar", "filter": False, "max": 5},
-    {"name": "حريات",                "url": "https://www.hurriyatsudan.com/?feed=rss2",             "category": "أخبار السودان", "lang": "ar", "filter": False, "max": 5},
+    {"name": "الجزيرة",              "url": "https://www.aljazeera.net/xml/rss/all.xml",              "category": "دولي",          "lang": "ar", "filter": True},
+    {"name": "بي بي سي عربي",        "url": "https://feeds.bbci.co.uk/arabic/rss.xml",                "category": "دولي",          "lang": "ar", "filter": True},
+    {"name": "الشرق الأوسط",         "url": "https://aawsat.com/feed",                                "category": "تحليل",         "lang": "ar", "filter": True},
+    {"name": "سكاي نيوز عربية",      "url": "https://www.skynewsarabia.com/rss.xml",                  "category": "دولي",          "lang": "ar", "filter": True},
+    {"name": "فرانس 24 عربي",        "url": "https://www.france24.com/ar/rss",                        "category": "دولي",          "lang": "ar", "filter": True},
+    {"name": "DW عربي",              "url": "https://rss.dw.com/rdf/rss-ara-all",                    "category": "دولي",          "lang": "ar", "filter": True},
+    {"name": "العربي الجديد",        "url": "https://www.alaraby.co.uk/rss.xml",                      "category": "تحليل",         "lang": "ar", "filter": True},
+    {"name": "الأناضول عربي",        "url": "https://www.aa.com.tr/ar/rss/default?cat=home",          "category": "دولي",          "lang": "ar", "filter": True},
+    {"name": "أخبار الأمم المتحدة",  "url": "https://news.un.org/feed/subscribe/ar/news/all/rss.xml", "category": "إنساني",        "lang": "ar", "filter": True},
 ]
 
 # ── HELPERS ──────────────────────────────────────────────────────────────────
@@ -197,7 +203,6 @@ def clean_html(text):
     return re.sub(r"<[^>]+>", "", text or "").strip()
 
 def make_slug(title, uid):
-    # For Arabic titles use uid only to avoid encoding issues in filenames
     if detect_arabic(title):
         return f"ar-news-{uid[:10]}"
     slug = re.sub(r"[^a-z0-9]+", "-", title.lower())[:60].strip("-")
