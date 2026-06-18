@@ -12,7 +12,7 @@ article.first-entry.home-info::before {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-/* ── News Category Badges (English) ──────────────────────────────── */
+/* ── News Category Badge Base ─────────────────────────────────────── */
 .k-news-badge,
 .news-cat {
   display: inline-block;
@@ -24,67 +24,69 @@ article.first-entry.home-info::before {
   text-transform: uppercase;
   letter-spacing: 0.03em;
   color: #fff !important;
+  background: #b8860b;
 }
 
-/* English badge classes */
+/* ── English badge classes ────────────────────────────────────────── */
 .badge-war,
 .news-cat-war,
-.news-cat-humanitarian         { background: #c0392b !important; color: #fff !important; }
+.news-cat-humanitarian          { background: #c0392b !important; color: #fff !important; }
 .badge-politics,
-.news-cat-politics             { background: #1a2e5a !important; color: #fff !important; }
+.news-cat-politics              { background: #1a2e5a !important; color: #fff !important; }
 .badge-economy,
-.news-cat-economy              { background: #0e7490 !important; color: #fff !important; }
+.news-cat-economy               { background: #0e7490 !important; color: #fff !important; }
 .badge-international,
-.news-cat-international        { background: #3b5998 !important; color: #fff !important; }
+.news-cat-international         { background: #3b5998 !important; color: #fff !important; }
 .badge-analysis,
-.news-cat-analysis             { background: #4338ca !important; color: #fff !important; }
+.news-cat-analysis              { background: #4338ca !important; color: #fff !important; }
 .badge-culture,
-.news-cat-culture              { background: #c2714f !important; color: #fff !important; }
+.news-cat-culture               { background: #c2714f !important; color: #fff !important; }
 .badge-sudan,
-.news-cat-sudan-news           { background: #1a5c38 !important; color: #fff !important; }
-.badge-default                 { background: #b8860b !important; color: #fff !important; }
+.news-cat-sudan-news            { background: #1a5c38 !important; color: #fff !important; }
+.badge-default                  { background: #b8860b !important; color: #fff !important; }
 
-/* ── Arabic badge classes ─────────────────────────────────────────── */
+/* ── Arabic badge classes (URL-encoded) ───────────────────────────── */
 /* أخبار السودان — Sudan News — green */
-.news-cat-\u0623\u062e\u0628\u0627\u0631-\u0627\u0644\u0633\u0648\u062f\u0627\u0646 { background: #1a5c38 !important; color: #fff !important; }
+.news-cat-%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86 { background: #1a5c38 !important; color: #fff !important; }
+
 /* دولي — International — slate blue */
-.news-cat-\u062f\u0648\u0644\u064a                                                   { background: #3b5998 !important; color: #fff !important; }
+.news-cat-%D8%AF%D9%88%D9%84%D9%8A { background: #3b5998 !important; color: #fff !important; }
+
 /* تحليل — Analysis — indigo */
-.news-cat-\u062a\u062d\u0644\u064a\u0644                                             { background: #4338ca !important; color: #fff !important; }
+.news-cat-%D8%AA%D8%AD%D9%84%D9%8A%D9%84 { background: #4338ca !important; color: #fff !important; }
+
 /* إنساني — Humanitarian — red */
-.news-cat-\u0625\u0646\u0633\u0627\u0646\u064a                                       { background: #c0392b !important; color: #fff !important; }
+.news-cat-%D8%A5%D9%86%D8%B3%D8%A7%D9%86%D9%8A { background: #c0392b !important; color: #fff !important; }
+
 /* اقتصاد — Economy — teal */
-.news-cat-\u0627\u0642\u062a\u0635\u0627\u062f                                       { background: #0e7490 !important; color: #fff !important; }
+.news-cat-%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF { background: #0e7490 !important; color: #fff !important; }
 
-/* Fallback: style all spans inside Arabic news cards */
-[dir="rtl"] .k-news-badge,
-[dir="rtl"] .news-cat {
-  background: #1a5c38 !important;
-  color: #fff !important;
-}
-[dir="rtl"] .news-cat-international,
-[dir="rtl"] [class*="دولي"]    { background: #3b5998 !important; }
-[dir="rtl"] .news-cat-analysis,
-[dir="rtl"] [class*="تحليل"]   { background: #4338ca !important; }
-[dir="rtl"] .news-cat-humanitarian,
-[dir="rtl"] [class*="إنساني"]  { background: #c0392b !important; }
-[dir="rtl"] .news-cat-economy,
-[dir="rtl"] [class*="اقتصاد"]  { background: #0e7490 !important; }
-
-/* Dark mode */
+/* ── Dark mode ────────────────────────────────────────────────────── */
 html[data-theme="dark"] .badge-war,
-html[data-theme="dark"] .news-cat-humanitarian { background: #7f1d1d !important; color: #fca5a5 !important; }
-html[data-theme="dark"] .badge-politics        { background: #1e3a5f !important; color: #93c5fd !important; }
+html[data-theme="dark"] .news-cat-humanitarian,
+html[data-theme="dark"] .news-cat-%D8%A5%D9%86%D8%B3%D8%A7%D9%86%D9%8A { background: #7f1d1d !important; color: #fca5a5 !important; }
+
+html[data-theme="dark"] .badge-politics { background: #1e3a5f !important; color: #93c5fd !important; }
+
 html[data-theme="dark"] .badge-economy,
-html[data-theme="dark"] .news-cat-economy      { background: #164e63 !important; color: #67e8f9 !important; }
+html[data-theme="dark"] .news-cat-economy,
+html[data-theme="dark"] .news-cat-%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF { background: #164e63 !important; color: #67e8f9 !important; }
+
 html[data-theme="dark"] .badge-international,
-html[data-theme="dark"] .news-cat-international{ background: #1e3a5f !important; color: #a5b4fc !important; }
+html[data-theme="dark"] .news-cat-international,
+html[data-theme="dark"] .news-cat-%D8%AF%D9%88%D9%84%D9%8A { background: #1e3a5f !important; color: #a5b4fc !important; }
+
 html[data-theme="dark"] .badge-analysis,
-html[data-theme="dark"] .news-cat-analysis     { background: #312e81 !important; color: #c7d2fe !important; }
-html[data-theme="dark"] .badge-culture         { background: #7c2d12 !important; color: #fdba74 !important; }
+html[data-theme="dark"] .news-cat-analysis,
+html[data-theme="dark"] .news-cat-%D8%AA%D8%AD%D9%84%D9%8A%D9%84 { background: #312e81 !important; color: #c7d2fe !important; }
+
+html[data-theme="dark"] .badge-culture { background: #7c2d12 !important; color: #fdba74 !important; }
+
 html[data-theme="dark"] .badge-sudan,
-html[data-theme="dark"] .news-cat-sudan-news   { background: #14532d !important; color: #86efac !important; }
-html[data-theme="dark"] .badge-default         { background: #78350f !important; color: #fde68a !important; }
+html[data-theme="dark"] .news-cat-sudan-news,
+html[data-theme="dark"] .news-cat-%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86 { background: #14532d !important; color: #86efac !important; }
+
+html[data-theme="dark"] .badge-default { background: #78350f !important; color: #fde68a !important; }
 
 /* ── News card styles (site-wide) ────────────────────────────────── */
 .k-news-card {
