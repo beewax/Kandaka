@@ -1,175 +1,228 @@
-import os, re, hashlib, html, yaml
+#!/usr/bin/env python3
+"""
+Kandaka News Feed Fetcher — Updated June 2026
+Fetches RSS feeds and generates Hugo bilingual content pages.
+Run at Netlify build time.
+"""
+
+import os
+import re
+import hashlib
+import datetime
 import xml.etree.ElementTree as ET
-from datetime import datetime, timezone
-from urllib.request import urlopen, Request
+import urllib.request
+import urllib.error
 
-OUTPUT_DIR = "content/news"
-MAX_ITEMS_PER_FEED = 10
-MAX_TOTAL_ITEMS = 80
+try:
+    import yaml
+except ImportError:
+    import subprocess
+    subprocess.run(["pip3", "install", "pyyaml"], check=True)
+    import yaml
 
-SUDAN_EN = ["sudan","khartoum","darfur","sudanese","omdurman","gezira","kassala","juba","rsf","nile","rapid support","dabanga"]
-SUDAN_AR = ["\u0627\u0644\u0633\u0648\u062f\u0627\u0646","\u0627\u0644\u062e\u0631\u0637\u0648\u0645","\u062f\u0627\u0631\u0641\u0648\u0631","\u0633\u0648\u062f\u0627\u0646\u064a","\u0623\u0645\u062f\u0631\u0645\u0627\u0646","\u062f\u0628\u0646\u0642\u0627","\u0627\u0644\u0631\u0627\u0643\u0648\u0628\u0629"]
-
-CATEGORIES = {
-    "War & Conflict": ["rsf","saf","drone","attack","killed","fighting","ceasefire","military","armed","war","battle","offensive","sniper","airstrike","shelling","paramilitary","\u062d\u0631\u0628","\u0642\u062a\u0644","\u0647\u062c\u0648\u0645","\u0645\u0633\u064a\u0631\u0629"],
-    "Politics": ["government","parliament","minister","president","political","party","election","coup","negotiations","peace talks","transition","delegation","talks","agreement","summit","\u062d\u0643\u0648\u0645\u0629","\u0633\u064a\u0627\u0633\u064a","\u0645\u0641\u0627\u0648\u0636\u0627\u062a","\u0633\u0644\u0627\u0645"],
-    "Economy": ["economy","gdp","inflation","trade","investment","bank","currency","pound","budget","finance","oil","gold","minerals","agriculture","market","\u0627\u0642\u062a\u0635\u0627\u062f","\u0627\u0633\u062a\u062b\u0645\u0627\u0631","\u0628\u0646\u0643"],
-    "Humanitarian": ["aid","refugees","displaced","famine","hunger","unicef","unhcr","relief","flood","crisis","cholera","shelter","civilian","\u0644\u0627\u062c\u0626\u064a\u0646","\u0646\u0627\u0632\u062d\u064a\u0646","\u0625\u063a\u0627\u062b\u0629","\u0645\u062c\u0627\u0639\u0629"],
-    "Infrastructure": ["road","railway","power","electricity","water","dam","bridge","construction","port","airport","\u0643\u0647\u0631\u0628\u0627\u0621","\u0645\u064a\u0627\u0647"],
-    "Culture & Society": ["culture","art","music","heritage","nubian","festival","education","university","school","tradition","\u062b\u0642\u0627\u0641\u0629","\u062a\u0639\u0644\u064a\u0645","\u062a\u0631\u0627\u062b"],
-    "International": ["united nations","african union","igad","egypt","ethiopia","saudi","usa","sanctions","diplomacy","\u0627\u0644\u0623\u0645\u0645 \u0627\u0644\u0645\u062a\u062d\u062f\u0629","\u0639\u0642\u0648\u0628\u0627\u062a"],
-}
-
-CATEGORIES_AR = {
-    "War & Conflict": "\u062d\u0631\u0628 \u0648\u0635\u0631\u0627\u0639",
-    "Politics": "\u0633\u064a\u0627\u0633\u0629",
-    "Economy": "\u0627\u0642\u062a\u0635\u0627\u062f",
-    "Humanitarian": "\u0625\u0646\u0633\u0627\u0646\u064a",
-    "Infrastructure": "\u0628\u0646\u064a\u0629 \u062a\u062d\u062a\u064a\u0629",
-    "Culture & Society": "\u062b\u0642\u0627\u0641\u0629 \u0648\u0645\u062c\u062a\u0645\u0639",
-    "International": "\u062f\u0648\u0644\u064a",
-    "General": "\u0639\u0627\u0645",
-}
-
-FEEDS = [
-    {"name":"Radio Dabanga","url":"https://www.dabangasudan.org/en/feed","lang":"en","sudan_only":False},
-    {"name":"Sudan Tribune","url":"https://sudantribune.net/feed","lang":"en","sudan_only":False},
-    {"name":"AllAfrica Sudan","url":"https://allafrica.com/tools/headlines/rdf/sudan/headlines.rdf","lang":"en","sudan_only":False},
-    {"name":"BBC Africa","url":"https://feeds.bbci.co.uk/news/world/africa/rss.xml","lang":"en","sudan_only":True},
-    {"name":"African Arguments","url":"https://africanarguments.org/feed","lang":"en","sudan_only":True},
-    {"name":"Al Jazeera EN","url":"https://www.aljazeera.com/xml/rss/all.xml","lang":"en","sudan_only":True},
-    {"name":"Dabanga Arabic","url":"https://www.dabangasudan.org/ar/feed","lang":"ar","sudan_only":False},
-    {"name":"Al Rakoba","url":"https://alrakoba.net/feed","lang":"ar","sudan_only":True},
-    {"name":"Asharq Al-Awsat","url":"https://aawsat.com/feed","lang":"ar","sudan_only":True},
-    {"name":"BBC Arabic","url":"https://feeds.bbci.co.uk/arabic/rss.xml","lang":"ar","sudan_only":True},
+# ── SUDAN KEYWORD FILTERS ────────────────────────────────────────────────────
+SUDAN_EN = [
+    "sudan", "sudanese", "khartoum", "darfur", "juba", "omdurman",
+    "port sudan", "nile", "rsf", "rapid support", "sat", "splm",
+    "bashir", "hamdok", "burhan", "hemedti", "nubia", "nubian",
+    "meroe", "kush", "gezira", "kassala", "atbara"
 ]
 
-def categorize(title, desc, lang="en"):
-    text = (title + " " + desc).lower()
-    for cat, keywords in CATEGORIES.items():
-        if any(k.lower() in text for k in keywords):
-            label = CATEGORIES_AR.get(cat, cat) if lang == "ar" else cat
-            return cat, label
-    label = CATEGORIES_AR["General"] if lang == "ar" else "General"
-    return "General", label
+SUDAN_AR = [
+    "السودان", "سوداني", "الخرطوم", "دارفور", "جوبا", "أم درمان",
+    "بورتسودان", "النيل", "الدعم السريع", "البشير", "حمدوك",
+    "البرهان", "حميدتي", "نوبة", "مروي", "كوش", "الجزيرة",
+    "كسلا", "عطبرة"
+]
 
-def is_arabic(text):
-    if not text: return False
-    return sum(1 for c in text if "\u0600" <= c <= "\u06ff") > len(text) * 0.25
+def is_sudan_relevant(text_en, text_ar=""):
+    text_en_lower = (text_en or "").lower()
+    for kw in SUDAN_EN:
+        if kw in text_en_lower:
+            return True
+    for kw in SUDAN_AR:
+        if kw in (text_ar or ""):
+            return True
+    return False
 
-def detect_lang(title, desc, feed_lang):
-    return "ar" if is_arabic(title + " " + desc) else feed_lang
+def detect_arabic(text):
+    if not text:
+        return False
+    arabic_chars = sum(1 for c in text if '\u0600' <= c <= '\u06ff')
+    return arabic_chars / max(len(text), 1) > 0.25
 
-def is_sudan(title, desc):
-    t = (title + " " + desc).lower()
-    return any(k in t for k in SUDAN_EN + SUDAN_AR)
+# ── RSS FEEDS ────────────────────────────────────────────────────────────────
+FEEDS = [
+    # === PASS-THROUGH (Sudan-specific, no keyword filter needed) ===
+    {"name": "Radio Dabanga",      "url": "https://www.dabangasudan.org/en/feed",            "category": "Sudan News",     "lang": "en", "filter": False},
+    {"name": "Sudan Tribune",      "url": "https://sudantribune.net/feed",                   "category": "Sudan News",     "lang": "en", "filter": False},
+    {"name": "Ayin Network",       "url": "https://www.ayinnews.com/feed",                   "category": "Humanitarian",   "lang": "en", "filter": False},
+    {"name": "ReliefWeb Sudan",    "url": "https://reliefweb.int/country/sdn/feed",          "category": "Humanitarian",   "lang": "en", "filter": False},
+    {"name": "SUNA English",       "url": "https://suna-sd.net/en/feed",                     "category": "Sudan News",     "lang": "en", "filter": False},
 
-def slug(text):
-    text = re.sub(r"[^\w\s-]", "", text.lower())
-    return re.sub(r"[\s_-]+", "-", text)[:60].strip("-")
+    # === FILTERED (general feeds — only Sudan-relevant articles pass) ===
 
-def clean(text):
-    if not text: return ""
-    text = re.sub(r"<[^>]+>", "", text)
-    return html.unescape(text).strip()[:300]
+    # International News
+    {"name": "BBC Africa",         "url": "https://feeds.bbci.co.uk/news/world/africa/rss.xml",    "category": "International",  "lang": "en", "filter": True},
+    {"name": "Al Jazeera English", "url": "https://www.aljazeera.com/xml/rss/all.xml",              "category": "International",  "lang": "en", "filter": True},
+    {"name": "PBS NewsHour",       "url": "https://www.pbs.org/newshour/feeds/rss/world",           "category": "International",  "lang": "en", "filter": True},
+    {"name": "NPR World",          "url": "https://feeds.npr.org/1004/rss.xml",                     "category": "International",  "lang": "en", "filter": True},
+    {"name": "The Guardian",       "url": "https://www.theguardian.com/world/rss",                  "category": "International",  "lang": "en", "filter": True},
+    {"name": "Foreign Policy",     "url": "https://foreignpolicy.com/feed/",                        "category": "Analysis",       "lang": "en", "filter": True},
+    {"name": "Al Monitor",         "url": "https://www.al-monitor.com/rss",                         "category": "International",  "lang": "en", "filter": True},
+    {"name": "Middle East Eye",    "url": "https://www.middleeasteye.net/rss",                      "category": "International",  "lang": "en", "filter": True},
+    {"name": "Arab News",          "url": "https://www.arabnews.com/rss.xml",                       "category": "International",  "lang": "en", "filter": True},
 
-def parse_date(s):
-    if not s: return datetime.now(timezone.utc).isoformat()
-    for fmt in ["%a, %d %b %Y %H:%M:%S %z","%a, %d %b %Y %H:%M:%S GMT","%Y-%m-%dT%H:%M:%S%z","%Y-%m-%dT%H:%M:%SZ"]:
-        try: return datetime.strptime(s.strip(), fmt).isoformat()
-        except: pass
-    return datetime.now(timezone.utc).isoformat()
+    # Europe
+    {"name": "Deutsche Welle Africa", "url": "https://rss.dw.com/rdf/rss-en-africa",               "category": "International",  "lang": "en", "filter": True},
+    {"name": "France 24 Africa",   "url": "https://www.france24.com/en/africa/rss",                 "category": "International",  "lang": "en", "filter": True},
+    {"name": "Euronews",           "url": "https://www.euronews.com/rss",                           "category": "International",  "lang": "en", "filter": True},
 
-def fetch(feed):
-    items = []
+    # Africa
+    {"name": "The Africa Report",  "url": "https://www.theafricareport.com/feed/",                  "category": "Analysis",       "lang": "en", "filter": True},
+    {"name": "African Arguments",  "url": "https://africanarguments.org/feed/",                     "category": "Analysis",       "lang": "en", "filter": True},
+    {"name": "The East African",   "url": "https://www.theeastafrican.co.ke/feed",                  "category": "International",  "lang": "en", "filter": True},
+    {"name": "Egypt Independent",  "url": "https://egyptindependent.com/feed/",                     "category": "International",  "lang": "en", "filter": True},
+    {"name": "Africanews",         "url": "https://www.africanews.com/feed/rss",                    "category": "International",  "lang": "en", "filter": True},
+
+    # Development & Economics
+    {"name": "African Dev Bank",   "url": "https://www.afdb.org/en/rss-feeds/news-events",          "category": "Economy",        "lang": "en", "filter": True},
+    {"name": "African Union",      "url": "https://au.int/en/rss.xml",                              "category": "International",  "lang": "en", "filter": True},
+    {"name": "IMF News",           "url": "https://www.imf.org/en/news/rss",                        "category": "Economy",        "lang": "en", "filter": True},
+    {"name": "World Bank",         "url": "https://blogs.worldbank.org/en/rss/all",                 "category": "Economy",        "lang": "en", "filter": True},
+    {"name": "UNDP Africa",        "url": "https://www.undp.org/rss/africa",                        "category": "Humanitarian",   "lang": "en", "filter": True},
+    {"name": "UN OCHA",            "url": "https://reliefweb.int/organization/ocha/feed",           "category": "Humanitarian",   "lang": "en", "filter": True},
+
+    # Analysis & Heritage
+    {"name": "Rift Valley Inst",   "url": "https://riftvalley.net/feed",                            "category": "Analysis",       "lang": "en", "filter": True},
+    {"name": "Crisis Group Africa","url": "https://www.crisisgroup.org/rss/africa.xml",             "category": "Analysis",       "lang": "en", "filter": True},
+    {"name": "Archaeology Mag",    "url": "https://www.archaeology.org/feed",                       "category": "Culture",        "lang": "en", "filter": True},
+    {"name": "World History Enc",  "url": "https://www.worldhistory.org/feed/",                     "category": "Culture",        "lang": "en", "filter": True},
+    {"name": "The New Humanitarian","url": "https://www.thenewhumanitarian.org/rss.xml",            "category": "Humanitarian",   "lang": "en", "filter": True},
+]
+
+# ── HELPERS ──────────────────────────────────────────────────────────────────
+def fetch_feed(url, timeout=15):
     try:
-        req = Request(feed["url"], headers={"User-Agent":"Kandaka/1.0"})
-        with urlopen(req, timeout=15) as r:
-            content = r.read()
-        root = ET.fromstring(content)
-        ch = root.find("channel")
-        entries = ch.findall("item") if ch is not None else []
-        count = 0
-        for e in entries:
-            if count >= MAX_ITEMS_PER_FEED:
-                break
-            te = e.find("title")
-            title = clean(te.text if te is not None else "")
-            if not title:
-                continue
-            if any(x in title.lower() for x in ["all of africa today","africa today","allafrica today","today -"]):
-                continue
-            le = e.find("link")
-            link = (le.text or "").strip() if le is not None else ""
-            de = e.find("description")
-            desc = clean(de.text if de is not None else "")
-            dte = e.find("pubDate")
-            date = parse_date(dte.text if dte is not None else "")
-            if not title or not link:
-                continue
-            lang = detect_lang(title, desc, feed["lang"])
-            if feed["sudan_only"] and not is_sudan(title, desc):
-                continue
-            category, clabel = categorize(title, desc, lang)
-            items.append({
-                "title": title,
-                "link": link,
-                "description": desc,
-                "date": date,
-                "source": feed["name"],
-                "lang": lang,
-                "category": category,
-                "clabel": clabel
-            })
-            count += 1
-        print(f"  + {feed['name']}: {count} items")
-    except Exception as ex:
-        print(f"  x {feed['name']}: {ex}")
+        req = urllib.request.Request(url, headers={"User-Agent": "Kandaka/1.0"})
+        with urllib.request.urlopen(req, timeout=timeout) as r:
+            return r.read()
+    except Exception as e:
+        print(f"  [WARN] Failed to fetch {url}: {e}")
+        return None
+
+def parse_feed(xml_bytes):
+    try:
+        root = ET.fromstring(xml_bytes)
+    except ET.ParseError as e:
+        print(f"  [WARN] Parse error: {e}")
+        return []
+
+    ns = {"atom": "http://www.w3.org/2005/Atom"}
+    items = []
+
+    # RSS
+    for item in root.findall(".//item"):
+        title = (item.findtext("title") or "").strip()
+        link  = (item.findtext("link") or "").strip()
+        desc  = (item.findtext("description") or "").strip()
+        pub   = (item.findtext("pubDate") or "").strip()
+        items.append({"title": title, "link": link, "desc": desc, "pub": pub})
+
+    # Atom
+    if not items:
+        for entry in root.findall("atom:entry", ns):
+            title = (entry.findtext("atom:title", namespaces=ns) or "").strip()
+            link_el = entry.find("atom:link", ns)
+            link = link_el.get("href", "") if link_el is not None else ""
+            desc  = (entry.findtext("atom:summary", namespaces=ns) or "").strip()
+            pub   = (entry.findtext("atom:updated", namespaces=ns) or "").strip()
+            items.append({"title": title, "link": link, "desc": desc, "pub": pub})
+
     return items
 
-def write_page(item, d):
-    h = hashlib.md5(item["link"].encode()).hexdigest()[:8]
-    s = slug(item["title"]) or h
-    fname = f"{s}-{h}.{item['lang']}.md"
-    meta = {
-        "title": item["title"],
-        "date": item["date"],
-        "source": item["source"],
-        "externalLink": item["link"],
-        "language": item["lang"],
-        "category": item["category"],
-        "clabel": item["clabel"],
-        "description": item["description"],
-        "draft": False
-    }
-    with open(os.path.join(d, fname), "w", encoding="utf-8") as f:
-        f.write("---\n")
-        yaml.safe_dump(meta, f, allow_unicode=True, sort_keys=False)
-        f.write("---\n\n")
-        f.write(item["description"] + "\n\n")
-        f.write(f"**Source: [{item['source']}]({item['link']})**\n")
+def clean_html(text):
+    return re.sub(r"<[^>]+>", "", text or "").strip()
 
+def make_slug(title, uid):
+    slug = re.sub(r"[^a-z0-9]+", "-", title.lower())[:60].strip("-")
+    return f"{slug}-{uid[:6]}"
+
+def write_article(content_dir, slug, lang, front_matter, body):
+    lang_dir = os.path.join(content_dir, "news")
+    os.makedirs(lang_dir, exist_ok=True)
+    filename = f"{slug}.{lang}.md"
+    filepath = os.path.join(lang_dir, filename)
+    if os.path.exists(filepath):
+        return False
+    with open(filepath, "w", encoding="utf-8") as f:
+        f.write("---\n")
+        yaml.dump(front_matter, f, allow_unicode=True, default_flow_style=False)
+        f.write("---\n\n")
+        f.write(body + "\n")
+    return True
+
+# ── MAIN ─────────────────────────────────────────────────────────────────────
 def main():
-    print("=" * 60)
-    print("KANDAKA NEWS FETCHER")
-    print("=" * 60)
-    os.makedirs(OUTPUT_DIR, exist_ok=True)
-    for f in os.listdir(OUTPUT_DIR):
-        if f.endswith(".md") and not f.startswith("_index"):
-            os.remove(os.path.join(OUTPUT_DIR, f))
-    all_items = []
+    content_dir = os.path.join(os.path.dirname(__file__), "..", "content")
+    written = 0
+    skipped = 0
+
+    print(f"Fetching {len(FEEDS)} feeds...")
+
     for feed in FEEDS:
-        all_items.extend(fetch(feed))
-    all_items.sort(key=lambda x: x["date"], reverse=True)
-    all_items = all_items[:MAX_TOTAL_ITEMS]
-    en = sum(1 for i in all_items if i["lang"] == "en")
-    ar = sum(1 for i in all_items if i["lang"] == "ar")
-    for item in all_items:
-        try:
-            write_page(item, OUTPUT_DIR)
-        except Exception as ex:
-            print(f"  Error: {ex}")
-    print(f"DONE  Total:{len(all_items)}  EN:{en}  AR:{ar}")
+        print(f"  {feed['name']}...")
+        xml_bytes = fetch_feed(feed["url"])
+        if not xml_bytes:
+            continue
+
+        items = parse_feed(xml_bytes)
+        feed_written = 0
+
+        for item in items[:15]:  # max 15 per feed
+            title = clean_html(item["title"])
+            desc  = clean_html(item["desc"])
+            link  = item["link"]
+
+            if not title or not link:
+                continue
+
+            # Sudan filter
+            if feed["filter"]:
+                if not is_sudan_relevant(title + " " + desc):
+                    skipped += 1
+                    continue
+
+            # Skip digest wrappers
+            if "all of africa today" in title.lower():
+                continue
+
+            lang = feed["lang"]
+            if detect_arabic(title):
+                lang = "ar"
+
+            uid = hashlib.md5(link.encode()).hexdigest()
+            slug = make_slug(title, uid)
+
+            front_matter = {
+                "title":    title,
+                "date":     datetime.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"),
+                "source":   feed["name"],
+                "link":     link,
+                "category": feed["category"],
+                "language": lang,
+                "draft":    False,
+            }
+
+            body = f"{desc}\n\n[{feed['name']} →]({link})" if desc else f"[{feed['name']} →]({link})"
+
+            if write_article(content_dir, slug, lang, front_matter, body):
+                written += 1
+                feed_written += 1
+
+        print(f"    → {feed_written} articles written")
+
+    print(f"\nDone. Written: {written} | Skipped (non-Sudan): {skipped}")
 
 if __name__ == "__main__":
     main()
