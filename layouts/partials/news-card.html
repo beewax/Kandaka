@@ -7,6 +7,8 @@
 {{- else if or (eq $cat "economy") (eq $cat "business") (eq $cat "finance") }}{{- $badgeClass = "badge-economy" }}
 {{- else if eq $cat "international" }}{{- $badgeClass = "badge-international" }}
 {{- else if eq $cat "analysis" }}{{- $badgeClass = "badge-analysis" }}
+{{- else if or (eq $cat "culture") (eq $cat "archaeology") (eq $cat "heritage") }}{{- $badgeClass = "badge-culture" }}
+{{- else if eq $cat "sudan news" }}{{- $badgeClass = "badge-sudan" }}
 {{- end }}
 <article class="k-news-card" role="listitem">
   {{- if $p.Params.category }}
