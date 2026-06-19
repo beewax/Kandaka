@@ -1,12 +1,12 @@
-name: Fetch Sudan News
+name: Fetch Sudan News & Images
 
 on:
   schedule:
-    - cron: '0 6 * * *'
+    - cron: '0 6 * * *'  # 6 AM UTC = 9 AM Sudan time
   workflow_dispatch:
 
 jobs:
-  fetch-news:
+  fetch-content:
     runs-on: ubuntu-latest
 
     steps:
@@ -23,13 +23,16 @@ jobs:
       - name: Install dependencies
         run: pip install pyyaml
 
-      - name: Run fetch_news.py
+      - name: Fetch news articles
         run: python scripts/fetch_news.py
 
-      - name: Commit and push new articles
+      - name: Fetch Sudan images
+        run: python scripts/fetch_images.py
+
+      - name: Commit and push new content
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add content/news/
-          git diff --cached --quiet || git commit -m "Auto: fetch news $(date -u '+%Y-%m-%d')"
+          git add content/news/ content/images/
+          git diff --cached --quiet || git commit -m "Auto: fetch news & images $(date -u '+%Y-%m-%d')"
           git push
