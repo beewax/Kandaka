@@ -1,4 +1,4 @@
-﻿/* Sudan 1956 Flag banner on homepage */
+/* Sudan 1956 Flag banner on homepage */
 article.first-entry.home-info::before {
   content: "";
   display: block;
@@ -11,3 +11,79 @@ article.first-entry.home-info::before {
   margin-bottom: 2rem;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
+
+/* ── News Category Badges ─────────────────────────────────────────── */
+.k-news-badge {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.badge-war           { background: #c0392b !important; color: #fff !important; }
+.badge-politics      { background: #1a2e5a !important; color: #fff !important; }
+.badge-economy       { background: #0e7490 !important; color: #fff !important; }
+.badge-international { background: #3b5998 !important; color: #fff !important; }
+.badge-analysis      { background: #4338ca !important; color: #fff !important; }
+.badge-culture       { background: #c2714f !important; color: #fff !important; }
+.badge-sudan         { background: #1a5c38 !important; color: #fff !important; }
+.badge-default       { background: #b8860b !important; color: #fff !important; }
+
+/* Dark mode */
+html[data-theme="dark"] .badge-war           { background: #7f1d1d !important; color: #fca5a5 !important; }
+html[data-theme="dark"] .badge-politics      { background: #1e3a5f !important; color: #93c5fd !important; }
+html[data-theme="dark"] .badge-economy       { background: #164e63 !important; color: #67e8f9 !important; }
+html[data-theme="dark"] .badge-international { background: #1e3a5f !important; color: #a5b4fc !important; }
+html[data-theme="dark"] .badge-analysis      { background: #312e81 !important; color: #c7d2fe !important; }
+html[data-theme="dark"] .badge-culture       { background: #7c2d12 !important; color: #fdba74 !important; }
+html[data-theme="dark"] .badge-sudan         { background: #14532d !important; color: #86efac !important; }
+html[data-theme="dark"] .badge-default       { background: #78350f !important; color: #fde68a !important; }
+
+/* ── News card styles (site-wide) ────────────────────────────────── */
+.k-news-card {
+  background: var(--entry);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-bottom: 12px;
+}
+.k-news-card h3 {
+  font-size: 15px;
+  line-height: 1.4;
+  margin: 0 0 8px;
+  color: var(--primary);
+}
+.k-news-desc {
+  font-size: 13px;
+  color: var(--secondary);
+  line-height: 1.5;
+  margin: 0 0 14px;
+  flex: 1;
+}
+.k-news-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  color: var(--secondary);
+  margin-top: auto;
+}
+.k-news-link {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--primary) !important;
+  text-decoration: none;
+  padding: 4px 10px;
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  white-space: nowrap;
+}
+.k-news-link:hover { background: var(--border); }
