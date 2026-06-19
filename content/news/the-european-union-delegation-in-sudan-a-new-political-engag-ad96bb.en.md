@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-06-19T05:18:53Z'
+date: '2026-06-19T05:48:18Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/the-european-union-delegation-in-sudan-a-new-political-engagement-or-an-attempt-to-exert-pressure-from-within

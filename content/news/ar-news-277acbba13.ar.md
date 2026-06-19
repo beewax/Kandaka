@@ -1,7 +1,7 @@
 ---
 category: Sudan News
 clabel: أخبار السودان
-date: '2026-06-19T05:19:28Z'
+date: '2026-06-19T05:48:46Z'
 draft: false
 language: ar
 link: https://www.alrakoba.net/32168530/%d9%85%d8%a7-%d8%a7%d9%84%d8%b0%d9%8a-%d9%86%d8%b9%d8%b1%d9%81%d9%87-%d8%b9%d9%86-%d8%a3%d9%85%d9%88%d8%a7%d9%84-%d8%a5%d9%8a%d8%b1%d8%a7%d9%86-%d8%a7%d9%84%d9%85%d8%ac%d9%85%d8%af%d8%a9%d8%9f/
