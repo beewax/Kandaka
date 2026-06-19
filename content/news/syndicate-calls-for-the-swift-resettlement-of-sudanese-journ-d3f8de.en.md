@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-06-19T05:48:18Z'
+date: '2026-06-19T10:08:49Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/syndicate-calls-for-the-swift-resettlement-of-sudanese-journalists-under-threat-in-libya
