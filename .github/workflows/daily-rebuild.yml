@@ -2,7 +2,7 @@ name: Fetch Sudan News
 
 on:
   schedule:
-    - cron: '0 6 * * *'  # 6 AM UTC = 9 AM Sudan time
+    - cron: '0 6 * * *'
   workflow_dispatch:
 
 jobs:
