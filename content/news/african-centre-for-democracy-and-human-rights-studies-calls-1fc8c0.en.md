@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-06-20T08:37:59Z'
+date: '2026-06-21T09:32:40Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/african-centre-for-democracy-and-human-rights-studies-calls-on-un-human-rights-council-to-extend-mandate-of-sudan-fact-finding-mission

@@ -1,6 +1,6 @@
 ---
 category: International
-date: '2026-06-20T08:38:03Z'
+date: '2026-06-21T09:32:44Z'
 draft: false
 language: en
 link: https://www.france24.com/en/ebola-healthworkers-worry-for-their-life

@@ -1,6 +1,6 @@
 ---
 category: International
-date: '2026-06-20T08:38:06Z'
+date: '2026-06-21T09:32:46Z'
 draft: false
 language: en
 link: http://www.africanews.com/2026/06/19/south-sudan-repatriates-vietnamese-man-deported-from-us/
