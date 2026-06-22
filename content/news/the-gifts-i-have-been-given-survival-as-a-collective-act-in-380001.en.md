@@ -1,6 +1,6 @@
 ---
 category: Humanitarian
-date: '2026-06-21T09:33:05Z'
+date: '2026-06-22T11:29:24Z'
 draft: false
 language: en
 link: https://www.thenewhumanitarian.org/opinion/first-person/2026/01/08/gifts-survival-collective-help-sudan

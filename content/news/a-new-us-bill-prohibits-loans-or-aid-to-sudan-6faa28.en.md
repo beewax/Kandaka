@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-06-21T09:32:40Z'
+date: '2026-06-22T11:29:15Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/a-new-us-bill-prohibits-loans-or-aid-to-sudan
