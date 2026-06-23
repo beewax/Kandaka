@@ -1,6 +1,6 @@
 ---
 category: International
-date: '2026-06-22T11:29:21Z'
+date: '2026-06-23T08:54:11Z'
 draft: false
 language: en
 link: https://au.int/en/pressreleases/20250327/statement-chairperson-african-union-commission-reported-detention-south
