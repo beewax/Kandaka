@@ -1,6 +1,6 @@
 ---
 category: International
-date: '2026-06-23T08:54:09Z'
+date: '2026-06-24T08:49:55Z'
 draft: false
 language: en
 link: https://www.france24.com/en/video/20260620-drone-use-expands-in-sudan-%E2%80%93-and-kills-at-least-1-000-civilians-in-2026

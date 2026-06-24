@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-06-23T08:54:06Z'
+date: '2026-06-24T08:49:52Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/rsf-aligned-gov-suspends-msf-operations-over-abuse-allegations-in-chad
