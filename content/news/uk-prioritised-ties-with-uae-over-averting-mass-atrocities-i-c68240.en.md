@@ -1,6 +1,6 @@
 ---
 category: International
-date: '2026-06-24T08:49:54Z'
+date: '2026-06-25T08:44:37Z'
 draft: false
 language: en
 link: https://www.theguardian.com/global-development/2026/jun/23/uk-ties-uae-mass-atrocities-sudan-mps-select-committee-nathaniel-raymond

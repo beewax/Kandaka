@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-06-24T08:49:52Z'
+date: '2026-06-25T08:44:36Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/hrw-stronger-intl-pressure-needed-to-prevent-atrocities-in-sudan-no-impunity-for-defecting-militia-commanders
