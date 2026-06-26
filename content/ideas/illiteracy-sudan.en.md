@@ -3,8 +3,8 @@ title: "The Cheapest Investment Sudan Can Make in Its People: Tackling Illiterac
 date: '2026-06-25'
 author: "Kandaka"
 category: "Education"
-description: "Six out of ten people in rural Sudan cannot read or write. This is not a social welfare problem — it is an economic emergency. Cuba eliminated illiteracy in eight months. Bolivia did it in three. Sudan can too, if it chooses to."
-tags: ["education", "literacy", "human capital", "rural development", "women"]
+description: "Six out of ten people in rural Sudan cannot read or write. Islam's first word was Iqra — Read. Cuba eliminated illiteracy in eight months. Bolivia did it in three. Sudan can too, if it chooses to."
+tags: ["education", "literacy", "human capital", "rural development", "women", "islam"]
 draft: false
 ---
 
@@ -48,7 +48,7 @@ draft: false
   <rect x="206" y="165" width="10" height="4" rx="2" fill="#FFC700" opacity="0.6"/>
   <circle cx="235" cy="152" r="8" fill="#e8a820" opacity="0.7"/>
   <rect x="230" y="160" width="10" height="26" rx="4" fill="#e8a820" opacity="0.6"/>
-  <text x="400" y="210" text-anchor="middle" fill="#FFC700" font-size="11" font-family="Georgia,serif" opacity="0.85">67% of rural women in Sudan cannot read — Cuba eliminated illiteracy in 8 months</text>
+  <text x="400" y="210" text-anchor="middle" fill="#FFC700" font-size="11" font-family="Georgia,serif" opacity="0.85">اقرأ — 67% of rural women in Sudan cannot read — Islam's first word was Read</text>
 </svg>
 
 In rural Sudan, six out of ten people cannot read or write. Among rural women, the figure is closer to seven out of ten. These are not statistics from a century ago. They are from the 2022 Sudan Labor Market Panel Survey, analysed by the Economic Research Forum in 2024 -- the most recent serious measurement of a crisis that has been worsening, slowly and largely unnoticed, for decades.
@@ -58,6 +58,24 @@ The 2023 war accelerated everything. Sudan's GDP contracted by an estimated 48%.
 And yet the world's attention, when it reaches Sudan at all, focuses almost entirely on the acute emergency: food, displacement, ceasefire negotiations. Illiteracy, being slow and structural, gets treated as a background condition -- something to be solved gradually, once stability returns, through decades of normal schooling.
 
 This framing is wrong. And the cost of getting it wrong is enormous.
+
+## Islam Begins With the Word Read
+
+The first word revealed to the Prophet Muhammad was not a commandment to pray, to fast, or to wage holy struggle. It was a single imperative: **اقرأ** -- *Iqra*. Read.
+
+Surah Al-Alaq, the first verses of the Quran to be revealed, begins: *"Read in the name of your Lord who created -- created man from a clinging substance. Read, and your Lord is the most Generous -- who taught by the pen -- taught man that which he knew not."* (96:1--5)
+
+This is not incidental. It is foundational. The Islamic tradition treats the pursuit of knowledge not as optional enrichment but as a religious obligation. The Prophet is reported to have said: *"Seeking knowledge is an obligation upon every Muslim."* And: *"Seek knowledge from the cradle to the grave."* And: *"Seek knowledge even if it is in China."* Classical Islamic scholarship classified ignorance not merely as a misfortune but as a condition to be actively remedied -- a duty owed to God, to one's community, and to oneself.
+
+The Islamic golden age was built on this foundation. The translation movement of the 8th and 9th centuries, which transmitted Greek philosophy, mathematics, astronomy, and medicine into Arabic, was driven by a religious culture that treated learning as worship. The world's first university -- Al-Qarawiyyin in Fez -- was founded in 859 CE by Fatima al-Fihri, a Muslim woman. Baghdad's House of Wisdom was not an accident of geography. It was the institutional expression of a civilisational commitment to literacy and scholarship.
+
+Sudan is one of the most comprehensively Muslim countries in the world. Approximately 97% of its population identifies as Muslim. The country's identity -- its calendar, its law, its social life, its politics -- is shaped by Islam at a foundational level.
+
+And yet roughly 40% of adult Sudanese cannot read the scripture that defines their faith. Cannot read the Quran in Arabic. Cannot access the hadith collections that define Islamic practice. Cannot read the legal texts, the scholarly commentaries, or the rich tradition of Islamic thought that has accumulated over fourteen centuries.
+
+A country with 40% adult illiteracy in a Muslim-majority population is not a country that has failed economically, politically, and institutionally. It is a country that has also failed on the terms of its own stated religious commitments. The Sudanese thinker Mahmoud Mohamed Taha, executed in 1985 by the Numeiry government for his reformist interpretation of Islamic law, argued in *The Second Message of Islam* that the highest aspiration of Islamic civilisation was human dignity, freedom, and the full development of human capacity. A society in which the majority of rural women cannot read is not one that has honoured that aspiration.
+
+The Islamic argument for a national literacy campaign is therefore not a rhetorical flourish to be added to an economic analysis. It is a primary argument in its own right. If the Sudanese state takes its Islamic identity seriously -- and its governments have consistently claimed to -- then investing in mass literacy is not merely good development policy. It is a religious obligation.
 
 ## Why Illiteracy Is an Economic Emergency, Not a Social Programme
 
@@ -85,59 +103,55 @@ These are not marginal figures. They describe the majority of the population tha
 
 In 1959, Cuba's literacy rate was around 77%. After a revolution that promised transformation, the new government faced a stark choice: speak the language of development while leaving the rural poor functionally excluded from civic and economic life, or do something about it.
 
-Fidel Castro declared 1961 the Year of Education. What followed was one of the most studied and most instructive literacy campaigns in history -- not because Cuba was exceptional, but because it was deliberate.
-
-More than 250,000 volunteers -- many of them teenagers, many of them young women -- left their urban homes to live with rural farming families across the island. They were trained for several weeks, given a uniform, a blanket, and a kerosene lantern. They taught in the evenings, by lamplight, using two primers: *Venceremos* (We Shall Overcome) for learners, and *Alfabeticemos* as a teacher's guide. At its peak, 178,000 adult literacy workers were simultaneously running evening classes in urban neighbourhoods. Schools were closed for most of the year so that student-teachers could participate.
+Fidel Castro declared 1961 the Year of Education. More than 250,000 volunteers -- many of them teenagers, many of them young women -- left their urban homes to live with rural farming families across the island. They were trained for several weeks, given a uniform, a blanket, and a kerosene lantern. They taught in the evenings, by lamplight, using two primers: *Venceremos* (We Shall Overcome) for learners, and *Alfabeticemos* as a teacher's guide. Schools were closed for most of the year so that student-teachers could participate.
 
 The campaign ran for eight months, from April to December 1961. By the time Castro declared Cuba a territory free of illiteracy, the campaign had taught 707,212 adults to read and write. Illiteracy fell from approximately 20% to 3.9%.
 
-What made this work was not magic, and it was not uniquely Cuban. It was the combination of four things that rarely appear together: a clear and measurable target, a defined time horizon, mass civilian mobilisation as the delivery mechanism, and the framing of literacy as a civic act -- something citizens did together -- rather than a government service delivered to passive recipients. The brigadistas were not helping the rural poor. They were building the country. That distinction changed everything about motivation and scale.
+What made this work was the combination of four things that rarely appear together: a clear and measurable target, a defined time horizon, mass civilian mobilisation as the delivery mechanism, and the framing of literacy as a civic act -- something citizens did together -- rather than a government service delivered to passive recipients. The brigadistas were not helping the rural poor. They were building the country.
 
 ## Yo, Sí Puedo: Cuba Exports the Method
 
-Cuba did not keep the model to itself. In 2003, the Cuban Latin American and Caribbean Pedagogical Institute developed a portable methodology called *Yo, Sí Puedo* -- Yes, I Can -- designed specifically for contexts with limited infrastructure and no assumption of professional teaching capacity.
+In 2003, the Cuban Latin American and Caribbean Pedagogical Institute developed a portable methodology called *Yo, Sí Puedo* -- Yes, I Can -- designed specifically for contexts with limited infrastructure and no assumption of professional teaching capacity.
 
-The method exploits the observation that most illiterate adults in developing countries already have numeracy skills -- they count money, weigh produce, measure land. *Yo, Sí Puedo* creates a systematic correspondence between letters and numbers, using existing numeracy as the scaffold for acquiring literacy. Instruction is delivered through audiovisual materials -- television and radio -- reducing dependence on trained teachers and allowing delivery in remote locations. Cohorts work in small groups over approximately 65 hours of instruction, typically spanning three months.
+The method exploits the observation that most illiterate adults in developing countries already have numeracy skills. *Yo, Sí Puedo* creates a systematic correspondence between letters and numbers, using existing numeracy as the scaffold for acquiring literacy. Instruction is delivered through audiovisual materials -- television and radio. Cohorts work in small groups over approximately 65 hours of instruction, typically spanning three months.
 
-By 2018, the methodology had been implemented in 32 countries across Latin America, Africa, Oceania, and Europe, teaching more than 10 million people to read and write. UNESCO declared five Latin American countries free of illiteracy -- Cuba, Venezuela, Ecuador, Bolivia, and Nicaragua -- largely on the strength of programmes built around this approach.
+By 2018, the methodology had been implemented in 32 countries, teaching more than 10 million people to read and write. UNESCO declared five Latin American countries free of illiteracy -- Cuba, Venezuela, Ecuador, Bolivia, and Nicaragua -- largely on the strength of this approach.
 
 ## Bolivia 2006--2008: The Case Sudan Should Study
 
-If Cuba is the inspiration, Bolivia is the operational blueprint. Bolivia in 2006 was a country with a large rural and indigenous population dispersed across difficult terrain, weak formal education infrastructure outside major cities, severe female illiteracy, linguistic diversity that complicated curriculum design, and a government operating on a constrained budget. Sudan's conditions map onto this description more closely than they map onto Cuba's.
+Bolivia in 2006 was a country with a large rural population dispersed across difficult terrain, weak formal education infrastructure, severe female illiteracy, linguistic diversity, and a government operating on a constrained budget. Sudan's conditions map onto this description more closely than they map onto Cuba's.
 
-The Bolivian programme adapted the *Yo, Sí Puedo* methodology for a local audience and ran it simultaneously in Spanish, Quechua, and Aymara. Television sets and recorded materials were distributed to rural participants and volunteer instructors. Face-to-face instruction ran to 65 hours over three months, in small community groups.
+The Bolivian programme ran simultaneously in Spanish, Quechua, and Aymara. Television sets and recorded materials were distributed to rural participants and volunteer instructors. Face-to-face instruction ran to 65 hours over three months.
 
-820,000 adults completed the programme. Seventy percent of them were women. UNESCO declared Bolivia free of illiteracy in 2008 when the national literate population reached 96.2%. The campaign was the largest literacy programme in Latin America since Cuba's 1961 crusade.
+820,000 adults completed the programme. Seventy percent of them were women. UNESCO declared Bolivia free of illiteracy in 2008 when the national literate population reached 96.2%.
 
-The further lesson from Bolivia is one the standard literacy campaign literature tends to underemphasise. Local educational authorities were established within communities after the campaign, giving residents ongoing control over adult education in their area. Literacy became the entry point into a broader system -- vocational training, cooperative governance, civic participation. The campaign changed not just individual capabilities but community structures. This is the Mondragón logic applied to human capital: productive capacity requires education as a precondition, and education requires intentional institutional design to generate lasting effect.
+Local educational authorities were established within communities after the campaign, giving residents ongoing control over adult education. Literacy became the entry point into a broader system -- vocational training, cooperative governance, civic participation. The campaign changed not just individual capabilities but community structures.
 
 ## What Sudan Would Actually Need
 
-Sudan in 2025 faces conditions that are harder than Bolivia in 2006 or Cuba in 1961. The war has destroyed infrastructure, displaced populations, and collapsed state institutions. Any programme must be designed for this reality.
+**A decentralised volunteer model.** With formal school infrastructure damaged across multiple states, the *Yo, Sí Puedo* approach -- training community volunteers, working in homes and open spaces, using radio -- was designed precisely for contexts with destroyed infrastructure. Sudan's situation is not a disqualification. It is a design specification.
 
-**A decentralised volunteer model.** With formal school infrastructure damaged across multiple states, any programme that depends on functioning school buildings is foreclosed. The *Yo, Sí Puedo* approach -- training community volunteers, working in homes and open spaces, using radio as the primary delivery technology -- was designed precisely for contexts with destroyed infrastructure. Sudan's situation is not a disqualification. It is a design specification.
+**Arabic as an asset.** Bolivia ran programmes in three languages with different scripts. Sudan has Arabic as a broadly shared national language. This simplifies curriculum development substantially.
 
-**Arabic as an asset.** Bolivia ran programmes simultaneously in three languages with different scripts and grammatical structures. Sudan has Arabic as a broadly shared national language. This simplifies curriculum development substantially and allows materials to be standardised at scale in a way that was impossible in Bolivia.
+**Radio as the primary medium.** Radio reaches deeply into Sudan's rural and nomadic communities. A radio-adapted version of *Yo, Sí Puedo* -- deployed in several African contexts -- is the appropriate technology choice.
 
-**Radio as the primary medium.** Television penetration in Sudan's rural areas is limited and unreliable. Radio reaches deeply into rural and nomadic communities and has done so for generations. A radio-adapted version of *Yo, Sí Puedo* -- deployed in several African contexts -- is the appropriate technology choice.
+**Women as primary target and primary delivery agents.** Bolivia's experience showed that women completed literacy programmes at higher rates and were among the most effective volunteer instructors. In Sudan, where rural female illiteracy reaches 67%, targeting women is the central economic and religious logic. A literate mother changes the educational trajectory of every child in her household. A literate woman can read the Quran for herself.
 
-**Women as primary target and primary delivery agents.** Bolivia's experience showed that women completed literacy programmes at higher rates than men and were among the most effective volunteer instructors. In Sudan, where rural female illiteracy reaches 67%, this is not a gender equity add-on -- it is the central economic logic. A literate mother changes the educational trajectory of every child in her household.
+**Incentive structures that reflect material reality.** Linking programme completion to access to microfinance, agricultural extension services, or community health provisions creates tangible economic motivation for participation.
 
-**Incentive structures that reflect material reality.** In a country where most of the rural population lives below the poverty line, abstract civic exhortation is insufficient. Linking programme completion to access to microfinance, agricultural extension services, or community health provisions creates tangible economic motivation for participation. People make rational decisions about time allocation, and time spent in literacy classes has an opportunity cost that needs to be compensated.
-
-**Post-literacy pathways.** Cuba's *Yo, Sí Puedo Seguir* extended basic literacy into a broader adult education system. Bolivia's community learning centres did the same. A programme that teaches basic reading and writing and then offers no pathway for further learning produces individuals who are marginally literate but structurally unchanged in their relationship to economic opportunity.
+**Post-literacy pathways.** Literacy must connect to vocational training, cooperative membership, financial services access, and civic participation to generate development impact rather than just an improved statistic.
 
 ## The Bottom Line
 
-Cuba eliminated illiteracy in eight months. Bolivia did it in three months per cohort, reaching 820,000 adults in two years. Both did it under conditions of political difficulty and resource constraint. Both used methodologies that are documented, proven, and available.
+Cuba eliminated illiteracy in eight months. Bolivia did it in three months per cohort, reaching 820,000 adults in two years. Both used methodologies that are documented, proven, and available.
 
-Sudan has Arabic as a shared language -- a simplification Bolivia did not have. Sudan has a diaspora of educated Sudanese who have expressed a consistent desire to contribute to reconstruction. Sudan has international partners with mandates and funds specifically targeted at exactly this kind of intervention.
+Sudan has Arabic as a shared language -- a simplification Bolivia did not have. Sudan has a diaspora of educated Sudanese who have expressed a consistent desire to contribute to reconstruction. Sudan has international partners with mandates and funds specifically targeted at this kind of intervention.
 
-What Sudan has historically lacked is the institutional decision to treat human capital as the economic foundation it is -- to see literacy not as a welfare programme for the unfortunate but as the precondition for every other development intervention the country needs to make.
+Islam's first word to humanity was *Iqra* -- Read. Sudan has inherited a civilisational tradition that treated literacy and scholarship as acts of worship. It has inherited the institutional memory of a religion that built the first university, that translated the knowledge of the ancient world into Arabic, that produced centuries of scholarship in mathematics, medicine, philosophy, and law.
 
-Alexander Hamilton argued in 1791 that manufacturing required active state investment because markets alone would not develop productive capacity from a standing start. The countries that took his argument seriously industrialised. The same logic applies to human capital. Markets will not produce mass literacy in rural Sudan. Extension services will not reach illiterate farmers. Cooperatives cannot be democratically governed by members who cannot read their own rules. Microfinance cannot reach people who cannot fill in a form.
+What Sudan has historically lacked is the institutional decision to treat human capital as the economic and religious foundation it is -- to see literacy not as a welfare programme for the unfortunate but as the precondition for every other development intervention the country needs to make, and the fulfilment of an obligation the tradition has always required.
 
-The investment must be made deliberately, publicly, and at scale. The methodology exists. The precedent exists. The question is only whether the decision will be made.
+The investment must be made deliberately, publicly, and at scale. The methodology exists. The precedent exists. The religious foundation exists. The question is only whether the decision will be made.
 
 ---
 
@@ -146,3 +160,4 @@ The investment must be made deliberately, publicly, and at scale. The methodolog
 - [Sudan A Country Study](https://pub-0c3bb637d5f54b239fe4a4ef9b08bfe3.r2.dev/sudan-a-country-study-federal-research-division-libr.pdf) -- Comprehensive background on Sudan's social, political and economic structure including education sector analysis.
 - [Governance and Policy in Africa](https://pub-0c3bb637d5f54b239fe4a4ef9b08bfe3.r2.dev/governance-and-policy-in-africa-abdalla-hamdok.pdf) -- Abdalla Hamdok on the institutional conditions for development policy in African states.
 - [The Agricultural Potential of Sudan](https://pub-0c3bb637d5f54b239fe4a4ef9b08bfe3.r2.dev/the-agricultural-potential-of-s-abdalla-ahmed-abdalla-hassan-o.pdf) -- Sector analysis that contextualises the human capital constraints on agricultural development.
+- [Skills Development in Sudan](https://pub-0c3bb637d5f54b239fe4a4ef9b08bfe3.r2.dev/skills-development-in-sudan-se-ibrahim-khalid-ibrahim.pdf) -- Ibrahim Khalid Ibrahim. Analysis of Sudan's vocational and skills training infrastructure.
