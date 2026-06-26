@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-06-25T08:44:36Z'
+date: '2026-06-26T08:45:58Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/sudan-war-intl-pressure-grows-as-fears-mount-over-escalation-in-el-obeid

@@ -1,6 +1,6 @@
 ---
 category: International
-date: '2026-06-25T08:44:38Z'
+date: '2026-06-26T08:46:01Z'
 draft: false
 language: en
 link: https://www.france24.com/en/more-protests-over-makoko-evictions
