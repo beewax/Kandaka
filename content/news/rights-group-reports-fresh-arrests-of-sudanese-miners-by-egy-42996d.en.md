@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-06-28T08:37:38Z'
+date: '2026-06-29T10:17:01Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/rights-group-reports-fresh-arrests-of-sudanese-miners-by-egyptian-forces
