@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-06-29T10:17:01Z'
+date: '2026-06-30T08:52:02Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/drone-attacks-deepen-humanitarian-crisis-in-el-obeid-joint-forces-claims-gains-in-north-darfur

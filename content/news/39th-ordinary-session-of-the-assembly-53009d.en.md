@@ -1,6 +1,6 @@
 ---
 category: International
-date: '2026-06-29T10:17:07Z'
+date: '2026-06-30T08:52:09Z'
 draft: false
 language: en
 link: https://au.int/en/newsevents/20260214/39th-ordinary-session-assembly
@@ -52,6 +52,7 @@ Dec 24, 2025 - 15:54
     
           
           
+        
         
   
 

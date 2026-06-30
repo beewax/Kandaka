@@ -1,6 +1,6 @@
 ---
 category: Analysis
-date: '2026-06-29T10:17:04Z'
+date: '2026-06-30T08:52:06Z'
 draft: false
 language: en
 link: https://www.theafricareport.com/423304/el-obeid-battle-threatens-to-cement-rsf-control-in-western-sudan/
