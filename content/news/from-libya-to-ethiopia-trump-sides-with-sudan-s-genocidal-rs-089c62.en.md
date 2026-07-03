@@ -1,6 +1,6 @@
 ---
 category: Analysis
-date: '2026-07-02T08:38:17Z'
+date: '2026-07-03T08:44:32Z'
 draft: false
 language: en
 link: https://www.theafricareport.com/423581/from-libya-to-ethiopia-trump-sides-with-sudans-genocidal-rsf/
