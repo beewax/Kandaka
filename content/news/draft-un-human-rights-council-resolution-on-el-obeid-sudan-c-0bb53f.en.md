@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-07-03T08:44:28Z'
+date: '2026-07-04T08:18:30Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/draft-un-human-rights-council-resolution-on-el-obeid-sudan-condemns-war-crimes-starvation-as-weapon-of-war

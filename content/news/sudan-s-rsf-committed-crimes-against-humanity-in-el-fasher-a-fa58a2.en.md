@@ -1,6 +1,6 @@
 ---
 category: International
-date: '2026-07-03T08:44:30Z'
+date: '2026-07-04T08:18:32Z'
 draft: false
 language: en
 link: https://www.theguardian.com/world/2026/jul/01/sudan-rsf-rapid-support-forces-crimes-against-humanity-el-fasher-amnesty-ethnic-cleansing
