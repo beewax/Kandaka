@@ -1,6 +1,6 @@
 ---
 category: International
-date: '2026-07-04T08:18:34Z'
+date: '2026-07-05T08:36:52Z'
 draft: false
 language: en
 link: https://www.france24.com/en/tv-shows/the-world-this-week/20260703-putin-the-drowning-man-syndrome-sudan
