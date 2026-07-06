@@ -1,6 +1,6 @@
 ---
 category: Analysis
-date: '2026-07-05T08:36:52Z'
+date: '2026-07-06T09:50:49Z'
 draft: false
 language: en
 link: https://africanarguments.org/2026/06/agriculture-as-the-foundation-of-post-war-reconstruction-in-sudan/?utm_source=rss&utm_medium=rss&utm_campaign=agriculture-as-the-foundation-of-post-war-reconstruction-in-sudan

@@ -1,6 +1,6 @@
 ---
 category: International
-date: '2026-07-05T08:36:50Z'
+date: '2026-07-06T09:50:48Z'
 draft: false
 language: en
 link: https://www.theguardian.com/world/2026/jul/04/el-obeid-aid-workers-sudan-war-drone-strikes

@@ -1,6 +1,6 @@
 ---
 category: International
-date: '2026-07-05T08:36:52Z'
+date: '2026-07-06T09:50:49Z'
 draft: false
 language: en
 link: https://www.france24.com/en/africa/20260703-un-issues-red-alert-over-human-rights-catastrophe-in-sudan-s-el-obeid

@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-07-05T08:36:49Z'
+date: '2026-07-06T09:50:47Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/sudan-timeline-april-june-2026-struggles-toward-ceasefire-fail-amid-el-obeid-violence
