@@ -1,4 +1,4 @@
-﻿{{/* ── SEO: Open Graph + Twitter Cards for every page ── */}}
+{{/* ── SEO: Open Graph + Twitter Cards for every page ── */}}
 {{- $desc := .Description | default .Site.Params.description }}
 {{- $title := .Title | default .Site.Title }}
 <meta property="og:site_name" content="{{ .Site.Title }}">
@@ -18,6 +18,10 @@
 <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Meroe_Pyramids_23deg06min18sec_E_16deg56min17sec_N.jpg/800px-Meroe_Pyramids_23deg06min18sec_E_16deg56min17sec_N.jpg">
 {{- with .Params.source }}<meta name="article:publisher" content="{{ . }}">{{- end }}
 <link rel="canonical" href="{{ .Permalink }}">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 
 <style>
 /* Sudan 1956 flag hero */
@@ -109,7 +113,6 @@ document.addEventListener('DOMContentLoaded', function() {
     var spans = footer.querySelectorAll('span');
     if (spans.length > 1) {
       spans[1].remove();
-      // Also remove the · separator (which is text content between spans)
       footer.innerHTML = footer.innerHTML.replace(/·\s*$/, '').replace(/·\s*<span><\/span>/, '');
     }
   }
