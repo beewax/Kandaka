@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-07-07T09:19:11Z'
+date: '2026-07-08T08:03:59Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/two-children-killed-in-south-kordofan-drone-strike-amid-mounting-humanitarian-calls

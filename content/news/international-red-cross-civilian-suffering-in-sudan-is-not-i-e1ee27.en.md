@@ -1,6 +1,6 @@
 ---
 category: International
-date: '2026-07-07T09:19:30Z'
+date: '2026-07-08T08:04:03Z'
 draft: false
 language: en
 link: https://www.france24.com/en/international-red-cross-civilian-suffering-in-sudan-is-not-inevitable

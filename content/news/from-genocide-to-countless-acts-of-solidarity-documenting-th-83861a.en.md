@@ -1,6 +1,6 @@
 ---
 category: Humanitarian
-date: '2026-07-07T09:19:39Z'
+date: '2026-07-08T08:04:11Z'
 draft: false
 language: en
 link: https://www.thenewhumanitarian.org/news/2026/04/15/genocide-countless-acts-solidarity-documenting-three-years-war-sudan
