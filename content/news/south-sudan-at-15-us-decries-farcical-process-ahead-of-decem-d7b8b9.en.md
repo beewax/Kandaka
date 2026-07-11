@@ -1,6 +1,6 @@
 ---
 category: Analysis
-date: '2026-07-10T08:56:21Z'
+date: '2026-07-11T07:29:16Z'
 draft: false
 language: en
 link: https://www.theafricareport.com/424484/south-sudan-at-15-us-decries-farcical-process-ahead-of-december-elections/
