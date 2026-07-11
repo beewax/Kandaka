@@ -1,4 +1,8 @@
-{{/* ── SEO: Open Graph + Twitter Cards for every page ── */}}
+{{ range .Translations }}
+<link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}" />
+{{ end }}
+<link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}" />
+<link rel="alternate" hreflang="x-default" href="{{ .Site.Home.Permalink }}" />{{/* ── SEO: Open Graph + Twitter Cards for every page ── */}}
 {{- $desc := .Description | default .Site.Params.description }}
 {{- $title := .Title | default .Site.Title }}
 <meta property="og:site_name" content="{{ .Site.Title }}">
