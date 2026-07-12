@@ -1,6 +1,6 @@
 ---
 category: International
-date: '2026-07-11T07:29:15Z'
+date: '2026-07-12T07:54:33Z'
 draft: false
 language: en
 link: https://www.france24.com/en/sudan-el-obeid-civilians-trapped-under-rsf-siege

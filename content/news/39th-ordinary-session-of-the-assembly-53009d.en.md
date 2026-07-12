@@ -1,6 +1,6 @@
 ---
 category: International
-date: '2026-07-11T07:29:19Z'
+date: '2026-07-12T07:54:35Z'
 draft: false
 language: en
 link: https://au.int/en/newsevents/20260214/39th-ordinary-session-assembly

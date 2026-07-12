@@ -1,6 +1,6 @@
 ---
 category: International
-date: '2026-07-11T07:29:14Z'
+date: '2026-07-12T07:54:32Z'
 draft: false
 language: en
 link: https://www.al-monitor.com/originals/2026/07/us-extends-work-permits-haitians-other-immigrants-temporary-protected-status
