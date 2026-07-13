@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-07-12T07:54:30Z'
+date: '2026-07-13T08:41:53Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/un-condemns-rsf-escalation-around-el-obeid-as-tasees-backs-ceasefire
