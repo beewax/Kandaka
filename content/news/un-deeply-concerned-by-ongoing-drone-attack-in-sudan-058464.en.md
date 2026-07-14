@@ -1,6 +1,6 @@
 ---
 category: International
-date: '2026-07-13T08:41:56Z'
+date: '2026-07-14T07:43:06Z'
 draft: false
 language: en
 link: https://www.france24.com/en/un-deeply-concerned-by-ongoing-drone-attack-in-sudan

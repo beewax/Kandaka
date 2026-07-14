@@ -1,6 +1,6 @@
 ---
 category: Analysis
-date: '2026-07-13T08:41:56Z'
+date: '2026-07-14T07:43:07Z'
 draft: false
 language: en
 link: https://www.theafricareport.com/424806/sudan-court-sentences-rsf-leader-hemeti-to-death-in-absentia/
