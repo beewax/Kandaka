@@ -1,6 +1,6 @@
 ---
 category: International
-date: '2026-07-14T07:43:09Z'
+date: '2026-07-15T07:46:37Z'
 draft: false
 language: en
 link: https://au.int/en/newsevents/20260214/39th-ordinary-session-assembly
@@ -124,46 +124,6 @@ For further information please contact:
     
         
     
-      
-  
-    Media Advisory
-          
-              
- Media Advisory (EN)
-
-          
- Media Advisory Note (EN)
-
-              
-      
-    
-  
-
-
-  
-    
-        
-    
-      
-  
-    Event Programme
-          
-              
- Draft Programme (EN)
-
-          
- Draft Programme (FR)
-
-              
-      
-    
-  
-
-
-  
-    
-        
-    
           
   
 
@@ -191,6 +151,17 @@ For further information please contact:
   
     
           Event References
+        
+    
+      
+
+    
+  
+
+
+  
+    
+          Event Multimedia
         
     
       
