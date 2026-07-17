@@ -1,7 +1,10 @@
 [build]
-  command = "pip3 install -r requirements.txt && python3 scripts/fetch_news.py && hugo --minify"
+  command = "pip3 install -r requirements.txt && rm -rf content/news/*.md && python3 scripts/fetch_news.py && hugo --minify"
   publish = "public"
 
 [build.environment]
   HUGO_VERSION = "0.160.0"
   PYTHON_VERSION = "3.11"
+
+[build.processing]
+  skip_processing = false
