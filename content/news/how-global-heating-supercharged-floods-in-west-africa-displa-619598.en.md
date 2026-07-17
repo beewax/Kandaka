@@ -1,6 +1,6 @@
 ---
 category: International
-date: '2026-07-16T07:51:33Z'
+date: '2026-07-17T07:49:12Z'
 draft: false
 language: en
 link: https://www.theguardian.com/world/2026/jul/16/how-global-heating-supercharged-floods-west-africa-displacing-thousands
