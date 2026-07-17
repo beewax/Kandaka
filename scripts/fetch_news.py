@@ -21,9 +21,6 @@ except ImportError:
     subprocess.run(["pip3", "install", "pyyaml"], check=True)
     import yaml
 
-# ── SUDAN KEYWORD FILTERS ────────────────────────────────────────────────────
-# Use whole-word matching only — short keywords like "rsf" and "spla"
-# were matching substrings in unrelated words like "displaced", "inspiring" etc.
 SUDAN_KEYWORDS = [
     "sudan", "sudanese", "khartoum", "darfur", "juba", "omdurman",
     "port sudan", "rapid support forces", "splm-a", "splm",
@@ -59,7 +56,7 @@ BLOCKLIST = [
     "china", "india", "pakistan", "afghanistan", "myanmar",
     "white house", "trump", "biden", "congress", "senate",
     "chile", "brazil", "argentina", "colombia", "mexico",
-    "rwanda", "burundi", "zambia", "zimbabwe",
+    "burundi",
 ]
 
 BLOCKLIST_AR = [
@@ -75,13 +72,11 @@ BLOCKLIST_AR = [
     "\u0648\u0627\u0634\u0646\u0637\u0646 \u0627\u0644\u0639\u0627\u0635\u0645\u0629", "\u0627\u0644\u0643\u0648\u0646\u063a\u0631\u0633"
 ]
 
-# Specific article titles to block permanently
 TITLE_BLOCKLIST = [
     "from genocide to countless acts of solidarity",
     "documenting three years of war in sudan",
 ]
 
-# Arabic display labels
 CATEGORY_AR_LABEL = {
     "Sudan News":    "\u0623\u062e\u0628\u0627\u0631 \u0627\u0644\u0633\u0648\u062f\u0627\u0646",
     "International": "\u062f\u0648\u0644\u064a",
@@ -92,9 +87,7 @@ CATEGORY_AR_LABEL = {
     "Politics":      "\u0633\u064a\u0627\u0633\u0629",
 }
 
-def is_sudan_relevant(title, desc=""):
-    # Whole-word matching only to prevent substring false positives
-    # e.g. "spla" matching "displaced", "rsf" matching "herself"
+def is_sudan_relevant(title):
     title_lower = (title or "").lower()
     for kw in SUDAN_KEYWORDS:
         pattern = r'\b' + re.escape(kw) + r'\b'
@@ -105,13 +98,11 @@ def is_sudan_relevant(title, desc=""):
             return True
     return False
 
-def is_blocked(title, desc):
+def is_blocked(title, desc=""):
     title_lower = (title or "").lower()
-    # Check specific title blocklist first
     for blocked_title in TITLE_BLOCKLIST:
         if blocked_title in title_lower:
             return True
-    # If Sudan keyword found in title, don't block
     for kw in SUDAN_KEYWORDS:
         pattern = r'\b' + re.escape(kw) + r'\b'
         if re.search(pattern, title_lower):
@@ -119,7 +110,6 @@ def is_blocked(title, desc):
     for kw in SUDAN_AR:
         if kw in (title or ""):
             return False
-    # Check blocklist
     for kw in BLOCKLIST:
         if kw in title_lower:
             return True
@@ -135,45 +125,47 @@ def detect_arabic(text):
     return arabic_chars / max(len(text), 1) > 0.25
 
 # ── RSS FEEDS ────────────────────────────────────────────────────────────────
+# MAX items per feed kept equal across EN and AR to balance the two columns.
+# EN pass-through: 5 feeds x 4 = 20 items max
+# AR pass-through: 5 feeds x 4 = 20 items max
+# Filtered feeds on both sides add a few more when Sudan stories are found.
 FEEDS = [
-    # === ENGLISH PASS-THROUGH (Sudan-specific sources only) ===
-    {"name": "Radio Dabanga",        "url": "https://www.dabangasudan.org/en/feed",                   "category": "Sudan News",    "lang": "en", "filter": False, "max": 5},
-    {"name": "Sudan Tribune",        "url": "https://sudantribune.net/feed",                          "category": "Sudan News",    "lang": "en", "filter": False, "max": 5},
-    {"name": "Ayin Network",         "url": "https://www.ayinnews.com/feed",                          "category": "Humanitarian",  "lang": "en", "filter": False, "max": 5},
-    {"name": "ReliefWeb Sudan",      "url": "https://reliefweb.int/country/sdn/feed",                 "category": "Humanitarian",  "lang": "en", "filter": False, "max": 5},
-    {"name": "SUNA English",         "url": "https://suna-sd.net/en/feed",                            "category": "Sudan News",    "lang": "en", "filter": False, "max": 5},
+    # === ENGLISH PASS-THROUGH ===
+    {"name": "Radio Dabanga",        "url": "https://www.dabangasudan.org/en/feed",                   "category": "Sudan News",    "lang": "en", "filter": False, "max": 4},
+    {"name": "Sudan Tribune",        "url": "https://sudantribune.net/feed",                          "category": "Sudan News",    "lang": "en", "filter": False, "max": 4},
+    {"name": "Ayin Network",         "url": "https://www.ayinnews.com/feed",                          "category": "Humanitarian",  "lang": "en", "filter": False, "max": 4},
+    {"name": "ReliefWeb Sudan",      "url": "https://reliefweb.int/country/sdn/feed",                 "category": "Humanitarian",  "lang": "en", "filter": False, "max": 4},
+    {"name": "SUNA English",         "url": "https://suna-sd.net/en/feed",                            "category": "Sudan News",    "lang": "en", "filter": False, "max": 4},
 
-    # === ENGLISH FILTERED (general sources, Sudan keywords in title required) ===
-    {"name": "BBC Africa",           "url": "https://feeds.bbci.co.uk/news/world/africa/rss.xml",     "category": "International", "lang": "en", "filter": True},
-    {"name": "Al Jazeera English",   "url": "https://www.aljazeera.com/xml/rss/all.xml",              "category": "International", "lang": "en", "filter": True},
-    {"name": "The Guardian",         "url": "https://www.theguardian.com/world/rss",                  "category": "International", "lang": "en", "filter": True},
-    {"name": "Foreign Policy",       "url": "https://foreignpolicy.com/feed/",                        "category": "Analysis",      "lang": "en", "filter": True},
-    {"name": "Middle East Eye",      "url": "https://www.middleeasteye.net/rss",                      "category": "International", "lang": "en", "filter": True},
-    {"name": "Deutsche Welle Africa","url": "https://rss.dw.com/rdf/rss-en-africa",                  "category": "International", "lang": "en", "filter": True},
-    {"name": "France 24 Africa",     "url": "https://www.france24.com/en/africa/rss",                 "category": "International", "lang": "en", "filter": True},
-    {"name": "The Africa Report",    "url": "https://www.theafricareport.com/feed/",                  "category": "Analysis",      "lang": "en", "filter": True},
-    {"name": "African Arguments",    "url": "https://africanarguments.org/feed/",                     "category": "Analysis",      "lang": "en", "filter": True},
-    {"name": "Crisis Group Africa",  "url": "https://www.crisisgroup.org/rss/africa.xml",             "category": "Analysis",      "lang": "en", "filter": True},
-    {"name": "UN OCHA",              "url": "https://reliefweb.int/organization/ocha/feed",           "category": "Humanitarian",  "lang": "en", "filter": True},
-    {"name": "Rift Valley Inst",     "url": "https://riftvalley.net/feed",                            "category": "Analysis",      "lang": "en", "filter": True},
-    {"name": "World History Enc",    "url": "https://www.worldhistory.org/feed/",                     "category": "Culture",       "lang": "en", "filter": True},
+    # === ENGLISH FILTERED ===
+    {"name": "BBC Africa",           "url": "https://feeds.bbci.co.uk/news/world/africa/rss.xml",     "category": "International", "lang": "en", "filter": True,  "max": 20},
+    {"name": "Al Jazeera English",   "url": "https://www.aljazeera.com/xml/rss/all.xml",              "category": "International", "lang": "en", "filter": True,  "max": 20},
+    {"name": "The Guardian",         "url": "https://www.theguardian.com/world/rss",                  "category": "International", "lang": "en", "filter": True,  "max": 20},
+    {"name": "Foreign Policy",       "url": "https://foreignpolicy.com/feed/",                        "category": "Analysis",      "lang": "en", "filter": True,  "max": 20},
+    {"name": "Middle East Eye",      "url": "https://www.middleeasteye.net/rss",                      "category": "International", "lang": "en", "filter": True,  "max": 20},
+    {"name": "Deutsche Welle Africa","url": "https://rss.dw.com/rdf/rss-en-africa",                  "category": "International", "lang": "en", "filter": True,  "max": 20},
+    {"name": "France 24 Africa",     "url": "https://www.france24.com/en/africa/rss",                 "category": "International", "lang": "en", "filter": True,  "max": 20},
+    {"name": "The Africa Report",    "url": "https://www.theafricareport.com/feed/",                  "category": "Analysis",      "lang": "en", "filter": True,  "max": 20},
+    {"name": "African Arguments",    "url": "https://africanarguments.org/feed/",                     "category": "Analysis",      "lang": "en", "filter": True,  "max": 20},
+    {"name": "Crisis Group Africa",  "url": "https://www.crisisgroup.org/rss/africa.xml",             "category": "Analysis",      "lang": "en", "filter": True,  "max": 20},
+    {"name": "UN OCHA",              "url": "https://reliefweb.int/organization/ocha/feed",           "category": "Humanitarian",  "lang": "en", "filter": True,  "max": 20},
+    {"name": "Rift Valley Inst",     "url": "https://riftvalley.net/feed",                            "category": "Analysis",      "lang": "en", "filter": True,  "max": 20},
 
-    # === ARABIC PASS-THROUGH ===
-    {"name": "\u0631\u0627\u062f\u064a\u0648 \u062f\u0628\u0646\u0642\u0627",  "url": "https://www.dabangasudan.org/ar/feed",       "category": "Sudan News", "lang": "ar", "filter": False, "max": 5},
-    {"name": "\u0627\u0644\u0631\u0627\u0643\u0648\u0628\u0629",               "url": "https://www.alrakoba.net/feed/",             "category": "Sudan News", "lang": "ar", "filter": False, "max": 5},
-    {"name": "\u0633\u0648\u062f\u0627\u0646\u064a\u0632 \u0623\u0648\u0646\u0644\u0627\u064a\u0646", "url": "https://www.sudaneseonline.com/feed/", "category": "Sudan News", "lang": "ar", "filter": False, "max": 5},
-    {"name": "\u0633\u0648\u0646\u0627",                                       "url": "https://suna-sd.net/ar/feed",               "category": "Sudan News", "lang": "ar", "filter": False, "max": 5},
-    {"name": "\u0627\u0644\u0637\u064a\u0627\u0631",                           "url": "https://www.altayar.net/feed/",             "category": "Sudan News", "lang": "ar", "filter": False, "max": 5},
-    {"name": "\u062d\u0631\u064a\u0627\u062a",                                 "url": "https://www.hurriyatsudan.com/?feed=rss2",  "category": "Sudan News", "lang": "ar", "filter": False, "max": 5},
+    # === ARABIC PASS-THROUGH (max 4 each to match EN volume) ===
+    {"name": "\u0631\u0627\u062f\u064a\u0648 \u062f\u0628\u0646\u0642\u0627",  "url": "https://www.dabangasudan.org/ar/feed",       "category": "Sudan News", "lang": "ar", "filter": False, "max": 4},
+    {"name": "\u0627\u0644\u0631\u0627\u0643\u0648\u0628\u0629",               "url": "https://www.alrakoba.net/feed/",             "category": "Sudan News", "lang": "ar", "filter": False, "max": 4},
+    {"name": "\u0633\u0648\u062f\u0627\u0646\u064a\u0632 \u0623\u0648\u0646\u0644\u0627\u064a\u0646", "url": "https://www.sudaneseonline.com/feed/", "category": "Sudan News", "lang": "ar", "filter": False, "max": 4},
+    {"name": "\u0633\u0648\u0646\u0627",                                       "url": "https://suna-sd.net/ar/feed",               "category": "Sudan News", "lang": "ar", "filter": False, "max": 4},
+    {"name": "\u062d\u0631\u064a\u0627\u062a",                                 "url": "https://www.hurriyatsudan.com/?feed=rss2",  "category": "Sudan News", "lang": "ar", "filter": False, "max": 4},
 
     # === ARABIC FILTERED ===
-    {"name": "\u0627\u0644\u062c\u0632\u064a\u0631\u0629",         "url": "https://www.aljazeera.net/xml/rss/all.xml",              "category": "International", "lang": "ar", "filter": True},
-    {"name": "\u0628\u064a \u0628\u064a \u0633\u064a \u0639\u0631\u0628\u064a", "url": "https://feeds.bbci.co.uk/arabic/rss.xml",  "category": "International", "lang": "ar", "filter": True},
-    {"name": "\u0627\u0644\u0634\u0631\u0642 \u0627\u0644\u0623\u0648\u0633\u0637", "url": "https://aawsat.com/feed",              "category": "Analysis",      "lang": "ar", "filter": True},
-    {"name": "\u0641\u0631\u0627\u0646\u0633 24 \u0639\u0631\u0628\u064a",     "url": "https://www.france24.com/ar/rss",            "category": "International", "lang": "ar", "filter": True},
-    {"name": "DW \u0639\u0631\u0628\u064a",                                    "url": "https://rss.dw.com/rdf/rss-ara-all",        "category": "International", "lang": "ar", "filter": True},
-    {"name": "\u0627\u0644\u0639\u0631\u0628\u064a \u0627\u0644\u062c\u062f\u064a\u062f", "url": "https://www.alaraby.co.uk/rss.xml", "category": "Analysis",   "lang": "ar", "filter": True},
-    {"name": "\u0623\u062e\u0628\u0627\u0631 \u0627\u0644\u0623\u0645\u0645 \u0627\u0644\u0645\u062a\u062d\u062f\u0629", "url": "https://news.un.org/feed/subscribe/ar/news/all/rss.xml", "category": "Humanitarian", "lang": "ar", "filter": True},
+    {"name": "\u0627\u0644\u062c\u0632\u064a\u0631\u0629",         "url": "https://www.aljazeera.net/xml/rss/all.xml",              "category": "International", "lang": "ar", "filter": True, "max": 20},
+    {"name": "\u0628\u064a \u0628\u064a \u0633\u064a \u0639\u0631\u0628\u064a", "url": "https://feeds.bbci.co.uk/arabic/rss.xml",  "category": "International", "lang": "ar", "filter": True, "max": 20},
+    {"name": "\u0627\u0644\u0634\u0631\u0642 \u0627\u0644\u0623\u0648\u0633\u0637", "url": "https://aawsat.com/feed",              "category": "Analysis",      "lang": "ar", "filter": True, "max": 20},
+    {"name": "\u0641\u0631\u0627\u0646\u0633 24 \u0639\u0631\u0628\u064a",     "url": "https://www.france24.com/ar/rss",            "category": "International", "lang": "ar", "filter": True, "max": 20},
+    {"name": "DW \u0639\u0631\u0628\u064a",                                    "url": "https://rss.dw.com/rdf/rss-ara-all",        "category": "International", "lang": "ar", "filter": True, "max": 20},
+    {"name": "\u0627\u0644\u0639\u0631\u0628\u064a \u0627\u0644\u062c\u062f\u064a\u062f", "url": "https://www.alaraby.co.uk/rss.xml", "category": "Analysis",   "lang": "ar", "filter": True, "max": 20},
+    {"name": "\u0623\u062e\u0628\u0627\u0631 \u0627\u0644\u0623\u0645\u0645 \u0627\u0644\u0645\u062a\u062d\u062f\u0629", "url": "https://news.un.org/feed/subscribe/ar/news/all/rss.xml", "category": "Humanitarian", "lang": "ar", "filter": True, "max": 20},
 ]
 
 # ── HELPERS ──────────────────────────────────────────────────────────────────
@@ -243,7 +235,8 @@ def main():
         if "_index" not in os.path.basename(f):
             os.remove(f)
 
-    written = 0
+    written_en = 0
+    written_ar = 0
     skipped = 0
 
     print(f"Fetching {len(FEEDS)} feeds...")
@@ -266,7 +259,6 @@ def main():
             if not title or not link:
                 continue
 
-            # Always check title blocklist regardless of feed type
             if is_blocked(title, desc):
                 skipped += 1
                 continue
@@ -300,15 +292,17 @@ def main():
                 clabel = CATEGORY_AR_LABEL.get(feed["category"], "")
                 if clabel:
                     front_matter["clabel"] = clabel
+                written_ar += 1
+            else:
+                written_en += 1
 
             body = f"{desc}\n\n[{feed['name']} ->]({link})" if desc else f"[{feed['name']} ->]({link})"
             write_article(content_dir, slug, lang, front_matter, body)
-            written += 1
             feed_written += 1
 
         print(f"    -> {feed_written} articles written")
 
-    print(f"\nDone. Written: {written} | Skipped (non-Sudan): {skipped}")
+    print(f"\nDone. EN: {written_en} | AR: {written_ar} | Skipped: {skipped}")
 
 if __name__ == "__main__":
     main()
