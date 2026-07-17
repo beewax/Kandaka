@@ -79,17 +79,13 @@ CATEGORY_AR_LABEL = {
 }
 
 def is_sudan_relevant(title, desc=""):
+    # Title-only matching prevents off-topic stories slipping through via description
     title_lower = (title or "").lower()
-    desc_lower = (desc or "").lower()
     for kw in SUDAN_KEYWORDS:
         if kw in title_lower:
             return True
     for kw in SUDAN_AR:
-        if kw in (title or "") or kw in (desc or ""):
-            return True
-    for kw in SUDAN_KEYWORDS:
-        pattern = r'\b' + re.escape(kw) + r'\b'
-        if re.search(pattern, desc_lower):
+        if kw in (title or ""):
             return True
     return False
 
