@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-07-19T07:54:46Z'
+date: '2026-07-20T08:33:46Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/icc-deputy-prosecutor-investigations-into-el-geneina-and-el-fasher-in-darfur-have-made-progress
