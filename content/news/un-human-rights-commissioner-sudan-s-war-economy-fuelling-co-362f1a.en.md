@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-07-20T08:33:46Z'
+date: '2026-07-21T08:03:35Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/un-human-rights-commissioner-sudans-war-economy-fuelling-conflict-tainting-global-supply-chains

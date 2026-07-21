@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-07-20T08:33:46Z'
+date: '2026-07-21T08:03:35Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/expert-says-currency-crisis-requires-comprehensive-economic-reforms-as-central-bank-of-sudan-policies-achieve-only-partial-success
