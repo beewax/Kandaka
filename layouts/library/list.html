@@ -89,7 +89,7 @@
 <div class="lib-count"><span id="lib-shown"></span> {{ if $isAr }}من{{ else }}of{{ end }} <span id="lib-total"></span> {{ if $isAr }}مادة{{ else }}items{{ end }}</div>
 
 <div class="lib-grid" id="lib-grid">
-  {{- range sort site.Data.library.books "title" }}
+  {{- range site.Data.library.books | collections.Reverse }}
   {{- $b := . }}
   <div class="lib-card" data-tags="{{ delimit .tags "|" }}" data-text="{{ lower .title }} {{ lower .author }}{{ with .title_ar }} {{ . }}{{ end }}">
     <h3>{{ if and $isAr .title_ar }}{{ .title_ar }}{{ else }}{{ .title }}{{ end }}</h3>
