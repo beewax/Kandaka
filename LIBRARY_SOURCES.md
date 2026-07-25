@@ -36,6 +36,10 @@ R2 credentials (account-level, work for both buckets) are in `upload_new_batch.p
 | MDPI journals (e.g. *Economies*) | mdpi.com | Open access, but bot-blocked | Articles are genuinely free but MDPI blocks non-browser requests (403 to curl/fetch) — link to the article page rather than trying to host the PDF directly. |
 | JSTOR | jstor.org | Free registration, limited reads/month | Older development-economics literature. |
 
+## ⭐ Sudan Open Archive — check this first for almost any topic
+
+**sudanarchive.net**, run by the Rift Valley Institute, is a free, full-text-searchable database of **3,000+ books, documents, and grey literature** covering nearly every angle of Sudan and South Sudan — history, governance, culture, legal/political documents, humanitarian records, and more. RVI is a signatory of the Budapest Open Access Initiative; everything is downloadable under Creative Commons licences, no login. Before building a new domain-specific batch, search this archive first — it likely has candidates across several tags at once. RVI's main site (`riftvalley.net/publication`) also publishes standalone research papers, all free PDF.
+
 ## Archaeology & Heritage sources
 
 Added July 2026 for expanding coverage of the site's "Ancient Sudan," "Archaeology & Heritage," and "Nubian History" tags — repositories, museums, and institutions with Sudan/Nubia-specific holdings.
@@ -53,6 +57,42 @@ Added July 2026 for expanding coverage of the site's "Ancient Sudan," "Archaeolo
 | ISAW NYU (Institute for the Study of the Ancient World) | isaw.nyu.edu | Free | Nubia exhibition bibliographies and academic resources; good secondary-source aggregator. |
 | Fitzwilliam Museum, Cambridge | fitzmuseum.cam.ac.uk | Free | "Photographic Culture and Community in 20th-Century Sudanese Nubia" project — historical photography and ethnography. |
 | JSTOR (archaeology titles) | jstor.org | Free registration, limited reads/month | Good for *Kush* (Sudan Antiquities Service journal) and *Meroitica* series back-catalogue when not otherwise findable free. |
+
+## Governance, conflict & policy sources
+
+| Source | Base URL | Access | Notes |
+|---|---|---|---|
+| Small Arms Survey — HSBA (Human Security Baseline Assessment) | smallarmssurvey.org | Free | Long-running project on armed groups, arms flows, and conflict dynamics in Sudan/South Sudan. Issue briefs and working papers are direct free PDFs (`smallarmssurvey.org/sites/default/files/resources/...pdf`); also publishes the "Sudan Facts & Figures" data resource. |
+| International Crisis Group | crisisgroup.org/africa/horn-africa/sudan | Free | Ongoing analysis, briefings, and reports on Sudan's conflict; all free to read/download. |
+| Chatham House | chathamhouse.org | Mixed | Most articles/reports free; some (e.g. "The World Today" magazine pieces) may be subscriber-only. Good for gold/conflict-economy and diplomacy angles. |
+| ReliefWeb (OCHA) | reliefweb.int/country/sdn | Free | Huge archive of situation reports and assessments across every humanitarian sector (not just crisis-response) — useful for governance, economy, and infrastructure angles too. |
+| Humanitarian Data Exchange (HDX) | data.humdata.org/group/sdn | Free | Structured datasets (displacement, education indicators, economic indicators) rather than narrative reports — useful for sourcing figures/citations rather than standalone library entries. |
+
+## Environment, climate & water sources
+
+| Source | Base URL | Access | Notes |
+|---|---|---|---|
+| UNEP Sudan | unep.org/sudan | Free | "Sudan First State of Environment and Outlook Report 2020," post-conflict environmental assessments, climate adaptation program reports — direct PDF downloads. |
+| FAO Knowledge Repository | openknowledge.fao.org | Free | Sudan country profiles and farming-systems reports; bitstream URLs pattern similar to World Bank OKR (`openknowledge.fao.org/server/api/core/bitstreams/<id>/content`). |
+| Nile Basin Initiative | nilebasin.org / nileis.nilebasin.org | Free (some registration) | Technical reports, an Atlas, and specialized databases (dams, water quality, climate scenarios) for the whole Nile Basin including Sudan. |
+
+## Gender & education sources
+
+| Source | Base URL | Access | Notes |
+|---|---|---|---|
+| UN Women Digital Library | unwomen.org/en/digital-library | Free | Sudan-specific gender alerts and assessment reports (e.g. food insecurity and gender, women's role in the current conflict) — direct PDF downloads. |
+| LSE Middle East Centre | lse.ac.uk/middleeastcentre | Free | Academic reports on Sudanese women's leadership and related social-science topics. |
+| UNESCO Institute for Statistics (UIS) | uis.unesco.org | Free | Sudan education-statistics country profile (PDF) and the broader UNESCO data portal for SDG 4 indicators. |
+| UNESCO Sudan Education Policy Review | sudan.un.org | Free | Full policy-review PDF ("Paving the Road to 2030"). |
+
+## Arts, literature & anthropology sources
+
+| Source | Base URL | Access | Notes |
+|---|---|---|---|
+| Banipal — Magazine of Modern Arab Literature | banipal.co.uk | Mixed | Issue 55 was devoted entirely to Sudanese literature (fiction, poetry, essays); some content free online, back issues may require purchase. |
+| ArabLit & ArabLit Quarterly | arablit.org | Free (articles) | Curated guides to Sudanese literature available in English translation — useful for compiling a reading-list style library entry rather than a single paper. |
+| African Studies Quarterly | journals.flvc.org/ASQ | Free (diamond open access) | Fully open-access African Studies journal; search for Sudan-tagged articles. |
+| Journal of Eastern African Studies / Northeast African Studies | tandfonline.com/journals/rjea20 · muse.jhu.edu/journal/136 | Paywalled | Leading academic venues for Sudan/Horn of Africa anthropology and area studies — mostly paywalled, but check individual articles for OA status via Unpaywall before assuming locked. |
 
 ## What "R2-hostable" means in practice
 
