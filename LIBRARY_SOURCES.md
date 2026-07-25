@@ -36,6 +36,24 @@ R2 credentials (account-level, work for both buckets) are in `upload_new_batch.p
 | MDPI journals (e.g. *Economies*) | mdpi.com | Open access, but bot-blocked | Articles are genuinely free but MDPI blocks non-browser requests (403 to curl/fetch) — link to the article page rather than trying to host the PDF directly. |
 | JSTOR | jstor.org | Free registration, limited reads/month | Older development-economics literature. |
 
+## Archaeology & Heritage sources
+
+Added July 2026 for expanding coverage of the site's "Ancient Sudan," "Archaeology & Heritage," and "Nubian History" tags — repositories, museums, and institutions with Sudan/Nubia-specific holdings.
+
+| Source | Base URL | Access | Notes |
+|---|---|---|---|
+| Sudan Archaeological Research Society (SARS) | sudarchrs.org.uk | Free | UK charity dedicated to Sudan/South Sudan archaeology. Publishes the journal *Sudan & Nubia* (open archive of back issues), maintains a survey/excavation archive housed at the British Museum, and keeps a curated links page (`sudarchrs.org.uk/resources/links`) worth checking periodically. |
+| Sudan Memory | sudanmemory.org | Free | British Council/Aliph Foundation/King's College London project — 60,000+ digitized documents, photographs, maps, and films on Sudanese cultural heritage, including the SARS Edwards and Greenlaw photo collections. |
+| British Museum Collection Online | britishmuseum.org/collection | Free | Searchable database of 4M+ objects; the Egypt and Sudan department holds one of the leading Nubian studies collections. Qatar-Sudan Archaeological Project excavation reports (Dangeil, Amara West, etc.) are archived at `britishmuseum.iro.bl.uk`. |
+| Museum of Fine Arts, Boston — Nubian Art | mfa.org/collections/nubian-art | Free (browsable) | The most extensive Nubian art collection outside Khartoum, from the Harvard–MFA Expedition (1913–1932, George Reisner). No bulk-download API; browse/cite individual object pages. |
+| Institute for the Study of Ancient Cultures (formerly Oriental Institute), U. of Chicago | isac.uchicago.edu | Free | Nubian Gallery collection pages plus digitized publications (e.g. *Lost Nubia*, Nubia Salvage Project reports) — check `isac.uchicago.edu/museum-exhibits`. |
+| SFDAS — Section Française de la Direction des Antiquités du Soudan | sfdas.com | Free | French archaeological mission in Sudan; publishes excavation reports and maintains a bibliography of Sudan/Nubia archaeology. |
+| Sudan Digital (heritage registry) | via UNESCO / culturalheritage.news | Free | DAI–NCAM collaboration building a digital heritage registry for Sudanese sites and objects; still developing, monitor via UNESCO Sudan culture pages and culturalheritage.news. |
+| National Corporation for Antiquities and Museums (NCAM), Sudan | Khartoum-based; no stable public repository found | Limited | Sudan's own antiquities authority. No searchable online database as of July 2026 — reachable indirectly via UNESCO/Culture in Crisis/Sudan Digital partner reporting. Worth rechecking periodically in case a public portal launches. |
+| ISAW NYU (Institute for the Study of the Ancient World) | isaw.nyu.edu | Free | Nubia exhibition bibliographies and academic resources; good secondary-source aggregator. |
+| Fitzwilliam Museum, Cambridge | fitzmuseum.cam.ac.uk | Free | "Photographic Culture and Community in 20th-Century Sudanese Nubia" project — historical photography and ethnography. |
+| JSTOR (archaeology titles) | jstor.org | Free registration, limited reads/month | Good for *Kush* (Sudan Antiquities Service journal) and *Meroitica* series back-catalogue when not otherwise findable free. |
+
 ## What "R2-hostable" means in practice
 
 Sources marked "Free, direct PDF" above (RePEc-linked originals, SSRN, IMF, AERC, ERF, University of Khartoum, World Bank via `documents1.worldbank.org`) can be downloaded server-side and uploaded straight to the R2 bucket for a real "Download PDF" button — no need to ask the user to grab them manually. academia.edu, ScienceDirect, and MDPI cannot (login wall / bot-blocked), so those stay link-only unless the user grabs the PDF themselves.
