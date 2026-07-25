@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-07-24T08:03:10Z'
+date: '2026-07-25T07:47:04Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/human-rights-watch-us-congress-should-pass-new-bills-on-sudan

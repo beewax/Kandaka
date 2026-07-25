@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-07-24T08:03:10Z'
+date: '2026-07-25T07:47:04Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/icc-trial-chamber-terminates-proceedings-in-case-against-former-jem-commander-abdallah-banda-without-prejudice
