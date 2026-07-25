@@ -2,7 +2,13 @@
 
 Reference list of sources searched for Sudan-related economic/development papers to add to `data/library.json`. Used across Batches 1–5 (July 2026). Reuse this list for future batches instead of re-deriving search strategy from scratch.
 
-Total library size after Batch 5 + manual R2 hosting: **506 entries**. Batches 1–5 added 58 new Sudan-focused papers (38 link-only from academia.edu/ScienceDirect, 9 R2-hosted + 10 link-only from the sources below, 1 originally-requested paper added directly). 39 previously link-only entries were later converted to R2-hosted downloads after the user manually uploaded PDFs.
+Total library size after Batch 6 + curation cleanup: **500 entries**. Batches 1–6 added Sudan-focused papers from academia.edu/ScienceDirect, the sources below, and the Sudan Open Archive; 39 previously link-only entries were later converted to R2-hosted downloads after the user manually uploaded PDFs; 13 entries were subsequently removed for being about South Sudan rather than Sudan (see Scope note below).
+
+## ⚠️ Scope: Sudan only, not South Sudan
+
+South Sudan became an independent country in 2011. The Kandaka library is about the **Republic of Sudan** — South Sudan-specific content (Dinka/Nuer ethnography and language, Juba, Wau, South Sudan government reports, etc.) does not belong here even though many sources (especially the Sudan Open Archive) cover both countries without distinguishing, since most of their material predates the 2011 split.
+
+Before adding a candidate, ask: is this genuinely about the Republic of Sudan, or about South Sudan / the wider pre-2011 unified Sudan region? Reject or flag anything that's really about South Sudan. Exceptions that are OK to keep: material that's explicitly comparative/joint (covers Sudan substantively too, e.g. a joint post-conflict analysis of both countries) or that predates any meaningful north/south distinction (e.g. ancient Kush/Nubia/Meroe history, which is geographically within modern Sudan). When genuinely ambiguous, ask the user rather than guessing.
 
 ## R2 buckets
 
