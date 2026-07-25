@@ -4,9 +4,13 @@ from botocore.config import Config
 R2_ACCESS_KEY_ID     = "b1f53194ad1d18f9a2c76ed23c39682d"
 R2_SECRET_ACCESS_KEY = "85984c671385eef6067149ad7316e0a949f36e42fbf842a0909b098c5f2c0ac6"
 ACCOUNT_ID           = "971f88758f6c5f23f2e77a3aa3fb1663"
-R2_BUCKET_NAME       = "nilebookstore-books"
+R2_BUCKET_NAME       = "kandaka-library"
 ENDPOINT_URL         = "https://" + ACCOUNT_ID + ".r2.cloudflarestorage.com"
-BASE_URL             = "https://pub-a5e3b47fe87749f491660d68e2029284.r2.dev"
+BASE_URL             = "https://pub-0c3bb637d5f54b239fe4a4ef9b08bfe3.r2.dev"
+# NOTE: switched from the old "nilebookstore-books" bucket (pub-a5e3b47fe87749f491660d68e2029284.r2.dev)
+# to "kandaka-library" (pub-0c3bb637d5f54b239fe4a4ef9b08bfe3.r2.dev) as of Batch 5, July 2026.
+# Older library.json entries may still point at the old bucket/URL — both remain live, but all
+# NEW uploads should go to kandaka-library going forward.
 DOWNLOADS            = "C:\\Users\\Abdulla\\Downloads"
 SUDAN_PDFS           = "C:\\Users\\Abdulla\\Documents\\Sudan PDFs"
 

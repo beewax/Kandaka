@@ -2,7 +2,18 @@
 
 Reference list of sources searched for Sudan-related economic/development papers to add to `data/library.json`. Used across Batches 1–5 (July 2026). Reuse this list for future batches instead of re-deriving search strategy from scratch.
 
-Total library size after Batch 5: **505 entries**. Batches 1–5 added 57 new Sudan-focused papers (38 link-only from academia.edu/ScienceDirect, 9 R2-hosted + 10 link-only from the sources below).
+Total library size after Batch 5 + manual R2 hosting: **506 entries**. Batches 1–5 added 58 new Sudan-focused papers (38 link-only from academia.edu/ScienceDirect, 9 R2-hosted + 10 link-only from the sources below, 1 originally-requested paper added directly). 39 previously link-only entries were later converted to R2-hosted downloads after the user manually uploaded PDFs.
+
+## R2 buckets
+
+There are two R2 buckets in play — **use `kandaka-library` for everything going forward**:
+
+| Bucket | Public URL | Status |
+|---|---|---|
+| `kandaka-library` | `https://pub-0c3bb637d5f54b239fe4a4ef9b08bfe3.r2.dev` | **Current/active.** All new uploads (Batch 5 R2-hosted entries + 39 user-uploaded PDFs) go here. `upload_new_batch.py` points here as of July 2026. |
+| `nilebookstore-books` | `https://pub-a5e3b47fe87749f491660d68e2029284.r2.dev` | Legacy. Backs older `library.json` entries (the original ~448-book set plus early batches). Still live — do not break these links — but no new uploads should go here. |
+
+R2 credentials (account-level, work for both buckets) are in `upload_new_batch.py`.
 
 ## Source checklist
 
