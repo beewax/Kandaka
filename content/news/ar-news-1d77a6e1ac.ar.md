@@ -1,7 +1,7 @@
 ---
 category: Sudan News
 clabel: أخبار السودان
-date: '2026-07-25T07:47:12Z'
+date: '2026-07-26T08:03:16Z'
 draft: false
 language: ar
 link: https://www.dabangasudan.org/ar/all-news/article/%d9%86%d8%b4%d8%b1%d8%a9-%d8%a7%d9%84%d8%a7%d8%ae%d8%a8%d8%a7%d8%b1-24-7-2026
