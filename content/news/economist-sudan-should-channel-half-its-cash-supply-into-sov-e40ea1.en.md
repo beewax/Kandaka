@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-07-27T09:22:24Z'
+date: '2026-07-28T08:10:27Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/economist-sudan-should-channel-half-its-cash-supply-into-sovereign-fund
