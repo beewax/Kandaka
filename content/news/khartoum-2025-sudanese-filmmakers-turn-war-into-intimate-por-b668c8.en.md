@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-07-28T08:10:27Z'
+date: '2026-07-29T08:14:47Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/khartoum-2025-sudanese-filmmakers-turn-war-into-intimate-portraits

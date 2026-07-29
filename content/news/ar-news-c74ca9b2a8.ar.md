@@ -1,7 +1,7 @@
 ---
 category: International
 clabel: دولي
-date: '2026-07-28T08:10:51Z'
+date: '2026-07-29T08:15:20Z'
 draft: false
 language: ar
 link: https://www.bbc.com/arabic/articles/cdx7z1pyzk4o?at_medium=RSS&at_campaign=rss

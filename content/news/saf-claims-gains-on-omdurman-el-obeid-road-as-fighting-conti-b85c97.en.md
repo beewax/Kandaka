@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-07-28T08:10:27Z'
+date: '2026-07-29T08:14:47Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/saf-claims-gains-on-omdurman-el-obeid-road-as-fighting-continues-in-north-kordofan
