@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-07-29T08:14:47Z'
+date: '2026-07-30T08:02:50Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/el-burhan-visits-newly-captured-north-kordofan-towns

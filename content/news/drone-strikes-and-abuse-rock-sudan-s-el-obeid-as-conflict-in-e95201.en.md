@@ -1,6 +1,6 @@
 ---
 category: International
-date: '2026-07-29T08:14:52Z'
+date: '2026-07-30T08:02:53Z'
 draft: false
 language: en
 link: https://www.france24.com/en/drone-strikes-and-abuse-rock-sudan-s-el-obeid-as-conflict-intensifies-over-city
