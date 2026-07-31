@@ -1,0 +1,93 @@
+---
+title: "The Projector Van: Why Sudan Should Bring Cinema Back on Wheels"
+date: '2026-07-31'
+author: "Kandaka"
+category: "Culture"
+description: "Sudan once had a thriving cinema culture that decades of state control, censorship, and war reduced to a single working theatre in Khartoum. Rebuilding fixed cinemas will take years the country doesn't have. A solar-powered projector van, tested for two decades across the rest of Africa, doesn't need to wait."
+tags: ["culture", "cinema", "displacement", "reconstruction", "media", "youth employment"]
+draft: false
+---
+
+<svg viewBox="0 0 800 220" xmlns="http://www.w3.org/2000/svg" style="width:100%;border-radius:10px;margin-bottom:1.5rem;">
+  <defs>
+    <linearGradient id="sky_cin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a1428"/>
+      <stop offset="100%" stop-color="#1c2f4a"/>
+    </linearGradient>
+    <radialGradient id="beam_cin" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#FFE9A8" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#FFE9A8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="220" fill="url(#sky_cin)"/>
+  <circle cx="90" cy="35" r="1.4" fill="#fff" opacity="0.6"/>
+  <circle cx="150" cy="55" r="1" fill="#fff" opacity="0.5"/>
+  <circle cx="230" cy="30" r="1.6" fill="#fff" opacity="0.6"/>
+  <circle cx="600" cy="40" r="1.4" fill="#fff" opacity="0.6"/>
+  <circle cx="670" cy="60" r="1" fill="#fff" opacity="0.4"/>
+  <circle cx="730" cy="28" r="1.6" fill="#FFC700" opacity="0.6"/>
+  <rect x="0" y="165" width="800" height="55" fill="#2a2015" opacity="0.9"/>
+  <rect x="560" y="60" width="150" height="100" fill="#f3f0e6" opacity="0.92"/>
+  <rect x="560" y="60" width="150" height="100" fill="none" stroke="#111" stroke-width="2" opacity="0.5"/>
+  <ellipse cx="330" cy="150" rx="230" ry="70" fill="url(#beam_cin)"/>
+  <g transform="translate(250,130)">
+    <rect x="0" y="0" width="70" height="34" rx="3" fill="#3a3a3a"/>
+    <rect x="8" y="6" width="18" height="18" rx="2" fill="#1a1a1a"/>
+    <circle cx="55" cy="15" r="9" fill="#111"/>
+    <rect x="-6" y="30" width="82" height="6" fill="#222"/>
+    <circle cx="6" cy="38" r="5" fill="#161616"/>
+    <circle cx="64" cy="38" r="5" fill="#161616"/>
+  </g>
+  <line x1="320" y1="145" x2="600" y2="105" stroke="#FFE9A8" stroke-width="1.2" opacity="0.5"/>
+  <line x1="320" y1="150" x2="600" y2="150" stroke="#FFE9A8" stroke-width="1.2" opacity="0.5"/>
+  <line x1="320" y1="155" x2="600" y2="145" stroke="#FFE9A8" stroke-width="1" opacity="0.4"/>
+  <g fill="#0d0d0d" opacity="0.85">
+    <ellipse cx="400" cy="185" rx="6" ry="9"/>
+    <ellipse cx="415" cy="188" rx="6" ry="9"/>
+    <ellipse cx="430" cy="184" rx="6" ry="9"/>
+    <ellipse cx="448" cy="189" rx="6" ry="9"/>
+    <ellipse cx="465" cy="185" rx="6" ry="9"/>
+    <ellipse cx="480" cy="188" rx="6" ry="9"/>
+  </g>
+  <rect x="30" y="150" width="8" height="20" fill="#333"/>
+  <circle cx="34" cy="145" r="9" fill="#FFE9A8" opacity="0.15"/>
+  <text x="400" y="210" text-anchor="middle" fill="#FFE9A8" font-size="11" font-family="Georgia,serif" opacity="0.85">a projector, a generator, a sheet screen -- no building required</text>
+</svg>
+
+In 1968, a young man in Khartoum dressed carefully for an evening out with his brother, his sister-in-law, and his sister. They walked to the cinema to see an Indian film about a mother fighting for her children. Everyone in the city, he recalled decades later, was talking about that film. What stayed with him was not the plot but the outing itself: the family together, dressed up, sharing a dark room with a crowd of strangers. Cinema made that possible.
+
+By the middle of the 2010s, of at least fourteen cinemas that had once operated across greater Khartoum, only one remained open. Today, after a war that has displaced more people than any other conflict on Earth, the country's cinema culture has scattered along with its filmmakers, some of whom had to reimagine an entire documentary mid-production because its subjects and its crew were no longer in the same country, let alone the same city. Rebuilding Sudan's cinema houses -- brick, projection equipment, staff, a functioning economy able to sustain ticket sales -- is a project measured in years and in capital Sudan does not currently have. A van with a solar panel, a generator, and a screen that unrolls in twenty minutes is not.
+
+## A country that already had this
+
+What makes the case for Sudan different from a generic development pitch is that Sudan is not being introduced to something foreign. It is being asked to recover something it built and then lost. Cinematography arrived with the British administration before the turn of the twentieth century; by 1940 the Sudanese Cinema Company had a presence in nearly every city, screening Indian, Egyptian, American, and Italian films alongside newsreels. The state ran its own film production arm from the 1950s, and under Gaafar Nimeiry in 1970 this became the State Cinema Authority, which took direct editorial control and steered content toward the Pan-Arab and socialist politics of the era. Despite that state hand on the wheel -- or because audiences still had somewhere to go regardless of who was producing what -- the 1970s and 1980s were a genuine golden age, with Sudanese films winning recognition abroad.
+
+The unraveling had no single cause. The State Cinema Authority dissolved by 1990 without a clear successor. The Islamist government that followed imposed censorship and administrative fees that made commercial exhibition unattractive. The long civil war ate into the disposable income that had sustained ticket sales for decades. Owners, watching audiences thin out, simply stopped investing in buildings that no longer paid for themselves. A 2010s revival effort -- the Sudan Film Group, the Sudan Film Factory, an independent film festival, a Swiss-Sudanese restoration project called Open Cinema aimed at reopening a historic Khartoum theatre as a model for private owners -- had real momentum. A neighbourhood survey in Omdurman at the time found genuine appetite for a reopened local cinema. Then the war that began in April 2023 scattered the people carrying that momentum across borders and camps.
+
+## What the rest of Africa already proved
+
+Mobile cinema has a history on this continent, and it runs in two directions worth separating cleanly. The colonial version -- the Bantu Educational Kinema Experiment, run by the International Missionary Council across five British East and Central African territories between 1935 and 1937 -- used a single travelling van and thirty-five silent films to shape colonial subjects' understanding of health, labour, and authority on terms the empire set. It is a useful warning: whoever controls the content controls what an audience walks away believing, and a mobile screen is exactly as capable of manipulation as it is of public good.
+
+The modern version is a different story, and it is not a small one. Cinéma Numérique Ambulant, founded in the early 2000s and now a network spanning seven West and Central African countries, runs a "ten villages" circuit model -- a projection team touring ten communities fifty to a hundred and fifty kilometres from a base town -- and has logged more than five thousand screenings since 2003 for a cumulative audience in the millions. UNICEF and the Alliance Française fund much of it, and the films are paired deliberately: a popular African feature preceded by a short spot on malaria, child marriage, or sanitation, so the message rides on genuine narrative engagement rather than being tolerated as a lecture. In Niger, Benin, and Mali specifically, these projection vans reach desert communities because there is no other way to reach them -- no cinema, often no broadcast signal, sometimes no grid at all. South Africa's Sunshine Cinema took the same idea and made it solar-powered and youth-run, training and employing young people from rural and peri-urban communities in four countries to operate their own units, which answers the obvious objection that this is aid delivered by outsiders rather than capability built locally.
+
+Roving cinema has also done explicit peacebuilding work. Interpeace's programme in Mandera County, Kenya -- a region with a long history of cross-clan violence -- produced a film documenting a hard-won peace declaration and then screened it across ten locations in six sub-counties, reaching at least 3,150 people specifically to close the gap between leaders who sign agreements in distant towns and the rural populations bound by them. And in displacement settings, an inflatable screen needs almost nothing to draw a crowd: roughly a thousand of the three to four thousand residents of the Calais migrant camp in France turned out for one screening advertised only by word of mouth and Arabic- and Pashto-language flyers; in Kenya's Kakuma refugee camp, more than a hundred people packed a tin-roofed hall with black cloth rigged to block the sun for the first Kakuma Youth Film Festival.
+
+## Why this is not just nostalgia
+
+None of this works because film is charming. It works because there is a real evidence base behind treating narrative as a delivery mechanism, not just entertainment. The Sabido method -- named for the Mexican producer who pioneered using serialised drama to model social behaviour -- rests on the finding that audiences absorbed in a story internalise its lessons far more readily than the same lesson delivered as direct instruction. Tanzania's *Twende na Wakati* radio drama in the 1990s and Nigeria's *MTV Shuga* trial in the 2010s are among the cleanest studies in the field, and both measured real shifts in HIV testing, contraceptive use, and social norms among exposed audiences. This is the exact mechanism CNA and UNICEF exploit when a feature film is preceded by a three-minute spot on water sanitation: it is a method with a research literature behind it, not an improvisation.
+
+There is a parallel case for treating exhibition itself as economic infrastructure. UNESCO's first complete mapping of Africa's film and audiovisual industries, published in 2021, found the sector already employs an estimated five million people and contributes roughly five billion dollars to the continent's combined GDP, with the potential -- if piracy, distribution, and policy gaps are addressed -- to reach twenty million jobs and twenty billion dollars. Nigeria's Nollywood alone contributes an estimated 7.2 billion dollars a year and directly employs over 300,000 people, with roughly a million more supported indirectly in distribution, marketing, and retail. A single production or exhibition operation typically generates three to five times its direct crew size in secondary employment -- transport, equipment, catering, security -- which is exactly the kind of low-capital, informal job creation a mobile cinema unit could seed inside Sudan's shattered economy without waiting for large-scale reconstruction financing to arrive first.
+
+## Two audiences, one van
+
+Sudan currently needs this twice over, for two overlapping populations, which is what makes it more than a cultural nostalgia project.
+
+For the displaced -- now numbering in the millions across camps inside Sudan and across its borders in Chad, South Sudan, and Egypt -- a projector van is a cheap way to deliver two things in the same evening: practical information that can matter for survival (health messaging, reunification notices, guidance on services available in-camp, on the CNA and UNICEF template) and something closer to an ordinary evening, which every account from Kakuma and Calais suggests is in desperately short supply and actively sought out even by people with almost nothing else. Mental-health and psychosocial support is already a named priority in the current Sudan Crisis Response Plan; a screening does not replace that clinical work, but it is an unusually cheap, high-reach complement to it.
+
+For the country's dormant film culture and the people who make it, a projector van is a way to keep the audience, the talent, and the idea alive without waiting for a functioning building, a stable economy, or peace, none of which is available on any near-term timeline. It can screen in a marketplace, a school courtyard, or a camp common area, run by young Sudanese trained as projectionists and organisers -- the same logic Nollywood demonstrates at a national scale -- carrying both the kind of shared evening Bushra Alsayim remembered from 1968 Khartoum and the practical civic content Sudan needs now: displacement-rights literacy, aid-registration guidance, and the cross-community reconciliation messaging that Interpeace's Mandera work suggests can genuinely reduce tension between groups now sharing camp space involuntarily.
+
+## What it would actually take
+
+Almost none of the pieces need inventing. A solar-powered unit on the Sunshine Cinema model avoids dependence on fuel or grid power that is unreliable or actively contested in a conflict zone. A funding-and-delivery partnership on the CNA Afrique model -- a humanitarian funder already working the psychosocial-support space, paired with local film organisations that already have the relationships and the credibility an outside operation would not, such as the Sudan Film Group and Sudan Film Factory -- does the rest. A mixed programme of Sudanese and regional features alongside short civic and health content follows the same narrative-transportation logic the evidence supports. And from day one, youth employment as projectionists, organisers, and eventually local content producers builds capacity that outlasts any single funding cycle, and matters as much for legitimacy as it does for cost.
+
+None of this requires the war to end first, or a single cinema building to reopen. That is the argument for it, not a caveat: it is the form Sudanese cinema can take with the least stable ground to stand on, which happens to be exactly what the country has right now -- while keeping the people who make it, and the audience that wants it, alive until the ground is stable again.
