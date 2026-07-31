@@ -8,53 +8,7 @@ tags: ["زراعة", "ري", "قنوات", "الجزيرة", "أمن غذائي"
 draft: false
 ---
 
-<svg viewBox="0 0 800 220" xmlns="http://www.w3.org/2000/svg" style="width:100%;border-radius:10px;margin-bottom:1.5rem;">
-  <defs>
-    <linearGradient id="sky4_ar" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#d4f1f9"/>
-      <stop offset="100%" stop-color="#b0e8f5"/>
-    </linearGradient>
-    <linearGradient id="fieldgreen_ar" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#7ec850"/>
-      <stop offset="100%" stop-color="#5a9e2f"/>
-    </linearGradient>
-  </defs>
-  <rect width="800" height="220" fill="url(#sky4_ar)"/>
-  <circle cx="700" cy="45" r="30" fill="#FFC700" opacity="0.85"/>
-  <rect x="0" y="120" width="800" height="22" fill="#2980b9" opacity="0.9"/>
-  <path d="M50,128 Q100,124 150,128 Q200,132 250,128" stroke="#5dade2" stroke-width="1" fill="none" opacity="0.6"/>
-  <path d="M400,131 Q450,127 500,131 Q550,135 600,131" stroke="#5dade2" stroke-width="1" fill="none" opacity="0.6"/>
-  <rect x="120" y="80" width="10" height="40" fill="#3498db" opacity="0.7"/>
-  <rect x="250" y="80" width="10" height="40" fill="#3498db" opacity="0.7"/>
-  <rect x="380" y="80" width="10" height="40" fill="#3498db" opacity="0.7"/>
-  <rect x="510" y="80" width="10" height="40" fill="#3498db" opacity="0.7"/>
-  <rect x="640" y="80" width="10" height="40" fill="#3498db" opacity="0.7"/>
-  <rect x="120" y="142" width="10" height="55" fill="#3498db" opacity="0.7"/>
-  <rect x="250" y="142" width="10" height="55" fill="#3498db" opacity="0.7"/>
-  <rect x="380" y="142" width="10" height="55" fill="#3498db" opacity="0.7"/>
-  <rect x="510" y="142" width="10" height="55" fill="#3498db" opacity="0.7"/>
-  <rect x="640" y="142" width="10" height="55" fill="#3498db" opacity="0.7"/>
-  <rect x="0" y="60" width="115" height="60" fill="url(#fieldgreen_ar)" opacity="0.8"/>
-  <rect x="135" y="60" width="110" height="60" fill="url(#fieldgreen_ar)" opacity="0.8"/>
-  <rect x="265" y="60" width="110" height="60" fill="url(#fieldgreen_ar)" opacity="0.8"/>
-  <rect x="395" y="60" width="110" height="60" fill="url(#fieldgreen_ar)" opacity="0.8"/>
-  <rect x="525" y="60" width="110" height="60" fill="url(#fieldgreen_ar)" opacity="0.8"/>
-  <rect x="655" y="60" width="145" height="60" fill="url(#fieldgreen_ar)" opacity="0.8"/>
-  <rect x="0" y="142" width="115" height="55" fill="url(#fieldgreen_ar)" opacity="0.8"/>
-  <rect x="135" y="142" width="110" height="55" fill="url(#fieldgreen_ar)" opacity="0.8"/>
-  <rect x="265" y="142" width="110" height="55" fill="url(#fieldgreen_ar)" opacity="0.8"/>
-  <rect x="395" y="142" width="110" height="55" fill="url(#fieldgreen_ar)" opacity="0.8"/>
-  <rect x="525" y="142" width="110" height="55" fill="url(#fieldgreen_ar)" opacity="0.8"/>
-  <rect x="655" y="142" width="145" height="55" fill="url(#fieldgreen_ar)" opacity="0.8"/>
-  <g stroke="#5a9e2f" stroke-width="0.8" opacity="0.5">
-    <line x1="0" y1="72" x2="115" y2="72"/><line x1="0" y1="84" x2="115" y2="84"/><line x1="0" y1="96" x2="115" y2="96"/><line x1="0" y1="108" x2="115" y2="108"/>
-    <line x1="135" y1="72" x2="245" y2="72"/><line x1="135" y1="84" x2="245" y2="84"/>
-    <line x1="265" y1="72" x2="375" y2="72"/><line x1="265" y1="84" x2="375" y2="84"/>
-  </g>
-  <rect x="0" y="108" width="18" height="36" fill="#7f8c8d" rx="2"/>
-  <line x1="18" y1="112" x2="18" y2="140" stroke="#bdc3c7" stroke-width="1.5"/>
-  <text x="400" y="210" text-anchor="middle" fill="#1a5276" font-size="11" font-family="Georgia,serif" opacity="0.9">نموذج الجزيرة: قناة رئيسية وشبكة روافد و880,000 هكتار من الأراضي المروية</text>
-</svg>
+<img src="/images/uploads/canals-irrigation-sudan.jpg" alt="امرأة سودانية ترتدي ثوباً تقليدياً تسير على ضفة قناة ري في مشروع الجزيرة، وحقول القطن والذرة الخضراء على الجانبين" style="width:100%;border-radius:10px;margin-bottom:1.5rem;" />
 
 في عام 1925، غيّرت قناة واحدة مجرى تاريخ وسط السودان. حوّل سد سنار على النيل الأزرق وشبكة قنوات الري التي تفرعت عنه سهل الجزيرة — ذلك السهل المستوي شبه الجاف بين النيلين الأزرق والأبيض — إلى واحدة من أكثر المناطق الزراعية إنتاجية في أفريقيا. في ذروته، كان مشروع الجزيرة يروي ما يزيد على 880,000 هكتار من القطن والذرة والقمح، ويُدرّ ثلث عائدات السودان من الصادرات، ويُشغّل مئات الآلاف من الأسر. الفكرة كانت بسيطة: إيصال المياه إلى أرض مستوية وخصبة.
 

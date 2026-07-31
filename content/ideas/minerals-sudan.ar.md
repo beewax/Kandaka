@@ -8,36 +8,7 @@ tags: ["معادن", "ذهب", "تعدين", "اقتصاد", "تصنيع", "تن
 draft: false
 ---
 
-<svg viewBox="0 0 800 220" xmlns="http://www.w3.org/2000/svg" style="width:100%;border-radius:10px;margin-bottom:1.5rem;">
-  <defs>
-    <linearGradient id="ground_min_ar" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#1a0a00"/>
-      <stop offset="100%" stop-color="#3d1f00"/>
-    </linearGradient>
-    <linearGradient id="sky_min_ar" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#0d1b2a"/>
-      <stop offset="100%" stop-color="#1a2e40"/>
-    </linearGradient>
-  </defs>
-  <rect width="800" height="220" fill="url(#sky_min_ar)"/>
-  <rect x="0" y="140" width="800" height="80" fill="url(#ground_min_ar)"/>
-  <path d="M0,140 Q200,135 400,142 Q600,149 800,140" fill="#2d1200" opacity="0.8"/>
-  <path d="M0,158 Q200,153 400,160 Q600,167 800,158" fill="#3a1800" opacity="0.6"/>
-  <path d="M120,140 L135,165 L128,190 L140,220" stroke="#FFD700" stroke-width="2.5" fill="none" opacity="0.8"/>
-  <path d="M300,142 L288,168 L295,195 L285,220" stroke="#FFD700" stroke-width="1.8" fill="none" opacity="0.6"/>
-  <path d="M520,141 L535,170 L525,200 L540,220" stroke="#FFC700" stroke-width="2" fill="none" opacity="0.7"/>
-  <ellipse cx="130" cy="163" rx="6" ry="4" fill="#FFD700" opacity="0.9"/>
-  <ellipse cx="290" cy="167" rx="5" ry="3" fill="#FFD700" opacity="0.8"/>
-  <ellipse cx="530" cy="169" rx="7" ry="4" fill="#FFC700" opacity="0.9"/>
-  <circle cx="200" cy="175" r="3" fill="#FFD700" opacity="0.7"/>
-  <circle cx="600" cy="178" r="4" fill="#FFD700" opacity="0.6"/>
-  <circle cx="400" cy="182" r="5" fill="#2d7a2d" opacity="0.8"/>
-  <circle cx="420" cy="195" r="3" fill="#3a8a3a" opacity="0.7"/>
-  <path d="M0,145 L60,90 L120,130 L200,70 L280,115 L380,55 L460,105 L560,65 L650,100 L720,75 L800,110 L800,145 Z" fill="#1a3a20" opacity="0.7"/>
-  <circle cx="100" cy="30" r="1.5" fill="#fff" opacity="0.6"/>
-  <circle cx="500" cy="35" r="1.5" fill="#fff" opacity="0.4"/>
-  <text x="400" y="210" text-anchor="middle" fill="#FFD700" font-size="11" font-family="Georgia,serif" opacity="0.85">السودان: ثالث أكبر منتج للذهب في أفريقيا — ومعظم العائد يذهب لغيره</text>
-</svg>
+<img src="/images/uploads/minerals-sudan.jpg" alt="رجل سوداني في منجم ذهب تقليدي بجبال البحر الأحمر يفحص عينة خام، وشاحنة محملة بأكياس المعادن الخام تبتعد في الأفق" style="width:100%;border-radius:10px;margin-bottom:1.5rem;" />
 
 يُعدّ السودان من أكبر منتجي الذهب في أفريقيا. قبيل حرب 2023، تجاوزت صادراته الرسمية أربعين طناً سنوياً، فيما قُدِّرت التجارة غير المُصرَّح بها بأضعاف ذلك. وتمتلك البلاد احتياطيات معتبرة من الكروميت وخام الحديد والنحاس والزنك والمنغنيز واليورانيوم وسواها من المعادن ذات الأهمية التجارية. فالسودان من حيث ثروته الجيولوجية ليس دولة فقيرة.
 

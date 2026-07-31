@@ -8,58 +8,7 @@ tags: ["history", "nubia", "archaeology", "economic history", "women", "identity
 draft: false
 ---
 
-<svg viewBox="0 0 800 220" xmlns="http://www.w3.org/2000/svg" style="width:100%;border-radius:10px;margin-bottom:1.5rem;">
-  <defs>
-    <linearGradient id="sky_k" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#0a0a1a"/>
-      <stop offset="60%" stop-color="#1a0a08"/>
-      <stop offset="100%" stop-color="#3a1a08"/>
-    </linearGradient>
-    <linearGradient id="sand_k" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#c8933a"/>
-      <stop offset="100%" stop-color="#8b5e1a"/>
-    </linearGradient>
-    <linearGradient id="pyramid_k" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#d4a040"/>
-      <stop offset="100%" stop-color="#8a5818"/>
-    </linearGradient>
-  </defs>
-  <rect width="800" height="220" fill="url(#sky_k)"/>
-  <circle cx="50" cy="25" r="1.2" fill="#fff" opacity="0.8"/>
-  <circle cx="120" cy="15" r="0.8" fill="#fff" opacity="0.6"/>
-  <circle cx="190" cy="30" r="1.4" fill="#fff" opacity="0.7"/>
-  <circle cx="270" cy="12" r="0.9" fill="#fff" opacity="0.5"/>
-  <circle cx="340" cy="28" r="1.1" fill="#fff" opacity="0.8"/>
-  <circle cx="420" cy="18" r="0.8" fill="#fff" opacity="0.6"/>
-  <circle cx="500" cy="35" r="1.3" fill="#fff" opacity="0.7"/>
-  <circle cx="580" cy="10" r="1" fill="#fff" opacity="0.5"/>
-  <circle cx="650" cy="22" r="1.2" fill="#FFC700" opacity="0.7"/>
-  <circle cx="720" cy="38" r="0.9" fill="#fff" opacity="0.6"/>
-  <circle cx="760" cy="16" r="1.1" fill="#fff" opacity="0.5"/>
-  <circle cx="700" cy="45" r="22" fill="#e8e0c0" opacity="0.9"/>
-  <circle cx="712" cy="38" r="18" fill="#1a0a08" opacity="0.85"/>
-  <rect x="0" y="160" width="800" height="60" fill="url(#sand_k)"/>
-  <path d="M0,160 Q100,155 200,162 Q300,169 400,160 Q500,151 600,160 Q700,169 800,160 L800,170 Q700,179 600,170 Q500,161 400,170 Q300,179 200,170 Q100,161 0,170Z" fill="#a07030"/>
-  <polygon points="390,75 440,160 340,160" fill="url(#pyramid_k)" stroke="#c8902a" stroke-width="0.8"/>
-  <polygon points="390,75 410,160 370,160" fill="#8a5818" opacity="0.4"/>
-  <polygon points="480,95 520,160 440,160" fill="url(#pyramid_k)" stroke="#c8902a" stroke-width="0.7"/>
-  <polygon points="480,95 496,160 464,160" fill="#8a5818" opacity="0.4"/>
-  <polygon points="295,100 330,160 260,160" fill="url(#pyramid_k)" stroke="#c8902a" stroke-width="0.7"/>
-  <polygon points="295,100 308,160 282,160" fill="#8a5818" opacity="0.4"/>
-  <polygon points="560,112 590,160 530,160" fill="#b07828" stroke="#c8902a" stroke-width="0.6"/>
-  <polygon points="210,118 235,160 185,160" fill="#b07828" stroke="#c8902a" stroke-width="0.6"/>
-  <ellipse cx="390" cy="195" rx="20" ry="8" fill="#1a0808" opacity="0.4"/>
-  <rect x="380" y="158" width="20" height="32" rx="4" fill="#c8902a"/>
-  <rect x="370" y="162" width="10" height="4" rx="2" fill="#c8902a" transform="rotate(-20,375,164)"/>
-  <rect x="400" y="162" width="10" height="4" rx="2" fill="#c8902a" transform="rotate(20,405,164)"/>
-  <circle cx="390" cy="152" r="8" fill="#c8902a"/>
-  <rect x="385" y="138" width="10" height="8" rx="1" fill="#FFC700"/>
-  <polygon points="390,132 387,140 393,140" fill="#FFC700"/>
-  <circle cx="390" cy="132" r="3" fill="#FFC700"/>
-  <line x1="405" y1="138" x2="415" y2="185" stroke="#8a5818" stroke-width="2"/>
-  <polygon points="415,185 413,192 417,192" fill="#c8902a"/>
-  <text x="400" y="212" text-anchor="middle" fill="#FFC700" font-size="11" font-family="Georgia,serif" opacity="0.88">Meroe, Sudan — the "Birmingham of Africa" — capital of the Kandakat, 300 BCE to 350 CE</text>
-</svg>
+<img src="/images/uploads/kandaka-nubian-queens.jpg" alt="A Kushite Nubian queen in a feathered vulture headdress and gold beaded collar, standing before the small steep-sided pyramids of Meroe, Sudan" style="width:100%;border-radius:10px;margin-bottom:1.5rem;" />
 
 The word Kandaka appears in the New Testament. A treasury official travelling from the court of the "Kandake, queen of the Ethiopians" -- the Greek word for any land south of Egypt -- is described returning from Jerusalem in the Acts of the Apostles. The Roman geographer Strabo wrote about the one-eyed Kandake who led her armies against the legions of Augustus Caesar. Pliny the Elder mentioned the Kandakai in his encyclopaedia. These women were not legendary figures or mythological queens. They were heads of state, military commanders, and economic administrators of one of the most sophisticated civilisations in the ancient world -- a civilisation located, for most of its history, in what is now Sudan.
 

@@ -8,60 +8,7 @@ tags: ["طاقة شمسية", "كهرباء", "بنية تحتية", "إعادة
 draft: false
 ---
 
-<svg viewBox="0 0 800 220" xmlns="http://www.w3.org/2000/svg" style="width:100%;border-radius:10px;margin-bottom:1.5rem;">
-  <defs>
-    <linearGradient id="sky_ar" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#0a1a3a"/>
-      <stop offset="100%" stop-color="#1a3a5c"/>
-    </linearGradient>
-    <linearGradient id="sand_ar" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#c8933a"/>
-      <stop offset="100%" stop-color="#8b5e1a"/>
-    </linearGradient>
-  </defs>
-  <rect width="800" height="220" fill="url(#sky_ar)"/>
-  <circle cx="400" cy="70" r="38" fill="#FFC700" opacity="0.95"/>
-  <circle cx="400" cy="70" r="30" fill="#FFD740"/>
-  <g stroke="#FFC700" stroke-width="2.5" opacity="0.5">
-    <line x1="400" y1="18" x2="400" y2="8"/>
-    <line x1="430" y1="26" x2="436" y2="17"/>
-    <line x1="452" y1="48" x2="460" y2="42"/>
-    <line x1="460" y1="78" x2="470" y2="78"/>
-    <line x1="370" y1="26" x2="364" y2="17"/>
-    <line x1="348" y1="48" x2="340" y2="42"/>
-    <line x1="340" y1="78" x2="330" y2="78"/>
-  </g>
-  <rect x="0" y="155" width="800" height="65" fill="url(#sand_ar)"/>
-  <g transform="translate(100, 120)">
-    <rect x="0" y="0" width="55" height="35" rx="2" fill="#1a3a5c" stroke="#4a7aac" stroke-width="1"/>
-    <line x1="18" y1="0" x2="18" y2="35" stroke="#4a7aac" stroke-width="0.8"/>
-    <line x1="36" y1="0" x2="36" y2="35" stroke="#4a7aac" stroke-width="0.8"/>
-    <line x1="0" y1="12" x2="55" y2="12" stroke="#4a7aac" stroke-width="0.8"/>
-    <line x1="0" y1="24" x2="55" y2="24" stroke="#4a7aac" stroke-width="0.8"/>
-    <line x1="27" y1="35" x2="27" y2="45" stroke="#888" stroke-width="1.5"/>
-    <line x1="15" y1="45" x2="40" y2="45" stroke="#888" stroke-width="1.5"/>
-  </g>
-  <g transform="translate(175, 115)">
-    <rect x="0" y="0" width="55" height="35" rx="2" fill="#1a3a5c" stroke="#4a7aac" stroke-width="1"/>
-    <line x1="18" y1="0" x2="18" y2="35" stroke="#4a7aac" stroke-width="0.8"/>
-    <line x1="36" y1="0" x2="36" y2="35" stroke="#4a7aac" stroke-width="0.8"/>
-    <line x1="0" y1="12" x2="55" y2="12" stroke="#4a7aac" stroke-width="0.8"/>
-    <line x1="0" y1="24" x2="55" y2="24" stroke="#4a7aac" stroke-width="0.8"/>
-    <line x1="27" y1="35" x2="27" y2="45" stroke="#888" stroke-width="1.5"/>
-    <line x1="15" y1="45" x2="40" y2="45" stroke="#888" stroke-width="1.5"/>
-  </g>
-  <g transform="translate(250, 122)">
-    <rect x="0" y="0" width="55" height="35" rx="2" fill="#1a3a5c" stroke="#4a7aac" stroke-width="1"/>
-    <line x1="18" y1="0" x2="18" y2="35" stroke="#4a7aac" stroke-width="0.8"/>
-    <line x1="36" y1="0" x2="36" y2="35" stroke="#4a7aac" stroke-width="0.8"/>
-    <line x1="0" y1="12" x2="55" y2="12" stroke="#4a7aac" stroke-width="0.8"/>
-    <line x1="0" y1="24" x2="55" y2="24" stroke="#4a7aac" stroke-width="0.8"/>
-    <line x1="27" y1="35" x2="27" y2="45" stroke="#888" stroke-width="1.5"/>
-    <line x1="15" y1="45" x2="40" y2="45" stroke="#888" stroke-width="1.5"/>
-  </g>
-  <path d="M470,137 Q550,130 620,140 Q680,148 730,138" stroke="#FFC700" stroke-width="1.5" fill="none" stroke-dasharray="5,3" opacity="0.6"/>
-  <text x="400" y="210" text-anchor="middle" fill="#FFC700" font-size="11" font-family="Georgia,serif" opacity="0.8">6–8 كيلوواط ساعة/م² يومياً — من أعلى معدلات الإشعاع الشمسي في العالم</text>
-</svg>
+<img src="/images/uploads/solar-power-sudan.jpg" alt="فنية طاقة شمسية سودانية تركب ألواحاً شمسية على سطح منزل ريفي تحت شمس ساطعة، وصفوف من الألواح تمتد نحو قرية صغيرة أدناه" style="width:100%;border-radius:10px;margin-bottom:1.5rem;" />
 
 يستقبل السودان ما بين 6 و8 كيلوواط ساعة من الطاقة الشمسية لكل متر مربع يومياً، وهو من أعلى المعدلات على سطح الكرة الأرضية. الصحراء النوبية، وسهل البطانة، وهضبة البيوضة: مساحات شاسعة ومستوية وصافية السماء، تتلقى ضوء الشمس لأكثر من 300 يوم في السنة. هذا ليس موردًا هامشياً، بل هو واحد من أكبر مخزونات الطاقة الشمسية غير المستثمرة في العالم، في بلدٍ لم يتمكن طوال تاريخه الحديث من إبقاء الأضواء مضاءة.
 

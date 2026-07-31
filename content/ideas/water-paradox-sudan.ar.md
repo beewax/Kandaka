@@ -8,39 +8,7 @@ tags: ["مياه", "النيل", "ري", "زراعة", "بنية تحتية", "�
 draft: false
 ---
 
-<svg viewBox="0 0 800 220" xmlns="http://www.w3.org/2000/svg" style="width:100%;border-radius:10px;margin-bottom:1.5rem;">
-  <defs>
-    <linearGradient id="sky_water_ar" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#0a1a2a"/>
-      <stop offset="100%" stop-color="#1a3a5a"/>
-    </linearGradient>
-    <linearGradient id="nile_water_ar" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#1a6aaa"/>
-      <stop offset="100%" stop-color="#0a4a8a"/>
-    </linearGradient>
-    <linearGradient id="desert_water_ar" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#c8933a"/>
-      <stop offset="100%" stop-color="#8b6914"/>
-    </linearGradient>
-  </defs>
-  <rect width="800" height="220" fill="url(#sky_water_ar)"/>
-  <rect x="0" y="145" width="800" height="75" fill="url(#desert_water_ar)"/>
-  <path d="M390,0 Q385,50 380,100 Q375,145 370,220" stroke="url(#nile_water_ar)" stroke-width="30" fill="none" opacity="0.85"/>
-  <path d="M375,80 Q300,82 220,90 Q140,98 80,95" stroke="#2a7aaa" stroke-width="5" fill="none" opacity="0.7"/>
-  <path d="M385,90 Q460,88 540,95 Q620,102 700,98" stroke="#2a7aaa" stroke-width="5" fill="none" opacity="0.7"/>
-  <rect x="80" y="90" width="130" height="55" rx="3" fill="#3a7a3a" opacity="0.5"/>
-  <rect x="0" y="90" width="75" height="55" rx="3" fill="#8b6914" opacity="0.4"/>
-  <rect x="600" y="93" width="120" height="52" rx="3" fill="#3a7a3a" opacity="0.5"/>
-  <rect x="725" y="93" width="75" height="52" rx="3" fill="#8b6914" opacity="0.4"/>
-  <ellipse cx="200" cy="160" rx="60" ry="20" fill="#1a4a8a" opacity="0.35"/>
-  <ellipse cx="580" cy="165" rx="50" ry="18" fill="#1a4a8a" opacity="0.3"/>
-  <rect x="368" y="18" width="35" height="12" fill="#4a4a5a" opacity="0.8"/>
-  <rect x="363" y="15" width="5" height="18" fill="#5a5a6a" opacity="0.7"/>
-  <rect x="403" y="15" width="5" height="18" fill="#5a5a6a" opacity="0.7"/>
-  <circle cx="650" cy="30" r="1" fill="#fff" opacity="0.4"/>
-  <circle cx="750" cy="15" r="1.5" fill="#fff" opacity="0.5"/>
-  <text x="400" y="210" text-anchor="middle" fill="#5ab5ea" font-size="11" font-family="Georgia,serif" opacity="0.85">يجري النيل عبر السودان على مدى 1900 كم — ومع ذلك يفتقر الملايين إلى مياه نظيفة</text>
-</svg>
+<img src="/images/uploads/water-paradox-sudan.jpg" alt="امرأة سودانية تحمل صفيحة ماء على رأسها وهي تسير على طريق ترابي متشقق، ونهر النيل الجاري بكامل طاقته يظهر بجانبها مباشرة" style="width:100%;border-radius:10px;margin-bottom:1.5rem;" />
 
 يجري النيل عبر السودان على مدى نحو 1900 كيلومتر. ينحدر النيل الأزرق من المرتفعات الإثيوبية مخترقاً سنار وكوستي. يتدفق النيل الأبيض من أوغندا عبر جنوب السودان ومدني. يلتقيان في الخرطوم. ثم يواصل النهر المجتمع رحلته شمالاً عبر القلب الجاف من السودان، وبين الشلالات العريقة، وعبر الصحراء النوبية، ليصب في مصر. والواقع أن أكثر من 80% من مياه النيل تنبع من أحواض السودان — المرتفعات الإثيوبية عبر النيل الأزرق والعطبرة — قبل أن تجري عبر السودان أو تعبره.
 

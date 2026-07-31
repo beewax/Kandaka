@@ -8,48 +8,7 @@ tags: ["تعليم", "أمية", "رأس المال البشري", "التنمي
 draft: false
 ---
 
-<svg viewBox="0 0 800 220" xmlns="http://www.w3.org/2000/svg" style="width:100%;border-radius:10px;margin-bottom:1.5rem;">
-  <defs>
-    <linearGradient id="bg_lit_ar" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#1a0a2e"/>
-      <stop offset="100%" stop-color="#2e1a0a"/>
-    </linearGradient>
-    <linearGradient id="ground_lit_ar" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#8b5e1a"/>
-      <stop offset="100%" stop-color="#5a3a08"/>
-    </linearGradient>
-  </defs>
-  <rect width="800" height="220" fill="url(#bg_lit_ar)"/>
-  <circle cx="80" cy="30" r="1.2" fill="#fff" opacity="0.6"/>
-  <circle cx="200" cy="20" r="1" fill="#fff" opacity="0.5"/>
-  <circle cx="350" cy="35" r="1.5" fill="#fff" opacity="0.7"/>
-  <circle cx="500" cy="18" r="1" fill="#fff" opacity="0.5"/>
-  <circle cx="650" cy="28" r="1.2" fill="#fff" opacity="0.6"/>
-  <circle cx="720" cy="15" r="1" fill="#fff" opacity="0.4"/>
-  <rect x="0" y="155" width="800" height="65" fill="url(#ground_lit_ar)"/>
-  <rect x="370" y="100" width="18" height="28" rx="3" fill="#d4a020" opacity="0.9"/>
-  <ellipse cx="379" cy="100" rx="12" ry="5" fill="#c89010"/>
-  <rect x="374" y="128" width="10" height="5" rx="2" fill="#a07010"/>
-  <ellipse cx="379" cy="93" rx="7" ry="10" fill="#FFC700" opacity="0.9"/>
-  <ellipse cx="379" cy="90" rx="4" ry="7" fill="#fff" opacity="0.7"/>
-  <ellipse cx="379" cy="110" rx="60" ry="30" fill="#FFC700" opacity="0.07"/>
-  <rect x="300" y="148" width="80" height="55" rx="3" fill="#f0e8d0" opacity="0.9"/>
-  <line x1="340" y1="148" x2="340" y2="203" stroke="#c0a860" stroke-width="1.5"/>
-  <line x1="308" y1="162" x2="336" y2="162" stroke="#8a7040" stroke-width="0.8" opacity="0.6"/>
-  <line x1="308" y1="170" x2="336" y2="170" stroke="#8a7040" stroke-width="0.8" opacity="0.6"/>
-  <line x1="308" y1="178" x2="336" y2="178" stroke="#8a7040" stroke-width="0.8" opacity="0.6"/>
-  <line x1="308" y1="186" x2="336" y2="186" stroke="#8a7040" stroke-width="0.8" opacity="0.6"/>
-  <line x1="344" y1="162" x2="372" y2="162" stroke="#8a7040" stroke-width="0.8" opacity="0.6"/>
-  <line x1="344" y1="170" x2="372" y2="170" stroke="#8a7040" stroke-width="0.8" opacity="0.6"/>
-  <line x1="344" y1="178" x2="372" y2="178" stroke="#8a7040" stroke-width="0.8" opacity="0.6"/>
-  <circle cx="200" cy="148" r="10" fill="#FFC700" opacity="0.8"/>
-  <rect x="194" y="158" width="12" height="30" rx="4" fill="#FFC700" opacity="0.7"/>
-  <rect x="188" y="165" width="10" height="4" rx="2" fill="#FFC700" opacity="0.6"/>
-  <rect x="206" y="165" width="10" height="4" rx="2" fill="#FFC700" opacity="0.6"/>
-  <circle cx="235" cy="152" r="8" fill="#e8a820" opacity="0.7"/>
-  <rect x="230" y="160" width="10" height="26" rx="4" fill="#e8a820" opacity="0.6"/>
-  <text x="400" y="210" text-anchor="middle" fill="#FFC700" font-size="13" font-family="Georgia,serif" opacity="0.88">اقرأ — 67% من نساء الريف في السودان لا يعرفن القراءة — والكلمة الأولى في الإسلام كانت: اقرأ</text>
-</svg>
+<img src="/images/uploads/illiteracy-sudan.jpg" alt="بالغون وأطفال سودانيون يجلسون معاً على حصير في فصل دراسي قروي مضاء بمصباح، يتعلمون القراءة من كتب مفتوحة" style="width:100%;border-radius:10px;margin-bottom:1.5rem;" />
 
 في ريف السودان، ستة من كل عشرة أشخاص لا يستطيعون القراءة والكتابة. أما بين النساء الريفيات، فالرقم يقترب من سبعة من كل عشرة. هذه ليست إحصاءات من قرن مضى. إنها مستقاة من مسح سوق العمل السوداني لعام 2022، الذي حلله المنتدى الاقتصادي الإقليمي عام 2024 -- أحدث قياس جدي لأزمة تتفاقم ببطء ودون أن يلتفت إليها أحد منذ عقود.
 

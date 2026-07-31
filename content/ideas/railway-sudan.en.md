@@ -8,52 +8,7 @@ tags: ["railway", "infrastructure", "transport", "development", "economy", "logi
 draft: false
 ---
 
-<svg viewBox="0 0 800 220" xmlns="http://www.w3.org/2000/svg" style="width:100%;border-radius:10px;margin-bottom:1.5rem;">
-  <defs>
-    <linearGradient id="sky_rail" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#0a0a1a"/>
-      <stop offset="100%" stop-color="#1a1a3a"/>
-    </linearGradient>
-    <linearGradient id="desert_rail" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#b8860b"/>
-      <stop offset="100%" stop-color="#8b6914"/>
-    </linearGradient>
-  </defs>
-  <rect width="800" height="220" fill="url(#sky_rail)"/>
-  <rect x="0" y="155" width="800" height="65" fill="url(#desert_rail)"/>
-  <!-- Rail tracks (perspective) -->
-  <line x1="380" y1="80" x2="50" y2="175" stroke="#aaa" stroke-width="2.5" opacity="0.8"/>
-  <line x1="420" y1="80" x2="750" y2="175" stroke="#aaa" stroke-width="2.5" opacity="0.8"/>
-  <!-- Sleepers -->
-  <line x1="375" y1="85" x2="425" y2="85" stroke="#8B4513" stroke-width="3" opacity="0.7"/>
-  <line x1="350" y1="95" x2="450" y2="95" stroke="#8B4513" stroke-width="3" opacity="0.7"/>
-  <line x1="320" y1="108" x2="480" y2="108" stroke="#8B4513" stroke-width="3.5" opacity="0.7"/>
-  <line x1="280" y1="124" x2="520" y2="124" stroke="#8B4513" stroke-width="4" opacity="0.7"/>
-  <line x1="225" y1="142" x2="575" y2="142" stroke="#8B4513" stroke-width="4.5" opacity="0.7"/>
-  <line x1="155" y1="162" x2="645" y2="162" stroke="#8B4513" stroke-width="5" opacity="0.7"/>
-  <!-- Old locomotive (rusted, stopped) -->
-  <rect x="340" y="55" width="120" height="50" rx="5" fill="#4a3020" opacity="0.9"/>
-  <rect x="330" y="65" width="20" height="30" rx="3" fill="#5a3a25" opacity="0.8"/>
-  <circle cx="355" cy="97" r="10" fill="#2a2a2a" stroke="#5a4a3a" stroke-width="2"/>
-  <circle cx="355" cy="97" r="5" fill="#1a1a1a"/>
-  <circle cx="445" cy="97" r="10" fill="#2a2a2a" stroke="#5a4a3a" stroke-width="2"/>
-  <circle cx="445" cy="97" r="5" fill="#1a1a1a"/>
-  <!-- Rust patches -->
-  <rect x="360" y="60" width="15" height="8" rx="2" fill="#8B4513" opacity="0.5"/>
-  <rect x="395" y="65" width="20" height="6" rx="2" fill="#8B4513" opacity="0.4"/>
-  <!-- Smokestack (no smoke) -->
-  <rect x="395" y="42" width="10" height="18" rx="2" fill="#3a2a18" opacity="0.8"/>
-  <!-- Stars -->
-  <circle cx="100" cy="25" r="1.5" fill="#fff" opacity="0.6"/>
-  <circle cx="300" cy="35" r="1" fill="#fff" opacity="0.4"/>
-  <circle cx="600" cy="20" r="1.5" fill="#fff" opacity="0.5"/>
-  <circle cx="720" cy="40" r="1" fill="#FFD700" opacity="0.7"/>
-  <!-- Overgrown tracks (weeds) -->
-  <line x1="200" y1="165" x2="200" y2="155" stroke="#3a6a3a" stroke-width="2" opacity="0.6"/>
-  <line x1="250" y1="163" x2="252" y2="153" stroke="#3a6a3a" stroke-width="2" opacity="0.5"/>
-  <line x1="550" y1="163" x2="548" y2="153" stroke="#3a6a3a" stroke-width="2" opacity="0.5"/>
-  <text x="400" y="210" text-anchor="middle" fill="#aaa" font-size="11" font-family="Georgia,serif" opacity="0.8">Sudan once had the longest railway network in Africa — today, almost none of it runs</text>
-</svg>
+<img src="/images/uploads/railway-sudan.jpg" alt="A Sudanese woman in a traditional toub standing beside an old rusted steam locomotive on overgrown desert railway tracks stretching to the horizon" style="width:100%;border-radius:10px;margin-bottom:1.5rem;" />
 
 In 1955, the year before Sudanese independence, the Sudan Railways network stretched across 4,756 kilometres of track. It connected Khartoum to Port Sudan on the Red Sea, south to Sennar and Kosti on the White Nile, west through Kordofan to Nyala in Darfur, north along the Nile to Wadi Halfa on the Egyptian border. It was, at independence, one of the most extensive rail networks in Africa — the physical infrastructure of a country that moved its cotton, its sorghum, and its people on steel rails through the desert.
 

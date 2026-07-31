@@ -8,51 +8,7 @@ tags: ["Khartoum", "urban planning", "reconstruction", "infrastructure", "housin
 draft: false
 ---
 
-<svg viewBox="0 0 800 220" xmlns="http://www.w3.org/2000/svg" style="width:100%;border-radius:10px;margin-bottom:1.5rem;">
-  <defs>
-    <linearGradient id="sky_kh" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#1a2a1a"/>
-      <stop offset="100%" stop-color="#2d3d2d"/>
-    </linearGradient>
-    <linearGradient id="river_kh" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#1a4a6a"/>
-      <stop offset="100%" stop-color="#2a6a8a"/>
-    </linearGradient>
-  </defs>
-  <rect width="800" height="220" fill="url(#sky_kh)"/>
-  <!-- Nile river -->
-  <path d="M0,160 Q200,155 400,160 Q600,165 800,158 L800,185 Q600,190 400,185 Q200,180 0,185 Z" fill="url(#river_kh)" opacity="0.8"/>
-  <!-- Blue Nile -->
-  <path d="M400,220 Q420,190 440,170 Q460,152 500,145 Q560,135 620,140 Q700,148 800,145" stroke="#1a6a9a" stroke-width="18" fill="none" opacity="0.6"/>
-  <!-- White Nile -->
-  <path d="M400,220 Q380,190 360,170 Q340,152 300,148 Q240,142 180,150 Q100,160 0,158" stroke="#3a8aaa" stroke-width="14" fill="none" opacity="0.5"/>
-  <!-- Destroyed buildings (rubble silhouettes) -->
-  <rect x="50" y="120" width="30" height="45" fill="#3a3a2a" opacity="0.7"/>
-  <polygon points="50,120 65,100 80,120" fill="#4a4a3a" opacity="0.6"/>
-  <rect x="55" y="130" width="8" height="10" fill="#1a1a1a" opacity="0.8"/>
-  <!-- Partial ruin -->
-  <rect x="120" y="108" width="40" height="57" fill="#3a3a2a" opacity="0.6"/>
-  <rect x="120" y="108" width="40" height="20" fill="#4a4a3a" opacity="0.4"/>
-  <rect x="130" y="125" width="10" height="15" fill="#1a1a1a" opacity="0.7"/>
-  <rect x="150" y="118" width="10" height="22" fill="#1a1a1a" opacity="0.7"/>
-  <!-- More ruins -->
-  <rect x="200" y="115" width="25" height="50" fill="#3a3020" opacity="0.7"/>
-  <rect x="200" y="140" width="25" height="5" fill="#5a4a30" opacity="0.5"/>
-  <!-- New construction (lighter) -->
-  <rect x="480" y="105" width="35" height="60" fill="#4a6a4a" opacity="0.8"/>
-  <rect x="490" y="115" width="8" height="10" fill="#6a9a6a" opacity="0.6"/>
-  <rect x="504" y="115" width="8" height="10" fill="#6a9a6a" opacity="0.6"/>
-  <rect x="490" y="132" width="8" height="10" fill="#6a9a6a" opacity="0.6"/>
-  <polygon points="480,105 497,85 515,105" fill="#5a7a5a" opacity="0.8"/>
-  <!-- Green spaces (vision) -->
-  <ellipse cx="570" cy="155" rx="20" ry="10" fill="#3a6a3a" opacity="0.6"/>
-  <ellipse cx="620" cy="152" rx="15" ry="8" fill="#4a7a4a" opacity="0.5"/>
-  <!-- Stars/hope -->
-  <circle cx="150" cy="30" r="1.5" fill="#FFD700" opacity="0.7"/>
-  <circle cx="400" cy="20" r="2" fill="#FFD700" opacity="0.8"/>
-  <circle cx="650" cy="35" r="1.5" fill="#FFD700" opacity="0.6"/>
-  <text x="400" y="210" text-anchor="middle" fill="#8ab48a" font-size="11" font-family="Georgia,serif" opacity="0.85">The confluence of the Niles — Khartoum's founding geography and its future asset</text>
-</svg>
+<img src="/images/uploads/rebuilding-khartoum.jpg" alt="A Sudanese man holding architectural blueprints on a rubble-strewn Khartoum street, looking out at war-damaged buildings with the Nile confluence visible in the background" style="width:100%;border-radius:10px;margin-bottom:1.5rem;" />
 
 Khartoum was not a beautiful city. Decades of under-investment, uncontrolled sprawl, and governance failures had produced a capital with inadequate water, intermittent power, congested roads, inadequate sewerage, and housing that lagged far behind population growth. The urban planning studies conducted before the war documented these problems in detail. Then the war came, and made everything worse by an order of magnitude.
 

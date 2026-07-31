@@ -8,41 +8,7 @@ tags: ["سكة حديد", "بنية تحتية", "نقل", "تنمية", "اقت
 draft: false
 ---
 
-<svg viewBox="0 0 800 220" xmlns="http://www.w3.org/2000/svg" style="width:100%;border-radius:10px;margin-bottom:1.5rem;">
-  <defs>
-    <linearGradient id="sky_rail_ar" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#0a0a1a"/>
-      <stop offset="100%" stop-color="#1a1a3a"/>
-    </linearGradient>
-    <linearGradient id="desert_rail_ar" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#b8860b"/>
-      <stop offset="100%" stop-color="#8b6914"/>
-    </linearGradient>
-  </defs>
-  <rect width="800" height="220" fill="url(#sky_rail_ar)"/>
-  <rect x="0" y="155" width="800" height="65" fill="url(#desert_rail_ar)"/>
-  <line x1="380" y1="80" x2="50" y2="175" stroke="#aaa" stroke-width="2.5" opacity="0.8"/>
-  <line x1="420" y1="80" x2="750" y2="175" stroke="#aaa" stroke-width="2.5" opacity="0.8"/>
-  <line x1="375" y1="85" x2="425" y2="85" stroke="#8B4513" stroke-width="3" opacity="0.7"/>
-  <line x1="350" y1="95" x2="450" y2="95" stroke="#8B4513" stroke-width="3" opacity="0.7"/>
-  <line x1="320" y1="108" x2="480" y2="108" stroke="#8B4513" stroke-width="3.5" opacity="0.7"/>
-  <line x1="280" y1="124" x2="520" y2="124" stroke="#8B4513" stroke-width="4" opacity="0.7"/>
-  <line x1="225" y1="142" x2="575" y2="142" stroke="#8B4513" stroke-width="4.5" opacity="0.7"/>
-  <line x1="155" y1="162" x2="645" y2="162" stroke="#8B4513" stroke-width="5" opacity="0.7"/>
-  <rect x="340" y="55" width="120" height="50" rx="5" fill="#4a3020" opacity="0.9"/>
-  <rect x="330" y="65" width="20" height="30" rx="3" fill="#5a3a25" opacity="0.8"/>
-  <circle cx="355" cy="97" r="10" fill="#2a2a2a" stroke="#5a4a3a" stroke-width="2"/>
-  <circle cx="355" cy="97" r="5" fill="#1a1a1a"/>
-  <circle cx="445" cy="97" r="10" fill="#2a2a2a" stroke="#5a4a3a" stroke-width="2"/>
-  <circle cx="445" cy="97" r="5" fill="#1a1a1a"/>
-  <rect x="360" y="60" width="15" height="8" rx="2" fill="#8B4513" opacity="0.5"/>
-  <rect x="395" y="42" width="10" height="18" rx="2" fill="#3a2a18" opacity="0.8"/>
-  <circle cx="300" cy="35" r="1" fill="#fff" opacity="0.4"/>
-  <circle cx="600" cy="20" r="1.5" fill="#fff" opacity="0.5"/>
-  <line x1="200" y1="165" x2="200" y2="155" stroke="#3a6a3a" stroke-width="2" opacity="0.6"/>
-  <line x1="550" y1="163" x2="548" y2="153" stroke="#3a6a3a" stroke-width="2" opacity="0.5"/>
-  <text x="400" y="210" text-anchor="middle" fill="#aaa" font-size="11" font-family="Georgia,serif" opacity="0.8">امتلك السودان ذات يوم أطول شبكة سكة حديد في أفريقيا — اليوم لا يكاد شيء منها يسير</text>
-</svg>
+<img src="/images/uploads/railway-sudan.jpg" alt="امرأة سودانية بثوب تقليدي تقف بجانب قاطرة بخارية صدئة مهجورة على سكة حديد صحراوية غطتها الأعشاب، تمتد نحو الأفق" style="width:100%;border-radius:10px;margin-bottom:1.5rem;" />
 
 في عام 1955، العام الذي سبق الاستقلال، امتدت شبكة سكك حديد السودان على مدى 4756 كيلومتراً. كانت تربط الخرطوم ببورتسودان على البحر الأحمر، وتمتد جنوباً إلى سنار وكوستي على النيل الأبيض، وغرباً عبر كردفان إلى نيالا في دارفور، وشمالاً على امتداد النيل إلى حلفا على الحدود المصرية. كانت عند الاستقلال واحدة من أوسع الشبكات في أفريقيا — البنية التحتية المادية لدولة تنقل قطنها وذرتها وبشرها على قضبان حديدية عبر الصحراء.
 

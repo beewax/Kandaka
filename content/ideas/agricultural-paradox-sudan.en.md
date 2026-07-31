@@ -8,29 +8,7 @@ tags: ["agriculture", "Gezira", "food security", "development", "cooperatives", 
 draft: false
 ---
 
-<svg viewBox="0 0 800 220" xmlns="http://www.w3.org/2000/svg" style="width:100%;border-radius:10px;margin-bottom:1.5rem;">
-  <rect width="800" height="220" fill="#0a1a0a"/>
-  <rect x="0" y="150" width="800" height="70" fill="#1a3a10"/>
-  <rect x="0" y="140" width="800" height="20" fill="#2a5a18" opacity="0.7"/>
-  <circle cx="400" cy="60" r="38" fill="#F5C518" opacity="0.18"/>
-  <circle cx="400" cy="60" r="24" fill="#F5C518" opacity="0.28"/>
-  <circle cx="400" cy="60" r="14" fill="#F5C518" opacity="0.85"/>
-  <line x1="400" y1="20" x2="400" y2="38" stroke="#F5C518" stroke-width="2" opacity="0.7"/>
-  <line x1="400" y1="82" x2="400" y2="100" stroke="#F5C518" stroke-width="2" opacity="0.7"/>
-  <line x1="360" y1="60" x2="378" y2="60" stroke="#F5C518" stroke-width="2" opacity="0.7"/>
-  <line x1="422" y1="60" x2="440" y2="60" stroke="#F5C518" stroke-width="2" opacity="0.7"/>
-  <rect x="60" y="120" width="6" height="40" fill="#4a8a28"/>
-  <ellipse cx="63" cy="118" rx="14" ry="18" fill="#2d6b14"/>
-  <rect x="120" y="115" width="6" height="45" fill="#4a8a28"/>
-  <ellipse cx="123" cy="113" rx="16" ry="20" fill="#2d6b14"/>
-  <rect x="650" y="118" width="6" height="42" fill="#4a8a28"/>
-  <ellipse cx="653" cy="116" rx="15" ry="19" fill="#2d6b14"/>
-  <rect x="710" y="122" width="6" height="38" fill="#4a8a28"/>
-  <ellipse cx="713" cy="120" rx="12" ry="16" fill="#2d6b14"/>
-  <path d="M 180 155 Q 220 130 260 145 Q 300 130 340 148 Q 380 132 420 146 Q 460 130 500 148 Q 540 132 580 150" fill="none" stroke="#4fc3f7" stroke-width="1.5" opacity="0.6"/>
-  <path d="M 200 165 Q 240 148 280 158 Q 320 145 360 160 Q 400 147 440 162 Q 480 148 520 163 Q 560 149 600 165" fill="none" stroke="#4fc3f7" stroke-width="1" opacity="0.4"/>
-  <text x="400" y="210" text-anchor="middle" fill="#8BC34A" font-size="11" font-family="Georgia,serif" opacity="0.9">175 million cultivable acres — fewer than 20 million farmed — the world's greatest untapped agricultural frontier</text>
-</svg>
+<img src="/images/uploads/agricultural-paradox-sudan.jpg" alt="A Sudanese farmer standing in a lush green field beside an irrigation canal at golden hour, with the Nile and date palms in the distance" style="width:100%;border-radius:10px;margin-bottom:1.5rem;" />
 
 In 1946, the British colonial administration commissioned a study of Sudan's agricultural potential. The findings were unambiguous: Sudan possessed more cultivable land than any country in Africa, fed by the Nile and its tributaries, with a climate capable of producing cotton, sorghum, sesame, groundnuts, gum arabic, fruits, and vegetables at commercial scale. The report concluded that Sudan could, with proper investment, feed not just its own population but much of the African continent and the Arab world.
 

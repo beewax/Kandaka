@@ -8,51 +8,7 @@ tags: ["culture", "cinema", "displacement", "reconstruction", "media", "youth em
 draft: false
 ---
 
-<svg viewBox="0 0 800 220" xmlns="http://www.w3.org/2000/svg" style="width:100%;border-radius:10px;margin-bottom:1.5rem;">
-  <defs>
-    <linearGradient id="sky_cin" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#0a1428"/>
-      <stop offset="100%" stop-color="#1c2f4a"/>
-    </linearGradient>
-    <radialGradient id="beam_cin" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0%" stop-color="#FFE9A8" stop-opacity="0.55"/>
-      <stop offset="100%" stop-color="#FFE9A8" stop-opacity="0"/>
-    </radialGradient>
-  </defs>
-  <rect width="800" height="220" fill="url(#sky_cin)"/>
-  <circle cx="90" cy="35" r="1.4" fill="#fff" opacity="0.6"/>
-  <circle cx="150" cy="55" r="1" fill="#fff" opacity="0.5"/>
-  <circle cx="230" cy="30" r="1.6" fill="#fff" opacity="0.6"/>
-  <circle cx="600" cy="40" r="1.4" fill="#fff" opacity="0.6"/>
-  <circle cx="670" cy="60" r="1" fill="#fff" opacity="0.4"/>
-  <circle cx="730" cy="28" r="1.6" fill="#FFC700" opacity="0.6"/>
-  <rect x="0" y="165" width="800" height="55" fill="#2a2015" opacity="0.9"/>
-  <rect x="560" y="60" width="150" height="100" fill="#f3f0e6" opacity="0.92"/>
-  <rect x="560" y="60" width="150" height="100" fill="none" stroke="#111" stroke-width="2" opacity="0.5"/>
-  <ellipse cx="330" cy="150" rx="230" ry="70" fill="url(#beam_cin)"/>
-  <g transform="translate(250,130)">
-    <rect x="0" y="0" width="70" height="34" rx="3" fill="#3a3a3a"/>
-    <rect x="8" y="6" width="18" height="18" rx="2" fill="#1a1a1a"/>
-    <circle cx="55" cy="15" r="9" fill="#111"/>
-    <rect x="-6" y="30" width="82" height="6" fill="#222"/>
-    <circle cx="6" cy="38" r="5" fill="#161616"/>
-    <circle cx="64" cy="38" r="5" fill="#161616"/>
-  </g>
-  <line x1="320" y1="145" x2="600" y2="105" stroke="#FFE9A8" stroke-width="1.2" opacity="0.5"/>
-  <line x1="320" y1="150" x2="600" y2="150" stroke="#FFE9A8" stroke-width="1.2" opacity="0.5"/>
-  <line x1="320" y1="155" x2="600" y2="145" stroke="#FFE9A8" stroke-width="1" opacity="0.4"/>
-  <g fill="#0d0d0d" opacity="0.85">
-    <ellipse cx="400" cy="185" rx="6" ry="9"/>
-    <ellipse cx="415" cy="188" rx="6" ry="9"/>
-    <ellipse cx="430" cy="184" rx="6" ry="9"/>
-    <ellipse cx="448" cy="189" rx="6" ry="9"/>
-    <ellipse cx="465" cy="185" rx="6" ry="9"/>
-    <ellipse cx="480" cy="188" rx="6" ry="9"/>
-  </g>
-  <rect x="30" y="150" width="8" height="20" fill="#333"/>
-  <circle cx="34" cy="145" r="9" fill="#FFE9A8" opacity="0.15"/>
-  <text x="400" y="210" text-anchor="middle" fill="#FFE9A8" font-size="11" font-family="Georgia,serif" opacity="0.85">a projector, a generator, a sheet screen -- no building required</text>
-</svg>
+<img src="/images/uploads/mobile-cinema-development-sudan.jpg" alt="A solar-powered projector van screening a film on a large outdoor screen at night to a gathered crowd in a rural Sudanese village" style="width:100%;border-radius:10px;margin-bottom:1.5rem;" />
 
 In 1968, a young man in Khartoum dressed carefully for an evening out with his brother, his sister-in-law, and his sister. They walked to the cinema to see an Indian film about a mother fighting for her children. Everyone in the city, he recalled decades later, was talking about that film. What stayed with him was not the plot but the outing itself: the family together, dressed up, sharing a dark room with a crowd of strangers. Cinema made that possible.
 

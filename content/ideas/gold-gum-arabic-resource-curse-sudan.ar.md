@@ -8,31 +8,7 @@ tags: ["الذهب", "الصمغ العربي", "لعنة الموارد", "ال
 draft: false
 ---
 
-<svg viewBox="0 0 800 220" xmlns="http://www.w3.org/2000/svg" style="width:100%;border-radius:10px;margin-bottom:1.5rem;">
-  <rect width="800" height="220" fill="#1a1200"/>
-  <rect x="0" y="155" width="800" height="65" fill="#2a1e00"/>
-  <circle cx="150" cy="95" r="22" fill="#F5C518" opacity="0.15"/>
-  <circle cx="150" cy="95" r="14" fill="#F5C518" opacity="0.25"/>
-  <circle cx="150" cy="95" r="8" fill="#F5C518" opacity="0.9"/>
-  <polygon points="150,70 158,90 180,90 163,103 170,123 150,110 130,123 137,103 120,90 142,90" fill="#F5C518" opacity="0.12"/>
-  <circle cx="400" cy="80" r="28" fill="#8B4513" opacity="0.12"/>
-  <circle cx="400" cy="80" r="18" fill="#8B4513" opacity="0.2"/>
-  <ellipse cx="400" cy="80" rx="12" ry="16" fill="#A0522D" opacity="0.8"/>
-  <ellipse cx="393" cy="68" rx="5" ry="7" fill="#8B4513" opacity="0.6"/>
-  <ellipse cx="408" cy="72" rx="4" ry="6" fill="#8B4513" opacity="0.5"/>
-  <line x1="395" y1="96" x2="390" y2="115" stroke="#8B4513" stroke-width="1.5" opacity="0.7"/>
-  <line x1="405" y1="96" x2="410" y2="115" stroke="#8B4513" stroke-width="1.5" opacity="0.7"/>
-  <line x1="400" y1="96" x2="400" y2="118" stroke="#8B4513" stroke-width="1.5" opacity="0.7"/>
-  <path d="M 500 130 L 560 90 L 620 130 L 600 130 L 600 155 L 520 155 L 520 130 Z" fill="#2a2a4a" opacity="0.8"/>
-  <rect x="530" y="110" width="15" height="25" fill="#1a1a3a" opacity="0.9"/>
-  <rect x="555" y="105" width="15" height="30" fill="#1a1a3a" opacity="0.9"/>
-  <line x1="537" y1="95" x2="537" y2="112" stroke="#888" stroke-width="2"/>
-  <line x1="562" y1="90" x2="562" y2="107" stroke="#888" stroke-width="2"/>
-  <text x="150" y="148" text-anchor="middle" fill="#F5C518" font-size="10" font-family="Georgia,serif" opacity="0.8">ذهب مستخرج</text>
-  <text x="400" y="148" text-anchor="middle" fill="#c8914a" font-size="10" font-family="Georgia,serif" opacity="0.8">صمغ محصود</text>
-  <text x="560" y="170" text-anchor="middle" fill="#9090c0" font-size="10" font-family="Georgia,serif" opacity="0.8">تصنيع في الخارج</text>
-  <text x="400" y="210" text-anchor="middle" fill="#c0a030" font-size="11" font-family="Georgia,serif" opacity="0.85">80% من الصمغ العربي العالمي — ثالث أكبر احتياطيات ذهب أفريقية — يُصدَّران خاماً، وتُعالَجان في مكان آخر</text>
-</svg>
+<img src="/images/uploads/gold-gum-arabic-resource-curse-sudan.jpg" alt="صورة مقسومة: امرأة سودانية ترتدي ثوباً تقليدياً تستخرج صمغ الهشاب من شجرة أكاسيا في كردفان عند الفجر، ورجل سوداني يغسل الذهب في مجرى نهر عند الغروب" style="width:100%;border-radius:10px;margin-bottom:1.5rem;" />
 
 في عام 2011، استقل جنوب السودان وأخذ معه ما يقارب 75% من عائدات النفط السودانية. وجد نظام البشير، الذي بنى هيكله المالي كلّه على النفط — تمويل الجيش، وشراء الولاءات السياسية، ودعم الوقود والخبز لإخماد السخط الحضري — نفسه أمام انهيار هيكلي. تراجعت عائدات النفط من ستة مليارات دولار سنوياً إلى أقل من نصف مليار. احتاج النظام إلى بديل.
 

@@ -8,52 +8,7 @@ tags: ["تعليم", "أمن غذائي", "زراعة", "أطفال", "تنمي�
 draft: false
 ---
 
-<svg viewBox="0 0 800 220" xmlns="http://www.w3.org/2000/svg" style="width:100%;border-radius:10px;margin-bottom:1.5rem;">
-  <defs>
-    <linearGradient id="bg3_ar" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#fff9e6"/>
-      <stop offset="100%" stop-color="#fef3c7"/>
-    </linearGradient>
-  </defs>
-  <rect width="800" height="220" fill="url(#bg3_ar)"/>
-  <rect x="40" y="80" width="160" height="110" rx="4" fill="#e8b86d"/>
-  <rect x="40" y="80" width="160" height="20" rx="4" fill="#c8893a"/>
-  <polygon points="30,80 120,40 210,80" fill="#b07030"/>
-  <line x1="120" y1="40" x2="120" y2="20" stroke="#666" stroke-width="2"/>
-  <rect x="120" y="20" width="22" height="12" fill="#005778"/>
-  <rect x="60" y="110" width="30" height="25" rx="2" fill="#87CEEB" stroke="#fff" stroke-width="1.5"/>
-  <rect x="105" y="110" width="30" height="25" rx="2" fill="#87CEEB" stroke="#fff" stroke-width="1.5"/>
-  <rect x="150" y="110" width="30" height="25" rx="2" fill="#87CEEB" stroke="#fff" stroke-width="1.5"/>
-  <rect x="100" y="155" width="40" height="35" rx="3" fill="#8B4513"/>
-  <rect x="0" y="190" width="800" height="30" fill="#8BC34A" opacity="0.5"/>
-  <line x1="440" y1="135" x2="230" y2="135" stroke="#4CAF50" stroke-width="2.5"/>
-  <text x="380" y="122" text-anchor="middle" fill="#2E7D32" font-size="10" font-family="Georgia,serif">منتجات محلية</text>
-  <g transform="translate(440, 100)">
-    <rect x="0" y="0" width="100" height="80" rx="4" fill="#8BC34A" opacity="0.3"/>
-    <line x1="10" y1="10" x2="10" y2="70" stroke="#4CAF50" stroke-width="1" stroke-dasharray="4,3"/>
-    <line x1="30" y1="10" x2="30" y2="70" stroke="#4CAF50" stroke-width="1" stroke-dasharray="4,3"/>
-    <line x1="50" y1="10" x2="50" y2="70" stroke="#4CAF50" stroke-width="1" stroke-dasharray="4,3"/>
-    <line x1="70" y1="10" x2="70" y2="70" stroke="#4CAF50" stroke-width="1" stroke-dasharray="4,3"/>
-    <line x1="90" y1="10" x2="90" y2="70" stroke="#4CAF50" stroke-width="1" stroke-dasharray="4,3"/>
-    <circle cx="20" cy="40" r="5" fill="#4CAF50"/>
-    <circle cx="40" cy="35" r="5" fill="#66BB6A"/>
-    <circle cx="60" cy="42" r="5" fill="#4CAF50"/>
-    <circle cx="80" cy="38" r="5" fill="#66BB6A"/>
-    <text x="50" y="92" text-anchor="middle" fill="#2E7D32" font-size="9" font-family="Georgia,serif">مزارع محلية</text>
-  </g>
-  <g transform="translate(590, 85)">
-    <ellipse cx="75" cy="85" rx="65" ry="18" fill="#c8893a"/>
-    <path d="M10,75 Q75,110 140,75" fill="#DAA520"/>
-    <path d="M55,65 Q50,50 55,35" stroke="#ccc" stroke-width="2" fill="none" stroke-linecap="round"/>
-    <path d="M75,62 Q70,47 75,32" stroke="#ccc" stroke-width="2" fill="none" stroke-linecap="round"/>
-    <path d="M95,65 Q90,50 95,35" stroke="#ccc" stroke-width="2" fill="none" stroke-linecap="round"/>
-    <ellipse cx="75" cy="70" rx="52" ry="12" fill="#f5c842" opacity="0.9"/>
-    <ellipse cx="60" cy="67" rx="8" ry="5" fill="#c0392b" opacity="0.7"/>
-    <ellipse cx="90" cy="68" rx="6" ry="4" fill="#e67e22" opacity="0.8"/>
-    <text x="75" y="112" text-anchor="middle" fill="#8B4513" font-size="10" font-family="Georgia,serif">وجبة مدرسية</text>
-  </g>
-  <text x="400" y="208" text-anchor="middle" fill="#2E7D32" font-size="11" font-family="Georgia,serif" opacity="0.9">دولار واحد في التغذية المدرسية يعود بـ 9 دولارات في التعلم والصحة والزراعة المحلية</text>
-</svg>
+<img src="/images/uploads/school-lunches-sudan.jpg" alt="طاهية مدرسية سودانية تقدم أطباق الحساء والخبز لصف من تلاميذ المدرسة في ساحة مدرسة متواضعة" style="width:100%;border-radius:10px;margin-bottom:1.5rem;" />
 
 ثمة تدخل تنموي راسخ الأدلة، وفعّال من حيث التكلفة، ومقبول سياسياً، حتى يكاد المرء يتساءل لماذا لم تجعله دول أكثر حقاً عاماً للجميع. ليس تقنية جديدة ولا أداة مالية معقدة. إنها وجبة طعام — غداء دافئ يُقدَّم في المدرسة، كل يوم.
 

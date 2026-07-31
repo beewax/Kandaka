@@ -8,54 +8,7 @@ tags: ["water", "Nile", "irrigation", "agriculture", "infrastructure", "developm
 draft: false
 ---
 
-<svg viewBox="0 0 800 220" xmlns="http://www.w3.org/2000/svg" style="width:100%;border-radius:10px;margin-bottom:1.5rem;">
-  <defs>
-    <linearGradient id="sky_water" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#0a1a2a"/>
-      <stop offset="100%" stop-color="#1a3a5a"/>
-    </linearGradient>
-    <linearGradient id="nile_water" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#1a6aaa"/>
-      <stop offset="100%" stop-color="#0a4a8a"/>
-    </linearGradient>
-    <linearGradient id="desert_water" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#c8933a"/>
-      <stop offset="100%" stop-color="#8b6914"/>
-    </linearGradient>
-  </defs>
-  <rect width="800" height="220" fill="url(#sky_water)"/>
-  <!-- Desert -->
-  <rect x="0" y="145" width="800" height="75" fill="url(#desert_water)"/>
-  <!-- Nile river - central blue ribbon -->
-  <path d="M390,0 Q385,50 380,100 Q375,145 370,220" stroke="url(#nile_water)" stroke-width="30" fill="none" opacity="0.85"/>
-  <!-- Irrigation canal left -->
-  <path d="M375,80 Q300,82 220,90 Q140,98 80,95" stroke="#2a7aaa" stroke-width="5" fill="none" opacity="0.7"/>
-  <!-- Irrigation canal right -->
-  <path d="M385,90 Q460,88 540,95 Q620,102 700,98" stroke="#2a7aaa" stroke-width="5" fill="none" opacity="0.7"/>
-  <!-- More canals -->
-  <path d="M378,115 Q300,118 230,125" stroke="#2a7aaa" stroke-width="3" fill="none" opacity="0.5"/>
-  <path d="M382,115 Q460,118 530,130" stroke="#2a7aaa" stroke-width="3" fill="none" opacity="0.5"/>
-  <!-- Irrigated fields (green) left -->
-  <rect x="80" y="90" width="130" height="55" rx="3" fill="#3a7a3a" opacity="0.5"/>
-  <!-- Dry land (brown) far left -->
-  <rect x="0" y="90" width="75" height="55" rx="3" fill="#8b6914" opacity="0.4"/>
-  <!-- Irrigated fields right -->
-  <rect x="600" y="93" width="120" height="52" rx="3" fill="#3a7a3a" opacity="0.5"/>
-  <!-- Dry far right -->
-  <rect x="725" y="93" width="75" height="52" rx="3" fill="#8b6914" opacity="0.4"/>
-  <!-- Flood: dark patches -->
-  <ellipse cx="200" cy="160" rx="60" ry="20" fill="#1a4a8a" opacity="0.35"/>
-  <ellipse cx="580" cy="165" rx="50" ry="18" fill="#1a4a8a" opacity="0.3"/>
-  <!-- Dam symbol at top -->
-  <rect x="368" y="18" width="35" height="12" fill="#4a4a5a" opacity="0.8"/>
-  <rect x="363" y="15" width="5" height="18" fill="#5a5a6a" opacity="0.7"/>
-  <rect x="403" y="15" width="5" height="18" fill="#5a5a6a" opacity="0.7"/>
-  <!-- Stars -->
-  <circle cx="100" cy="25" r="1.5" fill="#fff" opacity="0.5"/>
-  <circle cx="650" cy="30" r="1" fill="#fff" opacity="0.4"/>
-  <circle cx="750" cy="15" r="1.5" fill="#fff" opacity="0.5"/>
-  <text x="400" y="210" text-anchor="middle" fill="#5ab5ea" font-size="11" font-family="Georgia,serif" opacity="0.85">The Nile flows through Sudan for 1,900 km — yet millions lack clean water</text>
-</svg>
+<img src="/images/uploads/water-paradox-sudan.jpg" alt="A Sudanese woman carrying a water jerry can on her head along a dusty cracked path, with the full flowing Nile river visible right beside her" style="width:100%;border-radius:10px;margin-bottom:1.5rem;" />
 
 The Nile flows through Sudan for approximately 1,900 kilometres. The Blue Nile descends from the Ethiopian highlands through Sennar and Kosti. The White Nile flows from Uganda through South Sudan and Malakal. They join at Khartoum. The combined river then flows north through Sudan's dry core, past the ancient cataracts, through the Nubian Desert, and into Egypt. By volume, more than 80 percent of the Nile's water originates in Sudan's catchment — the Ethiopian highlands via the Blue Nile and Atbara — before flowing through or past Sudan entirely.
 

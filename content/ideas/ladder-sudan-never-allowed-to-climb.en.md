@@ -8,31 +8,7 @@ tags: ["industrialisation", "colonialism", "manufacturing", "economic history", 
 draft: false
 ---
 
-<svg viewBox="0 0 800 220" xmlns="http://www.w3.org/2000/svg" style="width:100%;border-radius:10px;margin-bottom:1.5rem;">
-  <rect width="800" height="220" fill="#0d0d1a"/>
-  <rect x="0" y="160" width="800" height="60" fill="#1a1a2e"/>
-  <rect x="100" y="100" width="60" height="80" fill="#2a2a4a"/>
-  <rect x="115" y="88" width="30" height="20" fill="#3a3a5a"/>
-  <rect x="122" y="72" width="8" height="20" fill="#555"/>
-  <rect x="122" y="60" width="8" height="14" fill="#888" opacity="0.7"/>
-  <rect x="200" y="115" width="50" height="65" fill="#2a2a4a"/>
-  <rect x="210" y="105" width="30" height="14" fill="#3a3a5a"/>
-  <rect x="217" y="90" width="8" height="18" fill="#555"/>
-  <rect x="217" y="75" width="8" height="17" fill="#777" opacity="0.6"/>
-  <rect x="280" y="125" width="40" height="55" fill="#2a2a4a"/>
-  <rect x="287" y="115" width="26" height="14" fill="#3a3a5a"/>
-  <rect x="293" y="100" width="6" height="17" fill="#555"/>
-  <line x1="100" y1="160" x2="800" y2="160" stroke="#444" stroke-width="0.5"/>
-  <path d="M 350 155 Q 400 80 420 155" fill="none" stroke="#F5C518" stroke-width="1.5" opacity="0.5" stroke-dasharray="4,3"/>
-  <path d="M 420 155 Q 460 110 490 155" fill="none" stroke="#F5C518" stroke-width="1.5" opacity="0.5" stroke-dasharray="4,3"/>
-  <path d="M 490 155 Q 530 130 560 155" fill="none" stroke="#F5C518" stroke-width="1.5" opacity="0.5" stroke-dasharray="4,3"/>
-  <path d="M 560 155 Q 590 145 620 155" fill="none" stroke="#F5C518" stroke-width="1.5" opacity="0.5" stroke-dasharray="4,3"/>
-  <text x="380" y="75" text-anchor="middle" fill="#F5C518" font-size="9" font-family="Georgia,serif" opacity="0.7">1961</text>
-  <text x="455" y="108" text-anchor="middle" fill="#F5C518" font-size="9" font-family="Georgia,serif" opacity="0.7">1970</text>
-  <text x="525" y="128" text-anchor="middle" fill="#F5C518" font-size="9" font-family="Georgia,serif" opacity="0.7">1989</text>
-  <text x="590" y="143" text-anchor="middle" fill="#F5C518" font-size="9" font-family="Georgia,serif" opacity="0.7">2023</text>
-  <text x="400" y="210" text-anchor="middle" fill="#9090c0" font-size="11" font-family="Georgia,serif" opacity="0.85">Each plan aborted — 1961 Ten Year Plan, 1970 Six Year Plan, 1977 IMF austerity, 1989 coup, 2023 war</text>
-</svg>
+<img src="/images/uploads/ladder-sudan-never-allowed-to-climb.jpg" alt="A Sudanese woman engineer in modern professional attire standing before a rusted, padlocked factory gate with idle smokestacks and a broken ladder in the background" style="width:100%;border-radius:10px;margin-bottom:1.5rem;" />
 
 In 1791, Alexander Hamilton submitted his *Report on Manufactures* to the United States Congress. Its central argument was that a new nation could not develop by exporting raw materials and importing finished goods. Wealth was created in manufacturing, not agriculture or trade. The role of the state was to protect infant industries until they could compete — through tariffs, subsidies, and public investment. The United States acted on this report. By the end of the 19th century, it had the highest industrial tariffs in the world and the fastest-growing manufacturing sector.
 
