@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-07-31T08:28:54Z'
+date: '2026-08-01T07:58:18Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/un-warns-conflict-displacement-and-cholera-are-deepening-sudans-humanitarian-crisis
