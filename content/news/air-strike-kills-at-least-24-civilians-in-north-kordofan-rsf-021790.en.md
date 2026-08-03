@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-08-02T08:00:08Z'
+date: '2026-08-03T08:56:48Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/air-strike-kills-at-least-24-civilians-in-north-kordofan-rsf-attack-leaves-nine-dead

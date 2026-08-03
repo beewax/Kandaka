@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-08-02T08:00:08Z'
+date: '2026-08-03T08:56:48Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/us-congress-weighs-landmark-sudan-bills-to-tighten-sanctions-and-accountability
