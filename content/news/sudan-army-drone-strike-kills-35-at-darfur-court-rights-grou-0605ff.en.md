@@ -1,6 +1,6 @@
 ---
 category: International
-date: '2026-08-03T08:56:50Z'
+date: '2026-08-04T08:13:26Z'
 draft: false
 language: en
 link: https://www.france24.com/en/africa/20260803-sudan-darfur-drone-army-kill

@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-08-03T08:56:48Z'
+date: '2026-08-04T08:13:23Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/darfur-faces-famine-threat-as-drought-and-soaring-food-prices-deepen-crisis
