@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-08-04T08:13:23Z'
+date: '2026-08-05T08:12:12Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/six-sudanese-police-officers-sentenced-to-death-over-detainees-torture-death
