@@ -1,6 +1,6 @@
 ---
 category: International
-date: '2026-08-05T08:12:14Z'
+date: '2026-08-06T08:10:58Z'
 draft: false
 language: en
 link: https://www.france24.com/en/hundreds-flee-tigray-after-fighting-flares-near-border
