@@ -6,6 +6,10 @@ category: "Infrastructure"
 description: "Sudan once had the longest railway network in Africa. Today almost none of it runs. The collapse of the railway is not merely a transport failure — it is one of the causes of Sudan's economic decline. Rebuilding it is one of the most important things a future Sudanese government could do."
 tags: ["railway", "infrastructure", "transport", "development", "economy", "logistics"]
 draft: false
+cover:
+  image: "/images/uploads/railway-sudan.jpg"
+  alt: "A Sudanese woman in a traditional toub standing beside an old rusted steam locomotive on overgrown desert railway tracks stretching to the horizon"
+  relative: false
 ---
 
 <img src="/images/uploads/railway-sudan.jpg" alt="A Sudanese woman in a traditional toub standing beside an old rusted steam locomotive on overgrown desert railway tracks stretching to the horizon" style="width:100%;border-radius:10px;margin-bottom:1.5rem;" />

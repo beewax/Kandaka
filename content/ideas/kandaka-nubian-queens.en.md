@@ -6,6 +6,10 @@ category: "History"
 description: "The Kandakat — Nubia's warrior queens — ran one of the ancient world's most sophisticated economies: an iron industry that earned Meroe the title 'Birmingham of Africa', trade networks stretching from Rome to sub-Saharan Africa, and a state that negotiated with empires as an equal. Sudan is not a country learning development. It is a civilisation that was interrupted."
 tags: ["history", "nubia", "archaeology", "economic history", "women", "identity"]
 draft: false
+cover:
+  image: "/images/uploads/kandaka-nubian-queens.jpg"
+  alt: "A Kushite Nubian queen in a feathered vulture headdress and gold beaded collar, standing before the small steep-sided pyramids of Meroe, Sudan"
+  relative: false
 ---
 
 <img src="/images/uploads/kandaka-nubian-queens.jpg" alt="A Kushite Nubian queen in a feathered vulture headdress and gold beaded collar, standing before the small steep-sided pyramids of Meroe, Sudan" style="width:100%;border-radius:10px;margin-bottom:1.5rem;" />

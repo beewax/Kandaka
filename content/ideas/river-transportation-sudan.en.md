@@ -6,6 +6,10 @@ category: "Infrastructure"
 description: "Sudan has one of the world's great rivers running through its heart for nearly 2,000 kilometres. Its roads are broken, its railway is collapsed, and its fuel supply is disrupted. The answer to the transport crisis may have been there all along."
 tags: ["infrastructure", "transportation", "Nile", "logistics", "development"]
 draft: false
+cover:
+  image: "/images/uploads/river-transportation-sudan.jpg"
+  alt: "A Sudanese woman merchant supervising sacks of goods being loaded onto a traditional wooden river barge on the Nile, palm trees and a felucca sailboat in the distance"
+  relative: false
 ---
 
 <img src="/images/uploads/river-transportation-sudan.jpg" alt="A Sudanese woman merchant supervising sacks of goods being loaded onto a traditional wooden river barge on the Nile, palm trees and a felucca sailboat in the distance" style="width:100%;border-radius:10px;margin-bottom:1.5rem;" />

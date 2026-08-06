@@ -6,6 +6,10 @@ category: "Resources"
 description: "Sudan has the third largest gold reserves in Africa and controls 80% of global gum arabic supply. Both are exported raw, undertaxed, with rents captured by military elites. This is Paul Collier's resource trap operating in real time — and it has a documented solution."
 tags: ["gold", "gum arabic", "resource curse", "governance", "minerals", "natural resources", "development"]
 draft: false
+cover:
+  image: "/images/uploads/gold-gum-arabic-resource-curse-sudan.jpg"
+  alt: "Split image: a Sudanese woman in a traditional toub tapping gum arabic resin from an acacia tree in Kordofan at dawn, and a Sudanese man panning for gold in a riverbed at sunset"
+  relative: false
 ---
 
 <img src="/images/uploads/gold-gum-arabic-resource-curse-sudan.jpg" alt="Split image: a Sudanese woman in a traditional toub tapping gum arabic resin from an acacia tree in Kordofan at dawn, and a Sudanese man panning for gold in a riverbed at sunset" style="width:100%;border-radius:10px;margin-bottom:1.5rem;" />

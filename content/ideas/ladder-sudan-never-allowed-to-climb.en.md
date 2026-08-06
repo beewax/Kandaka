@@ -6,6 +6,10 @@ category: "Industrialisation"
 description: "Britain deliberately prevented Sudanese industrialisation. Every post-independence plan has been aborted — by coups, by IMF conditionality, by war. The Industrial Location Analysis shows manufacturing was locked into Khartoum by colonial design. This is not bad luck. It is documented policy."
 tags: ["industrialisation", "colonialism", "manufacturing", "economic history", "IMF", "development policy"]
 draft: false
+cover:
+  image: "/images/uploads/ladder-sudan-never-allowed-to-climb.jpg"
+  alt: "A Sudanese woman engineer in modern professional attire standing before a rusted, padlocked factory gate with idle smokestacks and a broken ladder in the background"
+  relative: false
 ---
 
 <img src="/images/uploads/ladder-sudan-never-allowed-to-climb.jpg" alt="A Sudanese woman engineer in modern professional attire standing before a rusted, padlocked factory gate with idle smokestacks and a broken ladder in the background" style="width:100%;border-radius:10px;margin-bottom:1.5rem;" />

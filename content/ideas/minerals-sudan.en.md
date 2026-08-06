@@ -6,6 +6,10 @@ category: "Economy"
 description: "Sudan is one of Africa's largest gold producers, yet most of its mineral wealth leaves the country in other people's hands. The case for building a Sudanese mining sector — not just a Sudanese mining hole."
 tags: ["minerals", "gold", "mining", "economy", "industrialization", "development"]
 draft: false
+cover:
+  image: "/images/uploads/minerals-sudan.jpg"
+  alt: "A Sudanese man at an artisanal gold mine in the Red Sea Hills examining a raw ore sample, with a truck carrying unprocessed mineral sacks driving away in the distance"
+  relative: false
 ---
 
 <img src="/images/uploads/minerals-sudan.jpg" alt="A Sudanese man at an artisanal gold mine in the Red Sea Hills examining a raw ore sample, with a truck carrying unprocessed mineral sacks driving away in the distance" style="width:100%;border-radius:10px;margin-bottom:1.5rem;" />

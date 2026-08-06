@@ -6,6 +6,10 @@ category: "Agriculture"
 description: "Sudan has 80 million hectares of arable land and enough Nile water to irrigate far more of it than it does. A century after the Gezira Scheme proved the concept, the infrastructure to unlock Sudan's agricultural potential still hasn't been built."
 tags: ["agriculture", "irrigation", "canals", "Gezira", "food security", "Nile"]
 draft: false
+cover:
+  image: "/images/uploads/canals-irrigation-sudan.jpg"
+  alt: "A Sudanese woman in a traditional toub walking along a Gezira Scheme irrigation canal bank, green cotton and sorghum fields on either side"
+  relative: false
 ---
 
 <img src="/images/uploads/canals-irrigation-sudan.jpg" alt="A Sudanese woman in a traditional toub walking along a Gezira Scheme irrigation canal bank, green cotton and sorghum fields on either side" style="width:100%;border-radius:10px;margin-bottom:1.5rem;" />

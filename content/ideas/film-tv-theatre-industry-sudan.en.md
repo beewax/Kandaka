@@ -6,6 +6,10 @@ category: "Culture"
 description: "Sudan trained the actors, directors, and technicians who built a golden age of cinema and theatre -- then lost the schools, the studios, and now the buildings themselves. Nigeria, South Korea, India, Ghana, and Rwanda each built a creative industry from a comparable or worse starting point. The economics of doing the same in Sudan are larger than they look."
 tags: ["culture", "cinema", "theatre", "television", "creative economy", "education", "jobs"]
 draft: false
+cover:
+  image: "/images/uploads/film-tv-theatre-stage-sudan.jpg"
+  alt: "A film projector illuminates a Nile riverside city skyline framed by a theatre stage's red curtains"
+  relative: false
 ---
 
 <img src="/images/uploads/film-tv-theatre-stage-sudan.jpg" alt="A film projector illuminates a Nile riverside city skyline framed by a theatre stage's red curtains" style="width:100%;border-radius:10px;margin-bottom:1.5rem;" />

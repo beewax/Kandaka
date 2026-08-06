@@ -6,6 +6,10 @@ category: "Energy"
 description: "Sudan sits on some of the most intense sunlight on Earth. While the country's electricity grid lies in ruins, this may be the moment to skip the grid entirely and build something better — distributed, resilient, Sudanese-owned solar power."
 tags: ["solar", "energy", "infrastructure", "reconstruction", "climate"]
 draft: false
+cover:
+  image: "/images/uploads/solar-power-sudan.jpg"
+  alt: "A Sudanese solar technician installing panels on a rural rooftop under intense bright sun, rows of solar panels stretching toward a small village below"
+  relative: false
 ---
 
 <img src="/images/uploads/solar-power-sudan.jpg" alt="A Sudanese solar technician installing panels on a rural rooftop under intense bright sun, rows of solar panels stretching toward a small village below" style="width:100%;border-radius:10px;margin-bottom:1.5rem;" />

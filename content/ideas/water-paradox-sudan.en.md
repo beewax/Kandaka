@@ -6,6 +6,10 @@ category: "Water & Environment"
 description: "The Nile passes through Sudan for nearly 2,000 kilometres. Yet millions of Sudanese lack clean drinking water, farmers go dry in the rainy season, and annual floods destroy homes and crops. Sudan's water problem is not shortage — it is management."
 tags: ["water", "Nile", "irrigation", "agriculture", "infrastructure", "development"]
 draft: false
+cover:
+  image: "/images/uploads/water-paradox-sudan.jpg"
+  alt: "A Sudanese woman carrying a water jerry can on her head along a dusty cracked path, with the full flowing Nile river visible right beside her"
+  relative: false
 ---
 
 <img src="/images/uploads/water-paradox-sudan.jpg" alt="A Sudanese woman carrying a water jerry can on her head along a dusty cracked path, with the full flowing Nile river visible right beside her" style="width:100%;border-radius:10px;margin-bottom:1.5rem;" />

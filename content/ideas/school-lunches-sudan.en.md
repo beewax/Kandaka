@@ -6,6 +6,10 @@ category: "Education"
 description: "A bowl of food at school is one of the highest-return investments a country can make. It keeps children in school, supports local farmers, and builds the human capital that every other development goal depends on. Sudan needs a national school feeding programme — and the model already exists."
 tags: ["education", "food security", "agriculture", "children", "development"]
 draft: false
+cover:
+  image: "/images/uploads/school-lunches-sudan.jpg"
+  alt: "A Sudanese school cook serving bowls of stew and bread to a line of schoolchildren in a modest schoolyard"
+  relative: false
 ---
 
 <img src="/images/uploads/school-lunches-sudan.jpg" alt="A Sudanese school cook serving bowls of stew and bread to a line of schoolchildren in a modest schoolyard" style="width:100%;border-radius:10px;margin-bottom:1.5rem;" />

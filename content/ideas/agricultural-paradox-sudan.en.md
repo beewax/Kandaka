@@ -6,6 +6,10 @@ category: "Agriculture"
 description: "Sudan has 175 million cultivable acres, the Nile, and proven agricultural heritage. It imports food. This is not geography — it is policy failure: colonial restructuring, premature liberalisation, no cooperative processing, raw commodity export instead of finished goods."
 tags: ["agriculture", "Gezira", "food security", "development", "cooperatives", "land reform"]
 draft: false
+cover:
+  image: "/images/uploads/agricultural-paradox-sudan.jpg"
+  alt: "A Sudanese farmer standing in a lush green field beside an irrigation canal at golden hour, with the Nile and date palms in the distance"
+  relative: false
 ---
 
 <img src="/images/uploads/agricultural-paradox-sudan.jpg" alt="A Sudanese farmer standing in a lush green field beside an irrigation canal at golden hour, with the Nile and date palms in the distance" style="width:100%;border-radius:10px;margin-bottom:1.5rem;" />

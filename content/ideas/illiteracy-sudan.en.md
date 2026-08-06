@@ -6,6 +6,10 @@ category: "Education"
 description: "Six out of ten people in rural Sudan cannot read or write. Islam's first word was Iqra — Read. Cuba eliminated illiteracy in eight months. Bolivia did it in three. Sudan can too, if it chooses to."
 tags: ["education", "literacy", "human capital", "rural development", "women", "islam"]
 draft: false
+cover:
+  image: "/images/uploads/illiteracy-sudan.jpg"
+  alt: "Sudanese adults and children sitting together on straw mats in a lantern-lit village classroom, learning to read from open books"
+  relative: false
 ---
 
 <img src="/images/uploads/illiteracy-sudan.jpg" alt="Sudanese adults and children sitting together on straw mats in a lantern-lit village classroom, learning to read from open books" style="width:100%;border-radius:10px;margin-bottom:1.5rem;" />

@@ -6,6 +6,10 @@ category: "Culture"
 description: "Sudan once had a thriving cinema culture that decades of state control, censorship, and war reduced to a single working theatre in Khartoum. Rebuilding fixed cinemas will take years the country doesn't have. A solar-powered projector van, tested for two decades across the rest of Africa, doesn't need to wait."
 tags: ["culture", "cinema", "displacement", "reconstruction", "media", "youth employment"]
 draft: false
+cover:
+  image: "/images/uploads/mobile-cinema-development-sudan.jpg"
+  alt: "A solar-powered projector van screening a film on a large outdoor screen at night to a gathered crowd in a rural Sudanese village"
+  relative: false
 ---
 
 <img src="/images/uploads/mobile-cinema-development-sudan.jpg" alt="A solar-powered projector van screening a film on a large outdoor screen at night to a gathered crowd in a rural Sudanese village" style="width:100%;border-radius:10px;margin-bottom:1.5rem;" />

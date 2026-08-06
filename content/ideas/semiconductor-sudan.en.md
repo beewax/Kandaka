@@ -6,6 +6,10 @@ category: "Industry"
 description: "Every solar inverter, mobile phone, and agricultural sensor in Sudan contains chips made elsewhere. Semiconductor fabrication is among the hardest industries to build — but the question of how Sudan enters the value chain is not whether to start, but where."
 tags: ["semiconductors", "manufacturing", "technology", "industrialization", "infrastructure"]
 draft: false
+cover:
+  image: "/images/uploads/semiconductor-sudan.jpg"
+  alt: "A young Sudanese electronics engineer examining a circuit board under a magnifying lamp at a workbench, chip schematics glowing on computer screens behind him"
+  relative: false
 ---
 
 <img src="/images/uploads/semiconductor-sudan.jpg" alt="A young Sudanese electronics engineer examining a circuit board under a magnifying lamp at a workbench, chip schematics glowing on computer screens behind him" style="width:100%;border-radius:10px;margin-bottom:1.5rem;" />

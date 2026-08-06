@@ -6,6 +6,10 @@ category: "Urban Planning"
 description: "Khartoum has been devastated by two years of urban warfare. The reconstruction that follows will shape how millions of Sudanese live for generations. The question is not whether to rebuild — it is whether to rebuild better."
 tags: ["Khartoum", "urban planning", "reconstruction", "infrastructure", "housing", "development"]
 draft: false
+cover:
+  image: "/images/uploads/rebuilding-khartoum.jpg"
+  alt: "A Sudanese man holding architectural blueprints on a rubble-strewn Khartoum street, looking out at war-damaged buildings with the Nile confluence visible in the background"
+  relative: false
 ---
 
 <img src="/images/uploads/rebuilding-khartoum.jpg" alt="A Sudanese man holding architectural blueprints on a rubble-strewn Khartoum street, looking out at war-damaged buildings with the Nile confluence visible in the background" style="width:100%;border-radius:10px;margin-bottom:1.5rem;" />
