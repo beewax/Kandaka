@@ -2,30 +2,37 @@
 <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}" />
 {{ end }}
 <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}" />
-<link rel="alternate" hreflang="x-default" href="{{ .Site.Home.Permalink }}" />{{/* ── SEO: Open Graph + Twitter Cards for every page ── */}}
-{{- $desc := .Description | default .Site.Params.description }}
-{{- $title := .Title | default .Site.Title }}
-<meta property="og:site_name" content="{{ .Site.Title }}">
-<meta property="og:locale" content="{{ .Site.Language.LanguageCode }}">
-{{- if .IsHome }}
-<meta property="og:type" content="website">
-{{- else }}
-<meta property="og:type" content="article">
-{{- end }}
-<meta property="og:title" content="{{ $title }}">
-<meta property="og:description" content="{{ $desc | truncate 200 }}">
-<meta property="og:url" content="{{ .Permalink }}">
-<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Meroe_Pyramids_23deg06min18sec_E_16deg56min17sec_N.jpg/800px-Meroe_Pyramids_23deg06min18sec_E_16deg56min17sec_N.jpg">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="{{ $title }}">
-<meta name="twitter:description" content="{{ $desc | truncate 200 }}">
-<meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Meroe_Pyramids_23deg06min18sec_E_16deg56min17sec_N.jpg/800px-Meroe_Pyramids_23deg06min18sec_E_16deg56min17sec_N.jpg">
+<link rel="alternate" hreflang="x-default" href="{{ .Site.Home.Permalink }}" />
 {{- with .Params.source }}<meta name="article:publisher" content="{{ . }}">{{- end }}
-<link rel="canonical" href="{{ .Permalink }}">
-<link rel="icon" type="image/x-icon" href="/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+
+{{/* NOTE (July 2026): Open Graph, Twitter Card, canonical link, and favicon tags used to be
+     hand-rolled here, but PaperMod's own head.html/opengraph.html/twitter_cards.html partials
+     already generate all of these automatically -- and correctly, using each page's own
+     Description and cover.image, rather than a single hardcoded stock photo. The duplicate
+     block was removed because it was overriding every article's social-share preview image
+     with the same generic Wikipedia Meroe-pyramids photo. Set `cover.image` in a page's front
+     matter to control its Open Graph/Twitter/schema image. */}}
+
+{{/* NOTE (August 2026): Auto-expire news articles from Google's index after 180 days,
+     WITHOUT ever deleting the file or 404/410-ing the URL. content/news/ is now a
+     permanent archive (see CLAUDE.md "News archive" section) so every article's URL stays
+     live forever -- that's what fixed the 192 "Not found (404)" pages in Search Console.
+     But we don't want a 6-month-old wire-service snippet competing for index space with
+     Kandaka's real editorial content forever either. So: once a news article passes 180
+     days old, emit an additional noindex,follow robots meta tag here. Google's documented
+     behavior when it sees multiple robots meta directives on a page is to combine them
+     conservatively (most restrictive wins), so this noindex takes effect even though the
+     theme's own head.html already emitted "index, follow" earlier in <head>. The page keeps
+     returning 200 OK and stays fully reachable by URL/sitemap -- it just drops out of
+     Google's search results once aged out. "follow" (not "nofollow") is kept so any link
+     equity still flows through the page's outbound/internal links. Adjust the 180 threshold
+     below if you want articles to age out of search faster or slower. */}}
+{{- if eq .Section "news" }}
+  {{- $ageDays := div (sub now.Unix .Date.Unix) 86400 }}
+  {{- if gt $ageDays 180 }}
+<meta name="robots" content="noindex, follow">
+  {{- end }}
+{{- end }}
 
 <style>
 /* Sudan 1956 flag hero */

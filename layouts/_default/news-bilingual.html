@@ -1,7 +1,17 @@
 {{- define "main" }}
-{{- $enPages := where .Site.RegularPages "Section" "news" }}
+{{/* NOTE (August 2026): content/news/ now accumulates permanently (see CLAUDE.md
+     "News archive" section) instead of being wiped daily, so this list would otherwise
+     grow unbounded and make this page slower every day. Cap the display to the most
+     recent $newsListLimit articles per language (sorted newest-first) so the page stays
+     fast and readable. Older articles are NOT deleted and are NOT removed from the site --
+     they keep their own stable URLs, stay in sitemap.xml, and remain reachable by direct
+     link; they just age off this particular listing. (Separately, extend_head.html tags
+     articles older than 180 days noindex, so very old articles also drop out of Google's
+     index over time -- these two limits are independent and can be tuned separately.) */}}
+{{- $newsListLimit := 150 }}
+{{- $enPages := first $newsListLimit (sort (where .Site.RegularPages "Section" "news") "Date" "desc") }}
 {{- $arSite := index .Site.Sites 1 }}
-{{- $arPages := where $arSite.RegularPages "Section" "news" }}
+{{- $arPages := first $newsListLimit (sort (where $arSite.RegularPages "Section" "news") "Date" "desc") }}
 <div class="news-filters">
   <button class="filter-btn active" onclick="filterNews('all', this)">All</button>
   <button class="filter-btn" onclick="filterNews('War & Conflict', this)">War & Conflict</button>

@@ -229,11 +229,16 @@ def write_article(content_dir, slug, lang, front_matter, body):
 def main():
     content_dir = os.path.join(os.path.dirname(__file__), "..", "content")
     news_dir = os.path.join(content_dir, "news")
+    os.makedirs(news_dir, exist_ok=True)
 
-    print("Clearing old news articles...")
-    for f in glob.glob(os.path.join(news_dir, "*.md")):
-        if "_index" not in os.path.basename(f):
-            os.remove(f)
+    # NOTE (August 2026): This used to delete every existing article before each run,
+    # which meant every news article URL was ephemeral -- Google's crawler would discover
+    # or index a URL and then find it 404'd within a day or two once the next refresh wiped
+    # it. Search Console showed 192 pages stuck as "Not found (404)" as a direct result.
+    # Article filenames are a deterministic hash of the source link (see make_slug/uid
+    # below), so re-fetching the same story just overwrites the same file in place --
+    # nothing here needs the directory cleared first. News now accumulates as a permanent,
+    # stable-URL archive instead.
 
     written_en = 0
     written_ar = 0
