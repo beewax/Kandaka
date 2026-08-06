@@ -61,6 +61,8 @@ PICRYL_QUERIES = [
     "nubia",
 ]
 
+FLICKR_TAGS = ["sudan", "meroe", "nubia"]  # matched with tagmode=any (OR)
+
 # ── HELPERS ───────────────────────────────────────────────────────────────────
 def fetch_json(url, timeout=15):
     try:
@@ -255,6 +257,70 @@ def fetch_picryl():
     rng = random.Random(today_seed() + 4)
     return rng.choice(candidates)
 
+# ── FLICKR (public feed, no API key required) ─────────────────────────────────
+def fetch_flickr():
+    """Pull from Flickr's public 'recent uploads' feed for tags sudan/meroe/nubia.
+
+    Note: Flickr's no-key feed endpoint does not expose per-photo license info
+    (unlike Wikimedia/Smithsonian/PICRYL, which are curated for public-domain/CC
+    reuse). Photos here may default to "All Rights Reserved" — displayed with a
+    "verify license" note and always linked back to the photo page and credited
+    to the uploader. If stricter CC-only filtering is wanted later, that needs a
+    free Flickr API key and flickr.photos.search's license= parameter instead of
+    this feed.
+    """
+    print(f"  Flickr: searching tags {', '.join(FLICKR_TAGS)}...")
+
+    import re as _re
+
+    params = urllib.parse.urlencode({
+        "tags": ",".join(FLICKR_TAGS),
+        "tagmode": "any",
+        "format": "json",
+        "nojsoncallback": "1",
+    })
+    url = f"https://www.flickr.com/services/feeds/photos_public.gne?{params}"
+    data = fetch_json(url)
+
+    if not data:
+        return None
+
+    items = data.get("items", [])
+    candidates = []
+
+    for item in items:
+        media_url = item.get("media", {}).get("m", "")
+        if not media_url:
+            continue
+
+        # Upsize the feed's small 240px thumbnail to Flickr's 1024px "_b" size
+        large_url = _re.sub(r"_m\.jpg$", "_b.jpg", media_url)
+
+        author_raw = item.get("author", "")
+        author_match = _re.search(r'"([^"]+)"', author_raw)
+        credit = author_match.group(1) if author_match else author_raw.split("(")[0].strip()
+        credit = credit or "Flickr user"
+
+        description = _re.sub(r"<[^>]+>", " ", item.get("description", ""))
+        description = _re.sub(r"\s+", " ", description).strip()[:200]
+
+        candidates.append({
+            "title": (item.get("title") or "Untitled")[:100],
+            "description": description,
+            "image_url": large_url,
+            "source_url": item.get("link", "https://www.flickr.com"),
+            "credit": credit[:100],
+            "license": "license unverified — check photo page",
+            "source": "Flickr",
+            "category": "Community",
+        })
+
+    if not candidates:
+        return None
+
+    rng = random.Random(today_seed() + 10)
+    return rng.choice(candidates)
+
 # ── WRITE HUGO CONTENT ────────────────────────────────────────────────────────
 def write_image_page(content_dir, image_data, index):
     images_dir = os.path.join(content_dir, "images")
@@ -330,6 +396,7 @@ def main():
         ("Wikimedia Commons", fetch_wikimedia),
         ("Smithsonian", fetch_smithsonian),
         ("PICRYL", fetch_picryl),
+        ("Flickr", fetch_flickr),
     ]
     
     written = 0
