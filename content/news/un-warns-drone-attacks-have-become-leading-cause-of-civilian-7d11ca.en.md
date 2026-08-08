@@ -1,6 +1,6 @@
 ---
 category: International
-date: '2026-08-07T06:57:00Z'
+date: '2026-08-08T06:30:14Z'
 draft: false
 language: en
 link: https://www.france24.com/en/video/20260806-un-warns-drone-attacks-have-become-leading-cause-of-civilian-death-in-sudan

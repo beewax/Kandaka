@@ -1,6 +1,6 @@
 ---
 category: International
-date: '2026-08-07T06:57:00Z'
+date: '2026-08-08T06:30:14Z'
 draft: false
 language: en
 link: https://www.france24.com/en/tv-shows/eye-on-africa/20260805-un-warns-drone-strikes-worsen-in-sudan
