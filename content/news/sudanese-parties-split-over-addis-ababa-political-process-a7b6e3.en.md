@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-08-08T06:30:11Z'
+date: '2026-08-09T06:34:33Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/sudanese-parties-split-over-addis-ababa-political-process

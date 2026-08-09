@@ -1,6 +1,6 @@
 ---
 category: Analysis
-date: '2026-08-08T06:30:14Z'
+date: '2026-08-09T06:34:37Z'
 draft: false
 language: en
 link: https://www.theafricareport.com/427054/central-african-republic-sudan-a-report-from-birao-a-town-on-the-doorstep-of-war/

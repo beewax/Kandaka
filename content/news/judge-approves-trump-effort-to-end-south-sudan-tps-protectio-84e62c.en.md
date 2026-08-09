@@ -1,6 +1,6 @@
 ---
 category: International
-date: '2026-08-08T06:30:13Z'
+date: '2026-08-09T06:34:35Z'
 draft: false
 language: en
 link: https://www.theguardian.com/us-news/2026/aug/07/judge-trump-south-sudan-tps
