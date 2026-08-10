@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-08-09T06:34:33Z'
+date: '2026-08-10T07:04:11Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/white-nile-traders-strike-over-rising-fees-as-port-sudan-faces-water-and-power-crisis
