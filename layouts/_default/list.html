@@ -384,7 +384,20 @@ html[data-theme="dark"] .badge-analysis { background: #431407; color: #fdba74; }
       {{- $enSiteImages := index (where site.Sites "Language.Lang" "en") 0 }}
       {{- $dynamicImages := slice }}
       {{- if $enSiteImages }}
-        {{- $dynamicImages = first 3 (sort (where $enSiteImages.RegularPages "Section" "images") "Date" "desc") }}
+        {{- $allSiteImages := where $enSiteImages.RegularPages "Section" "images" }}
+        {{/* Cap each source (Wikimedia/Smithsonian/PICRYL/Flickr) to its single
+             most recent photo before picking the 3 shown, so one source having
+             more successful daily fetches than the others can't crowd the rest
+             out of the homepage strip. */}}
+        {{- $imageSources := slice "Wikimedia Commons" "Smithsonian Open Access" "PICRYL" "Flickr" }}
+        {{- $latestPerSource := slice }}
+        {{- range $imageSources }}
+          {{- $bySource := sort (where $allSiteImages "Params.source" .) "Date" "desc" }}
+          {{- if $bySource }}
+            {{- $latestPerSource = $latestPerSource | append (index $bySource 0) }}
+          {{- end }}
+        {{- end }}
+        {{- $dynamicImages = first 3 (sort $latestPerSource "Date" "desc") }}
       {{- end }}
 
       {{- if $dynamicImages }}

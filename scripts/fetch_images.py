@@ -18,6 +18,7 @@ import datetime
 import urllib.request
 import urllib.parse
 import urllib.error
+import re
 
 # ── SEARCH QUERIES ────────────────────────────────────────────────────────────
 # Rotated daily so we get variety over time
@@ -61,7 +62,33 @@ PICRYL_QUERIES = [
     "nubia",
 ]
 
-FLICKR_TAGS = ["sudan", "meroe", "nubia"]  # matched with tagmode=any (OR)
+FLICKR_TAGS = ["sudan", "sudanese", "nubia", "nubian", "meroe", "khartoum"]  # matched with tagmode=any (OR)
+
+# Recent Flickr uploads tagged "sudan" skew heavily toward photojournalism from
+# aid/government/inter-governmental orgs (conflict, IDP camps, official meetings,
+# delegations) rather than the people/culture/landscape imagery Kandaka wants.
+# Skip any candidate whose title/description/tags hit these terms.
+FLICKR_BLOCKLIST = [
+    "displaced", "idp", "refugee", "conflict", "warzone", "humanitarian",
+    "assistance", "wfp", "unhcr", "unicef", "ngo", "rsf", "saf",
+    "militia", "military", "soldier", "minister", "ministry", "government",
+    "delegation", "summit", "election", "president", "official", "diplomat",
+    "embassy", "politic", "crisis", "famine", "malnutrition", "sanctions",
+    "ceasefire", "peacekeep", "envoy", "cabinet", "parliament",
+    # "nubia"/"nubian" also refers to southern Egypt, which pulls in
+    # unrelated Egyptian tourism photos (Luxor, Aswan, etc.) — exclude those.
+    "luxor", "aswan", "giza", "cairo", "egypt", "egyptian",
+]
+
+# Bulk conference/event photo dumps (e.g. an org uploading hundreds of
+# session photos in one sitting) tend to have generic camera/session-code
+# titles like "A1 (12)" or "IMG_0001" rather than a real caption — skip
+# these on sight, they're never the people/place photography Kandaka wants
+# even when no blocklist keyword fires.
+FLICKR_LOW_INFO_TITLE = re.compile(
+    r"^(?:[a-z]{1,4}\d{0,3}\s*\(\d+\)|img|dsc|dcim|p\d+|_+\d+|\d+)$",
+    re.IGNORECASE,
+)
 
 # ── HELPERS ───────────────────────────────────────────────────────────────────
 def fetch_json(url, timeout=15):
@@ -86,7 +113,7 @@ def pick_query(queries):
 def fetch_wikimedia():
     query = pick_query(WIKIMEDIA_QUERIES)
     print(f"  Wikimedia: searching '{query}'...")
-    
+
     params = urllib.parse.urlencode({
         "action": "query",
         "generator": "search",
@@ -98,36 +125,35 @@ def fetch_wikimedia():
         "iiurlwidth": 800,
         "format": "json",
     })
-    
+
     url = f"https://commons.wikimedia.org/w/api.php?{params}"
     data = fetch_json(url)
-    
+
     if not data:
         return None
-    
+
     pages = data.get("query", {}).get("pages", {})
     candidates = []
-    
+
     for page in pages.values():
         info = page.get("imageinfo", [{}])[0]
         img_url = info.get("url", "")
-        
+
         # Only JPG/PNG, skip SVG and audio
         if not img_url.lower().endswith((".jpg", ".jpeg", ".png")):
             continue
-        
+
         meta = info.get("extmetadata", {})
         title = meta.get("ObjectName", {}).get("value", page.get("title", "").replace("File:", ""))
         description = meta.get("ImageDescription", {}).get("value", "")
         author = meta.get("Artist", {}).get("value", "Wikimedia Commons")
         license_name = meta.get("LicenseShortName", {}).get("value", "Public Domain")
         page_url = f"https://commons.wikimedia.org/wiki/{urllib.parse.quote(page.get('title', ''))}"
-        
+
         # Clean HTML tags from description
-        import re
         description = re.sub(r"<[^>]+>", "", description).strip()[:200]
         author = re.sub(r"<[^>]+>", "", author).strip()[:100]
-        
+
         candidates.append({
             "title": title[:100],
             "description": description,
@@ -138,10 +164,10 @@ def fetch_wikimedia():
             "source": "Wikimedia Commons",
             "category": "Heritage",
         })
-    
+
     if not candidates:
         return None
-    
+
     rng = random.Random(today_seed() + 1)
     return rng.choice(candidates)
 
@@ -149,7 +175,7 @@ def fetch_wikimedia():
 def fetch_smithsonian():
     query = pick_query(SMITHSONIAN_QUERIES)
     print(f"  Smithsonian: searching '{query}'...")
-    
+
     params = urllib.parse.urlencode({
         "q": query,
         "api_key": "default",  # Smithsonian allows 'default' key for basic access
@@ -157,30 +183,30 @@ def fetch_smithsonian():
         "online_media_type": "Images",
         "online_visual_material": True,
     })
-    
+
     url = f"https://api.si.edu/openaccess/api/v1.0/search?{params}"
     data = fetch_json(url)
-    
+
     if not data:
         return None
-    
+
     rows = data.get("response", {}).get("rows", [])
     candidates = []
-    
+
     for row in rows:
         descriptor = row.get("_source", {}).get("descriptiveNonRepeating", {})
         online_media = descriptor.get("online_media", {}).get("media", [])
-        
+
         for media in online_media:
             if media.get("type") != "Images":
                 continue
             img_url = media.get("content", "")
             if not img_url:
                 continue
-            
+
             title = descriptor.get("title", {}).get("content", "Sudan Artifact")
             link = descriptor.get("record_link", "https://www.si.edu/openaccess")
-            
+
             candidates.append({
                 "title": title[:100],
                 "description": "From the Smithsonian Open Access collection.",
@@ -192,10 +218,10 @@ def fetch_smithsonian():
                 "category": "Artifact",
             })
             break  # one image per record
-    
+
     if not candidates:
         return None
-    
+
     rng = random.Random(today_seed() + 2)
     return rng.choice(candidates)
 
@@ -203,16 +229,16 @@ def fetch_smithsonian():
 def fetch_picryl():
     query = pick_query(PICRYL_QUERIES)
     print(f"  PICRYL: searching '{query}'...")
-    
+
     params = urllib.parse.urlencode({
         "q": query,
         "limit": 20,
         "skip": random.Random(today_seed() + 3).randint(0, 100),
     })
-    
+
     url = f"https://api.picryl.com/api/search?{params}"
     data = fetch_json(url)
-    
+
     if not data:
         # Fallback: use GetArchive API
         params2 = urllib.parse.urlencode({
@@ -222,24 +248,24 @@ def fetch_picryl():
         })
         url2 = f"https://jenikirbyhistory.getarchive.net/api/search?{params2}"
         data = fetch_json(url2)
-    
+
     if not data:
         return None
-    
+
     # Handle both PICRYL and GetArchive response formats
     items = data.get("items", data.get("results", data.get("docs", [])))
     candidates = []
-    
+
     for item in items:
-        img_url = (item.get("image_url") or item.get("thumbnail") or 
+        img_url = (item.get("image_url") or item.get("thumbnail") or
                    item.get("media", {}).get("image", "") if isinstance(item.get("media"), dict) else "")
         if not img_url:
             continue
-        
+
         title = item.get("title", "Historical Sudan Image")[:100]
         source_url = item.get("url", item.get("link", "https://picryl.com"))
         description = item.get("description", "Public domain historical image.")[:200]
-        
+
         candidates.append({
             "title": title,
             "description": description,
@@ -250,10 +276,10 @@ def fetch_picryl():
             "source": "PICRYL",
             "category": "Historical",
         })
-    
+
     if not candidates:
         return None
-    
+
     rng = random.Random(today_seed() + 4)
     return rng.choice(candidates)
 
@@ -270,8 +296,6 @@ def fetch_flickr():
     this feed.
     """
     print(f"  Flickr: searching tags {', '.join(FLICKR_TAGS)}...")
-
-    import re as _re
 
     params = urllib.parse.urlencode({
         "tags": ",".join(FLICKR_TAGS),
@@ -294,18 +318,34 @@ def fetch_flickr():
             continue
 
         # Upsize the feed's small 240px thumbnail to Flickr's 1024px "_b" size
-        large_url = _re.sub(r"_m\.jpg$", "_b.jpg", media_url)
+        large_url = re.sub(r"_m\.jpg$", "_b.jpg", media_url)
 
         author_raw = item.get("author", "")
-        author_match = _re.search(r'"([^"]+)"', author_raw)
+        author_match = re.search(r'"([^"]+)"', author_raw)
         credit = author_match.group(1) if author_match else author_raw.split("(")[0].strip()
         credit = credit or "Flickr user"
 
-        description = _re.sub(r"<[^>]+>", " ", item.get("description", ""))
-        description = _re.sub(r"\s+", " ", description).strip()[:200]
+        description = re.sub(r"<[^>]+>", " ", item.get("description", ""))
+        description = re.sub(r"\s+", " ", description).strip()[:200]
+
+        raw_title = (item.get("title") or "").strip()
+
+        # Skip generic bulk-upload camera/session-code titles ("A1 (12)",
+        # "IMG_1234") — these are reliably conference/event photo dumps,
+        # never the people/place photography Kandaka wants.
+        if not raw_title or FLICKR_LOW_INFO_TITLE.match(raw_title):
+            continue
+
+        # Filter out conflict/aid-org/government photojournalism and
+        # mistagged Egyptian-Nubia tourism photos — see FLICKR_BLOCKLIST
+        # note above. Word-boundary match so e.g. "aid" doesn't fire on
+        # unrelated words.
+        haystack = " ".join([raw_title, description, item.get("tags") or ""]).lower()
+        if any(re.search(r"\b" + re.escape(term) + r"\b", haystack) for term in FLICKR_BLOCKLIST):
+            continue
 
         candidates.append({
-            "title": (item.get("title") or "Untitled")[:100],
+            "title": raw_title[:100],
             "description": description,
             "image_url": large_url,
             "source_url": item.get("link", "https://www.flickr.com"),
@@ -325,17 +365,17 @@ def fetch_flickr():
 def write_image_page(content_dir, image_data, index):
     images_dir = os.path.join(content_dir, "images")
     os.makedirs(images_dir, exist_ok=True)
-    
+
     today = datetime.date.today().isoformat()
     uid = hashlib.md5(image_data["image_url"].encode()).hexdigest()[:8]
     filename = f"{today}-image-{index}-{uid}.en.md"
     filepath = os.path.join(images_dir, filename)
-    
+
     # Don't overwrite existing
     if os.path.exists(filepath):
         print(f"  Already exists: {filename}")
         return False
-    
+
     front_matter = f"""---
 title: "{image_data['title'].replace('"', "'")}"
 date: "{today}T06:00:00Z"
@@ -352,10 +392,10 @@ draft: false
 
 *Source: [{image_data['source']}]({image_data['source_url']}) — {image_data['license']}*
 """
-    
+
     with open(filepath, "w", encoding="utf-8") as f:
         f.write(front_matter)
-    
+
     print(f"  Written: {filename}")
     return True
 
@@ -365,10 +405,10 @@ def cleanup_old_images(content_dir, keep_days=30):
     images_dir = os.path.join(content_dir, "images")
     if not os.path.exists(images_dir):
         return
-    
+
     cutoff = datetime.date.today() - datetime.timedelta(days=keep_days)
     removed = 0
-    
+
     for fname in os.listdir(images_dir):
         if not fname.endswith(".md"):
             continue
@@ -380,17 +420,17 @@ def cleanup_old_images(content_dir, keep_days=30):
                 removed += 1
         except (ValueError, OSError):
             continue
-    
+
     if removed:
         print(f"  Cleaned up {removed} old image files")
 
 # ── MAIN ──────────────────────────────────────────────────────────────────────
 def main():
     content_dir = os.path.join(os.path.dirname(__file__), "..", "content")
-    
+
     print("Fetching daily Sudan images...")
     print(f"Date seed: {today_seed()}")
-    
+
     # Fetch one image from each source
     fetchers = [
         ("Wikimedia Commons", fetch_wikimedia),
@@ -398,7 +438,7 @@ def main():
         ("PICRYL", fetch_picryl),
         ("Flickr", fetch_flickr),
     ]
-    
+
     written = 0
     for index, (name, fetcher) in enumerate(fetchers, 1):
         try:
@@ -411,10 +451,10 @@ def main():
                 print(f"  ✗ {name}: no results found")
         except Exception as e:
             print(f"  ✗ {name}: error — {e}")
-    
+
     # Clean up old files
     cleanup_old_images(content_dir)
-    
+
     print(f"\nDone. {written} new images written.")
 
 if __name__ == "__main__":
