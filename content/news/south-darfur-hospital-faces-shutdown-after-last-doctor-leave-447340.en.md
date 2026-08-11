@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-08-10T07:04:11Z'
+date: '2026-08-11T06:43:01Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/south-darfur-hospital-faces-shutdown-after-last-doctor-leaves
