@@ -1,10 +1,13 @@
 #!/usr/bin/env python3
 """
 Kandaka Sudan Images Fetcher
-Fetches 3 daily public domain images of Sudan from:
+Fetches daily public domain images of Sudan from:
   - Wikimedia Commons (heritage, landscapes, archaeology)
   - Smithsonian Open Access (Nubian artifacts)
-  - PICRYL/GetArchive (historical art, illustrations, ethnographic)
+  - DPLA (Digital Public Library of America — historical photos, culture)
+  - Art Institute of Chicago (Nubian/Kushite/Sudanese art and artifacts)
+  - Europeana (European archives/museums, reusability=open only)
+  - Flickr (recent uploads, filtered)
 
 Writes Hugo content files to content/images/
 Images are referenced by URL (no download needed)
@@ -51,24 +54,49 @@ SMITHSONIAN_QUERIES = [
     "Sudan antiquity",
 ]
 
-PICRYL_QUERIES = [
-    "sudan",
-    "nubian",
-    "khartoum",
-    "meroe",
-    "nile sudan",
-    "sudan desert",
-    "sudanese",
-    "nubia",
+DPLA_QUERIES = [
+    "Sudan Nubian",
+    "Nubian culture",
+    "Meroe Sudan",
+    "Kush Sudan",
+    "Khartoum Sudan",
+    "Sudanese village",
+    "Nile Sudan",
+    "Omdurman Sudan",
+    "Nuba Sudan",
+    "Sudan expedition",
+]
+
+AIC_QUERIES = [
+    "Nubian Sudan",
+    "Meroe",
+    "Kushite",
+    "Sudan textile",
+    "Sudanese art",
+    "Nubian pottery",
+    "Kerma",
+    "Sudan photograph",
+]
+
+EUROPEANA_QUERIES = [
+    "Sudan Nubian",
+    "Nubian Sudan",
+    "Meroe Sudan",
+    "Khartoum Sudan",
+    "Kush Sudan",
+    "Sudanese culture",
+    "Dongola Sudan",
+    "Kordofan Sudan",
 ]
 
 FLICKR_TAGS = ["sudan", "sudanese", "nubia", "nubian", "meroe", "khartoum"]  # matched with tagmode=any (OR)
 
-# Recent Flickr uploads tagged "sudan" skew heavily toward photojournalism from
-# aid/government/inter-governmental orgs (conflict, IDP camps, official meetings,
-# delegations) rather than the people/culture/landscape imagery Kandaka wants.
-# Skip any candidate whose title/description/tags hit these terms.
-FLICKR_BLOCKLIST = [
+# Recent Flickr uploads (and, less often, DPLA results) tagged "sudan" skew
+# toward photojournalism from aid/government/inter-governmental orgs
+# (conflict, IDP camps, official meetings, delegations) rather than the
+# people/culture/landscape imagery Kandaka wants. Skip any candidate whose
+# title/description/tags/subjects hit these terms. Shared across fetchers.
+PHOTO_BLOCKLIST = [
     "displaced", "idp", "refugee", "conflict", "warzone", "humanitarian",
     "assistance", "wfp", "unhcr", "unicef", "ngo", "rsf", "saf",
     "militia", "military", "soldier", "minister", "ministry", "government",
@@ -84,11 +112,26 @@ FLICKR_BLOCKLIST = [
 # session photos in one sitting) tend to have generic camera/session-code
 # titles like "A1 (12)" or "IMG_0001" rather than a real caption — skip
 # these on sight, they're never the people/place photography Kandaka wants
-# even when no blocklist keyword fires.
-FLICKR_LOW_INFO_TITLE = re.compile(
-    r"^(?:[a-z]{1,4}\d{0,3}\s*\(\d+\)|img|dsc|dcim|p\d+|_+\d+|\d+)$",
+# even when no blocklist keyword fires. Also covers a recurring Europeana
+# junk pattern: scanned "generalkatalog" ledger-book pages from ethnographic
+# museum archives, which mention Sudan/Nubia in passing but are a page of
+# inventory text, not a photo of anything in particular.
+PHOTO_LOW_INFO_TITLE = re.compile(
+    r"^(?:[a-z]{1,4}\d{0,3}\s*\(\d+\)|img|dsc|dcim|p\d+|_+\d+|\d+"
+    r"|general ?katalog|general catalogue|untitled|no title)$",
     re.IGNORECASE,
 )
+
+# api.artic.edu and Europeana are full-text search over huge, unrelated
+# collections — a bare query like "Meroe" can fall back to near-zero-relevance
+# results (a French coastal painting, etc.) when there's no strong match.
+# Require an actual Sudan/Nubia-related term to show up in the candidate's
+# own text before accepting it.
+SUDAN_RELEVANCE_TERMS = [
+    "sudan", "sudanese", "nubia", "nubian", "meroe", "meroitic", "kush",
+    "kushite", "khartoum", "kerma", "dongola", "kordofan", "darfur",
+    "omdurman", "mahdi", "mahdist", "gezira",
+]
 
 # ── HELPERS ───────────────────────────────────────────────────────────────────
 def fetch_json(url, timeout=15):
@@ -108,6 +151,25 @@ def pick_query(queries):
     """Pick a query based on today's date for variety."""
     rng = random.Random(today_seed())
     return rng.choice(queries)
+
+def friendly_license_label(rights_value):
+    """Turn a rightsstatements.org/creativecommons.org URL into a short,
+    readable label instead of showing the raw URL in the photo caption."""
+    if not rights_value:
+        return "See source page"
+
+    m = re.search(r"creativecommons\.org/(licenses|publicdomain)/([a-z-]+)/([\d.]+)", rights_value)
+    if m:
+        kind, code, version = m.groups()
+        if kind == "publicdomain":
+            return {"zero": "CC0 (Public Domain)", "mark": "Public Domain Mark"}.get(code, f"Public Domain ({code})")
+        return f"CC {code.upper()} {version}"
+
+    m = re.search(r"rightsstatements\.org/vocab/([A-Za-z-]+)/", rights_value)
+    if m:
+        return m.group(1)
+
+    return rights_value
 
 # ── WIKIMEDIA COMMONS ─────────────────────────────────────────────────────────
 def fetch_wikimedia():
@@ -176,9 +238,14 @@ def fetch_smithsonian():
     query = pick_query(SMITHSONIAN_QUERIES)
     print(f"  Smithsonian: searching '{query}'...")
 
+    # Real key from api.data.gov, passed via the SMITHSONIAN_API_KEY env var
+    # (set as a GitHub Actions secret) — Smithsonian's old shared "default"
+    # key was retired and now returns 403 Forbidden.
+    api_key = os.environ.get("SMITHSONIAN_API_KEY", "default")
+
     params = urllib.parse.urlencode({
         "q": query,
-        "api_key": "default",  # Smithsonian allows 'default' key for basic access
+        "api_key": api_key,
         "rows": 20,
         "online_media_type": "Images",
         "online_visual_material": True,
@@ -194,7 +261,16 @@ def fetch_smithsonian():
     candidates = []
 
     for row in rows:
-        descriptor = row.get("_source", {}).get("descriptiveNonRepeating", {})
+        # NOTE: the real path is row["content"]["descriptiveNonRepeating"],
+        # not row["_source"][...] (there is no "_source" wrapper in this API's
+        # responses — that was a leftover from a different, Elasticsearch-style
+        # API this fetcher was seemingly modeled on). Fixed here, but even with
+        # the correct path, spot-checking ~75 records across several queries
+        # found zero with a populated online_media block despite being flagged
+        # online_media_type: "Images" in indexedStructured — Smithsonian's API
+        # appears to no longer expose media this way for these record types, so
+        # this fetcher may keep coming up empty regardless.
+        descriptor = row.get("content", {}).get("descriptiveNonRepeating", {})
         online_media = descriptor.get("online_media", {}).get("media", [])
 
         for media in online_media:
@@ -225,55 +301,80 @@ def fetch_smithsonian():
     rng = random.Random(today_seed() + 2)
     return rng.choice(candidates)
 
-# ── PICRYL / GETARCHIVE ───────────────────────────────────────────────────────
-def fetch_picryl():
-    query = pick_query(PICRYL_QUERIES)
-    print(f"  PICRYL: searching '{query}'...")
+# ── DPLA (Digital Public Library of America) ──────────────────────────────────
+# Replaces the old PICRYL/GetArchive integration — PICRYL's API domain no
+# longer resolves at all (looks discontinued), so that fetcher never worked
+# and has been removed rather than kept as dead code.
+def fetch_dpla():
+    query = pick_query(DPLA_QUERIES)
+    print(f"  DPLA: searching '{query}'...")
+
+    api_key = os.environ.get("DPLA_API_KEY", "")
+    if not api_key:
+        print("  [WARN] DPLA_API_KEY not set — skipping")
+        return None
 
     params = urllib.parse.urlencode({
         "q": query,
-        "limit": 20,
-        "skip": random.Random(today_seed() + 3).randint(0, 100),
+        "api_key": api_key,
+        "page_size": 100,
+        "sourceResource.type": "image",
     })
 
-    url = f"https://api.picryl.com/api/search?{params}"
+    url = f"https://api.dp.la/v2/items?{params}"
     data = fetch_json(url)
-
-    if not data:
-        # Fallback: use GetArchive API
-        params2 = urllib.parse.urlencode({
-            "q": query,
-            "num": 20,
-            "format": "json",
-        })
-        url2 = f"https://jenikirbyhistory.getarchive.net/api/search?{params2}"
-        data = fetch_json(url2)
 
     if not data:
         return None
 
-    # Handle both PICRYL and GetArchive response formats
-    items = data.get("items", data.get("results", data.get("docs", [])))
+    docs = data.get("docs", [])
     candidates = []
 
-    for item in items:
-        img_url = (item.get("image_url") or item.get("thumbnail") or
-                   item.get("media", {}).get("image", "") if isinstance(item.get("media"), dict) else "")
-        if not img_url:
+    for doc in docs:
+        # DPLA aggregates from hundreds of institutions with mixed rights;
+        # only "Unlimited Re-Use" is DPLA's own bucket for public-domain/CC0/
+        # openly-licensed items — skip anything else (e.g. "Permission or
+        # Fair Use" = still in copyright, needs the rights-holder's OK).
+        if doc.get("rightsCategory") != "Unlimited Re-Use":
             continue
 
-        title = item.get("title", "Historical Sudan Image")[:100]
-        source_url = item.get("url", item.get("link", "https://picryl.com"))
-        description = item.get("description", "Public domain historical image.")[:200]
+        image_url = doc.get("object", "")
+        if not image_url:
+            continue
+
+        sr = doc.get("sourceResource", {})
+        titles = sr.get("title") or []
+        raw_title = (titles[0] if titles else "").strip()
+        if not raw_title:
+            continue
+
+        descriptions = sr.get("description") or []
+        description = (descriptions[0] if descriptions else "").strip()[:200]
+
+        subjects = " ".join(
+            s.get("name", "") for s in (sr.get("subject") or []) if isinstance(s, dict)
+        )
+
+        # Same conflict/aid-org/government filter used for Flickr — DPLA
+        # leans historical/archival so this fires rarely, but costs nothing.
+        haystack = " ".join([raw_title, description, subjects]).lower()
+        if any(re.search(r"\b" + re.escape(term) + r"\b", haystack) for term in PHOTO_BLOCKLIST):
+            continue
+
+        credit = (
+            (doc.get("dataProvider") or {}).get("name")
+            or (doc.get("provider") or {}).get("name")
+            or "DPLA"
+        )
 
         candidates.append({
-            "title": title,
+            "title": raw_title[:100],
             "description": description,
-            "image_url": img_url,
-            "source_url": source_url,
-            "credit": item.get("creator", item.get("author", "Public Domain")),
-            "license": "Public Domain",
-            "source": "PICRYL",
+            "image_url": image_url,
+            "source_url": doc.get("isShownAt", "https://dp.la"),
+            "credit": credit[:100],
+            "license": "Unlimited Re-Use (DPLA)",
+            "source": "DPLA",
             "category": "Historical",
         })
 
@@ -283,12 +384,144 @@ def fetch_picryl():
     rng = random.Random(today_seed() + 4)
     return rng.choice(candidates)
 
+# ── ART INSTITUTE OF CHICAGO (no API key required) ────────────────────────────
+def fetch_aic():
+    query = pick_query(AIC_QUERIES)
+    print(f"  Art Institute of Chicago: searching '{query}'...")
+
+    params = urllib.parse.urlencode({
+        "q": query,
+        "limit": 40,
+        "fields": "id,title,artist_display,date_display,image_id,is_public_domain",
+    })
+
+    url = f"https://api.artic.edu/api/v1/artworks/search?{params}"
+    data = fetch_json(url)
+
+    if not data:
+        return None
+
+    candidates = []
+    for item in data.get("data", []):
+        if not item.get("is_public_domain") or not item.get("image_id"):
+            continue
+
+        raw_title = (item.get("title") or "").strip()
+        if not raw_title or PHOTO_LOW_INFO_TITLE.match(raw_title):
+            continue
+
+        artist = (item.get("artist_display") or "").split("\n")[0].strip() or "Art Institute of Chicago"
+        date_display = item.get("date_display") or ""
+
+        haystack = " ".join([raw_title, artist]).lower()
+
+        # AIC's search is full-text over their entire ~470k-object collection;
+        # a short/uncommon query term like "Meroe" can fall through to
+        # near-zero-relevance results (e.g. a French coastal painting).
+        # Require an actual Sudan/Nubia term in the object's own text.
+        if not any(term in haystack for term in SUDAN_RELEVANCE_TERMS):
+            continue
+        if any(re.search(r"\b" + re.escape(term) + r"\b", haystack) for term in PHOTO_BLOCKLIST):
+            continue
+
+        # Standard IIIF image request per AIC's API docs — 843px wide, good
+        # banner/thumbnail size without pulling full-resolution originals.
+        image_url = f"https://www.artic.edu/iiif/2/{item['image_id']}/full/843,/0/default.jpg"
+
+        candidates.append({
+            "title": raw_title[:100],
+            "description": date_display[:200],
+            "image_url": image_url,
+            "source_url": f"https://www.artic.edu/artworks/{item['id']}",
+            "credit": artist[:100],
+            "license": "CC0 / Public Domain (Art Institute of Chicago)",
+            "source": "Art Institute of Chicago",
+            "category": "Artifact",
+        })
+
+    if not candidates:
+        return None
+
+    rng = random.Random(today_seed() + 6)
+    return rng.choice(candidates)
+
+# ── EUROPEANA ───────────────────────────────────────────────────────────────
+def fetch_europeana():
+    query = pick_query(EUROPEANA_QUERIES)
+    print(f"  Europeana: searching '{query}'...")
+
+    api_key = os.environ.get("EUROPEANA_API_KEY", "")
+    if not api_key:
+        print("  [WARN] EUROPEANA_API_KEY not set — skipping")
+        return None
+
+    params = urllib.parse.urlencode({
+        "wskey": api_key,
+        "query": query,
+        "reusability": "open",  # only CC0/CC-BY/public-domain-cleared items
+        "media": "true",
+        "rows": 40,
+    })
+
+    url = f"https://api.europeana.eu/record/v2/search.json?{params}"
+    data = fetch_json(url)
+
+    if not data or not data.get("success"):
+        return None
+
+    candidates = []
+    for item in data.get("items", []):
+        image_urls = item.get("edmIsShownBy") or []
+        image_url = image_urls[0] if image_urls else ""
+        if not image_url:
+            continue
+
+        titles = item.get("title") or []
+        raw_title = (titles[0] if titles else "").strip()
+        if not raw_title or PHOTO_LOW_INFO_TITLE.match(raw_title):
+            continue
+
+        descriptions = item.get("dcDescription") or []
+        description = (descriptions[0] if descriptions else "").strip()[:200]
+
+        haystack = " ".join([raw_title, description]).lower()
+
+        # Same relevance guard as AIC — Europeana aggregates hundreds of
+        # institutions' full catalogs, so a loose match can surface something
+        # only tangentially related (or, per PHOTO_LOW_INFO_TITLE above, a
+        # scanned ledger page that just happens to mention Sudan in passing).
+        if not any(term in haystack for term in SUDAN_RELEVANCE_TERMS):
+            continue
+        if any(re.search(r"\b" + re.escape(term) + r"\b", haystack) for term in PHOTO_BLOCKLIST):
+            continue
+
+        credit = (item.get("dataProvider") or item.get("dcCreator") or ["Europeana"])[0]
+        rights = friendly_license_label((item.get("rights") or [""])[0])
+        source_url = (item.get("edmIsShownAt") or item.get("guid") or ["https://www.europeana.eu"])[0]
+
+        candidates.append({
+            "title": raw_title[:100],
+            "description": description,
+            "image_url": image_url,
+            "source_url": source_url,
+            "credit": credit[:100],
+            "license": rights,
+            "source": "Europeana",
+            "category": "Historical",
+        })
+
+    if not candidates:
+        return None
+
+    rng = random.Random(today_seed() + 7)
+    return rng.choice(candidates)
+
 # ── FLICKR (public feed, no API key required) ─────────────────────────────────
 def fetch_flickr():
     """Pull from Flickr's public 'recent uploads' feed for tags sudan/meroe/nubia.
 
     Note: Flickr's no-key feed endpoint does not expose per-photo license info
-    (unlike Wikimedia/Smithsonian/PICRYL, which are curated for public-domain/CC
+    (unlike Wikimedia/Smithsonian/DPLA, which are curated for public-domain/CC
     reuse). Photos here may default to "All Rights Reserved" — displayed with a
     "verify license" note and always linked back to the photo page and credited
     to the uploader. If stricter CC-only filtering is wanted later, that needs a
@@ -333,15 +566,15 @@ def fetch_flickr():
         # Skip generic bulk-upload camera/session-code titles ("A1 (12)",
         # "IMG_1234") — these are reliably conference/event photo dumps,
         # never the people/place photography Kandaka wants.
-        if not raw_title or FLICKR_LOW_INFO_TITLE.match(raw_title):
+        if not raw_title or PHOTO_LOW_INFO_TITLE.match(raw_title):
             continue
 
         # Filter out conflict/aid-org/government photojournalism and
-        # mistagged Egyptian-Nubia tourism photos — see FLICKR_BLOCKLIST
+        # mistagged Egyptian-Nubia tourism photos — see PHOTO_BLOCKLIST
         # note above. Word-boundary match so e.g. "aid" doesn't fire on
         # unrelated words.
         haystack = " ".join([raw_title, description, item.get("tags") or ""]).lower()
-        if any(re.search(r"\b" + re.escape(term) + r"\b", haystack) for term in FLICKR_BLOCKLIST):
+        if any(re.search(r"\b" + re.escape(term) + r"\b", haystack) for term in PHOTO_BLOCKLIST):
             continue
 
         candidates.append({
@@ -435,7 +668,9 @@ def main():
     fetchers = [
         ("Wikimedia Commons", fetch_wikimedia),
         ("Smithsonian", fetch_smithsonian),
-        ("PICRYL", fetch_picryl),
+        ("DPLA", fetch_dpla),
+        ("Art Institute of Chicago", fetch_aic),
+        ("Europeana", fetch_europeana),
         ("Flickr", fetch_flickr),
     ]
 

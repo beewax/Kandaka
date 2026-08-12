@@ -389,7 +389,7 @@ html[data-theme="dark"] .badge-analysis { background: #431407; color: #fdba74; }
              most recent photo before picking the 3 shown, so one source having
              more successful daily fetches than the others can't crowd the rest
              out of the homepage strip. */}}
-        {{- $imageSources := slice "Wikimedia Commons" "Smithsonian Open Access" "PICRYL" "Flickr" }}
+        {{- $imageSources := slice "Wikimedia Commons" "Smithsonian Open Access" "DPLA" "Art Institute of Chicago" "Europeana" "Flickr" }}
         {{- $latestPerSource := slice }}
         {{- range $imageSources }}
           {{- $bySource := sort (where $allSiteImages "Params.source" .) "Date" "desc" }}
