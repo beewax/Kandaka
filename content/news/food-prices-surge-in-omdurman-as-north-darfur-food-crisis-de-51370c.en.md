@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-08-11T06:43:01Z'
+date: '2026-08-12T07:03:17Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/food-prices-surge-in-omdurman-as-north-darfur-food-crisis-deepens
