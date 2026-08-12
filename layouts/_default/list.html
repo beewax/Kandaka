@@ -385,11 +385,10 @@ html[data-theme="dark"] .badge-analysis { background: #431407; color: #fdba74; }
       {{- $dynamicImages := slice }}
       {{- if $enSiteImages }}
         {{- $allSiteImages := where $enSiteImages.RegularPages "Section" "images" }}
-        {{/* Cap each source (Wikimedia/Smithsonian/PICRYL/Flickr) to its single
-             most recent photo before picking the 3 shown, so one source having
-             more successful daily fetches than the others can't crowd the rest
-             out of the homepage strip. */}}
-        {{- $imageSources := slice "Wikimedia Commons" "Smithsonian Open Access" "DPLA" "Art Institute of Chicago" "Europeana" "Flickr" }}
+        {{/* Cap each source to its single most recent photo before picking
+             the 3 shown, so one source having more successful daily fetches
+             than the others can't crowd the rest out of the homepage strip. */}}
+        {{- $imageSources := slice "Wikimedia Commons" "Smithsonian Open Access" "DPLA" "Art Institute of Chicago" "Europeana" "Library of Congress" "National Archives" "Flickr" }}
         {{- $latestPerSource := slice }}
         {{- range $imageSources }}
           {{- $bySource := sort (where $allSiteImages "Params.source" .) "Date" "desc" }}
@@ -465,10 +464,16 @@ html[data-theme="dark"] .badge-analysis { background: #431407; color: #fdba74; }
           <a class="k-lib-btn k-lib-btn-dl" href="{{ $book.download }}" target="_blank" rel="noopener">
             {{ if $isAr }}تحميل PDF{{ else }}Download PDF{{ end }}
           </a>
-          {{- else if $book.link }}
-          <a class="k-lib-btn k-lib-btn-src" href="{{ $book.link }}" target="_blank" rel="noopener">
-            {{ if $isAr }}عرض المصدر{{ else }}View source{{ end }}
-          </a>
+          {{- else if $book.source }}
+            {{- if or (strings.HasSuffix $book.source ".pdf") (strings.HasSuffix $book.source ".epub") }}
+            <a class="k-lib-btn k-lib-btn-dl" href="{{ $book.source }}" target="_blank" rel="noopener">
+              {{ if $isAr }}تحميل PDF{{ else }}Download PDF{{ end }}
+            </a>
+            {{- else }}
+            <a class="k-lib-btn k-lib-btn-src" href="{{ $book.source }}" target="_blank" rel="noopener">
+              {{ if $isAr }}عرض المصدر{{ else }}View source{{ end }}
+            </a>
+            {{- end }}
           {{- end }}
         </div>
       </div>

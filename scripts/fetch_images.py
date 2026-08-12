@@ -7,6 +7,8 @@ Fetches daily public domain images of Sudan from:
   - DPLA (Digital Public Library of America — historical photos, culture)
   - Art Institute of Chicago (Nubian/Kushite/Sudanese art and artifacts)
   - Europeana (European archives/museums, reusability=open only)
+  - Library of Congress (Prints & Photographs, digitized books — no API key needed)
+  - National Archives / NARA (federal records, mostly public domain by law)
   - Flickr (recent uploads, filtered)
 
 Writes Hugo content files to content/images/
@@ -89,6 +91,25 @@ EUROPEANA_QUERIES = [
     "Kordofan Sudan",
 ]
 
+LOC_QUERIES = [
+    "sudan nubian",
+    "nubian sudan",
+    "meroe sudan",
+    "khartoum sudan",
+    "anglo-egyptian sudan",
+    "omdurman",
+    "kush sudan",
+    "gordon khartoum",
+]
+
+NARA_QUERIES = [
+    "Sudan",
+    "Khartoum",
+    "Nubia",
+    "Anglo-Egyptian Sudan",
+    "Sudanese",
+]
+
 FLICKR_TAGS = ["sudan", "sudanese", "nubia", "nubian", "meroe", "khartoum"]  # matched with tagmode=any (OR)
 
 # Recent Flickr uploads (and, less often, DPLA results) tagged "sudan" skew
@@ -106,6 +127,13 @@ PHOTO_BLOCKLIST = [
     # "nubia"/"nubian" also refers to southern Egypt, which pulls in
     # unrelated Egyptian tourism photos (Luxor, Aswan, etc.) — exclude those.
     "luxor", "aswan", "giza", "cairo", "egypt", "egyptian",
+    # Library of Congress and National Archives both surface 19th/early-20th-
+    # century colonial-era ethnographic photography of Sudan, some of it
+    # objectifying/undressed "specimen" portraiture that was standard practice
+    # for that genre at the time but isn't appropriate to auto-publish without
+    # review on a modern editorial site. Skip on sight rather than rely on
+    # catalogers' own period-typical wording to flag it for us.
+    "nude", "nudity", "topless", "bare-breasted", "seminude", "semi-nude",
 ]
 
 # Bulk conference/event photo dumps (e.g. an org uploading hundreds of
@@ -199,7 +227,16 @@ def fetch_wikimedia():
 
     for page in pages.values():
         info = page.get("imageinfo", [{}])[0]
-        img_url = info.get("url", "")
+        # Wikimedia now appends UTM tracking params to this URL (e.g.
+        # "...original.jpg?utm_source=commons.wikimedia.org&..."), which
+        # broke the extension check below (always failed, silently
+        # filtering out every candidate) — this was the actual cause of
+        # zero new site images since Aug 3 despite the daily workflow
+        # reporting "success" every day; Wikimedia was the only source that
+        # had ever worked at all. Strip the query string before checking
+        # extension and before storing, confirmed via live testing against
+        # real API responses on 2026-08-12.
+        img_url = info.get("url", "").split("?")[0]
 
         # Only JPG/PNG, skip SVG and audio
         if not img_url.lower().endswith((".jpg", ".jpeg", ".png")):
@@ -516,6 +553,198 @@ def fetch_europeana():
     rng = random.Random(today_seed() + 7)
     return rng.choice(candidates)
 
+# ── LIBRARY OF CONGRESS (no API key required) ─────────────────────────────────
+# loc.gov's search API is fully public — no signup, no key, no auth header.
+# Live-tested against real queries (e.g. "sudan nubian" surfaced actual
+# Prints & Photographs Division items like "Nubian woman, Anglo-Egyptian
+# Sudan"), so the field paths below are confirmed against real responses,
+# not just documentation.
+def fetch_loc():
+    query = pick_query(LOC_QUERIES)
+    print(f"  Library of Congress: searching '{query}'...")
+
+    params = urllib.parse.urlencode({
+        "q": query,
+        "fo": "json",
+        "c": 40,
+        "fa": "online-format:image",
+    })
+
+    url = f"https://www.loc.gov/search/?{params}"
+    data = fetch_json(url)
+
+    if not data:
+        return None
+
+    candidates = []
+    for item in data.get("results", []):
+        # access_restricted is the reliable "can we actually use this" flag —
+        # confirmed False on every openly-reusable item in live testing.
+        # rights/rights_information are almost always empty even on genuinely
+        # open items, so they're not useful as a filter here.
+        if item.get("access_restricted"):
+            continue
+
+        image_urls = item.get("image_url") or []
+        # Sizes are ordered smallest-to-largest; take the largest actual
+        # JPEG (some entries end the list with a IIIF endpoint we can't
+        # easily size-select from a plain image_url list, others end with a
+        # tiny .gif thumbnail — skip those, prefer a real .jpg).
+        jpg_urls = [u.split("#")[0] for u in image_urls if u.split("#")[0].lower().endswith((".jpg", ".jpeg"))]
+        if not jpg_urls:
+            continue
+        image_url = jpg_urls[-1]
+
+        raw_title = (item.get("title") or "").strip()
+        if not raw_title or PHOTO_LOW_INFO_TITLE.match(raw_title):
+            continue
+
+        descriptions = item.get("description") or []
+        description = (descriptions[0] if descriptions else "").strip()[:200]
+
+        # loc.gov's /search endpoint is full-text over the entire site, not
+        # scoped to the query terms in any strict way — confirmed via live
+        # testing, a "sudan nubian" query returned an unrelated Latin Bible
+        # manuscript, and a "nubian sudan" query returned a book on
+        # Melanesian New Guinea whose only tie to Sudan was a one-clause
+        # mention of the author's career in a long biographical description
+        # ("...conducted field research in New Guinea, Sarawak, ... and
+        # Sudan"). Checking the free-text description let that kind of
+        # incidental name-drop through. title + subject are curated fields
+        # (subject is controlled vocabulary), so require the relevance term
+        # there instead — confirmed this still keeps genuine hits whose
+        # title alone doesn't say "Sudan" (e.g. "The heroine of the White
+        # Nile" has 'sudan' in its subject list, not its title).
+        relevance_haystack = " ".join([raw_title, " ".join(item.get("subject") or [])]).lower()
+        if not any(term in relevance_haystack for term in SUDAN_RELEVANCE_TERMS):
+            continue
+
+        haystack = " ".join([raw_title, description, " ".join(item.get("subject") or [])]).lower()
+        if any(re.search(r"\b" + re.escape(term) + r"\b", haystack) for term in PHOTO_BLOCKLIST):
+            continue
+
+        source_url = item.get("url") or "https://www.loc.gov"
+
+        candidates.append({
+            "title": raw_title[:100],
+            "description": description,
+            "image_url": image_url,
+            "source_url": source_url,
+            "credit": "Library of Congress",
+            "license": "Public Domain / No Known Restrictions (verify on source page)",
+            "source": "Library of Congress",
+            "category": "Historical",
+        })
+
+    if not candidates:
+        return None
+
+    rng = random.Random(today_seed() + 8)
+    return rng.choice(candidates)
+
+# ── NATIONAL ARCHIVES (NARA) ───────────────────────────────────────────────────
+# NOTE: unlike DPLA/Europeana/Smithsonian, a NARA key is NOT self-serve via
+# api.data.gov — it's issued by emailing Catalog_API@nara.gov and waiting for
+# a reply. This fetcher is written from NARA's published API docs and GitHub
+# README (https://github.com/usnationalarchives/Catalog-API), not live-tested
+# against a real key/response, since none was available while writing this.
+# Smoke-test once NARA_API_KEY is actually set — field names below (naId,
+# digitalObjects[].objectUrl, useRestriction) are NARA's documented schema
+# but haven't been confirmed against a live payload the way the LOC fetcher
+# above has.
+def fetch_nara():
+    query = pick_query(NARA_QUERIES)
+    print(f"  National Archives: searching '{query}'...")
+
+    api_key = os.environ.get("NARA_API_KEY", "")
+    if not api_key:
+        print("  [WARN] NARA_API_KEY not set — skipping")
+        return None
+
+    params = urllib.parse.urlencode({
+        "q": query,
+        "resultTypes": "record",
+        "limit": 40,
+    })
+
+    url = f"https://catalog.archives.gov/api/v2/records/search?{params}"
+    req = urllib.request.Request(
+        url,
+        headers={"User-Agent": "Kandaka/1.0 (kandaka.com)", "x-api-key": api_key},
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=15) as r:
+            data = json.loads(r.read().decode("utf-8"))
+    except Exception as e:
+        print(f"  [WARN] Failed to fetch {url}: {e}")
+        return None
+
+    if not data:
+        return None
+
+    body = data.get("body", data)
+    hits = (body.get("hits", {}) or {}).get("hits", []) if isinstance(body, dict) else []
+    candidates = []
+
+    for hit in hits:
+        record = hit.get("_source", {}).get("record", {}) if isinstance(hit, dict) else {}
+        if not record:
+            continue
+
+        # NARA records are almost all public domain (federal government
+        # works), but a minority carry donor/third-party restrictions —
+        # useRestriction.status / copyrightStatus flag those.
+        use_restriction = (record.get("useRestriction") or {}).get("status", "")
+        if use_restriction and "unrestricted" not in use_restriction.lower():
+            continue
+
+        digital_objects = record.get("digitalObjects") or []
+        image_url = ""
+        for obj in digital_objects:
+            obj_url = obj.get("objectUrl", "")
+            if obj_url.lower().endswith((".jpg", ".jpeg", ".png")):
+                image_url = obj_url
+                break
+        if not image_url:
+            continue
+
+        raw_title = (record.get("title") or "").strip()
+        if not raw_title or PHOTO_LOW_INFO_TITLE.match(raw_title):
+            continue
+
+        description = (record.get("scopeAndContentNote") or record.get("generalNotes") or "").strip()[:200]
+
+        haystack = " ".join([raw_title, description]).lower()
+
+        # Same full-text-search-over-huge-collection risk as LOC above (see
+        # that fetcher's comment — confirmed there via live testing, applied
+        # here defensively since NARA's search is the same kind of broad
+        # full-text match over millions of unrelated federal records).
+        if not any(term in haystack for term in SUDAN_RELEVANCE_TERMS):
+            continue
+        if any(re.search(r"\b" + re.escape(term) + r"\b", haystack) for term in PHOTO_BLOCKLIST):
+            continue
+
+        na_id = record.get("naId", "")
+        source_url = f"https://catalog.archives.gov/id/{na_id}" if na_id else "https://catalog.archives.gov"
+
+        candidates.append({
+            "title": raw_title[:100],
+            "description": description,
+            "image_url": image_url,
+            "source_url": source_url,
+            "credit": "National Archives and Records Administration (NARA)",
+            "license": "Public Domain (U.S. federal record)",
+            "source": "National Archives",
+            "category": "Historical",
+        })
+
+    if not candidates:
+        return None
+
+    rng = random.Random(today_seed() + 9)
+    return rng.choice(candidates)
+
 # ── FLICKR (public feed, no API key required) ─────────────────────────────────
 def fetch_flickr():
     """Pull from Flickr's public 'recent uploads' feed for tags sudan/meroe/nubia.
@@ -671,6 +900,8 @@ def main():
         ("DPLA", fetch_dpla),
         ("Art Institute of Chicago", fetch_aic),
         ("Europeana", fetch_europeana),
+        ("Library of Congress", fetch_loc),
+        ("National Archives", fetch_nara),
         ("Flickr", fetch_flickr),
     ]
 

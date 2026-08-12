@@ -31,6 +31,7 @@ jobs:
           SMITHSONIAN_API_KEY: ${{ secrets.SMITHSONIAN_API_KEY }}
           DPLA_API_KEY: ${{ secrets.DPLA_API_KEY }}
           EUROPEANA_API_KEY: ${{ secrets.EUROPEANA_API_KEY }}
+          NARA_API_KEY: ${{ secrets.NARA_API_KEY }}
         run: python scripts/fetch_images.py
 
       - name: Commit and push new content
