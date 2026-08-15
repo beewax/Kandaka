@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-08-14T07:03:28Z'
+date: '2026-08-15T06:16:27Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/broad-reaction-to-burhans-call-for-dialogue-inside-sudan-and-reports-of-presidential-amnesty
