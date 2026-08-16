@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-08-15T06:16:27Z'
+date: '2026-08-16T06:18:23Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/saf-accused-of-civilian-killings-as-rsf-drones-strike-three-states
