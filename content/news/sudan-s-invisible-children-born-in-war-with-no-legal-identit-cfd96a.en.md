@@ -1,6 +1,6 @@
 ---
 category: International
-date: '2026-08-16T06:18:25Z'
+date: '2026-08-17T06:28:04Z'
 draft: false
 language: en
 link: https://www.bbc.co.uk/news/articles/cr7kldz4djno?at_medium=RSS&at_campaign=rss

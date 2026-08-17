@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-08-16T06:18:23Z'
+date: '2026-08-17T06:28:03Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/unbearable-hardship-in-sudan-displaced-people-in-kordofan-eat-animal-feed-to-avert-starvation
