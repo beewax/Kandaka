@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-08-17T06:28:03Z'
+date: '2026-08-18T06:20:50Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/young-sudanese-call-for-inclusive-dialogue-to-address-roots-of-war-and-put-justice-and-peace-first
