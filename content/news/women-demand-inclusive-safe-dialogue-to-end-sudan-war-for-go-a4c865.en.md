@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-08-19T06:21:36Z'
+date: '2026-08-20T06:22:25Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/women-call-for-inclusive-safe-dialogue-to-end-sudan-war-for-good
