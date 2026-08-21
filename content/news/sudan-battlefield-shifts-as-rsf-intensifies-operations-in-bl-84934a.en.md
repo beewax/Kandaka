@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-08-20T06:22:25Z'
+date: '2026-08-21T06:22:41Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/sudan-battlefield-shifts-as-rsf-intensifies-operations-in-blue-nile

@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-08-20T06:22:25Z'
+date: '2026-08-21T06:22:41Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/saf-shoots-down-two-rsf-long-range-drones-in-north-kordofan
