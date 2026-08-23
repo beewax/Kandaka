@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-08-22T06:18:03Z'
+date: '2026-08-23T06:19:33Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/special-forces-deployed-in-restive-south-darfur-capital-nyala
