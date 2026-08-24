@@ -249,26 +249,28 @@ def fetch_wikimedia():
         license_name = meta.get("LicenseShortName", {}).get("value", "Public Domain")
         page_url = f"https://commons.wikimedia.org/wiki/{urllib.parse.quote(page.get('title', ''))}"
 
-        # Clean HTML tags from description
+               # Clean HTML tags from title/description/author. ObjectName (title)
+        # needs this too, not just description/author — some GLAM-partner
+        # uploads (e.g. Bibliothèque nationale de France scans) store their
+        # ObjectName wrapped in raw markup like "<div class='fn'>Northern
+        # Gezira... Southern Gezira</div>", which without stripping goes
+        # straight into the page title and renders as literal visible tag
+        # text in the homepage photo caption (confirmed live, 2026-08-24).
+        title = re.sub(r"<[^>]+>", "", title).strip()
         description = re.sub(r"<[^>]+>", "", description).strip()[:200]
         author = re.sub(r"<[^>]+>", "", author).strip()[:100]
 
+        # Same relevance guard used by the AIC/Europeana/LOC/NARA/Flickr
+        # fetchers below, previously missing here — Commons' full-text
+        # search on generic queries ("Sudan desert landscape", etc.) can
+        # surface loosely related or outright unrelated results (e.g. other
+        # countries' desert photography) that never mention Sudan/Nubia
+        # themselves. Require the term to actually appear before accepting.
+        haystack = " ".join([title, description]).lower()
+        if not any(term in haystack for term in SUDAN_RELEVANCE_TERMS):
+            continue
+
         candidates.append({
-            "title": title[:100],
-            "description": description,
-            "image_url": img_url,
-            "source_url": page_url,
-            "credit": author,
-            "license": license_name,
-            "source": "Wikimedia Commons",
-            "category": "Heritage",
-        })
-
-    if not candidates:
-        return None
-
-    rng = random.Random(today_seed() + 1)
-    return rng.choice(candidates)
 
 # ── SMITHSONIAN OPEN ACCESS ───────────────────────────────────────────────────
 def fetch_smithsonian():
