@@ -319,19 +319,17 @@ def fetch_smithsonian():
             if not img_url:
                 continue
 
-            title = descriptor.get("title", {}).get("content", "Sudan Artifact")
+                        title = descriptor.get("title", {}).get("content", "Sudan Artifact")
             link = descriptor.get("record_link", "https://www.si.edu/openaccess")
 
+            # Same relevance guard as the other fetchers, previously missing
+            # here — Smithsonian's search is full-text over its entire
+            # collection, so a query like "Kush empire" can fall through to
+            # unrelated results with no Sudan/Nubia connection at all.
+            if not any(term in title.lower() for term in SUDAN_RELEVANCE_TERMS):
+                continue
+
             candidates.append({
-                "title": title[:100],
-                "description": "From the Smithsonian Open Access collection.",
-                "image_url": img_url,
-                "source_url": link,
-                "credit": "Smithsonian Institution",
-                "license": "Public Domain",
-                "source": "Smithsonian Open Access",
-                "category": "Artifact",
-            })
             break  # one image per record
 
     if not candidates:
