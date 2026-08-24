@@ -396,26 +396,49 @@ html[data-theme="dark"] .badge-analysis { background: #431407; color: #fdba74; }
             {{- $latestPerSource = $latestPerSource | append (index $bySource 0) }}
           {{- end }}
         {{- end }}
-        {{- $dynamicImages = first 3 (sort $latestPerSource "Date" "desc") }}
+        {{/* Keep up to 6 candidates (not just 3) so that if one of the
+             visible 3 fails to load client-side (broken/expired hotlink,
+             hotlink protection, etc.) there's a backup ready to swap in
+             instead of just silently dropping below 3 shown photos. */}}
+        {{- $dynamicImages = first 6 (sort $latestPerSource "Date" "desc") }}
       {{- end }}
 
       {{- if $dynamicImages }}
-        {{- range $dynamicImages }}
-        <div class="k-photo-card">
-          <a href="{{ .Params.source_url }}" target="_blank" rel="noopener">
-            <img src="{{ .Params.image_url }}"
-                 alt="{{ .Title }}"
+        {{- range $i, $img := $dynamicImages }}
+        <div class="k-photo-card"{{ if ge $i 3 }} data-k-backup="1" style="display:none"{{ end }}>
+          <a href="{{ $img.Params.source_url }}" target="_blank" rel="noopener">
+            <img src="{{ $img.Params.image_url }}"
+                 alt="{{ $img.Title }}"
                  loading="lazy" decoding="async"
-                 onerror="this.parentElement.parentElement.style.display='none'">
+                 onerror="kPhotoFallback(this)">
           </a>
           <div class="k-photo-caption">
-            <strong>{{ .Title }}</strong>
-            <a href="{{ .Params.source_url }}" target="_blank" rel="noopener">
-              © {{ .Params.source }} — {{ .Params.license }}
+            <strong>{{ $img.Title }}</strong>
+            <a href="{{ $img.Params.source_url }}" target="_blank" rel="noopener">
+              © {{ $img.Params.source }} — {{ $img.Params.license }}
             </a>
           </div>
         </div>
         {{- end }}
+        <script>
+        // If a shown photo's image 404s/fails (broken hotlink, hotlink
+        // protection, source taken the file down, etc.), hide that card and
+        // reveal the next unused backup card instead of just leaving a gap —
+        // keeps the "Sudan in Images" strip at 3 photos whenever a backup
+        // is available.
+        function kPhotoFallback(imgEl) {
+          var card = imgEl.closest('.k-photo-card');
+          if (!card) return;
+          card.style.display = 'none';
+          var stack = card.closest('.k-photo-stack');
+          if (!stack) return;
+          var backup = stack.querySelector('.k-photo-card[data-k-backup]');
+          if (backup) {
+            backup.removeAttribute('data-k-backup');
+            backup.style.display = '';
+          }
+        }
+        </script>
 
       {{- else }}
         {{/* Fallback static images if no dynamic content yet */}}
