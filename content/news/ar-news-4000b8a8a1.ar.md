@@ -1,7 +1,7 @@
 ---
 category: Humanitarian
 clabel: إنساني
-date: '2026-08-23T06:19:54Z'
+date: '2026-08-24T06:32:18Z'
 draft: false
 language: ar
 link: https://news.un.org/feed/view/ar/story/2026/08/1145205
