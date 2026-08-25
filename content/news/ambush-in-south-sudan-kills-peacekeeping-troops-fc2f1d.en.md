@@ -1,6 +1,6 @@
 ---
 category: International
-date: '2026-08-24T21:29:25Z'
+date: '2026-08-25T03:49:00Z'
 draft: false
 language: en
 link: https://www.aljazeera.com/news/2026/8/24/ambush-in-south-sudan-kills-peacekeeping-troops?traffic_source=rss
