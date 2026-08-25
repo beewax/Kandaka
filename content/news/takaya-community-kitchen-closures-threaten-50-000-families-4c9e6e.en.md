@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-08-25T03:48:58Z'
+date: '2026-08-25T06:48:35Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/takaya-community-kitchen-closures-threaten-50000-families-in-sudan-capital
