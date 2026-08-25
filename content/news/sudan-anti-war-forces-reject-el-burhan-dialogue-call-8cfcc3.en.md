@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-08-25T06:48:35Z'
+date: '2026-08-25T09:35:23Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/sudan-anti-war-forces-reject-el-burhan-dialogue-call
