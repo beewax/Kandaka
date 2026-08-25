@@ -249,7 +249,7 @@ def fetch_wikimedia():
         license_name = meta.get("LicenseShortName", {}).get("value", "Public Domain")
         page_url = f"https://commons.wikimedia.org/wiki/{urllib.parse.quote(page.get('title', ''))}"
 
-               # Clean HTML tags from title/description/author. ObjectName (title)
+        # Clean HTML tags from title/description/author. ObjectName (title)
         # needs this too, not just description/author — some GLAM-partner
         # uploads (e.g. Bibliothèque nationale de France scans) store their
         # ObjectName wrapped in raw markup like "<div class='fn'>Northern
@@ -271,6 +271,21 @@ def fetch_wikimedia():
             continue
 
         candidates.append({
+            "title": title[:100],
+            "description": description,
+            "image_url": img_url,
+            "source_url": page_url,
+            "credit": author,
+            "license": license_name,
+            "source": "Wikimedia Commons",
+            "category": "Heritage",
+        })
+
+    if not candidates:
+        return None
+
+    rng = random.Random(today_seed() + 1)
+    return rng.choice(candidates)
 
 # ── SMITHSONIAN OPEN ACCESS ───────────────────────────────────────────────────
 def fetch_smithsonian():
@@ -319,7 +334,7 @@ def fetch_smithsonian():
             if not img_url:
                 continue
 
-                        title = descriptor.get("title", {}).get("content", "Sudan Artifact")
+            title = descriptor.get("title", {}).get("content", "Sudan Artifact")
             link = descriptor.get("record_link", "https://www.si.edu/openaccess")
 
             # Same relevance guard as the other fetchers, previously missing
@@ -330,6 +345,15 @@ def fetch_smithsonian():
                 continue
 
             candidates.append({
+                "title": title[:100],
+                "description": "From the Smithsonian Open Access collection.",
+                "image_url": img_url,
+                "source_url": link,
+                "credit": "Smithsonian Institution",
+                "license": "Public Domain",
+                "source": "Smithsonian Open Access",
+                "category": "Artifact",
+            })
             break  # one image per record
 
     if not candidates:
