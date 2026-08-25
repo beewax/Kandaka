@@ -3,6 +3,9 @@
 {{ end }}
 <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}" />
 <link rel="alternate" hreflang="x-default" href="{{ .Site.Home.Permalink }}" />
+
+{{/* Pinterest domain verification (added August 2026) */}}
+<meta name="p:domain_verify" content="e5f0e597882d1820f98dddf799d6c020"/>
 {{- with .Params.source }}<meta name="article:publisher" content="{{ . }}">{{- end }}
 
 {{/* NOTE (July 2026): Open Graph, Twitter Card, canonical link, and favicon tags used to be
