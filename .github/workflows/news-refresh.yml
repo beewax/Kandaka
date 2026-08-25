@@ -40,4 +40,20 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add content/news/
           git diff --cached --quiet || git commit -m "Auto: fetch news $(date -u '+%Y-%m-%d %H:%M UTC')"
-          git push
+
+          # git push occasionally fails on GitHub-hosted runners with a
+          # transient "Failure when receiving data from the peer" network
+          # error that has nothing to do with the commit itself (seen in
+          # run #2, Aug 2026). Retry with backoff, rebasing onto origin/main
+          # first in case another workflow pushed in between attempts.
+          for attempt in 1 2 3 4 5; do
+            if git push; then
+              exit 0
+            fi
+            echo "git push failed (attempt $attempt/5), retrying in $((attempt * 10))s..."
+            sleep $((attempt * 10))
+            git fetch origin main
+            git rebase origin/main || git rebase --abort
+          done
+          echo "git push failed after 5 attempts"
+          exit 1
