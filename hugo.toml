@@ -16,6 +16,13 @@ pygmentsCodeFences = true
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
+  section = ["HTML", "RSS", "Pinterest"]
+
+[outputFormats.Pinterest]
+  mediaType = "application/rss+xml"
+  baseName = "pinterest"
+  isPlainText = true
+  notAlternative = true
 
 # LANGUAGE: ENGLISH
 [languages.en]

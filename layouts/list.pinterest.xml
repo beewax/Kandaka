@@ -1,0 +1,46 @@
+{{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML -}}
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>{{ printf "%s — Pinterest" .Title | html }}</title>
+    <link>{{ .Permalink }}</link>
+    <description>{{ printf "Image-rich Kandaka content from %s, prepared for Pinterest." .Title | html }}</description>
+    <language>{{ site.Language.LanguageCode }}</language>
+    {{- with .OutputFormats.Get "Pinterest" }}
+    <atom:link href="{{ .Permalink }}" rel="self" type="application/rss+xml" />
+    {{- end }}
+    {{- $seen := newScratch }}
+    {{- $count := newScratch }}
+    {{- $count.Set "items" 0 }}
+    {{- range .RegularPages.ByDate.Reverse }}
+      {{- $image := "" }}
+      {{- $alt := .Title }}
+      {{- with .Params.image_url }}
+        {{- $image = . }}
+      {{- end }}
+      {{- if not $image }}
+        {{- with .Params.cover }}
+          {{- with .image }}{{ $image = . }}{{ end }}
+          {{- with .alt }}{{ $alt = . }}{{ end }}
+        {{- end }}
+      {{- end }}
+      {{- if not $image }}
+        {{- with .Params.image }}{{ $image = . }}{{ end }}
+      {{- end }}
+      {{- $excluded := or .Params.pinterest_exclude (eq .Section "library") }}
+      {{- if and $image (not $excluded) (not ($seen.Get $image)) (lt ($count.Get "items") 100) }}
+        {{- $seen.Set $image true }}
+        {{- $count.Add "items" 1 }}
+    <item>
+      <title>{{ .Title | html }}</title>
+      <link>{{ .Permalink }}</link>
+      <guid isPermaLink="true">{{ .Permalink }}</guid>
+      <pubDate>{{ .PublishDate.Format "Mon, 02 Jan 2006 15:04:05 -0700" }}</pubDate>
+      <description>{{ with .Description }}{{ . | plainify | html }}{{ else }}{{ .Summary | plainify | html }}{{ end }}</description>
+      <media:content url="{{ $image | absURL | html }}" medium="image" />
+      <media:title>{{ .Title | html }}</media:title>
+      <media:description>{{ $alt | plainify | html }}</media:description>
+    </item>
+      {{- end }}
+    {{- end }}
+  </channel>
+</rss>
