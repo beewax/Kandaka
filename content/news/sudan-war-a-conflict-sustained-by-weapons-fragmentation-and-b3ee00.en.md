@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-08-26T06:50:31Z'
+date: '2026-08-26T09:41:33Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/sudan-war-a-conflict-sustained-by-weapons-fragmentation-and-diplomatic-inertia

@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-08-26T06:50:31Z'
+date: '2026-08-26T09:41:33Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/denmark-uk-france-back-us-proposal-to-expand-sudan-arms-embargo-china-russia-oppose
