@@ -1,6 +1,6 @@
 ---
 category: International
-date: '2026-08-26T01:19:13Z'
+date: '2026-08-26T03:54:01Z'
 draft: false
 language: en
 link: https://www.aljazeera.com/news/2026/8/26/is-sudans-battlefield-shaping-the-terms-of-its-next-political-phase?traffic_source=rss
