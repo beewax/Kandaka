@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-08-26T12:52:39Z'
+date: '2026-08-26T16:17:49Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/sudan-kassala-gold-traders-shut-shop-amid-clashes-illicit-parallel-market

@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-08-26T12:52:39Z'
+date: '2026-08-26T16:17:49Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/south-darfur-hospital-closure-leaves-pregnant-women-dying-on-road-to-care
