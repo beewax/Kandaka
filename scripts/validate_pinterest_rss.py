@@ -35,7 +35,15 @@ def main(output_dir: str) -> int:
             if media is None or not media.attrib.get("url"):
                 raise AssertionError(f"Missing media:content in {feed_path}")
 
+            enclosure = item.find("enclosure")
+            if enclosure is None or not enclosure.attrib.get("url"):
+                raise AssertionError(f"Missing enclosure in {feed_path}")
+            if not enclosure.attrib.get("type", "").startswith("image/"):
+                raise AssertionError(f"Invalid enclosure image type in {feed_path}")
+
             image_url = media.attrib["url"]
+            if enclosure.attrib["url"] != image_url:
+                raise AssertionError(f"Image tag URLs disagree in {feed_path}")
             if image_url in images:
                 raise AssertionError(f"Duplicate image in {feed_path}: {image_url}")
             images.add(image_url)

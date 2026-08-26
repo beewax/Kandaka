@@ -30,13 +30,19 @@
       {{- if and $image (not $excluded) (not ($seen.Get $image)) (lt ($count.Get "items") 100) }}
         {{- $seen.Set $image true }}
         {{- $count.Add "items" 1 }}
+        {{- $imageLower := lower $image }}
+        {{- $mime := "image/jpeg" }}
+        {{- if findRE `\.png(?:\?|$)` $imageLower }}{{ $mime = "image/png" }}{{ end }}
+        {{- if findRE `\.gif(?:\?|$)` $imageLower }}{{ $mime = "image/gif" }}{{ end }}
+        {{- if findRE `\.webp(?:\?|$)` $imageLower }}{{ $mime = "image/webp" }}{{ end }}
     <item>
       <title>{{ .Title | html }}</title>
       <link>{{ .Permalink }}</link>
       <guid isPermaLink="true">{{ .Permalink }}</guid>
       <pubDate>{{ .PublishDate.Format "Mon, 02 Jan 2006 15:04:05 -0700" }}</pubDate>
       <description>{{ with .Description }}{{ . | plainify | html }}{{ else }}{{ .Summary | plainify | html }}{{ end }}</description>
-      <media:content url="{{ $image | absURL | html }}" medium="image" />
+      <enclosure url="{{ $image | absURL | html }}" length="0" type="{{ $mime }}" />
+      <media:content url="{{ $image | absURL | html }}" medium="image" type="{{ $mime }}" />
       <media:title>{{ .Title | html }}</media:title>
       <media:description>{{ $alt | plainify | html }}</media:description>
     </item>
