@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-08-26T16:17:49Z'
+date: '2026-08-26T19:47:16Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/un-security-council-and-sudan-arms-embargo-exposes-gap-between-international-will-and-action

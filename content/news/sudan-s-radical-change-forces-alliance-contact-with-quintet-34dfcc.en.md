@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-08-26T16:17:49Z'
+date: '2026-08-26T19:47:16Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/sudans-radical-change-forces-alliance-contact-with-quintet-and-un-envoy-does-not-imply-external-mandate
