@@ -1,6 +1,6 @@
 ---
 category: International
-date: '2026-08-26T03:54:01Z'
+date: '2026-08-26T06:50:32Z'
 draft: false
 language: en
 link: https://www.aljazeera.com/video/newsfeed/2026/8/26/water-crisis-makes-life-in-sudans-el-obeid-refugee-camps-even-worse?traffic_source=rss

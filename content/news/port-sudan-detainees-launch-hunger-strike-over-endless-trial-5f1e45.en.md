@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-08-26T03:53:59Z'
+date: '2026-08-26T06:50:31Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/port-sudan-detainees-launch-hunger-strike-over-endless-trial-delays-2
