@@ -6,6 +6,10 @@ category: "Urban Planning"
 description: "A living guide to rebuilding Sudan's cities — greening, flood mitigation, sanitation, and safe public space — grounded in Sudan's own planning history, its government's actual track record, and international best practice."
 tags: ["urban planning", "Khartoum", "reconstruction", "informal settlements", "flooding", "sanitation", "post-conflict", "civic engagement"]
 draft: false
+cover:
+  image: "/images/uploads/rebuilding-khartoum.jpg"
+  alt: "Khartoum and the Nile, representing the challenge of rebuilding Sudan's capital"
+  relative: false
 ---
 
 *This is a living reference, updated periodically as conditions and priorities change. As of mid-2026, Sudan's war is in its fourth year; the army has recaptured Khartoum and national institutions officially returned to the capital in January 2026, bringing a fragile, partial normalcy to central Khartoum even as fighting continues elsewhere, notably Darfur. That makes this a reconstruction-planning document, not a hypothetical one.*

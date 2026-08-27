@@ -151,11 +151,8 @@ article.first-entry.home-info::before { display: none !important; }
 .k-featured-content {
   width: min(690px, calc(100% - 48px));
   margin: 24px;
-  padding: 28px;
-  border: 1px solid rgba(255,255,255,0.2);
-  border-radius: 12px;
-  background: rgba(3, 13, 34, 0.78);
-  box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+  padding: 28px 4px;
+  text-shadow: 0 2px 5px rgba(0,0,0,0.95), 0 5px 18px rgba(0,0,0,0.8);
 }
 .k-featured-label {
   display: inline-block;
@@ -181,6 +178,8 @@ article.first-entry.home-info::before { display: none !important; }
   font-size: 13px;
   font-weight: 700;
   text-decoration: none !important;
+  background: rgba(3, 13, 34, 0.72);
+  text-shadow: none;
 }
 .k-featured-link:hover { background: rgba(255,255,255,0.12); }
 .k-featured-controls { display: flex; align-items: center; justify-content: center; gap: 14px; margin-top: 14px; }
@@ -201,7 +200,7 @@ article.first-entry.home-info::before { display: none !important; }
 .k-featured-link:focus-visible { outline: 3px solid #ffc700; outline-offset: 3px; }
 @media (max-width: 600px) {
   .k-featured-slide { min-height: 390px; }
-  .k-featured-content { width: calc(100% - 28px); margin: 14px; padding: 22px 20px; }
+  .k-featured-content { width: calc(100% - 28px); margin: 14px; padding: 22px 4px; }
   .k-featured-summary { font-size: 14px; }
 }
 
@@ -433,7 +432,8 @@ html[data-theme="dark"] .badge-analysis { background: #431407; color: #fdba74; }
   <div class="k-featured-viewport" aria-live="off">
     {{- range $latestIdeas }}
     <article class="k-featured-slide is-active" data-k-slide aria-hidden="false">
-      {{- with .Params.cover.image }}<img class="k-featured-media" src="{{ . | relURL }}" alt="" loading="eager">{{- end }}
+      {{- $ideaImage := .Params.cover.image | default "/images/uploads/kandaka-nubian-queens.jpg" }}
+      <img class="k-featured-media" src="{{ $ideaImage | relURL }}" alt="" loading="eager">
       <div class="k-featured-content">
         <span class="k-featured-label">{{ if $isAr }}أفكار{{ else }}Ideas{{ end }}</span>
         <h2 class="k-featured-title">{{ .Title }}</h2>
@@ -445,7 +445,8 @@ html[data-theme="dark"] .badge-analysis { background: #431407; color: #fdba74; }
 
     {{- range $latestDevelopment }}
     <article class="k-featured-slide k-featured-slide--development" data-k-slide aria-hidden="true">
-      {{- with .Params.cover.image }}<img class="k-featured-media" src="{{ . | relURL }}" alt="" loading="lazy">{{- end }}
+      {{- $developmentImage := .Params.cover.image | default "/images/uploads/rebuilding-khartoum.jpg" }}
+      <img class="k-featured-media" src="{{ $developmentImage | relURL }}" alt="" loading="lazy">
       <div class="k-featured-content">
         <span class="k-featured-label">{{ if $isAr }}التنمية{{ else }}Development{{ end }}</span>
         <h2 class="k-featured-title">{{ .Title }}</h2>
