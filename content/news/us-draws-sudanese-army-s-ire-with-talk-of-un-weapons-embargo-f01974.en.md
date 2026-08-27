@@ -1,6 +1,6 @@
 ---
 category: Analysis
-date: '2026-08-26T19:47:21Z'
+date: '2026-08-27T00:29:53Z'
 draft: false
 language: en
 link: https://www.theafricareport.com/428788/us-draws-sudanese-armys-ire-with-talk-of-un-weapons-embargo/

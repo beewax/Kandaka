@@ -1,6 +1,6 @@
 ---
 category: Analysis
-date: '2026-08-26T19:47:24Z'
+date: '2026-08-27T00:29:53Z'
 draft: false
 language: en
 link: https://africanarguments.org/2026/08/burhans-dialogue-is-not-a-path-to-stability/?utm_source=rss&utm_medium=rss&utm_campaign=burhans-dialogue-is-not-a-path-to-stability

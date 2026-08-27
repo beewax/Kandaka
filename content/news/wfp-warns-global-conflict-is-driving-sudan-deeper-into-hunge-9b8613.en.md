@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-08-26T19:47:16Z'
+date: '2026-08-27T00:29:49Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/wfp-warns-global-conflict-is-driving-sudan-deeper-into-hunger-crisis
