@@ -139,18 +139,24 @@ article.first-entry.home-info::before { display: none !important; }
   width: 100%;
   height: 100%;
   object-fit: cover;
+  filter: none;
 }
 .k-featured-slide::after {
   content: "";
   position: absolute;
   inset: 0;
   z-index: -1;
-  background: linear-gradient(90deg, rgba(3, 13, 34, 0.95) 0%, rgba(3, 13, 34, 0.78) 52%, rgba(3, 13, 34, 0.28) 100%);
+  background: none;
 }
-[dir="rtl"] .k-featured-slide::after {
-  background: linear-gradient(270deg, rgba(3, 13, 34, 0.95) 0%, rgba(3, 13, 34, 0.78) 52%, rgba(3, 13, 34, 0.28) 100%);
+.k-featured-content {
+  width: min(690px, calc(100% - 48px));
+  margin: 24px;
+  padding: 28px;
+  border: 1px solid rgba(255,255,255,0.2);
+  border-radius: 12px;
+  background: rgba(3, 13, 34, 0.78);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.2);
 }
-.k-featured-content { width: min(690px, 100%); padding: 42px; }
 .k-featured-label {
   display: inline-block;
   margin-bottom: 12px;
@@ -195,7 +201,7 @@ article.first-entry.home-info::before { display: none !important; }
 .k-featured-link:focus-visible { outline: 3px solid #ffc700; outline-offset: 3px; }
 @media (max-width: 600px) {
   .k-featured-slide { min-height: 390px; }
-  .k-featured-content { padding: 28px 24px; }
+  .k-featured-content { width: calc(100% - 28px); margin: 14px; padding: 22px 20px; }
   .k-featured-summary { font-size: 14px; }
 }
 
@@ -456,7 +462,7 @@ html[data-theme="dark"] .badge-analysis { background: #431407; color: #fdba74; }
         <span class="k-featured-label">{{ if $isAr }}السودان بالصور{{ else }}Sudan in Images{{ end }}</span>
         <h2 class="k-featured-title">{{ .Title }}</h2>
         <p class="k-featured-summary">{{ if $isAr }}صورة مختارة من أرشيف السودان ونوبيا وكوش.{{ else }}A selected view from the visual record of Sudan, Nubia, and Kush.{{ end }}</p>
-        <a class="k-featured-link" href="{{ .Params.source_url }}" target="_blank" rel="noopener">{{ if $isAr }}عرض المصدر ←{{ else }}View source →{{ end }}</a>
+        <a class="k-featured-link" href="{{ .RelPermalink }}">{{ if $isAr }}عرض الصورة ←{{ else }}View image →{{ end }}</a>
       </div>
     </article>
     {{- end }}
