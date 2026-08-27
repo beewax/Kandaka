@@ -100,6 +100,105 @@ article.first-entry.home-info::before { display: none !important; }
 .k-btn-secondary { background: rgba(255,255,255,0.12); color: #fff !important; border: 1px solid rgba(255,255,255,0.25); }
 .k-btn:hover { opacity: 0.88; }
 
+/* ── Featured carousel ── */
+.k-featured { margin: 0 0 48px; }
+.k-featured-kicker {
+  margin: 0 0 12px;
+  color: var(--secondary);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+.k-featured-viewport {
+  overflow: hidden;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  background: #0a1a3a;
+  box-shadow: 0 12px 32px rgba(5, 18, 43, 0.16);
+}
+.k-featured-slide {
+  position: relative;
+  display: none;
+  min-height: 360px;
+  overflow: hidden;
+  isolation: isolate;
+  color: #fff;
+  background: linear-gradient(125deg, #081a3d 0%, #123d62 55%, #276044 100%);
+}
+.k-featured-slide.is-active { display: flex; align-items: flex-end; }
+.k-featured-slide--development {
+  background:
+    radial-gradient(circle at 80% 20%, rgba(255, 199, 0, 0.2), transparent 30%),
+    linear-gradient(125deg, #071a3b 0%, #123e62 56%, #1a5638 100%);
+}
+.k-featured-media {
+  position: absolute;
+  inset: 0;
+  z-index: -2;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.k-featured-slide::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(90deg, rgba(3, 13, 34, 0.95) 0%, rgba(3, 13, 34, 0.78) 52%, rgba(3, 13, 34, 0.28) 100%);
+}
+[dir="rtl"] .k-featured-slide::after {
+  background: linear-gradient(270deg, rgba(3, 13, 34, 0.95) 0%, rgba(3, 13, 34, 0.78) 52%, rgba(3, 13, 34, 0.28) 100%);
+}
+.k-featured-content { width: min(690px, 100%); padding: 42px; }
+.k-featured-label {
+  display: inline-block;
+  margin-bottom: 12px;
+  padding: 5px 10px;
+  border-radius: 999px;
+  background: #ffc700;
+  color: #071a3b;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.k-featured-title { margin: 0 0 12px; color: #fff; font: 700 clamp(1.65rem, 4vw, 2.55rem)/1.16 Georgia, serif; }
+.k-featured-summary { max-width: 62ch; margin: 0 0 22px; color: rgba(255,255,255,0.84); font-size: 15px; line-height: 1.65; }
+.k-featured-link {
+  display: inline-flex;
+  align-items: center;
+  padding: 9px 16px;
+  border: 1px solid rgba(255,255,255,0.45);
+  border-radius: 8px;
+  color: #fff !important;
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: none !important;
+}
+.k-featured-link:hover { background: rgba(255,255,255,0.12); }
+.k-featured-controls { display: flex; align-items: center; justify-content: center; gap: 14px; margin-top: 14px; }
+.k-featured-arrow,
+.k-featured-dot {
+  border: 1px solid var(--border);
+  color: var(--secondary);
+  background: var(--entry);
+  cursor: pointer;
+}
+.k-featured-arrow { width: 34px; height: 34px; border-radius: 50%; font-size: 18px; line-height: 1; }
+.k-featured-pause { min-width: 64px; height: 34px; padding: 0 12px; border-radius: 999px; font-size: 11px; font-weight: 700; }
+.k-featured-dots { display: flex; align-items: center; gap: 8px; }
+.k-featured-dot { width: 9px; height: 9px; padding: 0; border-radius: 50%; }
+.k-featured-dot[aria-current="true"] { width: 24px; border-radius: 999px; border-color: #b88d00; background: #ffc700; }
+.k-featured-arrow:focus-visible,
+.k-featured-dot:focus-visible,
+.k-featured-link:focus-visible { outline: 3px solid #ffc700; outline-offset: 3px; }
+@media (max-width: 600px) {
+  .k-featured-slide { min-height: 390px; }
+  .k-featured-content { padding: 28px 24px; }
+  .k-featured-summary { font-size: 14px; }
+}
+
 /* ── Section headers ── */
 .k-section { margin: 0 0 48px; }
 .k-section-head {
@@ -307,11 +406,150 @@ html[data-theme="dark"] .badge-analysis { background: #431407; color: #fdba74; }
   </div>
 </section>
 
+{{/* ══════════════════ AUTOMATED FEATURED CAROUSEL ══════════════════ */}}
+{{- $latestIdeas := first 1 (sort (where .Site.RegularPages "Section" "ideas") "Date" "desc") }}
+{{- $latestDevelopment := first 1 (sort (where .Site.RegularPages "Section" "development") "Date" "desc") }}
+{{- $carouselImageCandidates := slice }}
+{{- $imageSite := index (where hugo.Sites "Language.Lang" "en") 0 }}
+{{- if $imageSite }}
+  {{- range (sort (where $imageSite.RegularPages "Section" "images") "Date" "desc") }}
+    {{- if lt (len $carouselImageCandidates) 1 }}
+      {{- $imageText := lower (printf "%s %s" .Title .Plain) }}
+      {{- if not (findRE `south[\s_-]*sudan|southern\s+sudan|\bjuba\b|\bbentiu\b|\bmalakal\b|\bequatoria\b|bahr\s+(?:el|al)\s+ghazal` $imageText) }}
+        {{- $carouselImageCandidates = $carouselImageCandidates | append . }}
+      {{- end }}
+    {{- end }}
+  {{- end }}
+{{- end }}
+
+<section class="k-featured" aria-labelledby="featured-heading" data-k-carousel>
+  <p class="k-featured-kicker" id="featured-heading">{{ if $isAr }}مختارات كاندكة{{ else }}Featured Kandaka{{ end }}</p>
+  <div class="k-featured-viewport" aria-live="off">
+    {{- range $latestIdeas }}
+    <article class="k-featured-slide is-active" data-k-slide aria-hidden="false">
+      {{- with .Params.cover.image }}<img class="k-featured-media" src="{{ . | relURL }}" alt="" loading="eager">{{- end }}
+      <div class="k-featured-content">
+        <span class="k-featured-label">{{ if $isAr }}أحدث الأفكار{{ else }}Latest Ideas{{ end }}</span>
+        <h2 class="k-featured-title">{{ .Title }}</h2>
+        {{- with .Description }}<p class="k-featured-summary">{{ . }}</p>{{- end }}
+        <a class="k-featured-link" href="{{ .RelPermalink }}">{{ if $isAr }}اقرأ المقال ←{{ else }}Read the article →{{ end }}</a>
+      </div>
+    </article>
+    {{- end }}
+
+    {{- range $latestDevelopment }}
+    <article class="k-featured-slide k-featured-slide--development" data-k-slide aria-hidden="true">
+      {{- with .Params.cover.image }}<img class="k-featured-media" src="{{ . | relURL }}" alt="" loading="lazy">{{- end }}
+      <div class="k-featured-content">
+        <span class="k-featured-label">{{ if $isAr }}أحدث موضوعات التنمية{{ else }}Latest Development{{ end }}</span>
+        <h2 class="k-featured-title">{{ .Title }}</h2>
+        {{- with .Description }}<p class="k-featured-summary">{{ . }}</p>{{- end }}
+        <a class="k-featured-link" href="{{ .RelPermalink }}">{{ if $isAr }}اقرأ التحليل ←{{ else }}Read the analysis →{{ end }}</a>
+      </div>
+    </article>
+    {{- end }}
+
+    {{- range $carouselImageCandidates }}
+    <article class="k-featured-slide" data-k-slide aria-hidden="true">
+      <img class="k-featured-media" src="{{ .Params.image_url }}" alt="" loading="lazy" referrerpolicy="no-referrer">
+      <div class="k-featured-content">
+        <span class="k-featured-label">{{ if $isAr }}السودان بالصور{{ else }}Sudan in Images{{ end }}</span>
+        <h2 class="k-featured-title">{{ .Title }}</h2>
+        <p class="k-featured-summary">{{ if $isAr }}صورة مختارة من أرشيف السودان ونوبيا وكوش.{{ else }}A selected view from the visual record of Sudan, Nubia, and Kush.{{ end }}</p>
+        <a class="k-featured-link" href="{{ .Params.source_url }}" target="_blank" rel="noopener">{{ if $isAr }}عرض المصدر ←{{ else }}View source →{{ end }}</a>
+      </div>
+    </article>
+    {{- end }}
+  </div>
+  <div class="k-featured-controls" aria-label="{{ if $isAr }}عناصر التحكم في الشرائح{{ else }}Carousel controls{{ end }}">
+    <button class="k-featured-arrow" type="button" data-k-prev aria-label="{{ if $isAr }}الشريحة السابقة{{ else }}Previous slide{{ end }}">‹</button>
+    <div class="k-featured-dots" role="group" aria-label="{{ if $isAr }}اختر شريحة{{ else }}Choose a slide{{ end }}"></div>
+    <button class="k-featured-arrow k-featured-pause" type="button" data-k-toggle data-pause-label="{{ if $isAr }}إيقاف{{ else }}Pause{{ end }}" data-play-label="{{ if $isAr }}تشغيل{{ else }}Play{{ end }}" aria-pressed="false">{{ if $isAr }}إيقاف{{ else }}Pause{{ end }}</button>
+    <button class="k-featured-arrow" type="button" data-k-next aria-label="{{ if $isAr }}الشريحة التالية{{ else }}Next slide{{ end }}">›</button>
+  </div>
+</section>
+
+<script>
+(function () {
+  document.querySelectorAll('[data-k-carousel]').forEach(function (carousel) {
+    var slides = Array.from(carousel.querySelectorAll('[data-k-slide]'));
+    var dotsHost = carousel.querySelector('.k-featured-dots');
+    if (slides.length < 2 || !dotsHost) return;
+
+    var current = 0;
+    var timer = null;
+    var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    var isRtl = getComputedStyle(carousel).direction === 'rtl';
+    var manuallyPaused = reduceMotion;
+    var toggle = carousel.querySelector('[data-k-toggle]');
+
+    var dots = slides.map(function (_, index) {
+      var dot = document.createElement('button');
+      dot.type = 'button';
+      dot.className = 'k-featured-dot';
+      dot.setAttribute('aria-label', '{{ if $isAr }}عرض الشريحة{{ else }}Show slide{{ end }} ' + (index + 1));
+      dot.addEventListener('click', function () { show(index); restart(); });
+      dotsHost.appendChild(dot);
+      return dot;
+    });
+
+    function show(index) {
+      current = (index + slides.length) % slides.length;
+      slides.forEach(function (slide, slideIndex) {
+        var active = slideIndex === current;
+        slide.classList.toggle('is-active', active);
+        slide.setAttribute('aria-hidden', active ? 'false' : 'true');
+      });
+      dots.forEach(function (dot, dotIndex) {
+        dot.setAttribute('aria-current', dotIndex === current ? 'true' : 'false');
+      });
+    }
+
+    function stop() { if (timer) window.clearInterval(timer); timer = null; }
+    function start() {
+      stop();
+      if (!manuallyPaused && !document.hidden && !carousel.matches(':hover') && !carousel.contains(document.activeElement)) {
+        timer = window.setInterval(function () { show(current + 1); }, 7000);
+      }
+    }
+    function restart() { stop(); start(); }
+
+    carousel.querySelector('[data-k-prev]').addEventListener('click', function () { show(current - 1); restart(); });
+    carousel.querySelector('[data-k-next]').addEventListener('click', function () { show(current + 1); restart(); });
+    toggle.addEventListener('click', function () {
+      manuallyPaused = !manuallyPaused;
+      toggle.setAttribute('aria-pressed', manuallyPaused ? 'true' : 'false');
+      toggle.textContent = manuallyPaused ? toggle.dataset.playLabel : toggle.dataset.pauseLabel;
+      manuallyPaused ? stop() : start();
+    });
+    if (reduceMotion) {
+      toggle.setAttribute('aria-pressed', 'true');
+      toggle.textContent = toggle.dataset.playLabel;
+    }
+    carousel.addEventListener('mouseenter', stop);
+    carousel.addEventListener('mouseleave', start);
+    carousel.addEventListener('focusin', stop);
+    carousel.addEventListener('focusout', function (event) { if (!carousel.contains(event.relatedTarget)) start(); });
+    carousel.addEventListener('keydown', function (event) {
+      if (event.key !== 'ArrowLeft' && event.key !== 'ArrowRight') return;
+      var forward = event.key === 'ArrowRight';
+      if (isRtl) forward = !forward;
+      show(current + (forward ? 1 : -1));
+      restart();
+    });
+    document.addEventListener('visibilitychange', function () { document.hidden ? stop() : restart(); });
+
+    show(0);
+    start();
+  });
+}());
+</script>
+
 {{/* ══════════════════ LATEST NEWS — bilingual 3+3 ══════════════════ */}}
 {{- $enPosts := slice }}
 {{- $arPosts := slice }}
-{{- $enSite := index (where site.Sites "Language.Lang" "en") 0 }}
-{{- $arSite := index (where site.Sites "Language.Lang" "ar") 0 }}
+{{- $enSite := index (where hugo.Sites "Language.Lang" "en") 0 }}
+{{- $arSite := index (where hugo.Sites "Language.Lang" "ar") 0 }}
 {{/* EN posts: from EN site, exclude Arabic-script titles (misfiled posts) */}}
 {{- if $enSite }}
   {{- range first 20 (where $enSite.RegularPages "Section" "news") }}
@@ -381,7 +619,7 @@ html[data-theme="dark"] .badge-analysis { background: #431407; color: #fdba74; }
     </div>
     <div class="k-photo-stack">
 
-      {{- $enSiteImages := index (where site.Sites "Language.Lang" "en") 0 }}
+      {{- $enSiteImages := index (where hugo.Sites "Language.Lang" "en") 0 }}
       {{- $dynamicImages := slice }}
       {{- if $enSiteImages }}
         {{- $allSiteImages := where $enSiteImages.RegularPages "Section" "images" }}
@@ -392,9 +630,16 @@ html[data-theme="dark"] .badge-analysis { background: #431407; color: #fdba74; }
         {{- $latestPerSource := slice }}
         {{- range $imageSources }}
           {{- $bySource := sort (where $allSiteImages "Params.source" .) "Date" "desc" }}
-          {{- if $bySource }}
-            {{- $latestPerSource = $latestPerSource | append (index $bySource 0) }}
+          {{- $validBySource := slice }}
+          {{- range $bySource }}
+            {{- if lt (len $validBySource) 1 }}
+              {{- $imageText := lower (printf "%s %s" .Title .Plain) }}
+              {{- if not (findRE `south[\s_-]*sudan|southern\s+sudan|\bjuba\b|\bbentiu\b|\bmalakal\b|\bequatoria\b|bahr\s+(?:el|al)\s+ghazal` $imageText) }}
+                {{- $validBySource = $validBySource | append . }}
+              {{- end }}
+            {{- end }}
           {{- end }}
+          {{- if $validBySource }}{{- $latestPerSource = $latestPerSource | append (index $validBySource 0) }}{{- end }}
         {{- end }}
         {{/* Keep up to 6 candidates (not just 3) so that if one of the
              visible 3 fails to load client-side (broken/expired hotlink,
@@ -473,7 +718,7 @@ html[data-theme="dark"] .badge-analysis { background: #431407; color: #fdba74; }
     </div>
     <div class="k-lib-stack">
       {{- $icons := slice "📖" "📊" "🗺️" "⚔️" "🌍" "🏛️" "💧" "🌾" "🔬" "📜" }}
-      {{- $featured := first 3 (shuffle site.Data.library.books) }}
+      {{- $featured := first 3 (shuffle hugo.Data.library.books) }}
       {{- range $i, $book := $featured }}
       {{- $icon := index $icons (mod $i (len $icons)) }}
       <div class="k-lib-card">

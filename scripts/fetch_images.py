@@ -112,6 +112,24 @@ NARA_QUERIES = [
 
 FLICKR_TAGS = ["sudan", "sudanese", "nubia", "nubian", "meroe", "khartoum"]  # matched with tagmode=any (OR)
 
+# Flickr and other broad catalog searches frequently treat "Sudan" as a
+# match for the separate country of South Sudan. Reject both explicit country
+# names and unambiguous South Sudan locations before applying Sudan/Nubia/Kush
+# relevance checks. Keep this separate from PHOTO_BLOCKLIST: these terms are
+# geographically out of scope, not editorially unsuitable subjects.
+SOUTH_SUDAN_PATTERNS = [
+    r"\bsouth[\s_-]*sudan(?:ese)?\b",
+    r"\bsouthern\s+sudan(?:ese)?\b",
+    r"\brepublic\s+of\s+south\s+sudan\b",
+    r"\bssd\b",
+]
+
+SOUTH_SUDAN_PLACES = [
+    "juba", "bentiu", "bor", "malakal", "rumbek", "yei", "wau",
+    "aweil", "nimule", "torit", "yambio", "equatoria",
+    "bahr el ghazal", "bahr al ghazal",
+]
+
 # Recent Flickr uploads (and, less often, DPLA results) tagged "sudan" skew
 # toward photojournalism from aid/government/inter-governmental orgs
 # (conflict, IDP camps, official meetings, delegations) rather than the
@@ -179,6 +197,31 @@ def pick_query(queries):
     """Pick a query based on today's date for variety."""
     rng = random.Random(today_seed())
     return rng.choice(queries)
+
+def contains_term(text, terms, allow_suffix=False):
+    """Match complete words/phrases, optionally treating them as stems."""
+    suffix = "" if allow_suffix else r"\b"
+    return any(re.search(r"\b" + re.escape(term) + suffix, text) for term in terms)
+
+def is_sudan_image_candidate(*parts, require_relevance=True):
+    """Return True only for in-scope Sudan/Nubia/Kush image metadata.
+
+    The negative geography check runs first because the word ``sudan`` inside
+    ``South Sudan`` would otherwise satisfy the positive relevance test.
+    """
+    text = " ".join(str(part or "") for part in parts).lower()
+    text = re.sub(r"[_-]+", " ", text)
+    text = re.sub(r"\s+", " ", text).strip()
+
+    if any(re.search(pattern, text) for pattern in SOUTH_SUDAN_PATTERNS):
+        return False
+    if contains_term(text, SOUTH_SUDAN_PLACES):
+        return False
+    if contains_term(text, PHOTO_BLOCKLIST, allow_suffix=True):
+        return False
+    if require_relevance and not contains_term(text, SUDAN_RELEVANCE_TERMS):
+        return False
+    return True
 
 def friendly_license_label(rights_value):
     """Turn a rightsstatements.org/creativecommons.org URL into a short,
@@ -267,7 +310,7 @@ def fetch_wikimedia():
         # countries' desert photography) that never mention Sudan/Nubia
         # themselves. Require the term to actually appear before accepting.
         haystack = " ".join([title, description]).lower()
-        if not any(term in haystack for term in SUDAN_RELEVANCE_TERMS):
+        if not is_sudan_image_candidate(haystack):
             continue
 
         candidates.append({
@@ -341,7 +384,7 @@ def fetch_smithsonian():
             # here — Smithsonian's search is full-text over its entire
             # collection, so a query like "Kush empire" can fall through to
             # unrelated results with no Sudan/Nubia connection at all.
-            if not any(term in title.lower() for term in SUDAN_RELEVANCE_TERMS):
+            if not is_sudan_image_candidate(title):
                 continue
 
             candidates.append({
@@ -419,7 +462,7 @@ def fetch_dpla():
         # Same conflict/aid-org/government filter used for Flickr — DPLA
         # leans historical/archival so this fires rarely, but costs nothing.
         haystack = " ".join([raw_title, description, subjects]).lower()
-        if any(re.search(r"\b" + re.escape(term) + r"\b", haystack) for term in PHOTO_BLOCKLIST):
+        if not is_sudan_image_candidate(haystack):
             continue
 
         credit = (
@@ -480,9 +523,7 @@ def fetch_aic():
         # a short/uncommon query term like "Meroe" can fall through to
         # near-zero-relevance results (e.g. a French coastal painting).
         # Require an actual Sudan/Nubia term in the object's own text.
-        if not any(term in haystack for term in SUDAN_RELEVANCE_TERMS):
-            continue
-        if any(re.search(r"\b" + re.escape(term) + r"\b", haystack) for term in PHOTO_BLOCKLIST):
+        if not is_sudan_image_candidate(haystack):
             continue
 
         # Standard IIIF image request per AIC's API docs — 843px wide, good
@@ -551,9 +592,7 @@ def fetch_europeana():
         # institutions' full catalogs, so a loose match can surface something
         # only tangentially related (or, per PHOTO_LOW_INFO_TITLE above, a
         # scanned ledger page that just happens to mention Sudan in passing).
-        if not any(term in haystack for term in SUDAN_RELEVANCE_TERMS):
-            continue
-        if any(re.search(r"\b" + re.escape(term) + r"\b", haystack) for term in PHOTO_BLOCKLIST):
+        if not is_sudan_image_candidate(haystack):
             continue
 
         credit = (item.get("dataProvider") or item.get("dcCreator") or ["Europeana"])[0]
@@ -640,11 +679,11 @@ def fetch_loc():
         # title alone doesn't say "Sudan" (e.g. "The heroine of the White
         # Nile" has 'sudan' in its subject list, not its title).
         relevance_haystack = " ".join([raw_title, " ".join(item.get("subject") or [])]).lower()
-        if not any(term in relevance_haystack for term in SUDAN_RELEVANCE_TERMS):
+        if not is_sudan_image_candidate(relevance_haystack):
             continue
 
         haystack = " ".join([raw_title, description, " ".join(item.get("subject") or [])]).lower()
-        if any(re.search(r"\b" + re.escape(term) + r"\b", haystack) for term in PHOTO_BLOCKLIST):
+        if not is_sudan_image_candidate(haystack):
             continue
 
         source_url = item.get("url") or "https://www.loc.gov"
@@ -744,9 +783,7 @@ def fetch_nara():
         # that fetcher's comment — confirmed there via live testing, applied
         # here defensively since NARA's search is the same kind of broad
         # full-text match over millions of unrelated federal records).
-        if not any(term in haystack for term in SUDAN_RELEVANCE_TERMS):
-            continue
-        if any(re.search(r"\b" + re.escape(term) + r"\b", haystack) for term in PHOTO_BLOCKLIST):
+        if not is_sudan_image_candidate(haystack):
             continue
 
         na_id = record.get("naId", "")
@@ -827,7 +864,7 @@ def fetch_flickr():
         # note above. Word-boundary match so e.g. "aid" doesn't fire on
         # unrelated words.
         haystack = " ".join([raw_title, description, item.get("tags") or ""]).lower()
-        if any(re.search(r"\b" + re.escape(term) + r"\b", haystack) for term in PHOTO_BLOCKLIST):
+        if not is_sudan_image_candidate(haystack):
             continue
 
         candidates.append({

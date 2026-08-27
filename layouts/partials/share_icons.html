@@ -1,0 +1,64 @@
+{{- $pageURL := .Permalink | urlquery -}}
+{{- $pageTitle := .Title | plainify | urlquery -}}
+{{- $isAr := eq .Site.Language.Lang "ar" -}}
+
+<aside class="k-share" aria-labelledby="k-share-title">
+  <span class="k-share-title" id="k-share-title">{{ if $isAr }}شارك هذا المقال{{ else }}Share this article{{ end }}</span>
+  <div class="k-share-actions">
+    <a class="k-share-button" href="https://www.facebook.com/sharer/sharer.php?u={{ $pageURL }}" target="_blank" rel="noopener noreferrer" aria-label="{{ if $isAr }}شارك على فيسبوك{{ else }}Share on Facebook{{ end }}">
+      <span class="k-share-mark" aria-hidden="true">f</span><span>{{ if $isAr }}فيسبوك{{ else }}Facebook{{ end }}</span>
+    </a>
+    <a class="k-share-button" href="https://x.com/intent/post?text={{ $pageTitle }}&amp;url={{ $pageURL }}" target="_blank" rel="noopener noreferrer" aria-label="{{ if $isAr }}شارك على إكس{{ else }}Share on X{{ end }}">
+      <span class="k-share-mark" aria-hidden="true">X</span><span>{{ if $isAr }}إكس{{ else }}X{{ end }}</span>
+    </a>
+    <a class="k-share-button" href="https://api.whatsapp.com/send?text={{ $pageTitle }}%20{{ $pageURL }}" target="_blank" rel="noopener noreferrer" aria-label="{{ if $isAr }}شارك عبر واتساب{{ else }}Share on WhatsApp{{ end }}">
+      <span class="k-share-mark" aria-hidden="true">W</span><span>{{ if $isAr }}واتساب{{ else }}WhatsApp{{ end }}</span>
+    </a>
+    <a class="k-share-button" href="https://www.linkedin.com/sharing/share-offsite/?url={{ $pageURL }}" target="_blank" rel="noopener noreferrer" aria-label="{{ if $isAr }}شارك على لينكدإن{{ else }}Share on LinkedIn{{ end }}">
+      <span class="k-share-mark" aria-hidden="true">in</span><span>{{ if $isAr }}لينكدإن{{ else }}LinkedIn{{ end }}</span>
+    </a>
+    <button class="k-share-button k-share-copy" type="button" data-share-url="{{ .Permalink }}" data-copy-label="{{ if $isAr }}نسخ الرابط{{ else }}Copy link{{ end }}" data-copied-label="{{ if $isAr }}تم النسخ{{ else }}Copied{{ end }}">
+      <span class="k-share-mark" aria-hidden="true">↗</span><span data-copy-text>{{ if $isAr }}نسخ الرابط{{ else }}Copy link{{ end }}</span>
+    </button>
+  </div>
+  <span class="k-share-status" aria-live="polite"></span>
+</aside>
+
+<script>
+(function () {
+  document.querySelectorAll('.k-share-copy').forEach(function (button) {
+    if (button.dataset.shareReady) return;
+    button.dataset.shareReady = 'true';
+    button.addEventListener('click', function () {
+      var url = button.dataset.shareUrl;
+      var text = button.querySelector('[data-copy-text]');
+      var status = button.closest('.k-share').querySelector('.k-share-status');
+
+      function copied() {
+        text.textContent = button.dataset.copiedLabel;
+        status.textContent = button.dataset.copiedLabel;
+        window.setTimeout(function () {
+          text.textContent = button.dataset.copyLabel;
+          status.textContent = '';
+        }, 2200);
+      }
+
+      if (navigator.clipboard && window.isSecureContext) {
+        navigator.clipboard.writeText(url).then(copied);
+        return;
+      }
+
+      var field = document.createElement('textarea');
+      field.value = url;
+      field.setAttribute('readonly', '');
+      field.style.position = 'fixed';
+      field.style.opacity = '0';
+      document.body.appendChild(field);
+      field.select();
+      document.execCommand('copy');
+      field.remove();
+      copied();
+    });
+  });
+}());
+</script>
