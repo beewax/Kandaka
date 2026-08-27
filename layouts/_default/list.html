@@ -156,7 +156,7 @@ article.first-entry.home-info::before { display: none !important; }
   margin-bottom: 12px;
   padding: 5px 10px;
   border-radius: 999px;
-  background: #ffc700;
+  background: #fff;
   color: #071a3b;
   font-size: 11px;
   font-weight: 800;
@@ -423,13 +423,13 @@ html[data-theme="dark"] .badge-analysis { background: #431407; color: #fdba74; }
 {{- end }}
 
 <section class="k-featured" aria-labelledby="featured-heading" data-k-carousel>
-  <p class="k-featured-kicker" id="featured-heading">{{ if $isAr }}مختارات كاندكة{{ else }}Featured Kandaka{{ end }}</p>
+  <p class="k-featured-kicker" id="featured-heading">{{ if $isAr }}الأحدث في كاندكة{{ else }}Latest on Kandaka{{ end }}</p>
   <div class="k-featured-viewport" aria-live="off">
     {{- range $latestIdeas }}
     <article class="k-featured-slide is-active" data-k-slide aria-hidden="false">
       {{- with .Params.cover.image }}<img class="k-featured-media" src="{{ . | relURL }}" alt="" loading="eager">{{- end }}
       <div class="k-featured-content">
-        <span class="k-featured-label">{{ if $isAr }}أحدث الأفكار{{ else }}Latest Ideas{{ end }}</span>
+        <span class="k-featured-label">{{ if $isAr }}أفكار{{ else }}Ideas{{ end }}</span>
         <h2 class="k-featured-title">{{ .Title }}</h2>
         {{- with .Description }}<p class="k-featured-summary">{{ . }}</p>{{- end }}
         <a class="k-featured-link" href="{{ .RelPermalink }}">{{ if $isAr }}اقرأ المقال ←{{ else }}Read the article →{{ end }}</a>
@@ -441,7 +441,7 @@ html[data-theme="dark"] .badge-analysis { background: #431407; color: #fdba74; }
     <article class="k-featured-slide k-featured-slide--development" data-k-slide aria-hidden="true">
       {{- with .Params.cover.image }}<img class="k-featured-media" src="{{ . | relURL }}" alt="" loading="lazy">{{- end }}
       <div class="k-featured-content">
-        <span class="k-featured-label">{{ if $isAr }}أحدث موضوعات التنمية{{ else }}Latest Development{{ end }}</span>
+        <span class="k-featured-label">{{ if $isAr }}التنمية{{ else }}Development{{ end }}</span>
         <h2 class="k-featured-title">{{ .Title }}</h2>
         {{- with .Description }}<p class="k-featured-summary">{{ . }}</p>{{- end }}
         <a class="k-featured-link" href="{{ .RelPermalink }}">{{ if $isAr }}اقرأ التحليل ←{{ else }}Read the analysis →{{ end }}</a>
