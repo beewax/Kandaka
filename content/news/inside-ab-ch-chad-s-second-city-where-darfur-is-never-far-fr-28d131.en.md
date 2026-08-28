@@ -1,6 +1,6 @@
 ---
 category: Analysis
-date: '2026-08-27T13:51:32Z'
+date: '2026-08-28T00:15:54Z'
 draft: false
 language: en
 link: https://www.theafricareport.com/428757/inside-abeche-chads-second-city-where-darfur-is-never-far-from-hearts-and-minds/

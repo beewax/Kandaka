@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-08-27T13:51:30Z'
+date: '2026-08-28T00:15:52Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/sennar-virgin-case-verdict-due-today-as-appeal-court-upholds-prison-term-and-fine-for-mother
