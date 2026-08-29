@@ -1,6 +1,6 @@
 ---
 category: Analysis
-date: '2026-08-29T18:12:18Z'
+date: '2026-08-29T23:00:09Z'
 draft: false
 language: en
 link: https://africanarguments.org/2026/08/sudan-the-unfortunate-alliance/?utm_source=rss&utm_medium=rss&utm_campaign=sudan-the-unfortunate-alliance

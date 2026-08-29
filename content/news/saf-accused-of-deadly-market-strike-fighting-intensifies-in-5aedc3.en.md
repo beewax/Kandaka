@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-08-29T18:12:15Z'
+date: '2026-08-29T23:00:05Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/saf-accused-of-deadly-market-strike-fighting-intensifies-in-kordofan-and-blue-nile
