@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-08-29T14:11:29Z'
+date: '2026-08-29T18:12:15Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/fighting-road-closures-raise-fears-of-imminent-famine-in-sudans-kordofan
