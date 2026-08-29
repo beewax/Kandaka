@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-08-29T06:55:58Z'
+date: '2026-08-29T14:11:29Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/kassala-gold-traders-strike-to-continue-until-street-vendor-crisis-resolved
