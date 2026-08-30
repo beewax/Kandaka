@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-08-30T11:24:31Z'
+date: '2026-08-30T16:11:22Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/sudan-abdelwahid-rejects-burhans-dialogue-as-eastern-civil-forces-back-anti-war-plan

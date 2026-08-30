@@ -1,6 +1,6 @@
 ---
 category: International
-date: '2026-08-30T11:24:33Z'
+date: '2026-08-30T16:11:24Z'
 draft: false
 language: en
 link: https://www.middleeasteye.net/news/sudanese-kordofans-bara-latest-civilians-be-forced-battle
