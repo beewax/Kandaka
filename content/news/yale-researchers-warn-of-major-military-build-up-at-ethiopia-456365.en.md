@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-08-30T20:40:06Z'
+date: '2026-08-30T23:15:01Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/yale-researchers-warn-of-major-military-build-up-at-ethiopian-base-near-sudan-border
