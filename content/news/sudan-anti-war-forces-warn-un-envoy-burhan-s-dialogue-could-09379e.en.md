@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-08-30T16:11:22Z'
+date: '2026-08-30T20:40:06Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/sudan-anti-war-forces-warn-un-envoy-burhans-dialogue-could-entrench-division-and-legitimise-ruling-authorities
