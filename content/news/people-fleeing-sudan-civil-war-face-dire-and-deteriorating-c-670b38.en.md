@@ -1,6 +1,6 @@
 ---
 category: International
-date: '2026-08-31T12:54:38Z'
+date: '2026-08-31T20:40:51Z'
 draft: false
 language: en
 link: https://www.theguardian.com/world/2026/aug/30/humanitarian-crisis-worsening-refuge-civilians-sudan-el-obeid
