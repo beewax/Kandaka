@@ -959,7 +959,11 @@ def main():
         ("Wikimedia Commons", fetch_wikimedia),
         ("Smithsonian", fetch_smithsonian),
         ("DPLA", fetch_dpla),
-        ("Art Institute of Chicago", fetch_aic),
+        # Temporarily disabled: artic.edu's IIIF server began returning a
+        # Cloudflare challenge to hotlinked image requests in August 2026,
+        # leaving otherwise valid image pages blank. Re-enable only after
+        # delivery is reliable or AIC public-domain files are stored locally.
+        # ("Art Institute of Chicago", fetch_aic),
         ("Europeana", fetch_europeana),
         ("Library of Congress", fetch_loc),
         ("National Archives", fetch_nara),
