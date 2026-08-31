@@ -40,8 +40,8 @@ The intended top-level structure is:
 |---|---|---|
 | Ideas | Political/social thought, religion, identity, and conceptual essays | Existing |
 | Development | Economics, infrastructure, industry, agriculture, education, monetary policy, and planning | Existing |
-| History | Funj, Kush, Nubia, colonial Sudan, historical people, archaeology, and historical images | **Approved; not yet implemented** |
-| Culture | Wrestling, sport, literature, film, traditions, arts, and culture-led tourism | **Approved; not yet implemented** |
+| History | Funj, Kush, Nubia, colonial Sudan, historical people, archaeology, and historical images | **Approved; implementation prepared, not yet merged** |
+| Culture | Wrestling, sport, literature, film, traditions, arts, and culture-led tourism | **Approved; implementation prepared, not yet merged** |
 | News | Current reporting | Existing |
 | Library | Books, papers, reports, and document summaries | Existing |
 
@@ -355,11 +355,11 @@ These changes are approved or requested but must be implemented and tested in th
 
 | Change | Research | Draft/implementation | Review | Approved | Published | Requirements / next action |
 |---|---|---|---|---|---|---|
-| Add History category in English and Arabic | Complete | Not started | Not ready | Yes | No | Add section indexes and bilingual navigation; preserve RTL |
-| Add Culture category in English and Arabic | Complete | Not started | Not ready | Yes | No | Add section indexes and bilingual navigation; preserve RTL |
-| Reclassify Funj article | Complete | Not started | Not ready | Yes | No | Move Ideas → History; title: `The Funj Sultanate: Three Centuries of Power on the Blue Nile`; preserve URLs or add redirects |
-| Navigation update | Complete | Not started | Not ready | Yes | No | Order: Ideas · Development · History · Culture · News · Library in both languages |
-| Featured homepage carousel/banner | Complete | Not started | Not ready | Yes | No | Keep Kandaka identity/hero; rotate Ideas, Development, History, Culture, and selected Images/Archive items; image, category, title, teaser, CTA; accessible controls and performance-conscious loading |
+| Add History category in English and Arabic | Complete | Complete | In progress | Yes | No | Test section indexes, bilingual navigation, and RTL before merge |
+| Add Culture category in English and Arabic | Complete | Complete | In progress | Yes | No | Test section indexes, bilingual navigation, and RTL before merge |
+| Reclassify Funj article | Complete | Complete | In progress | Yes | No | Verify new History URLs and redirects from the former Ideas URLs |
+| Navigation update | Complete | Complete | In progress | Yes | No | Verify order: Ideas · Development · History · Culture · News · Library in both languages |
+| Featured homepage carousel/banner | Complete | Complete | In progress | Yes | No | Verify History/Culture slides, accessibility, and empty-section behavior |
 | Social sharing on articles | Complete | Not started | Not ready | Yes | No | Add appropriate sharing buttons and bilingual/RTL behavior; avoid intrusive tracking |
 | Sudan-only image-feed filtering | Complete | Not started | Not ready | Yes | No | Exclude `South Sudan`, Juba, South Sudanese categories/titles and known false matches from Flickr/Wikipedia feeds; test live results rather than trusting query text alone |
 | Article image/social metadata pipeline | Partial | Not started | Not ready | No | No | Ensure cover images drive article, Open Graph/social, and Pinterest previews with correct attribution |
@@ -417,9 +417,10 @@ These changes are approved or requested but must be implemented and tested in th
 | L01 Uranium in Sudan | Source reviewed | Not started | Not ready | No | No | Reconcile file/catalog metadata and summarize |
 | L02 Infrastructure | Preliminary | Not started | Not ready | No | No | Retrieve full source and check duplication |
 | L03 Universities | Preliminary | Not started | Not ready | No | No | Retrieve full source and check duplication |
-| History + Culture categories | Complete | Not implemented | Not ready | Yes | No | Implement and test in repository |
+| History + Culture categories | Complete | Complete on feature branch | In progress | Yes | No | Test, review, and merge without publishing articles |
 | Other website batch | Complete/partial | Not implemented | Not ready | Mixed above | No | Implement only approved changes and test |
 
 ## Change log
 
 - **2026-08-29:** Created the persistent workplan from the `Kandaka Research Watch` conversation and the existing `KANDAKA_EDITORIAL.md` framework. Recorded all known active drafts, named backlog items, Library summaries, official/acquisition sources, pending site work, images, cadence, research-watch policy, and approval safeguards. No content was published.
+- **2026-08-30:** Prepared the approved bilingual History and Culture sections, navigation order, Funj article reclassification/title/redirects, and History/Culture carousel support on a feature branch. Testing and review remain; nothing was published.
