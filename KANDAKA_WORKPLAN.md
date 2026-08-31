@@ -88,7 +88,7 @@ Approval of one article never approves another. If an article is not ready or ap
 - **Draft:** Complete English draft
 - **Review:** Complete
 - **Approved:** Yes — 2026-08-31
-- **Published:** Scheduled for immediate publication after deployment verification
+- **Published:** Yes — 2026-08-31
 - **Core thesis:** Sudan should plan from productive self-reliance—beginning with the imports that cost the most foreign currency and can realistically be replaced at home—without depending on rescue, aid, or external finance that may not arrive.
 - **Requirements:** Rank sectors by dollars saved, five-year feasibility, jobs (especially women and youth), and capacity for later exports. Separate replaceable consumption imports, structurally reducible demand, and productive capital imports. Include realistic—not total—wheat substitution; repair existing sugar and industrial capacity; edible oils, textiles, livestock, medicines, solar, and selected manufacturing; State Production Compacts; enforceable support/performance agreements; a national scorecard; gold/mineral accountability; local capability; and lessons from Sudan and comparator countries. Employment is an explicit target, not a hoped-for side effect.
 - **Image:** Use an authentic image of productive Sudan—preferably solar irrigation/agriculture, Sudanese manufacturing, or a strong historical-development image. Verify license and attribution. It must work as the article banner, social preview, and Pinterest source image.
@@ -419,7 +419,7 @@ These changes are approved or requested but must be implemented and tested in th
 |---|---|---|---|---|---|---|
 | A01 Five-Year Plan | Complete/refresh | Complete | Awaiting review | No | No | Produce updated clean review copy |
 | A02 Sudan Planned Before | In progress | Complete first draft | Not ready | No | No | Final quantified timeline and fact-check |
-| A03 Wrestling | Complete | Complete | Complete | Yes 2026-08-31 | Deploying | Verify live bilingual publication |
+| A03 Wrestling | Complete | Complete | Complete | Yes 2026-08-31 | Yes 2026-08-31 | Monitor corrections and community feedback |
 | A04 Livestock/fisheries | In progress/refresh | Complete reported; not yet located | Not ready | No | No | Locate, consolidate, and update evidence |
 | A05 Monetary reform | Complete/refresh | Partial/substantial | Not ready | No | No | Create one consolidated draft |
 | A06 Public transport/urban planning | Complete enough | Not started | Not ready | No | No | Draft article |
