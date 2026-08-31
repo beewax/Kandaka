@@ -2,7 +2,7 @@
 
 > Persistent editorial and research tracker. This file records decisions, drafts, queues, source-acquisition work, website changes, and publication readiness. It does **not** authorize publication.
 
-**Last updated:** 2026-08-30
+**Last updated:** 2026-08-31
 **Publication rule:** Nothing may be translated, scheduled, committed as publishable content, or published without explicit approval of that specific article.  
 **Current overall state:** Planning and review only; no item in this file is approved for publication unless its `Approved` field is explicitly marked `Yes`.
 
@@ -111,15 +111,15 @@ Approval of one article never approves another. If an article is not ready or ap
 
 - **Category/tags:** Culture; History, Nuba, sport, national identity
 - **Priority:** High
-- **Research:** Complete enough for review; sources need final citation check
-- **Draft:** Complete English draft reported in the conversation
+- **Research:** Complete enough for review; final expert, community, image-rights, and current-program checks remain
+- **Draft:** Complete English review draft reconstructed and saved locally on 2026-08-31
 - **Review:** Awaiting review
 - **Approved:** No
 - **Published:** No
 - **Core thesis:** Sudan should recognize wrestling as a living cultural and sporting institution, carefully examine—but not overclaim—the possible continuity between ancient Nubian athletic evidence and modern Nuba wrestling, and build a national pathway from schools and local traditions to elite competition.
 - **Requirements:** Cover ancient depictions and what they do and do not prove; modern Nuba wrestling, ceremony, community, and prestige; its spread into Khartoum and wider Sudan; the wars and marginalization of the Nuba Mountains without reducing the culture to folklore; why existing federation/school efforts never scaled; schools, academies, girls' participation, coaches, referees, nutrition, scholarships, state leagues, national festivals, African competition, and an Olympic pathway. Use Dagestan/Chechnya as comparisons, not templates. Sport should support inclusive national identity.
 - **Image:** Pair credible ancient visual evidence with an authentic, properly licensed modern Sudanese/Nuba wrestling image. Avoid implying a proven uninterrupted lineage.
-- **Next action:** Locate and consolidate the full draft, verify all historical and Olympic claims, then deliver it for review.
+- **Next action:** Review the reconstructed English draft; then obtain Nuba community/expert review and complete the image-rights and current-program checks before approval.
 
 ### A04 — From Herds to Industry: How Sudan Could Become a World Livestock Power
 
