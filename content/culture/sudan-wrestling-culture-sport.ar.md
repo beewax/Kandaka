@@ -12,8 +12,7 @@ cover:
   relative: false
 ---
 
-<img src="/images/uploads/nuba-wrestling-bahri-joseph-bautista.jpg" alt="مصارعان من مصارعة النوبة يتنافسان أمام جمهور كبير في بحري بالسودان عام 2014" style="width:100%;border-radius:10px;margin-bottom:1.5rem;" />
-<p style="font-size:0.85rem;color:#888;margin-top:-1rem;margin-bottom:1.5rem;">مصارعة النوبة في بحري، السودان، 29 أغسطس 2014. تصوير جوزيف باوتيستا (Ginger Brew)، عبر ويكيميديا كومنز، بترخيص <a href="https://creativecommons.org/licenses/by/2.0/" target="_blank" rel="noopener noreferrer">CC BY 2.0</a>. لم تُجرَ تعديلات على الصورة.</p>
+<p style="font-size:0.85rem;color:#888;margin-top:0.5rem;margin-bottom:1.5rem;">صورة الغلاف: مصارعة النوبة في بحري، السودان، 29 أغسطس 2014. تصوير جوزيف باوتيستا (Ginger Brew)، عبر ويكيميديا كومنز، بترخيص <a href="https://creativecommons.org/licenses/by/2.0/" target="_blank" rel="noopener noreferrer">CC BY 2.0</a>. لم تُجرَ تعديلات على الصورة.</p>
 
 لا يحتاج السودان إلى اختراع رياضة وطنية. فهو يملك واحدة بالفعل.
 

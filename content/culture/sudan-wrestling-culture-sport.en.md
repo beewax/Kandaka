@@ -12,8 +12,7 @@ cover:
   relative: false
 ---
 
-<img src="/images/uploads/nuba-wrestling-bahri-joseph-bautista.jpg" alt="Two Nuba wrestlers competing before a large crowd in Bahri, Sudan, in 2014" style="width:100%;border-radius:10px;margin-bottom:1.5rem;" />
-<p style="font-size:0.85rem;color:#888;margin-top:-1rem;margin-bottom:1.5rem;">Nuba wrestling in Bahri, Sudan, 29 August 2014. Photograph by Joseph Bautista (Ginger Brew), via Wikimedia Commons, <a href="https://creativecommons.org/licenses/by/2.0/" target="_blank" rel="noopener noreferrer">CC BY 2.0</a>. No changes were made to the image.</p>
+<p style="font-size:0.85rem;color:#888;margin-top:0.5rem;margin-bottom:1.5rem;">Cover: Nuba wrestling in Bahri, Sudan, 29 August 2014. Photograph by Joseph Bautista (Ginger Brew), via Wikimedia Commons, <a href="https://creativecommons.org/licenses/by/2.0/" target="_blank" rel="noopener noreferrer">CC BY 2.0</a>. No changes were made to the image.</p>
 
 Sudan has no need to manufacture a national sport. It already has one.
 
