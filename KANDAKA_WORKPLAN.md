@@ -86,9 +86,9 @@ Approval of one article never approves another. If an article is not ready or ap
 - **Priority:** Highest
 - **Research:** Complete, but time-sensitive 2026 figures require a final source check before publication
 - **Draft:** Complete English draft
-- **Review:** Awaiting review
-- **Approved:** No
-- **Published:** No
+- **Review:** Complete
+- **Approved:** Yes — 2026-08-31
+- **Published:** Scheduled for immediate publication after deployment verification
 - **Core thesis:** Sudan should plan from productive self-reliance—beginning with the imports that cost the most foreign currency and can realistically be replaced at home—without depending on rescue, aid, or external finance that may not arrive.
 - **Requirements:** Rank sectors by dollars saved, five-year feasibility, jobs (especially women and youth), and capacity for later exports. Separate replaceable consumption imports, structurally reducible demand, and productive capital imports. Include realistic—not total—wheat substitution; repair existing sugar and industrial capacity; edible oils, textiles, livestock, medicines, solar, and selected manufacturing; State Production Compacts; enforceable support/performance agreements; a national scorecard; gold/mineral accountability; local capability; and lessons from Sudan and comparator countries. Employment is an explicit target, not a hoped-for side effect.
 - **Image:** Use an authentic image of productive Sudan—preferably solar irrigation/agriculture, Sudanese manufacturing, or a strong historical-development image. Verify license and attribution. It must work as the article banner, social preview, and Pinterest source image.
@@ -119,13 +119,13 @@ Approval of one article never approves another. If an article is not ready or ap
 - **Core thesis:** Sudan should recognize wrestling as a living cultural and sporting institution, carefully examine—but not overclaim—the possible continuity between ancient Nubian athletic evidence and modern Nuba wrestling, and build a national pathway from schools and local traditions to elite competition.
 - **Requirements:** Cover ancient depictions and what they do and do not prove; modern Nuba wrestling, ceremony, community, and prestige; its spread into Khartoum and wider Sudan; the wars and marginalization of the Nuba Mountains without reducing the culture to folklore; why existing federation/school efforts never scaled; schools, academies, girls' participation, coaches, referees, nutrition, scholarships, state leagues, national festivals, African competition, and an Olympic pathway. Use Dagestan/Chechnya as comparisons, not templates. Sport should support inclusive national identity.
 - **Image:** Pair credible ancient visual evidence with an authentic, properly licensed modern Sudanese/Nuba wrestling image. Avoid implying a proven uninterrupted lineage.
-- **Next action:** Review the reconstructed English draft; then obtain Nuba community/expert review and complete the image-rights and current-program checks before approval.
+- **Next action:** Verify the English and Arabic live pages, cover image, links, metadata, and category listing; then monitor corrections and community feedback.
 
 ### A04 — From Herds to Industry: How Sudan Could Become a World Livestock Power
 
 - **Category/tags:** Development; livestock, fisheries, industry, cooperatives, regional development
 - **Priority:** High
-- **Research:** Complete enough for review; current statistics require refresh
+- **Research:** In progress — current herd, export, fisheries, animal-health, and processing evidence requires refresh
 - **Draft:** Complete English draft reported in the conversation
 - **Review:** Awaiting review
 - **Approved:** No
@@ -133,7 +133,7 @@ Approval of one article never approves another. If an article is not ready or ap
 - **Core thesis:** Sudan should retain profitable live-animal exports where sensible while capturing much more value domestically through locally owned livestock and fisheries industries.
 - **Requirements:** Cover cattle, sheep, goats, camels, meat, dairy, leather and finished goods, wool, feed, veterinary medicine and vaccines, breeding/genetics, slaughterhouses, cold chains, rendering, fertilizer, gelatin/collagen, pet food, logistics, Red Sea fisheries, inland/Nile fisheries, and environmentally/economically appropriate aquaculture. Establish regional hubs in underdeveloped states. Give pastoralists and local producer groups genuine equity or profit-sharing when it increases participation and returns. Explicitly include women, youth, ethnic and religious minorities, and marginalized communities. Address export standards, animal health, sustainability, market risk, and five-year targets.
 - **Image:** Authentic Sudanese pastoralists/livestock/fisheries or local processing—not generic global livestock photography; confirm license and attribution.
-- **Next action:** Locate and consolidate the full draft, update current herd/export evidence, then deliver it for review.
+- **Next action:** Active next article: locate and consolidate the reported full draft, audit every current herd/export/fisheries claim, then deliver one clean English review copy.
 
 ### A05 — How Should Sudan Rebuild Trust in the Pound?
 
@@ -419,8 +419,8 @@ These changes are approved or requested but must be implemented and tested in th
 |---|---|---|---|---|---|---|
 | A01 Five-Year Plan | Complete/refresh | Complete | Awaiting review | No | No | Produce updated clean review copy |
 | A02 Sudan Planned Before | In progress | Complete first draft | Not ready | No | No | Final quantified timeline and fact-check |
-| A03 Wrestling | Complete/refresh | Complete reported | Awaiting review | No | No | Consolidate and verify review copy |
-| A04 Livestock/fisheries | Complete/refresh | Complete reported | Awaiting review | No | No | Consolidate and update evidence |
+| A03 Wrestling | Complete | Complete | Complete | Yes 2026-08-31 | Deploying | Verify live bilingual publication |
+| A04 Livestock/fisheries | In progress/refresh | Complete reported; not yet located | Not ready | No | No | Locate, consolidate, and update evidence |
 | A05 Monetary reform | Complete/refresh | Partial/substantial | Not ready | No | No | Create one consolidated draft |
 | A06 Public transport/urban planning | Complete enough | Not started | Not ready | No | No | Draft article |
 | A07 Independence flag | Preliminary | Not started | Not ready | No | No | Research and outline |
