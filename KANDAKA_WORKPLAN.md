@@ -125,15 +125,15 @@ Approval of one article never approves another. If an article is not ready or ap
 
 - **Category/tags:** Development; livestock, fisheries, industry, cooperatives, regional development
 - **Priority:** High
-- **Research:** In progress — current herd, export, fisheries, animal-health, and processing evidence requires refresh
-- **Draft:** Complete English draft reported in the conversation
-- **Review:** Awaiting review
+- **Research:** Substantive review completed 2026-08-31 — 2026 CBOS exports, current FAO herd/war/vaccination evidence, World Bank value-chain analysis, IFAD implementation lessons, fisheries planning, and UNIDO leather evidence incorporated; specified pre-publication checks remain
+- **Draft:** Clean English review draft completed 2026-08-31 at `deliverables/articles/A04-livestock-fisheries-review-draft.md`; the earlier conversation's reported full draft was never actually delivered and has been corrected in this record
+- **Review:** Ready for user review
 - **Approved:** No
 - **Published:** No
 - **Core thesis:** Sudan should retain profitable live-animal exports where sensible while capturing much more value domestically through locally owned livestock and fisheries industries.
 - **Requirements:** Cover cattle, sheep, goats, camels, meat, dairy, leather and finished goods, wool, feed, veterinary medicine and vaccines, breeding/genetics, slaughterhouses, cold chains, rendering, fertilizer, gelatin/collagen, pet food, logistics, Red Sea fisheries, inland/Nile fisheries, and environmentally/economically appropriate aquaculture. Establish regional hubs in underdeveloped states. Give pastoralists and local producer groups genuine equity or profit-sharing when it increases participation and returns. Explicitly include women, youth, ethnic and religious minorities, and marginalized communities. Address export standards, animal health, sustainability, market risk, and five-year targets.
 - **Image:** Authentic Sudanese pastoralists/livestock/fisheries or local processing—not generic global livestock photography; confirm license and attribution.
-- **Next action:** Active next article: locate and consolidate the reported full draft, audit every current herd/export/fisheries claim, then deliver one clean English review copy.
+- **Next action:** User reviews the English draft. Apply requested corrections and complete the listed ministry, vaccine-facility, post-war capacity, fisheries-plan, community-consultation, and image checks before any approval, translation, or publication.
 
 ### A05 — How Should Sudan Rebuild Trust in the Pound?
 
@@ -420,7 +420,7 @@ These changes are approved or requested but must be implemented and tested in th
 | A01 Five-Year Plan | Complete/refresh | Complete | Awaiting review | No | No | Produce updated clean review copy |
 | A02 Sudan Planned Before | In progress | Complete first draft | Not ready | No | No | Final quantified timeline and fact-check |
 | A03 Wrestling | Complete | Complete | Complete | Yes 2026-08-31 | Yes 2026-08-31 | Monitor corrections and community feedback |
-| A04 Livestock/fisheries | In progress/refresh | Complete reported; not yet located | Not ready | No | No | Locate, consolidate, and update evidence |
+| A04 Livestock/fisheries | Substantive review complete; final checks listed | Clean English review draft complete 2026-08-31 | Ready for user review | No | No | User review; then corrections and final evidence checks |
 | A05 Monetary reform | Complete/refresh | Partial/substantial | Not ready | No | No | Create one consolidated draft |
 | A06 Public transport/urban planning | Complete enough | Not started | Not ready | No | No | Draft article |
 | A07 Independence flag | Preliminary | Not started | Not ready | No | No | Research and outline |
