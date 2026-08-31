@@ -140,15 +140,15 @@ Approval of one article never approves another. If an article is not ready or ap
 - **Subtitle:** Gold, Dollarization and the Search for Monetary Stability
 - **Category/tags:** Development; monetary policy, gold, inflation, dollarization
 - **Priority:** High
-- **Research:** Complete enough for consolidation; time-sensitive evidence requires refresh
-- **Draft:** Substantial draft plus completed conclusion; needs one clean consolidated draft
-- **Review:** Not ready
+- **Research:** Substantive review completed 2026-08-31 — current CBOS inflation, money, exchange-rate and gold-export evidence; Sudan-specific IMF analysis; 2026 gold-reserve guidance; and international stabilization cases incorporated; listed balance-sheet, legal, gold-custody and current-data checks remain
+- **Draft:** Clean English review draft completed 2026-08-31 at `deliverables/articles/A05-monetary-reform-review-draft.md`
+- **Review:** Ready for user review
 - **Approved:** No
 - **Published:** No
 - **Core thesis:** Sudan probably should not adopt a classical gold standard or permanently dollarize unless trust in a national currency proves impossible to rebuild. The strongest option to investigate is a legally constrained Sudanese pound backed during stabilization by independently audited gold and diversified liquid reserves, with a realistic exchange rate, central-bank independence, and strict limits on routine deficit financing.
 - **Requirements:** Fairly compare classical gold, diversified reserve backing, a currency board, dollarization/other foreign currencies, parallel currencies, and eventual inflation targeting. Cover dollar/euro/RMB/Gulf/African payment alternatives; geopolitical diversification; gold-sector transparency; fiscal discipline; emergency-financing rules; published reserves and government borrowing; independent audits; redenomination only alongside stabilization; stable money as development infrastructure; and lessons from Brazil, Israel, Bulgaria, Estonia, Peru, Georgia, Ecuador, Zimbabwe, Botswana, and Morocco. The article must test the gold idea, not assume it.
 - **Image:** Preferred cover is the first Sudan/gold image previously selected, subject to locating it and verifying source/license. Prefer authentic Sudanese gold weighing/processing and Sudanese pound notes. Avoid generic Western gold imagery. Pinterest concept: `Can Gold Save the Sudanese Pound?`
-- **Next action:** Merge all drafted sections into one coherent English version, refresh evidence, attach verified image details, and deliver for review.
+- **Next action:** User reviews the English draft. Apply requested changes, then complete the listed Central Bank balance-sheet, amended-law, official-reserve, gold-governance, Sudanese-expert and image checks before any approval, translation, or publication.
 
 ### A06 — Beyond the Car: How Sudan Should Rebuild Its Cities Around Public Transport
 
@@ -421,7 +421,7 @@ These changes are approved or requested but must be implemented and tested in th
 | A02 Sudan Planned Before | In progress | Complete first draft | Not ready | No | No | Final quantified timeline and fact-check |
 | A03 Wrestling | Complete | Complete | Complete | Yes 2026-08-31 | Yes 2026-08-31 | Monitor corrections and community feedback |
 | A04 Livestock/fisheries | Substantive review complete; final checks listed | Clean English review draft complete 2026-08-31 | Ready for user review | No | No | User review; then corrections and final evidence checks |
-| A05 Monetary reform | Complete/refresh | Partial/substantial | Not ready | No | No | Create one consolidated draft |
+| A05 Monetary reform | Substantive review complete; final checks listed | Clean English review draft complete 2026-08-31 | Ready for user review | No | No | User review; then corrections and final evidence checks |
 | A06 Public transport/urban planning | Complete enough | Not started | Not ready | No | No | Draft article |
 | A07 Independence flag | Preliminary | Not started | Not ready | No | No | Research and outline |
 | A08 Country-name question | Preliminary | Not started | Not ready | No | No | Research neutral criteria |
