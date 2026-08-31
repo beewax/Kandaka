@@ -2,7 +2,7 @@
 
 > Persistent editorial and research tracker. This file records decisions, drafts, queues, source-acquisition work, website changes, and publication readiness. It does **not** authorize publication.
 
-**Last updated:** 2026-08-29  
+**Last updated:** 2026-08-30
 **Publication rule:** Nothing may be translated, scheduled, committed as publishable content, or published without explicit approval of that specific article.  
 **Current overall state:** Planning and review only; no item in this file is approved for publication unless its `Approved` field is explicitly marked `Yes`.
 
@@ -18,6 +18,20 @@ Use these standard fields for every article, Library summary, acquisition, and s
 - **Next action:** One concrete next step
 
 When adding an item, preserve the approved thesis and requirements; append new decisions under `Notes/requirements` rather than silently replacing earlier ones. Dates are proposals until the article is individually approved.
+
+## Efficient collaboration and token-use policy
+
+The goal is to reduce repetition and waiting time without reducing research, verification, editorial judgment, bilingual quality, or publication safeguards.
+
+1. Treat this workplan as the canonical project memory. Begin from the relevant item ID (for example, `A01` or `L02`) and read only the sections and source files needed for that task.
+2. The user can give compact instructions such as: `Continue A01: update the evidence, return only changed claims and the clean review draft.` There is no need to paste earlier conversations when the decision is already recorded here.
+3. Default to concise progress updates: report only material findings, changed assumptions, blockers, decisions needed, test results, and the next action. Do not repeat the full project history in every response.
+4. Research in two passes: first retrieve the strongest primary and authoritative sources; then run targeted checks only for gaps, contradictions, and time-sensitive claims. Avoid broad repeated searches that do not change the conclusion.
+5. Reuse the existing source ledger, citations, image records, article requirements, and prior verified findings. Recheck facts when they are current, disputed, high-stakes, or central to the argument—not merely because a new chat began.
+6. Keep routine repository work together: make related edits in one branch and pull request, run proportionate checks once, and report the combined result. Separate unrelated or high-risk changes.
+7. Use a concise answer by default. Request a full research memo, source-by-source audit, or step-by-step explanation only when it will affect an editorial decision or provide a reusable deliverable.
+8. Start a new task when the subject changes substantially, but identify the workplan item and desired output. This keeps each task focused while preserving continuity through this file.
+9. Approval shortcuts never apply to publication. Saving tokens must not remove source verification, counterarguments, Arabic review, image-rights checks, accessibility checks, or explicit article-specific approval.
 
 ## Editorial rules already established
 
@@ -40,8 +54,8 @@ The intended top-level structure is:
 |---|---|---|
 | Ideas | Political/social thought, religion, identity, and conceptual essays | Existing |
 | Development | Economics, infrastructure, industry, agriculture, education, monetary policy, and planning | Existing |
-| History | Funj, Kush, Nubia, colonial Sudan, historical people, archaeology, and historical images | **Approved; not yet implemented** |
-| Culture | Wrestling, sport, literature, film, traditions, arts, and culture-led tourism | **Approved; not yet implemented** |
+| History | Funj, Kush, Nubia, colonial Sudan, historical people, archaeology, and historical images | **Implemented and published with PR #2** |
+| Culture | Wrestling, sport, literature, film, traditions, arts, and culture-led tourism | **Implemented and published with PR #2** |
 | News | Current reporting | Existing |
 | Library | Books, papers, reports, and document summaries | Existing |
 
@@ -355,11 +369,11 @@ These changes are approved or requested but must be implemented and tested in th
 
 | Change | Research | Draft/implementation | Review | Approved | Published | Requirements / next action |
 |---|---|---|---|---|---|---|
-| Add History category in English and Arabic | Complete | Not started | Not ready | Yes | No | Add section indexes and bilingual navigation; preserve RTL |
-| Add Culture category in English and Arabic | Complete | Not started | Not ready | Yes | No | Add section indexes and bilingual navigation; preserve RTL |
-| Reclassify Funj article | Complete | Not started | Not ready | Yes | No | Move Ideas → History; title: `The Funj Sultanate: Three Centuries of Power on the Blue Nile`; preserve URLs or add redirects |
-| Navigation update | Complete | Not started | Not ready | Yes | No | Order: Ideas · Development · History · Culture · News · Library in both languages |
-| Featured homepage carousel/banner | Complete | Not started | Not ready | Yes | No | Keep Kandaka identity/hero; rotate Ideas, Development, History, Culture, and selected Images/Archive items; image, category, title, teaser, CTA; accessible controls and performance-conscious loading |
+| Add History category in English and Arabic | Complete | Complete | Complete | Yes | Yes 2026-08-30 | Monitor live bilingual section indexes and RTL |
+| Add Culture category in English and Arabic | Complete | Complete | Complete | Yes | Yes 2026-08-30 | Add approved Culture articles when ready; the empty section is intentional |
+| Reclassify Funj article | Complete | Complete | Complete | Yes | Yes 2026-08-30 | Monitor the new History URLs and former Ideas redirects |
+| Navigation update | Complete | Complete | Complete | Yes | Yes 2026-08-30 | Maintain order: Ideas · Development · History · Culture · News · Library in both languages |
+| Featured homepage carousel/banner | Complete | Complete | Complete | Yes | Yes 2026-08-30 | Monitor History slide and empty-Culture behavior |
 | Social sharing on articles | Complete | Not started | Not ready | Yes | No | Add appropriate sharing buttons and bilingual/RTL behavior; avoid intrusive tracking |
 | Sudan-only image-feed filtering | Complete | Not started | Not ready | Yes | No | Exclude `South Sudan`, Juba, South Sudanese categories/titles and known false matches from Flickr/Wikipedia feeds; test live results rather than trusting query text alone |
 | Article image/social metadata pipeline | Partial | Not started | Not ready | No | No | Ensure cover images drive article, Open Graph/social, and Pinterest previews with correct attribution |
@@ -417,9 +431,11 @@ These changes are approved or requested but must be implemented and tested in th
 | L01 Uranium in Sudan | Source reviewed | Not started | Not ready | No | No | Reconcile file/catalog metadata and summarize |
 | L02 Infrastructure | Preliminary | Not started | Not ready | No | No | Retrieve full source and check duplication |
 | L03 Universities | Preliminary | Not started | Not ready | No | No | Retrieve full source and check duplication |
-| History + Culture categories | Complete | Not implemented | Not ready | Yes | No | Implement and test in repository |
+| History + Culture categories | Complete | Complete | Complete | Yes | Yes 2026-08-30 | Monitor live navigation, RTL, category pages, and redirects |
 | Other website batch | Complete/partial | Not implemented | Not ready | Mixed above | No | Implement only approved changes and test |
 
 ## Change log
 
 - **2026-08-29:** Created the persistent workplan from the `Kandaka Research Watch` conversation and the existing `KANDAKA_EDITORIAL.md` framework. Recorded all known active drafts, named backlog items, Library summaries, official/acquisition sources, pending site work, images, cadence, research-watch policy, and approval safeguards. No content was published.
+- **2026-08-30:** Prepared the approved bilingual History and Culture sections, navigation order, Funj article reclassification/title/redirects, and History/Culture carousel support on a feature branch for testing.
+- **2026-08-30:** Added the efficient-collaboration and token-use policy. Verified the bilingual category pages and old Funj redirects in the Netlify preview; PR #2 was approved for merge and publishes the category structure without publishing any new article draft.

@@ -37,34 +37,52 @@ pygmentsCodeFences = true
     [languages.en.params.footer]
       text = "[About](/about/) - [Contact](mailto:admin@kandaka.com)"
   [[languages.en.menu.main]]
-    identifier = "news"
-    name = "News"
-    url = "/news/"
-
-  [[languages.en.menu.main]]
-    identifier = "library"
-    name = "Library"
-    url = "/library/"
+    identifier = "ideas"
+    name = "Ideas"
+    url = "/ideas/"
+    weight = 10
 
   [[languages.en.menu.main]]
     identifier = "development"
     name = "Development"
     url = "/development/"
+    weight = 20
 
   [[languages.en.menu.main]]
-    identifier = "ideas"
-    name = "Ideas"
-    url = "/ideas/"
+    identifier = "history"
+    name = "History"
+    url = "/history/"
+    weight = 30
+
+  [[languages.en.menu.main]]
+    identifier = "culture"
+    name = "Culture"
+    url = "/culture/"
+    weight = 40
+
+  [[languages.en.menu.main]]
+    identifier = "news"
+    name = "News"
+    url = "/news/"
+    weight = 50
+
+  [[languages.en.menu.main]]
+    identifier = "library"
+    name = "Library"
+    url = "/library/"
+    weight = 60
 
   [[languages.en.menu.main]]
     identifier = "about"
     name = "About"
     url = "/about/"
+    weight = 70
 
   [[languages.en.menu.main]]
     identifier = "search"
     name = "Search"
     url = "/search/"
+    weight = 80
 
 # LANGUAGE: ARABIC
 [languages.ar]
@@ -79,34 +97,52 @@ pygmentsCodeFences = true
     [languages.ar.params.footer]
       text = "[حول](/ar/about/) - [تواصل](mailto:admin@kandaka.com)"
   [[languages.ar.menu.main]]
-    identifier = "news"
-    name = "الأخبار"
-    url = "/ar/news/"
-
-  [[languages.ar.menu.main]]
-    identifier = "library"
-    name = "المكتبة"
-    url = "/ar/library/"
+    identifier = "ideas"
+    name = "أفكار"
+    url = "/ar/ideas/"
+    weight = 10
 
   [[languages.ar.menu.main]]
     identifier = "development"
     name = "التنمية"
     url = "/ar/development/"
+    weight = 20
 
   [[languages.ar.menu.main]]
-    identifier = "ideas"
-    name = "أفكار"
-    url = "/ar/ideas/"
+    identifier = "history"
+    name = "التاريخ"
+    url = "/ar/history/"
+    weight = 30
+
+  [[languages.ar.menu.main]]
+    identifier = "culture"
+    name = "الثقافة"
+    url = "/ar/culture/"
+    weight = 40
+
+  [[languages.ar.menu.main]]
+    identifier = "news"
+    name = "الأخبار"
+    url = "/ar/news/"
+    weight = 50
+
+  [[languages.ar.menu.main]]
+    identifier = "library"
+    name = "المكتبة"
+    url = "/ar/library/"
+    weight = 60
 
   [[languages.ar.menu.main]]
     identifier = "about"
     name = "حول"
     url = "/ar/about/"
+    weight = 70
 
   [[languages.ar.menu.main]]
     identifier = "search"
     name = "بحث"
     url = "/ar/search/"
+    weight = 80
 
 [params]
   env = "production"

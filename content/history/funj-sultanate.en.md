@@ -1,8 +1,9 @@
 ---
-title: "The Funj Sultanate: Sudan's Three-Century Kingdom on the Blue Nile"
+title: "The Funj Sultanate: Three Centuries of Power on the Blue Nile"
 date: '2026-08-24'
 author: "Kandaka"
 category: "History"
+aliases: ["/ideas/funj-sultanate/"]
 description: "For three centuries the Funj Sultanate of Sennar ruled a Nile Valley empire stretching from the Third Cataract to Ethiopia. What it built, why it collapsed, and what its rise and fall still teach a country rebuilding itself today."
 tags: ["Funj Sultanate", "Sennar", "Sudan History", "Hamaj Regency", "Islamic Sudan", "Nile Valley"]
 draft: false

@@ -414,6 +414,8 @@ html[data-theme="dark"] .badge-analysis { background: #431407; color: #fdba74; }
 {{/* ══════════════════ AUTOMATED FEATURED CAROUSEL ══════════════════ */}}
 {{- $latestIdeas := first 1 (sort (where .Site.RegularPages "Section" "ideas") "Date" "desc") }}
 {{- $latestDevelopment := first 1 (sort (where .Site.RegularPages "Section" "development") "Date" "desc") }}
+{{- $latestHistory := first 1 (sort (where .Site.RegularPages "Section" "history") "Date" "desc") }}
+{{- $latestCulture := first 1 (sort (where .Site.RegularPages "Section" "culture") "Date" "desc") }}
 {{- $carouselImageCandidates := slice }}
 {{- $imageSite := index (where hugo.Sites "Language.Lang" "en") 0 }}
 {{- if $imageSite }}
@@ -452,6 +454,32 @@ html[data-theme="dark"] .badge-analysis { background: #431407; color: #fdba74; }
         <h2 class="k-featured-title">{{ .Title }}</h2>
         {{- with .Description }}<p class="k-featured-summary">{{ . }}</p>{{- end }}
         <a class="k-featured-link" href="{{ .RelPermalink }}">{{ if $isAr }}اقرأ التحليل ←{{ else }}Read the analysis →{{ end }}</a>
+      </div>
+    </article>
+    {{- end }}
+
+    {{- range $latestHistory }}
+    <article class="k-featured-slide" data-k-slide aria-hidden="true">
+      {{- $historyImage := .Params.cover.image | default "/images/uploads/funj-sultanate-01-sennar-1821.jpg" }}
+      <img class="k-featured-media" src="{{ $historyImage | relURL }}" alt="" loading="lazy">
+      <div class="k-featured-content">
+        <span class="k-featured-label">{{ if $isAr }}التاريخ{{ else }}History{{ end }}</span>
+        <h2 class="k-featured-title">{{ .Title }}</h2>
+        {{- with .Description }}<p class="k-featured-summary">{{ . }}</p>{{- end }}
+        <a class="k-featured-link" href="{{ .RelPermalink }}">{{ if $isAr }}اقرأ المقال ←{{ else }}Read the article →{{ end }}</a>
+      </div>
+    </article>
+    {{- end }}
+
+    {{- range $latestCulture }}
+    <article class="k-featured-slide" data-k-slide aria-hidden="true">
+      {{- $cultureImage := .Params.cover.image | default "/images/uploads/kandaka-nubian-queens.jpg" }}
+      <img class="k-featured-media" src="{{ $cultureImage | relURL }}" alt="" loading="lazy">
+      <div class="k-featured-content">
+        <span class="k-featured-label">{{ if $isAr }}الثقافة{{ else }}Culture{{ end }}</span>
+        <h2 class="k-featured-title">{{ .Title }}</h2>
+        {{- with .Description }}<p class="k-featured-summary">{{ . }}</p>{{- end }}
+        <a class="k-featured-link" href="{{ .RelPermalink }}">{{ if $isAr }}اقرأ المقال ←{{ else }}Read the article →{{ end }}</a>
       </div>
     </article>
     {{- end }}
