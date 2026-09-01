@@ -170,14 +170,14 @@ Approval of one article never approves another. If an article is not ready or ap
 
 - **Category/tags:** Ideas; History, identity, constitutional settlement
 - **Priority:** Medium as identity/reconciliation; low as economic policy
-- **Research:** Preliminary thesis complete
-- **Draft:** Not started
-- **Review:** Not ready
+- **Research:** Substantive review complete; original flag-law, Al-Sarirah Makki archive, ceremony, al-Burhan proposal, public consultation, constitutional-law, and image checks listed in draft
+- **Draft:** Clean English review draft completed 2026-08-31 at `deliverables/articles/A07-independence-flag-review-draft.md`
+- **Review:** Ready for user review
 - **Approved:** No
 - **Published:** No
 - **Core thesis:** The 1956 blue-yellow-green flag is distinctive, historically Sudanese, and a credible candidate for restoration during a broadly legitimate post-war constitutional reset; the strongest option is restoration essentially unchanged, with only technical standardization of colors/proportions if needed.
 - **Requirements:** Present the case for and against restoration. Explain the independence history and the current flag's Pan-Arab family without claiming the current flag has no accumulated national meaning. Do not pretend a flag change creates jobs, peace, or institutional reform. Avoid unnecessary new symbols. Frame restoration as part of constitutional reconciliation, not an urgent development intervention.
-- **Next action:** Research authoritative flag history and public/constitutional considerations, then outline the article.
+- **Next action:** User reviews the English draft. Apply requested changes, then complete the listed archival, legal, consultation, current-proposal, and image checks before any approval, translation, or publication.
 
 ### A08 — Should Sudan Ever Change Its Country Name?
 
@@ -423,7 +423,7 @@ These changes are approved or requested but must be implemented and tested in th
 | A04 Livestock/fisheries | Substantive review complete; final checks listed | Clean English review draft complete 2026-08-31 | Ready for user review | No | No | User review; then corrections and final evidence checks |
 | A05 Monetary reform | Substantive review complete; final checks listed | Clean English review draft complete 2026-08-31 | Ready for user review | No | No | User review; then corrections and final evidence checks |
 | A06 Public transport/urban planning | Substantive review complete; final checks listed | Clean English review draft complete 2026-08-31 | Ready for user review | No | No | User review; then corrections and final evidence checks |
-| A07 Independence flag | Preliminary | Not started | Not ready | No | No | Research and outline |
+| A07 Independence flag | Substantive review complete; final checks listed | Clean English review draft complete 2026-08-31 | Ready for user review | No | No | User review; then corrections and final evidence checks |
 | A08 Country-name question | Preliminary | Not started | Not ready | No | No | Research neutral criteria |
 | A09 Trustworthy aid/delivery | Refresh required | Not started | Not ready | No | No | Current organization audit |
 | A10 Women/children protection service | Not started | Not started | Not ready | No | No | Legal/institutional research |
