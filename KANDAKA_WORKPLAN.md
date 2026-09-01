@@ -209,14 +209,14 @@ Approval of one article never approves another. If an article is not ready or ap
 
 - **Category/tags:** Ideas; institutions, policing, gender, child protection
 - **Priority:** High social/institutional importance
-- **Research:** Not started
-- **Draft:** Not started
-- **Review:** Not ready
+- **Research:** Substantive review completed 2026-08-31; Sudanese legal, current FCPU capacity, survivor/community consultation, institutional-design, cost, safeguarding, publication-refresh, and image checks listed in draft
+- **Draft:** Clean English review draft completed 2026-08-31 at `deliverables/articles/A10-women-children-protection-police-review-draft.md`
+- **Review:** Ready for user review
 - **Approved:** No
 - **Published:** No
 - **Core thesis:** More policewomen may improve reporting and trust, but an effective response to rape and child abuse requires specialized women-and-child protection units embedded in a complete survivor-protection system.
 - **Requirements:** Examine recruitment and authority of policewomen; trained investigators; confidential and accessible reporting; survivor-centered interviewing; forensic capacity; shelters; social workers; child-protection services; prosecutors; medical care; evidence preservation; witness protection; oversight and accountability; rural/mobile access; and safeguards against abuse by security services. Do not present adding women to a broken institution as sufficient reform.
-- **Next action:** Research Sudanese law/institutions, conflict-related sexual violence and child-protection needs, and comparable specialized units.
+- **Next action:** User reviews the English draft. Apply requested changes, then complete the listed legal, institutional, survivor/community, cost, safeguarding, current-data, and image checks before any approval, translation, or publication.
 
 ### A11 — What Megaprojects Could Actually Transform Sudan?
 
@@ -426,7 +426,7 @@ These changes are approved or requested but must be implemented and tested in th
 | A07 Independence flag | Substantive review complete; final checks listed | Clean English review draft complete 2026-08-31 | Ready for user review | No | No | User review; then corrections and final evidence checks |
 | A08 Country-name question | Substantive review complete; final checks listed | Clean English review draft complete 2026-08-31 | Ready for user review | No | No | User review; then corrections and final evidence checks |
 | A09 Trustworthy aid/delivery | Substantive audit complete 2026-08-31; publication refresh and final checks listed | Clean English review draft complete 2026-08-31 | Ready for user review | No | No | User review; then corrections, final verification, and publication-day refresh |
-| A10 Women/children protection service | Not started | Not started | Not ready | No | No | Legal/institutional research |
+| A10 Women/children protection service | Substantive review complete 2026-08-31; final checks listed | Clean English review draft complete 2026-08-31 | Ready for user review | No | No | User review; then corrections and final legal, institutional, safeguarding, and evidence checks |
 | A11 Transformative megaprojects | Preliminary | Not started | Not ready | No | No | Build comparative scorecard |
 | L01 Uranium in Sudan | Source reviewed | Not started | Not ready | No | No | Reconcile file/catalog metadata and summarize |
 | L02 Infrastructure | Preliminary | Not started | Not ready | No | No | Retrieve full source and check duplication |
@@ -439,3 +439,4 @@ These changes are approved or requested but must be implemented and tested in th
 - **2026-08-29:** Created the persistent workplan from the `Kandaka Research Watch` conversation and the existing `KANDAKA_EDITORIAL.md` framework. Recorded all known active drafts, named backlog items, Library summaries, official/acquisition sources, pending site work, images, cadence, research-watch policy, and approval safeguards. No content was published.
 - **2026-08-30:** Prepared the approved bilingual History and Culture sections, navigation order, Funj article reclassification/title/redirects, and History/Culture carousel support on a feature branch for testing.
 - **2026-08-30:** Added the efficient-collaboration and token-use policy. Verified the bilingual category pages and old Funj redirects in the Netlify preview; PR #2 was approved for merge and publishes the category structure without publishing any new article draft.
+- **2026-08-31:** Completed the A10 English review draft on rebuilding Sudan's Family and Child Protection Units as an accountable Women and Child Protection Service. Recorded it as ready for user review, with legal, institutional, safeguarding, community, cost, image, and publication-date verification still required. Nothing was approved or published.
