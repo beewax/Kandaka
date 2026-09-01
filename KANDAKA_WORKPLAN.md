@@ -155,16 +155,16 @@ Approval of one article never approves another. If an article is not ready or ap
 - **Subtitle:** BRT, Trambuses, Light Rail, Climate-Resilient Streets and a Sudanese Transit Industry
 - **Category/tags:** Development; transport, urban planning, accessibility, industry, climate resilience
 - **Priority:** High
-- **Research:** Thesis and substantial research complete
-- **Draft:** Not started
-- **Review:** Not ready
+- **Research:** Substantive review complete; final local-route, post-war population, full-thesis, city evidence, accessibility consultation, whole-life-cost, and image checks listed in draft
+- **Draft:** Clean English review draft completed 2026-08-31 at `deliverables/articles/A06-public-transport-urban-planning-review-draft.md`
+- **Review:** Ready for user review
 - **Approved:** No
 - **Published:** No
 - **Core thesis:** Sudan should rebuild cities around the locally maintainable, climate-resilient, universally accessible public-transport system that delivers the most mobility per dollar—not around private-car dependence or a predetermined rail technology.
 - **Requirements:** Be national, not Khartoum-only; assess Port Sudan, Greater Khartoum, Wad Madani, Kassala, Gedaref, El Obeid, Atbara, Nyala, and other cities by demand. Evaluate electric buses, dedicated BRT, trolleybuses/trambuses, surface light rail, elevated light metro, underground metro only where justified, regional rail, feeders, walking, and limited/contextual cycling. High-capacity transit must have dedicated right-of-way. Pair transport with land use and dense mixed-use neighborhoods. Establish **5–10 minute essential-services neighborhoods**: homes, schools, clinics, groceries, worship, parks, basic government services, and markets locally accessible, with higher-capacity transit linking major jobs, universities, hospitals, and regional transport.
 - **Climate/accessibility requirements:** Design for 45°C+ heat, dust/sandstorms, seasonal flooding, unreliable power, continuous shade, drainage, raised electrical systems, resilient HVAC/filtration, backup power, sheltered transfers, seating, water, safe crossings, low floors/level boarding, wheelchair space, tactile guidance, visual and audible information, accessible toilets, feeder/paratransit, elderly people, disabled people, parents, and people with health limitations. Measure climate-adjusted accessibility and the share of residents who can reach frequent transport in a safe, shaded, accessible 5–10 minute journey.
 - **Industry requirements:** Phase localization from bodies, shelters, seats, steelwork, cables, ticketing, and maintenance consumables to vehicle assembly, battery packs, chargers, HVAC, electronics, axles/rail components, and later traction/control systems where justified. Require training, documentation, diagnostic access, spares, technology transfer, and local production pathways. Study Egypt, Turkey/Bozankaya, Morocco, Addis Ababa's warnings, and relevant Sudanese urban scholarship.
-- **Next action:** Draft the full English article using the established four tests: affordable, climate-resilient, locally maintainable, and universally accessible.
+- **Next action:** User reviews the English draft. Apply requested changes, then complete the listed post-war mapping, Sudanese-source, city evidence, disability consultation, whole-life-cost, and image checks before any approval, translation, or publication.
 
 ### A07 — Should Sudan Restore Its Independence Flag?
 
@@ -422,7 +422,7 @@ These changes are approved or requested but must be implemented and tested in th
 | A03 Wrestling | Complete | Complete | Complete | Yes 2026-08-31 | Yes 2026-08-31 | Monitor corrections and community feedback |
 | A04 Livestock/fisheries | Substantive review complete; final checks listed | Clean English review draft complete 2026-08-31 | Ready for user review | No | No | User review; then corrections and final evidence checks |
 | A05 Monetary reform | Substantive review complete; final checks listed | Clean English review draft complete 2026-08-31 | Ready for user review | No | No | User review; then corrections and final evidence checks |
-| A06 Public transport/urban planning | Complete enough | Not started | Not ready | No | No | Draft article |
+| A06 Public transport/urban planning | Substantive review complete; final checks listed | Clean English review draft complete 2026-08-31 | Ready for user review | No | No | User review; then corrections and final evidence checks |
 | A07 Independence flag | Preliminary | Not started | Not ready | No | No | Research and outline |
 | A08 Country-name question | Preliminary | Not started | Not ready | No | No | Research neutral criteria |
 | A09 Trustworthy aid/delivery | Refresh required | Not started | Not ready | No | No | Current organization audit |
