@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-09-01T13:57:56Z'
+date: '2026-09-01T18:12:00Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/el-burhans-dialogue-plan-faces-tough-questions-from-sudans-women-leaders

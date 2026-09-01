@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-09-01T13:57:56Z'
+date: '2026-09-01T18:12:00Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/sudans-women-pay-the-price-as-weapons-keep-flowing-why-an-arms-embargo-is-crucial-to-protecting-them
