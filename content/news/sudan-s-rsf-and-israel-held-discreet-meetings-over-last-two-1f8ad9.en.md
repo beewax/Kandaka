@@ -1,6 +1,6 @@
 ---
 category: International
-date: '2026-08-31T20:40:52Z'
+date: '2026-09-01T00:24:51Z'
 draft: false
 language: en
 link: https://www.middleeasteye.net/news/sudan-rsf-and-israel-held-discreet-meetings-over-last-two-years-report
