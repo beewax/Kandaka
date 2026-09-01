@@ -196,14 +196,14 @@ Approval of one article never approves another. If an article is not ready or ap
 
 - **Category/tags:** News or Ideas; humanitarian aid, accountability, practical guide
 - **Priority:** High practical value; must be current at publication
-- **Research:** Not started / refresh required at publication
-- **Draft:** Not started
-- **Review:** Not ready
+- **Research:** Substantive organization-by-organization audit completed 2026-08-31; donation-link, MASC/P2H, SAPA audit, restriction, women-led group, safeguarding, community-review, and image checks listed in draft; full refresh still required at publication
+- **Draft:** Clean English review draft completed 2026-08-31 at `deliverables/articles/A09-help-sudan-aid-delivery-review-draft.md`
+- **Review:** Ready for user review
 - **Approved:** No
 - **Published:** No
 - **Core thesis:** Readers need a transparent, evidence-based guide to getting money and assistance to Sudan, evaluating both Sudanese grassroots organizations/Emergency Response Rooms and international organizations by delivery rather than brand recognition.
 - **Requirements:** Evaluate financial transparency, program share, verified Sudan operations, local partnerships, geographic reach, safe money transfer, sanctions/compliance constraints, independent reporting, and evidence of delivery. Organize by food, medical care, shelter, displaced families, children/orphans and alternative family care, women and survivors of sexual violence, education, water/sanitation, and direct/community aid. Do not label an organization trustworthy without current verification. Clearly date the research and explain uncertainty/access limitations.
-- **Next action:** At drafting time, conduct a fresh organization-by-organization audit and build a transparent comparison table.
+- **Next action:** User reviews the English draft. Apply requested changes, then complete the listed organization, financial, donation-routing, safeguarding, community, and image checks; refresh every listing immediately before publication.
 
 ### A10 — Women, Children and Security: Does Sudan Need a Specialized Protection Police Service?
 
@@ -425,7 +425,7 @@ These changes are approved or requested but must be implemented and tested in th
 | A06 Public transport/urban planning | Substantive review complete; final checks listed | Clean English review draft complete 2026-08-31 | Ready for user review | No | No | User review; then corrections and final evidence checks |
 | A07 Independence flag | Substantive review complete; final checks listed | Clean English review draft complete 2026-08-31 | Ready for user review | No | No | User review; then corrections and final evidence checks |
 | A08 Country-name question | Substantive review complete; final checks listed | Clean English review draft complete 2026-08-31 | Ready for user review | No | No | User review; then corrections and final evidence checks |
-| A09 Trustworthy aid/delivery | Refresh required | Not started | Not ready | No | No | Current organization audit |
+| A09 Trustworthy aid/delivery | Substantive audit complete 2026-08-31; publication refresh and final checks listed | Clean English review draft complete 2026-08-31 | Ready for user review | No | No | User review; then corrections, final verification, and publication-day refresh |
 | A10 Women/children protection service | Not started | Not started | Not ready | No | No | Legal/institutional research |
 | A11 Transformative megaprojects | Preliminary | Not started | Not ready | No | No | Build comparative scorecard |
 | L01 Uranium in Sudan | Source reviewed | Not started | Not ready | No | No | Reconcile file/catalog metadata and summarize |
