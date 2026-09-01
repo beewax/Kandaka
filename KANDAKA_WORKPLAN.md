@@ -183,14 +183,14 @@ Approval of one article never approves another. If an article is not ready or ap
 
 - **Category/tags:** Ideas; identity, history, constitutional settlement
 - **Priority:** Low-to-medium; do not treat as a current national priority
-- **Research:** Preliminary concept only
-- **Draft:** Not started
-- **Review:** Not ready
+- **Research:** Substantive review complete; Sudanese linguistic scholarship, official-name, regional consultation, constitutional-law, transition-cost, and image checks listed in draft
+- **Draft:** Clean English review draft completed 2026-08-31 at `deliverables/articles/A08-country-name-review-draft.md`
+- **Review:** Ready for user review
 - **Approved:** No
 - **Published:** No
 - **Core thesis:** After South Sudan's independence, Kandaka can investigate whether `Sudan` still adequately distinguishes the republic, but should not presume renaming is desirable and should not propose `Kush` as the default answer.
 - **Requirements:** Separate a website search/filtering problem from the national identity question. Cover the history of the name Sudan and international renaming examples. Any candidate must be inclusive across regions, ethnicities, and religions; workable in Arabic and English; historically/geographically defensible; internationally distinctive; and practical for diplomacy, passports, and trade. Treat exclusion risk and transition costs seriously. Changing symbols without changing institutions is cosmetic.
-- **Next action:** Research the name's history and develop neutral evaluation criteria before considering any candidates.
+- **Next action:** User reviews the English draft. Apply requested changes, then complete the listed linguistic, regional, official-name, legal, cost, and image checks before any approval, translation, or publication.
 
 ### A09 — How Can You Actually Help Sudan? Following Aid From Donation to Delivery
 
@@ -424,7 +424,7 @@ These changes are approved or requested but must be implemented and tested in th
 | A05 Monetary reform | Substantive review complete; final checks listed | Clean English review draft complete 2026-08-31 | Ready for user review | No | No | User review; then corrections and final evidence checks |
 | A06 Public transport/urban planning | Substantive review complete; final checks listed | Clean English review draft complete 2026-08-31 | Ready for user review | No | No | User review; then corrections and final evidence checks |
 | A07 Independence flag | Substantive review complete; final checks listed | Clean English review draft complete 2026-08-31 | Ready for user review | No | No | User review; then corrections and final evidence checks |
-| A08 Country-name question | Preliminary | Not started | Not ready | No | No | Research neutral criteria |
+| A08 Country-name question | Substantive review complete; final checks listed | Clean English review draft complete 2026-08-31 | Ready for user review | No | No | User review; then corrections and final evidence checks |
 | A09 Trustworthy aid/delivery | Refresh required | Not started | Not ready | No | No | Current organization audit |
 | A10 Women/children protection service | Not started | Not started | Not ready | No | No | Legal/institutional research |
 | A11 Transformative megaprojects | Preliminary | Not started | Not ready | No | No | Build comparative scorecard |
