@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-09-02T20:37:00Z'
+date: '2026-09-02T23:01:52Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/el-burhan-grants-temporary-immunity-to-sudan-dialogue-participants
