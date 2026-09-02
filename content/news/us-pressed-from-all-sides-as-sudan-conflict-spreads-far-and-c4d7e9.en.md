@@ -1,6 +1,6 @@
 ---
 category: Analysis
-date: '2026-09-01T23:04:40Z'
+date: '2026-09-02T03:16:08Z'
 draft: false
 language: en
 link: https://www.theafricareport.com/429371/us-pressed-from-all-sides-as-sudan-conflict-spreads-far-and-wide/
