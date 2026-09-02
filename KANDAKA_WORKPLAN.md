@@ -127,13 +127,13 @@ Approval of one article never approves another. If an article is not ready or ap
 - **Priority:** High
 - **Research:** Substantive review completed 2026-08-31 — 2026 CBOS exports, current FAO herd/war/vaccination evidence, World Bank value-chain analysis, IFAD implementation lessons, fisheries planning, and UNIDO leather evidence incorporated; specified pre-publication checks remain
 - **Draft:** Clean English review draft completed 2026-08-31 at `deliverables/articles/A04-livestock-fisheries-review-draft.md`; the earlier conversation's reported full draft was never actually delivered and has been corrected in this record
-- **Review:** Ready for user review
-- **Approved:** No
-- **Published:** No
+- **Review:** Publication authorized by user 2026-09-01; later corrections remain welcome
+- **Approved:** Yes — 2026-09-01
+- **Published:** Yes — 2026-09-01, English and Arabic
 - **Core thesis:** Sudan should retain profitable live-animal exports where sensible while capturing much more value domestically through locally owned livestock and fisheries industries.
 - **Requirements:** Cover cattle, sheep, goats, camels, meat, dairy, leather and finished goods, wool, feed, veterinary medicine and vaccines, breeding/genetics, slaughterhouses, cold chains, rendering, fertilizer, gelatin/collagen, pet food, logistics, Red Sea fisheries, inland/Nile fisheries, and environmentally/economically appropriate aquaculture. Establish regional hubs in underdeveloped states. Give pastoralists and local producer groups genuine equity or profit-sharing when it increases participation and returns. Explicitly include women, youth, ethnic and religious minorities, and marginalized communities. Address export standards, animal health, sustainability, market risk, and five-year targets.
-- **Image:** Authentic Sudanese pastoralists/livestock/fisheries or local processing—not generic global livestock photography; confirm license and attribution.
-- **Next action:** User reviews the English draft. Apply requested corrections and complete the listed ministry, vaccine-facility, post-war capacity, fisheries-plan, community-consultation, and image checks before any approval, translation, or publication.
+- **Image:** Original commissioned illustration of Sudanese livestock and fisheries value chains added 2026-09-01.
+- **Next action:** Monitor the live English and Arabic pages and incorporate the user's later editorial corrections or evidence updates.
 
 ### A05 — How Should Sudan Rebuild Trust in the Pound?
 
@@ -420,7 +420,7 @@ These changes are approved or requested but must be implemented and tested in th
 | A01 Five-Year Plan | Complete/refresh | Complete | Awaiting review | No | No | Produce updated clean review copy |
 | A02 Sudan Planned Before | In progress | Complete first draft | Not ready | No | No | Final quantified timeline and fact-check |
 | A03 Wrestling | Complete | Complete | Complete | Yes 2026-08-31 | Yes 2026-08-31 | Monitor corrections and community feedback |
-| A04 Livestock/fisheries | Substantive review complete; final checks listed | Clean English review draft complete 2026-08-31 | Ready for user review | No | No | User review; then corrections and final evidence checks |
+| A04 Livestock/fisheries | Substantive review complete; publication caveats retained in sourcing | Complete in English and Arabic | Publication authorized; later corrections welcome | Yes 2026-09-01 | Yes 2026-09-01 | Monitor live pages and incorporate later editorial or evidence updates |
 | A05 Monetary reform | Substantive review complete; final checks listed | Clean English review draft complete 2026-08-31 | Ready for user review | No | No | User review; then corrections and final evidence checks |
 | A06 Public transport/urban planning | Substantive review complete; final checks listed | Clean English review draft complete 2026-08-31 | Ready for user review | No | No | User review; then corrections and final evidence checks |
 | A07 Independence flag | Substantive review complete; final checks listed | Clean English review draft complete 2026-08-31 | Ready for user review | No | No | User review; then corrections and final evidence checks |
@@ -440,3 +440,4 @@ These changes are approved or requested but must be implemented and tested in th
 - **2026-08-30:** Prepared the approved bilingual History and Culture sections, navigation order, Funj article reclassification/title/redirects, and History/Culture carousel support on a feature branch for testing.
 - **2026-08-30:** Added the efficient-collaboration and token-use policy. Verified the bilingual category pages and old Funj redirects in the Netlify preview; PR #2 was approved for merge and publishes the category structure without publishing any new article draft.
 - **2026-08-31:** Completed the A10 English review draft on rebuilding Sudan's Family and Child Protection Units as an accountable Women and Child Protection Service. Recorded it as ready for user review, with legal, institutional, safeguarding, community, cost, image, and publication-date verification still required. Nothing was approved or published.
+- **2026-09-01:** User authorized publication of the finished article sequence with images and later correction as needed. Published A04 in English and Arabic with an original commissioned cover; began the agreed three-day stagger for A05 onward.
