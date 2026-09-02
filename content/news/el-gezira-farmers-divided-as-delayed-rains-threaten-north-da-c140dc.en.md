@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-09-02T03:16:06Z'
+date: '2026-09-02T10:47:21Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/el-gezira-farmers-divided-as-delayed-rains-threaten-north-darfur-food-security
