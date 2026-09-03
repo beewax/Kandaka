@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-09-03T10:47:36Z'
+date: '2026-09-03T15:55:12Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/displaced-people-in-sudans-darfur-and-kordofan-face-humanitarian-and-health-catastrophe
