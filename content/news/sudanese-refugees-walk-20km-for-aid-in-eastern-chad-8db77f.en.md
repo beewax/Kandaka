@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-09-03T03:18:17Z'
+date: '2026-09-03T10:47:36Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/sudanese-refugees-walk-20km-for-aid-in-eastern-chad
