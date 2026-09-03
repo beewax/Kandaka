@@ -1,6 +1,6 @@
 ---
 category: International
-date: '2026-09-03T15:55:14Z'
+date: '2026-09-03T20:36:17Z'
 draft: false
 language: en
 link: https://www.middleeasteye.net/news/us-diplomat-boulos-says-least-12-countries-involved-sudan-war-wont-name-them
@@ -58,7 +58,17 @@ When asked by reporter Waihiga Mwaura why the United States was not willing to n
 
 There is currently a UN arms embargo on Darfur, the vast western region of Sudan that serves as the RSF’s powerbase and which was where the paramilitary’s forerunner, the Janjaweed militias, slaughtered hundreds of thousands of civilians in the first decade of this century.
 
+
+'This narrative of Boulos's allows the UAE to escape accountability for supporting the RSF'
+
+-&nbsp;Jihad Mashamoun, Sudanese analyst&nbsp;
+
+
 The embargo has been in place for more than 20 years but is set to expire on 12 September. Middle East Eye understands that UN Security Council members received the final report from the UN Panel of Experts on 13 July and that this report contains further evidence that the United Arab Emirates has violated the embargo.
+
+"Boulos knows very well that even if a nationwide embargo or sanctions are applied they won't do much," Jihad Mashamoun, an expert analyst on Sudan and researcher on the Horn of Africa, told MEE.
+
+"He wants to give the impression that he and the US are doing something to address the international backlash to the war in Sudan."
 
 UAE involvement in Sudan
 
@@ -81,21 +91,13 @@ Asked about the UAE, Boulos said he met with the Emiratis regularly, including l
 
 “There might be some traders or whatever that are doing these sorts of supplies, providing supplies to both sides, but again we are not here to go into these details.”
 
+"This narrative of Boulos's allows the UAE to escape accountability for supporting the RSF," Mashamoun said. "During the Biden administration, the US acknowledged that the UAE was helping the RSF. But now Boulos wants to eliminate that narrative."
+
 While the UAE backs the RSF, Egypt and Turkey are the primary military backers of the SAF. Turkish sources have confirmed to MEE that their country is supplying the Sudanese army with drones, ammunition and air defence systems.&nbsp;
 
 Turkish drone operators have been on the ground in Sudan, and Turkey has, alongside Egypt, bombed convoys supplying the RSF in the triangle border region that includes remote desert areas of Sudan, Libya and Egypt.&nbsp;
 
 Boulos told the BBC that a nationwide arms embargo in Sudan would ban the sale, transfer or supply of weapons and military equipment to all sides of the conflict.&nbsp;
-  
-    
-
-
-
-     (adsbygoogle = window.adsbygoogle || []).push({});
-
-  
-
-
 
 “We have to act, we have to do something about it and that’s why I talked to the members of the Security Council about it, Boulos said, though he sounded less confident about the UNSC passing a resolution on a nationwide embargo – Russia has used its veto to block similar efforts.&nbsp;
 
