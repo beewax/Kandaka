@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-09-02T23:01:52Z'
+date: '2026-09-03T03:18:17Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/sudanese-journalists-syndicate-demands-answers-on-five-missing-reporters
