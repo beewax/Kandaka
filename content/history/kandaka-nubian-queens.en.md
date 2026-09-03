@@ -3,6 +3,7 @@ title: "The Kandakat: Sudan's Ancient Queens and What They Built"
 date: '2026-06-25'
 author: "Kandaka"
 category: "History"
+aliases: ["/ideas/kandaka-nubian-queens/"]
 description: "The Kandakat — Nubia's warrior queens — ran one of the ancient world's most sophisticated economies: an iron industry that earned Meroe the title 'Birmingham of Africa', trade networks stretching from Rome to sub-Saharan Africa, and a state that negotiated with empires as an equal. Sudan is not a country learning development. It is a civilisation that was interrupted."
 tags: ["history", "nubia", "archaeology", "economic history", "women", "identity"]
 draft: false

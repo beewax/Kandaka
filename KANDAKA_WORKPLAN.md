@@ -2,7 +2,7 @@
 
 > Persistent editorial and research tracker. This file records decisions, drafts, queues, source-acquisition work, website changes, and publication readiness. It does **not** authorize publication.
 
-**Last updated:** 2026-08-31
+**Last updated:** 2026-09-03
 **Publication rule:** Nothing may be translated, scheduled, committed as publishable content, or published without explicit approval of that specific article.  
 **Current overall state:** Planning and review only; no item in this file is approved for publication unless its `Approved` field is explicitly marked `Yes`.
 
@@ -84,15 +84,15 @@ Approval of one article never approves another. If an article is not ready or ap
 
 - **Category/tags:** Development; industrial policy, planning, decentralization, employment, trade
 - **Priority:** Highest
-- **Research:** Complete, but time-sensitive 2026 figures require a final source check before publication
-- **Draft:** Complete English draft
-- **Review:** Complete
-- **Approved:** Yes — 2026-08-31
-- **Published:** Yes — 2026-08-31
+- **Research:** Complete; time-sensitive planning, trade, solar, mining, and comparator sources rechecked 2026-09-03
+- **Draft:** Complete English and Arabic publication editions at `content/development/sudan-next-five-year-plan.en.md` and `.ar.md`
+- **Review:** Publication authorized by user 2026-09-03; later review and corrections welcome
+- **Approved:** Yes — 2026-09-03
+- **Published:** Yes — 2026-09-03, English and Arabic
 - **Core thesis:** Sudan should plan from productive self-reliance—beginning with the imports that cost the most foreign currency and can realistically be replaced at home—without depending on rescue, aid, or external finance that may not arrive.
 - **Requirements:** Rank sectors by dollars saved, five-year feasibility, jobs (especially women and youth), and capacity for later exports. Separate replaceable consumption imports, structurally reducible demand, and productive capital imports. Include realistic—not total—wheat substitution; repair existing sugar and industrial capacity; edible oils, textiles, livestock, medicines, solar, and selected manufacturing; State Production Compacts; enforceable support/performance agreements; a national scorecard; gold/mineral accountability; local capability; and lessons from Sudan and comparator countries. Employment is an explicit target, not a hoped-for side effect.
-- **Image:** Use an authentic image of productive Sudan—preferably solar irrigation/agriculture, Sudanese manufacturing, or a strong historical-development image. Verify license and attribution. It must work as the article banner, social preview, and Pinterest source image.
-- **Next action:** Locate the latest clean draft, update/verify every time-sensitive statistic and link, then deliver a single review copy.
+- **Image:** Original commissioned horizontal illustration linking Sudanese agriculture, productive solar, food processing, technical work, and rail transport, saved as `static/images/uploads/sudan-next-five-year-plan-original.png`.
+- **Next action:** Monitor the live English and Arabic pages and incorporate the user's later editorial corrections or evidence updates.
 
 ### A02 — Sudan Planned Before: What Went Right, What Went Wrong, and What We Must Learn
 
@@ -417,7 +417,7 @@ These changes are approved or requested but must be implemented and tested in th
 
 | Workstream | Research | Draft | Review | Approved | Published | Immediate next action |
 |---|---|---|---|---|---|---|
-| A01 Five-Year Plan | Complete/refresh | Complete | Awaiting review | No | No | Produce updated clean review copy |
+| A01 Five-Year Plan | Complete; refreshed 2026-09-03 | Complete in English and Arabic | Publication authorized; later corrections welcome | Yes 2026-09-03 | Yes 2026-09-03 | Monitor live pages and incorporate later review |
 | A02 Sudan Planned Before | In progress | Complete first draft | Not ready | No | No | Final quantified timeline and fact-check |
 | A03 Wrestling | Complete | Complete | Complete | Yes 2026-08-31 | Yes 2026-08-31 | Monitor corrections and community feedback |
 | A04 Livestock/fisheries | Substantive review complete; publication caveats retained in sourcing | Complete in English and Arabic | Publication authorized; later corrections welcome | Yes 2026-09-01 | Yes 2026-09-01 | Monitor live pages and incorporate later editorial or evidence updates |
@@ -441,3 +441,4 @@ These changes are approved or requested but must be implemented and tested in th
 - **2026-08-30:** Added the efficient-collaboration and token-use policy. Verified the bilingual category pages and old Funj redirects in the Netlify preview; PR #2 was approved for merge and publishes the category structure without publishing any new article draft.
 - **2026-08-31:** Completed the A10 English review draft on rebuilding Sudan's Family and Child Protection Units as an accountable Women and Child Protection Service. Recorded it as ready for user review, with legal, institutional, safeguarding, community, cost, image, and publication-date verification still required. Nothing was approved or published.
 - **2026-09-01:** User authorized publication of the finished article sequence with images and later correction as needed. Published A04 in English and Arabic with an original commissioned cover; began the agreed three-day stagger for A05 onward.
+- **2026-09-03:** User specifically authorized completing and publishing A01 before later review. Reconstructed and fact-checked the consolidated article, produced matching English and Arabic editions, commissioned an original production-themed cover, and published both language versions. Also moved the existing bilingual Kandakat article from Ideas to History with legacy redirects.

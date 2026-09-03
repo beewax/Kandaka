@@ -140,7 +140,7 @@ Standing test for development proposals:
 ### Sudan's Next Five-Year Plan: Development Without Waiting for Rescue
 
 Status:
-DRAFT READY / USER REVIEW
+PUBLISHED — 2026-09-03, ENGLISH AND ARABIC; LATER REVIEW WELCOME
 
 Core thesis:
 Sudan should rank development interventions primarily by foreign-exchange savings, productive capacity, employment, and realistic feasibility rather than prestige.
