@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-09-03T20:36:15Z'
+date: '2026-09-03T23:00:11Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/air-strike-destroys-wfp-food-aid-trucks-in-sudans-kordofan
