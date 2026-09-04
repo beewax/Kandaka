@@ -12,7 +12,6 @@ cover:
   relative: false
 ---
 
-<img src="/images/uploads/sudan-next-five-year-plan-original.png" alt="Illustration of Sudanese farmers, technicians and an agricultural engineer linking irrigated fields to solar power, food processing and rail transport" style="width:100%;border-radius:10px;margin-bottom:0.25rem;" />
 <p style="font-size:0.85rem;color:#888;margin-top:0;margin-bottom:1.5rem;">An accountable production plan must connect farms, power, processing, skills and transport. Original illustration commissioned for Kandaka.</p>
 
 Sudan does not need another document that promises everything to everyone. It needs a plan that makes choices, names who must deliver them, and allows citizens to see—year by year—whether anything changed.
