@@ -12,8 +12,6 @@ cover:
   relative: false
 ---
 
-<img src="/images/uploads/film-tv-theatre-stage-sudan.jpg" alt="A film projector illuminates a Nile riverside city skyline framed by a theatre stage's red curtains" style="width:100%;border-radius:10px;margin-bottom:1.5rem;" />
-
 On May 13, 2023, the singer, poet, and activist Shaden Gardood was killed by a sniper while sitting on the roof of her family's home in El Obeid. She had spent the previous day posting online about the war and calling for peace. Nine days after her death, Asia Abdelmajid -- Sudan's first professional theatre actress -- was killed by random gunfire in Bahri. A report published in late 2024 by the African Center for Justice and Peace Studies and the Sudanese Music Research Center, titled *Tears of Guitars and Screams of Museums*, documented more than fifty-five artists, musicians, and performers killed since the war began: some by sniper fire and shelling, some through denial of healthcare when hospitals stopped functioning, at least one -- the percussionist Kamel Hasan -- through torture in detention. The National Museum was looted. Sudan's national theatres were bombed or turned into military barracks.
 
 In January 2026, the first phase of the rehabilitation of Khartoum's National Theatre in Omdurman was inaugurated, with Sudan's culture minister calling it a declaration of the return of the city's cultural spirit. It is a start, and it is also a reminder of how much has to be rebuilt from the ground up: not just a building, but the schools that trained the people who once filled it, the industry that employed them, and the audience that came to watch.

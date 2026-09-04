@@ -12,8 +12,6 @@ cover:
   relative: false
 ---
 
-<img src="/images/uploads/river-transportation-sudan.jpg" alt="A Sudanese woman merchant supervising sacks of goods being loaded onto a traditional wooden river barge on the Nile, palm trees and a felucca sailboat in the distance" style="width:100%;border-radius:10px;margin-bottom:1.5rem;" />
-
 The Nile enters Sudan near Wadi Halfa in the north and flows south through Dongola, Khartoum, Kosti, and Renk before crossing into South Sudan — a journey of nearly 1,850 kilometres. For most of this distance, the river is wide, deep, and navigable. It passes through the heart of the country's agricultural zones, connects its largest cities, and reaches populations that road infrastructure has never reliably served.
 
 Sudan has one of the world's great natural highways running through the middle of it. For most of the country's modern history, this highway has been almost entirely unused for freight.

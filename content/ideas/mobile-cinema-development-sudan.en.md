@@ -12,8 +12,6 @@ cover:
   relative: false
 ---
 
-<img src="/images/uploads/mobile-cinema-development-sudan.jpg" alt="A solar-powered projector van screening a film on a large outdoor screen at night to a gathered crowd in a rural Sudanese village" style="width:100%;border-radius:10px;margin-bottom:1.5rem;" />
-
 In 1968, a young man in Khartoum dressed carefully for an evening out with his brother, his sister-in-law, and his sister. They walked to the cinema to see an Indian film about a mother fighting for her children. Everyone in the city, he recalled decades later, was talking about that film. What stayed with him was not the plot but the outing itself: the family together, dressed up, sharing a dark room with a crowd of strangers. Cinema made that possible.
 
 By the middle of the 2010s, of at least fourteen cinemas that had once operated across greater Khartoum, only one remained open. Today, after a war that has displaced more people than any other conflict on Earth, the country's cinema culture has scattered along with its filmmakers, some of whom had to reimagine an entire documentary mid-production because its subjects and its crew were no longer in the same country, let alone the same city. Rebuilding Sudan's cinema houses -- brick, projection equipment, staff, a functioning economy able to sustain ticket sales -- is a project measured in years and in capital Sudan does not currently have. A van with a solar panel, a generator, and a screen that unrolls in twenty minutes is not.

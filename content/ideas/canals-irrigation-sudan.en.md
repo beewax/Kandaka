@@ -12,8 +12,6 @@ cover:
   relative: false
 ---
 
-<img src="/images/uploads/canals-irrigation-sudan.jpg" alt="A Sudanese woman in a traditional toub walking along a Gezira Scheme irrigation canal bank, green cotton and sorghum fields on either side" style="width:100%;border-radius:10px;margin-bottom:1.5rem;" />
-
 In 1925, a single canal changed the history of central Sudan. The Sennar Dam on the Blue Nile and the network of irrigation channels it fed transformed the Gezira Plain — a flat, semi-arid expanse between the Blue and White Niles — into one of Africa's most productive agricultural zones. At its peak, the Gezira Scheme irrigated over 880,000 hectares of cotton, sorghum, and wheat, generating a third of Sudan's export revenues and employing hundreds of thousands of families. The concept was simple: bring water to flat land that already had soil.
 
 That concept works. It worked in 1925 and it works today. The question that Sudanese planners have never adequately answered is why it was applied so narrowly — why, nearly a century later, the same logic has not been extended to the millions of additional hectares that sit flat, fertile, and dry across the country, waiting for water.

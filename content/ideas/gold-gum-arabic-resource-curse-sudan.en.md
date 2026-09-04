@@ -12,8 +12,6 @@ cover:
   relative: false
 ---
 
-<img src="/images/uploads/gold-gum-arabic-resource-curse-sudan.jpg" alt="Split image: a Sudanese woman in a traditional toub tapping gum arabic resin from an acacia tree in Kordofan at dawn, and a Sudanese man panning for gold in a riverbed at sunset" style="width:100%;border-radius:10px;margin-bottom:1.5rem;" />
-
 In 2011, South Sudan became independent and took with it approximately 75% of Sudan's oil revenues. The Bashir government, which had built its entire fiscal architecture around oil — funding the military, buying political loyalty, subsidising fuel and bread to suppress urban discontent — suddenly faced a structural collapse. Oil revenues fell from $6 billion annually to under $500 million. The government needed a replacement.
 
 It found one underground.

@@ -12,8 +12,6 @@ cover:
   relative: false
 ---
 
-<img src="/images/uploads/agricultural-paradox-sudan.jpg" alt="A Sudanese farmer standing in a lush green field beside an irrigation canal at golden hour, with the Nile and date palms in the distance" style="width:100%;border-radius:10px;margin-bottom:1.5rem;" />
-
 In 1946, the British colonial administration commissioned a study of Sudan's agricultural potential. The findings were unambiguous: Sudan possessed more cultivable land than any country in Africa, fed by the Nile and its tributaries, with a climate capable of producing cotton, sorghum, sesame, groundnuts, gum arabic, fruits, and vegetables at commercial scale. The report concluded that Sudan could, with proper investment, feed not just its own population but much of the African continent and the Arab world.
 
 Eighty years later, Sudan imports food.

@@ -12,8 +12,6 @@ cover:
   relative: false
 ---
 
-<img src="/images/uploads/school-lunches-sudan.jpg" alt="A Sudanese school cook serving bowls of stew and bread to a line of schoolchildren in a modest schoolyard" style="width:100%;border-radius:10px;margin-bottom:1.5rem;" />
-
 There is a development intervention so well-proven, so cost-effective, and so politically straightforward that it is almost surprising more countries have not made it a universal right. It is not a new technology or a complex financial instrument. It is a meal — a hot lunch, served at school, every day.
 
 School feeding programmes are among the most extensively studied policies in development economics. The evidence is unambiguous: they increase school enrollment, reduce dropout rates, improve learning outcomes, and disproportionately benefit girls. When designed well — with food sourced from local farmers — they also serve as agricultural subsidy programmes, injecting cash into rural economies while feeding children in urban and peri-urban schools. The return on investment, according to multiple World Food Programme analyses, averages nine dollars for every one dollar spent.

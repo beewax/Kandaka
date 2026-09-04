@@ -12,8 +12,6 @@ cover:
   relative: false
 ---
 
-<img src="/images/uploads/solar-power-sudan.jpg" alt="A Sudanese solar technician installing panels on a rural rooftop under intense bright sun, rows of solar panels stretching toward a small village below" style="width:100%;border-radius:10px;margin-bottom:1.5rem;" />
-
 Sudan receives between 6 and 8 kilowatt-hours of solar energy per square metre per day -- among the highest figures anywhere on the planet. The Nubian Desert, the Butana Plain, the Bayuda steppe: vast, flat, cloudless, and bathed in sunlight for 300 or more days a year. This is not a marginal resource. It is one of the largest untapped solar endowments in the world, sitting in a country that has, for most of its modern history, been unable to keep the lights on.
 
 Before the 2023 war, fewer than 45% of Sudanese households had reliable electricity access. Rural areas were far lower -- many communities had no grid connection at all. The conflict has since destroyed much of what infrastructure existed: substations bombed, transmission lines severed, generating capacity offline. Rebuilding the old system wire by wire would take a decade and billions of dollars Sudan does not have.

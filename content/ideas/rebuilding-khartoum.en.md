@@ -12,8 +12,6 @@ cover:
   relative: false
 ---
 
-<img src="/images/uploads/rebuilding-khartoum.jpg" alt="A Sudanese man holding architectural blueprints on a rubble-strewn Khartoum street, looking out at war-damaged buildings with the Nile confluence visible in the background" style="width:100%;border-radius:10px;margin-bottom:1.5rem;" />
-
 Khartoum was not a beautiful city. Decades of under-investment, uncontrolled sprawl, and governance failures had produced a capital with inadequate water, intermittent power, congested roads, inadequate sewerage, and housing that lagged far behind population growth. The urban planning studies conducted before the war documented these problems in detail. Then the war came, and made everything worse by an order of magnitude.
 
 What Sudan's urban war has done to Khartoum — and to Omdurman, Khartoum North, and the metropolitan area that is home to some eight to ten million people — is still being quantified. But the scale is clear enough: residential neighbourhoods destroyed, public buildings gutted, utilities infrastructure shattered, the central business district a battlefield, hospitals looted and bombed, entire quarters of Omdurman reduced to rubble. The displacement has been the largest internal movement of people in Sudanese history.

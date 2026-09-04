@@ -12,8 +12,6 @@ cover:
   relative: false
 ---
 
-<img src="/images/uploads/water-paradox-sudan.jpg" alt="A Sudanese woman carrying a water jerry can on her head along a dusty cracked path, with the full flowing Nile river visible right beside her" style="width:100%;border-radius:10px;margin-bottom:1.5rem;" />
-
 The Nile flows through Sudan for approximately 1,900 kilometres. The Blue Nile descends from the Ethiopian highlands through Sennar and Kosti. The White Nile flows from Uganda through South Sudan and Malakal. They join at Khartoum. The combined river then flows north through Sudan's dry core, past the ancient cataracts, through the Nubian Desert, and into Egypt. By volume, more than 80 percent of the Nile's water originates in Sudan's catchment — the Ethiopian highlands via the Blue Nile and Atbara — before flowing through or past Sudan entirely.
 
 Sudan's 1959 Nile Waters Agreement with Egypt grants Sudan the right to draw 18.5 billion cubic metres of Nile water annually. Sudan uses, depending on the year, roughly half of that entitlement. The country has more Nile water allocation than it currently uses.

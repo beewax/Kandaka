@@ -12,8 +12,6 @@ cover:
   relative: false
 ---
 
-<img src="/images/uploads/minerals-sudan.jpg" alt="A Sudanese man at an artisanal gold mine in the Red Sea Hills examining a raw ore sample, with a truck carrying unprocessed mineral sacks driving away in the distance" style="width:100%;border-radius:10px;margin-bottom:1.5rem;" />
-
 Sudan is one of Africa's largest gold producers. In recent years before the 2023 war, official exports exceeded 40 tonnes annually — and the informal, undeclared trade was estimated to be several times larger. The country also holds substantial reserves of chromite, iron ore, copper, zinc, manganese, uranium, and several other commercially significant minerals. By geological endowment alone, Sudan is not a poor country.
 
 Yet almost none of this wealth has translated into development. The gold gets extracted, much of it illegally, and moves — through the UAE, primarily — into international markets with minimal benefit to Sudan beyond whatever the diggers themselves earn in often dangerous conditions. The processing, refining, trading, logistics, and finance that capture most of the value in a mining supply chain all happen elsewhere.

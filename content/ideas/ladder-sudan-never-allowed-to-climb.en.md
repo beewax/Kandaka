@@ -12,8 +12,6 @@ cover:
   relative: false
 ---
 
-<img src="/images/uploads/ladder-sudan-never-allowed-to-climb.jpg" alt="A Sudanese woman engineer in modern professional attire standing before a rusted, padlocked factory gate with idle smokestacks and a broken ladder in the background" style="width:100%;border-radius:10px;margin-bottom:1.5rem;" />
-
 In 1791, Alexander Hamilton submitted his *Report on Manufactures* to the United States Congress. Its central argument was that a new nation could not develop by exporting raw materials and importing finished goods. Wealth was created in manufacturing, not agriculture or trade. The role of the state was to protect infant industries until they could compete — through tariffs, subsidies, and public investment. The United States acted on this report. By the end of the 19th century, it had the highest industrial tariffs in the world and the fastest-growing manufacturing sector.
 
 Britain, which had industrialised first and had no interest in seeing its markets threatened by competitors, spent much of the 19th century arguing the opposite case: that free trade was beneficial for all nations, that comparative advantage should determine specialisation, that government interference in markets was harmful. The argument was, as Ha-Joon Chang has meticulously documented, a ladder being kicked away. Britain had used industrial policy to climb. It was now recommending that others not use the same ladder.

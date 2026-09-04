@@ -12,8 +12,6 @@ cover:
   relative: false
 ---
 
-<img src="/images/uploads/railway-sudan.jpg" alt="A Sudanese woman in a traditional toub standing beside an old rusted steam locomotive on overgrown desert railway tracks stretching to the horizon" style="width:100%;border-radius:10px;margin-bottom:1.5rem;" />
-
 In 1955, the year before Sudanese independence, the Sudan Railways network stretched across 4,756 kilometres of track. It connected Khartoum to Port Sudan on the Red Sea, south to Sennar and Kosti on the White Nile, west through Kordofan to Nyala in Darfur, north along the Nile to Wadi Halfa on the Egyptian border. It was, at independence, one of the most extensive rail networks in Africa — the physical infrastructure of a country that moved its cotton, its sorghum, and its people on steel rails through the desert.
 
 Today, Sudan Railways operates, at most, a few token services on a fraction of that network. The tracks are broken, the rolling stock is decrepit or absent, the management is hollowed out, and the institutional knowledge built over a century of operation has dispersed. What was once one of Sudan's most significant economic assets has become a symbol of national decline — a reminder of what was possible and what was squandered.

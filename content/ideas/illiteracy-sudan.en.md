@@ -12,8 +12,6 @@ cover:
   relative: false
 ---
 
-<img src="/images/uploads/illiteracy-sudan.jpg" alt="Sudanese adults and children sitting together on straw mats in a lantern-lit village classroom, learning to read from open books" style="width:100%;border-radius:10px;margin-bottom:1.5rem;" />
-
 In rural Sudan, six out of ten people cannot read or write. Among rural women, the figure is closer to seven out of ten. These are not statistics from a century ago. They are from the 2022 Sudan Labor Market Panel Survey, analysed by the Economic Research Forum in 2024 -- the most recent serious measurement of a crisis that has been worsening, slowly and largely unnoticed, for decades.
 
 The 2023 war accelerated everything. Sudan's GDP contracted by an estimated 48%. Five million jobs disappeared. School infrastructure across multiple states was damaged or destroyed. The children who were already out of school -- and in rural areas, many were -- are now further from any educational pathway than they have ever been.

@@ -12,8 +12,6 @@ cover:
   relative: false
 ---
 
-<img src="/images/uploads/semiconductor-sudan.jpg" alt="A young Sudanese electronics engineer examining a circuit board under a magnifying lamp at a workbench, chip schematics glowing on computer screens behind him" style="width:100%;border-radius:10px;margin-bottom:1.5rem;" />
-
 Every solar charge controller Sudan imports. Every mobile phone in a displaced person's hand in Port Sudan. Every agricultural sensor, every medical monitor, every radio relay on a Nile ferry — all of them run on chips fabricated in Taiwan, South Korea, China, or the United States. Sudan has no role in making any of them. The question this article asks is: should it, can it, and if so, where does it begin?
 
 The answer is not simple. Semiconductor fabrication sits near the apex of industrial complexity — it is, by some measures, the most technically demanding manufacturing process humans have ever built. But complexity is not destiny. And the question is not whether Sudan builds a chip factory next year. It is whether Sudan understands the semiconductor value chain well enough to enter it at the right point, in the right sequence, and begin the long climb.
