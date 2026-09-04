@@ -13,7 +13,6 @@ cover:
   relative: false
 ---
 
-<img src="/images/uploads/funj-sultanate-01-sennar-1821.jpg" alt="A sketch of Sennar in 1821, capital of the Funj Sultanate, shown as the Turco-Egyptian army found it" style="width:100%;border-radius:10px;margin-bottom:1.5rem;" />
 <p style="font-size:0.85rem;color:#888;margin-top:-1rem;margin-bottom:1.5rem;">Sennar in 1821, sketched around the time of the Turco-Egyptian conquest — by then a city already reduced to ruins. Source: Wikimedia Commons, public domain.</p>
 
 In June 1821, a Turco-Egyptian army under Ismail bin Muhammad Ali reached the banks of the Blue Nile and marched on a city they had been told, for three centuries, was one of the wealthiest in Africa. What they found instead was a heap of ruins. The last Funj sultan, Badi VII, surrendered without a fight. A kingdom that had once stretched from the Third Cataract of the Nile to the Ethiopian highlands, that had governed an ethnically diverse population under a divine monarchy, and that had for a time made its capital "close to being the greatest trading city" on the continent, ended not in a great battle but in a quiet capitulation to an empire that no longer had to fight for what it wanted.

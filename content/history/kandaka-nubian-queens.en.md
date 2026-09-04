@@ -13,8 +13,6 @@ cover:
   relative: false
 ---
 
-<img src="/images/uploads/kandaka-nubian-queens.jpg" alt="A Kushite Nubian queen in a feathered vulture headdress and gold beaded collar, standing before the small steep-sided pyramids of Meroe, Sudan" style="width:100%;border-radius:10px;margin-bottom:1.5rem;" />
-
 The word Kandaka appears in the New Testament. A treasury official travelling from the court of the "Kandake, queen of the Ethiopians" -- the Greek word for any land south of Egypt -- is described returning from Jerusalem in the Acts of the Apostles. The Roman geographer Strabo wrote about the one-eyed Kandake who led her armies against the legions of Augustus Caesar. Pliny the Elder mentioned the Kandakai in his encyclopaedia. These women were not legendary figures or mythological queens. They were heads of state, military commanders, and economic administrators of one of the most sophisticated civilisations in the ancient world -- a civilisation located, for most of its history, in what is now Sudan.
 
 The site of this article takes its name from them. That choice is not decorative. The Kandakat governed a state that for nearly a thousand years managed complex trade networks, built an industrial iron economy, developed an original writing system, and held its own against Egypt, Rome, and Aksum in succession. Understanding what they built -- and why it matters for Sudan today -- is the purpose of this article.
