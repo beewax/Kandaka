@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-09-05T14:43:16Z'
+date: '2026-09-05T17:11:01Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/10-dead-as-who-flags-sudans-west-kordofan-latest-cholera-outbreak-hotspot

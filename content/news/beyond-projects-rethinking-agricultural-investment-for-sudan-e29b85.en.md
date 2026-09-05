@@ -1,6 +1,6 @@
 ---
 category: Analysis
-date: '2026-09-05T14:43:19Z'
+date: '2026-09-05T17:11:05Z'
 draft: false
 language: en
 link: https://africanarguments.org/2026/08/beyond-projects-rethinking-agricultural-investment-for-sudans-post-war-recovery/?utm_source=rss&utm_medium=rss&utm_campaign=beyond-projects-rethinking-agricultural-investment-for-sudans-post-war-recovery
