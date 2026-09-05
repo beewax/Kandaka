@@ -140,15 +140,15 @@ Approval of one article never approves another. If an article is not ready or ap
 - **Subtitle:** Gold, Dollarization and the Search for Monetary Stability
 - **Category/tags:** Development; monetary policy, gold, inflation, dollarization
 - **Priority:** High
-- **Research:** Substantive review completed 2026-08-31 — current CBOS inflation, money, exchange-rate and gold-export evidence; Sudan-specific IMF analysis; 2026 gold-reserve guidance; and international stabilization cases incorporated; listed balance-sheet, legal, gold-custody and current-data checks remain
-- **Draft:** Clean English review draft completed 2026-08-31 at `deliverables/articles/A05-monetary-reform-review-draft.md`
-- **Review:** Ready for user review
-- **Approved:** No
-- **Published:** No
+- **Research:** Refreshed 2026-09-04 against the July 2026 CBOS bulletin, the 24 August exchange-rate circular list, January–June trade data, Sudan-specific IMF analysis and comparative stabilization evidence; official wartime data limitations are stated in both editions
+- **Draft:** Complete English and Arabic publication editions dated 2026-09-04
+- **Review:** Publication authorized by user 2026-09-01; later corrections remain welcome
+- **Approved:** Yes — 2026-09-01
+- **Published:** Yes — 2026-09-04, English and Arabic
 - **Core thesis:** Sudan probably should not adopt a classical gold standard or permanently dollarize unless trust in a national currency proves impossible to rebuild. The strongest option to investigate is a legally constrained Sudanese pound backed during stabilization by independently audited gold and diversified liquid reserves, with a realistic exchange rate, central-bank independence, and strict limits on routine deficit financing.
 - **Requirements:** Fairly compare classical gold, diversified reserve backing, a currency board, dollarization/other foreign currencies, parallel currencies, and eventual inflation targeting. Cover dollar/euro/RMB/Gulf/African payment alternatives; geopolitical diversification; gold-sector transparency; fiscal discipline; emergency-financing rules; published reserves and government borrowing; independent audits; redenomination only alongside stabilization; stable money as development infrastructure; and lessons from Brazil, Israel, Bulgaria, Estonia, Peru, Georgia, Ecuador, Zimbabwe, Botswana, and Morocco. The article must test the gold idea, not assume it.
-- **Image:** Preferred cover is the first Sudan/gold image previously selected, subject to locating it and verifying source/license. Prefer authentic Sudanese gold weighing/processing and Sudanese pound notes. Avoid generic Western gold imagery. Pinterest concept: `Can Gold Save the Sudanese Pound?`
-- **Next action:** User reviews the English draft. Apply requested changes, then complete the listed Central Bank balance-sheet, amended-law, official-reserve, gold-governance, Sudanese-expert and image checks before any approval, translation, or publication.
+- **Image:** Original commissioned illustration of the Sudanese pound, audited reserve ledger, gold and transparent custody added 2026-09-04; it avoids reproducing real banknotes in counterfeitable detail.
+- **Next action:** Verify both live language pages, image, metadata and category listing; monitor official monthly data and incorporate the user's later corrections.
 
 ### A06 — Beyond the Car: How Sudan Should Rebuild Its Cities Around Public Transport
 
@@ -421,7 +421,7 @@ These changes are approved or requested but must be implemented and tested in th
 | A02 Sudan Planned Before | In progress | Complete first draft | Not ready | No | No | Final quantified timeline and fact-check |
 | A03 Wrestling | Complete | Complete | Complete | Yes 2026-08-31 | Yes 2026-08-31 | Monitor corrections and community feedback |
 | A04 Livestock/fisheries | Substantive review complete; publication caveats retained in sourcing | Complete in English and Arabic | Publication authorized; later corrections welcome | Yes 2026-09-01 | Yes 2026-09-01 | Monitor live pages and incorporate later editorial or evidence updates |
-| A05 Monetary reform | Substantive review complete; final checks listed | Clean English review draft complete 2026-08-31 | Ready for user review | No | No | User review; then corrections and final evidence checks |
+| A05 Monetary reform | Refreshed 2026-09-04; current limitations disclosed | Complete in English and Arabic | Publication authorized; later corrections welcome | Yes 2026-09-01 | Yes 2026-09-04 | Verify live pages and monitor new CBOS releases |
 | A06 Public transport/urban planning | Substantive review complete; final checks listed | Clean English review draft complete 2026-08-31 | Ready for user review | No | No | User review; then corrections and final evidence checks |
 | A07 Independence flag | Substantive review complete; final checks listed | Clean English review draft complete 2026-08-31 | Ready for user review | No | No | User review; then corrections and final evidence checks |
 | A08 Country-name question | Substantive review complete; final checks listed | Clean English review draft complete 2026-08-31 | Ready for user review | No | No | User review; then corrections and final evidence checks |
@@ -442,3 +442,4 @@ These changes are approved or requested but must be implemented and tested in th
 - **2026-08-31:** Completed the A10 English review draft on rebuilding Sudan's Family and Child Protection Units as an accountable Women and Child Protection Service. Recorded it as ready for user review, with legal, institutional, safeguarding, community, cost, image, and publication-date verification still required. Nothing was approved or published.
 - **2026-09-01:** User authorized publication of the finished article sequence with images and later correction as needed. Published A04 in English and Arabic with an original commissioned cover; began the agreed three-day stagger for A05 onward.
 - **2026-09-03:** User specifically authorized completing and publishing A01 before later review. Reconstructed and fact-checked the consolidated article, produced matching English and Arabic editions, commissioned an original production-themed cover, and published both language versions. Also moved the existing bilingual Kandakat article from Ideas to History with legacy redirects.
+- **2026-09-04:** Published A05, *How Should Sudan Rebuild Trust in the Pound?*, in complete English and Arabic editions after refreshing the July 2026 monetary indicators and August exchange-rate-policy record. Added an original commissioned cover and retained explicit caveats about wartime data, unaudited gold reserves and future legal verification. This was the first release in the authorized A05–A10 three-day sequence.
