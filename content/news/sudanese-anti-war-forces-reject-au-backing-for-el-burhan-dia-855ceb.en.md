@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-09-05T10:03:48Z'
+date: '2026-09-05T14:43:16Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/sudanese-anti-war-forces-reject-au-backing-for-el-burhan-dialogue
