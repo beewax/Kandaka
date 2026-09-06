@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-09-05T22:40:37Z'
+date: '2026-09-06T03:19:09Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/climate-pressures-and-displacement-deepen-sudans-rural-challenges

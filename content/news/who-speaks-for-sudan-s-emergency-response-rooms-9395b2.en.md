@@ -1,6 +1,6 @@
 ---
 category: Analysis
-date: '2026-09-05T22:40:42Z'
+date: '2026-09-06T03:19:12Z'
 draft: false
 language: en
 link: https://africanarguments.org/2026/08/who-speaks-for-sudans-emergency-response-rooms/?utm_source=rss&utm_medium=rss&utm_campaign=who-speaks-for-sudans-emergency-response-rooms
