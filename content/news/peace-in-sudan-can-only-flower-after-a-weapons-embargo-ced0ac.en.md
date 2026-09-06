@@ -1,6 +1,6 @@
 ---
 category: Analysis
-date: '2026-09-06T03:19:11Z'
+date: '2026-09-06T10:24:39Z'
 draft: false
 language: en
 link: https://foreignpolicy.com/2026/09/03/sudan-war-united-nations-security-council-arms-weapons-embargo-trump-administration-united-states-foreign-policy/
