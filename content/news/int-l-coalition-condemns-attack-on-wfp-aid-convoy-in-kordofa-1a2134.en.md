@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-09-06T20:04:56Z'
+date: '2026-09-06T22:43:54Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/intl-coalition-condemns-attack-on-wfp-aid-convoy-in-south-kordofan
