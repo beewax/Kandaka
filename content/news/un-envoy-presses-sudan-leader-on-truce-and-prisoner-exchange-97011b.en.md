@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-09-07T11:46:03Z'
+date: '2026-09-07T17:23:28Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/un-envoy-presses-sudan-leader-on-truce-and-prisoner-exchange
