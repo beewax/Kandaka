@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-09-07T03:17:31Z'
+date: '2026-09-07T11:46:03Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/un-vote-gives-africa-rightful-size-on-world-map
