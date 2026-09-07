@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-09-06T22:43:54Z'
+date: '2026-09-07T03:17:31Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/communist-party-sudans-war-economy-deepens-the-economic-abyss
