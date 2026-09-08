@@ -1,6 +1,6 @@
 ---
 category: International
-date: '2026-09-08T10:44:28Z'
+date: '2026-09-08T16:08:14Z'
 draft: false
 language: en
 link: https://www.france24.com/en/video/20260902-military-buildup-seen-in-ethiopia-near-sudanese-border

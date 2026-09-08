@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-09-08T10:44:25Z'
+date: '2026-09-08T16:08:12Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/nor-kordofan-capital-faces-thirst-and-soaring-prices-amid-accusations-of-official-neglect
