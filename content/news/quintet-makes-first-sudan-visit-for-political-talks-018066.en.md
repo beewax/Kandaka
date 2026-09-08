@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-09-08T16:08:12Z'
+date: '2026-09-08T20:48:38Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/quintet-makes-first-sudan-visit-for-political-talks
