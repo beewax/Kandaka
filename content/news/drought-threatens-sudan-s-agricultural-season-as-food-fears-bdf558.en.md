@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-09-08T20:48:38Z'
+date: '2026-09-08T23:13:30Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/drought-threatens-sudans-agricultural-season-as-food-fears-grow
