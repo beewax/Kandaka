@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-09-09T20:33:29Z'
+date: '2026-09-09T22:58:50Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/msf-sudanese-clinics-close-amid-aid-cuts-leaving-millions-with-shrinking-access-to-healthcare
