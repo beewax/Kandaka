@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-09-09T22:58:50Z'
+date: '2026-09-10T03:26:51Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/un-deputy-high-commissioner-for-human-rights-intl-pressure-had-temporary-positive-effect-in-north-kordofan
