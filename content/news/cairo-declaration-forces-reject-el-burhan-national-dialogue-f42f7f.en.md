@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-09-10T03:26:51Z'
+date: '2026-09-10T10:47:27Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/cairo-declaration-forces-reject-el-burhan-national-dialogue-call-for-negotiated-end-to-sudan-war
