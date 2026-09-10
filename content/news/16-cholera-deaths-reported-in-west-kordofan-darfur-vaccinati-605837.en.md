@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-09-10T15:56:44Z'
+date: '2026-09-10T20:29:56Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/16-cholera-deaths-reported-in-west-kordofan-darfur-vaccination-drive-begins

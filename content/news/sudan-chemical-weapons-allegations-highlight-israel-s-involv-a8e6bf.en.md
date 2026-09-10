@@ -1,6 +1,6 @@
 ---
 category: International
-date: '2026-09-10T15:56:46Z'
+date: '2026-09-10T20:29:58Z'
 draft: false
 language: en
 link: https://www.middleeasteye.net/news/sudan-chemical-weapons-allegations-highlight-israels-involvement-war
