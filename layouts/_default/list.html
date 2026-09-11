@@ -89,7 +89,9 @@ article.first-entry.home-info::before { display: none !important; }
 }
 .k-hero-cta { display: flex; gap: 12px; flex-wrap: wrap; }
 .k-btn {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
   padding: 10px 22px;
   border-radius: 8px;
   font-size: 14px;
@@ -146,7 +148,7 @@ article.first-entry.home-info::before { display: none !important; }
   position: absolute;
   inset: 0;
   z-index: -1;
-  background: none;
+  background: linear-gradient(0deg, rgba(3, 13, 34, 0.94) 0%, rgba(3, 13, 34, 0.7) 48%, rgba(3, 13, 34, 0.08) 100%);
 }
 .k-featured-content {
   width: min(690px, calc(100% - 48px));
@@ -190,18 +192,43 @@ article.first-entry.home-info::before { display: none !important; }
   background: var(--entry);
   cursor: pointer;
 }
-.k-featured-arrow { width: 34px; height: 34px; border-radius: 50%; font-size: 18px; line-height: 1; }
-.k-featured-pause { min-width: 64px; height: 34px; padding: 0 12px; border-radius: 999px; font-size: 11px; font-weight: 700; }
+.k-featured-arrow { width: 44px; height: 44px; border-radius: 50%; font-size: 18px; line-height: 1; }
+.k-featured-pause { min-width: 72px; height: 44px; padding: 0 12px; border-radius: 999px; font-size: 12px; font-weight: 700; }
 .k-featured-dots { display: flex; align-items: center; gap: 8px; }
-.k-featured-dot { width: 9px; height: 9px; padding: 0; border-radius: 50%; }
-.k-featured-dot[aria-current="true"] { width: 24px; border-radius: 999px; border-color: #b88d00; background: #ffc700; }
+.k-featured-dot {
+  position: relative;
+  width: 18px;
+  height: 44px;
+  padding: 0;
+  border-color: transparent;
+  background: transparent;
+}
+.k-featured-dot::after {
+  content: "";
+  position: absolute;
+  top: 50%; left: 50%;
+  width: 9px; height: 9px;
+  border: 1px solid var(--border);
+  border-radius: 50%;
+  background: var(--entry);
+  transform: translate(-50%, -50%);
+}
+.k-featured-dot[aria-current="true"] { width: 26px; }
+.k-featured-dot[aria-current="true"]::after { width: 22px; border-radius: 999px; border-color: #b88d00; background: #ffc700; }
 .k-featured-arrow:focus-visible,
 .k-featured-dot:focus-visible,
 .k-featured-link:focus-visible { outline: 3px solid #ffc700; outline-offset: 3px; }
 @media (max-width: 600px) {
-  .k-featured-slide { min-height: 390px; }
-  .k-featured-content { width: calc(100% - 28px); margin: 14px; padding: 22px 4px; }
-  .k-featured-summary { font-size: 14px; }
+  .k-hero { margin-bottom: 32px; padding: 28px 22px 26px; }
+  .k-hero h1 { font-size: clamp(1.65rem, 9vw, 2rem); }
+  .k-hero p { font-size: 1rem; line-height: 1.55; margin-bottom: 18px; }
+  .k-featured { margin-bottom: 36px; }
+  .k-featured-slide { min-height: 340px; }
+  .k-featured-content { width: calc(100% - 28px); margin: 14px; padding: 18px 4px; }
+  .k-featured-title { font-size: clamp(1.45rem, 7vw, 1.85rem); }
+  .k-featured-summary { font-size: 1rem; line-height: 1.5; }
+  .k-featured-controls { gap: 4px; }
+  .k-featured-dots { gap: 0; }
 }
 
 /* ── Section headers ── */
@@ -216,6 +243,50 @@ article.first-entry.home-info::before { display: none !important; }
 .k-section-head h2 { font-size: 1.25rem; margin: 0; color: var(--primary); }
 .k-section-head a { font-size: 13px; color: var(--secondary); text-decoration: none; }
 .k-section-head a:hover { color: var(--primary); }
+
+/* ── Latest editorial articles ── */
+.k-article-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+.k-article-card {
+  display: grid;
+  grid-template-columns: 108px minmax(0, 1fr);
+  min-height: 126px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--entry);
+  box-shadow: 0 5px 16px rgba(5, 18, 43, 0.06);
+}
+.k-article-card:hover { border-color: #b88d00; }
+.k-article-image { width: 100%; height: 100%; min-height: 126px; object-fit: cover; }
+.k-article-body { display: flex; flex-direction: column; min-width: 0; padding: 13px 13px 12px; }
+.k-article-category {
+  margin-bottom: 6px;
+  color: #8a6500;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+html[data-theme="dark"] .k-article-category { color: #ffd84d; }
+.k-article-title { margin: 0 0 8px; font: 700 1.02rem/1.28 Georgia, serif; }
+.k-article-title a { color: var(--primary); text-decoration: none; }
+.k-article-title a::after { content: ""; position: absolute; inset: 0; }
+.k-article-card { position: relative; }
+.k-article-meta { margin-top: auto; color: var(--secondary); font-size: 12px; }
+.k-article-title a:focus-visible { outline: 3px solid #ffc700; outline-offset: 3px; }
+@media (max-width: 760px) {
+  .k-article-grid { grid-template-columns: 1fr; }
+}
+@media (max-width: 380px) {
+  .k-article-card { grid-template-columns: 88px minmax(0, 1fr); min-height: 112px; }
+  .k-article-image { min-height: 112px; }
+  .k-article-body { padding: 11px; }
+  .k-article-title { font-size: 1rem; }
+}
 
 /* ── News grid ── */
 .k-news-grid {
@@ -579,6 +650,48 @@ html[data-theme="dark"] .badge-analysis { background: #431407; color: #fdba74; }
   });
 }());
 </script>
+
+{{/* ══════════════════ LATEST EDITORIAL ARTICLES ══════════════════ */}}
+{{- $articleSections := slice "ideas" "development" "history" "culture" }}
+{{- $articlePages := slice }}
+{{- range $articleSections }}
+  {{- $articlePages = $articlePages | append (where $.Site.RegularPages "Section" .) }}
+{{- end }}
+{{- $articlePages = sort $articlePages "Date" "desc" }}
+{{- $leadURL := "" }}
+{{- range $latestIdeas }}{{- $leadURL = .RelPermalink }}{{- end }}
+{{- $nonLeadArticles := slice }}
+{{- range $articlePages }}
+  {{- if ne .RelPermalink $leadURL }}
+    {{- $nonLeadArticles = $nonLeadArticles | append . }}
+  {{- end }}
+{{- end }}
+{{- $latestArticles := first 6 $nonLeadArticles }}
+
+{{- if $latestArticles }}
+<section class="k-section" aria-labelledby="articles-heading">
+  <div class="k-section-head">
+    <h2 id="articles-heading">{{ if $isAr }}أحدث المقالات{{ else }}Latest Articles{{ end }}</h2>
+  </div>
+  <div class="k-article-grid" role="list">
+    {{- range $latestArticles }}
+    <article class="k-article-card" role="listitem">
+      {{- $articleImage := .Params.cover.image | default "/images/uploads/kandaka-nubian-queens.jpg" }}
+      <img class="k-article-image" src="{{ $articleImage | relURL }}" alt="" loading="lazy" decoding="async">
+      <div class="k-article-body">
+        <span class="k-article-category">{{ .Params.category | default (.Section | title) }}</span>
+        <h3 class="k-article-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+        <p class="k-article-meta">
+          <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 Jan 2006" }}</time>
+          <span aria-hidden="true"> · </span>
+          {{ if $isAr }}{{ .ReadingTime }} دقائق قراءة{{ else }}{{ .ReadingTime }} min read{{ end }}
+        </p>
+      </div>
+    </article>
+    {{- end }}
+  </div>
+</section>
+{{- end }}
 
 {{/* ══════════════════ LATEST NEWS — bilingual 3+3 ══════════════════ */}}
 {{- $enPosts := slice }}
