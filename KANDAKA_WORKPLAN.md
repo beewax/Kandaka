@@ -167,18 +167,19 @@ Approval of one article never approves another. If an article is not ready or ap
 - **Image:** Original commissioned illustration of a shaded, drained and universally accessible Sudanese BRT corridor added 2026-09-07.
 - **Next action:** Verify both live language pages, shared image, metadata and Development listing; monitor reconstruction tenders and incorporate later community and accessibility review.
 
-### A07 — Should Sudan Restore Its Independence Flag?
+### A07 - Should Sudan Restore Its Independence Flag?
 
 - **Category/tags:** Ideas; History, identity, constitutional settlement
 - **Priority:** Medium as identity/reconciliation; low as economic policy
-- **Research:** Substantive review complete; original flag-law, Al-Sarirah Makki archive, ceremony, al-Burhan proposal, public consultation, constitutional-law, and image checks listed in draft
-- **Draft:** Clean English review draft completed 2026-08-31 at `deliverables/articles/A07-independence-flag-review-draft.md`
-- **Review:** Ready for user review
-- **Approved:** No
-- **Published:** No
+- **Research:** Refreshed 2026-09-10 against the December 2025 proposal, official independence account, UN admission record, and a current Sudanese embassy description of the 1970 flag; original 1956 legal construction sheet and first-person design archive remain disclosed gaps
+- **Draft:** Complete English and Arabic publication editions dated 2026-09-10
+- **Review:** Publication authorized by user 2026-09-01; later corrections remain welcome
+- **Approved:** Yes - 2026-09-01
+- **Published:** Yes - 2026-09-10, English and Arabic
 - **Core thesis:** The 1956 blue-yellow-green flag is distinctive, historically Sudanese, and a credible candidate for restoration during a broadly legitimate post-war constitutional reset; the strongest option is restoration essentially unchanged, with only technical standardization of colors/proportions if needed.
 - **Requirements:** Present the case for and against restoration. Explain the independence history and the current flag's Pan-Arab family without claiming the current flag has no accumulated national meaning. Do not pretend a flag change creates jobs, peace, or institutional reform. Avoid unnecessary new symbols. Frame restoration as part of constitutional reconciliation, not an urgent development intervention.
-- **Next action:** User reviews the English draft. Apply requested changes, then complete the listed archival, legal, consultation, current-proposal, and image checks before any approval, translation, or publication.
+- **Image:** Original commissioned editorial illustration of the independence flag and a civilian constitutional consultation added 2026-09-10; explicitly labelled as symbolic rather than documentary.
+- **Next action:** Verify both live language pages, image, metadata and Ideas listing; monitor any formal legal action and incorporate later archival, legal or community corrections.
 
 ### A08 — Should Sudan Ever Change Its Country Name?
 
@@ -424,7 +425,7 @@ These changes are approved or requested but must be implemented and tested in th
 | A04 Livestock/fisheries | Substantive review complete; publication caveats retained in sourcing | Complete in English and Arabic | Publication authorized; later corrections welcome | Yes 2026-09-01 | Yes 2026-09-01 | Monitor live pages and incorporate later editorial or evidence updates |
 | A05 Monetary reform | Refreshed 2026-09-04; current limitations disclosed | Complete in English and Arabic | Publication authorized; later corrections welcome | Yes 2026-09-01 | Yes 2026-09-04 | Verify live pages and monitor new CBOS releases |
 | A06 Public transport/urban planning | Refreshed 2026-09-07; route-specific limitations disclosed | Complete in English and Arabic | Publication authorized; later corrections welcome | Yes 2026-09-01 | Yes 2026-09-07 | Verify live pages; monitor reconstruction tenders and community feedback |
-| A07 Independence flag | Substantive review complete; final checks listed | Clean English review draft complete 2026-08-31 | Ready for user review | No | No | User review; then corrections and final evidence checks |
+| A07 Independence flag | Refreshed 2026-09-10; archival and legal gaps disclosed | Complete in English and Arabic | Publication authorized; later corrections welcome | Yes 2026-09-01 | Yes 2026-09-10 | Verify live pages; monitor formal legal action and later review |
 | A08 Country-name question | Substantive review complete; final checks listed | Clean English review draft complete 2026-08-31 | Ready for user review | No | No | User review; then corrections and final evidence checks |
 | A09 Trustworthy aid/delivery | Substantive audit complete 2026-08-31; publication refresh and final checks listed | Clean English review draft complete 2026-08-31 | Ready for user review | No | No | User review; then corrections, final verification, and publication-day refresh |
 | A10 Women/children protection service | Substantive review complete 2026-08-31; final checks listed | Clean English review draft complete 2026-08-31 | Ready for user review | No | No | User review; then corrections and final legal, institutional, safeguarding, and evidence checks |
@@ -445,3 +446,4 @@ These changes are approved or requested but must be implemented and tested in th
 - **2026-09-03:** User specifically authorized completing and publishing A01 before later review. Reconstructed and fact-checked the consolidated article, produced matching English and Arabic editions, commissioned an original production-themed cover, and published both language versions. Also moved the existing bilingual Kandakat article from Ideas to History with legacy redirects.
 - **2026-09-04:** Published A05, *How Should Sudan Rebuild Trust in the Pound?*, in complete English and Arabic editions after refreshing the July 2026 monetary indicators and August exchange-rate-policy record. Added an original commissioned cover and retained explicit caveats about wartime data, unaudited gold reserves and future legal verification. This was the first release in the authorized A05–A10 three-day sequence.
 - **2026-09-07:** Published A06, *Beyond the Car: How Sudan Should Rebuild Its Cities Around Public Transport*, in complete English and Arabic editions. Refreshed the reconstruction context, added an original Sudanese climate-adapted BRT cover, and preserved explicit requirements for post-war route, disability, demand and whole-life-cost evidence before any construction decision.
+- **2026-09-10:** Published A07, *Should Sudan Restore Its Independence Flag?*, in complete English and Arabic editions. Distinguished the December 2025 proposal from a completed legal change, added an original civic-consultation illustration, presented the strongest cases for and against restoration, and made an inclusive post-war constitutional process a condition of Kandaka's support.
