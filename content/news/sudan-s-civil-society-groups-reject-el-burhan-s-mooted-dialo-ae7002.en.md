@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-09-11T10:44:20Z'
+date: '2026-09-11T15:59:35Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/sudans-civil-society-groups-rejects-el-burhans-mooted-dialogue-as-political-cover
