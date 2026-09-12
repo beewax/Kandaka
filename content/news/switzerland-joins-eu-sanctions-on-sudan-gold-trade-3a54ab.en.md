@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-09-12T20:15:58Z'
+date: '2026-09-12T22:52:27Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/switzerland-joins-eu-sanctions-on-sudan-gold-trade
