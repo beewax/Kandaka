@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-09-12T15:08:01Z'
+date: '2026-09-12T20:15:58Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/el-burhan-says-us-arms-embargo-proposal-will-fail-at-un

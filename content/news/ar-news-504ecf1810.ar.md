@@ -1,7 +1,7 @@
 ---
 category: Sudan News
 clabel: أخبار السودان
-date: '2026-09-12T15:08:02Z'
+date: '2026-09-12T20:15:59Z'
 draft: false
 language: ar
 link: https://sudantribune.net/article/318646
