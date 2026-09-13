@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-09-13T03:35:22Z'
+date: '2026-09-13T11:13:22Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/sudan-quintet-holds-khartoum-talks-on-war-and-political-process
