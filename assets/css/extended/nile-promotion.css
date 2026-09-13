@@ -1,0 +1,40 @@
+.post-content .nile-promotion {
+  display: grid;
+  grid-template-columns: 112px minmax(0, 1fr);
+  gap: 16px 24px;
+  margin-block: 32px;
+  padding: 24px;
+  border: 1px solid var(--border);
+  border-inline-start: 4px solid var(--primary);
+  border-radius: 12px;
+  background: var(--code-bg);
+  color: var(--primary);
+  text-align: start;
+  font-size: 16px;
+  line-height: 1.6;
+}
+.nile-promotion__label { grid-column: 1 / -1; font-size: 13px; font-weight: 600; text-align: start; }
+.post-content .nile-promotion__cover { width: 112px; height: auto; margin: 0; border-radius: 4px; }
+.post-content .nile-promotion .nile-promotion__title { margin: 0 0 8px; font-size: 21px; line-height: 1.35; }
+.post-content .nile-promotion p { margin: 0 0 12px; }
+.nile-promotion__price { font-weight: 600; }
+.post-content .nile-promotion__button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 8px 16px;
+  border-radius: 6px;
+  background: var(--primary);
+  color: var(--theme);
+  box-shadow: none;
+  font-weight: 600;
+  text-decoration: none;
+}
+.post-content .nile-promotion__button:hover { text-decoration: underline; }
+.nile-promotion__button:focus-visible { outline: 2px solid var(--primary); outline-offset: 4px; }
+@media (max-width: 480px) {
+  .post-content .nile-promotion { grid-template-columns: minmax(0, 1fr); padding: 20px; gap: 16px; }
+  .post-content .nile-promotion__cover { width: 96px; }
+  .post-content .nile-promotion__button { width: 100%; }
+}

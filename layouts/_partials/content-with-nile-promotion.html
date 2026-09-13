@@ -1,0 +1,44 @@
+{{- $content := .Content -}}
+{{- $config := hugo.Data.nile_promotions -}}
+{{- if and $config.enabled .IsPage (in $config.sections .Section) (not (in (slice "news" "library") .Type)) (ge .WordCount (int $config.minimum_words)) (ne .Params.nile_promotion false) -}}
+  {{- /* Track HTML depth so paragraphs inside lists, quotes and figures do not count.
+       Keep the original tokens intact and insert only between top-level blocks. */ -}}
+  {{- $depth := 0 -}}
+  {{- $paragraphs := 0 -}}
+  {{- $before := "" -}}
+  {{- $after := "" -}}
+  {{- $insertAt := 0 -}}
+  {{- range findRE `(?s)<!--.*?-->|<[^>]+>|[^<]+` (string $content) -}}
+    {{- if eq $insertAt 0 -}}
+      {{- $before = printf "%s%s" $before . -}}
+    {{- else -}}
+      {{- $after = printf "%s%s" $after . -}}
+    {{- end -}}
+    {{- if findRE `^</[a-zA-Z]` . -}}
+      {{- $depth = math.Max 0 (sub $depth 1) -}}
+      {{- if and (eq (int $depth) 0) (eq . "</p>") -}}
+        {{- $paragraphs = add $paragraphs 1 -}}
+        {{- if eq $paragraphs (int $config.after_paragraph) -}}{{- $insertAt = 1 -}}{{- end -}}
+      {{- end -}}
+    {{- else if and (findRE `^<[a-zA-Z]` .) (not (findRE `(?i)^<(area|base|br|col|embed|hr|img|input|link|meta|param|source|track|wbr)(\s|/?>)|/\s*>$` .)) -}}
+      {{- $depth = add $depth 1 -}}
+    {{- end -}}
+  {{- end -}}
+  {{- if and (ge $paragraphs (int $config.minimum_paragraphs)) (gt $insertAt 0) -}}
+    {{- $key := printf "%s/%s" .Section .File.TranslationBaseName -}}
+    {{- $selected := $config.collection -}}
+    {{- /* Stable across builds and translations. Unmatched title slots fall back to collection. */ -}}
+    {{- if ge (mod (hash.FNV32a $key) 100) (int $config.collection_percent) -}}
+      {{- $tags := apply (.Params.tags | default slice) "strings.ToLower" "." -}}
+      {{- range $id, $offer := $config.offers -}}
+        {{- if and (eq $selected $config.collection) $offer.tags (intersect $tags $offer.tags) -}}{{- $selected = $id -}}{{- end -}}
+      {{- end -}}
+    {{- end -}}
+    {{- with index $config.placements $key -}}{{- $selected = . -}}{{- end -}}
+    {{- with index $config.offers $selected -}}
+      {{- $card := partial "nile-promotion.html" (dict "page" $ "offer" .) -}}
+      {{- $content = printf "%s%s%s" $before $card $after | safeHTML -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- return $content -}}

@@ -1,0 +1,43 @@
+enabled: true
+sections: [history, culture, development, ideas]
+minimum_words: 400
+minimum_paragraphs: 7
+after_paragraph: 5
+collection_percent: 75
+collection: sudan-nile
+# Product data and cover verified against Nile Book Store on 2026-09-13.
+# Collection cards feature a real title; the displayed price belongs to that title.
+placements:
+  history/kandaka-nubian-queens: meroe
+offers:
+  sudan-nile:
+    url: https://nilebookstore.com/collections/sudan-books-كتب-السودان
+    cover: https://cdn.shopify.com/s/files/1/0802/4798/0280/files/cover-final.jpg?v=1787981830&width=320
+    en:
+      title: Sudan & the Nile
+      description: Explore books on Sudan and the Nile, including John Garstang’s illustrated account of ancient Meroë.
+      price: "Featured EPUB: US$2.99"
+      button: Explore the collection
+      alt: Cover of Meroë, the City of the Ethiopians, featured in Sudan & the Nile
+    ar:
+      title: السودان والنيل
+      description: اكتشف كتب السودان والنيل، ومنها كتاب جون جارستانغ المصوّر عن مروي القديمة، باللغة الإنجليزية.
+      price: "الكتاب الإلكتروني المعروض: ٢٫٩٩ دولار أمريكي"
+      button: تصفّح المجموعة
+      alt: غلاف كتاب مروي، مدينة الإثيوبيين، من مجموعة السودان والنيل
+  meroe:
+    url: https://nilebookstore.com/products/meroe-the-city-of-the-ethiopians
+    cover: https://cdn.shopify.com/s/files/1/0802/4798/0280/files/cover-final.jpg?v=1787981830&width=320
+    tags: [nubia, archaeology, kush, meroe, meroë, النوبة, مروي]
+    en:
+      title: Meroë, the City of the Ethiopians
+      description: John Garstang’s illustrated 1911 account of Meroë’s temples, tombs and excavations. An English EPUB edition.
+      price: US$2.99
+      button: View the book
+      alt: Cover of Meroë, the City of the Ethiopians
+    ar:
+      title: مروي، مدينة الإثيوبيين
+      description: رواية جون جارستانغ المصوّرة من عام ١٩١١ عن معابد مروي ومقابرها وحفرياتها. كتاب إلكتروني بصيغة EPUB باللغة الإنجليزية.
+      price: ٢٫٩٩ دولار أمريكي
+      button: اطّلع على الكتاب
+      alt: غلاف كتاب مروي، مدينة الإثيوبيين
