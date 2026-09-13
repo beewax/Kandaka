@@ -1,0 +1,14 @@
+---
+category: Sudan News
+date: '2026-09-13T20:25:42Z'
+draft: false
+language: en
+link: https://www.dabangasudan.org/en/all-news/article/el-burhan-says-us-arms-embargo-proposal-will-fail-at-un
+source: Radio Dabanga
+title: Sudan’s El Burhan says ‘US arms embargo proposal will fail at UN’
+---
+
+Sudanese Armed Forces (SAF) Commander and Sovereignty Council President Lt Gen Abdelfattah El Burhan said...
+The post Sudan&#8217;s El Burhan says ‘US arms embargo proposal will fail at UN’ appeared first on Dabanga Radio TV Online.
+
+[Radio Dabanga ->](https://www.dabangasudan.org/en/all-news/article/el-burhan-says-us-arms-embargo-proposal-will-fail-at-un)
