@@ -1,0 +1,13 @@
+{{- $offer := .offer -}}
+{{- $copy := index $offer .page.Language.Lang | default $offer.en -}}
+{{- $url := printf "%s?%s" $offer.url (querify "utm_source" "kandaka" "utm_medium" "inline" "utm_campaign" "from_the_library") -}}
+<aside class="nile-promotion" aria-labelledby="nile-promotion-title" dir="{{ .page.Language.LanguageDirection }}">
+  <div class="nile-promotion__label" dir="ltr"><span lang="en">From Nile Book Store</span> · <span lang="ar" dir="rtl">من مكتبة النيل</span></div>
+  <img class="nile-promotion__cover" src="{{ $offer.cover }}" alt="{{ $copy.alt }}" width="160" height="240" loading="lazy" decoding="async">
+  <div class="nile-promotion__copy">
+    <p class="nile-promotion__title" id="nile-promotion-title"><strong>{{ $copy.title }}</strong></p>
+    <p>{{ $copy.description }}</p>
+    <p class="nile-promotion__price">{{ $copy.price }}</p>
+    <a class="nile-promotion__button" href="{{ $url }}" rel="sponsored">{{ $copy.button }}</a>
+  </div>
+</aside>
