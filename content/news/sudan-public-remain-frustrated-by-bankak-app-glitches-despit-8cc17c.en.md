@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-09-13T20:25:42Z'
+date: '2026-09-13T22:55:46Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/sudan-public-remain-frustrated-by-bankak-app-glitches-despite-update
