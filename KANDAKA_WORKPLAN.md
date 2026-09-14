@@ -185,14 +185,15 @@ Approval of one article never approves another. If an article is not ready or ap
 
 - **Category/tags:** Ideas; identity, history, constitutional settlement
 - **Priority:** Low-to-medium; do not treat as a current national priority
-- **Research:** Substantive review complete; Sudanese linguistic scholarship, official-name, regional consultation, constitutional-law, transition-cost, and image checks listed in draft
-- **Draft:** Clean English review draft completed 2026-08-31 at `deliverables/articles/A08-country-name-review-draft.md`
-- **Review:** Ready for user review
-- **Approved:** No
-- **Published:** No
-- **Core thesis:** After South Sudan's independence, Kandaka can investigate whether `Sudan` still adequately distinguishes the republic, but should not presume renaming is desirable and should not propose `Kush` as the default answer.
+- **Research:** Refreshed 2026-09-13 against the current UN/ISO naming convention, the 2019 Constitutional Charter translation, and current formal-proposal search; public-opinion, Sudanese-language, regional-consultation, constitutional-law, and transition-cost gaps are disclosed
+- **Draft:** Complete English and Arabic publication editions dated 2026-09-13
+- **Review:** Publication authorized by user 2026-09-01; later corrections remain welcome
+- **Approved:** Yes - 2026-09-01
+- **Published:** Yes - 2026-09-13, English and Arabic
+- **Core thesis:** Sudan should presently keep the name `Sudan`: no proposed historical or geographic replacement is demonstrably more inclusive, accurate, or legitimate. A future elected government may consider harmonizing the formal English rendering from `the Republic of the Sudan` to `Republic of Sudan`, but that administrative question is not a national rename.
 - **Requirements:** Separate a website search/filtering problem from the national identity question. Cover the history of the name Sudan and international renaming examples. Any candidate must be inclusive across regions, ethnicities, and religions; workable in Arabic and English; historically/geographically defensible; internationally distinctive; and practical for diplomacy, passports, and trade. Treat exclusion risk and transition costs seriously. Changing symbols without changing institutions is cosmetic.
-- **Next action:** User reviews the English draft. Apply requested changes, then complete the listed linguistic, regional, official-name, legal, cost, and image checks before any approval, translation, or publication.
+- **Image:** Original commissioned illustration of a diverse civic consultation around a blank nameplate added 2026-09-13; deliberately avoids flags, emblems, maps, and privileging a single historical region.
+- **Next action:** Verify both live language pages, shared image, metadata and Ideas listing; incorporate later linguistic, regional, legal, cost, and community corrections.
 
 ### A09 — How Can You Actually Help Sudan? Following Aid From Donation to Delivery
 
@@ -427,7 +428,7 @@ These changes are approved or requested but must be implemented and tested in th
 | A05 Monetary reform | Refreshed 2026-09-04; current limitations disclosed | Complete in English and Arabic | Publication authorized; later corrections welcome | Yes 2026-09-01 | Yes 2026-09-04 | Verify live pages and monitor new CBOS releases |
 | A06 Public transport/urban planning | Refreshed 2026-09-07; route-specific limitations disclosed | Complete in English and Arabic | Publication authorized; later corrections welcome | Yes 2026-09-01 | Yes 2026-09-07 | Verify live pages; monitor reconstruction tenders and community feedback |
 | A07 Independence flag | Refreshed 2026-09-10; archival and legal gaps disclosed | Complete in English and Arabic | Publication authorized; later corrections welcome | Yes 2026-09-01 | Yes 2026-09-10 | Verify live pages; monitor formal legal action and later review |
-| A08 Country-name question | Substantive review complete; final checks listed | Clean English review draft complete 2026-08-31 | Ready for user review | No | No | User review; then corrections and final evidence checks |
+| A08 Country-name question | Refreshed 2026-09-13; present-status and research limitations disclosed | Complete in English and Arabic | Publication authorized; later corrections welcome | Yes 2026-09-01 | Yes 2026-09-13 | Verify live pages; incorporate later linguistic, legal and community review |
 | A09 Trustworthy aid/delivery | Substantive audit complete 2026-08-31; publication refresh and final checks listed | Clean English review draft complete 2026-08-31 | Ready for user review | No | No | User review; then corrections, final verification, and publication-day refresh |
 | A10 Women/children protection service | Substantive review complete 2026-08-31; final checks listed | Clean English review draft complete 2026-08-31 | Ready for user review | No | No | User review; then corrections and final legal, institutional, safeguarding, and evidence checks |
 | A11 Transformative megaprojects | Preliminary | Not started | Not ready | No | No | Build comparative scorecard |
@@ -449,3 +450,4 @@ These changes are approved or requested but must be implemented and tested in th
 - **2026-09-07:** Published A06, *Beyond the Car: How Sudan Should Rebuild Its Cities Around Public Transport*, in complete English and Arabic editions. Refreshed the reconstruction context, added an original Sudanese climate-adapted BRT cover, and preserved explicit requirements for post-war route, disability, demand and whole-life-cost evidence before any construction decision.
 - **2026-09-10:** Published A07, *Should Sudan Restore Its Independence Flag?*, in complete English and Arabic editions. Distinguished the December 2025 proposal from a completed legal change, added an original civic-consultation illustration, presented the strongest cases for and against restoration, and made an inclusive post-war constitutional process a condition of Kandaka's support.
 - **2026-09-11:** Restored standalone homepage article discovery without removing the slider. Added six chronological Latest Articles cards in both languages while excluding the slider's lead item; replaced horizontal mobile-menu scrolling with an accessible collapsible menu; shortened the mobile hero; strengthened slider text contrast; and enlarged its touch controls. Verified English and Arabic at 320px, 390px and desktop widths.
+- **2026-09-13:** Published A08, *Should Sudan Ever Change Its Country Name?*, in complete English and Arabic editions. Refreshed the UN/ISO and constitutional naming record, found no formal national renaming proposal in the authoritative sources reviewed, distinguished administrative English-name harmonization from a true rename, and added an original plural civic-consultation cover. Retained explicit gaps on public opinion, Sudanese-language scholarship, regional consultation, legal authority, and transition cost.
