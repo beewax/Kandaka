@@ -1,6 +1,6 @@
 ---
 category: International
-date: '2026-09-14T03:44:57Z'
+date: '2026-09-14T12:00:50Z'
 draft: false
 language: en
 link: https://www.bbc.co.uk/news/videos/c804pkymz2eo?at_medium=RSS&at_campaign=rss
