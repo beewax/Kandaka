@@ -20,7 +20,30 @@ slots to Sudan & the Nile. The remaining slots use a title only when its tags
 match the article. Unmatched slots fall back to the collection, so the actual
 collection share can exceed 75% while the vetted title catalogue is small.
 Explicit editorial placements override selection, but never eligibility.
+The current curated pairings produce 40 collection cards out of 52 placements
+(76.9%, counting English and Arabic pages). The validation script flags an
+actual share outside 70–80% for editorial review as articles are added.
 Translations share the same selection. No cookies or client-side scripts are used.
+
+## Verified contextual pairings (2026-09-13)
+
+All four added titles use existing Nile Book Store product cover URLs; no new
+covers were generated. Product descriptions, availability and prices were
+checked in the store's public product catalogue. Arabic products are explicitly
+identified as Arabic even on English pages, and vice versa.
+
+| Article | Title | Context | Price |
+| --- | --- | --- | --- |
+| Funj Sultanate | The Tabaqat of Wad Dayf Allah | Biographical source on scholars, saints and society in the Sennar/Funj period | Free |
+| Tackling Illiteracy | Al-Nisaiyat, Malak Hifni Nasif | A woman writer's essays on girls' education and women's social position | US$2.99 |
+| New Irrigation Canals; Water Paradox | Ten Days in Sudan, Muhammad Husayn Haykal | Historical observations of Sennar Dam's opening and Gezira irrigation | Free |
+| River Transportation | Khartoum and the Blue and White Niles, Volume II | Illustrated historical account of Nile travel and routes to Khartoum | US$0.99 |
+
+These are deliberately curated article mappings, rather than broad automatic
+matches on generic tags such as `women`, `development` or `history`. Future
+titles should receive similarly specific pairings. The Tabaqat card explains
+its fixed-layout format and tablet recommendation. Historical travel accounts
+are described as historical reading, not contemporary policy advice.
 
 Add verified titles under `offers` with `url`, `cover`, narrowly relevant `tags`,
 and `en`/`ar` copy containing `title`, `description`, `price`, `button` and `alt`.

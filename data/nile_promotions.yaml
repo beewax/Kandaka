@@ -9,7 +9,76 @@ collection: sudan-nile
 # Collection cards feature a real title; the displayed price belongs to that title.
 placements:
   history/kandaka-nubian-queens: meroe
+  history/funj-sultanate: tabaqat
+  ideas/illiteracy-sudan: nisaiyat
+  ideas/canals-irrigation-sudan: ten-days
+  ideas/water-paradox-sudan: ten-days
+  ideas/river-transportation-sudan: khartoum-niles
 offers:
+  tabaqat:
+    url: https://nilebookstore.com/products/tabaqat-wad-dayf-allah
+    cover: https://cdn.shopify.com/s/files/1/0802/4798/0280/files/tabaqat-wad-dayf-allah-cover_f32467ff-ca17-4b90-8bbd-547ba5035387.jpg?v=1787522113&width=320
+    verified: 2026-09-13
+    en:
+      title: The Tabaqat of Wad Dayf Allah
+      description: Lives of Sudanese scholars, poets and saints from the Funj era. Arabic fixed-layout EPUB preserving the 1930 edition; best on a tablet.
+      price: Free
+      button: View the free book
+      alt: Nile Book Store cover of The Tabaqat of Wad Dayf Allah
+    ar:
+      title: طبقات ود ضيف الله
+      description: تراجم علماء السودان وشعرائه وأوليائه في العهد السناري. EPUB عربي ثابت التخطيط يحفظ طبعة ١٩٣٠؛ تُفضّل قراءته على جهاز لوحي.
+      price: مجاني
+      button: اطّلع على الكتاب المجاني
+      alt: غلاف طبقات ود ضيف الله من مكتبة النيل
+  nisaiyat:
+    url: https://nilebookstore.com/products/النسائيات-ملك-حفني-ناصف
+    cover: https://cdn.shopify.com/s/files/1/0802/4798/0280/files/al-nisaiyat-malak-hifni-nasif-cover.png?v=1787866610&width=320
+    verified: 2026-09-13
+    en:
+      title: Al-Nisaiyat — Malak Hifni Nasif
+      description: A pioneering Arab woman writer on girls’ education and women’s place in society. Essays from 1910 in a reflowable Arabic EPUB.
+      price: US$2.99
+      button: View the book
+      alt: Nile Book Store cover of Al-Nisaiyat by Malak Hifni Nasif
+    ar:
+      title: النسائيات — ملك حفني ناصف
+      description: مقالات رائدة عن تعليم الفتيات ومكانة المرأة في المجتمع، من كتابات باحثة البادية سنة ١٩١٠. EPUB عربي مرن التنسيق.
+      price: ٢٫٩٩ دولار أمريكي
+      button: اطّلع على الكتاب
+      alt: غلاف النسائيات لملك حفني ناصف من مكتبة النيل
+  ten-days:
+    url: https://nilebookstore.com/products/عشرة-أيام-في-السودان-محمد-حسين-هيكل
+    cover: https://cdn.shopify.com/s/files/1/0802/4798/0280/files/unnamed_2210e7c9-89c6-4f39-83bf-e00e2d75a0f0.jpg?v=1787360505&width=320
+    verified: 2026-09-13
+    en:
+      title: Ten Days in Sudan — Muhammad Husayn Haykal
+      description: A historical visit to the opening of Sennar Dam, with observations on Gezira and Sudan’s irrigation projects. Arabic EPUB.
+      price: Free
+      button: View the free book
+      alt: Nile Book Store cover of Ten Days in Sudan
+    ar:
+      title: عشرة أيام في السودان — محمد حسين هيكل
+      description: رحلة تاريخية لحضور افتتاح خزان سنار، تضم مشاهدات عن الجزيرة ومشروعات الري في السودان. كتاب إلكتروني عربي بصيغة EPUB.
+      price: مجاني
+      button: اطّلع على الكتاب المجاني
+      alt: غلاف عشرة أيام في السودان من مكتبة النيل
+  khartoum-niles:
+    url: https://nilebookstore.com/products/khartoum-and-the-blue-and-white-niles-volume-ii
+    cover: https://cdn.shopify.com/s/files/1/0802/4798/0280/files/unnamed_22c60991-ebf3-4fe6-9c4b-6ceca51d61d5.jpg?v=1787358080&width=320
+    verified: 2026-09-13
+    en:
+      title: Khartoum and the Blue and White Niles, Volume II
+      description: George Melly’s illustrated account of travel to Khartoum and the meeting of the Niles in the early 1850s. English EPUB.
+      price: US$0.99
+      button: View the book
+      alt: Nile Book Store cover of Khartoum and the Blue and White Niles, Volume II
+    ar:
+      title: الخرطوم والنيلان الأزرق والأبيض — الجزء الثاني
+      description: رواية جورج ميلي المصوّرة لرحلته إلى الخرطوم وملتقى النيلين في أوائل خمسينيات القرن التاسع عشر. EPUB باللغة الإنجليزية.
+      price: ٠٫٩٩ دولار أمريكي
+      button: اطّلع على الكتاب
+      alt: غلاف الخرطوم والنيلين الأزرق والأبيض، الجزء الثاني، من مكتبة النيل
   sudan-nile:
     url: https://nilebookstore.com/collections/sudan-books-كتب-السودان
     cover: https://cdn.shopify.com/s/files/1/0802/4798/0280/files/cover-final.jpg?v=1787981830&width=320

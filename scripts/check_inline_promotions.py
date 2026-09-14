@@ -69,4 +69,25 @@ assert 'products/meroe-the-city-of-the-ethiopians?' in start
 assert 'From Nile Book Store' in start and 'من مكتبة النيل' in start
 assert 'cover-final.jpg' in start and 'US$2.99' in start
 assert total > 0
-print(f'Passed: {total} cards, {collections} collection placements; placement, exclusions and UTMs checked.')
+# Keep the actual editorial mix near the brief, not just the hash-slot setting.
+# Revisit curated pairings as the article catalogue grows.
+share = collections / total
+assert 0.70 <= share <= 0.80, f'Collection share {share:.1%} needs editorial review'
+pairings = {
+    'history/funj-sultanate': 'tabaqat-wad-dayf-allah',
+    'ideas/illiteracy-sudan': 'النسائيات-ملك-حفني-ناصف',
+    'ideas/canals-irrigation-sudan': 'عشرة-أيام-في-السودان-محمد-حسين-هيكل',
+    'ideas/water-paradox-sudan': 'عشرة-أيام-في-السودان-محمد-حسين-هيكل',
+    'ideas/river-transportation-sudan': 'khartoum-and-the-blue-and-white-niles-volume-ii',
+}
+from urllib.parse import unquote
+for language in ('', 'ar/'):
+    for article, handle in pairings.items():
+        page = Path(f'public/{language}{article}/index.html')
+        html = unquote(page.read_text(encoding='utf-8'))
+        assert f'/products/{handle}?' in html, page
+        if language:
+            assert 'dir=rtl' in html or 'dir="rtl"' in html, page
+        if handle in ('tabaqat-wad-dayf-allah', 'عشرة-أيام-في-السودان-محمد-حسين-هيكل'):
+            assert ('مجاني' if language else 'Free') in html, page
+print(f'Passed: {total} cards, {collections} collection placements ({share:.1%}); placement, exclusions, bilingual pairings and UTMs checked.')
