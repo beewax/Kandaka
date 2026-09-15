@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-09-15T20:55:59Z'
+date: '2026-09-15T23:27:33Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/expert-60-of-sudans-forests-lost-since-1990
