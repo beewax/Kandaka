@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-09-15T03:45:34Z'
+date: '2026-09-15T11:15:44Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/wfp-director-warns-sudan-aid-cuts-could-intensify-worlds-worst-hunger-crisis
