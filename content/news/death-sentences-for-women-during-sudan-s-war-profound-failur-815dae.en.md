@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-09-14T23:42:17Z'
+date: '2026-09-15T03:45:34Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/death-sentences-for-women-during-sudans-war-profound-failure-of-justice
