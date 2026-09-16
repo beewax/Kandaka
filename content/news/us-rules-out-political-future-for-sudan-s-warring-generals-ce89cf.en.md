@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-09-15T23:27:33Z'
+date: '2026-09-16T03:42:11Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/us-rules-out-political-future-for-sudans-warring-generals
