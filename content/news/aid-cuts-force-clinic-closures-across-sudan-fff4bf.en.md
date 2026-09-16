@@ -1,6 +1,6 @@
 ---
 category: International
-date: '2026-09-16T16:17:29Z'
+date: '2026-09-16T20:57:14Z'
 draft: false
 language: en
 link: http://www.france24.com/en/aid-cuts-force-clinic-closures-across-sudan

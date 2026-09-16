@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-09-16T16:17:26Z'
+date: '2026-09-16T20:57:11Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/south-darfur-to-offer-people-displaced-to-nyala-voluntary-return-to-north-darfur
