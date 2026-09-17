@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-09-16T23:35:49Z'
+date: '2026-09-17T03:47:28Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/south-darfurs-kalma-camp-faces-food-crisis-as-rains-and-crops-fail
