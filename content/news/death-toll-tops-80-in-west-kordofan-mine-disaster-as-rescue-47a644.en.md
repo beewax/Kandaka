@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-09-17T16:24:24Z'
+date: '2026-09-17T21:00:47Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/death-toll-tops-80-in-west-kordofan-mine-disaster-as-rescue-effort-falters
