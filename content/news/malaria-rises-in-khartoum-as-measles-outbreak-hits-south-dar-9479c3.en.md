@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-09-17T03:47:28Z'
+date: '2026-09-17T11:07:32Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/malaria-rises-in-khartoum-as-measles-outbreak-hits-south-darfur
