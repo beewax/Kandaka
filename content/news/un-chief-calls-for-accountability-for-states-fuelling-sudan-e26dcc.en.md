@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-09-18T10:41:55Z'
+date: '2026-09-18T15:57:24Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/un-chief-calls-for-accountability-for-states-fuelling-sudans-war
