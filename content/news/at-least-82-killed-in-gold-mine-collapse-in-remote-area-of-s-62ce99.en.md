@@ -1,6 +1,6 @@
 ---
 category: International
-date: '2026-09-18T20:31:00Z'
+date: '2026-09-18T23:04:12Z'
 draft: false
 language: en
 link: https://www.france24.com/en/africa/20260916-sudan-gold-mine-collapse-kills-at-least-67-people
