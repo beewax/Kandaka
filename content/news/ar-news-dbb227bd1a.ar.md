@@ -1,7 +1,7 @@
 ---
 category: Analysis
 clabel: تحليل
-date: '2026-09-17T21:01:12Z'
+date: '2026-09-18T03:34:18Z'
 draft: false
 language: ar
 link: https://aawsat.com/node/5319634
