@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-09-18T23:04:10Z'
+date: '2026-09-19T03:31:15Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/urgent-report-underlines-sudan-famine-risk-as-food-insecurity-worsens
