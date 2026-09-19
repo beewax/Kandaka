@@ -2,7 +2,7 @@
 
 > Persistent editorial and research tracker. This file records decisions, drafts, queues, source-acquisition work, website changes, and publication readiness. It does **not** authorize publication.
 
-**Last updated:** 2026-09-03
+**Last updated:** 2026-09-19
 **Publication rule:** Nothing may be translated, scheduled, committed as publishable content, or published without explicit approval of that specific article.  
 **Current overall state:** Planning and review only; no item in this file is approved for publication unless its `Approved` field is explicitly marked `Yes`.
 
@@ -255,6 +255,7 @@ These items were mentioned or queued but do not yet have fully established these
 | B12 | Sudanese Film / Film and Television | Culture | Not started | Not started | Not ready | No | No | Recover idea-bank notes and define the cultural/industry thesis |
 | B13 | Ijtihad and Sharia | Ideas | Not started | Not started | Not ready | No | No | Recover note and establish the precise question and evidentiary scope |
 | B14 | Sport as National Identity Beyond Wrestling | Culture | Partly covered in A03 | Not started | Not ready | No | No | Decide whether A03 is sufficient or whether a national sports-policy article is warranted |
+| B15 | Karanog and Dongola's Throne Hall: Two Monuments, One Nubian History | History | Academic audit complete 2026-09-19: 108 claims, 19 corrections, 27 sources; existing R2 source PDFs and nine repository images reconciled | Complete bilingual article; 21 linked source notes per language | Complete; conceptual cover disclosed; inaccurate cutaway withheld | Yes — user approved 2026-09-19 | Scheduled 2026-09-19 | Deploy the approved English and Arabic article and verify both live pages |
 
 ## Library analytical-summary queue
 
