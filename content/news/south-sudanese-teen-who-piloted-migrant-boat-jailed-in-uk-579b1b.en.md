@@ -1,7 +1,8 @@
 ---
 category: International
 date: '2026-09-19T15:29:23Z'
-draft: false
+draft: true
+exclusion_reason: South Sudan domestic story without substantive Sudan context
 language: en
 link: https://www.bbc.co.uk/news/articles/ck05rv764l0eo?at_medium=RSS&at_campaign=rss
 source: BBC Africa
