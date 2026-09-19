@@ -2,7 +2,8 @@
 category: Humanitarian
 clabel: إنساني
 date: '2026-08-11T06:43:26Z'
-draft: false
+draft: true
+exclusion_reason: south_sudan_domestic
 language: ar
 link: https://news.un.org/feed/view/ar/story/2026/08/1145142
 source: أخبار الأمم المتحدة

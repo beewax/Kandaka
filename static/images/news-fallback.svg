@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">Kandaka Sudan News</title>
+  <desc id="desc">Neutral Kandaka news card background in the colors of Sudan's independence flag.</desc>
+  <rect width="640" height="120" fill="#0F3DAB"/>
+  <rect y="120" width="640" height="120" fill="#FFEB00"/>
+  <rect y="240" width="640" height="120" fill="#009A3D"/>
+  <rect x="150" y="82" width="340" height="196" rx="18" fill="#111827" fill-opacity=".78"/>
+  <text x="320" y="165" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="42" font-weight="700">KANDAKA</text>
+  <text x="320" y="215" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="24">SUDAN NEWS</text>
+</svg>
