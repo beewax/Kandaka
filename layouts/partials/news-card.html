@@ -11,14 +11,12 @@
 {{- else if eq $cat "sudan news" }}{{- $badgeClass = "badge-sudan" }}
 {{- end }}
 <article class="k-news-card" role="listitem" data-source="{{ $p.Params.source_id }}" data-source-class="{{ $p.Params.source_class }}" data-category="{{ $p.Params.category }}">
+  {{- if and $p.Params.image $p.Params.media_reuse_basis }}
   <a class="k-news-media" href="{{ $p.Params.link | default $p.Permalink }}"{{ if $p.Params.link }} target="_blank" rel="noopener noreferrer"{{ end }} aria-label="{{ if $isAr }}فتح الخبر الأصلي{{ else }}Open original report{{ end }}">
-    {{- if and $p.Params.image $p.Params.media_reuse_basis }}
-    <img src="{{ $p.Params.image }}" alt="" width="640" height="360" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.closest('.k-news-media').classList.add('is-fallback');this.remove()">
-    {{- else }}
-    <img src="/images/news-fallback.svg" alt="" width="640" height="360" loading="lazy" decoding="async">
-    {{- end }}
+    <img src="{{ $p.Params.image }}" alt="" width="640" height="360" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.closest('.k-news-media').remove()">
     {{- if $p.Params.media_attribution }}<small>{{ $p.Params.media_attribution }}</small>{{- end }}
   </a>
+  {{- end }}
   {{- if $p.Params.category }}
   <span class="k-news-badge {{ $badgeClass }}">{{ if and $isAr $p.Params.clabel }}{{ $p.Params.clabel }}{{ else }}{{ $p.Params.category }}{{ end }}</span>
   {{- end }}
