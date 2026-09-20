@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-09-19T22:42:06Z'
+date: '2026-09-20T03:47:05Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/at-least-26-killed-82-injured-in-sudan-south-sudan-border-violence
