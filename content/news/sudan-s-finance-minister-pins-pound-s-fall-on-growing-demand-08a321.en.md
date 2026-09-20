@@ -1,6 +1,6 @@
 ---
 category: Sudan News
-date: '2026-09-20T03:47:05Z'
+date: '2026-09-20T10:46:49Z'
 draft: false
 language: en
 link: https://www.dabangasudan.org/en/all-news/article/sudans-finance-minister-pins-pounds-fall-on-growing-demand-for-us-dollars
