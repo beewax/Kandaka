@@ -1,11 +1,12 @@
 ---
 category: International
 date: '2026-08-25T03:49:00Z'
-draft: false
+draft: true
 language: en
 link: https://www.aljazeera.com/news/2026/8/24/ambush-in-south-sudan-kills-peacekeeping-troops?traffic_source=rss
 source: Al Jazeera English
 title: Ambush in South Sudan kills peacekeeping troops
+exclusion_reason: south_sudan_domestic
 ---
 
 Armed men injured three additional peacekeepers as fears grow of the country relapsing into civil war.

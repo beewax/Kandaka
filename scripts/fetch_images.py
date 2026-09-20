@@ -118,6 +118,8 @@ FLICKR_TAGS = ["sudan", "sudanese", "nubia", "nubian", "meroe", "khartoum"]  # m
 # relevance checks. Keep this separate from PHOTO_BLOCKLIST: these terms are
 # geographically out of scope, not editorially unsuitable subjects.
 SOUTH_SUDAN_PATTERNS = [
+    r"\b(?:s\.?\s*|sth\.?\s*|sud\s+)sudan(?:ese)?\b",
+    r"جنوب\s+السودان",
     r"\bsouth[\s_-]*sudan(?:ese)?\b",
     r"\bsouthern\s+sudan(?:ese)?\b",
     r"\brepublic\s+of\s+south\s+sudan\b",
@@ -203,6 +205,13 @@ def contains_term(text, terms, allow_suffix=False):
     suffix = "" if allow_suffix else r"\b"
     return any(re.search(r"\b" + re.escape(term) + suffix, text) for term in terms)
 
+def is_south_sudan_image(*parts):
+    text = urllib.parse.unquote(" ".join(str(part or "") for part in parts)).lower()
+    text = re.sub(r"[_-]+", " ", text)
+    text = re.sub(r"\s+", " ", text).strip()
+    return any(re.search(pattern, text) for pattern in SOUTH_SUDAN_PATTERNS) or contains_term(text, SOUTH_SUDAN_PLACES)
+
+
 def is_sudan_image_candidate(*parts, require_relevance=True):
     """Return True only for in-scope Sudan/Nubia/Kush image metadata.
 
@@ -213,9 +222,7 @@ def is_sudan_image_candidate(*parts, require_relevance=True):
     text = re.sub(r"[_-]+", " ", text)
     text = re.sub(r"\s+", " ", text).strip()
 
-    if any(re.search(pattern, text) for pattern in SOUTH_SUDAN_PATTERNS):
-        return False
-    if contains_term(text, SOUTH_SUDAN_PLACES):
+    if is_south_sudan_image(*parts):
         return False
     if contains_term(text, PHOTO_BLOCKLIST, allow_suffix=True):
         return False
@@ -886,6 +893,8 @@ def fetch_flickr():
 
 # ── WRITE HUGO CONTENT ────────────────────────────────────────────────────────
 def write_image_page(content_dir, image_data, index):
+    if is_south_sudan_image(image_data.get("title"), image_data.get("description"), image_data.get("source_url")):
+        return False
     images_dir = os.path.join(content_dir, "images")
     os.makedirs(images_dir, exist_ok=True)
 
@@ -950,6 +959,8 @@ def cleanup_old_images(content_dir, keep_days=30):
 # ── MAIN ──────────────────────────────────────────────────────────────────────
 def main():
     content_dir = os.path.join(os.path.dirname(__file__), "..", "content")
+    from quarantine_south_sudan import quarantine_content
+    quarantine_content(content_dir, sections=("images",))
 
     print("Fetching daily Sudan images...")
     print(f"Date seed: {today_seed()}")

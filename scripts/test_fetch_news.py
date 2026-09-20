@@ -7,6 +7,11 @@ import fetch_news
 
 
 class SudanRelevanceTests(unittest.TestCase):
+    def test_retains_bilateral_and_border_reporting(self):
+        for title in ("Sudan-South Sudan border violence", "اتفاق بين السودان وجنوب السودان على التعاون بقطاع التعدين", "جوبا تساهم في تحقيق سلام السودان"):
+            with self.subTest(title=title):
+                self.assertTrue(fetch_news.classify_sudan_relevance(title)[0])
+
     def test_rejects_south_sudan_domestic_story(self):
         self.assertFalse(fetch_news.classify_sudan_relevance("South Sudan election delayed in Juba")[0])
 
