@@ -1,0 +1,5 @@
+{{- $result := slice -}}
+{{- with index hugo.Data.news_feed .lang -}}
+  {{- $result = index . $.mode -}}
+{{- end -}}
+{{- return $result -}}

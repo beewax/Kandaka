@@ -25,10 +25,16 @@
   <p class="k-news-desc">{{ . | truncate 130 }}</p>
   {{- end }}
   <div class="k-news-context">
-    {{- with $p.Params.status }}<span>{{ . }}</span>{{- end }}
+    <time datetime="{{ $p.Date }}">{{ time.Format "02 Jan 2006" $p.Date }}</time>
+    {{- with $p.Params.status }}<span>{{ if $isAr }}{{ index (dict "Reporting" "تغطية صحفية" "Analysis" "تحليل" "Official statement" "بيان رسمي" "Institutional update" "تحديث مؤسسي") . | default . }}{{ else }}{{ . }}{{ end }}</span>{{- end }}
     {{- with $p.Params.geography }}<span>{{ delimit . " · " }}</span>{{- end }}
     <span>{{ upper ($p.Params.language | default $p.Lang) }}</span>
   </div>
+  {{- with $p.Params.related_sources }}
+  <details><summary>{{ if $isAr }}تغطية ذات صلة{{ else }}Related coverage{{ end }}</summary>
+    {{- range . }}<a href="{{ .link }}" target="_blank" rel="noopener noreferrer">{{ .source }}</a> {{- end }}
+  </details>
+  {{- end }}
   <div class="k-news-footer">
     <span>{{ if $p.Params.source }}{{ $p.Params.source }}{{ end }}</span>
     {{- if $p.Params.link }}

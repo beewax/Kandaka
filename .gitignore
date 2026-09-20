@@ -1,3 +1,4 @@
 public/ 
 api_key.txt 
 data/*.bak* 
+__pycache__/
