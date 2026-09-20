@@ -1,6 +1,6 @@
 ---
 category: Analysis
-date: '2026-09-20T10:46:52Z'
+date: '2026-09-20T15:34:54Z'
 draft: false
 language: en
 link: https://africanarguments.org/2026/09/what-south-sudans-mothers-teach-us-about-political-authority/?utm_source=rss&utm_medium=rss&utm_campaign=what-south-sudans-mothers-teach-us-about-political-authority
