@@ -694,33 +694,8 @@ html[data-theme="dark"] .badge-analysis { background: #431407; color: #fdba74; }
 {{- end }}
 
 {{/* ══════════════════ LATEST NEWS — bilingual 3+3 ══════════════════ */}}
-{{- $enPosts := slice }}
-{{- $arPosts := slice }}
-{{- $enSite := index (where hugo.Sites "Language.Lang" "en") 0 }}
-{{- $arSite := index (where hugo.Sites "Language.Lang" "ar") 0 }}
-{{/* EN posts: from EN site, exclude Arabic-script titles (misfiled posts) */}}
-{{- if $enSite }}
-  {{- range first 20 (where $enSite.RegularPages "Section" "news") }}
-    {{- if not (findRE `[\x{0600}-\x{06FF}]` .Title) }}
-      {{- $enPosts = $enPosts | append . }}
-    {{- end }}
-  {{- end }}
-{{- end }}
-{{/* AR posts: from AR site (properly filed .ar.md) + misfiled Arabic in EN site */}}
-{{- if $arSite }}
-  {{- range first 5 (where $arSite.RegularPages "Section" "news") }}
-    {{- $arPosts = $arPosts | append . }}
-  {{- end }}
-{{- end }}
-{{- if $enSite }}
-  {{- range first 20 (where $enSite.RegularPages "Section" "news") }}
-    {{- if findRE `[\x{0600}-\x{06FF}]` .Title }}
-      {{- $arPosts = $arPosts | append . }}
-    {{- end }}
-  {{- end }}
-{{- end }}
-{{- $enPosts = first 3 $enPosts }}
-{{- $arPosts = first 3 $arPosts }}
+{{- $enPosts := first 3 (partial "news-pages.html" (dict "lang" "en" "mode" "balanced")) }}
+{{- $arPosts := first 3 (partial "news-pages.html" (dict "lang" "ar" "mode" "balanced")) }}
 
 <section class="k-section" aria-labelledby="news-heading">
   <div class="k-section-head">

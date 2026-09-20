@@ -1,17 +1,12 @@
 {{- define "main" }}
-{{/* NOTE (August 2026): content/news/ now accumulates permanently (see CLAUDE.md
-     "News archive" section) instead of being wiped daily, so this list would otherwise
-     grow unbounded and make this page slower every day. Cap the display to the most
-     recent $newsListLimit articles per language (sorted newest-first) so the page stays
-     fast and readable. Older articles are NOT deleted and are NOT removed from the site --
-     they keep their own stable URLs, stay in sitemap.xml, and remain reachable by direct
-     link; they just age off this particular listing. (Separately, extend_head.html tags
-     articles older than 180 days noindex, so very old articles also drop out of Google's
-     index over time -- these two limits are independent and can be tuned separately.) */}}
-{{- $newsListLimit := 150 }}
-{{- $enPages := first $newsListLimit (sort (where .Site.RegularPages "Section" "news") "Date" "desc") }}
-{{- $arSite := index .Site.Sites 1 }}
-{{- $arPages := first $newsListLimit (sort (where $arSite.RegularPages "Section" "news") "Date" "desc") }}
+{{- $enPages := partial "news-pages.html" (dict "lang" "en" "mode" "balanced") }}
+{{- $arPages := partial "news-pages.html" (dict "lang" "ar" "mode" "balanced") }}
+<p>Recent coverage from a mix of publishers · تغطية حديثة من مصادر متنوعة</p>
+<label for="news-order">View / العرض</label>
+<select id="news-order" onchange="document.querySelectorAll('[data-feed-mode]').forEach(el => el.hidden = el.dataset.feedMode !== this.value)">
+  <option value="balanced">Balanced mix / مصادر متنوعة</option>
+  <option value="latest">Newest first / الأحدث أولاً</option>
+</select>
 <div class="news-filters">
   <button class="filter-btn active" onclick="filterNews('all', this)">All</button>
   <button class="filter-btn" onclick="filterNews('Sudan News', this)">Sudan News</button>
@@ -28,7 +23,7 @@
   <button class="filter-btn" onclick="filterNews('International', this)">International</button>
   <button class="filter-btn" onclick="filterNews('Official', this)">Official</button>
 </div>
-<div class="news-bilingual">
+<div class="news-bilingual" data-feed-mode="balanced">
   <div class="news-col news-col-en">
     <h2 class="news-col-title">ENGLISH</h2>
     {{- range $enPages }}
@@ -43,6 +38,18 @@
     {{- end }}
   </div>
 </div>
+<div class="news-bilingual" data-feed-mode="latest" hidden>
+  {{ range slice "en" "ar" }}
+  <div class="news-col" {{ if eq . "ar" }}dir="rtl"{{ end }}>
+    <h2 class="news-col-title">{{ if eq . "ar" }}العربية{{ else }}ENGLISH{{ end }}</h2>
+    {{ $lang := . }}
+    {{ range partial "news-pages.html" (dict "lang" . "mode" "latest") }}
+      {{ partial "news-card.html" (dict "page" . "isAr" (eq $lang "ar")) }}
+    {{ end }}
+  </div>
+  {{ end }}
+</div>
+<style>[data-feed-mode][hidden] { display: none !important; }</style>
 <style>
 .news-filters{display:flex;flex-wrap:wrap;gap:.4rem;margin:1.5rem auto 2rem;max-width:1200px;padding:0 1rem}
 .filter-btn{white-space:nowrap;padding:.4rem .9rem;border:1px solid var(--border);border-radius:20px;background:transparent;color:var(--secondary);font-size:.8rem;cursor:pointer;transition:all .2s}
