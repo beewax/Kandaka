@@ -85,6 +85,10 @@ def classify_sudan_relevance(title: str, description: str = "") -> tuple[bool, s
     text = clean_text(f"{title} {description}").lower()
     south = any(term in text for term in SOUTH_SUDAN_TERMS)
     strong_sudan = any(term in text for term in SUDAN_CONTEXT_TERMS)
+    # A separate Sudan mention retains bilateral/border reporting, including
+    # Arabic stories that do not name one of our listed cities or officials.
+    without_south = re.sub(r"south\s+sudan(?:ese)?|جنوب\s+(?:السودان|سوداني\w*)", "", text)
+    strong_sudan = strong_sudan or bool(re.search(r"\b(?:sudan(?:ese)?|السودان\w*|سوداني\w*)\b", without_south))
     general_sudan = any(term in text for term in SUDAN_TERMS + SUDAN_AR_TERMS)
     if south and not strong_sudan:
         return False, "south_sudan_domestic"
@@ -252,6 +256,8 @@ def write_candidate(candidate: dict, content_dir: Path = CONTENT_DIR) -> Path:
 
 
 def main() -> int:
+    from quarantine_south_sudan import quarantine_content
+    quarantine_content(ROOT / "content")
     sources, candidates, failures, rejected = load_sources(), [], [], 0
     enabled = [s for s in sources if s["enabled"]]
     print(f"Fetching {len(enabled)} enabled sources ({len(sources)} registered)...")

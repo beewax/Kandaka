@@ -7,6 +7,11 @@ import fetch_images
 
 
 class SudanImageCandidateTests(unittest.TestCase):
+    def test_rejects_abbreviations_and_encoded_source_metadata(self):
+        for title in ("Cleaning Fish, Sth Sudan", "Cattle, S. Sudan", "S.Sudan", "S Sudan", "Sth. Sudan", "File:Fish%2C_Sth_Sudan.jpg", "جنوب السودان"):
+            with self.subTest(title=title):
+                self.assertFalse(fetch_images.is_sudan_image_candidate(title))
+
     def test_rejects_explicit_south_sudan(self):
         self.assertFalse(fetch_images.is_sudan_image_candidate(
             "Market day in Juba, South Sudan", "sudan africa street"
