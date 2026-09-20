@@ -1,7 +1,8 @@
 ---
 category: International
 date: '2026-08-08T06:30:13Z'
-draft: false
+draft: true
+exclusion_reason: south_sudan_domestic
 language: en
 link: https://www.aljazeera.com/news/2026/8/8/us-courts-clear-way-for-deportations-of-south-sudan-myanmar-nationals?traffic_source=rss
 source: Al Jazeera English

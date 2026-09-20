@@ -1,0 +1,32 @@
+# Kandaka Sudan News Hub source registry — Phase 1
+# Disabled entries are approved discovery sources still awaiting a permitted feed/API.
+sources:
+  - {id: dabanga-en, name: Radio Dabanga, url: "https://www.dabangasudan.org/en/feed", lang: en, source_class: sudanese_journalism, default_topic: Sudan News, filter: false, max_items: 8, enabled: true, media_policy: rss_metadata}
+  - {id: sudan-tribune-en, name: Sudan Tribune, url: "https://sudantribune.net/feed", lang: en, source_class: sudanese_journalism, default_topic: Sudan News, filter: false, max_items: 8, enabled: true, media_policy: rss_metadata}
+  - {id: ayin-en, name: Ayin Network, url: "https://3ayin.com/en/feed/", lang: en, source_class: sudanese_journalism, default_topic: Sudan News, filter: false, max_items: 8, enabled: true, media_policy: rss_metadata}
+  - {id: suna-en, name: SUNA English, url: "https://suna-sd.net/en/feed", lang: en, source_class: official, default_topic: Official, filter: false, max_items: 5, enabled: true, media_policy: rss_metadata}
+  - {id: reliefweb-sudan, name: ReliefWeb Sudan, url: "https://reliefweb.int/country/sdn/feed", lang: en, source_class: humanitarian, default_topic: Humanitarian, filter: false, max_items: 5, enabled: true, media_policy: rss_metadata}
+  - {id: bbc-africa, name: BBC Africa, url: "https://feeds.bbci.co.uk/news/world/africa/rss.xml", lang: en, source_class: international_journalism, default_topic: International, filter: true, max_items: 30, enabled: true, media_policy: rss_metadata}
+  - {id: aljazeera-en, name: Al Jazeera English, url: "https://www.aljazeera.com/xml/rss/all.xml", lang: en, source_class: international_journalism, default_topic: International, filter: true, max_items: 30, enabled: true, media_policy: rss_metadata}
+  - {id: guardian-world, name: The Guardian, url: "https://www.theguardian.com/world/rss", lang: en, source_class: international_journalism, default_topic: International, filter: true, max_items: 30, enabled: true, media_policy: rss_metadata}
+  - {id: france24-africa, name: France 24 Africa, url: "https://www.france24.com/en/africa/rss", lang: en, source_class: international_journalism, default_topic: International, filter: true, max_items: 30, enabled: true, media_policy: rss_metadata}
+  - {id: dw-africa, name: Deutsche Welle Africa, url: "https://rss.dw.com/rdf/rss-en-africa", lang: en, source_class: international_journalism, default_topic: International, filter: true, max_items: 30, enabled: true, media_policy: rss_metadata}
+  - {id: african-arguments, name: African Arguments, url: "https://africanarguments.org/feed/", lang: en, source_class: analysis, default_topic: Analysis, filter: true, max_items: 30, enabled: true, media_policy: rss_metadata}
+  - {id: crisis-group-africa, name: International Crisis Group, url: "https://www.crisisgroup.org/rss/africa.xml", lang: en, source_class: analysis, default_topic: Analysis, filter: true, max_items: 30, enabled: true, media_policy: rss_metadata}
+  - {id: rift-valley, name: Rift Valley Institute, url: "https://riftvalley.net/feed", lang: en, source_class: research, default_topic: Analysis, filter: true, max_items: 30, enabled: true, media_policy: rss_metadata}
+  - {id: un-news-en, name: UN News, url: "https://news.un.org/feed/subscribe/en/news/region/africa/feed/rss.xml", lang: en, source_class: international_institution, default_topic: Humanitarian, filter: true, max_items: 20, enabled: true, media_policy: rss_metadata}
+  - {id: dabanga-ar, name: راديو دبنقا, url: "https://www.dabangasudan.org/ar/feed", lang: ar, source_class: sudanese_journalism, default_topic: Sudan News, filter: false, max_items: 8, enabled: true, media_policy: rss_metadata}
+  - {id: alrakoba-ar, name: الراكوبة, url: "https://www.alrakoba.net/feed/", lang: ar, source_class: sudanese_journalism, default_topic: Sudan News, filter: false, max_items: 8, enabled: true, media_policy: rss_metadata}
+  - {id: sudaneseonline-ar, name: سودانيز أونلاين, url: "https://www.sudaneseonline.com/feed/", lang: ar, source_class: sudanese_diaspora, default_topic: Sudan News, filter: false, max_items: 6, enabled: true, media_policy: rss_metadata}
+  - {id: suna-ar, name: سونا, url: "https://suna-sd.net/ar/feed", lang: ar, source_class: official, default_topic: Official, filter: false, max_items: 5, enabled: true, media_policy: rss_metadata}
+  - {id: aljazeera-ar, name: الجزيرة, url: "https://www.aljazeera.net/xml/rss/all.xml", lang: ar, source_class: regional_journalism, default_topic: International, filter: true, max_items: 30, enabled: true, media_policy: rss_metadata}
+  - {id: bbc-ar, name: بي بي سي عربي, url: "https://feeds.bbci.co.uk/arabic/rss.xml", lang: ar, source_class: international_journalism, default_topic: International, filter: true, max_items: 30, enabled: true, media_policy: rss_metadata}
+  - {id: france24-ar, name: فرانس 24 عربي, url: "https://www.france24.com/ar/rss", lang: ar, source_class: international_journalism, default_topic: International, filter: true, max_items: 30, enabled: true, media_policy: rss_metadata}
+  - {id: dw-ar, name: DW عربي, url: "https://rss.dw.com/rdf/rss-ara-all", lang: ar, source_class: international_journalism, default_topic: International, filter: true, max_items: 30, enabled: true, media_policy: rss_metadata}
+  - {id: alaraby-ar, name: العربي الجديد, url: "https://www.alaraby.co.uk/rss.xml", lang: ar, source_class: regional_journalism, default_topic: Analysis, filter: true, max_items: 30, enabled: true, media_policy: rss_metadata}
+  - {id: un-news-ar, name: أخبار الأمم المتحدة, url: "https://news.un.org/feed/subscribe/ar/news/all/rss.xml", lang: ar, source_class: international_institution, default_topic: Humanitarian, filter: true, max_items: 20, enabled: true, media_policy: rss_metadata}
+  # Social sources stay disabled until Phase 3 supplies a permitted API/embed and review queue.
+  - {id: x-yousra-elbagir, name: Yousra Elbagir, lang: en, source_class: reporter_social, enabled: false, media_policy: platform_embed_only}
+  - {id: x-hiba-morgan, name: Hiba Morgan, lang: en, source_class: reporter_social, enabled: false, media_policy: platform_embed_only}
+  - {id: x-kholood-khair, name: Kholood Khair, lang: en, source_class: analyst_social, enabled: false, media_policy: platform_embed_only}
+  - {id: x-sudan-war-monitor, name: Sudan War Monitor, lang: en, source_class: osint, enabled: false, media_policy: platform_embed_only}
