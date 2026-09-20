@@ -2,7 +2,7 @@
 
 > Persistent editorial and research tracker. This file records decisions, drafts, queues, source-acquisition work, website changes, and publication readiness. It does **not** authorize publication.
 
-**Last updated:** 2026-09-03
+**Last updated:** 2026-09-19
 **Publication rule:** Nothing may be translated, scheduled, committed as publishable content, or published without explicit approval of that specific article.  
 **Current overall state:** Planning and review only; no item in this file is approved for publication unless its `Approved` field is explicitly marked `Yes`.
 
@@ -197,16 +197,17 @@ Approval of one article never approves another. If an article is not ready or ap
 
 ### A09 — How Can You Actually Help Sudan? Following Aid From Donation to Delivery
 
-- **Category/tags:** News or Ideas; humanitarian aid, accountability, practical guide
+- **Category/tags:** Ideas; humanitarian aid, accountability, practical guide
 - **Priority:** High practical value; must be current at publication
-- **Research:** Substantive organization-by-organization audit completed 2026-08-31; donation-link, MASC/P2H, SAPA audit, restriction, women-led group, safeguarding, community-review, and image checks listed in draft; full refresh still required at publication
-- **Draft:** Clean English review draft completed 2026-08-31 at `deliverables/articles/A09-help-sudan-aid-delivery-review-draft.md`
-- **Review:** Ready for user review
-- **Approved:** No
-- **Published:** No
+- **Research:** Publication-day refresh completed 2026-09-19 across MASC/P2H, SAPA/IRS, WFP, UNICEF, ICRC, MSF, UNHCR and UNFPA; all cited operational and donation pages rechecked; independent delivery audit, community review, women-led-organization expansion and monthly link monitoring remain disclosed gaps
+- **Draft:** Complete English and Arabic publication editions dated 2026-09-19
+- **Review:** Publication authorized by user 2026-09-01; later corrections remain welcome
+- **Approved:** Yes - 2026-09-01
+- **Published:** Yes - 2026-09-19, English and Arabic
 - **Core thesis:** Readers need a transparent, evidence-based guide to getting money and assistance to Sudan, evaluating both Sudanese grassroots organizations/Emergency Response Rooms and international organizations by delivery rather than brand recognition.
 - **Requirements:** Evaluate financial transparency, program share, verified Sudan operations, local partnerships, geographic reach, safe money transfer, sanctions/compliance constraints, independent reporting, and evidence of delivery. Organize by food, medical care, shelter, displaced families, children/orphans and alternative family care, women and survivors of sexual violence, education, water/sanitation, and direct/community aid. Do not label an organization trustworthy without current verification. Clearly date the research and explain uncertainty/access limitations.
-- **Next action:** User reviews the English draft. Apply requested changes, then complete the listed organization, financial, donation-routing, safeguarding, community, and image checks; refresh every listing immediately before publication.
+- **Image:** Original commissioned accountability-chain illustration added 2026-09-19; adults only, no identified recipients or survivors, no charity logos, and explicitly labelled symbolic rather than documentary.
+- **Next action:** Verify both live language pages, shared image, metadata and Ideas listing; run monthly link/status checks and incorporate later financial, safeguarding and community corrections.
 
 ### A10 — Women, Children and Security: Does Sudan Need a Specialized Protection Police Service?
 
@@ -255,6 +256,7 @@ These items were mentioned or queued but do not yet have fully established these
 | B12 | Sudanese Film / Film and Television | Culture | Not started | Not started | Not ready | No | No | Recover idea-bank notes and define the cultural/industry thesis |
 | B13 | Ijtihad and Sharia | Ideas | Not started | Not started | Not ready | No | No | Recover note and establish the precise question and evidentiary scope |
 | B14 | Sport as National Identity Beyond Wrestling | Culture | Partly covered in A03 | Not started | Not ready | No | No | Decide whether A03 is sufficient or whether a national sports-policy article is warranted |
+| B15 | Karanog and Dongola's Throne Hall: Two Monuments, One Nubian History | History | Academic audit complete 2026-09-19: 108 claims, 19 corrections, 27 sources; existing R2 source PDFs and nine repository images reconciled | Complete bilingual article; 21 linked source notes per language | Complete; conceptual cover disclosed; inaccurate cutaway withheld | Yes — user approved 2026-09-19 | Yes 2026-09-19 | Live English and Arabic pages verified; 21 source notes per language, eight images, reciprocal language links and share metadata |
 
 ## Library analytical-summary queue
 
@@ -429,7 +431,7 @@ These changes are approved or requested but must be implemented and tested in th
 | A06 Public transport/urban planning | Refreshed 2026-09-07; route-specific limitations disclosed | Complete in English and Arabic | Publication authorized; later corrections welcome | Yes 2026-09-01 | Yes 2026-09-07 | Verify live pages; monitor reconstruction tenders and community feedback |
 | A07 Independence flag | Refreshed 2026-09-10; archival and legal gaps disclosed | Complete in English and Arabic | Publication authorized; later corrections welcome | Yes 2026-09-01 | Yes 2026-09-10 | Verify live pages; monitor formal legal action and later review |
 | A08 Country-name question | Refreshed 2026-09-13; present-status and research limitations disclosed | Complete in English and Arabic | Publication authorized; later corrections welcome | Yes 2026-09-01 | Yes 2026-09-13 | Verify live pages; incorporate later linguistic, legal and community review |
-| A09 Trustworthy aid/delivery | Substantive audit complete 2026-08-31; publication refresh and final checks listed | Clean English review draft complete 2026-08-31 | Ready for user review | No | No | User review; then corrections, final verification, and publication-day refresh |
+| A09 Trustworthy aid/delivery | Refreshed 2026-09-19 across every included channel; limitations disclosed | Complete in English and Arabic | Publication authorized; later corrections welcome | Yes 2026-09-01 | Yes 2026-09-19 | Verify live pages; begin monthly link/status monitoring |
 | A10 Women/children protection service | Substantive review complete 2026-08-31; final checks listed | Clean English review draft complete 2026-08-31 | Ready for user review | No | No | User review; then corrections and final legal, institutional, safeguarding, and evidence checks |
 | A11 Transformative megaprojects | Preliminary | Not started | Not ready | No | No | Build comparative scorecard |
 | L01 Uranium in Sudan | Source reviewed | Not started | Not ready | No | No | Reconcile file/catalog metadata and summarize |
@@ -451,3 +453,5 @@ These changes are approved or requested but must be implemented and tested in th
 - **2026-09-10:** Published A07, *Should Sudan Restore Its Independence Flag?*, in complete English and Arabic editions. Distinguished the December 2025 proposal from a completed legal change, added an original civic-consultation illustration, presented the strongest cases for and against restoration, and made an inclusive post-war constitutional process a condition of Kandaka's support.
 - **2026-09-11:** Restored standalone homepage article discovery without removing the slider. Added six chronological Latest Articles cards in both languages while excluding the slider's lead item; replaced horizontal mobile-menu scrolling with an accessible collapsible menu; shortened the mobile hero; strengthened slider text contrast; and enlarged its touch controls. Verified English and Arabic at 320px, 390px and desktop widths.
 - **2026-09-13:** Published A08, *Should Sudan Ever Change Its Country Name?*, in complete English and Arabic editions. Refreshed the UN/ISO and constitutional naming record, found no formal national renaming proposal in the authoritative sources reviewed, distinguished administrative English-name harmonization from a true rename, and added an original plural civic-consultation cover. Retained explicit gaps on public opinion, Sudanese-language scholarship, regional consultation, legal authority, and transition cost.
+- **2026-09-19:** Published B15, *Karanog and Dongola's Throne Hall: Two Monuments, One Nubian History*, in English and Arabic through [PR #9](https://github.com/beewax/Kandaka/pull/9). Applied the academic audit and verified both live pages, History listings, 21 source notes per language, all eight active images, reciprocal language links and sharing metadata. The inaccurate architectural cutaway remains withheld.
+- **2026-09-19:** Published A09, *How Can You Actually Help Sudan?*, in complete English and Arabic editions. Rechecked every included organization and official donation route, replaced permanent trust labels with dated evidence levels, distinguished delivery inside Sudan from regional refugee support and unrestricted global giving, disclosed audit and access limits, and added an original privacy-conscious accountability illustration.
