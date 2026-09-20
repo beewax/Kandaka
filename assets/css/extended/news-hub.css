@@ -28,10 +28,6 @@
   right: 6px;
 }
 
-.k-news-media.is-fallback {
-  background: url("/images/news-fallback.svg") center / cover no-repeat;
-}
-
 .k-news-context {
   display: flex;
   flex-wrap: wrap;
