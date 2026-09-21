@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-20T23:02:20.124194+00:00",
+  "updated": "2026-09-21T03:43:12.707396+00:00",
   "sources": [
     {
       "id": "dabanga-en",
@@ -60,9 +60,9 @@
     {
       "id": "un-news-en",
       "language": "en",
-      "status": "invalid_feed",
-      "items": 0,
-      "accepted": 0
+      "status": "ok",
+      "items": 30,
+      "accepted": 7
     },
     {
       "id": "dabanga-ar",
@@ -89,8 +89,8 @@
       "id": "alaraby-ar",
       "language": "ar",
       "status": "ok",
-      "items": 146,
-      "accepted": 4
+      "items": 151,
+      "accepted": 5
     },
     {
       "id": "un-news-ar",
@@ -160,7 +160,7 @@
       "language": "ar",
       "status": "ok",
       "items": 12,
-      "accepted": 6
+      "accepted": 7
     }
   ]
 }
