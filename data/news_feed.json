@@ -1,8 +1,32 @@
 {
-  "updated": "2026-09-22T20:57:55.680412+00:00",
+  "updated": "2026-09-22T23:33:44.963773+00:00",
   "window_days": 30,
   "en": {
     "balanced": [
+      {
+        "Title": "US vows to ‘raise the cost’ of Sudan war",
+        "Lang": "en",
+        "Date": "2026-09-22T22:53:28+00:00",
+        "Permalink": "https://www.radiotamazuj.org/en/news/article/us-vows-to-raise-the-cost-of-sudan-war",
+        "Params": {
+          "description": "The United States says it will seek to “raise the cost” of continued fighting in The post US vows to ‘raise the cost’ of Sudan war appeared first on Radio Tamazuj .",
+          "source": "Radio Tamazuj",
+          "source_id": "tamazuj-en",
+          "source_class": "regional_journalism",
+          "link": "https://www.radiotamazuj.org/en/news/article/us-vows-to-raise-the-cost-of-sudan-war",
+          "status": "Reporting",
+          "geography": [
+            "National"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "War & Security",
+          "clabel": "الحرب والأمن",
+          "language": "en",
+          "media_attribution": "Radio Tamazuj"
+        }
+      },
       {
         "Title": "US refusing to give Sudan's de facto leader visa for UN",
         "Lang": "en",
@@ -25,30 +49,6 @@
           "clabel": "تعليم",
           "language": "en",
           "media_attribution": "France 24 Africa"
-        }
-      },
-      {
-        "Title": "Peaceful coexistence conference brings together 41 tribes in South Darfur",
-        "Lang": "en",
-        "Date": "2026-09-22T10:53:52+00:00",
-        "Permalink": "https://www.radiotamazuj.org/en/news/article/peaceful-coexistence-conference-brings-together-41-tribes-in-south-darfur",
-        "Params": {
-          "description": "At least 41 tribes residing in the Kafia Kingi area, located 390 kilometers south of The post Peaceful coexistence conference brings together 41 tribes in South Darfur appeared first on Radio Tamazuj .",
-          "source": "Radio Tamazuj",
-          "source_id": "tamazuj-en",
-          "source_class": "regional_journalism",
-          "link": "https://www.radiotamazuj.org/en/news/article/peaceful-coexistence-conference-brings-together-41-tribes-in-south-darfur",
-          "status": "Reporting",
-          "geography": [
-            "Darfur"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "Sudan News",
-          "clabel": "أخبار السودان",
-          "language": "en",
-          "media_attribution": "Radio Tamazuj"
         }
       },
       {
@@ -196,25 +196,25 @@
         }
       },
       {
-        "Title": "Blue Nile IDPs with disabilities face challenges accessing aid, services",
+        "Title": "Peaceful coexistence conference brings together 41 tribes in South Darfur",
         "Lang": "en",
-        "Date": "2026-09-22T06:40:06+00:00",
-        "Permalink": "https://www.radiotamazuj.org/en/news/article/blue-nile-idps-with-disabilities-face-challenges-accessing-aid-services",
+        "Date": "2026-09-22T10:53:52+00:00",
+        "Permalink": "https://www.radiotamazuj.org/en/news/article/peaceful-coexistence-conference-brings-together-41-tribes-in-south-darfur",
         "Params": {
-          "description": "In displacement centers across Sudan’s Blue Nile region, the suffering of displaced people does not The post Blue Nile IDPs with disabilities face challenges accessing aid, services appeared first on Radio Tamazuj .",
+          "description": "At least 41 tribes residing in the Kafia Kingi area, located 390 kilometers south of The post Peaceful coexistence conference brings together 41 tribes in South Darfur appeared first on Radio Tamazuj .",
           "source": "Radio Tamazuj",
           "source_id": "tamazuj-en",
           "source_class": "regional_journalism",
-          "link": "https://www.radiotamazuj.org/en/news/article/blue-nile-idps-with-disabilities-face-challenges-accessing-aid-services",
+          "link": "https://www.radiotamazuj.org/en/news/article/peaceful-coexistence-conference-brings-together-41-tribes-in-south-darfur",
           "status": "Reporting",
           "geography": [
-            "Blue Nile"
+            "Darfur"
           ],
           "image": "",
           "media_reuse_basis": "",
           "related_sources": [],
-          "category": "Humanitarian",
-          "clabel": "إنساني",
+          "category": "Sudan News",
+          "clabel": "أخبار السودان",
           "language": "en",
           "media_attribution": "Radio Tamazuj"
         }
@@ -340,6 +340,30 @@
         }
       },
       {
+        "Title": "RSF seizes another strategic army garrison in Blue Nile",
+        "Lang": "en",
+        "Date": "2026-09-17T08:37:41+00:00",
+        "Permalink": "https://sudanwarmonitor.com/p/rsf-seizes-another-strategic-army-garrison-in-blue-nile",
+        "Params": {
+          "description": "The Rapid Support Forces (RSF) has seized another strategic Sudanese army garrison in Blue Nile state after heavy fighting around Jabal Kadam, extending a series of recent advances by the paramilitary force and its allies along Sudan’s southeastern front.",
+          "source": "Sudan War Monitor",
+          "source_id": "sudan-war-monitor",
+          "source_class": "analysis",
+          "link": "https://sudanwarmonitor.com/p/rsf-seizes-another-strategic-army-garrison-in-blue-nile",
+          "status": "Analysis",
+          "geography": [
+            "Blue Nile"
+          ],
+          "image": "https://substackcdn.com/image/fetch/$s_!8xTm!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F382428c2-beac-498a-8567-d40cbc2fd8b6_2430x1478.png",
+          "media_reuse_basis": "rss_metadata",
+          "related_sources": [],
+          "category": "War & Security",
+          "clabel": "الحرب والأمن",
+          "language": "en",
+          "media_attribution": "Sudan War Monitor"
+        }
+      },
+      {
         "Title": "Curse of the Nile’s gold: how Sudan is losing its fertile fields and ability to produce food",
         "Lang": "en",
         "Date": "2026-09-11T11:00:03+00:00",
@@ -362,30 +386,6 @@
           "clabel": "اقتصاد",
           "language": "en",
           "media_attribution": "The Guardian"
-        }
-      },
-      {
-        "Title": "RSF seizes another strategic army garrison in Blue Nile",
-        "Lang": "en",
-        "Date": "2026-09-17T08:37:41+00:00",
-        "Permalink": "https://sudanwarmonitor.com/p/rsf-seizes-another-strategic-army-garrison-in-blue-nile",
-        "Params": {
-          "description": "The Rapid Support Forces (RSF) has seized another strategic Sudanese army garrison in Blue Nile state after heavy fighting around Jabal Kadam, extending a series of recent advances by the paramilitary force and its allies along Sudan’s southeastern front.",
-          "source": "Sudan War Monitor",
-          "source_id": "sudan-war-monitor",
-          "source_class": "analysis",
-          "link": "https://sudanwarmonitor.com/p/rsf-seizes-another-strategic-army-garrison-in-blue-nile",
-          "status": "Analysis",
-          "geography": [
-            "Blue Nile"
-          ],
-          "image": "https://substackcdn.com/image/fetch/$s_!8xTm!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F382428c2-beac-498a-8567-d40cbc2fd8b6_2430x1478.png",
-          "media_reuse_basis": "rss_metadata",
-          "related_sources": [],
-          "category": "War & Security",
-          "clabel": "الحرب والأمن",
-          "language": "en",
-          "media_attribution": "Sudan War Monitor"
         }
       },
       {
@@ -582,6 +582,30 @@
       }
     ],
     "latest": [
+      {
+        "Title": "US vows to ‘raise the cost’ of Sudan war",
+        "Lang": "en",
+        "Date": "2026-09-22T22:53:28+00:00",
+        "Permalink": "https://www.radiotamazuj.org/en/news/article/us-vows-to-raise-the-cost-of-sudan-war",
+        "Params": {
+          "description": "The United States says it will seek to “raise the cost” of continued fighting in The post US vows to ‘raise the cost’ of Sudan war appeared first on Radio Tamazuj .",
+          "source": "Radio Tamazuj",
+          "source_id": "tamazuj-en",
+          "source_class": "regional_journalism",
+          "link": "https://www.radiotamazuj.org/en/news/article/us-vows-to-raise-the-cost-of-sudan-war",
+          "status": "Reporting",
+          "geography": [
+            "National"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "War & Security",
+          "clabel": "الحرب والأمن",
+          "language": "en",
+          "media_attribution": "Radio Tamazuj"
+        }
+      },
       {
         "Title": "US refusing to give Sudan's de facto leader visa for UN",
         "Lang": "en",
@@ -4165,36 +4189,84 @@
           "language": "en",
           "media_attribution": "Radio Dabanga"
         }
-      },
-      {
-        "Title": "Port Sudan detainees launch hunger strike over ‘endless’ trial delays",
-        "Lang": "en",
-        "Date": "2026-08-26T09:41:33+00:00",
-        "Permalink": "https://www.dabangasudan.org/en/all-news/article/port-sudan-detainees-launch-hunger-strike-over-endless-trial-delays-2",
-        "Params": {
-          "description": "",
-          "source": "Radio Dabanga",
-          "source_id": "dabanga-en",
-          "source_class": "sudanese_journalism",
-          "link": "https://www.dabangasudan.org/en/all-news/article/port-sudan-detainees-launch-hunger-strike-over-endless-trial-delays-2",
-          "status": "Reporting",
-          "geography": [
-            "Red Sea"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "Humanitarian",
-          "clabel": "إنساني",
-          "language": "en",
-          "media_attribution": "Radio Dabanga"
-        }
       }
     ],
     "publishers": 12
   },
   "ar": {
     "balanced": [
+      {
+        "Title": "الخارجية الأمريكية: طرفا الحرب في السودان لا يملكان شرعية دستورية للحكم",
+        "Lang": "ar",
+        "Date": "2026-09-22T22:56:07+00:00",
+        "Permalink": "https://www.altaghyeer.info/ar/2026/09/23/%d8%a7%d9%84%d8%ae%d8%a7%d8%b1%d8%ac%d9%8a%d8%a9-%d8%a7%d9%84%d8%a3%d9%85%d8%b1%d9%8a%d9%83%d9%8a%d8%a9-%d8%b7%d8%b1%d9%81%d8%a7-%d8%a7%d9%84%d8%ad%d8%b1%d8%a8-%d9%81%d9%8a-%d8%a7%d9%84%d8%b3%d9%88",
+        "Params": {
+          "description": "شددت وزارة الخارجية الأمريكية على أن طرفي الحرب في السودان ” القوات المسلحة السودانية” و”قوات الدعم السريع، إلى جانب قادة الطرفين”، لا يمثلون حكماً شرعياً ودستورياً للبلاد. الخرطوم ــ التغيير وقالت وزارة الخارجية الأمريكية في بيان إن الولايات المتحدة ترفع الكلفة على “جميع الأطراف والشبكات” التي تسهم في استمرار الحرب، مؤكدة استعدادها، إلى جانب الرئيس …",
+          "source": "التغيير",
+          "source_id": "altaghyeer-ar",
+          "source_class": "sudanese_journalism",
+          "link": "https://www.altaghyeer.info/ar/2026/09/23/%d8%a7%d9%84%d8%ae%d8%a7%d8%b1%d8%ac%d9%8a%d8%a9-%d8%a7%d9%84%d8%a3%d9%85%d8%b1%d9%8a%d9%83%d9%8a%d8%a9-%d8%b7%d8%b1%d9%81%d8%a7-%d8%a7%d9%84%d8%ad%d8%b1%d8%a8-%d9%81%d9%8a-%d8%a7%d9%84%d8%b3%d9%88",
+          "status": "Reporting",
+          "geography": [
+            "Khartoum"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "War & Security",
+          "clabel": "الحرب والأمن",
+          "language": "ar",
+          "media_attribution": "التغيير"
+        }
+      },
+      {
+        "Title": "لماذا يسعى السودانيون لاستخراج الذهب برغم المخاطر العالية؟",
+        "Lang": "ar",
+        "Date": "2026-09-22T21:03:06+00:00",
+        "Permalink": "https://www.bbc.com/arabic/articles/cvwyzdegr5y5o?at_medium=RSS&at_campaign=rss",
+        "Params": {
+          "description": "في ظل الأزمة الاقتصادية وتراجع مصادر الدخل، يتجه كثير من السودانيين إلى استخراج الذهب باعتباره فرصة سريعة لكسب المال وتأمين لقمة العيش، رغم المخاطر.",
+          "source": "بي بي سي عربي",
+          "source_id": "bbc-ar",
+          "source_class": "international_journalism",
+          "link": "https://www.bbc.com/arabic/articles/cvwyzdegr5y5o?at_medium=RSS&at_campaign=rss",
+          "status": "Reporting",
+          "geography": [
+            "National"
+          ],
+          "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/79c4/live/af352650-b6c3-11f1-8a9f-c7141bd7738d.jpg",
+          "media_reuse_basis": "rss_metadata",
+          "related_sources": [],
+          "category": "Economy",
+          "clabel": "اقتصاد",
+          "language": "ar",
+          "media_attribution": "بي بي سي عربي"
+        }
+      },
+      {
+        "Title": "شح الأمطار يتسبب في نفوق الماشية وفشل الموسم الزراعي في سرتوني بشمال دارفور",
+        "Lang": "ar",
+        "Date": "2026-09-22T15:21:00+00:00",
+        "Permalink": "https://www.dabangasudan.org/ar/all-news/article/%d8%b4%d8%ad-%d8%a7%d9%84%d8%a3%d9%85%d8%b7%d8%a7%d8%b1-%d9%8a%d8%aa%d8%b3%d8%a8%d8%a8-%d9%81%d9%8a-%d9%86%d9%81%d9%88%d9%82-%d8%a7%d9%84%d9%85%d8%a7%d8%b4%d9%8a%d8%a9-%d9%88%d9%81%d8%b4%d9%84-%d8%a7",
+        "Params": {
+          "description": "سرتوني: 22 سبتمبر 2026م – راديو دبنقا حذر نازحون في معسكر سرتوني بولاية شمال دارفور... The post شح الأمطار يتسبب في نفوق الماشية وفشل الموسم الزراعي في سرتوني بشمال دارفور appeared first on Dabanga Radio TV Online .",
+          "source": "راديو دبنقا",
+          "source_id": "dabanga-ar",
+          "source_class": "sudanese_journalism",
+          "link": "https://www.dabangasudan.org/ar/all-news/article/%d8%b4%d8%ad-%d8%a7%d9%84%d8%a3%d9%85%d8%b7%d8%a7%d8%b1-%d9%8a%d8%aa%d8%b3%d8%a8%d8%a8-%d9%81%d9%8a-%d9%86%d9%81%d9%88%d9%82-%d8%a7%d9%84%d9%85%d8%a7%d8%b4%d9%8a%d8%a9-%d9%88%d9%81%d8%b4%d9%84-%d8%a7",
+          "status": "Reporting",
+          "geography": [
+            "Darfur"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "Agriculture",
+          "clabel": "زراعة",
+          "language": "ar",
+          "media_attribution": "راديو دبنقا"
+        }
+      },
       {
         "Title": "السودان يجذب (70) شركة استثمارية خلال مؤتمر للتعدين بالصين",
         "Lang": "ar",
@@ -4220,54 +4292,6 @@
         }
       },
       {
-        "Title": "جولة السودان اليوم | 22-9-2026",
-        "Lang": "ar",
-        "Date": "2026-09-22T17:42:20+00:00",
-        "Permalink": "https://www.dabangasudan.org/ar/all-news/article/%d8%ac%d9%88%d9%84%d8%a9-%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86-%d8%a7%d9%84%d9%8a%d9%88%d9%85-22-9-2026",
-        "Params": {
-          "description": "برنامج جولة السودان اليوم – الثلاثاء الموافق 22 سبتمبر 2026م تتابعون معنا آخر التطورات على... The post جولة السودان اليوم | 22-9-2026 appeared first on Dabanga Radio TV Online .",
-          "source": "راديو دبنقا",
-          "source_id": "dabanga-ar",
-          "source_class": "sudanese_journalism",
-          "link": "https://www.dabangasudan.org/ar/all-news/article/%d8%ac%d9%88%d9%84%d8%a9-%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86-%d8%a7%d9%84%d9%8a%d9%88%d9%85-22-9-2026",
-          "status": "Reporting",
-          "geography": [
-            "National"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "Sudan News",
-          "clabel": "أخبار السودان",
-          "language": "ar",
-          "media_attribution": "راديو دبنقا"
-        }
-      },
-      {
-        "Title": "ما حقيقة الفيديو المتداول الذي يُزعم أنه يوثق ظهور عبد الرحيم دقلو في كردفان؟",
-        "Lang": "ar",
-        "Date": "2026-09-22T12:28:54+00:00",
-        "Permalink": "https://www.beamreports.com/2026/09/22/%d9%85%d8%a7-%d8%ad%d9%82%d9%8a%d9%82%d8%a9-%d8%a7%d9%84%d9%81%d9%8a%d8%af%d9%8a%d9%88-%d8%a7%d9%84%d9%85%d8%aa%d8%af%d8%a7%d9%88%d9%84-%d8%a7%d9%84%d8%b0%d9%8a-%d9%8a%d9%8f%d8%b2%d8%b9%d9%85-%d8%a3",
-        "Params": {
-          "description": "ما حقيقة الفيديو المتداول الذي يُزعم أنه يوثق ظهور عبد الرحيم دقلو في كردفان؟ مضلل تداولت حسابات عديدة على «فيسبوك» مقطع فيديو يظهر فيه القائد الثاني لقوات الدعم السريع، عبد الرحيم حمدان دقلو، وهو يُحيّي مجموعةً من عناصر «الدعم السريع» وسط هتافات بالتكبير، مرفقًا بادعاء أنّ المقطع يوثق ظهورًا حديثًا له في سهول كردفان. […] The post ما حقيقة الفيديو المتداول الذي يُزعم أنه يوثق ظهور عبد الرحيم دقلو في كردفان؟ first app",
-          "source": "بيم ريبورتس",
-          "source_id": "beam-ar",
-          "source_class": "sudanese_journalism",
-          "link": "https://www.beamreports.com/2026/09/22/%d9%85%d8%a7-%d8%ad%d9%82%d9%8a%d9%82%d8%a9-%d8%a7%d9%84%d9%81%d9%8a%d8%af%d9%8a%d9%88-%d8%a7%d9%84%d9%85%d8%aa%d8%af%d8%a7%d9%88%d9%84-%d8%a7%d9%84%d8%b0%d9%8a-%d9%8a%d9%8f%d8%b2%d8%b9%d9%85-%d8%a3",
-          "status": "Reporting",
-          "geography": [
-            "Kordofan"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "War & Security",
-          "clabel": "الحرب والأمن",
-          "language": "ar",
-          "media_attribution": "بيم ريبورتس"
-        }
-      },
-      {
         "Title": "القوى المدنية السودانية المناهضة للحرب ترسل خطاباً مشتركاً إلى الأمين العام للأمم المتحدة وأعضاء مجلس الأمن الدولي يدعو لإقرار هدنة إنسانية شاملة وفورية واتخاذ تدابير لحماية المدنيين",
         "Lang": "ar",
         "Date": "2026-09-22T17:23:56+00:00",
@@ -4289,30 +4313,6 @@
           "clabel": "إنساني",
           "language": "ar",
           "media_attribution": "سودانايل"
-        }
-      },
-      {
-        "Title": "انفجار مخلفات حرب بجامعة الخرطوم يؤدي إلى مصرع عامل وإصابة آخر",
-        "Lang": "ar",
-        "Date": "2026-09-22T12:03:01+00:00",
-        "Permalink": "https://www.altaghyeer.info/ar/2026/09/22/%d8%a7%d9%86%d9%81%d8%ac%d8%a7%d8%b1-%d9%85%d8%ae%d9%84%d9%81%d8%a7%d8%aa-%d8%ad%d8%b1%d8%a8-%d8%a8%d8%ac%d8%a7%d9%85%d8%b9%d8%a9-%d8%a7%d9%84%d8%ae%d8%b1%d8%b7%d9%88%d9%85-%d9%8a%d8%a4%d8%af%d9%8a",
-        "Params": {
-          "description": "قُتل عامل وأصيب آخر، الاثنين، إثر انفجار دانة من عيار (60/75 ملم) داخل كلية الزراعة التابعة لجامعة الخرطوم بمنطقة شمبات، أثناء تنفيذ أعمال نظافة وصيانة داخل الحرم الجامعي، في حادثة أعادت تسليط الضوء على مخاطر مخلفات الحرب والذخائر غير المنفجرة في المناطق التي شهدت مواجهات مسلحة. الخرطوم ــ التغيير وقال المركز القومي لمكافحة الألغام إن …",
-          "source": "التغيير",
-          "source_id": "altaghyeer-ar",
-          "source_class": "sudanese_journalism",
-          "link": "https://www.altaghyeer.info/ar/2026/09/22/%d8%a7%d9%86%d9%81%d8%ac%d8%a7%d8%b1-%d9%85%d8%ae%d9%84%d9%81%d8%a7%d8%aa-%d8%ad%d8%b1%d8%a8-%d8%a8%d8%ac%d8%a7%d9%85%d8%b9%d8%a9-%d8%a7%d9%84%d8%ae%d8%b1%d8%b7%d9%88%d9%85-%d9%8a%d8%a4%d8%af%d9%8a",
-          "status": "Reporting",
-          "geography": [
-            "Khartoum"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "Education",
-          "clabel": "تعليم",
-          "language": "ar",
-          "media_attribution": "التغيير"
         }
       },
       {
@@ -4364,6 +4364,30 @@
         }
       },
       {
+        "Title": "ما حقيقة الفيديو المتداول الذي يُزعم أنه يوثق استقبال السودانيين للبرهان في أمريكا؟",
+        "Lang": "ar",
+        "Date": "2026-09-22T17:30:56+00:00",
+        "Permalink": "https://www.beamreports.com/2026/09/22/%d9%85%d8%a7-%d8%ad%d9%82%d9%8a%d9%82%d8%a9-%d8%a7%d9%84%d9%81%d9%8a%d8%af%d9%8a%d9%88-%d8%a7%d9%84%d9%85%d8%aa%d8%af%d8%a7%d9%88%d9%84-%d8%a7%d9%84%d8%b0%d9%8a-%d9%8a%d9%8f%d8%b2%d8%b9%d9%85-%d8%a3-2",
+        "Params": {
+          "description": "ما حقيقة الفيديو المتداول الذي يُزعم أنه يوثق استقبال السودانيين للبرهان في أمريكا؟ مضلل تداولت عدة حسابات على «فيسبوك» مقطع فيديو يظهر فيه قائد الجيش السوداني عبد الفتاح البرهان، وهو يحيّي جمعًا من الناس، مرفقًا بادعاء أنّ المقطع يوثق استقبال الجالية السودانية في الولايات المتحدة الأمريكية للبرهان. وجاء نص الادعاء على النحو الآتي: «هكذا استقبل […] The post ما حقيقة الفيديو المتداول الذي يُزعم أنه يوثق استقبال السودا",
+          "source": "بيم ريبورتس",
+          "source_id": "beam-ar",
+          "source_class": "sudanese_journalism",
+          "link": "https://www.beamreports.com/2026/09/22/%d9%85%d8%a7-%d8%ad%d9%82%d9%8a%d9%82%d8%a9-%d8%a7%d9%84%d9%81%d9%8a%d8%af%d9%8a%d9%88-%d8%a7%d9%84%d9%85%d8%aa%d8%af%d8%a7%d9%88%d9%84-%d8%a7%d9%84%d8%b0%d9%8a-%d9%8a%d9%8f%d8%b2%d8%b9%d9%85-%d8%a3-2",
+          "status": "Reporting",
+          "geography": [
+            "National"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "War & Security",
+          "clabel": "الحرب والأمن",
+          "language": "ar",
+          "media_attribution": "بيم ريبورتس"
+        }
+      },
+      {
         "Title": "مقتل وإصابة 22 مدنياً في هجمات بطائرات مسيّرة في الأبيض",
         "Lang": "ar",
         "Date": "2026-09-21T11:26:10+00:00",
@@ -4388,27 +4412,27 @@
         }
       },
       {
-        "Title": "الجيش السوداني يعلن إسقاط مسيّرة \"انطلقت من إثيوبيا\" وقواته تحقق تقدماً في شمال كردفان",
+        "Title": "السودان يطالب غوتيريش بالتدخل لضمان وصول البرهان الى نيويورك",
         "Lang": "ar",
-        "Date": "2026-09-20T10:16:58+00:00",
-        "Permalink": "https://www.bbc.com/arabic/articles/cqy7z1r3xgego?at_medium=RSS&at_campaign=rss",
+        "Date": "2026-09-22T16:42:37+00:00",
+        "Permalink": "https://sudantribune.net/article/319109",
         "Params": {
-          "description": "أعلن الجيش السوداني إسقاط مسيّرة قال إنها انطلقت من إثيوبيا، فيما أفادت مصادر عسكرية بتقدّم قواته في شمال كردفان. وقالت قوات الدعم السريع إنها صدّت هجوماً غرب الأبيض، وسط شهادات لنازحين من سودري عن نقص الغذاء والمياه والأدوية.",
-          "source": "بي بي سي عربي",
-          "source_id": "bbc-ar",
-          "source_class": "international_journalism",
-          "link": "https://www.bbc.com/arabic/articles/cqy7z1r3xgego?at_medium=RSS&at_campaign=rss",
+          "description": "نيويورك 22 سبتمبر 2026 – طالب السودان، الثلاثاء، الأمين العام للأمم المتحدة أنطونيو غوتيريش بالتدخل الفوري لضمان وصول رئيس مجلس السيادة عبد الفتاح البرهان إلى نيويورك، بعد رفض الولايات المتحدة منحه تأشيرة دخول. ونقلت رويترز، عن مصدر دبلوماسي، ترجيحات باشتراط واشنطن منح البرهان تأشيرة للمشاركة في أعمال الجمعية العامة للأمم المتحدة بموافقته على توقيع اتفاق لوقف إطلاق النار لمدة 3 أشهر. وأفادت بأن البرهان رفض هذا الشرط.",
+          "source": "Sudan Tribune Arabic",
+          "source_id": "sudan-tribune-ar",
+          "source_class": "sudanese_journalism",
+          "link": "https://sudantribune.net/article/319109",
           "status": "Reporting",
           "geography": [
-            "Kordofan"
+            "National"
           ],
-          "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/8669/live/19b91c90-b4dd-11f1-9da2-53121c9abf16.png",
-          "media_reuse_basis": "rss_metadata",
+          "image": "",
+          "media_reuse_basis": "",
           "related_sources": [],
-          "category": "War & Security",
-          "clabel": "الحرب والأمن",
+          "category": "Education",
+          "clabel": "تعليم",
           "language": "ar",
-          "media_attribution": "بي بي سي عربي"
+          "media_attribution": "Sudan Tribune Arabic"
         }
       },
       {
@@ -4433,30 +4457,6 @@
           "clabel": "اقتصاد",
           "language": "ar",
           "media_attribution": "فرانس 24 عربي"
-        }
-      },
-      {
-        "Title": "شح الأمطار يتسبب في نفوق الماشية وفشل الموسم الزراعي في سرتوني بشمال دارفور",
-        "Lang": "ar",
-        "Date": "2026-09-22T15:21:00+00:00",
-        "Permalink": "https://www.dabangasudan.org/ar/all-news/article/%d8%b4%d8%ad-%d8%a7%d9%84%d8%a3%d9%85%d8%b7%d8%a7%d8%b1-%d9%8a%d8%aa%d8%b3%d8%a8%d8%a8-%d9%81%d9%8a-%d9%86%d9%81%d9%88%d9%82-%d8%a7%d9%84%d9%85%d8%a7%d8%b4%d9%8a%d8%a9-%d9%88%d9%81%d8%b4%d9%84-%d8%a7",
-        "Params": {
-          "description": "سرتوني: 22 سبتمبر 2026م – راديو دبنقا حذر نازحون في معسكر سرتوني بولاية شمال دارفور... The post شح الأمطار يتسبب في نفوق الماشية وفشل الموسم الزراعي في سرتوني بشمال دارفور appeared first on Dabanga Radio TV Online .",
-          "source": "راديو دبنقا",
-          "source_id": "dabanga-ar",
-          "source_class": "sudanese_journalism",
-          "link": "https://www.dabangasudan.org/ar/all-news/article/%d8%b4%d8%ad-%d8%a7%d9%84%d8%a3%d9%85%d8%b7%d8%a7%d8%b1-%d9%8a%d8%aa%d8%b3%d8%a8%d8%a8-%d9%81%d9%8a-%d9%86%d9%81%d9%88%d9%82-%d8%a7%d9%84%d9%85%d8%a7%d8%b4%d9%8a%d8%a9-%d9%88%d9%81%d8%b4%d9%84-%d8%a7",
-          "status": "Reporting",
-          "geography": [
-            "Darfur"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "Agriculture",
-          "clabel": "زراعة",
-          "language": "ar",
-          "media_attribution": "راديو دبنقا"
         }
       },
       {
@@ -4508,67 +4508,91 @@
         }
       },
       {
-        "Title": "السودان يطالب غوتيريش بالتدخل لضمان وصول البرهان الى نيويورك",
+        "Title": "السودان يتأهل لنهائيات أمم أفريقيا للشباب 2027 ونهائي سيكافا",
         "Lang": "ar",
-        "Date": "2026-09-22T16:42:37+00:00",
-        "Permalink": "https://sudantribune.net/article/319109",
+        "Date": "2026-09-22T22:40:42+00:00",
+        "Permalink": "https://www.altaghyeer.info/ar/2026/09/23/%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86-%d9%8a%d8%aa%d8%a3%d9%87%d9%84-%d9%84%d9%86%d9%87%d8%a7%d8%a6%d9%8a%d8%a7%d8%aa-%d8%a3%d9%85%d9%85-%d8%a3%d9%81%d8%b1%d9%8a%d9%82%d9%8a%d8%a7-%d9%84%d9%84",
         "Params": {
-          "description": "نيويورك 22 سبتمبر 2026 – طالب السودان، الثلاثاء، الأمين العام للأمم المتحدة أنطونيو غوتيريش بالتدخل الفوري لضمان وصول رئيس مجلس السيادة عبد الفتاح البرهان إلى نيويورك، بعد رفض الولايات المتحدة منحه تأشيرة دخول. ونقلت رويترز، عن مصدر دبلوماسي، ترجيحات باشتراط واشنطن منح البرهان تأشيرة للمشاركة في أعمال الجمعية العامة للأمم المتحدة بموافقته على توقيع اتفاق لوقف إطلاق النار لمدة 3 أشهر. وأفادت بأن البرهان رفض هذا الشرط.",
-          "source": "Sudan Tribune Arabic",
-          "source_id": "sudan-tribune-ar",
+          "description": "تأهل منتخب السودان للشباب إلى نهائيات كأس أمم أفريقيا تحت 20 عامًا 2027، بعدما تغلب على أوغندا 3-2، اليوم، في نصف نهائي بطولة سيكافا المقامة في تنزانيا. الخرطوم ــ التغيير وحسم المنتخب السوداني المباراة لصالحه بعد مواجهة قوية، سجل خلالها ثلاثة أهداف عن طريق محمد ووهيب شندي ومازن فضل، ليحجز مكانه في المباراة النهائية …",
+          "source": "التغيير",
+          "source_id": "altaghyeer-ar",
           "source_class": "sudanese_journalism",
-          "link": "https://sudantribune.net/article/319109",
-          "status": "Reporting",
-          "geography": [
-            "National"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "Education",
-          "clabel": "تعليم",
-          "language": "ar",
-          "media_attribution": "Sudan Tribune Arabic"
-        }
-      },
-      {
-        "Title": "حكومة السودان تقرر رسمياً استبدال العملة الوطنية وتستعد لتنفيذ خطة اقتصادية شاملة",
-        "Lang": "ar",
-        "Date": "2026-09-22T12:23:08+00:00",
-        "Permalink": "https://sudanile.com/%d8%ad%d9%83%d9%88%d9%85%d8%a9-%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86-%d8%aa%d9%82%d8%b1%d8%b1-%d8%b1%d8%b3%d9%85%d9%8a%d8%a7%d9%8b-%d8%a7%d8%b3%d8%aa%d8%a8%d8%af%d8%a7%d9%84-%d8%a7%d9%84%d8%b9",
-        "Params": {
-          "description": "الخرطوم – السوداني أعلنت الحكومة السودانية رسمياً قرارها باستبدال وتغيير العملة الوطنية، وشروعها في تنفيذ خطة متكاملة لتحقيق هذا الهدف، حيث ترأس عضو مجلس السيادة الفريق مهندس إبراهيم جابر إبراهيم اجتماع اللجنة العليا لتغيير واستبدال العملة، بحضور عدد من الوزراء ومحافظ بنك السودان المركزي والجهات ذات الصلة. وأكّد وزير الثقافة والإعلام والناطق الرسمي باسم اللجنة […] The post حكومة السودان تقرر رسمياً استبدال العملة الو",
-          "source": "سودانايل",
-          "source_id": "sudanile-ar",
-          "source_class": "sudanese_diaspora",
-          "link": "https://sudanile.com/%d8%ad%d9%83%d9%88%d9%85%d8%a9-%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86-%d8%aa%d9%82%d8%b1%d8%b1-%d8%b1%d8%b3%d9%85%d9%8a%d8%a7%d9%8b-%d8%a7%d8%b3%d8%aa%d8%a8%d8%af%d8%a7%d9%84-%d8%a7%d9%84%d8%b9",
+          "link": "https://www.altaghyeer.info/ar/2026/09/23/%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86-%d9%8a%d8%aa%d8%a3%d9%87%d9%84-%d9%84%d9%86%d9%87%d8%a7%d8%a6%d9%8a%d8%a7%d8%aa-%d8%a3%d9%85%d9%85-%d8%a3%d9%81%d8%b1%d9%8a%d9%82%d9%8a%d8%a7-%d9%84%d9%84",
           "status": "Reporting",
           "geography": [
             "Khartoum"
           ],
-          "image": "https://sudanile.com/wp-content/uploads/2025/08/gabirr.jpg",
-          "media_reuse_basis": "rss_metadata",
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "Sudan News",
+          "clabel": "أخبار السودان",
+          "language": "ar",
+          "media_attribution": "التغيير"
+        }
+      },
+      {
+        "Title": "الجفاف وارتفاع أسعار الغذاء يفاقمان معاناة المواطنين في جبل عيسى بشمال دارفور",
+        "Lang": "ar",
+        "Date": "2026-09-22T13:55:25+00:00",
+        "Permalink": "https://www.dabangasudan.org/ar/all-news/article/%d8%a7%d9%84%d8%ac%d9%81%d8%a7%d9%81-%d9%88%d8%a7%d8%b1%d8%aa%d9%81%d8%a7%d8%b9-%d8%a3%d8%b3%d8%b9%d8%a7%d8%b1-%d8%a7%d9%84%d8%ba%d8%b0%d8%a7%d8%a1-%d9%8a%d9%81%d8%a7%d9%82%d9%85%d8%a7%d9%86-%d9%85",
+        "Params": {
+          "description": "جبل عيسى: 22 سبتمبر 2026: راديو دبنقا تشهد منطقة جبل عيسى بمحلية المالحة في شمال... The post الجفاف وارتفاع أسعار الغذاء يفاقمان معاناة المواطنين في جبل عيسى بشمال دارفور appeared first on Dabanga Radio TV Online .",
+          "source": "راديو دبنقا",
+          "source_id": "dabanga-ar",
+          "source_class": "sudanese_journalism",
+          "link": "https://www.dabangasudan.org/ar/all-news/article/%d8%a7%d9%84%d8%ac%d9%81%d8%a7%d9%81-%d9%88%d8%a7%d8%b1%d8%aa%d9%81%d8%a7%d8%b9-%d8%a3%d8%b3%d8%b9%d8%a7%d8%b1-%d8%a7%d9%84%d8%ba%d8%b0%d8%a7%d8%a1-%d9%8a%d9%81%d8%a7%d9%82%d9%85%d8%a7%d9%86-%d9%85",
+          "status": "Reporting",
+          "geography": [
+            "Darfur"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
           "related_sources": [],
           "category": "Economy",
           "clabel": "اقتصاد",
+          "language": "ar",
+          "media_attribution": "راديو دبنقا"
+        }
+      },
+      {
+        "Title": "رويترز: الولايات المتحدة ترفض منح البرهان تأشيرة دخول",
+        "Lang": "ar",
+        "Date": "2026-09-22T17:25:25+00:00",
+        "Permalink": "https://sudanile.com/%d8%b1%d9%88%d9%8a%d8%aa%d8%b1%d8%b2-%d8%a7%d9%84%d9%88%d9%84%d8%a7%d9%8a%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%aa%d8%ad%d8%af%d8%a9-%d8%aa%d8%b1%d9%81%d8%b6-%d9%85%d9%86%d8%ad-%d8%a7%d9%84%d8%a8%d8%b1",
+        "Params": {
+          "description": "سكاي نيوز عربية – أبوظبي أفادت وكالة رويترز بأن الولايات المتحدة ترفض منح قائد الجيش السوداني عبد الفتاح البرهان تأشيرة دخول قبل كلمته المقررة أمام الجمعية العامة للأمم المتحدة الخميس، فيما قال مصدران للوكالة إن إصدارها يبدو مرتبطا بموافقته على هدنة لمدة 90 يوما. ونقلت الوكالة عن مصدر دبلوماسي سوداني ومحلل غربي مقرب من مسؤولين […] The post رويترز: الولايات المتحدة ترفض منح البرهان تأشيرة دخول appeared first on سودانا",
+          "source": "سودانايل",
+          "source_id": "sudanile-ar",
+          "source_class": "sudanese_diaspora",
+          "link": "https://sudanile.com/%d8%b1%d9%88%d9%8a%d8%aa%d8%b1%d8%b2-%d8%a7%d9%84%d9%88%d9%84%d8%a7%d9%8a%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%aa%d8%ad%d8%af%d8%a9-%d8%aa%d8%b1%d9%81%d8%b6-%d9%85%d9%86%d8%ad-%d8%a7%d9%84%d8%a8%d8%b1",
+          "status": "Reporting",
+          "geography": [
+            "National"
+          ],
+          "image": "https://sudanile.com/wp-content/uploads/2025/08/burhann.jpg",
+          "media_reuse_basis": "rss_metadata",
+          "related_sources": [],
+          "category": "War & Security",
+          "clabel": "الحرب والأمن",
           "language": "ar",
           "media_attribution": "سودانايل"
         }
       },
       {
-        "Title": "ما حقيقة الفيديو المتداول الذي يُزعم أنه يوثق استقبال السودانيين للبرهان في أمريكا؟",
+        "Title": "ما حقيقة الفيديو المتداول الذي يُزعم أنه يوثق ظهور عبد الرحيم دقلو في كردفان؟",
         "Lang": "ar",
-        "Date": "2026-09-22T17:30:56+00:00",
-        "Permalink": "https://www.beamreports.com/2026/09/22/%d9%85%d8%a7-%d8%ad%d9%82%d9%8a%d9%82%d8%a9-%d8%a7%d9%84%d9%81%d9%8a%d8%af%d9%8a%d9%88-%d8%a7%d9%84%d9%85%d8%aa%d8%af%d8%a7%d9%88%d9%84-%d8%a7%d9%84%d8%b0%d9%8a-%d9%8a%d9%8f%d8%b2%d8%b9%d9%85-%d8%a3-2",
+        "Date": "2026-09-22T12:28:54+00:00",
+        "Permalink": "https://www.beamreports.com/2026/09/22/%d9%85%d8%a7-%d8%ad%d9%82%d9%8a%d9%82%d8%a9-%d8%a7%d9%84%d9%81%d9%8a%d8%af%d9%8a%d9%88-%d8%a7%d9%84%d9%85%d8%aa%d8%af%d8%a7%d9%88%d9%84-%d8%a7%d9%84%d8%b0%d9%8a-%d9%8a%d9%8f%d8%b2%d8%b9%d9%85-%d8%a3",
         "Params": {
-          "description": "ما حقيقة الفيديو المتداول الذي يُزعم أنه يوثق استقبال السودانيين للبرهان في أمريكا؟ مضلل تداولت عدة حسابات على «فيسبوك» مقطع فيديو يظهر فيه قائد الجيش السوداني عبد الفتاح البرهان، وهو يحيّي جمعًا من الناس، مرفقًا بادعاء أنّ المقطع يوثق استقبال الجالية السودانية في الولايات المتحدة الأمريكية للبرهان. وجاء نص الادعاء على النحو الآتي: «هكذا استقبل […] The post ما حقيقة الفيديو المتداول الذي يُزعم أنه يوثق استقبال السودا",
+          "description": "ما حقيقة الفيديو المتداول الذي يُزعم أنه يوثق ظهور عبد الرحيم دقلو في كردفان؟ مضلل تداولت حسابات عديدة على «فيسبوك» مقطع فيديو يظهر فيه القائد الثاني لقوات الدعم السريع، عبد الرحيم حمدان دقلو، وهو يُحيّي مجموعةً من عناصر «الدعم السريع» وسط هتافات بالتكبير، مرفقًا بادعاء أنّ المقطع يوثق ظهورًا حديثًا له في سهول كردفان. […] The post ما حقيقة الفيديو المتداول الذي يُزعم أنه يوثق ظهور عبد الرحيم دقلو في كردفان؟ first app",
           "source": "بيم ريبورتس",
           "source_id": "beam-ar",
           "source_class": "sudanese_journalism",
-          "link": "https://www.beamreports.com/2026/09/22/%d9%85%d8%a7-%d8%ad%d9%82%d9%8a%d9%82%d8%a9-%d8%a7%d9%84%d9%81%d9%8a%d8%af%d9%8a%d9%88-%d8%a7%d9%84%d9%85%d8%aa%d8%af%d8%a7%d9%88%d9%84-%d8%a7%d9%84%d8%b0%d9%8a-%d9%8a%d9%8f%d8%b2%d8%b9%d9%85-%d8%a3-2",
+          "link": "https://www.beamreports.com/2026/09/22/%d9%85%d8%a7-%d8%ad%d9%82%d9%8a%d9%82%d8%a9-%d8%a7%d9%84%d9%81%d9%8a%d8%af%d9%8a%d9%88-%d8%a7%d9%84%d9%85%d8%aa%d8%af%d8%a7%d9%88%d9%84-%d8%a7%d9%84%d8%b0%d9%8a-%d9%8a%d9%8f%d8%b2%d8%b9%d9%85-%d8%a3",
           "status": "Reporting",
           "geography": [
-            "National"
+            "Kordofan"
           ],
           "image": "",
           "media_reuse_basis": "",
@@ -4577,35 +4601,6 @@
           "clabel": "الحرب والأمن",
           "language": "ar",
           "media_attribution": "بيم ريبورتس"
-        }
-      },
-      {
-        "Title": "ياسر العطا يحدّد مستقبل السودان لعشرين عاماً قادمة..!",
-        "Lang": "ar",
-        "Date": "2026-09-22T13:29:25+00:00",
-        "Permalink": "https://www.altaghyeer.info/ar/2026/09/22/%d9%8a%d8%a7%d8%b3%d8%b1-%d8%a7%d9%84%d8%b9%d8%b7%d8%a7-%d9%8a%d8%ad%d8%af%d9%91%d8%af-%d9%85%d8%b3%d8%aa%d9%82%d8%a8%d9%84-%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86-%d9%84%d8%b9%d8%b4%d8%b1%d9%8a",
-        "Params": {
-          "description": "ياسر العطا يحدّد مستقبل السودان لعشرين عاماً قادمة..! د. مرتضى الغالي لقد (هانت الزلابية) حتى أكلتها بنو قريظة..! ياسر العطا رئيس أركان جيش الانقلاب يعلن (أنهم) يفكرون في منح البرهان فترة رئاسية انتقالية..ثم فترة أخرى لأربع دورات، يكون فيها حاكماً على السودان..(جفّت الأقلام وطويت الصحف)..! كلام هذا الرجل يعني تنصيب البرهان لمدة تقارب على …",
-          "source": "التغيير",
-          "source_id": "altaghyeer-ar",
-          "source_class": "sudanese_journalism",
-          "link": "https://www.altaghyeer.info/ar/2026/09/22/%d9%8a%d8%a7%d8%b3%d8%b1-%d8%a7%d9%84%d8%b9%d8%b7%d8%a7-%d9%8a%d8%ad%d8%af%d9%91%d8%af-%d9%85%d8%b3%d8%aa%d9%82%d8%a8%d9%84-%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86-%d9%84%d8%b9%d8%b4%d8%b1%d9%8a",
-          "status": "Reporting",
-          "geography": [
-            "National"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [
-            {
-              "source": "سودانايل",
-              "link": "https://sudanile.com/%d9%8a%d8%a7%d8%b3%d8%b1-%d8%a7%d9%84%d8%b9%d8%b7%d8%a7-%d9%8a%d8%ad%d8%af%d9%91%d8%af-%d9%85%d8%b3%d8%aa%d9%82%d8%a8%d9%84-%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86-%d9%84%d8%b9%d8%b4%d8%b1%d9%8a"
-            }
-          ],
-          "category": "Sudan News",
-          "clabel": "أخبار السودان",
-          "language": "ar",
-          "media_attribution": "التغيير"
         }
       },
       {
@@ -4657,25 +4652,25 @@
         }
       },
       {
-        "Title": "تفشي “الكلازار” يسفر عن 14 إصابة في “كتم” شمال دارفور",
+        "Title": "أزمة الوقود تخنق الخرطوم والولايات: تفاقم المعاناة وسط انعدام الإمدادات وانتعاش السوق الموازي",
         "Lang": "ar",
-        "Date": "2026-09-20T23:08:00+00:00",
-        "Permalink": "https://www.radiotamazuj.org/ar/news/article/%d8%aa%d9%81%d8%b4%d9%8a-%d8%a7%d9%84%d9%83%d9%84%d8%a7%d8%b2%d8%a7%d8%b1-%d9%8a%d8%b3%d9%81%d8%b1-%d8%b9%d9%86-14-%d8%a5%d8%b5%d8%a7%d8%a8%d8%a9-%d9%81%d9%8a-%d9%83%d8%aa%d9%85-%d8%b4%d9%85",
+        "Date": "2026-09-21T11:20:07+00:00",
+        "Permalink": "https://www.radiotamazuj.org/ar/news/article/%d8%a3%d8%b2%d9%85%d8%a9-%d8%a7%d9%84%d9%88%d9%82%d9%88%d8%af-%d8%aa%d8%ae%d9%86%d9%82-%d8%a7%d9%84%d8%ae%d8%b1%d8%b7%d9%88%d9%85-%d9%88%d8%a7%d9%84%d9%88%d9%84%d8%a7%d9%8a%d8%a7%d8%aa-%d8%aa%d9%81",
         "Params": {
-          "description": "تتسبب الأوضاع الصحية في محلية كتم بولاية شمال دارفور في قلق متزايد بعد الإبلاغ عن The post تفشي “الكلازار” يسفر عن 14 إصابة في “كتم” شمال دارفور appeared first on Radio Tamazuj .",
+          "description": "تفاقمت أزمة الوقود بشكل حاد في العاصمة السودانية الخرطوم وعدد من المدن السودانية، وسط قفزات The post أزمة الوقود تخنق الخرطوم والولايات: تفاقم المعاناة وسط انعدام الإمدادات وانتعاش السوق الموازي appeared first on Radio Tamazuj .",
           "source": "راديو تمازج",
           "source_id": "tamazuj-ar",
           "source_class": "regional_journalism",
-          "link": "https://www.radiotamazuj.org/ar/news/article/%d8%aa%d9%81%d8%b4%d9%8a-%d8%a7%d9%84%d9%83%d9%84%d8%a7%d8%b2%d8%a7%d8%b1-%d9%8a%d8%b3%d9%81%d8%b1-%d8%b9%d9%86-14-%d8%a5%d8%b5%d8%a7%d8%a8%d8%a9-%d9%81%d9%8a-%d9%83%d8%aa%d9%85-%d8%b4%d9%85",
+          "link": "https://www.radiotamazuj.org/ar/news/article/%d8%a3%d8%b2%d9%85%d8%a9-%d8%a7%d9%84%d9%88%d9%82%d9%88%d8%af-%d8%aa%d8%ae%d9%86%d9%82-%d8%a7%d9%84%d8%ae%d8%b1%d8%b7%d9%88%d9%85-%d9%88%d8%a7%d9%84%d9%88%d9%84%d8%a7%d9%8a%d8%a7%d8%aa-%d8%aa%d9%81",
           "status": "Reporting",
           "geography": [
-            "Darfur"
+            "Khartoum"
           ],
           "image": "",
           "media_reuse_basis": "",
           "related_sources": [],
-          "category": "Health",
-          "clabel": "صحة",
+          "category": "Sudan News",
+          "clabel": "أخبار السودان",
           "language": "ar",
           "media_attribution": "راديو تمازج"
         }
@@ -4705,16 +4700,16 @@
         }
       },
       {
-        "Title": "سوق النعام بأبيي.. أعمال عنف تهدد التجارة الحدودية",
+        "Title": "هل وصل التقارب السوداني السعودي إلى مرحلة الاصطفاف؟",
         "Lang": "ar",
-        "Date": "2026-09-21T09:27:47+00:00",
-        "Permalink": "https://3ayin.com/abyei-7-",
+        "Date": "2026-09-17T17:04:58+00:00",
+        "Permalink": "https://3ayin.com/sudan-and-saudi-arabia-",
         "Params": {
-          "description": "عاين- 21 سبتمبر 2026 أوشك سوق النعام، المعروف أيضاً باسم “أميت”، في منطقة أبيي المتنازع عليها بين السودان وجنوب السودان، على التحول من مركز للتجارة والتعايش بين مجتمعي المسيرية ودينكا نقوك إلى بؤرة للتوتر الأمني، بعد سلسلة من الحوادث خلال العامين الماضيين، كان أحدثها اشتباكات دامية اندلعت في 15 سبتمبر الجاري، وأدت إلى مقتل 28 […]",
+          "description": "عاين- 17 سبتمبر 2026 أظهرت المملكة العربية السعودية مؤخرا، موقفاً مغايراً حيال الملف السوداني؛ فمن وسيط رئيسي في منبر جدة إلى خلق علاقات مع الجيش السودان ليست معزولة عن التطورات الجيوسياسية في الشرق الأوسط، بما في ذلك العلاقات المتوترة بين الرياض وأبوظبي منذ أزمة اليمن في ديسمبر 2025. أصبح النهج السعودي أكثر وضوحاً من […]",
           "source": "عاين",
           "source_id": "ayin-ar",
           "source_class": "sudanese_journalism",
-          "link": "https://3ayin.com/abyei-7-",
+          "link": "https://3ayin.com/sudan-and-saudi-arabia-",
           "status": "Reporting",
           "geography": [
             "National"
@@ -4722,8 +4717,8 @@
           "image": "",
           "media_reuse_basis": "",
           "related_sources": [],
-          "category": "Economy",
-          "clabel": "اقتصاد",
+          "category": "War & Security",
+          "clabel": "الحرب والأمن",
           "language": "ar",
           "media_attribution": "عاين"
         }
@@ -4779,6 +4774,174 @@
     ],
     "latest": [
       {
+        "Title": "الخارجية الأمريكية: طرفا الحرب في السودان لا يملكان شرعية دستورية للحكم",
+        "Lang": "ar",
+        "Date": "2026-09-22T22:56:07+00:00",
+        "Permalink": "https://www.altaghyeer.info/ar/2026/09/23/%d8%a7%d9%84%d8%ae%d8%a7%d8%b1%d8%ac%d9%8a%d8%a9-%d8%a7%d9%84%d8%a3%d9%85%d8%b1%d9%8a%d9%83%d9%8a%d8%a9-%d8%b7%d8%b1%d9%81%d8%a7-%d8%a7%d9%84%d8%ad%d8%b1%d8%a8-%d9%81%d9%8a-%d8%a7%d9%84%d8%b3%d9%88",
+        "Params": {
+          "description": "شددت وزارة الخارجية الأمريكية على أن طرفي الحرب في السودان ” القوات المسلحة السودانية” و”قوات الدعم السريع، إلى جانب قادة الطرفين”، لا يمثلون حكماً شرعياً ودستورياً للبلاد. الخرطوم ــ التغيير وقالت وزارة الخارجية الأمريكية في بيان إن الولايات المتحدة ترفع الكلفة على “جميع الأطراف والشبكات” التي تسهم في استمرار الحرب، مؤكدة استعدادها، إلى جانب الرئيس …",
+          "source": "التغيير",
+          "source_id": "altaghyeer-ar",
+          "source_class": "sudanese_journalism",
+          "link": "https://www.altaghyeer.info/ar/2026/09/23/%d8%a7%d9%84%d8%ae%d8%a7%d8%b1%d8%ac%d9%8a%d8%a9-%d8%a7%d9%84%d8%a3%d9%85%d8%b1%d9%8a%d9%83%d9%8a%d8%a9-%d8%b7%d8%b1%d9%81%d8%a7-%d8%a7%d9%84%d8%ad%d8%b1%d8%a8-%d9%81%d9%8a-%d8%a7%d9%84%d8%b3%d9%88",
+          "status": "Reporting",
+          "geography": [
+            "Khartoum"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "War & Security",
+          "clabel": "الحرب والأمن",
+          "language": "ar",
+          "media_attribution": "التغيير"
+        }
+      },
+      {
+        "Title": "حمدوك يبحث في نيويورك مع مسؤول نرويجي جهود وقف الحرب",
+        "Lang": "ar",
+        "Date": "2026-09-22T22:44:20+00:00",
+        "Permalink": "https://www.altaghyeer.info/ar/2026/09/23/%d8%ad%d9%85%d8%af%d9%88%d9%83-%d9%8a%d8%a8%d8%ad%d8%ab-%d9%81%d9%8a-%d9%86%d9%8a%d9%88%d9%8a%d9%88%d8%b1%d9%83-%d9%85%d8%b9-%d9%85%d8%b3%d8%a4%d9%88%d9%84-%d9%86%d8%b1%d9%88%d9%8a%d8%ac%d9%8a-%d8%ac",
+        "Params": {
+          "description": "بحث وفد القوى المدنية السودانية، برئاسة الدكتور عبد الله حمدوك، مع وزير الدولة للخارجية النرويجية أندرياس كرافيك، جهود وقف الحرب وتحقيق السلام والاستقرار في السودان، وذلك على هامش مشاركة الوفد في أعمال الجمعية العامة الـ81 للأمم المتحدة. الخرطوم ــ التغيير وقدم الوفد شرحاً للوزير النرويجي حول تداعيات الحرب في السودان وما خلفته من كارثة …",
+          "source": "التغيير",
+          "source_id": "altaghyeer-ar",
+          "source_class": "sudanese_journalism",
+          "link": "https://www.altaghyeer.info/ar/2026/09/23/%d8%ad%d9%85%d8%af%d9%88%d9%83-%d9%8a%d8%a8%d8%ad%d8%ab-%d9%81%d9%8a-%d9%86%d9%8a%d9%88%d9%8a%d9%88%d8%b1%d9%83-%d9%85%d8%b9-%d9%85%d8%b3%d8%a4%d9%88%d9%84-%d9%86%d8%b1%d9%88%d9%8a%d8%ac%d9%8a-%d8%ac",
+          "status": "Reporting",
+          "geography": [
+            "Khartoum"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "War & Security",
+          "clabel": "الحرب والأمن",
+          "language": "ar",
+          "media_attribution": "التغيير"
+        }
+      },
+      {
+        "Title": "السودان يتأهل لنهائيات أمم أفريقيا للشباب 2027 ونهائي سيكافا",
+        "Lang": "ar",
+        "Date": "2026-09-22T22:40:42+00:00",
+        "Permalink": "https://www.altaghyeer.info/ar/2026/09/23/%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86-%d9%8a%d8%aa%d8%a3%d9%87%d9%84-%d9%84%d9%86%d9%87%d8%a7%d8%a6%d9%8a%d8%a7%d8%aa-%d8%a3%d9%85%d9%85-%d8%a3%d9%81%d8%b1%d9%8a%d9%82%d9%8a%d8%a7-%d9%84%d9%84",
+        "Params": {
+          "description": "تأهل منتخب السودان للشباب إلى نهائيات كأس أمم أفريقيا تحت 20 عامًا 2027، بعدما تغلب على أوغندا 3-2، اليوم، في نصف نهائي بطولة سيكافا المقامة في تنزانيا. الخرطوم ــ التغيير وحسم المنتخب السوداني المباراة لصالحه بعد مواجهة قوية، سجل خلالها ثلاثة أهداف عن طريق محمد ووهيب شندي ومازن فضل، ليحجز مكانه في المباراة النهائية …",
+          "source": "التغيير",
+          "source_id": "altaghyeer-ar",
+          "source_class": "sudanese_journalism",
+          "link": "https://www.altaghyeer.info/ar/2026/09/23/%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86-%d9%8a%d8%aa%d8%a3%d9%87%d9%84-%d9%84%d9%86%d9%87%d8%a7%d8%a6%d9%8a%d8%a7%d8%aa-%d8%a3%d9%85%d9%85-%d8%a3%d9%81%d8%b1%d9%8a%d9%82%d9%8a%d8%a7-%d9%84%d9%84",
+          "status": "Reporting",
+          "geography": [
+            "Khartoum"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "Sudan News",
+          "clabel": "أخبار السودان",
+          "language": "ar",
+          "media_attribution": "التغيير"
+        }
+      },
+      {
+        "Title": "أمريكا تجرد قادة حرب السودان من الشرعية وتحذر من رفع كلفة القتال",
+        "Lang": "ar",
+        "Date": "2026-09-22T22:11:29+00:00",
+        "Permalink": "https://sudantribune.net/article/319134",
+        "Params": {
+          "description": "واشنطن 22 سبتمبر 2026– صعدت الولايات المتحدة الأميركية، الثلاثاء، لهجتها حيال الأطراف المتحاربة في السودان، وأعلنت رسمياً عدم اعترافها بشرعية أي منهما، في إشارة إلى قادة الجيش والدعم السريع. وقال المتحدث باسم وزارة الخارجية الأمريكية توماس تومي بيغوت، في بيان، إن سلوك قائدي الطرفين المتحاربين جعلهما غير مؤهلين للحكم. وأضاف: “أياً من الطرفين لا يمثل حكماً دستورياً”، متهماً الجانبين بالحكم حصراً بقوة السلاح. وقالت واشن",
+          "source": "Sudan Tribune Arabic",
+          "source_id": "sudan-tribune-ar",
+          "source_class": "sudanese_journalism",
+          "link": "https://sudantribune.net/article/319134",
+          "status": "Reporting",
+          "geography": [
+            "National"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "War & Security",
+          "clabel": "الحرب والأمن",
+          "language": "ar",
+          "media_attribution": "Sudan Tribune Arabic"
+        }
+      },
+      {
+        "Title": "وفد «صمود» يبحث مع مسؤول نرويجي جهود وقف الحرب في السودان",
+        "Lang": "ar",
+        "Date": "2026-09-22T21:53:07+00:00",
+        "Permalink": "https://sudantribune.net/article/319130",
+        "Params": {
+          "description": "نيويورك 22 سبتمبر 2026 – بحث وفد التحالف المدني الديمقراطي لقوى الثورة “صمود”، برئاسة رئيس الوزراء السابق عبد الله حمدوك، الثلاثاء، مع وزير الدولة بالخارجية النرويجية أندرياس كرافيك، جهود وقف الحرب في السودان والتعامل مع تداعياتها الإنسانية، وذلك على هامش اجتماعات الجمعية العامة للأمم المتحدة في نيويورك. وتقود عدة أطراف إقليمية ودولية جهوداً للتوصل إلى وقف لإطلاق النار وتهيئة مسار سياسي لإنهاء النزاع، بينما تواجه الم",
+          "source": "Sudan Tribune Arabic",
+          "source_id": "sudan-tribune-ar",
+          "source_class": "sudanese_journalism",
+          "link": "https://sudantribune.net/article/319130",
+          "status": "Reporting",
+          "geography": [
+            "National"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "War & Security",
+          "clabel": "الحرب والأمن",
+          "language": "ar",
+          "media_attribution": "Sudan Tribune Arabic"
+        }
+      },
+      {
+        "Title": "«المالية» تحدد أولويات التعافي الاقتصادي وتدعو لإدارة مخاطر الاستثمار الزراعي",
+        "Lang": "ar",
+        "Date": "2026-09-22T21:17:49+00:00",
+        "Permalink": "https://sudantribune.net/article/319125",
+        "Params": {
+          "description": "الخرطوم 22 سبتمبر 2026- حددت وزارة المالية السودانية أولويات الحكومة للتعافي الاقتصادي، وفي مقدمتها تعزيز الشراكة مع القطاع الخاص، والتركيز على القطاعات الإنتاجية والحيوية والبنى التحتية، إلى جانب تطوير آليات إدارة المخاطر وتأمين الاستثمارات. وانطلقت في الخرطوم، الإثنين، فعاليات الحوار رفيع المستوى حول تعافي القطاع الخاص السوداني، بمشاركة ممثلين للحكومة والقطاع الخاص والمؤسسات المالية وشركاء التنمية، لبحث التحديات ال",
+          "source": "Sudan Tribune Arabic",
+          "source_id": "sudan-tribune-ar",
+          "source_class": "sudanese_journalism",
+          "link": "https://sudantribune.net/article/319125",
+          "status": "Reporting",
+          "geography": [
+            "Khartoum"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "Agriculture",
+          "clabel": "زراعة",
+          "language": "ar",
+          "media_attribution": "Sudan Tribune Arabic"
+        }
+      },
+      {
+        "Title": "لماذا يسعى السودانيون لاستخراج الذهب برغم المخاطر العالية؟",
+        "Lang": "ar",
+        "Date": "2026-09-22T21:03:06+00:00",
+        "Permalink": "https://www.bbc.com/arabic/articles/cvwyzdegr5y5o?at_medium=RSS&at_campaign=rss",
+        "Params": {
+          "description": "في ظل الأزمة الاقتصادية وتراجع مصادر الدخل، يتجه كثير من السودانيين إلى استخراج الذهب باعتباره فرصة سريعة لكسب المال وتأمين لقمة العيش، رغم المخاطر.",
+          "source": "بي بي سي عربي",
+          "source_id": "bbc-ar",
+          "source_class": "international_journalism",
+          "link": "https://www.bbc.com/arabic/articles/cvwyzdegr5y5o?at_medium=RSS&at_campaign=rss",
+          "status": "Reporting",
+          "geography": [
+            "National"
+          ],
+          "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/79c4/live/af352650-b6c3-11f1-8a9f-c7141bd7738d.jpg",
+          "media_reuse_basis": "rss_metadata",
+          "related_sources": [],
+          "category": "Economy",
+          "clabel": "اقتصاد",
+          "language": "ar",
+          "media_attribution": "بي بي سي عربي"
+        }
+      },
+      {
         "Title": "السودان يجذب (70) شركة استثمارية خلال مؤتمر للتعدين بالصين",
         "Lang": "ar",
         "Date": "2026-09-22T20:33:10+00:00",
@@ -4800,6 +4963,30 @@
           "clabel": "سياسة",
           "language": "ar",
           "media_attribution": "Sudan Tribune Arabic"
+        }
+      },
+      {
+        "Title": "البرهان يعرض تسوية جديدة.. ولكن مع من؟",
+        "Lang": "ar",
+        "Date": "2026-09-22T19:35:51+00:00",
+        "Permalink": "https://www.altaghyeer.info/ar/2026/09/22/%d8%a7%d9%84%d8%a8%d8%b1%d9%87%d8%a7%d9%86-%d9%8a%d8%b9%d8%b1%d8%b6-%d8%aa%d8%b3%d9%88%d9%8a%d8%a9-%d8%ac%d8%af%d9%8a%d8%af%d8%a9-%d9%88%d9%84%d9%83%d9%86-%d9%85%d8%b9-%d9%85%d9%86%d8%9f",
+        "Params": {
+          "description": "البرهان يعرض تسوية جديدة.. ولكن مع من؟ أحمد عثمان جبريل ❝السلام لا يبدأ من رسم ما بعد الحرب.. بل من الجلوس مع من يملك قرار إيقافها❞ تقول الحكاية، إن حرب البوسنة والهرسك، التي أكلت الأخضر واليابس وشردت نحو مليوني إنسان، وصلت في خريف 1995 إلى محطة التفاوض.. وفي دايتون جلس ممثلو الأطراف المتحاربة إلى مفاوضات …",
+          "source": "التغيير",
+          "source_id": "altaghyeer-ar",
+          "source_class": "sudanese_journalism",
+          "link": "https://www.altaghyeer.info/ar/2026/09/22/%d8%a7%d9%84%d8%a8%d8%b1%d9%87%d8%a7%d9%86-%d9%8a%d8%b9%d8%b1%d8%b6-%d8%aa%d8%b3%d9%88%d9%8a%d8%a9-%d8%ac%d8%af%d9%8a%d8%af%d8%a9-%d9%88%d9%84%d9%83%d9%86-%d9%85%d8%b9-%d9%85%d9%86%d8%9f",
+          "status": "Reporting",
+          "geography": [
+            "National"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "War & Security",
+          "clabel": "الحرب والأمن",
+          "language": "ar",
+          "media_attribution": "التغيير"
         }
       },
       {
@@ -5731,7 +5918,7 @@
         "Date": "2026-09-21T22:21:57+00:00",
         "Permalink": "https://sudantribune.net/article/319090",
         "Params": {
-          "description": "الواثق كمير kameir@yahoo.com قرأت باهتمام تعقيب الأستاذ عمر الدقير الثاني، المعنون “مرة أخرى مع الواثق كمير: لا خلاف على الحوار… لكن أيُّ حوار وبأيِّ إطار؟”، على مقالي “قبل الحوار بخطوة: أين يختلف عمر الدقير معي؟”. وأقدّر حرصه على مواصلة النقاش وتحديد موضع اعتراضه بصورة أدق. فقد أوضح أن اعتراضه لا يتعلق برفض التشاور بين السودانيين، ولا بالاعتقاد أن لجنة التهيئة وضعت بالفعل صيغة نهائية للحوار، وإنما بالإطار الذي نشأت ",
+          "description": "الواثق كمير kameir@yahoo.com قرأت باهتمام تعقيب الأستاذ عمر الدقير الثاني، المعنون “مرة أخرى مع الواثق كمير: لا خلاف على الحوار… لكن أيُّ حوار وبأيِّ إطار؟”، على مقالي “قبل الحوار بخطوة: أين يختلف عمر الدقير معي؟”. وأقدّر حرصه على مواصلة النقاش وتحديد موضع اعتراضه بصورة أدق. فقد أوضح أن اعتراضه لا يتعلق برفض التشاور بين السودانيين، ولا بالاعتقاد أن لجنة التهيئة وضعت بالفعل صيغة نهائية للحوار، وإنما بالإطار الذي نشأت",
           "source": "Sudan Tribune Arabic",
           "source_id": "sudan-tribune-ar",
           "source_class": "sudanese_journalism",
@@ -8205,198 +8392,6 @@
           "clabel": "إنساني",
           "language": "ar",
           "media_attribution": "Sudan Tribune Arabic"
-        }
-      },
-      {
-        "Title": "السودان في اختبار اتساع الصراع والاختناق الاقتصادي وشلل الإغاثة",
-        "Lang": "ar",
-        "Date": "2026-09-19T10:26:21+00:00",
-        "Permalink": "https://sudantribune.net/article/318931",
-        "Params": {
-          "description": "",
-          "source": "Sudan Tribune",
-          "source_id": "sudan-tribune-en",
-          "source_class": "sudanese_journalism",
-          "link": "https://sudantribune.net/article/318931",
-          "status": "Reporting",
-          "geography": [
-            "National"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "Economy",
-          "clabel": "اقتصاد",
-          "language": "ar",
-          "media_attribution": "Sudan Tribune"
-        }
-      },
-      {
-        "Title": "الضعين: السلطات المحلية تمنع تخزين واحتكار الذرة وفرض عقوبات على المخالفين",
-        "Lang": "ar",
-        "Date": "2026-09-19T08:29:24+00:00",
-        "Permalink": "https://www.radiotamazuj.org/ar/news/article/%d8%a7%d9%84%d8%b6%d8%b9%d9%8a%d9%86-%d8%a7%d9%84%d8%b3%d9%84%d8%b7%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%ad%d9%84%d9%8a%d8%a9-%d8%aa%d9%85%d9%86%d8%b9-%d8%aa%d8%ae%d8%b2%d9%8a%d9%86-%d9%88%d8%a7%d8%ad",
-        "Params": {
-          "description": "أصدر المدير التنفيذي لمحلية الضعين بولاية شرق دارفور بالسودان، محمد عثمان آدم، أمرا محليا يوم The post الضعين: السلطات المحلية تمنع تخزين واحتكار الذرة وفرض عقوبات على المخالفين appeared first on Radio Tamazuj .",
-          "source": "راديو تمازج",
-          "source_id": "tamazuj-ar",
-          "source_class": "regional_journalism",
-          "link": "https://www.radiotamazuj.org/ar/news/article/%d8%a7%d9%84%d8%b6%d8%b9%d9%8a%d9%86-%d8%a7%d9%84%d8%b3%d9%84%d8%b7%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%ad%d9%84%d9%8a%d8%a9-%d8%aa%d9%85%d9%86%d8%b9-%d8%aa%d8%ae%d8%b2%d9%8a%d9%86-%d9%88%d8%a7%d8%ad",
-          "status": "Reporting",
-          "geography": [
-            "Darfur"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "Sudan News",
-          "clabel": "أخبار السودان",
-          "language": "ar",
-          "media_attribution": "راديو تمازج"
-        }
-      },
-      {
-        "Title": "ارتفاع عدد ضحايا انهيار منجم الذهب لـ 83 شخصا في كردفان",
-        "Lang": "ar",
-        "Date": "2026-09-19T08:27:21+00:00",
-        "Permalink": "https://www.radiotamazuj.org/ar/news/article/%d8%a7%d8%b1%d8%aa%d9%81%d8%a7%d8%b9-%d8%b9%d8%af%d8%af-%d8%b6%d8%ad%d8%a7%d9%8a%d8%a7-%d8%a7%d9%86%d9%87%d9%8a%d8%a7%d8%b1-%d9%85%d9%86%d8%ac%d9%85-%d8%a7%d9%84%d8%b0%d9%87%d8%a8-%d9%84%d9%80-83",
-        "Params": {
-          "description": "ارتفع عدد ضحايا انهيار مناجم التعدين الأهلي عن الذهب في منطقة فوجا بولاية غرب كردفان The post ارتفاع عدد ضحايا انهيار منجم الذهب لـ 83 شخصا في كردفان appeared first on Radio Tamazuj .",
-          "source": "راديو تمازج",
-          "source_id": "tamazuj-ar",
-          "source_class": "regional_journalism",
-          "link": "https://www.radiotamazuj.org/ar/news/article/%d8%a7%d8%b1%d8%aa%d9%81%d8%a7%d8%b9-%d8%b9%d8%af%d8%af-%d8%b6%d8%ad%d8%a7%d9%8a%d8%a7-%d8%a7%d9%86%d9%87%d9%8a%d8%a7%d8%b1-%d9%85%d9%86%d8%ac%d9%85-%d8%a7%d9%84%d8%b0%d9%87%d8%a8-%d9%84%d9%80-83",
-          "status": "Reporting",
-          "geography": [
-            "Kordofan"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "Economy",
-          "clabel": "اقتصاد",
-          "language": "ar",
-          "media_attribution": "راديو تمازج"
-        }
-      },
-      {
-        "Title": "ترتيبات العودة الطوعية لنازحي الفاشر من نيالا",
-        "Lang": "ar",
-        "Date": "2026-09-19T08:26:12+00:00",
-        "Permalink": "https://www.radiotamazuj.org/ar/news/article/%d8%aa%d8%b1%d8%aa%d9%8a%d8%a8%d8%a7%d8%aa-%d8%a7%d9%84%d8%b9%d9%88%d8%af%d8%a9-%d8%a7%d9%84%d8%b7%d9%88%d8%b9%d9%8a%d8%a9-%d9%84%d9%86%d8%a7%d8%b2%d8%ad%d9%8a-%d8%a7%d9%84%d9%81%d8%a7%d8%b4%d8%b1",
-        "Params": {
-          "description": "بدأت وزارة الشؤون الاجتماعية بولاية جنوب دارفور في السودان، ترتيبات للعودة الطوعية لنازحي مدينة الفاشر The post ترتيبات العودة الطوعية لنازحي الفاشر من نيالا appeared first on Radio Tamazuj .",
-          "source": "راديو تمازج",
-          "source_id": "tamazuj-ar",
-          "source_class": "regional_journalism",
-          "link": "https://www.radiotamazuj.org/ar/news/article/%d8%aa%d8%b1%d8%aa%d9%8a%d8%a8%d8%a7%d8%aa-%d8%a7%d9%84%d8%b9%d9%88%d8%af%d8%a9-%d8%a7%d9%84%d8%b7%d9%88%d8%b9%d9%8a%d8%a9-%d9%84%d9%86%d8%a7%d8%b2%d8%ad%d9%8a-%d8%a7%d9%84%d9%81%d8%a7%d8%b4%d8%b1",
-          "status": "Reporting",
-          "geography": [
-            "Darfur"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "Humanitarian",
-          "clabel": "إنساني",
-          "language": "ar",
-          "media_attribution": "راديو تمازج"
-        }
-      },
-      {
-        "Title": "تفاقم معاناة نازحو قيسان بالنيل الأزرق وسط نقص المأوى والغذاء",
-        "Lang": "ar",
-        "Date": "2026-09-19T08:25:06+00:00",
-        "Permalink": "https://www.radiotamazuj.org/ar/news/article/%d8%aa%d9%81%d8%a7%d9%82%d9%85-%d9%85%d8%b9%d8%a7%d9%86%d8%a7%d8%a9-%d9%86%d8%a7%d8%b2%d8%ad%d9%88-%d9%82%d9%8a%d8%b3%d8%a7%d9%86-%d8%a8%d8%a7%d9%84%d9%86%d9%8a%d9%84-%d8%a7%d9%84%d8%a3%d8%b2%d8%b1",
-        "Params": {
-          "description": "يواجه أكثر من عشرين ألف نازح فروا من محلية قيسان في ولاية النيل الأزرق بالسودان، The post تفاقم معاناة نازحو قيسان بالنيل الأزرق وسط نقص المأوى والغذاء appeared first on Radio Tamazuj .",
-          "source": "راديو تمازج",
-          "source_id": "tamazuj-ar",
-          "source_class": "regional_journalism",
-          "link": "https://www.radiotamazuj.org/ar/news/article/%d8%aa%d9%81%d8%a7%d9%82%d9%85-%d9%85%d8%b9%d8%a7%d9%86%d8%a7%d8%a9-%d9%86%d8%a7%d8%b2%d8%ad%d9%88-%d9%82%d9%8a%d8%b3%d8%a7%d9%86-%d8%a8%d8%a7%d9%84%d9%86%d9%8a%d9%84-%d8%a7%d9%84%d8%a3%d8%b2%d8%b1",
-          "status": "Reporting",
-          "geography": [
-            "Blue Nile"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "Humanitarian",
-          "clabel": "إنساني",
-          "language": "ar",
-          "media_attribution": "راديو تمازج"
-        }
-      },
-      {
-        "Title": "الجيش السوداني يعلن مقتل عناصر من الدعم السريع وتدمير مركبات في النيل الأزرق",
-        "Lang": "ar",
-        "Date": "2026-09-19T08:22:02+00:00",
-        "Permalink": "https://www.radiotamazuj.org/ar/news/article/%d8%a7%d9%84%d8%ac%d9%8a%d8%b4-%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86%d9%8a-%d9%8a%d8%b9%d9%84%d9%86-%d9%85%d9%82%d8%aa%d9%84-%d8%b9%d9%86%d8%a7%d8%b5%d8%b1-%d9%85%d9%86-%d8%a7%d9%84%d8%af%d8%b9",
-        "Params": {
-          "description": "أعلن الجيش السوداني مقتل عدد من مقاتلي قوات الدعم السريع وتدمير تسع مركبات قتالية خلال The post الجيش السوداني يعلن مقتل عناصر من الدعم السريع وتدمير مركبات في النيل الأزرق appeared first on Radio Tamazuj .",
-          "source": "راديو تمازج",
-          "source_id": "tamazuj-ar",
-          "source_class": "regional_journalism",
-          "link": "https://www.radiotamazuj.org/ar/news/article/%d8%a7%d9%84%d8%ac%d9%8a%d8%b4-%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86%d9%8a-%d9%8a%d8%b9%d9%84%d9%86-%d9%85%d9%82%d8%aa%d9%84-%d8%b9%d9%86%d8%a7%d8%b5%d8%b1-%d9%85%d9%86-%d8%a7%d9%84%d8%af%d8%b9",
-          "status": "Reporting",
-          "geography": [
-            "Blue Nile"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "War & Security",
-          "clabel": "الحرب والأمن",
-          "language": "ar",
-          "media_attribution": "راديو تمازج"
-        }
-      },
-      {
-        "Title": "جولة السودان اليوم | 18-9-2026",
-        "Lang": "ar",
-        "Date": "2026-09-18T23:04:17+00:00",
-        "Permalink": "https://www.dabangasudan.org/ar/all-news/article/%d8%ac%d9%88%d9%84%d8%a9-%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86-%d8%a7%d9%84%d9%8a%d9%88%d9%85-18-9-2026",
-        "Params": {
-          "description": "",
-          "source": "راديو دبنقا",
-          "source_id": "dabanga-ar",
-          "source_class": "sudanese_journalism",
-          "link": "https://www.dabangasudan.org/ar/all-news/article/%d8%ac%d9%88%d9%84%d8%a9-%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86-%d8%a7%d9%84%d9%8a%d9%88%d9%85-18-9-2026",
-          "status": "Reporting",
-          "geography": [
-            "National"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "Sudan News",
-          "clabel": "أخبار السودان",
-          "language": "ar",
-          "media_attribution": "راديو دبنقا"
-        }
-      },
-      {
-        "Title": "تعقيب على الواثق كمير: لا ينبغي للحوار أن يهرب من الحرب ولا أن يتكيَّف مع واقعها",
-        "Lang": "ar",
-        "Date": "2026-09-18T21:59:37+00:00",
-        "Permalink": "https://www.altaghyeer.info/ar/2026/09/18/%d8%aa%d8%b9%d9%82%d9%8a%d8%a8-%d8%b9%d9%84%d9%89-%d8%a7%d9%84%d9%88%d8%a7%d8%ab%d9%82-%d9%83%d9%85%d9%8a%d8%b1-%d9%84%d8%a7-%d9%8a%d9%86%d8%a8%d8%ba%d9%8a-%d9%84%d9%84%d8%ad%d9%88%d8%a7%d8%b1-%d8%a3",
-        "Params": {
-          "description": "تعقيب على الواثق كمير: لا ينبغي للحوار أن يهرب من الحرب ولا أن يتكيَّف مع واقعها ============ عمر الدقير ١٨ سبتمبر ٢٠٢٦ الدكتور الواثق كمير من المتحمسين للجنة التي سمّت نفسها “لجنة تهيئة الحوار السوداني”، ويبدو شديد الاقتناع بجدواها. وانطلاقاً من هذه القناعة، كتب عدداً من المقالات شرح فيها فكرته، وقدّم دفوعاً عن مسار …",
-          "source": "التغيير",
-          "source_id": "altaghyeer-ar",
-          "source_class": "sudanese_journalism",
-          "link": "https://www.altaghyeer.info/ar/2026/09/18/%d8%aa%d8%b9%d9%82%d9%8a%d8%a8-%d8%b9%d9%84%d9%89-%d8%a7%d9%84%d9%88%d8%a7%d8%ab%d9%82-%d9%83%d9%85%d9%8a%d8%b1-%d9%84%d8%a7-%d9%8a%d9%86%d8%a8%d8%ba%d9%8a-%d9%84%d9%84%d8%ad%d9%88%d8%a7%d8%b1-%d8%a3",
-          "status": "Reporting",
-          "geography": [
-            "National"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "War & Security",
-          "clabel": "الحرب والأمن",
-          "language": "ar",
-          "media_attribution": "التغيير"
         }
       }
     ],
