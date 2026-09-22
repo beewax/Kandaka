@@ -18,9 +18,12 @@ geography:
 language: ar
 status: Reporting
 cluster_id: b51982a688a0
-corroboration_count: 1
+corroboration_count: 2
 draft: false
 author: mozdapress
+related_sources:
+- source: سودانايل
+  link: https://sudanile.com/%d8%a7%d9%84%d8%aa%d8%ac%d8%a7%d9%86%d9%8a-%d8%b9%d8%a8%d8%af%d8%a7%d9%84%d9%82%d8%a7%d8%af%d8%b1-%d8%ad%d8%a7%d9%85%d8%af-%d8%b1%d8%ad%d9%85-%d8%a7%d9%84%d9%84%d9%87-%d8%a7%d9%84%d8%b1%d8%ac%d9%84
 clabel: أخبار السودان
 ---
 
