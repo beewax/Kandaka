@@ -15,7 +15,7 @@ status: Reporting
 cluster_id: ed0acb8148ed
 corroboration_count: 1
 draft: false
-author: أحمد سالم
+author: أحمد سالم علي
 image: https://www.alaraby.co.uk/sites/default/files/styles/meduim_16_9/public/2271367123.jpeg?h=4dc35482&itok=Pf_J_cmC
 media_source: https://www.alaraby.co.uk/politics/السودان-على-طاولة-واشنطن-والقاهرة-وسط-ضغوط-أميركية-لإبعاد-طرفي-الحرب
 media_reuse_basis: rss_metadata
