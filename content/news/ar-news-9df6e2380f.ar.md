@@ -17,13 +17,16 @@ geography:
 language: ar
 status: Reporting
 cluster_id: 4ef7fcfa962c
-corroboration_count: 1
+corroboration_count: 2
 draft: false
 author: طارق الجزولي
 image: https://sudanile.com/wp-content/uploads/2026/09/iom.jpg
 media_source: https://sudanile.com/5-%d9%85%d9%84%d8%a7%d9%8a%d9%8a%d9%86-%d8%b3%d9%88%d8%af%d8%a7%d9%86%d9%8a-%d9%8a%d8%b9%d9%88%d8%af%d9%88%d9%86-%d8%a5%d9%84%d9%89-%d9%85%d9%86%d8%a7%d8%b2%d9%84-%d9%85%d8%af%d9%85%d8%b1%d8%a9-%d9%88
 media_reuse_basis: rss_metadata
 media_attribution: سودانايل
+related_sources:
+- source: أخبار الأمم المتحدة
+  link: https://news.un.org/feed/view/ar/story/2026/09/1145365
 clabel: إنساني
 ---
 
