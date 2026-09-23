@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-23T03:40:30.129829+00:00",
+  "updated": "2026-09-23T10:55:33.349662+00:00",
   "sources": [
     {
       "id": "dabanga-en",
@@ -26,7 +26,7 @@
       "id": "bbc-africa",
       "language": "en",
       "status": "ok",
-      "items": 30,
+      "items": 32,
       "accepted": 1
     },
     {
@@ -69,7 +69,7 @@
       "language": "ar",
       "status": "ok",
       "items": 12,
-      "accepted": 7
+      "accepted": 8
     },
     {
       "id": "bbc-ar",
@@ -89,7 +89,7 @@
       "id": "alaraby-ar",
       "language": "ar",
       "status": "ok",
-      "items": 194,
+      "items": 168,
       "accepted": 1
     },
     {
@@ -137,9 +137,9 @@
     {
       "id": "sudan-war-monitor",
       "language": "en",
-      "status": "fetch_failed",
-      "items": 0,
-      "accepted": 0
+      "status": "ok",
+      "items": 20,
+      "accepted": 12
     },
     {
       "id": "sudan-transparency",
@@ -160,7 +160,7 @@
       "language": "ar",
       "status": "ok",
       "items": 12,
-      "accepted": 2
+      "accepted": 3
     }
   ]
 }
