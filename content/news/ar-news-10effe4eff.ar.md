@@ -1,5 +1,5 @@
 ---
-title: لماذا يسعى السودانيون لاستخراج الذهب برغم المخاطر العالية؟
+title: لماذا يسعى السودانيون لاستخراج الذهب رغم المخاطر العالية؟
 date: '2026-09-22T21:03:06Z'
 description: في ظل الأزمة الاقتصادية وتراجع مصادر الدخل، يتجه كثير من السودانيين إلى
   استخراج الذهب باعتباره فرصة سريعة لكسب المال وتأمين لقمة العيش، رغم المخاطر.
@@ -12,7 +12,7 @@ geography:
 - National
 language: ar
 status: Reporting
-cluster_id: 8fdb01c0e08b
+cluster_id: 9fb0d27af52c
 corroboration_count: 1
 draft: false
 image: https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/79c4/live/af352650-b6c3-11f1-8a9f-c7141bd7738d.jpg
