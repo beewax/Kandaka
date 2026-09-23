@@ -2,7 +2,7 @@
 
 > Persistent editorial and research tracker. This file records decisions, drafts, queues, source-acquisition work, website changes, and publication readiness. It does **not** authorize publication.
 
-**Last updated:** 2026-09-19
+**Last updated:** 2026-09-22
 **Publication rule:** Nothing may be translated, scheduled, committed as publishable content, or published without explicit approval of that specific article.  
 **Current overall state:** Planning and review only; no item in this file is approved for publication unless its `Approved` field is explicitly marked `Yes`.
 
@@ -213,14 +213,15 @@ Approval of one article never approves another. If an article is not ready or ap
 
 - **Category/tags:** Ideas; institutions, policing, gender, child protection
 - **Priority:** High social/institutional importance
-- **Research:** Substantive review completed 2026-08-31; Sudanese legal, current FCPU capacity, survivor/community consultation, institutional-design, cost, safeguarding, publication-refresh, and image checks listed in draft
-- **Draft:** Clean English review draft completed 2026-08-31 at `deliverables/articles/A10-women-children-protection-police-review-draft.md`
-- **Review:** Ready for user review
-- **Approved:** No
-- **Published:** No
+- **Research:** Publication-day refresh completed 2026-09-22 against current UNICEF evidence of Family and Child Protection Unit activity, OHCHR and UN reporting on conflict-related sexual violence, UNFPA service evidence, and WHO/UN Women survivor-centred standards; the absence of a public nationwide unit-status audit, a consolidated current legal text, personnel/community consultation, and detailed costing remain explicitly disclosed gaps
+- **Draft:** Complete English and Arabic publication editions dated 2026-09-22
+- **Review:** Publication authorized by user 2026-09-01; later corrections remain welcome
+- **Approved:** Yes - 2026-09-01
+- **Published:** Yes - 2026-09-22, English and Arabic
 - **Core thesis:** More policewomen may improve reporting and trust, but an effective response to rape and child abuse requires specialized women-and-child protection units embedded in a complete survivor-protection system.
 - **Requirements:** Examine recruitment and authority of policewomen; trained investigators; confidential and accessible reporting; survivor-centered interviewing; forensic capacity; shelters; social workers; child-protection services; prosecutors; medical care; evidence preservation; witness protection; oversight and accountability; rural/mobile access; and safeguards against abuse by security services. Do not present adding women to a broken institution as sufficient reform.
-- **Next action:** User reviews the English draft. Apply requested changes, then complete the listed legal, institutional, survivor/community, cost, safeguarding, current-data, and image checks before any approval, translation, or publication.
+- **Image:** Original commissioned illustration of an integrated protection centre added 2026-09-22; it depicts adult professionals only, shows no survivor or child, and uses no official insignia or protected humanitarian emblem.
+- **Next action:** Verify both live language pages, shared image, metadata and Ideas listing; incorporate later confidential Sudanese legal, service-provider, women-led, child-rights and disability-rights review.
 
 ### A11 — What Megaprojects Could Actually Transform Sudan?
 
@@ -432,7 +433,7 @@ These changes are approved or requested but must be implemented and tested in th
 | A07 Independence flag | Refreshed 2026-09-10; archival and legal gaps disclosed | Complete in English and Arabic | Publication authorized; later corrections welcome | Yes 2026-09-01 | Yes 2026-09-10 | Verify live pages; monitor formal legal action and later review |
 | A08 Country-name question | Refreshed 2026-09-13; present-status and research limitations disclosed | Complete in English and Arabic | Publication authorized; later corrections welcome | Yes 2026-09-01 | Yes 2026-09-13 | Verify live pages; incorporate later linguistic, legal and community review |
 | A09 Trustworthy aid/delivery | Refreshed 2026-09-19 across every included channel; limitations disclosed | Complete in English and Arabic | Publication authorized; later corrections welcome | Yes 2026-09-01 | Yes 2026-09-19 | Verify live pages; begin monthly link/status monitoring |
-| A10 Women/children protection service | Substantive review complete 2026-08-31; final checks listed | Clean English review draft complete 2026-08-31 | Ready for user review | No | No | User review; then corrections and final legal, institutional, safeguarding, and evidence checks |
+| A10 Women/children protection service | Refreshed 2026-09-22; current FCPU evidence and limitations disclosed | Complete in English and Arabic | Publication authorized; later corrections welcome | Yes 2026-09-01 | Yes 2026-09-22 | Verify live pages; incorporate later legal, safeguarding and community review |
 | A11 Transformative megaprojects | Preliminary | Not started | Not ready | No | No | Build comparative scorecard |
 | L01 Uranium in Sudan | Source reviewed | Not started | Not ready | No | No | Reconcile file/catalog metadata and summarize |
 | L02 Infrastructure | Preliminary | Not started | Not ready | No | No | Retrieve full source and check duplication |
@@ -455,3 +456,4 @@ These changes are approved or requested but must be implemented and tested in th
 - **2026-09-13:** Published A08, *Should Sudan Ever Change Its Country Name?*, in complete English and Arabic editions. Refreshed the UN/ISO and constitutional naming record, found no formal national renaming proposal in the authoritative sources reviewed, distinguished administrative English-name harmonization from a true rename, and added an original plural civic-consultation cover. Retained explicit gaps on public opinion, Sudanese-language scholarship, regional consultation, legal authority, and transition cost.
 - **2026-09-19:** Published B15, *Karanog and Dongola's Throne Hall: Two Monuments, One Nubian History*, in English and Arabic through [PR #9](https://github.com/beewax/Kandaka/pull/9). Applied the academic audit and verified both live pages, History listings, 21 source notes per language, all eight active images, reciprocal language links and sharing metadata. The inaccurate architectural cutaway remains withheld.
 - **2026-09-19:** Published A09, *How Can You Actually Help Sudan?*, in complete English and Arabic editions. Rechecked every included organization and official donation route, replaced permanent trust labels with dated evidence levels, distinguished delivery inside Sudan from regional refugee support and unrestricted global giving, disclosed audit and access limits, and added an original privacy-conscious accountability illustration.
+- **2026-09-22:** Published A10, *Women, Children and Security: Does Sudan Need a Specialized Protection Police Service?*, in complete English and Arabic editions. Refreshed the evidence on continued Family and Child Protection Unit activity, conflict-related sexual violence and current services; distinguished a specialized police service from the complete survivor-protection system it must sit within; required independent complaint routes when state or security personnel are accused; and added an original survivor-safe cover. This completes the authorized A05-A10 staggered publication sequence.
