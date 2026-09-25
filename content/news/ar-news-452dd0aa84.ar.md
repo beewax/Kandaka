@@ -16,12 +16,9 @@ geography:
 language: ar
 status: Reporting
 cluster_id: edd77b41e060
-corroboration_count: 2
+corroboration_count: 1
 draft: false
 author: صحيفة التغيير
-related_sources:
-- source: سودانايل
-  link: https://sudanile.com/%d8%a5%d8%ba%d9%81%d8%a7%d8%a1%d8%a9-%d9%88%d8%b2%d8%b1%d8%a7%d8%a1-%d8%a7%d9%84%d9%82%d8%b7%d8%a7%d8%b9-%d8%a7%d9%84%d8%a7%d9%82%d8%aa%d8%b5%d8%a7%d8%af%d9%8a-%d9%88%d8%a5%d9%86%d8%a8%d8%b7%d8%a7
 clabel: اقتصاد
 ---
 
