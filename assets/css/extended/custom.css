@@ -261,6 +261,48 @@ html[data-theme="dark"] .badge-default { background: #78350f !important; color: 
   border-radius: 2px;
   background: currentColor;
 }
+
+/* ── Article category archives ────────────────────────────────── */
+.category-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 10px;
+  margin: 1.5rem 0;
+}
+.category-list-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  min-height: 48px;
+  padding: 10px 14px;
+  border: 1px solid var(--border);
+  border-radius: 9px;
+  background: var(--entry);
+  color: var(--primary);
+  font-weight: 650;
+  text-decoration: none;
+}
+.category-list-item:hover,
+.category-list-item:focus-visible {
+  border-color: #b88d00;
+  outline: 3px solid #ffc700;
+  outline-offset: 2px;
+}
+.category-list-count { color: var(--secondary); font-size: .875rem; }
+.category-archive-entry {
+  margin: 0 0 1.25rem;
+  padding: 1.25rem;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--entry);
+}
+.category-archive-header h2 { margin: 0 0 .4rem; font-size: 1.15rem; }
+.category-archive-header h2 a { color: var(--primary); text-decoration: none; }
+.category-archive-header h2 a:hover { text-decoration: underline; }
+.category-archive-meta { color: var(--secondary); font-size: .8rem; }
+.category-archive-entry > p { margin: .75rem 0 0; color: var(--secondary); }
+
 @media (max-width: 700px) {
   .header-nav {
     display: grid;
