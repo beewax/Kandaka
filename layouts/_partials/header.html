@@ -89,12 +89,13 @@
             <span>{{ if eq .Lang "ar" }}القائمة{{ else }}Menu{{ end }}</span>
         </button>
         {{- $currentPage := . }}
+        {{- $articleSections := slice "ideas" "development" "history" "culture" "news" "posts" }}
         <ul id="menu" class="menu">
             {{- range site.Menus.main }}
             {{- $menu_item_url := (cond (strings.HasSuffix .URL "/") .URL (printf "%s/" .URL) ) | absLangURL }}
             {{- $page_url:= $currentPage.Permalink | absLangURL }}
             {{- $is_search := eq (site.GetPage .KeyName).Layout `search` }}
-            <li>
+            <li{{ if eq .Identifier "categories" }} class="menu-categories"{{ end }}>
                 <a href="{{ .URL | absLangURL }}" title="{{ .Title | default .Name }} {{- cond $is_search (" (Alt + /)" | safeHTMLAttr) ("" | safeHTMLAttr ) }}"
                 {{- cond $is_search (" accesskey=/" | safeHTMLAttr) ("" | safeHTMLAttr ) }}>
                     <span {{- if eq $menu_item_url $page_url }} class="active" {{- end }}>
@@ -111,6 +112,31 @@
                     </svg>
                     {{- end }}
                 </a>
+                {{- if eq .Identifier "categories" }}
+                <ul class="category-menu" aria-label="{{ if eq $.Lang "ar" }}تصنيفات المقالات{{ else }}Article categories{{ end }}">
+                    {{- range site.Taxonomies.category.Alphabetical }}
+                    {{- $term := . }}
+                    {{- with site.GetPage (printf "/category/%s" $term.Name) }}
+                    {{- $articles := where .Pages "Section" "in" $articleSections }}
+                    {{- if gt (len $articles) 0 }}
+                    {{- $categoryLabel := .Title }}
+                    {{- range $articles }}
+                    {{- if and (eq .Language.Lang $.Lang) .Params.clabel }}
+                    {{- $categoryLabel = .Params.clabel }}
+                    {{- break }}
+                    {{- end }}
+                    {{- end }}
+                    <li>
+                        <a href="{{ .RelPermalink }}">
+                            <span>{{ $categoryLabel }}</span>
+                            <span class="category-menu-count">{{ len $articles }}</span>
+                        </a>
+                    </li>
+                    {{- end }}
+                    {{- end }}
+                    {{- end }}
+                </ul>
+                {{- end }}
             </li>
             {{- end }}
         </ul>

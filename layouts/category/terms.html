@@ -1,0 +1,27 @@
+{{- define "main" }}
+{{- $articleSections := slice "ideas" "development" "history" "culture" "news" "posts" }}
+<header class="page-header">
+  <h1>{{ i18n "categories" }}</h1>
+</header>
+<div class="category-list" role="list">
+  {{- range .Data.Terms.Alphabetical }}
+    {{- $term := . }}
+    {{- with site.GetPage (printf "/%s/%s" $.Data.Plural $term.Name) }}
+      {{- $articles := where .Pages "Section" "in" $articleSections }}
+      {{- if gt (len $articles) 0 }}
+        {{- $label := .Title }}
+        {{- range $articles }}
+          {{- if and (eq .Language.Lang $.Lang) .Params.clabel }}
+            {{- $label = .Params.clabel }}
+            {{- break }}
+          {{- end }}
+        {{- end }}
+  <a class="category-list-item" href="{{ .RelPermalink }}" role="listitem">
+    <span>{{ $label }}</span>
+    <span class="category-list-count">{{ len $articles }}</span>
+  </a>
+      {{- end }}
+    {{- end }}
+  {{- end }}
+</div>
+{{- end }}

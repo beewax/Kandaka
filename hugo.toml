@@ -18,6 +18,10 @@ pygmentsCodeFences = true
   home = ["HTML", "RSS", "JSON"]
   section = ["HTML", "RSS", "Pinterest"]
 
+[taxonomies]
+  category = "category"
+  tag = "tags"
+
 [outputFormats.Pinterest]
   mediaType = "application/rss+xml"
   baseName = "pinterest"
@@ -65,6 +69,12 @@ pygmentsCodeFences = true
     name = "News"
     url = "/news/"
     weight = 50
+
+  [[languages.en.menu.main]]
+    identifier = "categories"
+    name = "Categories"
+    url = "/category/"
+    weight = 55
 
   [[languages.en.menu.main]]
     identifier = "library"
@@ -125,6 +135,12 @@ pygmentsCodeFences = true
     name = "الأخبار"
     url = "/ar/news/"
     weight = 50
+
+  [[languages.ar.menu.main]]
+    identifier = "categories"
+    name = "التصنيفات"
+    url = "/ar/category/"
+    weight = 55
 
   [[languages.ar.menu.main]]
     identifier = "library"
