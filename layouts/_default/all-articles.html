@@ -1,0 +1,28 @@
+{{- define "main" }}
+{{- $articleSections := slice "ideas" "development" "history" "culture" "news" "posts" }}
+{{- $articles := where (where site.RegularPages "Section" "in" $articleSections) "Language.Lang" .Lang }}
+{{- $articles = sort $articles "Date" "desc" }}
+<header class="page-header">
+  <h1>{{ .Title }}</h1>
+  <div class="post-description">{{ if eq .Lang "ar" }}عدد المقالات: {{ len $articles }}{{ else }}{{ len $articles }} {{ if eq (len $articles) 1 }}article{{ else }}articles{{ end }}{{ end }}</div>
+</header>
+<div role="list" dir="{{ if eq .Lang "ar" }}rtl{{ else }}ltr{{ end }}">
+  {{- range $articles }}
+  <article class="category-archive-entry" role="listitem">
+    <header class="category-archive-header">
+      <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+      <div class="category-archive-meta">
+        <span>{{ i18n .Section }}</span>
+        <span aria-hidden="true"> · </span>
+        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 Jan 2006" }}</time>
+      </div>
+    </header>
+    {{- with .Description }}
+    <p>{{ . }}</p>
+    {{- else }}
+    <p>{{ .Summary | plainify | truncate 240 }}</p>
+    {{- end }}
+  </article>
+  {{- end }}
+</div>
+{{- end }}
