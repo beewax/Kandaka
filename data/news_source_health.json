@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-26T15:56:05.336774+00:00",
+  "updated": "2026-09-26T20:43:42.320594+00:00",
   "sources": [
     {
       "id": "dabanga-en",
@@ -26,7 +26,7 @@
       "id": "bbc-africa",
       "language": "en",
       "status": "ok",
-      "items": 28,
+      "items": 29,
       "accepted": 1
     },
     {
@@ -83,14 +83,14 @@
       "language": "ar",
       "status": "ok",
       "items": 24,
-      "accepted": 2
+      "accepted": 1
     },
     {
       "id": "alaraby-ar",
       "language": "ar",
       "status": "ok",
-      "items": 147,
-      "accepted": 3
+      "items": 146,
+      "accepted": 2
     },
     {
       "id": "un-news-ar",
