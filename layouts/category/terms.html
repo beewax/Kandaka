@@ -4,10 +4,13 @@
   <h1>{{ i18n "categories" }}</h1>
 </header>
 <div class="category-list" role="list">
+  <a class="category-list-item" href="{{ "articles/" | absLangURL }}" role="listitem">
+    <span>{{ if eq .Lang "ar" }}كل المقالات{{ else }}All articles{{ end }}</span>
+  </a>
   {{- range .Data.Terms.Alphabetical }}
     {{- $term := . }}
     {{- with site.GetPage (printf "/%s/%s" $.Data.Plural $term.Name) }}
-      {{- $articles := where .Pages "Section" "in" $articleSections }}
+      {{- $articles := where (where .Pages "Section" "in" $articleSections) "Language.Lang" $.Lang }}
       {{- if gt (len $articles) 0 }}
         {{- $label := .Title }}
         {{- range $articles }}

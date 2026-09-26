@@ -114,10 +114,15 @@
                 </a>
                 {{- if eq .Identifier "categories" }}
                 <ul class="category-menu" aria-label="{{ if eq $.Lang "ar" }}تصنيفات المقالات{{ else }}Article categories{{ end }}">
+                    <li>
+                        <a href="{{ "articles/" | absLangURL }}">
+                            <span>{{ if eq $.Lang "ar" }}كل المقالات{{ else }}All articles{{ end }}</span>
+                        </a>
+                    </li>
                     {{- range site.Taxonomies.category.Alphabetical }}
                     {{- $term := . }}
                     {{- with site.GetPage (printf "/category/%s" $term.Name) }}
-                    {{- $articles := where .Pages "Section" "in" $articleSections }}
+                    {{- $articles := where (where .Pages "Section" "in" $articleSections) "Language.Lang" $.Lang }}
                     {{- if gt (len $articles) 0 }}
                     {{- $categoryLabel := .Title }}
                     {{- range $articles }}

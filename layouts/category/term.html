@@ -1,10 +1,10 @@
 {{- define "main" }}
 {{- $articleSections := slice "ideas" "development" "history" "culture" "news" "posts" }}
-{{- $articles := where .Pages "Section" "in" $articleSections }}
+{{- $articles := where (where .Pages "Section" "in" $articleSections) "Language.Lang" .Lang }}
 {{- $articles = sort $articles "Date" "desc" }}
 {{- $title := .Title }}
 {{- range $articles }}
-  {{- if and (eq .Language.Lang $.Lang) .Params.clabel }}
+  {{- if .Params.clabel }}
     {{- $title = .Params.clabel }}
     {{- break }}
   {{- end }}
