@@ -20,7 +20,7 @@ cluster_id: 2fc484aa4469
 corroboration_count: 1
 draft: false
 author: زهير عثمان حمد
-image: https://sudanile.com/wp-content/uploads/2021/04/Sudanile-Logo-SQ-9.jpg
+image: https://sudanile.com/wp-content/uploads/2026/01/zuher.jpg
 media_source: https://sudanile.com/%d8%a5%d8%ab%d9%8a%d9%88%d8%a8%d9%8a%d8%a7-%d8%b9%d9%84%d9%89-%d8%ad%d8%a7%d9%81%d8%a9-%d8%a7%d9%84%d9%87%d8%a7%d9%88%d9%8a%d8%a9-%d8%aa%d8%ad%d8%a7%d9%84%d9%81%d8%a7%d8%aa-%d8%a5%d8%b3%d9%82%d8%a7
 media_reuse_basis: rss_metadata
 media_attribution: سودانايل
