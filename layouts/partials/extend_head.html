@@ -38,6 +38,43 @@
 {{- end }}
 
 <style>
+/* Related article recommendations */
+.k-related-articles {
+  margin: 2.5rem 0 1rem;
+  padding: 1.25rem;
+  border: 1px solid var(--tertiary);
+  border-radius: 10px;
+}
+.k-related-articles h2 {
+  margin: 0 0 1rem;
+  font-size: 1.25rem;
+}
+.k-related-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+.k-related-card a {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  height: 100%;
+  color: var(--primary);
+  text-decoration: none;
+}
+.k-related-card a:hover,
+.k-related-card a:focus-visible {
+  text-decoration: underline;
+}
+.k-related-card span {
+  color: var(--secondary);
+  font-size: .875rem;
+  line-height: 1.5;
+}
+@media (max-width: 700px) {
+  .k-related-grid { grid-template-columns: 1fr; }
+}
+
 /* Sudan 1956 flag hero */
 article.first-entry.home-info::before {
   content: "";
