@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-27T16:32:06.562118+00:00",
+  "updated": "2026-09-27T21:00:05.281402+00:00",
   "sources": [
     {
       "id": "dabanga-en",
@@ -75,8 +75,8 @@
       "id": "bbc-ar",
       "language": "ar",
       "status": "ok",
-      "items": 23,
-      "accepted": 3
+      "items": 24,
+      "accepted": 4
     },
     {
       "id": "france24-ar",
@@ -89,7 +89,7 @@
       "id": "alaraby-ar",
       "language": "ar",
       "status": "ok",
-      "items": 153,
+      "items": 150,
       "accepted": 5
     },
     {
