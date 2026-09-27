@@ -46,6 +46,7 @@
   {{- partial "extend_post_content.html" . }}
   {{- if and .IsPage (ne .Section "news") }}
     {{- partial "related-articles.html" . }}
+    {{- partial "follow-feed.html" . }}
   {{- end }}
 
   <footer class="post-footer">

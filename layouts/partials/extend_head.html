@@ -71,8 +71,42 @@
   font-size: .875rem;
   line-height: 1.5;
 }
+.k-follow-feed {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 1.25rem 0;
+  padding: 1rem 1.25rem;
+  border: 1px solid var(--tertiary);
+  border-radius: 10px;
+  background: var(--code-bg);
+}
+.k-follow-feed div {
+  display: flex;
+  flex-direction: column;
+  gap: .25rem;
+}
+.k-follow-feed span {
+  color: var(--secondary);
+  font-size: .875rem;
+}
+.k-follow-feed a {
+  flex: 0 0 auto;
+  padding: .5rem .75rem;
+  border-radius: 6px;
+  background: var(--primary);
+  color: var(--theme);
+  text-decoration: none;
+  font-weight: 700;
+}
+.k-follow-feed a:hover,
+.k-follow-feed a:focus-visible {
+  opacity: .85;
+}
 @media (max-width: 700px) {
   .k-related-grid { grid-template-columns: 1fr; }
+  .k-follow-feed { align-items: flex-start; flex-direction: column; }
 }
 
 /* Sudan 1956 flag hero */
