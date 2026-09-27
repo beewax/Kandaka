@@ -1,5 +1,5 @@
 {{- define "main" }}
-{{- $articleSections := slice "ideas" "development" "history" "culture" "news" "posts" }}
+{{- $articleSections := slice "ideas" "development" "history" "culture" "posts" }}
 {{- $articles := where (where site.RegularPages "Section" "in" $articleSections) "Language.Lang" .Lang }}
 {{- $articles = sort $articles "Date" "desc" }}
 <header class="page-header">
