@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-27T11:32:58.018451+00:00",
+  "updated": "2026-09-27T16:32:06.562118+00:00",
   "sources": [
     {
       "id": "dabanga-en",
@@ -83,14 +83,14 @@
       "language": "ar",
       "status": "ok",
       "items": 24,
-      "accepted": 1
+      "accepted": 0
     },
     {
       "id": "alaraby-ar",
       "language": "ar",
       "status": "ok",
-      "items": 156,
-      "accepted": 4
+      "items": 153,
+      "accepted": 5
     },
     {
       "id": "un-news-ar",
@@ -153,7 +153,7 @@
       "language": "en",
       "status": "ok",
       "items": 12,
-      "accepted": 3
+      "accepted": 4
     },
     {
       "id": "tamazuj-ar",
