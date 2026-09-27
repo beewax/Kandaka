@@ -1,30 +1,30 @@
 {
-  "updated": "2026-09-27T21:00:05.281402+00:00",
+  "updated": "2026-09-27T23:46:19.031680+00:00",
   "window_days": 30,
   "en": {
     "balanced": [
       {
-        "Title": "RSF drones strike El Gezira fuel depot as both sides report shootdowns",
+        "Title": "Ethiopia accuses Eritrea, Sudan of backing Tigray rebels amid clashes",
         "Lang": "en",
-        "Date": "2026-09-27T13:22:49+00:00",
-        "Permalink": "https://www.dabangasudan.org/en/all-news/article/rsf-drones-strike-el-gezira-fuel-depot-as-both-sides-report-shootdowns",
+        "Date": "2026-09-27T23:27:29+00:00",
+        "Permalink": "https://www.france24.com/en/africa/20260927-ethiopia-accuses-eritrea-sudan-backing-tigray-rebels",
         "Params": {
-          "description": "Paramilitary Rapid Support Forces drones struck the Umm Alila fuel depot east of Wad Madani... The post RSF drones strike El Gezira fuel depot as both sides report shootdowns appeared first on Dabanga Radio TV Online .",
-          "source": "Radio Dabanga",
-          "source_id": "dabanga-en",
-          "source_class": "sudanese_journalism",
-          "link": "https://www.dabangasudan.org/en/all-news/article/rsf-drones-strike-el-gezira-fuel-depot-as-both-sides-report-shootdowns",
+          "description": "Ethiopia’s army chief accused Eritrea and Sudan on Sunday of backing armed groups fighting federal troops, as clashes with Tigrayan rebels intensified. The Tigray People’s Liberation Front said it was waging a “defensive war” and seized airports. A humanitarian source said rebels captured the Afar town of Erebti on Sunday.",
+          "source": "France 24 Africa",
+          "source_id": "france24-africa",
+          "source_class": "international_journalism",
+          "link": "https://www.france24.com/en/africa/20260927-ethiopia-accuses-eritrea-sudan-backing-tigray-rebels",
           "status": "Reporting",
           "geography": [
-            "Gezira"
+            "National"
           ],
-          "image": "",
-          "media_reuse_basis": "",
+          "image": "https://s.france24.com/media/display/0f75e7a4-b74e-11f1-a7c4-55848da96185/w:1024/p:16x9/6d45b1037798aea9bf1e18f1c74287a9684d4283.jpg",
+          "media_reuse_basis": "rss_metadata",
           "related_sources": [],
           "category": "War & Security",
           "clabel": "الحرب والأمن",
           "language": "en",
-          "media_attribution": "Radio Dabanga"
+          "media_attribution": "France 24 Africa"
         }
       },
       {
@@ -49,6 +49,30 @@
           "clabel": "أخبار السودان",
           "language": "en",
           "media_attribution": "Radio Tamazuj"
+        }
+      },
+      {
+        "Title": "RSF drones strike El Gezira fuel depot as both sides report shootdowns",
+        "Lang": "en",
+        "Date": "2026-09-27T13:22:49+00:00",
+        "Permalink": "https://www.dabangasudan.org/en/all-news/article/rsf-drones-strike-el-gezira-fuel-depot-as-both-sides-report-shootdowns",
+        "Params": {
+          "description": "Paramilitary Rapid Support Forces drones struck the Umm Alila fuel depot east of Wad Madani... The post RSF drones strike El Gezira fuel depot as both sides report shootdowns appeared first on Dabanga Radio TV Online .",
+          "source": "Radio Dabanga",
+          "source_id": "dabanga-en",
+          "source_class": "sudanese_journalism",
+          "link": "https://www.dabangasudan.org/en/all-news/article/rsf-drones-strike-el-gezira-fuel-depot-as-both-sides-report-shootdowns",
+          "status": "Reporting",
+          "geography": [
+            "Gezira"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "War & Security",
+          "clabel": "الحرب والأمن",
+          "language": "en",
+          "media_attribution": "Radio Dabanga"
         }
       },
       {
@@ -97,30 +121,6 @@
           "clabel": "الحرب والأمن",
           "language": "en",
           "media_attribution": "Sudan War Monitor"
-        }
-      },
-      {
-        "Title": "Each side feels it 'could get a decisive military victory' in Sudan, Trump's Africa envoy says",
-        "Lang": "en",
-        "Date": "2026-09-25T12:54:12+00:00",
-        "Permalink": "https://www.france24.com/en/tv-shows/t%C3%AAte-%C3%A0-t%C3%AAte/20260925-each-side-feels-it-could-get-a-decisive-military-victory-in-sudan-trump-s-africa-envoy-says",
-        "Params": {
-          "description": "In an interview with FRANCE 24 on the sidelines of the UN General Assembly, Trump's Africa envoy Massad Boulos said that each side in Sudan feels it \"could get a decisive military victory\". Asked about Western Sahara, he acknowledged there is no \"imminent solution that we can feel or touch\". He also rejected Rwanda's accusations of bias over US sanctions, saying they \"can easily be reversed\".",
-          "source": "France 24 Africa",
-          "source_id": "france24-africa",
-          "source_class": "international_journalism",
-          "link": "https://www.france24.com/en/tv-shows/t%C3%AAte-%C3%A0-t%C3%AAte/20260925-each-side-feels-it-could-get-a-decisive-military-victory-in-sudan-trump-s-africa-envoy-says",
-          "status": "Reporting",
-          "geography": [
-            "National"
-          ],
-          "image": "https://s.france24.com/media/display/797a3062-b8cd-11f1-9fbe-852b23529bb9/w:1024/p:16x9/FRproduction2-2026-09-24-11-25-50.jpg",
-          "media_reuse_basis": "rss_metadata",
-          "related_sources": [],
-          "category": "International",
-          "clabel": "دولي",
-          "language": "en",
-          "media_attribution": "France 24 Africa"
         }
       },
       {
@@ -244,6 +244,30 @@
         }
       },
       {
+        "Title": "Each side feels it 'could get a decisive military victory' in Sudan, Trump's Africa envoy says",
+        "Lang": "en",
+        "Date": "2026-09-25T12:54:12+00:00",
+        "Permalink": "https://www.france24.com/en/tv-shows/t%C3%AAte-%C3%A0-t%C3%AAte/20260925-each-side-feels-it-could-get-a-decisive-military-victory-in-sudan-trump-s-africa-envoy-says",
+        "Params": {
+          "description": "In an interview with FRANCE 24 on the sidelines of the UN General Assembly, Trump's Africa envoy Massad Boulos said that each side in Sudan feels it \"could get a decisive military victory\". Asked about Western Sahara, he acknowledged there is no \"imminent solution that we can feel or touch\". He also rejected Rwanda's accusations of bias over US sanctions, saying they \"can easily be reversed\".",
+          "source": "France 24 Africa",
+          "source_id": "france24-africa",
+          "source_class": "international_journalism",
+          "link": "https://www.france24.com/en/tv-shows/t%C3%AAte-%C3%A0-t%C3%AAte/20260925-each-side-feels-it-could-get-a-decisive-military-victory-in-sudan-trump-s-africa-envoy-says",
+          "status": "Reporting",
+          "geography": [
+            "National"
+          ],
+          "image": "https://s.france24.com/media/display/797a3062-b8cd-11f1-9fbe-852b23529bb9/w:1024/p:16x9/FRproduction2-2026-09-24-11-25-50.jpg",
+          "media_reuse_basis": "rss_metadata",
+          "related_sources": [],
+          "category": "International",
+          "clabel": "دولي",
+          "language": "en",
+          "media_attribution": "France 24 Africa"
+        }
+      },
+      {
         "Title": "Collapsing currency and inflation leave families struggling in Sudan",
         "Lang": "en",
         "Date": "2026-09-24T17:03:55+00:00",
@@ -265,30 +289,6 @@
           "clabel": "اقتصاد",
           "language": "en",
           "media_attribution": "Al Jazeera English"
-        }
-      },
-      {
-        "Title": "US refusing to give Sudan's de facto leader visa for UN",
-        "Lang": "en",
-        "Date": "2026-09-22T20:13:30+00:00",
-        "Permalink": "https://www.france24.com/en/us-refusing-to-give-sudan-s-de-facto-leader-visa-for-un",
-        "Params": {
-          "description": "In tonight's edition: The United States is withholding a visa for Sudanese army chief Abdel Fattah al-Burhan ahead of his scheduled UN appearance. Also, Ghana is beefing up its drugs authority in the wake of major drug busts in France, Belgium and South Africa. Plus it’s back-to-school season in Ivory Coast.",
-          "source": "France 24 Africa",
-          "source_id": "france24-africa",
-          "source_class": "international_journalism",
-          "link": "https://www.france24.com/en/us-refusing-to-give-sudan-s-de-facto-leader-visa-for-un",
-          "status": "Reporting",
-          "geography": [
-            "National"
-          ],
-          "image": "https://s.france24.com/media/display/0e378640-b6c2-11f1-8a88-e554abee39f5/w:1024/p:16x9/capture-10838219656ab2e15fe7a857-34442302.jpg",
-          "media_reuse_basis": "rss_metadata",
-          "related_sources": [],
-          "category": "Education",
-          "clabel": "تعليم",
-          "language": "en",
-          "media_attribution": "France 24 Africa"
         }
       },
       {
@@ -582,6 +582,30 @@
       }
     ],
     "latest": [
+      {
+        "Title": "Ethiopia accuses Eritrea, Sudan of backing Tigray rebels amid clashes",
+        "Lang": "en",
+        "Date": "2026-09-27T23:27:29+00:00",
+        "Permalink": "https://www.france24.com/en/africa/20260927-ethiopia-accuses-eritrea-sudan-backing-tigray-rebels",
+        "Params": {
+          "description": "Ethiopia’s army chief accused Eritrea and Sudan on Sunday of backing armed groups fighting federal troops, as clashes with Tigrayan rebels intensified. The Tigray People’s Liberation Front said it was waging a “defensive war” and seized airports. A humanitarian source said rebels captured the Afar town of Erebti on Sunday.",
+          "source": "France 24 Africa",
+          "source_id": "france24-africa",
+          "source_class": "international_journalism",
+          "link": "https://www.france24.com/en/africa/20260927-ethiopia-accuses-eritrea-sudan-backing-tigray-rebels",
+          "status": "Reporting",
+          "geography": [
+            "National"
+          ],
+          "image": "https://s.france24.com/media/display/0f75e7a4-b74e-11f1-a7c4-55848da96185/w:1024/p:16x9/6d45b1037798aea9bf1e18f1c74287a9684d4283.jpg",
+          "media_reuse_basis": "rss_metadata",
+          "related_sources": [],
+          "category": "War & Security",
+          "clabel": "الحرب والأمن",
+          "language": "en",
+          "media_attribution": "France 24 Africa"
+        }
+      },
       {
         "Title": "RSF drones strike El Gezira fuel depot as both sides report shootdowns",
         "Lang": "en",
@@ -4163,31 +4187,6 @@
           "language": "en",
           "media_attribution": "Radio Dabanga"
         }
-      },
-      {
-        "Title": "El Gezira farmers divided as delayed rains threaten North Darfur food security",
-        "Lang": "en",
-        "Date": "2026-09-02T10:47:21+00:00",
-        "Permalink": "https://www.dabangasudan.org/en/all-news/article/el-gezira-farmers-divided-as-delayed-rains-threaten-north-darfur-food-security",
-        "Params": {
-          "description": "",
-          "source": "Radio Dabanga",
-          "source_id": "dabanga-en",
-          "source_class": "sudanese_journalism",
-          "link": "https://www.dabangasudan.org/en/all-news/article/el-gezira-farmers-divided-as-delayed-rains-threaten-north-darfur-food-security",
-          "status": "Reporting",
-          "geography": [
-            "Darfur",
-            "Gezira"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "Agriculture",
-          "clabel": "زراعة",
-          "language": "en",
-          "media_attribution": "Radio Dabanga"
-        }
       }
     ],
     "publishers": 12
@@ -4195,55 +4194,51 @@
   "ar": {
     "balanced": [
       {
-        "Title": "قطع الغابات يفاقم الكارثة البيئية في السودان.. السنط شاهدة على اتساع الدمار",
+        "Title": "بين النور حمد والواثق كمير: من يملك شجاعة مغادرة السودان القديم؟ (2 _ 2)",
         "Lang": "ar",
-        "Date": "2026-09-27T20:41:26+00:00",
-        "Permalink": "https://www.altaghyeer.info/ar/2026/09/27/%d9%82%d8%b7%d8%b9-%d8%a7%d9%84%d8%ba%d8%a7%d8%a8%d8%a7%d8%aa-%d9%8a%d9%81%d8%a7%d9%82%d9%85-%d8%a7%d9%84%d9%83%d8%a7%d8%b1%d8%ab%d8%a9-%d8%a7%d9%84%d8%a8%d9%8a%d8%a6%d9%8a%d8%a9-%d9%81%d9%8a-%d8%a7",
+        "Date": "2026-09-27T22:35:26+00:00",
+        "Permalink": "https://www.altaghyeer.info/ar/2026/09/28/%d8%a8%d9%8a%d9%86-%d8%a7%d9%84%d9%86%d9%88%d8%b1-%d8%ad%d9%85%d8%af-%d9%88%d8%a7%d9%84%d9%88%d8%a7%d8%ab%d9%82-%d9%83%d9%85%d9%8a%d8%b1-%d9%85%d9%86-%d9%8a%d9%85%d9%84%d9%83-%d8%b4%d8%ac%d8%a7%d8%b9",
         "Params": {
-          "description": "تتصاعد المخاوف في السودان من اتساع نطاق تدمير الغطاء الغابي، في وقت تشهد فيه مناطق عدة، بينها ولايات الخرطوم والجزيرة وسنار والقضارف والنيل الأبيض وكردفان، عمليات قطع واسعة للأشجار واستخدام الحطب في إنتاج الفحم، وسط تداعيات اقتصادية وإنسانية للحرب المستمرة منذ أبريل 2023. الخرطوم _ التغيير وتتداول مصادر محلية وناشطون في مجال البيئة معلومات …",
+          "description": "بين النور حمد والواثق كمير: من يملك شجاعة مغادرة السودان القديم؟ خالد كودي بين المواكبة والانتهازية: ليس كل تغيير شجاعة ولا كل ثبات فضيلة: في سياقنا هذا، من الضروري التمييز بين المواكبة الفكرية والانتهازية السياسية. فليس كل تغيير في الموقف دليلاً على الشجاعة، كما أن الثبات ليس فضيلة في ذاته. قد يغيّر السياسي موقفه …",
           "source": "التغيير",
           "source_id": "altaghyeer-ar",
           "source_class": "sudanese_journalism",
-          "link": "https://www.altaghyeer.info/ar/2026/09/27/%d9%82%d8%b7%d8%b9-%d8%a7%d9%84%d8%ba%d8%a7%d8%a8%d8%a7%d8%aa-%d9%8a%d9%81%d8%a7%d9%82%d9%85-%d8%a7%d9%84%d9%83%d8%a7%d8%b1%d8%ab%d8%a9-%d8%a7%d9%84%d8%a8%d9%8a%d8%a6%d9%8a%d8%a9-%d9%81%d9%8a-%d8%a7",
+          "link": "https://www.altaghyeer.info/ar/2026/09/28/%d8%a8%d9%8a%d9%86-%d8%a7%d9%84%d9%86%d9%88%d8%b1-%d8%ad%d9%85%d8%af-%d9%88%d8%a7%d9%84%d9%88%d8%a7%d8%ab%d9%82-%d9%83%d9%85%d9%8a%d8%b1-%d9%85%d9%86-%d9%8a%d9%85%d9%84%d9%83-%d8%b4%d8%ac%d8%a7%d8%b9",
           "status": "Reporting",
           "geography": [
-            "Khartoum",
-            "Kordofan",
-            "Gedaref",
-            "Sennar",
-            "White Nile"
+            "National"
           ],
           "image": "",
           "media_reuse_basis": "",
           "related_sources": [],
-          "category": "Economy",
-          "clabel": "اقتصاد",
+          "category": "Sudan News",
+          "clabel": "أخبار السودان",
           "language": "ar",
           "media_attribution": "التغيير"
         }
       },
       {
-        "Title": "السودان الذي يموت ببطء…",
+        "Title": "الجيش السوداني يرفض اتهامات إثيوبيا بدعم المعارضة",
         "Lang": "ar",
-        "Date": "2026-09-27T20:14:17+00:00",
-        "Permalink": "https://sudanile.com/%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86-%d8%a7%d9%84%d8%b0%d9%8a-%d9%8a%d9%85%d9%88%d8%aa-%d8%a8%d8%a8%d8%b7%d8%a1",
+        "Date": "2026-09-27T22:03:20+00:00",
+        "Permalink": "https://sudantribune.net/article/319342",
         "Params": {
-          "description": "عادل ود سهل يكتب…السودان الذي يموت ببطء…حين لا تكون الحرب رصاصة بل «انطفاءً يومياً للحياة» اطلالة جديدة، غائرة المدى بين الآلام والأشجان…اليوم سأطل عليكم من جديد، إطلالة تعتصر الالم وتخفي الوجع… إطلالة جديدة، لكنني هذه المرة لم آتِ لأسأل: من انتصر؟ ولا من خسر؟ولا إلى أين تمضي الحرب؟بل أتيت لأقف قليلاً بعيداً عن صوت البنادق، […] The post السودان الذي يموت ببطء… appeared first on سودانايل .",
-          "source": "سودانايل",
-          "source_id": "sudanile-ar",
-          "source_class": "sudanese_diaspora",
-          "link": "https://sudanile.com/%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86-%d8%a7%d9%84%d8%b0%d9%8a-%d9%8a%d9%85%d9%88%d8%aa-%d8%a8%d8%a8%d8%b7%d8%a1",
+          "description": "الخرطوم 27 سبتمبر 2026- رفضت القوات المسلحة السودانية، الأحد، اتهامات إثيوبية بدعم تحالف المعارضة الذي يخوض قتالاً ضد السلطة الحاكمة في أديس أبابا، وشددت على أن تلك الاتهامات “لا أساس لها من الصحة”. والسبت، اتهم رئيس أركان قوات الدفاع الوطني الإثيوبية، المشير برهانو جولا، مصر والسودان وأطرافاً أخرى بتقديم دعم لجماعات مناوئة لأديس أبابا، معتبراً أن جبهة تحرير شعب تيغراي وإريتريا لا تشكلان قوة مؤثرة منفردتين من دون مسا",
+          "source": "Sudan Tribune Arabic",
+          "source_id": "sudan-tribune-ar",
+          "source_class": "sudanese_journalism",
+          "link": "https://sudantribune.net/article/319342",
           "status": "Reporting",
           "geography": [
-            "National"
+            "Khartoum"
           ],
-          "image": "https://sudanile.com/wp-content/uploads/2026/08/adsahall.jpg",
-          "media_reuse_basis": "rss_metadata",
+          "image": "",
+          "media_reuse_basis": "",
           "related_sources": [],
           "category": "War & Security",
           "clabel": "الحرب والأمن",
           "language": "ar",
-          "media_attribution": "سودانايل"
+          "media_attribution": "Sudan Tribune Arabic"
         }
       },
       {
@@ -4271,27 +4266,27 @@
         }
       },
       {
-        "Title": "اتهامات لـ «الشعبية» بتصفية محتجزين واعتقال موظفين بجبال النوبة",
+        "Title": "بين انهيار العملة وارتفاع الأسعار: كيف يواجه المواطن السوداني الأزمة؟",
         "Lang": "ar",
-        "Date": "2026-09-27T19:58:29+00:00",
-        "Permalink": "https://sudantribune.net/article/319332",
+        "Date": "2026-09-27T16:50:21+00:00",
+        "Permalink": "https://www.bbc.com/arabic/articles/cmg497kkngqro?at_medium=RSS&at_campaign=rss",
         "Params": {
-          "description": "هيبان 27 سبتمبر 2026- اتهمت مكوكية قبيلة أطورو في إقليم جبال النوبة، الأحد، قوات تابعة للجيش الشعبي لتحرير السودان – شمال بقتل ثمانية من أبناء القبيلة كانوا رهن الاحتجاز في سجن مندي، واعتقال اثنين آخرين من موظفي إدارة التعليم في مقاطعة هيبان. وتأتي هذه التطورات في ظل توتر متصاعد في مقاطعة هيبان بين الجيش الشعبي التابع للحركة الشعبية – شمال ومقاتلين من قبيلة أطورو، بعد اندلاع اشتباكات عنيفة في كاودا ومناطق أخرى خلال أ",
-          "source": "Sudan Tribune Arabic",
-          "source_id": "sudan-tribune-ar",
-          "source_class": "sudanese_journalism",
-          "link": "https://sudantribune.net/article/319332",
+          "description": "تتزايد الضغوط المعيشية على المواطن السوداني مع تراجع قيمة العملة المحلية وارتفاع أسعار الغذاء والوقود، في اقتصاد أنهكته الحرب الممتدة منذ أكثر من ثلاث سنوات، وما صاحبها من تعطل الإنتاج والتجارة.",
+          "source": "بي بي سي عربي",
+          "source_id": "bbc-ar",
+          "source_class": "international_journalism",
+          "link": "https://www.bbc.com/arabic/articles/cmg497kkngqro?at_medium=RSS&at_campaign=rss",
           "status": "Reporting",
           "geography": [
             "National"
           ],
-          "image": "",
-          "media_reuse_basis": "",
+          "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/0774/live/3790bce0-ba92-11f1-bd21-bdf910f2cec6.jpg",
+          "media_reuse_basis": "rss_metadata",
           "related_sources": [],
-          "category": "Education",
-          "clabel": "تعليم",
+          "category": "Economy",
+          "clabel": "اقتصاد",
           "language": "ar",
-          "media_attribution": "Sudan Tribune Arabic"
+          "media_attribution": "بي بي سي عربي"
         }
       },
       {
@@ -4319,51 +4314,27 @@
         }
       },
       {
-        "Title": "بين انهيار العملة وارتفاع الأسعار: كيف يواجه المواطن السوداني الأزمة؟",
+        "Title": "من فشل حشود الجمعة إلى استاد الخرطوم… البرهان يطارد شرعيةً تتهاوى",
         "Lang": "ar",
-        "Date": "2026-09-27T16:50:21+00:00",
-        "Permalink": "https://www.bbc.com/arabic/articles/cmg497kkngqro?at_medium=RSS&at_campaign=rss",
+        "Date": "2026-09-27T19:52:09+00:00",
+        "Permalink": "https://sudanile.com/%d9%85%d9%86-%d9%81%d8%b4%d9%84-%d8%ad%d8%b4%d9%88%d8%af-%d8%a7%d9%84%d8%ac%d9%85%d8%b9%d8%a9-%d8%a5%d9%84%d9%89-%d8%a7%d8%b3%d8%aa%d8%a7%d8%af-%d8%a7%d9%84%d8%ae%d8%b1%d8%b7%d9%88%d9%85",
         "Params": {
-          "description": "تتزايد الضغوط المعيشية على المواطن السوداني مع تراجع قيمة العملة المحلية وارتفاع أسعار الغذاء والوقود، في اقتصاد أنهكته الحرب الممتدة منذ أكثر من ثلاث سنوات، وما صاحبها من تعطل الإنتاج والتجارة.",
-          "source": "بي بي سي عربي",
-          "source_id": "bbc-ar",
-          "source_class": "international_journalism",
-          "link": "https://www.bbc.com/arabic/articles/cmg497kkngqro?at_medium=RSS&at_campaign=rss",
+          "description": "علاء خيراوي■ لم تكن واقعة استاد الخرطوم حدثاً عابراً، ولا ظهوراً جماهيرياً عادياً لعبد الفتاح البرهان؛ بل جاءت في لحظة سياسية شديدة الحساسية، بعد أيام من أزمة التأشيرة الأمريكية، وفي وقت كانت فيه واشنطن ترفع سقف خطابها تجاه طرفي الحرب وتشكك في شرعية الحكم القائم، بينما ظلت مسألة مشاركة البرهان في اجتماعات الأمم المتحدة وما […] The post من فشل حشود الجمعة إلى استاد الخرطوم… البرهان يطارد شرعيةً تتهاوى appeared first o",
+          "source": "سودانايل",
+          "source_id": "sudanile-ar",
+          "source_class": "sudanese_diaspora",
+          "link": "https://sudanile.com/%d9%85%d9%86-%d9%81%d8%b4%d9%84-%d8%ad%d8%b4%d9%88%d8%af-%d8%a7%d9%84%d8%ac%d9%85%d8%b9%d8%a9-%d8%a5%d9%84%d9%89-%d8%a7%d8%b3%d8%aa%d8%a7%d8%af-%d8%a7%d9%84%d8%ae%d8%b1%d8%b7%d9%88%d9%85",
           "status": "Reporting",
           "geography": [
-            "National"
+            "Khartoum"
           ],
-          "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/0774/live/3790bce0-ba92-11f1-bd21-bdf910f2cec6.jpg",
+          "image": "https://sudanile.com/wp-content/uploads/2026/06/alakherawe.jpg",
           "media_reuse_basis": "rss_metadata",
-          "related_sources": [],
-          "category": "Economy",
-          "clabel": "اقتصاد",
-          "language": "ar",
-          "media_attribution": "بي بي سي عربي"
-        }
-      },
-      {
-        "Title": "من «الميدان» إلى الفضاء الرقمي.. كيف تشرعن تهم «التعاون» العنف تجاه المدنيين السودانيين؟",
-        "Lang": "ar",
-        "Date": "2026-09-27T15:47:29+00:00",
-        "Permalink": "https://www.beamreports.com/2026/09/27/%d9%85%d9%86-%d8%a7%d9%84%d9%85%d9%8a%d8%af%d8%a7%d9%86-%d8%a5%d9%84%d9%89-%d8%a7%d9%84%d9%81%d8%b6%d8%a7%d8%a1-%d8%a7%d9%84%d8%b1%d9%82%d9%85%d9%8a-%d9%83%d9%8a%d9%81-%d8%aa%d8%b4%d8%b1",
-        "Params": {
-          "description": "يواجه آلاف السودانيين، منذ اندلاع الحرب في منتصف أبريل 2023، صنوفًا مختلفة من التصفيات الميدانية والقتل والاحتجاز القسري، بالإضافة إلى الاتهامات بالتعاون والتخابر، وذلك في مختلف المناطق والجغرافيا التي يسيطر عليها كل من الجيش السوداني وقوات الدعم السريع، حيث يقبع الآلاف في السجون انتظارًا للمحاكمة، أو تمضية لحكم في مناطق سيطرة الحكومة. أو يبقون في […] The post من «الميدان» إلى الفضاء الرقمي.. كيف تشرعن تهم «التعاون» ",
-          "source": "بيم ريبورتس",
-          "source_id": "beam-ar",
-          "source_class": "sudanese_journalism",
-          "link": "https://www.beamreports.com/2026/09/27/%d9%85%d9%86-%d8%a7%d9%84%d9%85%d9%8a%d8%af%d8%a7%d9%86-%d8%a5%d9%84%d9%89-%d8%a7%d9%84%d9%81%d8%b6%d8%a7%d8%a1-%d8%a7%d9%84%d8%b1%d9%82%d9%85%d9%8a-%d9%83%d9%8a%d9%81-%d8%aa%d8%b4%d8%b1",
-          "status": "Reporting",
-          "geography": [
-            "National"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
           "related_sources": [],
           "category": "War & Security",
           "clabel": "الحرب والأمن",
           "language": "ar",
-          "media_attribution": "بيم ريبورتس"
+          "media_attribution": "سودانايل"
         }
       },
       {
@@ -4389,6 +4360,30 @@
           "clabel": "إنساني",
           "language": "ar",
           "media_attribution": "Sudan War Monitor"
+        }
+      },
+      {
+        "Title": "من «الميدان» إلى الفضاء الرقمي.. كيف تشرعن تهم «التعاون» العنف تجاه المدنيين السودانيين؟",
+        "Lang": "ar",
+        "Date": "2026-09-27T15:47:29+00:00",
+        "Permalink": "https://www.beamreports.com/2026/09/27/%d9%85%d9%86-%d8%a7%d9%84%d9%85%d9%8a%d8%af%d8%a7%d9%86-%d8%a5%d9%84%d9%89-%d8%a7%d9%84%d9%81%d8%b6%d8%a7%d8%a1-%d8%a7%d9%84%d8%b1%d9%82%d9%85%d9%8a-%d9%83%d9%8a%d9%81-%d8%aa%d8%b4%d8%b1",
+        "Params": {
+          "description": "يواجه آلاف السودانيين، منذ اندلاع الحرب في منتصف أبريل 2023، صنوفًا مختلفة من التصفيات الميدانية والقتل والاحتجاز القسري، بالإضافة إلى الاتهامات بالتعاون والتخابر، وذلك في مختلف المناطق والجغرافيا التي يسيطر عليها كل من الجيش السوداني وقوات الدعم السريع، حيث يقبع الآلاف في السجون انتظارًا للمحاكمة، أو تمضية لحكم في مناطق سيطرة الحكومة. أو يبقون في […] The post من «الميدان» إلى الفضاء الرقمي.. كيف تشرعن تهم «التعاون» ",
+          "source": "بيم ريبورتس",
+          "source_id": "beam-ar",
+          "source_class": "sudanese_journalism",
+          "link": "https://www.beamreports.com/2026/09/27/%d9%85%d9%86-%d8%a7%d9%84%d9%85%d9%8a%d8%af%d8%a7%d9%86-%d8%a5%d9%84%d9%89-%d8%a7%d9%84%d9%81%d8%b6%d8%a7%d8%a1-%d8%a7%d9%84%d8%b1%d9%82%d9%85%d9%8a-%d9%83%d9%8a%d9%81-%d8%aa%d8%b4%d8%b1",
+          "status": "Reporting",
+          "geography": [
+            "National"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "War & Security",
+          "clabel": "الحرب والأمن",
+          "language": "ar",
+          "media_attribution": "بيم ريبورتس"
         }
       },
       {
@@ -4464,27 +4459,51 @@
         }
       },
       {
-        "Title": "البرهان والبشير: النهاية تشبه البداية ولا تشبهها",
+        "Title": "اتهامات لـ «الشعبية» بتصفية محتجزين واعتقال موظفين بجبال النوبة",
         "Lang": "ar",
-        "Date": "2026-09-27T20:13:00+00:00",
-        "Permalink": "https://sudanile.com/%d8%a7%d9%84%d8%a8%d8%b1%d9%87%d8%a7%d9%86-%d9%88%d8%a7%d9%84%d8%a8%d8%b4%d9%8a%d8%b1-%d8%a7%d9%84%d9%86%d9%87%d8%a7%d9%8a%d8%a9-%d8%aa%d8%b4%d8%a8%d9%87-%d8%a7%d9%84%d8%a8%d8%af%d8%a7%d9%8a%d8%a9",
+        "Date": "2026-09-27T19:58:29+00:00",
+        "Permalink": "https://sudantribune.net/article/319332",
         "Params": {
-          "description": "د. هشام عثمان يقول أهل الباطن من المتصوفة: النهاية تشبه البداية ولا تشبهها. وكأن التاريخ السياسي السوداني اختار أن يكون حقل تجارب هذه المقولة، لا في معرض الفرد وحده، بل في معرض السلطة ومصائرها. فحين ننظر إلى مسار عمر البشير الذي انتهى إلى قفص الاتهام في لاهاي، ثم نقارنه بما آل إليه عبد الفتاح البرهان […] The post البرهان والبشير: النهاية تشبه البداية ولا تشبهها appeared first on سودانايل .",
-          "source": "سودانايل",
-          "source_id": "sudanile-ar",
-          "source_class": "sudanese_diaspora",
-          "link": "https://sudanile.com/%d8%a7%d9%84%d8%a8%d8%b1%d9%87%d8%a7%d9%86-%d9%88%d8%a7%d9%84%d8%a8%d8%b4%d9%8a%d8%b1-%d8%a7%d9%84%d9%86%d9%87%d8%a7%d9%8a%d8%a9-%d8%aa%d8%b4%d8%a8%d9%87-%d8%a7%d9%84%d8%a8%d8%af%d8%a7%d9%8a%d8%a9",
+          "description": "هيبان 27 سبتمبر 2026- اتهمت مكوكية قبيلة أطورو في إقليم جبال النوبة، الأحد، قوات تابعة للجيش الشعبي لتحرير السودان – شمال بقتل ثمانية من أبناء القبيلة كانوا رهن الاحتجاز في سجن مندي، واعتقال اثنين آخرين من موظفي إدارة التعليم في مقاطعة هيبان. وتأتي هذه التطورات في ظل توتر متصاعد في مقاطعة هيبان بين الجيش الشعبي التابع للحركة الشعبية – شمال ومقاتلين من قبيلة أطورو، بعد اندلاع اشتباكات عنيفة في كاودا ومناطق أخرى خلال أ",
+          "source": "Sudan Tribune Arabic",
+          "source_id": "sudan-tribune-ar",
+          "source_class": "sudanese_journalism",
+          "link": "https://sudantribune.net/article/319332",
           "status": "Reporting",
           "geography": [
             "National"
           ],
-          "image": "https://sudanile.com/wp-content/uploads/2024/10/hisham.jpg",
-          "media_reuse_basis": "rss_metadata",
+          "image": "",
+          "media_reuse_basis": "",
           "related_sources": [],
-          "category": "Sudan News",
-          "clabel": "أخبار السودان",
+          "category": "Education",
+          "clabel": "تعليم",
           "language": "ar",
-          "media_attribution": "سودانايل"
+          "media_attribution": "Sudan Tribune Arabic"
+        }
+      },
+      {
+        "Title": "البرهان يقرأ من كتاب البشير",
+        "Lang": "ar",
+        "Date": "2026-09-27T19:28:34+00:00",
+        "Permalink": "https://www.altaghyeer.info/ar/2026/09/27/%d8%a7%d9%84%d8%a8%d8%b1%d9%87%d8%a7%d9%86-%d9%8a%d9%82%d8%b1%d8%a3-%d9%85%d9%86-%d9%83%d8%aa%d8%a7%d8%a8-%d8%a7%d9%84%d8%a8%d8%b4%d9%8a%d8%b1",
+        "Params": {
+          "description": "البرهان يقرأ من كتاب البشير أحمد عثمان جبريل ❝حين لا يتعلم الحاكم من نهاية سلفه، يصبح التاريخ كتاباً يعاد فتحه لا درساً يُستفاد منه❞ تقول الحكاية أن الرئيس السوداني المخلوع عمر البشير، كان أكثر الحكام في عصره وقوفا أمام الحشود، فقد كتب الرواه إنه بعثر في ذلك اوقاتا ثمينة، ولصدق التاريخ، فقد عرف طوال ثلاثة …",
+          "source": "التغيير",
+          "source_id": "altaghyeer-ar",
+          "source_class": "sudanese_journalism",
+          "link": "https://www.altaghyeer.info/ar/2026/09/27/%d8%a7%d9%84%d8%a8%d8%b1%d9%87%d8%a7%d9%86-%d9%8a%d9%82%d8%b1%d8%a3-%d9%85%d9%86-%d9%83%d8%aa%d8%a7%d8%a8-%d8%a7%d9%84%d8%a8%d8%b4%d9%8a%d8%b1",
+          "status": "Reporting",
+          "geography": [
+            "National"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "Culture",
+          "clabel": "ثقافة",
+          "language": "ar",
+          "media_attribution": "التغيير"
         }
       },
       {
@@ -4512,52 +4531,27 @@
         }
       },
       {
-        "Title": "مؤتمر الموانئ السودانية يرسم (4) مسارات للتحول لمركز لوجستي إقليمي",
+        "Title": "البرهان والبشير: النهاية تشبه البداية ولا تشبهها",
         "Lang": "ar",
-        "Date": "2026-09-27T19:51:01+00:00",
-        "Permalink": "https://sudantribune.net/article/319329",
+        "Date": "2026-09-27T20:13:00+00:00",
+        "Permalink": "https://sudanile.com/%d8%a7%d9%84%d8%a8%d8%b1%d9%87%d8%a7%d9%86-%d9%88%d8%a7%d9%84%d8%a8%d8%b4%d9%8a%d8%b1-%d8%a7%d9%84%d9%86%d9%87%d8%a7%d9%8a%d8%a9-%d8%aa%d8%b4%d8%a8%d9%87-%d8%a7%d9%84%d8%a8%d8%af%d8%a7%d9%8a%d8%a9",
         "Params": {
-          "description": "بورتسودان 27 سبتمبر 2026- طالب مسؤول رفيع بمجلس السيادة الانتقالي في السودان بتطوير الموانئ السودانية والاستفادة من الموقع الاستراتيجي للبلاد على البحر الأحمر، فيما طرحت وزارة البنى التحتية والنقل أربعة مسارات لتطوير قطاع الموانئ وتعزيز قدرته على خدمة الاقتصاد الوطني. وانطلقت بمدينة بورتسودان، الأحد، أعمال المؤتمر الدولي للموانئ السودانية، الذي تنظمه هيئة الموانئ البحرية بالتعاون والشراكة مع الأكاديمية العربية للعلوم",
-          "source": "Sudan Tribune Arabic",
-          "source_id": "sudan-tribune-ar",
-          "source_class": "sudanese_journalism",
-          "link": "https://sudantribune.net/article/319329",
+          "description": "د. هشام عثمان يقول أهل الباطن من المتصوفة: النهاية تشبه البداية ولا تشبهها. وكأن التاريخ السياسي السوداني اختار أن يكون حقل تجارب هذه المقولة، لا في معرض الفرد وحده، بل في معرض السلطة ومصائرها. فحين ننظر إلى مسار عمر البشير الذي انتهى إلى قفص الاتهام في لاهاي، ثم نقارنه بما آل إليه عبد الفتاح البرهان […] The post البرهان والبشير: النهاية تشبه البداية ولا تشبهها appeared first on سودانايل .",
+          "source": "سودانايل",
+          "source_id": "sudanile-ar",
+          "source_class": "sudanese_diaspora",
+          "link": "https://sudanile.com/%d8%a7%d9%84%d8%a8%d8%b1%d9%87%d8%a7%d9%86-%d9%88%d8%a7%d9%84%d8%a8%d8%b4%d9%8a%d8%b1-%d8%a7%d9%84%d9%86%d9%87%d8%a7%d9%8a%d8%a9-%d8%aa%d8%b4%d8%a8%d9%87-%d8%a7%d9%84%d8%a8%d8%af%d8%a7%d9%8a%d8%a9",
           "status": "Reporting",
           "geography": [
-            "Khartoum",
-            "Red Sea"
+            "National"
           ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "Economy",
-          "clabel": "اقتصاد",
-          "language": "ar",
-          "media_attribution": "Sudan Tribune Arabic"
-        }
-      },
-      {
-        "Title": "شكاوى من احتجاز مدنيين دون محاكمات في النيل الأزرق ومنعهم من التواصل مع ذويهم",
-        "Lang": "ar",
-        "Date": "2026-09-27T09:35:07+00:00",
-        "Permalink": "https://www.dabangasudan.org/ar/all-news/article/%d8%b4%d9%83%d8%a7%d9%88%d9%89-%d9%85%d9%86-%d8%a7%d8%ad%d8%aa%d8%ac%d8%a7%d8%b2-%d9%85%d8%af%d9%86%d9%8a%d9%8a%d9%86-%d8%af%d9%88%d9%86-%d9%85%d8%ad%d8%a7%d9%83%d9%85%d8%a7%d8%aa-%d9%81%d9%8a-%d8%a7",
-        "Params": {
-          "description": "الدمازين: السبت 26 سبتمبر 2026م – راديو دبنقا تقرير: سليمان سري أعلنت مبادرة المجتمع المدني... The post شكاوى من احتجاز مدنيين دون محاكمات في النيل الأزرق ومنعهم من التواصل مع ذويهم appeared first on Dabanga Radio TV Online .",
-          "source": "راديو دبنقا",
-          "source_id": "dabanga-ar",
-          "source_class": "sudanese_journalism",
-          "link": "https://www.dabangasudan.org/ar/all-news/article/%d8%b4%d9%83%d8%a7%d9%88%d9%89-%d9%85%d9%86-%d8%a7%d8%ad%d8%aa%d8%ac%d8%a7%d8%b2-%d9%85%d8%af%d9%86%d9%8a%d9%8a%d9%86-%d8%af%d9%88%d9%86-%d9%85%d8%ad%d8%a7%d9%83%d9%85%d8%a7%d8%aa-%d9%81%d9%8a-%d8%a7",
-          "status": "Reporting",
-          "geography": [
-            "Blue Nile"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
+          "image": "https://sudanile.com/wp-content/uploads/2024/10/hisham.jpg",
+          "media_reuse_basis": "rss_metadata",
           "related_sources": [],
           "category": "Sudan News",
           "clabel": "أخبار السودان",
           "language": "ar",
-          "media_attribution": "راديو دبنقا"
+          "media_attribution": "سودانايل"
         }
       },
       {
@@ -4585,27 +4579,27 @@
         }
       },
       {
-        "Title": "نقص الخدمات بالعاصمة الخرطوم يدفع عائدين إلى الرحيل مجددا",
+        "Title": "شكاوى من احتجاز مدنيين دون محاكمات في النيل الأزرق ومنعهم من التواصل مع ذويهم",
         "Lang": "ar",
-        "Date": "2026-09-27T15:52:08+00:00",
-        "Permalink": "https://www.altaghyeer.info/ar/2026/09/27/%d9%86%d9%82%d8%b5-%d8%a7%d9%84%d8%ae%d8%af%d9%85%d8%a7%d8%aa-%d8%a8%d8%a7%d9%84%d8%b9%d8%a7%d8%b5%d9%85%d8%a9-%d8%a7%d9%84%d8%ae%d8%b1%d8%b7%d9%88%d9%85-%d9%8a%d8%af%d9%81%d8%b9-%d8%b9%d8%a7%d8%a6",
+        "Date": "2026-09-27T09:35:07+00:00",
+        "Permalink": "https://www.dabangasudan.org/ar/all-news/article/%d8%b4%d9%83%d8%a7%d9%88%d9%89-%d9%85%d9%86-%d8%a7%d8%ad%d8%aa%d8%ac%d8%a7%d8%b2-%d9%85%d8%af%d9%86%d9%8a%d9%8a%d9%86-%d8%af%d9%88%d9%86-%d9%85%d8%ad%d8%a7%d9%83%d9%85%d8%a7%d8%aa-%d9%81%d9%8a-%d8%a7",
         "Params": {
-          "description": "عاد سودانيون إلى الخرطوم أملا في استعادة حياتهم بعد سنوات من النزوح، لكن انقطاع المياه والكهرباء وغلاء الأسعار وصعوبة الحصول على العلاج دفعت بعض الأسر إلى الاستعداد للمغادرة مجددا، رغم مرور أشهر على عودتها إلى العاصمة. التغيير ــ وكالات وبحسب تقرير لوكالة الصحافة الفرنسية، غادر نحو 4 ملايين شخص الخرطوم بعد اندلاع الحرب بين …",
-          "source": "التغيير",
-          "source_id": "altaghyeer-ar",
+          "description": "الدمازين: السبت 26 سبتمبر 2026م – راديو دبنقا تقرير: سليمان سري أعلنت مبادرة المجتمع المدني... The post شكاوى من احتجاز مدنيين دون محاكمات في النيل الأزرق ومنعهم من التواصل مع ذويهم appeared first on Dabanga Radio TV Online .",
+          "source": "راديو دبنقا",
+          "source_id": "dabanga-ar",
           "source_class": "sudanese_journalism",
-          "link": "https://www.altaghyeer.info/ar/2026/09/27/%d9%86%d9%82%d8%b5-%d8%a7%d9%84%d8%ae%d8%af%d9%85%d8%a7%d8%aa-%d8%a8%d8%a7%d9%84%d8%b9%d8%a7%d8%b5%d9%85%d8%a9-%d8%a7%d9%84%d8%ae%d8%b1%d8%b7%d9%88%d9%85-%d9%8a%d8%af%d9%81%d8%b9-%d8%b9%d8%a7%d8%a6",
+          "link": "https://www.dabangasudan.org/ar/all-news/article/%d8%b4%d9%83%d8%a7%d9%88%d9%89-%d9%85%d9%86-%d8%a7%d8%ad%d8%aa%d8%ac%d8%a7%d8%b2-%d9%85%d8%af%d9%86%d9%8a%d9%8a%d9%86-%d8%af%d9%88%d9%86-%d9%85%d8%ad%d8%a7%d9%83%d9%85%d8%a7%d8%aa-%d9%81%d9%8a-%d8%a7",
           "status": "Reporting",
           "geography": [
-            "Khartoum"
+            "Blue Nile"
           ],
           "image": "",
           "media_reuse_basis": "",
           "related_sources": [],
-          "category": "Economy",
-          "clabel": "اقتصاد",
+          "category": "Sudan News",
+          "clabel": "أخبار السودان",
           "language": "ar",
-          "media_attribution": "التغيير"
+          "media_attribution": "راديو دبنقا"
         }
       },
       {
@@ -4633,30 +4627,6 @@
         }
       },
       {
-        "Title": "الظروف الاقتصادية والنزوح يدفعان أطفالاً في النيل الأزرق إلى العمل والتسرب من المدارس",
-        "Lang": "ar",
-        "Date": "2026-09-24T14:42:00+00:00",
-        "Permalink": "https://www.radiotamazuj.org/ar/news/article/%d8%a7%d9%84%d8%b8%d8%b1%d9%88%d9%81-%d8%a7%d9%84%d8%a7%d9%82%d8%aa%d8%b5%d8%a7%d8%af%d9%8a%d8%a9-%d9%88%d8%a7%d9%84%d9%86%d8%b2%d9%88%d8%ad-%d9%8a%d8%af%d9%81%d8%b9%d8%a7%d9%86-%d8%a3%d8%b7%d9%81",
-        "Params": {
-          "description": "يواجه عدد من الأطفال في إقليم النيل الأزرق خطر التسرب من المدارس والانخراط المبكر في The post الظروف الاقتصادية والنزوح يدفعان أطفالاً في النيل الأزرق إلى العمل والتسرب من المدارس appeared first on Radio Tamazuj .",
-          "source": "راديو تمازج",
-          "source_id": "tamazuj-ar",
-          "source_class": "regional_journalism",
-          "link": "https://www.radiotamazuj.org/ar/news/article/%d8%a7%d9%84%d8%b8%d8%b1%d9%88%d9%81-%d8%a7%d9%84%d8%a7%d9%82%d8%aa%d8%b5%d8%a7%d8%af%d9%8a%d8%a9-%d9%88%d8%a7%d9%84%d9%86%d8%b2%d9%88%d8%ad-%d9%8a%d8%af%d9%81%d8%b9%d8%a7%d9%86-%d8%a3%d8%b7%d9%81",
-          "status": "Reporting",
-          "geography": [
-            "Blue Nile"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "Education",
-          "clabel": "تعليم",
-          "language": "ar",
-          "media_attribution": "راديو تمازج"
-        }
-      },
-      {
         "Title": "“سماء لا تمطر”.. كيف يهدد الجفاف غذاء السودانيين؟",
         "Lang": "ar",
         "Date": "2026-09-24T16:27:28+00:00",
@@ -4680,6 +4650,30 @@
           "clabel": "زراعة",
           "language": "ar",
           "media_attribution": "عاين"
+        }
+      },
+      {
+        "Title": "الظروف الاقتصادية والنزوح يدفعان أطفالاً في النيل الأزرق إلى العمل والتسرب من المدارس",
+        "Lang": "ar",
+        "Date": "2026-09-24T14:42:00+00:00",
+        "Permalink": "https://www.radiotamazuj.org/ar/news/article/%d8%a7%d9%84%d8%b8%d8%b1%d9%88%d9%81-%d8%a7%d9%84%d8%a7%d9%82%d8%aa%d8%b5%d8%a7%d8%af%d9%8a%d8%a9-%d9%88%d8%a7%d9%84%d9%86%d8%b2%d9%88%d8%ad-%d9%8a%d8%af%d9%81%d8%b9%d8%a7%d9%86-%d8%a3%d8%b7%d9%81",
+        "Params": {
+          "description": "يواجه عدد من الأطفال في إقليم النيل الأزرق خطر التسرب من المدارس والانخراط المبكر في The post الظروف الاقتصادية والنزوح يدفعان أطفالاً في النيل الأزرق إلى العمل والتسرب من المدارس appeared first on Radio Tamazuj .",
+          "source": "راديو تمازج",
+          "source_id": "tamazuj-ar",
+          "source_class": "regional_journalism",
+          "link": "https://www.radiotamazuj.org/ar/news/article/%d8%a7%d9%84%d8%b8%d8%b1%d9%88%d9%81-%d8%a7%d9%84%d8%a7%d9%82%d8%aa%d8%b5%d8%a7%d8%af%d9%8a%d8%a9-%d9%88%d8%a7%d9%84%d9%86%d8%b2%d9%88%d8%ad-%d9%8a%d8%af%d9%81%d8%b9%d8%a7%d9%86-%d8%a3%d8%b7%d9%81",
+          "status": "Reporting",
+          "geography": [
+            "Blue Nile"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "Education",
+          "clabel": "تعليم",
+          "language": "ar",
+          "media_attribution": "راديو تمازج"
         }
       },
       {
@@ -4780,6 +4774,78 @@
       }
     ],
     "latest": [
+      {
+        "Title": "بين النور حمد والواثق كمير: من يملك شجاعة مغادرة السودان القديم؟ (2 _ 2)",
+        "Lang": "ar",
+        "Date": "2026-09-27T22:35:26+00:00",
+        "Permalink": "https://www.altaghyeer.info/ar/2026/09/28/%d8%a8%d9%8a%d9%86-%d8%a7%d9%84%d9%86%d9%88%d8%b1-%d8%ad%d9%85%d8%af-%d9%88%d8%a7%d9%84%d9%88%d8%a7%d8%ab%d9%82-%d9%83%d9%85%d9%8a%d8%b1-%d9%85%d9%86-%d9%8a%d9%85%d9%84%d9%83-%d8%b4%d8%ac%d8%a7%d8%b9",
+        "Params": {
+          "description": "بين النور حمد والواثق كمير: من يملك شجاعة مغادرة السودان القديم؟ خالد كودي بين المواكبة والانتهازية: ليس كل تغيير شجاعة ولا كل ثبات فضيلة: في سياقنا هذا، من الضروري التمييز بين المواكبة الفكرية والانتهازية السياسية. فليس كل تغيير في الموقف دليلاً على الشجاعة، كما أن الثبات ليس فضيلة في ذاته. قد يغيّر السياسي موقفه …",
+          "source": "التغيير",
+          "source_id": "altaghyeer-ar",
+          "source_class": "sudanese_journalism",
+          "link": "https://www.altaghyeer.info/ar/2026/09/28/%d8%a8%d9%8a%d9%86-%d8%a7%d9%84%d9%86%d9%88%d8%b1-%d8%ad%d9%85%d8%af-%d9%88%d8%a7%d9%84%d9%88%d8%a7%d8%ab%d9%82-%d9%83%d9%85%d9%8a%d8%b1-%d9%85%d9%86-%d9%8a%d9%85%d9%84%d9%83-%d8%b4%d8%ac%d8%a7%d8%b9",
+          "status": "Reporting",
+          "geography": [
+            "National"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "Sudan News",
+          "clabel": "أخبار السودان",
+          "language": "ar",
+          "media_attribution": "التغيير"
+        }
+      },
+      {
+        "Title": "الجيش السوداني يرفض اتهامات إثيوبيا بدعم المعارضة",
+        "Lang": "ar",
+        "Date": "2026-09-27T22:03:20+00:00",
+        "Permalink": "https://sudantribune.net/article/319342",
+        "Params": {
+          "description": "الخرطوم 27 سبتمبر 2026- رفضت القوات المسلحة السودانية، الأحد، اتهامات إثيوبية بدعم تحالف المعارضة الذي يخوض قتالاً ضد السلطة الحاكمة في أديس أبابا، وشددت على أن تلك الاتهامات “لا أساس لها من الصحة”. والسبت، اتهم رئيس أركان قوات الدفاع الوطني الإثيوبية، المشير برهانو جولا، مصر والسودان وأطرافاً أخرى بتقديم دعم لجماعات مناوئة لأديس أبابا، معتبراً أن جبهة تحرير شعب تيغراي وإريتريا لا تشكلان قوة مؤثرة منفردتين من دون مسا",
+          "source": "Sudan Tribune Arabic",
+          "source_id": "sudan-tribune-ar",
+          "source_class": "sudanese_journalism",
+          "link": "https://sudantribune.net/article/319342",
+          "status": "Reporting",
+          "geography": [
+            "Khartoum"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "War & Security",
+          "clabel": "الحرب والأمن",
+          "language": "ar",
+          "media_attribution": "Sudan Tribune Arabic"
+        }
+      },
+      {
+        "Title": "حين يقف الجميع أمام المرآة: المثقف والبندقية وأخلاق الحوار في زمن الحرب (٣)",
+        "Lang": "ar",
+        "Date": "2026-09-27T21:22:08+00:00",
+        "Permalink": "https://www.altaghyeer.info/ar/2026/09/27/%d8%ad%d9%8a%d9%86-%d9%8a%d9%82%d9%81-%d8%a7%d9%84%d8%ac%d9%85%d9%8a%d8%b9-%d8%a3%d9%85%d8%a7%d9%85-%d8%a7%d9%84%d9%85%d8%b1%d8%a2%d8%a9-%d8%a7%d9%84%d9%85%d8%ab%d9%82%d9%81-%d9%88%d8%a7%d9%84%d8%a8-3",
+        "Params": {
+          "description": "حين يقف الجميع أمام المرآة: المثقف والبندقية وأخلاق الحوار في زمن الحرب (٣) د. ناهد محمد الحسن خالد كودي ؛ عدالة المشروع ومعضلة التأسيس لا أكتب إلى خالد كودي من الضفة المقابلة، ولا أضع أمامه جرائم الدعم السريع لأحاصره في موقع المدافع عن نفسه وعن اختياره السياسي. أكتب إليه لأنني أراه واقفاً معي، …",
+          "source": "التغيير",
+          "source_id": "altaghyeer-ar",
+          "source_class": "sudanese_journalism",
+          "link": "https://www.altaghyeer.info/ar/2026/09/27/%d8%ad%d9%8a%d9%86-%d9%8a%d9%82%d9%81-%d8%a7%d9%84%d8%ac%d9%85%d9%8a%d8%b9-%d8%a3%d9%85%d8%a7%d9%85-%d8%a7%d9%84%d9%85%d8%b1%d8%a2%d8%a9-%d8%a7%d9%84%d9%85%d8%ab%d9%82%d9%81-%d9%88%d8%a7%d9%84%d8%a8-3",
+          "status": "Reporting",
+          "geography": [
+            "National"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "War & Security",
+          "clabel": "الحرب والأمن",
+          "language": "ar",
+          "media_attribution": "التغيير"
+        }
+      },
       {
         "Title": "قطع الغابات يفاقم الكارثة البيئية في السودان.. السنط شاهدة على اتساع الدمار",
         "Lang": "ar",
@@ -5361,6 +5427,30 @@
           "clabel": "ثقافة",
           "language": "ar",
           "media_attribution": "سودانايل"
+        }
+      },
+      {
+        "Title": "البرهان يقرأ من كتاب البشير",
+        "Lang": "ar",
+        "Date": "2026-09-27T19:28:34+00:00",
+        "Permalink": "https://www.altaghyeer.info/ar/2026/09/27/%d8%a7%d9%84%d8%a8%d8%b1%d9%87%d8%a7%d9%86-%d9%8a%d9%82%d8%b1%d8%a3-%d9%85%d9%86-%d9%83%d8%aa%d8%a7%d8%a8-%d8%a7%d9%84%d8%a8%d8%b4%d9%8a%d8%b1",
+        "Params": {
+          "description": "البرهان يقرأ من كتاب البشير أحمد عثمان جبريل ❝حين لا يتعلم الحاكم من نهاية سلفه، يصبح التاريخ كتاباً يعاد فتحه لا درساً يُستفاد منه❞ تقول الحكاية أن الرئيس السوداني المخلوع عمر البشير، كان أكثر الحكام في عصره وقوفا أمام الحشود، فقد كتب الرواه إنه بعثر في ذلك اوقاتا ثمينة، ولصدق التاريخ، فقد عرف طوال ثلاثة …",
+          "source": "التغيير",
+          "source_id": "altaghyeer-ar",
+          "source_class": "sudanese_journalism",
+          "link": "https://www.altaghyeer.info/ar/2026/09/27/%d8%a7%d9%84%d8%a8%d8%b1%d9%87%d8%a7%d9%86-%d9%8a%d9%82%d8%b1%d8%a3-%d9%85%d9%86-%d9%83%d8%aa%d8%a7%d8%a8-%d8%a7%d9%84%d8%a8%d8%b4%d9%8a%d8%b1",
+          "status": "Reporting",
+          "geography": [
+            "National"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "Culture",
+          "clabel": "ثقافة",
+          "language": "ar",
+          "media_attribution": "التغيير"
         }
       },
       {
@@ -8297,107 +8387,6 @@
           "clabel": "زراعة",
           "language": "ar",
           "media_attribution": "راديو دبنقا"
-        }
-      },
-      {
-        "Title": "إغفاءة وزراء القطاع الاقتصادي وإنبطاحة البرهان الأمريكية..!",
-        "Lang": "ar",
-        "Date": "2026-09-24T13:10:10+00:00",
-        "Permalink": "https://www.altaghyeer.info/ar/2026/09/24/%d8%a5%d8%ba%d9%81%d8%a7%d8%a1%d8%a9-%d9%88%d8%b2%d8%b1%d8%a7%d8%a1-%d8%a7%d9%84%d9%82%d8%b7%d8%a7%d8%b9-%d8%a7%d9%84%d8%a7%d9%82%d8%aa%d8%b5%d8%a7%d8%af%d9%8a-%d9%88%d8%a5%d9%86%d8%a8%d8%b7%d8%a7",
-        "Params": {
-          "description": "إغفاءة وزراء القطاع الاقتصادي وإنبطاحة البرهان الأمريكية..! د. مرتضى الغالي لا يمكن إغفال (تأثير الصورة) التي تناقلها السودانيون وأعادوا نشرها وتوزيعها في وسائط التواصل والمواقع الإعلامية لوزراء القطاع الاقتصادي في حكومة (أمل كامل إدريس)..! لقد ربط السودانيون الحالة التي ظهروا عليها بالفشل الاقتصادي المُذري والذّريع الشّنيع الذي يؤكد سوء الأداء والعجز و(هزال التأهيل) وهبوط …",
-          "source": "التغيير",
-          "source_id": "altaghyeer-ar",
-          "source_class": "sudanese_journalism",
-          "link": "https://www.altaghyeer.info/ar/2026/09/24/%d8%a5%d8%ba%d9%81%d8%a7%d8%a1%d8%a9-%d9%88%d8%b2%d8%b1%d8%a7%d8%a1-%d8%a7%d9%84%d9%82%d8%b7%d8%a7%d8%b9-%d8%a7%d9%84%d8%a7%d9%82%d8%aa%d8%b5%d8%a7%d8%af%d9%8a-%d9%88%d8%a5%d9%86%d8%a8%d8%b7%d8%a7",
-          "status": "Reporting",
-          "geography": [
-            "National"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [
-            {
-              "source": "سودانايل",
-              "link": "https://sudanile.com/%d8%a5%d8%ba%d9%81%d8%a7%d8%a1%d8%a9-%d9%88%d8%b2%d8%b1%d8%a7%d8%a1-%d8%a7%d9%84%d9%82%d8%b7%d8%a7%d8%b9-%d8%a7%d9%84%d8%a7%d9%82%d8%aa%d8%b5%d8%a7%d8%af%d9%8a-%d9%88%d8%a5%d9%86%d8%a8%d8%b7%d8%a7"
-            }
-          ],
-          "category": "Economy",
-          "clabel": "اقتصاد",
-          "language": "ar",
-          "media_attribution": "التغيير"
-        }
-      },
-      {
-        "Title": "خالد عمر يوسف يكتب عن الخسارة السياسية الكبرى للبرهان",
-        "Lang": "ar",
-        "Date": "2026-09-24T11:44:28+00:00",
-        "Permalink": "https://www.altaghyeer.info/ar/2026/09/24/%d8%ae%d8%a7%d9%84%d8%af-%d8%b9%d9%85%d8%b1-%d9%8a%d9%88%d8%b3%d9%81-%d9%8a%d9%83%d8%aa%d8%a8-%d8%b9%d9%86-%d8%a7%d9%84%d8%ae%d8%b3%d8%a7%d8%b1%d8%a9-%d8%a7%d9%84%d8%b3%d9%8a%d8%a7%d8%b3%d9%8a%d8%a9",
-        "Params": {
-          "description": "الخسارة السياسية الكبرى للبرهان خالد عمر يوسف يحاول بعض المتحذلقين من دعاة الحرب أن يثيروا الغبار ليغطوا على الخسارة السياسية الكبرى التي مُني بها البرهان ومعسكره، جراء اتخاذ الولايات المتحدة الأميركية قراراً بحرمانه من دخول أراضيها لحضور الجمعية العامة للأمم المتحدة. آخر أدوات التعمية التي توصلوا إليها هي تصوير الأمر كانتقاص من “السودان” لا من …",
-          "source": "التغيير",
-          "source_id": "altaghyeer-ar",
-          "source_class": "sudanese_journalism",
-          "link": "https://www.altaghyeer.info/ar/2026/09/24/%d8%ae%d8%a7%d9%84%d8%af-%d8%b9%d9%85%d8%b1-%d9%8a%d9%88%d8%b3%d9%81-%d9%8a%d9%83%d8%aa%d8%a8-%d8%b9%d9%86-%d8%a7%d9%84%d8%ae%d8%b3%d8%a7%d8%b1%d8%a9-%d8%a7%d9%84%d8%b3%d9%8a%d8%a7%d8%b3%d9%8a%d8%a9",
-          "status": "Reporting",
-          "geography": [
-            "National"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "War & Security",
-          "clabel": "الحرب والأمن",
-          "language": "ar",
-          "media_attribution": "التغيير"
-        }
-      },
-      {
-        "Title": "تزايد حالات الإصابة بحمى الضنك والملاريا في الدمازين والروصيرص",
-        "Lang": "ar",
-        "Date": "2026-09-24T10:40:26+00:00",
-        "Permalink": "https://www.radiotamazuj.org/ar/news/article/%d8%aa%d8%b2%d8%a7%d9%8a%d8%af-%d8%ad%d8%a7%d9%84%d8%a7%d8%aa-%d8%a7%d9%84%d8%a5%d8%b5%d8%a7%d8%a8%d8%a9-%d8%a8%d8%ad%d9%85%d9%89-%d8%a7%d9%84%d8%b6%d9%86%d9%83-%d9%88%d8%a7%d9%84%d9%85%d9%84%d8%a7",
-        "Params": {
-          "description": "عبر السكان في محليتي الدمازين والروصيرص في إقليم النيل الأزرق بالسودان، عن قلقهم من تزايدت The post تزايد حالات الإصابة بحمى الضنك والملاريا في الدمازين والروصيرص appeared first on Radio Tamazuj .",
-          "source": "راديو تمازج",
-          "source_id": "tamazuj-ar",
-          "source_class": "regional_journalism",
-          "link": "https://www.radiotamazuj.org/ar/news/article/%d8%aa%d8%b2%d8%a7%d9%8a%d8%af-%d8%ad%d8%a7%d9%84%d8%a7%d8%aa-%d8%a7%d9%84%d8%a5%d8%b5%d8%a7%d8%a8%d8%a9-%d8%a8%d8%ad%d9%85%d9%89-%d8%a7%d9%84%d8%b6%d9%86%d9%83-%d9%88%d8%a7%d9%84%d9%85%d9%84%d8%a7",
-          "status": "Reporting",
-          "geography": [
-            "Blue Nile"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "Sudan News",
-          "clabel": "أخبار السودان",
-          "language": "ar",
-          "media_attribution": "راديو تمازج"
-        }
-      },
-      {
-        "Title": "قادة دينيون من النوبة يدعون إلى إيقاف العنف والحوار في السودان",
-        "Lang": "ar",
-        "Date": "2026-09-24T10:23:29+00:00",
-        "Permalink": "https://www.radiotamazuj.org/ar/news/article/%d9%82%d8%a7%d8%af%d8%a9-%d8%af%d9%8a%d9%86%d9%8a%d9%88%d9%86-%d9%85%d9%86-%d8%a7%d9%84%d9%86%d9%88%d8%a8%d8%a9-%d9%8a%d8%af%d8%b9%d9%88%d9%86-%d8%a5%d9%84%d9%89-%d8%a5%d9%8a%d9%82%d8%a7%d9%81-%d8%a7",
-        "Params": {
-          "description": "دعا قادة دينيون مسيحيون ومسلمون من جبال النوبة بالسودان إلى إيقاف القتال، وحثوا الأطراف على The post قادة دينيون من النوبة يدعون إلى إيقاف العنف والحوار في السودان appeared first on Radio Tamazuj .",
-          "source": "راديو تمازج",
-          "source_id": "tamazuj-ar",
-          "source_class": "regional_journalism",
-          "link": "https://www.radiotamazuj.org/ar/news/article/%d9%82%d8%a7%d8%af%d8%a9-%d8%af%d9%8a%d9%86%d9%8a%d9%88%d9%86-%d9%85%d9%86-%d8%a7%d9%84%d9%86%d9%88%d8%a8%d8%a9-%d9%8a%d8%af%d8%b9%d9%88%d9%86-%d8%a5%d9%84%d9%89-%d8%a5%d9%8a%d9%82%d8%a7%d9%81-%d8%a7",
-          "status": "Reporting",
-          "geography": [
-            "National"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "War & Security",
-          "clabel": "الحرب والأمن",
-          "language": "ar",
-          "media_attribution": "راديو تمازج"
         }
       }
     ],
