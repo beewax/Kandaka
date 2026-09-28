@@ -16,7 +16,7 @@ status: Institutional update
 cluster_id: 92680a8ab409
 corroboration_count: 1
 draft: false
-image: https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Libraries/Production%20Library/12-06-2024-WFP-Sudan-02.jpg/image560x340cropped.jpg
+image: https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/09/28-09-2026_UNDP_Sudan_Farming2.jpg/image560x340cropped.jpg
 media_source: https://news.un.org/feed/view/en/story/2026/09/1168439
 media_reuse_basis: rss_metadata
 media_attribution: UN News
