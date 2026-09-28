@@ -1,52 +1,28 @@
 {
-  "updated": "2026-09-27T23:46:19.031680+00:00",
+  "updated": "2026-09-28T04:05:41.086057+00:00",
   "window_days": 30,
   "en": {
     "balanced": [
       {
-        "Title": "Ethiopia accuses Eritrea, Sudan of backing Tigray rebels amid clashes",
+        "Title": "Sudan rejects Ethiopian accusation of backing armed groups",
         "Lang": "en",
-        "Date": "2026-09-27T23:27:29+00:00",
-        "Permalink": "https://www.france24.com/en/africa/20260927-ethiopia-accuses-eritrea-sudan-backing-tigray-rebels",
+        "Date": "2026-09-28T00:57:33+00:00",
+        "Permalink": "https://www.radiotamazuj.org/en/news/article/sudan-rejects-ethiopian-accusation-of-backing-armed-groups",
         "Params": {
-          "description": "Ethiopia’s army chief accused Eritrea and Sudan on Sunday of backing armed groups fighting federal troops, as clashes with Tigrayan rebels intensified. The Tigray People’s Liberation Front said it was waging a “defensive war” and seized airports. A humanitarian source said rebels captured the Afar town of Erebti on Sunday.",
-          "source": "France 24 Africa",
-          "source_id": "france24-africa",
-          "source_class": "international_journalism",
-          "link": "https://www.france24.com/en/africa/20260927-ethiopia-accuses-eritrea-sudan-backing-tigray-rebels",
+          "description": "The Sudanese Armed Forces (SAF) on Sunday rejected accusations by Ethiopia’s army chief that Sudan The post Sudan rejects Ethiopian accusation of backing armed groups appeared first on Radio Tamazuj .",
+          "source": "Radio Tamazuj",
+          "source_id": "tamazuj-en",
+          "source_class": "regional_journalism",
+          "link": "https://www.radiotamazuj.org/en/news/article/sudan-rejects-ethiopian-accusation-of-backing-armed-groups",
           "status": "Reporting",
           "geography": [
             "National"
           ],
-          "image": "https://s.france24.com/media/display/0f75e7a4-b74e-11f1-a7c4-55848da96185/w:1024/p:16x9/6d45b1037798aea9bf1e18f1c74287a9684d4283.jpg",
-          "media_reuse_basis": "rss_metadata",
-          "related_sources": [],
-          "category": "War & Security",
-          "clabel": "الحرب والأمن",
-          "language": "en",
-          "media_attribution": "France 24 Africa"
-        }
-      },
-      {
-        "Title": "Child labour rises as families struggle in Blue Nile",
-        "Lang": "en",
-        "Date": "2026-09-27T10:45:25+00:00",
-        "Permalink": "https://www.radiotamazuj.org/en/news/article/child-labour-rises-as-families-struggle-in-blue-nile",
-        "Params": {
-          "description": "Children in Sudan’s Blue Nile region are working to help support their families as displacement, The post Child labour rises as families struggle in Blue Nile appeared first on Radio Tamazuj .",
-          "source": "Radio Tamazuj",
-          "source_id": "tamazuj-en",
-          "source_class": "regional_journalism",
-          "link": "https://www.radiotamazuj.org/en/news/article/child-labour-rises-as-families-struggle-in-blue-nile",
-          "status": "Reporting",
-          "geography": [
-            "Blue Nile"
-          ],
           "image": "",
           "media_reuse_basis": "",
           "related_sources": [],
-          "category": "Sudan News",
-          "clabel": "أخبار السودان",
+          "category": "War & Security",
+          "clabel": "الحرب والأمن",
           "language": "en",
           "media_attribution": "Radio Tamazuj"
         }
@@ -73,6 +49,30 @@
           "clabel": "الحرب والأمن",
           "language": "en",
           "media_attribution": "Radio Dabanga"
+        }
+      },
+      {
+        "Title": "Ethiopia accuses Eritrea, Sudan of backing Tigray rebels amid clashes",
+        "Lang": "en",
+        "Date": "2026-09-27T23:27:29+00:00",
+        "Permalink": "https://www.france24.com/en/africa/20260927-ethiopia-accuses-eritrea-sudan-backing-tigray-rebels",
+        "Params": {
+          "description": "Ethiopia’s army chief accused Eritrea and Sudan on Sunday of backing armed groups fighting federal troops, as clashes with Tigrayan rebels intensified. The Tigray People’s Liberation Front said it was waging a “defensive war” and seized airports. A humanitarian source said rebels captured the Afar town of Erebti on Sunday.",
+          "source": "France 24 Africa",
+          "source_id": "france24-africa",
+          "source_class": "international_journalism",
+          "link": "https://www.france24.com/en/africa/20260927-ethiopia-accuses-eritrea-sudan-backing-tigray-rebels",
+          "status": "Reporting",
+          "geography": [
+            "National"
+          ],
+          "image": "https://s.france24.com/media/display/0f75e7a4-b74e-11f1-a7c4-55848da96185/w:1024/p:16x9/6d45b1037798aea9bf1e18f1c74287a9684d4283.jpg",
+          "media_reuse_basis": "rss_metadata",
+          "related_sources": [],
+          "category": "War & Security",
+          "clabel": "الحرب والأمن",
+          "language": "en",
+          "media_attribution": "France 24 Africa"
         }
       },
       {
@@ -148,6 +148,30 @@
         }
       },
       {
+        "Title": "Child labour rises as families struggle in Blue Nile",
+        "Lang": "en",
+        "Date": "2026-09-27T10:45:25+00:00",
+        "Permalink": "https://www.radiotamazuj.org/en/news/article/child-labour-rises-as-families-struggle-in-blue-nile",
+        "Params": {
+          "description": "Children in Sudan’s Blue Nile region are working to help support their families as displacement, The post Child labour rises as families struggle in Blue Nile appeared first on Radio Tamazuj .",
+          "source": "Radio Tamazuj",
+          "source_id": "tamazuj-en",
+          "source_class": "regional_journalism",
+          "link": "https://www.radiotamazuj.org/en/news/article/child-labour-rises-as-families-struggle-in-blue-nile",
+          "status": "Reporting",
+          "geography": [
+            "Blue Nile"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "Sudan News",
+          "clabel": "أخبار السودان",
+          "language": "en",
+          "media_attribution": "Radio Tamazuj"
+        }
+      },
+      {
         "Title": "Peace in Sudan Is Still Possible",
         "Lang": "en",
         "Date": "2026-09-22T17:15:22+00:00",
@@ -193,30 +217,6 @@
           "clabel": "الحرب والأمن",
           "language": "en",
           "media_attribution": "Ayin Network"
-        }
-      },
-      {
-        "Title": "Drone strike hits strategic fuel depot in central Sudan",
-        "Lang": "en",
-        "Date": "2026-09-27T11:43:50+00:00",
-        "Permalink": "https://www.radiotamazuj.org/en/news/article/drone-strike-hits-fuel-depot-in-central-sudan",
-        "Params": {
-          "description": "Sudan’s paramilitary Rapid Support Forces (RSF) targeted a strategic fuel depot near Wad Madani, the The post Drone strike hits strategic fuel depot in central Sudan appeared first on Radio Tamazuj .",
-          "source": "Radio Tamazuj",
-          "source_id": "tamazuj-en",
-          "source_class": "regional_journalism",
-          "link": "https://www.radiotamazuj.org/en/news/article/drone-strike-hits-fuel-depot-in-central-sudan",
-          "status": "Reporting",
-          "geography": [
-            "Gezira"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "War & Security",
-          "clabel": "الحرب والأمن",
-          "language": "en",
-          "media_attribution": "Radio Tamazuj"
         }
       },
       {
@@ -582,6 +582,30 @@
       }
     ],
     "latest": [
+      {
+        "Title": "Sudan rejects Ethiopian accusation of backing armed groups",
+        "Lang": "en",
+        "Date": "2026-09-28T00:57:33+00:00",
+        "Permalink": "https://www.radiotamazuj.org/en/news/article/sudan-rejects-ethiopian-accusation-of-backing-armed-groups",
+        "Params": {
+          "description": "The Sudanese Armed Forces (SAF) on Sunday rejected accusations by Ethiopia’s army chief that Sudan The post Sudan rejects Ethiopian accusation of backing armed groups appeared first on Radio Tamazuj .",
+          "source": "Radio Tamazuj",
+          "source_id": "tamazuj-en",
+          "source_class": "regional_journalism",
+          "link": "https://www.radiotamazuj.org/en/news/article/sudan-rejects-ethiopian-accusation-of-backing-armed-groups",
+          "status": "Reporting",
+          "geography": [
+            "National"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "War & Security",
+          "clabel": "الحرب والأمن",
+          "language": "en",
+          "media_attribution": "Radio Tamazuj"
+        }
+      },
       {
         "Title": "Ethiopia accuses Eritrea, Sudan of backing Tigray rebels amid clashes",
         "Lang": "en",
@@ -4163,30 +4187,6 @@
           "language": "en",
           "media_attribution": "Radio Dabanga"
         }
-      },
-      {
-        "Title": "Sudan Youth Parliament warns of ‘deepening de facto partition’",
-        "Lang": "en",
-        "Date": "2026-09-02T10:47:21+00:00",
-        "Permalink": "https://www.dabangasudan.org/en/all-news/article/sudan-youth-parliament-warns-of-a-deepening-de-facto-partition",
-        "Params": {
-          "description": "",
-          "source": "Radio Dabanga",
-          "source_id": "dabanga-en",
-          "source_class": "sudanese_journalism",
-          "link": "https://www.dabangasudan.org/en/all-news/article/sudan-youth-parliament-warns-of-a-deepening-de-facto-partition",
-          "status": "Reporting",
-          "geography": [
-            "National"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "Sudan News",
-          "clabel": "أخبار السودان",
-          "language": "en",
-          "media_attribution": "Radio Dabanga"
-        }
       }
     ],
     "publishers": 12
@@ -4194,27 +4194,27 @@
   "ar": {
     "balanced": [
       {
-        "Title": "بين النور حمد والواثق كمير: من يملك شجاعة مغادرة السودان القديم؟ (2 _ 2)",
+        "Title": "حيدر إبراهيم علي.. اشتباك سوسيولوجي مع أزمات السودان",
         "Lang": "ar",
-        "Date": "2026-09-27T22:35:26+00:00",
-        "Permalink": "https://www.altaghyeer.info/ar/2026/09/28/%d8%a8%d9%8a%d9%86-%d8%a7%d9%84%d9%86%d9%88%d8%b1-%d8%ad%d9%85%d8%af-%d9%88%d8%a7%d9%84%d9%88%d8%a7%d8%ab%d9%82-%d9%83%d9%85%d9%8a%d8%b1-%d9%85%d9%86-%d9%8a%d9%85%d9%84%d9%83-%d8%b4%d8%ac%d8%a7%d8%b9",
+        "Date": "2026-09-28T02:30:03+00:00",
+        "Permalink": "https://www.alaraby.co.uk/culture/%D8%AD%D9%8A%D8%AF%D8%B1-%D8%A5%D8%A8%D8%B1%D8%A7%D9%87%D9%8A%D9%85-%D8%B9%D9%84%D9%8A-%D8%A7%D8%B4%D8%AA%D8%A8%D8%A7%D9%83-%D8%B3%D9%88%D8%B3%D9%8A%D9%88%D9%84%D9%88%D8%AC%D9%8A-%D9%85%D8%B9-%D8%A3%D8%B2%D9%85%D8%A7%D8%AA-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86",
         "Params": {
-          "description": "بين النور حمد والواثق كمير: من يملك شجاعة مغادرة السودان القديم؟ خالد كودي بين المواكبة والانتهازية: ليس كل تغيير شجاعة ولا كل ثبات فضيلة: في سياقنا هذا، من الضروري التمييز بين المواكبة الفكرية والانتهازية السياسية. فليس كل تغيير في الموقف دليلاً على الشجاعة، كما أن الثبات ليس فضيلة في ذاته. قد يغيّر السياسي موقفه …",
-          "source": "التغيير",
-          "source_id": "altaghyeer-ar",
-          "source_class": "sudanese_journalism",
-          "link": "https://www.altaghyeer.info/ar/2026/09/28/%d8%a8%d9%8a%d9%86-%d8%a7%d9%84%d9%86%d9%88%d8%b1-%d8%ad%d9%85%d8%af-%d9%88%d8%a7%d9%84%d9%88%d8%a7%d8%ab%d9%82-%d9%83%d9%85%d9%8a%d8%b1-%d9%85%d9%86-%d9%8a%d9%85%d9%84%d9%83-%d8%b4%d8%ac%d8%a7%d8%b9",
+          "description": "تبدو طروحات حيدر إبراهيم علي الذي رحل الجمعة، أكثر حضوراً فالمجتمعات لا تنجو من مقصلة الاستبداد بالثورة على الحاكم وحده، وإنما بتثوير الطريقة التي تفكر بها.",
+          "source": "العربي الجديد",
+          "source_id": "alaraby-ar",
+          "source_class": "regional_journalism",
+          "link": "https://www.alaraby.co.uk/culture/%D8%AD%D9%8A%D8%AF%D8%B1-%D8%A5%D8%A8%D8%B1%D8%A7%D9%87%D9%8A%D9%85-%D8%B9%D9%84%D9%8A-%D8%A7%D8%B4%D8%AA%D8%A8%D8%A7%D9%83-%D8%B3%D9%88%D8%B3%D9%8A%D9%88%D9%84%D9%88%D8%AC%D9%8A-%D9%85%D8%B9-%D8%A3%D8%B2%D9%85%D8%A7%D8%AA-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86",
           "status": "Reporting",
           "geography": [
             "National"
           ],
-          "image": "",
-          "media_reuse_basis": "",
+          "image": "https://www.alaraby.co.uk/sites/default/files/styles/meduim_16_9/public/2026-09/Portrait-01.jpg?h=d1cb525d&itok=6M4eayYe",
+          "media_reuse_basis": "rss_metadata",
           "related_sources": [],
-          "category": "Sudan News",
-          "clabel": "أخبار السودان",
+          "category": "Analysis",
+          "clabel": "تحليل",
           "language": "ar",
-          "media_attribution": "التغيير"
+          "media_attribution": "العربي الجديد"
         }
       },
       {
@@ -4242,6 +4242,34 @@
         }
       },
       {
+        "Title": "قطع الغابات يفاقم الكارثة البيئية في السودان.. السنط شاهدة على اتساع الدمار",
+        "Lang": "ar",
+        "Date": "2026-09-27T20:41:26+00:00",
+        "Permalink": "https://www.altaghyeer.info/ar/2026/09/27/%d9%82%d8%b7%d8%b9-%d8%a7%d9%84%d8%ba%d8%a7%d8%a8%d8%a7%d8%aa-%d9%8a%d9%81%d8%a7%d9%82%d9%85-%d8%a7%d9%84%d9%83%d8%a7%d8%b1%d8%ab%d8%a9-%d8%a7%d9%84%d8%a8%d9%8a%d8%a6%d9%8a%d8%a9-%d9%81%d9%8a-%d8%a7",
+        "Params": {
+          "description": "تتصاعد المخاوف في السودان من اتساع نطاق تدمير الغطاء الغابي، في وقت تشهد فيه مناطق عدة، بينها ولايات الخرطوم والجزيرة وسنار والقضارف والنيل الأبيض وكردفان، عمليات قطع واسعة للأشجار واستخدام الحطب في إنتاج الفحم، وسط تداعيات اقتصادية وإنسانية للحرب المستمرة منذ أبريل 2023. الخرطوم _ التغيير وتتداول مصادر محلية وناشطون في مجال البيئة معلومات …",
+          "source": "التغيير",
+          "source_id": "altaghyeer-ar",
+          "source_class": "sudanese_journalism",
+          "link": "https://www.altaghyeer.info/ar/2026/09/27/%d9%82%d8%b7%d8%b9-%d8%a7%d9%84%d8%ba%d8%a7%d8%a8%d8%a7%d8%aa-%d9%8a%d9%81%d8%a7%d9%82%d9%85-%d8%a7%d9%84%d9%83%d8%a7%d8%b1%d8%ab%d8%a9-%d8%a7%d9%84%d8%a8%d9%8a%d8%a6%d9%8a%d8%a9-%d9%81%d9%8a-%d8%a7",
+          "status": "Reporting",
+          "geography": [
+            "Khartoum",
+            "Kordofan",
+            "Gedaref",
+            "Sennar",
+            "White Nile"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "Economy",
+          "clabel": "اقتصاد",
+          "language": "ar",
+          "media_attribution": "التغيير"
+        }
+      },
+      {
         "Title": "مقتل مزارع برصاص مسلحين في قريضة بجنوب دارفور",
         "Lang": "ar",
         "Date": "2026-09-27T09:46:18+00:00",
@@ -4263,6 +4291,30 @@
           "clabel": "زراعة",
           "language": "ar",
           "media_attribution": "راديو دبنقا"
+        }
+      },
+      {
+        "Title": "البرهان والبشير: النهاية تشبه البداية ولا تشبهها",
+        "Lang": "ar",
+        "Date": "2026-09-27T20:13:00+00:00",
+        "Permalink": "https://sudanile.com/%d8%a7%d9%84%d8%a8%d8%b1%d9%87%d8%a7%d9%86-%d9%88%d8%a7%d9%84%d8%a8%d8%b4%d9%8a%d8%b1-%d8%a7%d9%84%d9%86%d9%87%d8%a7%d9%8a%d8%a9-%d8%aa%d8%b4%d8%a8%d9%87-%d8%a7%d9%84%d8%a8%d8%af%d8%a7%d9%8a%d8%a9",
+        "Params": {
+          "description": "د. هشام عثمان يقول أهل الباطن من المتصوفة: النهاية تشبه البداية ولا تشبهها. وكأن التاريخ السياسي السوداني اختار أن يكون حقل تجارب هذه المقولة، لا في معرض الفرد وحده، بل في معرض السلطة ومصائرها. فحين ننظر إلى مسار عمر البشير الذي انتهى إلى قفص الاتهام في لاهاي، ثم نقارنه بما آل إليه عبد الفتاح البرهان […] The post البرهان والبشير: النهاية تشبه البداية ولا تشبهها appeared first on سودانايل .",
+          "source": "سودانايل",
+          "source_id": "sudanile-ar",
+          "source_class": "sudanese_diaspora",
+          "link": "https://sudanile.com/%d8%a7%d9%84%d8%a8%d8%b1%d9%87%d8%a7%d9%86-%d9%88%d8%a7%d9%84%d8%a8%d8%b4%d9%8a%d8%b1-%d8%a7%d9%84%d9%86%d9%87%d8%a7%d9%8a%d8%a9-%d8%aa%d8%b4%d8%a8%d9%87-%d8%a7%d9%84%d8%a8%d8%af%d8%a7%d9%8a%d8%a9",
+          "status": "Reporting",
+          "geography": [
+            "National"
+          ],
+          "image": "https://sudanile.com/wp-content/uploads/2024/10/hisham.jpg",
+          "media_reuse_basis": "rss_metadata",
+          "related_sources": [],
+          "category": "Sudan News",
+          "clabel": "أخبار السودان",
+          "language": "ar",
+          "media_attribution": "سودانايل"
         }
       },
       {
@@ -4290,51 +4342,27 @@
         }
       },
       {
-        "Title": "حيدر إبراهيم علي فقيد السودان ... المثقّف الشجاع",
+        "Title": "من «الميدان» إلى الفضاء الرقمي.. كيف تشرعن تهم «التعاون» العنف تجاه المدنيين السودانيين؟",
         "Lang": "ar",
-        "Date": "2026-09-27T00:03:15+00:00",
-        "Permalink": "https://www.alaraby.co.uk/opinion/حيدر-إبراهيم-علي-فقيد-السودان-المثقّف-الشجاع",
+        "Date": "2026-09-27T15:47:29+00:00",
+        "Permalink": "https://www.beamreports.com/2026/09/27/%d9%85%d9%86-%d8%a7%d9%84%d9%85%d9%8a%d8%af%d8%a7%d9%86-%d8%a5%d9%84%d9%89-%d8%a7%d9%84%d9%81%d8%b6%d8%a7%d8%a1-%d8%a7%d9%84%d8%b1%d9%82%d9%85%d9%8a-%d9%83%d9%8a%d9%81-%d8%aa%d8%b4%d8%b1",
         "Params": {
-          "description": "بسبب موقفه الصريح من الحكم والسياسة في بلده، ظل حيدر إبراهيم علي مطارداً، فعاش معظم سنوات حياته متنقلاً بين الإمارات والمغرب ومصر التي بقي فيها حتى وفاته.",
-          "source": "العربي الجديد",
-          "source_id": "alaraby-ar",
-          "source_class": "regional_journalism",
-          "link": "https://www.alaraby.co.uk/opinion/حيدر-إبراهيم-علي-فقيد-السودان-المثقّف-الشجاع",
+          "description": "يواجه آلاف السودانيين، منذ اندلاع الحرب في منتصف أبريل 2023، صنوفًا مختلفة من التصفيات الميدانية والقتل والاحتجاز القسري، بالإضافة إلى الاتهامات بالتعاون والتخابر، وذلك في مختلف المناطق والجغرافيا التي يسيطر عليها كل من الجيش السوداني وقوات الدعم السريع، حيث يقبع الآلاف في السجون انتظارًا للمحاكمة، أو تمضية لحكم في مناطق سيطرة الحكومة. أو يبقون في […] The post من «الميدان» إلى الفضاء الرقمي.. كيف تشرعن تهم «التعاون» ",
+          "source": "بيم ريبورتس",
+          "source_id": "beam-ar",
+          "source_class": "sudanese_journalism",
+          "link": "https://www.beamreports.com/2026/09/27/%d9%85%d9%86-%d8%a7%d9%84%d9%85%d9%8a%d8%af%d8%a7%d9%86-%d8%a5%d9%84%d9%89-%d8%a7%d9%84%d9%81%d8%b6%d8%a7%d8%a1-%d8%a7%d9%84%d8%b1%d9%82%d9%85%d9%8a-%d9%83%d9%8a%d9%81-%d8%aa%d8%b4%d8%b1",
           "status": "Reporting",
           "geography": [
             "National"
           ],
-          "image": "https://www.alaraby.co.uk/sites/default/files/styles/meduim_16_9/public/2026-09/%D8%AD%D9%8A%D8%AF%D8%B1%20%D8%A5%D8%A8%D8%B1%D8%A7%D9%87%D9%8A%D9%85%20%D8%B9%D9%84%D9%8A%201.jpg?h=d1cb525d&itok=uci63bB5",
-          "media_reuse_basis": "rss_metadata",
-          "related_sources": [],
-          "category": "Analysis",
-          "clabel": "تحليل",
-          "language": "ar",
-          "media_attribution": "العربي الجديد"
-        }
-      },
-      {
-        "Title": "من فشل حشود الجمعة إلى استاد الخرطوم… البرهان يطارد شرعيةً تتهاوى",
-        "Lang": "ar",
-        "Date": "2026-09-27T19:52:09+00:00",
-        "Permalink": "https://sudanile.com/%d9%85%d9%86-%d9%81%d8%b4%d9%84-%d8%ad%d8%b4%d9%88%d8%af-%d8%a7%d9%84%d8%ac%d9%85%d8%b9%d8%a9-%d8%a5%d9%84%d9%89-%d8%a7%d8%b3%d8%aa%d8%a7%d8%af-%d8%a7%d9%84%d8%ae%d8%b1%d8%b7%d9%88%d9%85",
-        "Params": {
-          "description": "علاء خيراوي■ لم تكن واقعة استاد الخرطوم حدثاً عابراً، ولا ظهوراً جماهيرياً عادياً لعبد الفتاح البرهان؛ بل جاءت في لحظة سياسية شديدة الحساسية، بعد أيام من أزمة التأشيرة الأمريكية، وفي وقت كانت فيه واشنطن ترفع سقف خطابها تجاه طرفي الحرب وتشكك في شرعية الحكم القائم، بينما ظلت مسألة مشاركة البرهان في اجتماعات الأمم المتحدة وما […] The post من فشل حشود الجمعة إلى استاد الخرطوم… البرهان يطارد شرعيةً تتهاوى appeared first o",
-          "source": "سودانايل",
-          "source_id": "sudanile-ar",
-          "source_class": "sudanese_diaspora",
-          "link": "https://sudanile.com/%d9%85%d9%86-%d9%81%d8%b4%d9%84-%d8%ad%d8%b4%d9%88%d8%af-%d8%a7%d9%84%d8%ac%d9%85%d8%b9%d8%a9-%d8%a5%d9%84%d9%89-%d8%a7%d8%b3%d8%aa%d8%a7%d8%af-%d8%a7%d9%84%d8%ae%d8%b1%d8%b7%d9%88%d9%85",
-          "status": "Reporting",
-          "geography": [
-            "Khartoum"
-          ],
-          "image": "https://sudanile.com/wp-content/uploads/2026/06/alakherawe.jpg",
-          "media_reuse_basis": "rss_metadata",
+          "image": "",
+          "media_reuse_basis": "",
           "related_sources": [],
           "category": "War & Security",
           "clabel": "الحرب والأمن",
           "language": "ar",
-          "media_attribution": "سودانايل"
+          "media_attribution": "بيم ريبورتس"
         }
       },
       {
@@ -4360,30 +4388,6 @@
           "clabel": "إنساني",
           "language": "ar",
           "media_attribution": "Sudan War Monitor"
-        }
-      },
-      {
-        "Title": "من «الميدان» إلى الفضاء الرقمي.. كيف تشرعن تهم «التعاون» العنف تجاه المدنيين السودانيين؟",
-        "Lang": "ar",
-        "Date": "2026-09-27T15:47:29+00:00",
-        "Permalink": "https://www.beamreports.com/2026/09/27/%d9%85%d9%86-%d8%a7%d9%84%d9%85%d9%8a%d8%af%d8%a7%d9%86-%d8%a5%d9%84%d9%89-%d8%a7%d9%84%d9%81%d8%b6%d8%a7%d8%a1-%d8%a7%d9%84%d8%b1%d9%82%d9%85%d9%8a-%d9%83%d9%8a%d9%81-%d8%aa%d8%b4%d8%b1",
-        "Params": {
-          "description": "يواجه آلاف السودانيين، منذ اندلاع الحرب في منتصف أبريل 2023، صنوفًا مختلفة من التصفيات الميدانية والقتل والاحتجاز القسري، بالإضافة إلى الاتهامات بالتعاون والتخابر، وذلك في مختلف المناطق والجغرافيا التي يسيطر عليها كل من الجيش السوداني وقوات الدعم السريع، حيث يقبع الآلاف في السجون انتظارًا للمحاكمة، أو تمضية لحكم في مناطق سيطرة الحكومة. أو يبقون في […] The post من «الميدان» إلى الفضاء الرقمي.. كيف تشرعن تهم «التعاون» ",
-          "source": "بيم ريبورتس",
-          "source_id": "beam-ar",
-          "source_class": "sudanese_journalism",
-          "link": "https://www.beamreports.com/2026/09/27/%d9%85%d9%86-%d8%a7%d9%84%d9%85%d9%8a%d8%af%d8%a7%d9%86-%d8%a5%d9%84%d9%89-%d8%a7%d9%84%d9%81%d8%b6%d8%a7%d8%a1-%d8%a7%d9%84%d8%b1%d9%82%d9%85%d9%8a-%d9%83%d9%8a%d9%81-%d8%aa%d8%b4%d8%b1",
-          "status": "Reporting",
-          "geography": [
-            "National"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "War & Security",
-          "clabel": "الحرب والأمن",
-          "language": "ar",
-          "media_attribution": "بيم ريبورتس"
         }
       },
       {
@@ -4531,21 +4535,21 @@
         }
       },
       {
-        "Title": "البرهان والبشير: النهاية تشبه البداية ولا تشبهها",
+        "Title": "ترمب والعجالي وكيزان السودان",
         "Lang": "ar",
-        "Date": "2026-09-27T20:13:00+00:00",
-        "Permalink": "https://sudanile.com/%d8%a7%d9%84%d8%a8%d8%b1%d9%87%d8%a7%d9%86-%d9%88%d8%a7%d9%84%d8%a8%d8%b4%d9%8a%d8%b1-%d8%a7%d9%84%d9%86%d9%87%d8%a7%d9%8a%d8%a9-%d8%aa%d8%b4%d8%a8%d9%87-%d8%a7%d9%84%d8%a8%d8%af%d8%a7%d9%8a%d8%a9",
+        "Date": "2026-09-27T20:02:51+00:00",
+        "Permalink": "https://sudanile.com/%d8%aa%d8%b1%d9%85%d8%a8-%d9%88%d8%a7%d9%84%d8%b9%d8%ac%d8%a7%d9%84%d9%8a-%d9%88%d9%83%d9%8a%d8%b2%d8%a7%d9%86-%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86",
         "Params": {
-          "description": "د. هشام عثمان يقول أهل الباطن من المتصوفة: النهاية تشبه البداية ولا تشبهها. وكأن التاريخ السياسي السوداني اختار أن يكون حقل تجارب هذه المقولة، لا في معرض الفرد وحده، بل في معرض السلطة ومصائرها. فحين ننظر إلى مسار عمر البشير الذي انتهى إلى قفص الاتهام في لاهاي، ثم نقارنه بما آل إليه عبد الفتاح البرهان […] The post البرهان والبشير: النهاية تشبه البداية ولا تشبهها appeared first on سودانايل .",
+          "description": "شهدت مدن جنوب غربي ولاية كانساس، هذا الأسبوع، حملة واسعة نفذتها إدارة الهجرة والجمارك الأمريكية (ICE) شملت دودج سيتي وغاردن سيتي وليبرال، وهي منطقة تمثل أحد المراكز الرئيسية لصناعة تعبئة اللحوم في الولايات المتحدة. ولم تكن السلطات المحلية في المدن الثلاث قد أُبلغت مسبقاً بالعملية، بحسب بياناتها الرسمية.والأمر اللافت أن هذه الحملة جاءت في الوقت […] The post ترمب والعجالي وكيزان السودان appeared first on سودانايل .",
           "source": "سودانايل",
           "source_id": "sudanile-ar",
           "source_class": "sudanese_diaspora",
-          "link": "https://sudanile.com/%d8%a7%d9%84%d8%a8%d8%b1%d9%87%d8%a7%d9%86-%d9%88%d8%a7%d9%84%d8%a8%d8%b4%d9%8a%d8%b1-%d8%a7%d9%84%d9%86%d9%87%d8%a7%d9%8a%d8%a9-%d8%aa%d8%b4%d8%a8%d9%87-%d8%a7%d9%84%d8%a8%d8%af%d8%a7%d9%8a%d8%a9",
+          "link": "https://sudanile.com/%d8%aa%d8%b1%d9%85%d8%a8-%d9%88%d8%a7%d9%84%d8%b9%d8%ac%d8%a7%d9%84%d9%8a-%d9%88%d9%83%d9%8a%d8%b2%d8%a7%d9%86-%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86",
           "status": "Reporting",
           "geography": [
             "National"
           ],
-          "image": "https://sudanile.com/wp-content/uploads/2024/10/hisham.jpg",
+          "image": "https://sudanile.com/wp-content/uploads/2026/05/talat.jpg",
           "media_reuse_basis": "rss_metadata",
           "related_sources": [],
           "category": "Sudan News",
@@ -4627,6 +4631,30 @@
         }
       },
       {
+        "Title": "الظروف الاقتصادية والنزوح يدفعان أطفالاً في النيل الأزرق إلى العمل والتسرب من المدارس",
+        "Lang": "ar",
+        "Date": "2026-09-24T14:42:00+00:00",
+        "Permalink": "https://www.radiotamazuj.org/ar/news/article/%d8%a7%d9%84%d8%b8%d8%b1%d9%88%d9%81-%d8%a7%d9%84%d8%a7%d9%82%d8%aa%d8%b5%d8%a7%d8%af%d9%8a%d8%a9-%d9%88%d8%a7%d9%84%d9%86%d8%b2%d9%88%d8%ad-%d9%8a%d8%af%d9%81%d8%b9%d8%a7%d9%86-%d8%a3%d8%b7%d9%81",
+        "Params": {
+          "description": "يواجه عدد من الأطفال في إقليم النيل الأزرق خطر التسرب من المدارس والانخراط المبكر في The post الظروف الاقتصادية والنزوح يدفعان أطفالاً في النيل الأزرق إلى العمل والتسرب من المدارس appeared first on Radio Tamazuj .",
+          "source": "راديو تمازج",
+          "source_id": "tamazuj-ar",
+          "source_class": "regional_journalism",
+          "link": "https://www.radiotamazuj.org/ar/news/article/%d8%a7%d9%84%d8%b8%d8%b1%d9%88%d9%81-%d8%a7%d9%84%d8%a7%d9%82%d8%aa%d8%b5%d8%a7%d8%af%d9%8a%d8%a9-%d9%88%d8%a7%d9%84%d9%86%d8%b2%d9%88%d8%ad-%d9%8a%d8%af%d9%81%d8%b9%d8%a7%d9%86-%d8%a3%d8%b7%d9%81",
+          "status": "Reporting",
+          "geography": [
+            "Blue Nile"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "Education",
+          "clabel": "تعليم",
+          "language": "ar",
+          "media_attribution": "راديو تمازج"
+        }
+      },
+      {
         "Title": "“سماء لا تمطر”.. كيف يهدد الجفاف غذاء السودانيين؟",
         "Lang": "ar",
         "Date": "2026-09-24T16:27:28+00:00",
@@ -4650,30 +4678,6 @@
           "clabel": "زراعة",
           "language": "ar",
           "media_attribution": "عاين"
-        }
-      },
-      {
-        "Title": "الظروف الاقتصادية والنزوح يدفعان أطفالاً في النيل الأزرق إلى العمل والتسرب من المدارس",
-        "Lang": "ar",
-        "Date": "2026-09-24T14:42:00+00:00",
-        "Permalink": "https://www.radiotamazuj.org/ar/news/article/%d8%a7%d9%84%d8%b8%d8%b1%d9%88%d9%81-%d8%a7%d9%84%d8%a7%d9%82%d8%aa%d8%b5%d8%a7%d8%af%d9%8a%d8%a9-%d9%88%d8%a7%d9%84%d9%86%d8%b2%d9%88%d8%ad-%d9%8a%d8%af%d9%81%d8%b9%d8%a7%d9%86-%d8%a3%d8%b7%d9%81",
-        "Params": {
-          "description": "يواجه عدد من الأطفال في إقليم النيل الأزرق خطر التسرب من المدارس والانخراط المبكر في The post الظروف الاقتصادية والنزوح يدفعان أطفالاً في النيل الأزرق إلى العمل والتسرب من المدارس appeared first on Radio Tamazuj .",
-          "source": "راديو تمازج",
-          "source_id": "tamazuj-ar",
-          "source_class": "regional_journalism",
-          "link": "https://www.radiotamazuj.org/ar/news/article/%d8%a7%d9%84%d8%b8%d8%b1%d9%88%d9%81-%d8%a7%d9%84%d8%a7%d9%82%d8%aa%d8%b5%d8%a7%d8%af%d9%8a%d8%a9-%d9%88%d8%a7%d9%84%d9%86%d8%b2%d9%88%d8%ad-%d9%8a%d8%af%d9%81%d8%b9%d8%a7%d9%86-%d8%a3%d8%b7%d9%81",
-          "status": "Reporting",
-          "geography": [
-            "Blue Nile"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "Education",
-          "clabel": "تعليم",
-          "language": "ar",
-          "media_attribution": "راديو تمازج"
         }
       },
       {
@@ -4774,6 +4778,30 @@
       }
     ],
     "latest": [
+      {
+        "Title": "حيدر إبراهيم علي.. اشتباك سوسيولوجي مع أزمات السودان",
+        "Lang": "ar",
+        "Date": "2026-09-28T02:30:03+00:00",
+        "Permalink": "https://www.alaraby.co.uk/culture/%D8%AD%D9%8A%D8%AF%D8%B1-%D8%A5%D8%A8%D8%B1%D8%A7%D9%87%D9%8A%D9%85-%D8%B9%D9%84%D9%8A-%D8%A7%D8%B4%D8%AA%D8%A8%D8%A7%D9%83-%D8%B3%D9%88%D8%B3%D9%8A%D9%88%D9%84%D9%88%D8%AC%D9%8A-%D9%85%D8%B9-%D8%A3%D8%B2%D9%85%D8%A7%D8%AA-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86",
+        "Params": {
+          "description": "تبدو طروحات حيدر إبراهيم علي الذي رحل الجمعة، أكثر حضوراً فالمجتمعات لا تنجو من مقصلة الاستبداد بالثورة على الحاكم وحده، وإنما بتثوير الطريقة التي تفكر بها.",
+          "source": "العربي الجديد",
+          "source_id": "alaraby-ar",
+          "source_class": "regional_journalism",
+          "link": "https://www.alaraby.co.uk/culture/%D8%AD%D9%8A%D8%AF%D8%B1-%D8%A5%D8%A8%D8%B1%D8%A7%D9%87%D9%8A%D9%85-%D8%B9%D9%84%D9%8A-%D8%A7%D8%B4%D8%AA%D8%A8%D8%A7%D9%83-%D8%B3%D9%88%D8%B3%D9%8A%D9%88%D9%84%D9%88%D8%AC%D9%8A-%D9%85%D8%B9-%D8%A3%D8%B2%D9%85%D8%A7%D8%AA-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86",
+          "status": "Reporting",
+          "geography": [
+            "National"
+          ],
+          "image": "https://www.alaraby.co.uk/sites/default/files/styles/meduim_16_9/public/2026-09/Portrait-01.jpg?h=d1cb525d&itok=6M4eayYe",
+          "media_reuse_basis": "rss_metadata",
+          "related_sources": [],
+          "category": "Analysis",
+          "clabel": "تحليل",
+          "language": "ar",
+          "media_attribution": "العربي الجديد"
+        }
+      },
       {
         "Title": "بين النور حمد والواثق كمير: من يملك شجاعة مغادرة السودان القديم؟ (2 _ 2)",
         "Lang": "ar",
@@ -8362,31 +8390,6 @@
           "clabel": "زراعة",
           "language": "ar",
           "media_attribution": "راديو تمازج"
-        }
-      },
-      {
-        "Title": "مخاوف من الفشل الكلي للموسم الزراعي في القضارف وشمال كردفان",
-        "Lang": "ar",
-        "Date": "2026-09-24T13:24:12+00:00",
-        "Permalink": "https://www.dabangasudan.org/ar/all-news/article/%d9%85%d8%ae%d8%a7%d9%88%d9%81-%d9%85%d9%86-%d8%a7%d9%84%d9%81%d8%b4%d9%84-%d8%a7%d9%84%d9%83%d9%84%d9%8a-%d9%84%d9%84%d9%85%d9%88%d8%b3%d9%85-%d8%a7%d9%84%d8%b2%d8%b1%d8%a7%d8%b9%d9%8a-%d9%81%d9%8a",
-        "Params": {
-          "description": "القضارف -الابيض: راديو دبنقا 24 سبتمبر 2026 ​شهدت أسواق محلية الفشقة بولاية القضارف ارتفاعاً قياسياً... The post مخاوف من الفشل الكلي للموسم الزراعي في القضارف وشمال كردفان appeared first on Dabanga Radio TV Online .",
-          "source": "راديو دبنقا",
-          "source_id": "dabanga-ar",
-          "source_class": "sudanese_journalism",
-          "link": "https://www.dabangasudan.org/ar/all-news/article/%d9%85%d8%ae%d8%a7%d9%88%d9%81-%d9%85%d9%86-%d8%a7%d9%84%d9%81%d8%b4%d9%84-%d8%a7%d9%84%d9%83%d9%84%d9%8a-%d9%84%d9%84%d9%85%d9%88%d8%b3%d9%85-%d8%a7%d9%84%d8%b2%d8%b1%d8%a7%d8%b9%d9%8a-%d9%81%d9%8a",
-          "status": "Reporting",
-          "geography": [
-            "Kordofan",
-            "Gedaref"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "Agriculture",
-          "clabel": "زراعة",
-          "language": "ar",
-          "media_attribution": "راديو دبنقا"
         }
       }
     ],
