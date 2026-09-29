@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-29T12:16:43.021817+00:00",
+  "updated": "2026-09-29T19:48:50.023686+00:00",
   "sources": [
     {
       "id": "dabanga-en",
@@ -34,7 +34,7 @@
       "language": "en",
       "status": "ok",
       "items": 25,
-      "accepted": 0
+      "accepted": 2
     },
     {
       "id": "guardian-world",
@@ -60,9 +60,9 @@
     {
       "id": "un-news-en",
       "language": "en",
-      "status": "ok",
-      "items": 30,
-      "accepted": 6
+      "status": "invalid_feed",
+      "items": 0,
+      "accepted": 0
     },
     {
       "id": "dabanga-ar",
@@ -75,29 +75,29 @@
       "id": "bbc-ar",
       "language": "ar",
       "status": "ok",
-      "items": 24,
-      "accepted": 5
+      "items": 23,
+      "accepted": 4
     },
     {
       "id": "france24-ar",
       "language": "ar",
       "status": "ok",
       "items": 24,
-      "accepted": 1
+      "accepted": 2
     },
     {
       "id": "alaraby-ar",
       "language": "ar",
       "status": "ok",
-      "items": 197,
-      "accepted": 2
+      "items": 198,
+      "accepted": 1
     },
     {
       "id": "un-news-ar",
       "language": "ar",
-      "status": "invalid_feed",
-      "items": 0,
-      "accepted": 0
+      "status": "ok",
+      "items": 30,
+      "accepted": 1
     },
     {
       "id": "altaghyeer-en",
@@ -153,7 +153,7 @@
       "language": "en",
       "status": "ok",
       "items": 12,
-      "accepted": 2
+      "accepted": 3
     },
     {
       "id": "tamazuj-ar",
