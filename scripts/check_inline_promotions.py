@@ -81,6 +81,11 @@ for language in ('', 'ar/'):
     aid = Path(f'public/{language}ideas/how-to-help-sudan-aid-delivery/index.html')
     if aid.exists():
         assert 'nile-promotion' not in aid.read_text(encoding='utf-8'), aid
+    home = Path(f'public/{language}index.html')
+    home_html = home.read_text(encoding='utf-8')
+    assert home_html.count('<article class=k-nile-home-card>') == 3, home
+    assert 'utm_medium=homepage' in home_html and 'utm_campaign=store_showcase' in home_html, home
+    assert ('من مكتبة النيل' if language else 'From Nile Bookstore') in home_html, home
 pairings = {
     'history/funj-sultanate': 'tabaqat-wad-dayf-allah',
     'ideas/illiteracy-sudan': 'النسائيات-ملك-حفني-ناصف',

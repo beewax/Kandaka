@@ -424,6 +424,35 @@ html[data-theme="dark"] .badge-analysis { background: #431407; color: #fdba74; }
 .k-news-col[dir="rtl"] .k-news-col-more { text-align: left; }
 .k-news-col-more:hover { color: var(--primary); }
 
+/* ── Nile Bookstore homepage showcase ── */
+.k-nile-home {
+  margin: 0 0 48px;
+  padding: 24px;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  background: var(--entry);
+  box-shadow: 0 7px 22px rgba(5, 18, 43, 0.06);
+}
+.k-nile-home-head { display: flex; align-items: end; justify-content: space-between; gap: 20px; margin-bottom: 18px; }
+.k-nile-home-kicker { margin: 0 0 5px; color: #8a6500; font-size: 11px; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; }
+html[data-theme="dark"] .k-nile-home-kicker { color: #ffd84d; }
+.k-nile-home h2 { margin: 0; font: 700 1.25rem/1.3 Georgia, serif; }
+.k-nile-home-disclosure { max-width: 42ch; margin: 0; color: var(--secondary); font-size: 12px; line-height: 1.5; text-align: end; }
+.k-nile-home-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+.k-nile-home-card { display: flex; flex-direction: column; min-height: 190px; padding: 18px; border: 1px solid var(--border); border-radius: 10px; background: var(--theme); }
+.k-nile-home-card h3 { margin: 0 0 9px; font: 700 1.03rem/1.35 Georgia, serif; }
+.k-nile-home-card p { margin: 0 0 14px; color: var(--secondary); font-size: 13px; line-height: 1.55; }
+.k-nile-home-link { display: inline-flex; align-items: center; min-height: 44px; margin-top: auto; color: var(--primary) !important; font-size: 13px; font-weight: 700; text-decoration: none !important; }
+.k-nile-home-link:hover { text-decoration: underline !important; }
+.k-nile-home-link:focus-visible { outline: 3px solid #ffc700; outline-offset: 3px; }
+@media (max-width: 760px) {
+  .k-nile-home { padding: 20px; }
+  .k-nile-home-head { display: block; }
+  .k-nile-home-disclosure { margin-top: 8px; text-align: start; }
+  .k-nile-home-grid { grid-template-columns: 1fr; }
+  .k-nile-home-card { min-height: 0; }
+}
+
 /* ── SEO: visually hidden ── */
 .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
 </style>
@@ -729,6 +758,33 @@ html[data-theme="dark"] .badge-analysis { background: #431407; color: #fdba74; }
       <a class="k-news-col-more" href="/ar/news/">كل الأخبار ←</a>
     </div>
 
+  </div>
+</section>
+
+{{/* ══════════════════ NILE BOOKSTORE SHOWCASE ══════════════════ */}}
+{{- $nileConfig := hugo.Data.nile_promotions }}
+{{- $nilePool := $nileConfig.default_pool }}
+{{- $nileStart := mod (div now.Unix 86400) (len $nilePool) }}
+<section class="k-nile-home" aria-labelledby="nile-home-heading">
+  <div class="k-nile-home-head">
+    <div>
+      <p class="k-nile-home-kicker">{{ if $isAr }}مختارات رقمية{{ else }}Digital reading selections{{ end }}</p>
+      <h2 id="nile-home-heading">{{ if $isAr }}من مكتبة النيل{{ else }}From Nile Bookstore{{ end }}</h2>
+    </div>
+    <p class="k-nile-home-disclosure">{{ if $isAr }}مكتبة النيل مشروع منفصل عن تحرير كاندكة. الروابط التالية ترويجية وواضحة المصدر.{{ else }}Nile Bookstore is separate from Kandaka’s editorial work. These clearly identified links are promotional.{{ end }}</p>
+  </div>
+  <div class="k-nile-home-grid">
+    {{- range seq 0 2 }}
+      {{- $offerID := index $nilePool (mod (add $nileStart .) (len $nilePool)) }}
+      {{- $offer := index $nileConfig.offers $offerID }}
+      {{- $copy := index $offer $.Site.Language.Lang | default $offer.en }}
+      {{- $url := printf "%s?%s" $offer.url (querify "utm_source" "kandaka" "utm_medium" "homepage" "utm_campaign" "store_showcase") }}
+      <article class="k-nile-home-card">
+        <h3>{{ $copy.title }}</h3>
+        <p>{{ $copy.description }}</p>
+        <a class="k-nile-home-link" href="{{ $url }}" rel="sponsored">{{ $copy.button }} →</a>
+      </article>
+    {{- end }}
   </div>
 </section>
 

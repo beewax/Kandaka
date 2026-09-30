@@ -24,6 +24,13 @@ article, needs no cookies or client-side scripts, and avoids animated content or
 layout shifts. Sensitive pages listed in `excluded_pages` receive no card; the
 Sudan aid guide is the first explicit exclusion.
 
+The homepage separately presents three catalogue groups from the same five-item
+pool. Its starting position advances by build day, so regular news builds rotate
+the selection without browser tracking or animation. The module explicitly says
+that Nile Bookstore is separate from Kandaka's editorial work, uses bilingual
+copy, and tags its sponsored links with `utm_medium=homepage` and
+`utm_campaign=store_showcase`.
+
 ## Verified contextual pairings (2026-09-13)
 
 All four added titles use existing Nile Book Store product cover URLs; no new
