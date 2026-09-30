@@ -1,10 +1,10 @@
 ---
 title: US refusing to give Sudan's de facto leader visa for UN
 date: '2026-09-22T20:13:30Z'
-description: In tonight's edition, the United States is withholding a visa for Sudanese
-  army chief al-Burhan ahead of his scheduled UN appearance. Also, Ghana’s beefing
-  up its drugs authority in the wake of major drug busts in France, Belgium and South
-  Africa. And it’s back-to-school season in Ivory Coast.
+description: 'In tonight''s edition: The United States is withholding a visa for Sudanese
+  army chief Abdel Fattah al-Burhan ahead of his scheduled UN appearance. Also, Ghana
+  is beefing up its drugs authority in the wake of major drug busts in France, Belgium
+  and South Africa. Plus it’s back-to-school season in Ivory Coast.'
 source: France 24 Africa
 source_id: france24-africa
 source_class: international_journalism
@@ -24,6 +24,6 @@ media_reuse_basis: rss_metadata
 media_attribution: France 24 Africa
 ---
 
-In tonight's edition, the United States is withholding a visa for Sudanese army chief al-Burhan ahead of his scheduled UN appearance. Also, Ghana’s beefing up its drugs authority in the wake of major drug busts in France, Belgium and South Africa. And it’s back-to-school season in Ivory Coast.
+In tonight's edition: The United States is withholding a visa for Sudanese army chief Abdel Fattah al-Burhan ahead of his scheduled UN appearance. Also, Ghana is beefing up its drugs authority in the wake of major drug busts in France, Belgium and South Africa. Plus it’s back-to-school season in Ivory Coast.
 
 [France 24 Africa →](https://www.france24.com/en/us-refusing-to-give-sudan-s-de-facto-leader-visa-for-un)

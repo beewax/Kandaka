@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-22T23:33:44.963773+00:00",
+  "updated": "2026-09-30T00:05:30.300539+00:00",
   "sources": [
     {
       "id": "dabanga-en",
@@ -26,7 +26,7 @@
       "id": "bbc-africa",
       "language": "en",
       "status": "ok",
-      "items": 30,
+      "items": 29,
       "accepted": 1
     },
     {
@@ -48,34 +48,34 @@
       "language": "en",
       "status": "ok",
       "items": 30,
-      "accepted": 2
+      "accepted": 3
     },
     {
       "id": "african-arguments",
       "language": "en",
       "status": "ok",
       "items": 10,
-      "accepted": 2
+      "accepted": 1
     },
     {
       "id": "un-news-en",
       "language": "en",
-      "status": "invalid_feed",
-      "items": 0,
-      "accepted": 0
+      "status": "ok",
+      "items": 30,
+      "accepted": 6
     },
     {
       "id": "dabanga-ar",
       "language": "ar",
       "status": "ok",
       "items": 12,
-      "accepted": 6
+      "accepted": 8
     },
     {
       "id": "bbc-ar",
       "language": "ar",
       "status": "ok",
-      "items": 25,
+      "items": 23,
       "accepted": 3
     },
     {
@@ -83,21 +83,21 @@
       "language": "ar",
       "status": "ok",
       "items": 24,
-      "accepted": 0
+      "accepted": 2
     },
     {
       "id": "alaraby-ar",
       "language": "ar",
       "status": "ok",
-      "items": 194,
-      "accepted": 1
+      "items": 196,
+      "accepted": 2
     },
     {
       "id": "un-news-ar",
       "language": "ar",
       "status": "ok",
       "items": 30,
-      "accepted": 2
+      "accepted": 1
     },
     {
       "id": "altaghyeer-en",
@@ -111,7 +111,7 @@
       "language": "ar",
       "status": "ok",
       "items": 24,
-      "accepted": 15
+      "accepted": 20
     },
     {
       "id": "ayin-ar",
@@ -153,14 +153,14 @@
       "language": "en",
       "status": "ok",
       "items": 12,
-      "accepted": 2
+      "accepted": 3
     },
     {
       "id": "tamazuj-ar",
       "language": "ar",
       "status": "ok",
       "items": 12,
-      "accepted": 1
+      "accepted": 6
     }
   ]
 }
