@@ -2,8 +2,8 @@
 title: 'Sudan tells UN: No imposed solutions to country’s conflict'
 date: '2026-09-28T12:00:00Z'
 description: Sudan’s Foreign Minister addressed the UN General Assembly on Monday
-  in place of de facto head of state General Abdel Fattah al-Burhan, whose visa application
-  was rejected by Washington.
+  in place of Chairperson of the Transitional Sovereignty Council, Abdel Fattah al-Burhan,
+  whose visa application was rejected by Washington.
 source: UN News
 source_id: un-news-en
 source_class: international_institution
@@ -22,6 +22,6 @@ media_reuse_basis: rss_metadata
 media_attribution: UN News
 ---
 
-Sudan’s Foreign Minister addressed the UN General Assembly on Monday in place of de facto head of state General Abdel Fattah al-Burhan, whose visa application was rejected by Washington.
+Sudan’s Foreign Minister addressed the UN General Assembly on Monday in place of Chairperson of the Transitional Sovereignty Council, Abdel Fattah al-Burhan, whose visa application was rejected by Washington.
 
 [UN News →](https://news.un.org/feed/view/en/story/2026/09/1168474)
