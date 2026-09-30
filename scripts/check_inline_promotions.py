@@ -49,6 +49,7 @@ class Article(HTMLParser):
 
 total = 0
 collections = 0
+collection_handles = set()
 for path in Path('public').rglob('*.html'):
     parser = Article()
     parser.feed(path.read_text(encoding='utf-8'))
@@ -61,7 +62,9 @@ for path in Path('public').rglob('*.html'):
         assert parse_qs(parsed.query) == {
             'utm_source': ['kandaka'], 'utm_medium': ['inline'],
             'utm_campaign': ['from_the_library']}, path
-        collections += '/collections/' in parsed.path
+        if '/collections/' in parsed.path:
+            collections += 1
+            collection_handles.add(parsed.path.rstrip('/').split('/')[-1].lower())
     total += parser.cards
 
 start = Path('public/history/kandaka-nubian-queens/index.html').read_text(encoding='utf-8')
@@ -69,10 +72,15 @@ assert 'products/meroe-the-city-of-the-ethiopians?' in start
 assert 'From Nile Book Store' in start and 'من مكتبة النيل' in start
 assert 'cover-final.jpg' in start and 'US$2.99' in start
 assert total > 0
-# Keep the actual editorial mix near the brief, not just the hash-slot setting.
-# Revisit curated pairings as the article catalogue grows.
-share = collections / total
-assert 0.70 <= share <= 0.80, f'Collection share {share:.1%} needs editorial review'
+# The default pool must visibly cover the promised catalogue categories.
+assert {'sudan-books-%d9%83%d8%aa%d8%a8-%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86',
+        'arabic-epubs', 'comics-english',
+        'arabic-comics-%d9%83%d9%88%d9%85%d9%8a%d9%83%d8%b3-%d8%b9%d8%b1%d8%a8%d9%8a',
+        'audio-books-english'} <= collection_handles, collection_handles
+for language in ('', 'ar/'):
+    aid = Path(f'public/{language}ideas/how-to-help-sudan-aid-delivery/index.html')
+    if aid.exists():
+        assert 'nile-promotion' not in aid.read_text(encoding='utf-8'), aid
 pairings = {
     'history/funj-sultanate': 'tabaqat-wad-dayf-allah',
     'ideas/illiteracy-sudan': 'النسائيات-ملك-حفني-ناصف',
@@ -90,4 +98,4 @@ for language in ('', 'ar/'):
             assert 'dir=rtl' in html or 'dir="rtl"' in html, page
         if handle in ('tabaqat-wad-dayf-allah', 'عشرة-أيام-في-السودان-محمد-حسين-هيكل'):
             assert ('مجاني' if language else 'Free') in html, page
-print(f'Passed: {total} cards, {collections} collection placements ({share:.1%}); placement, exclusions, bilingual pairings and UTMs checked.')
+print(f'Passed: {total} cards across {len(collection_handles)} collection groups; placement, exclusions, bilingual pairings and UTMs checked.')

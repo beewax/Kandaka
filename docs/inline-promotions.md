@@ -15,15 +15,14 @@ fifth top-level paragraph; paragraphs in lists, blockquotes and figures do not
 count. Use `nile_promotion: false` in front matter to opt an article out, or
 `enabled: false` in the data file to disable all placements.
 
-A stable hash of section and translation base name assigns 75% of automatic
-slots to Sudan & the Nile. The remaining slots use a title only when its tags
-match the article. Unmatched slots fall back to the collection, so the actual
-collection share can exceed 75% while the vetted title catalogue is small.
-Explicit editorial placements override selection, but never eligibility.
-The current curated pairings produce 40 collection cards out of 52 placements
-(76.9%, counting English and Arabic pages). The validation script flags an
-actual share outside 70–80% for editorial review as articles are added.
-Translations share the same selection. No cookies or client-side scripts are used.
+A stable hash of section and translation base name distributes automatic cards
+across the five collections in `default_pool`: Sudan and the Nile, Arabic books,
+English Golden Age comics, Arabic comics, and EPUB-plus-audiobook bundles.
+Specific tag matches and explicit editorial placements take priority over the
+general pool. Translations share the same selection. The rotation is stable per
+article, needs no cookies or client-side scripts, and avoids animated content or
+layout shifts. Sensitive pages listed in `excluded_pages` receive no card; the
+Sudan aid guide is the first explicit exclusion.
 
 ## Verified contextual pairings (2026-09-13)
 

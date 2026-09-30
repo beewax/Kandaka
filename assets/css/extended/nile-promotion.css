@@ -15,6 +15,7 @@
 }
 .nile-promotion__label { grid-column: 1 / -1; font-size: 13px; font-weight: 600; text-align: start; }
 .post-content .nile-promotion__cover { width: 112px; height: auto; margin: 0; border-radius: 4px; }
+.post-content .nile-promotion--text { grid-template-columns: minmax(0, 1fr); }
 .post-content .nile-promotion .nile-promotion__title { margin: 0 0 8px; font-size: 21px; line-height: 1.35; }
 .post-content .nile-promotion p { margin: 0 0 12px; }
 .nile-promotion__price { font-weight: 600; }

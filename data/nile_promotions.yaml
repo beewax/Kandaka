@@ -3,8 +3,12 @@ sections: [history, culture, development, ideas]
 minimum_words: 400
 minimum_paragraphs: 7
 after_paragraph: 5
-collection_percent: 75
 collection: sudan-nile
+default_pool: [sudan-nile, arabic-books, english-comics, arabic-comics, audio-bundles]
+# Commercial cards do not belong inside urgent aid guidance or similarly
+# sensitive pages. Add future exclusions here rather than editing Markdown.
+excluded_pages:
+  - ideas/how-to-help-sudan-aid-delivery
 # Product data and cover verified against Nile Book Store on 2026-09-13.
 # Collection cards feature a real title; the displayed price belongs to that title.
 placements:
@@ -15,6 +19,62 @@ placements:
   ideas/water-paradox-sudan: ten-days
   ideas/river-transportation-sudan: khartoum-niles
 offers:
+  arabic-books:
+    url: https://nilebookstore.com/collections/arabic-epubs
+    en:
+      title: Arabic Books & Heritage
+      description: Searchable Arabic EPUB editions of literature, history, philosophy and rare works, prepared for comfortable right-to-left reading.
+      price: Digital editions from free
+      button: Browse Arabic books
+      alt: ""
+    ar:
+      title: كتب عربية وتراثية
+      description: طبعات EPUB عربية قابلة للبحث من الأدب والتاريخ والفكر والكتب النادرة، مهيأة للقراءة المريحة من اليمين إلى اليسار.
+      price: طبعات رقمية، ومنها كتب مجانية
+      button: تصفّح الكتب العربية
+      alt: ""
+  english-comics:
+    url: https://nilebookstore.com/collections/comics-english
+    en:
+      title: Golden Age Comics
+      description: Digitally preserved public-domain adventures, mysteries and superheroes with generous page previews.
+      price: Digital comics from US$0.99
+      button: Explore the comic archive
+      alt: ""
+    ar:
+      title: كوميكس العصر الذهبي
+      description: مغامرات وألغاز وأبطال خارقون من الملكية العامة، محفوظة رقمياً مع معاينات سخية للصفحات.
+      price: كوميكس رقمي ابتداءً من ٠٫٩٩ دولار
+      button: تصفّح أرشيف الكوميكس
+      alt: ""
+  arabic-comics:
+    url: https://nilebookstore.com/collections/arabic-comics-%D9%83%D9%88%D9%85%D9%8A%D9%83%D8%B3-%D8%B9%D8%B1%D8%A8%D9%8A
+    en:
+      title: Arabic Comics
+      description: Illustrated stories and restored comics presented for Arabic readers in accessible digital editions.
+      price: Instant digital downloads
+      button: Browse Arabic comics
+      alt: ""
+    ar:
+      title: كوميكس عربي
+      description: قصص مصورة وكوميكس مرمم ومهيأ للقارئ العربي في طبعات رقمية سهلة الاستخدام.
+      price: تنزيلات رقمية فورية
+      button: تصفّح الكوميكس العربي
+      alt: ""
+  audio-bundles:
+    url: https://nilebookstore.com/collections/audio-books-english
+    en:
+      title: Read-and-Listen Editions
+      description: Classic books supplied as EPUB plus unabridged audiobook bundles, with audio previews where available.
+      price: EPUB + audiobook bundles
+      button: Browse read-and-listen books
+      alt: ""
+    ar:
+      title: اقرأ واستمع
+      description: كتب كلاسيكية تجمع ملف EPUB مع كتاب صوتي كامل، وتتوفر معاينات صوتية لبعض العناوين.
+      price: حزم EPUB وكتاب صوتي
+      button: تصفّح حزم القراءة والاستماع
+      alt: ""
   tabaqat:
     url: https://nilebookstore.com/products/tabaqat-wad-dayf-allah
     cover: https://cdn.shopify.com/s/files/1/0802/4798/0280/files/tabaqat-wad-dayf-allah-cover_f32467ff-ca17-4b90-8bbd-547ba5035387.jpg?v=1787522113&width=320
