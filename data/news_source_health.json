@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-01T04:34:07.815158+00:00",
+  "updated": "2026-10-01T12:35:29.301524+00:00",
   "sources": [
     {
       "id": "dabanga-en",
@@ -34,7 +34,7 @@
       "language": "en",
       "status": "ok",
       "items": 25,
-      "accepted": 0
+      "accepted": 1
     },
     {
       "id": "guardian-world",
@@ -60,9 +60,9 @@
     {
       "id": "un-news-en",
       "language": "en",
-      "status": "invalid_feed",
-      "items": 0,
-      "accepted": 0
+      "status": "ok",
+      "items": 30,
+      "accepted": 6
     },
     {
       "id": "dabanga-ar",
@@ -75,8 +75,8 @@
       "id": "bbc-ar",
       "language": "ar",
       "status": "ok",
-      "items": 25,
-      "accepted": 4
+      "items": 24,
+      "accepted": 3
     },
     {
       "id": "france24-ar",
@@ -89,7 +89,7 @@
       "id": "alaraby-ar",
       "language": "ar",
       "status": "ok",
-      "items": 181,
+      "items": 183,
       "accepted": 4
     },
     {
@@ -111,7 +111,7 @@
       "language": "ar",
       "status": "ok",
       "items": 24,
-      "accepted": 20
+      "accepted": 19
     },
     {
       "id": "ayin-ar",
@@ -153,14 +153,14 @@
       "language": "en",
       "status": "ok",
       "items": 12,
-      "accepted": 5
+      "accepted": 4
     },
     {
       "id": "tamazuj-ar",
       "language": "ar",
       "status": "ok",
       "items": 12,
-      "accepted": 2
+      "accepted": 6
     }
   ]
 }
