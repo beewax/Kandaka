@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-02T17:34:01.022689+00:00",
+  "updated": "2026-10-02T21:53:55.045523+00:00",
   "sources": [
     {
       "id": "dabanga-en",
@@ -83,13 +83,13 @@
       "language": "ar",
       "status": "ok",
       "items": 24,
-      "accepted": 2
+      "accepted": 3
     },
     {
       "id": "alaraby-ar",
       "language": "ar",
       "status": "ok",
-      "items": 150,
+      "items": 151,
       "accepted": 3
     },
     {
@@ -139,7 +139,7 @@
       "language": "en",
       "status": "ok",
       "items": 20,
-      "accepted": 14
+      "accepted": 15
     },
     {
       "id": "sudan-transparency",
