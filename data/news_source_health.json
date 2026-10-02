@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-01T20:10:11.824019+00:00",
+  "updated": "2026-10-02T00:34:06.435376+00:00",
   "sources": [
     {
       "id": "dabanga-en",
@@ -11,9 +11,9 @@
     {
       "id": "sudan-tribune-ar",
       "language": "ar",
-      "status": "ok",
-      "items": 10,
-      "accepted": 8
+      "status": "invalid_feed",
+      "items": 0,
+      "accepted": 0
     },
     {
       "id": "ayin-en",
@@ -48,7 +48,7 @@
       "language": "en",
       "status": "ok",
       "items": 30,
-      "accepted": 3
+      "accepted": 2
     },
     {
       "id": "african-arguments",
@@ -88,9 +88,9 @@
     {
       "id": "alaraby-ar",
       "language": "ar",
-      "status": "fetch_failed",
-      "items": 0,
-      "accepted": 0
+      "status": "ok",
+      "items": 173,
+      "accepted": 2
     },
     {
       "id": "un-news-ar",
@@ -111,7 +111,7 @@
       "language": "ar",
       "status": "ok",
       "items": 24,
-      "accepted": 18
+      "accepted": 16
     },
     {
       "id": "ayin-ar",
@@ -130,9 +130,9 @@
     {
       "id": "beam-ar",
       "language": "ar",
-      "status": "ok",
-      "items": 10,
-      "accepted": 10
+      "status": "invalid_feed",
+      "items": 0,
+      "accepted": 0
     },
     {
       "id": "sudan-war-monitor",
