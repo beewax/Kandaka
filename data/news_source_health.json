@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-02T09:26:28.967138+00:00",
+  "updated": "2026-10-02T17:34:01.022689+00:00",
   "sources": [
     {
       "id": "dabanga-en",
@@ -34,7 +34,7 @@
       "language": "en",
       "status": "ok",
       "items": 25,
-      "accepted": 0
+      "accepted": 2
     },
     {
       "id": "guardian-world",
@@ -55,14 +55,14 @@
       "language": "en",
       "status": "ok",
       "items": 10,
-      "accepted": 1
+      "accepted": 0
     },
     {
       "id": "un-news-en",
       "language": "en",
-      "status": "invalid_feed",
-      "items": 0,
-      "accepted": 0
+      "status": "ok",
+      "items": 30,
+      "accepted": 6
     },
     {
       "id": "dabanga-ar",
@@ -83,14 +83,14 @@
       "language": "ar",
       "status": "ok",
       "items": 24,
-      "accepted": 0
+      "accepted": 2
     },
     {
       "id": "alaraby-ar",
       "language": "ar",
       "status": "ok",
-      "items": 161,
-      "accepted": 2
+      "items": 150,
+      "accepted": 3
     },
     {
       "id": "un-news-ar",
@@ -153,14 +153,14 @@
       "language": "en",
       "status": "ok",
       "items": 12,
-      "accepted": 2
+      "accepted": 4
     },
     {
       "id": "tamazuj-ar",
       "language": "ar",
       "status": "ok",
       "items": 12,
-      "accepted": 4
+      "accepted": 2
     }
   ]
 }
