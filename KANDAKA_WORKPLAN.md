@@ -278,6 +278,8 @@ Every full Library summary should follow this method:
 
 ### L02 — Sudan's Infrastructure: A Continental Perspective
 
+> Release update, 2026-10-02: publication authorized by the user on 2026-09-29 as the first of six articles, at least 48 hours apart. Complete English and Arabic site editions and an original conceptual SVG cover are prepared. Initial Hugo build passed; final validation and live publication verification remain. The older status fields below are historical, not the current drafting or approval state. Source refresh preserves historical boundaries and distinguishes planned projects from completed results. Release paths: `content/development/sudan-infrastructure-rebuilding-connections.en.md` and `.ar.md`.
+
 - **Authors:** Rupa Ranganathan and Cecilia Briceño-Garmendia
 - **Research:** Source and key findings verified preliminarily
 - **Draft:** Not started
