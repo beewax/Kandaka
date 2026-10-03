@@ -278,7 +278,7 @@ Every full Library summary should follow this method:
 
 ### L02 — Sudan's Infrastructure: A Continental Perspective
 
-> Release update, 2026-10-02: publication authorized by the user on 2026-09-29 as the first of six articles, at least 48 hours apart. Complete English and Arabic site editions and an original conceptual SVG cover are prepared. Initial Hugo build passed; final validation and live publication verification remain. The older status fields below are historical, not the current drafting or approval state. Source refresh preserves historical boundaries and distinguishes planned projects from completed results. Release paths: `content/development/sudan-infrastructure-rebuilding-connections.en.md` and `.ar.md`.
+> Release update, 2026-10-02: publication authorized by the user on 2026-09-29 as the first of six articles, at least 48 hours apart. **Draft: Complete English and Arabic. Approved: Yes, 2026-09-29. Published: Yes, 2026-10-02.** Commit `2b895eb`; final Hugo build and cover-duplication check passed. Both language pages and original SVG cover independently verified HTTP 200 on 2026-10-03 at 03:48 UTC (2026-10-02 22:48 CDT). English: https://kandaka.com/development/sudan-infrastructure-rebuilding-connections/ ; Arabic: https://kandaka.com/ar/development/sudan-infrastructure-rebuilding-connections/ . The older status fields below are historical, not current. Historical financing figures, source boundaries and rail-appraisal discussion are included; announced project activity is not presented as completed results. Next in the authorized sequence is L03, no earlier than 2026-10-04 22:48 CDT.
 
 - **Authors:** Rupa Ranganathan and Cecilia Briceño-Garmendia
 - **Research:** Source and key findings verified preliminarily
