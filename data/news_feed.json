@@ -1,22 +1,22 @@
 {
-  "updated": "2026-10-03T20:40:40.976492+00:00",
+  "updated": "2026-10-03T23:33:07.625658+00:00",
   "window_days": 30,
   "en": {
     "balanced": [
       {
-        "Title": "RSF drone strikes reported in Blue Nile state capital",
+        "Title": "RSF attack killed more than 25 civilians in North Kordofan, medics say",
         "Lang": "en",
-        "Date": "2026-10-03T20:19:13+00:00",
-        "Permalink": "https://www.radiotamazuj.org/en/news/article/rsf-drone-strikes-reported-in-blue-nile-state-capital",
+        "Date": "2026-10-03T21:46:47+00:00",
+        "Permalink": "https://www.radiotamazuj.org/en/news/article/rsf-attack-killed-more-than-25-civilians-in-north-kordofan-medics-say",
         "Params": {
-          "description": "Sudanese authorities have accused the paramilitary Rapid Support Forces (RSF) of carrying out drone strikes The post RSF drone strikes reported in Blue Nile state capital appeared first on Radio Tamazuj .",
+          "description": "More than 25 civilians were killed in an attack by Sudan’s Rapid Support Forces (RSF) The post RSF attack killed more than 25 civilians in North Kordofan, medics say appeared first on Radio Tamazuj .",
           "source": "Radio Tamazuj",
           "source_id": "tamazuj-en",
           "source_class": "regional_journalism",
-          "link": "https://www.radiotamazuj.org/en/news/article/rsf-drone-strikes-reported-in-blue-nile-state-capital",
+          "link": "https://www.radiotamazuj.org/en/news/article/rsf-attack-killed-more-than-25-civilians-in-north-kordofan-medics-say",
           "status": "Reporting",
           "geography": [
-            "Blue Nile"
+            "Kordofan"
           ],
           "image": "",
           "media_reuse_basis": "",
@@ -172,25 +172,25 @@
         }
       },
       {
-        "Title": "West Darfur authorities threaten fines for rejecting smaller banknotes",
+        "Title": "RSF drone strikes reported in Blue Nile state capital",
         "Lang": "en",
-        "Date": "2026-10-03T20:00:54+00:00",
-        "Permalink": "https://www.radiotamazuj.org/en/news/article/west-darfur-authorities-threaten-fines-for-rejecting-smaller-banknotes",
+        "Date": "2026-10-03T20:19:13+00:00",
+        "Permalink": "https://www.radiotamazuj.org/en/news/article/rsf-drone-strikes-reported-in-blue-nile-state-capital",
         "Params": {
-          "description": "The head of the civil administration in Sudan’s West Darfur state, Tijani al-Tahir Karshoum, has The post West Darfur authorities threaten fines for rejecting smaller banknotes appeared first on Radio Tamazuj .",
+          "description": "Sudanese authorities have accused the paramilitary Rapid Support Forces (RSF) of carrying out drone strikes The post RSF drone strikes reported in Blue Nile state capital appeared first on Radio Tamazuj .",
           "source": "Radio Tamazuj",
           "source_id": "tamazuj-en",
           "source_class": "regional_journalism",
-          "link": "https://www.radiotamazuj.org/en/news/article/west-darfur-authorities-threaten-fines-for-rejecting-smaller-banknotes",
+          "link": "https://www.radiotamazuj.org/en/news/article/rsf-drone-strikes-reported-in-blue-nile-state-capital",
           "status": "Reporting",
           "geography": [
-            "Darfur"
+            "Blue Nile"
           ],
           "image": "",
           "media_reuse_basis": "",
           "related_sources": [],
-          "category": "Sudan News",
-          "clabel": "أخبار السودان",
+          "category": "War & Security",
+          "clabel": "الحرب والأمن",
           "language": "en",
           "media_attribution": "Radio Tamazuj"
         }
@@ -388,30 +388,6 @@
         }
       },
       {
-        "Title": "The Rivalry Between Ethiopia and Eritrea Is Reshaping Tigray",
-        "Lang": "en",
-        "Date": "2026-09-20T10:24:16+00:00",
-        "Permalink": "https://africanarguments.org/2026/09/the-rivalry-between-ethiopia-and-eritrea-is-reshaping-tigray",
-        "Params": {
-          "description": "On 1 August 2026, Ethiopian federal and Tigrayan forces clashed in western Tigray, a northern Ethiopian region bordering Eritrea and Sudan. By 3 August, fighting had subsided, but hundreds of Tigrayans, including wounded fighters, had crossed into war-torn Sudan. The clash followed Ethiopia’s 1 June election: Tigray did not vote, while Prime Minister Abiy Ahmed’s Prosperity Party won 438 seats. Tigray’s 2020–2022 war",
-          "source": "African Arguments",
-          "source_id": "african-arguments",
-          "source_class": "analysis",
-          "link": "https://africanarguments.org/2026/09/the-rivalry-between-ethiopia-and-eritrea-is-reshaping-tigray",
-          "status": "Analysis",
-          "geography": [
-            "National"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "War & Security",
-          "clabel": "الحرب والأمن",
-          "language": "en",
-          "media_attribution": "African Arguments"
-        }
-      },
-      {
         "Title": "Eastern Sudan: Militarisation or State-Building?",
         "Lang": "en",
         "Date": "2026-09-15T22:36:54+00:00",
@@ -433,6 +409,30 @@
           "clabel": "أخبار السودان",
           "language": "en",
           "media_attribution": "Al Taghyeer"
+        }
+      },
+      {
+        "Title": "The Rivalry Between Ethiopia and Eritrea Is Reshaping Tigray",
+        "Lang": "en",
+        "Date": "2026-09-20T10:24:16+00:00",
+        "Permalink": "https://africanarguments.org/2026/09/the-rivalry-between-ethiopia-and-eritrea-is-reshaping-tigray",
+        "Params": {
+          "description": "On 1 August 2026, Ethiopian federal and Tigrayan forces clashed in western Tigray, a northern Ethiopian region bordering Eritrea and Sudan. By 3 August, fighting had subsided, but hundreds of Tigrayans, including wounded fighters, had crossed into war-torn Sudan. The clash followed Ethiopia’s 1 June election: Tigray did not vote, while Prime Minister Abiy Ahmed’s Prosperity Party won 438 seats. Tigray’s 2020–2022 war",
+          "source": "African Arguments",
+          "source_id": "african-arguments",
+          "source_class": "analysis",
+          "link": "https://africanarguments.org/2026/09/the-rivalry-between-ethiopia-and-eritrea-is-reshaping-tigray",
+          "status": "Analysis",
+          "geography": [
+            "National"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "War & Security",
+          "clabel": "الحرب والأمن",
+          "language": "en",
+          "media_attribution": "African Arguments"
         }
       },
       {
@@ -582,6 +582,54 @@
       }
     ],
     "latest": [
+      {
+        "Title": "RSF attack killed more than 25 civilians in North Kordofan, medics say",
+        "Lang": "en",
+        "Date": "2026-10-03T21:46:47+00:00",
+        "Permalink": "https://www.radiotamazuj.org/en/news/article/rsf-attack-killed-more-than-25-civilians-in-north-kordofan-medics-say",
+        "Params": {
+          "description": "More than 25 civilians were killed in an attack by Sudan’s Rapid Support Forces (RSF) The post RSF attack killed more than 25 civilians in North Kordofan, medics say appeared first on Radio Tamazuj .",
+          "source": "Radio Tamazuj",
+          "source_id": "tamazuj-en",
+          "source_class": "regional_journalism",
+          "link": "https://www.radiotamazuj.org/en/news/article/rsf-attack-killed-more-than-25-civilians-in-north-kordofan-medics-say",
+          "status": "Reporting",
+          "geography": [
+            "Kordofan"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "War & Security",
+          "clabel": "الحرب والأمن",
+          "language": "en",
+          "media_attribution": "Radio Tamazuj"
+        }
+      },
+      {
+        "Title": "SPLM opens candidate nominations for December polls",
+        "Lang": "en",
+        "Date": "2026-10-03T21:16:41+00:00",
+        "Permalink": "https://www.radiotamazuj.org/en/news/article/splm-opens-candidate-nominations-for-december-polls",
+        "Params": {
+          "description": "South Sudan’s ruling Sudan People’s Liberation Movement (SPLM) will open nominations on Monday for party The post SPLM opens candidate nominations for December polls appeared first on Radio Tamazuj .",
+          "source": "Radio Tamazuj",
+          "source_id": "tamazuj-en",
+          "source_class": "regional_journalism",
+          "link": "https://www.radiotamazuj.org/en/news/article/splm-opens-candidate-nominations-for-december-polls",
+          "status": "Reporting",
+          "geography": [
+            "National"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "Politics",
+          "clabel": "سياسة",
+          "language": "en",
+          "media_attribution": "Radio Tamazuj"
+        }
+      },
       {
         "Title": "RSF drone strikes reported in Blue Nile state capital",
         "Lang": "en",
@@ -4138,61 +4186,36 @@
           "language": "en",
           "media_attribution": "The Guardian"
         }
-      },
-      {
-        "Title": "Bankak outages disrupt Sudan’s digital payments and markets",
-        "Lang": "en",
-        "Date": "2026-09-11T10:44:20+00:00",
-        "Permalink": "https://www.dabangasudan.org/en/all-news/article/bankak-outages-disrupt-sudans-digital-payments-and-markets",
-        "Params": {
-          "description": "",
-          "source": "Radio Dabanga",
-          "source_id": "dabanga-en",
-          "source_class": "sudanese_journalism",
-          "link": "https://www.dabangasudan.org/en/all-news/article/bankak-outages-disrupt-sudans-digital-payments-and-markets",
-          "status": "Reporting",
-          "geography": [
-            "National"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "Sudan News",
-          "clabel": "أخبار السودان",
-          "language": "en",
-          "media_attribution": "Radio Dabanga"
-        }
-      },
-      {
-        "Title": "16 cholera deaths reported in West Kordofan, Darfur vaccination drive begins",
-        "Lang": "en",
-        "Date": "2026-09-11T10:44:20+00:00",
-        "Permalink": "https://www.dabangasudan.org/en/all-news/article/16-cholera-deaths-reported-in-west-kordofan-darfur-vaccination-drive-begins",
-        "Params": {
-          "description": "",
-          "source": "Radio Dabanga",
-          "source_id": "dabanga-en",
-          "source_class": "sudanese_journalism",
-          "link": "https://www.dabangasudan.org/en/all-news/article/16-cholera-deaths-reported-in-west-kordofan-darfur-vaccination-drive-begins",
-          "status": "Reporting",
-          "geography": [
-            "Darfur",
-            "Kordofan"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "Health",
-          "clabel": "صحة",
-          "language": "en",
-          "media_attribution": "Radio Dabanga"
-        }
       }
     ],
     "publishers": 12
   },
   "ar": {
     "balanced": [
+      {
+        "Title": "السودان: جمع (19) ألف مركبة مدمرة وإزالة أكثر من (12) ألف دانة بالخرطوم",
+        "Lang": "ar",
+        "Date": "2026-10-03T20:47:51+00:00",
+        "Permalink": "https://sudantribune.net/article/319567",
+        "Params": {
+          "description": "الخرطوم 3 أكتوبر 2026 – كشفت وزارة الداخلية السودانية، السبت، عن اتخاذ جملة من الإجراءات الأمنية بولاية الخرطوم، شملت جمع آلاف المركبات المدمرة ومخلفات الحرب، إلى جانب اكتمال التنسيق مع قادة التشكيلات العسكرية بشأن الخروج من الولاية، علاوة على التخلص من نحو 12 ألف دانة وذخائر مختلفة. وقال إعلام قوات الشرطة، في بيان صحفي، إن وزير الداخلية، الفريق أول شرطة حقوقي بابكر سمرة مصطفى، ترأس اجتماع لجنة ضبط الأمن وفرض هيبة ال",
+          "source": "Sudan Tribune Arabic",
+          "source_id": "sudan-tribune-ar",
+          "source_class": "sudanese_journalism",
+          "link": "https://sudantribune.net/article/319567",
+          "status": "Reporting",
+          "geography": [
+            "Khartoum"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "War & Security",
+          "clabel": "الحرب والأمن",
+          "language": "ar",
+          "media_attribution": "Sudan Tribune Arabic"
+        }
+      },
       {
         "Title": "هل السودان مدمن فشل؟ أم أننا أدمنّا تفسير الفشل؟",
         "Lang": "ar",
@@ -4215,56 +4238,6 @@
           "clabel": "أخبار السودان",
           "language": "ar",
           "media_attribution": "سودانايل"
-        }
-      },
-      {
-        "Title": "إيطاليا تدعم (3) ملايين سوداني بمساعدات صحية وتطعيمات للأطفال",
-        "Lang": "ar",
-        "Date": "2026-10-03T16:49:35+00:00",
-        "Permalink": "https://sudantribune.net/article/319548",
-        "Params": {
-          "description": "الخرطوم 3 أكتوبر 2026 – كشفت منظمة الصحة العالمية التابعة للأمم المتحدة، السبت، عن تلقيها دعماً من إيطاليا لمساعدة 3 ملايين سوداني، تشمل تنفيذ تطعيمات استدراكية لمئات الآلاف من الأطفال. وتسبب النزاع المندلع منذ أبريل 2023 في زيادة مخاطر تفشي الأمراض والأوبئة، فيما تواجه السلطات الصحية تحديات كبيرة في تنفيذ عمليات الترصد والاستجابة وتوفير اللقاحات، خاصة في إقليم دارفور ومناطق الصراع النشطة. وقالت منظمة الصحة العالمية،",
-          "source": "Sudan Tribune Arabic",
-          "source_id": "sudan-tribune-ar",
-          "source_class": "sudanese_journalism",
-          "link": "https://sudantribune.net/article/319548",
-          "status": "Reporting",
-          "geography": [
-            "Khartoum",
-            "Darfur"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "Health",
-          "clabel": "صحة",
-          "language": "ar",
-          "media_attribution": "Sudan Tribune Arabic"
-        }
-      },
-      {
-        "Title": "مسيّرات تستهدف منزل حاكم النيل الأزرق ومقتل أكثر من 25 مدنياً في شمال كردفان",
-        "Lang": "ar",
-        "Date": "2026-10-03T14:31:36+00:00",
-        "Permalink": "https://www.altaghyeer.info/ar/2026/10/03/%d9%85%d8%b3%d9%8a%d9%91%d8%b1%d8%a7%d8%aa-%d8%aa%d8%b3%d8%aa%d9%87%d8%af%d9%81-%d9%85%d9%86%d8%b2%d9%84-%d8%ad%d8%a7%d9%83%d9%85-%d8%a7%d9%84%d9%86%d9%8a%d9%84-%d8%a7%d9%84%d8%a3%d8%b2%d8%b1%d9%82",
-        "Params": {
-          "description": "تعرضت مدينة الدمازين، عاصمة إقليم النيل الأزرق، فجر اليوم السبت لهجوم بطائرات مسيّرة، استهدف إحداها منزل حاكم الإقليم وأعياناً مدنية، فيما أعلنت شبكة أطباء السودان مقتل أكثر من 25 مدنياً في منطقة أم بادر بولاية شمال كردفان، في تطورين منفصلين يشيران إلى استمرار التصعيد العسكري في عدد من المناطق. الدمازين ــ التغيير وقالت مصادر …",
-          "source": "التغيير",
-          "source_id": "altaghyeer-ar",
-          "source_class": "sudanese_journalism",
-          "link": "https://www.altaghyeer.info/ar/2026/10/03/%d9%85%d8%b3%d9%8a%d9%91%d8%b1%d8%a7%d8%aa-%d8%aa%d8%b3%d8%aa%d9%87%d8%af%d9%81-%d9%85%d9%86%d8%b2%d9%84-%d8%ad%d8%a7%d9%83%d9%85-%d8%a7%d9%84%d9%86%d9%8a%d9%84-%d8%a7%d9%84%d8%a3%d8%b2%d8%b1%d9%82",
-          "status": "Reporting",
-          "geography": [
-            "Kordofan",
-            "Blue Nile"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "War & Security",
-          "clabel": "الحرب والأمن",
-          "language": "ar",
-          "media_attribution": "التغيير"
         }
       },
       {
@@ -4295,13 +4268,13 @@
         "Title": "إثيوبيا لحكومتي مصر والسودان: لن نستأذنكما لتطوير مواردنا المائية",
         "Lang": "ar",
         "Date": "2026-10-03T10:55:22+00:00",
-        "Permalink": "https://www.alaraby.co.uk/economy/%D8%A5%D8%AB%D9%8A%D9%88%D8%A8%D9%8A%D8%A7-%D9%84%D8%AD%D9%83%D9%88%D9%85%D8%AA%D9%8A-%D9%85%D8%B5%D8%B1-%D9%88%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86-%D9%84%D9%86-%D9%86%D8%B3%D8%AA%D8%A3%D8%B0%D9%86%D9%83%D9%85%D8%A7-%D9%84%D8%AA%D8%B7%D9%88%D9%8A%D8%B1-%D9%85%D9%88%D8%A7%D8%B1%D8%AF%D9%86%D8%A7-%D8%A7%D9%84%D9%85%D8%A7%D8%A6%D9%8A%D8%A9",
+        "Permalink": "https://www.alaraby.co.uk/economy/إثيوبيا-لحكومتي-مصر-والسودان-لن-نستأذنكما-لتطوير-مواردنا-المائية",
         "Params": {
           "description": "قال وزير المياه والطاقة الإثيوبي، هبتامو إيتيفا، إن بلاده تمتلك حقاً سيادياً في تنمية واستخدام مواردها المائية في نهر النيل استناداً إلى مبدأ الاستخدام المنصف.",
           "source": "العربي الجديد",
           "source_id": "alaraby-ar",
           "source_class": "regional_journalism",
-          "link": "https://www.alaraby.co.uk/economy/%D8%A5%D8%AB%D9%8A%D9%88%D8%A8%D9%8A%D8%A7-%D9%84%D8%AD%D9%83%D9%88%D9%85%D8%AA%D9%8A-%D9%85%D8%B5%D8%B1-%D9%88%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86-%D9%84%D9%86-%D9%86%D8%B3%D8%AA%D8%A3%D8%B0%D9%86%D9%83%D9%85%D8%A7-%D9%84%D8%AA%D8%B7%D9%88%D9%8A%D8%B1-%D9%85%D9%88%D8%A7%D8%B1%D8%AF%D9%86%D8%A7-%D8%A7%D9%84%D9%85%D8%A7%D8%A6%D9%8A%D8%A9",
+          "link": "https://www.alaraby.co.uk/economy/إثيوبيا-لحكومتي-مصر-والسودان-لن-نستأذنكما-لتطوير-مواردنا-المائية",
           "status": "Reporting",
           "geography": [
             "National"
@@ -4313,6 +4286,31 @@
           "clabel": "سياسة",
           "language": "ar",
           "media_attribution": "العربي الجديد"
+        }
+      },
+      {
+        "Title": "مسيّرات تستهدف منزل حاكم النيل الأزرق ومقتل أكثر من 25 مدنياً في شمال كردفان",
+        "Lang": "ar",
+        "Date": "2026-10-03T14:31:36+00:00",
+        "Permalink": "https://www.altaghyeer.info/ar/2026/10/03/%d9%85%d8%b3%d9%8a%d9%91%d8%b1%d8%a7%d8%aa-%d8%aa%d8%b3%d8%aa%d9%87%d8%af%d9%81-%d9%85%d9%86%d8%b2%d9%84-%d8%ad%d8%a7%d9%83%d9%85-%d8%a7%d9%84%d9%86%d9%8a%d9%84-%d8%a7%d9%84%d8%a3%d8%b2%d8%b1%d9%82",
+        "Params": {
+          "description": "تعرضت مدينة الدمازين، عاصمة إقليم النيل الأزرق، فجر اليوم السبت لهجوم بطائرات مسيّرة، استهدف إحداها منزل حاكم الإقليم وأعياناً مدنية، فيما أعلنت شبكة أطباء السودان مقتل أكثر من 25 مدنياً في منطقة أم بادر بولاية شمال كردفان، في تطورين منفصلين يشيران إلى استمرار التصعيد العسكري في عدد من المناطق. الدمازين ــ التغيير وقالت مصادر …",
+          "source": "التغيير",
+          "source_id": "altaghyeer-ar",
+          "source_class": "sudanese_journalism",
+          "link": "https://www.altaghyeer.info/ar/2026/10/03/%d9%85%d8%b3%d9%8a%d9%91%d8%b1%d8%a7%d8%aa-%d8%aa%d8%b3%d8%aa%d9%87%d8%af%d9%81-%d9%85%d9%86%d8%b2%d9%84-%d8%ad%d8%a7%d9%83%d9%85-%d8%a7%d9%84%d9%86%d9%8a%d9%84-%d8%a7%d9%84%d8%a3%d8%b2%d8%b1%d9%82",
+          "status": "Reporting",
+          "geography": [
+            "Kordofan",
+            "Blue Nile"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "War & Security",
+          "clabel": "الحرب والأمن",
+          "language": "ar",
+          "media_attribution": "التغيير"
         }
       },
       {
@@ -4412,27 +4410,27 @@
         }
       },
       {
-        "Title": "مجموعة من المجتمع المدني تناشد لتقديم مساعدات عاجلة للنازحين في الكرمك بالنيل الأزرق",
+        "Title": "تدهور الحالة الصحية للرئيس السوداني المعزول عمر البشير ونقله إلى المستشفى",
         "Lang": "ar",
-        "Date": "2026-10-02T12:27:01+00:00",
-        "Permalink": "https://www.radiotamazuj.org/ar/news/article/%d9%85%d8%ac%d9%85%d9%88%d8%b9%d8%a9-%d9%85%d9%86-%d8%a7%d9%84%d9%85%d8%ac%d8%aa%d9%85%d8%b9-%d8%a7%d9%84%d9%85%d8%af%d9%86%d9%8a-%d8%aa%d9%86%d8%a7%d8%b4%d8%af-%d9%84%d8%aa%d9%82%d8%af%d9%8a%d9%85",
+        "Date": "2026-10-01T14:13:03+00:00",
+        "Permalink": "https://www.bbc.com/arabic/articles/cqm2r2d5yex9o?at_medium=RSS&at_campaign=rss",
         "Params": {
-          "description": "يواجه أكثر من 45 ألف شخص نزحوا بسبب القتال في ولاية النيل الأزرق بالسودان نقصاً The post مجموعة من المجتمع المدني تناشد لتقديم مساعدات عاجلة للنازحين في الكرمك بالنيل الأزرق appeared first on Radio Tamazuj .",
-          "source": "راديو تمازج",
-          "source_id": "tamazuj-ar",
-          "source_class": "regional_journalism",
-          "link": "https://www.radiotamazuj.org/ar/news/article/%d9%85%d8%ac%d9%85%d9%88%d8%b9%d8%a9-%d9%85%d9%86-%d8%a7%d9%84%d9%85%d8%ac%d8%aa%d9%85%d8%b9-%d8%a7%d9%84%d9%85%d8%af%d9%86%d9%8a-%d8%aa%d9%86%d8%a7%d8%b4%d8%af-%d9%84%d8%aa%d9%82%d8%af%d9%8a%d9%85",
+          "description": "علمت بي بي سي من مصادر عائلية أن البشير نُقل إلى مستشفى علياء العسكري قبل نحو أسبوعين؛ وذلك إثر تعرضه لانتكاسة صحية في مستشفى مروي الذي كان يتلقى فيه العلاج.",
+          "source": "بي بي سي عربي",
+          "source_id": "bbc-ar",
+          "source_class": "international_journalism",
+          "link": "https://www.bbc.com/arabic/articles/cqm2r2d5yex9o?at_medium=RSS&at_campaign=rss",
           "status": "Reporting",
           "geography": [
-            "Blue Nile"
+            "National"
           ],
-          "image": "",
-          "media_reuse_basis": "",
+          "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/15d4/live/44454680-bd9a-11f1-babe-4199b0e7ccea.jpg",
+          "media_reuse_basis": "rss_metadata",
           "related_sources": [],
-          "category": "War & Security",
-          "clabel": "الحرب والأمن",
+          "category": "Health",
+          "clabel": "صحة",
           "language": "ar",
-          "media_attribution": "راديو تمازج"
+          "media_attribution": "بي بي سي عربي"
         }
       },
       {
@@ -4461,27 +4459,27 @@
         }
       },
       {
-        "Title": "تدهور الحالة الصحية للرئيس السوداني المعزول عمر البشير ونقله إلى المستشفى",
+        "Title": "مجموعة من المجتمع المدني تناشد لتقديم مساعدات عاجلة للنازحين في الكرمك بالنيل الأزرق",
         "Lang": "ar",
-        "Date": "2026-10-01T14:13:03+00:00",
-        "Permalink": "https://www.bbc.com/arabic/articles/cqm2r2d5yex9o?at_medium=RSS&at_campaign=rss",
+        "Date": "2026-10-02T12:27:01+00:00",
+        "Permalink": "https://www.radiotamazuj.org/ar/news/article/%d9%85%d8%ac%d9%85%d9%88%d8%b9%d8%a9-%d9%85%d9%86-%d8%a7%d9%84%d9%85%d8%ac%d8%aa%d9%85%d8%b9-%d8%a7%d9%84%d9%85%d8%af%d9%86%d9%8a-%d8%aa%d9%86%d8%a7%d8%b4%d8%af-%d9%84%d8%aa%d9%82%d8%af%d9%8a%d9%85",
         "Params": {
-          "description": "علمت بي بي سي من مصادر عائلية أن البشير نُقل إلى مستشفى علياء العسكري قبل نحو أسبوعين؛ وذلك إثر تعرضه لانتكاسة صحية في مستشفى مروي الذي كان يتلقى فيه العلاج.",
-          "source": "بي بي سي عربي",
-          "source_id": "bbc-ar",
-          "source_class": "international_journalism",
-          "link": "https://www.bbc.com/arabic/articles/cqm2r2d5yex9o?at_medium=RSS&at_campaign=rss",
+          "description": "يواجه أكثر من 45 ألف شخص نزحوا بسبب القتال في ولاية النيل الأزرق بالسودان نقصاً The post مجموعة من المجتمع المدني تناشد لتقديم مساعدات عاجلة للنازحين في الكرمك بالنيل الأزرق appeared first on Radio Tamazuj .",
+          "source": "راديو تمازج",
+          "source_id": "tamazuj-ar",
+          "source_class": "regional_journalism",
+          "link": "https://www.radiotamazuj.org/ar/news/article/%d9%85%d8%ac%d9%85%d9%88%d8%b9%d8%a9-%d9%85%d9%86-%d8%a7%d9%84%d9%85%d8%ac%d8%aa%d9%85%d8%b9-%d8%a7%d9%84%d9%85%d8%af%d9%86%d9%8a-%d8%aa%d9%86%d8%a7%d8%b4%d8%af-%d9%84%d8%aa%d9%82%d8%af%d9%8a%d9%85",
           "status": "Reporting",
           "geography": [
-            "National"
+            "Blue Nile"
           ],
-          "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/15d4/live/44454680-bd9a-11f1-babe-4199b0e7ccea.jpg",
-          "media_reuse_basis": "rss_metadata",
+          "image": "",
+          "media_reuse_basis": "",
           "related_sources": [],
-          "category": "Health",
-          "clabel": "صحة",
+          "category": "War & Security",
+          "clabel": "الحرب والأمن",
           "language": "ar",
-          "media_attribution": "بي بي سي عربي"
+          "media_attribution": "راديو تمازج"
         }
       },
       {
@@ -4509,6 +4507,31 @@
         }
       },
       {
+        "Title": "إيطاليا تدعم (3) ملايين سوداني بمساعدات صحية وتطعيمات للأطفال",
+        "Lang": "ar",
+        "Date": "2026-10-03T16:49:35+00:00",
+        "Permalink": "https://sudantribune.net/article/319548",
+        "Params": {
+          "description": "الخرطوم 3 أكتوبر 2026 – كشفت منظمة الصحة العالمية التابعة للأمم المتحدة، السبت، عن تلقيها دعماً من إيطاليا لمساعدة 3 ملايين سوداني، تشمل تنفيذ تطعيمات استدراكية لمئات الآلاف من الأطفال. وتسبب النزاع المندلع منذ أبريل 2023 في زيادة مخاطر تفشي الأمراض والأوبئة، فيما تواجه السلطات الصحية تحديات كبيرة في تنفيذ عمليات الترصد والاستجابة وتوفير اللقاحات، خاصة في إقليم دارفور ومناطق الصراع النشطة. وقالت منظمة الصحة العالمية،",
+          "source": "Sudan Tribune Arabic",
+          "source_id": "sudan-tribune-ar",
+          "source_class": "sudanese_journalism",
+          "link": "https://sudantribune.net/article/319548",
+          "status": "Reporting",
+          "geography": [
+            "Khartoum",
+            "Darfur"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "Health",
+          "clabel": "صحة",
+          "language": "ar",
+          "media_attribution": "Sudan Tribune Arabic"
+        }
+      },
+      {
         "Title": "كلمات سودانية معجمية مهجورة في لغة الكتابة (١٣)",
         "Lang": "ar",
         "Date": "2026-10-03T20:15:29+00:00",
@@ -4533,16 +4556,16 @@
         }
       },
       {
-        "Title": "السودان وبيلاروسيا يفعّلان اتفاقية تمويل الصادرات بأكثر من (100) مليون دولار",
+        "Title": "ما حقيقة الفيديو المتداول لشخص يزعم أنه يحمل «العملة السودانية الجديدة»؟",
         "Lang": "ar",
-        "Date": "2026-10-02T21:23:12+00:00",
-        "Permalink": "https://sudantribune.net/article/319526",
+        "Date": "2026-10-02T10:15:06+00:00",
+        "Permalink": "https://www.beamreports.com/2026/10/02/%d9%85%d8%a7-%d8%ad%d9%82%d9%8a%d9%82%d8%a9-%d8%a7%d9%84%d9%81%d9%8a%d8%af%d9%8a%d9%88-%d8%a7%d9%84%d9%85%d8%aa%d8%af%d8%a7%d9%88%d9%84-%d9%84%d8%b4%d8%ae%d8%b5-%d9%8a%d8%b2%d8%b9%d9%85-%d8%a3%d9%86",
         "Params": {
-          "description": "مينسك، 2 أكتوبر 2026 – وقّع السودان وجمهورية بيلاروسيا، اليوم، الجزء الثاني من اتفاقية تمويل الصادرات بين البلدين، المعروفة بـ«الاتفاقية الأساسية» (The Basic Agreement)، وذلك بمقر بنك التنمية البيلاروسي في العاصمة مينسك. وكان السودان وبيلاروسيا قد وقّعا في مايو الماضي اتفاقية عامة بشأن توفير ائتمانات التصدير لتوريد السلع والخدمات البيلاروسية إلى السودان، في خطوة تهدف إلى فتح المجال أمام الحصول على تمويل من الحكومة ال",
-          "source": "Sudan Tribune Arabic",
-          "source_id": "sudan-tribune-ar",
+          "description": "ما حقيقة الفيديو المتداول لشخص يزعم أنه يحمل «العملة السودانية الجديدة»؟ مضلل تداولت عدة حسابات على منصة «فيسبوك» مقطع فيديو يظهر فيه شخص وهو يحمل مجموعة من الأوراق النقدية، تتراوح فئاتها بين 25 قرشًا و10 جنيهات، ويزعم أنها إصدارات جديدة من العملة السودانية. وجاء نص الادعاء في بعض المنشورات كالآتي: «#العملة_الجديدة_السودانية العملة نزلت السوق الجنية […] The post ما حقيقة الفيديو المتداول لشخص يزعم أنه يحمل «العملة ال",
+          "source": "بيم ريبورتس",
+          "source_id": "beam-ar",
           "source_class": "sudanese_journalism",
-          "link": "https://sudantribune.net/article/319526",
+          "link": "https://www.beamreports.com/2026/10/02/%d9%85%d8%a7-%d8%ad%d9%82%d9%8a%d9%82%d8%a9-%d8%a7%d9%84%d9%81%d9%8a%d8%af%d9%8a%d9%88-%d8%a7%d9%84%d9%85%d8%aa%d8%af%d8%a7%d9%88%d9%84-%d9%84%d8%b4%d8%ae%d8%b5-%d9%8a%d8%b2%d8%b9%d9%85-%d8%a3%d9%86",
           "status": "Reporting",
           "geography": [
             "National"
@@ -4553,7 +4576,7 @@
           "category": "Economy",
           "clabel": "اقتصاد",
           "language": "ar",
-          "media_attribution": "Sudan Tribune Arabic"
+          "media_attribution": "بيم ريبورتس"
         }
       },
       {
@@ -4579,30 +4602,6 @@
           "clabel": "تعليم",
           "language": "ar",
           "media_attribution": "راديو دبنقا"
-        }
-      },
-      {
-        "Title": "ما حقيقة الفيديو المتداول لشخص يزعم أنه يحمل «العملة السودانية الجديدة»؟",
-        "Lang": "ar",
-        "Date": "2026-10-02T10:15:06+00:00",
-        "Permalink": "https://www.beamreports.com/2026/10/02/%d9%85%d8%a7-%d8%ad%d9%82%d9%8a%d9%82%d8%a9-%d8%a7%d9%84%d9%81%d9%8a%d8%af%d9%8a%d9%88-%d8%a7%d9%84%d9%85%d8%aa%d8%af%d8%a7%d9%88%d9%84-%d9%84%d8%b4%d8%ae%d8%b5-%d9%8a%d8%b2%d8%b9%d9%85-%d8%a3%d9%86",
-        "Params": {
-          "description": "ما حقيقة الفيديو المتداول لشخص يزعم أنه يحمل «العملة السودانية الجديدة»؟ مضلل تداولت عدة حسابات على منصة «فيسبوك» مقطع فيديو يظهر فيه شخص وهو يحمل مجموعة من الأوراق النقدية، تتراوح فئاتها بين 25 قرشًا و10 جنيهات، ويزعم أنها إصدارات جديدة من العملة السودانية. وجاء نص الادعاء في بعض المنشورات كالآتي: «#العملة_الجديدة_السودانية العملة نزلت السوق الجنية […] The post ما حقيقة الفيديو المتداول لشخص يزعم أنه يحمل «العملة ال",
-          "source": "بيم ريبورتس",
-          "source_id": "beam-ar",
-          "source_class": "sudanese_journalism",
-          "link": "https://www.beamreports.com/2026/10/02/%d9%85%d8%a7-%d8%ad%d9%82%d9%8a%d9%82%d8%a9-%d8%a7%d9%84%d9%81%d9%8a%d8%af%d9%8a%d9%88-%d8%a7%d9%84%d9%85%d8%aa%d8%af%d8%a7%d9%88%d9%84-%d9%84%d8%b4%d8%ae%d8%b5-%d9%8a%d8%b2%d8%b9%d9%85-%d8%a3%d9%86",
-          "status": "Reporting",
-          "geography": [
-            "National"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "Economy",
-          "clabel": "اقتصاد",
-          "language": "ar",
-          "media_attribution": "بيم ريبورتس"
         }
       },
       {
@@ -4776,6 +4775,54 @@
     ],
     "latest": [
       {
+        "Title": "قوات تأسيس تسيطر علي مناطق استراتيجية وتقترب من مدينة الدمازين",
+        "Lang": "ar",
+        "Date": "2026-10-03T22:45:17+00:00",
+        "Permalink": "https://sudanwarmonitor.com/p/fb7",
+        "Params": {
+          "description": "قائد عمليات المحور الشرقي في منطقة الكدالو : سحق قوات الجيش السوداني وهزيمتها وكسر شوكتها بالمنطقة",
+          "source": "Sudan War Monitor",
+          "source_id": "sudan-war-monitor",
+          "source_class": "analysis",
+          "link": "https://sudanwarmonitor.com/p/fb7",
+          "status": "Analysis",
+          "geography": [
+            "Blue Nile"
+          ],
+          "image": "https://substackcdn.com/image/fetch/$s_!PLON!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F27200b57-d6fd-4e8d-a3d7-c76bb34b325c_1280x576.jpeg",
+          "media_reuse_basis": "rss_metadata",
+          "related_sources": [],
+          "category": "War & Security",
+          "clabel": "الحرب والأمن",
+          "language": "ar",
+          "media_attribution": "Sudan War Monitor"
+        }
+      },
+      {
+        "Title": "السودان: جمع (19) ألف مركبة مدمرة وإزالة أكثر من (12) ألف دانة بالخرطوم",
+        "Lang": "ar",
+        "Date": "2026-10-03T20:47:51+00:00",
+        "Permalink": "https://sudantribune.net/article/319567",
+        "Params": {
+          "description": "الخرطوم 3 أكتوبر 2026 – كشفت وزارة الداخلية السودانية، السبت، عن اتخاذ جملة من الإجراءات الأمنية بولاية الخرطوم، شملت جمع آلاف المركبات المدمرة ومخلفات الحرب، إلى جانب اكتمال التنسيق مع قادة التشكيلات العسكرية بشأن الخروج من الولاية، علاوة على التخلص من نحو 12 ألف دانة وذخائر مختلفة. وقال إعلام قوات الشرطة، في بيان صحفي، إن وزير الداخلية، الفريق أول شرطة حقوقي بابكر سمرة مصطفى، ترأس اجتماع لجنة ضبط الأمن وفرض هيبة ال",
+          "source": "Sudan Tribune Arabic",
+          "source_id": "sudan-tribune-ar",
+          "source_class": "sudanese_journalism",
+          "link": "https://sudantribune.net/article/319567",
+          "status": "Reporting",
+          "geography": [
+            "Khartoum"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "War & Security",
+          "clabel": "الحرب والأمن",
+          "language": "ar",
+          "media_attribution": "Sudan Tribune Arabic"
+        }
+      },
+      {
         "Title": "شِسع نعل كُليب… حين عبرت حرب البسوس إلى الأمم المتحدة",
         "Lang": "ar",
         "Date": "2026-10-03T20:40:33+00:00",
@@ -4790,7 +4837,7 @@
           "geography": [
             "National"
           ],
-          "image": "https://sudanile.com/wp-content/uploads/2021/04/Sudanile-Logo-SQ-9.jpg",
+          "image": "https://sudanile.com/wp-content/uploads/2026/02/mohamedabdala.jpg",
           "media_reuse_basis": "rss_metadata",
           "related_sources": [],
           "category": "War & Security",
@@ -5455,13 +5502,13 @@
         "Title": "إثيوبيا لحكومتي مصر والسودان: لن نستأذنكما لتطوير مواردنا المائية",
         "Lang": "ar",
         "Date": "2026-10-03T10:55:22+00:00",
-        "Permalink": "https://www.alaraby.co.uk/economy/%D8%A5%D8%AB%D9%8A%D9%88%D8%A8%D9%8A%D8%A7-%D9%84%D8%AD%D9%83%D9%88%D9%85%D8%AA%D9%8A-%D9%85%D8%B5%D8%B1-%D9%88%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86-%D9%84%D9%86-%D9%86%D8%B3%D8%AA%D8%A3%D8%B0%D9%86%D9%83%D9%85%D8%A7-%D9%84%D8%AA%D8%B7%D9%88%D9%8A%D8%B1-%D9%85%D9%88%D8%A7%D8%B1%D8%AF%D9%86%D8%A7-%D8%A7%D9%84%D9%85%D8%A7%D8%A6%D9%8A%D8%A9",
+        "Permalink": "https://www.alaraby.co.uk/economy/إثيوبيا-لحكومتي-مصر-والسودان-لن-نستأذنكما-لتطوير-مواردنا-المائية",
         "Params": {
           "description": "قال وزير المياه والطاقة الإثيوبي، هبتامو إيتيفا، إن بلاده تمتلك حقاً سيادياً في تنمية واستخدام مواردها المائية في نهر النيل استناداً إلى مبدأ الاستخدام المنصف.",
           "source": "العربي الجديد",
           "source_id": "alaraby-ar",
           "source_class": "regional_journalism",
-          "link": "https://www.alaraby.co.uk/economy/%D8%A5%D8%AB%D9%8A%D9%88%D8%A8%D9%8A%D8%A7-%D9%84%D8%AD%D9%83%D9%88%D9%85%D8%AA%D9%8A-%D9%85%D8%B5%D8%B1-%D9%88%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86-%D9%84%D9%86-%D9%86%D8%B3%D8%AA%D8%A3%D8%B0%D9%86%D9%83%D9%85%D8%A7-%D9%84%D8%AA%D8%B7%D9%88%D9%8A%D8%B1-%D9%85%D9%88%D8%A7%D8%B1%D8%AF%D9%86%D8%A7-%D8%A7%D9%84%D9%85%D8%A7%D8%A6%D9%8A%D8%A9",
+          "link": "https://www.alaraby.co.uk/economy/إثيوبيا-لحكومتي-مصر-والسودان-لن-نستأذنكما-لتطوير-مواردنا-المائية",
           "status": "Reporting",
           "geography": [
             "National"
@@ -5479,13 +5526,13 @@
         "Title": "السودان.. نجاة حاكم النيل الأزرق إثر هجوم لـ\"الدعم السريع\" بالمسيرات",
         "Lang": "ar",
         "Date": "2026-10-03T10:45:09+00:00",
-        "Permalink": "https://www.alaraby.co.uk/politics/%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86-%D9%86%D8%AC%D8%A7%D8%A9-%D8%AD%D8%A7%D9%83%D9%85-%D8%A7%D9%84%D9%86%D9%8A%D9%84-%D8%A7%D9%84%D8%A3%D8%B2%D8%B1%D9%82-%D8%A5%D8%AB%D8%B1-%D9%87%D8%AC%D9%88%D9%85-%D9%84%D9%80%D8%A7%D9%84%D8%AF%D8%B9%D9%85-%D8%A7%D9%84%D8%B3%D8%B1%D9%8A%D8%B9-%D8%A8%D8%A7%D9%84%D9%85%D8%B3%D9%8A%D8%B1%D8%A7%D8%AA",
+        "Permalink": "https://www.alaraby.co.uk/politics/السودان-نجاة-حاكم-النيل-الأزرق-إثر-هجوم-لـالدعم-السريع-بالمسيرات",
         "Params": {
           "description": "نجا حاكم إقليم النيل الأزرق أحمد العمدة بادي، من هجوم شنته \"الدعم السريع\"، في وقت مبكر صباح اليوم السبت، بالطائرات المسيّرة على مدينة الدمازين.",
           "source": "العربي الجديد",
           "source_id": "alaraby-ar",
           "source_class": "regional_journalism",
-          "link": "https://www.alaraby.co.uk/politics/%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86-%D9%86%D8%AC%D8%A7%D8%A9-%D8%AD%D8%A7%D9%83%D9%85-%D8%A7%D9%84%D9%86%D9%8A%D9%84-%D8%A7%D9%84%D8%A3%D8%B2%D8%B1%D9%82-%D8%A5%D8%AB%D8%B1-%D9%87%D8%AC%D9%88%D9%85-%D9%84%D9%80%D8%A7%D9%84%D8%AF%D8%B9%D9%85-%D8%A7%D9%84%D8%B3%D8%B1%D9%8A%D8%B9-%D8%A8%D8%A7%D9%84%D9%85%D8%B3%D9%8A%D8%B1%D8%A7%D8%AA",
+          "link": "https://www.alaraby.co.uk/politics/السودان-نجاة-حاكم-النيل-الأزرق-إثر-هجوم-لـالدعم-السريع-بالمسيرات",
           "status": "Reporting",
           "geography": [
             "Blue Nile"
@@ -5527,13 +5574,13 @@
         "Title": "مرضى بلا علاج في السودان وسط غلاء الأدوية",
         "Lang": "ar",
         "Date": "2026-10-03T02:00:03+00:00",
-        "Permalink": "https://www.alaraby.co.uk/economy/%D9%85%D8%B1%D8%B6%D9%89-%D8%A8%D9%84%D8%A7-%D8%B9%D9%84%D8%A7%D8%AC-%D9%81%D9%8A-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86-%D9%88%D8%B3%D8%B7-%D8%BA%D9%84%D8%A7%D8%A1-%D8%A7%D9%84%D8%A3%D8%AF%D9%88%D9%8A%D8%A9",
+        "Permalink": "https://www.alaraby.co.uk/economy/مرضى-بلا-علاج-في-السودان-وسط-غلاء-الأدوية",
         "Params": {
           "description": "يعيش قطاع الدواء في السودان انهياراً متسارعاً جراء تداعيات الحرب وتهاوي العملة، ما أدى إلى قفزات قياسية في الأسعار، وندرة حادة في الأصناف الحيوية",
           "source": "العربي الجديد",
           "source_id": "alaraby-ar",
           "source_class": "regional_journalism",
-          "link": "https://www.alaraby.co.uk/economy/%D9%85%D8%B1%D8%B6%D9%89-%D8%A8%D9%84%D8%A7-%D8%B9%D9%84%D8%A7%D8%AC-%D9%81%D9%8A-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86-%D9%88%D8%B3%D8%B7-%D8%BA%D9%84%D8%A7%D8%A1-%D8%A7%D9%84%D8%A3%D8%AF%D9%88%D9%8A%D8%A9",
+          "link": "https://www.alaraby.co.uk/economy/مرضى-بلا-علاج-في-السودان-وسط-غلاء-الأدوية",
           "status": "Reporting",
           "geography": [
             "National"
@@ -8342,55 +8389,6 @@
           "clabel": "اقتصاد",
           "language": "ar",
           "media_attribution": "التغيير"
-        }
-      },
-      {
-        "Title": "تفاقم أزمة الوقود في كسلا وزيادة جديدة في أسعار البنزين في بورتسودان",
-        "Lang": "ar",
-        "Date": "2026-09-30T15:03:06+00:00",
-        "Permalink": "https://www.dabangasudan.org/ar/all-news/article/%d8%aa%d9%81%d8%a7%d9%82%d9%85-%d8%a3%d8%b2%d9%85%d8%a9-%d8%a7%d9%84%d9%88%d9%82%d9%88%d8%af-%d9%81%d9%8a-%d9%83%d8%b3%d9%84%d8%a7-%d9%88%d8%b2%d9%8a%d8%a7%d8%af%d8%a9-%d8%ac%d8%af%d9%8a%d8%af%d8%a9",
-        "Params": {
-          "description": "كسلا – بورتسودان : 30 سبتمبر 2026: راديو دبنقا تشهد مدينة كسلا أزمة وقود حادة،... The post تفاقم أزمة الوقود في كسلا وزيادة جديدة في أسعار البنزين في بورتسودان appeared first on Dabanga Radio TV Online .",
-          "source": "راديو دبنقا",
-          "source_id": "dabanga-ar",
-          "source_class": "sudanese_journalism",
-          "link": "https://www.dabangasudan.org/ar/all-news/article/%d8%aa%d9%81%d8%a7%d9%82%d9%85-%d8%a3%d8%b2%d9%85%d8%a9-%d8%a7%d9%84%d9%88%d9%82%d9%88%d8%af-%d9%81%d9%8a-%d9%83%d8%b3%d9%84%d8%a7-%d9%88%d8%b2%d9%8a%d8%a7%d8%af%d8%a9-%d8%ac%d8%af%d9%8a%d8%af%d8%a9",
-          "status": "Reporting",
-          "geography": [
-            "Red Sea",
-            "Kassala"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "Economy",
-          "clabel": "اقتصاد",
-          "language": "ar",
-          "media_attribution": "راديو دبنقا"
-        }
-      },
-      {
-        "Title": "\"قراراتي مرتبطة باحتمال تجدُّد القتال\": ماذا يعني أن تُصبح الحرب \"الوضع الطبيعي\"؟",
-        "Lang": "ar",
-        "Date": "2026-09-30T15:02:14+00:00",
-        "Permalink": "https://www.bbc.com/arabic/articles/c9e8e57004zmo?at_medium=RSS&at_campaign=rss",
-        "Params": {
-          "description": "كيف تتغير الحياة عندما تطول الحرب إلى حد تصبح فيه تفاصيلها اليومية أمراً مألوفاً؟ من غزة والسودان إلى سوريا ولبنان وليبيا، تحكي شهادات أشخاص لبي بي سي، عاشوا الحروب والنزوح عن عالم تغيّر فيه معنى البيت والأمان والعمل والأسرة والمستقبل، وأصبح التخطيط للحياة مرتبطاً دائماً باحتمال عودة القتال.",
-          "source": "بي بي سي عربي",
-          "source_id": "bbc-ar",
-          "source_class": "international_journalism",
-          "link": "https://www.bbc.com/arabic/articles/c9e8e57004zmo?at_medium=RSS&at_campaign=rss",
-          "status": "Reporting",
-          "geography": [
-            "National"
-          ],
-          "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/791f/live/ddeebf60-bce5-11f1-babe-4199b0e7ccea.jpg",
-          "media_reuse_basis": "rss_metadata",
-          "related_sources": [],
-          "category": "War & Security",
-          "clabel": "الحرب والأمن",
-          "language": "ar",
-          "media_attribution": "بي بي سي عربي"
         }
       }
     ],
