@@ -32,7 +32,8 @@ pool. Its starting position advances by build day, so regular news builds rotate
 the selection without browser tracking or animation. The module explicitly says
 that Nile Bookstore is separate from Kandaka's editorial work, uses bilingual
 copy, and tags its sponsored links with `utm_medium=homepage` and
-`utm_campaign=store_showcase`.
+`utm_campaign=store_showcase`. Each homepage card displays the representative
+product cover and localized alternative text supplied by its offer record.
 
 ## Verified rotating titles (2026-09-13)
 

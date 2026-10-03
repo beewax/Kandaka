@@ -87,6 +87,8 @@ for language in ('', 'ar/'):
     home = Path(f'public/{language}index.html')
     home_html = home.read_text(encoding='utf-8')
     assert home_html.count('<article class=k-nile-home-card>') == 3, home
+    assert home_html.count('class=k-nile-home-cover') == 3, home
+    assert home_html.count('cdn.shopify.com/s/files/1/0802/4798/0280/files/') >= 3, home
     assert 'utm_medium=homepage' in home_html and 'utm_campaign=store_showcase' in home_html, home
     assert ('من مكتبة النيل' if language else 'From Nile Bookstore') in home_html, home
 for article in ('history/funj-sultanate', 'ideas/illiteracy-sudan',
