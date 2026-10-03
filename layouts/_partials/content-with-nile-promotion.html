@@ -26,16 +26,11 @@
     {{- end -}}
   {{- end -}}
   {{- if and (ge $paragraphs (int $config.minimum_paragraphs)) (gt $insertAt 0) -}}
-    {{- /* Distribute the general catalogue across articles with a stable hash. This
-         gives readers variety without cookies, animation or layout shifts. */ -}}
-    {{- $pool := $config.default_pool | default (slice $config.collection) -}}
-    {{- $selected := index $pool (mod (hash.FNV32a $key) (len $pool)) -}}
-    {{- /* A narrowly matched title is more useful than a general collection. */ -}}
-    {{- $tags := apply (.Params.tags | default slice) "strings.ToLower" "." -}}
-    {{- range $id, $offer := $config.offers -}}
-      {{- if and $offer.tags (intersect $tags $offer.tags) -}}{{- $selected = $id -}}{{- end -}}
-    {{- end -}}
-    {{- with index $config.placements $key -}}{{- $selected = . -}}{{- end -}}
+    {{- /* Advance every article's catalogue position once per UTC day. The article
+         hash staggers the starting point so every page does not show the same card. */ -}}
+    {{- $pool := $config.inline_pool | default $config.default_pool | default (slice $config.collection) -}}
+    {{- $day := div now.Unix 86400 -}}
+    {{- $selected := index $pool (mod (add (hash.FNV32a $key) $day) (len $pool)) -}}
     {{- with index $config.offers $selected -}}
       {{- $card := partial "nile-promotion.html" (dict "page" $ "offer" .) -}}
       {{- $content = printf "%s%s%s" $before $card $after | safeHTML -}}

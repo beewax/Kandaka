@@ -5,76 +5,76 @@ minimum_paragraphs: 7
 after_paragraph: 5
 collection: sudan-nile
 default_pool: [sudan-nile, arabic-books, english-comics, arabic-comics, audio-bundles]
+# In-article cards rotate daily through collections and individual English and
+# Arabic titles. The article hash staggers the choice across the site.
+inline_pool: [sudan-nile, arabic-books, tabaqat, english-comics, nisaiyat, audio-bundles, khartoum-niles, arabic-comics, ten-days, meroe]
 # Commercial cards do not belong inside urgent aid guidance or similarly
 # sensitive pages. Add future exclusions here rather than editing Markdown.
 excluded_pages:
   - ideas/how-to-help-sudan-aid-delivery
 # Product data and cover verified against Nile Book Store on 2026-09-13.
 # Collection cards feature a real title; the displayed price belongs to that title.
-placements:
-  history/kandaka-nubian-queens: meroe
-  history/funj-sultanate: tabaqat
-  ideas/illiteracy-sudan: nisaiyat
-  ideas/canals-irrigation-sudan: ten-days
-  ideas/water-paradox-sudan: ten-days
-  ideas/river-transportation-sudan: khartoum-niles
 offers:
   arabic-books:
     url: https://nilebookstore.com/collections/arabic-epubs
+    cover: https://cdn.shopify.com/s/files/1/0802/4798/0280/files/tarikh-al-sudan-al-qadim-hassan-kamal-cover.png?v=1787929989&width=320
     en:
       title: Arabic Books & Heritage
       description: Searchable Arabic EPUB editions of literature, history, philosophy and rare works, prepared for comfortable right-to-left reading.
       price: Digital editions from free
       button: Browse Arabic books
-      alt: ""
+      alt: Arabic cover of Ancient History of Sudan by Hassan Kamal
     ar:
       title: كتب عربية وتراثية
       description: طبعات EPUB عربية قابلة للبحث من الأدب والتاريخ والفكر والكتب النادرة، مهيأة للقراءة المريحة من اليمين إلى اليسار.
       price: طبعات رقمية، ومنها كتب مجانية
       button: تصفّح الكتب العربية
-      alt: ""
+      alt: غلاف كتاب تاريخ السودان القديم لحسن كمال
   english-comics:
     url: https://nilebookstore.com/collections/comics-english
+    cover: https://cdn.shopify.com/s/files/1/0802/4798/0280/files/planet-comics-006-authentic-cover.jpg?v=1787713500&width=320
     en:
       title: Golden Age Comics
       description: Digitally preserved public-domain adventures, mysteries and superheroes with generous page previews.
       price: Digital comics from US$0.99
       button: Explore the comic archive
-      alt: ""
+      alt: Authentic cover of Planet Comics number 6
     ar:
       title: كوميكس العصر الذهبي
       description: مغامرات وألغاز وأبطال خارقون من الملكية العامة، محفوظة رقمياً مع معاينات سخية للصفحات.
       price: كوميكس رقمي ابتداءً من ٠٫٩٩ دولار
       button: تصفّح أرشيف الكوميكس
-      alt: ""
+      alt: غلاف أصلي للعدد السادس من بلانيت كوميكس
   arabic-comics:
     url: https://nilebookstore.com/collections/arabic-comics-%D9%83%D9%88%D9%85%D9%8A%D9%83%D8%B3-%D8%B9%D8%B1%D8%A8%D9%8A
+    cover: https://cdn.shopify.com/s/files/1/0802/4798/0280/files/bulletman-001-arabic-cover.png?v=1789223015&width=320
     en:
       title: Arabic Comics
       description: Illustrated stories and restored comics presented for Arabic readers in accessible digital editions.
       price: Instant digital downloads
       button: Browse Arabic comics
-      alt: ""
+      alt: Arabic edition cover of Bulletman number 1
     ar:
       title: كوميكس عربي
       description: قصص مصورة وكوميكس مرمم ومهيأ للقارئ العربي في طبعات رقمية سهلة الاستخدام.
       price: تنزيلات رقمية فورية
       button: تصفّح الكوميكس العربي
-      alt: ""
+      alt: غلاف النسخة العربية من بولتمان، العدد الأول
   audio-bundles:
     url: https://nilebookstore.com/collections/audio-books-english
+    cover: https://cdn.shopify.com/s/files/1/0802/4798/0280/files/swallows-and-amazons-cover.jpg?v=1790569618&width=320
     en:
       title: Read-and-Listen Editions
       description: Classic books supplied as EPUB plus unabridged audiobook bundles, with audio previews where available.
       price: EPUB + audiobook bundles
       button: Browse read-and-listen books
-      alt: ""
+      alt: Cover of the Swallows and Amazons EPUB and audiobook bundle
     ar:
       title: اقرأ واستمع
       description: كتب كلاسيكية تجمع ملف EPUB مع كتاب صوتي كامل، وتتوفر معاينات صوتية لبعض العناوين.
       price: حزم EPUB وكتاب صوتي
       button: تصفّح حزم القراءة والاستماع
-      alt: ""
+      alt: غلاف حزمة كتاب وكتاب صوتي سوالوز أند أمازونز
   tabaqat:
     url: https://nilebookstore.com/products/tabaqat-wad-dayf-allah
     cover: https://cdn.shopify.com/s/files/1/0802/4798/0280/files/tabaqat-wad-dayf-allah-cover_f32467ff-ca17-4b90-8bbd-547ba5035387.jpg?v=1787522113&width=320

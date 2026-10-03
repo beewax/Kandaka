@@ -5,9 +5,8 @@
 RSS, summaries, library and news templates do not receive promotional content.
 
 Edit `data/nile_promotions.yaml` to manage copy, real store cover URLs, prices,
-eligible sections, word/paragraph thresholds and article-specific placements.
-The initial override pairs `history/kandaka-nubian-queens` (both translations)
-with Meroë. No promotional HTML is required in article Markdown.
+eligible sections, word/paragraph thresholds and the rotation pools. No
+promotional HTML is required in article Markdown.
 
 Only regular pages in history, culture, development and ideas with at least
 400 words and seven top-level paragraphs qualify. The card appears after the
@@ -15,14 +14,18 @@ fifth top-level paragraph; paragraphs in lists, blockquotes and figures do not
 count. Use `nile_promotion: false` in front matter to opt an article out, or
 `enabled: false` in the data file to disable all placements.
 
-A stable hash of section and translation base name distributes automatic cards
-across the five collections in `default_pool`: Sudan and the Nile, Arabic books,
-English Golden Age comics, Arabic comics, and EPUB-plus-audiobook bundles.
-Specific tag matches and explicit editorial placements take priority over the
-general pool. Translations share the same selection. The rotation is stable per
-article, needs no cookies or client-side scripts, and avoids animated content or
-layout shifts. Sensitive pages listed in `excluded_pages` receive no card; the
-Sudan aid guide is the first explicit exclusion.
+A hash of section and translation base name staggers automatic cards across the
+ten entries in `inline_pool`. The selection advances once per UTC day, so a page
+does not remain locked to one title: readers see a mix of individual English and
+Arabic books, Arabic and English comics, and EPUB-plus-audiobook bundles. English
+and Arabic translations share the same offer with localized copy. Rotation needs
+no cookies or client-side scripts and avoids animation and layout shifts.
+Sensitive pages listed in `excluded_pages` receive no card; the Sudan aid guide
+is the first explicit exclusion.
+
+Every rotating offer includes a genuine Nile Book Store product image and
+localized alternative text. Collection cards use a representative title from
+that collection rather than appearing as text-only promotions.
 
 The homepage separately presents three catalogue groups from the same five-item
 pool. Its starting position advances by build day, so regular news builds rotate
@@ -31,7 +34,7 @@ that Nile Bookstore is separate from Kandaka's editorial work, uses bilingual
 copy, and tags its sponsored links with `utm_medium=homepage` and
 `utm_campaign=store_showcase`.
 
-## Verified contextual pairings (2026-09-13)
+## Verified rotating titles (2026-09-13)
 
 All four added titles use existing Nile Book Store product cover URLs; no new
 covers were generated. Product descriptions, availability and prices were
@@ -45,9 +48,8 @@ identified as Arabic even on English pages, and vice versa.
 | New Irrigation Canals; Water Paradox | Ten Days in Sudan, Muhammad Husayn Haykal | Historical observations of Sennar Dam's opening and Gezira irrigation | Free |
 | River Transportation | Khartoum and the Blue and White Niles, Volume II | Illustrated historical account of Nile travel and routes to Khartoum | US$0.99 |
 
-These are deliberately curated article mappings, rather than broad automatic
-matches on generic tags such as `women`, `development` or `history`. Future
-titles should receive similarly specific pairings. The Tabaqat card explains
+These titles are part of the daily in-article rotation rather than permanent
+article mappings. The Tabaqat card explains
 its fixed-layout format and tablet recommendation. Historical travel accounts
 are described as historical reading, not contemporary policy advice.
 
