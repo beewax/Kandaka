@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-04T20:56:40.491761+00:00",
+  "updated": "2026-10-04T23:53:02.932567+00:00",
   "sources": [
     {
       "id": "dabanga-en",
@@ -89,15 +89,15 @@
       "id": "alaraby-ar",
       "language": "ar",
       "status": "ok",
-      "items": 152,
+      "items": 141,
       "accepted": 4
     },
     {
       "id": "un-news-ar",
       "language": "ar",
-      "status": "invalid_feed",
-      "items": 0,
-      "accepted": 0
+      "status": "ok",
+      "items": 30,
+      "accepted": 2
     },
     {
       "id": "altaghyeer-en",
@@ -111,7 +111,7 @@
       "language": "ar",
       "status": "ok",
       "items": 24,
-      "accepted": 15
+      "accepted": 16
     },
     {
       "id": "ayin-ar",
