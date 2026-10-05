@@ -1,43 +1,19 @@
 {
-  "updated": "2026-10-04T23:53:02.932567+00:00",
+  "updated": "2026-10-05T04:28:43.664824+00:00",
   "window_days": 30,
   "en": {
     "balanced": [
       {
-        "Title": "Egypt, Eritrea, Somalia, Sudan forge regional security front",
+        "Title": "Amnesty researcher: ‘Sudan’s children face recruitment, sexual violence, and lasting trauma’",
         "Lang": "en",
-        "Date": "2026-10-04T19:43:35+00:00",
-        "Permalink": "https://www.radiotamazuj.org/en/news/article/egypt-eritrea-somalia-sudan-forge-regional-security-front",
+        "Date": "2026-10-05T01:49:32+00:00",
+        "Permalink": "https://www.dabangasudan.org/en/all-news/article/amnesty-researcher-sudans-children-face-recruitment-sexual-violence-and-lasting-trauma",
         "Params": {
-          "description": "The leaders of Egypt, Eritrea, Somalia and Sudan agreed to establish a regular mechanism for The post Egypt, Eritrea, Somalia, Sudan forge regional security front appeared first on Radio Tamazuj .",
-          "source": "Radio Tamazuj",
-          "source_id": "tamazuj-en",
-          "source_class": "regional_journalism",
-          "link": "https://www.radiotamazuj.org/en/news/article/egypt-eritrea-somalia-sudan-forge-regional-security-front",
-          "status": "Reporting",
-          "geography": [
-            "National"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "War & Security",
-          "clabel": "الحرب والأمن",
-          "language": "en",
-          "media_attribution": "Radio Tamazuj"
-        }
-      },
-      {
-        "Title": "North Darfur: Aid needs mount as 1,400 displaced reach Tawila in five days",
-        "Lang": "en",
-        "Date": "2026-10-04T18:24:20+00:00",
-        "Permalink": "https://www.dabangasudan.org/en/all-news/article/north-darfur-aid-needs-mount-as-1400-displaced-reach-tawila-in-five-days",
-        "Params": {
-          "description": "Aid needs are mounting as new arrivals swell the population of internally displaced people in... The post North Darfur: Aid needs mount as 1,400 displaced reach Tawila in five days appeared first on Dabanga Radio TV Online .",
+          "description": "Children in North Darfur have been recruited by the Rapid Support Forces (RSF), subjected to... The post Amnesty researcher: ‘Sudan’s children face recruitment, sexual violence, and lasting trauma’ appeared first on Dabanga Radio TV Online .",
           "source": "Radio Dabanga",
           "source_id": "dabanga-en",
           "source_class": "sudanese_journalism",
-          "link": "https://www.dabangasudan.org/en/all-news/article/north-darfur-aid-needs-mount-as-1400-displaced-reach-tawila-in-five-days",
+          "link": "https://www.dabangasudan.org/en/all-news/article/amnesty-researcher-sudans-children-face-recruitment-sexual-violence-and-lasting-trauma",
           "status": "Reporting",
           "geography": [
             "Darfur"
@@ -45,23 +21,47 @@
           "image": "",
           "media_reuse_basis": "",
           "related_sources": [],
-          "category": "Humanitarian",
-          "clabel": "إنساني",
+          "category": "War & Security",
+          "clabel": "الحرب والأمن",
           "language": "en",
           "media_attribution": "Radio Dabanga"
         }
       },
       {
-        "Title": "Is the Sudanese army gaining momentum against the RSF?",
+        "Title": "Air strike in Sudan kills UN aid truck driver: WFP",
         "Lang": "en",
-        "Date": "2026-10-04T10:56:12+00:00",
-        "Permalink": "https://www.aljazeera.com/news/2026/10/4/is-the-sudanese-army-gaining-momentum-against-the-rsf?traffic_source=rss",
+        "Date": "2026-10-04T16:28:43+00:00",
+        "Permalink": "https://www.aljazeera.com/news/2026/10/4/air-strike-in-sudan-kills-un-aid-truck-driver-wfp?traffic_source=rss",
         "Params": {
-          "description": "The SAF claims victory in a vital North Kordofan town, weakening RSF’s access to fighters and supply routes.",
+          "description": "Trucks were 'clearly marked as humanitarian vehicles', UN agency says.",
           "source": "Al Jazeera English",
           "source_id": "aljazeera-en",
           "source_class": "international_journalism",
-          "link": "https://www.aljazeera.com/news/2026/10/4/is-the-sudanese-army-gaining-momentum-against-the-rsf?traffic_source=rss",
+          "link": "https://www.aljazeera.com/news/2026/10/4/air-strike-in-sudan-kills-un-aid-truck-driver-wfp?traffic_source=rss",
+          "status": "Reporting",
+          "geography": [
+            "National"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "Humanitarian",
+          "clabel": "إنساني",
+          "language": "en",
+          "media_attribution": "Al Jazeera English"
+        }
+      },
+      {
+        "Title": "Attack on aid trucks in South Kordofan kills driver",
+        "Lang": "en",
+        "Date": "2026-10-04T18:58:54+00:00",
+        "Permalink": "https://www.radiotamazuj.org/en/news/article/attack-on-aid-trucks-in-south-kordofan-kills-driver",
+        "Params": {
+          "description": "An aerial attack hit two trucks carrying food aid for the United Nations World Food The post Attack on aid trucks in South Kordofan kills driver appeared first on Radio Tamazuj .",
+          "source": "Radio Tamazuj",
+          "source_id": "tamazuj-en",
+          "source_class": "regional_journalism",
+          "link": "https://www.radiotamazuj.org/en/news/article/attack-on-aid-trucks-in-south-kordofan-kills-driver",
           "status": "Reporting",
           "geography": [
             "Kordofan"
@@ -72,7 +72,7 @@
           "category": "War & Security",
           "clabel": "الحرب والأمن",
           "language": "en",
-          "media_attribution": "Al Jazeera English"
+          "media_attribution": "Radio Tamazuj"
         }
       },
       {
@@ -196,25 +196,25 @@
         }
       },
       {
-        "Title": "Air strike in Sudan kills UN aid truck driver: WFP",
+        "Title": "Is the Sudanese army gaining momentum against the RSF?",
         "Lang": "en",
-        "Date": "2026-10-04T16:28:43+00:00",
-        "Permalink": "https://www.aljazeera.com/news/2026/10/4/air-strike-in-sudan-kills-un-aid-truck-driver-wfp?traffic_source=rss",
+        "Date": "2026-10-04T10:56:12+00:00",
+        "Permalink": "https://www.aljazeera.com/news/2026/10/4/is-the-sudanese-army-gaining-momentum-against-the-rsf?traffic_source=rss",
         "Params": {
-          "description": "Trucks were 'clearly marked as humanitarian vehicles', UN agency says.",
+          "description": "The SAF claims victory in a vital North Kordofan town, weakening RSF’s access to fighters and supply routes.",
           "source": "Al Jazeera English",
           "source_id": "aljazeera-en",
           "source_class": "international_journalism",
-          "link": "https://www.aljazeera.com/news/2026/10/4/air-strike-in-sudan-kills-un-aid-truck-driver-wfp?traffic_source=rss",
+          "link": "https://www.aljazeera.com/news/2026/10/4/is-the-sudanese-army-gaining-momentum-against-the-rsf?traffic_source=rss",
           "status": "Reporting",
           "geography": [
-            "National"
+            "Kordofan"
           ],
           "image": "",
           "media_reuse_basis": "",
           "related_sources": [],
-          "category": "Humanitarian",
-          "clabel": "إنساني",
+          "category": "War & Security",
+          "clabel": "الحرب والأمن",
           "language": "en",
           "media_attribution": "Al Jazeera English"
         }
@@ -582,6 +582,54 @@
       }
     ],
     "latest": [
+      {
+        "Title": "Amnesty researcher: ‘Sudan’s children face recruitment, sexual violence, and lasting trauma’",
+        "Lang": "en",
+        "Date": "2026-10-05T01:49:32+00:00",
+        "Permalink": "https://www.dabangasudan.org/en/all-news/article/amnesty-researcher-sudans-children-face-recruitment-sexual-violence-and-lasting-trauma",
+        "Params": {
+          "description": "Children in North Darfur have been recruited by the Rapid Support Forces (RSF), subjected to... The post Amnesty researcher: ‘Sudan’s children face recruitment, sexual violence, and lasting trauma’ appeared first on Dabanga Radio TV Online .",
+          "source": "Radio Dabanga",
+          "source_id": "dabanga-en",
+          "source_class": "sudanese_journalism",
+          "link": "https://www.dabangasudan.org/en/all-news/article/amnesty-researcher-sudans-children-face-recruitment-sexual-violence-and-lasting-trauma",
+          "status": "Reporting",
+          "geography": [
+            "Darfur"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "War & Security",
+          "clabel": "الحرب والأمن",
+          "language": "en",
+          "media_attribution": "Radio Dabanga"
+        }
+      },
+      {
+        "Title": "Four African leaders issue joint declaration as Ethiopia war escalates",
+        "Lang": "en",
+        "Date": "2026-10-05T00:33:23+00:00",
+        "Permalink": "https://www.aljazeera.com/news/2026/10/5/four-african-leaders-issue-joint-declaration-as-ethiopia-war-escalates?traffic_source=rss",
+        "Params": {
+          "description": "Egyptian, Eritrean, Somali and Sudanese leaders also call for talks to end the civil war in Sudan.",
+          "source": "Al Jazeera English",
+          "source_id": "aljazeera-en",
+          "source_class": "international_journalism",
+          "link": "https://www.aljazeera.com/news/2026/10/5/four-african-leaders-issue-joint-declaration-as-ethiopia-war-escalates?traffic_source=rss",
+          "status": "Reporting",
+          "geography": [
+            "National"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "War & Security",
+          "clabel": "الحرب والأمن",
+          "language": "en",
+          "media_attribution": "Al Jazeera English"
+        }
+      },
       {
         "Title": "Egypt, Eritrea, Somalia, Sudan forge regional security front",
         "Lang": "en",
@@ -4136,54 +4184,6 @@
           "clabel": "إنساني",
           "language": "en",
           "media_attribution": "Radio Dabanga"
-        }
-      },
-      {
-        "Title": "Death sentences for women during Sudan’s war ‘profound failure of justice’",
-        "Lang": "en",
-        "Date": "2026-09-15T16:26:04+00:00",
-        "Permalink": "https://www.dabangasudan.org/en/all-news/article/death-sentences-for-women-during-sudans-war-profound-failure-of-justice",
-        "Params": {
-          "description": "",
-          "source": "Radio Dabanga",
-          "source_id": "dabanga-en",
-          "source_class": "sudanese_journalism",
-          "link": "https://www.dabangasudan.org/en/all-news/article/death-sentences-for-women-during-sudans-war-profound-failure-of-justice",
-          "status": "Reporting",
-          "geography": [
-            "National"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "War & Security",
-          "clabel": "الحرب والأمن",
-          "language": "en",
-          "media_attribution": "Radio Dabanga"
-        }
-      },
-      {
-        "Title": "Sudan aid networks at risk of collapse, UN agencies warn",
-        "Lang": "en",
-        "Date": "2026-09-14T23:42:18+00:00",
-        "Permalink": "https://www.aljazeera.com/news/2026/9/14/sudan-aid-networks-at-risk-of-collapse-un-agencies-warn?traffic_source=rss",
-        "Params": {
-          "description": "",
-          "source": "Al Jazeera English",
-          "source_id": "aljazeera-en",
-          "source_class": "international_journalism",
-          "link": "https://www.aljazeera.com/news/2026/9/14/sudan-aid-networks-at-risk-of-collapse-un-agencies-warn?traffic_source=rss",
-          "status": "Reporting",
-          "geography": [
-            "National"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "Humanitarian",
-          "clabel": "إنساني",
-          "language": "en",
-          "media_attribution": "Al Jazeera English"
         }
       }
     ],
