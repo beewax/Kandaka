@@ -23,3 +23,11 @@ Prepared 8 October 2026. Publication authorized 29 September and explicitly reco
 ## Release stages
 
 Local bilingual files and cover prepared. Hugo build passed (919 English / 1,984 Arabic pages); duplicate-cover check passed across 2,182 Markdown files. Both article editions contain seven sections. Commit, deployment and independent live verification must be recorded separately below before marking Published.
+
+Release commit `f953515` pushed to main on 8 October. Initial public checks returned 404 while deployment was pending. At 11:59 UTC / 06:59 CDT on 8 October, independent HTTP requests returned 200 for the English and Arabic pages with their correct titles, and 200 for the 406,895-byte cover:
+
+- https://kandaka.com/development/sudan-universities-serving-society/
+- https://kandaka.com/ar/development/sudan-universities-serving-society/
+- https://kandaka.com/images/uploads/sudan-universities-leonardo.jpg
+
+Published and verified: second of six. Next release is L01, no earlier than 10 October 06:59 CDT, with original-source verification still mandatory. User review after publication is welcome; no further article was published in this run.

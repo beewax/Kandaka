@@ -299,16 +299,16 @@ Every full Library summary should follow this method:
 
 ### L03 — Sudanese Universities as Sites of Social Transformation
 
-> Release preparation, 2026-10-08: **Draft: Complete English and Arabic. Approved: Yes (2026-09-29; reconfirmed 2026-10-08, review after publication). Published: No, release checks in progress.** Publication title: *Sudanese Universities: Rebuilding Institutions That Serve Society*. English revision adds explicit women's-access, inclusion and staff-retention proposals. Original report and dated UNESCO estimate rechecked. Leonardo AI / Lucid Origin cover generated, inspected and saved; provenance and rights checks in `docs/L03-universities-release.md`. Older fields below are historical. Next action: build, publish scoped files and independently verify both languages and cover.
+> Published 2026-10-08: *Sudanese Universities: Rebuilding Institutions That Serve Society*. Release commit `f953515`. English https://kandaka.com/development/sudan-universities-serving-society/ and Arabic https://kandaka.com/ar/development/sudan-universities-serving-society/ independently verified HTTP 200 with correct titles, together with the Leonardo cover, at 11:59 UTC (06:59 CDT). Evidence and cover provenance: `docs/L03-universities-release.md`. Next in sequence: L01, no earlier than 2026-10-10 06:59 CDT and only after its source hold is resolved.
 
 - **Author:** Linda S. Bishai
-- **Research:** Source and thesis verified preliminarily
-- **Draft:** Not started
-- **Review:** Not ready
-- **Approved:** No
-- **Published:** No
+- **Research:** Original report and dated UNESCO estimate checked 2026-10-08
+- **Draft:** Complete English and Arabic
+- **Review:** Editorial and technical checks complete; user feedback invited after publication
+- **Approved:** Yes, 2026-09-29; explicitly reconfirmed 2026-10-08
+- **Published:** Yes, 2026-10-08; both languages and cover verified live
 - **Requirements:** Examine universities as sites of political/social change; expansion without adequate staff/resources; language and national-identity policies; effects on non-Arab communities; political control of students/faculty; women and marginalized communities; brain drain; and whether universities became engines of technical skill, research, industry, and national integration or primarily degree-producing institutions. Revisit the argument with later evidence.
-- **Next action:** Retrieve the complete Library copy, verify no duplicate full treatment, and produce the analytical summary.
+- **Next action:** Incorporate the user's post-publication suggestions and any verified corrections.
 
 ## Government and official-report acquisition stream
 
@@ -449,7 +449,7 @@ These changes are approved or requested but must be implemented and tested in th
 | A11 Transformative megaprojects | Preliminary | Not started | Not ready | No | No | Build comparative scorecard |
 | L01 Uranium in Sudan | Source reviewed | Not started | Not ready | No | No | Reconcile file/catalog metadata and summarize |
 | L02 Infrastructure | Preliminary | Not started | Not ready | No | No | Retrieve full source and check duplication |
-| L03 Universities | Preliminary | Not started | Not ready | No | No | Retrieve full source and check duplication |
+| L03 Universities | Source checked | Complete EN/AR | Release checks complete | Yes | Yes, 2026-10-08 | Incorporate user feedback |
 | History + Culture categories | Complete | Complete | Complete | Yes | Yes 2026-08-30 | Monitor live navigation, RTL, category pages, and redirects |
 | Other website batch | Complete/partial | Not implemented | Not ready | Mixed above | No | Implement only approved changes and test |
 
