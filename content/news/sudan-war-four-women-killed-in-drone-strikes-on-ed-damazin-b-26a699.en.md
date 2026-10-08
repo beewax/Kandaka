@@ -14,9 +14,12 @@ geography:
 language: en
 status: Reporting
 cluster_id: 465768082ca4
-corroboration_count: 1
+corroboration_count: 2
 draft: false
 author: Dabanga Sudan
+related_sources:
+- source: Radio Tamazuj
+  link: https://www.radiotamazuj.org/en/news/article/four-women-killed-in-drone-strikes-on-damazin-blue-nile
 ---
 
 Four women have died and civilian sites, including a mosque and a technical college, were... The post Sudan war: Four women killed in drone strikes on Ed Damazin, Blue Nile appeared first on Dabanga Radio TV Online .

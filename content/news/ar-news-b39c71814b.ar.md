@@ -17,12 +17,9 @@ geography:
 language: ar
 status: Reporting
 cluster_id: 0a5aa12dd1a0
-corroboration_count: 2
+corroboration_count: 1
 draft: false
 author: صحيفة التغيير
-related_sources:
-- source: أخبار الأمم المتحدة
-  link: https://news.un.org/feed/view/ar/story/2026/10/1145488
 clabel: صحة
 ---
 
