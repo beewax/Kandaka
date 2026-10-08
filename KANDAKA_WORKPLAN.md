@@ -2,7 +2,7 @@
 
 > Persistent editorial and research tracker. This file records decisions, drafts, queues, source-acquisition work, website changes, and publication readiness. It does **not** authorize publication.
 
-**Last updated:** 2026-09-22
+**Last updated:** 2026-10-08
 **Publication rule:** Nothing may be translated, scheduled, committed as publishable content, or published without explicit approval of that specific article.  
 **Current overall state:** Planning and review only; no item in this file is approved for publication unless its `Approved` field is explicitly marked `Yes`.
 
@@ -45,6 +45,14 @@ The goal is to reduce repetition and waiting time without reducing research, ver
 8. Prefer original data, plans, surveys, evaluations, feasibility studies, and primary documents. Press releases may inform research but ordinarily do not belong in the Library.
 9. Before selecting a Library work for a full summary, inventory existing Kandaka summaries and verify that the work has not already received the full analytical treatment.
 10. Every substantive factual claim, number, comparison, and current organization recommendation must be checked against the underlying source and refreshed close to publication.
+
+## Article image generation — user instruction, 3 October 2026
+
+- Use **Leonardo AI or Ideogram** to generate new editorial cover images for the remaining authorized articles: L03 (Sudanese universities), L01 (uranium), A02 (Sudan Planned Before), A11 (transformative megaprojects), and A12 (deep-sea ports). Choose between the two according to available access and suitability.
+- L02 is already published with an original conceptual SVG; retain that existing cover unless a replacement is requested. Do not describe it as Leonardo- or Ideogram-generated.
+- Generate and review each cover as part of its article's release preparation. Save the selected asset and record the service/model, prompt, generation date, file path, and applicable usage-rights check. Do not purchase credits or a subscription without permission.
+- Use a suitable shared cover for the English and Arabic editions, with meaningful alt text in each language. Clearly identify synthetic illustrations; do not present generated scenes as documentary photography, archaeological evidence, mineral-reserve evidence, or an approved construction design.
+- If neither requested service is accessible, report the access blocker; do not silently substitute another generator or claim images have been generated. This instruction records planned work, not completed assets, and does not change publication authorization or the 48-hour release spacing.
 
 ## Approved editorial structure
 
@@ -290,6 +298,8 @@ Every full Library summary should follow this method:
 - **Next action:** Retrieve the complete Library copy, confirm whether a full Kandaka treatment already exists, and produce the analytical summary.
 
 ### L03 — Sudanese Universities as Sites of Social Transformation
+
+> Release preparation, 2026-10-08: **Draft: Complete English and Arabic. Approved: Yes (2026-09-29; reconfirmed 2026-10-08, review after publication). Published: No, release checks in progress.** Publication title: *Sudanese Universities: Rebuilding Institutions That Serve Society*. English revision adds explicit women's-access, inclusion and staff-retention proposals. Original report and dated UNESCO estimate rechecked. Leonardo AI / Lucid Origin cover generated, inspected and saved; provenance and rights checks in `docs/L03-universities-release.md`. Older fields below are historical. Next action: build, publish scoped files and independently verify both languages and cover.
 
 - **Author:** Linda S. Bishai
 - **Research:** Source and thesis verified preliminarily
