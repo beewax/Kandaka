@@ -1,8 +1,8 @@
-{{ range .Translations }}
-<link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}" />
-{{ end }}
-<link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}" />
-<link rel="alternate" hreflang="x-default" href="{{ .Site.Home.Permalink }}" />
+{{- $englishVersion := . }}
+{{- with where .AllTranslations "Lang" "en" }}
+  {{- $englishVersion = index . 0 }}
+{{- end }}
+<link rel="alternate" hreflang="x-default" href="{{ $englishVersion.Permalink }}" />
 
 {{/* Pinterest domain verification (added August 2026) */}}
 <meta name="p:domain_verify" content="e5f0e597882d1820f98dddf799d6c020"/>
@@ -38,6 +38,77 @@
 {{- end }}
 
 <style>
+/* Related article recommendations */
+.k-related-articles {
+  margin: 2.5rem 0 1rem;
+  padding: 1.25rem;
+  border: 1px solid var(--tertiary);
+  border-radius: 10px;
+}
+.k-related-articles h2 {
+  margin: 0 0 1rem;
+  font-size: 1.25rem;
+}
+.k-related-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+.k-related-card a {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  height: 100%;
+  color: var(--primary);
+  text-decoration: none;
+}
+.k-related-card a:hover,
+.k-related-card a:focus-visible {
+  text-decoration: underline;
+}
+.k-related-card span {
+  color: var(--secondary);
+  font-size: .875rem;
+  line-height: 1.5;
+}
+.k-follow-feed {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 1.25rem 0;
+  padding: 1rem 1.25rem;
+  border: 1px solid var(--tertiary);
+  border-radius: 10px;
+  background: var(--code-bg);
+}
+.k-follow-feed div {
+  display: flex;
+  flex-direction: column;
+  gap: .25rem;
+}
+.k-follow-feed span {
+  color: var(--secondary);
+  font-size: .875rem;
+}
+.k-follow-feed a {
+  flex: 0 0 auto;
+  padding: .5rem .75rem;
+  border-radius: 6px;
+  background: var(--primary);
+  color: var(--theme);
+  text-decoration: none;
+  font-weight: 700;
+}
+.k-follow-feed a:hover,
+.k-follow-feed a:focus-visible {
+  opacity: .85;
+}
+@media (max-width: 700px) {
+  .k-related-grid { grid-template-columns: 1fr; }
+  .k-follow-feed { align-items: flex-start; flex-direction: column; }
+}
+
 /* Sudan 1956 flag hero */
 article.first-entry.home-info::before {
   content: "";
@@ -50,24 +121,6 @@ article.first-entry.home-info::before {
   background-repeat: no-repeat;
   background-position: center;
   margin: 0 auto 2rem;
-}
-
-/* Language switcher: full names */
-html[lang="en"] .lang-menu a[href*="/ar/"] {
-  font-size: 0;
-}
-html[lang="en"] .lang-menu a[href*="/ar/"]::after {
-  content: "العربية";
-  font-size: 14px;
-  white-space: nowrap;
-}
-html[lang="ar"] .lang-menu a[href$="/"]:not([href*="/ar"]) {
-  font-size: 0;
-}
-html[lang="ar"] .lang-menu a[href$="/"]:not([href*="/ar"])::after {
-  content: "English";
-  font-size: 14px;
-  white-space: nowrap;
 }
 
 /* Kandaka wordmark — Nubian Bronze with flag stripe */
