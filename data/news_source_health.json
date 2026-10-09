@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-09T10:09:37.934283+00:00",
+  "updated": "2026-10-09T18:03:24.080281+00:00",
   "sources": [
     {
       "id": "dabanga-en",
@@ -26,7 +26,7 @@
       "id": "bbc-africa",
       "language": "en",
       "status": "ok",
-      "items": 31,
+      "items": 30,
       "accepted": 0
     },
     {
@@ -34,7 +34,7 @@
       "language": "en",
       "status": "ok",
       "items": 25,
-      "accepted": 0
+      "accepted": 1
     },
     {
       "id": "guardian-world",
@@ -48,7 +48,7 @@
       "language": "en",
       "status": "ok",
       "items": 30,
-      "accepted": 3
+      "accepted": 2
     },
     {
       "id": "african-arguments",
@@ -60,9 +60,9 @@
     {
       "id": "un-news-en",
       "language": "en",
-      "status": "ok",
-      "items": 30,
-      "accepted": 6
+      "status": "invalid_feed",
+      "items": 0,
+      "accepted": 0
     },
     {
       "id": "dabanga-ar",
@@ -75,7 +75,7 @@
       "id": "bbc-ar",
       "language": "ar",
       "status": "ok",
-      "items": 25,
+      "items": 24,
       "accepted": 1
     },
     {
@@ -89,15 +89,15 @@
       "id": "alaraby-ar",
       "language": "ar",
       "status": "ok",
-      "items": 182,
-      "accepted": 2
+      "items": 161,
+      "accepted": 1
     },
     {
       "id": "un-news-ar",
       "language": "ar",
       "status": "ok",
       "items": 30,
-      "accepted": 3
+      "accepted": 2
     },
     {
       "id": "altaghyeer-en",
@@ -111,7 +111,7 @@
       "language": "ar",
       "status": "ok",
       "items": 24,
-      "accepted": 14
+      "accepted": 12
     },
     {
       "id": "ayin-ar",
@@ -153,14 +153,14 @@
       "language": "en",
       "status": "ok",
       "items": 12,
-      "accepted": 2
+      "accepted": 4
     },
     {
       "id": "tamazuj-ar",
       "language": "ar",
       "status": "ok",
       "items": 12,
-      "accepted": 3
+      "accepted": 5
     }
   ]
 }
