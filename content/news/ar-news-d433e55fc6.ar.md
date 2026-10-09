@@ -1,0 +1,32 @@
+---
+title: '“تأسيس” والحوار السوداني: بين ضرورة الشمول وخطر شرعنة الانقسام'
+date: '2026-10-09T06:54:02Z'
+description: '“تأسيس” والحوار السوداني: بين ضرورة الشمول وخطر شرعنة الانقسام الواثق
+  كمير kameir@yahoo.com تورونتو، 8 أكتوبر 2026 يجيء هذا المقال استكمالاً للنقاش الذي
+  أثاره مقالي السابق، *”أي حوار سوداني نريد؟ بين المخاوف المشروعة وشروط المصداقية”*
+  (سودانايل، 13 أغسطس 2026)، وفي أعقاب سؤال مهم وردني من صديق عزيز من القيادات المدنية
+  البارزة في تحالف *تأسيس”*، …'
+source: التغيير
+source_id: altaghyeer-ar
+source_class: sudanese_journalism
+link: https://www.altaghyeer.info/ar/2026/10/09/%d8%aa%d8%a3%d8%b3%d9%8a%d8%b3-%d9%88%d8%a7%d9%84%d8%ad%d9%88%d8%a7%d8%b1-%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86%d9%8a-%d8%a8%d9%8a%d9%86-%d8%b6%d8%b1%d9%88%d8%b1%d8%a9-%d8%a7
+category: Sudan News
+geography:
+- National
+language: ar
+status: Reporting
+cluster_id: 1473c4dc6db3
+corroboration_count: 3
+draft: false
+author: صحيفة التغيير
+related_sources:
+- source: Sudan Tribune Arabic
+  link: https://sudantribune.net/article/319764
+- source: سودانايل
+  link: https://sudanile.com/%d8%aa%d8%a3%d8%b3%d9%8a%d8%b3-%d9%88%d8%a7%d9%84%d8%ad%d9%88%d8%a7%d8%b1-%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86%d9%8a-%d8%a8%d9%8a%d9%86-%d8%b6%d8%b1%d9%88%d8%b1%d8%a9-%d8%a7
+clabel: أخبار السودان
+---
+
+“تأسيس” والحوار السوداني: بين ضرورة الشمول وخطر شرعنة الانقسام الواثق كمير kameir@yahoo.com تورونتو، 8 أكتوبر 2026 يجيء هذا المقال استكمالاً للنقاش الذي أثاره مقالي السابق، *”أي حوار سوداني نريد؟ بين المخاوف المشروعة وشروط المصداقية”* (سودانايل، 13 أغسطس 2026)، وفي أعقاب سؤال مهم وردني من صديق عزيز من القيادات المدنية البارزة في تحالف *تأسيس”*، …
+
+[التغيير →](https://www.altaghyeer.info/ar/2026/10/09/%d8%aa%d8%a3%d8%b3%d9%8a%d8%b3-%d9%88%d8%a7%d9%84%d8%ad%d9%88%d8%a7%d8%b1-%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86%d9%8a-%d8%a8%d9%8a%d9%86-%d8%b6%d8%b1%d9%88%d8%b1%d8%a9-%d8%a7)
