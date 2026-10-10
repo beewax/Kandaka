@@ -275,6 +275,10 @@ Every full Library summary should follow this method:
 
 ### L01 — Uranium in Sudan
 
+> Release preparation, 2026-10-10: clean English/Arabic site editions and Leonardo cover prepared; seven matching sections, source checks and 2,296-file cover audit complete. Hugo build passed. Publication authorized and 48-hour gate passed. Release commit/deployment/live verification pending; do not treat the preparation as verified publication. See `docs/L01-uranium-release.md`.
+
+> Preparation update, 2026-10-08: the original 38-page presentation was recovered and checked, and the underlying Adam/Eltayeb journal paper was retrieved from its publisher. **English v2 and full Arabic draft complete locally; publication authorized 2026-09-29; not published.** Source-access hold resolved for the scoped non-quantitative analysis. Inconsistent dates/ranges in the journal paper are disclosed; no commercial reserve or profitability claim is made. Leonardo Lucid Origin cover generated and saved with provenance. Local deliverables: `deliverables/library-analyses/L01-uranium-review.md`, `L01-uranium-arabic-review.md`, `L01-uranium-leonardo.jpg`, and `L01-source-verification-2026-10-08.md` in the parent workspace. Clean site editions, final link/duplicate checks, build and release verification remain. Earliest release is **2026-10-10 06:59 CDT**, maintaining 48 hours after L03. Older status fields below are historical, not current.
+
 - **Exact source to catalog:** `Uranium in Sudan`, Ministry of Minerals / Geological Research Authority of Sudan presentation by Musb Osman Ebrahim and Hesham Aldeen Alkhar (38 pages). The catalog may also contain or describe it as `Uranium in Sudan: Way Forward`; reconcile the exact title/record before publishing.
 - **Research:** Source reviewed
 - **Draft:** Not started
