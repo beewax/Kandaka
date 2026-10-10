@@ -1,19 +1,19 @@
 {
-  "updated": "2026-10-10T09:30:50.781257+00:00",
+  "updated": "2026-10-10T17:03:09.944100+00:00",
   "window_days": 30,
   "en": {
     "balanced": [
       {
-        "Title": "Drone strike kills 30 people in Sudan’s Blue Nile region",
+        "Title": "SPLM-N: Gold potentially ignites fighting in Kauda and Blue Nile",
         "Lang": "en",
-        "Date": "2026-10-09T17:19:43+00:00",
-        "Permalink": "https://www.aljazeera.com/news/2026/10/9/drone-strike-kills-30-people-in-sudans-blue-nile-region?traffic_source=rss",
+        "Date": "2026-10-10T16:55:20+00:00",
+        "Permalink": "https://3ayin.com/en/splm-n-and-gold-",
         "Params": {
-          "description": "Drone reportedly linked to RSF targets Wad al-Mahi, killing dozens near displacement camp, including women and children.",
-          "source": "Al Jazeera English",
-          "source_id": "aljazeera-en",
-          "source_class": "international_journalism",
-          "link": "https://www.aljazeera.com/news/2026/10/9/drone-strike-kills-30-people-in-sudans-blue-nile-region?traffic_source=rss",
+          "description": "10 October 2026 Last Tuesday, a senior military and tribal delegation from Sudan’s paramilitary Rapid Support Forces (RSF) arrived in the Nuba Mountains to help mediate deadly internal clashes between the Sudan People’s Liberation Movement-North (SPLM-N) and local fighters from the Atoro community. The fighting in Heiban and Kauda and surrounding areas in the Nuba […]",
+          "source": "Ayin Network",
+          "source_id": "ayin-en",
+          "source_class": "sudanese_journalism",
+          "link": "https://3ayin.com/en/splm-n-and-gold-",
           "status": "Reporting",
           "geography": [
             "Blue Nile"
@@ -21,10 +21,34 @@
           "image": "",
           "media_reuse_basis": "",
           "related_sources": [],
+          "category": "Economy",
+          "clabel": "اقتصاد",
+          "language": "en",
+          "media_attribution": "Ayin Network"
+        }
+      },
+      {
+        "Title": "Drone strike by Sudan paramilitary kills 41 near Ethiopian border, rights group says",
+        "Lang": "en",
+        "Date": "2026-10-10T14:49:32+00:00",
+        "Permalink": "https://www.bbc.co.uk/news/articles/c8vgx9ew571wo?at_medium=RSS&at_campaign=rss",
+        "Params": {
+          "description": "Eight children are said to be among those killed by the strike, which hit a gathering of displaced people.",
+          "source": "BBC Africa",
+          "source_id": "bbc-africa",
+          "source_class": "international_journalism",
+          "link": "https://www.bbc.co.uk/news/articles/c8vgx9ew571wo?at_medium=RSS&at_campaign=rss",
+          "status": "Reporting",
+          "geography": [
+            "National"
+          ],
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a17b/live/c6c5e2c0-c4b8-11f1-a64c-550be9e3c66b.jpg",
+          "media_reuse_basis": "rss_metadata",
+          "related_sources": [],
           "category": "War & Security",
           "clabel": "الحرب والأمن",
           "language": "en",
-          "media_attribution": "Al Jazeera English"
+          "media_attribution": "BBC Africa"
         }
       },
       {
@@ -76,6 +100,30 @@
         }
       },
       {
+        "Title": "Drone strike kills 30 people in Sudan’s Blue Nile region",
+        "Lang": "en",
+        "Date": "2026-10-09T17:19:43+00:00",
+        "Permalink": "https://www.aljazeera.com/news/2026/10/9/drone-strike-kills-30-people-in-sudans-blue-nile-region?traffic_source=rss",
+        "Params": {
+          "description": "Drone reportedly linked to RSF targets Wad al-Mahi, killing dozens near displacement camp, including women and children.",
+          "source": "Al Jazeera English",
+          "source_id": "aljazeera-en",
+          "source_class": "international_journalism",
+          "link": "https://www.aljazeera.com/news/2026/10/9/drone-strike-kills-30-people-in-sudans-blue-nile-region?traffic_source=rss",
+          "status": "Reporting",
+          "geography": [
+            "Blue Nile"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "War & Security",
+          "clabel": "الحرب والأمن",
+          "language": "en",
+          "media_attribution": "Al Jazeera English"
+        }
+      },
+      {
         "Title": "Darfur: Healthcare needs outstrip resources as Security Council extends Sudan sanctions",
         "Lang": "en",
         "Date": "2026-10-08T12:00:00+00:00",
@@ -124,40 +172,16 @@
         }
       },
       {
-        "Title": "Darfur: The right to return the land before the International Criminal Court",
+        "Title": "UN condemns drone strike that killed 31 civilians in Blue Nile",
         "Lang": "en",
-        "Date": "2026-10-07T17:14:29+00:00",
-        "Permalink": "https://3ayin.com/en/icc-5-",
+        "Date": "2026-10-10T14:08:16+00:00",
+        "Permalink": "https://www.radiotamazuj.org/en/news/article/un-condemns-drone-strike-that-killed-31-civilians-in-blue-nile",
         "Params": {
-          "description": "7 October 2026 More than two decades after the mass displacement of Darfur’s population, the issue of reparations for victims of crimes is no longer solely about financial compensation. In the International Criminal Court’s hearing on reparations for the victims of Ali Muhammad Ali Abd-al-Rahman, known as “Ali Kushayb,” land and traditional grazing rights emerged […]",
-          "source": "Ayin Network",
-          "source_id": "ayin-en",
-          "source_class": "sudanese_journalism",
-          "link": "https://3ayin.com/en/icc-5-",
-          "status": "Reporting",
-          "geography": [
-            "Darfur"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "Sudan News",
-          "clabel": "أخبار السودان",
-          "language": "en",
-          "media_attribution": "Ayin Network"
-        }
-      },
-      {
-        "Title": "More than 20 killed in drone strike on gold miners in Blue Nile",
-        "Lang": "en",
-        "Date": "2026-10-09T12:28:38+00:00",
-        "Permalink": "https://www.radiotamazuj.org/en/news/article/more-than-20-killed-in-drone-strike-on-gold-miners-in-blue-nile",
-        "Params": {
-          "description": "More than 20 people, mostly women and children, were killed on Friday in a drone The post More than 20 killed in drone strike on gold miners in Blue Nile appeared first on Radio Tamazuj .",
+          "description": "The United Nations’ humanitarian coordinator in Sudan on Saturday condemned a drone strike near a The post UN condemns drone strike that killed 31 civilians in Blue Nile appeared first on Radio Tamazuj .",
           "source": "Radio Tamazuj",
           "source_id": "tamazuj-en",
           "source_class": "regional_journalism",
-          "link": "https://www.radiotamazuj.org/en/news/article/more-than-20-killed-in-drone-strike-on-gold-miners-in-blue-nile",
+          "link": "https://www.radiotamazuj.org/en/news/article/un-condemns-drone-strike-that-killed-31-civilians-in-blue-nile",
           "status": "Reporting",
           "geography": [
             "Blue Nile"
@@ -165,8 +189,8 @@
           "image": "",
           "media_reuse_basis": "",
           "related_sources": [],
-          "category": "Economy",
-          "clabel": "اقتصاد",
+          "category": "War & Security",
+          "clabel": "الحرب والأمن",
           "language": "en",
           "media_attribution": "Radio Tamazuj"
         }
@@ -217,6 +241,30 @@
           "clabel": "الحرب والأمن",
           "language": "en",
           "media_attribution": "Sudan War Monitor"
+        }
+      },
+      {
+        "Title": "Darfur: The right to return the land before the International Criminal Court",
+        "Lang": "en",
+        "Date": "2026-10-07T17:14:29+00:00",
+        "Permalink": "https://3ayin.com/en/icc-5-",
+        "Params": {
+          "description": "7 October 2026 More than two decades after the mass displacement of Darfur’s population, the issue of reparations for victims of crimes is no longer solely about financial compensation. In the International Criminal Court’s hearing on reparations for the victims of Ali Muhammad Ali Abd-al-Rahman, known as “Ali Kushayb,” land and traditional grazing rights emerged […]",
+          "source": "Ayin Network",
+          "source_id": "ayin-en",
+          "source_class": "sudanese_journalism",
+          "link": "https://3ayin.com/en/icc-5-",
+          "status": "Reporting",
+          "geography": [
+            "Darfur"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "Sudan News",
+          "clabel": "أخبار السودان",
+          "language": "en",
+          "media_attribution": "Ayin Network"
         }
       },
       {
@@ -340,30 +388,6 @@
         }
       },
       {
-        "Title": "Al-Jazeera: A gold ring to build a school",
-        "Lang": "en",
-        "Date": "2026-10-07T19:25:24+00:00",
-        "Permalink": "https://3ayin.com/en/al-jazeera-14-",
-        "Params": {
-          "description": "7 October 2026 In a small town in Jazeera State, central Sudan, a school whose classrooms had been in ruins reopened months after the end of fighting in the area. The walls bore the marks of bullets, the roofs were damaged, and the village children eagerly awaited their return to school. As the villagers gathered […]",
-          "source": "Ayin Network",
-          "source_id": "ayin-en",
-          "source_class": "sudanese_journalism",
-          "link": "https://3ayin.com/en/al-jazeera-14-",
-          "status": "Reporting",
-          "geography": [
-            "National"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "Education",
-          "clabel": "تعليم",
-          "language": "en",
-          "media_attribution": "Ayin Network"
-        }
-      },
-      {
         "Title": "Ethiopia accuses Eritrea, Sudan of backing Tigray rebels amid clashes",
         "Lang": "en",
         "Date": "2026-09-27T23:27:29+00:00",
@@ -388,30 +412,6 @@
         }
       },
       {
-        "Title": "The wedding photographer of Darfur: Focusing on love in Sudan's war",
-        "Lang": "en",
-        "Date": "2026-09-20T15:34:52+00:00",
-        "Permalink": "https://www.bbc.co.uk/news/videos/c804pkymz2eo?at_medium=RSS&at_campaign=rss",
-        "Params": {
-          "description": "",
-          "source": "BBC Africa",
-          "source_id": "bbc-africa",
-          "source_class": "international_journalism",
-          "link": "https://www.bbc.co.uk/news/videos/c804pkymz2eo?at_medium=RSS&at_campaign=rss",
-          "status": "Reporting",
-          "geography": [
-            "Darfur"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "Culture",
-          "clabel": "ثقافة",
-          "language": "en",
-          "media_attribution": "BBC Africa"
-        }
-      },
-      {
         "Title": "RSF Suffers Another Defeat in North Kordofan",
         "Lang": "en",
         "Date": "2026-09-26T10:07:41+00:00",
@@ -433,6 +433,30 @@
           "clabel": "الحرب والأمن",
           "language": "en",
           "media_attribution": "Sudan War Monitor"
+        }
+      },
+      {
+        "Title": "The wedding photographer of Darfur: Focusing on love in Sudan's war",
+        "Lang": "en",
+        "Date": "2026-09-20T15:34:52+00:00",
+        "Permalink": "https://www.bbc.co.uk/news/videos/c804pkymz2eo?at_medium=RSS&at_campaign=rss",
+        "Params": {
+          "description": "",
+          "source": "BBC Africa",
+          "source_id": "bbc-africa",
+          "source_class": "international_journalism",
+          "link": "https://www.bbc.co.uk/news/videos/c804pkymz2eo?at_medium=RSS&at_campaign=rss",
+          "status": "Reporting",
+          "geography": [
+            "Darfur"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "Culture",
+          "clabel": "ثقافة",
+          "language": "en",
+          "media_attribution": "BBC Africa"
         }
       },
       {
@@ -555,33 +579,81 @@
           "language": "en",
           "media_attribution": "Al Taghyeer"
         }
-      },
+      }
+    ],
+    "latest": [
       {
-        "Title": "Sudan's healthcare system on brink of collapse after cuts, medical charity warns",
+        "Title": "SPLM-N: Gold potentially ignites fighting in Kauda and Blue Nile",
         "Lang": "en",
-        "Date": "2026-09-10T10:47:29+00:00",
-        "Permalink": "https://www.bbc.co.uk/news/articles/c62m8247yleo?at_medium=RSS&at_campaign=rss",
+        "Date": "2026-10-10T16:55:20+00:00",
+        "Permalink": "https://3ayin.com/en/splm-n-and-gold-",
         "Params": {
-          "description": "",
-          "source": "BBC Africa",
-          "source_id": "bbc-africa",
-          "source_class": "international_journalism",
-          "link": "https://www.bbc.co.uk/news/articles/c62m8247yleo?at_medium=RSS&at_campaign=rss",
+          "description": "10 October 2026 Last Tuesday, a senior military and tribal delegation from Sudan’s paramilitary Rapid Support Forces (RSF) arrived in the Nuba Mountains to help mediate deadly internal clashes between the Sudan People’s Liberation Movement-North (SPLM-N) and local fighters from the Atoro community. The fighting in Heiban and Kauda and surrounding areas in the Nuba […]",
+          "source": "Ayin Network",
+          "source_id": "ayin-en",
+          "source_class": "sudanese_journalism",
+          "link": "https://3ayin.com/en/splm-n-and-gold-",
           "status": "Reporting",
           "geography": [
-            "National"
+            "Blue Nile"
           ],
           "image": "",
           "media_reuse_basis": "",
           "related_sources": [],
-          "category": "Health",
-          "clabel": "صحة",
+          "category": "Economy",
+          "clabel": "اقتصاد",
+          "language": "en",
+          "media_attribution": "Ayin Network"
+        }
+      },
+      {
+        "Title": "Drone strike by Sudan paramilitary kills 41 near Ethiopian border, rights group says",
+        "Lang": "en",
+        "Date": "2026-10-10T14:49:32+00:00",
+        "Permalink": "https://www.bbc.co.uk/news/articles/c8vgx9ew571wo?at_medium=RSS&at_campaign=rss",
+        "Params": {
+          "description": "Eight children are said to be among those killed by the strike, which hit a gathering of displaced people.",
+          "source": "BBC Africa",
+          "source_id": "bbc-africa",
+          "source_class": "international_journalism",
+          "link": "https://www.bbc.co.uk/news/articles/c8vgx9ew571wo?at_medium=RSS&at_campaign=rss",
+          "status": "Reporting",
+          "geography": [
+            "National"
+          ],
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a17b/live/c6c5e2c0-c4b8-11f1-a64c-550be9e3c66b.jpg",
+          "media_reuse_basis": "rss_metadata",
+          "related_sources": [],
+          "category": "War & Security",
+          "clabel": "الحرب والأمن",
           "language": "en",
           "media_attribution": "BBC Africa"
         }
-      }
-    ],
-    "latest": [
+      },
+      {
+        "Title": "UN condemns drone strike that killed 31 civilians in Blue Nile",
+        "Lang": "en",
+        "Date": "2026-10-10T14:08:16+00:00",
+        "Permalink": "https://www.radiotamazuj.org/en/news/article/un-condemns-drone-strike-that-killed-31-civilians-in-blue-nile",
+        "Params": {
+          "description": "The United Nations’ humanitarian coordinator in Sudan on Saturday condemned a drone strike near a The post UN condemns drone strike that killed 31 civilians in Blue Nile appeared first on Radio Tamazuj .",
+          "source": "Radio Tamazuj",
+          "source_id": "tamazuj-en",
+          "source_class": "regional_journalism",
+          "link": "https://www.radiotamazuj.org/en/news/article/un-condemns-drone-strike-that-killed-31-civilians-in-blue-nile",
+          "status": "Reporting",
+          "geography": [
+            "Blue Nile"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "War & Security",
+          "clabel": "الحرب والأمن",
+          "language": "en",
+          "media_attribution": "Radio Tamazuj"
+        }
+      },
       {
         "Title": "Drone strike kills 30 people in Sudan’s Blue Nile region",
         "Lang": "en",
@@ -4110,78 +4182,6 @@
           "language": "en",
           "media_attribution": "Radio Dabanga"
         }
-      },
-      {
-        "Title": "W. Darfur graduates administrative officers to strengthen governance",
-        "Lang": "en",
-        "Date": "2026-09-21T10:55:30+00:00",
-        "Permalink": "https://www.radiotamazuj.org/en/news/article/w-darfur-graduates-administrative-officers-to-strengthen-governance",
-        "Params": {
-          "description": "Sudan’s West Darfur State has graduated a new cohort of administrative officers following academic and The post W. Darfur graduates administrative officers to strengthen governance appeared first on Radio Tamazuj .",
-          "source": "Radio Tamazuj",
-          "source_id": "tamazuj-en",
-          "source_class": "regional_journalism",
-          "link": "https://www.radiotamazuj.org/en/news/article/w-darfur-graduates-administrative-officers-to-strengthen-governance",
-          "status": "Reporting",
-          "geography": [
-            "Darfur"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "Sudan News",
-          "clabel": "أخبار السودان",
-          "language": "en",
-          "media_attribution": "Radio Tamazuj"
-        }
-      },
-      {
-        "Title": "Fuel crisis chokes Khartoum, other states as shortages drive black market",
-        "Lang": "en",
-        "Date": "2026-09-21T10:14:58+00:00",
-        "Permalink": "https://www.radiotamazuj.org/en/news/article/fuel-crisis-chokes-khartoum-other-states-as-shortages-drive-black-market",
-        "Params": {
-          "description": "Sudan’s fuel crisis has deepened sharply in the capital, Khartoum, and several other cities, with The post Fuel crisis chokes Khartoum, other states as shortages drive black market appeared first on Radio Tamazuj .",
-          "source": "Radio Tamazuj",
-          "source_id": "tamazuj-en",
-          "source_class": "regional_journalism",
-          "link": "https://www.radiotamazuj.org/en/news/article/fuel-crisis-chokes-khartoum-other-states-as-shortages-drive-black-market",
-          "status": "Reporting",
-          "geography": [
-            "Khartoum"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "Sudan News",
-          "clabel": "أخبار السودان",
-          "language": "en",
-          "media_attribution": "Radio Tamazuj"
-        }
-      },
-      {
-        "Title": "Bank of Sudan’s banking sector reform strategy faces range of challenges, led by digital transformation",
-        "Lang": "en",
-        "Date": "2026-09-21T10:00:00+00:00",
-        "Permalink": "https://www.dabangasudan.org/en/all-news/article/bank-of-sudans-banking-sector-reform-strategy-faces-range-of-challenges-led-by-digital-transformation",
-        "Params": {
-          "description": "By Suleiman Siri for Radio Dabanga The Central Bank of Sudan has announced a new... The post Bank of Sudan’s banking sector reform strategy faces range of challenges, led by digital transformation appeared first on Dabanga Radio TV Online .",
-          "source": "Radio Dabanga",
-          "source_id": "dabanga-en",
-          "source_class": "sudanese_journalism",
-          "link": "https://www.dabangasudan.org/en/all-news/article/bank-of-sudans-banking-sector-reform-strategy-faces-range-of-challenges-led-by-digital-transformation",
-          "status": "Reporting",
-          "geography": [
-            "National"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "Economy",
-          "clabel": "اقتصاد",
-          "language": "en",
-          "media_attribution": "Radio Dabanga"
-        }
       }
     ],
     "publishers": 12
@@ -4189,91 +4189,40 @@
   "ar": {
     "balanced": [
       {
-        "Title": "شبكة الإنذار المبكر: خطر المجاعة يمتد إلى جنوب دارفور",
+        "Title": "«قلم السودان».. ماذا يعني تأسيس كيان للدفاع عن حرية التعبير؟",
         "Lang": "ar",
-        "Date": "2026-10-10T09:26:20+00:00",
-        "Permalink": "https://sudantribune.net/article/319792",
+        "Date": "2026-10-10T14:16:40+00:00",
+        "Permalink": "https://3ayin.com/sudan-pen-",
         "Params": {
-          "description": "الخرطوم 10 أكتوبر 2026 – قالت شبكة أنظمة الإنذار المبكر بالمجاعة، السبت، إن خطر المجاعة امتد إلى مناطق في جنوب دارفور، نتيجة لتفاقم سوء التغذية والجفاف، كما توقعت استمرار الجوع في مناطق عديدة بدارفور وكردفان والنيل الأزرق حتى يناير المقبل. وتأثرت المحاصيل المزروعة في أجزاء واسعة من السودان بالجفاف، مما يثير مخاوف من توسع نطاق الجوع، فيما يجبر تقلص المراعي المزيد من مربي الماشية على التخلص من مواشيهم في ظل ارتفاع أسعا",
-          "source": "Sudan Tribune Arabic",
-          "source_id": "sudan-tribune-ar",
+          "description": "عاين- 10 أكتوبر 2026 حصل «قلم السودان» على الاعتماد الرسمي ضمن «القلم الدولي»، خلال المؤتمر الثاني والتسعين. ويأتي تأسيس الكيان في وقت يعيش فيه الكتاب والصحفيون والمبدعون السودانيون ظروفاً فرضتها الحرب المستمرة منذ أبريل 2023، وما صاحب ذلك من نزوح ولجوء وقمع وتضييق وحظر، إلى جانب الاستقطاب والانقسام الذي طال مجالات عديدة. ويطرح الكيان مساحة […]",
+          "source": "عاين",
+          "source_id": "ayin-ar",
           "source_class": "sudanese_journalism",
-          "link": "https://sudantribune.net/article/319792",
+          "link": "https://3ayin.com/sudan-pen-",
           "status": "Reporting",
           "geography": [
-            "Khartoum",
-            "Darfur",
-            "Kordofan",
-            "Blue Nile"
+            "National"
           ],
           "image": "",
           "media_reuse_basis": "",
           "related_sources": [],
-          "category": "Humanitarian",
-          "clabel": "إنساني",
-          "language": "ar",
-          "media_attribution": "Sudan Tribune Arabic"
-        }
-      },
-      {
-        "Title": "رسالة لشباب الدول النامية — السودان مثال: كيف ومتى يتعافى",
-        "Lang": "ar",
-        "Date": "2026-10-10T08:04:48+00:00",
-        "Permalink": "https://sudanile.com/%d8%b1%d8%b3%d8%a7%d9%84%d8%a9-%d9%84%d8%b4%d8%a8%d8%a7%d8%a8-%d8%a7%d9%84%d8%af%d9%88%d9%84-%d8%a7%d9%84%d9%86%d8%a7%d9%85%d9%8a%d8%a9-%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86-%d9%85",
-        "Params": {
-          "description": "د. طبيب عبدالمنعم عبدالمحمود العربي مقدمة: قراءة في مقال الأستاذ زهير عثمان حمد كتب الأستاذ زهير عثمان حمد “حين يتعافى السودان من صراع البندقية إلى صراع العقل”، على سودانايل الثلاثاء السادس من هذا الشهر، فسرني طرحه لأنه موضوع يذكر به المسؤولين الغافلين، وينتقد فكراً ونمطاً سياسياً لا يخدم مصالح المواطن والوطن. فليت الذين يتحاربون بالبندقية […] The post رسالة لشباب الدول النامية — السودان مثال: كيف ومتى يتعافى appeare",
-          "source": "سودانايل",
-          "source_id": "sudanile-ar",
-          "source_class": "sudanese_diaspora",
-          "link": "https://sudanile.com/%d8%b1%d8%b3%d8%a7%d9%84%d8%a9-%d9%84%d8%b4%d8%a8%d8%a7%d8%a8-%d8%a7%d9%84%d8%af%d9%88%d9%84-%d8%a7%d9%84%d9%86%d8%a7%d9%85%d9%8a%d8%a9-%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86-%d9%85",
-          "status": "Reporting",
-          "geography": [
-            "National"
-          ],
-          "image": "https://sudanile.com/wp-content/uploads/2026/01/arabi.jpg",
-          "media_reuse_basis": "rss_metadata",
-          "related_sources": [],
-          "category": "Sudan News",
-          "clabel": "أخبار السودان",
-          "language": "ar",
-          "media_attribution": "سودانايل"
-        }
-      },
-      {
-        "Title": "تحالف تأسيس يتهم الطيران الحربي المصري باستهداف السودانيين في منطقة ابو شندي في النيل الازرق",
-        "Lang": "ar",
-        "Date": "2026-10-09T22:25:56+00:00",
-        "Permalink": "https://sudanwarmonitor.com/p/96b",
-        "Params": {
-          "description": "الأمم المتحدة تؤكد مقتل عشرات المدنيين في غارة بطائرة مسيّرة استهدفت موقعاً للنازحين في اقليم الفونج",
-          "source": "Sudan War Monitor",
-          "source_id": "sudan-war-monitor",
-          "source_class": "analysis",
-          "link": "https://sudanwarmonitor.com/p/96b",
-          "status": "Analysis",
-          "geography": [
-            "National"
-          ],
-          "image": "https://substackcdn.com/image/fetch/$s_!rjjO!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F125e31b3-84eb-4a8f-b9d9-1dfc0e84114c_960x719.jpeg",
-          "media_reuse_basis": "rss_metadata",
-          "related_sources": [],
           "category": "War & Security",
           "clabel": "الحرب والأمن",
           "language": "ar",
-          "media_attribution": "Sudan War Monitor"
+          "media_attribution": "عاين"
         }
       },
       {
-        "Title": "أزمة “بنكك” تفتح باب البدائل.. هل تنجح الخدمات الإضافية في إنقاذ بنك الخرطوم؟",
+        "Title": "الخرطوم تؤجل بداية العام الدراسي إلى 18 أكتوبر",
         "Lang": "ar",
-        "Date": "2026-10-09T15:47:54+00:00",
-        "Permalink": "https://www.dabangasudan.org/ar/all-news/article/%d8%a3%d8%b2%d9%85%d8%a9-%d8%a8%d9%86%d9%83%d9%83-%d8%aa%d9%81%d8%aa%d8%ad-%d8%a8%d8%a7%d8%a8-%d8%a7%d9%84%d8%a8%d8%af%d8%a7%d8%a6%d9%84-%d9%87%d9%84-%d8%aa%d9%86%d8%ac%d8%ad-%d8%a7%d9%84%d8%ae",
+        "Date": "2026-10-10T13:46:25+00:00",
+        "Permalink": "https://sudantribune.net/article/319798",
         "Params": {
-          "description": "أمستردام: الجمعة 9 أكتوبر 2026م: راديو دبنقا تقرير: سليمان سري أثار تذبذب خدمة تطبيق “بنكك”... The post أزمة “بنكك” تفتح باب البدائل.. هل تنجح الخدمات الإضافية في إنقاذ بنك الخرطوم؟ appeared first on Dabanga Radio TV Online .",
-          "source": "راديو دبنقا",
-          "source_id": "dabanga-ar",
+          "description": "الخرطوم 10 أكتوبر 2026 – أعلنت وزارة التعليم والتربية الوطنية بولاية الخرطوم، السبت، تأجيل بداية العام الدراسي الجديد 2026-2027 في جميع مدارس الولاية إلى 18 أكتوبر الجاري، بدلًا من الموعد السابق المحدد في 11 أكتوبر. ويأتي تأجيل العام الدراسي الجديد في ولاية الخرطوم في وقت تتصاعد فيه مطالب المعلمين السودانيين بتحسين الأجور وصرف المستحقات المالية المتأخرة، وسط احتجاجات وإضرابات شهدتها عدة ولايات خلال الأشهر الماضية، وأ",
+          "source": "Sudan Tribune Arabic",
+          "source_id": "sudan-tribune-ar",
           "source_class": "sudanese_journalism",
-          "link": "https://www.dabangasudan.org/ar/all-news/article/%d8%a3%d8%b2%d9%85%d8%a9-%d8%a8%d9%86%d9%83%d9%83-%d8%aa%d9%81%d8%aa%d8%ad-%d8%a8%d8%a7%d8%a8-%d8%a7%d9%84%d8%a8%d8%af%d8%a7%d8%a6%d9%84-%d9%87%d9%84-%d8%aa%d9%86%d8%ac%d8%ad-%d8%a7%d9%84%d8%ae",
+          "link": "https://sudantribune.net/article/319798",
           "status": "Reporting",
           "geography": [
             "Khartoum"
@@ -4281,8 +4230,80 @@
           "image": "",
           "media_reuse_basis": "",
           "related_sources": [],
-          "category": "Economy",
-          "clabel": "اقتصاد",
+          "category": "Education",
+          "clabel": "تعليم",
+          "language": "ar",
+          "media_attribution": "Sudan Tribune Arabic"
+        }
+      },
+      {
+        "Title": "نون النسوة السوداني .. سطوة الكلمة في وجه الإستبداد !!",
+        "Lang": "ar",
+        "Date": "2026-10-10T13:12:25+00:00",
+        "Permalink": "https://www.altaghyeer.info/ar/2026/10/10/%d9%86%d9%88%d9%86-%d8%a7%d9%84%d9%86%d8%b3%d9%88%d8%a9-%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86%d9%8a-%d8%b3%d8%b7%d9%88%d8%a9-%d8%a7%d9%84%d9%83%d9%84%d9%85%d8%a9-%d9%81%d9%8a-%d9%88%d8%ac",
+        "Params": {
+          "description": "نون النسوة السوداني .. سطوة الكلمة في وجه الإستبداد !! فضيلي جماع يعترف كاتب هذه السطور بأنه مدين لجنس المرأة منذ يوم مولده إلى أن يرحل من هذه الفانية. ويضيف بأنه غير محايد فيما يتعلق بأمر المساواة بين المرأة والرجل في مجتمع ذكوري يجعل القوامة للرجل على المرأة حتى إذا كانت تنقص الرجل الوصاية على …",
+          "source": "التغيير",
+          "source_id": "altaghyeer-ar",
+          "source_class": "sudanese_journalism",
+          "link": "https://www.altaghyeer.info/ar/2026/10/10/%d9%86%d9%88%d9%86-%d8%a7%d9%84%d9%86%d8%b3%d9%88%d8%a9-%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86%d9%8a-%d8%b3%d8%b7%d9%88%d8%a9-%d8%a7%d9%84%d9%83%d9%84%d9%85%d8%a9-%d9%81%d9%8a-%d9%88%d8%ac",
+          "status": "Reporting",
+          "geography": [
+            "National"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "Sudan News",
+          "clabel": "أخبار السودان",
+          "language": "ar",
+          "media_attribution": "التغيير"
+        }
+      },
+      {
+        "Title": "كلمات سودانية معجمية مهجورة في لغة الكتابة (١٥)",
+        "Lang": "ar",
+        "Date": "2026-10-10T07:38:04+00:00",
+        "Permalink": "https://sudanile.com/%d9%83%d9%84%d9%85%d8%a7%d8%aa-%d8%b3%d9%88%d8%af%d8%a7%d9%86%d9%8a%d8%a9-%d9%85%d8%b9%d8%ac%d9%85%d9%8a%d8%a9-%d9%85%d9%87%d8%ac%d9%88%d8%b1%d8%a9-%d9%81%d9%8a-%d9%84%d8%ba%d8%a9-%d8%a7%d9%84-16",
+        "Params": {
+          "description": "عبد المنعم عجب الفَيا اخدر وخداري:ربما لا يعلم الناس ان كلمة اخدر بالدال معجمية، وهي أخضر ذاتها. فالدال في أخدر ليست منقلبة عن الضاد كما يعتقد، وإنما أصلية. وقد وردت اخدر واخضر كل على حدة في لسان العرب بالمعاني ذاتها.ويقال اخدر في اللهجة السودانية للاسود البشرة، ولكنها الخدرة الخفيفة مقابل الخدرة الداكنة التي يقال لصاحبها […] The post كلمات سودانية معجمية مهجورة في لغة الكتابة (١٥) appeared first on سودانايل .",
+          "source": "سودانايل",
+          "source_id": "sudanile-ar",
+          "source_class": "sudanese_diaspora",
+          "link": "https://sudanile.com/%d9%83%d9%84%d9%85%d8%a7%d8%aa-%d8%b3%d9%88%d8%af%d8%a7%d9%86%d9%8a%d8%a9-%d9%85%d8%b9%d8%ac%d9%85%d9%8a%d8%a9-%d9%85%d9%87%d8%ac%d9%88%d8%b1%d8%a9-%d9%81%d9%8a-%d9%84%d8%ba%d8%a9-%d8%a7%d9%84-16",
+          "status": "Reporting",
+          "geography": [
+            "National"
+          ],
+          "image": "https://sudanile.com/wp-content/uploads/2026/01/agabfaia.jpg",
+          "media_reuse_basis": "rss_metadata",
+          "related_sources": [],
+          "category": "Culture",
+          "clabel": "ثقافة",
+          "language": "ar",
+          "media_attribution": "سودانايل"
+        }
+      },
+      {
+        "Title": "غياب المراكز الصحية يفاقم معاناة النساء الحوامل في أبو حمرة بجنوب دارفور",
+        "Lang": "ar",
+        "Date": "2026-10-09T14:32:20+00:00",
+        "Permalink": "https://www.dabangasudan.org/ar/all-news/article/%d8%ba%d9%8a%d8%a7%d8%a8-%d8%a7%d9%84%d9%85%d8%b1%d8%a7%d9%83%d8%b2-%d8%a7%d9%84%d8%b5%d8%ad%d9%8a%d8%a9-%d9%8a%d9%81%d8%a7%d9%82%d9%85-%d9%85%d8%b9%d8%a7%d9%86%d8%a7%d8%a9-%d8%a7%d9%84%d9%86%d8%b3",
+        "Params": {
+          "description": "أبو حمرة: 9 اكتوبر 2026: راديو دبنقاتواجه النساء الحوامل والفتيات في سن الإنجاب بمنطقة أبو... The post غياب المراكز الصحية يفاقم معاناة النساء الحوامل في أبو حمرة بجنوب دارفور appeared first on Dabanga Radio TV Online .",
+          "source": "راديو دبنقا",
+          "source_id": "dabanga-ar",
+          "source_class": "sudanese_journalism",
+          "link": "https://www.dabangasudan.org/ar/all-news/article/%d8%ba%d9%8a%d8%a7%d8%a8-%d8%a7%d9%84%d9%85%d8%b1%d8%a7%d9%83%d8%b2-%d8%a7%d9%84%d8%b5%d8%ad%d9%8a%d8%a9-%d9%8a%d9%81%d8%a7%d9%82%d9%85-%d9%85%d8%b9%d8%a7%d9%86%d8%a7%d8%a9-%d8%a7%d9%84%d9%86%d8%b3",
+          "status": "Reporting",
+          "geography": [
+            "Darfur"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "Health",
+          "clabel": "صحة",
           "language": "ar",
           "media_attribution": "راديو دبنقا"
         }
@@ -4336,27 +4357,27 @@
         }
       },
       {
-        "Title": "السودانوية ومدرسة الغابة والصحراء",
+        "Title": "تحالف تأسيس يتهم الطيران الحربي المصري باستهداف السودانيين في منطقة ابو شندي في النيل الازرق",
         "Lang": "ar",
-        "Date": "2026-10-08T08:47:27+00:00",
-        "Permalink": "https://www.altaghyeer.info/ar/2026/10/08/%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86%d9%88%d9%8a%d8%a9-%d9%88%d9%85%d8%af%d8%b1%d8%b3%d8%a9-%d8%a7%d9%84%d8%ba%d8%a7%d8%a8%d8%a9-%d9%88%d8%a7%d9%84%d8%b5%d8%ad%d8%b1%d8%a7%d8%a1",
+        "Date": "2026-10-09T22:25:56+00:00",
+        "Permalink": "https://sudanwarmonitor.com/p/96b",
         "Params": {
-          "description": "السودانوية ومدرسة الغابة والصحراء التقي البشير الماحي في فيديو انتشر على وسائل التواصل لشاب صغير سناً وقد أجبرته الحرب اللعينة على الفرار شأنه شان العديد من الذين لقوا حتفهم في البحر يتحدث فيه الشاب بطرافة عن موقف حدث له في ليبيا حين تم القبض عليه وأودع السجن وقد طلب منهم الضابط الليبي الاصطفاف حسب الإثنية …",
-          "source": "التغيير",
-          "source_id": "altaghyeer-ar",
-          "source_class": "sudanese_journalism",
-          "link": "https://www.altaghyeer.info/ar/2026/10/08/%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86%d9%88%d9%8a%d8%a9-%d9%88%d9%85%d8%af%d8%b1%d8%b3%d8%a9-%d8%a7%d9%84%d8%ba%d8%a7%d8%a8%d8%a9-%d9%88%d8%a7%d9%84%d8%b5%d8%ad%d8%b1%d8%a7%d8%a1",
-          "status": "Reporting",
+          "description": "الأمم المتحدة تؤكد مقتل عشرات المدنيين في غارة بطائرة مسيّرة استهدفت موقعاً للنازحين في اقليم الفونج",
+          "source": "Sudan War Monitor",
+          "source_id": "sudan-war-monitor",
+          "source_class": "analysis",
+          "link": "https://sudanwarmonitor.com/p/96b",
+          "status": "Analysis",
           "geography": [
             "National"
           ],
-          "image": "",
-          "media_reuse_basis": "",
+          "image": "https://substackcdn.com/image/fetch/$s_!rjjO!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F125e31b3-84eb-4a8f-b9d9-1dfc0e84114c_960x719.jpeg",
+          "media_reuse_basis": "rss_metadata",
           "related_sources": [],
-          "category": "Education",
-          "clabel": "تعليم",
+          "category": "War & Security",
+          "clabel": "الحرب والأمن",
           "language": "ar",
-          "media_attribution": "التغيير"
+          "media_attribution": "Sudan War Monitor"
         }
       },
       {
@@ -4384,27 +4405,30 @@
         }
       },
       {
-        "Title": "مقابر الذهب في السودان.. كيف تنهي الآبار حياة المنقبين؟",
+        "Title": "شبكة الإنذار المبكر: خطر المجاعة يمتد إلى جنوب دارفور",
         "Lang": "ar",
-        "Date": "2026-10-08T15:54:25+00:00",
-        "Permalink": "https://3ayin.com/gold-tombs-",
+        "Date": "2026-10-10T09:26:20+00:00",
+        "Permalink": "https://sudantribune.net/article/319792",
         "Params": {
-          "description": "عاين- 8 أكتوبر 2026 خرج معتز إسماعيل لتوه من مرحلة الطفولة، لكنه لم يجد نفسه على مقاعد الدراسة كما يفترض لشاب في الثامنة عشرة من عمره، بل داخل بئر يتجاوز عمقها 30 متراً، يحمل أدوات بدائية من بينها “أجنة وشاكوش”، لتكسير الصخور بحثاً عن الذهب. يقول إسماعيل لـ(عاين): إنه ترك الدراسة مجبراً بعد إغلاق المدارس […]",
-          "source": "عاين",
-          "source_id": "ayin-ar",
+          "description": "الخرطوم 10 أكتوبر 2026 – قالت شبكة أنظمة الإنذار المبكر بالمجاعة، السبت، إن خطر المجاعة امتد إلى مناطق في جنوب دارفور، نتيجة لتفاقم سوء التغذية والجفاف، كما توقعت استمرار الجوع في مناطق عديدة بدارفور وكردفان والنيل الأزرق حتى يناير المقبل. وتأثرت المحاصيل المزروعة في أجزاء واسعة من السودان بالجفاف، مما يثير مخاوف من توسع نطاق الجوع، فيما يجبر تقلص المراعي المزيد من مربي الماشية على التخلص من مواشيهم في ظل ارتفاع أسعا",
+          "source": "Sudan Tribune Arabic",
+          "source_id": "sudan-tribune-ar",
           "source_class": "sudanese_journalism",
-          "link": "https://3ayin.com/gold-tombs-",
+          "link": "https://sudantribune.net/article/319792",
           "status": "Reporting",
           "geography": [
-            "National"
+            "Khartoum",
+            "Darfur",
+            "Kordofan",
+            "Blue Nile"
           ],
           "image": "",
           "media_reuse_basis": "",
           "related_sources": [],
-          "category": "Economy",
-          "clabel": "اقتصاد",
+          "category": "Humanitarian",
+          "clabel": "إنساني",
           "language": "ar",
-          "media_attribution": "عاين"
+          "media_attribution": "Sudan Tribune Arabic"
         }
       },
       {
@@ -4432,75 +4456,51 @@
         }
       },
       {
-        "Title": "كلمات سودانية معجمية مهجورة في لغة الكتابة (١٥)",
+        "Title": "شهادة مجروحة عن فساد سلطة بورتسودان..!",
         "Lang": "ar",
-        "Date": "2026-10-10T07:38:04+00:00",
-        "Permalink": "https://sudanile.com/%d9%83%d9%84%d9%85%d8%a7%d8%aa-%d8%b3%d9%88%d8%af%d8%a7%d9%86%d9%8a%d8%a9-%d9%85%d8%b9%d8%ac%d9%85%d9%8a%d8%a9-%d9%85%d9%87%d8%ac%d9%88%d8%b1%d8%a9-%d9%81%d9%8a-%d9%84%d8%ba%d8%a9-%d8%a7%d9%84-16",
+        "Date": "2026-10-10T11:10:08+00:00",
+        "Permalink": "https://sudanile.com/%d8%b4%d9%87%d8%a7%d8%af%d8%a9-%d9%85%d8%ac%d8%b1%d9%88%d8%ad%d8%a9-%d8%b9%d9%86-%d9%81%d8%b3%d8%a7%d8%af-%d8%b3%d9%84%d8%b7%d8%a9-%d8%a8%d9%88%d8%b1%d8%aa%d8%b3%d9%88%d8%af%d8%a7%d9%86",
         "Params": {
-          "description": "عبد المنعم عجب الفَيا اخدر وخداري:ربما لا يعلم الناس ان كلمة اخدر بالدال معجمية، وهي أخضر ذاتها. فالدال في أخدر ليست منقلبة عن الضاد كما يعتقد، وإنما أصلية. وقد وردت اخدر واخضر كل على حدة في لسان العرب بالمعاني ذاتها.ويقال اخدر في اللهجة السودانية للاسود البشرة، ولكنها الخدرة الخفيفة مقابل الخدرة الداكنة التي يقال لصاحبها […] The post كلمات سودانية معجمية مهجورة في لغة الكتابة (١٥) appeared first on سودانايل .",
+          "description": "بعض غُرف الدجاج الالكتروني (حسب التعليمات الواردة لها) أصبحت تتحدّث عن فساد “حكومة الأمل” ورموز وسُلطة بوررتسودان.. ولن يستمع إليها الناس..فلا شهادة من لصوص على لصوص..!هذه الحملة ليست (لوجه الله) ولا لوجه العدالة..ولا هي من باب استنكار الفساد..فهذه الغُرف ورعاتها ومموّلوها يرتعون في الفساد ويخوضون فيه إلى ( حد الرُكَب)..!إنما هي حملة ضمن الخلافات الداخلية […] The post شهادة مجروحة عن فساد سلطة بورتسودان..! appeared f",
           "source": "سودانايل",
           "source_id": "sudanile-ar",
           "source_class": "sudanese_diaspora",
-          "link": "https://sudanile.com/%d9%83%d9%84%d9%85%d8%a7%d8%aa-%d8%b3%d9%88%d8%af%d8%a7%d9%86%d9%8a%d8%a9-%d9%85%d8%b9%d8%ac%d9%85%d9%8a%d8%a9-%d9%85%d9%87%d8%ac%d9%88%d8%b1%d8%a9-%d9%81%d9%8a-%d9%84%d8%ba%d8%a9-%d8%a7%d9%84-16",
+          "link": "https://sudanile.com/%d8%b4%d9%87%d8%a7%d8%af%d8%a9-%d9%85%d8%ac%d8%b1%d9%88%d8%ad%d8%a9-%d8%b9%d9%86-%d9%81%d8%b3%d8%a7%d8%af-%d8%b3%d9%84%d8%b7%d8%a9-%d8%a8%d9%88%d8%b1%d8%aa%d8%b3%d9%88%d8%af%d8%a7%d9%86",
           "status": "Reporting",
           "geography": [
-            "National"
+            "Red Sea"
           ],
-          "image": "https://sudanile.com/wp-content/uploads/2026/01/agabfaia.jpg",
+          "image": "https://sudanile.com/wp-content/uploads/2026/01/murtada.jpg",
           "media_reuse_basis": "rss_metadata",
           "related_sources": [],
-          "category": "Culture",
-          "clabel": "ثقافة",
+          "category": "Education",
+          "clabel": "تعليم",
           "language": "ar",
           "media_attribution": "سودانايل"
         }
       },
       {
-        "Title": "غياب المراكز الصحية يفاقم معاناة النساء الحوامل في أبو حمرة بجنوب دارفور",
+        "Title": "أزمة “بنكك” تفتح باب البدائل.. هل تنجح الخدمات الإضافية في إنقاذ بنك الخرطوم؟",
         "Lang": "ar",
-        "Date": "2026-10-09T14:32:20+00:00",
-        "Permalink": "https://www.dabangasudan.org/ar/all-news/article/%d8%ba%d9%8a%d8%a7%d8%a8-%d8%a7%d9%84%d9%85%d8%b1%d8%a7%d9%83%d8%b2-%d8%a7%d9%84%d8%b5%d8%ad%d9%8a%d8%a9-%d9%8a%d9%81%d8%a7%d9%82%d9%85-%d9%85%d8%b9%d8%a7%d9%86%d8%a7%d8%a9-%d8%a7%d9%84%d9%86%d8%b3",
+        "Date": "2026-10-09T15:47:54+00:00",
+        "Permalink": "https://www.dabangasudan.org/ar/all-news/article/%d8%a3%d8%b2%d9%85%d8%a9-%d8%a8%d9%86%d9%83%d9%83-%d8%aa%d9%81%d8%aa%d8%ad-%d8%a8%d8%a7%d8%a8-%d8%a7%d9%84%d8%a8%d8%af%d8%a7%d8%a6%d9%84-%d9%87%d9%84-%d8%aa%d9%86%d8%ac%d8%ad-%d8%a7%d9%84%d8%ae",
         "Params": {
-          "description": "أبو حمرة: 9 اكتوبر 2026: راديو دبنقاتواجه النساء الحوامل والفتيات في سن الإنجاب بمنطقة أبو... The post غياب المراكز الصحية يفاقم معاناة النساء الحوامل في أبو حمرة بجنوب دارفور appeared first on Dabanga Radio TV Online .",
+          "description": "أمستردام: الجمعة 9 أكتوبر 2026م: راديو دبنقا تقرير: سليمان سري أثار تذبذب خدمة تطبيق “بنكك”... The post أزمة “بنكك” تفتح باب البدائل.. هل تنجح الخدمات الإضافية في إنقاذ بنك الخرطوم؟ appeared first on Dabanga Radio TV Online .",
           "source": "راديو دبنقا",
           "source_id": "dabanga-ar",
           "source_class": "sudanese_journalism",
-          "link": "https://www.dabangasudan.org/ar/all-news/article/%d8%ba%d9%8a%d8%a7%d8%a8-%d8%a7%d9%84%d9%85%d8%b1%d8%a7%d9%83%d8%b2-%d8%a7%d9%84%d8%b5%d8%ad%d9%8a%d8%a9-%d9%8a%d9%81%d8%a7%d9%82%d9%85-%d9%85%d8%b9%d8%a7%d9%86%d8%a7%d8%a9-%d8%a7%d9%84%d9%86%d8%b3",
+          "link": "https://www.dabangasudan.org/ar/all-news/article/%d8%a3%d8%b2%d9%85%d8%a9-%d8%a8%d9%86%d9%83%d9%83-%d8%aa%d9%81%d8%aa%d8%ad-%d8%a8%d8%a7%d8%a8-%d8%a7%d9%84%d8%a8%d8%af%d8%a7%d8%a6%d9%84-%d9%87%d9%84-%d8%aa%d9%86%d8%ac%d8%ad-%d8%a7%d9%84%d8%ae",
           "status": "Reporting",
           "geography": [
-            "Darfur"
+            "Khartoum"
           ],
           "image": "",
           "media_reuse_basis": "",
           "related_sources": [],
-          "category": "Health",
-          "clabel": "صحة",
+          "category": "Economy",
+          "clabel": "اقتصاد",
           "language": "ar",
           "media_attribution": "راديو دبنقا"
-        }
-      },
-      {
-        "Title": "السودان يطالب بإجراءات دولية حاسمة لوقف تسليح وتمويل الجماعات المسلحة",
-        "Lang": "ar",
-        "Date": "2026-10-08T20:44:04+00:00",
-        "Permalink": "https://sudantribune.net/article/319755",
-        "Params": {
-          "description": "نيويورك 8 أكتوبر 2026 – دعت الحكومة السودانية، الخميس، المجتمع الدولي مجدداً إلى اتخاذ إجراءات حاسمة لوقف تدفق الأسلحة والأموال والمرتزقة إلى الجماعات المسلحة التي تستهدف المدنيين وتقوض سيادة الدول ومؤسساتها الوطنية، ورأت أن مكافحة الإرهاب يجب ألا تخضع للانتقائية أو ازدواجية المعايير أو الحسابات السياسية. وتتهم الحكومة السودانية دولة الإمارات العربية ودولاً مجاورة بالتورط في تغذية الصراع المسلح في السودان عبر نقلها ل",
-          "source": "Sudan Tribune Arabic",
-          "source_id": "sudan-tribune-ar",
-          "source_class": "sudanese_journalism",
-          "link": "https://sudantribune.net/article/319755",
-          "status": "Reporting",
-          "geography": [
-            "National"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "Politics",
-          "clabel": "سياسة",
-          "language": "ar",
-          "media_attribution": "Sudan Tribune Arabic"
         }
       },
       {
@@ -4592,16 +4592,35 @@
           ],
           "image": "",
           "media_reuse_basis": "",
-          "related_sources": [
-            {
-              "source": "Sudan Tribune Arabic",
-              "link": "https://sudantribune.net/article/319764"
-            }
-          ],
+          "related_sources": [],
           "category": "Sudan News",
           "clabel": "أخبار السودان",
           "language": "ar",
           "media_attribution": "التغيير"
+        }
+      },
+      {
+        "Title": "مقابر الذهب في السودان.. كيف تنهي الآبار حياة المنقبين؟",
+        "Lang": "ar",
+        "Date": "2026-10-08T15:54:25+00:00",
+        "Permalink": "https://3ayin.com/gold-tombs-",
+        "Params": {
+          "description": "عاين- 8 أكتوبر 2026 خرج معتز إسماعيل لتوه من مرحلة الطفولة، لكنه لم يجد نفسه على مقاعد الدراسة كما يفترض لشاب في الثامنة عشرة من عمره، بل داخل بئر يتجاوز عمقها 30 متراً، يحمل أدوات بدائية من بينها “أجنة وشاكوش”، لتكسير الصخور بحثاً عن الذهب. يقول إسماعيل لـ(عاين): إنه ترك الدراسة مجبراً بعد إغلاق المدارس […]",
+          "source": "عاين",
+          "source_id": "ayin-ar",
+          "source_class": "sudanese_journalism",
+          "link": "https://3ayin.com/gold-tombs-",
+          "status": "Reporting",
+          "geography": [
+            "National"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "Economy",
+          "clabel": "اقتصاد",
+          "language": "ar",
+          "media_attribution": "عاين"
         }
       },
       {
@@ -4674,31 +4693,6 @@
           "clabel": "إنساني",
           "language": "ar",
           "media_attribution": "أخبار الأمم المتحدة"
-        }
-      },
-      {
-        "Title": "حشود (الخرطوم ونيالا).. صراع الشرعية والتأييد الجماهيري",
-        "Lang": "ar",
-        "Date": "2026-10-05T15:51:05+00:00",
-        "Permalink": "https://3ayin.com/the-struggle-for-legitimacy-",
-        "Params": {
-          "description": "عاين- 5 أكتوبر 2026 مع تصاعد الضغوط الدولية لإنهاء الحرب في السودان ودفع طرفيها نحو التفاوض، برزت الحشود الجماهيرية في مناطق سيطرة كل طرف كأداة لإظهار التأييد الشعبي وتوظيفه في تعزيز روايته السياسية أمام الداخل والخارج، حيث خرجت الحشود في الخرطوم ونيالا تحت رعاية السلطات بالمنطقتين في محاولة لتعزيز سردية شرعية تمثيل البلاد. وجاء الحشد […]",
-          "source": "عاين",
-          "source_id": "ayin-ar",
-          "source_class": "sudanese_journalism",
-          "link": "https://3ayin.com/the-struggle-for-legitimacy-",
-          "status": "Reporting",
-          "geography": [
-            "Khartoum",
-            "Darfur"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "War & Security",
-          "clabel": "الحرب والأمن",
-          "language": "ar",
-          "media_attribution": "عاين"
         }
       },
       {
@@ -4775,6 +4769,181 @@
       }
     ],
     "latest": [
+      {
+        "Title": "«قلم السودان».. ماذا يعني تأسيس كيان للدفاع عن حرية التعبير؟",
+        "Lang": "ar",
+        "Date": "2026-10-10T14:16:40+00:00",
+        "Permalink": "https://3ayin.com/sudan-pen-",
+        "Params": {
+          "description": "عاين- 10 أكتوبر 2026 حصل «قلم السودان» على الاعتماد الرسمي ضمن «القلم الدولي»، خلال المؤتمر الثاني والتسعين. ويأتي تأسيس الكيان في وقت يعيش فيه الكتاب والصحفيون والمبدعون السودانيون ظروفاً فرضتها الحرب المستمرة منذ أبريل 2023، وما صاحب ذلك من نزوح ولجوء وقمع وتضييق وحظر، إلى جانب الاستقطاب والانقسام الذي طال مجالات عديدة. ويطرح الكيان مساحة […]",
+          "source": "عاين",
+          "source_id": "ayin-ar",
+          "source_class": "sudanese_journalism",
+          "link": "https://3ayin.com/sudan-pen-",
+          "status": "Reporting",
+          "geography": [
+            "National"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "War & Security",
+          "clabel": "الحرب والأمن",
+          "language": "ar",
+          "media_attribution": "عاين"
+        }
+      },
+      {
+        "Title": "الخرطوم تؤجل بداية العام الدراسي إلى 18 أكتوبر",
+        "Lang": "ar",
+        "Date": "2026-10-10T13:46:25+00:00",
+        "Permalink": "https://sudantribune.net/article/319798",
+        "Params": {
+          "description": "الخرطوم 10 أكتوبر 2026 – أعلنت وزارة التعليم والتربية الوطنية بولاية الخرطوم، السبت، تأجيل بداية العام الدراسي الجديد 2026-2027 في جميع مدارس الولاية إلى 18 أكتوبر الجاري، بدلًا من الموعد السابق المحدد في 11 أكتوبر. ويأتي تأجيل العام الدراسي الجديد في ولاية الخرطوم في وقت تتصاعد فيه مطالب المعلمين السودانيين بتحسين الأجور وصرف المستحقات المالية المتأخرة، وسط احتجاجات وإضرابات شهدتها عدة ولايات خلال الأشهر الماضية، وأ",
+          "source": "Sudan Tribune Arabic",
+          "source_id": "sudan-tribune-ar",
+          "source_class": "sudanese_journalism",
+          "link": "https://sudantribune.net/article/319798",
+          "status": "Reporting",
+          "geography": [
+            "Khartoum"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "Education",
+          "clabel": "تعليم",
+          "language": "ar",
+          "media_attribution": "Sudan Tribune Arabic"
+        }
+      },
+      {
+        "Title": "مقتل أسرة من أربعة أفراد في قصف على كادقلي",
+        "Lang": "ar",
+        "Date": "2026-10-10T13:37:50+00:00",
+        "Permalink": "https://sudantribune.net/article/319796",
+        "Params": {
+          "description": "الخرطوم 10 أكتوبر 2026 – كشفت شبكة أطباء السودان، السبت، عن مقتل 3 أطفال ووالدتهم إثر قصف شنته الحركة الشعبية – شمال على مدينة كادقلي بولاية جنوب كردفان جنوبي السودان. ورغم نجاح الجيش في فك الحصار عن كادقلي قبل أشهر، فإن الحركة وحليفتها قوات الدعم السريع ظلتا تشنان هجمات بطائرات مسيرة على قوافل الإغاثة المتجهة إلى المدينة ومواقع داخلها. وقالت الشبكة، في بيان، إن “الحركة شنت قصفًا مدفعيًا على كادقلي، أدى إلى مقتل أسرة",
+          "source": "Sudan Tribune Arabic",
+          "source_id": "sudan-tribune-ar",
+          "source_class": "sudanese_journalism",
+          "link": "https://sudantribune.net/article/319796",
+          "status": "Reporting",
+          "geography": [
+            "Khartoum",
+            "Kordofan"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "War & Security",
+          "clabel": "الحرب والأمن",
+          "language": "ar",
+          "media_attribution": "Sudan Tribune Arabic"
+        }
+      },
+      {
+        "Title": "نون النسوة السوداني .. سطوة الكلمة في وجه الإستبداد !!",
+        "Lang": "ar",
+        "Date": "2026-10-10T13:12:25+00:00",
+        "Permalink": "https://www.altaghyeer.info/ar/2026/10/10/%d9%86%d9%88%d9%86-%d8%a7%d9%84%d9%86%d8%b3%d9%88%d8%a9-%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86%d9%8a-%d8%b3%d8%b7%d9%88%d8%a9-%d8%a7%d9%84%d9%83%d9%84%d9%85%d8%a9-%d9%81%d9%8a-%d9%88%d8%ac",
+        "Params": {
+          "description": "نون النسوة السوداني .. سطوة الكلمة في وجه الإستبداد !! فضيلي جماع يعترف كاتب هذه السطور بأنه مدين لجنس المرأة منذ يوم مولده إلى أن يرحل من هذه الفانية. ويضيف بأنه غير محايد فيما يتعلق بأمر المساواة بين المرأة والرجل في مجتمع ذكوري يجعل القوامة للرجل على المرأة حتى إذا كانت تنقص الرجل الوصاية على …",
+          "source": "التغيير",
+          "source_id": "altaghyeer-ar",
+          "source_class": "sudanese_journalism",
+          "link": "https://www.altaghyeer.info/ar/2026/10/10/%d9%86%d9%88%d9%86-%d8%a7%d9%84%d9%86%d8%b3%d9%88%d8%a9-%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86%d9%8a-%d8%b3%d8%b7%d9%88%d8%a9-%d8%a7%d9%84%d9%83%d9%84%d9%85%d8%a9-%d9%81%d9%8a-%d9%88%d8%ac",
+          "status": "Reporting",
+          "geography": [
+            "National"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "Sudan News",
+          "clabel": "أخبار السودان",
+          "language": "ar",
+          "media_attribution": "التغيير"
+        }
+      },
+      {
+        "Title": "على خلفية تهديدها بالقتل.. كيف أرعبت رشا عوض الإسلامويين؟",
+        "Lang": "ar",
+        "Date": "2026-10-10T11:55:25+00:00",
+        "Permalink": "https://www.altaghyeer.info/ar/2026/10/10/%d8%b9%d9%84%d9%89-%d8%ae%d9%84%d9%81%d9%8a%d8%a9-%d8%aa%d9%87%d8%af%d9%8a%d8%af%d9%87%d8%a7-%d8%a8%d8%a7%d9%84%d9%82%d8%aa%d9%84-%d9%83%d9%8a%d9%81-%d8%a3%d8%b1%d8%b9%d8%a8%d8%aa-%d8%b1%d8%b4%d8%a7",
+        "Params": {
+          "description": "‎على خلفية تهديدها بالقتل.. كيف أرعبت رشا عوض الإسلامويين؟ خالد أبوأحمد في يوم الخامس من أكتوبر الجاري تفاجأ السودانيون بمنشور على (فيسبوك) لحساب يحمل اسم (أميرة كرار) يدعو صراحة ‏إلى اغتيال الزميلة الكاتبة رشا عوض رئيسة تحرير صحيفة (التغيير)، لم يكتف المنشور بالشتم والتحقير وإنما دعا الأجهزة ‏والكتائب المسلحة إلى استهدافها ووصف الرصاصة التي تصيبها …",
+          "source": "التغيير",
+          "source_id": "altaghyeer-ar",
+          "source_class": "sudanese_journalism",
+          "link": "https://www.altaghyeer.info/ar/2026/10/10/%d8%b9%d9%84%d9%89-%d8%ae%d9%84%d9%81%d9%8a%d8%a9-%d8%aa%d9%87%d8%af%d9%8a%d8%af%d9%87%d8%a7-%d8%a8%d8%a7%d9%84%d9%82%d8%aa%d9%84-%d9%83%d9%8a%d9%81-%d8%a3%d8%b1%d8%b9%d8%a8%d8%aa-%d8%b1%d8%b4%d8%a7",
+          "status": "Reporting",
+          "geography": [
+            "National"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [
+            {
+              "source": "سودانايل",
+              "link": "https://sudanile.com/%d8%b9%d9%84%d9%89-%d8%ae%d9%84%d9%81%d9%8a%d8%a9-%d8%aa%d9%87%d8%af%d9%8a%d8%af%d9%87%d8%a7-%d8%a8%d8%a7%d9%84%d9%82%d8%aa%d9%84-%d9%83%d9%8a%d9%81-%d8%a3%d8%b1%d8%b9%d8%a8%d8%aa-%d8%b1%d8%b4%d8%a7"
+            }
+          ],
+          "category": "Sudan News",
+          "clabel": "أخبار السودان",
+          "language": "ar",
+          "media_attribution": "التغيير"
+        }
+      },
+      {
+        "Title": "شهادة مجروحة عن فساد سلطة بورتسودان..!",
+        "Lang": "ar",
+        "Date": "2026-10-10T11:10:08+00:00",
+        "Permalink": "https://sudanile.com/%d8%b4%d9%87%d8%a7%d8%af%d8%a9-%d9%85%d8%ac%d8%b1%d9%88%d8%ad%d8%a9-%d8%b9%d9%86-%d9%81%d8%b3%d8%a7%d8%af-%d8%b3%d9%84%d8%b7%d8%a9-%d8%a8%d9%88%d8%b1%d8%aa%d8%b3%d9%88%d8%af%d8%a7%d9%86",
+        "Params": {
+          "description": "بعض غُرف الدجاج الالكتروني (حسب التعليمات الواردة لها) أصبحت تتحدّث عن فساد “حكومة الأمل” ورموز وسُلطة بوررتسودان.. ولن يستمع إليها الناس..فلا شهادة من لصوص على لصوص..!هذه الحملة ليست (لوجه الله) ولا لوجه العدالة..ولا هي من باب استنكار الفساد..فهذه الغُرف ورعاتها ومموّلوها يرتعون في الفساد ويخوضون فيه إلى ( حد الرُكَب)..!إنما هي حملة ضمن الخلافات الداخلية […] The post شهادة مجروحة عن فساد سلطة بورتسودان..! appeared f",
+          "source": "سودانايل",
+          "source_id": "sudanile-ar",
+          "source_class": "sudanese_diaspora",
+          "link": "https://sudanile.com/%d8%b4%d9%87%d8%a7%d8%af%d8%a9-%d9%85%d8%ac%d8%b1%d9%88%d8%ad%d8%a9-%d8%b9%d9%86-%d9%81%d8%b3%d8%a7%d8%af-%d8%b3%d9%84%d8%b7%d8%a9-%d8%a8%d9%88%d8%b1%d8%aa%d8%b3%d9%88%d8%af%d8%a7%d9%86",
+          "status": "Reporting",
+          "geography": [
+            "Red Sea"
+          ],
+          "image": "https://sudanile.com/wp-content/uploads/2026/01/murtada.jpg",
+          "media_reuse_basis": "rss_metadata",
+          "related_sources": [],
+          "category": "Education",
+          "clabel": "تعليم",
+          "language": "ar",
+          "media_attribution": "سودانايل"
+        }
+      },
+      {
+        "Title": "الأمم المتحدة تدين هجومًا أودى بحياة (31) مدنيًا في النيل الأزرق",
+        "Lang": "ar",
+        "Date": "2026-10-10T09:35:25+00:00",
+        "Permalink": "https://sudantribune.net/article/319794",
+        "Params": {
+          "description": "الخرطوم 10 أكتوبر 2026 – أدانت منسقة الأمم المتحدة المقيمة في السودان دينيس براون، السبت، هجومًا بطائرة مسيرة قرب موقع للنازحين في إقليم النيل الأزرق جنوب شرقي البلاد، أسفر عن مقتل 31 مدنيًا معظمهم من النساء والأطفال. وحملت حكومة إقليم النيل الأزرق قوات الدعم السريع مسؤولية الهجوم الذي نُفذ أمس الجمعة قرب مخيم أبو شندي – مشروع القرية 6 – في محافظة ود الماحي. وقالت دينيس براون، في بيان، إنها “تشعر بالترويع إزاء التقار",
+          "source": "Sudan Tribune Arabic",
+          "source_id": "sudan-tribune-ar",
+          "source_class": "sudanese_journalism",
+          "link": "https://sudantribune.net/article/319794",
+          "status": "Reporting",
+          "geography": [
+            "Khartoum",
+            "Blue Nile"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "War & Security",
+          "clabel": "الحرب والأمن",
+          "language": "ar",
+          "media_attribution": "Sudan Tribune Arabic"
+        }
+      },
       {
         "Title": "شبكة الإنذار المبكر: خطر المجاعة يمتد إلى جنوب دارفور",
         "Lang": "ar",
@@ -5043,30 +5212,6 @@
         }
       },
       {
-        "Title": "على خلفية تهديدها بالقتل.. كيف أرعبت رشا عوض الإسلامويين؟",
-        "Lang": "ar",
-        "Date": "2026-10-10T07:42:14+00:00",
-        "Permalink": "https://sudanile.com/%d8%b9%d9%84%d9%89-%d8%ae%d9%84%d9%81%d9%8a%d8%a9-%d8%aa%d9%87%d8%af%d9%8a%d8%af%d9%87%d8%a7-%d8%a8%d8%a7%d9%84%d9%82%d8%aa%d9%84-%d9%83%d9%8a%d9%81-%d8%a3%d8%b1%d8%b9%d8%a8%d8%aa-%d8%b1%d8%b4%d8%a7",
-        "Params": {
-          "description": "خالد ابواحمد في يوم الخامس من أكتوبر الجاري تفاجأ السودانيون بمنشور على (فيسبوك) لحساب يحمل اسم (أميرة كرار) يدعو صراحة إلى اغتيال الزميلة الكاتبة رشا عوض رئيسة تحرير صحيفة (التغيير)، لم يكتف المنشور بالشتم والتحقير وإنما دعا الأجهزة والكتائب المسلحة إلى استهدافها ووصف الرصاصة التي تصيبها بأنها “رصاصة حق” وجعل قتلها “الفريضة الغائبة”، وهذه ليست […] The post على خلفية تهديدها بالقتل.. كيف أرعبت رشا عوض الإسلامويين؟ ap",
-          "source": "سودانايل",
-          "source_id": "sudanile-ar",
-          "source_class": "sudanese_diaspora",
-          "link": "https://sudanile.com/%d8%b9%d9%84%d9%89-%d8%ae%d9%84%d9%81%d9%8a%d8%a9-%d8%aa%d9%87%d8%af%d9%8a%d8%af%d9%87%d8%a7-%d8%a8%d8%a7%d9%84%d9%82%d8%aa%d9%84-%d9%83%d9%8a%d9%81-%d8%a3%d8%b1%d8%b9%d8%a8%d8%aa-%d8%b1%d8%b4%d8%a7",
-          "status": "Reporting",
-          "geography": [
-            "National"
-          ],
-          "image": "https://sudanile.com/wp-content/uploads/2026/01/khalidabo.jpg",
-          "media_reuse_basis": "rss_metadata",
-          "related_sources": [],
-          "category": "Sudan News",
-          "clabel": "أخبار السودان",
-          "language": "ar",
-          "media_attribution": "سودانايل"
-        }
-      },
-      {
         "Title": "كلمات سودانية معجمية مهجورة في لغة الكتابة (١٥)",
         "Lang": "ar",
         "Date": "2026-10-10T07:38:04+00:00",
@@ -5262,13 +5407,13 @@
         "Title": "بيعوا السقف الذهبي يا سادة",
         "Lang": "ar",
         "Date": "2026-10-10T00:21:23+00:00",
-        "Permalink": "https://www.alaraby.co.uk/opinion/%D8%A8%D9%8A%D8%B9%D9%88%D8%A7-%D8%A7%D9%84%D8%B3%D9%82%D9%81-%D8%A7%D9%84%D8%B0%D9%87%D8%A8%D9%8A-%D9%8A%D8%A7-%D8%B3%D8%A7%D8%AF%D8%A9",
+        "Permalink": "https://www.alaraby.co.uk/opinion/بيعوا-السقف-الذهبي-يا-سادة",
         "Params": {
           "description": "تُظهر الاجتماعات الدولية التي يشارك فيها طرفا الحرب في السودان تناقضًا فجًّا بين الدعوات المعلنة لحماية المدنيين واستمرار الحرب والانتهاكات.",
           "source": "العربي الجديد",
           "source_id": "alaraby-ar",
           "source_class": "regional_journalism",
-          "link": "https://www.alaraby.co.uk/opinion/%D8%A8%D9%8A%D8%B9%D9%88%D8%A7-%D8%A7%D9%84%D8%B3%D9%82%D9%81-%D8%A7%D9%84%D8%B0%D9%87%D8%A8%D9%8A-%D9%8A%D8%A7-%D8%B3%D8%A7%D8%AF%D8%A9",
+          "link": "https://www.alaraby.co.uk/opinion/بيعوا-السقف-الذهبي-يا-سادة",
           "status": "Reporting",
           "geography": [
             "National"
@@ -6169,12 +6314,7 @@
           ],
           "image": "",
           "media_reuse_basis": "",
-          "related_sources": [
-            {
-              "source": "Sudan Tribune Arabic",
-              "link": "https://sudantribune.net/article/319764"
-            }
-          ],
+          "related_sources": [],
           "category": "Sudan News",
           "clabel": "أخبار السودان",
           "language": "ar",
@@ -8251,150 +8391,6 @@
           "related_sources": [],
           "category": "Culture",
           "clabel": "ثقافة",
-          "language": "ar",
-          "media_attribution": "سودانايل"
-        }
-      },
-      {
-        "Title": "الجذور التاريخية للارمة في ذا فور (2/2)",
-        "Lang": "ar",
-        "Date": "2026-10-06T17:31:17+00:00",
-        "Permalink": "https://sudanile.com/%d8%a7%d9%84%d8%ac%d8%b0%d9%88%d8%b1-%d8%a7%d9%84%d8%aa%d8%a7%d8%b1%d9%8a%d8%ae%d9%8a%d8%a9-%d9%84%d9%84%d8%a7%d8%b1%d9%85%d8%a9-%d9%81%d9%8a-%d8%b0%d8%a7-%d9%81%d9%88%d8%b1-2-2",
-        "Params": {
-          "description": "بقلم : تاج السر عثمان بعد الاستقلال :-بعد الاستقلال وفي ظل الحكومات المدنية والعسكرية المتعاقبة لم يحدث تجديد في حياة الناس , وكان لذلك أثره على إقليم دارفور في اتجاه ضغوط الحركة الجماهيرية التي كانت تطالب بالتنمية والتعمير تم إدخال المدارس الثانوية في دارفور, وتم إدخال سكة حديد نيالا عام 1960م ، …. الخ .وبعد […] The post الجذور التاريخية للارمة في ذا فور (2/2) appeared first on سودانايل .",
-          "source": "سودانايل",
-          "source_id": "sudanile-ar",
-          "source_class": "sudanese_diaspora",
-          "link": "https://sudanile.com/%d8%a7%d9%84%d8%ac%d8%b0%d9%88%d8%b1-%d8%a7%d9%84%d8%aa%d8%a7%d8%b1%d9%8a%d8%ae%d9%8a%d8%a9-%d9%84%d9%84%d8%a7%d8%b1%d9%85%d8%a9-%d9%81%d9%8a-%d8%b0%d8%a7-%d9%81%d9%88%d8%b1-2-2",
-          "status": "Reporting",
-          "geography": [
-            "Darfur"
-          ],
-          "image": "https://sudanile.com/wp-content/uploads/2026/01/elsir-1.jpg",
-          "media_reuse_basis": "rss_metadata",
-          "related_sources": [],
-          "category": "Education",
-          "clabel": "تعليم",
-          "language": "ar",
-          "media_attribution": "سودانايل"
-        }
-      },
-      {
-        "Title": "أودّ أن أقدّم بعض الملاحظات وأشارك وجهة نظري حول سبل الوصول إلى سلام مستدام في الصراع السوداني",
-        "Lang": "ar",
-        "Date": "2026-10-06T17:28:09+00:00",
-        "Permalink": "https://sudanile.com/%d8%a3%d9%88%d8%af%d9%91-%d8%a3%d9%86-%d8%a3%d9%82%d8%af%d9%91%d9%85-%d8%a8%d8%b9%d8%b6-%d8%a7%d9%84%d9%85%d9%84%d8%a7%d8%ad%d8%b8%d8%a7%d8%aa-%d9%88%d8%a3%d8%b4%d8%a7%d8%b1%d9%83-%d9%88%d8%ac%d9%87",
-        "Params": {
-          "description": "أوضح منذ البداية أنني لا أدّعي امتلاك الحل لهذه الأزمة المعقّدة، ولا امتلاك خبرة خاصة في السودان أو في حلّ النزاعات. إنني أتحدث ببساطة بصفة مراقب يتابع الملف السوداني باهتمام، وبقناعة بسيطة: إنّ حلّ هذه الحرب المدمّرة بين جنرالين لا يمكن أن يتحقق إلا من خلال حلّ سياسي، لا عسكري. ولن يكون هذا الحلّ ممكنًا […] The post أودّ أن أقدّم بعض الملاحظات وأشارك وجهة نظري حول سبل الوصول إلى سلام مستدام في الصراع السوداني appear",
-          "source": "سودانايل",
-          "source_id": "sudanile-ar",
-          "source_class": "sudanese_diaspora",
-          "link": "https://sudanile.com/%d8%a3%d9%88%d8%af%d9%91-%d8%a3%d9%86-%d8%a3%d9%82%d8%af%d9%91%d9%85-%d8%a8%d8%b9%d8%b6-%d8%a7%d9%84%d9%85%d9%84%d8%a7%d8%ad%d8%b8%d8%a7%d8%aa-%d9%88%d8%a3%d8%b4%d8%a7%d8%b1%d9%83-%d9%88%d8%ac%d9%87",
-          "status": "Reporting",
-          "geography": [
-            "National"
-          ],
-          "image": "https://sudanile.com/wp-content/uploads/2026/10/ahmat.jpg",
-          "media_reuse_basis": "rss_metadata",
-          "related_sources": [],
-          "category": "War & Security",
-          "clabel": "الحرب والأمن",
-          "language": "ar",
-          "media_attribution": "سودانايل"
-        }
-      },
-      {
-        "Title": "البرهان والسذاجة السياسية القاتلة",
-        "Lang": "ar",
-        "Date": "2026-10-06T17:20:04+00:00",
-        "Permalink": "https://sudanile.com/%d8%a7%d9%84%d8%a8%d8%b1%d9%87%d8%a7%d9%86-%d9%88%d8%a7%d9%84%d8%b3%d8%b0%d8%a7%d8%ac%d8%a9-%d8%a7%d9%84%d8%b3%d9%8a%d8%a7%d8%b3%d9%8a%d8%a9-%d8%a7%d9%84%d9%82%d8%a7%d8%aa%d9%84%d8%a9",
-        "Params": {
-          "description": "الصادق حمدين ليست المشكلة في أن الجنرال الغارق في متاهة أحلامه عبد الفتاح البرهان قد أخطأ في حساباته مرة تلو المرة أو أخفق في قراءة مشهد سياسي عابر؛ المشكلة أن الحرب، كما تُدار تحت قيادته المتهورة، تكشف عن عقل سياسي أسير لمنطق القوة، عاجز عن رؤية السودان خارج ثنائية “ننتصر أو نستمر في القتال”. فجهله […] The post البرهان والسذاجة السياسية القاتلة appeared first on سودانايل .",
-          "source": "سودانايل",
-          "source_id": "sudanile-ar",
-          "source_class": "sudanese_diaspora",
-          "link": "https://sudanile.com/%d8%a7%d9%84%d8%a8%d8%b1%d9%87%d8%a7%d9%86-%d9%88%d8%a7%d9%84%d8%b3%d8%b0%d8%a7%d8%ac%d8%a9-%d8%a7%d9%84%d8%b3%d9%8a%d8%a7%d8%b3%d9%8a%d8%a9-%d8%a7%d9%84%d9%82%d8%a7%d8%aa%d9%84%d8%a9",
-          "status": "Reporting",
-          "geography": [
-            "National"
-          ],
-          "image": "https://sudanile.com/wp-content/uploads/2025/09/sadighamaden.jpg",
-          "media_reuse_basis": "rss_metadata",
-          "related_sources": [],
-          "category": "War & Security",
-          "clabel": "الحرب والأمن",
-          "language": "ar",
-          "media_attribution": "سودانايل"
-        }
-      },
-      {
-        "Title": "أجري يا نيل الحياة لولاك ما طابت حياة",
-        "Lang": "ar",
-        "Date": "2026-10-06T17:10:28+00:00",
-        "Permalink": "https://sudanile.com/%d8%a3%d8%ac%d8%b1%d9%8a-%d9%8a%d8%a7-%d9%86%d9%8a%d9%84-%d8%a7%d9%84%d8%ad%d9%8a%d8%a7%d8%a9-%d9%84%d9%88%d9%84%d8%a7%d9%83-%d9%85%d8%a7-%d8%b7%d8%a7%d8%a8%d8%aa-%d8%ad%d9%8a%d8%a7%d8%a9",
-        "Params": {
-          "description": "أجري يا نيل الحياة لولاك ما طابت حياةاجري يا نيل اروي ترابك في مجيئك وفي ذهابكد. محمد حمدان عيسى، المنطقة الشرقية، السعوديةيتميز السودان إلى حد كبير بمناخ جاف؛ مما يجعل نهر النيل وروافده عنصراً حيوياً لاستمرار الحياة البشرية والنشاط الاقتصادي اذ يوفر نهر النيل المياه اللازمة للري ويدعم ففي مشروع الجزيرة ومشاريع الري الأخرى، يزرع […] The post أجري يا نيل الحياة لولاك ما طابت حياة appeared first on سودانايل .",
-          "source": "سودانايل",
-          "source_id": "sudanile-ar",
-          "source_class": "sudanese_diaspora",
-          "link": "https://sudanile.com/%d8%a3%d8%ac%d8%b1%d9%8a-%d9%8a%d8%a7-%d9%86%d9%8a%d9%84-%d8%a7%d9%84%d8%ad%d9%8a%d8%a7%d8%a9-%d9%84%d9%88%d9%84%d8%a7%d9%83-%d9%85%d8%a7-%d8%b7%d8%a7%d8%a8%d8%aa-%d8%ad%d9%8a%d8%a7%d8%a9",
-          "status": "Reporting",
-          "geography": [
-            "National"
-          ],
-          "image": "https://sudanile.com/wp-content/uploads/2023/05/hamdan.jpg",
-          "media_reuse_basis": "rss_metadata",
-          "related_sources": [],
-          "category": "Economy",
-          "clabel": "اقتصاد",
-          "language": "ar",
-          "media_attribution": "سودانايل"
-        }
-      },
-      {
-        "Title": "في ذكرى أكتوبر / قصة قصيرة / مع إضاءة نقدية من [ AI] الذكاء الاصطناعي",
-        "Lang": "ar",
-        "Date": "2026-10-06T17:08:37+00:00",
-        "Permalink": "https://sudanile.com/%d9%81%d9%8a-%d8%b0%d9%83%d8%b1%d9%89-%d8%a3%d9%83%d8%aa%d9%88%d8%a8%d8%b1-%d9%82%d8%b5%d8%a9-%d9%82%d8%b5%d9%8a%d8%b1%d8%a9-%d9%85%d8%b9-%d8%a5%d8%b6%d8%a7%d8%a1%d8%a9-%d9%86%d9%82%d8%af%d9%8a",
-        "Params": {
-          "description": "بقلم / عمر الحويج قصة قصيرة / و…حتى الصّغار !!نشرت بصحيفة الميدان أكتوبر 1965مشارع الأسفلت ، طويل وعريض : على جانبيه ، عمارات ذات أشكال هندسية حديثة ، ترتوار يتوسط شارع الأسفلت، مرصوف بعناية ومدهون ، كذلك بمتوالية اللونين ، الأبيض والأسود .. وعلى طول إمتداده ، عمدان عليها لمبات نيون ملونة ، وغير الملونة […] The post في ذكرى أكتوبر / قصة قصيرة / مع إضاءة نقدية من [ AI] الذكاء الاصطناعي appeared first on سودانايل .",
-          "source": "سودانايل",
-          "source_id": "sudanile-ar",
-          "source_class": "sudanese_diaspora",
-          "link": "https://sudanile.com/%d9%81%d9%8a-%d8%b0%d9%83%d8%b1%d9%89-%d8%a3%d9%83%d8%aa%d9%88%d8%a8%d8%b1-%d9%82%d8%b5%d8%a9-%d9%82%d8%b5%d9%8a%d8%b1%d8%a9-%d9%85%d8%b9-%d8%a5%d8%b6%d8%a7%d8%a1%d8%a9-%d9%86%d9%82%d8%af%d9%8a",
-          "status": "Reporting",
-          "geography": [
-            "Kordofan"
-          ],
-          "image": "https://sudanile.com/wp-content/uploads/2026/01/omerhojg.jpg",
-          "media_reuse_basis": "rss_metadata",
-          "related_sources": [],
-          "category": "Sudan News",
-          "clabel": "أخبار السودان",
-          "language": "ar",
-          "media_attribution": "سودانايل"
-        }
-      },
-      {
-        "Title": "نعم … إنه فيصل محمد صالح وكفي",
-        "Lang": "ar",
-        "Date": "2026-10-06T17:02:51+00:00",
-        "Permalink": "https://sudanile.com/%d9%86%d8%b9%d9%85-%d8%a5%d9%86%d9%87-%d9%81%d9%8a%d8%b5%d9%84-%d9%85%d8%ad%d9%85%d8%af-%d8%b5%d8%a7%d9%84%d8%ad-%d9%88%d9%83%d9%81%d9%8a",
-        "Params": {
-          "description": "للعلم : إن علاقتي بهذا الرقم الصحفي والاعلامي ( الفاخر جدا) تعود إلي اكثر من ربع قرن من الزمان وقد كانت بالقاهرة حين كان يتولي مهام مدير تحرير صحيفة الخرطوم الواسعة الانتشار في الوطن العربي في ذلك الزمان الاسود الضاغط في السودان حينذاك .ووقتها كنا ايضا نسترزق بالاغتراب الحلال في مجال الادارة المالية ومشتقاتها وذلك […] The post نعم … إنه فيصل محمد صالح وكفي appeared first on سودانايل .",
-          "source": "سودانايل",
-          "source_id": "sudanile-ar",
-          "source_class": "sudanese_diaspora",
-          "link": "https://sudanile.com/%d9%86%d8%b9%d9%85-%d8%a5%d9%86%d9%87-%d9%81%d9%8a%d8%b5%d9%84-%d9%85%d8%ad%d9%85%d8%af-%d8%b5%d8%a7%d9%84%d8%ad-%d9%88%d9%83%d9%81%d9%8a",
-          "status": "Reporting",
-          "geography": [
-            "Khartoum"
-          ],
-          "image": "https://sudanile.com/wp-content/uploads/2026/01/bashha.jpg",
-          "media_reuse_basis": "rss_metadata",
-          "related_sources": [],
-          "category": "Sudan News",
-          "clabel": "أخبار السودان",
           "language": "ar",
           "media_attribution": "سودانايل"
         }

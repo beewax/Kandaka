@@ -16,12 +16,9 @@ geography:
 language: ar
 status: Reporting
 cluster_id: 1473c4dc6db3
-corroboration_count: 2
+corroboration_count: 1
 draft: false
 author: صحيفة التغيير
-related_sources:
-- source: Sudan Tribune Arabic
-  link: https://sudantribune.net/article/319764
 clabel: أخبار السودان
 ---
 
