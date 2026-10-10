@@ -27,3 +27,7 @@ Expected URLs:
 - https://kandaka.com/ar/development/sudan-uranium-evidence-before-expectations/
 
 Prepared locally; commit, deployment and independent live verification not yet asserted. Next: A02, no earlier than 48 hours after successful L01 release.
+
+## Verified release (supersedes preparation state)
+
+Release commit `91290b2` pushed to main. Netlify production deploy `6aca5b862ec439000834775f` ready, published 2026-10-10 15:37:29 UTC. Independent public checks at 16:24:39 UTC confirmed both URLs HTTP 200, correct titles, no internal review notes, and cover HTTP 200 / 280,847 bytes. Next A02 gate conservatively set from verification: 12 October 2026 11:25 CDT. Three of six complete; no other article released in this run.
