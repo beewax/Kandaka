@@ -29,4 +29,11 @@ Count: 534 + 6 additions − 1 catalogue duplicate = **539**. Both introductory 
 
 Local production Hugo build passed (938 English / 2,104 Arabic pages, with existing deprecation warning). The regression check passed for 539 cards in each built Library edition, exact bilingual titles/summaries/authors for all seven affected entries, unique source links and matching introductory counts. The validator uses only Python's standard library.
 
-Source checks: all three IFPRI handles, Cambridge and the Elsevier DOI returned HTTP 200. UNDP's HEAD request was blocked (403), but its publisher page and dated summary were successfully retrieved through web reading. Official World Bank PDF downloaded and cover/attribution/contents inspected. Synced existing remote automated news/photo commits through `8456044` without modifying their content. Commit, deployment and live verification are pending.
+Source checks: all three IFPRI handles, Cambridge and the Elsevier DOI returned HTTP 200. UNDP's HEAD request was blocked (403), but its publisher page and dated summary were successfully retrieved through web reading. Official World Bank PDF downloaded and cover/attribution/contents inspected. Synced existing remote automated news/photo commits through `8456044` without modifying their content.
+
+Published commit: `885d4f07da84cc569bb0e758e678b21e58373983`. Production Netlify deploy: `6acb93f90d227c0008c14e0d`, ready, published **2026-10-11 13:50:36 UTC / 08:50:36 CDT**. Both live pages independently downloaded and passed the same content/card/source validation at approximately 13:51 UTC:
+
+- https://kandaka.com/library/
+- https://kandaka.com/ar/library/
+
+Live browser verified 539 visible total, six additions at the top, Arabic author names, and only one May 2025 World Bank result. Screenshot saved outside the repository at `deliverables/library-refresh-ar-2026-10-11.png`. All six A02/A11/A12 language files remain `draft: true`. No article publication, stored-file deletion or schedule change occurred.
