@@ -2,7 +2,7 @@
 {{ $isAr := eq .Site.Language.Lang "ar" }}
 <header class="page-header"><h1>{{ if $isAr }}الصور والفنون{{ else }}Images & Art{{ end }}</h1>
 <p>{{ if $isAr }}صور متجددة ومجموعة فنية مختارة.{{ else }}A changing photo stream and a lasting collection of visual culture.{{ end }}</p>
-<nav aria-label="{{ if $isAr }}أقسام الصفحة{{ else }}Page sections{{ end }}"><a href="#artwork-heading">{{ if $isAr }}الفنون{{ else }}Art collection{{ end }}</a> · <a href="#photo-stream">{{ if $isAr }}الصور المتجددة{{ else }}Photo stream{{ end }}</a></nav></header>
+<nav aria-label="{{ if $isAr }}أقسام الصفحة{{ else }}Page sections{{ end }}"><a href="#artwork-heading">{{ if $isAr }}الفنون{{ else }}Art collection{{ end }}</a> · <a href="#art-source-heading">{{ if $isAr }}روابط الأعمال{{ else }}Source-only artworks{{ end }}</a> · <a href="#photo-stream">{{ if $isAr }}الصور المتجددة{{ else }}Photo stream{{ end }}</a></nav></header>
 {{ partial "artwork-collection.html" (dict "page" .) }}
 <section aria-labelledby="photo-stream"><h2 id="photo-stream">{{ if $isAr }}الصور المتجددة{{ else }}Photo stream{{ end }}</h2>
 {{ $en := index (where hugo.Sites "Language.Lang" "en") 0 }}

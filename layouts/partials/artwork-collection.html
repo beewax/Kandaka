@@ -1,5 +1,6 @@
 {{- $isAr := eq .page.Site.Language.Lang "ar" -}}
-{{- $works := hugo.Data.artworks -}}
+{{- $works := where hugo.Data.artworks "image" "!=" nil -}}
+{{- $links := where hugo.Data.artworks "image" "==" nil -}}
 {{- with .limit }}{{ $works = first . $works }}{{ end -}}
 <section class="art-collection" aria-labelledby="artwork-heading">
   <h2 id="artwork-heading">{{ if $isAr }}الفنون والتراث البصري{{ else }}Art & Visual Heritage{{ end }}</h2>
@@ -7,24 +8,39 @@
   <div class="art-grid">
     {{ range $works }}
     <article class="art-card">
-      {{ if .image }}<a href="{{ .source }}" target="_blank" rel="noopener noreferrer" class="art-image-wrap"><img src="{{ .image }}" alt="{{ .alt }}" loading="lazy" decoding="async" onerror="this.parentElement.hidden=true"></a>{{ end }}
+      <a href="{{ .source }}" target="_blank" rel="noopener noreferrer" class="art-image-wrap"><img src="{{ .image }}" alt="{{ .alt }}" loading="lazy" decoding="async" onerror="this.hidden=true;this.nextElementSibling.hidden=false"><span class="art-image-unavailable" hidden>{{ if $isAr }}تعذّر تحميل الصورة — شاهد العمل في المصدر ↗{{ else }}Image unavailable — view artwork at the source ↗{{ end }}</span></a>
       <div class="art-card-body">
         <p class="art-genre">{{ .genre }}</p>
         <h3><a href="{{ .source }}" target="_blank" rel="noopener noreferrer">{{ .title }}</a></h3>
         <p><strong>{{ .artist }}</strong> · {{ .date }}</p>
         <p>{{ .note }}</p>
         <a href="{{ .source }}" target="_blank" rel="noopener noreferrer">{{ if $isAr }}عرض العمل والمصدر{{ else }}View artwork & source{{ end }} ↗</a>
-        <small>{{ .collection }} · {{ .rights }}</small>
+        <small>{{ .collection }} · {{ with .license_url }}<a href="{{ . }}" target="_blank" rel="noopener noreferrer">{{ end }}{{ .rights }}{{ if .license_url }}</a>{{ end }}</small>
       </div>
     </article>
     {{ end }}
   </div>
   {{ with .limit }}<p><a href="{{ if $isAr }}/ar/images/{{ else }}/images/{{ end }}#artwork-heading">{{ if $isAr }}استكشف المجموعة كاملة ←{{ else }}Explore the full collection →{{ end }}</a></p>{{ end }}
+  {{ if not .limit }}
+  {{ with $links }}
+  <section class="art-source-links" aria-labelledby="art-source-heading">
+    <h2 id="art-source-heading">{{ if $isAr }}استكشف الأعمال في مصادرها{{ else }}Explore at the source{{ end }}</h2>
+    <p>{{ if $isAr }}روابط لأعمال إضافية تُعرض صورها في مواقع المؤسسات الأصلية، وليست صورًا مفقودة من المعرض.{{ else }}Additional artworks to view on their original collection websites. These are source-only recommendations, not missing gallery images.{{ end }}</p>
+    <ul>
+    {{ range . }}
+      <li><h3><a href="{{ .source }}" target="_blank" rel="noopener noreferrer">{{ .title }} ↗</a></h3><p><strong>{{ .artist }}</strong> · {{ .date }} · {{ .genre }}</p><p>{{ .collection }} · {{ if $isAr }}شاهد صورة العمل وتفاصيله في المصدر.{{ else }}View the artwork image and details at the source.{{ end }}</p></li>
+    {{ end }}
+    </ul>
+  </section>
+  {{ end }}
+  {{ end }}
 </section>
 <style>
+.art-image-wrap img[hidden]{display:none}
 .art-collection{margin:2rem 0;padding-top:1rem;border-top:1px solid var(--border)}
 .art-collection>p{color:var(--secondary);line-height:1.65}.art-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:1rem}
 .art-card{background:var(--entry);border:1px solid var(--border);border-radius:10px;overflow:hidden}.art-image-wrap{display:block;background:var(--code-bg)}
 .art-image-wrap img{width:100%;height:240px;object-fit:contain;display:block;padding:12px}.art-card-body{padding:1rem}.art-card h3{font-size:1.1rem;margin:0 0 .5rem}.art-card p{font-size:.88rem;margin:.5rem 0;line-height:1.6}.art-card .art-genre{font-size:.75rem;color:var(--secondary)}
 .art-card a{text-decoration:underline;text-underline-offset:3px}.art-card small{display:block;margin-top:.7rem;color:var(--secondary);font-size:.72rem}.art-card a:focus-visible{outline:3px solid var(--primary);outline-offset:3px}
+.art-image-unavailable:not([hidden]){display:flex;align-items:center;justify-content:center;min-height:240px;padding:1rem;text-align:center}.art-source-links{margin-top:2rem;padding:1.5rem;border:1px solid var(--border);border-radius:10px}.art-source-links>p{color:var(--secondary);margin:.75rem 0}.art-source-links ul{padding-inline-start:1.2rem}.art-source-links li{padding:1rem 0}.art-source-links li+li{border-top:1px solid var(--border)}.art-source-links h3{font-size:1rem}.art-source-links p{font-size:.88rem;line-height:1.6}.art-source-links a{text-decoration:underline;text-underline-offset:3px}
 </style>
