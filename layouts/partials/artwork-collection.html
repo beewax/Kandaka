@@ -1,6 +1,19 @@
 {{- $isAr := eq .page.Site.Language.Lang "ar" -}}
-{{- $works := where hugo.Data.artworks "image" "!=" nil -}}
-{{- $links := where hugo.Data.artworks "image" "==" nil -}}
+{{- $catalogue := slice -}}
+{{- range hugo.Data.artworks -}}
+  {{- $work := . -}}
+  {{- $arabic := index hugo.Data.artworks_ar .source -}}
+  {{- $required := slice "title" "artist" "date" "genre" "collection" "rights" "note" -}}
+  {{- if .image }}{{ $required = $required | append "alt" }}{{ end -}}
+  {{- range $required -}}
+    {{- if not (index $work .) }}{{ errorf "Artwork %s missing English %s" $work.source . }}{{ end -}}
+    {{- if not (index $arabic .) }}{{ errorf "Artwork %s missing Arabic %s" $work.source . }}{{ end -}}
+  {{- end -}}
+  {{- if and $isAr $arabic }}{{ $work = merge $work $arabic }}{{ end -}}
+  {{- $catalogue = $catalogue | append $work -}}
+{{- end -}}
+{{- $works := where $catalogue "image" "!=" nil -}}
+{{- $links := where $catalogue "image" "==" nil -}}
 {{- with .limit }}{{ $works = first . $works }}{{ end -}}
 <section class="art-collection" aria-labelledby="artwork-heading">
   <h2 id="artwork-heading">{{ if $isAr }}الفنون والتراث البصري{{ else }}Art & Visual Heritage{{ end }}</h2>
@@ -29,7 +42,7 @@
     <p>{{ if $isAr }}روابط لأعمال إضافية تُعرض صورها في مواقع المؤسسات الأصلية، وليست صورًا مفقودة من المعرض.{{ else }}Additional artworks to view on their original collection websites. These are source-only recommendations, not missing gallery images.{{ end }}</p>
     <ul>
     {{ range . }}
-      <li><h3><a href="{{ .source }}" target="_blank" rel="noopener noreferrer">{{ .title }} ↗</a></h3><p><strong>{{ .artist }}</strong> · {{ .date }} · {{ .genre }}</p><p>{{ .collection }} · {{ if $isAr }}شاهد صورة العمل وتفاصيله في المصدر.{{ else }}View the artwork image and details at the source.{{ end }}</p></li>
+      <li><h3><a href="{{ .source }}" target="_blank" rel="noopener noreferrer">{{ .title }} ↗</a></h3><p><strong>{{ .artist }}</strong> · {{ .date }} · {{ .genre }}</p><p>{{ .note }}</p><p>{{ .collection }} · {{ if $isAr }}شاهد صورة العمل وتفاصيله في المصدر.{{ else }}View the artwork image and details at the source.{{ end }}</p></li>
     {{ end }}
     </ul>
   </section>

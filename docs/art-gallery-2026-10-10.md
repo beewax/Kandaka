@@ -1,5 +1,11 @@
 # Artwork gallery update — 10 October 2026
 
+## Complete bilingual catalogue
+
+The user explicitly required complete Arabic artwork titles, artist names and descriptions, publication, and bilingual weekly updates. Added `data/artworks_ar.json` with Arabic text for all ten records: titles, creator names, descriptions, genres, date wording, collection/photographer credits, rights labels and alt text for all eight images. Source and licence URLs and standard CC identifiers remain unchanged. Arabic titles are editorial translations of the catalogue titles, not claims of officially assigned Arabic titles. Proper names are rendered in Arabic; source records remain available for original spellings. Both source-only records now display their descriptions as well.
+
+The shared homepage/gallery template selects localized text and fails the build if either language lacks a required field. The weekly automation was updated without changing its Saturday 10:00 AM America/Chicago schedule or notification settings: complete English and Arabic metadata, checks on both rendered editions and no bypassing missing-translation validation. The standing bilingual requirement is also recorded in the workplan. Existing photo-feed titles and other site sections are outside this artwork translation change.
+
 ## Weekly curation authorized
 
 The user subsequently approved recurring weekly additions and a public notice. Automation `kandaka-weekly-artwork-update` is ACTIVE, Saturdays at 10:00 AM America/Chicago, beginning with the next Saturday after setup (17 October). It targets a small batch of 2–4 verified, nonduplicate works when suitable material is available, prioritizing Sudanese artists. It preserves the photo stream and article schedule, separates source-only records, checks sources and image credits, builds both language editions and verifies deployment. Notifications are limited to verified additions, material failure or required input. The gallery and homepage preview carry an English/Arabic weekly-selections notice. Recurrence is scheduled work, not a guarantee of additions if access or reliable sourcing is blocked.

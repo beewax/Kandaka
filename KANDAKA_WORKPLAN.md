@@ -1,5 +1,7 @@
 # Kandaka Workplan
 
+**Standing language requirement (user confirmed 10 October 2026): Kandaka is an Arabic-and-English site. All future site content and updates must be prepared and checked in both languages, not merely given translated section headings.** Artwork metadata uses `data/artworks.json` and complete matching Arabic records in `data/artworks_ar.json`; the template rejects missing bilingual fields. This does not authorize unrelated publication or changes to article schedules.
+
 > Persistent editorial and research tracker. This file records decisions, drafts, queues, source-acquisition work, website changes, and publication readiness. It does **not** authorize publication.
 
 **Last updated:** 2026-10-10
