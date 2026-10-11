@@ -57,3 +57,5 @@ The existing publication automation must be extended through A15, retaining its 
 On 11 October the app confirmed the existing automation update as ACTIVE, retaining `kandaka-six-article-publication-sequence`, renamed **Kandaka article publication queue**, with the full six-item remaining sequence and unchanged every-two-days noon cadence. It now stops only after A15 is verified live.
 
 Draft-inclusive Hugo build passed (965 English / 2,170 Arabic pages). Each new edition renders eight sections, with matching source URLs and footnote identifiers across its language pair. Body word counts including source notes: A13 EN 1,362 / AR 1,232; A14 EN 1,403 / AR 1,181; A15 EN 1,468 / AR 1,295. Arabic pages render RTL. All six remain `draft: true`; covers are still pending. This is drafting and queue preparation, not an article release.
+
+Normal production build also passed (939 English / 2,132 Arabic pages), with all six new URLs excluded. Existing Hugo `.Site.Data` deprecation warning is unrelated. Drafts and queue saved in commit `7cf7c62`; no deployment or live publication is asserted by this preparation record.
