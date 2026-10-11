@@ -20,6 +20,8 @@ The old missing-draft, pending-Arabic and pending-cover notes below are historic
 
 Homepage correction: replacing the three-sections-in-two-columns layout with full-width Photos, Art and Library sections; matching three-card desktop grids, one-card mobile grids, and wider homepage container. Article reading width and existing photo-stream data are unchanged.
 
+**Deployment verified:** layout correction live in English and Arabic, commit `7218583`, Netlify `6acaec752f2c440008189281`, published 10 Oct 20:55 CDT and independently checked by 20:57 CDT. All six future article URLs remain unpublished (HTTP 404). The three bilingual articles and covers are committed as protected drafts; existing two-day publication automation updated and ACTIVE.
+
 ## How to maintain this file
 
 Use these standard fields for every article, Library summary, acquisition, and site change:

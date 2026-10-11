@@ -76,3 +76,7 @@ Draft-inclusive Hugo build passed. Duplicate-cover audit passed across 2,318 Mar
 Homepage desktop check: Photos, Art and Library each span the same 1,052px content width within the 1,100px homepage container; three equal card columns each. English and Arabic mobile checks: single-column grids, no horizontal overflow. Article reading widths are unchanged. A deployment of the homepage correction does not count as an article release.
 
 The existing `kandaka-six-article-publication-sequence` automation was updated through the app and confirmed ACTIVE, every two days at noon local time, with current prepared-file paths and the release gates above. The separate progress monitor was left unchanged. Future publication is scheduled work, not a completed deployment.
+
+### Verified deployment record
+
+Commit `721858343de801fdd0d67bc1859c1ad5fadf6c79` pushed to main. Netlify deployment `6acaec752f2c440008189281` is ready and published at **2026-10-11 01:55:43.944 UTC** (10 October 20:55 CDT). By 01:57 UTC, independent browser checks confirmed the new 1,100px homepage rule and equally wide Photos, Art and Library sections on https://kandaka.com/ and https://kandaka.com/ar/ . All six scheduled article URLs still returned HTTP 404, as intended. The articles are committed and scheduled, not published. Screenshot evidence is saved in the parent workspace at `deliverables/kandaka-home-layout-fixed.png`.
