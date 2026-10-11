@@ -26,6 +26,8 @@ Homepage correction: replacing the three-sections-in-two-columns layout with ful
 
 ## How to maintain this file
 
+**Library workflow resources:** [LIBRARY_SOURCES.md](LIBRARY_SOURCES.md), under “Verified resource links — 11 October 2026,” records the six published source links and the corrected official World Bank PDF, with bilingual labels and duplicate-prevention notes. Maintain this resource register alongside future approved Library batches; the entries already published must not be added again. Detailed verification: [11 October refresh](docs/library-refresh-2026-10-11.md).
+
 **Library refresh — 11 October, verified live:** six new publications have complete English/Arabic titles, author names and summaries, with publisher source links. The duplicate May 2025 World Bank catalogue entries are consolidated under the official PDF; both former R2 links returned HTTP 401, and no stored files were deleted. Count: 539. Local production build and both live Library editions passed validation. Published commit `885d4f0`, Netlify `6acb93f90d227c0008c14e0d`, 08:50 CDT; independently checked after deployment. Verification: `docs/library-refresh-2026-10-11.md`. Article draft flags, release spacing and automations are unchanged.
 
 **Weekly artwork curation authorized — 10 October:** `kandaka-weekly-artwork-update` is ACTIVE for Saturdays at 10:00 AM America/Chicago. Add a small verified selection prioritizing Sudanese artists, retain creator/source/licence credits, keep link-only works separate, and verify deployment before reporting additions. Bilingual weekly-selections notice added to the gallery/homepage partial. Article automations and publication dates remain unchanged. Details: `docs/art-gallery-2026-10-10.md`.

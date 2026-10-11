@@ -2,6 +2,28 @@
 
 Reference list of sources searched for Sudan-related economic/development papers to add to `data/library.json`. Used across Batches 1–5 (July 2026). Reuse this list for future batches instead of re-deriving search strategy from scratch.
 
+## Verified resource links — 11 October 2026 / روابط المصادر المتحقَّق منها
+
+The six additions below are already published with English and Arabic summaries in `data/library.json`; they are reference resources for future workflow runs, not new candidates to add again. The seventh link replaces the duplicate World Bank catalogue entries. Current count after this refresh: **539 entries**. Earlier batch counts below are historical.
+
+أُضيفت المصادر الستة التالية إلى المكتبة بملخصات عربية وإنجليزية؛ وهي مراجع لسير العمل وليست مواد مرشحة للإضافة مرة أخرى. ويحل الرابط السابع محل القيدين المكررين لتقرير البنك الدولي. العدد بعد هذا التحديث: **539 مادة**.
+
+| Resource / المصدر | Publisher source link / رابط المصدر الأصلي | Workflow note / ملاحظة |
+|---|---|---|
+| THABAT agricultural SME baseline / المسح التأسيسي للمنشآت الزراعية الصغيرة والمتوسطة في مشروع ثبات | [IFPRI Sudan SSP Working Paper 29 (2026)](https://hdl.handle.net/10568/184053) | Project baseline, not impact evaluation / مسح تأسيسي وليس تقييماً للأثر |
+| Farming in crisis: Sudan 2024 Smallholder Farmers Survey / الزراعة في ظل الأزمة: مسح صغار المزارعين 2024 | [IFPRI Sudan SSP Working Paper 27 (2026)](https://hdl.handle.net/10568/182880) | Published 2026; survey from 2024 / نشر في 2026 وبيانات المسح من 2024 |
+| Three years of conflict in Sudan: conference proceedings / ثلاثة أعوام من النزاع في السودان: وقائع المؤتمر | [IFPRI Sudan SSP Working Paper 28 (2026)](https://hdl.handle.net/10568/183517) | Cairo, 14–15 April 2026 / القاهرة، 14–15 أبريل 2026 |
+| Costumes of prestige and authority in Christian Nubia / أزياء المكانة والسلطة في النوبة المسيحية | [Antiquity publisher record (2026)](https://www.cambridge.org/core/journals/antiquity/article/costumes-of-prestige-and-authority-in-christian-nubia-insights-from-archaeological-reconstruction/E18904093E1C654A2F66572470D0C283) | Experimental reconstructions / إعادة بناء تجريبية |
+| Laying the Groundwork for Recovery — UNDP Sudan Annual Report 2025 / إرساء أسس التعافي — التقرير السنوي لبرنامج الأمم المتحدة الإنمائي في السودان لعام 2025 | [UNDP publisher record](https://www.undp.org/arab-states/publications/laying-groundwork-recovery-undp-sudan-annual-report-2025) | Published 22 June 2026; reports 2025 activities / صدر في 22 يونيو 2026 ويغطي أنشطة 2025 |
+| Globalization and financial development contributions toward economic growth in Sudan / إسهامات العولمة والتطور المالي في النمو الاقتصادي في السودان | [Research in Globalization DOI (2024)](https://doi.org/10.1016/j.resglo.2024.100246) | Data from 1978–2021 / بيانات 1978–2021 |
+| Sudan Economic Update, May 2025: The Economic and Social Consequences of the Conflict — Charting a Path to Recovery / التحديث الاقتصادي للسودان، مايو 2025: التبعات الاقتصادية والاجتماعية للنزاع — رسم مسار نحو التعافي | [Official World Bank PDF / ملف البنك الدولي الرسمي](https://documents1.worldbank.org/curated/en/099051925180542315/pdf/P178527-6a7d4d70-52be-49b7-87e5-ead89050a99b.pdf) | One canonical catalogue entry; do not re-add the former EPUB/PDF records / قيد موحد؛ لا تُعد إضافة القيدين السابقين |
+
+Discovery starting point for future IFPRI batches: [Sudan SSP working-paper catalogue](https://sudan.ifpri.info/research-papers/). Deduplicate individual handles against `data/library.json` before proposing additions.
+
+Verification and duplicate rationale: [11 October Library refresh record](docs/library-refresh-2026-10-11.md). Both former World Bank R2 links returned HTTP 401 on that date; the older legacy-bucket “still live” note below must not be treated as a current availability guarantee. No stored files were deleted.
+
+Live catalogue: [English](https://kandaka.com/library/) · [العربية](https://kandaka.com/ar/library/).
+
 Total library size after Batch 7 (university archives, August 2026): **510 entries**. Batches 1–6 added Sudan-focused papers from academia.edu/ScienceDirect, the sources below, and the Sudan Open Archive; 39 previously link-only entries were later converted to R2-hosted downloads after the user manually uploaded PDFs; 13 entries were subsequently removed for being about South Sudan rather than Sudan (see Scope note below). Batch 7 added 3 Nubia/Sudan items from U Chicago ISAC and 4 collection-level entries for Durham's digitized Sudan Archive publication series (see "University archives & repositories" below).
 
 ## ⚠️ Scope: Sudan only, not South Sudan
@@ -139,7 +161,7 @@ Sources marked "Free, direct PDF" above (RePEc-linked originals, SSRN, IMF, AERC
 2. Dedupe candidate titles/URLs against `data/library.json` (`source` and lowercased `title`).
 3. For each candidate, test with `curl -sL -o test.pdf "<url>" && file test.pdf` — if it returns a real PDF, host it on R2 (see `upload_new_batch.py` pattern); if not, add as link-only.
 4. Write bilingual (EN/AR) `title_ar`/`desc_ar` fields.
-5. Append to `data/library.json`, and to `library_inventory.csv` for any R2-hosted files.
+5. Append to `data/library.json`, and to `library_inventory.csv` for any R2-hosted files. Record approved publication source links, verification date and duplicate decisions in this resource file (`LIBRARY_SOURCES.md`), and link the update from `KANDAKA_WORKPLAN.md`. Existing published resources above are not a fresh addition queue.
 6. Stage with `git add data/library.json library_inventory.csv` — do NOT `git add -A` (repo has unrelated line-ending noise across hundreds of files).
 7. User commits/pushes manually from PowerShell, then manually triggers the Netlify deploy (push alone does not auto-deploy).
 
