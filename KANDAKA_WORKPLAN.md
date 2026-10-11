@@ -104,6 +104,8 @@ Approval of one article never approves another. If an article is not ready or ap
 
 ### A02 — Sudan Planned Before: What Went Right, What Went Wrong, and What We Must Learn
 
+> **Draft update 2026-10-10:** complete reconstructed English review draft saved in parent workspace `deliverables/articles/A02-sudan-planned-before-review.md` (about 1,540 words including notes). The earlier reported original was not recovered; this is a new version, not that original. Final historical examples/quantified chronology, Arabic and cover remain. Publication authorized in the September 29 six-article sequence; not published. Earliest release remains October 12 11:25 CDT. Supersedes older draft/approval fields below.
+
 - **Category/tags:** Development; History, accountability, institutions, planning
 - **Priority:** Highest
 - **Research:** Substantially complete; final quantified timeline and fact-check required
@@ -233,6 +235,8 @@ Approval of one article never approves another. If an article is not ready or ap
 
 ### A11 — What Megaprojects Could Actually Transform Sudan?
 
+> **Draft update 2026-10-10:** complete English first draft saved in parent workspace `deliverables/articles/A11-megaprojects-review.md` (about 1,370 words). Qualitative comparison includes the established sectors; project-specific cost/time/demand validation, Arabic and cover remain. Publication authorized in the September 29 sequence; not published. Supersedes older draft/approval fields below.
+
 - **Category/tags:** Development; infrastructure, energy, minerals, opportunity cost
 - **Priority:** High, but only with strict comparative economics
 - **Research:** Not started; uranium source reviewed preliminarily
@@ -246,6 +250,18 @@ Approval of one article never approves another. If an article is not ready or ap
 - **Next action:** Build the common scorecard, shortlist only plausible projects, and commission/update cost and capacity evidence before drafting.
 
 ## Additional article backlog from this conversation and uploaded idea bank
+
+### A12 — Sudan's Deep-Sea Ports: A Gateway to Production, Not Just Bigger Ships
+
+- **Draft:** Complete English first draft, 2026-10-10; parent workspace `deliverables/articles/A12-deep-sea-ports-review.md` (about 1,410 words).
+- **Research/review:** Framework and sources established; current facility statistics, named concession/project status and final claim checks pending.
+- **Translation/cover:** Pending Arabic and Leonardo/Ideogram cover.
+- **Approved:** Publication authorized as sixth item in September 29 sequence.
+- **Published:** No. Must follow A11 by at least 48 hours; no fixed date promised.
+
+### Curated artwork alongside the photo stream — 2026-10-10
+
+User requested artworks, not artist portraits: titles, artist/maker names where known and original source links; contemporary and historical, all genres, Sudan preferred but not exclusive. Added separate `data/artworks.json` and shared gallery partial; existing automated photo feed remains unchanged. Initial selection: six Met open-access images (two Sudanese/Nubian craft objects, Egyptian Nubian photography, a poster, crafted book cover and painting) plus two contemporary works by Kamala Ibrahim Ishag linked to their authoritative source pages without unlicensed image copying. Site build/deployment tracked separately; this change does not publish the three article drafts.
 
 These items were mentioned or queued but do not yet have fully established theses. They must still use the standard status fields when promoted to the active queue.
 

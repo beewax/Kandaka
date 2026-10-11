@@ -891,6 +891,8 @@ html[data-theme="dark"] .k-nile-home-kicker { color: #ffd84d; }
     </div>
   </section>
 
+  {{ partial "artwork-collection.html" (dict "page" . "limit" 3) }}
+
   {{/* ── Featured Library — 3 random books per build ── */}}
   <section class="k-section" aria-labelledby="library-heading">
     <div class="k-section-head">

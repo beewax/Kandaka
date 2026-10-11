@@ -1,0 +1,30 @@
+{{- $isAr := eq .page.Site.Language.Lang "ar" -}}
+{{- $works := hugo.Data.artworks -}}
+{{- with .limit }}{{ $works = first . $works }}{{ end -}}
+<section class="art-collection" aria-labelledby="artwork-heading">
+  <h2 id="artwork-heading">{{ if $isAr }}الفنون والتراث البصري{{ else }}Art & Visual Heritage{{ end }}</h2>
+  <p>{{ if $isAr }}مجموعة مختارة من الفنون المعاصرة والتاريخية والتصوير والحرف والملصقات وفنون الكتاب، مع أولوية للسودان وروابط للمصادر الأصلية.{{ else }}A curated companion to the photo stream: contemporary and historical art, photography, crafts, posters and book arts, with Sudan first and room for the wider world.{{ end }}</p>
+  <div class="art-grid">
+    {{ range $works }}
+    <article class="art-card">
+      {{ if .image }}<a href="{{ .source }}" target="_blank" rel="noopener noreferrer" class="art-image-wrap"><img src="{{ .image }}" alt="{{ .alt }}" loading="lazy" decoding="async" onerror="this.parentElement.hidden=true"></a>{{ end }}
+      <div class="art-card-body">
+        <p class="art-genre">{{ .genre }}</p>
+        <h3><a href="{{ .source }}" target="_blank" rel="noopener noreferrer">{{ .title }}</a></h3>
+        <p><strong>{{ .artist }}</strong> · {{ .date }}</p>
+        <p>{{ .note }}</p>
+        <a href="{{ .source }}" target="_blank" rel="noopener noreferrer">{{ if $isAr }}عرض العمل والمصدر{{ else }}View artwork & source{{ end }} ↗</a>
+        <small>{{ .collection }} · {{ .rights }}</small>
+      </div>
+    </article>
+    {{ end }}
+  </div>
+  {{ with .limit }}<p><a href="{{ if $isAr }}/ar/images/{{ else }}/images/{{ end }}#artwork-heading">{{ if $isAr }}استكشف المجموعة كاملة ←{{ else }}Explore the full collection →{{ end }}</a></p>{{ end }}
+</section>
+<style>
+.art-collection{margin:2rem 0;padding-top:1rem;border-top:1px solid var(--border)}
+.art-collection>p{color:var(--secondary);line-height:1.65}.art-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:1rem}
+.art-card{background:var(--entry);border:1px solid var(--border);border-radius:10px;overflow:hidden}.art-image-wrap{display:block;background:var(--code-bg)}
+.art-image-wrap img{width:100%;height:240px;object-fit:contain;display:block;padding:12px}.art-card-body{padding:1rem}.art-card h3{font-size:1.1rem;margin:0 0 .5rem}.art-card p{font-size:.88rem;margin:.5rem 0;line-height:1.6}.art-card .art-genre{font-size:.75rem;color:var(--secondary)}
+.art-card a{text-decoration:underline;text-underline-offset:3px}.art-card small{display:block;margin-top:.7rem;color:var(--secondary);font-size:.72rem}.art-card a:focus-visible{outline:3px solid var(--primary);outline-offset:3px}
+</style>
