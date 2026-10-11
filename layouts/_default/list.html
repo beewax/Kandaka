@@ -37,6 +37,8 @@
      ═══════════════════════════════════════════════ */}}
 
 <style>
+/* Give the homepage's card grids room; article reading widths stay unchanged. */
+.main { max-width: 1100px; }
 /* ── Reset home-info flag image (replaced by SVG hero) ── */
 article.first-entry.home-info::before { display: none !important; }
 
@@ -334,8 +336,15 @@ html[data-theme="dark"] .badge-analysis { background: #431407; color: #fdba74; }
 .k-news-link:hover { background: var(--border); }
 
 /* ── Photo + Library strip ── */
-.k-two-col { display: grid; gap: 32px; grid-template-columns: 1fr 1fr; }
-@media (max-width: 800px) { .k-two-col { grid-template-columns: 1fr; } }
+.k-two-col { display: grid; gap: 32px; grid-template-columns: minmax(0, 1fr); }
+.k-two-col > section { min-width: 0; margin: 0; }
+.k-two-col .k-photo-stack, .k-two-col .k-lib-stack { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+.k-two-col .art-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.k-two-col .k-section-head, .k-two-col .art-collection > h2 { margin-bottom: 16px; }
+.k-two-col .art-collection { padding-top: 24px; }
+@media (max-width: 760px) {
+  .k-two-col .k-photo-stack, .k-two-col .k-lib-stack, .k-two-col .art-grid { grid-template-columns: minmax(0, 1fr); }
+}
 
 /* ── Illustration cards ── */
 .k-photo-stack { display: flex; flex-direction: column; gap: 14px; }

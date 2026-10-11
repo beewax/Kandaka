@@ -2,9 +2,23 @@
 
 > Persistent editorial and research tracker. This file records decisions, drafts, queues, source-acquisition work, website changes, and publication readiness. It does **not** authorize publication.
 
-**Last updated:** 2026-10-08
+**Last updated:** 2026-10-10
 **Publication rule:** Nothing may be translated, scheduled, committed as publishable content, or published without explicit approval of that specific article.  
 **Current overall state:** Planning and review only; no item in this file is approved for publication unless its `Approved` field is explicitly marked `Yes`.
+
+## Current authorized sequence — supersedes stale fields below
+
+The user reconfirmed completion and two-day publication of A02, A11 and A12 on 10 October. L02, L03 and L01 are already verified live. The remaining three now have checked editorial editions, complete Arabic translations and distinct Leonardo Lucid Origin covers. Canonical release details, source limits and cover provenance: `docs/A02-A11-A12-release-preparation.md`.
+
+| Item | Research / review | English / Arabic / cover | Approved | Published | Next action |
+|---|---|---|---|---|---|
+| A02 Sudan Planned Before | Complete for scoped qualitative historical article; source refresh at release | Complete / Complete / Complete | Yes | No; draft protected | Release no earlier than 12 Oct 11:25 CDT; target noon |
+| A11 Transformative megaprojects | Complete for policy appraisal framework, not a costed feasibility study | Complete / Complete / Complete | Yes | No; draft protected | Release at least 48h after A02; conditional target 14 Oct |
+| A12 Deep-sea ports | Complete for strategic analysis, not a named concession or capacity forecast | Complete / Complete / Complete | Yes | No; draft protected | Release at least 48h after A11; conditional target 16 Oct |
+
+The old missing-draft, pending-Arabic and pending-cover notes below are historical and superseded. A02 is reconstructed, not the unrecovered original. No unsupported project cost rankings or current port depth claims were added. This preparation does not publish the articles. Dates move if needed to preserve the 48-hour interval.
+
+Homepage correction: replacing the three-sections-in-two-columns layout with full-width Photos, Art and Library sections; matching three-card desktop grids, one-card mobile grids, and wider homepage container. Article reading width and existing photo-stream data are unchanged.
 
 ## How to maintain this file
 
