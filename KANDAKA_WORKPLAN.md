@@ -24,6 +24,8 @@ Homepage correction: replacing the three-sections-in-two-columns layout with ful
 
 ## How to maintain this file
 
+**Artwork gallery update — 10 October, verified live:** eight illustrated works (two new Sudanese selections) with titles, creator credits and original source links; two Kamala Ibrahim Ishag recommendations moved into a separate source-only section. Homepage preview now selects image-backed works only. English and Arabic gallery checked; all eight images loaded in the English live browser. Commit `ae5e327`, Netlify deploy `6acaefc5aef43d000816fe97`. Source/licence and QA record: `docs/art-gallery-2026-10-10.md`. Photo-stream content and article-release schedule unchanged.
+
 Use these standard fields for every article, Library summary, acquisition, and site change:
 
 - **Research:** Not started / In progress / Complete / Refresh required
