@@ -4,6 +4,7 @@
 {{- with .limit }}{{ $works = first . $works }}{{ end -}}
 <section class="art-collection" aria-labelledby="artwork-heading">
   <h2 id="artwork-heading">{{ if $isAr }}الفنون والتراث البصري{{ else }}Art & Visual Heritage{{ end }}</h2>
+  <p class="art-weekly-notice">{{ if $isAr }}<strong>مختارات فنية أسبوعية</strong> — نخطط لإضافة أعمال جديدة كل سبت، مع أولوية للفنانين السودانيين وذكر أسماء المبدعين وروابط المصادر.{{ else }}<strong>Weekly artwork selections</strong> — New additions are scheduled each Saturday, prioritizing Sudanese artists, with creator credits and source links.{{ end }}</p>
   <p>{{ if $isAr }}مجموعة مختارة من الفنون المعاصرة والتاريخية والتصوير والحرف والملصقات وفنون الكتاب، مع أولوية للسودان وروابط للمصادر الأصلية.{{ else }}A curated companion to the photo stream: contemporary and historical art, photography, crafts, posters and book arts, with Sudan first and room for the wider world.{{ end }}</p>
   <div class="art-grid">
     {{ range $works }}
@@ -36,6 +37,7 @@
   {{ end }}
 </section>
 <style>
+.art-weekly-notice{padding:.8rem 1rem;border-inline-start:3px solid var(--primary);background:var(--code-bg);border-radius:4px;margin:1rem 0}
 .art-image-wrap img[hidden]{display:none}
 .art-collection{margin:2rem 0;padding-top:1rem;border-top:1px solid var(--border)}
 .art-collection>p{color:var(--secondary);line-height:1.65}.art-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:1rem}

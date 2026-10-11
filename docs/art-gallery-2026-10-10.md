@@ -1,5 +1,9 @@
 # Artwork gallery update — 10 October 2026
 
+## Weekly curation authorized
+
+The user subsequently approved recurring weekly additions and a public notice. Automation `kandaka-weekly-artwork-update` is ACTIVE, Saturdays at 10:00 AM America/Chicago, beginning with the next Saturday after setup (17 October). It targets a small batch of 2–4 verified, nonduplicate works when suitable material is available, prioritizing Sudanese artists. It preserves the photo stream and article schedule, separates source-only records, checks sources and image credits, builds both language editions and verifies deployment. Notifications are limited to verified additions, material failure or required input. The gallery and homepage preview carry an English/Arabic weekly-selections notice. Recurrence is scheduled work, not a guarantee of additions if access or reliable sourcing is blocked.
+
 User authorized adding artwork images with titles, artist names and source links, with link-only recommendations separated.
 
 - Eight image-backed works, including two new Sudanese selections, are now selected independently of the two link-only records. The homepage takes its three cards from the illustrated works only.
