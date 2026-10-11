@@ -12,7 +12,7 @@ The user requested full Arabic and English drafts of the first three recommended
 
 Full sequence: A02 → A11 → A12 → A13 → A14 → A15. A02/A11/A12 retain their existing readiness record and conditional 12/14/16 October targets. These are 2026 planning dates, not promises or proof of release. Require at least 48 hours after the previous actual successful article release; move later dates when an earlier release slips. Homepage and Library deployments do not restart this clock. Never skip a blocked item or batch releases.
 
-Status: six full draft files completed, all protected with `draft: true`. Draft research and bilingual editorial pass completed with the access limits below. Final source refresh, covers, cover audit and release verification remain pending. No release occurred as part of this drafting task.
+Status: six full draft files completed, all protected with `draft: true`. Final bilingual editorial review and revised Sudan-specific covers completed on 11 October. A15 full-report access resolved; findings and cover changes are recorded below. Routine release-day source refresh and live verification remain required. No release occurred as part of this preparation task.
 
 ## Evidence ledger and decisions
 
@@ -34,7 +34,7 @@ Status: six full draft files completed, all protected with `draft: true`. Draft 
 
 ### A15 — farmer-centred rebuilding
 
-- Starting Library source: [IFPRI Farming in Crisis, Working Paper 27](https://hdl.handle.net/10568/182880) and [publisher catalogue](https://sudan.ifpri.info/publications/). Published 2026, observations from 2024 in 13 states. Publisher summary and indexed methods excerpt consulted; direct full PDF returned HTTP 401 and was NOT reviewed. Draft explicitly discloses this. No household percentages, microdata analysis or detailed sampling inference is claimed. Try authorized publisher access at final review; if unavailable, retain the limitation and restrict all claims to accessible evidence rather than implying a full methods audit.
+- Starting Library source: [IFPRI Farming in Crisis, Working Paper 27](https://hdl.handle.net/10568/182880) and [publisher catalogue](https://sudan.ifpri.info/publications/). Published 2026, observations from 2024 in 13 states. Initial PDF access failed, but on 11 October the publisher catalogue supplied a [working full report](https://cgspace.cgiar.org/server/api/core/bitstreams/c1849f3b-34ed-4d9f-92c9-2548f7e642e9/content). Methods pp. 2–4, conclusions and limitations pp. 48–50 checked, including rendered PDF inspection. The telephone survey excludes Darfur; women were poorly represented; interview totals differ between methods prose and table. Both editions now disclose these limits without reproducing an unreliable precise sample total. No microdata reanalysis or causal claim was added. The earlier unavailable-PDF note is superseded.
 - Library triangulation: [FAO remote-sensing assessment](https://www.fao.org/platforms/water-scarcity/Knowledge/knowledge-products/detail/a-remote-sensing-assessment-of-cultivated-cropland-area-in-the-sudan-during-the-summer-season/en), summer cultivated area 2018–2024. Area is not yield, net household income, secure tenure or food access.
 - SAMRA and the dated September 2026 FAO brief above provide separate market and recent seasonal context, not proof of any proposed support package. Survey year and publication year remain distinct.
 - Kandaka's proposals: safe voluntary access, locally timed support, grants versus seasonal credit, inclusion of tenants/workers/displaced people, net income rather than headline output, and evaluation that accounts for weather and starting conditions. No improvised land adjudication or unsafe explosive-clearance advice.
@@ -42,17 +42,28 @@ Status: six full draft files completed, all protected with `draft: true`. Draft 
 
 ## Covers and release gates
 
-Use the user's Leonardo/Ideogram preference; record generator, prompt, original asset, provenance, and bilingual alt text/captions. Covers are NOT yet generated.
+The user rejected the first generated set as generic on 11 October and requested Sudan-specific scenes and historically grounded Christian Nubian imagery. Do not reuse that rejected set. Revised covers now have complete English/Arabic alt text and captions; provenance and exact prompts are in `docs/A13-A14-A15-cover-revisions.md`.
 
-- A13: clearly illustrative milling/repair/transport activity, ordinary people with agency, no fabricated documentary scene or institutional logo.
-- A14: stylised textile/painted-detail interpretation, not a photorealistic supposedly authentic royal costume, museum photograph or certified reconstruction. Label AI illustration clearly.
-- A15: farming preparation and maintained irrigation/tools, not suffering spectacle, fictitious reportage or a guaranteed harvest.
+- A13: Leonardo Lucid Origin illustration inspired by Omdurman shopfronts and working life; clearly fictional, not reported photography.
+- A14: actual photographic reproduction of the Faras mural of Madonna and Child with Bishop Marianos, anonymous artist, 1005–1036, National Museum in Warsaw collection; Commons source record marks public domain. Not AI-generated and not an invented medieval costume.
+- A15: Leonardo Lucid Origin illustration inspired by Gezira's flat irrigated clay fields, not a named farm, current crop assessment or guaranteed harvest.
 
 Before each release: refresh dated evidence and links; check duplicate live coverage; resolve substantive editorial questions with the user; preserve the source limitations; review full Arabic parity and natural phrasing; remove internal editorial instructions; complete and audit the cover metadata; build both editions normally; set only the eligible pair `draft: false` with actual release date; scoped commit/push through existing Git-to-Netlify workflow; independently verify both language URLs and cover. Record local work, commit, deployment, actual publication and verification separately.
 
 The existing publication automation must be extended through A15, retaining its ID and cadence. Leave the separate 48-hour progress monitor and weekly Library/artwork automations unchanged. After this extended authorized queue is independently verified live, report completion and remove only the publication automation.
 
 ## Preparation verification
+
+### Final preparation, 11 October — supersedes earlier pending checks
+
+- All six full editions reviewed for meaning/source parity. A13's internal instruction to refresh before release was removed from public prose; the release gate remains here and in the automation.
+- Refreshed IFPRI enterprise report, recovered farmer report, Cambridge project article, Copenhagen dye-study record and FAO dated/remote-sensing evidence. No new programme-effect, cost or historical-certainty claims. A15's source-access correction materially changed its limitations paragraph in both languages.
+- Draft/future Hugo build: success, 965 EN / 2,170 AR pages. Normal production build: success, 939 EN / 2,132 AR pages. All six future URLs absent from production output.
+- Structural checks: eight sections per edition, matching external source URLs and footnotes, full-length prose, no replacement-character corruption, correct Arabic RTL, existing cover assets and rendered cover references. All passed.
+- Cover duplication audit passed across 2,353 Markdown files. Hugo emitted the existing `.Site.Data` deprecation warning; no build failure.
+- Local preview rebuilt with loopback base URL to load unpublished assets. All six pages checked at 390px: correct title/direction, each cover loaded at natural width (964 or 1376), no horizontal overflow. Arabic Faras desktop and mobile screenshots and Arabic farming mobile screenshot visually reviewed. Arabic title/cover proof saved in parent `deliverables/sudan-cover-revisions/arabic-faras-preview.png`.
+- Existing publication automation updated successfully and remains ACTIVE with unchanged two-day cadence, order and release gates. Other automations unchanged. It now knows the revised cover selection and recovered A15 PDF; no obsolete rejected images should return.
+- Prepared locally for a scoped protected-draft commit; no deployment or live article publication in this task. The actual commit is recorded in Git history and the parent sequence record after push. Routine release-day evidence refresh and independent live verification remain mandatory.
 
 On 11 October the app confirmed the existing automation update as ACTIVE, retaining `kandaka-six-article-publication-sequence`, renamed **Kandaka article publication queue**, with the full six-item remaining sequence and unchanged every-two-days noon cadence. It now stops only after A15 is verified live.
 

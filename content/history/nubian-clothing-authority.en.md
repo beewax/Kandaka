@@ -6,7 +6,13 @@ category: 'History'
 description: "What painted robes and surviving threads reveal about medieval Nubia—and why a beautiful reconstruction is an argument, not a recovered photograph."
 tags: ['Sudan', 'Nubia', 'heritage', 'textiles', 'art']
 draft: true
+cover:
+  image: '/images/uploads/faras-bishop-marianos.jpg'
+  alt: 'Surviving Faras mural showing Bishop Marianos in decorated vestments beside the Virgin and Child.'
+  relative: false
 ---
+
+*Anonymous Nubian artist, Madonna and Child with Bishop Marianos, 1005–1036, from Faras in present-day Sudan. National Museum in Warsaw collection. [Photographic reproduction and source record](https://commons.wikimedia.org/wiki/File:Faras_Bishop_Marianos.jpg), marked public domain on Wikimedia Commons. This is a photograph of the surviving mural, not an AI reconstruction.*
 
 ## Read the clothing before the crown
 

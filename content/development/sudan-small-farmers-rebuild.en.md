@@ -6,7 +6,13 @@ category: 'Development'
 description: "A farmer-centred recovery needs more than seed deliveries: safe access, timely services, fair markets and support that lasts through a difficult season."
 tags: ['Sudan', 'agriculture', 'smallholders', 'food security', 'recovery']
 draft: true
+cover:
+  image: '/images/uploads/gezira-farming-leonardo.jpg'
+  alt: 'Illustrated farmers beside an earthen irrigation channel in a flat landscape inspired by Sudan’s Gezira plain.'
+  relative: false
 ---
+
+*AI editorial illustration made with Leonardo AI, Lucid Origin, inspired by the irrigated landscape of Gezira, Sudan. A fictional scene, not a photograph of a particular farm or evidence of current crop conditions.*
 
 ## A farmer cannot plant a promise
 
@@ -21,6 +27,8 @@ That household may own land, rent it, work on another person’s farm or have be
 IFPRI’s Farming in Crisis paper, published in 2026, draws on a 2024 survey in 13 of Sudan’s 18 states. Its account links displacement and losses of productive assets with pressure on livelihoods. It also reports some improvements in market and input access between the seasons it compares.[^1]
 
 Both parts matter. A blanket story of uninterrupted decline misses adaptation; a story of recovery built from a few improved indicators misses continuing hardship. And a survey conducted in 2024 cannot tell us exactly what a farmer faces in October 2026.
+
+Who could answer matters too. The telephone survey did not reach Darfur, and its authors acknowledge that women were poorly represented. Those gaps limit whose experience the findings capture; they are not evidence that the missing communities had fewer problems. The report also gives inconsistent interview totals in its methods text and table, so this article does not reproduce a precise sample total.[^1]
 
 A separate FAO remote-sensing assessment in the Library examines cultivated area during the summer seasons of 2018–2024.[^2] Satellite evidence helps ask where cultivation is occurring. It cannot, by itself, tell us whether a family controls the field, whether the crop will be harvested, or whether the income will buy enough food.
 
@@ -78,9 +86,9 @@ The ambition should be practical and demanding: help people regain the ability t
 
 ## Sources and reading notes
 
-The article draws on Library publications and a fresh FAO check, rather than extrapolating the original survey into the present. Its programme design and safeguards are Kandaka’s proposals. The survey’s publisher summary and accessible indexed methods excerpt were consulted; its full PDF could not be retrieved during this check. No new analysis of household microdata is claimed. Research checked on 11 October 2026.
+The article draws on Library publications and a fresh FAO check, rather than extrapolating the original survey into the present. Its programme design and safeguards are Kandaka’s proposals. The full survey report was retrieved through the publisher during final review; its methods, conclusions and limitations were checked. No new analysis of household microdata is claimed. Research checked on 11 October 2026.
 
-[^1]: Mohamed and colleagues, [Farming in Crisis, IFPRI Sudan SSP Working Paper 27](https://hdl.handle.net/10568/182880), 2026; [publisher’s publication catalogue and summary](https://sudan.ifpri.info/publications/). Survey observations refer to 2024, including the 2023/24 winter season and preparations for summer 2024.
+[^1]: Mohamed and colleagues, [Farming in Crisis, IFPRI Sudan SSP Working Paper 27](https://hdl.handle.net/10568/182880), 2026; [full publisher report](https://cgspace.cgiar.org/server/api/core/bitstreams/c1849f3b-34ed-4d9f-92c9-2548f7e642e9/content), methods pp. 2–4 and limitations p. 49; [publisher’s catalogue](https://sudan.ifpri.info/publications/). Observations refer to 2024, including the 2023/24 winter season and preparations for summer 2024. The methods narrative and Table 2-1 give different interview totals; the discrepancy is not resolved here.
 [^2]: FAO, [A Remote Sensing Assessment of Cultivated Cropland Area in the Sudan during the Summer Season](https://www.fao.org/platforms/water-scarcity/Knowledge/knowledge-products/detail/a-remote-sensing-assessment-of-cultivated-cropland-area-in-the-sudan-during-the-summer-season/en), 2025. Area estimates are not household income or nutrition measurements.
 [^3]: FAO GIEWS, [Sudan country brief](https://cb.apps.fao.org/country.jsp?code=SDN&lang=en), reference date 24 September 2026. Seasonal warnings are not final harvest outcomes.
 [^4]: UNDP/ITC, [Sudan’s Agri-food and Market Resilience Analysis](https://www.undp.org/sudan/publications/restoring-trade-and-livelihoods-sudans-agri-food-and-market-resilience-analysis-samra), 2026. Its access restrictions and data gaps limit precision, particularly in conflict-affected locations.

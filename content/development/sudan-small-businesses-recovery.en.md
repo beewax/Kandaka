@@ -6,7 +6,13 @@ category: 'Development'
 description: "Why repairing Sudan’s food economy means supporting the businesses between the field and the household—and testing whether that support actually helps."
 tags: ['Sudan', 'agriculture', 'small businesses', 'recovery']
 draft: true
+cover:
+  image: '/images/uploads/omdurman-market-leonardo.jpg'
+  alt: 'Illustrated grain traders and a cargo tricycle beside brick shopfronts inspired by Omdurman.'
+  relative: false
 ---
+
+*AI editorial illustration made with Leonardo AI, Lucid Origin, inspired by Omdurman market streets. Fictional people and businesses; not a documentary photograph.*
 
 ## A harvest is only the beginning
 
@@ -74,7 +80,7 @@ Sudan needs large ambitions, but recovery also happens in an unremarkable moment
 
 ## Sources and reading notes
 
-This explainer combines Library resources with additional institutional checks. Its proposed funding tests and safeguards are Kandaka’s recommendations, not measured outcomes of THABAT. Evidence was checked on 11 October 2026; dated market conditions require refreshing before release.
+This explainer combines Library resources with additional institutional checks. Its proposed funding tests and safeguards are Kandaka’s recommendations, not measured outcomes of THABAT. Evidence was checked on 11 October 2026.
 
 [^1]: Abushama and colleagues, [THABAT SME survey, IFPRI Sudan SSP Working Paper 29](https://hdl.handle.net/10568/184053), July 2026; especially “Conclusions and Study Limitations,” printed pp. 25–26. The [full report](https://cgspace.cgiar.org/server/api/core/bitstreams/d286e5ce-32c4-4e2e-a0a9-46beae4c3655/content) explicitly limits causal interpretation.
 [^2]: UNDP/ITC, [Sudan’s Agri-food and Market Resilience Analysis](https://www.undp.org/sudan/publications/restoring-trade-and-livelihoods-sudans-agri-food-and-market-resilience-analysis-samra), 2026; methods and limitations, and section 2.3 on other strategic value chains, [report pp. 7–9](https://www.undp.org/sites/g/files/zskgke326/files/2026-07/undp_sudan_samra.pdf).
