@@ -9,7 +9,7 @@
 {{ $photos := sort (where $en.RegularPages "Section" "images") "Date" "desc" }}
 {{ $pager := .Paginate $photos }}
 <div class="art-grid">{{ range $pager.Pages }}
-<article class="art-card">{{ with .Params.image_url }}<div class="art-image-wrap"><img src="{{ . }}" alt="" loading="lazy" decoding="async" onerror="this.parentElement.hidden=true"></div>{{ end }}
+<article class="art-card">
 <div class="art-card-body"><h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3><p>{{ .Params.source }} · {{ .Date.Format "2006-01-02" }}</p>{{ with .Params.source_url }}<a href="{{ . }}" rel="noopener noreferrer" target="_blank">{{ if $isAr }}المصدر{{ else }}Original source{{ end }} ↗</a>{{ end }}</div></article>
 {{ end }}</div>
 {{ if gt $pager.TotalPages 1 }}<nav class="pagination" aria-label="{{ if $isAr }}صفحات الصور{{ else }}Photo pages{{ end }}">{{ if $pager.HasPrev }}<a href="{{ $pager.Prev.URL }}">{{ if $isAr }}السابق{{ else }}Previous{{ end }}</a>{{ end }}{{ if $pager.HasNext }}<a href="{{ $pager.Next.URL }}">{{ if $isAr }}التالي{{ else }}Next{{ end }}</a>{{ end }}</nav>{{ end }}
