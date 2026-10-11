@@ -91,10 +91,10 @@
 <div class="lib-grid" id="lib-grid">
   {{- range site.Data.library.books | collections.Reverse }}
   {{- $b := . }}
-  <div class="lib-card" data-tags="{{ delimit .tags "|" }}" data-text="{{ lower .title }} {{ lower .author }}{{ with .title_ar }} {{ . }}{{ end }}">
+  <div class="lib-card" data-tags="{{ delimit .tags "|" }}" data-text="{{ lower .title }} {{ lower .author }}{{ with .title_ar }} {{ . }}{{ end }}{{ with .author_ar }} {{ . }}{{ end }}">
     <h3>{{ if and $isAr .title_ar }}{{ .title_ar }}{{ else }}{{ .title }}{{ end }}</h3>
     {{- if and $isAr .title_ar }}<div class="lib-orig">{{ .title }}</div>{{ end }}
-    <div class="lib-meta">{{ .author }}{{ with .year }} · {{ . }}{{ end }}</div>
+    <div class="lib-meta">{{ if and $isAr .author_ar }}{{ .author_ar }}{{ else }}{{ .author }}{{ end }}{{ with .year }} · {{ . }}{{ end }}</div>
     {{- if $isAr }}{{ with .desc_ar }}<p class="lib-desc">{{ . }}</p>{{ end }}{{ else }}{{ with .desc }}<p class="lib-desc">{{ . }}</p>{{ end }}{{ end }}
     <div class="lib-chips">
       {{- range .tags }}

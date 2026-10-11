@@ -4,7 +4,7 @@
 
 > Persistent editorial and research tracker. This file records decisions, drafts, queues, source-acquisition work, website changes, and publication readiness. It does **not** authorize publication.
 
-**Last updated:** 2026-10-10
+**Last updated:** 2026-10-11
 **Publication rule:** Nothing may be translated, scheduled, committed as publishable content, or published without explicit approval of that specific article.  
 **Current overall state:** Planning and review only; no item in this file is approved for publication unless its `Approved` field is explicitly marked `Yes`.
 
@@ -25,6 +25,8 @@ Homepage correction: replacing the three-sections-in-two-columns layout with ful
 **Deployment verified:** layout correction live in English and Arabic, commit `7218583`, Netlify `6acaec752f2c440008189281`, published 10 Oct 20:55 CDT and independently checked by 20:57 CDT. All six future article URLs remain unpublished (HTTP 404). The three bilingual articles and covers are committed as protected drafts; existing two-day publication automation updated and ACTIVE.
 
 ## How to maintain this file
+
+**Library refresh — 11 October, explicitly approved:** six new publications have complete English/Arabic titles, author names and summaries, with publisher source links. The duplicate May 2025 World Bank catalogue entries are consolidated under the official PDF; both former R2 links returned HTTP 401, and no stored files were deleted. Count: 539. Local production build and both built Library editions passed validation. Publication verification is tracked in `docs/library-refresh-2026-10-11.md`. Article draft flags, release spacing and automations are unchanged.
 
 **Weekly artwork curation authorized — 10 October:** `kandaka-weekly-artwork-update` is ACTIVE for Saturdays at 10:00 AM America/Chicago. Add a small verified selection prioritizing Sudanese artists, retain creator/source/licence credits, keep link-only works separate, and verify deployment before reporting additions. Bilingual weekly-selections notice added to the gallery/homepage partial. Article automations and publication dates remain unchanged. Details: `docs/art-gallery-2026-10-10.md`.
 
