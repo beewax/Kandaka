@@ -30,7 +30,7 @@ Homepage correction: replacing the three-sections-in-two-columns layout with ful
 
 ## How to maintain this file
 
-**Library refresh — 12 October:** user approved the three weekly research recommendations: ERF income/wages (2022 baseline, published 2026), Miseeda/Mahas (2026), and wartime heritage (2025 guest editorial). Complete bilingual catalogue records and source links prepared; count 542 in both introductions. Resource register and regression check updated. Delivery evidence is tracked separately in `docs/library-refresh-2026-10-12.md`; this entry alone does not assert a verified deployment. No article draft flags, publication dates, automations or stored PDFs changed.
+**Library refresh — 12 October, verified live:** user approved the three weekly research recommendations: ERF income/wages (2022 baseline, published 2026), Miseeda/Mahas (2026), and wartime heritage (2025 guest editorial). Complete bilingual catalogue records and source links published; count 542 in both editions. Resource register and regression check updated. Content commit `55f0fea`, Netlify `6acd5e666a10b93837a2a5eb`, published 17:26 CDT and independently verified 17:27 CDT. Evidence: `docs/library-refresh-2026-10-12.md`. No article draft flags, publication dates, automations or stored PDFs changed.
 
 **Library workflow resources:** [LIBRARY_SOURCES.md](LIBRARY_SOURCES.md), under “Verified resource links — 11 October 2026,” records the six published source links and the corrected official World Bank PDF, with bilingual labels and duplicate-prevention notes. Maintain this resource register alongside future approved Library batches; the entries already published must not be added again. Detailed verification: [11 October refresh](docs/library-refresh-2026-10-11.md).
 

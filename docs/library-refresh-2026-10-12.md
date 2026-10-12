@@ -17,3 +17,10 @@ No matching title or identifier was present in the 539-entry catalogue; overlapp
 Synchronized remote automated news/photo changes through `4eb412d` by fast-forward before editing. Source preparation, build validation, commit/push, deployment and independent live verification are separate stages. Deployment verification will be appended after the release is observed live.
 
 Local validation passed: 542 records and cards in each language, exact bilingual titles/authors/summaries and unique source links for nine recent additions, and a single canonical World Bank report. Production Hugo build passed (951 EN / 2,213 AR pages; existing `.Site.Data` deprecation warning only). Cover audit passed for 2,446 Markdown files. No draft/future build flags were used. Hugo required execution outside the sandbox after a Windows DLL startup failure inside it.
+
+Published content commit: `55f0feacc190dda41c6c998bcd540c6b47819e6a`. Netlify production deployment `6acd5e666a10b93837a2a5eb` is ready, matching that commit, published 12 October 2026 at **22:26:41 UTC / 17:26:41 CDT**. Both public pages were independently fetched and passed the same 542-card bilingual content/source regression check at **22:27:17 UTC / 17:27:17 CDT**:
+
+- https://kandaka.com/library/
+- https://kandaka.com/ar/library/
+
+An earlier live check during deployment still saw the old catalogue; the successful check above was performed after readiness. No article Markdown or release schedule was changed. This Library deployment does not reset the interval between article releases.
