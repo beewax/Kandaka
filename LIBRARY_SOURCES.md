@@ -2,6 +2,18 @@
 
 Reference list of sources searched for Sudan-related economic/development papers to add to `data/library.json`. Used across Batches 1–5 (July 2026). Reuse this list for future batches instead of re-deriving search strategy from scratch.
 
+## Approved additions — 12 October 2026 / الإضافات المعتمدة
+
+Three approved catalogue additions bring the total to **542**. Each has Arabic and English titles, author names and summaries. Do not propose these again as new candidates. Earlier counts below are historical. Verification: [12 October refresh](docs/library-refresh-2026-10-12.md).
+
+ترفع الإضافات الثلاث المعتمدة العدد إلى **542 مادة**، ولكل منها عنوان وأسماء مؤلفين وملخص بالعربية والإنجليزية. لا تُقترح هذه المواد مرة أخرى بوصفها إضافات جديدة؛ والأعداد أدناه تاريخية.
+
+| Resource / المصدر | Original source / المصدر الأصلي | Scope / النطاق |
+|---|---|---|
+| Sudan’s income and wage structure in 2022 / هيكل الدخل والأجور في السودان عام 2022 | [ERF Working Paper 1824](https://erf.org.eg/publications/the-main-features-of-sudans-income-and-wage-structure-in-2022/) | March 2026 publication; pre-war 2022 data / نشر في مارس 2026 وبياناته من 2022 |
+| Miseeda and the Mahas region / مسيدة ومنطقة المحس | [Antiquity publisher record](https://www.cambridge.org/core/journals/antiquity/article/miseeda-between-kingdoms-through-epochsreconstructing-a-history-of-the-mahas-region-sudan/36228B78AF514630836ECEE46ECE7C52) | DOI 10.15184/aqy.2026.10427; distinct from clothing research / مستقل عن بحث الأزياء |
+| Archaeology and cultural heritage in wartime / الآثار والتراث الثقافي في زمن الحرب | [Antiquity publisher record](https://www.cambridge.org/core/journals/antiquity/article/archaeology-and-cultural-heritage-in-wartime-sudan-20232025/DF3E9D9EC1C8D76146648B96D49DE131) | DOI 10.15184/aqy.2025.10174; 2025 guest editorial, newly catalogued / افتتاحية من 2025 أُدرجت حديثاً |
+
 ## Verified resource links — 11 October 2026 / روابط المصادر المتحقَّق منها
 
 The six additions below are already published with English and Arabic summaries in `data/library.json`; they are reference resources for future workflow runs, not new candidates to add again. The seventh link replaces the duplicate World Bank catalogue entries. Current count after this refresh: **539 entries**. Earlier batch counts below are historical.

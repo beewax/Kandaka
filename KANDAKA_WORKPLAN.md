@@ -4,7 +4,7 @@
 
 > Persistent editorial and research tracker. This file records decisions, drafts, queues, source-acquisition work, website changes, and publication readiness. It does **not** authorize publication.
 
-**Last updated:** 2026-10-11
+**Last updated:** 2026-10-12
 **Publication rule:** Nothing may be translated, scheduled, committed as publishable content, or published without explicit approval of that specific article.  
 **Current overall state:** Planning and review only; no item in this file is approved for publication unless its `Approved` field is explicitly marked `Yes`.
 
@@ -29,6 +29,8 @@ Homepage correction: replacing the three-sections-in-two-columns layout with ful
 **Deployment verified:** layout correction live in English and Arabic, commit `7218583`, Netlify `6acaec752f2c440008189281`, published 10 Oct 20:55 CDT and independently checked by 20:57 CDT. All six future article URLs remain unpublished (HTTP 404). The three bilingual articles and covers are committed as protected drafts; existing two-day publication automation updated and ACTIVE.
 
 ## How to maintain this file
+
+**Library refresh — 12 October:** user approved the three weekly research recommendations: ERF income/wages (2022 baseline, published 2026), Miseeda/Mahas (2026), and wartime heritage (2025 guest editorial). Complete bilingual catalogue records and source links prepared; count 542 in both introductions. Resource register and regression check updated. Delivery evidence is tracked separately in `docs/library-refresh-2026-10-12.md`; this entry alone does not assert a verified deployment. No article draft flags, publication dates, automations or stored PDFs changed.
 
 **Library workflow resources:** [LIBRARY_SOURCES.md](LIBRARY_SOURCES.md), under “Verified resource links — 11 October 2026,” records the six published source links and the corrected official World Bank PDF, with bilingual labels and duplicate-prevention notes. Maintain this resource register alongside future approved Library batches; the entries already published must not be added again. Detailed verification: [11 October refresh](docs/library-refresh-2026-10-11.md).
 

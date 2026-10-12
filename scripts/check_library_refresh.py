@@ -7,6 +7,9 @@ from html.parser import HTMLParser
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCES = [
+    "https://erf.org.eg/publications/the-main-features-of-sudans-income-and-wage-structure-in-2022/",
+    "https://www.cambridge.org/core/journals/antiquity/article/miseeda-between-kingdoms-through-epochsreconstructing-a-history-of-the-mahas-region-sudan/36228B78AF514630836ECEE46ECE7C52",
+    "https://www.cambridge.org/core/journals/antiquity/article/archaeology-and-cultural-heritage-in-wartime-sudan-20232025/DF3E9D9EC1C8D76146648B96D49DE131",
     "https://hdl.handle.net/10568/184053",
     "https://hdl.handle.net/10568/182880",
     "https://hdl.handle.net/10568/183517",
@@ -62,7 +65,7 @@ def main():
     parser.add_argument("--build", type=Path)
     args = parser.parse_args()
     books = json.loads((ROOT / "data/library.json").read_text(encoding="utf-8"))["books"]
-    assert len(books) >= 539, "Unexpected loss of Library records"
+    assert len(books) >= 542, "Unexpected loss of Library records"
     selected = []
     for source in SOURCES:
         matches = [b for b in books if b.get("source") == source]
@@ -94,7 +97,7 @@ def main():
                 assert card["title"].strip() == book["title" + suffix]
                 assert card["desc"].strip() == book["desc" + suffix]
                 assert book["author" + suffix] in card["meta"]
-    print(f"PASS: {len(books)} records; six bilingual additions; one canonical May 2025 World Bank report" + ("; both built editions verified" if args.build else ""))
+    print(f"PASS: {len(books)} records; {len(SOURCES)} bilingual additions; one canonical May 2025 World Bank report" + ("; both built editions verified" if args.build else ""))
 
 
 if __name__ == "__main__":
