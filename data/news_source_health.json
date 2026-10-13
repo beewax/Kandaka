@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-13T10:11:36.711512+00:00",
+  "updated": "2026-10-13T18:58:26.957990+00:00",
   "sources": [
     {
       "id": "dabanga-en",
@@ -76,20 +76,20 @@
       "language": "ar",
       "status": "ok",
       "items": 24,
-      "accepted": 2
+      "accepted": 1
     },
     {
       "id": "france24-ar",
       "language": "ar",
       "status": "ok",
       "items": 24,
-      "accepted": 1
+      "accepted": 0
     },
     {
       "id": "alaraby-ar",
       "language": "ar",
       "status": "ok",
-      "items": 197,
+      "items": 203,
       "accepted": 4
     },
     {
@@ -151,16 +151,16 @@
     {
       "id": "tamazuj-en",
       "language": "en",
-      "status": "ok",
-      "items": 12,
-      "accepted": 4
+      "status": "fetch_failed",
+      "items": 0,
+      "accepted": 0
     },
     {
       "id": "tamazuj-ar",
       "language": "ar",
       "status": "ok",
       "items": 12,
-      "accepted": 3
+      "accepted": 4
     }
   ]
 }

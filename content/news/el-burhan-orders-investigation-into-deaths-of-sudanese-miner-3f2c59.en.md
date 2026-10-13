@@ -16,12 +16,9 @@ geography:
 language: en
 status: Reporting
 cluster_id: cf427893bc4e
-corroboration_count: 2
+corroboration_count: 1
 draft: false
 author: Dabanga Sudan
-related_sources:
-- source: Radio Tamazuj
-  link: https://www.radiotamazuj.org/en/news/article/sudans-burhan-orders-probe-into-miners-deaths-near-egyptian-border
 ---
 
 Sudanese Armed Forces (SAF) Commander and Sudan’s Transitional Sovereignty Council President, Lt Gen Abdelfattah El... The post El Burhan orders investigation into deaths of Sudanese miners near Egyptian border appeared first on Dabanga Radio TV Online .
