@@ -4,11 +4,13 @@
 
 > Persistent editorial and research tracker. This file records decisions, drafts, queues, source-acquisition work, website changes, and publication readiness. It does **not** authorize publication.
 
-**Last updated:** 2026-10-12
+**Last updated:** 2026-10-13
 **Publication rule:** Nothing may be translated, scheduled, committed as publishable content, or published without explicit approval of that specific article.  
 **Current overall state:** Planning and review only; no item in this file is approved for publication unless its `Approved` field is explicitly marked `Yes`.
 
 ## Current authorized sequence — supersedes stale fields below
+
+**13 October A02 verified live:** English and Arabic published in commit `73f895f`, Netlify `6ace1f04b708d92528d6a073`, actual release 07:08:24 CDT; independently checked 07:08:50 CDT, both pages and cover HTTP 200. See `docs/A02-release-2026-10-13.md`. Do not republish A02. Next: A11, no earlier than **15 October 07:09 CDT**, then A12 → A13 → A14 → A15 → A16 → A17 → A18, each at least 48 hours after its predecessor's actual successful release. Older target dates below are superseded; remaining 16 language editions stay draft-protected.
 
 **13 October A02 release preparation:** final normal production build and bilingual/source/cover checks passed. Only A02 is being released; no deployment or live publication asserted until verified. See `docs/A02-release-2026-10-13.md`. A11 and all subsequent targets must shift to at least 48 hours after each actual successful predecessor release; the older calendar dates below are superseded by that rule.
 
@@ -22,7 +24,7 @@ The user reconfirmed completion and two-day publication of A02, A11 and A12 on 1
 
 | Item | Research / review | English / Arabic / cover | Approved | Published | Next action |
 |---|---|---|---|---|---|
-| A02 Sudan Planned Before | Complete for scoped qualitative historical article; source refresh at release | Complete / Complete / Complete | Yes | No; draft protected | Release no earlier than 12 Oct 11:25 CDT; target noon |
+| A02 Sudan Planned Before | Release refresh complete; no changed claims | Complete / Complete / Complete | Yes | Yes, 13 Oct; both editions verified | Complete; do not republish |
 | A11 Transformative megaprojects | Complete for policy appraisal framework, not a costed feasibility study | Complete / Complete / Complete | Yes | No; draft protected | Release at least 48h after A02; conditional target 14 Oct |
 | A12 Deep-sea ports | Complete for strategic analysis, not a named concession or capacity forecast | Complete / Complete / Complete | Yes | No; draft protected | Release at least 48h after A11; conditional target 16 Oct |
 
