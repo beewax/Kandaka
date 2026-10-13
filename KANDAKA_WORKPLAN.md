@@ -10,6 +10,8 @@
 
 ## Current authorized sequence — supersedes stale fields below
 
+**13 October A02 cover correction:** replacing the rejected archive-desk illustration with an unmodified photograph of Atbara railway workshops (2008, Bertramz, CC BY 3.0). Both editions have localized alt text, dated captions and source/licence links. This supersedes the earlier A02 Leonardo-cover instructions; do not restore that illustration. No article prose, release date, draft flag or queue interval changes. Publication verification will be recorded in `docs/A02-release-2026-10-13.md`.
+
 **13 October A02 verified live:** English and Arabic published in commit `73f895f`, Netlify `6ace1f04b708d92528d6a073`, actual release 07:08:24 CDT; independently checked 07:08:50 CDT, both pages and cover HTTP 200. See `docs/A02-release-2026-10-13.md`. Do not republish A02. Next: A11, no earlier than **15 October 07:09 CDT**, then A12 → A13 → A14 → A15 → A16 → A17 → A18, each at least 48 hours after its predecessor's actual successful release. Older target dates below are superseded; remaining 16 language editions stay draft-protected.
 
 **13 October A02 release preparation:** final normal production build and bilingual/source/cover checks passed. Only A02 is being released; no deployment or live publication asserted until verified. See `docs/A02-release-2026-10-13.md`. A11 and all subsequent targets must shift to at least 48 hours after each actual successful predecessor release; the older calendar dates below are superseded by that rule.

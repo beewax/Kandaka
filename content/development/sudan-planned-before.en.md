@@ -7,12 +7,12 @@ description: "What Sudan can learn from earlier development plans, institutional
 tags: ['Sudan', 'development']
 draft: false
 cover:
-  image: '/images/uploads/sudan-planned-before-leonardo.jpg'
-  alt: "An AI-generated archive desk with a planning notebook and a miniature railway bridge"
+  image: '/images/uploads/atbara-railway-workshops-2008.jpg'
+  alt: "Railway tracks, carriages and workshop buildings in Atbara, Sudan, photographed in 2008"
   relative: false
 ---
 
-*Editorial illustration generated with Leonardo AI, Lucid Origin. Fictional symbolic scene, not a historical photograph, an engineering design or an approved project.*
+*Atbara railway workshops, Sudan, 2008. Photograph by Bertramz, reproduced unmodified under [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/), via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Atbara_railway.jpg). This historical photograph does not show current conditions.*
 
 ## The problem was never simply the absence of a plan
 

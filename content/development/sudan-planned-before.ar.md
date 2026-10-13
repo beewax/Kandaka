@@ -7,12 +7,12 @@ description: "دروس خطط التنمية السودانية السابقة �
 tags: ['Sudan', 'development']
 draft: false
 cover:
-  image: '/images/uploads/sudan-planned-before-leonardo.jpg'
-  alt: "رسم مولّد بالذكاء الاصطناعي لمكتب أرشيف ودفتر تخطيط ونموذج جسر للسكك الحديدية"
+  image: '/images/uploads/atbara-railway-workshops-2008.jpg'
+  alt: "مسارات وعربات قطارات ومباني ورش السكك الحديدية في عطبرة بالسودان، في صورة التُقطت عام 2008"
   relative: false
 ---
 
-*رسم تحريري مولّد باستخدام Leonardo AI، نموذج Lucid Origin. مشهد رمزي خيالي، لا صورة تاريخية ولا تصميم هندسي ولا مشروع معتمد.*
+*ورش السكك الحديدية في عطبرة، السودان، عام 2008. تصوير Bertramz (برترامز)، منقولة دون تعديل بموجب ترخيص [المشاع الإبداعي — النَّسب 3.0](https://creativecommons.org/licenses/by/3.0/)، عبر [ويكيميديا كومنز](https://commons.wikimedia.org/wiki/File:Atbara_railway.jpg). هذه صورة تاريخية ولا تُظهر الأوضاع الراهنة.*
 
 ## لم تكن المشكلة مجرد غياب الخطة
 
