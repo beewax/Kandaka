@@ -1,11 +1,11 @@
 ---
 title: "Sudan Planned Before: What Went Right, What Went Wrong, and What We Must Learn"
-date: '2026-10-12T12:00:00-05:00'
+date: '2026-10-13T07:02:00-05:00'
 author: 'Kandaka'
 category: 'Development'
 description: "What Sudan can learn from earlier development plans, institutional achievements and repeated failures of continuity and inclusion."
 tags: ['Sudan', 'development']
-draft: true
+draft: false
 cover:
   image: '/images/uploads/sudan-planned-before-leonardo.jpg'
   alt: "An AI-generated archive desk with a planning notebook and a miniature railway bridge"

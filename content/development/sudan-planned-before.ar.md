@@ -1,11 +1,11 @@
 ---
 title: "السودان خطّط من قبل: ما الذي نجح، وما الذي أخفق، وماذا يجب أن نتعلّم؟"
-date: '2026-10-12T12:00:00-05:00'
+date: '2026-10-13T07:02:00-05:00'
 author: 'Kandaka'
 category: 'Development'
 description: "دروس خطط التنمية السودانية السابقة وإنجازات المؤسسات وإخفاقات الاستمرارية والشمول."
 tags: ['Sudan', 'development']
-draft: true
+draft: false
 cover:
   image: '/images/uploads/sudan-planned-before-leonardo.jpg'
   alt: "رسم مولّد بالذكاء الاصطناعي لمكتب أرشيف ودفتر تخطيط ونموذج جسر للسكك الحديدية"
