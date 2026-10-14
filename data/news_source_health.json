@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-14T14:22:25.475769+00:00",
+  "updated": "2026-10-14T19:12:32.757998+00:00",
   "sources": [
     {
       "id": "dabanga-en",
@@ -26,7 +26,7 @@
       "id": "bbc-africa",
       "language": "en",
       "status": "ok",
-      "items": 33,
+      "items": 34,
       "accepted": 0
     },
     {
@@ -76,20 +76,20 @@
       "language": "ar",
       "status": "ok",
       "items": 24,
-      "accepted": 1
+      "accepted": 2
     },
     {
       "id": "france24-ar",
       "language": "ar",
       "status": "ok",
       "items": 24,
-      "accepted": 1
+      "accepted": 0
     },
     {
       "id": "alaraby-ar",
       "language": "ar",
       "status": "ok",
-      "items": 174,
+      "items": 175,
       "accepted": 1
     },
     {
