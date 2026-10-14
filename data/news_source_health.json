@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-14T19:12:32.757998+00:00",
+  "updated": "2026-10-14T23:44:23.656968+00:00",
   "sources": [
     {
       "id": "dabanga-en",
@@ -89,7 +89,7 @@
       "id": "alaraby-ar",
       "language": "ar",
       "status": "ok",
-      "items": 175,
+      "items": 176,
       "accepted": 1
     },
     {
@@ -153,14 +153,14 @@
       "language": "en",
       "status": "ok",
       "items": 12,
-      "accepted": 4
+      "accepted": 5
     },
     {
       "id": "tamazuj-ar",
       "language": "ar",
       "status": "ok",
       "items": 12,
-      "accepted": 4
+      "accepted": 6
     }
   ]
 }
