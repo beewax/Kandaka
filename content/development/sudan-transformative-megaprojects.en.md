@@ -1,11 +1,11 @@
 ---
 title: "What Megaprojects Could Actually Transform Sudan?"
-date: '2026-10-14T12:00:00-05:00'
+date: '2026-10-15T07:09:00-05:00'
 author: 'Kandaka'
 category: 'Development'
 description: "A public-value framework for comparing power, water, transport, industry and restoration investments without inventing feasibility claims."
 tags: ['Sudan', 'development']
-draft: true
+draft: false
 cover:
   image: '/images/uploads/sudan-megaprojects-classic-approved.png'
   alt: "Classic-style illustration of a Sudanese dam, freight railway and irrigated fields"
@@ -34,7 +34,7 @@ Kandaka proposes three decision stages: investigate; demonstrate feasibility and
 
 Grid repair and expansion, distributed solar, storage, flexible generation and regional connections belong in a common electricity assessment. Their value depends on the service they jointly deliver, not on comparing isolated equipment prices.
 
-IRENA's 2024 cost evidence establishes the international competitiveness of renewable generation, but global averages are not a Sudanese tariff or a delivered-system quotation. Financing, security, storage, transmission, maintenance and load patterns must be assessed locally. [IRENA, generation costs in 2024](https://www.irena.org/Publications/2025/Jun/Renewable-Power-Generation-Costs-in-2024).
+IRENA's 2024 cost evidence establishes the international competitiveness of renewable generation, but global averages are not a Sudanese tariff or a delivered-system quotation. Financing, security, storage, transmission, maintenance and load patterns must be assessed locally. [IRENA, generation costs in 2024](https://www.irena.org/Digital-Report/Renewable-Power-Generation-Costs-in-2024).
 
 A solar corridor should therefore begin with identified demand and a credible connection plan. Building generation where its output cannot reach customers is not an energy strategy. Distributed systems can serve some needs without waiting for an entire national network, but they also require maintenance arrangements, quality standards and protection for consumers.
 
