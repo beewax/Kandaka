@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-15T21:00:42.846909+00:00",
+  "updated": "2026-10-15T23:39:08.605992+00:00",
   "sources": [
     {
       "id": "dabanga-en",
@@ -53,16 +53,16 @@
     {
       "id": "african-arguments",
       "language": "en",
-      "status": "fetch_failed",
-      "items": 0,
+      "status": "ok",
+      "items": 10,
       "accepted": 0
     },
     {
       "id": "un-news-en",
       "language": "en",
-      "status": "invalid_feed",
-      "items": 0,
-      "accepted": 0
+      "status": "ok",
+      "items": 30,
+      "accepted": 5
     },
     {
       "id": "dabanga-ar",
@@ -89,7 +89,7 @@
       "id": "alaraby-ar",
       "language": "ar",
       "status": "ok",
-      "items": 175,
+      "items": 164,
       "accepted": 4
     },
     {
@@ -102,16 +102,16 @@
     {
       "id": "altaghyeer-en",
       "language": "en",
-      "status": "fetch_failed",
-      "items": 0,
-      "accepted": 0
+      "status": "ok",
+      "items": 24,
+      "accepted": 15
     },
     {
       "id": "altaghyeer-ar",
       "language": "ar",
       "status": "ok",
       "items": 24,
-      "accepted": 15
+      "accepted": 16
     },
     {
       "id": "ayin-ar",
@@ -139,7 +139,7 @@
       "language": "en",
       "status": "ok",
       "items": 20,
-      "accepted": 10
+      "accepted": 11
     },
     {
       "id": "sudan-transparency",
