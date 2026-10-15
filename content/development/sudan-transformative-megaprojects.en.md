@@ -7,12 +7,12 @@ description: "A public-value framework for comparing power, water, transport, in
 tags: ['Sudan', 'development']
 draft: true
 cover:
-  image: '/images/uploads/sudan-transformative-megaprojects-leonardo.jpg'
-  alt: "An AI-generated conceptual model connecting solar power, railways, farms and workshops"
+  image: '/images/uploads/merowe-reservoir-iss-2010.jpg'
+  alt: "Merowe Dam and its reservoir on the Nile in northern Sudan, photographed from the International Space Station in 2010"
   relative: false
 ---
 
-*Editorial illustration generated with Leonardo AI, Lucid Origin. Fictional symbolic scene, not a historical photograph, an engineering design or an approved project.*
+*Merowe Dam and reservoir, northern Sudan, 5 October 2010. Photograph by the ISS Expedition 25 crew / NASA, image ISS025-E-6160; public domain, reproduced unmodified. [Source and reuse information](https://commons.wikimedia.org/wiki/File:Merowe_Dam,_Nile_River,_Republic_of_the_Sudan.JPG). This historical image does not show current conditions or imply endorsement of the project's social, environmental or economic record.*
 
 ## Transformation is an outcome, not a price tag
 
