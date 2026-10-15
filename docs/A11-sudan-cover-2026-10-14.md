@@ -1,5 +1,9 @@
 # A11 Sudan-focused cover — 14 October 2026
 
+## Latest decision: illustration for user review before publication
+
+User selected a classic illustration of a dam, railway and irrigated fields, explicitly Sudan-focused, and requested to see it before publishing. Generate a preview, not a live asset replacement. Hold A11 publication until the cover is reviewed and accepted. Earlier satellite and generic-model choices remain rejected. Use the same accepted cover in both editions with localized captions identifying it as a conceptual illustration, not an actual co-located project or documentary photograph.
+
 ## Superseding user direction
 
 The user subsequently rejected the satellite view: it does not communicate the subject clearly. Do not publish with this satellite image or the earlier generic model. Candidate: recognizable Roseires Dam photograph, SimonChilly, 18 April 2012, CC BY 3.0, https://commons.wikimedia.org/wiki/File:Roseires_Dam.jpg . Alternative: classic-style editorial illustration grounded in Sudanese infrastructure, clearly labelled rather than presented as documentary evidence. Final replacement and Arabic/English captions remain pending. Keep draft protection; earlier selection notes below are historical, not permission to use the rejected cover.
