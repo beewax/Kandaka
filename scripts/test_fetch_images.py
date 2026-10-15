@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
-"""Focused regression tests for the Sudan image geography filter."""
+"""Focused regression tests for the Sudan image editorial safety filters."""
 
+import os
+import tempfile
 import unittest
 
 import fetch_images
@@ -43,6 +45,27 @@ class SudanImageCandidateTests(unittest.TestCase):
         self.assertFalse(fetch_images.is_sudan_image_candidate(
             "Nubian village near Aswan, Egypt"
         ))
+
+
+class ImagePublicationSafetyTests(unittest.TestCase):
+    def test_flags_unverified_and_unknown_licenses_as_not_reuse_safe(self):
+        for license_text in ("", "license unverified", "All Rights Reserved", "Copyright status unknown"):
+            with self.subTest(license_text=license_text):
+                self.assertFalse(fetch_images.has_reuse_safe_license({"license": license_text}))
+
+    def test_accepts_affirmative_reuse_license(self):
+        self.assertTrue(fetch_images.has_reuse_safe_license({"license": "Public domain"}))
+        self.assertTrue(fetch_images.has_reuse_safe_license({"license": "CC BY 4.0"}))
+
+    def test_detects_existing_image_url_across_dates(self):
+        with tempfile.TemporaryDirectory(dir=os.getcwd()) as content_dir:
+            images_dir = os.path.join(content_dir, "images")
+            os.makedirs(images_dir)
+            image_url = "https://example.org/sudan-image.jpg"
+            with open(os.path.join(images_dir, "older.en.md"), "w", encoding="utf-8") as page:
+                page.write(f'image: "{image_url}"\n')
+            self.assertTrue(fetch_images.image_url_already_catalogued(content_dir, image_url))
+            self.assertFalse(fetch_images.image_url_already_catalogued(content_dir, "https://example.org/new.jpg"))
 
 
 if __name__ == "__main__":

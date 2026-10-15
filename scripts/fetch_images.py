@@ -892,8 +892,47 @@ def fetch_flickr():
     return rng.choice(candidates)
 
 # ── WRITE HUGO CONTENT ────────────────────────────────────────────────────────
+UNSAFE_LICENSE_MARKERS = (
+    "unverified",
+    "all rights reserved",
+    "copyright status unknown",
+    "license unknown",
+)
+
+
+def has_reuse_safe_license(image_data):
+    """Reject media that does not carry an affirmative reusable license."""
+    license_text = str(image_data.get("license") or "").strip().lower()
+    if not license_text:
+        return False
+    return not any(marker in license_text for marker in UNSAFE_LICENSE_MARKERS)
+
+
+def image_url_already_catalogued(content_dir, image_url):
+    """Prevent the same source image from being published on another date."""
+    if not image_url:
+        return True
+    images_dir = os.path.join(content_dir, "images")
+    if not os.path.isdir(images_dir):
+        return False
+    for name in os.listdir(images_dir):
+        if not name.endswith(".md"):
+            continue
+        path = os.path.join(images_dir, name)
+        try:
+            with open(path, encoding="utf-8") as existing:
+                if image_url in existing.read():
+                    return True
+        except (OSError, UnicodeError):
+            continue
+    return False
+
+
 def write_image_page(content_dir, image_data, index):
     if is_south_sudan_image(image_data.get("title"), image_data.get("description"), image_data.get("source_url")):
+        return False
+    if image_url_already_catalogued(content_dir, image_data.get("image_url")):
+        print("  Already catalogued: source image URL")
         return False
     images_dir = os.path.join(content_dir, "images")
     os.makedirs(images_dir, exist_ok=True)
@@ -917,7 +956,9 @@ credit: "{image_data['credit'].replace('"', "'")}"
 license: "{image_data['license']}"
 source: "{image_data['source']}"
 category: "{image_data['category']}"
-draft: false
+draft: true
+review_status: "pending-editorial-review"
+review_required: "image, title, caption, Sudan relevance, source, license, destination"
 ---
 
 {image_data['description']}
@@ -978,6 +1019,8 @@ def main():
         ("Europeana", fetch_europeana),
         ("Library of Congress", fetch_loc),
         ("National Archives", fetch_nara),
+        # Flickr remains useful for discovery, but every result is written as
+        # a private draft and must pass editorial and rights review.
         ("Flickr", fetch_flickr),
     ]
 

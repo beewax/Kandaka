@@ -10,8 +10,8 @@ name: Fetch Sudan Images
 # itself a rebuild trigger) stays on the once-daily cadence.
 
 on:
-  schedule:
-    - cron: '0 6 * * *'  # 6 AM UTC = 9 AM Sudan time
+  # Automatic image publication is paused during the editorial audit.
+  # Run manually only; fetched candidates are saved as Hugo drafts.
   workflow_dispatch:
 
 jobs:
