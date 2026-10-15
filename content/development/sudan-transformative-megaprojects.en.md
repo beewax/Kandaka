@@ -7,12 +7,12 @@ description: "A public-value framework for comparing power, water, transport, in
 tags: ['Sudan', 'development']
 draft: true
 cover:
-  image: '/images/uploads/merowe-reservoir-iss-2010.jpg'
-  alt: "Merowe Dam and its reservoir on the Nile in northern Sudan, photographed from the International Space Station in 2010"
+  image: '/images/uploads/sudan-megaprojects-classic-approved.png'
+  alt: "Classic-style illustration of a Sudanese dam, freight railway and irrigated fields"
   relative: false
 ---
 
-*Merowe Dam and reservoir, northern Sudan, 5 October 2010. Photograph by the ISS Expedition 25 crew / NASA, image ISS025-E-6160; public domain, reproduced unmodified. [Source and reuse information](https://commons.wikimedia.org/wiki/File:Merowe_Dam,_Nile_River,_Republic_of_the_Sudan.JPG). This historical image does not show current conditions or imply endorsement of the project's social, environmental or economic record.*
+*AI-generated editorial illustration created for Kandaka using OpenAI image generation. A fictional composite inspired by Roseires Dam, Sudan Railways and Gezira's irrigated fields—not a photograph, an exact reconstruction, a single actual location or an approved project design.*
 
 ## Transformation is an outcome, not a price tag
 

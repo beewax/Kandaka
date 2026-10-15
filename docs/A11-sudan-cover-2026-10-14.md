@@ -1,5 +1,11 @@
 # A11 Sudan-focused cover — 14 October 2026
 
+## Final user approval — supersedes previous pending/rejected choices
+
+User accepted the generated classic illustration and explicitly instructed its use for both editions and publication as scheduled. Cover review is complete; no further cover approval required. Approved asset: `static/images/uploads/sudan-megaprojects-classic-approved.png`, copied unchanged from OpenAI built-in image generation output `exec-7795979a-4346-4eb4-adb0-f40236abec7a.png`. It depicts a fictional composite inspired by Roseires Dam, Sudan Railways and Gezira irrigated fields, not a photograph, exact reconstruction, co-located actual project or feasibility claim. Both editions contain matching localized disclosures and alt text. Neither Leonardo nor NASA is credited for this new generated illustration.
+
+Prompt summary: classic painted editorial landscape; prominent Roseires-inspired concrete dam at river level, continuous freight railway on a dry embankment, flat Gezira-inspired fields and earthen canals; natural Nile-Sudan terrain; no satellite view, miniature model, stereotyped regional landmarks or text. Original generation and preview are in the conversation. Publication remains subject to existing release-day checks and 48-hour interval. Keep draft flags true until release, then verify the approved image in both live editions.
+
 ## Latest decision: illustration for user review before publication
 
 User selected a classic illustration of a dam, railway and irrigated fields, explicitly Sudan-focused, and requested to see it before publishing. Generate a preview, not a live asset replacement. Hold A11 publication until the cover is reviewed and accepted. Earlier satellite and generic-model choices remain rejected. Use the same accepted cover in both editions with localized captions identifying it as a conceptual illustration, not an actual co-located project or documentary photograph.
