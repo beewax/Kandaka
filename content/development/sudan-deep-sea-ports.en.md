@@ -7,12 +7,12 @@ description: "How Sudan could assess deeper ports through production, inland con
 tags: ['Sudan', 'development']
 draft: true
 cover:
-  image: '/images/uploads/sudan-deep-sea-ports-leonardo.jpg'
-  alt: "An AI-generated fictional coastal port with a cargo ship, warehouses and inland freight connections"
+  image: '/images/uploads/sudan-ports-classic-approved.png'
+  alt: "Classic-style illustration inspired by Port Sudan, showing a cargo ship, quay cranes, warehouses and a freight railway beside the Red Sea"
   relative: false
 ---
 
-*Editorial illustration generated with Leonardo AI, Lucid Origin. Fictional symbolic scene, not a historical photograph, an engineering design or an approved project.*
+*AI-generated editorial illustration created for Kandaka using OpenAI image generation. A fictional working harbour inspired by Port Sudan and its Red Sea setting—not a photograph, an exact view of the present port, an engineering design or an approved development project.*
 
 ## A coast is an opportunity, not a business model
 
