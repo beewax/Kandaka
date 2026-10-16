@@ -16,12 +16,9 @@ geography:
 language: ar
 status: Reporting
 cluster_id: ac18770354b1
-corroboration_count: 2
+corroboration_count: 1
 draft: false
 author: صحيفة التغيير
-related_sources:
-- source: سودانايل
-  link: https://sudanile.com/%d8%b5%d9%85%d8%aa-%d8%a7%d9%84%d8%a8%d8%b1%d9%87%d8%a7%d9%86-%d9%8a%d8%b2%d9%8a%d8%af-%d8%a7%d9%84%d8%b4%d9%83%d9%88%d9%83-%d8%ad%d9%88%d9%84-%d8%aa%d9%88%d8%b1%d8%b7%d9%87-%d9%81%d9%8a-%d9%82%d8%aa
 clabel: الحرب والأمن
 ---
 
