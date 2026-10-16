@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-16T10:51:56.521632+00:00",
+  "updated": "2026-10-16T16:12:35.414721+00:00",
   "sources": [
     {
       "id": "dabanga-en",
@@ -83,14 +83,14 @@
       "language": "ar",
       "status": "ok",
       "items": 24,
-      "accepted": 0
+      "accepted": 2
     },
     {
       "id": "alaraby-ar",
       "language": "ar",
       "status": "ok",
-      "items": 174,
-      "accepted": 2
+      "items": 158,
+      "accepted": 1
     },
     {
       "id": "un-news-ar",
@@ -111,7 +111,7 @@
       "language": "ar",
       "status": "ok",
       "items": 24,
-      "accepted": 16
+      "accepted": 17
     },
     {
       "id": "ayin-ar",
@@ -160,7 +160,7 @@
       "language": "ar",
       "status": "ok",
       "items": 12,
-      "accepted": 5
+      "accepted": 8
     }
   ]
 }
