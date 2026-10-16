@@ -1,0 +1,22 @@
+[
+  {
+    "source": "(?i)^https?://museovirasto\\.finna\\.fi/Record/museovirasto\\.12419A96DD8F7E161B9B91FB332175D8(?:[?#]|$)",
+    "image": "(?i)^https?://mpfinlandrepox\\.zetcom\\.app/imagehelper/download\\?(?:[^&#]*&)*id=684366(?:&|$)",
+    "reason": "Finnish Heritage Agency image returns HTTP 401"
+  },
+  {
+    "source": "(?i)^https?://museovirasto\\.finna\\.fi/Record/museovirasto\\.8B912D78C1DABECBC5D46BA9C8314A98(?:[?#]|$)",
+    "image": "(?i)^https?://mpfinlandrepox\\.zetcom\\.app/imagehelper/download\\?(?:[^&#]*&)*id=677813(?:&|$)",
+    "reason": "Finnish Heritage Agency image returns HTTP 401"
+  },
+  {
+    "source": "(?i)^https?://(?:www\\.)?esbirky\\.cz/detail/284579/?(?:[?#]|$)",
+    "image": "(?i)^https?://(?:www\\.)?esbirky\\.cz/img\\.php\\?(?:[^&#]*&)*id=284581(?:&|$)",
+    "reason": "Previously excluded eSbirky image 284581"
+  },
+  {
+    "source": "(?i)^https?://(?:www\\.)?esbirky\\.cz/detail/325542/?(?:[?#]|$)",
+    "image": "(?i)^https?://(?:www\\.)?esbirky\\.cz/img\\.php\\?(?:[^&#]*&)*id=325544(?:&|$)",
+    "reason": "Previously excluded eSbirky image 325544"
+  }
+]

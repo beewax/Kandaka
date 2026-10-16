@@ -27,6 +27,13 @@
         {{- with .Params.image }}{{ $image = . }}{{ end }}
       {{- end }}
       {{- $excluded := or .Params.pinterest_exclude (eq .Section "library") }}
+      {{- /* Stable museum identities survive new filenames, dates, and image sizes. */}}
+      {{- $sourceURL := .Params.source_url | default "" }}
+      {{- range site.Data.pinterest_exclusions }}
+        {{- if or (findRE .source $sourceURL) (findRE .image $image) }}
+          {{- $excluded = true }}
+        {{- end }}
+      {{- end }}
       {{- if and $image (not $excluded) (not ($seen.Get $image)) (lt ($count.Get "items") 100) }}
         {{- $seen.Set $image true }}
         {{- $count.Add "items" 1 }}
