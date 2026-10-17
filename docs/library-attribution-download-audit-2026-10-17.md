@@ -102,3 +102,30 @@ The eight held records and precise next needs:
 8. Sorghum Value Chain Analysis: migrated government/NABC record or lawful complete copy, actual author/commissioner, imprint date and all 42 pages. FAO attribution is unsupported; no new author/year guessed.
 
 No CAPTCHA/access restriction was bypassed. No private object was fetched. No storage setting, article, cover or deployment cadence was changed.
+
+## Phase 4 — next reviewed batch, 17 October 2026
+
+Reviewed all 20 rows in Library libfile_95273047f5748191b82ca7067de98d17 v0 against current commit 10e605b242ca50784ad0994e7bc387a9bdae935f. All 15 ready IDs, frozen positions, current titles and old source/download URLs matched; no concurrent catalog conflict was found.
+
+Fresh ordinary public access checks passed for 11 of 15 destinations. World Bank rejected Range probes (416) but ordinary GET returned 200 with PDF signatures, so those exact approved URLs passed. Four proposed replacements failed current normal GET: IMF Fiscal Adjustment, IMF ECF 2021 and IMF Selected Issues 2012 each returned 403; UN World Economic Situation and Prospects 2020 returned an empty 202 response. Those four were skipped and remain unchanged/unavailable. No anti-bot, CAPTCHA, authentication or access restriction was bypassed. Reviewed prior successful downloads remain evidence, but are not represented as fresh successful checks.
+
+Applied only these eleven reviewed stable IDs, with exact verified author/year/citation and identifiers, bilingual source labels and metadata, removal of each old source/download fallback, synchronized CSV inventory, and source-record versus direct-PDF distinctions:
+- KND-9A1B2D9998825958 — Distortions to Agricultural Incentives in Sudan: World Bank main report, Working Paper 44, December 2007 (corrected from 2008), Hamid Faki and Abdelmoneim Taha; direct official PDF.
+- KND-A960C1F55EE2CF79 — Sudan's Infrastructure: A Continental Perspective: Rupa Ranganathan and Cecilia M. Briceño-Garmendia, 2011, WPS5815 (not South Sudan WPS5814); direct World Bank PDF.
+- KND-8F66588475CBD3F6 — Assessing Regional Integration in Africa IV: 2010, joint ECA/African Union/AfDB authorship; official archive record with full PDF.
+- KND-088CD6F1F98ECD3D — Sudan E-Agriculture Strategy and Action Plan 2018–2022: Ministry of Agriculture and Forests, December 2017; ECOLEX institutional record. Plan period is not publication year.
+- KND-A61FBF7E0B785D6E — Sudan Human Rights Report 2017: USDOS, published 20 April 2018, reporting year 2017; full HTML at ecoi.net, document 1430180.
+- KND-6FAEB2F56B88B08D — Continuation of National Emergency 2023: Joseph R. Biden Jr., official notice (not executive order), signed 31 October and published 2 November 2023, FR Doc 2023-24364; official GovInfo PDF.
+- KND-B7BB939ADE796ED8 — From Subsidy to Sustainability: World Bank, 2019, DOI 10.1596/33702; stable publisher handle with full PDF. Conflicting June day-level dates were not collapsed into a guessed publication date.
+- KND-0A0DAD78D94B871B — Sudan Social Safety Net Assessment: five title-page authors, 2014, Discussion Paper 1415, DOI 10.1596/20054; publisher handle with full PDF.
+- KND-37C239BA072816A0 — Water Scarcity and Food Security along the Nile: Terje Oestigaard, 2012, Current African Issues 49, ISBN 9789171067227; persistent institutional URN record with full PDF and full subtitle retained in citation/title_full.
+- KND-B476522629AC34C5 — Sudanese Universities as Sites of Social Transformation: Linda S. Bishai, 2008, USIP Special Report 203; ETH institutional PDF explicitly labeled as an institutional copy.
+- KND-FAFF0C435C52C683 — Corruption and Anti-Corruption in Sudan: corrected author from Kaunain Rahman to Maira Martini, 2012, U4 Expert Answer 342, 22 August; publisher record with full PDF. 2021 webpage update is not publication year.
+
+All five originally held records remain unchanged: Investment Policy Review (live full text unavailable); first NDC (edition and live text unverified); Country Study (live full text unverified); 1998 Constitution (substantive Article 60 omitted from accessible translation); 2005 draft Constitution (exact draft edition not established). No metadata-only correction was applied to a held/skipped record. In particular, the incomplete 1998 translation was not restored.
+
+Counts after this partial batch: 403 -> 392 unresolved Nile mappings; all 542 records preserved; verified direct PDF format mappings 50 -> 54; known unavailable buttons 406 -> 395 (392 Nile plus three other failures); seven unverified file links unchanged. Direct PDFs use their reviewed labels, including Read official notice (PDF) and Read PDF (institutional copy), rather than treating every PDF as an identical download. No source files were rehosted or uploaded to Library.
+
+The four newly skipped sources require a permitted successful ordinary public response for the exact reviewed destination before a future restoration. The five originally held cases require their manifest-specific completeness/edition/source evidence. Full before/after and HTTP evidence are preserved in phase4-applied-manifest.json, phase4-source-link-checks.json, phase4-skipped-checks.json and phase-4 backups in the task workspace; these contain no secrets.
+
+Validation scope note: an unreviewed ASCII-hyphen alias, Sudan E-Agriculture Strategy and Action Plan 2018-2022, still references the same obsolete EPUB that had been an inactive fallback on the reviewed en-dash-title record. It remains unchanged under its separate frozen ID. Old-URL removal is asserted on each repaired card, not globally across unrelated records. This is a follow-up reconstruction lead, not permission to merge or edit the alias.

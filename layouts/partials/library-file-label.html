@@ -3,7 +3,7 @@
 {{- $format := index site.Data.library_file_formats $url -}}
 {{- $status := index site.Data.library_file_statuses $url -}}
 {{- if $format -}}
-  {{- if .isAr -}}تنزيل {{ $format }}{{- else -}}Download {{ $format }}{{- end -}}
+  {{- if .isAr -}}{{ .book.source_label_ar | default (printf "تنزيل %s" $format) }}{{- else -}}{{ .book.source_label_en | default (printf "Download %s" $format) }}{{- end -}}
 {{- else if in (slice 401 403 404) $status -}}
   {{- if .isAr -}}الملف غير متاح{{- else -}}File unavailable{{- end -}}
 {{- else -}}
