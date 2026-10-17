@@ -304,3 +304,29 @@ Only3 approved catalog objects,3 exact CSV rows,format/status maps and this audi
 ### Fresh failure held unchanged
 
 - KND-2ABCD07CF05CAE1D — Managing Conflict Over Natural Resources in Greater Kordofan: source record returnedHTTP202;no challenge solving,alternate gated-route retry or bypass.
+
+## Phase 11 - continuing approved research round 9
+
+9 of10 candidates passed final secure access/content checks;Strangers Everywhere alias KND-7E21119028D004A9 returned403 and30 audit-held records remain unchanged. All542 records preserved. Unresolved331 →322;known-unavailable334 →325;seven unverified remain. Format map104PDF+1EPUB.
+
+Eight complete PDFs matched reviewed SHA-256 and page counts,including the90-page Rokkan thesis. TABLE essay complete HTML identity/conclusion/footnote markers verified with normal content decoding. Bernal first failed Python certificate-chain verification;the operating-system trusted client then succeeded with HTTP200,TLS verification result0,curl exit0,HTTPS-only redirects,and no certificate/revocation overrides. Its33-page PDF exactly matched the reviewed hash. The earlier8-record build finished before adding Bernal and running a fresh nine-record build.
+
+Rokkan uses only stable handle https://hdl.handle.net/1956/7122 and Read thesis at repository. Full90-page PDF was verified through the normal public repository filelink;no expiring presigned URI or credential query retained in catalog/reports. NBI cover March2008 differs from landing February6;Buzon issue2011/online2012 and Hendrickx issue2014/online2015 remain distinct. Honegger is the complete12-page chapter plus10 front-matter pages,not the proceedings volume. CMI is the2015 translation of three1975 booklets,with introductory contributor separately credited.
+
+Only9 approved catalog objects,9 exact CSV rows,format/status maps and this audit note changed. No unrelated work,held aliases,covers,cadence,storage controls,paid content or Workers changed. No rehosting,purchases or access bypass.
+
+### Applied exact source destinations
+
+- KND-DA8C5E3CF0BD34B9 — Is Agroforestry a Solution to Food Insecurity in Sudan? — Hatim Rijal; Marwa Akola. 2023. Essay: Is agroforestry a solution to food insecurity in Sudan?. Source: https://www.tabledebates.org/blog/agroforestry-solution-food-insecurity-sudan ; Read essay.
+- KND-D85FBA44F0C40996 — Sudan Agriculture Value Chain Analysis — World Bank Group. 2020. Sudan: Agriculture Value Chain Analysis. Source: https://documents.worldbank.org/en/publication/documents-reports/documentdetail/731741593616746051/sudan-agriculture-value-chain-analysis ; verified full PDF: https://openknowledge.worldbank.org/bitstreams/ca39f6ee-9c6e-5ecf-84ed-a1ec87db8cf7/download
+- KND-DDD57FA869D8D40A — Best Practices for Water Harvesting and Irrigation in Sudan — Mamoun Ibrahim Dawelbeit. 2008. Best Practices for Water Harvesting and Irrigation in Sudan. Source: https://nilebasin.org/node/12693 ; verified full PDF: https://nilebasin.org/sites/default/files/2023-09/sudan_best_practices.pdf
+- KND-E7EDFD6A2DBB8C10 — Women's Equal Rights and Islam in Sudanese Republican Thought — Samia al-Nagar; Liv Tønnessen. 2015. Women’s Equal Rights and Islam in Sudanese Republican Thought: A Translation of Three Family Law Booklets from 1975, Produced and Circulated by the Republican Sisters. Source: https://www.cmi.no/publications/5605-womens-equal-rights-and-islam-in-sudanese ; verified full PDF: https://www.cmi.no/publications/file/5605-womens-equal-rights-and-islam-in-sudanese.pdf
+- KND-938B415CDB4C36D2 — Native Administration in Dar Humr: Tribal Society and Shifting Leadership — Agnes Maria Rokkan. 2008. Native Administration in Dar Humr, Sudan. Shifting leadership and socio-political structures in a tribal society 1900-1940. Source: https://hdl.handle.net/1956/7122 ; Read thesis at repository.
+- KND-F8FBA804437953C4 — Nubian Identity in the Bronze Age — Michele R. Buzon. 2011. Nubian identity in the Bronze Age. Patterns of cultural and biological variation. Source: https://docs.lib.purdue.edu/anthpubs/1/ ; verified full PDF: https://www.anthropology.uw.edu.pl/05/bne-05-02.pdf
+- KND-3C35276F521C1C38 — On the Withdrawal of Roman Troops from the Dodecaschoenos in AD 298 — Ben Hendrickx. 2014. On the Withdrawal of the Roman Troops from the Dodecaschoenos in AD 298: Many Questions and Few Answers — The Problems in Perspective. Source: https://akroterion.journals.ac.za/pub/article/view/944 ; verified full PDF: https://akroterion.journals.ac.za/pub/article/download/944/972
+- KND-C7DCAEF0CB9D934C — Recent Advances in Our Understanding of Prehistory in Northern Sudan — Matthieu Honegger. 2014. Recent Advances in Our Understanding of Prehistory in Northern Sudan. Source: https://kerma.ch/documents/Publications_PDF/Honegger_2014_12e_Nubian_Studies_Recent_Advances_Understanding_Prehistory_Northern_Sudan.pdf ; verified full PDF: https://kerma.ch/documents/Publications_PDF/Honegger_2014_12e_Nubian_Studies_Recent_Advances_Understanding_Prehistory_Northern_Sudan.pdf
+- KND-E4F64C5C590F8755 — Colonial Moral Economy and the Discipline of Development: The Gezira Scheme — Victoria Bernal. 1997. Colonial Moral Economy and the Discipline of Development: The Gezira Scheme and "Modern" Sudan. Cultural Anthropology 12(4):447–479. Source: https://sites.socsci.uci.edu/~vbernal/bio/Bernal-CA2.pdf ; verified full PDF: https://sites.socsci.uci.edu/~vbernal/bio/Bernal-CA2.pdf
+
+### Fresh failure held unchanged
+
+- KND-7E21119028D004A9 — Strangers Everywhere: Nubians in Northern Uganda — source record returned403;no denied-route retry or bypass. Earlier separately held alias KND-B37D7D457EBF4ADA remains unchanged.
