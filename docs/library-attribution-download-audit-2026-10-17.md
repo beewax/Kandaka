@@ -79,3 +79,26 @@ All five replacement destinations returned HTTP 200/206. The four direct PDFs we
 5. Produce a dry-run before/after diff, back up catalog and inventory together, apply only reviewed rows, validate EN/AR rendered cards and source behavior, then deploy the narrow commit. Preserve articles, covers and publishing cadence.
 
 Completing the remaining 405 requires record-level research and, for records with only generic sources or unknown provenance, original bibliography/source links or a verified source-document collection. No permission to make a bucket public is needed or sought. A user choice is needed only for unresolved records that have no lawful public full text: keep an accurately labeled publisher/abstract record, or supply an authorized original source for linking. Existing records remain visible in the meantime.
+
+## Phase 3 — two reviewed exact source replacements, 17 October 2026
+
+Reviewed input: Library libfile_69947ec436448191980f807f7014c2c8, kandaka-reviewed-source-replacements-2026-10-17.json. All ten review rows were read; only the two ready rows were applied. Their frozen IDs, baseline positions, current English titles, effective downloads and inactive EPUB fallbacks matched the live source baseline before editing.
+
+- KND-22C8C749DE5A5B4A, Sudan 2022 Human Rights Report: replaced the broken PDF and corrupt inactive EPUB with https://www.ecoi.net/en/document/2089142.html . Label: Read report / قراءة التقرير. U.S. Department of State, publication 20 March 2023, reporting year 2022. Added bilingual citation and description, HTML format and repository identifier 2089142. The complete executive summary and Sections 1–7 are present in the public institutional copy. A fresh ordinary request returned HTTP 200 with exact title, final section and date. No PDF-layout claim.
+- KND-50AFD7FF76A66035, Trade & Wadis System in Muslim Sudan: replaced the broken PDF and corrupt inactive EPUB with stable https://hdl.handle.net/1956/3994 . Label: View repository / PDF / عرض المصدر وملف PDF. Verified full author Intisar Soghayroun Elzein Soghayroun, Fountain Publishers, Kampala, 2010, ISBN 9789970250059. Added bilingual citation/description and explicit all-rights-reserved link-only note. Fresh public JSON metadata with Accept: application/json returned HTTP 200, exact title/author/2010/ISBN, PUBLISHED, OpenFile application/pdf 7,258,183 bytes and allowed download/read-metadata. Stable handle returns 200 to the exact NVA record. Reviewed manifest verifies complete 140-page PDF with bibliography, appendices and index; no copyrighted file was rehosted, copied to Library or placed in the catalog as a temporary URL.
+
+Only these two records and inventory rows changed. Small source-label overrides were added to the Library and homepage templates; other labels retain their prior defaults. The eight held records remain unchanged, including any metadata-only correction. Both original mappings remain in Git and phase-3 backups.
+
+New remaining counts: 405 -> 403 unresolved Nile mappings. 542 records per language preserved; 50 verified PDF labels unchanged; 406 known-unavailable file links (403 Nile 401 plus three other failures); seven unverified links unchanged. Two new source/read buttons point to institutional full-text sources rather than direct copied downloads.
+
+The eight held records and precise next needs:
+1. AfDB After Two Decades of Solitude: obtain complete permitted publisher file and inspect imprint/year and terminal pages; current file access blocked/truncated evidence insufficient.
+2. Old Dongola Kom A 2005: verify ordinary public live complete article; publisher/repository access challenges remain. Independently verified citation is Godlewski, 2007, PAM 17, 287–299; no link or metadata change applied here.
+3. Agricultural Potential of Sudan: verify successful full retrieval from exact publisher or IGAD source, retaining all-rights-reserved/link-only scope.
+4. Water Resources of the Sudan: complete lawful public report and all 26 printed pages plus covers; IRC access restriction must not be bypassed.
+5. Upper Nubian Vernacular Architecture: exact full one-page author/institution poster and provenance/rights; no current link restoration or OCR-only author correction.
+6. Sudan & Nubia 23: complete verified issue content or a separately approved accurately labeled issue/index record; the contents/ancillary files are not a whole issue.
+7. Sudan & Nubia 10: complete publisher content or separately approved issue/index record; the historical nine-page extract is insufficient.
+8. Sorghum Value Chain Analysis: migrated government/NABC record or lawful complete copy, actual author/commissioner, imprint date and all 42 pages. FAO attribution is unsupported; no new author/year guessed.
+
+No CAPTCHA/access restriction was bypassed. No private object was fetched. No storage setting, article, cover or deployment cadence was changed.

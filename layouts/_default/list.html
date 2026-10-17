@@ -931,7 +931,7 @@ html[data-theme="dark"] .k-nile-home-kicker { color: #ffd84d; }
             </a>
             {{- else }}
             <a class="k-lib-btn k-lib-btn-src" href="{{ $book.source }}" target="_blank" rel="noopener">
-              {{ if $isAr }}عرض المصدر{{ else }}View source{{ end }}
+              {{ if $isAr }}{{ $book.source_label_ar | default "عرض المصدر" }}{{ else }}{{ $book.source_label_en | default "View source" }}{{ end }}
             </a>
             {{- end }}
           {{- end }}

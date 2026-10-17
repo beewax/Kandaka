@@ -109,7 +109,7 @@
           {{- if or (strings.HasSuffix $b.source ".pdf") (strings.HasSuffix $b.source ".epub") }}
           <a class="lib-btn lib-btn-dl" href="{{ $b.source }}" target="_blank" rel="noopener noreferrer">{{ partial "library-file-label.html" (dict "book" $b "isAr" $isAr) }}</a>
           {{- else }}
-          <a class="lib-btn lib-btn-src" href="{{ $b.source }}" target="_blank" rel="noopener noreferrer">{{ if $isAr }}عرض المصدر{{ else }}View at source{{ end }}</a>
+          <a class="lib-btn lib-btn-src" href="{{ $b.source }}" target="_blank" rel="noopener noreferrer">{{ if $isAr }}{{ $b.source_label_ar | default "عرض المصدر" }}{{ else }}{{ $b.source_label_en | default "View at source" }}{{ end }}</a>
           {{- end }}
         {{- else }}
         <a class="lib-btn lib-btn-src" href="https://www.google.com/search?q={{ urlquery (printf "%q %s" $b.title $b.author) }}" target="_blank" rel="noopener noreferrer">{{ if $isAr }}ابحث عنه{{ else }}Find online{{ end }}</a>
