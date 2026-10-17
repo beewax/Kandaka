@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-16T23:17:09.312109+00:00",
+  "updated": "2026-10-17T03:18:55.763814+00:00",
   "sources": [
     {
       "id": "dabanga-en",
@@ -11,9 +11,9 @@
     {
       "id": "sudan-tribune-ar",
       "language": "ar",
-      "status": "invalid_feed",
-      "items": 0,
-      "accepted": 0
+      "status": "ok",
+      "items": 10,
+      "accepted": 8
     },
     {
       "id": "ayin-en",
@@ -89,8 +89,8 @@
       "id": "alaraby-ar",
       "language": "ar",
       "status": "ok",
-      "items": 157,
-      "accepted": 1
+      "items": 151,
+      "accepted": 3
     },
     {
       "id": "un-news-ar",
@@ -130,9 +130,9 @@
     {
       "id": "beam-ar",
       "language": "ar",
-      "status": "invalid_feed",
-      "items": 0,
-      "accepted": 0
+      "status": "ok",
+      "items": 10,
+      "accepted": 10
     },
     {
       "id": "sudan-war-monitor",
