@@ -327,15 +327,28 @@
     {
       "title": "Remote Sensing to Monitor Impact of Conflict on Agriculture",
       "title_ar": "الاستشعار عن بُعد لرصد أثر النزاع على الزراعة",
-      "author": "FEWS NET / USAID",
+      "author": "Mercy Corps",
       "year": "2023",
       "tags": [
         "Agriculture"
       ],
-      "desc_ar": "تقرير يوظّف تقنيات الاستشعار عن بُعد لرصد آثار النزاع المسلح على الإنتاج الزراعي في السودان عام 2023، مقيّمًا انعكاسات ذلك على الأمن الغذائي للسكان المتضررين.",
-      "download": "https://pub-a5e3b47fe87749f491660d68e2029284.r2.dev/remote-sensing-to-monitor-impac-fews-net-usaid.pdf",
-      "desc": "Satellite-based methodology for assessing war damage to farmland, crops, and irrigation infrastructure.",
-      "source": "https://pub-a5e3b47fe87749f491660d68e2029284.r2.dev/remote-sensing-to-monitor-impact-of-conflict-on-agriculture.epub"
+      "desc_ar": "تقرير تحليل أزمة السودان الصادر عن ميرسي كور في أغسطس 2023. هذا تقرير أغسطس الكامل، وهو مختلف عن تقرير المتابعة الصادر في سبتمبر.",
+      "desc": "Mercy Corps Sudan Crisis Analysis, August 2023. This is the complete August report, distinct from the September follow-up.",
+      "source": "https://www.prosperglobal.org/sites/default/files/2023-10/Sudan-remote-sensing-impact-of-conflict-on-agriculture-paper-1-august-2023_0.pdf",
+      "author_ar": "Mercy Corps",
+      "citation": "Mercy Corps. August 2023. Remote Sensing to Monitor Impact of Conflict on Agriculture. Sudan Crisis Analysis.",
+      "citation_ar": "Mercy Corps. August 2023. Remote Sensing to Monitor Impact of Conflict on Agriculture. Sudan Crisis Analysis.",
+      "title_full": "Remote Sensing to Monitor Impact of Conflict on Agriculture",
+      "identifiers": {
+        "series": "Sudan Crisis Analysis",
+        "note": "No ISBN or DOI printed."
+      },
+      "source_format": "PDF (complete August 2023 briefing paper)",
+      "rights_note": "External publisher/institutional links only; no rehosting or redistribution authorized.",
+      "publication_date": "2023-08",
+      "download": "https://www.prosperglobal.org/sites/default/files/2023-10/Sudan-remote-sensing-impact-of-conflict-on-agriculture-paper-1-august-2023_0.pdf",
+      "source_label_en": "Read full August 2023 report (PDF)",
+      "source_label_ar": "قراءة تقرير أغسطس 2023 الكامل (PDF)"
     },
     {
       "title": "FAO Technical Consultation on GMOs in Internationally Traded Food Crops",
@@ -1254,15 +1267,34 @@
     {
       "title": "Urban Sector Studies and Capacity Building",
       "title_ar": "دراسات القطاع الحضري وبناء القدرات",
-      "author": "UN-HABITAT",
-      "year": "2022",
+      "author": "Fernando Murillo; Salah Mohamoud Osman; Hag Adam H. El Tahir; Abdalla Kafeel; Khadeiga M. Osman; Burhan El Ghazali; Abdel Rahman Mustafa",
+      "year": "2009",
       "tags": [
         "Urban Planning"
       ],
-      "desc_ar": "دراسات قطاعية صادرة عن الأمم المتحدة للمستوطنات البشرية تُقيّم التحضر في السودان وتُحدد أولويات بناء القدرات في مجال التخطيط العمراني وتقديم الخدمات.",
-      "download": "https://pub-a5e3b47fe87749f491660d68e2029284.r2.dev/urban-sector-studies-and-capaci-united-nations-human-settlement.pdf",
-      "desc": "Technical report on city planning, municipal finance, and urban management systems.",
-      "source": "https://pub-a5e3b47fe87749f491660d68e2029284.r2.dev/urban-sector-studies-and-capacity-building.epub"
+      "desc_ar": "تقرير موئل الأمم المتحدة الكامل عن ولاية الخرطوم لعام 2009، تحرير إدوارد ميلر، بمشاركة سبعة مؤلفين رئيسيين وثلاثة مؤلفين إضافيين. رفعه المؤلف المشارك برهان الغزالي إلى ResearchGate في 2021؛ تاريخ الرفع ليس سنة النشر.",
+      "desc": "The complete 2009 UN-HABITAT Khartoum State report, edited by Edward Miller, with seven primary authors and three additional authors. Coauthor Burhan Elghazali uploaded this 64-page report to ResearchGate in 2021; the upload date is not the publication year.",
+      "source": "https://www.researchgate.net/publication/353620865_Urban_Sector_Studies_and_Capacity_Building_for_Khartoum_State",
+      "author_ar": "Fernando Murillo; Salah Mohamoud Osman; Hag Adam H. El Tahir; Abdalla Kafeel; Khadeiga M. Osman; Burhan El Ghazali; Abdel Rahman Mustafa",
+      "editors": [
+        "Edward Miller"
+      ],
+      "additional_authors": [
+        "Ali El Faramawy",
+        "Gulelat Kebede",
+        "Mohamed El Mubarak"
+      ],
+      "title_full": "Urban Sector Studies and Capacity Building for Khartoum State",
+      "citation": "Murillo, Fernando, Salah Mohamoud Osman, Hag Adam H. El Tahir, Abdalla Kafeel, Khadeiga M. Osman, Burhan El Ghazali, and Abdel Rahman Mustafa. 2009. Urban Sector Studies and Capacity Building for Khartoum State. UN-HABITAT. Additional authors: Ali El Faramawy, Gulelat Kebede, and Mohamed El Mubarak. Edited by Edward Miller.",
+      "citation_ar": "Murillo, Fernando, Salah Mohamoud Osman, Hag Adam H. El Tahir, Abdalla Kafeel, Khadeiga M. Osman, Burhan El Ghazali, and Abdel Rahman Mustafa. 2009. Urban Sector Studies and Capacity Building for Khartoum State. UN-HABITAT. Additional authors: Ali El Faramawy, Gulelat Kebede, and Mohamed El Mubarak. Edited by Edward Miller.",
+      "identifiers": {
+        "ISBN": "978-92-1-132181-4",
+        "report_number": "HS/1214/09E"
+      },
+      "source_format": "Author-uploaded full report",
+      "source_label_en": "Read author-uploaded full report",
+      "source_label_ar": "قراءة التقرير الكامل المرفوع من أحد المؤلفين",
+      "rights_note": "Author-uploaded external report; user confirmed access. Copyright UN-HABITAT 2009. No rehosting or open-license assertion."
     },
     {
       "title": "Implementation of Istanbul Plan of Action for Least Developed Countries 2011–2020",
@@ -1477,15 +1509,27 @@
     {
       "title": "On the Road to Recovery: How Sudan Is Saving Its Water Sector",
       "title_ar": "على طريق التعافي: كيف ينقذ السودان قطاع المياه",
-      "author": "UNICEF",
-      "year": "2023",
+      "author": "Noosha Tayebi",
+      "year": "2021",
       "tags": [
         "Water & Nile"
       ],
-      "desc_ar": "تقرير اليونيسيف عام 2023 يستعرض الجهود الوطنية لإنقاذ قطاع المياه السوداني في سياق الصراع المسلح، ويُوثّق المبادرات الطارئة لتأمين الوصول إلى المياه النظيفة.",
-      "download": "https://pub-a5e3b47fe87749f491660d68e2029284.r2.dev/on-the-road-to-recovery-how-su-unknown.pdf",
-      "desc": "Water utility reform study and infrastructure rehabilitation efforts.",
-      "source": "https://pub-a5e3b47fe87749f491660d68e2029284.r2.dev/on-the-road-to-recovery-how-sudan-is-saving-its-water-sector.epub"
+      "desc_ar": "مقال نوشا طيبي الكامل في مدونة المياه للبنك الدولي، نُشر في 29 سبتمبر 2021. النص الكامل بصيغة HTML؛ لا يقدّم هذا الرابط ملف PDF.",
+      "desc": "Noosha Tayebi’s complete World Bank Water blog article, published 29 September 2021. Full HTML article; no PDF is offered by this repair.",
+      "source": "https://blogs.worldbank.org/en/water/road-recovery-how-sudan-saving-its-water-sector",
+      "author_ar": "Noosha Tayebi",
+      "citation": "Tayebi, Noosha. 2021. “On the road to recovery: How Sudan is saving its water sector.” The Water Blog, World Bank. 29 September. HTML article.",
+      "citation_ar": "Tayebi, Noosha. 2021. “On the road to recovery: How Sudan is saving its water sector.” The Water Blog, World Bank. 29 September. HTML article.",
+      "title_full": "On the road to recovery: How Sudan is saving its water sector",
+      "identifiers": {
+        "ISBN": null,
+        "DOI": null,
+        "canonical_url": "https://blogs.worldbank.org/en/water/road-recovery-how-sudan-saving-its-water-sector"
+      },
+      "source_format": "fullHTML",
+      "rights_note": "External publisher/institutional links only; no rehosting or redistribution authorized.",
+      "source_label_en": "Read full article (HTML)",
+      "source_label_ar": "قراءة المقال الكامل (HTML)"
     },
     {
       "title": "Review of the Sudanese Socio-Economic Problems",
@@ -1553,15 +1597,27 @@
     {
       "title": "Sudan's Challenges and Opportunities: A Renaissance Project for Sudan",
       "title_ar": "تحديات السودان وفرصه: مشروع نهضة للسودان",
-      "author": "Economic Research Forum",
+      "author": "Ibrahim Elbadawi; Abdelrazig Elbashir; Abdelrahman Osman; Amir Hamid Elobaid; Elfatih Eltahir; Alzaki Alhelo; Kabbashi M. Suliman",
       "year": "2022",
       "tags": [
         "Economy & Development"
       ],
-      "desc_ar": "ورقة بحثية من منتدى البحوث الاقتصادية تستشرف إمكانات النهضة في السودان، وتضع أجندة إصلاحية شاملة تغطي السياسات الاقتصادية والاجتماعية وإدارة الموارد.",
-      "download": "https://pub-a5e3b47fe87749f491660d68e2029284.r2.dev/sudan-s-challenges-and-opportun-unknown.pdf",
-      "desc": "National development vision document and reform agenda.",
-      "source": "https://pub-a5e3b47fe87749f491660d68e2029284.r2.dev/sudan-s-challenges-and-opportunities-a-renaissance-project-f.epub"
+      "desc_ar": "تقرير بحوث السياسات رقم 40 لمنتدى البحوث الاقتصادية، يوليو 2022، كاملاً ومن تأليف سبعة باحثين، عن نهضة السودان عبر النمو الزراعي الصناعي والتنمية المستدامة. يختلف عن موجز السياسات اللاحق رقم 99 ذي المؤلفين الأربعة.",
+      "desc": "The complete seven-author ERF Policy Research Report 40, July 2022, on Sudan’s renaissance through agro-industrial growth and sustainable development. Distinct from the later four-author Policy Brief 99.",
+      "source": "https://erf.org.eg/publications/sudans-challenges-and-opportunities-a-renaissance-project-for-sudan/",
+      "author_ar": "Ibrahim Elbadawi; Abdelrazig Elbashir; Abdelrahman Osman; Amir Hamid Elobaid; Elfatih Eltahir; Alzaki Alhelo; Kabbashi M. Suliman",
+      "citation": "Elbadawi, Ibrahim, et al. 2022. Sudan’s Challenges and Opportunities: A Renaissance Project for Sudan: From Poor Agriculture to Agro-Industrial Growth and Sustainable Development. ERF Policy Research Report 40. July.",
+      "citation_ar": "Elbadawi, Ibrahim, et al. 2022. Sudan’s Challenges and Opportunities: A Renaissance Project for Sudan: From Poor Agriculture to Agro-Industrial Growth and Sustainable Development. ERF Policy Research Report 40. July.",
+      "title_full": "Sudan’s Challenges and Opportunities: A Renaissance Project for Sudan: From Poor Agriculture to Agro-Industrial Growth and Sustainable Development",
+      "identifiers": {
+        "report": "ERF PRR 40"
+      },
+      "source_format": "record+PDF",
+      "rights_note": "External publisher/institutional links only; no rehosting or redistribution authorized.",
+      "publication_date": "2022-07",
+      "download": "https://erf.org.eg/app/uploads/2022/07/1659257696_282_6382995_prr40.pdf",
+      "source_label_en": "Read complete work (PDF)",
+      "source_label_ar": "قراءة النص الكامل (PDF)"
     },
     {
       "title": "Sudan's Economic Nightmare",
@@ -2841,15 +2897,30 @@
     {
       "title": "Black Gold for Blue Gold: Sudan's Oil, Ethiopia's Water and Regional Integration",
       "title_ar": "الذهب الأسود مقابل الذهب الأزرق: نفط السودان ومياه إثيوبيا",
-      "author": "Grace Gershuny; Deborah, L. Martin",
+      "author": "Harry Verhoeven",
       "tags": [
         "Economy & Development",
         "Water & Nile",
         "Regional & Geopolitics"
       ],
-      "desc": "Analysis of how Sudan could leverage oil revenues in exchange for water security from Ethiopia within a regional cooperation framework.",
-      "desc_ar": "تحليل كيف يمكن للسودان استثمار عائدات النفط مقابل ضمانات أمن المياه من إثيوبيا في إطار التعاون الإقليمي.",
-      "source": "https://pub-a5e3b47fe87749f491660d68e2029284.r2.dev/black-gold-for-blue-gold-sudan-s-oil-ethiopia-s-water-and-re.epub"
+      "desc": "Harry Verhoeven’s June 2011 Chatham House briefing paper, Black Gold for Blue Gold? Sudan’s Oil, Ethiopia’s Water and Regional Integration. Complete paper including annexes.",
+      "desc_ar": "ورقة تشاتام هاوس لهاري فيرهوفن، يونيو 2011، بعنوان الذهب الأسود مقابل الذهب الأزرق؟ نفط السودان ومياه إثيوبيا والتكامل الإقليمي. النص كامل مع الملاحق.",
+      "source": "https://www.chathamhouse.org/sites/default/files/19482_0611bp_verhoeven.pdf",
+      "author_ar": "Harry Verhoeven",
+      "citation": "Verhoeven, Harry. 2011. Black Gold for Blue Gold? Sudan’s Oil, Ethiopia’s Water and Regional Integration. Africa Programme briefing paper AFP BP 2011/03. London: Chatham House. June.",
+      "citation_ar": "Verhoeven, Harry. 2011. Black Gold for Blue Gold? Sudan’s Oil, Ethiopia’s Water and Regional Integration. Africa Programme briefing paper AFP BP 2011/03. London: Chatham House. June.",
+      "title_full": "Black Gold for Blue Gold? Sudan’s Oil, Ethiopia’s Water and Regional Integration",
+      "year": "2011",
+      "identifiers": {
+        "report_number": "AFP BP 2011/03",
+        "ISBN": null,
+        "DOI": null
+      },
+      "source_format": "directPDF",
+      "rights_note": "External publisher/institutional links only; no rehosting or redistribution authorized.",
+      "download": "https://www.chathamhouse.org/sites/default/files/19482_0611bp_verhoeven.pdf",
+      "source_label_en": "Read complete work (PDF)",
+      "source_label_ar": "قراءة النص الكامل (PDF)"
     },
     {
       "title": "Consolidating Sudan's Transition: A Question of Legitimacy",
@@ -2866,13 +2937,27 @@
       "title": "Country Reports on Human Rights Practices for 2017: Sudan",
       "title_ar": "تقارير حقوق الإنسان لعام 2017: السودان",
       "author": "U.S. Department of State",
-      "year": "2017",
+      "year": "2018",
       "tags": [
         "Governance & Politics"
       ],
-      "desc": "U.S. State Department annual human rights report documenting conditions in Sudan in 2017 under the Bashir government.",
-      "desc_ar": "تقرير وزارة الخارجية الأمريكية السنوي لحقوق الإنسان يوثّق الأوضاع في السودان عام 2017 في عهد البشير.",
-      "source": "https://pub-a5e3b47fe87749f491660d68e2029284.r2.dev/country-reports-on-human-rights-practices-for-2017-sudan.epub"
+      "desc": "The U.S. Department of State’s complete Sudan human-rights country report covering 2017, published 20 April 2018 and preserved as HTML by ecoi.net.",
+      "desc_ar": "تقرير وزارة الخارجية الأمريكية الكامل عن حقوق الإنسان في السودان خلال 2017، نُشر في 20 أبريل 2018، ومحفوظ بصيغة HTML لدى ecoi.net.",
+      "source": "https://www.ecoi.net/en/document/1430180.html",
+      "author_ar": "U.S. Department of State",
+      "citation": "U.S. Department of State. 2017 Country Reports on Human Rights Practices: Sudan. 20 April 2018. Full country report, preserved by ACCORD/ecoi.net, document 1430180.",
+      "citation_ar": "U.S. Department of State. 2017 Country Reports on Human Rights Practices: Sudan. 20 April 2018. Full country report, preserved by ACCORD/ecoi.net, document 1430180.",
+      "title_full": "2017 Country Reports on Human Rights Practices: Sudan",
+      "identifiers": {
+        "ecoi_document_id": "1430180",
+        "ecoi_former_document_id": "357058",
+        "original_state_report_id": "277051"
+      },
+      "source_format": "Full-text HTML",
+      "rights_note": "External publisher/institutional links only; no rehosting or redistribution authorized.",
+      "publication_date": "2018-04-20",
+      "source_label_en": "Read full report (HTML)",
+      "source_label_ar": "قراءة التقرير الكامل (HTML)"
     },
     {
       "title": "Explaining Sudan's Economic Growth Performance",
@@ -3054,15 +3139,30 @@
     {
       "title": "From Subsidy to Sustainability: Sudan's Electricity Sector",
       "title_ar": "من الدعم إلى الاستدامة: قطاع الكهرباء في السودان",
-      "author": "Galit Shmueli; Peter C. Bruce; Peter Gedeck; Nitin R. Patel",
+      "author": "World Bank",
       "tags": [
         "Energy",
         "Economy & Development",
         "Infrastructure"
       ],
-      "desc": "Technical diagnostic of Sudan's electricity sector examining generation capacity, distribution losses, subsidy reform, and investment needs.",
-      "desc_ar": "تشخيص تقني لقطاع الكهرباء في السودان يفحص طاقة التوليد وخسائر التوزيع وإصلاح الدعم.",
-      "source": "https://pub-a5e3b47fe87749f491660d68e2029284.r2.dev/from-subsidy-to-sustainability-sudan-s-electricity-sector.epub"
+      "desc": "The World Bank’s complete 2019 report From Subsidy to Sustainability: Diagnostic Review of Sudan Electricity Sector. Includes all seven annexes.",
+      "desc_ar": "تقرير البنك الدولي الكامل لعام 2019، من الدعم إلى الاستدامة: مراجعة تشخيصية لقطاع الكهرباء في السودان، مع الملاحق السبعة.",
+      "source": "https://hdl.handle.net/10986/33702",
+      "author_ar": "World Bank",
+      "citation": "World Bank. 2019. From Subsidy to Sustainability: Diagnostic Review of Sudan’s Electricity Sector. Final Report. Washington, DC: World Bank. https://doi.org/10.1596/33702.",
+      "citation_ar": "World Bank. 2019. From Subsidy to Sustainability: Diagnostic Review of Sudan’s Electricity Sector. Final Report. Washington, DC: World Bank. https://doi.org/10.1596/33702.",
+      "title_full": "From Subsidy to Sustainability: Diagnostic Review of Sudan’s Electricity Sector",
+      "year": "2019",
+      "identifiers": {
+        "doi": "10.1596/33702",
+        "handle": "10986/33702",
+        "okr_item": "eb0c9770-e1f7-514d-841e-207a96a6ea44"
+      },
+      "source_format": "publisher landing page with complete PDF",
+      "rights_note": "External publisher/institutional links only; no rehosting or redistribution authorized.",
+      "download": "https://openknowledge.worldbank.org/bitstreams/142c0f15-20d8-54e6-a92c-bfbdbccbaccb/download",
+      "source_label_en": "Read complete work (PDF)",
+      "source_label_ar": "قراءة النص الكامل (PDF)"
     },
     {
       "title": "Sudan Country Economic Memorandum: Realizing the Potential for Diversified Development",
@@ -3159,14 +3259,30 @@
     {
       "title": "Agricultural Productivity and Poverty in Rural Sudan",
       "title_ar": "الإنتاجية الزراعية والفقر في الريف السوداني",
-      "author": "Freda McManus; Gillian Butler",
+      "author": "Haseeb Ali; Alvin Etang Ndip; Sering Touray; Habtamu Fuje",
       "tags": [
         "Agriculture",
         "Economy & Development"
       ],
-      "desc": "Empirical study linking agricultural productivity improvements to poverty reduction in Sudanese rural communities.",
-      "desc_ar": "دراسة تجريبية تربط تحسينات الإنتاجية الزراعية بالحد من الفقر في المجتمعات الريفية السودانية.",
-      "source": "https://pub-a5e3b47fe87749f491660d68e2029284.r2.dev/agricultural-productivity-and-poverty-in-rural-sudan.epub"
+      "desc": "The complete June 2020 report by Haseeb Ali, Alvin Etang Ndip, Sering Touray and Habtamu Fuje. The later repository accession date is not the publication year.",
+      "desc_ar": "التقرير الكامل الصادر في يونيو 2020 لحسيب علي وألفين إيتانغ نديب وسيرينغ توراي وهابتامو فوجي. تاريخ الإيداع اللاحق في المستودع ليس سنة النشر.",
+      "source": "https://openknowledge.worldbank.org/handle/10986/36105",
+      "author_ar": "Haseeb Ali; Alvin Etang Ndip; Sering Touray; Habtamu Fuje",
+      "citation": "Ali, Haseeb, Alvin Etang Ndip, Sering Touray, and Habtamu Fuje. 2020. Agricultural Productivity and Poverty in Rural Sudan. World Bank, June. doi:10.1596/36105.",
+      "citation_ar": "Ali, Haseeb, Alvin Etang Ndip, Sering Touray, and Habtamu Fuje. 2020. Agricultural Productivity and Poverty in Rural Sudan. World Bank, June. doi:10.1596/36105.",
+      "title_full": "Agricultural Productivity and Poverty in Rural Sudan",
+      "year": "2020",
+      "identifiers": {
+        "DOI": "10.1596/36105",
+        "handle": "10986/36105",
+        "project": "P164694"
+      },
+      "source_format": "record+PDF",
+      "rights_note": "External publisher/institutional links only; no rehosting or redistribution authorized.",
+      "publication_date": "2020-06",
+      "download": "https://documents1.worldbank.org/curated/en/345181628489090079/pdf/Agricultural-Productivity-and-Poverty-in-Rural-Sudan.pdf",
+      "source_label_en": "Read complete work (PDF)",
+      "source_label_ar": "قراءة النص الكامل (PDF)"
     },
     {
       "title": "Agriculture and the Environment in Sudan",
@@ -4404,15 +4520,27 @@
     {
       "title": "Water Management by Divine Benevolence: Meroitic Pastoral Reservoirs Along the Nile",
       "title_ar": "إدارة المياه بالعناية الإلهية: خزانات الرعي المروية على النيل",
-      "author": "Harrison Ferrone",
+      "author": "Petra Weschenfelder",
       "tags": [
         "Archaeology & Heritage",
         "Water & Nile",
         "Agriculture"
       ],
-      "desc": "Study of Meroitic artificial water reservoirs serving as pastoral gathering points along the Nile (350 BC to 350 AD).",
-      "desc_ar": "دراسة خزانات المياه الاصطناعية المروية التي كانت تُشكّل نقاط تجمع رعوية على النيل (350 ق.م. إلى 350 م).",
-      "source": "https://pub-a5e3b47fe87749f491660d68e2029284.r2.dev/water-management-by-divine-benevolence-meroitic-pastoral-res.epub"
+      "desc": "Petra Weschenfelder’s 2012 chapter in People at the Well, printed pages 246–265. The PDF contains the complete chapter in two-page spreads, with book cover and contents; it is not the complete book.",
+      "desc_ar": "فصل بيترا فيشنفلدر الصادر عام 2012 ضمن كتاب People at the Well، الصفحات المطبوعة 246–265. يضم الملف الفصل كاملاً في صفحات مزدوجة مع غلاف الكتاب وفهرسه، وليس الكتاب بأكمله.",
+      "source": "https://pueaa.unam.mx/uploads/materials/Water_management.pdf?v=1660144492",
+      "author_ar": "Petra Weschenfelder",
+      "citation": "Weschenfelder, Petra. 2012. “Water management by divine benevolence along the River Nile: Artificial water reservoirs as pastoral meeting places in the Meroitic Sudan (ca. 350 B.C. to 350 A.D.)” In People at the Well: Kinds, Usages and Meanings of Water in a Global Perspective, edited by Hans Peter Hahn, Karlheinz Cless, and Jens Soentgen, 246-265. Campus Verlag.",
+      "citation_ar": "Weschenfelder, Petra. 2012. “Water management by divine benevolence along the River Nile: Artificial water reservoirs as pastoral meeting places in the Meroitic Sudan (ca. 350 B.C. to 350 A.D.)” In People at the Well: Kinds, Usages and Meanings of Water in a Global Perspective, edited by Hans Peter Hahn, Karlheinz Cless, and Jens Soentgen, 246-265. Campus Verlag.",
+      "title_full": "Water management by divine benevolence along the River Nile: Artificial water reservoirs as pastoral meeting places in the Meroitic Sudan (ca. 350 B.C. to 350 A.D.)",
+      "year": "2012",
+      "identifiers": {},
+      "source_format": "PDF chapter scan (13 PDF pages; printed pp. 246-265)",
+      "rights_note": "External publisher/institutional links only; no rehosting or redistribution authorized.",
+      "publication_date": "2012-04-19",
+      "download": "https://pueaa.unam.mx/uploads/materials/Water_management.pdf?v=1660144492",
+      "source_label_en": "Read chapter (PDF)",
+      "source_label_ar": "قراءة الفصل (PDF)"
     },
     {
       "title": "Why Did Taharqa Build His Tomb at Nuri?",
@@ -4502,15 +4630,30 @@
     {
       "title": "The Arab Region SDG Index and Dashboards Report 2019",
       "title_ar": "مؤشر أهداف التنمية المستدامة وتقارير الأداء في المنطقة العربية 2019",
-      "author": "John Paul Mueller",
+      "author": "Mari Luomi; Grayson Fuller; Lara Dahan; Karina Lisboa Båsund; Eve de la Mothe Karoubi; Guillaume Lafortune",
       "year": "2019",
       "tags": [
         "Economy & Development",
         "Regional & Geopolitics"
       ],
-      "desc": "Assessment of Arab countries' progress toward the 2030 Sustainable Development Goals including Sudan.",
-      "desc_ar": "تقييم تقدم الدول العربية نحو أهداف التنمية المستدامة 2030 بما فيها السودان.",
-      "source": "https://pub-a5e3b47fe87749f491660d68e2029284.r2.dev/the-arab-region-sdg-index-and-dashboards-report-2019.epub"
+      "desc": "The complete six-author Arab Region SDG Index and Dashboards Report 2019, published by the Emirates Diplomatic Academy and SDSN.",
+      "desc_ar": "تقرير مؤشر ولوحات أهداف التنمية المستدامة للمنطقة العربية لعام 2019 كاملاً، من تأليف ستة باحثين ونشر أكاديمية الإمارات الدبلوماسية وشبكة حلول التنمية المستدامة.",
+      "source": "https://www.sustainabledevelopment.report/reports/2019-arab-region-sdg-index-and-dashboards-report/",
+      "author_ar": "Mari Luomi; Grayson Fuller; Lara Dahan; Karina Lisboa Båsund; Eve de la Mothe Karoubi; Guillaume Lafortune",
+      "citation": "Luomi, M., Fuller, G., Dahan, L., Lisboa Båsund, K., de la Mothe Karoubi, E. and Lafortune, G. 2019. Arab Region SDG Index and Dashboards Report 2019. Abu Dhabi and New York: SDG Centre of Excellence for the Arab Region/Emirates Diplomatic Academy and Sustainable Development Solutions Network.",
+      "citation_ar": "Luomi, M., Fuller, G., Dahan, L., Lisboa Båsund, K., de la Mothe Karoubi, E. and Lafortune, G. 2019. Arab Region SDG Index and Dashboards Report 2019. Abu Dhabi and New York: SDG Centre of Excellence for the Arab Region/Emirates Diplomatic Academy and Sustainable Development Solutions Network.",
+      "title_full": "Arab Region SDG Index and Dashboards Report 2019",
+      "identifiers": {
+        "ISBN": null,
+        "DOI": null,
+        "note": "No ISBN or DOI found in the inspected report."
+      },
+      "source_format": "record+PDF",
+      "rights_note": "External publisher/institutional links only; no rehosting or redistribution authorized.",
+      "publication_date": "2019-11",
+      "download": "https://s3.amazonaws.com/sustainabledevelopment.report/2019/2019_arab_region_index_and_dashboards.pdf",
+      "source_label_en": "Read complete work (PDF)",
+      "source_label_ar": "قراءة النص الكامل (PDF)"
     },
     {
       "title": "Towards the African Integrated High Speed Railway Network",
@@ -4725,14 +4868,29 @@
     {
       "title": "Village Environmental Management Plans for Dungonab Bay and Mukkawar Island",
       "title_ar": "خطط الإدارة البيئية القروية لخليج دنقناب وجزيرة مكاوار",
-      "author": "Michaela Riva Gaaserud",
+      "author": "Paul Harrison; Melita Samoilys",
       "tags": [
         "Environment & Climate",
         "Maps & Reference"
       ],
-      "desc": "Community-based environmental management plans for the Dungonab Bay and Mukkawar Island National Park on Sudan's Red Sea coast.",
-      "desc_ar": "خطط إدارة بيئية مجتمعية للمنتزه الوطني في خليج دنقناب وجزيرة مكاوار على ساحل البحر الأحمر السوداني.",
-      "source": "https://pub-a5e3b47fe87749f491660d68e2029284.r2.dev/village-environmental-management-plans-for-dungonab-bay-and-.epub"
+      "desc": "Paul Harrison and Melita Samoilys’s complete December 2007 village environmental management plans for Dungonab Bay and Mukkawar Island, including both appendices.",
+      "desc_ar": "خطط الإدارة البيئية القروية الكاملة لخليج دنقناب وجزيرة مكوار، تأليف بول هاريسون وميليتا سامويلس، ديسمبر 2007، مع الملحقين.",
+      "source": "https://www.sudanmarineparks.info/about-us/publications-reports/",
+      "author_ar": "Paul Harrison; Melita Samoilys",
+      "citation": "Harrison, Paul, and Melita Samoilys. 2007. Village Environmental Management Plans (VEMPs) for Dungonab Bay and Mukkawar Island National Park: Creation and Development of VEMPs for the villages of Mohammed Qol and Dungonab, Red Sea State, Sudan. December. IUCN Eastern Africa Regional Programme, African Parks Foundation and WCGA Sudan. ix + 44 pp.",
+      "citation_ar": "Harrison, Paul, and Melita Samoilys. 2007. Village Environmental Management Plans (VEMPs) for Dungonab Bay and Mukkawar Island National Park: Creation and Development of VEMPs for the villages of Mohammed Qol and Dungonab, Red Sea State, Sudan. December. IUCN Eastern Africa Regional Programme, African Parks Foundation and WCGA Sudan. ix + 44 pp.",
+      "title_full": "Village Environmental Management Plans (VEMPs) for Dungonab Bay and Mukkawar Island National Park: Creation and Development of VEMPs for the villages of Mohammed Qol and Dungonab, Red Sea State, Sudan",
+      "year": "2007",
+      "identifiers": {
+        "ISBN": null,
+        "DOI": null,
+        "note": "No ISBN, DOI or report number printed."
+      },
+      "source_format": "institutionalRecord+PDF",
+      "rights_note": "External publisher/institutional links only; no rehosting or redistribution authorized.",
+      "download": "https://sudanmarineparks.info/wp-content/uploads/2026/09/vemps-2007.pdf",
+      "source_label_en": "Read complete work (PDF)",
+      "source_label_ar": "قراءة النص الكامل (PDF)"
     },
     {
       "title": "Wasta: Education Expansion and Economic Liberalization in Sudan",
@@ -5165,15 +5323,30 @@
     {
       "title": "Lost Nubia: A Centennial Exhibit of Photographs",
       "title_ar": "نوبة المفقودة: معرض صور مئوي",
-      "author": "John Swanson",
+      "author": "John A. Larson",
       "tags": [
         "Archaeology & Heritage",
         "History",
         "Arts & Culture"
       ],
-      "desc": "Photographic record of Nubian communities and monuments photographed by the University of Chicago expedition before they were submerged by the Aswan Dam.",
-      "desc_ar": "سجل فوتوغرافي للمجتمعات والمعالم النوبية التي صوّرها بعثة جامعة شيكاغو قبل غمرها بسد أسوان.",
-      "source": "https://pub-a5e3b47fe87749f491660d68e2029284.r2.dev/lost-nubia-a-centennial-exhibit-of-photographs.epub"
+      "desc": "John A. Larson’s complete 2006 Lost Nubia exhibition publication, with photographs from the University of Chicago’s 1905–1907 Egyptian expedition.",
+      "desc_ar": "كتاب معرض النوبة المفقودة الكامل لجون أ. لارسون، 2006، ويضم صوراً من بعثة جامعة شيكاغو إلى مصر خلال 1905–1907.",
+      "source": "https://isac.uchicago.edu/publications/lost-nubia-centennial-exhibit-photographs-1905-1907-egyptian-expedition-university",
+      "author_ar": "John A. Larson",
+      "citation": "Larson, John A. Lost Nubia: A Centennial Exhibit of Photographs from the 1905–1907 Egyptian Expedition of the University of Chicago. Oriental Institute Museum Publications 24. Chicago: The Oriental Institute of the University of Chicago, 2006.",
+      "citation_ar": "Larson, John A. Lost Nubia: A Centennial Exhibit of Photographs from the 1905–1907 Egyptian Expedition of the University of Chicago. Oriental Institute Museum Publications 24. Chicago: The Oriental Institute of the University of Chicago, 2006.",
+      "title_full": "Lost Nubia: A Centennial Exhibit of Photographs from the 1905–1907 Egyptian Expedition of the University of Chicago",
+      "year": "2006",
+      "identifiers": {
+        "DOI": "10.83354/db47-m147",
+        "ISBN_original_scan": "1-885923-45-7",
+        "LCCN": "2005939018"
+      },
+      "source_format": "Publisher landing page with complete PDF download",
+      "rights_note": "External publisher/institutional links only; no rehosting or redistribution authorized.",
+      "download": "https://isac-assets.s3.amazonaws.com/isac-publications/oimp24.pdf?VersionId=qfuDLHg1dtTdynplzt7As1MQ6pFO2Ca1",
+      "source_label_en": "View book and full scan",
+      "source_label_ar": "قراءة النص الكامل (PDF)"
     },
     {
       "title": "Kush: The Forgotten Empire",
@@ -5658,15 +5831,32 @@
     {
       "title": "The Gezira Irrigation Scheme in Sudan: Objectives, Design, and Performance",
       "title_ar": "مشروع الجزيرة للري في السودان: الأهداف والتصميم والأداء",
-      "author": "World Bank",
+      "author": "Hervé Plusquellec",
       "tags": [
         "Agriculture",
         "Economy & Development",
         "Infrastructure"
       ],
-      "desc": "The definitive World Bank technical assessment of the Gezira Scheme — the world's largest irrigation project — tracing its expansion from 300,000 to 2.1 million feddans, documenting the persistent yield gap between research station and field performance, and setting the agenda for rehabilitation that still shapes Gezira policy today.",
-      "desc_ar": "التقييم التقني الحاسم للبنك الدولي لمشروع الجزيرة للري — أكبر مشروع ري في العالم — موثقيناً توسعه من 300ألف إلى 2.1 مليون فدان.",
-      "source": "https://pub-a5e3b47fe87749f491660d68e2029284.r2.dev/gezira-irrigation-scheme-sudan-objectives-performance.pdf"
+      "desc": "Hervé Plusquellec’s May 1990 World Bank Technical Paper 120. The complete scanned paper includes both foldout maps; the World Bank is the publisher.",
+      "desc_ar": "الورقة الفنية رقم 120 للبنك الدولي، تأليف هيرفي بلوسكيليك، مايو 1990. تشمل النسخة الممسوحة الكاملة الخريطتين المطويتين؛ البنك الدولي هو الناشر.",
+      "source": "https://documents1.worldbank.org/curated/en/377141468778504847/pdf/multi-page.pdf",
+      "author_ar": "Hervé Plusquellec",
+      "citation": "Plusquellec, Hervé. 1990. The Gezira Irrigation Scheme in Sudan: Objectives, Design, and Performance. World Bank Technical Paper No. 120. Washington, DC: World Bank. First printing May 1990. ISBN 0-8213-1536-6.",
+      "citation_ar": "Plusquellec, Hervé. 1990. The Gezira Irrigation Scheme in Sudan: Objectives, Design, and Performance. World Bank Technical Paper No. 120. Washington, DC: World Bank. First printing May 1990. ISBN 0-8213-1536-6.",
+      "title_full": "The Gezira Irrigation Scheme in Sudan: Objectives, Design, and Performance",
+      "year": "1990",
+      "identifiers": {
+        "ISBN": "0-8213-1536-6",
+        "ISSN": "0253-7494",
+        "series": "World Bank Technical Papers",
+        "number": "120"
+      },
+      "source_format": "PDF scan with OCR",
+      "rights_note": "External publisher/institutional links only; no rehosting or redistribution authorized.",
+      "publication_date": "1990-05",
+      "download": "https://documents1.worldbank.org/curated/en/377141468778504847/pdf/multi-page.pdf",
+      "source_label_en": "Read complete work (PDF)",
+      "source_label_ar": "قراءة النص الكامل (PDF)"
     },
     {
       "title": "Challenges of Agricultural Technology Transfer and Productivity Increase in Sudan",

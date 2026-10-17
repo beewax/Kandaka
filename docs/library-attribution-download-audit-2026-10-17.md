@@ -160,3 +160,41 @@ All ten originally held records remain unchanged: CBD/NBSAP edition ambiguity; B
 New counts: 392 -> 375 unresolved Nile mappings; all 542 records preserved. Verified direct PDF format mappings 54 -> 65. Known unavailable card labels 395 -> 378 (375 Nile plus three other failures); seven unverified links unchanged. Six new record pages link complete source PDFs and eleven new links are direct verified PDFs. Zero speculative matches, merges, deletions, private-object reads, rehosting or Nile theme changes.
 
 Independent source/byte evidence: phase5-source-checks.json and phase5-content-checks.json. Before/after records: phase5-applied-manifest.json; original mappings preserved in Git and library-repair-phase5-backup. Source review is link-only; public delivery is not treated as general redistribution permission.
+
+## Phase 6 - approved research round 4
+
+13 of 22 proposed repairs passed fresh ordinary public access and full-content checks. The 18 originally held records remain unchanged. Khartoum uses the user-confirmed author-uploaded ResearchGate landing page. Parent independently inspected the complete64-page2009 PDF; independent web landing confirms citation/fulltext. Local urllib403 remains documented as access variability; blocked publisher route not retried. No bypass or rehosting occurred.
+
+Catalog records:542 before and after. Unresolved Nile mappings:375 →362. Known-unavailable card labels:378 →365. Seven unverified cards remain. Only13 selected catalog objects and their inventory entries changed; editorial articles, covers, dates and deployment cadence were preserved.
+
+Every PDF applied matched the reviewed SHA-256 and page count; the two HTML articles/reports passed title/byline and closing-section checks. Fulltext labels distinguish the water-management chapter from the whole book and HTML from PDF. Source rights remain with their holders.
+
+### Applied exact source destinations
+
+- KND-A2FA73154FED40C8 — Remote Sensing to Monitor Impact of Conflict on Agriculture — Mercy Corps (2023). Record/source: https://www.prosperglobal.org/sites/default/files/2023-10/Sudan-remote-sensing-impact-of-conflict-on-agriculture-paper-1-august-2023_0.pdf ; verified full text: https://www.prosperglobal.org/sites/default/files/2023-10/Sudan-remote-sensing-impact-of-conflict-on-agriculture-paper-1-august-2023_0.pdf
+- KND-08BD8385A4575AE2 — On the Road to Recovery: How Sudan Is Saving Its Water Sector — Noosha Tayebi (2021). Record/source: https://blogs.worldbank.org/en/water/road-recovery-how-sudan-saving-its-water-sector ; complete HTML.
+- KND-61D59C8E534EFC11 — Sudan's Challenges and Opportunities: A Renaissance Project for Sudan — Ibrahim Elbadawi; Abdelrazig Elbashir; Abdelrahman Osman; Amir Hamid Elobaid; Elfatih Eltahir; Alzaki Alhelo; Kabbashi M. Suliman (2022). Record/source: https://erf.org.eg/publications/sudans-challenges-and-opportunities-a-renaissance-project-for-sudan/ ; verified full text: https://erf.org.eg/app/uploads/2022/07/1659257696_282_6382995_prr40.pdf
+- KND-01DB44640817B3F0 — Black Gold for Blue Gold: Sudan's Oil, Ethiopia's Water and Regional Integration — Harry Verhoeven (2011). Record/source: https://www.chathamhouse.org/sites/default/files/19482_0611bp_verhoeven.pdf ; verified full text: https://www.chathamhouse.org/sites/default/files/19482_0611bp_verhoeven.pdf
+- KND-07BB90F1E900BCD8 — Country Reports on Human Rights Practices for 2017: Sudan — U.S. Department of State (2018). Record/source: https://www.ecoi.net/en/document/1430180.html ; complete HTML.
+- KND-0936AB37BD11EE07 — From Subsidy to Sustainability: Sudan's Electricity Sector — World Bank (2019). Record/source: https://hdl.handle.net/10986/33702 ; verified full text: https://openknowledge.worldbank.org/bitstreams/142c0f15-20d8-54e6-a92c-bfbdbccbaccb/download
+- KND-780449DDB0EC5B48 — Agricultural Productivity and Poverty in Rural Sudan — Haseeb Ali; Alvin Etang Ndip; Sering Touray; Habtamu Fuje (2020). Record/source: https://openknowledge.worldbank.org/handle/10986/36105 ; verified full text: https://documents1.worldbank.org/curated/en/345181628489090079/pdf/Agricultural-Productivity-and-Poverty-in-Rural-Sudan.pdf
+- KND-2F4DF2A818689EAC — Water Management by Divine Benevolence: Meroitic Pastoral Reservoirs Along the Nile — Petra Weschenfelder (2012). Record/source: https://pueaa.unam.mx/uploads/materials/Water_management.pdf?v=1660144492 ; verified full text: https://pueaa.unam.mx/uploads/materials/Water_management.pdf?v=1660144492
+- KND-1D9C67B77A6E227A — The Arab Region SDG Index and Dashboards Report 2019 — Mari Luomi; Grayson Fuller; Lara Dahan; Karina Lisboa Båsund; Eve de la Mothe Karoubi; Guillaume Lafortune (2019). Record/source: https://www.sustainabledevelopment.report/reports/2019-arab-region-sdg-index-and-dashboards-report/ ; verified full text: https://s3.amazonaws.com/sustainabledevelopment.report/2019/2019_arab_region_index_and_dashboards.pdf
+- KND-94FF3C3654B5633D — Village Environmental Management Plans for Dungonab Bay and Mukkawar Island — Paul Harrison; Melita Samoilys (2007). Record/source: https://www.sudanmarineparks.info/about-us/publications-reports/ ; verified full text: https://sudanmarineparks.info/wp-content/uploads/2026/09/vemps-2007.pdf
+- KND-37EE0F06C09F56CC — Lost Nubia: A Centennial Exhibit of Photographs — John A. Larson (2006). Record/source: https://isac.uchicago.edu/publications/lost-nubia-centennial-exhibit-photographs-1905-1907-egyptian-expedition-university ; verified full text: https://isac-assets.s3.amazonaws.com/isac-publications/oimp24.pdf?VersionId=qfuDLHg1dtTdynplzt7As1MQ6pFO2Ca1
+- KND-AF541F715B9DF7F3 — The Gezira Irrigation Scheme in Sudan: Objectives, Design, and Performance — Hervé Plusquellec (1990). Record/source: https://documents1.worldbank.org/curated/en/377141468778504847/pdf/multi-page.pdf ; verified full text: https://documents1.worldbank.org/curated/en/377141468778504847/pdf/multi-page.pdf
+- KND-C7E148B25A61F1A9 — Urban Sector Studies and Capacity Building — Fernando Murillo; Salah Mohamoud Osman; Hag Adam H. El Tahir; Abdalla Kafeel; Khadeiga M. Osman; Burhan El Ghazali; Abdel Rahman Mustafa (2009). Record/source: https://www.researchgate.net/publication/353620865_Urban_Sector_Studies_and_Capacity_Building_for_Khartoum_State ; complete HTML.
+
+### Proposed candidates held after fresh checks
+
+- KND-B1323B4D504C9D1F — Good Governance and the Policy Challenge: The African Development Bank Perspective: Ordinary public HTTP failure; no bypass (HTTP 403)
+- KND-8D5EB40494210D26 — Trends in the Sudanese Economy Q1 2014: Ordinary public HTTP failure; no bypass (HTTP 403)
+- KND-D2DCD09AFAF55609 — Sudan: A Case for Structural Adjustment Policies: Full content/hash/page/HTML validation did not match reviewed original
+- KND-684CA25641427701 — The Horn of Africa–Persian Gulf Nexus: Inter-Regional Dynamics in Geopolitical Flux: Ordinary public HTTP failure; no bypass (HTTP 500)
+- KND-45255609C5A64049 — Laws of the New Sudan: The Penal Code 2003: Ordinary public HTTP failure; no bypass (HTTP 403)
+- KND-538B2E8C7B2B5221 — Rethinking Sudan After Southern Secession: Ordinary public HTTP failure; no bypass (HTTP 403)
+- KND-4309968997148F7B — Sudan Fools Gold Report: Ordinary public HTTP failure; no bypass (HTTP 403)
+- KND-CB5FDEB48DF0F85D — Spinning in Meroitic Sudan: Textile Implements from Abu Geili: Ordinary public HTTP failure; no bypass (HTTP 403)
+- KND-C6397BD36FD08DFB — Sudan E-Agriculture Strategy and Action Plan 2018-2022: TimeoutError: The read operation timed out
+
+Validation/deployment evidence is recorded in the cumulative handover after production verification. Purchases and Worker payment delivery are outside this library-only batch; no purchase test is claimed.
