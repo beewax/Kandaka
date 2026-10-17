@@ -1459,10 +1459,25 @@
       "tags": [
         "Environment & Climate"
       ],
-      "desc_ar": "دراسة إحصائية ومناخية تُقدّر بؤر ارتفاع درجات حرارة سطح البحر الأحمر بدقة عالية، وتُحلل الأنماط المكانية والزمنية لهذه الظاهرة وتداعياتها على النظم البيئية البحرية.",
-      "download": "https://pub-a5e3b47fe87749f491660d68e2029284.r2.dev/estimating-high-resolution-red-unknown.pdf",
-      "desc": "Climate science study of marine temperatures and ecosystem impacts.",
-      "source": "https://pub-a5e3b47fe87749f491660d68e2029284.r2.dev/estimating-high-resolution-red-sea-surface-temperature-hotsp.epub"
+      "desc_ar": "المسودة العلمية الكاملة لأرناب هازرا ورافاييل هوزر عن بؤر حرارة سطح البحر الأحمر باستخدام نموذج مكاني شبه معلمي منخفض الرتبة، في 42 صفحة، نسخة arXiv الثالثة. رُفعت النسخة في 18 أكتوبر 2020، والوثيقة مؤرخة في 20 أكتوبر 2020. تختلف هذه المسودة عن الإيداع الأول لعام 2019 وعن طبعة المجلة اللاحقة.",
+      "desc": "Arnab Hazra and Raphaël Huser’s complete 42-page arXiv v3 preprint on Red Sea surface-temperature hotspots and a low-rank semiparametric spatial model. Version posted 18 October 2020; document dated 20 October 2020. This is the v3 preprint, distinct from the first 2019 submission and a later journal edition.",
+      "source": "https://arxiv.org/abs/1912.05657",
+      "author_ar": "Arnab Hazra; Raphaël Huser",
+      "citation": "Arnab Hazra; Raphaël Huser. 2020. Estimating high-resolution Red Sea surface temperature hotspots, using a low-rank semiparametric spatial model.",
+      "citation_ar": "Arnab Hazra; Raphaël Huser. 2020. Estimating high-resolution Red Sea surface temperature hotspots, using a low-rank semiparametric spatial model.",
+      "title_full": "Estimating high-resolution Red Sea surface temperature hotspots, using a low-rank semiparametric spatial model",
+      "identifiers": {
+        "arxiv": "1912.05657v3"
+      },
+      "source_format": "PDF research preprint",
+      "rights_note": "External publisher/repository link only; no rehosting or redistribution authorized by this repair.",
+      "source_label_en": "Read preprint PDF",
+      "source_label_ar": "قراءة المسودة العلمية (PDF)",
+      "year": "2020",
+      "publication_date": "2020-10-18",
+      "edition": "arXiv:1912.05657v3 preprint; version posted 18 October 2020, document dated 20 October 2020",
+      "edition_note": null,
+      "download": "https://arxiv.org/pdf/1912.05657v3"
     },
     {
       "title": "Farmers in Sudan Battle Climate Change and Environmental Sustainability",
@@ -1608,14 +1623,27 @@
     {
       "title": "Special Report: Manipulation of Economic Indicators in Africa",
       "title_ar": "تقرير خاص: التلاعب بالمؤشرات الاقتصادية في أفريقيا",
-      "author": "African Development Bank",
+      "author": "EXX Africa",
       "tags": [
         "Economy & Development"
       ],
-      "desc_ar": "تقرير خاص من البنك الأفريقي للتنمية يكشف أساليب التلاعب بالمؤشرات الاقتصادية في عدد من الدول الأفريقية، ويدعو إلى معايير إحصائية أكثر صرامة وشفافية.",
-      "download": "https://pub-a5e3b47fe87749f491660d68e2029284.r2.dev/special-report-manipulation-of-unknown.pdf",
-      "desc": "Investigation of statistical reporting, data quality, and governance issues.",
-      "source": "https://pub-a5e3b47fe87749f491660d68e2029284.r2.dev/special-report-manipulation-of-economic-indicators-in-africa.epub"
+      "desc_ar": "تقرير EXX Africa الخاص الكامل عن التلاعب بالمؤشرات الاقتصادية في أفريقيا، المؤرخ في 21 فبراير 2019، في ثماني صفحات، محفوظ على موقع الناشر Pangea Risk. يتضمن اللوحة الختامية وبيانات النشر.",
+      "desc": "EXX Africa’s complete eight-page Special Report: Manipulation of Economic Indicators in Africa, dated 21 February 2019, preserved on the publisher’s Pangea Risk site. Includes the report’s concluding panel and publication footer.",
+      "source": "https://insight.pangea-risk.com/special-report-manipulation-of-economic-indicators-in-africa",
+      "author_ar": "EXX Africa",
+      "citation": "EXX Africa. 2019. Special Report: Manipulation of Economic Indicators in Africa.",
+      "citation_ar": "EXX Africa. 2019. Special Report: Manipulation of Economic Indicators in Africa.",
+      "title_full": "Special Report: Manipulation of Economic Indicators in Africa",
+      "identifiers": {},
+      "source_format": "PDF",
+      "rights_note": "External publisher/repository link only; no rehosting or redistribution authorized by this repair.",
+      "source_label_en": "View PDF at source",
+      "source_label_ar": "عرض PDF في المصدر",
+      "year": "2019",
+      "publication_date": "2019-02-21",
+      "edition": "Special report dated 21 February 2019",
+      "edition_note": null,
+      "download": "https://insight.pangea-risk.com/static/post-pdfs/201902/201902_SPECIAL-REPORT_-MANIPULATION-OF-ECONOMIC-INDICATORS-IN-AFRICA.pdf"
     },
     {
       "title": "Sudan & Nubia 10",
@@ -1753,10 +1781,23 @@
         "Infrastructure",
         "Water & Nile"
       ],
-      "desc_ar": "وثيقة تقنية من وكالة المياه اليابانية تستعرض التقنيات الحديثة لحفر القنوات وإنشائها، ذات الصلة بمشاريع الري الكبرى ومقترحات تطوير قنوات المياه في أفريقيا.",
-      "download": "https://pub-a5e3b47fe87749f491660d68e2029284.r2.dev/technologies-to-construct-a-can-unknown.pdf",
-      "desc": "Engineering study of canal construction methods with Nile project applications.",
-      "source": "https://pub-a5e3b47fe87749f491660d68e2029284.r2.dev/technologies-to-construct-a-canal.epub"
+      "desc_ar": "الكتيب التقني الإنجليزي الكامل لوكالة المياه اليابانية عن تقنيات إنشاء القنوات، في إحدى عشرة صفحة، أُعلن نشره في 9 ديسمبر 2020. يتناول اختيار المواقع والإنشاء والصيانة والتقنيات الزلزالية والبيئية؛ وهو كتيب تقني موجز وليس كتاباً مطولاً.",
+      "desc": "Japan Water Agency’s complete eleven-page English technical booklet/slides on technologies to construct a canal, announced 9 December 2020. Covers selection, construction, maintenance, seismic and environmental technologies; this is a short technical booklet, not a long-form book.",
+      "source": "https://www.water.go.jp/honsya/honsya/english/topics/2020/201209.html",
+      "author_ar": "Japan Water Agency",
+      "citation": "Japan Water Agency. 2020. Technologies to construct a canal.",
+      "citation_ar": "Japan Water Agency. 2020. Technologies to construct a canal.",
+      "title_full": "Technologies to construct a canal",
+      "identifiers": {},
+      "source_format": "PDF booklet / slides",
+      "rights_note": "External publisher/repository link only; no rehosting or redistribution authorized by this repair.",
+      "source_label_en": "View PDF at source",
+      "source_label_ar": "عرض PDF في المصدر",
+      "year": "2020",
+      "publication_date": "2020-12-09",
+      "edition": "English booklet announced 9 December 2020; no numbered edition stated",
+      "edition_note": null,
+      "download": "https://www.water.go.jp/honsya/honsya/english/topics/2020/pdf/02_JWA%27s%20technologies%20to%20construct%20a%20canal.pdf"
     },
     {
       "title": "Understanding How Flood Control Projects Reduce Flood Risk",
@@ -1974,10 +2015,25 @@
       "tags": [
         "Agriculture"
       ],
-      "desc_ar": "دراسة ميدانية تستعرض الواقع الراهن لإنتاج الحمضيات وتسويقها في السودان، مُشخّصةً التحديات التي يواجهها المزارعون في الوصول إلى الأسواق ورفع القيمة المضافة.",
-      "download": "https://pub-a5e3b47fe87749f491660d68e2029284.r2.dev/the-reality-of-citrus-productio-yasir-ahmed-abdalla-eltoum-ana.pdf",
-      "desc": "Agricultural economics study of orange and lemon farming value chains.",
-      "source": "https://pub-a5e3b47fe87749f491660d68e2029284.r2.dev/the-reality-of-citrus-production-and-marketing-in-sudan.epub"
+      "desc_ar": "المقال الكامل لياسر أحمد عبد الله التوم وأنس عمر عبد الباقي الهادي في مجلة European Academic Research، المجلد الثامن، العدد 11، فبراير 2021، الصفحات المطبوعة 6798–6808. يضم ملف PDF المؤلف من إحدى عشرة صفحة النتائج والتوصيات والمراجع الختامية.",
+      "desc": "The complete article by Yasir Ahmed Abdalla Eltoum and Anas Omer Abdalbgi Alhadi, European Academic Research VIII(11), February 2021, printed pages 6798–6808. All eleven PDF pages include the findings, recommendations and final bibliography.",
+      "source": "https://euacademic.org/UploadArticle/4781.pdf",
+      "author_ar": "Yasir Ahmed Abdalla Eltoum; Anas Omer Abdalbgi Alhadi",
+      "citation": "Yasir Ahmed Abdalla Eltoum; Anas Omer Abdalbgi Alhadi. 2021. The Reality of Citrus Production and Marketing in Sudan.",
+      "citation_ar": "Yasir Ahmed Abdalla Eltoum; Anas Omer Abdalbgi Alhadi. 2021. The Reality of Citrus Production and Marketing in Sudan.",
+      "title_full": "The Reality of Citrus Production and Marketing in Sudan",
+      "identifiers": {
+        "issn": "2286-4822"
+      },
+      "source_format": "PDF journal article",
+      "rights_note": "External publisher/repository link only; no rehosting or redistribution authorized by this repair.",
+      "source_label_en": "View PDF at source",
+      "source_label_ar": "عرض PDF في المصدر",
+      "year": "2021",
+      "publication_date": "2021-02",
+      "edition": "European Academic Research, volume VIII, issue 11, February 2021, pages 6798-6808",
+      "edition_note": null,
+      "download": "https://euacademic.org/UploadArticle/4781.pdf"
     },
     {
       "title": "Minerals Potential and Resources in Sudan",

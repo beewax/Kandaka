@@ -262,3 +262,27 @@ Only10 approved catalog objects, synchronized inventory entries, format/status m
 - KND-B37D7D457EBF4ADA — Strangers Everywhere: Exclusion, Identity and the Future of Nubians in Northern Uganda: Ordinary public HTTP failure; no bypass; HTTP 403
 - KND-D1972D04A4734C6C — Nubia Bibliography Up to 2000: Ordinary public HTTP failure; no bypass; HTTP 403
 - KND-A4DBFC9DC132C0DE — Seventy Years of Pottery Studies in Sudanese Prehistoric Archaeology: Full file bytes/hash/pages/EPUB integrity did not match reviewed original; HTTP 200 ; response was not the reviewed publisher PDF
+
+## Phase 9 - continuing approved research round 7
+
+4 of8 proposed candidates passed final checks;4 failed fresh secure access checks and32 audit-held records remain unchanged. All542 records and both out-of-scope held records preserved. Unresolved Nile mappings338 →334; known-unavailable labels341 →337; seven unverified remain. Format map:95 verified PDF URLs and1 verified EPUB URL.
+
+Manifest SHA-256 independently matched79cf76dec23981847d4102ec26307e104a381148d0414f47d62efd0c953d2787. Four full PDFs independently matched reviewed SHA-256 and page counts. Red Sea is explicitly the complete42-page arXiv v3 preprint,2020, distinct from the initial2019 submission and later journal edition. Canal is explicitly the complete11-page technical booklet/slides. No historical bucket copies restored.
+
+Only4 approved catalog objects,4 exact CSV rows, format/status maps and this audit note changed. No unrelated articles, covers, publication cadence, paid content, Worker, storage settings, rehosting or purchase tests.
+
+### Applied exact source destinations
+
+- KND-B287115376C0B78D — Estimating High-Resolution Red Sea Surface Temperature Hotspots — Arnab Hazra; Raphaël Huser. 2020. Estimating high-resolution Red Sea surface temperature hotspots, using a low-rank semiparametric spatial model. Source: https://arxiv.org/abs/1912.05657 ; verified full PDF: https://arxiv.org/pdf/1912.05657v3
+- KND-312070DC843667E9 — Special Report: Manipulation of Economic Indicators in Africa — EXX Africa. 2019. Special Report: Manipulation of Economic Indicators in Africa. Source: https://insight.pangea-risk.com/special-report-manipulation-of-economic-indicators-in-africa ; verified full PDF: https://insight.pangea-risk.com/static/post-pdfs/201902/201902_SPECIAL-REPORT_-MANIPULATION-OF-ECONOMIC-INDICATORS-IN-AFRICA.pdf
+- KND-0CADFDD3C78893F6 — Technologies to Construct a Canal — Japan Water Agency. 2020. Technologies to construct a canal. Source: https://www.water.go.jp/honsya/honsya/english/topics/2020/201209.html ; verified full PDF: https://www.water.go.jp/honsya/honsya/english/topics/2020/pdf/02_JWA%27s%20technologies%20to%20construct%20a%20canal.pdf
+- KND-0BE96C377E172568 — The Reality of Citrus Production and Marketing in Sudan — Yasir Ahmed Abdalla Eltoum; Anas Omer Abdalbgi Alhadi. 2021. The Reality of Citrus Production and Marketing in Sudan. Source: https://euacademic.org/UploadArticle/4781.pdf ; verified full PDF: https://euacademic.org/UploadArticle/4781.pdf
+
+### Fresh failures held unchanged
+
+- KND-D4F6F490D32A9D23 — Land Use Patterns along the Nile: Traveling Farmer: Ordinary secure public HTTP failure; no fallback to HTTP or bypass; HTTP 403
+- KND-B9D530F16FE647EE — Aksum and Nubia: Warfare, Commerce, and Political Fictions: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issue; HTTP None
+- KND-C92F7FBC0DF7FB84 — Art and Industry: The Achievements of Meroe: Ordinary secure public HTTP failure; no fallback to HTTP or bypass; HTTP 404
+- KND-603C2A8070F4BE45 — Evidence for an Early Nubian Dialect in Meroitic Inscriptions: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (; HTTP None
+
+Hatke/NYU and Aubin proposed HTTP sources were not requested. Ordinary HTTPS probes failed certificate verification; no disabled TLS checks, HTTP fallback, browser-warning bypass or insecure restoration. Land-use HTML chapter returned403, so no metadata/year changes applied. Art and Industry landing and separately proposed exact publisher PDF both returned404 and remain held. The two out-of-scope audit records remain in the catalog and inventory; no deletion.
