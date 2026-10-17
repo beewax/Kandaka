@@ -198,3 +198,38 @@ Every PDF applied matched the reviewed SHA-256 and page count; the two HTML arti
 - KND-C6397BD36FD08DFB — Sudan E-Agriculture Strategy and Action Plan 2018-2022: TimeoutError: The read operation timed out
 
 Validation/deployment evidence is recorded in the cumulative handover after production verification. Purchases and Worker payment delivery are outside this library-only batch; no purchase test is claimed.
+
+## Phase 7 - approved research round 5
+
+14 of19 approved candidates passed fresh ordinary public access and content checks. Five failed and21 originally held records remain unchanged. All542 catalog records preserved. Unresolved Nile mappings362 →348; known-unavailable labels365 →351; seven unverified remain.82 direct PDF URLs are byte-verified.
+
+Seven PDFs independently matched reviewed SHA-256 and page count; seven full HTML articles passed author/date/closing-section checks. Taha is the undated Al-Fikra English Fifth Edition: year unset,211-page complete PDF, no Syracuse1987 metadata imported. Manzo is explicitly an article within a complete issue.
+
+Concurrent automatic news commit1bec9b2 was fast-forwarded before edits; its articles and feed data were preserved. Only14 approved catalog objects, synchronized inventory entries, format/status maps and this audit note changed. No rehosting, storage controls, paid content, Worker, covers, schedules or purchases changed/tested.
+
+### Applied exact sources and citations
+
+- KND-016ADA1A14B03C48 — West and East Africa Linked by OIC Rail Project — Arab News. 2017. “West and East Africa linked by OIC rail project.” 24 November; updated 25 November. Source: https://www.arabnews.com/world/west-and-east-africa-linked-by-oic-rail-project-1198586 ; full HTML.
+- KND-A4F72DAF27CB2F97 — It is Possible to Increase by Over Thirty Per Cent the Nile Water Availability — F. Lemperière. January 2011. It is possible to increase by over thirty per cent the Nile water availability. HydroCoop; posted 16 August 2013. Source: https://www.hydrocoop.org/nile-water-availability-increase/ ; full HTML.
+- KND-08391193B1C2AFE4 — Solar Energy Potential in the Sudan — El Zein, Musadag. 2017. Solar Energy potential in The Sudan. Master thesis in Sustainable Development 2017/16. Uppsala University, Department of Earth Sciences. 50 printed pages plus front matter. Source: https://www.diva-portal.org/smash/get/diva2%3A1110877/ATTACHMENT01.pdf ; fulltext: https://www.diva-portal.org/smash/get/diva2%3A1110877/ATTACHMENT01.pdf
+- KND-678B5E77208E3016 — The Long-run Development Impacts of Agricultural Productivity Gains: Evidence from Irrigation Canals in India — Sam Asher; Alison Campion; Douglas Gollin; Paul Novosad. 2023. The Long-Run Development Impacts of Agricultural Productivity Gains: Evidence from Irrigation Canals in India. Source: https://thedocs.worldbank.org/en/doc/f8ad0f48d265c066d19f7a5c0f62f854-0050022023/the-long-run-development-impacts-of-agricultural-productivity-gains-evidence-from-irrigation-canals-in-india ; fulltext: https://thedocs.worldbank.org/en/doc/f8ad0f48d265c066d19f7a5c0f62f854-0050022023/original/acgncanals202301.pdf
+- KND-C1422C7CD2015F41 — Partnerships, Special Economic Zones, New CSR Essential for Africa's Economic Diversification — United Nations Economic Commission for Africa. 2021. Partnerships, special economic zones, new CSR essential for Africa’s economic diversification. Source: https://www.uneca.org/stories/partnerships%2C-special-economic-zones%2C-new-csr-essential-for-africa%E2%80%99s-economic ; full HTML.
+- KND-08DFD86AB93A71E6 — Can Sudan's New Government Solve the Annual Mass Flooding Crisis? — Hamad, Khattab. 2020. “Can Sudan’s new government solve the annual mass flooding crisis?” Global Voices, 6 August. Source: https://globalvoices.org/2020/08/06/can-sudans-new-government-solve-the-annual-mass-flooding-crisis/ ; full HTML.
+- KND-25E6020691876A03 — Archaeological and Architectural Evidence of Social Change in 13th–17th Century Dongola — Włodzimierz Godlewski. 2018. Archaeological and architectural evidence of social change in 13th–17th century Dongola. Source: https://pam-journal.pl/issues/27-vol-27-issue-1-regular-issue/archaeological-and-architectural-evidence-of-social-change-in-13th-17th-century-dongola ; fulltext: https://api.publisphere.edu.pl/open/journal_article_files/019cd9b2-34b4-732e-badd-6b68522e5ffc/download?v=1
+- KND-9091CA1748980091 — From the Sea to the Deserts and Back: New Research in Eastern Sudan — Andrea Manzo. 2012. From the sea to the deserts and back: New research in Eastern Sudan. Source: https://britishmuseum.iro.bl.uk/entities/publication/5dfe948f-dd37-4ce8-bdc4-e037f8f438fc ; fulltext: https://britishmuseum.iro.bl.uk/bitstreams/f71afbc5-7b28-4c62-98b6-8a30883a11fa/download#page=15
+- KND-7EA9E9601FFE0405 — Sudan's Economic Nightmare — MERIP — Tim Niblock. 1985. Sudan’s Economic Nightmare. Source: https://www.merip.org/1985/09/sudans-economic-nightmare/ ; full HTML.
+- KND-5C272B721BA702A2 — Sudan's Normalization with Israel: In Whose Interests? — El-Gizouli, Magdi. 2021. Sudan’s Normalization with Israel: In Whose Interests? Bawader / Commentary. Arab Reform Initiative, 17 August. Source: https://www.arab-reform.net/publication/sudans-normalization-with-israel-in-whose-interests/ ; fulltext: https://www.arab-reform.net/wp-content/uploads/pdf/Arab_Reform_Initiative_en_sudans-normalization-with-israel-in-whose-interests_19528.pdf?ver=0792252d8ec21c34c0b059ccadc7df6d
+- KND-F3F4056FAC44D4DC — How Sudan is Saving its Water Sector — Tayebi, Noosha. 2021. “On the road to recovery: How Sudan is saving its water sector.” World Bank, The Water Blog, 29 September. Source: https://blogs.worldbank.org/en/water/road-recovery-how-sudan-saving-its-water-sector ; full HTML.
+- KND-FBF1FFF7D6E4566B — The Second Message of Islam — Taha, Mahmoud Muhammad. n.d. The Second Message of Islam. Fifth Edition, English translation published online by Al-Fikra. Source: https://www.alfikra.org/book_view_e.php?book_id=310 ; fulltext: https://www.alfikra.org/books/bk310.pdf
+- KND-2397B450C8655EB5 — The Candaces of Meroe — Joshua J. Mark. 2018. The Candaces of Meroe. Source: https://www.worldhistory.org/The_Candaces_of_Meroe/ ; full HTML.
+- KND-FC4780F3CD9B0FDB — The Gold Boom in Sudan: Challenges and Opportunities for National Economic Players — Raphaëlle Chevrillon-Guibert. 2016. The Gold Boom in Sudan: Challenges and Opportunities for National Players. Source: https://horizon.documentation.ird.fr/exl-doc/pleins_textes/divers20-06/010079190.pdf ; fulltext: https://horizon.documentation.ird.fr/exl-doc/pleins_textes/divers20-06/010079190.pdf
+
+### Fresh failures held unchanged
+
+- KND-45C9849EE96E6F95 — Nile Basin Farming Systems and Productivity: Stable source did not return200; HTTP 202
+- KND-D207E49C7C33C8AE — Nile Water and Agriculture: Past, Present and Future: Stable source did not return200; HTTP 202
+- KND-D9EC311BAA51A9FD — Cotton in Ancient Sudan and Nubia: Archaeological Sources: Ordinary public HTTP failure; no bypass; HTTP 403
+- KND-AB37E01F7467A8CF — A New Protective Shelter for the Royal Baths at Meroe: Full content/hash/page/HTML validation did not match reviewed original; HTTP 200 (archive returned9642-byte HTML, not the reviewed15-page PDF)
+- KND-78EF13B8A0845C7D — Sudan's Removal from the State Sponsors of Terrorism List: Ordinary public HTTP failure; no bypass; HTTP 403
+
+No blocked-route retries, challenge solving or bypass used. Cotton was not applied because fresh public access returned403 despite earlier research success. Both Nile chapter landing pages returned202; CRS403; Royal Baths archive returnedHTML. Deployment/live evidence follows in the cumulative handover.
