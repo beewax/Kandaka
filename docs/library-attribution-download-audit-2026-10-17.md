@@ -129,3 +129,34 @@ Counts after this partial batch: 403 -> 392 unresolved Nile mappings; all 542 re
 The four newly skipped sources require a permitted successful ordinary public response for the exact reviewed destination before a future restoration. The five originally held cases require their manifest-specific completeness/edition/source evidence. Full before/after and HTTP evidence are preserved in phase4-applied-manifest.json, phase4-source-link-checks.json, phase4-skipped-checks.json and phase-4 backups in the task workspace; these contain no secrets.
 
 Validation scope note: an unreviewed ASCII-hyphen alias, Sudan E-Agriculture Strategy and Action Plan 2018-2022, still references the same obsolete EPUB that had been an inactive fallback on the reviewed en-dash-title record. It remains unchanged under its separate frozen ID. Old-URL removal is asserted on each repaired card, not globally across unrelated records. This is a follow-up reconstruction lead, not permission to merge or edit the alias.
+
+## Phase 5 — reviewed next 30, 17 October 2026
+
+Input: Library libfile_7fff88e4d0d4819187a9532fd2c4e91c version 1, read in full. Reviewed 30 records (20 ready, 10 held) against current source commit 5dbfbc3f822c7160ab990a7f1dd19467832b4077. All 20 ready frozen IDs, positions, exact current titles, effective old URLs and source/download fields matched. No concurrent edits or catalog conflicts were found.
+
+Fresh ordinary access passed for 17 of 20 ready destinations. Each of those 17 full source files was independently fetched in memory, parsed as PDF, checked for exact page count and compared by SHA-256 with the visually/page-by-page reviewed original; all 17 hashes and counts matched. No source-file bytes were rehosted or uploaded to Library. The three newly skipped cases are Governance in Africa (AfDB PDF, 403), Sudan-Darfur Infrastructure Development Report (AfDB record, 403), and Controversy of Exchange Rate Devaluation (AgEcon record, 202). They remain unchanged pending successful permitted public access. No retries on restricted routes or access bypasses were attempted.
+
+Applied 17 exact external source replacements only, with synchronized inventory, removal of old active and inactive copied-file mappings from each repaired record, verified bibliographic citations/identifiers and bilingual labels:
+- Sudan Country Economic Memorandum: 2015 main report, 226 pages; September 2016 public disclosure is separate from report date.
+- Sudan Diagnostic Trade Integration Study: the complete December 2008 non-oil exports study, 156 pages; no identifiers from the different 2014 update.
+- Doing Business 2017 Sudan profile: 98 pages; citation/edition year 2017, publisher document year 2016 separately retained.
+- Doing Business 2020 Sudan profile: 65 pages; publication/citation year 2019, edition year 2020; not the global report or South Sudan.
+- World Bank and Gezira Scheme: Salman M. A. Salman, 2010, 55 pages; full report including Gezira Act annex.
+- Sudan Railways appraisal: IBRD, 1958, TO-180a, 50 pages including map; old cover RESTRICTED marking does not override later official Public/Disclosed metadata.
+- Arab Region SDG Index 2019: six verified personal authors; publisher record with complete 159-page file.
+- African Integrated High Speed Railway Network note: corporate author African Union; leave publication year unset and cite n.d.; PDF creation date is not publication evidence.
+- Innovative Financing for Africa: ECA, 2015, edited by Abdalla Hamdok; complete 206-page publisher book, editor credited visibly and in metadata.
+- Skills Development in Sudan: four verified authors, first published 2014; outer-cover 2013 preserved as a distinct source-date caveat; complete 67-page file.
+- Lost Nubia: John A. Larson, 2006, complete 128-page publisher scan; corrected unrelated former author credit.
+- Karanog: The Town: C. Leonard Woolley, 1911, complete 147-page NYU scan with all 30 plates; corrected unrelated former author credit.
+- Meroitic Inscriptions of Shablul and Karanog: F. Ll. Griffith, 1911, complete 297-page Harvard/Google historical scan. All printed text 1–181 and plates I–XXX present; twelve repeated text pages and ten extra plate images retained. Both bilingual descriptions explicitly disclose duplicated leaves/images. No cleaned/new edition is claimed.
+- Determinants of Inflation: Kabbashi M. Suliman, 2012, AERC Paper 243, 54 pages. Publisher PDF retains preliminary matter after the main text; this ordering is disclosed in both languages, not silently reformatted.
+- Does Foreign Aid Promote Growth: three title-page authors, ERF Working Paper 1251, November 2018, 28 pages; no unprinted Ali suffix added to first author.
+- Sudan's Challenges and Opportunities: four-author Policy Brief 99, November 2022, 28 pages, explicitly distinct from the longer seven-author report.
+- Gezira Scheme Perspectives: Ahmed Mohamed Eldaw, 2004, German Development Institute report 2/2004, 82 pages; removed unsupported FAO authorship/publisher implication.
+
+All ten originally held records remain unchanged: CBD/NBSAP edition ambiguity; Bad Company (403); Consolidating Transition (403); Infrastructure Sector Overview (403); Wasta (403); Trade Integrity (403/incomplete evidence); Nubia Ancient Kingdoms catalogue (no verified public full edition); Africa in Antiquity (both volumes/access/completeness unresolved); Karanog Cemetery (both complete volumes must be clearly represented by two verified labeled links); Food-Poverty-Vulnerability Sudan report (no verified complete source). No partial Cemetery volume, exhibition substitute or summary was restored.
+
+New counts: 392 -> 375 unresolved Nile mappings; all 542 records preserved. Verified direct PDF format mappings 54 -> 65. Known unavailable card labels 395 -> 378 (375 Nile plus three other failures); seven unverified links unchanged. Six new record pages link complete source PDFs and eleven new links are direct verified PDFs. Zero speculative matches, merges, deletions, private-object reads, rehosting or Nile theme changes.
+
+Independent source/byte evidence: phase5-source-checks.json and phase5-content-checks.json. Before/after records: phase5-applied-manifest.json; original mappings preserved in Git and library-repair-phase5-backup. Source review is link-only; public delivery is not treated as general redistribution permission.

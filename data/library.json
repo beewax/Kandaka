@@ -105,10 +105,24 @@
       "tags": [
         "Infrastructure"
       ],
-      "desc_ar": "مذكرة صادرة عن الاتحاد الأفريقي تشرح مفهوم شبكة السكك الحديدية الأفريقية المتكاملة فائقة السرعة وأبعادها الاستراتيجية في تعزيز الاتصال والتنمية القارية.",
-      "download": "https://pub-a5e3b47fe87749f491660d68e2029284.r2.dev/information-note-on-the-african-african-union.pdf",
-      "desc": "African Union technical document outlining proposed high-speed rail corridors connecting major economic hubs across the continent.",
-      "source": "https://pub-a5e3b47fe87749f491660d68e2029284.r2.dev/information-note-on-the-african-integrated-high-speed-railwa.epub"
+      "desc_ar": "مذكرة غير مؤرخة صادرة عن الاتحاد الأفريقي بعنوان نحو تطوير شبكة السكك الحديدية الأفريقية المتكاملة فائقة السرعة. لا يثبت تاريخ إنشاء الملف سنة النشر.",
+      "desc": "An undated African Union note, Towards the African Integrated High Speed Railway Network Development. The publication year is not established by the file’s creation date.",
+      "source": "https://au.int/sites/default/files/documents/32186-doc-towards_the_african_integrated_high_speed_railway_network_aihsrn_development-e.pdf",
+      "author_ar": "الاتحاد الأفريقي",
+      "citation": "African Union. n.d. Towards the African Integrated High Speed Railway Network (AIHSRN) Development. Addis Ababa: African Union.",
+      "title_full": "Towards the African Integrated High Speed Railway Network (AIHSRN) Development",
+      "identifiers": {
+        "publisher_file": "32186-doc-towards_the_african_integrated_high_speed_railway_network_aihsrn_development-e.pdf",
+        "ISBN": null,
+        "DOI": null,
+        "note": "No work-level ISBN, DOI or report number printed in this English document."
+      },
+      "source_format": "directPDF",
+      "source_label_en": "Read full report (PDF)",
+      "source_label_ar": "قراءة التقرير الكامل (PDF)",
+      "rights_note": "External institutional/publisher link only. No rehosting or redistribution authorized by this repair.",
+      "year_status": "Undated in inspected source; citation uses n.d.",
+      "citation_ar": "الاتحاد الأفريقي. دون تاريخ. مذكرة تعريفية حول شبكة السكك الحديدية الأفريقية المتكاملة فائقة السرعة. المرجع الكامل باللغة الأصلية: African Union. n.d. Towards the African Integrated High Speed Railway Network (AIHSRN) Development. Addis Ababa: African Union."
     },
     {
       "title": "West and East Africa Linked by OIC Rail Project",
@@ -275,15 +289,27 @@
     {
       "title": "The Gezira Scheme: Perspectives for Sustainable Development",
       "title_ar": "مشروع الجزيرة: آفاق التنمية المستدامة",
-      "author": "A. M. Eldaw / FAO",
+      "author": "Ahmed Mohamed Eldaw",
       "year": "2004",
       "tags": [
         "Agriculture"
       ],
-      "desc_ar": "تقييم شامل صادر عن منظمة الفاو لمشروع الجزيرة الزراعي في السودان، يستعرض تاريخه وتحدياته الراهنة ويطرح رؤى للإصلاح وتحقيق التنمية الزراعية المستدامة.",
-      "download": "https://pub-a5e3b47fe87749f491660d68e2029284.r2.dev/the-gezira-scheme-perspectives-fao.pdf",
-      "desc": "Historical and economic assessment of Sudan's iconic irrigation project with reform recommendations.",
-      "source": "https://pub-a5e3b47fe87749f491660d68e2029284.r2.dev/the-gezira-scheme-perspectives-for-sustainable-development.epub"
+      "desc_ar": "تقرير أحمد محمد الضو الصادر عن المعهد الألماني للتنمية عام 2004، مشروع الجزيرة: آفاق التنمية المستدامة، ضمن سلسلة التقارير وأوراق العمل 2/2004. تتيح المؤسسة الخلف IDOS ملف التقرير الكامل.",
+      "desc": "Ahmed Mohamed Eldaw’s 2004 German Development Institute report, The Gezira Scheme: Perspectives for Sustainable Development, Reports and Working Papers 2/2004. The successor institution IDOS hosts the complete PDF.",
+      "source": "https://www.idos-research.de/uploads/media/BuG_2_2004_EN.pdf",
+      "author_ar": "Ahmed Mohamed Eldaw",
+      "citation": "Eldaw, Ahmed Mohamed. 2004. The Gezira Scheme: Perspectives for Sustainable Development. Reports and Working Papers 2/2004. Bonn: German Development Institute. ISBN 3-88985-262-9.",
+      "title_full": "The Gezira Scheme: Perspectives for Sustainable Development",
+      "identifiers": {
+        "series": "Reports and Working Papers",
+        "number": "2/2004",
+        "ISBN": "3-88985-262-9"
+      },
+      "source_format": "directPDF",
+      "source_label_en": "Read full report (PDF)",
+      "source_label_ar": "قراءة التقرير الكامل (PDF)",
+      "rights_note": "External institutional/publisher link only. No rehosting or redistribution authorized by this repair.",
+      "citation_ar": "Ahmed Mohamed Eldaw. 2004. مشروع الجزيرة: آفاق التنمية المستدامة. المرجع الكامل باللغة الأصلية: Eldaw, Ahmed Mohamed. 2004. The Gezira Scheme: Perspectives for Sustainable Development. Reports and Working Papers 2/2004. Bonn: German Development Institute. ISBN 3-88985-262-9."
     },
     {
       "title": "Sudan: A Country Study",
@@ -524,15 +550,27 @@
     {
       "title": "Skills Development in Sudan",
       "title_ar": "تنمية المهارات في السودان",
-      "author": "Ibrahim Khalid Ibrahim",
-      "year": "2013",
+      "author": "Ibrahim Khalid Ibrahim; Abdel Moneim Hussein Mahmoud; Marcus Powell; Huyam Abdelrahim",
+      "year": "2014",
       "tags": [
         "Education"
       ],
-      "desc_ar": "بحث أكاديمي يُشخّص واقع التدريب المهني وتنمية المهارات في السودان، ويُحدد الفجوات بين مخرجات التعليم ومتطلبات سوق العمل مع توصيات للإصلاح.",
-      "download": "https://pub-a5e3b47fe87749f491660d68e2029284.r2.dev/skills-development-in-sudan-se-ibrahim-khalid-ibrahim.pdf",
-      "desc": "Labor market study examining vocational training, education gaps, and employment readiness across economic sectors.",
-      "source": "https://pub-a5e3b47fe87749f491660d68e2029284.r2.dev/skills-development-in-sudan.epub"
+      "desc_ar": "تنمية المهارات في السودان: الواقع الرسمي وغير الرسمي، من إعداد أربعة مؤلفين ونشر منظمة العمل الدولية عام 2014. يختلف تاريخ 2013 على الغلاف الخارجي عن سنة النشر المثبتة.",
+      "desc": "Skills Development in Sudan: The Formal and the Informal Reality, by four named authors, published by the ILO in 2014. The outer cover’s 2013 date is distinct from the verified publication year.",
+      "source": "https://www.ilo.org/sites/default/files/wcmsp5/groups/public/%40africa/%40ro-abidjan/%40sro-cairo/documents/publication/wcms_243636.pdf",
+      "author_ar": "Ibrahim Khalid Ibrahim؛ Abdel Moneim Hussein Mahmoud؛ Marcus Powell؛ Huyam Abdelrahim",
+      "citation": "Ibrahim, Ibrahim Khalid; Mahmoud, Abdel Moneim Hussein; Powell, Marcus; and Abdelrahim, Huyam. 2014. Skills Development in Sudan: The Formal and the Informal Reality. Thematic/Policy Paper. International Labour Organization. ISBN 978-92-2-128627-1 (web PDF).",
+      "title_full": "Skills Development in Sudan: The Formal and the Informal Reality",
+      "identifiers": {
+        "isbn_web_pdf": "978-92-2-128627-1",
+        "isbn_print": "978-92-2-128626-4",
+        "ilo_document_id": "wcms_243636"
+      },
+      "source_format": "PDF",
+      "source_label_en": "Read full report (PDF)",
+      "source_label_ar": "قراءة التقرير الكامل (PDF)",
+      "rights_note": "External institutional/publisher link only. No rehosting or redistribution authorized by this repair.",
+      "citation_ar": "Ibrahim Khalid Ibrahim؛ Abdel Moneim Hussein Mahmoud؛ Marcus Powell؛ Huyam Abdelrahim. 2014. تنمية المهارات في السودان. المرجع الكامل باللغة الأصلية: Ibrahim, Ibrahim Khalid; Mahmoud, Abdel Moneim Hussein; Powell, Marcus; and Abdelrahim, Huyam. 2014. Skills Development in Sudan: The Formal and the Informal Reality. Thematic/Policy Paper. International Labour Organization. ISBN 978-92-2-128627-1 (web PDF)."
     },
     {
       "title": "Beyond the Riverside: An Alternative Sustainable Vision for Khartoum Riverfront Development",
@@ -1165,15 +1203,27 @@
     {
       "title": "2019 Arab Region SDG Index and Dashboards Report",
       "title_ar": "تقرير مؤشر أهداف التنمية المستدامة للمنطقة العربية 2019",
-      "author": "United Nations",
+      "author": "Mari Luomi; Grayson Fuller; Lara Dahan; Karina Lisboa Båsund; Eve de la Mothe Karoubi; Guillaume Lafortune",
       "year": "2019",
       "tags": [
         "Economy & Development"
       ],
-      "desc_ar": "تقرير أممي يقيس مدى تقدم دول المنطقة العربية نحو تحقيق أهداف التنمية المستدامة باستخدام مؤشرات كمية دقيقة، ويحدد الفجوات التي تحتاج إلى تسريع في العمل.",
-      "download": "https://pub-a5e3b47fe87749f491660d68e2029284.r2.dev/2019-the-arab-region-sdg-index-united-nations.pdf",
-      "desc": "Sustainable Development Goal progress tracking across Arab League member states.",
-      "source": "https://pub-a5e3b47fe87749f491660d68e2029284.r2.dev/2019-arab-region-sdg-index-and-dashboards-report.epub"
+      "desc_ar": "تقرير مؤشر ولوحات متابعة أهداف التنمية المستدامة للمنطقة العربية لعام 2019، من إعداد ستة مؤلفين، ونشره مركز التميز الإقليمي وأكاديمية الإمارات الدبلوماسية وشبكة حلول التنمية المستدامة. يوفر سجل الناشر رابط التقرير الكامل.",
+      "desc": "The six-author Arab Region SDG Index and Dashboards Report 2019, published by the Arab Region SDG Centre of Excellence/Emirates Diplomatic Academy and SDSN. The publisher record links the complete report.",
+      "source": "https://www.sustainabledevelopment.report/reports/2019-arab-region-sdg-index-and-dashboards-report/",
+      "author_ar": "Mari Luomi؛ Grayson Fuller؛ Lara Dahan؛ Karina Lisboa Båsund؛ Eve de la Mothe Karoubi؛ Guillaume Lafortune",
+      "citation": "Luomi, M., Fuller, G., Dahan, L., Lisboa Båsund, K., de la Mothe Karoubi, E. and Lafortune, G. 2019. Arab Region SDG Index and Dashboards Report 2019. Abu Dhabi and New York: SDG Centre of Excellence for the Arab Region/Emirates Diplomatic Academy and Sustainable Development Solutions Network.",
+      "title_full": "Arab Region SDG Index and Dashboards Report 2019",
+      "identifiers": {
+        "ISBN": null,
+        "DOI": null,
+        "note": "No ISBN or DOI found in the inspected report."
+      },
+      "source_format": "record+PDF",
+      "source_label_en": "View publication and full text",
+      "source_label_ar": "عرض المنشور والنص الكامل",
+      "rights_note": "External institutional/publisher link only. No rehosting or redistribution authorized by this repair.",
+      "citation_ar": "Mari Luomi؛ Grayson Fuller؛ Lara Dahan؛ Karina Lisboa Båsund؛ Eve de la Mothe Karoubi؛ Guillaume Lafortune. 2019. تقرير مؤشر أهداف التنمية المستدامة للمنطقة العربية 2019. المرجع الكامل باللغة الأصلية: Luomi, M., Fuller, G., Dahan, L., Lisboa Båsund, K., de la Mothe Karoubi, E. and Lafortune, G. 2019. Arab Region SDG Index and Dashboards Report 2019. Abu Dhabi and New York: SDG Centre of Excellence for the Arab Region/Emirates Diplomatic Academy and Sustainable Development Solutions Network."
     },
     {
       "title": "World Economic Situation and Prospects 2020",
@@ -1362,15 +1412,29 @@
     {
       "title": "Innovative Financing for the Economic Transformation of Africa",
       "title_ar": "التمويل المبتكر للتحول الاقتصادي في أفريقيا",
-      "author": "African Development Bank",
+      "author": "United Nations Economic Commission for Africa (edited by Abdalla Hamdok)",
       "year": "2015",
       "tags": [
         "Economy & Development"
       ],
-      "desc_ar": "تقرير البنك الأفريقي للتنمية يستكشف أدوات التمويل الابتكاري من سندات إنمائية وشراكات مع القطاع الخاص وصناديق مناخية، بوصفها محرّكات للتحول الاقتصادي الأفريقي.",
-      "download": "https://pub-a5e3b47fe87749f491660d68e2029284.r2.dev/innovative-financing-for-the-ec-unknown.pdf",
-      "desc": "Development finance report on new funding mechanisms for infrastructure and growth.",
-      "source": "https://pub-a5e3b47fe87749f491660d68e2029284.r2.dev/innovative-financing-for-the-economic-transformation-of-afri.epub"
+      "desc_ar": "إصدار اللجنة الاقتصادية لأفريقيا لعام 2015 عن التمويل المبتكر للتحول الاقتصادي في أفريقيا، بتحرير عبد الله حمدوك. يربط الأرشيف الرسمي بالكتاب الكامل.",
+      "desc": "The 2015 ECA publication on innovative financing for Africa’s economic transformation, edited by Abdalla Hamdok. The official archive links the complete book.",
+      "source": "https://archive.uneca.org/publications/innovative-financing-economic-transformation-africa",
+      "author_ar": "لجنة الأمم المتحدة الاقتصادية لأفريقيا (تحرير عبد الله حمدوك)",
+      "citation": "Hamdok, Abdalla, ed. 2015. Innovative Financing for the Economic Transformation of Africa. Addis Ababa: United Nations Economic Commission for Africa. ISBN 978-99944-61-52-3; eISBN 978-99944-62-52-0.",
+      "title_full": "Innovative Financing for the Economic Transformation of Africa",
+      "identifiers": {
+        "ISBN": "978-99944-61-52-3",
+        "eISBN": "978-99944-62-52-0"
+      },
+      "source_format": "record+PDF",
+      "source_label_en": "View publication and full text",
+      "source_label_ar": "عرض المنشور والنص الكامل",
+      "rights_note": "External institutional/publisher link only. No rehosting or redistribution authorized by this repair.",
+      "editors": [
+        "Abdalla Hamdok"
+      ],
+      "citation_ar": "لجنة الأمم المتحدة الاقتصادية لأفريقيا (تحرير عبد الله حمدوك). 2015. التمويل المبتكر للتحول الاقتصادي في أفريقيا. المرجع الكامل باللغة الأصلية: Hamdok, Abdalla, ed. 2015. Innovative Financing for the Economic Transformation of Africa. Addis Ababa: United Nations Economic Commission for Africa. ISBN 978-99944-61-52-3; eISBN 978-99944-62-52-0."
     },
     {
       "title": "Khartoum Urban Area: A Study on Urban Planning",
@@ -1707,14 +1771,29 @@
     {
       "title": "Appraisal of the Development Program of the Sudan Railway",
       "title_ar": "تقييم برنامج تطوير السكك الحديدية السودانية",
-      "author": "World Bank",
+      "author": "International Bank for Reconstruction and Development",
       "tags": [
         "Infrastructure"
       ],
-      "desc_ar": "تقرير تقييمي من البنك الدولي لبرنامج تطوير شبكة السكك الحديدية السودانية، يُحلل الجدوى الاقتصادية والتقنية للاستثمار في النقل الحديدي لربط أقاليم البلاد.",
-      "download": "https://pub-a5e3b47fe87749f491660d68e2029284.r2.dev/appraisal-of-the-development-pr-world-bank.pdf",
-      "desc": "Evaluation of rail network investments and operational efficiency.",
-      "source": "https://pub-a5e3b47fe87749f491660d68e2029284.r2.dev/appraisal-of-the-development-program-of-the-sudan-railway.epub"
+      "desc_ar": "التقييم الكامل للبنك الدولي للإنشاء والتعمير لبرنامج تطوير السكك الحديدية السودانية، يوليو 1958، التقرير TO-180a، بما يشمل الجداول والملاحق وخريطة السكك الحديدية.",
+      "desc": "IBRD’s complete July 1958 appraisal of the Sudan Railways development program, Report TO-180a, including tables, appendices and the railway map.",
+      "source": "https://documents1.worldbank.org/curated/en/621721468117551734/pdf/multi-page.pdf",
+      "author_ar": "البنك الدولي للإنشاء والتعمير",
+      "citation": "International Bank for Reconstruction and Development, Department of Technical Operations. 1958. Appraisal of the Development Program of the Sudan Railways. Report TO-180a. July 7, 1958. Washington, DC: IBRD.",
+      "title_full": "Appraisal of the Development Program of the Sudan Railways",
+      "identifiers": {
+        "world_bank_document_guid": "621721468117551734",
+        "world_bank_document_id": "887882",
+        "world_bank_report_number": "TO180",
+        "title_page_report_number": "TO-180a"
+      },
+      "source_format": "PDF",
+      "source_label_en": "Read full report (PDF)",
+      "source_label_ar": "قراءة التقرير الكامل (PDF)",
+      "rights_note": "External institutional/publisher link only. No rehosting or redistribution authorized by this repair.",
+      "year": "1958",
+      "edition_year": 1958,
+      "citation_ar": "البنك الدولي للإنشاء والتعمير. 1958. تقييم برنامج تطوير السكك الحديدية السودانية. المرجع الكامل باللغة الأصلية: International Bank for Reconstruction and Development, Department of Technical Operations. 1958. Appraisal of the Development Program of the Sudan Railways. Report TO-180a. July 7, 1958. Washington, DC: IBRD."
     },
     {
       "title": "Nile Water and Agriculture: Past, Present and Future",
@@ -1733,14 +1812,28 @@
     {
       "title": "The World Bank and the Gezira Scheme in the Sudan",
       "title_ar": "البنك الدولي ومشروع الجزيرة في السودان",
-      "author": "World Bank",
+      "author": "Salman M. A. Salman",
       "tags": [
         "Agriculture"
       ],
-      "desc_ar": "تقييم تاريخي لتدخل البنك الدولي في مشروع الجزيرة الزراعي بالسودان، يرصد الدروس المستخلصة من عقود من الدعم المؤسسي لأحد أكبر مشاريع الري في العالم.",
-      "download": "https://pub-a5e3b47fe87749f491660d68e2029284.r2.dev/the-world-bank-and-the-gezira-s-world-bank.pdf",
-      "desc": "Institutional history of international financing and irrigation project performance.",
-      "source": "https://pub-a5e3b47fe87749f491660d68e2029284.r2.dev/the-world-bank-and-the-gezira-scheme-in-the-sudan.epub"
+      "desc_ar": "تقرير سلمان محمد أحمد سلمان للبنك الدولي الصادر في يونيو 2010 عن مشروع الجزيرة والاقتصاد السياسي لإصلاحات الري، ويتضمن ملحق قانون مشروع الجزيرة لعام 2005.",
+      "desc": "Salman M. A. Salman’s June 2010 World Bank report on the Gezira Scheme and the political economy of irrigation reforms, including the Gezira Scheme Act 2005 annex.",
+      "source": "https://documents1.worldbank.org/curated/en/539061468304195366/pdf/698730ESW0P0880emeReportSalmanBank2.pdf",
+      "author_ar": "Salman M. A. Salman",
+      "citation": "Salman, Salman M. A. 2010. The World Bank and the Gezira Scheme in the Sudan: Political Economy of Irrigation Reforms. Report 69873. Washington, DC: World Bank. June 2010.",
+      "title_full": "The World Bank and the Gezira Scheme in the Sudan: Political Economy of Irrigation Reforms",
+      "identifiers": {
+        "world_bank_document_guid": "539061468304195366",
+        "world_bank_document_id": "16371308",
+        "world_bank_report_number": "69873"
+      },
+      "source_format": "PDF",
+      "source_label_en": "Read full report (PDF)",
+      "source_label_ar": "قراءة التقرير الكامل (PDF)",
+      "rights_note": "External institutional/publisher link only. No rehosting or redistribution authorized by this repair.",
+      "year": "2010",
+      "edition_year": 2010,
+      "citation_ar": "Salman M. A. Salman. 2010. البنك الدولي ومشروع الجزيرة في السودان. المرجع الكامل باللغة الأصلية: Salman, Salman M. A. 2010. The World Bank and the Gezira Scheme in the Sudan: Political Economy of Irrigation Reforms. Report 69873. Washington, DC: World Bank. June 2010."
     },
     {
       "title": "The Reality of Citrus Production and Marketing in Sudan",
@@ -2229,13 +2322,30 @@
     {
       "title": "KARANOG: The Meroitic Inscriptions of Shablul and Karanog",
       "title_ar": "كرانوج: النقوش المروية في شبلول وكرانوج",
-      "author": "Grace Gershuny; Deborah, L. Martin",
+      "author": "F. Ll. Griffith",
       "tags": [
         "Archaeology & Heritage"
       ],
-      "desc": "Publication of the Meroitic inscriptions discovered at the sites of Shablul and Karanog in Lower Nubia.",
-      "desc_ar": "نشر النقوش المروية المكتشفة في موقعَي شبلول وكرانوج في النوبة السفلى.",
-      "source": "https://pub-a5e3b47fe87749f491660d68e2029284.r2.dev/karanog-the-meroitic-inscriptions-of-shablul-and-karanog.epub"
+      "desc": "F. Ll. Griffith’s 1911 volume on the Meroitic inscriptions of Shablûl and Karanòg. The complete Harvard/Google historical scan includes duplicate text leaves and plate images, with all numbered text and 30 plates present.",
+      "desc_ar": "مجلد إف. إل. غريفيث لعام 1911 عن النقوش المروية في شبلول وكرانوج. يتضمن المسح التاريخي الكامل من هارفارد وغوغل صفحات نصية وصور لوحات مكررة، مع اكتمال النص المرقم واللوحات الثلاثين.",
+      "source": "https://archive.org/details/karangmeroitici01grifgoog",
+      "author_ar": "F. Ll. Griffith",
+      "citation": "Griffith, F. Ll. Karanòg: The Meroitic Inscriptions of Shablûl and Karanòg. Eckley B. Coxe Junior Expedition to Nubia VI. Philadelphia: The University Museum, 1911.",
+      "title_full": "Karanòg: The Meroitic Inscriptions of Shablûl and Karanòg",
+      "identifiers": {
+        "InternetArchive": "karangmeroitici01grifgoog",
+        "ARK": "ark:/13960/t4bp09825",
+        "LCCN": "16014957",
+        "OCLC": "05350217",
+        "GoogleBooks": "GQ0TAAAAYAAJ"
+      },
+      "source_format": "Public institutional scan landing with complete PDF; historical scan retains duplicate leaves",
+      "source_label_en": "View book and full scan",
+      "source_label_ar": "عرض الكتاب والمسح الكامل",
+      "rights_note": "External institutional/publisher link only. No rehosting or redistribution authorized by this repair.",
+      "year": "1911",
+      "citation_ar": "F. Ll. Griffith. 1911. كرانوج: النقوش المروية في شبلول وكرانوج. المرجع الكامل باللغة الأصلية: Griffith, F. Ll. Karanòg: The Meroitic Inscriptions of Shablûl and Karanòg. Eckley B. Coxe Junior Expedition to Nubia VI. Philadelphia: The University Museum, 1911.",
+      "scan_note": "Complete historical Harvard/Google scan: 12 repeated text pages and 10 extra plate images retained; all printed text 1–181 and plates I–XXX present."
     },
     {
       "title": "Kingdom of Kush: Students Worksheets",
@@ -2264,14 +2374,28 @@
     {
       "title": "Lost Nubia: A Centennial Exhibit from the Breasted Expeditions",
       "title_ar": "النوبة الضائعة: معرض مئوي من بعثات بريستد",
-      "author": "Catherine Saxelby",
+      "author": "John A. Larson",
       "tags": [
         "Archaeology & Heritage",
         "History"
       ],
-      "desc": "Photographic record of James Henry Breasted's expeditions to Nubia documenting sites later flooded by the Aswan Dam.",
-      "desc_ar": "سجل فوتوغرافي لبعثات بريستد إلى النوبة يوثّق مواقع غمرتها مياه السد العالي لاحقاً.",
-      "source": "https://pub-a5e3b47fe87749f491660d68e2029284.r2.dev/lost-nubia-a-centennial-exhibit-from-the-breasted-expedition.epub"
+      "desc": "John A. Larson’s 2006 Lost Nubia exhibition publication, with photographs from the University of Chicago’s 1905–1907 Egyptian expedition. The publisher provides the complete book scan.",
+      "desc_ar": "إصدار معرض النوبة الضائعة لجون أ. لارسون، عام 2006، ويضم صوراً من بعثة جامعة شيكاغو المصرية بين 1905 و1907. يوفر الناشر المسح الكامل للكتاب.",
+      "source": "https://isac.uchicago.edu/publications/lost-nubia-centennial-exhibit-photographs-1905-1907-egyptian-expedition-university",
+      "author_ar": "John A. Larson",
+      "citation": "Larson, John A. Lost Nubia: A Centennial Exhibit of Photographs from the 1905–1907 Egyptian Expedition of the University of Chicago. Oriental Institute Museum Publications 24. Chicago: The Oriental Institute of the University of Chicago, 2006.",
+      "title_full": "Lost Nubia: A Centennial Exhibit of Photographs from the 1905–1907 Egyptian Expedition of the University of Chicago",
+      "identifiers": {
+        "DOI": "10.83354/db47-m147",
+        "ISBN_original_scan": "1-885923-45-7",
+        "LCCN": "2005939018"
+      },
+      "source_format": "Publisher landing page with complete PDF download",
+      "source_label_en": "View book and full scan",
+      "source_label_ar": "عرض الكتاب والمسح الكامل",
+      "rights_note": "External institutional/publisher link only. No rehosting or redistribution authorized by this repair.",
+      "year": "2006",
+      "citation_ar": "John A. Larson. 2006. النوبة الضائعة: معرض مئوي من بعثات بريستد. المرجع الكامل باللغة الأصلية: Larson, John A. Lost Nubia: A Centennial Exhibit of Photographs from the 1905–1907 Egyptian Expedition of the University of Chicago. Oriental Institute Museum Publications 24. Chicago: The Oriental Institute of the University of Chicago, 2006."
     },
     {
       "title": "Master Architects of Ancient Nubia: Space, Structure and Landscape",
@@ -2383,13 +2507,29 @@
     {
       "title": "Karanog: The Town",
       "title_ar": "كرانوج: المدينة",
-      "author": "Annelise Hagen",
+      "author": "C. Leonard Woolley",
       "tags": [
         "Archaeology & Heritage"
       ],
-      "desc": "Archaeological publication documenting the town of Karanog in Lower Nubia its buildings artifacts and Meroitic material culture.",
-      "desc_ar": "منشور أثري يوثّق مدينة كرانوج في النوبة السفلى ومبانيها وقطعها الأثرية وثقافتها المادية المروية.",
-      "source": "https://pub-a5e3b47fe87749f491660d68e2029284.r2.dev/karanog-the-town.epub"
+      "desc": "C. Leonard Woolley’s 1911 Karanòg: The Town, volume V of the Coxe expedition publications. The complete NYU institutional scan includes all 30 plates.",
+      "desc_ar": "كتاب كرانوج: المدينة لسي. ليونارد وولي، عام 1911، وهو المجلد الخامس من منشورات بعثة كوكس. يشمل المسح المؤسسي الكامل لدى جامعة نيويورك اللوحات الثلاثين جميعها.",
+      "source": "https://mc.dlib.nyu.edu/files/books/ifa_egypt000193/ifa_egypt000193_hi.pdf",
+      "author_ar": "C. Leonard Woolley",
+      "citation": "Woolley, C. Leonard. Karanòg: The Town. Eckley B. Coxe Junior Expedition to Nubia V. Philadelphia: The University Museum, 1911.",
+      "title_full": "Karanòg: The Town",
+      "identifiers": {
+        "NYU": "ifa_egypt000193",
+        "InternetArchive": "karangtown00wool",
+        "ARK": "ark:/13960/t5p84dr6c",
+        "LCCN": "12040160",
+        "OCLC": "1047426057"
+      },
+      "source_format": "Complete institutional PDF",
+      "source_label_en": "Read full book (PDF)",
+      "source_label_ar": "قراءة الكتاب الكامل (PDF)",
+      "rights_note": "External institutional/publisher link only. No rehosting or redistribution authorized by this repair.",
+      "year": "1911",
+      "citation_ar": "C. Leonard Woolley. 1911. كرانوج: المدينة. المرجع الكامل باللغة الأصلية: Woolley, C. Leonard. Karanòg: The Town. Eckley B. Coxe Junior Expedition to Nubia V. Philadelphia: The University Museum, 1911."
     },
     {
       "title": "Kerma et Meroe: Five Lectures on the History of the Sudan",
@@ -2864,22 +3004,52 @@
         "Economy & Development",
         "Governance & Politics"
       ],
-      "desc": "World Bank's Doing Business indicators for Sudan covering business registration, permits, credit access, and trade logistics.",
-      "desc_ar": "مؤشرات ممارسة أنشطة الأعمال للبنك الدولي للسودان تغطي تسجيل الأعمال والتصاريح والائتمان ولوجستيات التجارة.",
-      "source": "https://pub-a5e3b47fe87749f491660d68e2029284.r2.dev/doing-business-in-sudan-2017.epub"
+      "desc": "The Sudan economy profile for Doing Business 2017. The publisher’s document date is October 2016; its edition, copyright and citation year are 2017.",
+      "desc_ar": "الملف الاقتصادي للسودان ضمن ممارسة أنشطة الأعمال 2017. تاريخ الوثيقة لدى الناشر هو أكتوبر 2016، بينما تحمل الطبعة وحقوق النشر والإحالة المرجعية عام 2017.",
+      "source": "https://documents1.worldbank.org/curated/en/732181478671302281/pdf/109989-WP-DB17-PUBLIC-Sudan.pdf",
+      "author_ar": "البنك الدولي",
+      "citation": "World Bank. 2017. Doing Business 2017: Equal Opportunity for All — Economy Profile 2017: Sudan. 14th edition. Washington, DC: World Bank. Report 109989. Publisher document date: October 25, 2016; copyright and citation year: 2017.",
+      "title_full": "Doing Business 2017: Equal Opportunity for All — Economy Profile 2017: Sudan",
+      "identifiers": {
+        "world_bank_document_guid": "732181478671302281",
+        "world_bank_document_id": "26923656",
+        "world_bank_report_number": "109989"
+      },
+      "source_format": "PDF",
+      "source_label_en": "Read full report (PDF)",
+      "source_label_ar": "قراءة التقرير الكامل (PDF)",
+      "rights_note": "External institutional/publisher link only. No rehosting or redistribution authorized by this repair.",
+      "publication_year": 2016,
+      "edition_year": 2017,
+      "citation_ar": "البنك الدولي. 2017. ممارسة أنشطة الأعمال في السودان 2017. المرجع الكامل باللغة الأصلية: World Bank. 2017. Doing Business 2017: Equal Opportunity for All — Economy Profile 2017: Sudan. 14th edition. Washington, DC: World Bank. Report 109989. Publisher document date: October 25, 2016; copyright and citation year: 2017."
     },
     {
       "title": "Doing Business 2020: Sudan Economy Profile",
       "title_ar": "ممارسة أنشطة الأعمال 2020: الملف الاقتصادي للسودان",
-      "author": "World Bank",
-      "year": "2020",
+      "author": "World Bank Group",
+      "year": "2019",
       "tags": [
         "Economy & Development",
         "Governance & Politics"
       ],
-      "desc": "Updated Doing Business profile for Sudan benchmarking business regulatory environment across 10 indicators.",
-      "desc_ar": "الملف المحدَّث لممارسة أنشطة الأعمال في السودان يُقارن بيئة التنظيم التجاري عبر 10 مؤشرات.",
-      "source": "https://pub-a5e3b47fe87749f491660d68e2029284.r2.dev/doing-business-2020-sudan-economy-profile.epub"
+      "desc": "The Sudan economy profile for Doing Business 2020, published by the World Bank Group on 24 October 2019. This is the complete Sudan profile.",
+      "desc_ar": "الملف الاقتصادي للسودان ضمن ممارسة أنشطة الأعمال 2020، نشرته مجموعة البنك الدولي في 24 أكتوبر 2019. الرابط للملف السوداني الكامل.",
+      "source": "https://documents1.worldbank.org/curated/en/441871575346787051/pdf/Doing-Business-2020-Comparing-Business-Regulation-in-190-Economies-Economy-Profile-of-Sudan.pdf",
+      "author_ar": "مجموعة البنك الدولي",
+      "citation": "World Bank Group. 2019. Doing Business 2020: Comparing Business Regulation in 190 Economies — Economy Profile of Sudan. Washington, DC: World Bank Group. Report 144028. October 24, 2019.",
+      "title_full": "Doing Business 2020: Comparing Business Regulation in 190 Economies — Economy Profile: Sudan",
+      "identifiers": {
+        "world_bank_document_guid": "441871575346787051",
+        "world_bank_document_id": "31603644",
+        "world_bank_report_number": "144028"
+      },
+      "source_format": "PDF",
+      "source_label_en": "Read full report (PDF)",
+      "source_label_ar": "قراءة التقرير الكامل (PDF)",
+      "rights_note": "External institutional/publisher link only. No rehosting or redistribution authorized by this repair.",
+      "publication_year": 2019,
+      "edition_year": 2020,
+      "citation_ar": "مجموعة البنك الدولي. 2019. ممارسة أنشطة الأعمال 2020: الملف الاقتصادي للسودان. المرجع الكامل باللغة الأصلية: World Bank Group. 2019. Doing Business 2020: Comparing Business Regulation in 190 Economies — Economy Profile of Sudan. Washington, DC: World Bank Group. Report 144028. October 24, 2019."
     },
     {
       "title": "From Subsidy to Sustainability: Sudan's Electricity Sector",
@@ -2901,9 +3071,24 @@
       "tags": [
         "Economy & Development"
       ],
-      "desc": "World Bank comprehensive economic assessment of Sudan's diversification prospects across agriculture, oil, minerals, and services.",
-      "desc_ar": "تقييم اقتصادي شامل للبنك الدولي لآفاق تنويع الاقتصاد السوداني عبر قطاعات الزراعة والنفط والمعادن والخدمات.",
-      "source": "https://pub-a5e3b47fe87749f491660d68e2029284.r2.dev/sudan-country-economic-memorandum-realizing-the-potential-fo.epub"
+      "desc": "The World Bank’s main Sudan Country Economic Memorandum, dated September 2015 and publicly disclosed in September 2016. This complete main report examines diversified development.",
+      "desc_ar": "التقرير الرئيسي لمذكرة البنك الدولي الاقتصادية القُطرية للسودان، مؤرخ في سبتمبر 2015 وأُتيح للجمهور في سبتمبر 2016. يتناول التقرير الكامل إمكانات التنمية المتنوعة.",
+      "source": "https://documents1.worldbank.org/curated/en/771411474649783837/pdf/103352-REVISED-SudanCountryEconomicMemorandumRealizingthePotentialforDiversifiedDevelopmentTheWorldBankWashingtonDC.pdf",
+      "author_ar": "البنك الدولي",
+      "citation": "World Bank. 2015. Sudan Country Economic Memorandum: Realizing the Potential for Diversified Development. Main report, report 103352, September 30, 2015. Washington, DC: World Bank. Publicly disclosed September 23, 2016.",
+      "title_full": "Sudan Country Economic Memorandum: Realizing the Potential for Diversified Development",
+      "identifiers": {
+        "world_bank_document_guid": "771411474649783837",
+        "world_bank_document_id": "26809375",
+        "world_bank_report_number": "103352"
+      },
+      "source_format": "PDF",
+      "source_label_en": "Read full report (PDF)",
+      "source_label_ar": "قراءة التقرير الكامل (PDF)",
+      "rights_note": "External institutional/publisher link only. No rehosting or redistribution authorized by this repair.",
+      "year": "2015",
+      "edition_year": 2015,
+      "citation_ar": "البنك الدولي. 2015. مذكرة الاقتصاد القُطرية للسودان: تحقيق إمكانات التنمية المتنوعة. المرجع الكامل باللغة الأصلية: World Bank. 2015. Sudan Country Economic Memorandum: Realizing the Potential for Diversified Development. Main report, report 103352, September 30, 2015. Washington, DC: World Bank. Publicly disclosed September 23, 2016."
     },
     {
       "title": "Sudan Diagnostic Trade Integration Study",
@@ -2913,9 +3098,28 @@
         "Economy & Development",
         "Infrastructure"
       ],
-      "desc": "Trade facilitation analysis identifying barriers to Sudan's integration into regional and global value chains.",
-      "desc_ar": "تحليل تيسير التجارة يحدد العوائق أمام اندماج السودان في سلاسل القيمة الإقليمية والعالمية.",
-      "source": "https://pub-a5e3b47fe87749f491660d68e2029284.r2.dev/sudan-diagnostic-trade-integration-study.epub"
+      "desc": "The December 2008 Diagnostic Trade Integration Study on revitalizing Sudan’s non-oil exports, prepared by the World Bank for the Integrated Framework program. The link is the complete 2008 study.",
+      "desc_ar": "دراسة التكامل التجاري التشخيصية الصادرة في ديسمبر 2008 عن تنشيط الصادرات السودانية غير النفطية، أعدها البنك الدولي لبرنامج الإطار المتكامل. الرابط للدراسة الكاملة لعام 2008.",
+      "source": "https://enhancedif.org/system/files/uploads/sudan20dtis20final.pdf",
+      "author_ar": "البنك الدولي",
+      "citation": "World Bank. 2008. Revitalizing Sudan’s Non-Oil Exports: A Diagnostic Trade Integration Study (DTIS) Prepared for the Integrated Framework Program. December 2008. Drafted by Philip Schuler and Bill Battaile with the DTIS team. Institutional full text: Enhanced Integrated Framework.",
+      "title_full": "Revitalizing Sudan’s Non-Oil Exports: A Diagnostic Trade Integration Study (DTIS) Prepared for the Integrated Framework Program",
+      "identifiers": {
+        "institutional_file_identifier": "sudan20dtis20final.pdf",
+        "institutional_stable_url": "https://enhancedif.org/system/files/uploads/sudan20dtis20final.pdf",
+        "pdf_document_title": "Sudan Diagnostic Trade Integration Study",
+        "doi": null,
+        "isbn": null,
+        "world_bank_report_number": null,
+        "identifier_note": "No report number, DOI, ISBN, or handle identified in the complete file. The exact institutional file locator and checksum identify this edition; no identifier from the different 2014 update has been imported."
+      },
+      "source_format": "PDF",
+      "source_label_en": "Read full report (PDF)",
+      "source_label_ar": "قراءة التقرير الكامل (PDF)",
+      "rights_note": "External institutional/publisher link only. No rehosting or redistribution authorized by this repair.",
+      "year": "2008",
+      "edition_year": 2008,
+      "citation_ar": "البنك الدولي. 2008. دراسة التكامل التجاري التشخيصية للسودان. المرجع الكامل باللغة الأصلية: World Bank. 2008. Revitalizing Sudan’s Non-Oil Exports: A Diagnostic Trade Integration Study (DTIS) Prepared for the Integrated Framework Program. December 2008. Drafted by Philip Schuler and Bill Battaile with the DTIS team. Institutional full text: Enhanced Integrated Framework."
     },
     {
       "title": "Good Governance and the Policy Challenge: The African Development Bank Perspective",
@@ -6067,9 +6271,24 @@
       "tags": [
         "Economy & Development"
       ],
-      "desc": "AERC Research Paper 243, tracing Sudan's inflation experience from double-digit averages in the 1970s-90s through the post-liberalization period, and identifying the monetary, fiscal, and exchange-rate drivers behind price volatility.",
-      "desc_ar": "ورقة بحثية من اتحاد البحوث الاقتصادية الأفريقية تتتبع تجربة السودان مع التضخم من سبعينيات القرن الماضي حتى مرحلة ما بعد التحرير، وتحدد المحركات النقدية والمالية وراء تقلب الأسعار.",
-      "source": "https://pub-a5e3b47fe87749f491660d68e2029284.r2.dev/determinants-inflation-sudan-aerc.pdf"
+      "desc": "Kabbashi M. Suliman’s 2012 AERC Research Paper 243 on inflation in Sudan. The complete publisher PDF retains its unusual ordering, with preliminary matter after the main text.",
+      "desc_ar": "ورقة كباشي محمد سليمان البحثية رقم 243 الصادرة عن اتحاد البحوث الاقتصادية الأفريقية عام 2012 عن التضخم في السودان. يحتفظ ملف الناشر الكامل بترتيبه غير المعتاد، إذ ترد الصفحات التمهيدية بعد النص الرئيسي.",
+      "source": "https://publication.aercafricalibrary.org/handle/123456789/196",
+      "author_ar": "Kabbashi M. Suliman",
+      "citation": "Suliman, Kabbashi M. 2012. The Determinants of Inflation in Sudan. AERC Research Paper 243. Nairobi: African Economic Research Consortium. ISBN 978-9966-023-15-5.",
+      "title_full": "The Determinants of Inflation in Sudan",
+      "identifiers": {
+        "series": "AERC Research Paper",
+        "number": "243",
+        "ISBN": "978-9966-023-15-5",
+        "repository_handle": "123456789/196"
+      },
+      "source_format": "publisherLanding",
+      "source_label_en": "View publication and full text",
+      "source_label_ar": "عرض المنشور والنص الكامل",
+      "rights_note": "External institutional/publisher link only. No rehosting or redistribution authorized by this repair.",
+      "citation_ar": "Kabbashi M. Suliman. 2012. محددات التضخم في السودان. المرجع الكامل باللغة الأصلية: Suliman, Kabbashi M. 2012. The Determinants of Inflation in Sudan. AERC Research Paper 243. Nairobi: African Economic Research Consortium. ISBN 978-9966-023-15-5.",
+      "scan_note": "Complete publisher PDF retains preliminary matter after the main text; no reformatting claimed."
     },
     {
       "title": "The Controversy of Exchange Rate Devaluation in Sudan: An Economy-wide General Equilibrium Assessment",
@@ -6112,27 +6331,53 @@
     {
       "title": "Does Foreign Aid Promote Economic Growth in Sudan? Evidence from ARDL Bounds Testing Analysis",
       "title_ar": "هل تعزز المساعدات الخارجية النمو الاقتصادي في السودان؟ أدلة من اختبار الحدود ARDL",
-      "author": "Mohammed Elhaj Mustafa Ali, Manal Mahagoub Elshakh, Ebaidalla Mahjoub Ebaidalla",
+      "author": "Mohammed Elhaj Mustafa; Manal Mahagoub Elshakh; Ebaidalla Mahjoub Ebaidalla",
       "year": "2018",
       "tags": [
         "Economy & Development"
       ],
-      "desc": "An ERF working paper finding that foreign aid deters Sudan's economic growth in the short run but may support growth over the long run through its contribution to human capital and infrastructure.",
-      "desc_ar": "ورقة عمل من منتدى البحوث الاقتصادية تجد أن المساعدات الخارجية تعيق النمو الاقتصادي السوداني في الأجل القصير لكنها قد تدعمه في الأجل الطويل عبر مساهمتها في رأس المال البشري والبنية التحتية.",
-      "source": "https://pub-a5e3b47fe87749f491660d68e2029284.r2.dev/erf-foreign-aid-growth-sudan.pdf"
+      "desc": "The November 2018 ERF Working Paper 1251 by Mohammed Elhaj Mustafa, Manal Mahagoub Elshakh and Ebaidalla Mahjoub Ebaidalla on foreign aid and Sudan’s economic growth.",
+      "desc_ar": "ورقة العمل رقم 1251 الصادرة عن منتدى البحوث الاقتصادية في نوفمبر 2018، من إعداد محمد الحاج مصطفى ومنال محجوب الشيخ وعبيد الله محجوب عبيد الله، عن المساعدات الخارجية والنمو الاقتصادي في السودان.",
+      "source": "https://erf.org.eg/app/uploads/2018/11/1251.pdf",
+      "author_ar": "Mohammed Elhaj Mustafa؛ Manal Mahagoub Elshakh؛ Ebaidalla Mahjoub Ebaidalla",
+      "citation": "Mustafa, Mohammed Elhaj, Manal Mahagoub Elshakh, and Ebaidalla Mahjoub Ebaidalla. 2018. Does Foreign Aid Promote Economic Growth in Sudan? Evidence from ARDL Bounds Testing Analysis. ERF Working Paper 1251. Economic Research Forum, November.",
+      "title_full": "Does Foreign Aid Promote Economic Growth in Sudan? Evidence from ARDL Bounds Testing Analysis",
+      "identifiers": {
+        "series": "ERF Working Paper",
+        "number": "1251",
+        "publication_month": "November 2018"
+      },
+      "source_format": "directPDF",
+      "source_label_en": "Read full report (PDF)",
+      "source_label_ar": "قراءة التقرير الكامل (PDF)",
+      "rights_note": "External institutional/publisher link only. No rehosting or redistribution authorized by this repair.",
+      "citation_ar": "Mohammed Elhaj Mustafa؛ Manal Mahagoub Elshakh؛ Ebaidalla Mahjoub Ebaidalla. 2018. هل تعزز المساعدات الخارجية النمو الاقتصادي في السودان؟ أدلة من اختبار الحدود ARDL. المرجع الكامل باللغة الأصلية: Mustafa, Mohammed Elhaj, Manal Mahagoub Elshakh, and Ebaidalla Mahjoub Ebaidalla. 2018. Does Foreign Aid Promote Economic Growth in Sudan? Evidence from ARDL Bounds Testing Analysis. ERF Working Paper 1251. Economic Research Forum, November."
     },
     {
       "title": "Sudan's Challenges and Opportunities: A Renaissance Project for Sudan — From Poor Agriculture to Agro-Industrial Growth and Sustainable Development",
       "title_ar": "تحديات وفرص السودان: مشروع نهضوي للسودان - من الزراعة الفقيرة إلى النمو الزراعي الصناعي والتنمية المستدامة",
-      "author": "Abdelrahman Khidir Osman, Amir Hamid Elobaid, Abdelrazig Elbashir, Alzaki Alhelo",
+      "author": "Abdelrahman Khidir Osman; Amir Hamid Elobaid; Abdelrazig Elbashir; Alzaki Alhelo",
       "year": "2022",
       "tags": [
         "Agriculture",
         "Economy & Development"
       ],
-      "desc": "An ERF policy brief laying out interventions to transform Sudanese agriculture from a subsistence, low-output sector into a high-performing agro-industrial economy — covering irrigation, mechanization, financing, and governance reform.",
-      "desc_ar": "موجز سياسات من منتدى البحوث الاقتصادية يطرح تدخلات لتحويل الزراعة السودانية من قطاع كفاف منخفض الإنتاجية إلى اقتصاد زراعي صناعي عالي الأداء، يغطي الري والميكنة والتمويل وإصلاح الحوكمة.",
-      "source": "https://pub-a5e3b47fe87749f491660d68e2029284.r2.dev/erf-renaissance-project-sudan.pdf"
+      "desc": "ERF Policy Brief 99, November 2022, by four authors, on a Sudanese renaissance through agro-industrial growth and sustainable development. This is the policy brief, distinct from the longer seven-author report.",
+      "desc_ar": "موجز السياسات رقم 99 الصادر عن منتدى البحوث الاقتصادية في نوفمبر 2022، من إعداد أربعة مؤلفين، عن نهضة السودان بالنمو الزراعي الصناعي والتنمية المستدامة. وهو موجز السياسات المستقل عن التقرير الأطول ذي المؤلفين السبعة.",
+      "source": "https://erf.org.eg/publications/sudans-challenges-and-opportunities-a-renaissance-project-for-sudan-2/",
+      "author_ar": "Abdelrahman Khidir Osman؛ Amir Hamid Elobaid؛ Abdelrazig Elbashir؛ Alzaki Alhelo",
+      "citation": "Osman, Abdelrahman Khidir, Amir Hamid Elobaid, Abdelrazig Elbashir, and Alzaki Alhelo. 2022. Sudan’s Challenges and Opportunities: A Renaissance Project for Sudan: From Poor Agriculture to Agro-Industrial Growth and Sustainable Development. ERF Policy Brief 99, November.",
+      "title_full": "Sudan’s Challenges and Opportunities: A Renaissance Project for Sudan: From Poor Agriculture to Agro-Industrial Growth and Sustainable Development",
+      "identifiers": {
+        "series": "ERF Policy Brief",
+        "number": "99",
+        "publication_month": "November 2022"
+      },
+      "source_format": "publisherLanding",
+      "source_label_en": "View publication and full text",
+      "source_label_ar": "عرض المنشور والنص الكامل",
+      "rights_note": "External institutional/publisher link only. No rehosting or redistribution authorized by this repair.",
+      "citation_ar": "Abdelrahman Khidir Osman؛ Amir Hamid Elobaid؛ Abdelrazig Elbashir؛ Alzaki Alhelo. 2022. تحديات وفرص السودان: مشروع نهضوي للسودان - من الزراعة الفقيرة إلى النمو الزراعي الصناعي والتنمية المستدامة. المرجع الكامل باللغة الأصلية: Osman, Abdelrahman Khidir, Amir Hamid Elobaid, Abdelrazig Elbashir, and Alzaki Alhelo. 2022. Sudan’s Challenges and Opportunities: A Renaissance Project for Sudan: From Poor Agriculture to Agro-Industrial Growth and Sustainable Development. ERF Policy Brief 99, November."
     },
     {
       "title": "Sudan Economic Update, May 2025: The Economic and Social Consequences of the Conflict — Charting a Path to Recovery",
