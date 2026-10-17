@@ -286,3 +286,21 @@ Only4 approved catalog objects,4 exact CSV rows, format/status maps and this aud
 - KND-603C2A8070F4BE45 — Evidence for an Early Nubian Dialect in Meroitic Inscriptions: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (; HTTP None
 
 Hatke/NYU and Aubin proposed HTTP sources were not requested. Ordinary HTTPS probes failed certificate verification; no disabled TLS checks, HTTP fallback, browser-warning bypass or insecure restoration. Land-use HTML chapter returned403, so no metadata/year changes applied. Art and Industry landing and separately proposed exact publisher PDF both returned404 and remain held. The two out-of-scope audit records remain in the catalog and inventory; no deletion.
+
+## Phase 10 - continuing approved research round 8
+
+Round8:3 of4 candidates passed final checks;Greater Kordofan returned202 and36 audit-held records stay unchanged. All542 catalog records preserved. Round7 separately applied4,held4 after checks,and preserved32 audit-held records. Combined rounds7+8:7 applied,unresolved338 →331 (round7:338 →334;round8:334 →331). Known-unavailable labels337 →334 for this batch;seven unverified remain. Format map97PDF+1EPUB.
+
+The manifest deliberately predates round7: exact frozen IDs,title,source/download and index were matched against the current334-row inventory and commit2cbc208 before edits. No round7 catalog objects changed. Two PDFs independently matched reviewed SHA-256 and page counts: Anderson564-page national-library thesis and Krishnan9-page journal article. Miniature Pyramids is the complete publisher HTML article by Eric A. Powell,2013; standard gzip decompression was required before HTML text inspection. Full title/byline,Sedeinga,erosion and ending markers verified;this was normal content decoding,not bypass. An initial2-record build was explicitly stopped with confirmed exit before adding the third record and running a fresh build.
+
+Only3 approved catalog objects,3 exact CSV rows,format/status maps and this audit note changed. All unrelated work,held records,covers,cadence,storage access,paid content and Workers preserved. No rehosting or purchase tests.
+
+### Applied exact sources
+
+- KND-0889E8A87C483673 — Spatial and Temporal Distribution of Domestic Architecture in Christian Nubia — Julie Renee Anderson. 1996. Spatial and Temporal Distribution of Domestic and Civil Architecture in Christian Nubia. Source: https://www.collectionscanada.ca/obj/s4/f2/dsk3/ftp04/NQ35429.pdf ; verified full PDF: https://www.collectionscanada.ca/obj/s4/f2/dsk3/ftp04/NQ35429.pdf
+- KND-CC002115EC73F64A — Reinscribing Conrad: Tayeb Salih's Season of Migration to the North — R. S. Krishnan. 1996. Reinscribing Conrad: Tayeb Salih's Season of Migration to the North. Source: https://journals.lib.unb.ca/index.php/IFR/article/view/14324 ; verified full PDF: https://journals.lib.unb.ca/index.php/IFR/article/download/14324/15401
+- KND-9A5AAD1E47BEBE90 — Miniature Pyramids of Sudan — Eric A. Powell. 2013. Miniature Pyramids of Sudan. Archaeology Magazine, July/August. Source: https://archaeology.org/issues/july-august-2013/features/sedeinga-necropolis-sudan-meroe-nubia/ ; complete publisher HTML article.
+
+### Fresh failure held unchanged
+
+- KND-2ABCD07CF05CAE1D — Managing Conflict Over Natural Resources in Greater Kordofan: source record returnedHTTP202;no challenge solving,alternate gated-route retry or bypass.
