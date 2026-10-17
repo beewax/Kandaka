@@ -1,11 +1,11 @@
 ---
 title: "Sudan's Deep-Sea Ports: A Gateway to Production, Not Just Bigger Ships"
-date: '2026-10-16T12:00:00-05:00'
+date: '2026-10-17T07:13:00-05:00'
 author: 'Kandaka'
 category: 'Development'
 description: "How Sudan could assess deeper ports through production, inland connections, coastal livelihoods and transparent public obligations."
 tags: ['Sudan', 'development']
-draft: true
+draft: false
 cover:
   image: '/images/uploads/sudan-ports-classic-approved.png'
   alt: "Classic-style illustration inspired by Port Sudan, showing a cargo ship, quay cranes, warehouses and a freight railway beside the Red Sea"

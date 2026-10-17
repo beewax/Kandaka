@@ -1,11 +1,11 @@
 ---
 title: "موانئ السودان العميقة: بوابة للإنتاج، لا لمجرد استقبال سفن أكبر"
-date: '2026-10-16T12:00:00-05:00'
+date: '2026-10-17T07:13:00-05:00'
 author: 'Kandaka'
 category: 'Development'
 description: "كيف يقيّم السودان الموانئ العميقة عبر الإنتاج والربط الداخلي ومعيشة الساحل والالتزامات العامة الشفافة."
 tags: ['Sudan', 'development']
-draft: true
+draft: false
 cover:
   image: '/images/uploads/sudan-ports-classic-approved.png'
   alt: "رسم بأسلوب كلاسيكي مستوحى من بورتسودان، يُظهر سفينة شحن ورافعات أرصفة ومخازن وقطار بضائع على ساحل البحر الأحمر"
