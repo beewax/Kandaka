@@ -133,10 +133,10 @@
       "tags": [
         "Economy & Development"
       ],
-      "desc_ar": "تقرير سنوي صادر عن المندوب التجاري الأمريكي يوثّق الحواجز التجارية في الأسواق الدولية، وهو مرجع أساسي لفهم بيئة التجارة العالمية وتحديات الوصول إلى الأسواق.",
-      "download": "https://pub-a5e3b47fe87749f491660d68e2029284.r2.dev/foreign-trade-barriers-ambassador-katherine-tai.pdf",
-      "desc": "Analysis of trade restrictions and their impact on Sudan's import/export dynamics, with policy recommendations for economic integration.",
-      "source": "https://pub-a5e3b47fe87749f491660d68e2029284.r2.dev/foreign-trade-barriers.epub"
+      "desc_ar": "تقرير التقديرات التجارية الوطنية لعام 2021 الصادر عن مكتب الممثل التجاري الأمريكي، ويتناول الحواجز أمام الصادرات والاستثمارات والتجارة الإلكترونية الأمريكية في الأسواق الدولية.",
+      "download": "https://ustr.gov/sites/default/files/files/reports/2021/2021NTE.pdf",
+      "desc": "The U.S. Trade Representative’s 2021 National Trade Estimate Report on Foreign Trade Barriers, covering barriers to U.S. exports, investment and electronic commerce in international markets.",
+      "source": "https://ustr.gov/sites/default/files/files/reports/2021/2021NTE.pdf"
     },
     {
       "title": "Towards Sustainable Management of Water Resources in Sudan",
@@ -232,10 +232,10 @@
       "tags": [
         "Governance & Politics"
       ],
-      "desc_ar": "النص الكامل للوثيقة الدستورية السودانية لعام 2019 التي أرست أُسس الفترة الانتقالية في أعقاب سقوط نظام البشير، وتضمّنت ضمانات لحقوق الإنسان وآليات تقاسم السلطة.",
-      "download": "https://pub-a5e3b47fe87749f491660d68e2029284.r2.dev/sudan-s-constitution-of-2019-constitute-project-constitutio.pdf",
-      "desc": "Full text and analysis of Sudan's transitional constitutional framework following the 2019 revolution.",
-      "source": "https://pub-a5e3b47fe87749f491660d68e2029284.r2.dev/sudan-s-constitution-of-2019.epub"
+      "desc_ar": "النص التاريخي للوثيقة الدستورية السودانية للفترة الانتقالية لعام 2019، منشور لدى مشروع Constitute بترجمة المؤسسة الدولية للديمقراطية والانتخابات.",
+      "desc": "Historical text of Sudan’s 2019 Constitutional Charter for the transitional period, published by the Constitute Project with translation by International IDEA.",
+      "source": "https://www.constituteproject.org/constitution/Sudan_2019",
+      "author_ar": "مشروع Constitute؛ ترجمة المؤسسة الدولية للديمقراطية والانتخابات"
     },
     {
       "title": "Intensive Harvesting Menaces Trees in Abu Gadaf Natural Reserved Forest, Sudan",
@@ -334,10 +334,10 @@
       "tags": [
         "Environment & Climate"
       ],
-      "desc_ar": "أطلس مصوّر صادر عن الفاو يرسم توزيع الغطاء الأرضي في السودان ويصنّف الأراضي المزروعة والغابات والمراعي والمناطق الجافة، مع بيانات حديثة عن التغيرات في الاستخدام.",
-      "download": "https://pub-a5e3b47fe87749f491660d68e2029284.r2.dev/the-land-cover-atlas-of-sudan-food.pdf",
-      "desc": "Satellite-derived mapping of Sudanese ecosystems, agricultural zones, forests, and desertification patterns.",
-      "source": "https://pub-a5e3b47fe87749f491660d68e2029284.r2.dev/the-land-cover-atlas-of-sudan.epub"
+      "desc_ar": "أطلس الفاو لعام 2012 يرسم الغطاء الأرضي في السودان، بما يشمل الأراضي المزروعة والغابات والمراعي وغيرها من فئات الغطاء الأرضي.",
+      "download": "https://www.fao.org/3/a-be896e.pdf",
+      "desc": "FAO’s 2012 atlas mapping Sudan’s land cover, including cultivated areas, forests, grasslands and other land-cover classes.",
+      "source": "https://www.fao.org/3/a-be896e.pdf"
     },
     {
       "title": "Will a Nile Canal Project Dry Up Africa's Largest Wetland?",
@@ -908,15 +908,16 @@
     {
       "title": "The Sudan Handbook",
       "title_ar": "دليل السودان",
-      "author": "Rift Valley Institute",
-      "year": "2011",
+      "author": "John Ryle; Justin Willis; Suliman Baldo; Jok Madut Jok (editors)",
+      "year": "2012",
       "tags": [
         "History"
       ],
-      "desc_ar": "مرجع شامل يُصدره معهد ريفت فالي يجمع معلومات موثوقة عن تاريخ السودان وجغرافيته وأعراف مجتمعاته وهياكله السياسية والاقتصادية، وهو من أبرز المراجع الأكاديمية المتاحة عن السودان.",
-      "download": "https://pub-a5e3b47fe87749f491660d68e2029284.r2.dev/the-sudan-handbook-rift-valley-institute.pdf",
-      "desc": "Comprehensive reference work on Sudanese history, politics, culture, and society from the Rift Valley Institute.",
-      "source": "https://pub-a5e3b47fe87749f491660d68e2029284.r2.dev/the-sudan-handbook.epub"
+      "desc_ar": "مقالات مرجعية من معهد ريفت فالي عن تاريخ السودان وجنوب السودان وسياساتهما ومجتمعاتهما وثقافتهما. صدرت الطبعة الورقية عام 2011، وهذه الطبعة الرقمية المجانية عام 2012.",
+      "download": "https://riftvalley.net/wp-content/uploads/2018/06/RVI-The-Sudan-Handbook.pdf",
+      "desc": "Rift Valley Institute reference essays on Sudan and South Sudan’s history, politics, society and culture. First printed in 2011; this free digital edition was published in 2012.",
+      "source": "https://riftvalley.net/publication/sudan-handbook/",
+      "author_ar": "جون رايل؛ جاستن ويليس؛ سليمان بلدو؛ جوك مادوت جوك (محررون)"
     },
     {
       "title": "Characterization of Urban Agricultural Activities in Khartoum State",
@@ -1510,16 +1511,17 @@
     {
       "title": "Urban Waterways in Global Cities",
       "title_ar": "المجاري المائية الحضرية في المدن العالمية",
-      "author": "OECD",
+      "author": "Chicago Council on Global Affairs",
       "year": "2017",
       "tags": [
         "Urban Planning",
         "Water & Nile"
       ],
-      "desc_ar": "تقرير منظمة التعاون الاقتصادي يستعرض تجارب مدن عالمية ناجحة في دمج مجاريها المائية في التخطيط الحضري، ويُقدّم دروسًا قابلة للاستفادة في تطوير الواجهة النيلية بالخرطوم.",
-      "download": "https://pub-a5e3b47fe87749f491660d68e2029284.r2.dev/urban-waterways-in-global-citie-unknown.pdf",
-      "desc": "Comparative urban design study of riverfront development and water integration.",
-      "source": "https://pub-a5e3b47fe87749f491660d68e2029284.r2.dev/urban-waterways-in-global-cities.epub"
+      "desc_ar": "تقرير منتدى صادر عام 2017 عن مجلس شيكاغو للشؤون العالمية حول تجديد المجاري المائية الحضرية، بالاستناد إلى اجتماع لرؤساء بلديات 17 مدينة من خمس قارات.",
+      "download": "https://globalaffairs.org/sites/default/files/2021-06/report_urban_waterways_170622.pdf",
+      "desc": "A 2017 Chicago Council on Global Affairs forum report on urban waterway regeneration, drawing on a mayors’ meeting involving 17 cities across five continents.",
+      "source": "https://globalaffairs.org/research/report/urban-waterways-global-cities",
+      "author_ar": "مجلس شيكاغو للشؤون العالمية"
     },
     {
       "title": "Water Infrastructure in Sudan",
