@@ -1,0 +1,8 @@
+{{- /* Only name a format after inspecting response bytes; never infer from the URL. */ -}}
+{{- $url := .book.download | default .book.source -}}
+{{- $format := index site.Data.library_file_formats $url -}}
+{{- if $format -}}
+  {{- if .isAr -}}تنزيل {{ $format }}{{- else -}}Download {{ $format }}{{- end -}}
+{{- else -}}
+  {{- if .isAr -}}فتح الملف المرتبط{{- else -}}Open linked file{{- end -}}
+{{- end -}}
