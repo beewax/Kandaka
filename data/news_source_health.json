@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17T15:06:00.001688+00:00",
+  "updated": "2026-10-17T20:14:39.946265+00:00",
   "sources": [
     {
       "id": "dabanga-en",
@@ -34,7 +34,7 @@
       "language": "en",
       "status": "ok",
       "items": 25,
-      "accepted": 1
+      "accepted": 0
     },
     {
       "id": "guardian-world",
@@ -89,8 +89,8 @@
       "id": "alaraby-ar",
       "language": "ar",
       "status": "ok",
-      "items": 149,
-      "accepted": 3
+      "items": 147,
+      "accepted": 4
     },
     {
       "id": "un-news-ar",
@@ -153,7 +153,7 @@
       "language": "en",
       "status": "ok",
       "items": 12,
-      "accepted": 5
+      "accepted": 3
     },
     {
       "id": "tamazuj-ar",
