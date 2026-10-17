@@ -1,0 +1,14 @@
+{{- if and (eq (getenv "CONTEXT") "production") site.Config.Services.GoogleAnalytics.ID }}
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.Config.Services.GoogleAnalytics.ID }}"></script>
+<script>
+  var doNotTrack = false;
+  var dnt = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+  doNotTrack = dnt === "1" || dnt === "yes";
+  if (!doNotTrack) {
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { window.dataLayer.push(arguments); }
+    gtag("js", new Date());
+    gtag("config", "{{ site.Config.Services.GoogleAnalytics.ID }}");
+  }
+</script>
+{{- end }}
