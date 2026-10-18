@@ -627,3 +627,10 @@ KND-2284BB29A7ED966B now links the official World Bank public archive PDF. Its A
 https://documents1.worldbank.org/curated/en/621721468117551734/pdf/multi-page.pdf
 
 The same bounded batch also restores three verified canonical aliases: SESRIC journal article(18pages),African Union information note(13pages),and arXiv1912.05657v3preprint(42pages). Fresh normalGET200andPDFsignatures checked;allpages text-identical to reviewed local evidence,AU/arXiv byte-identical. Edition labels explicit;metadata205unchanged. Final batch4records;source113->117;backlog299->295. Existingformatentries reused;onlyverified statuses updated.
+
+## Verified institutional theses -18October2026
+
+Two thesis source records restored through newly discovered official university routes. Leiden2014:307pages,all307pages text-identical to local evidence. Chicago2016:316pages,byte-identical to reviewed dissertation;distinct from2020commercialbook. Both normalGET200,PDFsignatures and parsed contents verified despite genericbinaryMIME. Stable URLs only;no temporary signed query stored in public data. Source117->119;backlog295->293;all205metadata,542records,covers and unrelated work preserved. No rehosting.
+
+- KND-717002AF098431E2 - https://scholarlypublications.universiteitleiden.nl/handle/1887/23598?rep=08&m=9940744323402711 - https://scholarlypublications.universiteitleiden.nl/download/1887/23598/2?col=81522199220002711
+- KND-D31F421E373C8FE4 - https://knowledge.uchicago.edu/records/c229v-78575 - https://knowledge.uchicago.edu/records/c229v-78575/files/Ashby_uchicago_0330D_13172.pdf
