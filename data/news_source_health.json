@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17T22:55:15.320337+00:00",
+  "updated": "2026-10-18T03:23:52.838902+00:00",
   "sources": [
     {
       "id": "dabanga-en",
@@ -60,9 +60,9 @@
     {
       "id": "un-news-en",
       "language": "en",
-      "status": "invalid_feed",
-      "items": 0,
-      "accepted": 0
+      "status": "ok",
+      "items": 30,
+      "accepted": 6
     },
     {
       "id": "dabanga-ar",
@@ -90,7 +90,7 @@
       "language": "ar",
       "status": "ok",
       "items": 145,
-      "accepted": 3
+      "accepted": 1
     },
     {
       "id": "un-news-ar",
