@@ -619,3 +619,11 @@ Replaced failed R2 mappings with the publisher-hosted full GFI Sudan and Trade I
 - KND-3036D32E1B958FA4 - https://gfintegrity.org/wp-content/uploads/2020/05/Sudan-Report-2020_FINAL.pdf
 - KND-43167ED636D0D62B - https://researchonline.lse.ac.uk/id/eprint/85061/
 - KND-61243063459F72E4 - https://researchonline.lse.ac.uk/id/eprint/85061/
+
+## Official source follow-up: World Bank 1958 appraisal
+
+KND-2284BB29A7ED966B now links the official World Bank public archive PDF. Its API explicitly marks document887882 Public/Disclosed,7July1958,50pages. NormalGET200,application/pdf,exactSHA256match to reviewed50-page local file including mapIBRD475. Historical RESTRICTED stamp was not bypassed or altered. Source repairs113->114;backlog299->298;metadata205unchanged;all542records and unrelated changes preserved. No rehosting.
+
+https://documents1.worldbank.org/curated/en/621721468117551734/pdf/multi-page.pdf
+
+The same bounded batch also restores three verified canonical aliases: SESRIC journal article(18pages),African Union information note(13pages),and arXiv1912.05657v3preprint(42pages). Fresh normalGET200andPDFsignatures checked;allpages text-identical to reviewed local evidence,AU/arXiv byte-identical. Edition labels explicit;metadata205unchanged. Final batch4records;source113->117;backlog299->295. Existingformatentries reused;onlyverified statuses updated.
