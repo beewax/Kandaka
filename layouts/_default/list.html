@@ -527,7 +527,7 @@ html[data-theme="dark"] .k-nile-home-kicker { color: #ffd84d; }
 {{- $latestHistory := first 1 (sort (where .Site.RegularPages "Section" "history") "Date" "desc") }}
 {{- $latestCulture := first 1 (sort (where .Site.RegularPages "Section" "culture") "Date" "desc") }}
 {{- $carouselImageCandidates := slice }}
-{{- $imageSite := index (where hugo.Sites "Language.Lang" "en") 0 }}
+{{- $imageSite := .Site }}
 {{- if $imageSite }}
   {{- range (sort (where $imageSite.RegularPages "Section" "images") "Date" "desc") }}
     {{- if lt (len $carouselImageCandidates) 1 }}
@@ -804,99 +804,19 @@ html[data-theme="dark"] .k-nile-home-kicker { color: #ffd84d; }
 
   {{/* ── Sudan in Images (dynamic, from content/images/) ── */}}
   <section class="k-section" aria-labelledby="photos-heading">
-    <div class="k-section-head">
-      <h2 id="photos-heading">{{ if $isAr }}السودان بالصور{{ else }}Sudan in Images{{ end }}</h2>
-    </div>
+    <div class="k-section-head"><h2 id="photos-heading">{{ if $isAr }}السودان بالصور{{ else }}Sudan in Images{{ end }}</h2></div>
+    {{ partial "photo-update-notice.html" . }}
     <div class="k-photo-stack">
-
-      {{- $enSiteImages := index (where hugo.Sites "Language.Lang" "en") 0 }}
-      {{- $dynamicImages := slice }}
-      {{- if $enSiteImages }}
-        {{- $allSiteImages := where $enSiteImages.RegularPages "Section" "images" }}
-        {{/* Cap each source to its single most recent photo before picking
-             the 3 shown, so one source having more successful daily fetches
-             than the others can't crowd the rest out of the homepage strip. */}}
-        {{- $imageSources := slice "Wikimedia Commons" "Smithsonian Open Access" "DPLA" "Art Institute of Chicago" "Europeana" "Library of Congress" "National Archives" "Flickr" }}
-        {{- $latestPerSource := slice }}
-        {{- range $imageSources }}
-          {{- $bySource := sort (where $allSiteImages "Params.source" .) "Date" "desc" }}
-          {{- $validBySource := slice }}
-          {{- range $bySource }}
-            {{- if lt (len $validBySource) 1 }}
-              {{- $imageText := lower (printf "%s %s" .Title .Plain) }}
-              {{- if not (findRE `south[\s_-]*sudan|southern\s+sudan|\bjuba\b|\bbentiu\b|\bmalakal\b|\bequatoria\b|bahr\s+(?:el|al)\s+ghazal` $imageText) }}
-                {{- $validBySource = $validBySource | append . }}
-              {{- end }}
-            {{- end }}
-          {{- end }}
-          {{- if $validBySource }}{{- $latestPerSource = $latestPerSource | append (index $validBySource 0) }}{{- end }}
-        {{- end }}
-        {{/* Keep up to 6 candidates (not just 3) so that if one of the
-             visible 3 fails to load client-side (broken/expired hotlink,
-             hotlink protection, etc.) there's a backup ready to swap in
-             instead of just silently dropping below 3 shown photos. */}}
-        {{- $dynamicImages = first 6 (sort $latestPerSource "Date" "desc") }}
-      {{- end }}
-
-      {{- if $dynamicImages }}
-        {{- range $i, $img := $dynamicImages }}
-        <div class="k-photo-card"{{ if ge $i 3 }} data-k-backup="1" style="display:none"{{ end }}>
-          <a href="{{ $img.Params.source_url }}" target="_blank" rel="noopener">
-            <img src="{{ $img.Params.image_url }}"
-                 alt="{{ $img.Title }}"
-                 loading="lazy" decoding="async"
-                 onerror="kPhotoFallback(this)">
-          </a>
-          <div class="k-photo-caption">
-            <strong>{{ $img.Title }}</strong>
-            <a href="{{ $img.Params.source_url }}" target="_blank" rel="noopener">
-              © {{ $img.Params.source }} — {{ $img.Params.license }}
-            </a>
-          </div>
-        </div>
-        {{- end }}
-        <script>
-        // If a shown photo's image 404s/fails (broken hotlink, hotlink
-        // protection, source taken the file down, etc.), hide that card and
-        // reveal the next unused backup card instead of just leaving a gap —
-        // keeps the "Sudan in Images" strip at 3 photos whenever a backup
-        // is available.
-        function kPhotoFallback(imgEl) {
-          var card = imgEl.closest('.k-photo-card');
-          if (!card) return;
-          card.style.display = 'none';
-          var stack = card.closest('.k-photo-stack');
-          if (!stack) return;
-          var backup = stack.querySelector('.k-photo-card[data-k-backup]');
-          if (backup) {
-            backup.removeAttribute('data-k-backup');
-            backup.style.display = '';
-          }
-        }
-        </script>
-
-      {{- else }}
-        {{/* Fallback static images if no dynamic content yet */}}
-        <div class="k-photo-card">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Sudan_Meroe_Pyramids_2001.JPG"
-               alt="{{ if $isAr }}أهرامات مروي، السودان{{ else }}Meroe Pyramids, Sudan{{ end }}"
-               loading="lazy" decoding="async">
-          <div class="k-photo-caption">
-            <strong>{{ if $isAr }}أهرامات مروي — إرث النوبة الملكي{{ else }}Meroe Pyramids — Royal Nubian Heritage{{ end }}</strong>
-            <a href="https://commons.wikimedia.org/wiki/File:Sudan_Meroe_Pyramids_2001.JPG" target="_blank" rel="noopener">© Wikimedia Commons / Public Domain</a>
-          </div>
-        </div>
-        <div class="k-photo-card">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/d/dd/North-sudan.jpg"
-               alt="{{ if $isAr }}شمال السودان{{ else }}North Sudan landscape{{ end }}"
-               loading="lazy" decoding="async">
-          <div class="k-photo-caption">
-            <strong>{{ if $isAr }}شمال السودان — صحراء النوبة{{ else }}North Sudan — Nubian Desert{{ end }}</strong>
-            <a href="https://commons.wikimedia.org/wiki/File:North-sudan.jpg" target="_blank" rel="noopener">© Wikimedia Commons / CC BY-SA</a>
-          </div>
-        </div>
-      {{- end }}
-
+    {{ range first 3 (sort (where .Site.RegularPages "Section" "images") "Date" "desc") }}
+      {{ partial "photo-review-check.html" . }}
+      <div class="k-photo-card">
+        <a href="{{ .RelPermalink }}"><img src="{{ .Params.image_url }}" alt="{{ .Params.alt }}" loading="lazy" decoding="async"></a>
+        <div class="k-photo-caption"><strong><a href="{{ .RelPermalink }}">{{ .Title }}</a></strong>
+        <p>{{ .Description }}</p>
+        <span>{{ .Params.credit }}</span> · <a href="{{ .Params.license_url }}">{{ .Params.license }}</a>
+        <a href="{{ .Params.source_url }}" target="_blank" rel="noopener">{{ .Params.source_label }}</a></div>
+      </div>
+    {{ end }}
     </div>
   </section>
 

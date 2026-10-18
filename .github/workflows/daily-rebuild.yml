@@ -10,8 +10,9 @@ name: Fetch Sudan Images
 # itself a rebuild trigger) stays on the once-daily cadence.
 
 on:
-  # Automatic image publication is paused during the editorial audit.
-  # Run manually only; fetched candidates are saved as Hugo drafts.
+  # Daily discovery resumes; candidates remain private drafts until bilingual review.
+  schedule:
+    - cron: '20 6 * * *'
   workflow_dispatch:
 
 jobs:

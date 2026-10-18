@@ -5,12 +5,14 @@
 <nav aria-label="{{ if $isAr }}أقسام الصفحة{{ else }}Page sections{{ end }}"><a href="#artwork-heading">{{ if $isAr }}الفنون{{ else }}Art collection{{ end }}</a> · <a href="#art-source-heading">{{ if $isAr }}روابط الأعمال{{ else }}Source-only artworks{{ end }}</a> · <a href="#photo-stream">{{ if $isAr }}الصور المتجددة{{ else }}Photo stream{{ end }}</a></nav></header>
 {{ partial "artwork-collection.html" (dict "page" .) }}
 <section aria-labelledby="photo-stream"><h2 id="photo-stream">{{ if $isAr }}الصور المتجددة{{ else }}Photo stream{{ end }}</h2>
-{{ $en := index (where hugo.Sites "Language.Lang" "en") 0 }}
-{{ $photos := sort (where $en.RegularPages "Section" "images") "Date" "desc" }}
+{{ partial "photo-update-notice.html" . }}
+{{ $photos := sort (where .Site.RegularPages "Section" "images") "Date" "desc" }}
 {{ $pager := .Paginate $photos }}
 <div class="art-grid">{{ range $pager.Pages }}
+{{ partial "photo-review-check.html" . }}
 <article class="art-card">
-<div class="art-card-body"><h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3><p>{{ .Params.source }} · {{ .Date.Format "2006-01-02" }}</p>{{ with .Params.source_url }}<a href="{{ . }}" rel="noopener noreferrer" target="_blank">{{ if $isAr }}المصدر{{ else }}Original source{{ end }} ↗</a>{{ end }}</div></article>
+<a href="{{ .RelPermalink }}"><img src="{{ .Params.image_url }}" alt="{{ .Params.alt }}" loading="lazy" decoding="async"></a>
+<div class="art-card-body"><h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3><p>{{ .Description }}</p><p>{{ .Params.credit }} · <a href="{{ .Params.license_url }}">{{ .Params.license }}</a></p>{{ with .Params.source_url }}<a href="{{ . }}" rel="noopener noreferrer" target="_blank">{{ if $isAr }}المصدر{{ else }}Original source{{ end }} ↗</a>{{ end }}</div></article>
 {{ end }}</div>
 {{ if gt $pager.TotalPages 1 }}<nav class="pagination" aria-label="{{ if $isAr }}صفحات الصور{{ else }}Photo pages{{ end }}">{{ if $pager.HasPrev }}<a href="{{ $pager.Prev.URL }}">{{ if $isAr }}السابق{{ else }}Previous{{ end }}</a>{{ end }}{{ if $pager.HasNext }}<a href="{{ $pager.Next.URL }}">{{ if $isAr }}التالي{{ else }}Next{{ end }}</a>{{ end }}</nav>{{ end }}
 </section>

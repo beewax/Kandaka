@@ -49,7 +49,7 @@ class SudanImageCandidateTests(unittest.TestCase):
 
 class ImagePublicationSafetyTests(unittest.TestCase):
     def test_flags_unverified_and_unknown_licenses_as_not_reuse_safe(self):
-        for license_text in ("", "license unverified", "All Rights Reserved", "Copyright status unknown"):
+        for license_text in ("", "license unverified", "All Rights Reserved", "Copyright status unknown", "Flickr", "unknown", "CC BY-NC 4.0", "not public domain"):
             with self.subTest(license_text=license_text):
                 self.assertFalse(fetch_images.has_reuse_safe_license({"license": license_text}))
 

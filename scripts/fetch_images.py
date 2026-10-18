@@ -905,7 +905,13 @@ def has_reuse_safe_license(image_data):
     license_text = str(image_data.get("license") or "").strip().lower()
     if not license_text:
         return False
-    return not any(marker in license_text for marker in UNSAFE_LICENSE_MARKERS)
+    if any(marker in license_text for marker in UNSAFE_LICENSE_MARKERS):
+        return False
+    # An arbitrary nonempty label (including a provider name) is not a licence.
+    return bool(re.fullmatch(
+        r"(?:public domain|cc0(?: 1\.0)?|cc by(?:-sa)? (?:1\.0|2\.0|2\.5|3\.0|4\.0)|cc by-sa 3\.0 cz)",
+        license_text,
+    ))
 
 
 def image_url_already_catalogued(content_dir, image_url):
@@ -958,7 +964,7 @@ source: "{image_data['source']}"
 category: "{image_data['category']}"
 draft: true
 review_status: "pending-editorial-review"
-review_required: "image, title, caption, Sudan relevance, source, license, destination"
+review_required: "actual image, title, caption, Sudan relevance, capture date, creator, source, license, duplicates, complete Arabic and English pair"
 ---
 
 {image_data['description']}
@@ -1037,8 +1043,8 @@ def main():
         except Exception as e:
             print(f"  ✗ {name}: error — {e}")
 
-    # Clean up old files
-    cleanup_old_images(content_dir)
+    # Do not delete reviewed pages or pending candidates merely because they age.
+    # Retention is an explicit editorial action, separate from discovery.
 
     print(f"\nDone. {written} new images written.")
 

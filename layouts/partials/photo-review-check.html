@@ -1,0 +1,13 @@
+{{/* Publication gate: no unreviewed or monolingual photographs. */}}
+{{ if ne .Params.review_status "verified-bilingual" }}{{ errorf "Photo lacks completed review: %s" .File.Path }}{{ end }}
+{{ range slice "image_url" "source_url" "credit" "license" "license_url" "alt" "description" "photographed" "reviewed_on" "source_label" }}
+  {{ if not (index $.Params .) }}{{ errorf "Photo %s lacks %s" $.File.Path . }}{{ end }}
+{{ end }}
+{{ if ne (len .Translations) 1 }}{{ errorf "Photo lacks published bilingual pair: %s" .File.Path }}{{ end }}
+{{ range .Translations }}
+  {{ $translation := . }}
+  {{ if ne .Params.review_status "verified-bilingual" }}{{ errorf "Photo translation lacks review: %s" .File.Path }}{{ end }}
+  {{ range slice "image_url" "source_url" "license" "license_url" "photographed" }}
+    {{ if ne (index $.Params .) (index $translation.Params .) }}{{ errorf "Photo bilingual identity mismatch: %s / %s" $.File.Path . }}{{ end }}
+  {{ end }}
+{{ end }}

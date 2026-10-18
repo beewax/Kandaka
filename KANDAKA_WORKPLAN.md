@@ -1,5 +1,15 @@
 # Kandaka Workplan
 
+## 18 October 2026 — Photo stream restart and positive editorial ideas
+
+Authoritative new bilingual ideas P01–P07 are in KANDAKA_MASTER_WORKPLAN.md: music, food/hospitality, artists, literature, crafts, nature and everyday ingenuity. IDEA only; no publication dates or changes to the approved article sequence.
+
+أُضيفت إلى الخطة الرئيسية سبع أفكار بالعربية والإنجليزية عن الموسيقى والطعام والضيافة والفنانين والأدب والحرف والطبيعة وابتكار الحياة اليومية. حالتها «فكرة» فقط، دون مواعيد نشر أو تعديل تسلسل المقالات المعتمد.
+
+Photo audit: 107 legacy records inventoried; 75 formerly public entries held as recoverable drafts pending individual source and bilingual verification. Two checked historical photo pairs prepared: Omdurman market (2009), Sudan National Museum entrance (2013). Daily discovery resumes into drafts; separate Saturday 10:30 America/Chicago bilingual photo review automation is active (kandaka-weekly-bilingual-photo-review). Artwork automation unchanged. Details and release evidence: docs/photo-audit-2026-10-18.md.
+
+مراجعة الصور: حُصرت ١٠٧ سجلات قديمة، وأُوقِف عرض ٧٥ منها مع الاحتفاظ بها كمسودات قابلة للاسترجاع إلى حين التحقق الفردي من مصادرها وترجمتها. أُعدّت صورتان تاريخيتان موثّقتان باللغتين: سوق أم درمان (٢٠٠٩) ومدخل متحف السودان القومي (٢٠١٣). يُستأنف البحث اليومي في صورة مسودات، مع مراجعة أسبوعية مستقلة للصور يوم السبت الساعة ١٠:٣٠ بتوقيت شيكاغو. لم يتغير تحديث المجموعة الفنية.
+
 **Standing language requirement (user confirmed 10 October 2026): Kandaka is an Arabic-and-English site. All future site content and updates must be prepared and checked in both languages, not merely given translated section headings.** Artwork metadata uses `data/artworks.json` and complete matching Arabic records in `data/artworks_ar.json`; the template rejects missing bilingual fields. This does not authorize unrelated publication or changes to article schedules.
 
 > Persistent editorial and research tracker. This file records decisions, drafts, queues, source-acquisition work, website changes, and publication readiness. It does **not** authorize publication.

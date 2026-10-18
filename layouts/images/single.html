@@ -1,4 +1,5 @@
 {{- define "main" }}
+{{ partial "photo-review-check.html" . }}
 {{- $isAr := eq .Site.Language.Lang "ar" }}
 <article class="post-single k-image-page">
   <header class="post-header">
@@ -7,16 +8,16 @@
     <h1 class="post-title">{{ .Title }}</h1>
     <div class="post-meta">
       <span>{{ .Date | time.Format ":date_long" }}</span>
-      {{- with .Params.source }}<span> · {{ . }}</span>{{- end }}
+      {{- with .Params.source_label }}<span> · {{ . }}</span>{{- end }}
     </div>
   </header>
 
   <figure class="k-image-detail">
-    <img src="{{ .Params.image_url }}" alt="{{ .Title }}" decoding="async">
+    <img src="{{ .Params.image_url }}" alt="{{ .Params.alt }}" decoding="async">
     <figcaption>
       <span>
         {{- with .Params.credit }}{{ . }}{{ end -}}
-        {{- with .Params.license }} · {{ . }}{{ end -}}
+        {{- with .Params.license }} · <a href="{{ $.Params.license_url }}">{{ . }}</a>{{ end -}}
       </span>
       {{- with .Params.source_url }}
       <a href="{{ . }}" target="_blank" rel="noopener noreferrer">
