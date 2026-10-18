@@ -12,6 +12,9 @@ SLUGS = (
     "2026-10-05-image-4-21a81d95",
     "2026-10-11-image-4-7554aabf",
     "2026-10-06-image-4-db3f8328",
+    "2026-10-07-image-4-f58e0b69",
+    "2026-10-01-image-4-00ea4161",
+    "2026-09-21-image-4-a654387b",
 )
 
 
@@ -39,12 +42,18 @@ section = ["HTML", "Pinterest"]
             "https://mpfinlandrepox.zetcom.app/imagehelper/download?size=small&id=677813&org=43094",
             "http://esbirky.cz/img.php?size=large&id=284581",
             "https://www.esbirky.cz/img.php?id=325544&size=small",
+            "https://www.esbirky.cz/img.php?id=17700126&size=small",
+            "https://www.esbirky.cz/img.php?size=large&id=17643726",
+            "http://esbirky.cz/img.php?id=17700218",
         )
         sources = (
             "https://museovirasto.finna.fi/Record/museovirasto.12419A96DD8F7E161B9B91FB332175D8?lng=fi",
             "https://museovirasto.finna.fi/Record/museovirasto.8B912D78C1DABECBC5D46BA9C8314A98",
             "http://esbirky.cz/detail/284579/",
             "https://www.esbirky.cz/detail/325542?lng=en",
+            "https://www.esbirky.cz/detail/276227?lng=en",
+            "http://esbirky.cz/detail/273455/",
+            "https://esbirky.cz/detail/275149",
         )
         def page(name, image, source):
             (site / f"content/images/{name}.md").write_text(
@@ -63,10 +72,10 @@ section = ["HTML", "Pinterest"]
         assert titles == {"allowed-esbirky", "allowed-finnish"}, titles
         for slug in SLUGS:
             assert (site / f"public/images/{slug}/index.html").is_file(), slug
-        for index in range(4):
+        for index in range(len(images)):
             for kind in ("image", "record"):
                 assert (site / f"public/images/reimport-{kind}-{index}/index.html").is_file()
-        print("PASS: four existing sources and eight reimports excluded; pages live; two same-provider controls retained")
+        print(f"PASS: {len(SLUGS)} existing sources and {len(images) * 2} reimports excluded; pages live; two same-provider controls retained")
 
 
 if __name__ == "__main__":

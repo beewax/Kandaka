@@ -16,7 +16,7 @@ The feed template:
 - removes duplicate image URLs within each feed;
 - excludes the library section to prevent book covers from being published;
 - supports `pinterest_exclude: true` in front matter for any item that should never become a Pin;
-- applies `data/pinterest_exclusions.json` to precise museum record and image identities, so the four approved exclusions survive reimports without hiding their articles or excluding other images from those providers;
+- applies `data/pinterest_exclusions.json` to precise museum record and image identities, so unavailable images remain excluded across reimports without hiding their articles or excluding other images from those providers;
 - limits each section feed to its newest 100 unique images.
 
 Historical images extracted from Nile Bookstore editions continue through the reviewed weekly workflow rather than unattended RSS publishing.

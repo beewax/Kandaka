@@ -18,5 +18,20 @@
     "source": "(?i)^https?://(?:www\\.)?esbirky\\.cz/detail/325542/?(?:[?#]|$)",
     "image": "(?i)^https?://(?:www\\.)?esbirky\\.cz/img\\.php\\?(?:[^&#]*&)*id=325544(?:&|$)",
     "reason": "Previously excluded eSbirky image 325544"
+  },
+  {
+    "source": "(?i)^https?://(?:www\\.)?esbirky\\.cz/detail/276227/?(?:[?#]|$)",
+    "image": "(?i)^https?://(?:www\\.)?esbirky\\.cz/img\\.php\\?(?:[^&#]*&)*id=17700126(?:&|$)",
+    "reason": "eSbirky image 17700126 returns HTTP 404 (checked 2026-10-18 UTC)"
+  },
+  {
+    "source": "(?i)^https?://(?:www\\.)?esbirky\\.cz/detail/273455/?(?:[?#]|$)",
+    "image": "(?i)^https?://(?:www\\.)?esbirky\\.cz/img\\.php\\?(?:[^&#]*&)*id=17643726(?:&|$)",
+    "reason": "eSbirky image 17643726 returns HTTP 404 (checked 2026-10-18 UTC)"
+  },
+  {
+    "source": "(?i)^https?://(?:www\\.)?esbirky\\.cz/detail/275149/?(?:[?#]|$)",
+    "image": "(?i)^https?://(?:www\\.)?esbirky\\.cz/img\\.php\\?(?:[^&#]*&)*id=17700218(?:&|$)",
+    "reason": "eSbirky image 17700218 returns HTTP 404 (checked 2026-10-18 UTC)"
   }
 ]
