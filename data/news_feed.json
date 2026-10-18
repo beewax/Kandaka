@@ -1,43 +1,19 @@
 {
-  "updated": "2026-10-18T20:11:58.503386+00:00",
+  "updated": "2026-10-18T22:49:16.206439+00:00",
   "window_days": 30,
   "en": {
     "balanced": [
       {
-        "Title": "Drone strike kills at least 10 civilians in West Darfur",
+        "Title": "Sudan: Lawyer clarifies limits of immunity for dissidents returning for dialogue",
         "Lang": "en",
-        "Date": "2026-10-18T18:58:12+00:00",
-        "Permalink": "https://www.radiotamazuj.org/en/news/article/drone-strike-kills-at-least-10-civilians-in-west-darfur",
+        "Date": "2026-10-18T21:28:13+00:00",
+        "Permalink": "https://www.radiotamazuj.org/en/news/article/sudan-lawyer-clarifies-limits-of-immunity-for-dissidents-returning-for-dialogue",
         "Params": {
-          "description": "A drone strike killed at least 10 civilians and wounded five others in Sudan’s West The post Drone strike kills at least 10 civilians in West Darfur appeared first on Radio Tamazuj .",
+          "description": "A decree issued by Sudan’s Sovereign Council chairman Abdel Fattah al-Burhan provides temporary legal protection The post Sudan: Lawyer clarifies limits of immunity for dissidents returning for dialogue appeared first on Radio Tamazuj .",
           "source": "Radio Tamazuj",
           "source_id": "tamazuj-en",
           "source_class": "regional_journalism",
-          "link": "https://www.radiotamazuj.org/en/news/article/drone-strike-kills-at-least-10-civilians-in-west-darfur",
-          "status": "Reporting",
-          "geography": [
-            "Darfur"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "War & Security",
-          "clabel": "الحرب والأمن",
-          "language": "en",
-          "media_attribution": "Radio Tamazuj"
-        }
-      },
-      {
-        "Title": "Op-ed: Performing refugeehood – How will Sudanese navigate Egypt’s incoming asylum system?",
-        "Lang": "en",
-        "Date": "2026-10-18T16:20:02+00:00",
-        "Permalink": "https://www.dabangasudan.org/en/all-news/article/op-ed-performing-refugeehood-how-will-sudanese-navigate-egypts-incoming-asylum-system",
-        "Params": {
-          "description": "By Joseph A. Owens for Radio Dabanga Egypt has slowly whittled down its commitments to... The post Op-ed: Performing refugeehood – How will Sudanese navigate Egypt’s incoming asylum system? appeared first on Dabanga Radio TV Online .",
-          "source": "Radio Dabanga",
-          "source_id": "dabanga-en",
-          "source_class": "sudanese_journalism",
-          "link": "https://www.dabangasudan.org/en/all-news/article/op-ed-performing-refugeehood-how-will-sudanese-navigate-egypts-incoming-asylum-system",
+          "link": "https://www.radiotamazuj.org/en/news/article/sudan-lawyer-clarifies-limits-of-immunity-for-dissidents-returning-for-dialogue",
           "status": "Reporting",
           "geography": [
             "National"
@@ -47,6 +23,31 @@
           "related_sources": [],
           "category": "Sudan News",
           "clabel": "أخبار السودان",
+          "language": "en",
+          "media_attribution": "Radio Tamazuj"
+        }
+      },
+      {
+        "Title": "Drone strikes kill civilians in Darfur and Kordofan as attacks target eastern Sudan",
+        "Lang": "en",
+        "Date": "2026-10-18T18:03:52+00:00",
+        "Permalink": "https://www.dabangasudan.org/en/all-news/article/drone-strikes-kill-civilians-in-darfur-and-kordofan-as-attacks-target-eastern-sudan",
+        "Params": {
+          "description": "Drone attacks killed civilians in West Darfur and West Kordofan on Saturday, including women, while... The post Drone strikes kill civilians in Darfur and Kordofan as attacks target eastern Sudan appeared first on Dabanga Radio TV Online .",
+          "source": "Radio Dabanga",
+          "source_id": "dabanga-en",
+          "source_class": "sudanese_journalism",
+          "link": "https://www.dabangasudan.org/en/all-news/article/drone-strikes-kill-civilians-in-darfur-and-kordofan-as-attacks-target-eastern-sudan",
+          "status": "Reporting",
+          "geography": [
+            "Darfur",
+            "Kordofan"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "War & Security",
+          "clabel": "الحرب والأمن",
           "language": "en",
           "media_attribution": "Radio Dabanga"
         }
@@ -150,41 +151,16 @@
         }
       },
       {
-        "Title": "Drone strikes kill civilians in Darfur and Kordofan as attacks target eastern Sudan",
+        "Title": "Op-ed: Performing refugeehood – How will Sudanese navigate Egypt’s incoming asylum system?",
         "Lang": "en",
-        "Date": "2026-10-18T18:03:52+00:00",
-        "Permalink": "https://www.dabangasudan.org/en/all-news/article/drone-strikes-kill-civilians-in-darfur-and-kordofan-as-attacks-target-eastern-sudan",
+        "Date": "2026-10-18T16:20:02+00:00",
+        "Permalink": "https://www.dabangasudan.org/en/all-news/article/op-ed-performing-refugeehood-how-will-sudanese-navigate-egypts-incoming-asylum-system",
         "Params": {
-          "description": "Drone attacks killed civilians in West Darfur and West Kordofan on Saturday, including women, while... The post Drone strikes kill civilians in Darfur and Kordofan as attacks target eastern Sudan appeared first on Dabanga Radio TV Online .",
+          "description": "By Joseph A. Owens for Radio Dabanga Egypt has slowly whittled down its commitments to... The post Op-ed: Performing refugeehood – How will Sudanese navigate Egypt’s incoming asylum system? appeared first on Dabanga Radio TV Online .",
           "source": "Radio Dabanga",
           "source_id": "dabanga-en",
           "source_class": "sudanese_journalism",
-          "link": "https://www.dabangasudan.org/en/all-news/article/drone-strikes-kill-civilians-in-darfur-and-kordofan-as-attacks-target-eastern-sudan",
-          "status": "Reporting",
-          "geography": [
-            "Darfur",
-            "Kordofan"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "War & Security",
-          "clabel": "الحرب والأمن",
-          "language": "en",
-          "media_attribution": "Radio Dabanga"
-        }
-      },
-      {
-        "Title": "Sudan reaffirms Abyei claim as new chief takes office",
-        "Lang": "en",
-        "Date": "2026-10-17T22:23:34+00:00",
-        "Permalink": "https://www.radiotamazuj.org/en/news/article/sudan-reaffirms-abyei-claim-as-new-chief-takes-office",
-        "Params": {
-          "description": "Sudan’s newly appointed head of the joint oversight committee for the disputed Abyei region has The post Sudan reaffirms Abyei claim as new chief takes office appeared first on Radio Tamazuj .",
-          "source": "Radio Tamazuj",
-          "source_id": "tamazuj-en",
-          "source_class": "regional_journalism",
-          "link": "https://www.radiotamazuj.org/en/news/article/sudan-reaffirms-abyei-claim-as-new-chief-takes-office",
+          "link": "https://www.dabangasudan.org/en/all-news/article/op-ed-performing-refugeehood-how-will-sudanese-navigate-egypts-incoming-asylum-system",
           "status": "Reporting",
           "geography": [
             "National"
@@ -194,6 +170,30 @@
           "related_sources": [],
           "category": "Sudan News",
           "clabel": "أخبار السودان",
+          "language": "en",
+          "media_attribution": "Radio Dabanga"
+        }
+      },
+      {
+        "Title": "Drone strike kills at least 10 civilians in West Darfur",
+        "Lang": "en",
+        "Date": "2026-10-18T18:58:12+00:00",
+        "Permalink": "https://www.radiotamazuj.org/en/news/article/drone-strike-kills-at-least-10-civilians-in-west-darfur",
+        "Params": {
+          "description": "A drone strike killed at least 10 civilians and wounded five others in Sudan’s West The post Drone strike kills at least 10 civilians in West Darfur appeared first on Radio Tamazuj .",
+          "source": "Radio Tamazuj",
+          "source_id": "tamazuj-en",
+          "source_class": "regional_journalism",
+          "link": "https://www.radiotamazuj.org/en/news/article/drone-strike-kills-at-least-10-civilians-in-west-darfur",
+          "status": "Reporting",
+          "geography": [
+            "Darfur"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "War & Security",
+          "clabel": "الحرب والأمن",
           "language": "en",
           "media_attribution": "Radio Tamazuj"
         }
@@ -513,6 +513,30 @@
       }
     ],
     "latest": [
+      {
+        "Title": "Sudan: Lawyer clarifies limits of immunity for dissidents returning for dialogue",
+        "Lang": "en",
+        "Date": "2026-10-18T21:28:13+00:00",
+        "Permalink": "https://www.radiotamazuj.org/en/news/article/sudan-lawyer-clarifies-limits-of-immunity-for-dissidents-returning-for-dialogue",
+        "Params": {
+          "description": "A decree issued by Sudan’s Sovereign Council chairman Abdel Fattah al-Burhan provides temporary legal protection The post Sudan: Lawyer clarifies limits of immunity for dissidents returning for dialogue appeared first on Radio Tamazuj .",
+          "source": "Radio Tamazuj",
+          "source_id": "tamazuj-en",
+          "source_class": "regional_journalism",
+          "link": "https://www.radiotamazuj.org/en/news/article/sudan-lawyer-clarifies-limits-of-immunity-for-dissidents-returning-for-dialogue",
+          "status": "Reporting",
+          "geography": [
+            "National"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "Sudan News",
+          "clabel": "أخبار السودان",
+          "language": "en",
+          "media_attribution": "Radio Tamazuj"
+        }
+      },
       {
         "Title": "Drone strike kills at least 10 civilians in West Darfur",
         "Lang": "en",
@@ -4095,30 +4119,6 @@
           "language": "en",
           "media_attribution": "Radio Dabanga"
         }
-      },
-      {
-        "Title": "Ethiopia blames regional rivals as risk of conflict spillover rises",
-        "Lang": "en",
-        "Date": "2026-09-29T17:25:09+00:00",
-        "Permalink": "https://www.aljazeera.com/news/2026/9/29/ethiopia-blames-regional-rivals-as-risk-of-conflict-spillover-rises?traffic_source=rss",
-        "Params": {
-          "description": "Ethiopia accuses Sudan and Egypt of backing armed groups, deepening tensions amid internal unrest.",
-          "source": "Al Jazeera English",
-          "source_id": "aljazeera-en",
-          "source_class": "international_journalism",
-          "link": "https://www.aljazeera.com/news/2026/9/29/ethiopia-blames-regional-rivals-as-risk-of-conflict-spillover-rises?traffic_source=rss",
-          "status": "Reporting",
-          "geography": [
-            "National"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "International",
-          "clabel": "دولي",
-          "language": "en",
-          "media_attribution": "Al Jazeera English"
-        }
       }
     ],
     "publishers": 11
@@ -4126,27 +4126,51 @@
   "ar": {
     "balanced": [
       {
-        "Title": "السودان: الجدل بشأن تشكيل «فصائل مسلحة» خارج المؤسسة العسكرية يعود إلى الواجهة",
+        "Title": "السودان الان + | 18-10-2026",
         "Lang": "ar",
-        "Date": "2026-10-18T18:50:48+00:00",
-        "Permalink": "https://www.beamreports.com/2026/10/18/%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86-%d8%a7%d9%84%d8%ac%d8%af%d9%84-%d8%a8%d8%b4%d8%a3%d9%86-%d8%aa%d8%b4%d9%83%d9%8a%d9%84-%d9%81%d8%b5%d8%a7%d8%a6%d9%84-%d9%85%d8%b3%d9%84%d8%ad%d8%a9",
+        "Date": "2026-10-18T21:17:25+00:00",
+        "Permalink": "https://www.dabangasudan.org/ar/all-news/article/%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86-%d8%a7%d9%84%d8%a7%d9%86-18-10-2026",
         "Params": {
-          "description": "في وقت يتنامى فيه عدد الفصائل المسلحة خارج الهيكل النظامي للجيش السوداني، ومعظمها لمنشقين عن «الدعم السريع»، أعلن رئيس حركة وجيش تحرير السودان وحاكم إقليم دارفور وأحد أبرز حلفاء الجيش في الحرب، رفضه «أيّ دولة تدعم المليشيات». ووسط المواقف المتباينة من التشكيلات العسكرية خارج المؤسسة العسكرية، بما في ذلك الحركات المسلحة الموقعة على اتفاق جوبا […] The post السودان: الجدل بشأن تشكيل «فصائل مسلحة» خارج المؤسسة العسكرية ي",
-          "source": "بيم ريبورتس",
-          "source_id": "beam-ar",
+          "description": "من رصاص النزوح إلى الترشيح لجوائز دولية | السودان الآنبين وجع النزوح وتحديات البدء من... The post السودان الان + | 18-10-2026 appeared first on Dabanga Radio TV Online .",
+          "source": "راديو دبنقا",
+          "source_id": "dabanga-ar",
           "source_class": "sudanese_journalism",
-          "link": "https://www.beamreports.com/2026/10/18/%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86-%d8%a7%d9%84%d8%ac%d8%af%d9%84-%d8%a8%d8%b4%d8%a3%d9%86-%d8%aa%d8%b4%d9%83%d9%8a%d9%84-%d9%81%d8%b5%d8%a7%d8%a6%d9%84-%d9%85%d8%b3%d9%84%d8%ad%d8%a9",
+          "link": "https://www.dabangasudan.org/ar/all-news/article/%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86-%d8%a7%d9%84%d8%a7%d9%86-18-10-2026",
           "status": "Reporting",
           "geography": [
-            "Darfur"
+            "National"
           ],
           "image": "",
           "media_reuse_basis": "",
           "related_sources": [],
+          "category": "Sudan News",
+          "clabel": "أخبار السودان",
+          "language": "ar",
+          "media_attribution": "راديو دبنقا"
+        }
+      },
+      {
+        "Title": "السودان.. مقتل 11 نازحاً بهجوم لـ\"الدعم السريع\" في غرب دارفور",
+        "Lang": "ar",
+        "Date": "2026-10-18T20:59:41+00:00",
+        "Permalink": "https://www.alaraby.co.uk/politics/%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86-%D9%85%D9%82%D8%AA%D9%84-11-%D9%86%D8%A7%D8%B2%D8%AD%D8%A7%D9%8B-%D8%A8%D9%87%D8%AC%D9%88%D9%85-%D9%84%D9%80%D8%A7%D9%84%D8%AF%D8%B9%D9%85-%D8%A7%D9%84%D8%B3%D8%B1%D9%8A%D8%B9-%D9%81%D9%8A-%D8%BA%D8%B1%D8%A8-%D8%AF%D8%A7%D8%B1%D9%81%D9%88%D8%B1",
+        "Params": {
+          "description": "قتل 11 شخصاً وأُصيب 5 آخرون، معظمهم من النساء والأطفال، في هجوم شنته قوات الدعم السريع على مخيم للنازحين بولاية غرب دارفور، غربي السودان.",
+          "source": "العربي الجديد",
+          "source_id": "alaraby-ar",
+          "source_class": "regional_journalism",
+          "link": "https://www.alaraby.co.uk/politics/%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86-%D9%85%D9%82%D8%AA%D9%84-11-%D9%86%D8%A7%D8%B2%D8%AD%D8%A7%D9%8B-%D8%A8%D9%87%D8%AC%D9%88%D9%85-%D9%84%D9%80%D8%A7%D9%84%D8%AF%D8%B9%D9%85-%D8%A7%D9%84%D8%B3%D8%B1%D9%8A%D8%B9-%D9%81%D9%8A-%D8%BA%D8%B1%D8%A8-%D8%AF%D8%A7%D8%B1%D9%81%D9%88%D8%B1",
+          "status": "Reporting",
+          "geography": [
+            "Darfur"
+          ],
+          "image": "https://www.alaraby.co.uk/sites/default/files/styles/meduim_16_9/public/2299362522.jpeg?h=8e62b329&itok=DRiX0iJV",
+          "media_reuse_basis": "rss_metadata",
+          "related_sources": [],
           "category": "War & Security",
           "clabel": "الحرب والأمن",
           "language": "ar",
-          "media_attribution": "بيم ريبورتس"
+          "media_attribution": "العربي الجديد"
         }
       },
       {
@@ -4198,54 +4222,6 @@
         }
       },
       {
-        "Title": "كارثة صحية تضرب الأبيض بسبب دقيق إغاثي تالف ومطالبات بالتحقيق الفوري",
-        "Lang": "ar",
-        "Date": "2026-10-18T11:13:16+00:00",
-        "Permalink": "https://www.dabangasudan.org/ar/all-news/article/%d9%83%d8%a7%d8%b1%d8%ab%d8%a9-%d8%b5%d8%ad%d9%8a%d8%a9-%d8%aa%d8%b6%d8%b1%d8%a8-%d8%a7%d9%84%d8%a3%d8%a8%d9%8a%d8%b6-%d8%a8%d8%b3%d8%a8%d8%a8-%d8%af%d9%82%d9%8a%d9%82-%d8%a5%d8%ba%d8%a7%d8%ab%d9%8a",
-        "Params": {
-          "description": "الابيض-18 أكتوبر 2026- راديو دبنقا​شهدت مدينة الأبيض حاضرة ولاية شمال كردفان أزمة إنسانية وصحية بالغة... The post كارثة صحية تضرب الأبيض بسبب دقيق إغاثي تالف ومطالبات بالتحقيق الفوري appeared first on Dabanga Radio TV Online .",
-          "source": "راديو دبنقا",
-          "source_id": "dabanga-ar",
-          "source_class": "sudanese_journalism",
-          "link": "https://www.dabangasudan.org/ar/all-news/article/%d9%83%d8%a7%d8%b1%d8%ab%d8%a9-%d8%b5%d8%ad%d9%8a%d8%a9-%d8%aa%d8%b6%d8%b1%d8%a8-%d8%a7%d9%84%d8%a3%d8%a8%d9%8a%d8%b6-%d8%a8%d8%b3%d8%a8%d8%a8-%d8%af%d9%82%d9%8a%d9%82-%d8%a5%d8%ba%d8%a7%d8%ab%d9%8a",
-          "status": "Reporting",
-          "geography": [
-            "Kordofan"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "Humanitarian",
-          "clabel": "إنساني",
-          "language": "ar",
-          "media_attribution": "راديو دبنقا"
-        }
-      },
-      {
-        "Title": "السلاحف تقدم تحذيراً من تبعات ارتفاع درجة حرارة البحر الأبيض المتوسط",
-        "Lang": "ar",
-        "Date": "2026-10-18T08:51:47+00:00",
-        "Permalink": "https://www.alaraby.co.uk/society/السلاحف-تقدم-تحذيراً-من-تبعات-ارتفاع-درجة-حرارة-البحر-الأبيض-المتوسط",
-        "Params": {
-          "description": "تمثّل السلاحف مؤشّراً على صحة النظام البيئي في البحر الأبيض المتوسط، من بينها السلحفاة ضخمة الرأس، وسط تغيّر المناخ وتبعاته من ارتفاع في حرارة مياه البحر.",
-          "source": "العربي الجديد",
-          "source_id": "alaraby-ar",
-          "source_class": "regional_journalism",
-          "link": "https://www.alaraby.co.uk/society/السلاحف-تقدم-تحذيراً-من-تبعات-ارتفاع-درجة-حرارة-البحر-الأبيض-المتوسط",
-          "status": "Reporting",
-          "geography": [
-            "Kordofan"
-          ],
-          "image": "https://www.alaraby.co.uk/sites/default/files/styles/meduim_16_9/public/2026-10/2026-10-16T070103Z_125340600_RC2NBNAACWBX_RTRMADP_3_CLIMATE-COP31-MARINE-TURTLES_1.jpg?h=8f7600de&itok=2kfYXKKH",
-          "media_reuse_basis": "rss_metadata",
-          "related_sources": [],
-          "category": "Health",
-          "clabel": "صحة",
-          "language": "ar",
-          "media_attribution": "العربي الجديد"
-        }
-      },
-      {
         "Title": "مسيّرات الدعم السريع تهاجم سدي عطبرة وستيت وخزان خشم القربة",
         "Lang": "ar",
         "Date": "2026-10-18T14:15:01+00:00",
@@ -4270,30 +4246,6 @@
           "clabel": "الحرب والأمن",
           "language": "ar",
           "media_attribution": "التغيير"
-        }
-      },
-      {
-        "Title": "تدشين مشروع “أيادي الخير” لتمكين 28 أرملة بإقليم النيل الأزرق",
-        "Lang": "ar",
-        "Date": "2026-10-16T12:33:36+00:00",
-        "Permalink": "https://www.radiotamazuj.org/ar/news/article/%d8%aa%d8%af%d8%b4%d9%8a%d9%86-%d9%85%d8%b4%d8%b1%d9%88%d8%b9-%d8%a3%d9%8a%d8%a7%d8%af%d9%8a-%d8%a7%d9%84%d8%ae%d9%8a%d8%b1-%d9%84%d8%aa%d9%85%d9%83%d9%8a%d9%86-28-%d8%a3%d8%b1%d9%85%d9%84%d8%a9",
-        "Params": {
-          "description": "دشنت جمعية “كافل اليتيم” بإقليم النيل الأزرق في السودان، مشروع “أيادي الخير” لدعم الأرامل وتمكينهن The post تدشين مشروع “أيادي الخير” لتمكين 28 أرملة بإقليم النيل الأزرق appeared first on Radio Tamazuj .",
-          "source": "راديو تمازج",
-          "source_id": "tamazuj-ar",
-          "source_class": "regional_journalism",
-          "link": "https://www.radiotamazuj.org/ar/news/article/%d8%aa%d8%af%d8%b4%d9%8a%d9%86-%d9%85%d8%b4%d8%b1%d9%88%d8%b9-%d8%a3%d9%8a%d8%a7%d8%af%d9%8a-%d8%a7%d9%84%d8%ae%d9%8a%d8%b1-%d9%84%d8%aa%d9%85%d9%83%d9%8a%d9%86-28-%d8%a3%d8%b1%d9%85%d9%84%d8%a9",
-          "status": "Reporting",
-          "geography": [
-            "Blue Nile"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "Sudan News",
-          "clabel": "أخبار السودان",
-          "language": "ar",
-          "media_attribution": "راديو تمازج"
         }
       },
       {
@@ -4322,6 +4274,30 @@
         }
       },
       {
+        "Title": "السودان: الجدل بشأن تشكيل «فصائل مسلحة» خارج المؤسسة العسكرية يعود إلى الواجهة",
+        "Lang": "ar",
+        "Date": "2026-10-18T18:50:48+00:00",
+        "Permalink": "https://www.beamreports.com/2026/10/18/%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86-%d8%a7%d9%84%d8%ac%d8%af%d9%84-%d8%a8%d8%b4%d8%a3%d9%86-%d8%aa%d8%b4%d9%83%d9%8a%d9%84-%d9%81%d8%b5%d8%a7%d8%a6%d9%84-%d9%85%d8%b3%d9%84%d8%ad%d8%a9",
+        "Params": {
+          "description": "في وقت يتنامى فيه عدد الفصائل المسلحة خارج الهيكل النظامي للجيش السوداني، ومعظمها لمنشقين عن «الدعم السريع»، أعلن رئيس حركة وجيش تحرير السودان وحاكم إقليم دارفور وأحد أبرز حلفاء الجيش في الحرب، رفضه «أيّ دولة تدعم المليشيات». ووسط المواقف المتباينة من التشكيلات العسكرية خارج المؤسسة العسكرية، بما في ذلك الحركات المسلحة الموقعة على اتفاق جوبا […] The post السودان: الجدل بشأن تشكيل «فصائل مسلحة» خارج المؤسسة العسكرية ي",
+          "source": "بيم ريبورتس",
+          "source_id": "beam-ar",
+          "source_class": "sudanese_journalism",
+          "link": "https://www.beamreports.com/2026/10/18/%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86-%d8%a7%d9%84%d8%ac%d8%af%d9%84-%d8%a8%d8%b4%d8%a3%d9%86-%d8%aa%d8%b4%d9%83%d9%8a%d9%84-%d9%81%d8%b5%d8%a7%d8%a6%d9%84-%d9%85%d8%b3%d9%84%d8%ad%d8%a9",
+          "status": "Reporting",
+          "geography": [
+            "Darfur"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "War & Security",
+          "clabel": "الحرب والأمن",
+          "language": "ar",
+          "media_attribution": "بيم ريبورتس"
+        }
+      },
+      {
         "Title": "\"القزم الأبيض\"... علماء الفضاء يرصدون لأول مرة نجما بلون أخضر",
         "Lang": "ar",
         "Date": "2026-10-16T13:54:07+00:00",
@@ -4343,6 +4319,30 @@
           "clabel": "رياضة",
           "language": "ar",
           "media_attribution": "فرانس 24 عربي"
+        }
+      },
+      {
+        "Title": "هجمات المسيرات تعطل تعليم الأطفال في الأبيض بشمال كردفان",
+        "Lang": "ar",
+        "Date": "2026-10-16T12:41:39+00:00",
+        "Permalink": "https://www.radiotamazuj.org/ar/news/article/%d9%87%d8%ac%d9%85%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%b3%d9%8a%d8%b1%d8%a7%d8%aa-%d8%aa%d8%b9%d8%b7%d9%84-%d8%aa%d8%b9%d9%84%d9%8a%d9%85-%d8%a7%d9%84%d8%a3%d8%b7%d9%81%d8%a7%d9%84-%d9%81%d9%8a-%d8%a7",
+        "Params": {
+          "description": "يواجه الأطفال في مدينة الأبيض، عاصمة ولاية شمال كردفان، إغلاقاً متكرراً للمدارس بسبب تحليق الطائرات The post هجمات المسيرات تعطل تعليم الأطفال في الأبيض بشمال كردفان appeared first on Radio Tamazuj .",
+          "source": "راديو تمازج",
+          "source_id": "tamazuj-ar",
+          "source_class": "regional_journalism",
+          "link": "https://www.radiotamazuj.org/ar/news/article/%d9%87%d8%ac%d9%85%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%b3%d9%8a%d8%b1%d8%a7%d8%aa-%d8%aa%d8%b9%d8%b7%d9%84-%d8%aa%d8%b9%d9%84%d9%8a%d9%85-%d8%a7%d9%84%d8%a3%d8%b7%d9%81%d8%a7%d9%84-%d9%81%d9%8a-%d8%a7",
+          "status": "Reporting",
+          "geography": [
+            "Kordofan"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "Education",
+          "clabel": "تعليم",
+          "language": "ar",
+          "media_attribution": "راديو تمازج"
         }
       },
       {
@@ -4418,30 +4418,6 @@
         }
       },
       {
-        "Title": "انفجارات قوية في مخزن للأسلحة تثير الهلع في الخرطوم",
-        "Lang": "ar",
-        "Date": "2026-10-17T18:45:39+00:00",
-        "Permalink": "https://www.alaraby.co.uk/politics/انفجارات-قوية-في-مخزن-للأسلحة-تثير-الهلع-في-الخرطوم",
-        "Params": {
-          "description": "سبّبت انفجارات قوية في مدينة بحري، شمال العاصمة السودانية الخرطوم، عصر اليوم السبت، إثارةَ الهلع بين المواطنين، بسبب شدتها.",
-          "source": "العربي الجديد",
-          "source_id": "alaraby-ar",
-          "source_class": "regional_journalism",
-          "link": "https://www.alaraby.co.uk/politics/انفجارات-قوية-في-مخزن-للأسلحة-تثير-الهلع-في-الخرطوم",
-          "status": "Reporting",
-          "geography": [
-            "Khartoum"
-          ],
-          "image": "https://www.alaraby.co.uk/sites/default/files/styles/meduim_16_9/public/1532554629.jpeg?h=a5f2f23a&itok=iL4lphv0",
-          "media_reuse_basis": "rss_metadata",
-          "related_sources": [],
-          "category": "Analysis",
-          "clabel": "تحليل",
-          "language": "ar",
-          "media_attribution": "العربي الجديد"
-        }
-      },
-      {
         "Title": "في مجلس الأمن: دعوة للوصول الجوي الإنساني إلى دارفور وتحذير من المسيرات",
         "Lang": "ar",
         "Date": "2026-10-18T15:51:12+00:00",
@@ -4463,6 +4439,30 @@
           "clabel": "إنساني",
           "language": "ar",
           "media_attribution": "راديو دبنقا"
+        }
+      },
+      {
+        "Title": "السلاحف تقدم تحذيراً من تبعات ارتفاع درجة حرارة البحر الأبيض المتوسط",
+        "Lang": "ar",
+        "Date": "2026-10-18T08:51:47+00:00",
+        "Permalink": "https://www.alaraby.co.uk/society/السلاحف-تقدم-تحذيراً-من-تبعات-ارتفاع-درجة-حرارة-البحر-الأبيض-المتوسط",
+        "Params": {
+          "description": "تمثّل السلاحف مؤشّراً على صحة النظام البيئي في البحر الأبيض المتوسط، من بينها السلحفاة ضخمة الرأس، وسط تغيّر المناخ وتبعاته من ارتفاع في حرارة مياه البحر.",
+          "source": "العربي الجديد",
+          "source_id": "alaraby-ar",
+          "source_class": "regional_journalism",
+          "link": "https://www.alaraby.co.uk/society/السلاحف-تقدم-تحذيراً-من-تبعات-ارتفاع-درجة-حرارة-البحر-الأبيض-المتوسط",
+          "status": "Reporting",
+          "geography": [
+            "Kordofan"
+          ],
+          "image": "https://www.alaraby.co.uk/sites/default/files/styles/meduim_16_9/public/2026-10/2026-10-16T070103Z_125340600_RC2NBNAACWBX_RTRMADP_3_CLIMATE-COP31-MARINE-TURTLES_1.jpg?h=8f7600de&itok=2kfYXKKH",
+          "media_reuse_basis": "rss_metadata",
+          "related_sources": [],
+          "category": "Health",
+          "clabel": "صحة",
+          "language": "ar",
+          "media_attribution": "العربي الجديد"
         }
       },
       {
@@ -4514,30 +4514,6 @@
         }
       },
       {
-        "Title": "هجمات المسيرات تعطل تعليم الأطفال في الأبيض بشمال كردفان",
-        "Lang": "ar",
-        "Date": "2026-10-16T12:41:39+00:00",
-        "Permalink": "https://www.radiotamazuj.org/ar/news/article/%d9%87%d8%ac%d9%85%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%b3%d9%8a%d8%b1%d8%a7%d8%aa-%d8%aa%d8%b9%d8%b7%d9%84-%d8%aa%d8%b9%d9%84%d9%8a%d9%85-%d8%a7%d9%84%d8%a3%d8%b7%d9%81%d8%a7%d9%84-%d9%81%d9%8a-%d8%a7",
-        "Params": {
-          "description": "يواجه الأطفال في مدينة الأبيض، عاصمة ولاية شمال كردفان، إغلاقاً متكرراً للمدارس بسبب تحليق الطائرات The post هجمات المسيرات تعطل تعليم الأطفال في الأبيض بشمال كردفان appeared first on Radio Tamazuj .",
-          "source": "راديو تمازج",
-          "source_id": "tamazuj-ar",
-          "source_class": "regional_journalism",
-          "link": "https://www.radiotamazuj.org/ar/news/article/%d9%87%d8%ac%d9%85%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%b3%d9%8a%d8%b1%d8%a7%d8%aa-%d8%aa%d8%b9%d8%b7%d9%84-%d8%aa%d8%b9%d9%84%d9%8a%d9%85-%d8%a7%d9%84%d8%a3%d8%b7%d9%81%d8%a7%d9%84-%d9%81%d9%8a-%d8%a7",
-          "status": "Reporting",
-          "geography": [
-            "Kordofan"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "Education",
-          "clabel": "تعليم",
-          "language": "ar",
-          "media_attribution": "راديو تمازج"
-        }
-      },
-      {
         "Title": "العم صديق يوسف .. الحزب الشيوعي السوداني وافيون المثقفين",
         "Lang": "ar",
         "Date": "2026-10-17T11:49:45+00:00",
@@ -4559,6 +4535,30 @@
           "clabel": "سياسة",
           "language": "ar",
           "media_attribution": "التغيير"
+        }
+      },
+      {
+        "Title": "تدشين مشروع “أيادي الخير” لتمكين 28 أرملة بإقليم النيل الأزرق",
+        "Lang": "ar",
+        "Date": "2026-10-16T12:33:36+00:00",
+        "Permalink": "https://www.radiotamazuj.org/ar/news/article/%d8%aa%d8%af%d8%b4%d9%8a%d9%86-%d9%85%d8%b4%d8%b1%d9%88%d8%b9-%d8%a3%d9%8a%d8%a7%d8%af%d9%8a-%d8%a7%d9%84%d8%ae%d9%8a%d8%b1-%d9%84%d8%aa%d9%85%d9%83%d9%8a%d9%86-28-%d8%a3%d8%b1%d9%85%d9%84%d8%a9",
+        "Params": {
+          "description": "دشنت جمعية “كافل اليتيم” بإقليم النيل الأزرق في السودان، مشروع “أيادي الخير” لدعم الأرامل وتمكينهن The post تدشين مشروع “أيادي الخير” لتمكين 28 أرملة بإقليم النيل الأزرق appeared first on Radio Tamazuj .",
+          "source": "راديو تمازج",
+          "source_id": "tamazuj-ar",
+          "source_class": "regional_journalism",
+          "link": "https://www.radiotamazuj.org/ar/news/article/%d8%aa%d8%af%d8%b4%d9%8a%d9%86-%d9%85%d8%b4%d8%b1%d9%88%d8%b9-%d8%a3%d9%8a%d8%a7%d8%af%d9%8a-%d8%a7%d9%84%d8%ae%d9%8a%d8%b1-%d9%84%d8%aa%d9%85%d9%83%d9%8a%d9%86-28-%d8%a3%d8%b1%d9%85%d9%84%d8%a9",
+          "status": "Reporting",
+          "geography": [
+            "Blue Nile"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "Sudan News",
+          "clabel": "أخبار السودان",
+          "language": "ar",
+          "media_attribution": "راديو تمازج"
         }
       },
       {
@@ -4610,30 +4610,6 @@
         }
       },
       {
-        "Title": "السودان يشكل لجنة لتقصّي ملابسات قصف \"الدهّابة\" على الحدود مع مصر",
-        "Lang": "ar",
-        "Date": "2026-10-12T19:22:20+00:00",
-        "Permalink": "https://www.bbc.com/arabic/articles/cw8rzk7d821go?at_medium=RSS&at_campaign=rss",
-        "Params": {
-          "description": "إفادات مصادر محلية تتحدث عن أن ما يوصف بالقصف الجوي الذي طال منجم العقيدات القريب من سوق الأنصاري بمنطقة \"شمال الوادي\"، أسفر عن مقتل وإصابة العشرات، دون تحديد عدد بعينه، في ظل تضارب الأرقام المتواترة في هذا الصدد، لكن ما هو مؤكد وجود قتلى ومصابين بين المعدِنين.",
-          "source": "بي بي سي عربي",
-          "source_id": "bbc-ar",
-          "source_class": "international_journalism",
-          "link": "https://www.bbc.com/arabic/articles/cw8rzk7d821go?at_medium=RSS&at_campaign=rss",
-          "status": "Reporting",
-          "geography": [
-            "National"
-          ],
-          "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/b126/live/e54b6880-c64a-11f1-b47f-e3f9cf703bc3.jpg",
-          "media_reuse_basis": "rss_metadata",
-          "related_sources": [],
-          "category": "International",
-          "clabel": "دولي",
-          "language": "ar",
-          "media_attribution": "بي بي سي عربي"
-        }
-      },
-      {
         "Title": "مقتل عشرات المنقبين السودانيين في قصف عند الحدود مع مصر: اتهامات للقاهرة والخرطوم تحقق..",
         "Lang": "ar",
         "Date": "2026-10-14T10:59:20+00:00",
@@ -4655,6 +4631,30 @@
           "clabel": "الحرب والأمن",
           "language": "ar",
           "media_attribution": "فرانس 24 عربي"
+        }
+      },
+      {
+        "Title": "السودان يشكل لجنة لتقصّي ملابسات قصف \"الدهّابة\" على الحدود مع مصر",
+        "Lang": "ar",
+        "Date": "2026-10-12T19:22:20+00:00",
+        "Permalink": "https://www.bbc.com/arabic/articles/cw8rzk7d821go?at_medium=RSS&at_campaign=rss",
+        "Params": {
+          "description": "إفادات مصادر محلية تتحدث عن أن ما يوصف بالقصف الجوي الذي طال منجم العقيدات القريب من سوق الأنصاري بمنطقة \"شمال الوادي\"، أسفر عن مقتل وإصابة العشرات، دون تحديد عدد بعينه، في ظل تضارب الأرقام المتواترة في هذا الصدد، لكن ما هو مؤكد وجود قتلى ومصابين بين المعدِنين.",
+          "source": "بي بي سي عربي",
+          "source_id": "bbc-ar",
+          "source_class": "international_journalism",
+          "link": "https://www.bbc.com/arabic/articles/cw8rzk7d821go?at_medium=RSS&at_campaign=rss",
+          "status": "Reporting",
+          "geography": [
+            "National"
+          ],
+          "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/b126/live/e54b6880-c64a-11f1-b47f-e3f9cf703bc3.jpg",
+          "media_reuse_basis": "rss_metadata",
+          "related_sources": [],
+          "category": "International",
+          "clabel": "دولي",
+          "language": "ar",
+          "media_attribution": "بي بي سي عربي"
         }
       },
       {
@@ -4708,6 +4708,78 @@
       }
     ],
     "latest": [
+      {
+        "Title": "تعدين الذهب العشوائي يُهدد ولايات الشمال بالانهيار البيئي والصحي",
+        "Lang": "ar",
+        "Date": "2026-10-18T22:10:34+00:00",
+        "Permalink": "https://sudantribune.net/article/320123",
+        "Params": {
+          "description": "أبو حمد 19 أكتوبر 2026 – بينما تشتعل جبهات القتال في عدد من الأقاليم، دفع جحيم الحرب مئات الآلاف من السودانيين نحو الولايات الشمالية والشرقية والوسطى التي وُصفت بـ”ملاذات الأمان”. لكن هذه الولايات، وعلى رأسها نهر النيل والشمالية، لم تكن بمعزل عن الكارثة، إذ تحولت إلى مسرح مفتوح ومستباح لـ”اقتصاد الموت”، متمثلاً في طفرة غير مسبوقة للتعدين العشوائي عن الذهب. وتحيط بهذه الولايات كارثة بيئية وصحية ناجمة عن استخدام مواد ك",
+          "source": "Sudan Tribune Arabic",
+          "source_id": "sudan-tribune-ar",
+          "source_class": "sudanese_journalism",
+          "link": "https://sudantribune.net/article/320123",
+          "status": "Reporting",
+          "geography": [
+            "National"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "Health",
+          "clabel": "صحة",
+          "language": "ar",
+          "media_attribution": "Sudan Tribune Arabic"
+        }
+      },
+      {
+        "Title": "السودان الان + | 18-10-2026",
+        "Lang": "ar",
+        "Date": "2026-10-18T21:17:25+00:00",
+        "Permalink": "https://www.dabangasudan.org/ar/all-news/article/%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86-%d8%a7%d9%84%d8%a7%d9%86-18-10-2026",
+        "Params": {
+          "description": "من رصاص النزوح إلى الترشيح لجوائز دولية | السودان الآنبين وجع النزوح وتحديات البدء من... The post السودان الان + | 18-10-2026 appeared first on Dabanga Radio TV Online .",
+          "source": "راديو دبنقا",
+          "source_id": "dabanga-ar",
+          "source_class": "sudanese_journalism",
+          "link": "https://www.dabangasudan.org/ar/all-news/article/%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86-%d8%a7%d9%84%d8%a7%d9%86-18-10-2026",
+          "status": "Reporting",
+          "geography": [
+            "National"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "Sudan News",
+          "clabel": "أخبار السودان",
+          "language": "ar",
+          "media_attribution": "راديو دبنقا"
+        }
+      },
+      {
+        "Title": "السودان.. مقتل 11 نازحاً بهجوم لـ\"الدعم السريع\" في غرب دارفور",
+        "Lang": "ar",
+        "Date": "2026-10-18T20:59:41+00:00",
+        "Permalink": "https://www.alaraby.co.uk/politics/%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86-%D9%85%D9%82%D8%AA%D9%84-11-%D9%86%D8%A7%D8%B2%D8%AD%D8%A7%D9%8B-%D8%A8%D9%87%D8%AC%D9%88%D9%85-%D9%84%D9%80%D8%A7%D9%84%D8%AF%D8%B9%D9%85-%D8%A7%D9%84%D8%B3%D8%B1%D9%8A%D8%B9-%D9%81%D9%8A-%D8%BA%D8%B1%D8%A8-%D8%AF%D8%A7%D8%B1%D9%81%D9%88%D8%B1",
+        "Params": {
+          "description": "قتل 11 شخصاً وأُصيب 5 آخرون، معظمهم من النساء والأطفال، في هجوم شنته قوات الدعم السريع على مخيم للنازحين بولاية غرب دارفور، غربي السودان.",
+          "source": "العربي الجديد",
+          "source_id": "alaraby-ar",
+          "source_class": "regional_journalism",
+          "link": "https://www.alaraby.co.uk/politics/%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86-%D9%85%D9%82%D8%AA%D9%84-11-%D9%86%D8%A7%D8%B2%D8%AD%D8%A7%D9%8B-%D8%A8%D9%87%D8%AC%D9%88%D9%85-%D9%84%D9%80%D8%A7%D9%84%D8%AF%D8%B9%D9%85-%D8%A7%D9%84%D8%B3%D8%B1%D9%8A%D8%B9-%D9%81%D9%8A-%D8%BA%D8%B1%D8%A8-%D8%AF%D8%A7%D8%B1%D9%81%D9%88%D8%B1",
+          "status": "Reporting",
+          "geography": [
+            "Darfur"
+          ],
+          "image": "https://www.alaraby.co.uk/sites/default/files/styles/meduim_16_9/public/2299362522.jpeg?h=8e62b329&itok=DRiX0iJV",
+          "media_reuse_basis": "rss_metadata",
+          "related_sources": [],
+          "category": "War & Security",
+          "clabel": "الحرب والأمن",
+          "language": "ar",
+          "media_attribution": "العربي الجديد"
+        }
+      },
       {
         "Title": "السودان: الجدل بشأن تشكيل «فصائل مسلحة» خارج المؤسسة العسكرية يعود إلى الواجهة",
         "Lang": "ar",
@@ -8258,78 +8330,6 @@
           "clabel": "الحرب والأمن",
           "language": "ar",
           "media_attribution": "التغيير"
-        }
-      },
-      {
-        "Title": "صمت البرهان يزيد الشكوك حول تورطه في قتل المعدّنين",
-        "Lang": "ar",
-        "Date": "2026-10-15T18:56:03+00:00",
-        "Permalink": "https://www.altaghyeer.info/ar/2026/10/15/%d8%b5%d9%85%d8%aa-%d8%a7%d9%84%d8%a8%d8%b1%d9%87%d8%a7%d9%86-%d9%8a%d8%b2%d9%8a%d8%af-%d8%a7%d9%84%d8%b4%d9%83%d9%88%d9%83-%d8%ad%d9%88%d9%84-%d8%aa%d9%88%d8%b1%d8%b7%d9%87-%d9%81%d9%8a-%d9%82%d8%aa",
-        "Params": {
-          "description": "صمت البرهان يزيد الشكوك حول تورطه في قتل المعدّنين صلاح شعيب ما يزال الرأي العام السوداني يواصل إدانته الشديدة للجريمة النكراء التي ارتكبها الجيش المصري بحق الأراضي والسيادة السودانية. ولأول مرة منذ سقوط نظام الحركة الإسلامية، يتوحد قطاع واسع من السودانيين على التعبير عن غضبهم المكبوت تجاه هذه الانتهاكات، في مشهد يعكس عمق الإحساس بالإهانة …",
-          "source": "التغيير",
-          "source_id": "altaghyeer-ar",
-          "source_class": "sudanese_journalism",
-          "link": "https://www.altaghyeer.info/ar/2026/10/15/%d8%b5%d9%85%d8%aa-%d8%a7%d9%84%d8%a8%d8%b1%d9%87%d8%a7%d9%86-%d9%8a%d8%b2%d9%8a%d8%af-%d8%a7%d9%84%d8%b4%d9%83%d9%88%d9%83-%d8%ad%d9%88%d9%84-%d8%aa%d9%88%d8%b1%d8%b7%d9%87-%d9%81%d9%8a-%d9%82%d8%aa",
-          "status": "Reporting",
-          "geography": [
-            "National"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "War & Security",
-          "clabel": "الحرب والأمن",
-          "language": "ar",
-          "media_attribution": "التغيير"
-        }
-      },
-      {
-        "Title": "البرهان يؤكد لترامب التزام السودان بجهود السلام الأميركية",
-        "Lang": "ar",
-        "Date": "2026-10-15T18:53:43+00:00",
-        "Permalink": "https://www.alaraby.co.uk/politics/البرهان-يؤكد-لترامب-التزام-السودان-بجهود-السلام-الأميركية",
-        "Params": {
-          "description": "بعث رئيس مجلس السيادة السوداني عبد الفتاح البرهان، اليوم الخميس، رسالة إلى الرئيس الأميركي دونالد ترامب، أعرب فيها عن التزام السودان بجهود تحقيق السلام.",
-          "source": "العربي الجديد",
-          "source_id": "alaraby-ar",
-          "source_class": "regional_journalism",
-          "link": "https://www.alaraby.co.uk/politics/البرهان-يؤكد-لترامب-التزام-السودان-بجهود-السلام-الأميركية",
-          "status": "Reporting",
-          "geography": [
-            "National"
-          ],
-          "image": "https://www.alaraby.co.uk/sites/default/files/styles/meduim_16_9/public/2290049536.jpeg?h=a5f2f23a&itok=xfnDt4v9",
-          "media_reuse_basis": "rss_metadata",
-          "related_sources": [],
-          "category": "Analysis",
-          "clabel": "تحليل",
-          "language": "ar",
-          "media_attribution": "العربي الجديد"
-        }
-      },
-      {
-        "Title": "مقاتلات (أف 16) مصرية نفذت قصف المنقّبين بقنابل زنة 400 كيلوغرام",
-        "Lang": "ar",
-        "Date": "2026-10-15T18:09:43+00:00",
-        "Permalink": "https://3ayin.com/egyptian-bombardment-",
-        "Params": {
-          "description": "عاين- 15 أكتوبر 2026 نفّذ الجيش المصري يوم السبت الماضي، ما لا يقل عن خمس غارات جوية باستخدام مقاتلات F-16 أمريكية الصنع، استهدفت منقّبين أهليين في منجم العقيدات للذهب بمنطقة شمال الوادي. وأسفرت الضربات عن مقتل نحو 72 شخصاً، إذ أصابت منقّبين يعملون في المنطقة الحدودية المتنازع عليها بين مصر والسودان والمعروفة بمثلث حلايب، وفقاً […]",
-          "source": "عاين",
-          "source_id": "ayin-ar",
-          "source_class": "sudanese_journalism",
-          "link": "https://3ayin.com/egyptian-bombardment-",
-          "status": "Reporting",
-          "geography": [
-            "National"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "War & Security",
-          "clabel": "الحرب والأمن",
-          "language": "ar",
-          "media_attribution": "عاين"
         }
       }
     ],
