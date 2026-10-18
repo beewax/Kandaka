@@ -611,3 +611,11 @@ Applied the separately approved 124-record exact metadata manifest. Total 205 me
 - KND-A137F36299CAF34C - Robert O. Collins. 2008. A History of Modern Sudan. Cambridge University Press2008; frontmatter extract.
 - KND-7C074AC6E78470A6 - Anna C. Rader. 2012. Overcoming the Past: War and Peace in Sudan and South Sudan. Chapter3 in On The Fault Line: Managing Tensions and Divisions Within Societies; Brenthurst Foundation2012.
 - KND-06562285C249ABA2 - Steffen Wenig. 1978. Africa in Antiquity: The Arts of Ancient Nubia and the Sudan, VolumeII: The Catalogue. Brooklyn Museum1978; translators Diana S. Peters/Charles M. Stern; editors Sylvia Hochfield/Elizabeth Riefstahl.
+
+## Official source follow-up: three records, two works - 18 October 2026
+
+Replaced failed R2 mappings with the publisher-hosted full GFI Sudan and Trade Integrity report and LSE Research Online full accepted manuscript for both Wasta catalog aliases. GFI PDF: HTTP200, application/pdf, 124pages, exact local SHA256 match. LSE PDF: HTTP200, application/pdf, 35pages;34body pages text-identical, wrapper identifies accepted version and private-use restrictions. The LSE cards link the institutional record and explicitly name the accepted manuscript, not a final published PDF. All metadata205,542records,covers/tags and unrelated editorial work preserved. Source repairs110->113; backlog302->299. No rehosting, access-control changes or original-file edits.
+
+- KND-3036D32E1B958FA4 - https://gfintegrity.org/wp-content/uploads/2020/05/Sudan-Report-2020_FINAL.pdf
+- KND-43167ED636D0D62B - https://researchonline.lse.ac.uk/id/eprint/85061/
+- KND-61243063459F72E4 - https://researchonline.lse.ac.uk/id/eprint/85061/
