@@ -482,3 +482,132 @@ Applied the separately approved 36-record exact metadata manifest. Total 81 meta
 - KND-F0949B67F5035A21 - John Freely. 2011. Light from the East: How the Science of Medieval Islam Helped to Shape the Western World. I.B.Tauris, 2011; 260 physical pages including preliminaries and index.
 - KND-90FE8BDDF6E335FE - Syed Farid Alatas. 2014. Applying Ibn Khaldun: The Recovery of a Lost Tradition in Sociology. Routledge Advances in Sociology 104; first published 2014; 224 physical pages through index.
 - KND-E008D07EDEC7F526 - Laurence Moftah (compiler and text editor); AUC Libraries and Learning Technologies, Reference Services Department. 2003. Nubia and the Nubian People: An Annotated Bibliography. July 2003; 78-page bibliography; annotations by Nermine Rifaat, Adib Sourial, Achiri and Malak Yousry; credits on page 78.
+
+## Approved 124 metadata-only corrections - 18 October 2026
+
+Applied the separately approved 124-record exact metadata manifest. Total 205 metadata records corrected. All 542 records, source/download URLs, format/status maps, display titles, covers and tags preserved. Source repairs remain 110; download backlog 302. No rehosting or download restoration.
+
+- KND-52B4CB6F5E04ADB8 - African Development Bank Group. 2018. After Two Decades of ‘Solitude’: Targeted Strategies for Quick Economic Wins. Sudan Economic Report; ISBN 978-9938-882-84-1.
+- KND-451780251FBDB572 - Amanda Zarder. n.d.. The Agricultural Revolution. 19-slide teaching presentation; undated.
+- KND-E7EE7093CA01BA63 - Ammar Abbker Abdalla. 2018. Towards sustainable management of water resources in Sudan. Arab International Academy journal, issue 4, December 2018, 1-10.
+- KND-D033EF0F8EA2C3D4 - Lycopodium. 2020. Feasibility Study: NI 43-101 Technical Report, Block 14 Gold Project, Republic of the Sudan. Report 14 September 2020, effective 31 August 2020; prepared for Orca Gold.
+- KND-A1F31BC858C29B5C - Federal Research Division, Library of Congress; LaVerle Berry (editor). 2015. Sudan: A Country Study. Fifth edition, first printing 2015; replaces Helen Chapin Metz 1992 edition.
+- KND-3036D32E1B958FA4 - Global Financial Integrity. 2020. Sudan and Trade Integrity. May 2020; 124 physical pages.
+- KND-58C8185C8E1D638F - Hussein Askary. 2010. Africa and the Four Powers: Sudan Inaugurates Continental Railway. EIR 37(3), 22 January 2010, printed 9-14.
+- KND-8ADA72166B0A7D0F - Infrastructure & Cities for Economic Development (ICED). 2018. Sudan Infrastructure Sector Overview. ICED 2018 sector briefing.
+- KND-20B0B123E7084FE8 - H. C. Jackson. 1926. Osman Digna. Methuen; first published 1926, visually magnified date.
+- KND-0D0091C5CB16CEE1 - Mahasin A. Daffall; Ishtiag Faroug Abdalla; Haider S. Abdalla. 2015. Evaluation of Some Orchards Management Practice under River Nile State - Sudan. International Journal of Agriculture Innovations and Research 3(6), 1691-1696.
+- KND-E1D111918122B6A1 - Mahmoud El-Tayeb. 2020. Dongola Reach: A Historical, Geographical and Economic Overview. Chapter 1; DOI 10.1163/9789004433755_002.
+- KND-468CDD84A8CAC994 - Muriel Mirak-Weissbach. 1996. The Gezira Scheme: Sudan's struggle for food self-sufficiency. EIR 23(41), 11 October 1996, printed 67-69.
+- KND-B417697C98D84DF0 - Włodzimierz Godlewski. 2013. Dongola - ancient Tungul: archaeological guide. PCMA Archaeological Guides 1; ISBN 978-83-903796-6-1.
+- KND-5AF05E85DEC17ABF - Patrick Conway. 1993. Sudan and the Exploitation of the Waters of the Nile. Revision April 1993; teaching case with appendix and instructor notes.
+- KND-7A54CB5D2DEC2843 - L. Berry; S. Geistfeld. 1983. Eastern African Country Profiles: Sudan. Revised edition, May 1983; International Development Program, Clark University.
+- KND-70518024F508986F - United Nations Conference on Trade and Development. 2015. Investment Policy Review: The Sudan. UNCTAD/DIAE/PCB/2014/5; New York/Geneva 2015.
+- KND-1D7341D863474695 - Sudan National Preparatory Committee for the United Nations Water Conference. 1977. The Water Resources of the Sudan. Democratic Republic of the Sudan; Mar del Plata conference report 1977.
+- KND-9E947509279EAD11 - World Food Programme / Logistics Cluster; Pamela Onyango (assessor). n.d.. Sudan: Logistics Capacity Assessment. Web-print; section table records September 2019 updates, not necessarily publication date.
+- KND-18CB40BB53403A5D - Nile Basin Initiative, Socio-economic Development and Benefit Sharing Project. 2009. Food-Poverty-Vulnerability Index Analysis for the Nile Basin Region (Ethiopia, Kenya and Sudan): Sudan. First Published 2009; older 2007/2008 cover wording is not substituted for imprint.
+- KND-F267BC56E91C5B08 - Hassan Elyas Mohammed. 1986. Khartoum Urban Area: A Study on Urban Planning. PhD thesis, Department of Geography, University of Khartoum, 1986.
+- KND-1D3C9ABB1B27DC5E - Commonwealth War Graves Commission. n.d.. In Memory of Lance Corporal William Henry Cecil Jackson. Memorial certificate; death date 22 May 1940 is not document publication date.
+- KND-3D96D2E69757450E - United Nations, Department of Field Support, Cartographic Section. 2012. Sudan. Map No. 4458 Rev. 2, March 2012; low-resolution map in June 2021 browser print.
+- KND-0BBE35999EF10B77 - Central Intelligence Agency, Directorate of Intelligence. 1982. Sudan: Agricultural Problems. NESA 82-10501, September 1982; approved for release 19 June 2007.
+- KND-385D258B4CFBB39D - Abdeen Mustafa Omer. 2008. Water resources and freshwater ecosystems in Sudan. Renewable and Sustainable Energy Reviews 12(8), 2066-2091, October 2008; DOI 10.1016/j.rser.2007.01.005.
+- KND-049A72113DF638A2 - United Nations Environment Programme. 2017. Water, vital for life and sustainable growth in Sudan. UNEP story, 7 August 2017; three-page browser print.
+- KND-9E39982C50358EA8 - Joseph Lafayette Gaston. n.d.. A Brief Overview of the Cultural Continuity along the Nile Valley during the 5th Millennium B.C.. ANKH 18/19/20, issue-year range 2009-2010-2011, printed 20-49.
+- KND-4C3A09CA03B42165 - Raoul McLaughlin. 2014. Desert Legions. History Today, June 2014, printed 31-37 plus rights notice.
+- KND-12C0AB49444D3412 - Steffen Wenig. 1978. Africa in Antiquity: The Arts of Ancient Nubia and the Sudan. Volume II: The Catalogue. Brooklyn Museum, 1978; translators Diana S. Peters and Charles M. Stern; editors Sylvia Hochfield and Elizabeth Riefstahl.
+- KND-ED87A370E1A2E748 - E. A. Wallis Budge. 1920. By Nile and Tigris: A Narrative of Journeys in Egypt and Mesopotamia on Behalf of the British Museum between the Years 1886 and 1913. Volume I. John Murray, London, 1920.
+- KND-D26F62F4F668FECB - R. S. O’Fahey; Jérôme Tubiana. n.d.. Darfur: Historical and Contemporary Aspects. 42-page report; publication date not printed in reviewed boundaries.
+- KND-4329E245E335AA5A - Timothy Kendall (editor). 2004. Nubian Studies 1998: Proceedings of the Ninth Conference of the International Society of Nubian Studies. Northeastern University, Boston, 2004; conference August 1998; ISBN 0-9761221-0-3.
+- KND-8F2A16ABCC4E23F1 - British Museum; The CarAf Centre. n.d.. The Wealth of Africa: The Kingdom of Kush. Students’ Worksheets. 12-page educational resource; undated.
+- KND-F1142A9AFD541C9F - Intisar Soghayroun Elzain. n.d.. Meroe, the City State, the Kingdom, the Empire: Why Meroe?. Printed 35-46, plus ResearchGate wrapper; February 2019 upload is not established publication date.
+- KND-251E812069DBBA7B - Roxanne L. Euben. 2008. Journeys to the Other Shore: Muslim and Western Travelers in Search of Knowledge. Princeton; second printing and first paperback printing 2008; original copyright 2006.
+- KND-3D5B662F4880A539 - De Lacy O’Leary. 1979. How Greek Science Passed to the Arabs. This edition 1979, Routledge & Kegan Paul; original 1949; ISBN 0 7100 1903 3; AINA digital derivative.
+- KND-DEE8D7B965419846 - George Gheverghese Joseph. 2011. The Crest of the Peacock: Non-European Roots of Mathematics. Third edition, Princeton 2011; original I.B.Tauris edition 1991.
+- KND-8D280CA947187CD3 - Dag Nikolaus Hasse. 2016. Success and Suppression: Arabic Sciences and Philosophy in the Renaissance. Harvard University Press, 2016.
+- KND-6BA5062DAD913A20 - Elias Muhanna. 2018. The World in a Book: Al-Nuwayri and the Islamic Encyclopedic Tradition. Princeton University Press, 2018.
+- KND-D553E6AFE717C2D9 - Omer S. Osman; Ibrahim Z. Bahreldin; Amira O. S. Osman. n.d.. Architecture in Sudan 1900-2014: An Endeavor Against the Odds. Five-page modified article; publication date not established; title period 1900-2014 is not a publication date.
+- KND-D9473A99EF16FA72 - Omer S. Osman; Amira O. S. Osman; Ibrahim Z. Bahreldin. 2011. Architecture in Sudan: The Post-Independence Era (1956-1970). Focus on the Work of Abdel Moneim Mustafa. Docomomo 44, 2011/1, 77-80; four article pages plus notice; 2005 issue 32 is only a cited reference.
+- KND-1F33308922B5C597 - Mohamed Babiker Ibrahim; Omer Abdalla Omer. 2014. Evolution and changes in the morphologies of Sudanese cities. Urban Geography 35(5), 735-756; DOI 10.1080/02723638.2014.919798.
+- KND-179BC520900BAA82 - Nancy Um. 2011. Greenlaw’s Suakin: The Limits of Architectural Representation and the Continuing Lives of Buildings in Coastal Sudan. African Arts 44(4), Winter 2011, 36-51.
+- KND-A6D2C63BE772B31B - Nancy Um. 2012. Reflections on the Red Sea Style: Beyond the Surface of Coastal Architecture. Northeast African Studies 12(1), 243-272.
+- KND-2F73277713DA8575 - NILE Magazine. 2018. NILE Magazine, Issue 13, April-May 2018. 25-page local issue extract.
+- KND-6ADA048DD0D6EEEF - Jean-Baptiste Gallopin. 2020. Bad company: How dark money threatens Sudan’s transition. European Council on Foreign Relations, 9 June 2020; Instapaper export October 2021.
+- KND-9A10595152EA79E0 - Jonathan Tossell. 2020. Consolidating Sudan’s transition: A question of legitimacy. Clingendael CRU Policy Brief, February 2020.
+- KND-3C2BFC83BF92A876 - Ali Abdel Gadir Ali; Ibrahim A. Elbadawi. 2004. Explaining Sudan’s Economic Growth Performance. AERC Working Paper 9, January 2004.
+- KND-D59B427F6CBF2E7A - A. F. Mazz. 1982. Perspectives on the Sudan: Isolation at Home and Abroad. ACAS Background Paper Number 1, September 1982.
+- KND-AC8D5EF6C8B528C6 - Jihad Mashamoun. 2021. Winners and Losers of Red Sea Politics in Sudan. African Arguments, 6 August 2021; publisher original confirms byline missing from print.
+- KND-886C36C639716D95 - Ahmed Soliman. 2019. Sudan Stakeholder Dialogues: Options for Economic Stabilization, Recovery and Inclusive Growth. Chatham House Africa Programme briefing note, October 2019; foreword by Abdalla Hamdok.
+- KND-99D8847794C41A37 - Republic of the Sudan. 2021. First Nationally Determined Contribution under the Paris Agreement. Updated October 2021.
+- KND-4E1DFE1024FB627A - Caitlin N. Howarth; Kaveh Khoshnood; Andrew Marx; Nathaniel A. Raymond; et al.. 2023. Widespread Human Security & Humanitarian Conflict Impacts. Sudan Conflict Observatory, Report 01, 9 June 2023; recommended citation printed p2.
+- KND-9C716EFB27D436CB - SOAS Centre of African Studies; Society for the Study of the Sudans UK. 2015. Agricultural Potential in the Sudans: Past Experience and Future Outlook. Seminar-series report, 7 December 2015; speaker Mohamed Al Nour Adam; chair Mawan Muortat.
+- KND-34DCF07FE873C877 - United Nations Environment Programme. n.d.. Agriculture and the environment. Chapter 8 of Sudan Post-Conflict Environmental Assessment, printed 158-191; publication year not on excerpt.
+- KND-FACB726356AC737B - Adam Welz. 2021. Are Huge Tree Planting Projects More Hype than Solution?. Yale Environment 360, 8 April 2021.
+- KND-D8B257F94D79E765 - International Irrigation Management Institute (issuing body). n.d.. Irrigation Management in Sudan: Gezira Scheme. Technical Report No. 3; multiple chapter authors; terminal workshop recommendations dated 27 April 1994 are not publication date.
+- KND-0F641A36D982639B - Elgilany A. Ahmed; Hamid H. M. Faki; Hashim A. Elobied. 2011. Potentiality of Organic Perennial Crops Farms in the River Nile State of Sudan. Journal of Science and Technology 12(4), December 2011.
+- KND-F475E237AD4755B0 - Eugene Cooper. 2009. Sahel Rainfall and Conflicts. Sudan Studies Association Bulletin 27(1), March 2009, 8-19.
+- KND-70C758DC7274F584 - Hind A. Elbashir; Mohamed A. Imam. 2010. Status Report on Fruits and Vegetables Production and Processing Industry in Sudan. 2010 AARDO Workshop on Technology on Reducing Post-harvest Losses and Maintaining Quality of Fruits and Vegetables, 168-179.
+- KND-EDDAA14090A6BA70 - Eckart Woertz. n.d.. Arab Food, Water and the Big Gulf Landgrab that Wasn’t. Author manuscript for The Brown Journal of World Affairs; undated local version.
+- KND-34D0C3BE8FD01225 - Muriel Mirak-Weissbach. 1995. The history of the Nile region. EIR 22(24), 9 June 1995; Special Report 19-27.
+- KND-3AA07C8DF8CB8F11 - John A. Shoup. 2017. The Nile: An Encyclopedia of Geography, History, and Culture. ABC-CLIO, 2017; ISBN 978-1-4408-4040-1.
+- KND-0F351AF3CE135C53 - Abdullahi Ahmed An-Na’im. 1988. Mahmud Muhammad Taha and the Crisis in Islamic Law Reform: Implications for Interreligious Relations. Journal of Ecumenical Studies 25(1), Winter 1988.
+- KND-6EB5E69ABDA3C8F6 - Nadir A. Nasidi. n.d.. A Black Power in the Blue Nile: A Military History of the Funj Sultanate of Sinnār 1503-1821. Journal of Zaria Historical Research 5(2); year not printed in reviewed local copy.
+- KND-734A0D9F9F332FD3 - S. F. Nadel. 1947. The Nuba: An Anthropological Study of the Hill Tribes in Kordofan. Oxford University Press, 1947; foreword by Hubert Huddleston.
+- KND-25C89C8D423F4EC8 - Kanya Godde; Richard L. Jantz. 2018. Evaluating Nubian Population Structure from Cranial Nonmetric Traits: Gene Flow, Genetic Drift, and Population History of the Nubian Nile Valley. Wayne State Human Biology Open Access Pre-Prints 127, repository citation 2018.
+- KND-2FD281C3AB7592D1 - Ulrike Nowotnick; Pawel Wolf; Florian Wöss; Saskia Büchner; Maren Minow. 2014. Hamadab: Urban living at the Nile in Meroitic times. Hamadab Archaeological Project booklet; Printed 2014.
+- KND-8364DDC6631F8474 - Alex de Voogt. 2012. Máncala at the pyramids of Meroe. Antiquity 86 (2012), 1155-1166.
+- KND-F23477304D0A60BB - Azhari Mustafa Sadig. 2010. The Neolithic of the Middle Nile Region: An Archaeology of Central Sudan and Nubia. Fountain Publishers, first published 2010; ISBN 978-9970-25-000-4.
+- KND-845C17F8A281963F - Ahmed Al-Shahi. n.d.. Northern Sudanese Perceptions of the Nubian Christian Legacy. Undated chapter extract, printed31-39; starts with preceding Roger Just page30.
+- KND-EE83B7C605D127AE - Joyce L. Haynes. 1992. Nubia: Ancient Kingdoms of Africa. Museum of Fine Arts, Boston, 1992; ISBN 0-87846-362-3.
+- KND-1F38C63881A5D714 - Museum of Fine Arts, Boston; Denise Doxey (curator). 2018. Nubia: Treasures of Ancient Sudan. MFA traveling-exhibition prospectus, copyright 2018.
+- KND-4CC942679CE56DAF - Larry Ross. 2013. Nubia and Egypt: 10,000 B.C. to 400 A.D. From Prehistory to the Meroitic Period. Edwin Mellen Press, copyright 2013; ISBN 978-0-7734-2646-7.
+- KND-717002AF098431E2 - Maria Costanza De Simone. 2014. Nubia and Nubians: The ‘Museumization’ of a Culture. Leiden doctoral dissertation, defended 12 February 2014; repository handle 1887/23598.
+- KND-9EEC86B61DE0B3FA - Janice W. Yellin. n.d.. Nubian Elite and Popular Religion during the Napatan and Meroitic Periods. 19-page manuscript; note identifies final illustrated chapter Nubian Religion in Ancient Nubia (2012), 125-144.
+- KND-2E5A6B64F2AF79B9 - David Roberts. 1993. Out of Africa: The superb artwork of ancient Nubia. Reprinted from Smithsonian, June 1993, 90-96, 98, 100.
+- KND-C2E39047F8AEEB9F - Elsa Yvanez. 2010. Rock Inscriptions from Semna and Kumma: Epigraphic Study. Sudan National Museum/NCAM, SFDAS, Khartoum 2010.
+- KND-9F726BE3A9C2E896 - Cornelia Kleinitz. 2012. Rock art at the Fourth Nile Cataract: An overview. Africa Praehistorica 22, 33-50, plates 9-11; conference 2006, published 2012.
+- KND-5FA6E2D6CC5B1571 - Ahmed Hamid Nassr. n.d.. Sennar Capital of Islamic Culture 2017 Project: Preliminary results of archaeological surveys in Sennar East and Sabaloka East. Sudan & Nubia article, 146-152; 2017 in project title is not publication date.
+- KND-38E4C42F995DC1C5 - Dan'el Kahn. 2018. Some Thoughts on Egyptian Elements in Kushite Religion and Rituals. Across the Mediterranean - Along the Nile, volume 1; Budapest/Archaeolingua 2018.
+- KND-4E02E73E642C07C0 - Erin Ingram. 2017. Tattooing and Scarification in Ancient Nubia: Teenage Rebellion or Cultural Norm?. Beitrage zur Sudanforschung 12, Wien 2017.
+- KND-61E0D3E6DFD0A7C4 - Charles Bonnet. 2019. The Black Kingdom of the Nile. Harvard University Press; Huggins Lectures; foreword Henry Louis Gates Jr..
+- KND-5AD765CA69CF9E71 - Ian Shaw; Paul Nicholson. 2002. The British Museum Dictionary of Ancient Egypt. AUC Press pocket edition first published in Egypt 2002; original1995, paperback1997.
+- KND-9B848E8F0C54D89C - Effrosyni Zacharopoulou. 2016. The Emergence of the State of Nobadia and the Byzantine Policy. Graeco-Africana et Afro-Byzantina, Johannesburg2016; conference2014 is not publication date.
+- KND-C08E27E545F65648 - Lewis Peake. n.d.. The Invisible Superpower: Review of the Geopolitical Status of Kushite (Twenty-fifth Dynasty) Egypt at the Height of its Power and a Historiographic Analysis of the Regime's Legacy. PAM Supplement Series2.2/2,465-476; year not established from local offprint.
+- KND-C69AA58886CF82C8 - National Geographic Society. n.d.. The Kingdoms of Kush. Website print;17February2024 printing timestamp is not publication date.
+- KND-DF4E6FB7A9379353 - Leonard Cottrell. 2005. The Lost Pharaohs. Kegan Paul, this edition2005; ISBN0710310471.
+- KND-231EBEBD1489E3E2 - Muhammad Shamsaddin Megalommatis. n.d.. The Meroitic Ethiopian Origins of the Modern Oromo Nation. Edited online version referring to American Chronicle and a10-page2005 OSA proceedings paper; local version date unresolved.
+- KND-907D6DB71F2C0EF1 - Artur Obluski; Wlodzimierz Godlewski; Wojciech Kolataj; Stanislaw Medeksza; Cristobal Calaforra-Rzepka. 2013. The Mosque Building in Old Dongola: Conservation and revitalization project. Polish Archaeology in the Mediterranean22 (Research2010),248-272; published2013.
+- KND-E32DAE656450F497 - David N. Edwards. 2004. The Nubian Past: An Archaeology of the Sudan. Routledge, first published2004.
+- KND-B9755BE659E32E7E - Bruce B. Williams; Lisa Heidorn. n.d.. The OI and Nubia. Discovering New Pasts: The OI at100; chapter358-387; container year not printed in selected extract.
+- KND-6124F9E8950E2CF1 - Marc Maillot. 2014. The Palace of Muweis in the Shendi Reach: A Comparative Approach. The Fourth Cataract and Beyond, Peeters2014,783-795; editors Julie R. Anderson/Derek A. Welsby.
+- KND-506035F8EF62A178 - Betty Winkelman. 2013. The Royal Cemeteries of Nubia. Ancient Egypt, December2013/January2014,34-42; issue spans two years.
+- KND-CBFA6C54FAA60A90 - Claude Rilly. 2013. The Sudan National Museum in Khartoum: An illustrated guide for visitors. SFDAS2013; design/English translation Solene Marion de Proce; Arabic translation Abdelrahman El-Siddig.
+- KND-A257451E31C8A648 - Carmen Ting; Jane Humphris. 2017. The technology and craft organisation of Kushite technical ceramic production at Meroe and Hamadab, Sudan. Journal of Archaeological Science: Reports16,34-43.
+- KND-8ABA7024E32552C2 - Azza Mustafa Babikir Ahmed. 2020. City-making in Africa: Urban planning and the reconfiguration of Tuti Island, Khartoum, Sudan. Middle Class Urbanism Working Papers1/2020; series editors not article authors.
+- KND-4BF5E95911C7D6E9 - Gamal M. Hamid; Ibrahim Z. Bahreldin. n.d.. Khartoum2030: Towards An Environmentally-Sensitive Vision for the Development of Greater Khartoum, Sudan. Undated local26-page paper;2030 is planning horizon,2009 cited masterplan not publication year.
+- KND-C62258610939C80B - African Union. n.d.. Towards the African Integrated High Speed Railway Network (AIHSRN) Development. 13-page institutional paper; local publication year not established.
+- KND-A85793B2CE5039C2 - Lycopodium. 2020. Block14 Gold Project, Republic of Sudan: NI43-101 Technical Report. Report14September2020, effective31August2020; same bytes as other Block14 alias.
+- KND-9E10B30278742721 - Nile Basin Initiative, Socio-economic Development and Benefit Sharing Project. 2009. Socio-economic Development and Benefit Sharing in the Nile Basin. First published2009; institutional report, not McManus/Butler authorship.
+- KND-FC8F82DCC8635E3D - MUSB OSMAN EBRAHIM; Hesham Aldeen Alkhar. n.d.. Uranium in Sudan. Ministry of Minerals/Geological Research Authority of Sudan presentation; names reproduced exactly as visual cover.
+- KND-270A3B8DA5926161 - Mohammed Alamin. 2021. Sudan Plans $640 Million Railway Revamp as It Relinks With World. Bloomberg,16July2021;2023 copyright footer not article date.
+- KND-2284BB29A7ED966B - International Bank for Reconstruction and Development, Department of Technical Operations. 1958. Appraisal of the Development Program of the Sudan Railways, Sudan. TO-180a,7July1958; terminal map IBRD475 May1958.
+- KND-61243063459F72E4 - Laura Mann. 2014. Wasta! The long-term implications of education expansion and economic liberalisation on Politics in Sudan. Review of African Political Economy41(142),561-578; DOI10.1080/03056244.2014.952276; accepted manuscript.
+- KND-FEE381C366AAE879 - United Nations Conference on Trade and Development. 2015. Investment Policy Review: The Sudan. United Nations2015; same file as another catalog alias.
+- KND-00F1B6C35233031C - International Conference on the Great Lakes Region. 2006. Southern Corridor (Great Lakes Region Railway) Project: Prefeasibility Study - Terms of Reference. Project3.3.4,March2006 amended August2006.
+- KND-5871FD387DB946CD - Andreas Jacobs. 2006. Reformist Islam: Protagonists, Methods, and Themes of Progressive Thinking in Contemporary Islam. Konrad Adenauer Stiftung Working Paper/Documentation155/2006,September2006.
+- KND-707213226FE87456 - James Fearon; David Laitin. 2006. Sudan (SudanRN1.2). Stanford random narrative accompanying civil-war-onset statistical analysis; draft5May2006.
+- KND-67CF72C1F807F23E - Hassan El Menyawi. 2012. Same-Sex Marriage in Islamic Law. Wake Forest Journal of Law & Policy2(2),375-531; own running header confirms2012.
+- KND-F7B8B8FE0A64F096 - Government of Sudan. 2005. The Draft Constitutional Text. 16March2005 draft.
+- KND-A1918217ACA02098 - Arnab Hazra; Raphael Huser. 2020. Estimating high-resolution Red Sea surface temperature hotspots, using a low-rank semiparametric spatial model. Manuscript dated20October2020; final publication date not claimed.
+- KND-6D5FA54101C950F5 - Embassy of the Netherlands, Khartoum; Ministry of Foreign Affairs of the Kingdom of the Netherlands. 2021. Call For Concept Notes on Investing in the Rain-Fed Agriculture in Sudan. News item30August2021; deadline30September2021.
+- KND-6982545D38B707A2 - Central Intelligence Agency. 1982. Sudan: Agricultural Problems. NESA82-10501,September1982;2007 release date not publication date.
+- KND-F9290BACADBEDDC1 - Jamie Stokes (editor). 2009. Encyclopedia of the Peoples of Africa and the Middle East. Infobase2009; ISBN9780816071586; ebook9781438126760.
+- KND-D31F421E373C8FE4 - Solange Ashby. 2016. Calling Out to Isis: The Enduring Nubian Presence at Philae. University of Chicago doctoral dissertation,June2016.
+- KND-F8DA4E6410BF3BEB - Republic of Sudan. 1998. Constitution of the Republic of Sudan. English text, entered into force1July1998 as printed on first page; historical text.
+- KND-8EFC63913B10B006 - Hadi Salehi Esfahani; M. Hashem Pesaran. 2008. Iranian Economy in the Twentieth Century: A Global Perspective. March2008 manuscript.
+- KND-06048E3D9E6F1921 - Akram Ahmed Khalifa. 2011. The Construction Industry of Sudan: Potentials and Challenges. Workshop paper,29May2011; Arabic visual byline: Akram Ahmed Khalifa.
+- KND-39DB991AC771E4B0 - Iman Sharif. 2022. Development Economics in Sudan: The Ten-Year Economic and Social Plan,1961-1970. Sudan Studies for South Sudan and Sudan66,July2022,29-38.
+- KND-E2A5B0F0EEB021E2 - Emanuel Beska. 2019. Muhammad Ali's Conquest of Sudan (1820-1824). Asian and African Studies28(1),30-56.
+- KND-78660C204A873BBC - A. C. S. Peacock. 2012. The Ottomans and the Funj Sultanate in the sixteenth and seventeenth centuries. Bulletin of the School of Oriental and African Studies75(1),87-111; DOI10.1017/S0041977X11000838.
+- KND-A137F36299CAF34C - Robert O. Collins. 2008. A History of Modern Sudan. Cambridge University Press2008; frontmatter extract.
+- KND-7C074AC6E78470A6 - Anna C. Rader. 2012. Overcoming the Past: War and Peace in Sudan and South Sudan. Chapter3 in On The Fault Line: Managing Tensions and Divisions Within Societies; Brenthurst Foundation2012.
+- KND-06562285C249ABA2 - Steffen Wenig. 1978. Africa in Antiquity: The Arts of Ancient Nubia and the Sudan, VolumeII: The Catalogue. Brooklyn Museum1978; translators Diana S. Peters/Charles M. Stern; editors Sylvia Hochfield/Elizabeth Riefstahl.
