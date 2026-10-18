@@ -427,3 +427,17 @@ Applied exactly38explicitly approved metadata proposals. The additional7remain p
 - KND-CB5FDEB48DF0F85D - Elsa Yvanez. 2016. Spinning in Meroitic Sudan: Textile Production Implements from Abu Geili.
 
 Validation and exact published commit/deploy evidence are retained in the updated handover.
+
+## Approved additional seven metadata-only batch -18October2026
+
+Applied exactly7additional explicitly approved metadata proposals, following the original38 commit. Total45distinct metadata records corrected. Original sources,active downloads,format/status maps,all542records,display titles,covers,tags and unrelated news preserved. Unknown publication years remain unknown for Hamdok,Bein and El Kheir. Local title-page evidence for Hatke does not imply fullbook recovery. No source file uploaded or rehosted;wrong-content EPUB bytes never restored. Source repairs remain110;download backlog302;known-unavailable labels305 and unverified7 unchanged. CSV author credits synchronized only where the approved author actually changed.
+
+- KND-A8D3FBC1EE63591B - Todd Litman; Felix Laube. 2002. Automobile Dependency and Economic Development. Version dated6August2002;cover copyright1996-1999;20-page report.
+- KND-96C804A4AA059AC0 - Josefine Kuckertz. 2018. Amanakhareqerema – a Meroitic King of the 1st Century AD. Der antike Sudan/MittSAG29,119-144;34-page offprint with six preliminary pages and appended colour plates.
+- KND-440CCD594D2784CF - John Coleman Darnell. 2006. The Inscription of Queen Katimala at Semna: Textual Evidence for the Origins of the Napatan State. Yale Egyptological Studies7;copyright2006Yale Egyptological Seminar;124physical pages including preliminaries and plates.
+- KND-A2AD0CF01141DC28 - Shih-Wei Hsu. 2020. The Wretched one becomes the Strong Bull: The Development of Literary Images of Nubians in Ancient Egyptian Royal Inscriptions. Chapter in Ein Kundiger,der in die Gottesworte eingedrungen ist;Ägypten und Altes Testament99;Zaphon2020,83-90;18-page offprint including10preliminary pages.
+- KND-049E351E22F032A0 - Timothy Kendall. n.d.. Why Did Taharqa Build His Tomb at Nuri?. PAM Supplement Series2.1,117-147;31-page article;publication year not established from this local offprint.
+- KND-524724CAC0A09085 - Tony Barnett. n.d.. Why Are Bureaucrats Slow Adopters? The Case of Water Management in the Gezira Scheme. 11article pages ending printed70 plus appended EBSCO notice=12physical pages;original publication year not established.
+- KND-6D22CC5FAEB65303 - Ibrahim Zakaria Bahreldin. 2020. Beyond the Riverside: An Alternative Sustainable Vision for Khartoum Riverfront Development. Civil Engineering and Architecture8(2),113-126,2020;14-page publisher article.
+
+Validation and exact published commit/deploy evidence are retained in the updated handover.
