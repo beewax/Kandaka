@@ -622,7 +622,7 @@ Replaced failed R2 mappings with the publisher-hosted full GFI Sudan and Trade I
 
 ## Official source follow-up: World Bank 1958 appraisal
 
-KND-2284BB29A7ED966B now links the official World Bank public archive PDF. Its API explicitly marks document887882 Public/Disclosed,7July1958,50pages. NormalGET200,application/pdf,exactSHA256match to reviewed50-page local file including mapIBRD475. Historical RESTRICTED stamp was not bypassed or altered. Source repairs113->114;backlog299->298;metadata205unchanged;all542records and unrelated changes preserved. No rehosting.
+KND-2284BB29A7ED966B now links the official World Bank public archive PDF. Its API explicitly marks document887882 Public/Disclosed,7July1958,50pages. NormalGET200,application/pdf,exactSHA256match to reviewed50-page local file including mapIBRD475. Historical RESTRICTED stamp was not bypassed or altered. Source repairs113->117;backlog299->295;metadata205unchanged;all542records and unrelated changes preserved. No rehosting.
 
 https://documents1.worldbank.org/curated/en/621721468117551734/pdf/multi-page.pdf
 
