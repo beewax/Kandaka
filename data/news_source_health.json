@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-18T03:23:52.838902+00:00",
+  "updated": "2026-10-18T10:31:08.530046+00:00",
   "sources": [
     {
       "id": "dabanga-en",
@@ -34,7 +34,7 @@
       "language": "en",
       "status": "ok",
       "items": 25,
-      "accepted": 0
+      "accepted": 1
     },
     {
       "id": "guardian-world",
@@ -89,8 +89,8 @@
       "id": "alaraby-ar",
       "language": "ar",
       "status": "ok",
-      "items": 145,
-      "accepted": 1
+      "items": 148,
+      "accepted": 2
     },
     {
       "id": "un-news-ar",
