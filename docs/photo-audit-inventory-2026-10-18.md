@@ -4,7 +4,7 @@ This is a complete file-level triage, not a claim that every original image was 
 
 | File | Disposition | Original source |
 | --- | --- | --- |
-| 2026-09-14-image-1-31374807.en.md | source/image verified; bilingual restoration prepared (see batch-1 release record) | "https://commons.wikimedia.org/wiki/File%3AJebel%20Barkal%20%2B%20Amun%20Temple.jpg" |
+| 2026-09-14-image-1-31374807.en.md | restored; English/Arabic verified live 18 October (batch-1 release record) | "https://commons.wikimedia.org/wiki/File%3AJebel%20Barkal%20%2B%20Amun%20Temple.jpg" |
 | 2026-09-14-image-4-789f8714.en.md | withdrawn; recoverable draft | "https://collections.smvk.se/carlotta-em/web/object/2905067" |
 | 2026-09-15-image-1-4b3a2522.en.md | withdrawn; recoverable draft | "https://commons.wikimedia.org/wiki/File%3ASudan%20Gezira%20Plain%201997%20e.jpg" |
 | 2026-09-15-image-4-09aeb903.en.md | withdrawn; recoverable draft | "https://wellcomecollection.org/works/xp996vgh" |
@@ -48,7 +48,7 @@ This is a complete file-level triage, not a claim that every original image was 
 | 2026-09-25-image-4-2c8711ab.en.md | withdrawn; recoverable draft | "https://wellcomecollection.org/works/e6f8zxjj" |
 | 2026-09-25-image-5-4af37b57.en.md | withdrawn; recoverable draft | "https://www.loc.gov/item/2019708147/" |
 | 2026-09-25-image-7-a7bab729.en.md | already draft; retained | "https://www.flickr.com/photos/matthewleggott/55544608784/" |
-| 2026-09-26-image-1-330d4ba9.en.md | source/image verified; bilingual restoration prepared (see batch-1 release record) | "https://commons.wikimedia.org/wiki/File%3AKerma%20city.JPG" |
+| 2026-09-26-image-1-330d4ba9.en.md | restored; English/Arabic verified live 18 October (batch-1 release record) | "https://commons.wikimedia.org/wiki/File%3AKerma%20city.JPG" |
 | 2026-09-26-image-4-09aeb903.en.md | withdrawn; recoverable draft | "https://wellcomecollection.org/works/xp996vgh" |
 | 2026-09-26-image-5-55aa2c42.en.md | withdrawn; recoverable draft | "https://www.loc.gov/item/2019668784/" |
 | 2026-09-26-image-7-13b0edd4.en.md | already draft; retained | "https://www.flickr.com/photos/mytripsmypics/55546077724/" |

@@ -69,3 +69,15 @@ https://commons.wikimedia.org/wiki/File:Sudan_Gezira_Plain_1997.jpg identifies N
 
 ## Progress
 2 of 75 prepared for restoration; 73 remain held including repeated source references. Nine regression tests passed. Production Hugo build passed: 891 English and 2,500 Arabic pages; existing Site.Data deprecation warning only. All four generated detail pages checked for image URLs, named credits and localized captions. Live deployment verification pending.
+
+## Verified live release
+
+- Release commit db2c81a32d47a346a6b4f7a0d5a4515a53f4ac47 pushed to main.
+- Netlify deployment 6ad553077ca3996075fbd03f ready, matching commit.
+- Published 18 October 2026 at 23:16:11.648 UTC / 18:16:11.648 CDT.
+- Independent post-release HTTP checks: both galleries and four restored detail URLs returned 200 with matching localized captions and local image paths.
+- Arabic gallery visually inspected in browser; both image elements loaded, natural widths 2629 (Jebel Barkal) and 2016 (Kerma).
+- Live gallery: https://kandaka.com/images/#photo-stream and https://kandaka.com/ar/images/#photo-stream.
+- Restored English paths /images/2026-09-14-image-1-31374807/ and /images/2026-09-26-image-1-330d4ba9/; Arabic counterparts use /ar/images/ with the same stems.
+
+Final batch status: 2 restored and verified live; 73 original held records remain unpublished. This is partial restoration, not completion of the whole archive audit.
