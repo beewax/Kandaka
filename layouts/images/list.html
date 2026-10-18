@@ -12,7 +12,7 @@
 {{ partial "photo-review-check.html" . }}
 <article class="art-card">
 <a href="{{ .RelPermalink }}"><img src="{{ .Params.image_url }}" alt="{{ .Params.alt }}" loading="lazy" decoding="async"></a>
-<div class="art-card-body"><h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3><p>{{ .Description }}</p><p>{{ .Params.credit }} · <a href="{{ .Params.license_url }}">{{ .Params.license }}</a></p>{{ with .Params.source_url }}<a href="{{ . }}" rel="noopener noreferrer" target="_blank">{{ if $isAr }}المصدر{{ else }}Original source{{ end }} ↗</a>{{ end }}</div></article>
+<div class="art-card-body"><h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3><p>{{ .Description }}</p><p>{{ .Params.credit }} · <a href="{{ .Params.license_url }}">{{ partial "photo-license-label.html" . }}</a></p>{{ with .Params.source_url }}<a href="{{ . }}" rel="noopener noreferrer" target="_blank">{{ if $isAr }}المصدر{{ else }}Original source{{ end }} ↗</a>{{ end }}</div></article>
 {{ end }}</div>
 {{ if gt $pager.TotalPages 1 }}<nav class="pagination" aria-label="{{ if $isAr }}صفحات الصور{{ else }}Photo pages{{ end }}">{{ if $pager.HasPrev }}<a href="{{ $pager.Prev.URL }}">{{ if $isAr }}السابق{{ else }}Previous{{ end }}</a>{{ end }}{{ if $pager.HasNext }}<a href="{{ $pager.Next.URL }}">{{ if $isAr }}التالي{{ else }}Next{{ end }}</a>{{ end }}</nav>{{ end }}
 </section>

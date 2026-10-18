@@ -813,7 +813,7 @@ html[data-theme="dark"] .k-nile-home-kicker { color: #ffd84d; }
         <a href="{{ .RelPermalink }}"><img src="{{ .Params.image_url }}" alt="{{ .Params.alt }}" loading="lazy" decoding="async"></a>
         <div class="k-photo-caption"><strong><a href="{{ .RelPermalink }}">{{ .Title }}</a></strong>
         <p>{{ .Description }}</p>
-        <span>{{ .Params.credit }}</span> · <a href="{{ .Params.license_url }}">{{ .Params.license }}</a>
+        <span>{{ .Params.credit }}</span> · <a href="{{ .Params.license_url }}">{{ partial "photo-license-label.html" . }}</a>
         <a href="{{ .Params.source_url }}" target="_blank" rel="noopener">{{ .Params.source_label }}</a></div>
       </div>
     {{ end }}

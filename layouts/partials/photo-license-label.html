@@ -1,0 +1,6 @@
+{{- $label := .Params.license -}}
+{{- if eq .Site.Language.Lang "ar" -}}
+  {{- if eq $label "No known restrictions on publication" -}}{{- $label = "لا توجد قيود معروفة على النشر" -}}{{- end -}}
+  {{- if eq $label "Public domain" -}}{{- $label = "الملك العام" -}}{{- end -}}
+{{- end -}}
+{{- $label -}}

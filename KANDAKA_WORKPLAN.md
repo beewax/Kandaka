@@ -1,5 +1,11 @@
 # Kandaka Workplan
 
+## Immediate photo restoration — 18 October 2026 / إعادة الصور فوراً
+
+At the user's request, reviewed all 73 remaining records now: 17 bilingual photo pairs prepared, 26 exact repeated records withheld, 11 non-photo records withheld, 19 distinct sources unresolved. The former generic backlog is replaced by specific reasons in docs/photo-restoration-batch-2-2026-10-18.md. No article or artwork changes. Live status is recorded separately in that report.
+
+بناءً على طلب المستخدم، رُوجعت السجلات الـ٧٣ الآن: أُعدّت ١٧ صورة باللغتين، وعُزل ٢٦ تكراراً مطابقاً و١١ مادة غير فوتوغرافية، وبقي ١٩ مصدراً مميزاً غير محسوم. يوضح تقرير الدفعة الثانية أسباب كل حالة وأدلة النشر المستقلة. لم تتغيّر المقالات أو الأعمال الفنية.
+
 ## 18 October 2026 — Photo stream restart and positive editorial ideas
 
 Authoritative new bilingual ideas P01–P07 are in KANDAKA_MASTER_WORKPLAN.md: music, food/hospitality, artists, literature, crafts, nature and everyday ingenuity. IDEA only; no publication dates or changes to the approved article sequence.
