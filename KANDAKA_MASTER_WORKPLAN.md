@@ -22,6 +22,10 @@ All seven entries below: **IDEA / فكرة**. Approved for inclusion in the work
 
 ### Photo updates / تحديثات الصور
 
+18 October follow-up: user authorized continued review and restoration of accurate held photographs with Arabic/English captions. Batch 1 prepares Jebel Barkal (1984) and Kerma (2005), retaining existing URLs and named photographers. All 75 source references resolve to 49 distinct records; repetitions are not new photos. Remaining 73 entries stay held. Release evidence: docs/photo-restoration-batch-1-2026-10-18.md; preparation is not proof of live publication.
+
+متابعة ١٨ أكتوبر: فوّض المستخدم مواصلة المراجعة وإعادة الصور الصحيحة بتعليقات عربية وإنجليزية. تُجهّز الدفعة الأولى صورتَي جبل البركل (١٩٨٤) وكرمة (٢٠٠٥)، مع حفظ الروابط وأسماء المصوّرين. تشير السجلات الـ٧٥ إلى ٤٩ مصدراً مميزاً؛ والتكرار لا يعني صوراً جديدة. تبقى ٧٣ مادة قيد المراجعة. تُسجَّل أدلة النشر الفعلي في تقرير الدفعة؛ وتجهيز الملفات ليس إثباتاً لنشرها.
+
 18 October user authorization: finish the photo audit and resume updates. Review source identity, actual image, Republic-of-Sudan relevance, date, captions, creator, reuse rights, working image/source links and duplicates; bilingual public metadata required. Discovery results are not publication approval. Preserve rejected/quarantined items recoverably; do not republish them merely to refill the stream. Record the implementation and remaining review limitations separately.
 
 تفويض المستخدم في 18 أكتوبر: إكمال مراجعة الصور واستئناف التحديثات. تشمل المراجعة المصدر والصورة الفعلية وصلتها بجمهورية السودان وتاريخها وتعليقها وصاحبها وحقوق استخدامها وسلامة الروابط والتكرار، مع بيانات عامة بالعربية والإنجليزية. نتائج البحث ليست موافقة على النشر، ولا تُعاد المواد المعزولة لمجرد ملء الصفحة. تُحفظ المواد بصورة قابلة للاسترجاع وتُسجَّل حدود المراجعة بوضوح.
