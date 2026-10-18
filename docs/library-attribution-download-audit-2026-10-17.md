@@ -382,3 +382,48 @@ Copyright and access restrictions preserved. Links point to independently verifi
 ### Remaining decisions and Claude handover
 
 First-pass review complete means all405 target mappings researched;it does not mean all resolved. Remaining holds include ambiguous title/work/edition,missing or partial full text,403/404/502/challenges/certificate failures,and uncertain lawful access. Keep exact IDs and duplicate aliases. Use lawful publisher/catalog record links with record-only labels where full text cannot be established. Obtain authorization or reliable originals for held files;do not make buckets public or infer rights. Iran economics remains out of scope. Review legacy fuzzy author/file matching and blanket bucket rewrite scripts before future use;never rerun them blindly. Existing articles,covers,cadence and unrelated edits preserved. This source-repair worker did not change Workers or execute purchase tests.
+
+## Approved local metadata-only batch -18October2026
+
+Applied exactly38explicitly approved metadata proposals. The additional7remain pending and unchanged. Original sources,active downloads,format/status maps,all542records,display titles,covers,tags and unrelated news preserved. Unknown publication years remain unknown for Hamdok,Bein and El Kheir. Local title-page evidence for Hatke does not imply fullbook recovery. No source file uploaded or rehosted;wrong-content EPUB bytes never restored. Source repairs remain110;download backlog302;known-unavailable labels305 and unverified7 unchanged. CSV author credits synchronized only where the approved author actually changed.
+
+- KND-FAF69E7AE1C1E4B4 - Abdalla Ahmed Abdalla; Hassan Osman Abdel Nour. 2001. The Agricultural Potential of Sudan. Executive Intelligence Review28(8),23February2001,pp37-45.
+- KND-2C6520D59C12C805 - Michael Simire. 2014. Abdalla Hamdok: How Africa can feed its people, create wealth. EnviroNews Nigeria,8October2014;article reporting/quoting Abdalla Hamdok;local7-page browser print.
+- KND-8D5EB40494210D26 - United Nations Development Programme (UNDP). 2014. Trends in the Sudanese Economy: 1st Quarter, 2014.
+- KND-B37D7D457EBF4ADA - Charles Amone. 2013. Strangers Everywhere: Exclusion, Identity and the Future of Nubians in Northern Uganda.
+- KND-D2DCD09AFAF55609 - Karl Wohlmuth; Dirk Hansohm. 1986. Sudan: A Case for Structural Adjustment Policies. Sudan Economy Research Group Discussion Paper8,February1986. Introductory note records minor updates after the March1986conference.
+- KND-43167ED636D0D62B - Laura Mann. 2014. Wasta! The long-term implications of education expansion and economic liberalisation on Politics in Sudan. Review of African Political Economy41(142),561-578;local35-page accepted manuscript;repository deposit November2017. DOI:10.1080/03056244.2014.952276.
+- KND-45C9849EE96E6F95 - Poolad Karimi; David Molden; An Notenbaert; Don Peden. 2012. Nile Basin farming systems and productivity.
+- KND-27F9F27908FA2DE4 - Olugbenga Adesida. 2001. Governance in Africa: The Role for Information and Communication Technologies. African Development Bank Economic Research Papers65.
+- KND-684CA25641427701 - Faith Mabera. 2020. The Horn of Africa-Persian Gulf Nexus: Inter-Regional Dynamics and the Reshaping of Regional Order in Geopolitical Flux.
+- KND-7F66DF2789994977 - United Nations. 2020. World Economic Situation and Prospects2020. UN DESA,UNCTAD and United Nations regional commissions;New York.
+- KND-D4F6F490D32A9D23 - Rick Bein. n.d.. Land Use patterns along the Nile. Traveling Farmer,chapter35;undated local print.
+- KND-34D83E78A19EABAD - African Development Bank Group. 2016. Sudan: Darfur Infrastructure Development Report. 2016publication;online release February2017;79-page report.
+- KND-D207E49C7C33C8AE - Karen Conniff; David Molden; Don Peden; Seleshi B. Awulachew. 2012. Nile water and agriculture: Past, present and future.
+- KND-D9EC311BAA51A9FD - Elsa Yvanez; Magdalena M. Wozniak. 2019. Cotton in ancient Sudan and Nubia: Archaeological sources and historical implications. Revue d’ethnoécologie15,2019;local54-page export generated10December2020;not reviewed51-page July2019export. DOI:10.4000/ethnoecologie.4429.
+- KND-AB37E01F7467A8CF - Simone Wolf; Hans-Ulrich Onasch; Kéré Architecture. 2016. A new protective shelter for the Royal Baths at Meroë (Sudan).
+- KND-B9D530F16FE647EE - George Hatke. 2013. Aksum and Nubia: Warfare, Commerce, and Political Fictions in Ancient Northeast Africa. New York University Press and Institute for the Study of the Ancient World;only title page recovered.
+- KND-C92F7FBC0DF7FB84 - Samia B. Dafa’alla. 1993. Art and Industry: The Achievements of Meroe. Expedition35(2),1993,15-21.
+- KND-603C2A8070F4BE45 - Penelope Aubin. 2003. Evidence for an Early Nubian Dialect in Meroitic Inscriptions: Phonological and Epigraphic Considerations. December 2003 article; archive scan digitized 2008.
+- KND-685ECEA3C82DF543 - Paola Iacumin; Antonietta Di Matteo; Donatella Usai; Sandro Salvatori; Giampiero Venturelli. 2016. Stable Isotope Study on Ancient Populations of Central Sudan: Insights on their Diet and Environment. American Journal of Physical Anthropology;local21-page uncorrected publisher proof;00:00-00 and00Month are placeholders;final issue pagination not established. DOI:10.1002/ajpa.22987.
+- KND-2ABCD07CF05CAE1D - El Fatih Ali Siddig; Khalid El-Harizi; Bettina Prato. 2007. Managing Conflict Over Natural Resources in Greater Kordofan, Sudan: Some Recurrent Patterns and Governance Implications. IFPRI Discussion Paper 00711, August 2007.
+- KND-538B2E8C7B2B5221 - Amanda Hsiao; Laura Jones. 2011. Rethinking Sudan after Southern Secession.
+- KND-4309968997148F7B - Akshaya Kumar. 2015. Fool’s Gold: The Case for Scrutinizing Sudan’s Conflict Gold Trade.
+- KND-B1323B4D504C9D1F - Abdalla A. Hamdok. n.d.. Good governance and the policy challenge: the African Development Bank perspective. Chapter in Monitoring and Evaluation Capacity Development in Africa,pp21-28;2000workshop;publication year unestablished.
+- KND-45255609C5A64049 - Secretariat for Legal Affairs and Constitutional Development (New Sudan). 2003. Laws of the New Sudan: The Penal Code, 2003. Historical2003Penal Code;Secretariat for Legal Affairs and Constitutional Development is issuing publisher,not an individual author.
+- KND-7E21119028D004A9 - Charles Amone. 2013. Strangers Everywhere: Exclusion, Identity and the Future of Nubians in Northern Uganda. Greener Journal of Political and Social Sciences 1(1), October 2013, pages 1–8; DOI 10.15580/gjpss.2013.1.170913844.
+- KND-D1972D04A4734C6C - Chiara Dezzi Bardeschi. 2004. Nubia Bibliography up to 2000: List of Archaeological Missions in Nubia. UNESCO CLT/CIH/MCO/2004/RM/H/1;495-page supplied digital file;printed10skipped.
+- KND-A4DBFC9DC132C0DE - Giulia D’Ercole. 2021. Seventy Years of Pottery Studies in the Archaeology of Mesolithic and Neolithic Sudan. DOI:10.1007/s10437-021-09432-y.
+- KND-B8DDC853D87C2523 - Abbas S. Mohammed-Ali; Gamal G.A. El Hassan. 2015. Tar: An Ancient Sudanese Curing Treatment. The Kushite World: Proceedings of the 11th International Conference for Meroitic Studies, Vienna, 1–4 September 2008, edited by Michael H. Zach; Beiträge zur Sudanforschung, Beiheft 9, Vienna 2015, pp. 547–550..
+- KND-7E9F316806D30EFF - Randi Haaland. 2014. The Meroitic Empire: Trade and Cultural Influences in an Indian Ocean Context. African Archaeological Review31,649-673,2014;27-page author offprint with two wrappers. DOI:10.1007/s10437-014-9169-0.
+- KND-9E8A2CFB790238C2 - Michael Brass. 2014. The Southern Frontier of the Meroitic State: The View from Jebel Moya. African Archaeological Review31,425-445,2014;22-page local copy includes appended notice. DOI:10.1007/s10437-014-9164-5.
+- KND-D5B99565704F0428 - Pavel Onderka. 2014. Wad ben Naga: a history of the site. Sudan & Nubia18,83-92;16-page offprint including front/back matter;not the2013monograph.
+- KND-601F961E659A1B66 - Mohammed A. Mohammed; Omer Mohammed; Mohamed Ibrahim; Huda G. Osman. 2020. Khartoum sky trains network: a study on implementing caterpillar trains concept in Khartoum. MATEC Web of Conferences308,02003;ICTTE2019conference;5-page2020article. DOI:10.1051/matecconf/202030802003.
+- KND-7CFE9A1F6BDAF25C - Faith Mabera. 2020. The Horn of Africa-Persian Gulf nexus: inter-regional dynamics and the reshaping of regional order in geopolitical flux. Global Insight, Issue 136, April 2020.
+- KND-97A63DBFCAAD6B0D - Osman M. El Kheir. n.d.. The Urban Environment of Khartoum. Undated11-page paper;references accessed May2012 are not a publication date.
+- KND-2EC6182C9F00C617 - African Development Bank Group. 2016. Sudan: Darfur Infrastructure Development Report. 2016publication;online release February2017;79-page report.
+- KND-78EF13B8A0845C7D - Lauren Ploch Blanchard. 2020. Sudan’s Removal from the State Sponsors of Terrorism List. CRS InsightIN11531,version1,9November2020.
+- KND-C6397BD36FD08DFB - Republic of Sudan, Ministry of Agriculture and Forests. 2017. Sudan E-Agriculture Strategy and Action Plan (2018–2022). December2017strategy for2018-2022.
+- KND-CB5FDEB48DF0F85D - Elsa Yvanez. 2016. Spinning in Meroitic Sudan: Textile Production Implements from Abu Geili.
+
+Validation and exact published commit/deploy evidence are retained in the updated handover.
