@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-19T03:35:28.022530+00:00",
+  "updated": "2026-10-19T12:21:52.205708+00:00",
   "sources": [
     {
       "id": "dabanga-en",
@@ -76,21 +76,21 @@
       "language": "ar",
       "status": "ok",
       "items": 24,
-      "accepted": 1
+      "accepted": 2
     },
     {
       "id": "france24-ar",
       "language": "ar",
       "status": "ok",
       "items": 24,
-      "accepted": 0
+      "accepted": 1
     },
     {
       "id": "alaraby-ar",
       "language": "ar",
       "status": "ok",
-      "items": 159,
-      "accepted": 3
+      "items": 167,
+      "accepted": 2
     },
     {
       "id": "un-news-ar",
@@ -153,14 +153,14 @@
       "language": "en",
       "status": "ok",
       "items": 12,
-      "accepted": 5
+      "accepted": 3
     },
     {
       "id": "tamazuj-ar",
       "language": "ar",
       "status": "ok",
       "items": 12,
-      "accepted": 8
+      "accepted": 3
     }
   ]
 }
