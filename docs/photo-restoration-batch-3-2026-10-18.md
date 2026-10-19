@@ -49,6 +49,12 @@ Seven further unique photographs prepared; one enhanced duplicate variant and on
 
 ## Validation and release
 
+**Verified live:** content commit `504857af3f827c158428284185080ea9726bcd0a`; Netlify production deployment `6ad5998582c79fb0cb98b3f4`, state ready, published 19 October 04:17:00.154 UTC / **18 October 23:17:00 CDT**. Independent live verification completed by 23:18:33 CDT: all 14 localized pages HTTP 200 with expected titles/image paths; all seven live image SHA-256 hashes match the inspected local assets; both galleries HTTP 200 with restored content. Browser preview attachment timed out, so this release's live verification used HTTP/content and byte-level checks, not a claimed browser screenshot. The photo stream now contains 28 bilingual pairs. Ten distinct sources remain unresolved; redundant variant and book are excluded separately.
+
+Live galleries: https://kandaka.com/images/#photo-stream and https://kandaka.com/ar/images/#photo-stream. Restored wedding example: https://kandaka.com/images/2026-10-13-image-1-4fdd9bb7/ and https://kandaka.com/ar/images/2026-10-13-image-1-4fdd9bb7/.
+
+تم التحقق من النشر الفعلي في ١٨ أكتوبر الساعة ٢٣:١٨ بتوقيت شيكاغو: الصفحات الأربع عشرة والصور السبع والمعرضان يعملون، وملفات الصور المنشورة مطابقة للنسخ التي فُحصت. أصبح المجموع ٢٨ صورة باللغتين. بقيت عشرة مصادر غير محسومة، مع استبعاد النسخة المكرّرة والكتاب بصورة مستقلة.
+
 Local preparation is not publication. Record build, commit, deployment and independent live verification separately below.
 
 Local validation: nine photo-discovery tests passed; cover audit passed across 2,803 Markdown files; production Hugo build passed with the bilingual photo gate (917 EN / 2,527 AR pages). All 14 restored photo detail pages contain their expected localized titles and image paths. Git diff whitespace check passed. Changes are limited to these photo records/assets and audit/workplan documentation; upstream news commit 594c220 was fast-forwarded and preserved.

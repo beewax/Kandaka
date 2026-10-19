@@ -2,6 +2,8 @@
 
 ## Photo follow-up — 18 October 2026 / متابعة الصور
 
+Verified live at 23:18 CDT: all seven additional pairs, commit 504857a, deployment 6ad5998582c79fb0cb98b3f4. Public stream: 28 pairs; unresolved unique sources: 10. / نُشرت الصور السبع وتحقّقنا منها باللغتين؛ المجموع ٢٨ صورة، وبقيت عشرة مصادر غير محسومة. Release evidence below supersedes preparation-only wording.
+
 Rechecked the 19 unresolved sources: seven additional bilingual pairs prepared, one redundant enhanced variant and one book excluded, ten records still held. See docs/photo-restoration-batch-3-2026-10-18.md for verification and release evidence. No publication-queue changes.
 
 أُعيد فحص المصادر الـ١٩: أُعدّت سبع صور إضافية باللغتين، واستُبعدت نسخة محسّنة مكرّرة وكتاب، وبقيت عشرة سجلات معلّقة. الأدلة وحالة النشر في تقرير الدفعة الثالثة، دون تغيير جدول المقالات.

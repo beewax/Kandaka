@@ -22,6 +22,8 @@ All seven entries below: **IDEA / فكرة**. Approved for inclusion in the work
 
 ### Photo updates / تحديثات الصور
 
+Batch 3 publication verified 18 October 23:18 CDT: seven further bilingual photographs live, bringing the public stream to 28 pairs. Ten distinct sources remain unresolved; one duplicate variant and one book excluded. Commit 504857a; deployment 6ad5998582c79fb0cb98b3f4. Details: docs/photo-restoration-batch-3-2026-10-18.md. / تم التحقق من نشر سبع صور إضافية باللغتين، ليبلغ المجموع ٢٨ صورة؛ بقيت عشرة مصادر غير محسومة، واستُبعدت نسخة مكرّرة وكتاب.
+
 18 October follow-up rechecked the 19 unresolved sources: seven additional photo pairs prepared; one enhanced duplicate variant and one book excluded; ten sources remain held. Specific evidence, source-label conflict, rights corrections and live release evidence are in docs/photo-restoration-batch-3-2026-10-18.md. No article or schedule changes.
 
 متابعة ١٨ أكتوبر: أُعيد فحص المصادر الـ١٩ غير المحسومة؛ أُعدّت سبع صور إضافية باللغتين، واستُبعدت نسخة محسّنة مكرّرة وكتاب، وبقيت عشرة مصادر معلّقة. يبيّن تقرير الدفعة الثالثة الأدلة والتعارض في وصف إحدى الصور وتصحيحات الحقوق وأدلة النشر. لم تتغيّر المقالات أو الجداول.
