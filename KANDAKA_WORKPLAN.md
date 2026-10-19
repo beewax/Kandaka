@@ -1,5 +1,7 @@
 # Kandaka Workplan
 
+19 October: final four photo rechecks completed; Naqa Hathor chapel positively identified against excavation-museum photographs and prepared with corrected EN/AR captions. Three specific holds remain (children: context; steamer: location; Acropole: underlying-photo rights). Not yet a publication claim. Evidence: docs/photo-restoration-batch-5-2026-10-19.md. / رُوجعت الصور الأربع؛ جُهّزت صورة مقصورة حتحور في النقعة بعد تصحيح تعريفها باللغتين، وبقيت ثلاث صور تحتاج توثيقاً إضافياً. لم يُثبت النشر بعد.
+
 Batch 4 verified LIVE, 18 October 23:42 CDT: six restored bilingual photo pairs; 34 public pairs total, four unique holds remain. Commit 83624e3, deployment 6ad59f7039a832665f2a132c. Details: docs/photo-restoration-batch-4-2026-10-18.md. / نُشرت الصور الست وتحقّقنا منها باللغتين؛ المجموع ٣٤ صورة، وبقيت أربع صور معلّقة. This supersedes preparation-only wording below.
 
 ## Browser-source recovery — 18 October 2026 / استعادة مصادر الصور
