@@ -1,5 +1,9 @@
 # KANDAKA WORKPLAN
 
+18 October late follow-up: six further bilingual photos prepared after inspecting all ten user-open source tabs and recovering current museum URLs. Exact shield-and-spear record recovered; no alternative required. Four distinct holds remain. Preparation is not publication; release evidence: docs/photo-restoration-batch-4-2026-10-18.md. Article queue and automations unchanged.
+
+متابعة متأخرة في ١٨ أكتوبر: جُهّزت ست صور إضافية باللغتين بعد فحص التبويبات العشرة واستعادة روابط المتاحف، ومنها الصورة الأصلية للرجل مع الترس والرمح. بقيت أربع صور معلّقة. التجهيز ليس إثباتاً للنشر؛ تُسجّل أدلة النشر في تقرير الدفعة الرابعة، دون تغيير المقالات أو الجداول.
+
 Last updated: 2026-10-18 (new editorial ideas and photo-stream review; older status entries retained pending reconciliation)
 
 ## 18 October 2026 — Positive editorial strand / مسار تحريري إيجابي

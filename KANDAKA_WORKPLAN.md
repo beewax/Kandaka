@@ -1,5 +1,11 @@
 # Kandaka Workplan
 
+## Browser-source recovery — 18 October 2026 / استعادة مصادر الصور
+
+Six more bilingual photos prepared after checking all ten user-open tabs. Exact shield/spear record recovered through the museum's current search. Four holds remain; no article or automation changes. Publication evidence: docs/photo-restoration-batch-4-2026-10-18.md. Preparation alone is not publication.
+
+جُهّزت ست صور إضافية بالعربية والإنجليزية بعد فحص التبويبات العشرة، ومنها السجل الأصلي لصورة الترس والرمح. بقيت أربع صور معلّقة، ولم تتغيّر المقالات أو الجداول. تُسجّل أدلة النشر في تقرير الدفعة الرابعة.
+
 ## Photo follow-up — 18 October 2026 / متابعة الصور
 
 Verified live at 23:18 CDT: all seven additional pairs, commit 504857a, deployment 6ad5998582c79fb0cb98b3f4. Public stream: 28 pairs; unresolved unique sources: 10. / نُشرت الصور السبع وتحقّقنا منها باللغتين؛ المجموع ٢٨ صورة، وبقيت عشرة مصادر غير محسومة. Release evidence below supersedes preparation-only wording.
