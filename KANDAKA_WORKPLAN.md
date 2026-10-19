@@ -1,5 +1,7 @@
 # Kandaka Workplan
 
+Batch 4 verified LIVE, 18 October 23:42 CDT: six restored bilingual photo pairs; 34 public pairs total, four unique holds remain. Commit 83624e3, deployment 6ad59f7039a832665f2a132c. Details: docs/photo-restoration-batch-4-2026-10-18.md. / نُشرت الصور الست وتحقّقنا منها باللغتين؛ المجموع ٣٤ صورة، وبقيت أربع صور معلّقة. This supersedes preparation-only wording below.
+
 ## Browser-source recovery — 18 October 2026 / استعادة مصادر الصور
 
 Six more bilingual photos prepared after checking all ten user-open tabs. Exact shield/spear record recovered through the museum's current search. Four holds remain; no article or automation changes. Publication evidence: docs/photo-restoration-batch-4-2026-10-18.md. Preparation alone is not publication.

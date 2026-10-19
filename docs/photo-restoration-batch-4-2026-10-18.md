@@ -46,6 +46,10 @@ Alternative shield record 284590 was found, but not needed: the exact original 2
 
 ## Validation and release
 
+**Verified live: content commit 83624e3ae315b2be2b664793e4f58afe44569f98; Netlify deployment 6ad59f7039a832665f2a132c, ready, published 19 October 2026 04:42:13.182 UTC / 18 October 23:42:13 CDT. Independent verification completed 23:42:32 CDT: all twelve EN/AR pages HTTP 200 with full expected captions and image links, all six published image SHA-256 hashes match inspected local assets. Arabic amphora page additionally inspected visually in browser. Public stream now 34 bilingual pairs, four distinct holds remain. The new source links and original 284579 photo were recovered; no alternative substitution.**
+
+تم التحقق من نشر الصور الست بالعربية والإنجليزية في ١٨ أكتوبر الساعة ٢٣:٤٢ بتوقيت شيكاغو: الصفحات الاثنتا عشرة ومحتواها الكامل وروابطها سليمة، وملفات الصور المنشورة مطابقة للنسخ التي فُحصت. أصبح المجموع ٣٤ صورة باللغتين، وبقيت أربع صور معلّقة. كما فُحص عرض صفحة الأمفورا العربية بصرياً.
+
 Local preparation only at this point; build, commit, deployment and independent live checks to be recorded separately. Expected total after publication: 34 bilingual photo pairs (32 restored from the original 75 plus two earlier additions), four distinct holds remain.
 
 Local checks: all nine photo-discovery tests passed; cover audit passed across 2,809 Markdown files. All twelve rendered localized pages contain expected titles and local image paths. Git whitespace check passed. Only photo records, six unmodified source photographs and audit/workplan documentation changed.

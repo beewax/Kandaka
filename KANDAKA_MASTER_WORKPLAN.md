@@ -1,5 +1,7 @@
 # KANDAKA WORKPLAN
 
+Batch 4 verified LIVE, 18 October 23:42 CDT: six restored bilingual photo pairs; 34 public pairs total, four unique holds remain. Commit 83624e3, deployment 6ad59f7039a832665f2a132c. Details: docs/photo-restoration-batch-4-2026-10-18.md. / نُشرت الصور الست وتحقّقنا منها باللغتين؛ المجموع ٣٤ صورة، وبقيت أربع صور معلّقة. This supersedes preparation-only wording below.
+
 18 October late follow-up: six further bilingual photos prepared after inspecting all ten user-open source tabs and recovering current museum URLs. Exact shield-and-spear record recovered; no alternative required. Four distinct holds remain. Preparation is not publication; release evidence: docs/photo-restoration-batch-4-2026-10-18.md. Article queue and automations unchanged.
 
 متابعة متأخرة في ١٨ أكتوبر: جُهّزت ست صور إضافية باللغتين بعد فحص التبويبات العشرة واستعادة روابط المتاحف، ومنها الصورة الأصلية للرجل مع الترس والرمح. بقيت أربع صور معلّقة. التجهيز ليس إثباتاً للنشر؛ تُسجّل أدلة النشر في تقرير الدفعة الرابعة، دون تغيير المقالات أو الجداول.
