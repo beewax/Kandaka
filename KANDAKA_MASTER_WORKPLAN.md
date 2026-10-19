@@ -22,6 +22,10 @@ All seven entries below: **IDEA / فكرة**. Approved for inclusion in the work
 
 ### Photo updates / تحديثات الصور
 
+18 October follow-up rechecked the 19 unresolved sources: seven additional photo pairs prepared; one enhanced duplicate variant and one book excluded; ten sources remain held. Specific evidence, source-label conflict, rights corrections and live release evidence are in docs/photo-restoration-batch-3-2026-10-18.md. No article or schedule changes.
+
+متابعة ١٨ أكتوبر: أُعيد فحص المصادر الـ١٩ غير المحسومة؛ أُعدّت سبع صور إضافية باللغتين، واستُبعدت نسخة محسّنة مكرّرة وكتاب، وبقيت عشرة مصادر معلّقة. يبيّن تقرير الدفعة الثالثة الأدلة والتعارض في وصف إحدى الصور وتصحيحات الحقوق وأدلة النشر. لم تتغيّر المقالات أو الجداول.
+
 18 October immediate audit supersedes the earlier 73-entry waiting status: all 73 records dispositioned now; 17 further photographs prepared in both languages, 26 exact duplicate records, 11 non-photo records, 19 distinct unresolved sources. No deletion, article-release or schedule changes. See docs/photo-restoration-batch-2-2026-10-18.md for per-record reasons and separate publication evidence. Preparation alone is not live publication.
 
 مراجعة فورية في ١٨ أكتوبر تحلّ محل حالة انتظار السجلات الـ٧٣: رُوجعت جميعها، وأُعدّت ١٧ صورة إضافية باللغتين؛ وعُزل ٢٦ تكراراً و١١ مادة غير فوتوغرافية، وبقي ١٩ مصدراً مميزاً غير محسوم. لا حذف للملفات ولا تغيير لمواعيد المقالات. يبيّن تقرير الدفعة الثانية أسباب كل قرار وأدلة النشر بصورة مستقلة؛ فالتجهيز وحده ليس نشراً فعلياً.

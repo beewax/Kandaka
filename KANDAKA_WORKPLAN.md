@@ -1,5 +1,11 @@
 # Kandaka Workplan
 
+## Photo follow-up — 18 October 2026 / متابعة الصور
+
+Rechecked the 19 unresolved sources: seven additional bilingual pairs prepared, one redundant enhanced variant and one book excluded, ten records still held. See docs/photo-restoration-batch-3-2026-10-18.md for verification and release evidence. No publication-queue changes.
+
+أُعيد فحص المصادر الـ١٩: أُعدّت سبع صور إضافية باللغتين، واستُبعدت نسخة محسّنة مكرّرة وكتاب، وبقيت عشرة سجلات معلّقة. الأدلة وحالة النشر في تقرير الدفعة الثالثة، دون تغيير جدول المقالات.
+
 ## Immediate photo restoration — 18 October 2026 / إعادة الصور فوراً
 
 At the user's request, reviewed all 73 remaining records now: 17 bilingual photo pairs prepared, 26 exact repeated records withheld, 11 non-photo records withheld, 19 distinct sources unresolved. The former generic backlog is replaced by specific reasons in docs/photo-restoration-batch-2-2026-10-18.md. No article or artwork changes. Live status is recorded separately in that report.
