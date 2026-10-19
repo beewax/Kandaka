@@ -26,6 +26,14 @@ No museum or photographer contacted and no third-party records edited. These are
 
 ## Release evidence
 
+**VERIFIED LIVE:** content commit `0ce36345947b04023882a7bb77ad3d188cb3bc16`; Netlify deployment `6ad5a623fb10db3a5e5ea15f`, ready, published 19 October 2026 05:10:47.118 UTC / 00:10:47 CDT. Independent verification completed 00:12:19 CDT: both EN/AR pages HTTP 200, full localized title/caption, local image and licence link present; published image SHA-256 `31f5ed42be691bdf089bb3371b54e98b4cc01b8f8623feefb57d95ba21612079` matches the inspected original. Browser visual inspection of the newly deployed page could not be completed because browser control timed out; source-image/PDF inspection and independent live HTTP/content checks did complete. This supersedes the preparation/pending statements below.
+
+- English: https://kandaka.com/images/2026-09-22-image-1-5ecf350b/
+- Arabic: https://kandaka.com/ar/images/2026-09-22-image-1-5ecf350b/
+- Public stream: 35 bilingual pairs; three distinct holds remain.
+
+نُشرت صورة مقصورة حتحور المصحّحة في ١٩ أكتوبر الساعة ٠٠:١٠ بتوقيت شيكاغو، وتحقّقنا من الصفحتين والصورة المنشورة في ٠٠:١٢. المجموع الآن ٣٥ صورة باللغتين، وثلاث صور معلّقة. تعذّر الفحص البصري للصفحة المنشورة عبر المتصفح بسبب انتهاء مهلة الاتصال، لكن فحص المصدر والصورة وملف المتحف والتحقق المستقل من محتوى الصفحتين المنشورتين اكتمل.
+
 Preparation only; production build, scoped commit, deployment and independent live verification pending. Expected total: 35 bilingual public photo pairs, of which 33 are restored from the original 75 and two are earlier additions. Original audit reconciliation: 33 restored + 26 exact duplicates + 12 non-photo records + 1 enhanced duplicate variant + 3 held = 75.
 
 Local checks: nine photo-discovery tests passed; cover audit passed across 2,810 Markdown files. Both generated pages contain the complete expected localized title and caption, local photo path and licence link. The first build began just before midnight and excluded the midnight-dated entry; a second normal production build was run after that timestamp, with no future-content override.
