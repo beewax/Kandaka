@@ -18,6 +18,10 @@ Arabic names are careful transliterations, not claims of official Arabic bylines
 
 ## Publication
 
-Local preparation only. Build, commit, deployment and independent live verification pending.
+Published and independently verified in both languages. Content commit: `5b0b2c60a7baf71c1452caa870dab7594e598101`. Matching Netlify deployment: `6ad7e3efcc6538f713953352`, state ready, published 20 October 2026 at 21:59:11.210 UTC / 16:59:11.210 CDT. Independent live HTML verification completed at 22:00:39 UTC / 17:00:39 CDT.
 
-Local validation: regression check passed for 545 records, twelve tracked bilingual additions and one canonical May 2025 World Bank report. Both generated Library pages passed full title/author/summary/source matching and card-count checks. All 542 previous records are byte-equivalent after JSON normalization. Cover audit passed across 2,942 Markdown files. Full build completion and live deployment still pending.
+Local validation: full Hugo production build completed successfully (exit 0). Regression check passed for 545 records, twelve tracked bilingual additions and one canonical May 2025 World Bank report. Both generated Library pages passed full title/author/summary/source matching and card-count checks. All 542 previous records are byte-equivalent after JSON normalization. Cover audit passed across 2,942 Markdown files.
+
+Independent live validation: fetched https://kandaka.com/library/ and https://kandaka.com/ar/library/ after deployment; both passed the same full rendered-card checks. Both live displayed counts are 545, with localized 20 October 2026 update dates. Verification was of rendered HTML, not a visual browser inspection. No article publication, photo or automation changes were included.
+
+نُشرت الإضافات الثلاث وتحقّقنا من العناوين وأسماء المؤلفين والملخصات وروابط المصادر في الصفحتين المنشورتين باللغتين. العدد الظاهر 545، وتاريخ التحديث 20 أكتوبر 2026. بقي تقرير البنك الدولي المرجعي دون تكرار.
