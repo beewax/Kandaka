@@ -1,5 +1,10 @@
 # KANDAKA WORKPLAN
 
+## Approved Library additions — 20 October 2026 / إضافات المكتبة المعتمدة
+
+User approved three bilingual catalogue records: academic resilience in Sudanese higher education; Meroitic Kedurma; prehistoric Bayuda. Prepared count: 545. No full article, release schedule, stored PDF or automation changes. Publication evidence: docs/library-refresh-2026-10-20.md. / اعتمد المستخدم إضافة الدراسات الثلاث بملخصات عربية وإنجليزية وروابط المصادر. العدد المجهّز 545؛ دون تغيير المقالات أو الجداول أو ملفات الدراسات. حالة النشر موثّقة في تقرير التحديث.
+
+
 Batch 5 verified LIVE, 19 October 00:12 CDT: Naqa Hathor chapel restored with corrected EN/AR identification; 35 public bilingual photo pairs, three unique holds remain. Content commit 0ce3634, deployment 6ad5a623fb10db3a5e5ea15f, published 00:10:47 CDT. Both live captions and original image verified independently. Details: docs/photo-restoration-batch-5-2026-10-19.md. / نُشرت صورة مقصورة حتحور وتحقّقنا منها باللغتين؛ المجموع ٣٥ صورة، وبقيت ثلاث صور معلّقة. This supersedes preparation-only wording below.
 
 19 October: final four photo rechecks completed; Naqa Hathor chapel positively identified against excavation-museum photographs and prepared with corrected EN/AR captions. Three specific holds remain (children: context; steamer: location; Acropole: underlying-photo rights). Not yet a publication claim. Evidence: docs/photo-restoration-batch-5-2026-10-19.md. / رُوجعت الصور الأربع؛ جُهّزت صورة مقصورة حتحور في النقعة بعد تصحيح تعريفها باللغتين، وبقيت ثلاث صور تحتاج توثيقاً إضافياً. لم يُثبت النشر بعد.

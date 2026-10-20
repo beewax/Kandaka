@@ -1,5 +1,14 @@
 # Library Sources — Sudan Research Discovery
 
+## Approved Library additions — 20 October 2026 / إضافات المكتبة المعتمدة
+
+User approved three bilingual catalogue records: academic resilience in Sudanese higher education; Meroitic Kedurma; prehistoric Bayuda. Prepared count: 545. No full article, release schedule, stored PDF or automation changes. Publication evidence: docs/library-refresh-2026-10-20.md. / اعتمد المستخدم إضافة الدراسات الثلاث بملخصات عربية وإنجليزية وروابط المصادر. العدد المجهّز 545؛ دون تغيير المقالات أو الجداول أو ملفات الدراسات. حالة النشر موثّقة في تقرير التحديث.
+
+- [Academic resilience in wartime: Student agency and institutional continuity in Sudanese higher education during the ongoing conflict](https://www.sciencedirect.com/science/article/pii/S0738059326001902) — DOI 10.1016/j.ijedudev.2026.103680; الصمود الأكاديمي أثناء الحرب: دور الطلاب واستمرار مؤسسات التعليم العالي السوداني خلال النزاع
+- [Mortuary practices and social organisation of the Meroitic State: Kedurma, Third Cataract region of the Nile](https://www.cambridge.org/core/journals/antiquity/article/mortuary-practices-and-social-organisation-of-the-meroitic-state-kedurma-third-cataract-region-of-the-nile/44BF4904678FA002258FC5FCB28F8023) — DOI 10.15184/aqy.2025.10278; ممارسات الدفن والتنظيم الاجتماعي في الدولة المروية: كدرمة بمنطقة الشلال الثالث للنيل
+- [Prehistoric communities in the Bayuda Desert, Sudan](https://www.cambridge.org/core/journals/antiquity/article/prehistoric-communities-in-the-bayuda-desert-sudan/7B9416AAC15080767DA41117A44980A5) — DOI 10.15184/aqy.2024.161; مجتمعات ما قبل التاريخ في صحراء بيوضة، السودان
+
+
 Reference list of sources searched for Sudan-related economic/development papers to add to `data/library.json`. Used across Batches 1–5 (July 2026). Reuse this list for future batches instead of re-deriving search strategy from scratch.
 
 ## Approved additions — 12 October 2026 / الإضافات المعتمدة
