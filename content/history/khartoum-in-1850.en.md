@@ -1,11 +1,11 @@
 ---
 title: "Khartoum in 1850: A Mud-Walled Capital Through a Young Traveller's Eyes"
-date: '2026-10-19T12:00:00-05:00'
+date: '2026-10-20T17:50:00-05:00'
 author: "Kandaka"
 category: "History"
 description: "George Melly's 1850–51 account of Khartoum: about 3,000 mud houses, 30,000 people, a covered market, the governor-general, and officials sent there in 'honourable exile'."
 tags: ["Khartoum", "Turco-Egyptian Sudan", "Sudan History", "Travel Writing", "George Melly"]
-draft: true
+draft: false
 cover:
   image: "/images/uploads/khartoum-1850-melly-engraving.jpg"
   alt: "Nineteenth-century engraving of the meeting of the Blue and White Niles at Khartoum, seen from a wooded bank, with the town low on the far shore"
