@@ -1,9 +1,8 @@
 ---
-title: جنوب السودان يعلن مقتل العشرات وإصابة آخرين في هجوم بمسيرات على سوق بمنطقة
-  أبيي المتنازع عليها
-date: '2026-10-20T07:43:48Z'
-description: قال أكول نجور لرويترز اليوم الثلاثاء "قتل حوالي ​73 شخصا وأصيب 19 آخرون...
-  أطلقت القوات المسلحة السودانية عددا من الطائرات ​المسيرة أمس"
+title: 'جنوب السودان: مقتل 73 شخصاً في هجوم بمسيّرات على سوق في أبيي'
+date: '2026-10-20T09:11:46Z'
+description: أعلنت سلطات أبيي مقتل 73 شخصاً وإصابة 19 في هجوم بمسيّرات استهدف سوقاً،
+  متهمة الجيش السوداني بتنفيذه دون تقديم أدلة.
 source: بي بي سي عربي
 source_id: bbc-ar
 source_class: international_journalism
@@ -13,16 +12,16 @@ geography:
 - National
 language: ar
 status: Reporting
-cluster_id: f3db0c05dc35
+cluster_id: 41c78e2744c3
 corroboration_count: 1
 draft: false
-image: https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/9b60/live/260583c0-cc58-11f1-9a39-31b474234113.jpg
+image: https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/a184/live/b7f4d980-cc6b-11f1-baeb-8d65d4bcd7ab.jpg
 media_source: https://www.bbc.com/arabic/articles/ck5yn5ej0vyqo?at_medium=RSS&at_campaign=rss
 media_reuse_basis: rss_metadata
 media_attribution: بي بي سي عربي
 clabel: الحرب والأمن
 ---
 
-قال أكول نجور لرويترز اليوم الثلاثاء "قتل حوالي ​73 شخصا وأصيب 19 آخرون... أطلقت القوات المسلحة السودانية عددا من الطائرات ​المسيرة أمس"
+أعلنت سلطات أبيي مقتل 73 شخصاً وإصابة 19 في هجوم بمسيّرات استهدف سوقاً، متهمة الجيش السوداني بتنفيذه دون تقديم أدلة.
 
 [بي بي سي عربي →](https://www.bbc.com/arabic/articles/ck5yn5ej0vyqo?at_medium=RSS&at_campaign=rss)
