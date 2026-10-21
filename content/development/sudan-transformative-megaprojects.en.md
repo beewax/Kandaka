@@ -14,6 +14,19 @@ cover:
 
 *AI-generated editorial illustration created for Kandaka using OpenAI image generation. A fictional composite inspired by Roseires Dam, Sudan Railways and Gezira's irrigated fields—not a photograph, an exact reconstruction, a single actual location or an approved project design.*
 
+> **Update in progress — October 2026:** New Sudan-specific evidence is being incorporated on wartime infrastructure survivability, hazard screening, project-preparation standards, veterinary/scientific infrastructure and the financing terms of announced projects.
+
+## October 2026 evidence update: add resilience and preparation gates
+
+The scorecard now needs two explicit gates before a project can move from an attractive idea to a recommendation.
+
+**First: resilience and single-point-of-failure risk.** Ask what hazards threaten the asset, what happens if it is disabled, whether alternative power/water/transport routes exist, whether critical components can be repaired locally, and whether a cheaper distributed alternative provides similar public value. Flood, drought, landslide, debris-flow and conflict exposure all belong in this screen. Recent attacks and explosive-ordnance contamination around Sudanese power and transport infrastructure show that wartime survivability is not theoretical.
+
+**Second: project preparation and financing transparency.** Before endorsing a dam, refinery, railway, port, industrial city or other major commitment, require credible pre-feasibility/feasibility work, demand forecasts, lifecycle operations and maintenance, environmental/social assessment, an identified institutional owner, and the financing terms. Export-credit or tied-finance proposals should disclose interest, maturity, grace period, currency, sovereign guarantees, supplier restrictions, local-content obligations, training, spare-parts arrangements and foreign-exchange debt-service exposure.
+
+The opportunity-cost comparison should also include smaller scientific and productive systems. Rebuilding Sudan's veterinary reference laboratory and domestic vaccine capability, distributed storage and agro-processing, irrigation rehabilitation and modular solar may protect large productive assets at far lower capital cost than a prestige structure. That does not prove they always win; it means every megaproject must beat them on the same public-value scorecard.
+
+
 ## Transformation is an outcome, not a price tag
 
 Sudan's most transformative investment might not be its largest structure. It might be the combination of a reliable power connection, a repaired irrigation system, a working freight link and a training programme that allows existing producers to sell more valuable goods. None makes a spectacular skyline. Together they can change an economy.
