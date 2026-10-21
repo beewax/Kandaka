@@ -2818,13 +2818,16 @@
       ],
       "desc": "Art and Industry: The Achievements of Meroe. Published in 1993. Expedition35(2),1993,15-21.",
       "desc_ar": "«الفن والصناعة: إنجازات مروي». سنة النشر 1993. الجهة أو الأسماء الواردة في النسخة الأصلية: Samia B. Dafa’alla.",
-      "source": "https://pub-a5e3b47fe87749f491660d68e2029284.r2.dev/art-and-industry-the-achievements-of-meroe.epub",
+      "source": "https://www.penn.museum/sites/expedition/art-and-industry/",
       "author_ar": "Samia B. Dafa’alla",
       "citation": "Samia B. Dafa’alla. 1993. Art and Industry: The Achievements of Meroe. Expedition35(2),1993,15-21.",
       "citation_ar": "Samia B. Dafa’alla. 1993. Art and Industry: The Achievements of Meroe. Expedition35(2),1993,15-21.",
       "edition": "Expedition35(2),1993,15-21",
       "title_full": "Art and Industry: The Achievements of Meroe",
-      "year": "1993"
+      "year": "1993",
+      "download": "",
+      "source_label_en": "Read Penn Museum article",
+      "source_label_ar": "قراءة المقال في متحف بنسلفانيا"
     },
     {
       "title": "B 500: The Statue Cache at Meroe",
@@ -5883,13 +5886,16 @@
       ],
       "desc": "History of the Oriental Institute's century of archaeological fieldwork in Sudan and Nubia.",
       "desc_ar": "تاريخ قرن من العمل الأثري الميداني للمعهد الشرقي في السودان ونوبة.",
-      "source": "https://pub-a5e3b47fe87749f491660d68e2029284.r2.dev/the-oriental-institute-and-nubia.epub",
+      "source": "https://isac.uchicago.edu/publications/discovering-new-pasts-oi-100",
       "author_ar": "Bruce B. Williams; Lisa Heidorn",
-      "citation": "Bruce B. Williams; Lisa Heidorn. n.d.. The OI and Nubia. Discovering New Pasts: The OI at100; chapter358-387; container year not printed in selected extract.",
-      "citation_ar": "Bruce B. Williams; Lisa Heidorn. n.d.. The OI and Nubia. Discovering New Pasts: The OI at100; chapter358-387; container year not printed in selected extract.",
-      "edition": "Discovering New Pasts: The OI at100; chapter358-387; container year not printed in selected extract",
+      "citation": "Bruce B. Williams; Lisa Heidorn. 2019. The OI and Nubia. In Discovering New Pasts: The OI at 100, edited by Theo van den Hout, pp. 358–387. Chicago: The Oriental Institute. ISBN 978-1-61491-049-7.",
+      "citation_ar": "بروس ب. ويليامز؛ ليزا هايدورن. 2019. المعهد الشرقي ونوبة. في اكتشاف ماضٍ جديد: المعهد الشرقي في عامه المئة، تحرير ثيو فان دن هاوت، ص 358–387. شيكاغو: المعهد الشرقي. ISBN 978-1-61491-049-7.",
+      "edition": "Chapter pp. 358–387 in Discovering New Pasts: The OI at 100, edited by Theo van den Hout, 2019; full-volume PDF",
       "title_full": "The OI and Nubia",
-      "year_status": "Publication year not established from reviewed local edition; printing, upload, release and cited-reference dates are not substituted."
+      "download": "https://isac-assets.s3.amazonaws.com/isac-publications/miscdiscoveringnewpasts.pdf?VersionId=tTd99X5DrglLIYv0wtFketIaew7Ji7Rh#page=382",
+      "source_label_en": "Read chapter in full book PDF (pp. 358–387; 84 MB)",
+      "source_label_ar": "قراءة الفصل ضمن الكتاب الكامل PDF (ص 358–387؛ 84 ميغابايت)",
+      "year": "2019"
     },
     {
       "title": "The Palace of Muweis in the Shendi Reach",
