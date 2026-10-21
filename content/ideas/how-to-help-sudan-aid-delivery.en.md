@@ -12,6 +12,16 @@ cover:
   relative: false
 ---
 
+> **Evidence update in progress — October 2026:** Humanitarian access, funding, food security and protection needs have changed since this guide’s September verification. Recheck each organization’s official donation route and current operating access before giving.
+
+## October 2026 update: access, funding and continuity
+The September guide's organization assessments should not be treated as permanent endorsements. The October reporting on the Adré crossing and attacks on humanitarian transport shows why **administrative permission to enter is not the same as safe last-mile delivery**. Compare funding gaps, staff and supply capacity, corridor security, alternative routes and confirmed delivery separately; reduced distributions can reflect underfunding or insecurity rather than inefficiency.
+
+The October food-security and health evidence also calls for a stronger continuity test: can a programme keep clinics supplied with essential medicines, maintain water and nutrition services, sustain safe learning days and protect survivors of sexual violence? Where appropriate, examine whether support restores local markets and repairable productive assets. Do not downgrade life-saving emergency aid merely because it cannot yet produce development outcomes.
+
+**Editorial verification gate:** Update all organization-by-organization assessments, appeal figures and donation links from their original sources before changing the shortlist. Earlier statistics are dated snapshots, not current totals.
+
+
 <p style="font-size:0.9em;color:#666;"><em>Cover: Original editorial illustration commissioned by Kandaka, 2026. It is symbolic, not documentary, and depicts no identified aid recipient.</em></p>
 
 > **Last verified: 19 September 2026.** Humanitarian access, donation routes and organizational finances change. Use only the official links in this guide and recheck the destination before paying.
