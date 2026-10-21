@@ -1,30 +1,30 @@
 {
-  "updated": "2026-10-20T23:39:30.117797+00:00",
+  "updated": "2026-10-21T03:37:20.229529+00:00",
   "window_days": 30,
   "en": {
     "balanced": [
       {
-        "Title": "Why Sanctions Are Not Stifling Sudan’s War Economy and What We Can Do About It",
+        "Title": "Drone strike kills more than 150 at market in Sudanese war",
         "Lang": "en",
-        "Date": "2026-10-20T22:26:49+00:00",
-        "Permalink": "https://africanarguments.org/2026/10/why-sanctions-are-not-stifling-sudans-war-economy-and-what-we-can-do-about-it",
+        "Date": "2026-10-21T02:20:24+00:00",
+        "Permalink": "https://www.theguardian.com/world/2026/oct/21/abyei-drone-strike-market-south-sudan-war-death-toll",
         "Params": {
-          "description": "Since the outbreak of the brutal civil war in Sudan in April 2023, the US, British, and Canadian governments, along with the European Union and United Nations, have imposed targeted sanctions on some 32 individuals and 20 companies tied to the bloodshed to restrict their access to assets, international finance, and travel. Three and a half years into the fighting, more than two-thirds of Sudan’s population requires h",
-          "source": "African Arguments",
-          "source_id": "african-arguments",
-          "source_class": "analysis",
-          "link": "https://africanarguments.org/2026/10/why-sanctions-are-not-stifling-sudans-war-economy-and-what-we-can-do-about-it",
-          "status": "Analysis",
+          "description": "Strike pushes the toll from attacks in recent days to more than 250, underscoring lethality of Sudan’s war that ⁠erupted in April 2023 A drone strike on a market in a border region disputed by Sudan and South Sudan killed at least 153 people on Monday, according to a local official, the latest in a wave of deadly attacks. The strike pushed the toll from attacks in recent days to more than 250, underscoring the lethal",
+          "source": "The Guardian",
+          "source_id": "guardian-world",
+          "source_class": "international_journalism",
+          "link": "https://www.theguardian.com/world/2026/oct/21/abyei-drone-strike-market-south-sudan-war-death-toll",
+          "status": "Reporting",
           "geography": [
             "National"
           ],
-          "image": "",
-          "media_reuse_basis": "",
+          "image": "https://i.guim.co.uk/img/media/ef9a48b23f6bdf975c43983d14bbbe29c015688a/0_183_765_612/master/765.jpg?width=140&quality=85&auto=format&fit=max&s=e32d712310eb511beab33703ea311e04",
+          "media_reuse_basis": "rss_metadata",
           "related_sources": [],
-          "category": "Economy",
-          "clabel": "اقتصاد",
+          "category": "War & Security",
+          "clabel": "الحرب والأمن",
           "language": "en",
-          "media_attribution": "African Arguments"
+          "media_attribution": "The Guardian"
         }
       },
       {
@@ -76,6 +76,30 @@
         }
       },
       {
+        "Title": "Why Sanctions Are Not Stifling Sudan’s War Economy and What We Can Do About It",
+        "Lang": "en",
+        "Date": "2026-10-20T22:26:49+00:00",
+        "Permalink": "https://africanarguments.org/2026/10/why-sanctions-are-not-stifling-sudans-war-economy-and-what-we-can-do-about-it",
+        "Params": {
+          "description": "Since the outbreak of the brutal civil war in Sudan in April 2023, the US, British, and Canadian governments, along with the European Union and United Nations, have imposed targeted sanctions on some 32 individuals and 20 companies tied to the bloodshed to restrict their access to assets, international finance, and travel. Three and a half years into the fighting, more than two-thirds of Sudan’s population requires h",
+          "source": "African Arguments",
+          "source_id": "african-arguments",
+          "source_class": "analysis",
+          "link": "https://africanarguments.org/2026/10/why-sanctions-are-not-stifling-sudans-war-economy-and-what-we-can-do-about-it",
+          "status": "Analysis",
+          "geography": [
+            "National"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "Economy",
+          "clabel": "اقتصاد",
+          "language": "en",
+          "media_attribution": "African Arguments"
+        }
+      },
+      {
         "Title": "Sudanese refugees face a shrinking world of safety",
         "Lang": "en",
         "Date": "2026-10-20T21:03:02+00:00",
@@ -97,6 +121,30 @@
           "clabel": "إنساني",
           "language": "en",
           "media_attribution": "Ayin Network"
+        }
+      },
+      {
+        "Title": "Drone strike on Abyei market near Sudan-South Sudan border kills 150",
+        "Lang": "en",
+        "Date": "2026-10-21T02:18:10+00:00",
+        "Permalink": "https://www.aljazeera.com/video/newsfeed/2026/10/21/drone-strike-on-abyei-market-near-sudan-south-sudan-border-kills-150?traffic_source=rss",
+        "Params": {
+          "description": "Drone strike on Abyei market near Sudan-South Sudan border kills 150",
+          "source": "Al Jazeera English",
+          "source_id": "aljazeera-en",
+          "source_class": "international_journalism",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/10/21/drone-strike-on-abyei-market-near-sudan-south-sudan-border-kills-150?traffic_source=rss",
+          "status": "Reporting",
+          "geography": [
+            "National"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "War & Security",
+          "clabel": "الحرب والأمن",
+          "language": "en",
+          "media_attribution": "Al Jazeera English"
         }
       },
       {
@@ -172,54 +220,6 @@
         }
       },
       {
-        "Title": "Drone attack near market kills 80 in Sudan",
-        "Lang": "en",
-        "Date": "2026-10-19T14:45:53+00:00",
-        "Permalink": "https://www.theguardian.com/world/2026/oct/19/drone-attack-market-al-dibab-west-kordofan-sudan",
-        "Params": {
-          "description": "Witness says drone struck twice at transport hub in al-Dibab, in one of deadliest single attacks of war A drone strike near a market in southern Sudan on Sunday evening killed 80 people, mostly commuters catching rides home. Ahmed Wadi, a witness, said the attack in the town of al-Dibab in West Kordofan state left “50 bodies who I helped bury, one of them my own brother Mohamed”. Continue reading...",
-          "source": "The Guardian",
-          "source_id": "guardian-world",
-          "source_class": "international_journalism",
-          "link": "https://www.theguardian.com/world/2026/oct/19/drone-attack-market-al-dibab-west-kordofan-sudan",
-          "status": "Reporting",
-          "geography": [
-            "Kordofan"
-          ],
-          "image": "https://i.guim.co.uk/img/media/eb787024a897682867056fc8aae201c7d3efbb92/584_0_5840_4672/master/5840.jpg?width=140&quality=85&auto=format&fit=max&s=ee1d55b879d72ff03f02e89388beac85",
-          "media_reuse_basis": "rss_metadata",
-          "related_sources": [],
-          "category": "War & Security",
-          "clabel": "الحرب والأمن",
-          "language": "en",
-          "media_attribution": "The Guardian"
-        }
-      },
-      {
-        "Title": "160 people reported killed in escalating drone attacks across Sudan",
-        "Lang": "en",
-        "Date": "2026-10-19T21:38:46+00:00",
-        "Permalink": "https://www.aljazeera.com/news/2026/10/19/160-reported-killed-in-escalating-drone-attacks-across-sudan?traffic_source=rss",
-        "Params": {
-          "description": "Rights groups warn increasing attacks by unmanned aircraft are targeting civilians and infrastructure.",
-          "source": "Al Jazeera English",
-          "source_id": "aljazeera-en",
-          "source_class": "international_journalism",
-          "link": "https://www.aljazeera.com/news/2026/10/19/160-reported-killed-in-escalating-drone-attacks-across-sudan?traffic_source=rss",
-          "status": "Reporting",
-          "geography": [
-            "National"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "War & Security",
-          "clabel": "الحرب والأمن",
-          "language": "en",
-          "media_attribution": "Al Jazeera English"
-        }
-      },
-      {
         "Title": "Rights concerns mount following arrest of civilians in Blue Nile",
         "Lang": "en",
         "Date": "2026-10-20T13:41:16+00:00",
@@ -271,27 +271,51 @@
         }
       },
       {
-        "Title": "US grants deportation reprieve to migrants from Ukraine and Sudan",
+        "Title": "Drone attack near market kills 80 in Sudan",
         "Lang": "en",
-        "Date": "2026-10-19T22:34:43+00:00",
-        "Permalink": "https://www.theguardian.com/us-news/2026/oct/19/us-migrants-deportation-ukraine-sudan",
+        "Date": "2026-10-19T14:45:53+00:00",
+        "Permalink": "https://www.theguardian.com/world/2026/oct/19/drone-attack-market-al-dibab-west-kordofan-sudan",
         "Params": {
-          "description": "DHS says migrants ‘retain protections’ after temporary protected status was set to expire on Monday Send us your questions about immigration and the midterms More than 100,000 people from Ukraine and Sudan can stay in the United States without immediate risk of deportation, the Department of Homeland Security said, in what amounts to a temporary reprieve after their right to stay in the country was set to expire on M",
+          "description": "Witness says drone struck twice at transport hub in al-Dibab, in one of deadliest single attacks of war A drone strike near a market in southern Sudan on Sunday evening killed 80 people, mostly commuters catching rides home. Ahmed Wadi, a witness, said the attack in the town of al-Dibab in West Kordofan state left “50 bodies who I helped bury, one of them my own brother Mohamed”. Continue reading...",
           "source": "The Guardian",
           "source_id": "guardian-world",
           "source_class": "international_journalism",
-          "link": "https://www.theguardian.com/us-news/2026/oct/19/us-migrants-deportation-ukraine-sudan",
+          "link": "https://www.theguardian.com/world/2026/oct/19/drone-attack-market-al-dibab-west-kordofan-sudan",
           "status": "Reporting",
           "geography": [
-            "National"
+            "Kordofan"
           ],
-          "image": "https://i.guim.co.uk/img/media/9bd27b70fe701104ae96a61f3b5d9b87bdb4e4b4/333_0_3333_2667/master/3333.jpg?width=140&quality=85&auto=format&fit=max&s=c2ba89fc03967397614f10e34e06f647",
+          "image": "https://i.guim.co.uk/img/media/eb787024a897682867056fc8aae201c7d3efbb92/584_0_5840_4672/master/5840.jpg?width=140&quality=85&auto=format&fit=max&s=ee1d55b879d72ff03f02e89388beac85",
           "media_reuse_basis": "rss_metadata",
           "related_sources": [],
           "category": "War & Security",
           "clabel": "الحرب والأمن",
           "language": "en",
           "media_attribution": "The Guardian"
+        }
+      },
+      {
+        "Title": "160 people reported killed in escalating drone attacks across Sudan",
+        "Lang": "en",
+        "Date": "2026-10-19T21:38:46+00:00",
+        "Permalink": "https://www.aljazeera.com/news/2026/10/19/160-reported-killed-in-escalating-drone-attacks-across-sudan?traffic_source=rss",
+        "Params": {
+          "description": "Rights groups warn increasing attacks by unmanned aircraft are targeting civilians and infrastructure.",
+          "source": "Al Jazeera English",
+          "source_id": "aljazeera-en",
+          "source_class": "international_journalism",
+          "link": "https://www.aljazeera.com/news/2026/10/19/160-reported-killed-in-escalating-drone-attacks-across-sudan?traffic_source=rss",
+          "status": "Reporting",
+          "geography": [
+            "National"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "War & Security",
+          "clabel": "الحرب والأمن",
+          "language": "en",
+          "media_attribution": "Al Jazeera English"
         }
       },
       {
@@ -365,30 +389,6 @@
           "clabel": "الحرب والأمن",
           "language": "en",
           "media_attribution": "UN News"
-        }
-      },
-      {
-        "Title": "Sudan army accused of drone strike on livestock market",
-        "Lang": "en",
-        "Date": "2026-10-18T13:37:03+00:00",
-        "Permalink": "https://www.aljazeera.com/video/newsfeed/2026/10/18/sudan-army-accused-of-drone-strike-on-livestock-market?traffic_source=rss",
-        "Params": {
-          "description": "Sudan’s army says it struck RSF command centres in South Darfur, but the RSF says a crowded livestock market was hit.",
-          "source": "Al Jazeera English",
-          "source_id": "aljazeera-en",
-          "source_class": "international_journalism",
-          "link": "https://www.aljazeera.com/video/newsfeed/2026/10/18/sudan-army-accused-of-drone-strike-on-livestock-market?traffic_source=rss",
-          "status": "Reporting",
-          "geography": [
-            "Darfur"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "War & Security",
-          "clabel": "الحرب والأمن",
-          "language": "en",
-          "media_attribution": "Al Jazeera English"
         }
       },
       {
@@ -537,6 +537,54 @@
       }
     ],
     "latest": [
+      {
+        "Title": "Drone strike kills more than 150 at market in Sudanese war",
+        "Lang": "en",
+        "Date": "2026-10-21T02:20:24+00:00",
+        "Permalink": "https://www.theguardian.com/world/2026/oct/21/abyei-drone-strike-market-south-sudan-war-death-toll",
+        "Params": {
+          "description": "Strike pushes the toll from attacks in recent days to more than 250, underscoring lethality of Sudan’s war that ⁠erupted in April 2023 A drone strike on a market in a border region disputed by Sudan and South Sudan killed at least 153 people on Monday, according to a local official, the latest in a wave of deadly attacks. The strike pushed the toll from attacks in recent days to more than 250, underscoring the lethal",
+          "source": "The Guardian",
+          "source_id": "guardian-world",
+          "source_class": "international_journalism",
+          "link": "https://www.theguardian.com/world/2026/oct/21/abyei-drone-strike-market-south-sudan-war-death-toll",
+          "status": "Reporting",
+          "geography": [
+            "National"
+          ],
+          "image": "https://i.guim.co.uk/img/media/ef9a48b23f6bdf975c43983d14bbbe29c015688a/0_183_765_612/master/765.jpg?width=140&quality=85&auto=format&fit=max&s=e32d712310eb511beab33703ea311e04",
+          "media_reuse_basis": "rss_metadata",
+          "related_sources": [],
+          "category": "War & Security",
+          "clabel": "الحرب والأمن",
+          "language": "en",
+          "media_attribution": "The Guardian"
+        }
+      },
+      {
+        "Title": "Drone strike on Abyei market near Sudan-South Sudan border kills 150",
+        "Lang": "en",
+        "Date": "2026-10-21T02:18:10+00:00",
+        "Permalink": "https://www.aljazeera.com/video/newsfeed/2026/10/21/drone-strike-on-abyei-market-near-sudan-south-sudan-border-kills-150?traffic_source=rss",
+        "Params": {
+          "description": "Drone strike on Abyei market near Sudan-South Sudan border kills 150",
+          "source": "Al Jazeera English",
+          "source_id": "aljazeera-en",
+          "source_class": "international_journalism",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/10/21/drone-strike-on-abyei-market-near-sudan-south-sudan-border-kills-150?traffic_source=rss",
+          "status": "Reporting",
+          "geography": [
+            "National"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "War & Security",
+          "clabel": "الحرب والأمن",
+          "language": "en",
+          "media_attribution": "Al Jazeera English"
+        }
+      },
       {
         "Title": "Why Sanctions Are Not Stifling Sudan’s War Economy and What We Can Do About It",
         "Lang": "en",
@@ -4098,54 +4146,6 @@
           "language": "en",
           "media_attribution": "Radio Tamazuj"
         }
-      },
-      {
-        "Title": "Kafia Kingi conference ends with calls for peaceful coexistence",
-        "Lang": "en",
-        "Date": "2026-10-02T10:30:43+00:00",
-        "Permalink": "https://www.radiotamazuj.org/en/news/article/kafia-kingi-conference-ends-with-calls-for-peaceful-coexistence",
-        "Params": {
-          "description": "A nine-day conference on peaceful coexistence in Kafia Kingi, a disputed area along the Sudan-South The post Kafia Kingi conference ends with calls for peaceful coexistence appeared first on Radio Tamazuj .",
-          "source": "Radio Tamazuj",
-          "source_id": "tamazuj-en",
-          "source_class": "regional_journalism",
-          "link": "https://www.radiotamazuj.org/en/news/article/kafia-kingi-conference-ends-with-calls-for-peaceful-coexistence",
-          "status": "Reporting",
-          "geography": [
-            "National"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "Sudan News",
-          "clabel": "أخبار السودان",
-          "language": "en",
-          "media_attribution": "Radio Tamazuj"
-        }
-      },
-      {
-        "Title": "Sudan’s RSF-backed administration says ready for peace talks",
-        "Lang": "en",
-        "Date": "2026-10-02T10:13:39+00:00",
-        "Permalink": "https://www.radiotamazuj.org/en/news/article/sudans-rsf-backed-administration-says-ready-for-peace-talks",
-        "Params": {
-          "description": "Large crowds took to the streets of Nyala on Thursday in a rally celebrating what The post Sudan’s RSF-backed administration says ready for peace talks appeared first on Radio Tamazuj .",
-          "source": "Radio Tamazuj",
-          "source_id": "tamazuj-en",
-          "source_class": "regional_journalism",
-          "link": "https://www.radiotamazuj.org/en/news/article/sudans-rsf-backed-administration-says-ready-for-peace-talks",
-          "status": "Reporting",
-          "geography": [
-            "Darfur"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "War & Security",
-          "clabel": "الحرب والأمن",
-          "language": "en",
-          "media_attribution": "Radio Tamazuj"
-        }
       }
     ],
     "publishers": 11
@@ -4468,6 +4468,30 @@
         }
       },
       {
+        "Title": "الأمين العام يدين الهجوم بمسيرات على أبيي ويدعو إلى المساءلة وحماية المدنيين",
+        "Lang": "ar",
+        "Date": "2026-10-20T12:00:00+00:00",
+        "Permalink": "https://news.un.org/feed/view/ar/story/2026/10/1145575",
+        "Params": {
+          "description": "أدان أنطونيو غوتيريش الأمين العام للأمم المتحدة بشدة الهجمات بمسيرات على منطقة أبيي - الواقعة بين السودان وجنوب السودان - في التاسع عشر من تشرين الأول/أكتوبر مما أدى إلى مقتل عشرات المدنيين منهم نساء وأطفال، قرب سوق أمييت وتوداش، وإصابة كثيرين آخرين.",
+          "source": "أخبار الأمم المتحدة",
+          "source_id": "un-news-ar",
+          "source_class": "international_institution",
+          "link": "https://news.un.org/feed/view/ar/story/2026/10/1145575",
+          "status": "Institutional update",
+          "geography": [
+            "National"
+          ],
+          "image": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/07/20-07-2026_WHO_Sudan.jpg/image560x340cropped.jpg",
+          "media_reuse_basis": "rss_metadata",
+          "related_sources": [],
+          "category": "War & Security",
+          "clabel": "الحرب والأمن",
+          "language": "ar",
+          "media_attribution": "أخبار الأمم المتحدة"
+        }
+      },
+      {
         "Title": "جنيه نيفاشا..ج ..حميدتي",
         "Lang": "ar",
         "Date": "2026-10-20T19:21:26+00:00",
@@ -4613,30 +4637,6 @@
         }
       },
       {
-        "Title": "السودان - استمرار اللقاءات مع الأطراف المدنية والسياسية لدعم العملية السياسية المستقبلية",
-        "Lang": "ar",
-        "Date": "2026-10-13T12:00:00+00:00",
-        "Permalink": "https://news.un.org/feed/view/ar/story/2026/10/1145537",
-        "Params": {
-          "description": "تواصل الأمم المتحدة وشركاؤها في اللجنة الخماسية المعنية بالسودان إجراء مشاورات مع الأطراف المدنية والسياسية السودانية، حيث التقوا أمس في أديس أبابا مجموعة واسعة من القوى المناهضة للحرب، بما في ذلك المجموعة المعروفة باسم تحالف \"صمود\".",
-          "source": "أخبار الأمم المتحدة",
-          "source_id": "un-news-ar",
-          "source_class": "international_institution",
-          "link": "https://news.un.org/feed/view/ar/story/2026/10/1145537",
-          "status": "Institutional update",
-          "geography": [
-            "National"
-          ],
-          "image": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/09/21-09-2026_IOM_Sudan.jpg/image560x340cropped.jpg",
-          "media_reuse_basis": "rss_metadata",
-          "related_sources": [],
-          "category": "Humanitarian",
-          "clabel": "إنساني",
-          "language": "ar",
-          "media_attribution": "أخبار الأمم المتحدة"
-        }
-      },
-      {
         "Title": "السودان: الجدل بشأن تشكيل «فصائل مسلحة» خارج المؤسسة العسكرية يعود إلى الواجهة",
         "Lang": "ar",
         "Date": "2026-10-18T18:50:48+00:00",
@@ -4712,22 +4712,21 @@
         }
       },
       {
-        "Title": "السودان - خطر المجاعة في دارفور وكردفان يتفاقم بسبب النزاع والجفاف ونقص التمويل",
+        "Title": "السودان - استمرار اللقاءات مع الأطراف المدنية والسياسية لدعم العملية السياسية المستقبلية",
         "Lang": "ar",
-        "Date": "2026-10-12T12:00:00+00:00",
-        "Permalink": "https://news.un.org/feed/view/ar/story/2026/10/1145523",
+        "Date": "2026-10-13T12:00:00+00:00",
+        "Permalink": "https://news.un.org/feed/view/ar/story/2026/10/1145537",
         "Params": {
-          "description": "يتزايد خطر المجاعة في العديد من المناطق المتأثرة بالنزاع في السودان، حيث تتفاقم الظروف المتردية أصلا بسبب الجفاف الناجم عن ظاهرة النينيو، في ظل محدودية متزايدة للاستجابة الإنسانية بسبب نقص حاد في التمويل، وانعدام الأمن، وقيود الوصول.",
+          "description": "تواصل الأمم المتحدة وشركاؤها في اللجنة الخماسية المعنية بالسودان إجراء مشاورات مع الأطراف المدنية والسياسية السودانية، حيث التقوا أمس في أديس أبابا مجموعة واسعة من القوى المناهضة للحرب، بما في ذلك المجموعة المعروفة باسم تحالف \"صمود\".",
           "source": "أخبار الأمم المتحدة",
           "source_id": "un-news-ar",
           "source_class": "international_institution",
-          "link": "https://news.un.org/feed/view/ar/story/2026/10/1145523",
+          "link": "https://news.un.org/feed/view/ar/story/2026/10/1145537",
           "status": "Institutional update",
           "geography": [
-            "Darfur",
-            "Kordofan"
+            "National"
           ],
-          "image": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/2026/10/12-10-2026-UNICEF-Sudan.jpg/image560x340cropped.jpg",
+          "image": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/09/21-09-2026_IOM_Sudan.jpg/image560x340cropped.jpg",
           "media_reuse_basis": "rss_metadata",
           "related_sources": [],
           "category": "Humanitarian",
@@ -5394,6 +5393,30 @@
           "clabel": "اقتصاد",
           "language": "ar",
           "media_attribution": "Sudan Tribune Arabic"
+        }
+      },
+      {
+        "Title": "الأمين العام يدين الهجوم بمسيرات على أبيي ويدعو إلى المساءلة وحماية المدنيين",
+        "Lang": "ar",
+        "Date": "2026-10-20T12:00:00+00:00",
+        "Permalink": "https://news.un.org/feed/view/ar/story/2026/10/1145575",
+        "Params": {
+          "description": "أدان أنطونيو غوتيريش الأمين العام للأمم المتحدة بشدة الهجمات بمسيرات على منطقة أبيي - الواقعة بين السودان وجنوب السودان - في التاسع عشر من تشرين الأول/أكتوبر مما أدى إلى مقتل عشرات المدنيين منهم نساء وأطفال، قرب سوق أمييت وتوداش، وإصابة كثيرين آخرين.",
+          "source": "أخبار الأمم المتحدة",
+          "source_id": "un-news-ar",
+          "source_class": "international_institution",
+          "link": "https://news.un.org/feed/view/ar/story/2026/10/1145575",
+          "status": "Institutional update",
+          "geography": [
+            "National"
+          ],
+          "image": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/07/20-07-2026_WHO_Sudan.jpg/image560x340cropped.jpg",
+          "media_reuse_basis": "rss_metadata",
+          "related_sources": [],
+          "category": "War & Security",
+          "clabel": "الحرب والأمن",
+          "language": "ar",
+          "media_attribution": "أخبار الأمم المتحدة"
         }
       },
       {
@@ -8345,30 +8368,6 @@
           "clabel": "الحرب والأمن",
           "language": "ar",
           "media_attribution": "Sudan Tribune Arabic"
-        }
-      },
-      {
-        "Title": "العدوان الجوي علي المعدنين السودانيين: الرواية المصرية والرواية البرهان- كامل ادريسية",
-        "Lang": "ar",
-        "Date": "2026-10-17T20:58:29+00:00",
-        "Permalink": "https://sudanile.com/%d8%a7%d9%84%d8%b9%d8%af%d9%88%d8%a7%d9%86-%d8%a7%d9%84%d8%ac%d9%88%d9%8a-%d8%b9%d9%84%d9%8a-%d8%a7%d9%84%d9%85%d8%b9%d8%af%d9%86%d9%8a%d9%86-%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86%d9%8a%d9%8a",
-        "Params": {
-          "description": "بعد اسبوع من العدوان الجوي المصري علي مئات المعدنين السودانيين بمناجم جبل العقيدات (منطقة شمال الوادي)، والذي خلف وراءه وفيات بلغت في اقل الروايات مأساوية نحو ٤٢ شهيد و مئات المصابين، ما اثار حالة من المرارة في اوساط السودانيين بما فيهم الاوساط الداعمة لسلطة الانقلاب والحرب، وكان من تداعياتها الاعتداء علي سائقي الشاحنات المصرية ومقتل […] The post العدوان الجوي علي المعدنين السودانيين: الرواية المصرية والرواية البرهان",
-          "source": "سودانايل",
-          "source_id": "sudanile-ar",
-          "source_class": "sudanese_diaspora",
-          "link": "https://sudanile.com/%d8%a7%d9%84%d8%b9%d8%af%d9%88%d8%a7%d9%86-%d8%a7%d9%84%d8%ac%d9%88%d9%8a-%d8%b9%d9%84%d9%8a-%d8%a7%d9%84%d9%85%d8%b9%d8%af%d9%86%d9%8a%d9%86-%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86%d9%8a%d9%8a",
-          "status": "Reporting",
-          "geography": [
-            "National"
-          ],
-          "image": "https://sudanile.com/wp-content/uploads/2026/10/misrrrrr.jpg",
-          "media_reuse_basis": "rss_metadata",
-          "related_sources": [],
-          "category": "War & Security",
-          "clabel": "الحرب والأمن",
-          "language": "ar",
-          "media_attribution": "سودانايل"
         }
       }
     ],
