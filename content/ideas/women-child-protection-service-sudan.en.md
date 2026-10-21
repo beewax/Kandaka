@@ -12,6 +12,14 @@ cover:
   relative: false
 ---
 
+> **Evidence update in progress — October 2026:** New civilian-protection and education-continuity evidence is being incorporated. Specialist policing and wartime civilian protection remain distinct responsibilities.
+
+## October 2026 update: two different protection systems
+The original argument for restoring specialist Family and Child Protection Units still stands. But **police investigations cannot by themselves prevent drone strikes, explosive-ordnance injuries or the interruption of schooling and medical care**. Kandaka should distinguish (1) survivor-centred criminal justice—confidential reporting, clinicians, social workers, prosecutors and independent oversight—from (2) wartime civilian protection—safe-site assessments, explosive-ordnance risk education and specialist clearance, emergency referral, evacuation planning, and continuity of water, healthcare and learning.
+
+UNICEF's October reporting on children harmed in attacks on displacement settings and NRC's reporting from El Obeid on classes interrupted by drone threats reinforce the need to measure **actual instructional days, safe classroom capacity and access to materials**, not school enrolment alone. These measures supplement, and do not replace, armed parties' obligations under international humanitarian law. Clearance must be performed by qualified mine-action specialists, not ordinary police units.
+
+
 <p style="font-size:0.9em;color:#666;"><em>Cover: Original editorial illustration commissioned by Kandaka, 2026. It is a symbolic future service, not a documentary image or depiction of an existing facility. No survivor is shown.</em></p>
 
 > **Research refreshed: 22 September 2026.** Precise nationwide staffing, locations and chains of command cannot be verified safely during the war. The proposal below is an institutional design, not a claim that such a complete service currently exists.
