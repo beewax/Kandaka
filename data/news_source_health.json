@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21T16:44:59.829435+00:00",
+  "updated": "2026-10-21T21:20:31.759849+00:00",
   "sources": [
     {
       "id": "dabanga-en",
@@ -48,7 +48,7 @@
       "language": "en",
       "status": "ok",
       "items": 30,
-      "accepted": 3
+      "accepted": 4
     },
     {
       "id": "african-arguments",
@@ -60,9 +60,9 @@
     {
       "id": "un-news-en",
       "language": "en",
-      "status": "ok",
-      "items": 30,
-      "accepted": 9
+      "status": "invalid_feed",
+      "items": 0,
+      "accepted": 0
     },
     {
       "id": "dabanga-ar",
@@ -83,21 +83,21 @@
       "language": "ar",
       "status": "ok",
       "items": 24,
-      "accepted": 1
+      "accepted": 2
     },
     {
       "id": "alaraby-ar",
       "language": "ar",
       "status": "ok",
-      "items": 177,
-      "accepted": 2
+      "items": 178,
+      "accepted": 1
     },
     {
       "id": "un-news-ar",
       "language": "ar",
-      "status": "invalid_feed",
-      "items": 0,
-      "accepted": 0
+      "status": "ok",
+      "items": 30,
+      "accepted": 3
     },
     {
       "id": "altaghyeer-en",

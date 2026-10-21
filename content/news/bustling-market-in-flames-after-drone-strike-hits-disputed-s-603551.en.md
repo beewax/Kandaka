@@ -20,7 +20,6 @@ status: Reporting
 cluster_id: e3317c38bcde
 corroboration_count: 1
 draft: false
-author: Guardian Staff
 image: https://i.guim.co.uk/img/media/cdb6095eef7698bf99d7582a0fe7913d81c9e0a6/419_0_2422_1938/master/2422.jpg?width=140&quality=85&auto=format&fit=max&s=a2e10b5030354cb4d833ca65ef0a6849
 media_source: https://www.theguardian.com/world/video/2026/oct/21/bustling-market-in-flames-after-drone-strike-hits-disputed-sudan-south-sudan-border-video
 media_reuse_basis: rss_metadata
