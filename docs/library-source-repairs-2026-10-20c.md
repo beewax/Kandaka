@@ -1,0 +1,10 @@
+# Library source repairs — 20 October 2026, batch C
+
+Two existing source mappings repaired using the official CGIAR CGSpace repository. All545records retained; no rehosting, article releases or schedule changes.
+
+- **Index128 / KND-D207E49C7C33C8AE:** *Nile Water and Agriculture: Past, Present and Future*, Conniff, Molden, Peden and Awulachew (2012). Chapter2 of *The Nile River Basin*, printed pp5–29,25PDFpages. The previous IWMI URL now redirects to a search page. Verified exact chapter through CGSpace record, official bibliographic citation and visual title/finalpages. Added chapter-specific edition/citations and bilingual download labels. Repository structuredauthorfield erroneously says DavidS.; retained correct DavidMolden credit shown in citation and chapter. SHA256 `e5319245c054cd8cfa4398f07b333181e1dac61eea2348deceb333716a9db533`.
+- **Index215 / KND-2ABCD07CF05CAE1D:** *Managing Conflict Over Natural Resources in Greater Kordofan, Sudan: Some Recurrent Patterns and Governance Implications*, ElFatihAliSiddig, KhalidEl-Harizi, BettinaPrato. IFPRI Discussion Paper00711,August2007,112physicalPDFpages. Title,author,date and terminalpublisherpage verified. Existing bibliographicmetadata preserved. SHA256 `bfbd79bc80fd0bcabd214dc9db57bdebcfe8e66ee72d8be33d4d2719f71eeb26`.
+
+Both direct institutional URLs returned200 with PDF signatures. All137pages parsed and independently rendered; first/finalpages visually checked. Chapter contains noisy OCR and produces MuPDF structure-tree warnings; all25pages nevertheless render, and exact identity is established visually and by repositorycitation. Neither is claimed byte-identical to a saved candidate.
+
+Matching CSV URLs and verified format/status maps synchronized. Prospective tracked totals after successful deployment:128repaired/284unresolved (from126/286). No exhaustive fresh catalogue audit implied. Exact before/after/evidence: `library-source-repairs-2026-10-20c.json`. Local source/metadata/boundaryimages: `C:/Users/Abdulla/Kandaka/docs/library-source-repair-2026-10-20c/`. Productionverification is separately recorded in canonical `SHARED-WORK.md`.
