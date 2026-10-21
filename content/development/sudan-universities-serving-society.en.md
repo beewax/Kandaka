@@ -83,3 +83,9 @@ Brain drain cannot be answered by appeals to patriotism alone. Kandaka proposes 
 Recovery should therefore be measured through functioning courses, student continuation, credible assessment, staff support and useful research—not simply the number of reopened buildings. The larger objective is a university system that can earn public trust by demonstrating competence, fairness and independence.
 
 Sudan needs graduates who can practise their professions. It also needs institutions able to examine national choices without fear and work with communities without condescension. Rebuilding universities offers a chance to pursue both, provided that recovery restores more than the walls.
+
+## Sources and further reading
+
+- [Linda S. Bishai, Sudanese Universities as Sites of Social Transformation (USIP Special Report 203, February 2008)](https://www.files.ethz.ch/isn/47981/sr203.pdf) — The historical policy report reviewed here; institutional copy hosted by ETH Zurich.
+- [UNESCO, statement on Sudan’s fourth year of war (15 April 2026)](https://www.unesco.org/en/articles/unesco-stands-people-sudan-it-enters-its-fourth-year-war-and-calls-greater-mobilisation) — The dated education-disruption assessment cited above.
+

@@ -93,3 +93,13 @@ The next plan should publish a small set of funded priorities, name responsible 
 Most importantly, the plan must survive a lawful change of government. That requires institutions strong enough to retain knowledge and democratic processes strong enough to change direction without destroying the system itself.
 
 Sudan planned before. The lesson is neither to abandon planning nor to repeat its ceremonies. It is to make development a sustained public obligation: build what is justified, maintain what is useful, distribute opportunity fairly and make failure answerable to citizens.
+
+## Sources and further reading
+
+- [Helen Chapin Metz (ed.), Sudan: A Country Study (Library of Congress, 1992)](https://www.loc.gov/resource/gdcmassbookdig.sudancountrystud00metz/?st=gallery) — Historical planning and banking background.
+- [UN General Assembly, A/PV.1136 (28 September 1962), paragraphs 30–37](https://digitallibrary.un.org/record/732702/files/A_PV-1136-EN.pdf) — Sudan’s statement on the Ten-Year Plan; targets rather than verified results.
+- [World Bank, Diversification: The Key to Unleashing Sudan’s Economic Potential? (25 September 2016)](https://www.worldbank.org/en/country/sudan/publication/diversification-the-key-to-unleashing-sudans-economic-potential) — Country Economic Memorandum overview and the oil-era development problem.
+- [IMF and World Bank, Sudan to Receive Debt Relief Under the HIPC Initiative (29 June 2021)](https://www.imf.org/en/news/articles/2021/06/29/pr21199-sudan-to-receive-debt-relief-under-the-hipc-initiative) — The decision point and conditions for subsequent debt relief.
+- [World Bank Group, statement on paused disbursements to Sudan (27 October 2021)](https://www.worldbank.org/en/news/statement/2021/10/27/world-bank-group-paused-all-disbursements-to-sudan-on-monday) — A dated record of the financing interruption.
+- [Rupa Ranganathan and Cecilia Briceño-Garmendia, Sudan’s Infrastructure: A Continental Perspective (World Bank, June 2011)](https://ppp.worldbank.org/sites/default/files/2022-06/AICD-Sudan-country-report.pdf) — Historical sector assessment, not an inventory of present conditions.
+

@@ -106,3 +106,11 @@ Next, investigate packages that restore usable capacity and can be expanded in s
 Only then should irreversible megaproject commitments compete for financing. Independent reviewers should test lower demand, higher costs, delays, exchange-rate stress and weaker-than-promised operating performance. Guarantees and foreign-currency commitments must be treated as real public exposure.
 
 Sudan should not have to choose between hopelessness and grandiosity. It can build a disciplined pipeline in which scale is earned by evidence. The best megaproject is the one that makes ordinary production and ordinary life work better—and continues to do so after the opening ceremony has been forgotten.
+
+## Sources and further reading
+
+- [IRENA, Renewable Power Generation Costs in 2024 (2025)](https://www.irena.org/Publications/2025/Jun/Renewable-Power-Generation-Costs-in-2024) — International generation-cost evidence; not a Sudanese project quotation.
+- [IRENA, 24/7 Renewables: The Economics of Firm Solar and Wind (2026)](https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2026/May/IRENA_TEC_24-7_renewables_2026.pdf) — Reliability and the cost of firm renewable supply.
+- [Ranganathan and Briceño-Garmendia, Sudan’s Infrastructure: A Continental Perspective (World Bank, June 2011)](https://ppp.worldbank.org/sites/default/files/2022-06/AICD-Sudan-country-report.pdf) — Historical infrastructure baseline requiring fresh asset assessment.
+- [IAEA, Milestones Approach](https://nucleus.iaea.org/sites/nids/capacity/milestones/SitePages/Home.aspx) — The institutional requirements of a nuclear-power programme.
+

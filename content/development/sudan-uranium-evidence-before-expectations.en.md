@@ -83,3 +83,11 @@ A third phase would consider specific development proposals only if the precedin
 Success in the first year should consequently be measured by better records, competent oversight and clearer decisions, not by an arbitrary number of licences or a headline valuation. An informed decision not to pursue a weak project is better than an expensive commitment made to preserve appearances.
 
 Sudan's mineral future deserves ambition disciplined by evidence. Uranium might warrant further investigation; the evidence must determine how far. The most valuable immediate resource is not a number repeated in a headline, but the capacity to distinguish a possibility from a project that genuinely serves the country.
+
+## Sources and further reading
+
+- [Musb Osman Ebrahim and Hesham Aldeen Alkhar, Uranium in Sudan (undated presentation; UNECE workshop, October 2015)](https://unece.org/fileadmin/DAM/energy/se/pp/unfc/unfc_ws_U.Th_Luxor.Oct.2015/26_Sudan.pdf) — Historical Ministry of Minerals/Geological Research Authority presentation, 38 pages.
+- [Abdelmajid A. Adam and Mohamed Ahmed H. Eltayeb, Uranium Abundance in Some Sudanese Phosphate Ores, Journal of the Argentine Chemical Society 97(2), 166–177](https://www.aqa.org.ar/images/anales/pdf9702/9702art13.pdf) — Issue labelled 2009; receipt/final-form dates in 2010. Sampling and reporting limitations are discussed above.
+- [UNECE, United Nations Framework Classification for Resources, Update 2019 (Energy Series No. 61)](https://unece.org/sites/default/files/2023-10/UNFC_ES61_Update_2019.pdf) — Resource classification; not certification of a Sudanese reserve.
+- [IAEA, Milestones Approach](https://nucleus.iaea.org/sites/nids/capacity/milestones/SitePages/Home.aspx) — The wider infrastructure required for nuclear power.
+

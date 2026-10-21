@@ -93,3 +93,10 @@ Where an investment passes that test, structure it in useful stages. Each stage 
 Success would be visible in reliable delivery, competitive total costs, stronger local firms and opportunities shared with the coast and inland states. Those outcomes are more important than the maximum size of a vessel in a promotional rendering.
 
 Sudan's deep-sea ports could become gateways to a more productive economy. To do so, they must be planned from the factory, farm, workshop and coastal community outward—not from the photograph of a giant ship inward.
+
+## Sources and further reading
+
+- [Sea Ports Corporation, institutional overview (undated)](https://sudanports.gov.sd/web/ar/?page_id=51) — Existing port facilities and cargo specialisms; not a current navigation survey.
+- [UNCTAD, Review of Maritime Transport 2025: Staying the Course in Turbulent Waters](https://unctad.org/system/files/official-document/rmt2025_en.pdf) — Global shipping, port performance and trade facilitation context.
+- [UNCTAD TrainForTrade, Review of Maritime Transport 2025: Stormy seas for global shipping (24 September 2025)](https://tft.unctad.org/en/2025/09/24/review-of-maritime-transport-2025-stormy-seas-for-global-shipping/) — Companion discussion of the review and port management.
+
