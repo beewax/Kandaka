@@ -12,3 +12,11 @@ Both images inspected visually, retained unmodified, and supplied with matching 
 ## State
 
 Prepared locally; publication requires successful build and independent verification. Remote content changes are based on current main, not the outdated local draft flag. Unrelated local review drafts and reference-audit work are excluded. The master-record addition is scoped to this request. This update does not restart the 48-hour article-release interval.
+
+## Verified publication
+
+Content commit 2394392b3cd83f79f03d1886936478750d3930ea; matching Netlify deployment 6ad83a15cc6538f713b1fd0f ready and published at 2026-10-21T04:06:34.240Z (20 October 23:06:34 CDT). Independently verified 2026-10-21T04:07:18Z (20 October 23:07 CDT). English https://kandaka.com/history/khartoum-in-1850/ and Arabic https://kandaka.com/ar/history/khartoum-in-1850/ returned HTTP 200; both complete new captions match their built editions and each contains exactly two inline figures. Both new images and original cover returned HTTP 200 with SHA256 hashes matching the local originals. Verification inspected rendered HTML and image bytes, not a browser screenshot.
+
+Local production build succeeded, and cover audit passed across 2,942 Markdown files. Local Git transport stalled; used authenticated GitHub tree/commit/ref APIs with expected-head protection, preserving all unrelated remote and local work. Only the two articles, two images, scoped master-record addition and this evidence document were published. Existing publication date, approved cover and queue intervals unchanged.
+
+نُشرت الصورتان مع شروحهما ومصادرهما في النسختين العربية والإنجليزية، وتحقّقنا من الصفحتين ومن تطابق ملفات الصور. لم يتغيّر الغلاف أو تاريخ نشر المقال أو ترتيب المقالات التالية.
