@@ -14,6 +14,17 @@ cover:
 
 <p style="font-size:0.85rem;color:#888;margin-top:0.5rem;margin-bottom:1.5rem;">Cover: Original illustration commissioned by Kandaka, 2026.</p>
 
+> **Update in progress — October 2026:** This article is being refreshed with newer evidence on bank-rate flexibility, customs valuation, gold-export transparency and fiscal capacity. The core argument is unchanged, but several current indicators have moved materially since publication.
+
+## October 2026 evidence update: price discovery is not stabilization
+
+Central Bank circulars issued on 24 August 2026 allowed banks and exchange companies to change announced exchange rates during the day and gave banks greater flexibility to buy exporters' foreign-exchange proceeds at market-linked announced rates. Those changes can improve price discovery, but subsequent volatility and continued parallel-market trading show why **exchange-rate flexibility is not itself stabilization**. A credible regime still requires fiscal restraint, functioning banks, usable reserves, transparent export proceeds and public confidence. [Central Bank of Sudan circular registry](https://cbos.gov.sd/ar/node/24470).
+
+The customs exchange rate has also been raised repeatedly in 2026. By October it was reported at SDG 5,631.76 per US dollar, up sharply from earlier levels. Customs valuation matters because it changes the Sudanese-pound cost of imported machinery, medicines, spare parts and fuel even when their international dollar prices do not change. Future updates should therefore track four indicators separately: **the bank rate, the parallel-market range, the customs valuation rate and the spread/volatility between them**.
+
+Gold requires the same discipline. Reported export earnings are not the same thing as government revenue, central-bank reserves or audited monetary backing. Kandaka's proposed reserve-supported pound should therefore require separate disclosure of physical gold production, official export tonnage, export proceeds entering formal channels, taxes/royalties and independently verified reserve holdings. A currency cannot be made credible simply by pointing to gold somewhere in the ground or in informal production.
+
+
 Money is a promise. A Sudanese pound is accepted today because the person receiving it expects somebody else to accept it tomorrow. When that confidence disappears, households and businesses protect themselves with dollars, gold, goods, property or anything else likely to hold value.
 
 Sudan's monetary crisis is therefore not a narrow problem for the Central Bank. A farmer cannot price an imported pump when the exchange rate may change before harvest. A factory cannot plan when wages, power, machinery and working capital move at different speeds. A bank cannot make useful long-term loans when repayment money may lose much of its value. Stable money is development infrastructure.
