@@ -12,6 +12,12 @@ cover:
   relative: false
 ---
 
+> **Evidence review in progress — October 2026:** This article is being updated with Sudanese-led research on community heritage and digital preservation.
+
+## October 2026 update: a distributed heritage network
+
+Recent Sudanese heritage research strengthens the case for a distributed preservation network involving museums, libraries, archives, universities and community custodians. Document oral histories, local names and context alongside digitized records; agree ownership and access rules in advance; train local staff; and keep geographically separate backups. Community testimony should be assessed alongside archaeological evidence, not assumed to prove an uninterrupted historical account. Digital copies complement, but cannot replace, physical heritage protection.
+
 *Sudan National Museum, Khartoum, 12 February 2013. Photograph: David Stanley, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sudan_National_Museum_(8625532907).jpg), [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/). Unmodified pre-war photograph; it does not establish the building’s present condition or visitor access.*
 
 ## More than a building full of objects
