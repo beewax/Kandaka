@@ -28,6 +28,11 @@ Melly gives the population as about **30,000, including the garrison**. These ar
 
 The market, he writes, had **four covered streets and four open ones**. The covered streets held the best shops, stocked with Manchester printed cottons, Sheffield knives and scissors, and Staffordshire pottery. The open streets were mostly stalls of senna, lichens, herbs and dried plants. Khartoum's merchants sent out **gum arabic, gall-nuts, senna, castor oil and large quantities of ivory**. The goods went down the Nile to Berber, then by camel across the desert to Korosko in Egypt. Boat-building was busy along the river, mostly long open boats of palm wood. ([Melly, ch. VII](https://www.gutenberg.org/cache/epub/78015/pg78015-images.html#c07))
 
+<figure>
+  <a href="/images/uploads/khartoum-melly-map-1852.jpg"><img src="/images/uploads/khartoum-melly-map-1852.jpg" alt="Historical map showing the Nile from Aswan to Khartoum, with Berber, Korosko and routes across the desert" loading="lazy" style="max-height:650px;width:auto;max-width:100%;margin:auto"></a>
+  <figcaption>The Nile journey in context: the map in George Melly’s <em>Khartoum and the Blue and White Niles</em>, Vol. I, second edition (1852). It shows Khartoum, Berber and Korosko, places mentioned in the account of trade. A period map, not a modern navigation guide. Public domain; unmodified scan via <a href="https://www.gutenberg.org/cache/epub/78014/pg78014-images.html#img_images_map.jpg">Project Gutenberg</a>. Select the image to enlarge.</figcaption>
+</figure>
+
 ## The governor and the "honourable exiles"
 
 The family was received by the governor-general, **Abd al-Latif Pasha** (in office 1850–1852), whom Melly found generous: he gave them a house, lent them his own boat, and promised thirty camels to meet them at Berber. Melly also noticed how many senior officials were in Khartoum against their will. He calls it an "honourable exile." The governor of Berber, Ali Bey Hasib, was one of them. So was **Bayoumi Effendi**, a mathematician trained at the École Polytechnique in Paris, who had been ordered to found a school in Khartoum with twelve teachers. Melly found no school building and no pupils, and judged the whole scheme a pretext to remove able men from Cairo. ([Melly, ch. VI](https://www.gutenberg.org/cache/epub/78015/pg78015-images.html#c06)) The wider history of scholarly exile also includes Rifa'a al-Tahtawi, whose Sudan years, **1850–1854**, are examined in a study by Tag Elsir Ahmed Harran. ([Harran, 1976](https://www.jstor.org/stable/44947257))
@@ -35,6 +40,11 @@ The family was received by the governor-general, **Abd al-Latif Pasha** (in offi
 ## Rain and daily life
 
 The worst season, Melly was told, was the rains. They came so suddenly and so heavily that a man visiting a friend might be stuck in his house for three or four days until the water went down. He also records everyday beliefs, such as avoiding the river on the last Wednesday of the year until after the afternoon prayer. ([Melly, ch. VII](https://www.gutenberg.org/cache/epub/78015/pg78015-images.html#c07))
+
+<figure>
+  <img src="/images/uploads/george-melly-vignette-1852.jpg" alt="Book engraving identifying George Melly as a traveller riding a camel, with luggage and weapons" loading="lazy">
+  <figcaption>“The Author”: the title-page vignette in Vol. II of Melly’s book, second edition (1852), depicting him on a camel. This is a book illustration, not a photograph or a view of a Khartoum street. Public domain; unmodified scan via <a href="https://www.gutenberg.org/cache/epub/78015/pg78015-images.html#img_images_i4.jpg">Project Gutenberg</a>.</figcaption>
+</figure>
 
 ## Reading Melly today
 

@@ -1,5 +1,12 @@
 # KANDAKA WORKPLAN
 
+## 20 October 2026 — H01 additional historical images / صورتان تاريخيتان إضافيتان
+
+User authorized two additional images within the published Khartoum in 1850 article, both languages. Selected the Nile route map (Vol. I) and author-on-camel vignette (Vol. II) from Melly's second edition (1852), public-domain scans via Project Gutenberg. Visually checked; no AI, cropping or alteration. Complete EN/AR captions, alt text and source links; existing cover and actual article date preserved. This is an illustration update, not a new article release or a reset of the publication interval. Deployment verification recorded separately in docs/H01-extra-images-2026-10-20.md.
+
+أذن المستخدم بإضافة صورتين داخل المقال المنشور باللغتين: خريطة مسار النيل ورسم المؤلف على جمل من الطبعة الثانية لكتاب ميلي (1852). الصورتان من الملك العام، مع شروح ونصوص بديلة وروابط مصادر باللغتين، دون تغيير الغلاف أو تاريخ نشر المقال أو جدول المقالات التالية.
+
+
 ## Approved Library additions — 20 October 2026 / إضافات المكتبة المعتمدة
 
 VERIFIED LIVE, 20 October 2026 at 17:00 CDT: three approved bilingual catalogue records added — academic resilience in Sudanese higher education; Meroitic Kedurma; prehistoric Bayuda. Live count: 545. Content commit 5b0b2c6; Netlify deployment 6ad7e3efcc6538f713953352. No full article, release schedule, stored PDF or automation changes. Publication evidence: docs/library-refresh-2026-10-20.md. / نُشرت الدراسات الثلاث المعتمدة بملخصات عربية وإنجليزية وروابط المصادر، وتحقّقنا من النسختين مباشرة في 20 أكتوبر 2026 الساعة 17:00 بتوقيت شيكاغو. أصبح عدد مواد المكتبة المنشورة 545؛ دون تغيير المقالات أو جداول النشر أو ملفات الدراسات أو الأتمتة.
