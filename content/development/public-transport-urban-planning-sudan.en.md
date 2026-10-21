@@ -14,6 +14,17 @@ cover:
 
 <p style="font-size:0.85rem;color:#888;margin-top:0.5rem;margin-bottom:1.5rem;">Cover: Original illustration commissioned by Kandaka, 2026.</p>
 
+> **Update in progress — October 2026:** Kandaka is incorporating newer Sudan-specific evidence on multi-hazard infrastructure risk, Port Sudan's water and coastal-engineering constraints, and explosive-ordnance risks at transport and utility sites.
+
+## October 2026 evidence update: every corridor needs a hazard screen
+
+New Sudan-specific research reinforces a point that should now be explicit: there is no single national engineering template for a Sudanese street, depot or transit corridor. A 2026 multi-hazard study covering all 18 states combines flood susceptibility, drought frequency and social vulnerability; newer work on Port Sudan also highlights severe water constraints, coastal exposure, corrosion/materials issues, drainage and geotechnical challenges. Route and depot selection should therefore include a **hazard-and-vulnerability screen before design is locked in**.
+
+At minimum, major transport investments should map flood paths and drainage, slope/landslide or rockfall exposure where relevant, water availability, heat and dust, social vulnerability, evacuation access, and redundancy if a bridge, feeder, road or depot becomes unavailable. Port Sudan requires its own coastal and water-capacity assumptions rather than a Khartoum template.
+
+Conflict adds another layer. UN mine-action reporting has documented explosive hazards at bridges and electrical infrastructure in Greater Khartoum. Reconstruction should therefore treat explosive-hazard survey and clearance as a pre-construction gate where contamination is plausible. The priority should be **critical nodes whose repair restores several services at once**—for example a bridge, substation or corridor that unlocks water, hospitals, markets and public transport together.
+
+
 ## BRT, Trambuses, Light Rail, Climate-Resilient Streets and a Sudanese Transit Industry
 
 Sudan will not merely rebuild roads after the war. It will decide what its cities are for.
