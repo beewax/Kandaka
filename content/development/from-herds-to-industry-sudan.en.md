@@ -14,6 +14,17 @@ cover:
 
 <p style="font-size:0.85rem;color:#888;margin-top:0.5rem;margin-bottom:1.5rem;">Cover: Original illustration commissioned by Kandaka, 2026.</p>
 
+> **Update in progress — October 2026:** Kandaka is incorporating newer Sudan-specific evidence on wartime herd losses, veterinary-capacity destruction, domestic vaccine production and drought resilience. The article remains available while this evidence refresh is completed.
+
+## October 2026 evidence update: rebuild the system, not only the herd
+
+New official and FAO reporting strengthens the article's central argument. FAO's 2026–27 vaccination campaign targets 9.8 million animals and 1.2 million livestock-owning households, while reporting that the Central Veterinary Research Laboratory at Soba—the national reference laboratory and Sudan's sole vaccine producer for more than five decades—was destroyed during the war. FAO says that facility had produced up to 35 million vaccine doses annually. This makes veterinary science, diagnostics, vaccine production and cold-chain capacity part of Sudan's productive infrastructure, not a secondary service. [FAO, 25 September 2026](https://www.fao.org/newsroom/detail/sudan--fao-launches-nationwide-livestock-vaccination-campaign-to-protect-food-security-and-livelihoods-amid-conflict/en).
+
+Khartoum State officials also reported in October that the state had lost an estimated 69–80 percent of its livestock during the conflict, alongside damage to veterinary laboratories and clinics and losses among improved dairy cattle. That estimate is state-specific and its methodology has not been independently verified, so it should not be extrapolated to Sudan's national herd. Its policy implication is nevertheless clear: recovery must restore breeding programmes, feed, animal health, electricity and markets as well as animal numbers.
+
+The five-year programme should therefore track **animal-health coverage, domestic vaccine capacity, functioning laboratories, producer income, cold-chain reach, processing share and value retained in producing regions**. It should also preserve locally adapted dairy genetics and build regional diagnostic and cold-chain capacity so Sudan does not recreate a single national point of failure.
+
+
 Sudan already possesses one of Africa's largest livestock populations. Yet having an enormous number of animals is not the same as having a powerful livestock industry.
 
 The distinction can be seen in Sudan's own trade figures. According to the Central Bank of Sudan, live animals earned approximately **$287 million in the first half of 2026**. Sheep accounted for most of that value, followed by camels. During the same six months, recorded meat exports were worth only about **$0.55 million**, while hides and skins earned about **$1.78 million**.
