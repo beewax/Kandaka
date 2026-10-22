@@ -16,12 +16,9 @@ geography:
 language: ar
 status: Reporting
 cluster_id: d96428f8399f
-corroboration_count: 2
+corroboration_count: 1
 draft: false
 author: صحيفة التغيير
-related_sources:
-- source: أخبار الأمم المتحدة
-  link: https://news.un.org/feed/view/ar/story/2026/10/1145558
 clabel: الحرب والأمن
 ---
 
