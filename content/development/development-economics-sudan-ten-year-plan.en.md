@@ -45,3 +45,7 @@ Understanding this pattern is the precondition for designing a reconstruction ap
 ---
 
 **[Read the full paper in the Kandaka Library](https://pub-a5e3b47fe87749f491660d68e2029284.r2.dev/development-economics-sudan-ten-year-plan.pdf)**
+
+## Sources and further reading
+
+- [Iman Sharif, Development Economics in Sudan: The Ten-Year Economic and Social Plan, 1961–1970, Sudan Studies 66 (July 2022), pp. 29–38](https://drive.google.com/file/d/1S7q3ms6GcKHB75Jm1TNkjc0_rxSJR4Lk/view?usp=drive_link) — Original article in the publisher’s archived issue.

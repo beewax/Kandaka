@@ -92,7 +92,7 @@ That is a harder question. It is also a more honest one.
 ## Further Reading -- Kandaka Library
 
 - [Oxford Handbook of Ancient Nubia](https://pub-0c3bb637d5f54b239fe4a4ef9b08bfe3.r2.dev/oxford-handbook-of-ancient-nubi-geoff-emberling-bruce-beyer-wi.pdf) -- Geoff Emberling & Bruce Beyer Williams. The most comprehensive scholarly reference on Nubian archaeology, history, and civilisation from the Neolithic to the medieval period.
-- [Ta'rikh al-Sudan](https://pub-0c3bb637d5f54b239fe4a4ef9b08bfe3.r2.dev/ta-rikh-al-sudan-abd-al-rahman-al-sa-di.pdf) -- Abd al-Rahman al-Sa'di. The classical Arabic chronicle of Sudan's history, written in Timbuktu in the 17th century.
+- [Angelika Lohwasser, Queenship in Kush: Status, Role and Ideology of Royal Women, Journal of the American Research Center in Egypt 38 (2001), pp. 61–76](https://www.asor.org/wp-content/uploads/2022/04/Lohwasser2001_QueenshipInKush.pdf) — Scholarly analysis of Kushite royal women, their titles, roles and representation.
 - [From Faras to Soba](https://pub-0c3bb637d5f54b239fe4a4ef9b08bfe3.r2.dev/from-faras-to-soba-henryk-paner-artur-obluski.pdf) -- Henryk Paner, Artur Obluski & Mahmoud. Archaeological surveys of Nubian Christian kingdom sites along the Nile.
 - [Sudan & Nubia](https://pub-0c3bb637d5f54b239fe4a4ef9b08bfe3.r2.dev/sudan-nubia-table-of-content-manuela-lehmann.pdf) -- The journal of the Sudan Archaeological Research Society, covering ongoing excavations and research.
 - [Dongola Guide Book](https://pub-0c3bb637d5f54b239fe4a4ef9b08bfe3.r2.dev/dongola-guide-book-nubian-archaeological-developme.pdf) -- Nubian Archaeological Development Organisation. Site guide to Old Dongola, capital of the medieval kingdom of Makuria.

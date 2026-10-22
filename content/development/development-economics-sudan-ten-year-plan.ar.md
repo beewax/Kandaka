@@ -43,3 +43,7 @@ draft: false
 ---
 
 **[اقرأ الورقة كاملةً في مكتبة كاندكة](https://pub-a5e3b47fe87749f491660d68e2029284.r2.dev/development-economics-sudan-ten-year-plan.pdf)**
+
+## المصادر وقراءات إضافية
+
+- [إيمان شريف، اقتصاديات التنمية في السودان: الخطة الاقتصادية والاجتماعية العشرية 1961–1970، دراسات السودان 66 (يوليو 2022)، ص 29–38](https://drive.google.com/file/d/1S7q3ms6GcKHB75Jm1TNkjc0_rxSJR4Lk/view?usp=drive_link) — المقال الأصلي ضمن العدد المحفوظ في أرشيف الناشر.

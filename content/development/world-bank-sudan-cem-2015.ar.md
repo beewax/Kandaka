@@ -46,3 +46,7 @@ draft: false
 ---
 
 **[الاطلاع على التقرير الكامل (وثائق البنك الدولي)](https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099177304172239890/p171309070d1300e50bb280fca73734e4f)**
+
+## المصادر وقراءات إضافية
+
+- [البنك الدولي، المذكرة الاقتصادية القطرية للسودان: تحقيق إمكانات التنمية المتنوعة (التقرير الرئيسي 103352، 30 سبتمبر 2015)](https://documents1.worldbank.org/curated/en/771411474649783837/pdf/103352-REVISED-SudanCountryEconomicMemorandumRealizingthePotentialforDiversifiedDevelopmentTheWorldBankWashingtonDC.pdf) — التقرير الرئيسي الأصلي؛ أُتيح للجمهور في سبتمبر 2016.

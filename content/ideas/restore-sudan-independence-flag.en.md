@@ -88,7 +88,7 @@ Distinctiveness is not the highest purpose of a national flag, but it has practi
 
 The flag’s return during the 2018–2019 uprising was not ordered by the state. Protesters used it as a symbol of independence, civilian possibility and a Sudanese identity distinct from the regimes that followed 1956.
 
-Radio Dabanga documented the blue-yellow-green flag among the banners of the revolution. Scholarship on Sudan’s revolutionary culture likewise records its use in debates over Africanity, Arab identity and the meaning of a “new Sudan.” [Radio Dabanga](https://www.dabangasudan.org/en/all-news/article/flying-the-flag-for-sudan); [Sudan Studies Society of the United Kingdom](https://sssuk.org/sites/default/files/sudanStudies/SS60.pdf).
+Radio Dabanga documented the blue-yellow-green flag among the banners of the revolution. Scholarship on Sudan’s revolutionary culture likewise records its use in debates over Africanity, Arab identity and the meaning of a “new Sudan.” [Radio Dabanga](https://www.dabangasudan.org/en/all-news/article/flying-the-flag-for-sudan); [Sudan Studies Society of the United Kingdom](https://drive.google.com/file/d/1CaZKysE0oR7Cz_kg5CKfT3UawMWn-fXH/view?usp=drive_link).
 
 This does not prove that most Sudanese want restoration; no credible nationwide poll establishes that. It does prove that the flag remains a living symbol rather than a museum object.
 
@@ -220,7 +220,7 @@ This time, the people should hold the rope.
 - United Nations Legislative Series, [*Materials on Succession of States: Sudan*](https://legal.un.org/legislativeseries/pdfs/chapters/book14/book14_sudan.pdf), including the 1956 recognition correspondence.
 - Sudanese Embassy in Qatar, [official description of the current national flag](https://www.embassy-qatar.gov.sd/sections/aboutSudan2).
 - Radio Dabanga, [*Flying the Flag for Sudan—What Flag Is That?*](https://www.dabangasudan.org/en/all-news/article/flying-the-flag-for-sudan), 2019.
-- Sudan Studies Society of the United Kingdom, [*Sudan Studies*, issue 60](https://sssuk.org/sites/default/files/sudanStudies/SS60.pdf), on the independence flag’s revolutionary reappearance.
+- Sudan Studies Society of the United Kingdom, [*Sudan Studies*, issue 60](https://drive.google.com/file/d/1CaZKysE0oR7Cz_kg5CKfT3UawMWn-fXH/view?usp=drive_link), on the independence flag’s revolutionary reappearance.
 - Sudan Tribune, [report on al-Burhan's December 2025 restoration proposal](https://sudantribune.com/article/307664).
 
 *Research note, 10 September 2026: the original 1956 legal construction sheet and a first-person archival record of Al-Sarirah Makki al-Sufi's authorship were not available in the sources reviewed. Those gaps are disclosed rather than filled with certainty. Any future constitutional proposal should commission archival, legal and nationwide consultation work before a decision.*

@@ -32,3 +32,7 @@ Understanding this history does not make the problem easier to solve. But it mak
 ---
 
 **[Read the full book in the Kandaka Library](https://pub-a5e3b47fe87749f491660d68e2029284.r2.dev/history-of-modern-sudan-collins.pdf)**
+
+## Sources and further reading
+
+- [Robert O. Collins, A History of Modern Sudan (Cambridge University Press, 2008)](https://assets.cambridge.org/97805218/58205/copyright/9780521858205_copyright_info.pdf) — Publisher’s front matter and bibliographic details; this extract is not the full book.

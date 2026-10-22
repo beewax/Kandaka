@@ -40,3 +40,7 @@ The report does not discuss industrialization. Like every major Western assessme
 ---
 
 **[Read the full report on World Bank Open Knowledge](https://openknowledge.worldbank.org/entities/publication/34749b76-5d3d-4f71-bd06-e0a68df1121f)**
+
+## Sources and further reading
+
+- [World Bank, Sudan Economic Update: The Economic and Social Consequences of the Conflict—Charting a Path to Recovery (May 2025)](https://documents1.worldbank.org/curated/en/099051925180542315/pdf/P178527-6a7d4d70-52be-49b7-87e5-ead89050a99b.pdf) — The original report discussed here.

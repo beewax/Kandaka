@@ -92,7 +92,7 @@ cover:
 ## قراءة إضافية -- مكتبة كنداكة
 
 - [دليل أكسفورد للنوبة القديمة](https://pub-0c3bb637d5f54b239fe4a4ef9b08bfe3.r2.dev/oxford-handbook-of-ancient-nubi-geoff-emberling-bruce-beyer-wi.pdf) -- جيف إمبرلينغ وبروس بيير ويليامز. المرجع العلمي الأشمل في آثار النوبة وتاريخها وحضارتها.
-- [تاريخ السودان](https://pub-0c3bb637d5f54b239fe4a4ef9b08bfe3.r2.dev/ta-rikh-al-sudan-abd-al-rahman-al-sa-di.pdf) -- عبد الرحمن السعدي. الكرونيكل العربي الكلاسيكي لتاريخ السودان، كُتب في تمبكتو في القرن السابع عشر.
+- [أنجيليكا لوهفاسر، الملكية النسائية في كوش: مكانة النساء الملكيات وأدوارهن وأيديولوجيتهن، مجلة مركز البحوث الأمريكي في مصر 38 (2001)، ص 61–76](https://www.asor.org/wp-content/uploads/2022/04/Lohwasser2001_QueenshipInKush.pdf) — دراسة علمية لألقاب النساء الملكيات في كوش وأدوارهن وتمثيلهن.
 - [من فرس إلى سوبا](https://pub-0c3bb637d5f54b239fe4a4ef9b08bfe3.r2.dev/from-faras-to-soba-henryk-paner-artur-obluski.pdf) -- هنريك بانر وآرتور أوبلوسكي ومحمود. مسوحات أثرية لمواقع الممالك النوبية المسيحية على امتداد النيل.
 - [السودان والنوبة](https://pub-0c3bb637d5f54b239fe4a4ef9b08bfe3.r2.dev/sudan-nubia-table-of-content-manuela-lehmann.pdf) -- مجلة جمعية الأبحاث الأثرية السودانية.
 - [دليل دنقلا](https://pub-0c3bb637d5f54b239fe4a4ef9b08bfe3.r2.dev/dongola-guide-book-nubian-archaeological-developme.pdf) -- المنظمة النوبية للتنمية الأثرية. دليل موقع دنقلا العجوز.

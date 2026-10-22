@@ -177,7 +177,7 @@ Trust will not return because the state orders it. It will return when the rules
 - [Central Bank of Sudan, Foreign Trade Statistical Digest, January–June 2026](https://cbos.gov.sd/sites/default/files/Stat_br_%20jan.-jun._%202026.pdf) — recorded gold exports and merchandise trade.
 - [Central Bank of Sudan Act 2002](https://cbos.gov.sd/en/content/central-bank-sudan-act-2002) — statutory powers, governance, reserves, gold and advances to government; any future legal design must verify subsequent amendments.
 - [IMF, Sudan: Selected Issues (2013)](https://www.imf.org/en/publications/cr/issues/2016/12/31/sudan-selected-issues-41027) — Sudan-specific evidence on inflation, money, exchange rates and monetary transmission.
-- [IMF, Zimbabwe: 2025 Article IV Consultation](https://www.imf.org/-/media/Files/Publications/CR/2025/English/1zweea2025001-source-pdf.ashx) — evidence on the ZiG, liquidity expansion, monetary financing and later stabilization.
+- [IMF, Zimbabwe: 2025 Article IV Consultation](https://www.imf.org/-/media/files/publications/cr/2025/english/1zweea2025001-source-pdf.pdf) — evidence on the ZiG, liquidity expansion, monetary financing and later stabilization.
 - [World Bank, Sudan Economic Update 2025](https://documents1.worldbank.org/curated/en/099051925180542315/pdf/P178527-6a7d4d70-52be-49b7-87e5-ead89050a99b.pdf) — conflict, economic contraction, inflation and recovery context.
 
 *Research was refreshed on 4 September 2026. Official wartime data remain preliminary and incomplete; this article does not claim that recorded gold exports equal Sudan's audited monetary reserves.*

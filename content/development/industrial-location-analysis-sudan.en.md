@@ -30,3 +30,7 @@ This paper should be read alongside the [Ten Year Economic Plan analysis](/devel
 ---
 
 **[Read the full paper in the Kandaka Library](https://pub-a5e3b47fe87749f491660d68e2029284.r2.dev/industrial-location-analysis-sudan.pdf)**
+
+## Sources and further reading
+
+- [Khalid Hassan Idris, Industrial Location Analysis of Sudan (doctoral thesis, University of Durham, March 1980)](https://etheses.durham.ac.uk/id/eprint/7493/1/7493_4558.PDF) — Original thesis on industrial location and the Prime Base model.

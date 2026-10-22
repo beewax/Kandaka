@@ -77,3 +77,8 @@ Affordability policy should distinguish users who cannot pay from avoidable loss
 Public reporting should track functionality and reliability alongside expenditure. Useful measures might include service interruptions, repair times, access for previously underserved communities and whether maintenance funds are actually available. The selected measures should be independently checkable and should not expose sensitive information about vulnerable users.
 
 Sudan does not need to choose between urgent recovery and a larger development vision. It needs a way to connect them. Restore essential services, repair the links that make production possible, and require major projects to demonstrate how they complete the network. The objective is not the greatest quantity of concrete. It is a country in which infrastructure enables people to live, work and move with greater reliability and dignity.
+
+## Sources and further reading
+
+- [Rupa Ranganathan and Cecilia Briceño-Garmendia, Sudan’s Infrastructure: A Continental Perspective (World Bank, June 2011)](https://documents1.worldbank.org/curated/en/561781468202137788/pdf/647380WP0P12420n0country0report0Web.pdf) — Historical sector assessment; its reference years and territorial definitions require care.
+- [World Bank, Sudan Economic Update: The Economic and Social Consequences of the Conflict—Charting a Path to Recovery (May 2025)](https://documents1.worldbank.org/curated/en/099051925180542315/pdf/P178527-6a7d4d70-52be-49b7-87e5-ead89050a99b.pdf) — Dated conflict and recovery assessment.

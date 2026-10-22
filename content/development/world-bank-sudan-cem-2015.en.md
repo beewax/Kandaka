@@ -47,3 +47,7 @@ This paper reads best alongside the [World Bank Sudan Economic Update 2025](/dev
 ---
 
 **[Access the full report (World Bank Documents)](https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099177304172239890/p171309070d1300e50bb280fca73734e4f)**
+
+## Sources and further reading
+
+- [World Bank, Sudan Country Economic Memorandum: Realizing the Potential for Diversified Development (main report 103352, 30 September 2015)](https://documents1.worldbank.org/curated/en/771411474649783837/pdf/103352-REVISED-SudanCountryEconomicMemorandumRealizingthePotentialforDiversifiedDevelopmentTheWorldBankWashingtonDC.pdf) — Original main report; publicly disclosed in September 2016.
