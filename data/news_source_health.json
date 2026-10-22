@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-22T03:36:52.653960+00:00",
+  "updated": "2026-10-22T11:17:24.625349+00:00",
   "sources": [
     {
       "id": "dabanga-en",
@@ -26,7 +26,7 @@
       "id": "bbc-africa",
       "language": "en",
       "status": "ok",
-      "items": 34,
+      "items": 33,
       "accepted": 1
     },
     {
@@ -76,7 +76,7 @@
       "language": "ar",
       "status": "ok",
       "items": 25,
-      "accepted": 1
+      "accepted": 0
     },
     {
       "id": "france24-ar",
@@ -89,8 +89,8 @@
       "id": "alaraby-ar",
       "language": "ar",
       "status": "ok",
-      "items": 177,
-      "accepted": 3
+      "items": 171,
+      "accepted": 2
     },
     {
       "id": "un-news-ar",
@@ -139,7 +139,7 @@
       "language": "en",
       "status": "ok",
       "items": 20,
-      "accepted": 12
+      "accepted": 11
     },
     {
       "id": "sudan-transparency",
@@ -160,7 +160,7 @@
       "language": "ar",
       "status": "ok",
       "items": 12,
-      "accepted": 3
+      "accepted": 5
     }
   ]
 }

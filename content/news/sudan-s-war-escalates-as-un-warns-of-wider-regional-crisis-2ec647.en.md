@@ -1,12 +1,12 @@
 ---
-title: Sudan’s war escalates as UN warns of wider regional crisis
+title: Sudan's war escalates as UN warns of wider regional crisis
 date: '2026-10-21T22:41:43Z'
-description: 'In tonight’s edition: Sudan’s brutal war continues to take a devastating
+description: 'In tonight''s edition: Sudan''s brutal war continues to take a devastating
   regional toll, as a drone strike in Abyei reportedly kills 153 people. We speak
   to the UN envoy for Sudan following an emergency international meeting on the escalating
   crisis. Also, health authorities prepare to coordinate a response as Ebola cases
-  emerge in Nigeria and rise in Kenya. Finally, ten years after Cameroon’s deadliest
-  railway disast'
+  emerge in Nigeria and rise in Kenya. Finally, 10 years after Cameroon’s deadliest
+  railway disaste'
 source: France 24 Africa
 source_id: france24-africa
 source_class: international_journalism
@@ -26,6 +26,6 @@ media_reuse_basis: rss_metadata
 media_attribution: France 24 Africa
 ---
 
-In tonight’s edition: Sudan’s brutal war continues to take a devastating regional toll, as a drone strike in Abyei reportedly kills 153 people. We speak to the UN envoy for Sudan following an emergency international meeting on the escalating crisis. Also, health authorities prepare to coordinate a response as Ebola cases emerge in Nigeria and rise in Kenya. Finally, ten years after Cameroon’s deadliest railway disast
+In tonight's edition: Sudan's brutal war continues to take a devastating regional toll, as a drone strike in Abyei reportedly kills 153 people. We speak to the UN envoy for Sudan following an emergency international meeting on the escalating crisis. Also, health authorities prepare to coordinate a response as Ebola cases emerge in Nigeria and rise in Kenya. Finally, 10 years after Cameroon’s deadliest railway disaste
 
 [France 24 Africa →](https://www.france24.com/en/tv-shows/eye-on-africa/20261021-sudan-s-war-escalates-as-un-warns-of-wider-regional-crisis)
