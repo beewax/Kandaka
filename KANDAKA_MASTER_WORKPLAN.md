@@ -1,5 +1,12 @@
 # KANDAKA WORKPLAN
 
+## 21 October 2026 — A13/A15 companion reference
+
+User accepted the article and requested a reference to the companion small-farmers article. Added matching English/Arabic forthcoming notes in A13 (Beyond the Farm), naming A15 (What Sudan’s Small Farmers Need to Rebuild). No link to an unpublished page; both draft flags and dates unchanged. When A15 is independently verified live, replace the forthcoming note in BOTH A13 editions with a related-reading link to the corresponding language URL: /development/sudan-small-farmers-rebuild/ and /ar/development/sudan-small-farmers-rebuild/. This is related reading, not independent evidence. Preserve current release order and 48-hour spacing.
+
+أُضيفت إحالة باللغتين في مقال المشروعات الصغيرة إلى المقال المرتقب عن صغار المزارعين، دون رابط غير منشور. عند التحقق من نشر مقال المزارعين، تُستبدل الإحالة المرتقبة برابط القراءة المكملة باللغة المناسبة في النسختين، مع الحفاظ على ترتيب النشر والفاصل الزمني.
+
+
 ## 20 October 2026 — H01 additional historical images / صورتان تاريخيتان إضافيتان
 
 User authorized two additional images within the published Khartoum in 1850 article, both languages. Selected the Nile route map (Vol. I) and author-on-camel vignette (Vol. II) from Melly's second edition (1852), public-domain scans via Project Gutenberg. Visually checked; no AI, cropping or alteration. Complete EN/AR captions, alt text and source links; existing cover and actual article date preserved. This is an illustration update, not a new article release or a reset of the publication interval. Deployment verification recorded separately in docs/H01-extra-images-2026-10-20.md.
