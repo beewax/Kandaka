@@ -1,5 +1,12 @@
 # KANDAKA WORKPLAN
 
+## 22 October 2026 — A13 release preparation / تجهيز نشر A13
+
+User explicitly requested publishing Beyond the Farm now in Arabic and English after final checks. The 48-hour H01 gate has passed. Both editions retain the forthcoming A15 reference and approved Omdurman illustration. Sources refreshed22October; no new empirical finding or thesis change. Release evidence: docs/A13-release-2026-10-22.md. A14 is next only after48hours from A13's successful deployment. A14–A18 remain draft-protected; the three cultural/nature review drafts are not authorized here.
+
+طلب المستخدم نشر «ما وراء المزرعة» باللغتين بعد الفحص النهائي. أُعيد فحص المصادر، مع الحفاظ على الإحالة إلى مقال صغار المزارعين والغلاف المعتمد. يبقى المقال التالي بعد48ساعة من النشر الفعلي؛ ولا يشمل هذا الإذن مسودات الطعام والآثار والطبيعة قيد المراجعة.
+
+
 ## 21 October 2026 — A13/A15 companion reference
 
 User accepted the article and requested a reference to the companion small-farmers article. Added matching English/Arabic forthcoming notes in A13 (Beyond the Farm), naming A15 (What Sudan’s Small Farmers Need to Rebuild). No link to an unpublished page; both draft flags and dates unchanged. When A15 is independently verified live, replace the forthcoming note in BOTH A13 editions with a related-reading link to the corresponding language URL: /development/sudan-small-farmers-rebuild/ and /ar/development/sudan-small-farmers-rebuild/. This is related reading, not independent evidence. Preserve current release order and 48-hour spacing.
