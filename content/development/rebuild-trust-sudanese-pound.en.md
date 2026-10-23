@@ -181,3 +181,9 @@ Trust will not return because the state orders it. It will return when the rules
 - [World Bank, Sudan Economic Update 2025](https://documents1.worldbank.org/curated/en/099051925180542315/pdf/P178527-6a7d4d70-52be-49b7-87e5-ead89050a99b.pdf) — conflict, economic contraction, inflation and recovery context.
 
 *Research was refreshed on 4 September 2026. Official wartime data remain preliminary and incomplete; this article does not claim that recorded gold exports equal Sudan's audited monetary reserves.*
+
+## Evidence update — 22 October 2026: the parallel-market gap widens
+Reuters reported on 21 October that the Sudanese pound traded at around **SDG 10,000 per US dollar in the parallel market**, compared with a reported official rate of **SDG 4,200** and a customs valuation rate above **SDG 5,600**. These are distinct rates serving different purposes, not interchangeable observations of a single market. The parallel quote is a dated report, not a central-bank fixing or a rate guaranteed to all households. [Reuters, 21 October 2026](https://www.reuters.com/world/africa/sudans-currency-tumbles-new-low-war-hammers-economy-2026-10-21/).
+
+This widens the case for tracking **bank quotations, parallel-market quotations, customs valuation and the gaps between them**, with dates and source definitions. A customs-rate change can raise the domestic-currency assessment of duties on imported inputs even when their foreign-currency prices are unchanged; actual pass-through to prices depends on duties, exemptions, market conditions and enforcement. Exchange-rate flexibility alone cannot repair confidence without credible fiscal policy, usable reserves, functioning banks and legitimate foreign-exchange supply. This report should not be treated as proof of a particular measured inflation rate.
+
