@@ -1,0 +1,10 @@
+{{/* Hugo RegularPages excludes drafts/future publications. Existing review gate
+     checks both translations and all required source/licence metadata. */}}
+{{- $items := slice -}}
+{{- range where .Site.RegularPages "Section" "images" -}}
+  {{- partial "photo-review-check.html" . -}}
+  {{- if and .Params.image_url (eq .Params.review_status "verified-bilingual") -}}
+    {{- $items = $items | append (dict "id" .File.TranslationBaseName "since" (.Date.Format "2006-01-02T15:04:05Z07:00") "value" .) -}}
+  {{- end -}}
+{{- end -}}
+{{- return (partial "weekly-visual-selection.html" (dict "items" $items "limit" 3)) -}}

@@ -1,0 +1,20 @@
+{{/* One editorial week for both languages and both homepage image sections.
+     Calendar arithmetic preserves Saturday 10:30 Chicago across DST changes.
+     The optional at argument is used by the isolated regression fixtures only. */}}
+{{- $at := now -}}
+{{- with .at }}{{ $at = time.AsTime . }}{{ end -}}
+{{- $local := time.In "America/Chicago" $at -}}
+{{- $days := mod (add (int $local.Weekday) 1) 7 -}}
+{{- $date := $local.AddDate 0 0 (int (mul -1 $days)) -}}
+{{- $start := time.AsTime (printf "%sT10:30:00" ($date.Format "2006-01-02")) "America/Chicago" -}}
+{{- if $at.Before $start }}{{ $start = $start.AddDate 0 0 -7 }}{{ end -}}
+{{/* Count calendar weeks in UTC, rather than dividing DST-dependent elapsed hours. */}}
+{{- $day := time.AsTime ($start.Format "2006-01-02") "UTC" -}}
+{{- $epoch := time.AsTime "2026-10-10" "UTC" -}}
+{{- $index := int (div (sub $day.Unix $epoch.Unix) 604800) -}}
+{{/* Grandfather the already-public pool at rollout; these are real publications,
+     not newly dated content. Later additions wait until a Saturday boundary. */}}
+{{- $baseline := time.AsTime "2026-10-23T00:00:00Z" -}}
+{{- $cutoff := $start -}}
+{{- if $cutoff.Before $baseline }}{{ $cutoff = $baseline }}{{ end -}}
+{{- return (dict "start" $start "previous" ($start.AddDate 0 0 -7) "index" $index "cutoff" $cutoff "baseline" $baseline) -}}

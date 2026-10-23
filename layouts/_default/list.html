@@ -526,18 +526,8 @@ html[data-theme="dark"] .k-nile-home-kicker { color: #ffd84d; }
 {{- $latestDevelopment := first 1 (sort (where .Site.RegularPages "Section" "development") "Date" "desc") }}
 {{- $latestHistory := first 1 (sort (where .Site.RegularPages "Section" "history") "Date" "desc") }}
 {{- $latestCulture := first 1 (sort (where .Site.RegularPages "Section" "culture") "Date" "desc") }}
-{{- $carouselImageCandidates := slice }}
-{{- $imageSite := .Site }}
-{{- if $imageSite }}
-  {{- range (sort (where $imageSite.RegularPages "Section" "images") "Date" "desc") }}
-    {{- if lt (len $carouselImageCandidates) 1 }}
-      {{- $imageText := lower (printf "%s %s" .Title .Plain) }}
-      {{- if not (findRE `south[\s_-]*sudan|southern\s+sudan|\bjuba\b|\bbentiu\b|\bmalakal\b|\bequatoria\b|bahr\s+(?:el|al)\s+ghazal` $imageText) }}
-        {{- $carouselImageCandidates = $carouselImageCandidates | append . }}
-      {{- end }}
-    {{- end }}
-  {{- end }}
-{{- end }}
+{{- $homepagePhotos := partial "homepage-photos.html" . }}
+{{- $carouselImageCandidates := first 1 $homepagePhotos }}
 
 <section class="k-featured" aria-labelledby="featured-heading" data-k-carousel>
   <p class="k-featured-kicker" id="featured-heading">{{ if $isAr }}الأحدث في كاندكة{{ else }}Latest on Kandaka{{ end }}</p>
@@ -807,7 +797,7 @@ html[data-theme="dark"] .k-nile-home-kicker { color: #ffd84d; }
     <div class="k-section-head"><h2 id="photos-heading">{{ if $isAr }}السودان بالصور{{ else }}Sudan in Images{{ end }}</h2></div>
     {{ partial "photo-update-notice.html" . }}
     <div class="k-photo-stack">
-    {{ range first 3 (sort (where .Site.RegularPages "Section" "images") "Date" "desc") }}
+    {{ range $homepagePhotos }}
       {{ partial "photo-review-check.html" . }}
       <div class="k-photo-card">
         <a href="{{ .RelPermalink }}"><img src="{{ .Params.image_url }}" alt="{{ .Params.alt }}" loading="lazy" decoding="async"></a>

@@ -14,7 +14,16 @@
 {{- end -}}
 {{- $works := where $catalogue "image" "!=" nil -}}
 {{- $links := where $catalogue "image" "==" nil -}}
-{{- with .limit }}{{ $works = first . $works }}{{ end -}}
+{{- with .limit -}}
+  {{- $items := slice -}}
+  {{- range $works -}}
+    {{- $work := . -}}
+    {{- with .homepage_since -}}
+      {{- $items = $items | append (dict "id" $work.source "since" . "value" $work) -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $works = partial "weekly-visual-selection.html" (dict "items" $items "limit" .) -}}
+{{- end -}}
 <section class="art-collection" aria-labelledby="artwork-heading">
   <h2 id="artwork-heading">{{ if $isAr }}الفنون والتراث البصري{{ else }}Art & Visual Heritage{{ end }}</h2>
   <p class="art-weekly-notice">{{ if $isAr }}<strong>مختارات فنية أسبوعية</strong> — نخطط لإضافة أعمال جديدة كل سبت، مع أولوية للفنانين السودانيين وذكر أسماء المبدعين وروابط المصادر.{{ else }}<strong>Weekly artwork selections</strong> — New additions are scheduled each Saturday, prioritizing Sudanese artists, with creator credits and source links.{{ end }}</p>

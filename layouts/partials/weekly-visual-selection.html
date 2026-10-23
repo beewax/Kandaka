@@ -1,0 +1,35 @@
+{{/* Input items: stable language-independent id, real publication since, value.
+     Source-only/unreviewed records are excluded by the callers. */}}
+{{- $week := partial "visual-week.html" . -}}
+{{- $pool := slice -}}
+{{- $seen := slice -}}
+{{- $new := slice -}}
+{{- range sort .items "id" -}}
+  {{- $since := time.AsTime .since -}}
+  {{- if and (not ($since.After $week.cutoff)) (not (in $seen .id)) -}}
+    {{- $pool = $pool | append . -}}
+    {{- $seen = $seen | append .id -}}
+    {{- if and ($since.After $week.previous) ($since.After $week.baseline) -}}
+      {{- $new = $new | append . -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- $selected := slice -}}
+{{- $ids := slice -}}
+{{- $limit := math.Min (int (.limit | default 3)) (len $pool) | int -}}
+{{- if gt $limit 0 -}}
+  {{/* Reserve at most one slot for a genuinely new reviewed publication. */}}
+  {{- range first 1 (sort $new "since" "desc") -}}
+    {{- $selected = $selected | append .value -}}
+    {{- $ids = $ids | append .id -}}
+  {{- end -}}
+  {{- $offset := mod (add (mod (mul $week.index 3) (len $pool)) (len $pool)) (len $pool) -}}
+  {{- range seq 0 (sub (len $pool) 1) -}}
+    {{- $item := index $pool (mod (add $offset .) (len $pool)) -}}
+    {{- if and (lt (len $selected) $limit) (not (in $ids $item.id)) -}}
+      {{- $selected = $selected | append $item.value -}}
+      {{- $ids = $ids | append $item.id -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- return $selected -}}
