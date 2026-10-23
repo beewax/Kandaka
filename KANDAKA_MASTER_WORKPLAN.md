@@ -1,5 +1,12 @@
 # KANDAKA WORKPLAN
 
+## A13 VERIFIED LIVE — 22 October 2026 / نُشر A13
+
+Beyond the Farm published in English and Arabic at21:14:23.455CDT, verified21:15CDT. Release commit a0b3f255e3e8660c61839980d0f91537786f7eb1; Netlify6adac2b77f3543aa28fa9acc. Full bilingual bodies and approved cover independently verified. Evidence: docs/A13-release-2026-10-22.md. NextA14 no earlier than24October21:14:24CDT; retain48-hour intervals. A15 forthcoming cross-reference retained. No cultural/nature review drafts approved by this release.
+
+نُشر «ما وراء المزرعة» وتحقّقنا من النسختين والغلاف. المقال التالي عن الملابس والسلطة في النوبة المسيحية، بعد48ساعة على الأقل من النشر الفعلي.
+
+
 ## 22 October 2026 — A13 release preparation / تجهيز نشر A13
 
 User explicitly requested publishing Beyond the Farm now in Arabic and English after final checks. The 48-hour H01 gate has passed. Both editions retain the forthcoming A15 reference and approved Omdurman illustration. Sources refreshed22October; no new empirical finding or thesis change. Release evidence: docs/A13-release-2026-10-22.md. A14 is next only after48hours from A13's successful deployment. A14–A18 remain draft-protected; the three cultural/nature review drafts are not authorized here.
