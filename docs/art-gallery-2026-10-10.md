@@ -1,5 +1,11 @@
 # Artwork gallery update — 10 October 2026
 
+## Homepage rotation maintenance - 23 October 2026
+
+The owner kept Saturday reviews and approved weekly rotation of existing reviewed homepage images. Implementation `bd89c9b` is verified live; see `docs/homepage-weekly-visuals-2026-10-23.md`. Keep both existing automation schedules unchanged. The homepage now uses a shared Saturday 10:30 a.m. America/Chicago boundary, independent of arbitrary rebuild frequency; the full gallery is unchanged.
+
+When adding a newly verified illustrated artwork, include `homepage_since` in its shared `data/artworks.json` record, using the real completed-review timestamp with its UTC offset (for example, an ISO 8601 timestamp captured at review). Preserve capture/artwork dates, rights and bilingual metadata. Do not invent or backdate this timestamp. Source-only works do not need it and remain outside the homepage image pool. A missing `homepage_since` leaves the artwork in the full catalogue but outside homepage rotation. A review completed after a weekly boundary becomes eligible the next Saturday; at most one new reviewed work receives priority while the remaining cards rotate. Continue the existing source/image, bilingual, build, publication and live-verification requirements.
+
 ## Complete bilingual catalogue
 
 **Verified live:** commit `cffba24965441a44241f97febe285b4eb7301087`, Netlify deploy `6acaf74a7df72c0008b22674`, ready and published 10 October 2026 at 21:42:01 America/Chicago. Local build passed with all ten Arabic title/artist/description/category/date/collection records present, eight translated image alt texts, preserved English titles and translated homepage preview. Live Arabic gallery checked visually and through its rendered text, RTL direction confirmed with no horizontal overflow at the inspected viewport; English gallery and Arabic homepage independently checked. Source-only works also display Arabic descriptions. Screenshot: `deliverables/kandaka-artwork-arabic.png` outside the repository. Scheduled articles remain draft-protected.
