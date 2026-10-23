@@ -19,3 +19,9 @@ This is build-time selection. Existing Saturday editorial publications use the e
 ## Validation
 
 The isolated actual-Hugo fixtures cover current/next weeks, within-week stability, both DST transitions, unique selection, empty and small pools, new-publication priority and deferred midweek additions. Full production builds and English/Arabic rendered identity checks are recorded outside the repository in task-3. Release commit, Netlify deployment and live verification must be recorded separately; this implementation record alone does not claim publication.
+
+## Sudan-first artwork refinement
+
+The original collection explicitly permits international art while prioritizing Sudan. The homepage therefore selects two Sudan/Nubia works and one international work. All nine illustrated records remain in the full collection: six regional and three international. Shared source-keyed `homepage_group` metadata is `sudan-nubia` or `international`; translations inherit it. Future curated artwork needs both a real completed-review eligibility timestamp in `homepage_since` and its reviewed group. Missing/unknown groups do not silently enter homepage rotation. Art/capture dates and licences remain unchanged.
+
+Regional selections advance two positions each editorial week; international selections advance one. The existing Saturday boundary and new-reviewed-work priority apply within each group. If a group lacks enough eligible records, fill the remaining slots from the other group without duplicates; fewer than three total eligible records produce a smaller row. Never publish a pending work to fill a slot. Photos and the featured photo are unchanged by this refinement. This preserves international works without allowing a whole week of international-only cards when enough regional works exist.

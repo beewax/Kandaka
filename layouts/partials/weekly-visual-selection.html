@@ -23,7 +23,8 @@
     {{- $selected = $selected | append .value -}}
     {{- $ids = $ids | append .id -}}
   {{- end -}}
-  {{- $offset := mod (add (mod (mul $week.index 3) (len $pool)) (len $pool)) (len $pool) -}}
+  {{- $stride := int (.stride | default 3) -}}
+  {{- $offset := mod (add (mod (mul $week.index $stride) (len $pool)) (len $pool)) (len $pool) -}}
   {{- range seq 0 (sub (len $pool) 1) -}}
     {{- $item := index $pool (mod (add $offset .) (len $pool)) -}}
     {{- if and (lt (len $selected) $limit) (not (in $ids $item.id)) -}}

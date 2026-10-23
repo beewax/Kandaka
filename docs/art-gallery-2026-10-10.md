@@ -4,6 +4,8 @@
 
 The owner kept Saturday reviews and approved weekly rotation of existing reviewed homepage images. Implementation `bd89c9b` is verified live; see `docs/homepage-weekly-visuals-2026-10-23.md`. Keep both existing automation schedules unchanged. The homepage now uses a shared Saturday 10:30 a.m. America/Chicago boundary, independent of arbitrary rebuild frequency; the full gallery is unchanged.
 
+Homepage artwork selection now reserves two Sudan/Nubia slots and one international slot, with eligible-only fallbacks. Classify future illustrated records using shared `homepage_group`: `sudan-nubia` or `international`. Retain all legitimate wider-world works in the full gallery.
+
 When adding a newly verified illustrated artwork, include `homepage_since` in its shared `data/artworks.json` record, using the real completed-review timestamp with its UTC offset (for example, an ISO 8601 timestamp captured at review). Preserve capture/artwork dates, rights and bilingual metadata. Do not invent or backdate this timestamp. Source-only works do not need it and remain outside the homepage image pool. A missing `homepage_since` leaves the artwork in the full catalogue but outside homepage rotation. A review completed after a weekly boundary becomes eligible the next Saturday; at most one new reviewed work receives priority while the remaining cards rotate. Continue the existing source/image, bilingual, build, publication and live-verification requirements.
 
 ## Complete bilingual catalogue
