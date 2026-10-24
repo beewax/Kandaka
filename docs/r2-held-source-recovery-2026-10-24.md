@@ -1,0 +1,5 @@
+# Held-source recovery: seven resolved, nine pending
+
+Reviewed all16heldentries. Resolved Sudan country presentation15slides withcorrectMakkawi/ministrycredit;Karanog1910textvolume301pageR2scan withprinted1–286andfigureleaves;HannahMcNeish2016Guardianarticle;FirstStreetfloodeducationarticle;onepageOsypinski/NCNprojectsummary;twoFanackWater2021articles. FullHTMLnotlabelledPDF;projectsummarynotlabelledresearchreport. Alluploadsretained,privatebucketunchanged. Ninepreciseholds inJSON.
+
+OneconsolidatedpublicationafterlocalQA toconserveNetlifyallowance;no schedules/settingschangesorothereditorialrelease. Evidence canonicalSHARED-WORK.md anddocs/r2-sixteen-recovery-2026-10-24/.
