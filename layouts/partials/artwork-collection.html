@@ -19,7 +19,7 @@
   {{- range $works -}}
     {{- $work := . -}}
     {{- with .homepage_since -}}
-      {{- if and $work.image (in (slice "sudan-nubia" "international") $work.homepage_group) -}}
+      {{- if and $work.image (eq "sudan-nubia" $work.homepage_group) -}}
         {{- $items = $items | append (dict "id" $work.source "since" . "group" $work.homepage_group "value" $work) -}}
       {{- end -}}
     {{- end -}}

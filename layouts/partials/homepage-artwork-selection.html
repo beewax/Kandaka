@@ -1,23 +1,7 @@
-{{/* Preserve Sudan-first scope: two regional works plus one international work.
+{{/* Keep the homepage focused on Sudan, Nubia and Kush.
      Shared curated groups and source IDs keep both languages synchronized. */}}
 {{- $regional := where .items "group" "sudan-nubia" -}}
-{{- $international := where .items "group" "international" -}}
-{{- $args := dict "items" $regional "limit" 2 "stride" 2 -}}
+{{- $args := dict "items" $regional "limit" 3 "stride" 2 -}}
 {{- with .at }}{{ $args = merge $args (dict "at" .) }}{{ end -}}
 {{- $selected := partial "weekly-visual-selection.html" $args -}}
-{{- $args = merge $args (dict "items" $international "limit" 1 "stride" 1) -}}
-{{- $selected = $selected | append (partial "weekly-visual-selection.html" $args) -}}
-{{/* Fill missing slots from the other eligible pool without duplicates.
-     Each ranked pool contains at most three values; an empty pool is safe. */}}
-{{- $ids := slice -}}
-{{- range $selected }}{{ $ids = $ids | append .source }}{{ end -}}
-{{- range slice (dict "items" $regional "stride" 2) (dict "items" $international "stride" 1) -}}
-  {{- $args = merge $args (dict "items" .items "limit" 3 "stride" .stride) -}}
-  {{- range partial "weekly-visual-selection.html" $args -}}
-    {{- if and (lt (len $selected) 3) (not (in $ids .source)) -}}
-      {{- $selected = $selected | append . -}}
-      {{- $ids = $ids | append .source -}}
-    {{- end -}}
-  {{- end -}}
-{{- end -}}
 {{- return $selected -}}

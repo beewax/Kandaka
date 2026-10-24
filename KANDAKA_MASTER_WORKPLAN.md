@@ -1,5 +1,11 @@
 # KANDAKA WORKPLAN
 
+## 24 October 2026 — Homepage art relevance correction / تصحيح صلة الفن في الصفحة الرئيسية
+
+User approved removing the unrelated 1893 French `Jane Avril` poster from Kandaka and restricting homepage artwork rotation to records explicitly classified as Sudanese, Nubian or Kushite (`sudan-nubia`). The broader gallery may retain other international works pending individual review, but they no longer qualify for homepage display. The approved replacement pool includes the rights-verified Kushite-period gold ram’s-head amulet, described conservatively as Egypt or Sudan, possibly Nubia, because the museum does not give a confirmed Sudanese findspot. This is a visual-curation correction, not approval of a new article.
+
+وافق المستخدم على إزالة ملصق «جان أفريل» الفرنسي غير المرتبط بالسودان من كنداكة، وقصر تدوير أعمال الصفحة الرئيسية على المواد المصنفة صراحة ضمن السودان أو النوبة أو كوش (`sudan-nubia`). يمكن أن تبقى أعمال عالمية أخرى في المعرض الأوسع إلى حين مراجعتها منفردة، لكنها لا تتأهل للعرض في الصفحة الرئيسية. تشمل مجموعة البدائل المعتمدة تميمة ذهبية على هيئة رأس كبش من العصر الكوشي، مع وصف موقعها بحذر: مصر أو السودان، وربما النوبة، لأن سجل المتحف لا يحدد موقع اكتشاف مؤكداً داخل السودان. هذا تصحيح في الاختيار البصري وليس اعتماداً لمقال جديد.
+
 ## A13 VERIFIED LIVE — 22 October 2026 / نُشر A13
 
 Beyond the Farm published in English and Arabic at21:14:23.455CDT, verified21:15CDT. Release commit a0b3f255e3e8660c61839980d0f91537786f7eb1; Netlify6adac2b77f3543aa28fa9acc. Full bilingual bodies and approved cover independently verified. Evidence: docs/A13-release-2026-10-22.md. NextA14 no earlier than24October21:14:24CDT; retain48-hour intervals. A15 forthcoming cross-reference retained. No cultural/nature review drafts approved by this release.
