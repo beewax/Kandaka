@@ -1,0 +1,118 @@
+{
+  "status": "prepared; deployment evidence recorded separately",
+  "records": [
+    {
+      "index": 466,
+      "before": {
+        "title": "Introducing the Sudan Labor Market Panel Survey 2022",
+        "title_ar": "التعريف بالمسح اللوحي لسوق العمل في السودان 2022",
+        "author": "Ragui Assaad",
+        "year": "2023",
+        "tags": [
+          "Economy & Development"
+        ],
+        "desc": "Introduces the SLMPS 2022, a panel survey of 4,878 households and 25,442 individuals providing core labor-market and socioeconomic data for Sudan.",
+        "desc_ar": "يقدّم المسح اللوحي لسوق العمل في السودان 2022، الذي شمل 4,878 أسرة و25,442 فرداً، ويوفر بيانات أساسية عن سوق العمل والوضع الاجتماعي والاقتصادي في السودان.",
+        "source": "https://pub-0c3bb637d5f54b239fe4a4ef9b08bfe3.r2.dev/INTRODUCING_THE_SUDAN_LABOR_MARKET_PANEL.pdf"
+      },
+      "after": {
+        "title": "Introducing the Sudan Labor Market Panel Survey 2022",
+        "title_ar": "التعريف بالمسح اللوحي لسوق العمل في السودان 2022",
+        "author": "Caroline Krafft; Ragui Assaad; Ruby Cheung",
+        "year": "2023",
+        "tags": [
+          "Economy & Development"
+        ],
+        "desc": "Introduces the SLMPS 2022, a panel survey of 4,878 households and 25,442 individuals providing core labor-market and socioeconomic data for Sudan.",
+        "desc_ar": "يقدّم المسح اللوحي لسوق العمل في السودان 2022، الذي شمل 4,878 أسرة و25,442 فرداً، ويوفر بيانات أساسية عن سوق العمل والوضع الاجتماعي والاقتصادي في السودان.",
+        "source": "https://erf.org.eg/publications/introducing-the-sudan-labor-market-panel-survey-2022/",
+        "download": "https://erf.org.eg/app/uploads/2023/08/1694936971_591_2459234_1647.pdf",
+        "source_label_en": "Download ERF working paper PDF (36 pages)",
+        "source_label_ar": "تنزيل ورقة عمل المنتدى PDF (36 صفحة)",
+        "edition": "ERF Working Paper No. 1647, August 2023",
+        "citation": "Caroline Krafft; Ragui Assaad; Ruby Cheung. 2023. Introducing the Sudan Labor Market Panel Survey 2022. ERF Working Paper No. 1647, August. Economic Research Forum.",
+        "citation_ar": "كارولين كرافت؛ راجي أسعد؛ روبي تشيونغ. 2023. التعريف بالمسح اللوحي لسوق العمل في السودان 2022. ورقة العمل رقم 1647، أغسطس. منتدى البحوث الاقتصادية."
+      }
+    },
+    {
+      "index": 495,
+      "before": {
+        "title": "Resource Rents, Human Development and Economic Growth in Sudan",
+        "title_ar": "ريع الموارد والتنمية البشرية والنمو الاقتصادي في السودان",
+        "author": "Various (Economies journal, MDPI)",
+        "year": "2020",
+        "tags": [
+          "Economy & Development",
+          "Minerals & Mining"
+        ],
+        "desc": "An open-access study confirming a long-run equilibrium relationship between resource rents, human development, and economic growth in Sudan.",
+        "desc_ar": "دراسة مفتوحة الوصول تؤكد وجود علاقة توازن طويلة الأجل بين ريع الموارد والتنمية البشرية والنمو الاقتصادي في السودان.",
+        "source": "https://pub-0c3bb637d5f54b239fe4a4ef9b08bfe3.r2.dev/economies-08-00099.pdf"
+      },
+      "after": {
+        "title": "Resource Rents, Human Development and Economic Growth in Sudan",
+        "title_ar": "ريع الموارد والتنمية البشرية والنمو الاقتصادي في السودان",
+        "author": "Elwasila Saeed Elamin Mohamed",
+        "year": "2020",
+        "tags": [
+          "Economy & Development",
+          "Minerals & Mining"
+        ],
+        "desc": "An open-access study confirming a long-run equilibrium relationship between resource rents, human development, and economic growth in Sudan.",
+        "desc_ar": "دراسة مفتوحة الوصول تؤكد وجود علاقة توازن طويلة الأجل بين ريع الموارد والتنمية البشرية والنمو الاقتصادي في السودان.",
+        "source": "https://www.econstor.eu/bitstream/10419/257148/1/economies-08-00099.pdf",
+        "download": "https://www.econstor.eu/bitstream/10419/257148/1/economies-08-00099.pdf",
+        "source_label_en": "Download repository PDF (22 pages, including cover)",
+        "source_label_ar": "تنزيل نسخة المستودع PDF (22 صفحة، تشمل الغلاف)",
+        "edition": "Economies 8(4), article 99, 16 November 2020; 21 article pages plus repository cover",
+        "citation": "Elwasila Saeed Elamin Mohamed. 2020. Resource Rents, Human Development and Economic Growth in Sudan. Economies 8(4): 99. https://doi.org/10.3390/economies8040099",
+        "citation_ar": "الوسيلة سعيد الأمين محمد. 2020. ريع الموارد والتنمية البشرية والنمو الاقتصادي في السودان. مجلة Economies، المجلد 8، العدد 4، المقالة 99. https://doi.org/10.3390/economies8040099"
+      }
+    }
+  ],
+  "verification": [
+    {
+      "index": 466,
+      "url": "https://erf.org.eg/app/uploads/2023/08/1694936971_591_2459234_1647.pdf",
+      "status": 200,
+      "final_url": "https://erf.org.eg/app/uploads/2023/08/1694936971_591_2459234_1647.pdf",
+      "content_type": "application/pdf",
+      "bytes": 2459234,
+      "sha256": "20301b714bedd5db86363d1d198c27fb522aaff1b370b94fd667964e01764d49",
+      "pdf": true,
+      "pages": 36,
+      "first_pages": "ERF Working PaPers series\nIntroducing the Sudan Labor Market \nPanel Survey 2022\nCaroline Krafft, Ragui Assaad and Ruby Cheung\n  Working Paper No. 1647\nAugust 2023\n2023\n \n \n \n \nINTRODUCING THE SUDAN LABOR MARKET  \nPANEL SURVEY 20221 \n \nCaroline Krafft,2 Ragui Assaad,3 and Ruby Cheung4 \n \n \nWorking Paper No. 1647 \n \nAugust 2023 \n \n \n \n \n \n \nSend correspondence to: \nCaroline Krafft \nSt. Catherine University  \ncgkrafft@stkate.edu   \n \n  \n                                                 \n1 The authors appreciate the collaboration of Sudan’s Central Bu reau of Statistics, the Economic Research Forum, and the \nparticipants who responded to the SLM PS. SLMPS 2022 was funded with support from the LSMS+ program at the World Bank \nand the Growth and Labor Markets | Low Income Countries (G LM | LIC) program at IZA, with underlying support from FCDO. \nThis paper was specifically supported by GLM | LIC funding. \n2 St. Catherine University. Email: cgkrafft@stkate.edu \n3 University of Minnesota, Humphrey School of Public Affairs.  \n4 St. Catherine University ",
+      "last_page": "33 \n \nEgypt. In C. Krafft & R. Assaad (Eds.), The Egyptian Labor Market: A Focus on Gender \nand Vulnerability (pp. 89–114). Oxford, UK. \nSelwaness, I., & Ehab, M. (2022). Social Protection and Vulnerability in Egypt: A Gendered \nAnalysis. In C. Krafft & R. Assaad (Eds.), The Egyptian Labor Market: A Focus on Gender \nand Vulnerability (pp. 257–294). Oxford, UK: Oxford University Press. \nSelwaness, I., & Krafft, C. (2021). The Dynamics of Family Formation and Women’s Work: \nWhat Facilitates and Hinders Female Employment in the Middle East and North Africa? \nPopulation Research and Policy Review, 40(3), 533–587. \nStevens, F. R., Gaughan, A. E., Linard, C., & Tatem, A. J. (2015). Disaggregating Census Data \nfor Population Mapping Using Random Forests with Remotely-Sensed and Ancillary Data. \nPLoS ONE, 10(2), 1–22. \nUNHCR. (2022). Country - Sudan. Retrieved December 30, 2022 from \nhttps://data.unhcr.org/en/country/sdn \nUNICEF. (2022, May 17). A Safe Return to School for Students in Sudan. \nUnited Nations Department of Economic and Social Affairs Population Division. (2022). World \nPopulation Prospects: The 2022 Revision. Custom Data Acquired via Website. Retrieved \nFebruary 14, 2023 from https://population.un.org/wpp/ \nUnited Nations Statistical Commission. (2020). A Recommendation on the Method to Delineat \nCities, Urban and Rural Areas for International Statistical Comparisons. \nWahba, J., & Assaad, R. (2017). Flexible Labor Regulations and Informality in Egypt. Review of \nDevelopment Economics, 21(4), 962–984. \nWorld Bank. (2023). LSMS+. Retrieved July 21, 2023 from \nhttps://www.worldbank.org/en/programs/lsms/initiatives/lsms-plus. \nWorldPop. (2020). Sudan - Population Counts - Humanitarian Data Exchange. HDX. Retrieved \nDecember 28, 2022 from https://data.humdata.org/dataset/worldpop-population-counts-for-\nsudan \nYassine, C. (2015). Job Accession, Separation and Mobility in the Egyptian Labor Market Over \nthe Past Decade. In R. Assaad & C. Krafft (Eds.), The Egyptian Labor Market in an Era of \nRevolution (pp. 218–240). Oxford, UK: Oxford University Press. \n ",
+      "pages_rendered": 36
+    },
+    {
+      "index": 495,
+      "url": "https://www.econstor.eu/bitstream/10419/257148/1/economies-08-00099.pdf",
+      "status": 200,
+      "final_url": "https://www.econstor.eu/bitstream/10419/257148/1/economies-08-00099.pdf",
+      "content_type": "application/pdf",
+      "bytes": 1092753,
+      "sha256": "c8d3207e74d8e4d5aefa093d03d7a05b01c673b024fcdb3848fcab3f2db7d327",
+      "pdf": true,
+      "pages": 22,
+      "first_pages": "Mohamed, Elwasila Saeed Elamin\nArticle\nResource rents, human development and economic\ngrowth in Sudan\nEconomies\nProvided in Cooperation with:\nMDPI – Multidisciplinary Digital Publishing Institute, Basel\nSuggested Citation: Mohamed, Elwasila Saeed Elamin (2020) : Resource rents, human development\nand economic growth in Sudan, Economies, ISSN 2227-7099, MDPI, Basel, Vol. 8, Iss. 4, pp. 1-21,\nhttps://doi.org/10.3390/economies8040099\nThis Version is available at:\nhttps://hdl.handle.net/10419/257148\nStandard-Nutzungsbedingungen:\nDie Dokumente auf EconStor dürfen zu eigenen wissenschaftlichen\nZwecken und zum Privatgebrauch gespeichert und kopiert werden.\nSie dürfen die Dokumente nicht für öffentliche oder kommerzielle\nZwecke vervielfältigen, öffentlich ausstellen, öffentlich zugänglich\nmachen, vertreiben oder anderweitig nutzen.\nSofern die Verfasser die Dokumente unter Open-Content-Lizenzen\n(insbesondere CC-Lizenzen) zur Verfügung gestellt haben sollten,\ngelten abweichend von diesen Nutzungsbedingungen die in der dort\ngenannten Lizenz gewährten Nutzungsrechte.\nTerms of use:\nDocuments in EconStor may be saved and copied for your personal\nand scholarly purposes.\nYou are not to copy documents for public or commercial purposes, to\nexhibit the documents publicly, to make them publicly available on the\ninternet, or to distribute or otherwise use the documents in public.\nIf the documents have been made available under an Open Content\nLicence (especially Creative Commons Licences), you may exercise\nfurther usage rights as specified in the indicated licence.\n  https://creativecommons.org/licenses/by/4.0/\neconomies\nArticle\nResource Rents, Human Development and Economic\nGrowth in Sudan\nElwasila Saeed Elamin Mohamed\nDepartment of Economics, University of Khartoum, P .O. Box 321, Khartoum 1115, Sudan;\nelwasila.sem@gmail.com\nReceived: 12 July 2020; Accepted: 28 October 2020; Published: 16 November 2020\n/gid00030/gid00035/gid00032/gid00030/gid00038/gid00001/gid00033/gid00042/gid00045/gid00001\n/gid00048/gid00043/gid00031/gid00028/gid00047/gid00032/gid00046\nAbstract: This study investigates the relationship between natural resource rents, human development\nand economic growth in Sudan using co-integration and vector error correction modelling (VECM)\nover the period 1970–2015. Institutions proved to play a role in determining a diﬀerence in whether a\ncountry is cured or blessed by resource abundance. In the case of Sudan, no time series data is available\non institutional quality and is therefore excluded from the analysis. The role of institutions and\nmacroeconomic policies is captured by other variables included in the empirical model. Co-integration\ntests conﬁrm the existence of a long run equilibrium relationship between resource rents, human\ndevelopment and economic growth in Sudan. Empirical evidence from the estimated VECM shows\nthat economic growth is positively a ﬀected by resource rents and development expenditure but\nsurprisingly negatively aﬀected by life expectancy at birth in the short run. In the long run, resource\nrents, school enrolment, life expectancy and ﬁnancial development have negative signiﬁcant eﬀects\non economic growth. Only development expenditure is found to aﬀect economic growth positively.\nResource rents are found to weaken education and health levels and this is indirectly channeled into\nnegative eﬀects of resource rents on economic growth. These results suggest that the government\nhas been neglecting investments to build up human capital necessary for inclusive growth. Long\nrun Granger causality tests show a unidirectional causal relationship running from resource rents\nto GDP growth as well as from development expenditure to GDP growth. School enrollment, life\nexpectancy and ﬁnancial development are found to be negatively Granger causing GDP growth. Long\nrun causal relationships reconﬁrm that a resource curse exists indirectly mediated by weak human\ncapital. The study recommends that the government should manage natural resource rents with a\npolicy framework supporting creation of a virtuous economic circle between human development\nand economic growth. If pursued, this would promote sustained, inclusive and equitable growth\nin Sudan.\nKeywords: resource rents; human development; development expenditure; ﬁnancial development;\neconomic growth; co-integration; VECM; Sudan\n1. Introduction\nNatural resources play important roles in economic growth of any country. Natural, man-made\nand human capitals are conventional factors of economic growth and represent the main components\nin environmental sustainability accounting. In developing countries, natural capital supplements\nman-made capital, if not substituting it in production. For example, resource revenues and taxes can be\nused by governments to ﬁnance infrastructure projects and human capital formation, which generate\neconomic growth. Revenues from natural resources in capital-scarce developing countries supplement\nlimited ﬁscal capacity of governments for spending in human capital assets (Venables 2016; Sabine et\nal. 2016). But, it proved diﬃcult to transform resource revenues into productive assets in resource-rich\ncountries, Venables (2016), and natural resources have negative e ﬀects on provision of productive\nEconomies 2020, 8, 99; doi:10.3390/economies8040099 www.mdpi.com /journal/economies",
+      "last_page": "Economies 2020, 8, 99 21 of 22\nSachs, Jeﬀery, and Andrew Warner. 2001. The curse of natural resources. European Economic Review 45: 827–38.\n[CrossRef]\nSandonato, Silvana, and Henry Willebald. 2018. Natural Capital, Domestic Product and Proximate Causes of\nEconomic Growth: Uruguay in the Long Run, 1870–2014. Sustainability 10: 715. [CrossRef]\nSantos, Rafael J. 2018. Blessing and curse. The gold boom and local development in Colombia. World Development\n106: 337–55. [CrossRef]\nSarr, Marre, and Katarina Wick. 2010. Resources, conﬂict and development choices: Public good provision in\nresource rich economies. Economics of Governance 11: 183–205. [CrossRef]\nSelim, Hodaand, and Chahir Zaki. 2014. The Institutional Curse of Natural Resources in the Arab World. Economic\nResearch Forum Working Paper 890. Cairo: Economic Research Forum.\nSen, Amartya. 1988. The Concept of Economic Development. In Handbook of Development Economics. Edited by\nHollis Chenery and T. N. Srinivasan. Amsterdam: Elsevier, vol. 1, pp. 9–26.\nShao, Shaui, and Lilli Yang. 2014. Natural resource dependence, human capital accumulation, and economic\ngrowth: A combined explanation for the resource curse and the resource blessing. Energy Policy 74: 632–42.\n[CrossRef]\nStern, David. 2003. Energy and Economic Growth. Resources Policy 30: 107–30.\nStevens, Paul, Glada Lahn, and Kooroshy Jaakko. 2015. The Resource Curse Revisited. Research Paper, Energy,\nEnvironment and Resources. The Royal Institute of International Aﬀairs, Chatham House London. Available\nonline: www.chathamhouse.org (accessed on 23 July 2017).\nStijns, Jean-Philippe. 2005. Natural resource abundance and economic growth revisited. Resources Policy 30:\n107–30. [CrossRef]\nStijns, Jean-Philippe. 2006. Natural resource abundance and human capital accumulation. World Development 34:\n1060–83. [CrossRef]\nvan der Ploeg, Frederick, and Steven Poelhekke. 2009. Volatility and the resource curse. Oxford Economic Papers 61:\n727–60. [CrossRef]\nvan der Ploeg, Fredrick. 2011. Natural resources: Curse or blessing? Journal of Economic Literature 49: 366–420.\n[CrossRef]\nVenables, Anthony J. 2016. Using Natural Resources for Development: Why Has It Proven So Diﬃcult? Journal of\nEconomic Perspectives 30: 161–84. [CrossRef]\nWarner, Andrew. 2015. Natural Resource Booms in the Modern Era: Is the Curse still Alive? IMF Working Paper\nWP/15/237. Washington, DC: International Monetary Fund.\nWeil, N. David. 2005. Accounting for the E ﬀect of Health on Economic Growth . NBER Working Paper No. 5398.\nCambridge: National Bureau of Economic Research, Available online: http://citeseerx.ist.psu.edu/viewdoc/\nsummary?doi=10.1.1.216.7536 (accessed on 20 November 2015).\nWick, Katharina, and Butle Erwin. 2006. Contesting resources—Rent seeking, conﬂict and the natural resource\ncurse. Public Choice 128: 457–76. [CrossRef]\nWorld Bank. 2011. The Changing Wealth of Nations: Measuring Sustainable Development in the New Millennium.\nWashington, DC: World Bank. Washington, DC: World Bank.\nWorld Bank. 2017a. World Development Indicators. Washington, DC: World Bank.\nWorld Bank. 2017b. World Governance Indicators. Washington, DC: World Bank.\nZhang, Dayong. 2008. Oil shock and economic growth in Japan: A nonlinear approach. Energy Economics 30:\n2374–90. [CrossRef]\nPublisher’s Note: MDPI stays neutral with regard to jurisdictional claims in published maps and institutional\naﬃliations.\n© 2020 by the author. Licensee MDPI, Basel, Switzerland. This article is an open access\narticle distributed under the terms and conditions of the Creative Commons Attribution\n(CC BY) license (http://creativecommons.org/licenses/by/4.0/).",
+      "saved_evidence": {},
+      "record_id": null,
+      "matches_saved_sha256": false,
+      "pages_rendered": 22
+    }
+  ],
+  "counts": {
+    "catalogue_records": 555,
+    "source_repairs_before": 133,
+    "source_repairs_after": 135,
+    "backlog_before": 279,
+    "backlog_after": 277
+  },
+  "upstream": "Latest main e2bbb704 contains10 appended library additions; all retained, no preexisting records changed upstream. Old545 total superseded by555; repair/backlog counts are historical tracked workflow only, not full audit of additions.",
+  "identity": "466 ERF WP1647 August2023,36physicalpages; not IZA September2023 WP75 nor2024journalversion.495 published2020 Economies8(4)99,21articlepages plus repositorycover. Full authors corrected from titlepages.",
+  "access": "Original ERF PDF and EconStor bitstream normalHTTPS200. EconStor landing record challenged, use verified directPDF. IZA preliminary download timedout; not used. MDPI web fetch429; not used as access route.",
+  "rendering": "All58physicalpages parsed/rendered; first/finalpages ofboth plus495actualtitlepage visuallyreviewed.",
+  "rights": "External institutional/publisher links only; no uploads/rehosting. ERF copyright retained;495PDF statesCCBY4.0."
+}
