@@ -1,5 +1,9 @@
 # KANDAKA WORKPLAN
 
+## 24 October 2026 — Van Gogh correction / تصحيح لوحة فان غوخ
+
+**Status: APPROVED FOR REMOVAL.** After reviewing the actual image, the user approved removing Vincent van Gogh's 1889 `Wheat Field with Cypresses` from Kandaka. Although a significant artwork, it has no substantive Sudanese, Nubian, Kushite, Nile Valley or African connection. Remove it from both English and Arabic collection data. This continues the requirement that every future gallery candidate be shown to the user and approved before deployment.
+
 ## 24 October 2026 — German book-cover correction / تصحيح غلاف الكتاب الألماني
 
 **Status: APPROVED FOR REMOVAL.** After reviewing the object image, the user approved removing Johann Jakob Bruglocher II's mid-eighteenth-century German silver book cover from Kandaka because it has no substantive Sudanese, Nubian, Kushite, Nile Valley or African connection. Remove the record from both English and Arabic collection data. Future gallery candidates must be shown to the user and approved before deployment.
