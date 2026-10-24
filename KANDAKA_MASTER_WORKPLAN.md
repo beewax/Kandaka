@@ -1,5 +1,9 @@
 # KANDAKA WORKPLAN
 
+## 24 October 2026 — German book-cover correction / تصحيح غلاف الكتاب الألماني
+
+**Status: APPROVED FOR REMOVAL.** After reviewing the object image, the user approved removing Johann Jakob Bruglocher II's mid-eighteenth-century German silver book cover from Kandaka because it has no substantive Sudanese, Nubian, Kushite, Nile Valley or African connection. Remove the record from both English and Arabic collection data. Future gallery candidates must be shown to the user and approved before deployment.
+
 ## 24 October 2026 — Homepage art relevance correction / تصحيح صلة الفن في الصفحة الرئيسية
 
 User approved removing the unrelated 1893 French `Jane Avril` poster from Kandaka and restricting homepage artwork rotation to records explicitly classified as Sudanese, Nubian or Kushite (`sudan-nubia`). The broader gallery may retain other international works pending individual review, but they no longer qualify for homepage display. The approved replacement pool includes the rights-verified Kushite-period gold ram’s-head amulet, described conservatively as Egypt or Sudan, possibly Nubia, because the museum does not give a confirmed Sudanese findspot. This is a visual-curation correction, not approval of a new article.
