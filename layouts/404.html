@@ -1,0 +1,24 @@
+{{- define "main" }}
+<main class="k-not-found" dir="{{ if eq .Lang "ar" }}rtl{{ else }}ltr{{ end }}">
+  <p class="k-not-found-code">404</p>
+  <h1>{{ if eq .Lang "ar" }}الصفحة غير موجودة{{ else }}Page not found{{ end }}</h1>
+  <p>{{ if eq .Lang "ar" }}يبدو أن الرابط تغيّر أو أن الصفحة لم تعد متاحة. جرّب البحث أو اختر أحد الأقسام أدناه.{{ else }}The link may have changed or the page may no longer be available. Try a search or choose a section below.{{ end }}</p>
+  <nav class="k-not-found-links" aria-label="{{ if eq .Lang "ar" }}روابط مفيدة{{ else }}Useful links{{ end }}">
+    <a href="{{ "" | absLangURL }}">{{ if eq .Lang "ar" }}الرئيسية{{ else }}Home{{ end }}</a>
+    <a href="{{ "search/" | absLangURL }}">{{ if eq .Lang "ar" }}البحث{{ else }}Search{{ end }}</a>
+    <a href="{{ "ideas/" | absLangURL }}">{{ if eq .Lang "ar" }}أفكار{{ else }}Ideas{{ end }}</a>
+    <a href="{{ "development/" | absLangURL }}">{{ if eq .Lang "ar" }}التنمية{{ else }}Development{{ end }}</a>
+    <a href="{{ "culture/" | absLangURL }}">{{ if eq .Lang "ar" }}الثقافة{{ else }}Culture{{ end }}</a>
+    <a href="{{ "news/" | absLangURL }}">{{ if eq .Lang "ar" }}الأخبار{{ else }}News{{ end }}</a>
+  </nav>
+</main>
+<style>
+.k-not-found { max-width: 760px; margin: 4rem auto; padding: 0 1rem; text-align: center; }
+.k-not-found-code { margin: 0; color: var(--secondary); font-size: 4rem; font-weight: 800; line-height: 1; }
+.k-not-found h1 { margin: 1rem 0 .75rem; }
+.k-not-found p:not(.k-not-found-code) { color: var(--secondary); }
+.k-not-found-links { display: flex; flex-wrap: wrap; justify-content: center; gap: .75rem; margin-top: 2rem; }
+.k-not-found-links a { border: 1px solid var(--tertiary); border-radius: 7px; padding: .6rem .85rem; text-decoration: none; }
+.k-not-found-links a:hover, .k-not-found-links a:focus-visible { border-color: var(--primary); text-decoration: underline; }
+</style>
+{{- end }}
