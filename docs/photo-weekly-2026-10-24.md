@@ -20,3 +20,13 @@ Nine photo-discovery tests passed. Production build and rendered/live verificati
 Local preparation only. Commit, deployment, actual publication and independent verification will be recorded separately.
 
 Local checks completed: nine photo tests passed; production build passed (956 EN / 2659 AR; existing deprecation warning only). Four complete rendered photo detail pages checked for title, caption, alt text, credits, source, licence and original image URL. Both galleries include the new pairs; homepages render images. Latest main's newer weekly rotation retained by scoped commit; final live checks remain required.
+
+## Verified live
+Release commit `4f7eb7f0693514a586494d4d2b7e912587874892`; matching Netlify deployment `6adccf66b6aa5a0945dd6935`, ready, published 24 October 2026 at 15:32:59.028 UTC / 10:32:59 CDT. Independent verification completed 10:33:12 CDT: four full localized photo pages and both galleries/homepages HTTP 200; required titles, full descriptions, alt text, credits, source/licence and original image URLs present. Both homepage selections match (new royal-statue close-up, Western Deffufa, lion cubs); all six rendered homepage image requests HTTP 200 with credits/alt/licence. Al-ʿEkura is in both full galleries, not forced into the three-card rotation. Two new pairs, not four separate photographs. No other draft restored; legacy steamer remains held.
+
+- https://kandaka.com/images/2026-10-20-image-1-52ec6a90/
+- https://kandaka.com/ar/images/2026-10-20-image-1-52ec6a90/
+- https://kandaka.com/images/2026-10-22-image-1-6a4dbd79/
+- https://kandaka.com/ar/images/2026-10-22-image-1-6a4dbd79/
+
+نُشرت الصورتان باللغتين في ٢٤ أكتوبر الساعة ١٠:٣٢:٥٩ بتوقيت شيكاغو، وتحقّقنا من الصفحات والمعرضين وصور الصفحة الرئيسية بصورة مستقلة. بقيت الباخرة معلّقة والعلم غير منشور، ولم تتغير المقالات أو المكتبة أو المجموعة الفنية أو الأتمتة.
