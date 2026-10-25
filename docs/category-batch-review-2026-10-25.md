@@ -24,4 +24,10 @@ Category index URLs remain available. No article body, translation, draft flag, 
 
 Twelve local rendered-page checks passed: both homepages, History/Culture sections, category indexes, current Funj pages and old Ideas aliases. Verified exact menu text/order, HTML language/direction, matching Funj H1 titles, translation-switch links and alias targets. Full production Hugo 0.160.0 build did not finish after more than 20 minutes on the unresponsive local host and was stopped; this is not a successful build. Its only diagnostic was the existing .Site.Data deprecation warning. Live Arabic History was visually inspected and showed localized navigation, right-aligned text and RTL layout. Subsequent browser connection attempts timed out; do not infer additional visual/mobile checks from that observation.
 
-Commit, deployment and final verification results will be recorded after completion.
+## Completed verification
+
+The retry with GOMAXPROCS=2 and GOMEMLIMIT=384MiB passed in 242280 ms: 1032 EN / 2894 AR pages, 160 EN / 184 AR aliases. The existing .Site.Data deprecation warning remains; no build errors.
+
+Commits 9f36267 and ff9f53a pushed to codex/category-batch-review, PR #18. Netlify preview deployment 6ade7a98e2d96df59e67fcae is ready for exact commit ff9f53ad6059afb6390eafdc3d151d471dcf2769, without error. All twelve HTTP/rendered checks passed against https://deploy-preview-18--kandaka.netlify.app/ with the requested menu order. All twelve current-production baseline checks also passed (production still had its extra Categories dropdown at that check). Preview and production alias documents return HTTP 200 and point to the matching production History URL.
+
+Browser connection timeouts prevent a new visual/mobile claim. RTL HTML direction, Arabic labels and translation links passed in both editions. Production release status is recorded separately after merge/deployment verification. No next editorial task is authorized.
