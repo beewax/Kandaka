@@ -22,6 +22,6 @@ Category index URLs remain available. No article body, translation, draft flag, 
 
 ## Verification
 
-Twelve local rendered-page checks passed: both homepages, History/Culture sections, category indexes, current Funj pages and old Ideas aliases. Verified exact menu text/order, HTML language/direction, matching Funj H1 titles, translation-switch links and alias targets. Full production Hugo 0.160.0 build is awaiting final exit status. Live Arabic History was visually inspected and showed localized navigation, right-aligned text and RTL layout. Subsequent browser connection attempts timed out; do not infer additional visual/mobile checks from that observation.
+Twelve local rendered-page checks passed: both homepages, History/Culture sections, category indexes, current Funj pages and old Ideas aliases. Verified exact menu text/order, HTML language/direction, matching Funj H1 titles, translation-switch links and alias targets. Full production Hugo 0.160.0 build did not finish after more than 20 minutes on the unresponsive local host and was stopped; this is not a successful build. Its only diagnostic was the existing .Site.Data deprecation warning. Live Arabic History was visually inspected and showed localized navigation, right-aligned text and RTL layout. Subsequent browser connection attempts timed out; do not infer additional visual/mobile checks from that observation.
 
 Commit, deployment and final verification results will be recorded after completion.
