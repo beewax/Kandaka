@@ -1,0 +1,171 @@
+{
+  "timestamp": "2026-10-24T22:02:14-05:00",
+  "records": [
+    {
+      "index": 82,
+      "before": {
+        "title": "Country Profiles: Sudan",
+        "title_ar": "الملفات القطرية: السودان",
+        "author": "UN Economic Commission for Africa",
+        "year": "2011",
+        "tags": [
+          "Economy & Development"
+        ],
+        "desc_ar": "ملف قُطري صادر عن لجنة الأمم المتحدة الاقتصادية لأفريقيا يُقدّم إحصاءات التنمية الاقتصادية والاجتماعية في السودان ويضعها في سياق المتوسطات الأفريقية والدولية.",
+        "download": "https://pub-a5e3b47fe87749f491660d68e2029284.r2.dev/country-profiles-sudan-un-economic-commission-for-afri.pdf",
+        "desc": "Basic statistical and demographic overview from UN or World Bank sources.",
+        "source": "https://pub-a5e3b47fe87749f491660d68e2029284.r2.dev/country-profiles-sudan.epub"
+      },
+      "after": {
+        "title": "Sudan: The Roots of Famine",
+        "title_ar": "السودان: جذور المجاعة",
+        "author": "Nick Cater",
+        "year": "1986",
+        "tags": [
+          "Economy & Development"
+        ],
+        "desc_ar": "كتيّب نيك كاتر الصادر عن أوكسفام عام 1986 حول الجذور الاقتصادية والسياسية والبيئية للمجاعة في السودان. يتاح الكتاب كاملاً، بما فيه المصادر والقراءات الإضافية، في ستة ملفات PDF لدى الناشر.",
+        "download": "",
+        "desc": "Nick Cater’s 1986 Oxfam background brief on the economic, political and environmental roots of famine in Sudan. The complete book, including its sources and further reading, is available as six publisher PDFs.",
+        "source": "https://policy-practice.oxfam.org/resources/sudan-the-roots-of-famine-125826/",
+        "title_full": "Sudan: The Roots of Famine — A Report for Oxfam",
+        "author_ar": "نيك كاتر",
+        "edition": "Oxfam, Oxford, 1986; ISBN978-0-85598-075-7; printed pages1–36; six publisher PDFs,42 scan pages including one blank final page",
+        "citation": "Nick Cater. 1986. Sudan: The Roots of Famine. Oxford: Oxfam. ISBN978-0-85598-075-7.",
+        "citation_ar": "نيك كاتر. 1986. السودان: جذور المجاعة. أكسفورد: أوكسفام. ISBN978-0-85598-075-7.",
+        "source_label_en": "Read complete book (6 publisher PDFs)",
+        "source_label_ar": "قراءة الكتاب كاملاً (6 ملفات PDF لدى الناشر)"
+      }
+    }
+  ],
+  "remote": {
+    "head": "8110f1a1049bd6332eab88684f5df28d222e16ce",
+    "tree": "e2ae63e2221bcfedc0a3b839270524ac7efa8270"
+  },
+  "status": "Prepared; deployment/live checks separate",
+  "verification": {
+    "parts": [
+      {
+        "label": "Contents",
+        "url": "https://oxfamilibrary.openrepository.com/server/api/core/bitstreams/76eff765-e6fb-4ae8-9de3-fc86229d775f/content",
+        "status": 200,
+        "pages": 2,
+        "bytes": 833523,
+        "sha256": "2389b2e15835d4d90a24fb5b0117189a761e6b11dc85272e33fa43d7065e1c7d"
+      },
+      {
+        "label": "Part1",
+        "url": "https://oxfamilibrary.openrepository.com/server/api/core/bitstreams/74a76857-d6cf-406e-92b2-dba8c4e95381/content",
+        "status": 200,
+        "pages": 9,
+        "bytes": 4047610,
+        "sha256": "9d631571cff73c248373f42bf87a2018b7eff274bf5f67ad8a4446a67535c1cd"
+      },
+      {
+        "label": "Part2",
+        "url": "https://oxfamilibrary.openrepository.com/server/api/core/bitstreams/5ecc9c64-c0b7-42db-920f-5f3806bff511/content",
+        "status": 200,
+        "pages": 9,
+        "bytes": 5015305,
+        "sha256": "3e24ffc3384bd81b58ef394808c51d482b24f051131c48df298bf2aac3192674"
+      },
+      {
+        "label": "Part3",
+        "url": "https://oxfamilibrary.openrepository.com/server/api/core/bitstreams/f5f06afc-b39e-4999-9e91-03d178890c0b/content",
+        "status": 200,
+        "pages": 9,
+        "bytes": 4998787,
+        "sha256": "fd82b7cfc1ff6cc0f95ac8d180ab6b5fac47753ef355b11586466d0a32496456"
+      },
+      {
+        "label": "Part4",
+        "url": "https://oxfamilibrary.openrepository.com/server/api/core/bitstreams/20241a0e-2ecc-4ec5-b192-bb970f1c2b42/content",
+        "status": 200,
+        "pages": 9,
+        "bytes": 3510690,
+        "sha256": "4216bdce7327d162fd216024a0497ee54c8dfea58d042ecbc404f9d5f9daeb0f"
+      },
+      {
+        "label": "Notes",
+        "url": "https://oxfamilibrary.openrepository.com/server/api/core/bitstreams/98ab19c8-5eaf-45fd-a4a7-74e6cf20d7d0/content",
+        "status": 200,
+        "pages": 4,
+        "bytes": 4712572,
+        "sha256": "f5b11631b258763c95d0cd16b83f6b9b324acc59cd42bbfec3dd9c411c99739f"
+      }
+    ],
+    "extent": {
+      "parts": [
+        {
+          "part": 0,
+          "scope": "cover and contents",
+          "pages": 2
+        },
+        {
+          "part": 1,
+          "scope": "map, dates and events, printed1–7",
+          "pages": 9
+        },
+        {
+          "part": 2,
+          "scope": "printed8–16",
+          "pages": 9
+        },
+        {
+          "part": 3,
+          "scope": "printed17–25",
+          "pages": 9
+        },
+        {
+          "part": 4,
+          "scope": "printed26–34",
+          "pages": 9
+        },
+        {
+          "part": 5,
+          "scope": "printed35–36, imprint, blank final leaf",
+          "pages": 4
+        }
+      ],
+      "scan_pages": 42,
+      "nonblank_scan_pages": 41,
+      "printed_text_pages": "1–36",
+      "review": "All42pages rendered; six contact sheets visually reviewed; no missing printed page or truncated references detected. Final blank is publisher-provided, not deleted.",
+      "prior_excerpt_pages": 9,
+      "prior_excerpt_vs_part4_text_similarity": [
+        0.8812,
+        0.0,
+        0.6144,
+        0.0345,
+        0.8334,
+        0.1042,
+        0.4868,
+        0.0,
+        0.9351
+      ],
+      "hash_identity": "Not asserted; prior excerpt is OCR/processing variant."
+    },
+    "identity": "Cover/title/copyright Oxfam/Nick Cater1986 and official publisher record agree. Former nine-page object is a processed excerpt corresponding to printed26–34, not a UNECA2011 profile. No byte-identity assertion to differently processed old excerpt.",
+    "retrieval": "Public repository content endpoints with ordinary User-Agent Mozilla/5.0, Accept application/pdf and publisher Referer; no credentials, TLS bypass, login or permission change. Prior generic-client403 responses not evidence the public book is inaccessible. Browser alone reached endpoint but did not provide usable PDF inspection.",
+    "rights": "Copyright Oxfam/Nick Cater1986. Link to publisher’s six-part set; no rehosting or merged derivative.",
+    "all_pages_rendered": 42,
+    "all_contact_sheets_reviewed": 6,
+    "old_upload": "Retained; no R2 object writes/deletes."
+  },
+  "counts": {
+    "catalogue": 555,
+    "historical_repairs_before": 183,
+    "historical_repairs_after": 184,
+    "historical_unresolved_before": 229,
+    "historical_unresolved_after": 228,
+    "remaining_of_original_seven": [
+      25,
+      64,
+      67,
+      88,
+      108,
+      122
+    ]
+  },
+  "build_policy": "Single batched GitCD publication after local QA; no manual build hooks or schedule changes."
+}
