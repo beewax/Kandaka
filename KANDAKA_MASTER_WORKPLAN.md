@@ -1,5 +1,11 @@
 # KANDAKA WORKPLAN
 
+## 24 October 2026 — A14 final checks and scheduled release / فحص A14 والنشر المجدول
+
+User reconfirmed publishing Dressed for Power in both languages after the 48-hour gate: no earlier than 24 October 21:14:24 CDT. Existing publication automation moved to 21:15 Chicago every two days; actual-release spacing still applies. Full bilingual/source/cover review and isolated production build passed; protected drafts refreshed only for research date and canonical museum URLs. Details: docs/A14-final-checks-2026-10-24.md. NOT YET PUBLISHED. A15 follows at least 48 hours after actual A14 deployment; other queues and review-only drafts unchanged.
+
+اكتملت مراجعة النسختين والمصادر والغلاف واختبار البناء المعزول. جُدول تشغيل النشر الساعة ٩:١٥ مساءً بتوقيت شيكاغو، بعد اكتمال الفاصل المطلوب. لم يُنشر المقال بعد؛ تبقى النسختان محميتين حتى تنفيذ النشر والتحقق المستقل، ويليه A15 بعد ٤٨ ساعة على الأقل من النشر الفعلي.
+
 ## 24 October 2026 — Van Gogh correction / تصحيح لوحة فان غوخ
 
 **Status: APPROVED FOR REMOVAL.** After reviewing the actual image, the user approved removing Vincent van Gogh's 1889 `Wheat Field with Cypresses` from Kandaka. Although a significant artwork, it has no substantive Sudanese, Nubian, Kushite, Nile Valley or African connection. Remove it from both English and Arabic collection data. This continues the requirement that every future gallery candidate be shown to the user and approved before deployment.
