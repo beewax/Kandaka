@@ -1,5 +1,11 @@
 # KANDAKA WORKPLAN
 
+## 25 October 2026 — A15 text and cover approved / اعتماد نص A15 وغلافه
+
+The user reviewed the full Small Farmers draft and Gezira-inspired Leonardo cover in chat and explicitly approved using this exact cover for BOTH Arabic and English and publishing as scheduled. Preserve /images/uploads/gezira-farming-leonardo.jpg, localized alt text and AI illustration disclosures. No additional approval is required within this scope. Keep A15 after A14 Dressed for Power, at least 48 hours after A14's actual successful release; verify that release rather than assuming a calendar target was met. Complete final source, bilingual and production checks before release and independently verify both live editions. On A15 publication, convert A13's forthcoming note into the corresponding EN/AR related-reading links. This approval record is not a publication claim; draft flags and schedules remain unchanged.
+
+راجع المستخدم مسودة مقال صغار المزارعين والغلاف المستلهم من الجزيرة، ووافق صراحة على استخدام الغلاف نفسه للنسختين العربية والإنجليزية والنشر حسب الجدول. تُحفظ النصوص البديلة والإفصاحات عن الرسم المولّد. لا يلزم اعتماد إضافي ضمن هذا النطاق. يأتي A15 بعد مقال الملابس والسلطة بفاصل لا يقل عن ٤٨ ساعة من النشر الفعلي الناجح، وبعد الفحوص النهائية والتحقق من النسختين مباشرة. عند نشره تُحوّل إحالة A13 المرتقبة إلى روابط القراءة المكملة باللغتين. هذا توثيق للاعتماد وليس إعلاناً عن النشر.
+
 ## 24 October 2026 — A14 final checks and scheduled release / فحص A14 والنشر المجدول
 
 User reconfirmed publishing Dressed for Power in both languages after the 48-hour gate: no earlier than 24 October 21:14:24 CDT. Existing publication automation moved to 21:15 Chicago every two days; actual-release spacing still applies. Full bilingual/source/cover review and isolated production build passed; protected drafts refreshed only for research date and canonical museum URLs. Details: docs/A14-final-checks-2026-10-24.md. NOT YET PUBLISHED. A15 follows at least 48 hours after actual A14 deployment; other queues and review-only drafts unchanged.
