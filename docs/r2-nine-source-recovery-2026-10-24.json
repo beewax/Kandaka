@@ -1,0 +1,125 @@
+{
+  "records": [
+    {
+      "index": 56,
+      "before": {
+        "title": "Sudan & Nubia: Journal Table of Contents",
+        "title_ar": "السودان والنوبة: فهرس محتويات المجلة",
+        "author": "Manuela Lehmann (SARS)",
+        "year": "2022",
+        "tags": [
+          "Archaeology & Heritage"
+        ],
+        "desc_ar": "فهرس تراكمي لأعداد مجلة السودان والنوبة الصادرة عن الجمعية السودانية للأبحاث الأثرية، يُتيح للباحثين تتبع المحتوى العلمي للمجلة عبر سنوات إصدارها.",
+        "download": "https://pub-a5e3b47fe87749f491660d68e2029284.r2.dev/sudan-nubia-table-of-content-manuela-lehmann.pdf",
+        "desc": "Index of articles from the leading academic journal on Sudanese and Nubian archaeology, history, and heritage.",
+        "source": "https://pub-a5e3b47fe87749f491660d68e2029284.r2.dev/sudan-nubia-journal-table-of-contents.epub"
+      },
+      "after": {
+        "title": "Sudan & Nubia 26 (2022): Table of Contents",
+        "title_ar": "السودان والنوبة، المجلد 26 (2022): فهرس المحتويات",
+        "author": "Sudan Archaeological Research Society",
+        "year": "2022",
+        "tags": [
+          "Archaeology & Heritage"
+        ],
+        "desc_ar": "فهرس المحتويات الكامل من صفحتين للمجلد 26 (2022) من مجلة السودان والنوبة، الصادرة عن الجمعية السودانية للأبحاث الأثرية؛ ليس فهرساً تراكمياً ولا العدد الكامل.",
+        "download": "",
+        "desc": "The complete two-page contents for Sudan & Nubia volume26 (2022), published by the Sudan Archaeological Research Society. This is an issue contents list, not a cumulative index or the full journal.",
+        "source": "http://www.sudarchrs.org.uk/wp-content/uploads/2023/07/SARS_SN26_table-of-contents.pdf",
+        "author_ar": "الجمعية السودانية للأبحاث الأثرية",
+        "edition": "Volume26,2022; complete two-page contents only, not a cumulative index or full journal issue",
+        "source_label_en": "Read 2022 issue contents PDF (2 pages)",
+        "source_label_ar": "قراءة فهرس عدد 2022 بصيغة PDF (صفحتان)"
+      }
+    },
+    {
+      "index": 109,
+      "before": {
+        "title": "Sudan & Nubia 23",
+        "title_ar": "السودان والنوبة، العدد 23",
+        "author": "Sudan Archaeological Research Society",
+        "year": "2019",
+        "tags": [
+          "Archaeology & Heritage"
+        ],
+        "desc_ar": "العدد الثالث والعشرون من مجلة السودان والنوبة يُقدّم أحدث نتائج التنقيبات الأثرية في مواقع السودان الرئيسية، مُسلطًا الضوء على اكتشافات الموسم الميداني لعام 2019.",
+        "download": "https://pub-a5e3b47fe87749f491660d68e2029284.r2.dev/sudan-nubia-23-unknown.pdf",
+        "desc": "Annual academic journal issue covering Sudanese and Nubian archaeology and history.",
+        "source": "https://pub-a5e3b47fe87749f491660d68e2029284.r2.dev/sudan-nubia-23.epub"
+      },
+      "after": {
+        "title": "Sudan & Nubia 23",
+        "title_ar": "السودان والنوبة، العدد 23",
+        "author": "Sudan Archaeological Research Society",
+        "year": "2019",
+        "tags": [
+          "Archaeology & Heritage"
+        ],
+        "desc_ar": "العدد 23 (2019) من مجلة السودان والنوبة، متاح لدى الناشر في 28 ملف PDF منفصلاً تغطي المقالات والمقدمات والخواتيم؛ افتح قسم العدد 23 في الأرشيف لاختيار الملف المطلوب.",
+        "download": "",
+        "desc": "Sudan & Nubia issue23 (2019), available from the publisher as28 separate PDFs covering the issue’s articles and front/end matter. Expand No.23 in the archive to choose a file.",
+        "source": "http://www.sudarchrs.org.uk/resources/publications/journal/#toggle-id-23",
+        "edition": "Issue23,2019;222-page issue available as28 separate publisher PDFs, including cover, map, contents, articles and end matter; no single combined PDF",
+        "source_label_en": "Browse issue23:28 publisher PDFs",
+        "source_label_ar": "تصفح العدد 23: 28 ملف PDF لدى الناشر"
+      }
+    }
+  ],
+  "research": {
+    "timestamp": "2026-10-24T19:13:32-05:00",
+    "examined": [
+      25,
+      56,
+      64,
+      67,
+      82,
+      88,
+      108,
+      109,
+      122
+    ],
+    "resolved": [
+      56,
+      109
+    ],
+    "held": {
+      "25": "Alternative NABC copy404; Dutch embassy original and migrated economic-sector route403. CIMMYT bibliography identifies a2022 Sorghum VCA report but does not establish FAO2017 credit or restore missing title/imprint. Retain hold; do not substitute2025 crop report or unrelated Ethiopia/Ghana studies.",
+      "64": "New NBI library/annual-report/brochure searches found authentic2009 project and progress documents, but none establishes the catalogued generic overview. Existing R2 is Dawelbeit March2008 Best Practices for Water Harvesting and Irrigation. Do not substitute a different report.",
+      "67": "Exact-title citation identifies old UNC author URL /home/pconway/aea2000/Water.pdf. Archive.org availability API reports a200 snapshot dated20160207141648; actual Wayback retrieval429, so content/extent unverified. Current UNC author site/API/old PDF routes403. Snapshot existence is not full-text verification; respect rate limit, no repeated fetch.",
+      "82": "Targeted UNECA repository and exact-title/year searches did not identify the2011 work. ECA programme-budget evidence shows later country-profile programme, not proof a2011 Sudan profile exists. Existing historical excerpt remains wrong; ESCWA2011/UNECA2015 are different works. Need original provenance or exact document.",
+      "88": "Exact-title search again leads to ICGLR railway terms, whose preamble discusses promoting trade. Separate catalogue index362 already represents that railway document; do not relabel index88 into a duplicate or retain false UNECA attribution as verified. No exact UNECA2006 trade study located.",
+      "108": "New HTTP publisher route verified all14 linked research-article offprints, printed1–116 and plates, but no numbered117–120 Miscellaneous pages. Public media API lists the same14 files only. Full issue120pages still not verified; do not label collection a complete issue.",
+      "122": "Publisher/DOI and author-repository searches found metadata/abstract only. OpenAlex work reports closed access, no repository full text and no OA location. ResearchGate same DOI misleadingly titled Japan and explicitly request-full-text. No legitimate26page complete copy verified; do not substitute citing articles or abstract."
+    },
+    "evidence_sources": {
+      "journal": "http://www.sudarchrs.org.uk/resources/publications/journal/",
+      "contents26": "http://www.sudarchrs.org.uk/wp-content/uploads/2023/07/SARS_SN26_table-of-contents.pdf",
+      "conway_old": "https://www.unc.edu/home/pconway/aea2000/Water.pdf",
+      "conway_archive_availability": "https://archive.org/wayback/available?url=www.unc.edu/home/pconway/aea2000/Water.pdf",
+      "conway_snapshot": "https://web.archive.org/web/20160207141648/http://www.unc.edu:80/home/pconway/aea2000/Water.pdf",
+      "sorghum_bibliography": "https://repository.cimmyt.org/server/api/core/bitstreams/97351114-33c9-4aa7-878f-7885a775f4c9/content",
+      "sorghum_old": "https://nabc.nl/uploads/content/files/Sorghum-VCA-FINALdraft-circulation.pdf",
+      "sorghum_embassy": "https://www.netherlandsandyou.nl/binaries/netherlandsandyou/documenten/publications/2022/07/17/economic-sector-studies/Sorghum-VCA-FINALdraft-circulation.pdf",
+      "nbi2009": "https://nilebasin.org/node/12488",
+      "eca_programme": "https://archive.uneca.org/sites/default/files/uploaded-documents/CoM/cfm2013/proposed-programme-budget-for-the-biennium-2014-2015.pdf",
+      "icglr": "https://www.icglr.org/images/pdf_files/project_3-3-4-southern_corridor_great_lakes_region_railway_project_-_prefeasibility_study_-_terms_of_reference.pdf",
+      "omer": "https://www.sciencedirect.com/science/article/pii/S1364032107000056",
+      "omer_openalex": "https://api.openalex.org/works/https://doi.org/10.1016/j.rser.2007.01.005"
+    },
+    "limitations": "Publisher HTTPS certificate expired; public unauthenticated HTTP route returns200 for archive,28issue23 PDFs,14issue10 PDFs and2022contents. No certificate validation bypass. Existing uploads retained; source links only, no rehosting. HTTP transport has no encryption; external site availability/certificate is publisher-controlled.",
+    "counts": {
+      "catalogue": 555,
+      "tracked_repairs_before": 181,
+      "tracked_repairs_after": 183,
+      "tracked_unresolved_before": 231,
+      "tracked_unresolved_after": 229
+    },
+    "publication_policy": "One batched GitCD publication after local QA, no manual rebuilds/schedule changes. Historical counts are not a fresh exhaustive audit."
+  },
+  "remote": {
+    "head": "420b14f0014928c8d2dbaa37e1e25f76437b0b5b",
+    "tree": "68b6d4fe0dd3f8ad9671330cf18661a0e8651e11"
+  },
+  "status": "Prepared; deployment and live checks separate"
+}

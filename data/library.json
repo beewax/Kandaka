@@ -989,17 +989,21 @@
       "source_label_ar": "تنزيل الفصل PDF (16 صفحة)"
     },
     {
-      "title": "Sudan & Nubia: Journal Table of Contents",
-      "title_ar": "السودان والنوبة: فهرس محتويات المجلة",
-      "author": "Manuela Lehmann (SARS)",
+      "title": "Sudan & Nubia 26 (2022): Table of Contents",
+      "title_ar": "السودان والنوبة، المجلد 26 (2022): فهرس المحتويات",
+      "author": "Sudan Archaeological Research Society",
       "year": "2022",
       "tags": [
         "Archaeology & Heritage"
       ],
-      "desc_ar": "فهرس تراكمي لأعداد مجلة السودان والنوبة الصادرة عن الجمعية السودانية للأبحاث الأثرية، يُتيح للباحثين تتبع المحتوى العلمي للمجلة عبر سنوات إصدارها.",
-      "download": "https://pub-a5e3b47fe87749f491660d68e2029284.r2.dev/sudan-nubia-table-of-content-manuela-lehmann.pdf",
-      "desc": "Index of articles from the leading academic journal on Sudanese and Nubian archaeology, history, and heritage.",
-      "source": "https://pub-a5e3b47fe87749f491660d68e2029284.r2.dev/sudan-nubia-journal-table-of-contents.epub"
+      "desc_ar": "فهرس المحتويات الكامل من صفحتين للمجلد 26 (2022) من مجلة السودان والنوبة، الصادرة عن الجمعية السودانية للأبحاث الأثرية؛ ليس فهرساً تراكمياً ولا العدد الكامل.",
+      "download": "",
+      "desc": "The complete two-page contents for Sudan & Nubia volume26 (2022), published by the Sudan Archaeological Research Society. This is an issue contents list, not a cumulative index or the full journal.",
+      "source": "http://www.sudarchrs.org.uk/wp-content/uploads/2023/07/SARS_SN26_table-of-contents.pdf",
+      "author_ar": "الجمعية السودانية للأبحاث الأثرية",
+      "edition": "Volume26,2022; complete two-page contents only, not a cumulative index or full journal issue",
+      "source_label_en": "Read 2022 issue contents PDF (2 pages)",
+      "source_label_ar": "قراءة فهرس عدد 2022 بصيغة PDF (صفحتان)"
     },
     {
       "title": "Urban World: Mapping the Economic Power of Cities",
@@ -1969,10 +1973,13 @@
       "tags": [
         "Archaeology & Heritage"
       ],
-      "desc_ar": "العدد الثالث والعشرون من مجلة السودان والنوبة يُقدّم أحدث نتائج التنقيبات الأثرية في مواقع السودان الرئيسية، مُسلطًا الضوء على اكتشافات الموسم الميداني لعام 2019.",
-      "download": "https://pub-a5e3b47fe87749f491660d68e2029284.r2.dev/sudan-nubia-23-unknown.pdf",
-      "desc": "Annual academic journal issue covering Sudanese and Nubian archaeology and history.",
-      "source": "https://pub-a5e3b47fe87749f491660d68e2029284.r2.dev/sudan-nubia-23.epub"
+      "desc_ar": "العدد 23 (2019) من مجلة السودان والنوبة، متاح لدى الناشر في 28 ملف PDF منفصلاً تغطي المقالات والمقدمات والخواتيم؛ افتح قسم العدد 23 في الأرشيف لاختيار الملف المطلوب.",
+      "download": "",
+      "desc": "Sudan & Nubia issue23 (2019), available from the publisher as28 separate PDFs covering the issue’s articles and front/end matter. Expand No.23 in the archive to choose a file.",
+      "source": "http://www.sudarchrs.org.uk/resources/publications/journal/#toggle-id-23",
+      "edition": "Issue23,2019;222-page issue available as28 separate publisher PDFs, including cover, map, contents, articles and end matter; no single combined PDF",
+      "source_label_en": "Browse issue23:28 publisher PDFs",
+      "source_label_ar": "تصفح العدد 23: 28 ملف PDF لدى الناشر"
     },
     {
       "title": "Sudan Political Map (with Cities, Roads and Rivers)",
