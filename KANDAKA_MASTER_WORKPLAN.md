@@ -1,5 +1,11 @@
 # KANDAKA WORKPLAN
 
+## A14 VERIFIED LIVE — 25 October 2026 / نُشر A14
+
+Dressed for Power is independently verified live in English and Arabic. Release commit 953ed4ed3ae492b70ea760290124f31502c9f981; Netlify deployment 6ade71f17840a0c0a0468158; actual publication 25 October 2026 21:18:41.968 UTC / 16:18:41.968 CDT; verification 21:18:55 UTC / 16:18:55 CDT. Both full article bodies match the checked build (36 text blocks each), with one approved Faras cover per page and matching image SHA256. Details: docs/A14-release-2026-10-25.md. A15 Small Farmers is next, no earlier than 27 October 2026 16:18:42 CDT / 21:18:42 UTC, and only after final release checks. Its full text and exact Gezira illustration were approved on 25 October for both editions. No further approval needed within that scope. Then A16, A17, A18, at least 48 hours after each actual release. Review-only cultural/nature drafts remain excluded.
+
+نُشر «أزياء السلطة» وتحقّقنا من النص الكامل في النسختين العربية والإنجليزية ومن تطابق الغلاف المعتمد. موعد النشر الفعلي: ٢٥ أكتوبر ٢٠٢٦ الساعة ٤:١٨:٤١ مساءً بتوقيت شيكاغو. يلي ذلك مقال صغار المزارعين، بعد ٤٨ ساعة على الأقل من هذا الموعد وبعد الفحوص النهائية، بالغلاف نفسه الذي اعتمده المستخدم للغتين. لا يشمل هذا الإذن مسودات الثقافة والطبيعة قيد المراجعة.
+
 ## 25 October 2026 — A15 text and cover approved / اعتماد نص A15 وغلافه
 
 The user reviewed the full Small Farmers draft and Gezira-inspired Leonardo cover in chat and explicitly approved using this exact cover for BOTH Arabic and English and publishing as scheduled. Preserve /images/uploads/gezira-farming-leonardo.jpg, localized alt text and AI illustration disclosures. No additional approval is required within this scope. Keep A15 after A14 Dressed for Power, at least 48 hours after A14's actual successful release; verify that release rather than assuming a calendar target was met. Complete final source, bilingual and production checks before release and independently verify both live editions. On A15 publication, convert A13's forthcoming note into the corresponding EN/AR related-reading links. This approval record is not a publication claim; draft flags and schedules remain unchanged.
