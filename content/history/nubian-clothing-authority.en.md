@@ -1,11 +1,11 @@
 ---
 title: "Dressed for Power: Clothing and Authority in Medieval Nubia"
-date: '2026-10-20T12:00:00-05:00'
+date: '2026-10-25T16:15:00-05:00'
 author: 'Kandaka'
 category: 'History'
 description: "What painted robes and surviving threads reveal about medieval Nubia—and why a beautiful reconstruction is an argument, not a recovered photograph."
 tags: ['Sudan', 'Nubia', 'heritage', 'textiles', 'art']
-draft: true
+draft: false
 cover:
   image: '/images/uploads/faras-bishop-marianos.jpg'
   alt: 'Surviving Faras mural showing Bishop Marianos in decorated vestments beside the Virgin and Child.'

@@ -1,11 +1,11 @@
 ---
 title: "أزياء السلطة: اللباس والمكانة في النوبة الوسيطة"
-date: '2026-10-20T12:00:00-05:00'
+date: '2026-10-25T16:15:00-05:00'
 author: 'Kandaka'
 category: 'History'
 description: "ما تكشفه الثياب المرسومة والخيوط الباقية عن النوبة الوسيطة، ولماذا تظل إعادة البناء تفسيراً لا صورة مستعادة من الماضي."
 tags: ['Sudan', 'Nubia', 'heritage', 'textiles', 'art']
-draft: true
+draft: false
 cover:
   image: '/images/uploads/faras-bishop-marianos.jpg'
   alt: 'جدارية باقية من فرس تُظهر الأسقف ماريانوس بثيابه المزخرفة إلى جانب العذراء والطفل.'
