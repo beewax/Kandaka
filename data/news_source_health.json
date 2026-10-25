@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-25T20:28:36.633927+00:00",
+  "updated": "2026-10-25T23:02:46.124547+00:00",
   "sources": [
     {
       "id": "dabanga-en",
@@ -83,13 +83,13 @@
       "language": "ar",
       "status": "ok",
       "items": 24,
-      "accepted": 1
+      "accepted": 0
     },
     {
       "id": "alaraby-ar",
       "language": "ar",
       "status": "ok",
-      "items": 140,
+      "items": 143,
       "accepted": 1
     },
     {
@@ -111,7 +111,7 @@
       "language": "ar",
       "status": "ok",
       "items": 24,
-      "accepted": 15
+      "accepted": 16
     },
     {
       "id": "ayin-ar",

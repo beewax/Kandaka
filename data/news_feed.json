@@ -1,43 +1,19 @@
 {
-  "updated": "2026-10-25T20:28:36.633927+00:00",
+  "updated": "2026-10-25T23:02:46.124547+00:00",
   "window_days": 30,
   "en": {
     "balanced": [
       {
-        "Title": "Rights activist: Ceasefire top priority for Sudan’s women",
+        "Title": "El Fasher: Survivors of the RSF invasion face famine, displacement, and a bitter wait for justice",
         "Lang": "en",
-        "Date": "2026-10-25T16:15:00+00:00",
-        "Permalink": "https://www.dabangasudan.org/en/all-news/article/rights-activist-ceasefire-top-priority-for-sudans-women",
+        "Date": "2026-10-25T21:32:57+00:00",
+        "Permalink": "https://3ayin.com/en/el-fasher-48-",
         "Params": {
-          "description": "Sudanese women’s rights activist Naemat Koko says a comprehensive ceasefire is essential to protect lives,... The post Rights activist: Ceasefire top priority for Sudan’s women appeared first on Dabanga Radio TV Online .",
-          "source": "Radio Dabanga",
-          "source_id": "dabanga-en",
+          "description": "26 October 2026 The memory of the Rapid Support Forces’ (RSF) invasion of El Fasher, the capital of North Darfur, on October 26, 2025, remains exceptionally bitter. The bloody events and widespread violations were not just a military takeover but a catastrophic turning point for hundreds of thousands of lives. One year later, the full […]",
+          "source": "Ayin Network",
+          "source_id": "ayin-en",
           "source_class": "sudanese_journalism",
-          "link": "https://www.dabangasudan.org/en/all-news/article/rights-activist-ceasefire-top-priority-for-sudans-women",
-          "status": "Reporting",
-          "geography": [
-            "National"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "War & Security",
-          "clabel": "الحرب والأمن",
-          "language": "en",
-          "media_attribution": "Radio Dabanga"
-        }
-      },
-      {
-        "Title": "UN survey finds lasting trauma among El Fasher’s displaced women",
-        "Lang": "en",
-        "Date": "2026-10-25T10:27:21+00:00",
-        "Permalink": "https://www.radiotamazuj.org/en/news/article/un-survey-finds-lasting-trauma-among-el-fashers-displaced-women",
-        "Params": {
-          "description": "Nine in 10 organizations supporting women and girls displaced from Sudan’s El Fasher reported persistent The post UN survey finds lasting trauma among El Fasher’s displaced women appeared first on Radio Tamazuj .",
-          "source": "Radio Tamazuj",
-          "source_id": "tamazuj-en",
-          "source_class": "regional_journalism",
-          "link": "https://www.radiotamazuj.org/en/news/article/un-survey-finds-lasting-trauma-among-el-fashers-displaced-women",
+          "link": "https://3ayin.com/en/el-fasher-48-",
           "status": "Reporting",
           "geography": [
             "Darfur"
@@ -45,10 +21,34 @@
           "image": "",
           "media_reuse_basis": "",
           "related_sources": [],
-          "category": "Humanitarian",
-          "clabel": "إنساني",
+          "category": "War & Security",
+          "clabel": "الحرب والأمن",
           "language": "en",
-          "media_attribution": "Radio Tamazuj"
+          "media_attribution": "Ayin Network"
+        }
+      },
+      {
+        "Title": "Sudanese journalist detained for sharing online report",
+        "Lang": "en",
+        "Date": "2026-10-25T15:03:00+00:00",
+        "Permalink": "https://www.dabangasudan.org/en/all-news/article/sudanese-journalist-detained-for-sharing-online-report",
+        "Params": {
+          "description": "Police in El Qatina in Sudan’s White Nile state, have detained journalist Rasha Hassan following... The post Sudanese journalist detained for sharing online report appeared first on Dabanga Radio TV Online .",
+          "source": "Radio Dabanga",
+          "source_id": "dabanga-en",
+          "source_class": "sudanese_journalism",
+          "link": "https://www.dabangasudan.org/en/all-news/article/sudanese-journalist-detained-for-sharing-online-report",
+          "status": "Reporting",
+          "geography": [
+            "White Nile"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "Sudan News",
+          "clabel": "أخبار السودان",
+          "language": "en",
+          "media_attribution": "Radio Dabanga"
         }
       },
       {
@@ -76,27 +76,27 @@
         }
       },
       {
-        "Title": "Nowhere to go – civilians take their chances to flee on foot across Kordofan",
+        "Title": "UN survey finds lasting trauma among El Fasher’s displaced women",
         "Lang": "en",
-        "Date": "2026-10-24T20:06:24+00:00",
-        "Permalink": "https://3ayin.com/en/trek-",
+        "Date": "2026-10-25T10:27:21+00:00",
+        "Permalink": "https://www.radiotamazuj.org/en/news/article/un-survey-finds-lasting-trauma-among-el-fashers-displaced-women",
         "Params": {
-          "description": "24 October 2026 After the Rapid Support Forces (RSF) killed three people in front of her house in the remote Jebel Al-Dar area of North Kordofan State, Dawlat Musa knew she and her family had to leave the area. The RSF shelled her village when they were in the mountains, Dawlat told Ayin. Some of […]",
-          "source": "Ayin Network",
-          "source_id": "ayin-en",
-          "source_class": "sudanese_journalism",
-          "link": "https://3ayin.com/en/trek-",
+          "description": "Nine in 10 organizations supporting women and girls displaced from Sudan’s El Fasher reported persistent The post UN survey finds lasting trauma among El Fasher’s displaced women appeared first on Radio Tamazuj .",
+          "source": "Radio Tamazuj",
+          "source_id": "tamazuj-en",
+          "source_class": "regional_journalism",
+          "link": "https://www.radiotamazuj.org/en/news/article/un-survey-finds-lasting-trauma-among-el-fashers-displaced-women",
           "status": "Reporting",
           "geography": [
-            "Kordofan"
+            "Darfur"
           ],
           "image": "",
           "media_reuse_basis": "",
           "related_sources": [],
-          "category": "War & Security",
-          "clabel": "الحرب والأمن",
+          "category": "Humanitarian",
+          "clabel": "إنساني",
           "language": "en",
-          "media_attribution": "Ayin Network"
+          "media_attribution": "Radio Tamazuj"
         }
       },
       {
@@ -172,30 +172,6 @@
         }
       },
       {
-        "Title": "Sudanese journalist detained for sharing online report",
-        "Lang": "en",
-        "Date": "2026-10-25T15:03:00+00:00",
-        "Permalink": "https://www.dabangasudan.org/en/all-news/article/sudanese-journalist-detained-for-sharing-online-report",
-        "Params": {
-          "description": "Police in El Qatina in Sudan’s White Nile state, have detained journalist Rasha Hassan following... The post Sudanese journalist detained for sharing online report appeared first on Dabanga Radio TV Online .",
-          "source": "Radio Dabanga",
-          "source_id": "dabanga-en",
-          "source_class": "sudanese_journalism",
-          "link": "https://www.dabangasudan.org/en/all-news/article/sudanese-journalist-detained-for-sharing-online-report",
-          "status": "Reporting",
-          "geography": [
-            "White Nile"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "Sudan News",
-          "clabel": "أخبار السودان",
-          "language": "en",
-          "media_attribution": "Radio Dabanga"
-        }
-      },
-      {
         "Title": "Sudan's war escalates as UN warns of wider regional crisis",
         "Lang": "en",
         "Date": "2026-10-21T22:41:43+00:00",
@@ -220,6 +196,30 @@
         }
       },
       {
+        "Title": "Rising flour costs deepen bread crisis in Sudan’s Blue Nile state",
+        "Lang": "en",
+        "Date": "2026-10-25T10:23:00+00:00",
+        "Permalink": "https://www.dabangasudan.org/en/all-news/article/rising-flour-costs-deepen-bread-crisis-in-sudans-blue-nile-state",
+        "Params": {
+          "description": "Authorities in Blue Nile state have allowed bakeries to sell two loaves for SDG 1,000,... The post Rising flour costs deepen bread crisis in Sudan’s Blue Nile state appeared first on Dabanga Radio TV Online .",
+          "source": "Radio Dabanga",
+          "source_id": "dabanga-en",
+          "source_class": "sudanese_journalism",
+          "link": "https://www.dabangasudan.org/en/all-news/article/rising-flour-costs-deepen-bread-crisis-in-sudans-blue-nile-state",
+          "status": "Reporting",
+          "geography": [
+            "Blue Nile"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "Sudan News",
+          "clabel": "أخبار السودان",
+          "language": "en",
+          "media_attribution": "Radio Dabanga"
+        }
+      },
+      {
         "Title": "Why Sanctions Are Not Stifling Sudan’s War Economy and What We Can Do About It",
         "Lang": "en",
         "Date": "2026-10-20T22:26:49+00:00",
@@ -241,6 +241,30 @@
           "clabel": "اقتصاد",
           "language": "en",
           "media_attribution": "African Arguments"
+        }
+      },
+      {
+        "Title": "Nowhere to go – civilians take their chances to flee on foot across Kordofan",
+        "Lang": "en",
+        "Date": "2026-10-24T20:06:24+00:00",
+        "Permalink": "https://3ayin.com/en/trek-",
+        "Params": {
+          "description": "24 October 2026 After the Rapid Support Forces (RSF) killed three people in front of her house in the remote Jebel Al-Dar area of North Kordofan State, Dawlat Musa knew she and her family had to leave the area. The RSF shelled her village when they were in the mountains, Dawlat told Ayin. Some of […]",
+          "source": "Ayin Network",
+          "source_id": "ayin-en",
+          "source_class": "sudanese_journalism",
+          "link": "https://3ayin.com/en/trek-",
+          "status": "Reporting",
+          "geography": [
+            "Kordofan"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "War & Security",
+          "clabel": "الحرب والأمن",
+          "language": "en",
+          "media_attribution": "Ayin Network"
         }
       },
       {
@@ -361,30 +385,6 @@
           "clabel": "الحرب والأمن",
           "language": "en",
           "media_attribution": "France 24 Africa"
-        }
-      },
-      {
-        "Title": "Sudanese refugees face a shrinking world of safety",
-        "Lang": "en",
-        "Date": "2026-10-20T21:03:02+00:00",
-        "Permalink": "https://3ayin.com/en/refugees-11-",
-        "Params": {
-          "description": "20 October 2026 More than three years into Sudan’s war, the crisis facing Sudanese refugees continues to extend beyond the battlefield. In countries hosting large Sudanese communities, refugees and asylum seekers face detention, deportation, tighter immigration procedures, xenophobia and growing public hostility. These hardships are most visible in Egypt and Libya, where hundreds of thousands […]",
-          "source": "Ayin Network",
-          "source_id": "ayin-en",
-          "source_class": "sudanese_journalism",
-          "link": "https://3ayin.com/en/refugees-11-",
-          "status": "Reporting",
-          "geography": [
-            "National"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "Humanitarian",
-          "clabel": "إنساني",
-          "language": "en",
-          "media_attribution": "Ayin Network"
         }
       },
       {
@@ -533,6 +533,30 @@
       }
     ],
     "latest": [
+      {
+        "Title": "El Fasher: Survivors of the RSF invasion face famine, displacement, and a bitter wait for justice",
+        "Lang": "en",
+        "Date": "2026-10-25T21:32:57+00:00",
+        "Permalink": "https://3ayin.com/en/el-fasher-48-",
+        "Params": {
+          "description": "26 October 2026 The memory of the Rapid Support Forces’ (RSF) invasion of El Fasher, the capital of North Darfur, on October 26, 2025, remains exceptionally bitter. The bloody events and widespread violations were not just a military takeover but a catastrophic turning point for hundreds of thousands of lives. One year later, the full […]",
+          "source": "Ayin Network",
+          "source_id": "ayin-en",
+          "source_class": "sudanese_journalism",
+          "link": "https://3ayin.com/en/el-fasher-48-",
+          "status": "Reporting",
+          "geography": [
+            "Darfur"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "War & Security",
+          "clabel": "الحرب والأمن",
+          "language": "en",
+          "media_attribution": "Ayin Network"
+        }
+      },
       {
         "Title": "Rights activist: Ceasefire top priority for Sudan’s women",
         "Lang": "en",
@@ -4118,36 +4142,36 @@
           "language": "en",
           "media_attribution": "Radio Dabanga"
         }
-      },
-      {
-        "Title": "Call to scrap Sudan Customs’ advance import declaration system",
-        "Lang": "en",
-        "Date": "2026-10-07T08:26:00+00:00",
-        "Permalink": "https://www.dabangasudan.org/en/all-news/article/call-to-scrap-sudans-costly-advance-declaration-system",
-        "Params": {
-          "description": "Sudanese importers and customs experts are calling for the cancellation of a new Advance Cargo... The post Call to scrap Sudan Customs’ advance import declaration system appeared first on Dabanga Radio TV Online .",
-          "source": "Radio Dabanga",
-          "source_id": "dabanga-en",
-          "source_class": "sudanese_journalism",
-          "link": "https://www.dabangasudan.org/en/all-news/article/call-to-scrap-sudans-costly-advance-declaration-system",
-          "status": "Reporting",
-          "geography": [
-            "National"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "Sudan News",
-          "clabel": "أخبار السودان",
-          "language": "en",
-          "media_attribution": "Radio Dabanga"
-        }
       }
     ],
     "publishers": 11
   },
   "ar": {
     "balanced": [
+      {
+        "Title": "واقعُ المرأة الريفية فى أتونِ حرب السودان الدائرة",
+        "Lang": "ar",
+        "Date": "2026-10-25T22:12:12+00:00",
+        "Permalink": "https://sudanwarmonitor.com/p/0a4",
+        "Params": {
+          "description": "حاضر قاتم تحتَ دوِّىُّ المدافع وقصف المُسيّرات وتدهور اقتصاد الريف",
+          "source": "Sudan War Monitor",
+          "source_id": "sudan-war-monitor",
+          "source_class": "analysis",
+          "link": "https://sudanwarmonitor.com/p/0a4",
+          "status": "Analysis",
+          "geography": [
+            "National"
+          ],
+          "image": "https://substackcdn.com/image/fetch/$s_!SQdi!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc95ff660-7b27-4fc7-8c06-ed47660b6a3b_1024x683.jpeg",
+          "media_reuse_basis": "rss_metadata",
+          "related_sources": [],
+          "category": "War & Security",
+          "clabel": "الحرب والأمن",
+          "language": "ar",
+          "media_attribution": "Sudan War Monitor"
+        }
+      },
       {
         "Title": "ركام المدارس و«انقطاع الرواتب» يدفعان قطاع التعليم الحكومي في السودان إلى الانهيار",
         "Lang": "ar",
@@ -4173,30 +4197,6 @@
         }
       },
       {
-        "Title": "إعدام الرأي العام في السودان",
-        "Lang": "ar",
-        "Date": "2026-10-25T18:43:53+00:00",
-        "Permalink": "https://www.altaghyeer.info/ar/2026/10/25/%d8%a5%d8%b9%d8%af%d8%a7%d9%85-%d8%a7%d9%84%d8%b1%d8%a3%d9%8a-%d8%a7%d9%84%d8%b9%d8%a7%d9%85-%d9%81%d9%8a-%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86",
-        "Params": {
-          "description": "إعدام الرأي العام في السودان صلاح شعيب برغم كل هذه المآسي المدمرة، والأرواح التي أذاقها بواسطته، ما زال برهان الجيش مصراً على الحكم فوق جثث السودانيين. بل إنه يسعى للجلوس قريباً في القصر الجمهوري، وقد فرش له الطريق لهذا المجد الواهم بالجماجم: جماجم من قتلوا في فض الاعتصام، وجماجم من قضوا في أتون …",
-          "source": "التغيير",
-          "source_id": "altaghyeer-ar",
-          "source_class": "sudanese_journalism",
-          "link": "https://www.altaghyeer.info/ar/2026/10/25/%d8%a5%d8%b9%d8%af%d8%a7%d9%85-%d8%a7%d9%84%d8%b1%d8%a3%d9%8a-%d8%a7%d9%84%d8%b9%d8%a7%d9%85-%d9%81%d9%8a-%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86",
-          "status": "Reporting",
-          "geography": [
-            "National"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "War & Security",
-          "clabel": "الحرب والأمن",
-          "language": "ar",
-          "media_attribution": "التغيير"
-        }
-      },
-      {
         "Title": "وفاة اثنين من المعدّنين إثر انهيار بئر بمنجم الشهداء في القضارف",
         "Lang": "ar",
         "Date": "2026-10-25T11:04:48+00:00",
@@ -4218,6 +4218,30 @@
           "clabel": "أخبار السودان",
           "language": "ar",
           "media_attribution": "راديو دبنقا"
+        }
+      },
+      {
+        "Title": "نادي التاج بأم درمان يسحب عضوية سكرتيره نهائياً على خلفية واقعة التحرش المتداولة",
+        "Lang": "ar",
+        "Date": "2026-10-25T16:26:28+00:00",
+        "Permalink": "https://www.altaghyeer.info/ar/2026/10/25/%d9%86%d8%a7%d8%af%d9%8a-%d8%a7%d9%84%d8%aa%d8%a7%d8%ac-%d8%a8%d8%a3%d9%85-%d8%af%d8%b1%d9%85%d8%a7%d9%86-%d9%8a%d8%b3%d8%ad%d8%a8-%d8%b9%d8%b6%d9%88%d9%8a%d8%a9-%d8%b3%d9%83%d8%b1%d8%aa%d9%8a%d8%b1",
+        "Params": {
+          "description": "أعلن مجلس إدارة نادي التاج الرياضي الثقافي الاجتماعي بأم درمان سحب عضوية سكرتير النادي، التجاني علي فضل، نهائياً، على خلفية واقعة التحرش المتداولة عبر وسائل الإعلام ومنصات التواصل الاجتماعي، وذلك عقب اتخاذ إجراءات إدارية تحفظية ومتابعة تطورات القضية. الخرطوم التغيير وقال النادي، في بيان توضيحي للرأي العام، إن مجلس الإدارة بادر منذ ظهور الواقعة …",
+          "source": "التغيير",
+          "source_id": "altaghyeer-ar",
+          "source_class": "sudanese_journalism",
+          "link": "https://www.altaghyeer.info/ar/2026/10/25/%d9%86%d8%a7%d8%af%d9%8a-%d8%a7%d9%84%d8%aa%d8%a7%d8%ac-%d8%a8%d8%a3%d9%85-%d8%af%d8%b1%d9%85%d8%a7%d9%86-%d9%8a%d8%b3%d8%ad%d8%a8-%d8%b9%d8%b6%d9%88%d9%8a%d8%a9-%d8%b3%d9%83%d8%b1%d8%aa%d9%8a%d8%b1",
+          "status": "Reporting",
+          "geography": [
+            "Khartoum"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "Sport",
+          "clabel": "رياضة",
+          "language": "ar",
+          "media_attribution": "التغيير"
         }
       },
       {
@@ -4317,30 +4341,6 @@
         }
       },
       {
-        "Title": "المنسقية العامة للنازحين واللاجئين تحذر من تقليص برنامج الغذاء العالمي مساعداته في السودان",
-        "Lang": "ar",
-        "Date": "2026-10-22T20:30:25+00:00",
-        "Permalink": "https://sudanwarmonitor.com/p/1d5",
-        "Params": {
-          "description": "تحمل الفئات الأشد ضعفاً العبء الأكبر ولا سيما الأطفال والنساء وكبار السن",
-          "source": "Sudan War Monitor",
-          "source_id": "sudan-war-monitor",
-          "source_class": "analysis",
-          "link": "https://sudanwarmonitor.com/p/1d5",
-          "status": "Analysis",
-          "geography": [
-            "National"
-          ],
-          "image": "https://substackcdn.com/image/fetch/$s_!ZxYo!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3f58f4c9-779a-4faa-b527-9f7c34858409_1280x960.webp",
-          "media_reuse_basis": "rss_metadata",
-          "related_sources": [],
-          "category": "Humanitarian",
-          "clabel": "إنساني",
-          "language": "ar",
-          "media_attribution": "Sudan War Monitor"
-        }
-      },
-      {
         "Title": "مسيرات شعبية حاشدة في غرب دارفور تأييداً لحكومة “تأسيس”",
         "Lang": "ar",
         "Date": "2026-10-22T08:39:11+00:00",
@@ -4365,51 +4365,27 @@
         }
       },
       {
-        "Title": "هيئة الأمم المتحدة للمرأة: نساء وفتيات الفاشر يواصلن دفع الثمن بعد عام من سقوط المدينة",
+        "Title": "السودان - الأمم المتحدة تدين مقتل المدنيين وتحذر من عواقب نقص تمويل العمل الإنساني المنقذ للحياة",
         "Lang": "ar",
-        "Date": "2026-10-23T12:00:00+00:00",
-        "Permalink": "https://news.un.org/feed/view/ar/story/2026/10/1145588",
+        "Date": "2026-10-22T12:00:00+00:00",
+        "Permalink": "https://news.un.org/feed/view/ar/story/2026/10/1145586",
         "Params": {
-          "description": "بعد مرور عام على سقوط مدينة الفاشر - عقب حصارها من قوات الدعم السريع - لم تندمل ندوب العنف لدى النساء والفتيات، حيث لا يزلن يعشن تحت وطأة صدمات \"العنف الجنسي، واختفاء بناتهن وأخواتهن وأمهاتهن وأزواجهن وأبنائهن، ومقتل أفراد أسرهن، وفقدان منازلهن وسبل عيشهن\".",
+          "description": "مع استمرار الغارات الجوية وهجمات الطائرات المسيرة في السودان، جددت الأمم المتحدة إدانتها لمقتل المدنيين ودعت إلى حمايتهم والسماح بوصول المساعدات الإنسانية إلى المحتاجين.",
           "source": "أخبار الأمم المتحدة",
           "source_id": "un-news-ar",
           "source_class": "international_institution",
-          "link": "https://news.un.org/feed/view/ar/story/2026/10/1145588",
+          "link": "https://news.un.org/feed/view/ar/story/2026/10/1145586",
           "status": "Institutional update",
           "geography": [
-            "Darfur"
+            "National"
           ],
-          "image": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/14-05-2026-UNOCHA-Sudan-03.jpg/image560x340cropped.jpg",
+          "image": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/2026/06/24-06-2026-UNDP-Sudan.jpg/image560x340cropped.jpg",
           "media_reuse_basis": "rss_metadata",
           "related_sources": [],
-          "category": "War & Security",
-          "clabel": "الحرب والأمن",
+          "category": "Humanitarian",
+          "clabel": "إنساني",
           "language": "ar",
           "media_attribution": "أخبار الأمم المتحدة"
-        }
-      },
-      {
-        "Title": "نادي التاج بأم درمان يسحب عضوية سكرتيره نهائياً على خلفية واقعة التحرش المتداولة",
-        "Lang": "ar",
-        "Date": "2026-10-25T16:26:28+00:00",
-        "Permalink": "https://www.altaghyeer.info/ar/2026/10/25/%d9%86%d8%a7%d8%af%d9%8a-%d8%a7%d9%84%d8%aa%d8%a7%d8%ac-%d8%a8%d8%a3%d9%85-%d8%af%d8%b1%d9%85%d8%a7%d9%86-%d9%8a%d8%b3%d8%ad%d8%a8-%d8%b9%d8%b6%d9%88%d9%8a%d8%a9-%d8%b3%d9%83%d8%b1%d8%aa%d9%8a%d8%b1",
-        "Params": {
-          "description": "أعلن مجلس إدارة نادي التاج الرياضي الثقافي الاجتماعي بأم درمان سحب عضوية سكرتير النادي، التجاني علي فضل، نهائياً، على خلفية واقعة التحرش المتداولة عبر وسائل الإعلام ومنصات التواصل الاجتماعي، وذلك عقب اتخاذ إجراءات إدارية تحفظية ومتابعة تطورات القضية. الخرطوم التغيير وقال النادي، في بيان توضيحي للرأي العام، إن مجلس الإدارة بادر منذ ظهور الواقعة …",
-          "source": "التغيير",
-          "source_id": "altaghyeer-ar",
-          "source_class": "sudanese_journalism",
-          "link": "https://www.altaghyeer.info/ar/2026/10/25/%d9%86%d8%a7%d8%af%d9%8a-%d8%a7%d9%84%d8%aa%d8%a7%d8%ac-%d8%a8%d8%a3%d9%85-%d8%af%d8%b1%d9%85%d8%a7%d9%86-%d9%8a%d8%b3%d8%ad%d8%a8-%d8%b9%d8%b6%d9%88%d9%8a%d8%a9-%d8%b3%d9%83%d8%b1%d8%aa%d9%8a%d8%b1",
-          "status": "Reporting",
-          "geography": [
-            "Khartoum"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "Sport",
-          "clabel": "رياضة",
-          "language": "ar",
-          "media_attribution": "التغيير"
         }
       },
       {
@@ -4509,6 +4485,30 @@
         }
       },
       {
+        "Title": "إعدام الرأي العام في السودان",
+        "Lang": "ar",
+        "Date": "2026-10-25T18:43:53+00:00",
+        "Permalink": "https://www.altaghyeer.info/ar/2026/10/25/%d8%a5%d8%b9%d8%af%d8%a7%d9%85-%d8%a7%d9%84%d8%b1%d8%a3%d9%8a-%d8%a7%d9%84%d8%b9%d8%a7%d9%85-%d9%81%d9%8a-%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86",
+        "Params": {
+          "description": "إعدام الرأي العام في السودان صلاح شعيب برغم كل هذه المآسي المدمرة، والأرواح التي أذاقها بواسطته، ما زال برهان الجيش مصراً على الحكم فوق جثث السودانيين. بل إنه يسعى للجلوس قريباً في القصر الجمهوري، وقد فرش له الطريق لهذا المجد الواهم بالجماجم: جماجم من قتلوا في فض الاعتصام، وجماجم من قضوا في أتون …",
+          "source": "التغيير",
+          "source_id": "altaghyeer-ar",
+          "source_class": "sudanese_journalism",
+          "link": "https://www.altaghyeer.info/ar/2026/10/25/%d8%a5%d8%b9%d8%af%d8%a7%d9%85-%d8%a7%d9%84%d8%b1%d8%a3%d9%8a-%d8%a7%d9%84%d8%b9%d8%a7%d9%85-%d9%81%d9%8a-%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86",
+          "status": "Reporting",
+          "geography": [
+            "National"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "War & Security",
+          "clabel": "الحرب والأمن",
+          "language": "ar",
+          "media_attribution": "التغيير"
+        }
+      },
+      {
         "Title": "مأساة المرضى في السودان... علاجات بالحد الأدنى وأدوية مغشوشة",
         "Lang": "ar",
         "Date": "2026-10-23T22:37:10+00:00",
@@ -4605,6 +4605,30 @@
         }
       },
       {
+        "Title": "هيئة الأمم المتحدة للمرأة: نساء وفتيات الفاشر يواصلن دفع الثمن بعد عام من سقوط المدينة",
+        "Lang": "ar",
+        "Date": "2026-10-23T12:00:00+00:00",
+        "Permalink": "https://news.un.org/feed/view/ar/story/2026/10/1145588",
+        "Params": {
+          "description": "بعد مرور عام على سقوط مدينة الفاشر - عقب حصارها من قوات الدعم السريع - لم تندمل ندوب العنف لدى النساء والفتيات، حيث لا يزلن يعشن تحت وطأة صدمات \"العنف الجنسي، واختفاء بناتهن وأخواتهن وأمهاتهن وأزواجهن وأبنائهن، ومقتل أفراد أسرهن، وفقدان منازلهن وسبل عيشهن\".",
+          "source": "أخبار الأمم المتحدة",
+          "source_id": "un-news-ar",
+          "source_class": "international_institution",
+          "link": "https://news.un.org/feed/view/ar/story/2026/10/1145588",
+          "status": "Institutional update",
+          "geography": [
+            "Darfur"
+          ],
+          "image": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/14-05-2026-UNOCHA-Sudan-03.jpg/image560x340cropped.jpg",
+          "media_reuse_basis": "rss_metadata",
+          "related_sources": [],
+          "category": "War & Security",
+          "clabel": "الحرب والأمن",
+          "language": "ar",
+          "media_attribution": "أخبار الأمم المتحدة"
+        }
+      },
+      {
         "Title": "الخرطوم تفند الاتهامات وتصدر نفياً قاطعاً بخصوص هجوم سوق “أميت”",
         "Lang": "ar",
         "Date": "2026-10-23T09:35:40+00:00",
@@ -4626,30 +4650,6 @@
           "clabel": "الحرب والأمن",
           "language": "ar",
           "media_attribution": "راديو تمازج"
-        }
-      },
-      {
-        "Title": "السودان - الأمم المتحدة تدين مقتل المدنيين وتحذر من عواقب نقص تمويل العمل الإنساني المنقذ للحياة",
-        "Lang": "ar",
-        "Date": "2026-10-22T12:00:00+00:00",
-        "Permalink": "https://news.un.org/feed/view/ar/story/2026/10/1145586",
-        "Params": {
-          "description": "مع استمرار الغارات الجوية وهجمات الطائرات المسيرة في السودان، جددت الأمم المتحدة إدانتها لمقتل المدنيين ودعت إلى حمايتهم والسماح بوصول المساعدات الإنسانية إلى المحتاجين.",
-          "source": "أخبار الأمم المتحدة",
-          "source_id": "un-news-ar",
-          "source_class": "international_institution",
-          "link": "https://news.un.org/feed/view/ar/story/2026/10/1145586",
-          "status": "Institutional update",
-          "geography": [
-            "National"
-          ],
-          "image": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/2026/06/24-06-2026-UNDP-Sudan.jpg/image560x340cropped.jpg",
-          "media_reuse_basis": "rss_metadata",
-          "related_sources": [],
-          "category": "Humanitarian",
-          "clabel": "إنساني",
-          "language": "ar",
-          "media_attribution": "أخبار الأمم المتحدة"
         }
       },
       {
@@ -4726,6 +4726,78 @@
       }
     ],
     "latest": [
+      {
+        "Title": "واقعُ المرأة الريفية فى أتونِ حرب السودان الدائرة",
+        "Lang": "ar",
+        "Date": "2026-10-25T22:12:12+00:00",
+        "Permalink": "https://sudanwarmonitor.com/p/0a4",
+        "Params": {
+          "description": "حاضر قاتم تحتَ دوِّىُّ المدافع وقصف المُسيّرات وتدهور اقتصاد الريف",
+          "source": "Sudan War Monitor",
+          "source_id": "sudan-war-monitor",
+          "source_class": "analysis",
+          "link": "https://sudanwarmonitor.com/p/0a4",
+          "status": "Analysis",
+          "geography": [
+            "National"
+          ],
+          "image": "https://substackcdn.com/image/fetch/$s_!SQdi!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc95ff660-7b27-4fc7-8c06-ed47660b6a3b_1024x683.jpeg",
+          "media_reuse_basis": "rss_metadata",
+          "related_sources": [],
+          "category": "War & Security",
+          "clabel": "الحرب والأمن",
+          "language": "ar",
+          "media_attribution": "Sudan War Monitor"
+        }
+      },
+      {
+        "Title": "شركة قطرية تخطط للاستثمار في الثروة الحيوانية بالسودان",
+        "Lang": "ar",
+        "Date": "2026-10-25T21:35:23+00:00",
+        "Permalink": "https://sudantribune.net/article/320421",
+        "Params": {
+          "description": "أبدت شركة اتحاد المستقبل القابضة القطرية رغبتها في الاستثمار بقطاع الثروة الحيوانية في السودان، مع التركيز على إنشاء مدن للإنتاج الحيواني، واتفق الطرفان على توقيع مذكرة تفاهم لتعزيز التعاون الاستثماري The post شركة قطرية تخطط للاستثمار في الثروة الحيوانية بالسودان appeared first on سودان تربيون .",
+          "source": "Sudan Tribune Arabic",
+          "source_id": "sudan-tribune-ar",
+          "source_class": "sudanese_journalism",
+          "link": "https://sudantribune.net/article/320421",
+          "status": "Reporting",
+          "geography": [
+            "National"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "Sudan News",
+          "clabel": "أخبار السودان",
+          "language": "ar",
+          "media_attribution": "Sudan Tribune Arabic"
+        }
+      },
+      {
+        "Title": "الإسلامويون.. من الوعد الكاذب إلى سوء المنقلب",
+        "Lang": "ar",
+        "Date": "2026-10-25T19:06:39+00:00",
+        "Permalink": "https://www.altaghyeer.info/ar/2026/10/25/%d8%a7%d9%84%d8%a5%d8%b3%d9%84%d8%a7%d9%85%d9%88%d9%8a%d9%88%d9%86-%d9%85%d9%86-%d8%a7%d9%84%d9%88%d8%b9%d8%af-%d8%a7%d9%84%d9%83%d8%a7%d8%b0%d8%a8-%d8%a5%d9%84%d9%89-%d8%b3%d9%88%d8%a1-%d8%a7%d9%84",
+        "Params": {
+          "description": "الإسلامويون.. من الوعد الكاذب إلى سوء المنقلب خالد أبوأحمد أتذكر جيداً الأيام التي أعقبت انتفاضة أبريل 1985 وتأسيس (الجبهة الإسلامية القومية)، فقد انتشرت أدبيات الحركة التي تتحدث عن دولة العدل وتحكيم الشريعة الإسلامية، وكان أول لقاء شبابي جامع للحركة الإسلاموية بعد الانتفاضة مباشرة في أرض المعسكرات جنوب الخرطوم، اجتمع فيه نحو ثلاثة آلاف شاب وشابة، …",
+          "source": "التغيير",
+          "source_id": "altaghyeer-ar",
+          "source_class": "sudanese_journalism",
+          "link": "https://www.altaghyeer.info/ar/2026/10/25/%d8%a7%d9%84%d8%a5%d8%b3%d9%84%d8%a7%d9%85%d9%88%d9%8a%d9%88%d9%86-%d9%85%d9%86-%d8%a7%d9%84%d9%88%d8%b9%d8%af-%d8%a7%d9%84%d9%83%d8%a7%d8%b0%d8%a8-%d8%a5%d9%84%d9%89-%d8%b3%d9%88%d8%a1-%d8%a7%d9%84",
+          "status": "Reporting",
+          "geography": [
+            "Khartoum"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "Sudan News",
+          "clabel": "أخبار السودان",
+          "language": "ar",
+          "media_attribution": "التغيير"
+        }
+      },
       {
         "Title": "ركام المدارس و«انقطاع الرواتب» يدفعان قطاع التعليم الحكومي في السودان إلى الانهيار",
         "Lang": "ar",
@@ -8281,78 +8353,6 @@
           "clabel": "إنساني",
           "language": "ar",
           "media_attribution": "التغيير"
-        }
-      },
-      {
-        "Title": "البرهان يعيد المؤسسة السودانية للنفط بعد (7) سنوات من حلها",
-        "Lang": "ar",
-        "Date": "2026-10-21T18:09:04+00:00",
-        "Permalink": "https://sudantribune.net/article/320260",
-        "Params": {
-          "description": "الخرطوم 21 أكتوبر 2026 – أصدر رئيس مجلس السيادة الانتقالي، الفريق أول ركن عبد الفتاح البرهان، قراراً بإعادة المؤسسة السودانية للنفط، بعد سبع سنوات من حلها. وتضطلع المؤسسة بدور استراتيجي في تنمية الثروة النفطية وحسن استغلالها، من خلال أعمال الاستكشاف والإنتاج، فضلاً عن توفير احتياجات البلاد من المواد البترولية المختلفة وتأمين المخزون الاستراتيجي. وَقال بيان صحفي لوزارة الطاقة والنفط الأربعاء إن رئيس مجلس السيادة عبد ا",
-          "source": "Sudan Tribune Arabic",
-          "source_id": "sudan-tribune-ar",
-          "source_class": "sudanese_journalism",
-          "link": "https://sudantribune.net/article/320260",
-          "status": "Reporting",
-          "geography": [
-            "Khartoum"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "Sudan News",
-          "clabel": "أخبار السودان",
-          "language": "ar",
-          "media_attribution": "Sudan Tribune Arabic"
-        }
-      },
-      {
-        "Title": "السودان: التضخم يرتفع إلى 28% في سبتمبر",
-        "Lang": "ar",
-        "Date": "2026-10-21T17:35:38+00:00",
-        "Permalink": "https://sudantribune.net/article/320246",
-        "Params": {
-          "description": "الخرطوم 21 أكتوبر 2026 – كشف الجهاز المركزي للإحصاء، الأربعاء، عن ارتفاع معدل التضخم السنوي في السودان إلى 28.29% خلال سبتمبر 2026، فيما سجلت أسعار مجموعة الأغذية والمشروبات زيادة سنوية بلغت 36.81%. وتأتي الزيادة في معدلات التضخم وسط ضغوط متصاعدة على تكاليف المعيشة، في ظل تراجع قيمة العملة المحلية، التي تجاوز سعر صرفها في السوق الموازية 9 آلاف جنيه مقابل الدولار. وقال الجهاز المركزي للإحصاء، في بيان، إن “معدل التضخم",
-          "source": "Sudan Tribune Arabic",
-          "source_id": "sudan-tribune-ar",
-          "source_class": "sudanese_journalism",
-          "link": "https://sudantribune.net/article/320246",
-          "status": "Reporting",
-          "geography": [
-            "Khartoum"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "Economy",
-          "clabel": "اقتصاد",
-          "language": "ar",
-          "media_attribution": "Sudan Tribune Arabic"
-        }
-      },
-      {
-        "Title": "الدعم السريع والحركة الشعبية (الحلو) تعلنان السيطرة على منطقة البركة بالنيل الأزرق",
-        "Lang": "ar",
-        "Date": "2026-10-21T17:33:20+00:00",
-        "Permalink": "https://www.dabangasudan.org/ar/all-news/article/%d8%a7%d9%84%d8%af%d8%b9%d9%85-%d8%a7%d9%84%d8%b3%d8%b1%d9%8a%d8%b9-%d9%88%d8%a7%d9%84%d8%ad%d8%b1%d9%83%d8%a9-%d8%a7%d9%84%d8%b4%d8%b9%d8%a8%d9%8a%d8%a9-%d8%a7%d9%84%d8%ad%d9%84%d9%88-%d8%aa%d8%b9",
-        "Params": {
-          "description": "النيل الأزرق — 21 أكتوبر 2026 — راديو دبنقا أعلنت قوات “تحالف تأسيس” سيطرتها الكاملة... The post الدعم السريع والحركة الشعبية (الحلو) تعلنان السيطرة على منطقة البركة بالنيل الأزرق appeared first on Dabanga Radio TV Online .",
-          "source": "راديو دبنقا",
-          "source_id": "dabanga-ar",
-          "source_class": "sudanese_journalism",
-          "link": "https://www.dabangasudan.org/ar/all-news/article/%d8%a7%d9%84%d8%af%d8%b9%d9%85-%d8%a7%d9%84%d8%b3%d8%b1%d9%8a%d8%b9-%d9%88%d8%a7%d9%84%d8%ad%d8%b1%d9%83%d8%a9-%d8%a7%d9%84%d8%b4%d8%b9%d8%a8%d9%8a%d8%a9-%d8%a7%d9%84%d8%ad%d9%84%d9%88-%d8%aa%d8%b9",
-          "status": "Reporting",
-          "geography": [
-            "Blue Nile"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "War & Security",
-          "clabel": "الحرب والأمن",
-          "language": "ar",
-          "media_attribution": "راديو دبنقا"
         }
       }
     ],
