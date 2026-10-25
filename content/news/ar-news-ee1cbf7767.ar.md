@@ -17,13 +17,16 @@ geography:
 language: ar
 status: Reporting
 cluster_id: f127c7cd974c
-corroboration_count: 1
+corroboration_count: 2
 draft: false
 author: طارق الجزولي
 image: https://sudanile.com/wp-content/uploads/2021/07/maglisamn.jpg
 media_source: https://sudanile.com/%d8%a3%d8%b9%d8%b6%d8%a7%d8%a1-%d9%85%d8%ac%d9%84%d8%b3-%d8%a7%d9%84%d8%a3%d9%85%d9%86-%d9%8a%d8%af%d9%8a%d9%86%d9%88%d9%86-%d9%87%d8%ac%d9%85%d8%a7%d8%aa-%d8%a7%d9%84%d8%b7%d8%a7%d8%a6%d8%b1%d8%a7
 media_reuse_basis: rss_metadata
 media_attribution: سودانايل
+related_sources:
+- source: أخبار الأمم المتحدة
+  link: https://news.un.org/feed/view/ar/story/2026/10/1145597
 clabel: الحرب والأمن
 ---
 
