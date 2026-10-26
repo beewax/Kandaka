@@ -1,0 +1,2654 @@
+{
+  "date": "2026-10-25",
+  "provenance": "Conversation 6a8dae62-7ad8-83ea-afbd-d464d8bfe5e2, recovered 2026-10-25; existing master sections 8–10; explicitly labelled supplemental discovery candidates",
+  "entries": [
+    {
+      "institution": "Sudan Government Portal",
+      "type": "Government / official data",
+      "region": "Sudan",
+      "official_website": "https://sudan.gov.sd/",
+      "publications": "https://sudan.gov.sd/affiliates/",
+      "purpose": "Locate ministries, official plans and original government records",
+      "priority": "P1",
+      "id": "RSR-001",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "Ministry of Finance and Economic Planning",
+      "type": "Government / official data",
+      "region": "Sudan",
+      "official_website": "https://mof.gov.sd/",
+      "publications": "",
+      "purpose": "Budgets, debt, public investment, development plans and fiscal implementation",
+      "priority": "P1",
+      "id": "RSR-002",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "Ministry of Agriculture / Agriculture and Forestry",
+      "type": "Government / official data",
+      "region": "Sudan",
+      "official_website": "https://www.moaf.gov.sd/",
+      "publications": "",
+      "purpose": "Agricultural strategies, crop statistics, extension and technology adoption",
+      "priority": "P1",
+      "id": "RSR-003",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "Ministry of Livestock and Fisheries",
+      "type": "Government / official data",
+      "region": "Sudan",
+      "official_website": "",
+      "publications": "",
+      "purpose": "Livestock, veterinary services, fisheries, export certification and value chains",
+      "priority": "P1",
+      "id": "RSR-004",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "Ministry of Industry / Trade",
+      "type": "Government / official data",
+      "region": "Sudan",
+      "official_website": "",
+      "publications": "",
+      "purpose": "Industrial surveys, manufacturing policy, value chains and trade performance",
+      "priority": "P1",
+      "id": "RSR-005",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "Ministry of Energy / Petroleum",
+      "type": "Government / official data",
+      "region": "Sudan",
+      "official_website": "",
+      "publications": "",
+      "purpose": "Energy balances, electrification, generation costs, petroleum and renewable-energy plans",
+      "priority": "P1",
+      "id": "RSR-006",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "Ministry of Minerals",
+      "type": "Government / official data",
+      "region": "Sudan",
+      "official_website": "",
+      "publications": "",
+      "purpose": "Mineral strategies, concessions and original resource assessments",
+      "priority": "P1",
+      "id": "RSR-007",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "Ministry of Transport / Infrastructure",
+      "type": "Government / official data",
+      "region": "Sudan",
+      "official_website": "",
+      "publications": "",
+      "purpose": "Rail, roads, ports, logistics, transport studies and implementation records",
+      "priority": "P1",
+      "id": "RSR-008",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "Ministry of Irrigation / Water",
+      "type": "Government / official data",
+      "region": "Sudan",
+      "official_website": "",
+      "publications": "",
+      "purpose": "Water accounts, irrigation efficiency, groundwater, dams and maintenance",
+      "priority": "P1",
+      "id": "RSR-009",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "Ministry of Health",
+      "type": "Government / official data",
+      "region": "Sudan",
+      "official_website": "",
+      "publications": "",
+      "purpose": "Health systems, prevention, facilities, workforce and public-health data",
+      "priority": "P1",
+      "id": "RSR-010",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "Ministry of Education",
+      "type": "Government / official data",
+      "region": "Sudan",
+      "official_website": "",
+      "publications": "",
+      "purpose": "School access, learning, teachers, textbooks and technical education",
+      "priority": "P1",
+      "id": "RSR-011",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "Ministry of Higher Education and Scientific Research",
+      "type": "Government / official data",
+      "region": "Sudan",
+      "official_website": "",
+      "publications": "",
+      "purpose": "University capacity, research funding, skills and institutional strategies",
+      "priority": "P1",
+      "id": "RSR-012",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "Ministry of Digital Transformation and Telecommunications",
+      "type": "Government / official data",
+      "region": "Sudan",
+      "official_website": "https://mtdt.gov.sd/",
+      "publications": "",
+      "purpose": "Digital public infrastructure, low-bandwidth services, affordability and innovation policy",
+      "priority": "P1",
+      "id": "RSR-013",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "Taxation Chamber",
+      "type": "Government / official data",
+      "region": "Sudan",
+      "official_website": "https://tax.gov.sd/",
+      "publications": "",
+      "purpose": "Revenue structure, compliance, business taxation and fiscal capacity",
+      "priority": "P1",
+      "id": "RSR-014",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "Zakat Chamber",
+      "type": "Government / official data",
+      "region": "Sudan",
+      "official_website": "",
+      "publications": "",
+      "purpose": "Social protection, distribution, coverage and audited expenditure",
+      "priority": "P1",
+      "id": "RSR-015",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "Sudan Customs",
+      "type": "Government / official data",
+      "region": "Sudan",
+      "official_website": "https://web.customs.gov.sd/",
+      "publications": "",
+      "purpose": "Trade statistics, tariffs, export procedures and customs administration",
+      "priority": "P1",
+      "id": "RSR-016",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "Central Bureau of Statistics",
+      "type": "Government / official data",
+      "region": "Sudan",
+      "official_website": "https://cbs.gov.sd/",
+      "publications": "",
+      "purpose": "Census, household surveys, prices, employment and demographic geography",
+      "priority": "P1",
+      "id": "RSR-017",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "Central Bank of Sudan",
+      "type": "Government / official data",
+      "region": "Sudan",
+      "official_website": "https://cbos.gov.sd/en",
+      "publications": "https://cbos.gov.sd/en/content/important-sites",
+      "purpose": "Annual reports, money, banking, foreign exchange and payment systems",
+      "priority": "P1",
+      "id": "RSR-018",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "State governments and state finance/planning ministries",
+      "type": "Government / official data",
+      "region": "Sudan",
+      "official_website": "",
+      "publications": "",
+      "purpose": "State-level budgets, service delivery, local plans and regional comparisons",
+      "priority": "P1",
+      "id": "RSR-019",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "National councils and planning bodies",
+      "type": "Government / official data",
+      "region": "Sudan",
+      "official_website": "",
+      "publications": "",
+      "purpose": "Original national visions, sector coordination and implementation evaluations",
+      "priority": "P1",
+      "id": "RSR-020",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "Geological Research Authority of Sudan (GRAS)",
+      "type": "Research institution",
+      "region": "Sudan",
+      "official_website": "https://gras.gov.sd/",
+      "publications": "",
+      "purpose": "Original geological evidence; distinguish occurrences from resources, reserves and feasible mines",
+      "priority": "P1",
+      "id": "RSR-021",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "Agricultural Research Corporation (ARC)",
+      "type": "Research institution",
+      "region": "Sudan",
+      "official_website": "https://arc.gov.sd/",
+      "publications": "https://arc.gov.sd/overview/",
+      "purpose": "Sudan-developed low-cost crop, soil, pest-control, irrigation and agricultural-economic research",
+      "priority": "P1",
+      "id": "RSR-022",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "ARC Central Library",
+      "type": "Research institution",
+      "region": "Sudan",
+      "official_website": "https://arc-library.gov.sd/",
+      "publications": "https://arc-library.gov.sd/about-arc/",
+      "purpose": "Research reports, historical experiments and practical agricultural technologies",
+      "priority": "P1",
+      "id": "RSR-023",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "Sudan Academy of Sciences",
+      "type": "Research institution",
+      "region": "Sudan",
+      "official_website": "",
+      "publications": "",
+      "purpose": "Scientific scholarship, research networks and Sudanese technical capacity",
+      "priority": "P1",
+      "id": "RSR-024",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "National Centre for Research",
+      "type": "Research institution",
+      "region": "Sudan",
+      "official_website": "https://ncr.gov.sd/",
+      "publications": "",
+      "purpose": "Applied research and locally relevant scientific solutions",
+      "priority": "P1",
+      "id": "RSR-025",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "Meteorological research institutions",
+      "type": "Research institution",
+      "region": "Sudan",
+      "official_website": "",
+      "publications": "",
+      "purpose": "Rainfall, heat, flood, drought and climate-adaptation evidence",
+      "priority": "P1",
+      "id": "RSR-026",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "Water research institutions",
+      "type": "Research institution",
+      "region": "Sudan",
+      "official_website": "",
+      "publications": "",
+      "purpose": "Hydrology, water quality, sustainable abstraction and irrigation technology",
+      "priority": "P1",
+      "id": "RSR-027",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "Health research institutions",
+      "type": "Research institution",
+      "region": "Sudan",
+      "official_website": "",
+      "publications": "",
+      "purpose": "Disease surveillance, affordable diagnostics, prevention and health-system research",
+      "priority": "P1",
+      "id": "RSR-028",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "Energy research institutions",
+      "type": "Research institution",
+      "region": "Sudan",
+      "official_website": "",
+      "publications": "",
+      "purpose": "Locally maintainable power, efficient equipment, solar and storage research",
+      "priority": "P1",
+      "id": "RSR-029",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "University of Khartoum",
+      "type": "University / theses / repository",
+      "region": "Sudan",
+      "official_website": "https://uofk.edu/",
+      "publications": "https://khartoumspace.uofk.edu/",
+      "purpose": "Theses, journals, historical collections and Sudanese proposals that may not have been implemented",
+      "priority": "P1",
+      "id": "RSR-030",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "Sudan University of Science and Technology",
+      "type": "University / theses / repository",
+      "region": "Sudan",
+      "official_website": "https://www.sustech.edu/",
+      "publications": "https://repository.sustech.edu/",
+      "purpose": "Applied engineering, transport, industry, agriculture and postgraduate research",
+      "priority": "P1",
+      "id": "RSR-031",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "University of Gezira",
+      "type": "University / theses / repository",
+      "region": "Sudan",
+      "official_website": "https://portal.uofg.edu.sd/",
+      "publications": "",
+      "purpose": "Agriculture, irrigation, rural development, health and postgraduate research",
+      "priority": "P1",
+      "id": "RSR-032",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "Omdurman Islamic University",
+      "type": "University / theses / repository",
+      "region": "Sudan",
+      "official_website": "https://www.oiu.edu.sd/",
+      "publications": "",
+      "purpose": "Postgraduate research, social sciences, education and Islamic intellectual traditions",
+      "priority": "P1",
+      "id": "RSR-033",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "University of Bahri",
+      "type": "University / theses / repository",
+      "region": "Sudan",
+      "official_website": "https://bahri.edu.sd/",
+      "publications": "",
+      "purpose": "Engineering, agriculture, education, health and regional scholarship",
+      "priority": "P1",
+      "id": "RSR-034",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "Red Sea University",
+      "type": "University / theses / repository",
+      "region": "Sudan",
+      "official_website": "https://www.rsu.edu.sd/",
+      "publications": "",
+      "purpose": "Ports, marine resources, coastal environments and eastern Sudan",
+      "priority": "P1",
+      "id": "RSR-035",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "University of Kassala",
+      "type": "University / theses / repository",
+      "region": "Sudan",
+      "official_website": "https://kassalauni.edu.sd/",
+      "publications": "",
+      "purpose": "Eastern Sudan, agriculture, health and regional-development research",
+      "priority": "P1",
+      "id": "RSR-036",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "University of Gedaref",
+      "type": "University / theses / repository",
+      "region": "Sudan",
+      "official_website": "https://www.gaduniv.edu.sd/",
+      "publications": "",
+      "purpose": "Rainfed agriculture, rural services, livelihoods and regional-development research",
+      "priority": "P1",
+      "id": "RSR-037",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "University of Kordofan",
+      "type": "University / theses / repository",
+      "region": "Sudan",
+      "official_website": "https://kordofan.edu.sd/",
+      "publications": "",
+      "purpose": "Drylands, pastoralism, agriculture, water and western Sudan",
+      "priority": "P1",
+      "id": "RSR-038",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "University of El Fasher",
+      "type": "University / theses / repository",
+      "region": "Sudan",
+      "official_website": "https://fashir.edu.sd/",
+      "publications": "",
+      "purpose": "Darfur, regional livelihoods, health, education and local scholarship",
+      "priority": "P1",
+      "id": "RSR-039",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "University of Nyala",
+      "type": "University / theses / repository",
+      "region": "Sudan",
+      "official_website": "https://www.nyalau.edu.sd/",
+      "publications": "",
+      "purpose": "Darfur, regional development, agriculture, veterinary and social research",
+      "priority": "P1",
+      "id": "RSR-040",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "University of Dongola",
+      "type": "University / theses / repository",
+      "region": "Sudan",
+      "official_website": "https://www.uofd.edu.sd/",
+      "publications": "",
+      "purpose": "Northern Sudan, archaeology, agriculture and local water/energy research",
+      "priority": "P1",
+      "id": "RSR-041",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "Nile Valley University",
+      "type": "University / theses / repository",
+      "region": "Sudan",
+      "official_website": "https://nilevalley.edu.sd/",
+      "publications": "",
+      "purpose": "Transport, engineering, education and Nile Valley research",
+      "priority": "P1",
+      "id": "RSR-042",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "University of Sennar",
+      "type": "University / theses / repository",
+      "region": "Sudan",
+      "official_website": "https://uofs.edu.sd/",
+      "publications": "",
+      "purpose": "Blue Nile agriculture, health, local history and regional research",
+      "priority": "P1",
+      "id": "RSR-043",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "Other Sudanese universities and institutional repositories",
+      "type": "University / theses / repository",
+      "region": "Sudan",
+      "official_website": "",
+      "publications": "",
+      "purpose": "Discover additional university libraries, master's theses, PhD dissertations and local-language journals",
+      "priority": "P1",
+      "id": "RSR-044",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "Baladna government-services platform",
+      "type": "Public institution / infrastructure archive",
+      "region": "Sudan",
+      "official_website": "https://www.baldna.gov.sd/",
+      "publications": "",
+      "purpose": "Evaluate actual service access, interoperability, offline/USSD options and ordinary-user costs",
+      "priority": "P1",
+      "id": "RSR-045",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "National Information Center",
+      "type": "Public institution / infrastructure archive",
+      "region": "Sudan",
+      "official_website": "https://www.nic.gov.sd/",
+      "publications": "",
+      "purpose": "Government computing, shared infrastructure, data exchange and implementation capacity",
+      "priority": "P1",
+      "id": "RSR-046",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "Telecommunications and postal regulator",
+      "type": "Public institution / infrastructure archive",
+      "region": "Sudan",
+      "official_website": "",
+      "publications": "",
+      "purpose": "Coverage, affordability, service quality, spectrum and regulatory evidence",
+      "priority": "P1",
+      "id": "RSR-047",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "CBOS payment-system material",
+      "type": "Public institution / infrastructure archive",
+      "region": "Sudan",
+      "official_website": "https://cbos.gov.sd/en",
+      "publications": "",
+      "purpose": "Payments, inclusion, settlement, low-cost devices and digital-finance implementation",
+      "priority": "P1",
+      "id": "RSR-048",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "University computing and engineering departments",
+      "type": "Public institution / infrastructure archive",
+      "region": "Sudan",
+      "official_website": "",
+      "publications": "",
+      "purpose": "Local software, open-source systems, equipment design and maintainable engineering",
+      "priority": "P1",
+      "id": "RSR-049",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "Sudan Railways",
+      "type": "Public institution / infrastructure archive",
+      "region": "Sudan",
+      "official_website": "https://www.sudanrailways.gov.sd/",
+      "publications": "",
+      "purpose": "Railway archives, traffic, asset maintenance, costs and transport investment",
+      "priority": "P1",
+      "id": "RSR-050",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "Sudan Airways archives",
+      "type": "Public institution / infrastructure archive",
+      "region": "Sudan",
+      "official_website": "",
+      "publications": "",
+      "purpose": "Historical networks, accounts, institutional performance and aviation capability",
+      "priority": "P1",
+      "id": "RSR-051",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "Gezira Scheme",
+      "type": "Public institution / infrastructure archive",
+      "region": "Sudan",
+      "official_website": "",
+      "publications": "",
+      "purpose": "Original plans, irrigation, agricultural administration, maintenance and later evaluations",
+      "priority": "P1",
+      "id": "RSR-052",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "Electricity authorities",
+      "type": "Public institution / infrastructure archive",
+      "region": "Sudan",
+      "official_website": "",
+      "publications": "",
+      "purpose": "Generation, transmission, reliability, demand and operational costs",
+      "priority": "P1",
+      "id": "RSR-053",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "Port authorities",
+      "type": "Public institution / infrastructure archive",
+      "region": "Sudan",
+      "official_website": "",
+      "publications": "",
+      "purpose": "Port throughput, logistics, investment, maintenance and public-corporation performance",
+      "priority": "P1",
+      "id": "RSR-054",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "Irrigation authorities",
+      "type": "Public institution / infrastructure archive",
+      "region": "Sudan",
+      "official_website": "",
+      "publications": "",
+      "purpose": "Operating records, water allocation, drainage and infrastructure maintenance",
+      "priority": "P1",
+      "id": "RSR-055",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "Industrial corporations, agricultural boards and old development corporations",
+      "type": "Public institution / infrastructure archive",
+      "region": "Sudan",
+      "official_website": "",
+      "publications": "",
+      "purpose": "Feasibility studies, annual reports, implementation outcomes and abandoned projects",
+      "priority": "P1",
+      "id": "RSR-056",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "Professional associations: engineers, doctors, lawyers and agricultural organizations",
+      "type": "Civil society / professional / scholarly discovery stream",
+      "region": "Sudan",
+      "official_website": "",
+      "publications": "",
+      "purpose": "Practice-based evidence, skills shortages, standards and service constraints",
+      "priority": "P1",
+      "id": "RSR-057",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "Trade unions",
+      "type": "Civil society / professional / scholarly discovery stream",
+      "region": "Sudan",
+      "official_website": "",
+      "publications": "",
+      "purpose": "Employment conditions, wages, workplace institutions and worker evidence",
+      "priority": "P1",
+      "id": "RSR-058",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "Producer cooperatives",
+      "type": "Civil society / professional / scholarly discovery stream",
+      "region": "Sudan",
+      "official_website": "",
+      "publications": "",
+      "purpose": "Ownership, production, finance, collective services and local enterprise",
+      "priority": "P1",
+      "id": "RSR-059",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "Farmer and pastoralist associations",
+      "type": "Civil society / professional / scholarly discovery stream",
+      "region": "Sudan",
+      "official_website": "",
+      "publications": "",
+      "purpose": "Land use, seasonal mobility, water, markets and lived implementation constraints",
+      "priority": "P1",
+      "id": "RSR-060",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "Women's organizations",
+      "type": "Civil society / professional / scholarly discovery stream",
+      "region": "Sudan",
+      "official_website": "",
+      "publications": "",
+      "purpose": "Employment, business ownership, land/finance access, safety and participation",
+      "priority": "P1",
+      "id": "RSR-061",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "Sudanese Researchers Foundation and credible scholarly networks",
+      "type": "Civil society / professional / scholarly discovery stream",
+      "region": "Sudan",
+      "official_website": "",
+      "publications": "",
+      "purpose": "Discover Sudanese research; verify each network, researcher and underlying publication",
+      "priority": "P1",
+      "id": "RSR-062",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "Sudanese diaspora scholarship",
+      "type": "Civil society / professional / scholarly discovery stream",
+      "region": "Sudan",
+      "official_website": "",
+      "publications": "",
+      "purpose": "Technical skills, research partnerships, mentoring and credible diaspora investment mechanisms",
+      "priority": "P1",
+      "id": "RSR-063",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "Independent Sudanese economic/research centres",
+      "type": "Civil society / professional / scholarly discovery stream",
+      "region": "Sudan",
+      "official_website": "",
+      "publications": "",
+      "purpose": "Alternative analysis; examine methods, funding, data provenance and conflicts",
+      "priority": "P1",
+      "id": "RSR-064",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "Emergency Response Rooms",
+      "type": "Civil society / professional / scholarly discovery stream",
+      "region": "Sudan",
+      "official_website": "",
+      "publications": "",
+      "purpose": "Community-led humanitarian delivery and local evidence; protect identities and operational safety",
+      "priority": "P1",
+      "id": "RSR-065",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "Humanitarian community organizations",
+      "type": "Civil society / professional / scholarly discovery stream",
+      "region": "Sudan",
+      "official_website": "",
+      "publications": "",
+      "purpose": "Local coverage, assistance delivery, accountability and independently corroborated needs",
+      "priority": "P1",
+      "id": "RSR-066",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "Sudanese journals and historical newspapers",
+      "type": "Civil society / professional / scholarly discovery stream",
+      "region": "Sudan",
+      "official_website": "",
+      "publications": "",
+      "purpose": "Contemporary records, debates, cultural history and primary-source context",
+      "priority": "P1",
+      "id": "RSR-067",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "UNESCO",
+      "type": "Multilateral research / data",
+      "region": "Global / Sudan-focused use",
+      "official_website": "https://www.unesco.org/",
+      "publications": "https://www.unesco.org/en/fieldoffice/khartoum",
+      "purpose": "Education, science, universities, technology, heritage, culture, media and climate education",
+      "priority": "P1",
+      "id": "RSR-068",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "FAO",
+      "type": "Multilateral research / data",
+      "region": "Global / Sudan-focused use",
+      "official_website": "https://www.fao.org/",
+      "publications": "https://www.fao.org/faolex/",
+      "purpose": "Agriculture, livestock, fisheries, food security, land, water, remote sensing and affordable technology",
+      "priority": "P1",
+      "id": "RSR-069",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "UNIDO",
+      "type": "Multilateral research / data",
+      "region": "Global / Sudan-focused use",
+      "official_website": "https://www.unido.org/",
+      "publications": "",
+      "purpose": "Manufacturing, industrial policy, SMEs, value chains and industrial technology",
+      "priority": "P1",
+      "id": "RSR-070",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "ILO",
+      "type": "Multilateral research / data",
+      "region": "Global / Sudan-focused use",
+      "official_website": "https://www.ilo.org/",
+      "publications": "",
+      "purpose": "Employment, youth, women, vocational skills, cooperatives and informal work",
+      "priority": "P1",
+      "id": "RSR-071",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "UN Economic Commission for Africa (UNECA)",
+      "type": "Multilateral research / data",
+      "region": "Global / Sudan-focused use",
+      "official_website": "https://www.uneca.org/",
+      "publications": "https://repository.uneca.org/",
+      "purpose": "African development, industrialization, trade, digitalization and infrastructure",
+      "priority": "P1",
+      "id": "RSR-072",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "UN-Habitat",
+      "type": "Multilateral research / data",
+      "region": "Global / Sudan-focused use",
+      "official_website": "https://unhabitat.org/",
+      "publications": "",
+      "purpose": "Cities, housing, urban transport, planning and land",
+      "priority": "P1",
+      "id": "RSR-073",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "UNEP",
+      "type": "Multilateral research / data",
+      "region": "Global / Sudan-focused use",
+      "official_website": "https://www.unep.org/",
+      "publications": "",
+      "purpose": "Environment, climate, water, natural resources and post-conflict assessments",
+      "priority": "P1",
+      "id": "RSR-074",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "IAEA",
+      "type": "Multilateral research / data",
+      "region": "Global / Sudan-focused use",
+      "official_website": "https://www.iaea.org/",
+      "publications": "https://www.iaea.org/publications",
+      "purpose": "Uranium, nuclear/radiation evidence, medicine, agriculture and isotope technology",
+      "priority": "P1",
+      "id": "RSR-075",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "UNDP",
+      "type": "Multilateral research / data",
+      "region": "Global / Sudan-focused use",
+      "official_website": "https://www.undp.org/",
+      "publications": "https://www.undp.org/sudan",
+      "purpose": "Governance, markets, livelihoods, development and digital government",
+      "priority": "P1",
+      "id": "RSR-076",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "UNICEF",
+      "type": "Multilateral research / data",
+      "region": "Global / Sudan-focused use",
+      "official_website": "https://www.unicef.org/",
+      "publications": "https://www.unicef.org/sudan/",
+      "purpose": "Children, education, nutrition, water and social protection",
+      "priority": "P1",
+      "id": "RSR-077",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "WHO",
+      "type": "Multilateral research / data",
+      "region": "Global / Sudan-focused use",
+      "official_website": "https://www.who.int/",
+      "publications": "https://www.emro.who.int/countries/sdn/",
+      "purpose": "Health systems, disease prevention and public-health evidence",
+      "priority": "P1",
+      "id": "RSR-078",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "WFP",
+      "type": "Multilateral research / data",
+      "region": "Global / Sudan-focused use",
+      "official_website": "https://www.wfp.org/",
+      "publications": "https://www.wfp.org/countries/sudan",
+      "purpose": "Food security, markets, logistics and assistance operations",
+      "priority": "P1",
+      "id": "RSR-079",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "ITU",
+      "type": "Multilateral research / data",
+      "region": "Global / Sudan-focused use",
+      "official_website": "https://www.itu.int/",
+      "publications": "",
+      "purpose": "Telecommunications, connectivity, access and affordability",
+      "priority": "P1",
+      "id": "RSR-080",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "WIPO",
+      "type": "Multilateral research / data",
+      "region": "Global / Sudan-focused use",
+      "official_website": "https://www.wipo.int/",
+      "publications": "",
+      "purpose": "Innovation, intellectual property, patents and technology diffusion",
+      "priority": "P1",
+      "id": "RSR-081",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "UNCTAD",
+      "type": "Multilateral research / data",
+      "region": "Global / Sudan-focused use",
+      "official_website": "https://unctad.org/",
+      "publications": "",
+      "purpose": "Trade, investment, commodities and development",
+      "priority": "P1",
+      "id": "RSR-082",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "UN Sudan publications",
+      "type": "Multilateral research / data",
+      "region": "Global / Sudan-focused use",
+      "official_website": "https://sudan.un.org/",
+      "publications": "https://sudan.un.org/en/resources/publications",
+      "purpose": "Cross-agency Sudan reports and access to original institutional publications",
+      "priority": "P1",
+      "id": "RSR-083",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "World Bank",
+      "type": "Development finance / economic research",
+      "region": "Global / Africa / Arab region",
+      "official_website": "https://www.worldbank.org/",
+      "publications": "https://documents.worldbank.org/",
+      "purpose": "Documents and Reports, project appraisals, datasets, evaluations and infrastructure research",
+      "priority": "P2",
+      "id": "RSR-084",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "International Monetary Fund (IMF)",
+      "type": "Development finance / economic research",
+      "region": "Global / Africa / Arab region",
+      "official_website": "https://www.imf.org/",
+      "publications": "https://www.imf.org/en/Countries/SDN",
+      "purpose": "Macroeconomic data, country reports, monetary analysis and historical programmes",
+      "priority": "P2",
+      "id": "RSR-085",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "African Development Bank (AfDB)",
+      "type": "Development finance / economic research",
+      "region": "Global / Africa / Arab region",
+      "official_website": "https://www.afdb.org/",
+      "publications": "",
+      "purpose": "African infrastructure, industrialization, finance and project evaluation",
+      "priority": "P2",
+      "id": "RSR-086",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "Islamic Development Bank (IsDB)",
+      "type": "Development finance / economic research",
+      "region": "Global / Africa / Arab region",
+      "official_website": "https://www.isdb.org/",
+      "publications": "",
+      "purpose": "Development financing, sector projects and implementation evidence",
+      "priority": "P2",
+      "id": "RSR-087",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "Arab Fund for Economic and Social Development",
+      "type": "Development finance / economic research",
+      "region": "Global / Africa / Arab region",
+      "official_website": "https://www.arabfund.org/",
+      "publications": "",
+      "purpose": "Infrastructure, financing, project appraisals and evaluation",
+      "priority": "P2",
+      "id": "RSR-088",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "Arab Monetary Fund",
+      "type": "Development finance / economic research",
+      "region": "Global / Africa / Arab region",
+      "official_website": "https://www.amf.org.ae/",
+      "publications": "",
+      "purpose": "Arab monetary, fiscal, financial-inclusion and economic data",
+      "priority": "P2",
+      "id": "RSR-089",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "OPEC Fund",
+      "type": "Development finance / economic research",
+      "region": "Global / Africa / Arab region",
+      "official_website": "https://opecfund.org/",
+      "publications": "",
+      "purpose": "Development projects, financing and completion evidence",
+      "priority": "P2",
+      "id": "RSR-090",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "International Fund for Agricultural Development (IFAD)",
+      "type": "Development finance / economic research",
+      "region": "Global / Africa / Arab region",
+      "official_website": "https://www.ifad.org/",
+      "publications": "",
+      "purpose": "Smallholders, rural finance, agricultural development and evaluations",
+      "priority": "P2",
+      "id": "RSR-091",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "African Export-Import Bank (Afreximbank)",
+      "type": "Development finance / economic research",
+      "region": "Global / Africa / Arab region",
+      "official_website": "https://www.afreximbank.com/",
+      "publications": "",
+      "purpose": "Trade finance, industrial exports and African value chains",
+      "priority": "P2",
+      "id": "RSR-092",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "Other African development institutions and regional development banks",
+      "type": "Development finance / economic research",
+      "region": "Global / Africa / Arab region",
+      "official_website": "",
+      "publications": "",
+      "purpose": "Identify relevant regional lenders and original appraisals; do not assume a specific institution from this umbrella",
+      "priority": "P2",
+      "id": "RSR-093",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "African Union",
+      "type": "Regional intergovernmental / research",
+      "region": "Africa / Arab region",
+      "official_website": "https://au.int/",
+      "publications": "",
+      "purpose": "Regional development, institutions, integration and policy commitments",
+      "priority": "P2",
+      "id": "RSR-094",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "African Continental Free Trade Area institutions",
+      "type": "Regional intergovernmental / research",
+      "region": "Africa / Arab region",
+      "official_website": "https://au-afcfta.org/",
+      "publications": "",
+      "purpose": "Trade rules, implementation, market access and regional value chains",
+      "priority": "P2",
+      "id": "RSR-095",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "Nile Basin Initiative",
+      "type": "Regional intergovernmental / research",
+      "region": "Africa / Arab region",
+      "official_website": "https://nilebasin.org/",
+      "publications": "",
+      "purpose": "Water, hydrology, basin planning and competing demands",
+      "priority": "P2",
+      "id": "RSR-096",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "IGAD",
+      "type": "Regional intergovernmental / research",
+      "region": "Africa / Arab region",
+      "official_website": "https://igad.int/",
+      "publications": "",
+      "purpose": "Regional livelihoods, climate, pastoralism and integration",
+      "priority": "P2",
+      "id": "RSR-097",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "COMESA",
+      "type": "Regional intergovernmental / research",
+      "region": "Africa / Arab region",
+      "official_website": "https://www.comesa.int/",
+      "publications": "",
+      "purpose": "Trade, regional markets, transport and industrial cooperation",
+      "priority": "P2",
+      "id": "RSR-098",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "Arab League institutions",
+      "type": "Regional intergovernmental / research",
+      "region": "Africa / Arab region",
+      "official_website": "https://www.lasportal.org/",
+      "publications": "",
+      "purpose": "Locate relevant Arab sector institutions and original policy documents",
+      "priority": "P2",
+      "id": "RSR-099",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "Arab Organization for Agricultural Development (AOAD)",
+      "type": "Regional intergovernmental / research",
+      "region": "Africa / Arab region",
+      "official_website": "https://www.aoad.org/",
+      "publications": "",
+      "purpose": "Arab agricultural research, food systems and Sudan-relevant agricultural data",
+      "priority": "P2",
+      "id": "RSR-100",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "Arab Authority for Agricultural Investment and Development (AAAID)",
+      "type": "Regional intergovernmental / research",
+      "region": "Africa / Arab region",
+      "official_website": "https://www.aaaid.org/",
+      "publications": "",
+      "purpose": "Agricultural investment, value chains and project performance",
+      "priority": "P2",
+      "id": "RSR-101",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "Arab development funds and regional research organizations",
+      "type": "Regional intergovernmental / research",
+      "region": "Africa / Arab region",
+      "official_website": "",
+      "publications": "",
+      "purpose": "Discover additional relevant funds and research bodies; verify institutional identity and mandate",
+      "priority": "P2",
+      "id": "RSR-102",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "Office of Science and Technology Policy (OSTP)",
+      "type": "Science / technology strategy",
+      "region": "United States",
+      "official_website": "https://www.whitehouse.gov/ostp/",
+      "publications": "",
+      "purpose": "Emerging-technology strategies and research-to-policy priorities",
+      "priority": "P2",
+      "id": "RSR-103",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "National Science and Technology Council (NSTC)",
+      "type": "Science / technology strategy",
+      "region": "United States",
+      "official_website": "https://www.whitehouse.gov/ostp/",
+      "publications": "",
+      "purpose": "Cross-government science/technology strategies; retrieve exact council documents",
+      "priority": "P2",
+      "id": "RSR-104",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "National Science Foundation (NSF)",
+      "type": "Science / technology strategy",
+      "region": "United States",
+      "official_website": "https://www.nsf.gov/",
+      "publications": "",
+      "purpose": "Research programmes, engineering, workforce and emerging technology",
+      "priority": "P2",
+      "id": "RSR-105",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "Department of Energy and national laboratories",
+      "type": "Science / technology strategy",
+      "region": "United States",
+      "official_website": "https://www.energy.gov/",
+      "publications": "https://www.energy.gov/national-laboratories",
+      "purpose": "Energy, materials, storage, manufacturing and applied laboratory research",
+      "priority": "P2",
+      "id": "RSR-106",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "DARPA",
+      "type": "Science / technology strategy",
+      "region": "United States",
+      "official_website": "https://www.darpa.mil/",
+      "publications": "",
+      "purpose": "Technology trajectories; distinguish military research and prototypes from affordable civilian adoption",
+      "priority": "P2",
+      "id": "RSR-107",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "ARPA-E",
+      "type": "Science / technology strategy",
+      "region": "United States",
+      "official_website": "https://arpa-e.energy.gov/",
+      "publications": "",
+      "purpose": "Emerging energy technology and evidence on cost/performance",
+      "priority": "P2",
+      "id": "RSR-108",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "National Institutes of Health (NIH)",
+      "type": "Science / technology strategy",
+      "region": "United States",
+      "official_website": "https://www.nih.gov/",
+      "publications": "",
+      "purpose": "Health research, diagnostics, biotechnology and low-cost intervention evidence",
+      "priority": "P2",
+      "id": "RSR-109",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "National Institute of Standards and Technology (NIST)",
+      "type": "Science / technology strategy",
+      "region": "United States",
+      "official_website": "https://www.nist.gov/",
+      "publications": "",
+      "purpose": "Standards, testing, metrology, manufacturing and interoperability",
+      "priority": "P2",
+      "id": "RSR-110",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "NASA",
+      "type": "Science / technology strategy",
+      "region": "United States",
+      "official_website": "https://www.nasa.gov/",
+      "publications": "",
+      "purpose": "Earth observation, satellite data, climate and practical remote sensing",
+      "priority": "P2",
+      "id": "RSR-111",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "Ministry of Industry and Information Technology (MIIT)",
+      "type": "Science / industrial strategy",
+      "region": "China",
+      "official_website": "https://www.miit.gov.cn/",
+      "publications": "",
+      "purpose": "Future-industry plans, manufacturing, digital infrastructure and application pilots",
+      "priority": "P2",
+      "id": "RSR-112",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "Ministry of Science and Technology (MOST)",
+      "type": "Science / industrial strategy",
+      "region": "China",
+      "official_website": "https://www.most.gov.cn/",
+      "publications": "",
+      "purpose": "Research priorities, innovation policy and technology programmes",
+      "priority": "P2",
+      "id": "RSR-113",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "Chinese Academy of Sciences (CAS)",
+      "type": "Science / industrial strategy",
+      "region": "China",
+      "official_website": "https://english.cas.cn/",
+      "publications": "",
+      "purpose": "Applied science, energy, materials and research-to-product pathways",
+      "priority": "P2",
+      "id": "RSR-114",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "National future-industry plans",
+      "type": "Science / industrial strategy",
+      "region": "China",
+      "official_website": "https://english.www.gov.cn/",
+      "publications": "",
+      "purpose": "Retrieve original plans for future manufacturing, information, materials, energy, space and health",
+      "priority": "P2",
+      "id": "RSR-115",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "Digital India",
+      "type": "Science / digital public infrastructure",
+      "region": "India",
+      "official_website": "https://www.digitalindia.gov.in/",
+      "publications": "",
+      "purpose": "Public digital services, interoperability, inclusion and implementation costs",
+      "priority": "P2",
+      "id": "RSR-116",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "NPCI / Unified Payments Interface (UPI)",
+      "type": "Science / digital public infrastructure",
+      "region": "India",
+      "official_website": "https://www.npci.org.in/",
+      "publications": "",
+      "purpose": "Payments, low-cost access, interoperability and adoption evidence",
+      "priority": "P2",
+      "id": "RSR-117",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "Indian Space Research Organisation (ISRO)",
+      "type": "Science / digital public infrastructure",
+      "region": "India",
+      "official_website": "https://www.isro.gov.in/",
+      "publications": "",
+      "purpose": "Earth observation, agricultural mapping and accessible satellite applications",
+      "priority": "P2",
+      "id": "RSR-118",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "Indian agricultural technology programmes",
+      "type": "Science / digital public infrastructure",
+      "region": "India",
+      "official_website": "https://icar.org.in/",
+      "publications": "",
+      "purpose": "Agricultural innovations and extension; ICAR is a discovery entry point",
+      "priority": "P2",
+      "id": "RSR-119",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "Aadhaar / digital public infrastructure research",
+      "type": "Science / digital public infrastructure",
+      "region": "India",
+      "official_website": "https://uidai.gov.in/",
+      "publications": "",
+      "purpose": "Identity systems, access, exclusion, privacy, security and institutional prerequisites",
+      "priority": "P2",
+      "id": "RSR-120",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "Horizon Europe",
+      "type": "Science / innovation / applied technology",
+      "region": "EU / Japan / South Korea / Brazil",
+      "official_website": "https://research-and-innovation.ec.europa.eu/funding/funding-opportunities/funding-programmes-and-open-calls/horizon-europe_en",
+      "publications": "",
+      "purpose": "Research results and technologies relevant to low-resource adoption",
+      "priority": "P2",
+      "id": "RSR-121",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "European Commission Joint Research Centre (JRC)",
+      "type": "Science / innovation / applied technology",
+      "region": "EU / Japan / South Korea / Brazil",
+      "official_website": "https://joint-research-centre.ec.europa.eu/",
+      "publications": "",
+      "purpose": "Applied science, foresight, energy, agriculture and policy evaluation",
+      "priority": "P2",
+      "id": "RSR-122",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "European Innovation Council (EIC)",
+      "type": "Science / innovation / applied technology",
+      "region": "EU / Japan / South Korea / Brazil",
+      "official_website": "https://eic.ec.europa.eu/",
+      "publications": "",
+      "purpose": "Technology commercialization and cost/maturity signals",
+      "priority": "P2",
+      "id": "RSR-123",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "Japan Ministry of Economy, Trade and Industry (METI)",
+      "type": "Science / innovation / applied technology",
+      "region": "EU / Japan / South Korea / Brazil",
+      "official_website": "https://www.meti.go.jp/english/",
+      "publications": "",
+      "purpose": "Industrial strategy, manufacturing, energy and commercialization",
+      "priority": "P2",
+      "id": "RSR-124",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "Japan Science and Technology Agency (JST)",
+      "type": "Science / innovation / applied technology",
+      "region": "EU / Japan / South Korea / Brazil",
+      "official_website": "https://www.jst.go.jp/EN/",
+      "publications": "",
+      "purpose": "Applied research, innovation and research-to-product programmes",
+      "priority": "P2",
+      "id": "RSR-125",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "New Energy and Industrial Technology Development Organization (NEDO)",
+      "type": "Science / innovation / applied technology",
+      "region": "EU / Japan / South Korea / Brazil",
+      "official_website": "https://www.nedo.go.jp/english/",
+      "publications": "",
+      "purpose": "Energy, storage, industrial efficiency and technology demonstration",
+      "priority": "P2",
+      "id": "RSR-126",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "South Korean science/industry ministries and research institutes",
+      "type": "Science / innovation / applied technology",
+      "region": "EU / Japan / South Korea / Brazil",
+      "official_website": "https://english.msit.go.kr/eng/",
+      "publications": "",
+      "purpose": "Locate original strategies and institute results; evaluate transferability rather than copying national priorities",
+      "priority": "P2",
+      "id": "RSR-127",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "EMBRAPA",
+      "type": "Science / innovation / applied technology",
+      "region": "EU / Japan / South Korea / Brazil",
+      "official_website": "https://www.embrapa.br/en/international",
+      "publications": "",
+      "purpose": "Tropical/dryland agriculture, research-extension systems and practical agricultural technology",
+      "priority": "P2",
+      "id": "RSR-128",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "Brazilian energy, biofuels and digital-payment research",
+      "type": "Science / innovation / applied technology",
+      "region": "EU / Japan / South Korea / Brazil",
+      "official_website": "",
+      "publications": "",
+      "purpose": "Discover original technical/economic evaluations and payment-system evidence",
+      "priority": "P2",
+      "id": "RSR-129",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "Kandaka Library",
+      "type": "Library / archive / collection",
+      "region": "Sudan / international",
+      "official_website": "https://kandaka.com/library/",
+      "publications": "data/library.json",
+      "purpose": "Start with the existing catalogue; identify exact works, provenance and duplicates",
+      "priority": "P2",
+      "id": "RSR-130",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "Owner's Calibre catalogue",
+      "type": "Library / archive / collection",
+      "region": "Sudan / international",
+      "official_website": "",
+      "publications": "D:/New Caliber Library",
+      "purpose": "Search existing holdings and exact editions before acquisition; local access only",
+      "priority": "P2",
+      "id": "RSR-131",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "Sudanese university libraries and University of Khartoum collections",
+      "type": "Library / archive / collection",
+      "region": "Sudan / international",
+      "official_website": "",
+      "publications": "",
+      "purpose": "Historical reports, dissertations, journals and regional scholarship",
+      "priority": "P2",
+      "id": "RSR-132",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "Sudan National Records Office / national archives",
+      "type": "Library / archive / collection",
+      "region": "Sudan / international",
+      "official_website": "",
+      "publications": "",
+      "purpose": "Original historical state records; verify access and reproduction conditions",
+      "priority": "P2",
+      "id": "RSR-133",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "Sudan Archaeological Research Society (SARS)",
+      "type": "Library / archive / collection",
+      "region": "Sudan / international",
+      "official_website": "https://www.sudarchrs.org.uk/",
+      "publications": "",
+      "purpose": "Archaeology, fieldwork publications and Sudanese heritage research",
+      "priority": "P2",
+      "id": "RSR-134",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "British Library",
+      "type": "Library / archive / collection",
+      "region": "Sudan / international",
+      "official_website": "https://www.bl.uk/",
+      "publications": "",
+      "purpose": "Books, newspapers, historical maps, photographs and archival discovery",
+      "priority": "P2",
+      "id": "RSR-135",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "UK National Archives",
+      "type": "Library / archive / collection",
+      "region": "Sudan / international",
+      "official_website": "https://www.nationalarchives.gov.uk/",
+      "publications": "https://discovery.nationalarchives.gov.uk/",
+      "purpose": "Colonial records, plans, administrative reports and historical project evidence",
+      "priority": "P2",
+      "id": "RSR-136",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "Durham Sudan Archive",
+      "type": "Library / archive / collection",
+      "region": "Sudan / international",
+      "official_website": "https://www.dur.ac.uk/",
+      "publications": "https://www.dur.ac.uk/library/asc/sudan/",
+      "purpose": "Sudan archival collections, photographs and historical records; locator may redirect",
+      "priority": "P2",
+      "id": "RSR-137",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "SOAS collections",
+      "type": "Library / archive / collection",
+      "region": "Sudan / international",
+      "official_website": "https://www.soas.ac.uk/",
+      "publications": "https://www.soas.ac.uk/research/library",
+      "purpose": "Sudan/Africa scholarship, special collections and archival material",
+      "priority": "P2",
+      "id": "RSR-138",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "Library of Congress",
+      "type": "Library / archive / collection",
+      "region": "Sudan / international",
+      "official_website": "https://www.loc.gov/",
+      "publications": "",
+      "purpose": "Historical books, maps, photographs and digitized collections",
+      "priority": "P2",
+      "id": "RSR-139",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "Internet Archive",
+      "type": "Library / archive / collection",
+      "region": "Sudan / international",
+      "official_website": "https://archive.org/",
+      "publications": "",
+      "purpose": "Historical scans; verify edition, page completeness, rights and source identity",
+      "priority": "P2",
+      "id": "RSR-140",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "HathiTrust",
+      "type": "Library / archive / collection",
+      "region": "Sudan / international",
+      "official_website": "https://www.hathitrust.org/",
+      "publications": "",
+      "purpose": "Historical editions and library digitization; access restrictions vary",
+      "priority": "P2",
+      "id": "RSR-141",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "JSTOR",
+      "type": "Library / archive / collection",
+      "region": "Sudan / international",
+      "official_website": "https://www.jstor.org/",
+      "publications": "",
+      "purpose": "Academic articles and historical scholarship; paywall/access is not reuse permission",
+      "priority": "P2",
+      "id": "RSR-142",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "Google Books",
+      "type": "Library / archive / collection",
+      "region": "Sudan / international",
+      "official_website": "https://books.google.com/",
+      "publications": "",
+      "purpose": "Edition discovery and limited previews; snippets are not full-document evidence",
+      "priority": "P2",
+      "id": "RSR-143",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "Gallica / Bibliothèque nationale de France (BnF)",
+      "type": "Library / archive / collection",
+      "region": "Sudan / international",
+      "official_website": "https://gallica.bnf.fr/",
+      "publications": "",
+      "purpose": "Historical books, maps, periodicals and photographic collections",
+      "priority": "P2",
+      "id": "RSR-144",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "Historical maps and photographic collections",
+      "type": "Library / archive / collection",
+      "region": "Sudan / international",
+      "official_website": "",
+      "publications": "",
+      "purpose": "Locate named holding institutions, creators, dates, provenance and exact reuse terms",
+      "priority": "P2",
+      "id": "RSR-145",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "UNESCO digital collections",
+      "type": "Library / archive / collection",
+      "region": "Sudan / international",
+      "official_website": "https://unesdoc.unesco.org/",
+      "publications": "",
+      "purpose": "Original education, science, culture and heritage publications",
+      "priority": "P2",
+      "id": "RSR-146",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "Railway archives, agricultural experiment-station reports and historical Sudan government reports",
+      "type": "Library / archive / collection",
+      "region": "Sudan / international",
+      "official_website": "",
+      "publications": "",
+      "purpose": "Recover original plans, feasibility studies and ex-post evaluations; pair proposals with outcomes",
+      "priority": "P2",
+      "id": "RSR-147",
+      "origin": "Source conversation and/or existing master source stream"
+    },
+    {
+      "institution": "Sudanese Red Crescent Society",
+      "type": "NGO / independent policy research candidate",
+      "region": "Sudan / international",
+      "official_website": "https://srcs.sd/",
+      "publications": "",
+      "purpose": "Locally grounded humanitarian operations; verify coverage, accounts and current organizational identity",
+      "priority": "P2",
+      "id": "RSR-148",
+      "origin": "Supplemental discovery candidate added during sync"
+    },
+    {
+      "institution": "International Committee of the Red Cross (ICRC)",
+      "type": "NGO / independent policy research candidate",
+      "region": "Sudan / international",
+      "official_website": "https://www.icrc.org/",
+      "publications": "",
+      "purpose": "Conflict-related humanitarian evidence and operational reporting; no automatic donation endorsement",
+      "priority": "P2",
+      "id": "RSR-149",
+      "origin": "Supplemental discovery candidate added during sync"
+    },
+    {
+      "institution": "Médecins Sans Frontières (MSF)",
+      "type": "NGO / independent policy research candidate",
+      "region": "Sudan / international",
+      "official_website": "https://www.msf.org/",
+      "publications": "",
+      "purpose": "Medical operations, access constraints and health-service evidence",
+      "priority": "P2",
+      "id": "RSR-150",
+      "origin": "Supplemental discovery candidate added during sync"
+    },
+    {
+      "institution": "Norwegian Refugee Council (NRC)",
+      "type": "NGO / independent policy research candidate",
+      "region": "Sudan / international",
+      "official_website": "https://www.nrc.no/",
+      "publications": "",
+      "purpose": "Displacement, shelter, education and humanitarian-access research",
+      "priority": "P2",
+      "id": "RSR-151",
+      "origin": "Supplemental discovery candidate added during sync"
+    },
+    {
+      "institution": "Economic Research Forum (ERF)",
+      "type": "NGO / independent policy research candidate",
+      "region": "Sudan / international",
+      "official_website": "https://erf.org.eg/",
+      "publications": "",
+      "purpose": "Regional economic research, labour markets and underlying empirical papers",
+      "priority": "P2",
+      "id": "RSR-152",
+      "origin": "Supplemental discovery candidate added during sync"
+    },
+    {
+      "institution": "ODI Global",
+      "type": "NGO / independent policy research candidate",
+      "region": "Sudan / international",
+      "official_website": "https://odi.org/",
+      "publications": "",
+      "purpose": "Development policy and humanitarian research; examine funders and assumptions",
+      "priority": "P2",
+      "id": "RSR-153",
+      "origin": "Supplemental discovery candidate added during sync"
+    },
+    {
+      "institution": "Chr. Michelsen Institute (CMI)",
+      "type": "NGO / independent policy research candidate",
+      "region": "Sudan / international",
+      "official_website": "https://www.cmi.no/",
+      "publications": "",
+      "purpose": "Sudan-related governance, political economy and research methods",
+      "priority": "P2",
+      "id": "RSR-154",
+      "origin": "Supplemental discovery candidate added during sync"
+    },
+    {
+      "institution": "Rift Valley Institute",
+      "type": "NGO / independent policy research candidate",
+      "region": "Sudan / international",
+      "official_website": "https://riftvalley.net/",
+      "publications": "",
+      "purpose": "Locally grounded regional history, political economy and Sudan research",
+      "priority": "P2",
+      "id": "RSR-155",
+      "origin": "Supplemental discovery candidate added during sync"
+    }
+  ],
+  "links": {
+    "https://arc-library.gov.sd/": {
+      "status": "unresolved",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1081)>",
+      "checked": "2026-10-25",
+      "scope": "Access failure in this environment; not proof that source is unavailable"
+    },
+    "https://arc-library.gov.sd/about-arc/": {
+      "status": "unresolved",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1081)>",
+      "checked": "2026-10-25",
+      "scope": "Access failure in this environment; not proof that source is unavailable"
+    },
+    "https://arc.gov.sd/": {
+      "status": 200,
+      "final_url": "https://arc.gov.sd/",
+      "title": "هيئة البحوث الزراعية &#8211; السودان &#8211; هيئة البحوث الزراعية &#8211; السودان",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://arc.gov.sd/overview/": {
+      "status": 200,
+      "final_url": "https://arc.gov.sd/en/overview/",
+      "title": "overview | Agricultural Research Corporation - Sudan",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://archive.org/": {
+      "status": 200,
+      "final_url": "https://archive.org/",
+      "title": "Internet Archive: Digital Library of Free &amp; Borrowable Texts, Movies, Music &amp; Wayback Machine",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://arpa-e.energy.gov/": {
+      "status": 200,
+      "final_url": "https://arpa-e.energy.gov/",
+      "title": "Homepage | ARPA-E",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://au-afcfta.org/": {
+      "status": 200,
+      "final_url": "https://au-afcfta.org/",
+      "title": "Home - AfCFTA",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://au.int/": {
+      "status": 200,
+      "final_url": "https://au.int/en",
+      "title": "Home | African Union",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://books.google.com/": {
+      "status": 200,
+      "final_url": "https://books.google.com/",
+      "title": "Google Books: Find, Preview, and Read Books Online.",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://cbos.gov.sd/en": {
+      "status": 200,
+      "final_url": "https://cbos.gov.sd/en",
+      "title": "CBOS",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://cbos.gov.sd/en/content/important-sites": {
+      "status": 200,
+      "final_url": "https://cbos.gov.sd/en/content/important-sites",
+      "title": "Important Sites | CBOS",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://cbs.gov.sd/": {
+      "status": "unresolved",
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "checked": "2026-10-25",
+      "scope": "Access failure in this environment; not proof that source is unavailable"
+    },
+    "https://discovery.nationalarchives.gov.uk/": {
+      "status": 200,
+      "final_url": "https://discovery.nationalarchives.gov.uk/",
+      "title": "Discovery | The National Archives",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://documents.worldbank.org/": {
+      "status": 200,
+      "final_url": "https://documents.worldbank.org/en/publication/documents-reports",
+      "title": "Documents &amp; Reports - All Documents | The World Bank",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://eic.ec.europa.eu/": {
+      "status": 200,
+      "final_url": "https://eic.ec.europa.eu/select-language?destination=/node/1",
+      "title": "Language selection | European Innovation Council",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://english.cas.cn/": {
+      "status": "unresolved",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1081)>",
+      "checked": "2026-10-25",
+      "scope": "Access failure in this environment; not proof that source is unavailable"
+    },
+    "https://english.www.gov.cn/": {
+      "status": 200,
+      "final_url": "https://english.www.gov.cn/",
+      "title": "The State Council of the People's Republic of China",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://erf.org.eg/": {
+      "status": 200,
+      "final_url": "https://erf.org.eg/",
+      "title": "",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://gallica.bnf.fr/": {
+      "status": "unresolved",
+      "error": "HTTP Error 403: Forbidden",
+      "checked": "2026-10-25",
+      "scope": "Access failure in this environment; not proof that source is unavailable"
+    },
+    "https://gras.gov.sd/": {
+      "status": 200,
+      "final_url": "https://gras.gov.sd/",
+      "title": "الهيئة العامة للابحاث الجيلوجية",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://icar.org.in/": {
+      "status": 200,
+      "final_url": "https://icar.org.in/",
+      "title": "Home | Indian Council of Agricultural Research Krishi Bhavan",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://igad.int/": {
+      "status": 200,
+      "final_url": "https://igad.int/",
+      "title": "IGAD | IGAD Home | Peace, Prosperity and Regional Integration",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://joint-research-centre.ec.europa.eu/": {
+      "status": 200,
+      "final_url": "https://joint-research-centre.ec.europa.eu/select-language?destination=/node/10050",
+      "title": "Language selection | Joint Research Centre",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://kandaka.com/library/": {
+      "status": 200,
+      "final_url": "https://kandaka.com/library/",
+      "title": "Library | Kandaka",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://khartoumspace.uofk.edu/": {
+      "status": "unresolved",
+      "error": "<urlopen error timed out>",
+      "checked": "2026-10-25",
+      "scope": "Access failure in this environment; not proof that source is unavailable"
+    },
+    "https://mof.gov.sd/": {
+      "status": "unresolved",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1081)>",
+      "checked": "2026-10-25",
+      "scope": "Access failure in this environment; not proof that source is unavailable"
+    },
+    "https://mtdt.gov.sd/": {
+      "status": 200,
+      "final_url": "https://mtdt.gov.sd/",
+      "title": "الرئيسية | mtdt",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://ncr.gov.sd/": {
+      "status": 200,
+      "final_url": "https://ncr.gov.sd/",
+      "title": "المركز القومي للبحوث &#8211; National Center for Research",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://nilebasin.org/": {
+      "status": 200,
+      "final_url": "https://nilebasin.org/",
+      "title": "homepage | Nile Basin Initiative",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://odi.org/": {
+      "status": 200,
+      "final_url": "https://odi.org/en/",
+      "title": "ODI | ODI: Think change",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://opecfund.org/": {
+      "status": 200,
+      "final_url": "https://opecfund.org/",
+      "title": "OPEC Fund for International Development",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://portal.uofg.edu.sd/": {
+      "status": 200,
+      "final_url": "https://portal.uofg.edu.sd/",
+      "title": "جامعة الجزيرة - البوابة الإلكترونية الموحدة",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://repository.sustech.edu/": {
+      "status": "unresolved",
+      "error": "<urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>",
+      "checked": "2026-10-25",
+      "scope": "Access failure in this environment; not proof that source is unavailable"
+    },
+    "https://repository.uneca.org/": {
+      "status": "unresolved",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)>",
+      "checked": "2026-10-25",
+      "scope": "Access failure in this environment; not proof that source is unavailable"
+    },
+    "https://research-and-innovation.ec.europa.eu/funding/funding-opportunities/funding-programmes-and-open-calls/horizon-europe_en": {
+      "status": 200,
+      "final_url": "https://research-and-innovation.ec.europa.eu/funding/funding-opportunities/funding-programmes-and-open-calls/horizon-europe_en",
+      "title": "Horizon Europe - Research and innovation - European Commission",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://riftvalley.net/": {
+      "status": 200,
+      "final_url": "https://riftvalley.net/",
+      "title": "Rift Valley Institute &#8211; Making local knowledge work",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://srcs.sd/": {
+      "status": 200,
+      "final_url": "https://www.srcs.sd/en",
+      "title": "Sudanese Red Crescent | Sudanese Red Crescent",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://sudan.gov.sd/": {
+      "status": 200,
+      "final_url": "https://sudan.gov.sd/",
+      "title": "جمهورية السودان",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://sudan.gov.sd/affiliates/": {
+      "status": 200,
+      "final_url": "https://sudan.gov.sd/affiliates/",
+      "title": "الجهات التابعة لمجلس الوزراء &#8211; جمهورية السودان",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://sudan.un.org/": {
+      "status": 200,
+      "final_url": "https://sudan.un.org/en",
+      "title": "United Nations in Sudan",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://sudan.un.org/en/resources/publications": {
+      "status": 200,
+      "final_url": "https://sudan.un.org/en/resources/publications",
+      "title": "Publications | United Nations in Sudan",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://uidai.gov.in/": {
+      "status": 200,
+      "final_url": "https://uidai.gov.in/en",
+      "title": "Home - Unique Identification Authority of India | Government of India - Unique Identification Authority of India | Government of India",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://unctad.org/": {
+      "status": 200,
+      "final_url": "https://unctad.org/",
+      "title": "Home | UN Trade and Development (UNCTAD)",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://unesdoc.unesco.org/": {
+      "status": 200,
+      "final_url": "https://unesdoc.unesco.org/",
+      "title": "",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://unhabitat.org/": {
+      "status": "unresolved",
+      "error": "HTTP Error 403: Forbidden",
+      "checked": "2026-10-25",
+      "scope": "Access failure in this environment; not proof that source is unavailable"
+    },
+    "https://uofk.edu/": {
+      "status": 200,
+      "final_url": "https://uofk.edu/",
+      "title": "University of Khartoum",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://www.aaaid.org/": {
+      "status": 200,
+      "final_url": "https://www.aaaid.org/",
+      "title": "الصفحة الرئيسية - الهيئة العربية للاستثمار والإنماء الزراعي",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://www.afdb.org/": {
+      "status": "unresolved",
+      "error": "HTTP Error 403: Forbidden",
+      "checked": "2026-10-25",
+      "scope": "Access failure in this environment; not proof that source is unavailable"
+    },
+    "https://www.afreximbank.com/": {
+      "status": "unresolved",
+      "error": "HTTP Error 403: Forbidden",
+      "checked": "2026-10-25",
+      "scope": "Access failure in this environment; not proof that source is unavailable"
+    },
+    "https://www.amf.org.ae/": {
+      "status": 200,
+      "final_url": "https://www.amf.org.ae/",
+      "title": "",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://www.aoad.org/": {
+      "status": 200,
+      "final_url": "https://www.aoad.org/",
+      "title": "",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://www.arabfund.org/": {
+      "status": "unresolved",
+      "error": "HTTP Error 403: Forbidden",
+      "checked": "2026-10-25",
+      "scope": "Access failure in this environment; not proof that source is unavailable"
+    },
+    "https://www.baldna.gov.sd/": {
+      "status": "unresolved",
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "checked": "2026-10-25",
+      "scope": "Access failure in this environment; not proof that source is unavailable"
+    },
+    "https://www.bl.uk/": {
+      "status": 200,
+      "final_url": "https://www.bl.uk/",
+      "title": "",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://www.cmi.no/": {
+      "status": 200,
+      "final_url": "https://www.cmi.no/",
+      "title": "CMI (Chr. Michelsen Institute)",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://www.comesa.int/": {
+      "status": 200,
+      "final_url": "https://www.comesa.int/",
+      "title": "Home - Common Market for Eastern and Southern Africa (COMESA)",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://www.darpa.mil/": {
+      "status": 200,
+      "final_url": "https://www.darpa.mil/",
+      "title": "Home | DARPA",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://www.digitalindia.gov.in/": {
+      "status": 200,
+      "final_url": "https://www.digitalindia.gov.in/",
+      "title": "Digital India: MeitY, Government of India",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://www.dur.ac.uk/": {
+      "status": 200,
+      "final_url": "https://www.dur.ac.uk/",
+      "title": "Durham University",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://www.dur.ac.uk/library/asc/sudan/": {
+      "status": 200,
+      "final_url": "https://libguides.durham.ac.uk/asc-sudan-archive",
+      "title": "Home - Archives and Special Collections: Sudan Archive - Guides at Durham University",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://www.embrapa.br/en/international": {
+      "status": 200,
+      "final_url": "https://www.embrapa.br/en/international",
+      "title": "International - Portal Embrapa",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://www.emro.who.int/countries/sdn/": {
+      "status": 200,
+      "final_url": "https://www.emro.who.int/countries/sdn/",
+      "title": "WHO EMRO - Sudan",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://www.energy.gov/": {
+      "status": 200,
+      "final_url": "https://www.energy.gov/",
+      "title": "Department of Energy",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://www.energy.gov/national-laboratories": {
+      "status": 200,
+      "final_url": "https://www.energy.gov/national-laboratories",
+      "title": "National Laboratories | Department of Energy",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://www.fao.org/": {
+      "status": 200,
+      "final_url": "https://www.fao.org/home/en/",
+      "title": "Home | Food and Agriculture Organization of the United Nations",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://www.fao.org/faolex/": {
+      "status": "unresolved",
+      "error": "HTTP Error 403: Forbidden",
+      "checked": "2026-10-25",
+      "scope": "Access failure in this environment; not proof that source is unavailable"
+    },
+    "https://www.hathitrust.org/": {
+      "status": "unresolved",
+      "error": "HTTP Error 403: Forbidden",
+      "checked": "2026-10-25",
+      "scope": "Access failure in this environment; not proof that source is unavailable"
+    },
+    "https://www.iaea.org/": {
+      "status": "unresolved",
+      "error": "HTTP Error 403: Forbidden",
+      "checked": "2026-10-25",
+      "scope": "Access failure in this environment; not proof that source is unavailable"
+    },
+    "https://www.iaea.org/publications": {
+      "status": "unresolved",
+      "error": "HTTP Error 403: Forbidden",
+      "checked": "2026-10-25",
+      "scope": "Access failure in this environment; not proof that source is unavailable"
+    },
+    "https://www.icrc.org/": {
+      "status": 200,
+      "final_url": "https://www.icrc.org/en",
+      "title": "ICRC: Neutral humanitarian action | Protecting lives in conflict",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://www.ifad.org/": {
+      "status": "unresolved",
+      "error": "HTTP Error 403: Forbidden",
+      "checked": "2026-10-25",
+      "scope": "Access failure in this environment; not proof that source is unavailable"
+    },
+    "https://www.ilo.org/": {
+      "status": 200,
+      "final_url": "https://www.ilo.org/",
+      "title": "ILO Homepage | International Labour Organization",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://www.imf.org/": {
+      "status": "unresolved",
+      "error": "HTTP Error 403: Forbidden",
+      "checked": "2026-10-25",
+      "scope": "Access failure in this environment; not proof that source is unavailable"
+    },
+    "https://www.imf.org/en/Countries/SDN": {
+      "status": "unresolved",
+      "error": "HTTP Error 403: Forbidden",
+      "checked": "2026-10-25",
+      "scope": "Access failure in this environment; not proof that source is unavailable"
+    },
+    "https://www.isdb.org/": {
+      "status": 200,
+      "final_url": "https://www.isdb.org/",
+      "title": "Islamic Development Bank | Empowering people, building partnerships, driving innovation",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://www.isro.gov.in/": {
+      "status": 200,
+      "final_url": "https://www.isro.gov.in/",
+      "title": "Indian Space Research Organisation",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://www.itu.int/": {
+      "status": 200,
+      "final_url": "https://www.itu.int/en/Pages/default.aspx",
+      "title": "ITU: Connecting the world and beyond",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://www.jst.go.jp/EN/": {
+      "status": 200,
+      "final_url": "https://www.jst.go.jp/EN/",
+      "title": "Japan Science and Technology Agency (JST)",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://www.jstor.org/": {
+      "status": 200,
+      "final_url": "https://www.jstor.org/",
+      "title": "Client Challenge",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification",
+      "access_note": "HTTP 200 challenge page; content access unresolved"
+    },
+    "https://www.lasportal.org/": {
+      "status": "unresolved",
+      "error": "<urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>",
+      "checked": "2026-10-25",
+      "scope": "Access failure in this environment; not proof that source is unavailable"
+    },
+    "https://www.loc.gov/": {
+      "status": 200,
+      "final_url": "https://www.loc.gov/",
+      "title": "Home | Library of Congress",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://www.meti.go.jp/english/": {
+      "status": 200,
+      "final_url": "https://www.meti.go.jp/english/",
+      "title": "METI Ministry of Economy, Trade and Industry",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://www.miit.gov.cn/": {
+      "status": 200,
+      "final_url": "https://www.miit.gov.cn/",
+      "title": "中华人民共和国工业和信息化部",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://www.moaf.gov.sd/": {
+      "status": "unresolved",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.moaf.gov.sd'. (_ssl.c:1081)>",
+      "checked": "2026-10-25",
+      "scope": "Access failure in this environment; not proof that source is unavailable"
+    },
+    "https://www.most.gov.cn/": {
+      "status": 200,
+      "final_url": "https://www.most.gov.cn/",
+      "title": "",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://www.msf.org/": {
+      "status": 200,
+      "final_url": "https://www.msf.org/",
+      "title": "MSF - Médecins Sans Frontières | Medical humanitarian organisation",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://www.nasa.gov/": {
+      "status": 200,
+      "final_url": "https://www.nasa.gov/",
+      "title": "NASA",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://www.nationalarchives.gov.uk/": {
+      "status": 200,
+      "final_url": "https://www.nationalarchives.gov.uk/",
+      "title": "Welcome to The National Archives",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://www.nedo.go.jp/english/": {
+      "status": 200,
+      "final_url": "https://www.nedo.go.jp/english/",
+      "title": "New Energy and Industrial Technology Development Organization",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://www.nic.gov.sd/": {
+      "status": "unresolved",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.nic.gov.sd'. (_ssl.c:1081)>",
+      "checked": "2026-10-25",
+      "scope": "Access failure in this environment; not proof that source is unavailable"
+    },
+    "https://www.nih.gov/": {
+      "status": 200,
+      "final_url": "https://www.nih.gov/",
+      "title": "National Institutes of Health (NIH) |",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://www.nist.gov/": {
+      "status": 200,
+      "final_url": "https://www.nist.gov/",
+      "title": "National Institute of Standards and Technology",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://www.npci.org.in/": {
+      "status": "unresolved",
+      "error": "HTTP Error 403: Forbidden",
+      "checked": "2026-10-25",
+      "scope": "Access failure in this environment; not proof that source is unavailable"
+    },
+    "https://www.nrc.no/": {
+      "status": 200,
+      "final_url": "https://www.nrc.no/",
+      "title": "NRC",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://www.nsf.gov/": {
+      "status": 200,
+      "final_url": "https://www.nsf.gov/",
+      "title": "NSF - U.S. National Science Foundation",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://www.soas.ac.uk/": {
+      "status": 200,
+      "final_url": "https://www.soas.ac.uk/",
+      "title": "Welcome to SOAS | SOAS",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://www.soas.ac.uk/research/library": {
+      "status": 200,
+      "final_url": "https://www.soas.ac.uk/soas-library",
+      "title": "SOAS Library | SOAS",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://www.sudarchrs.org.uk/": {
+      "status": "unresolved",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1081)>",
+      "checked": "2026-10-25",
+      "scope": "Access failure in this environment; not proof that source is unavailable"
+    },
+    "https://www.sustech.edu/": {
+      "status": 200,
+      "final_url": "https://www.sustech.edu/",
+      "title": "Sudan University of Science and Technology - SUST - SUST",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://www.undp.org/": {
+      "status": "unresolved",
+      "error": "HTTP Error 403: Forbidden",
+      "checked": "2026-10-25",
+      "scope": "Access failure in this environment; not proof that source is unavailable"
+    },
+    "https://www.undp.org/sudan": {
+      "status": "unresolved",
+      "error": "HTTP Error 403: Forbidden",
+      "checked": "2026-10-25",
+      "scope": "Access failure in this environment; not proof that source is unavailable"
+    },
+    "https://www.uneca.org/": {
+      "status": 200,
+      "final_url": "https://www.uneca.org/",
+      "title": "ECA Home | Economic Commission for Africa",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://www.unep.org/": {
+      "status": 200,
+      "final_url": "https://www.unep.org/en",
+      "title": "UNEP - UN Environment Programme",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://www.unesco.org/": {
+      "status": 200,
+      "final_url": "https://www.unesco.org/en",
+      "title": "UNESCO : Building Peace through Education, Science and Culture, communication and information",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://www.unesco.org/en/fieldoffice/khartoum": {
+      "status": 200,
+      "final_url": "https://www.unesco.org/en/fieldoffice/khartoum",
+      "title": "UNESCO Khartoum | UNESCO",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://www.unicef.org/": {
+      "status": 200,
+      "final_url": "https://www.unicef.org/",
+      "title": "UNICEF, for every child",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://www.unicef.org/sudan/": {
+      "status": 200,
+      "final_url": "https://www.unicef.org/sudan/",
+      "title": "UNICEF Sudan",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://www.unido.org/": {
+      "status": "unresolved",
+      "error": "HTTP Error 403: Forbidden",
+      "checked": "2026-10-25",
+      "scope": "Access failure in this environment; not proof that source is unavailable"
+    },
+    "https://www.wfp.org/": {
+      "status": 200,
+      "final_url": "https://www.wfp.org/",
+      "title": "UN World Food Programme (WFP)",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://www.wfp.org/countries/sudan": {
+      "status": 200,
+      "final_url": "https://www.wfp.org/countries/sudan",
+      "title": "Sudan | World Food Programme",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://www.whitehouse.gov/ostp/": {
+      "status": 200,
+      "final_url": "https://www.whitehouse.gov/ostp/",
+      "title": "Office of Science and Technology Policy &#8211; The White House",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://www.who.int/": {
+      "status": 200,
+      "final_url": "https://www.who.int/",
+      "title": "World Health Organization (WHO)",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://www.wipo.int/": {
+      "status": 200,
+      "final_url": "https://www.wipo.int/",
+      "title": "",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://www.worldbank.org/": {
+      "status": 200,
+      "final_url": "https://www.worldbank.org/ext/en/home",
+      "title": "World Bank Group - International Development, Poverty and Sustainability",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://bahri.edu.sd/": {
+      "status": 200,
+      "final_url": "https://bahri.edu.sd/",
+      "title": "الرئيسية - جامعة بحري",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://english.msit.go.kr/eng/": {
+      "status": 200,
+      "final_url": "https://english.msit.go.kr/eng/",
+      "title": "Ministry of Science and ICT",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://fashir.edu.sd/": {
+      "status": 200,
+      "final_url": "https://fashir.edu.sd/",
+      "title": "جامعة الفاشر",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://kassalauni.edu.sd/": {
+      "status": 200,
+      "final_url": "https://kassalauni.edu.sd/nw/",
+      "title": "University of Kassala",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://kordofan.edu.sd/": {
+      "status": 200,
+      "final_url": "https://kordofan.edu.sd/",
+      "title": "University Of Kordofan",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://nilevalley.edu.sd/": {
+      "status": 200,
+      "final_url": "https://nilevalley.edu.sd/",
+      "title": "جامعة وادي النيل",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://tax.gov.sd/": {
+      "status": 200,
+      "final_url": "https://tax.gov.sd/",
+      "title": "الرئيسية - SudanTax",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://uofs.edu.sd/": {
+      "status": 200,
+      "final_url": "https://uofs.edu.sd/",
+      "title": "University Of Sinnar.Sudan | Official web Portal of UOFS",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://web.customs.gov.sd/": {
+      "status": 200,
+      "final_url": "https://web.customs.gov.sd/",
+      "title": "الموقع الرسمي للجمارك السودانية",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://www.gaduniv.edu.sd/": {
+      "status": 200,
+      "final_url": "https://www.gaduniv.edu.sd/",
+      "title": "جامعة القضارف",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://www.nyalau.edu.sd/": {
+      "status": 200,
+      "final_url": "https://nyalau.edu.sd/",
+      "title": "Home - جامعة نيالا - University of Nyala",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://www.oiu.edu.sd/": {
+      "status": 200,
+      "final_url": "https://www.oiu.edu.sd/",
+      "title": "جامعة أم درمان الإسلامية",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://www.rsu.edu.sd/": {
+      "status": 200,
+      "final_url": "https://www.rsu.edu.sd/",
+      "title": "جامعة البحر الأحمر",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://www.sudanrailways.gov.sd/": {
+      "status": 200,
+      "final_url": "https://www.sudanrailways.gov.sd/",
+      "title": "Sudan Railways",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    },
+    "https://www.uofd.edu.sd/": {
+      "status": 200,
+      "final_url": "https://www.uofd.edu.sd/",
+      "title": "جامعة دنقلا",
+      "checked": "2026-10-25",
+      "scope": "HTTP/locator only; not document or rights verification"
+    }
+  },
+  "primary_locator_evidence": [
+    {
+      "url": "https://sudan.gov.sd/affiliates/",
+      "purpose": "Government entry point; institutional names/portfolios can change"
+    },
+    {
+      "url": "https://www.oiu.edu.sd/",
+      "purpose": "OIU institutional site and research/library discovery"
+    },
+    {
+      "url": "https://bahri.edu.sd/",
+      "purpose": "Bahri institutional site"
+    },
+    {
+      "url": "https://www.rsu.edu.sd/",
+      "purpose": "Red Sea institutional site"
+    },
+    {
+      "url": "https://kordofan.edu.sd/",
+      "purpose": "Kordofan institutional site"
+    },
+    {
+      "url": "https://fashir.edu.sd/",
+      "purpose": "El Fasher institutional site"
+    },
+    {
+      "url": "https://www.uofd.edu.sd/",
+      "purpose": "Dongola institutional site"
+    },
+    {
+      "url": "https://uofs.edu.sd/",
+      "purpose": "Sennar institutional site"
+    },
+    {
+      "url": "https://nilevalley.edu.sd/?p=3920",
+      "purpose": "Nile Valley institutional page"
+    },
+    {
+      "url": "https://kassalauni.edu.sd/nw/wp-content/uploads/2019/11/%D9%85%D8%B7%D8%A8%D9%82-%D8%A7%D9%84%D8%AC%D8%A7%D9%85%D8%B9%D8%A9-2.pdf",
+      "purpose": "Kassala institutional brochure identifies its domain; historical locator"
+    },
+    {
+      "url": "https://sudanembassyeg.gov.sd/cultural/files/admission-rules.pdf",
+      "purpose": "Government university guide identifies Nyala and Gedaref domains; historical locator"
+    },
+    {
+      "url": "https://english.msit.go.kr/eng/",
+      "purpose": "South Korean science ministry locator"
+    },
+    {
+      "url": "https://web.customs.gov.sd/",
+      "purpose": "Sudan customs official portal"
+    },
+    {
+      "url": "https://tax.gov.sd/en/income-tax-2/",
+      "purpose": "Sudan tax authority domain"
+    },
+    {
+      "url": "https://www.sudanrailways.gov.sd/Travel",
+      "purpose": "Sudan Railways institutional locator"
+    },
+    {
+      "url": "https://repository.sustech.edu/",
+      "purpose": "Indexed repository policy; direct access refused during this audit; do not assume rehosting rights"
+    }
+  ]
+}
