@@ -7,6 +7,8 @@ from html.parser import HTMLParser
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCES = [
+    "https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2026.1846994/full",
+    "https://www.gtap.agecon.purdue.edu/resources/res_display.asp?RecordID=7734",
     "https://www.sciencedirect.com/science/article/pii/S0738059326001902",
     "https://www.cambridge.org/core/journals/antiquity/article/mortuary-practices-and-social-organisation-of-the-meroitic-state-kedurma-third-cataract-region-of-the-nile/44BF4904678FA002258FC5FCB28F8023",
     "https://www.cambridge.org/core/journals/antiquity/article/prehistoric-communities-in-the-bayuda-desert-sudan/7B9416AAC15080767DA41117A44980A5",
@@ -68,7 +70,7 @@ def main():
     parser.add_argument("--build", type=Path)
     args = parser.parse_args()
     books = json.loads((ROOT / "data/library.json").read_text(encoding="utf-8"))["books"]
-    assert len(books) >= 545, "Unexpected loss of Library records"
+    assert len(books) >= 557, "Unexpected loss of Library records"
     selected = []
     for source in SOURCES:
         matches = [b for b in books if b.get("source") == source]

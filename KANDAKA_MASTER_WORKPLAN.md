@@ -1,5 +1,11 @@
 # KANDAKA WORKPLAN
 
+## 26 October 2026 — Two Library additions approved / اعتماد إضافتين للمكتبة
+
+User requested uploading the two weekly recommendations as usual: Eastern Sudan sorghum product profiles and Sudan rice economywide scenarios. Add complete bilingual catalogue summaries, authors, titles and source links; no mirrored PDFs. Rice is explicitly abstract-only, with model assumptions unverified. Prepared count 557; deployment and live verification must be recorded separately. This approval does not change article publication dates or flags.
+
+اعتمد المستخدم إضافة دراستَي مواصفات أصناف الذرة الرفيعة في شرق السودان وسيناريوهات الأرز إلى المكتبة، بعناوين وأسماء مؤلفين وملخصات عربية وإنجليزية وروابط المصادر. يُوضح أن ورقة الأرز قُرئت من ملخصها فقط. العدد المعدّ 557، ويُسجل التحقق من النشر على حدة، دون تغيير جدول المقالات.
+
 ## A14 VERIFIED LIVE — 25 October 2026 / نُشر A14
 
 Dressed for Power is independently verified live in English and Arabic. Release commit 953ed4ed3ae492b70ea760290124f31502c9f981; Netlify deployment 6ade71f17840a0c0a0468158; actual publication 25 October 2026 21:18:41.968 UTC / 16:18:41.968 CDT; verification 21:18:55 UTC / 16:18:55 CDT. Both full article bodies match the checked build (36 text blocks each), with one approved Faras cover per page and matching image SHA256. Details: docs/A14-release-2026-10-25.md. A15 Small Farmers is next, no earlier than 27 October 2026 16:18:42 CDT / 21:18:42 UTC, and only after final release checks. Its full text and exact Gezira illustration were approved on 25 October for both editions. No further approval needed within that scope. Then A16, A17, A18, at least 48 hours after each actual release. Review-only cultural/nature drafts remain excluded.

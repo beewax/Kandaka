@@ -1,5 +1,14 @@
 # Library Sources — Sudan Research Discovery
 
+## Approved additions — 26 October 2026 / إضافات معتمدة
+
+User authorized adding both weekly recommendations with English and Arabic summaries and source links. Prepared catalogue count: 557; publication requires deployment verification.
+
+- Eastern Sudan sorghum product profiles: https://doi.org/10.3389/fsufs.2026.1846994 — published 21 May 2026; open abstract and methods checked, participatory evidence rather than a national representative survey.
+- Sudan rice development scenarios: https://www.gtap.agecon.purdue.edu/resources/res_display.asp?RecordID=7734 — Siddig, Ismail, Elnour and Guo, June 2026 conference paper. Metadata and abstract checked at https://sudan.ifpri.info/publications/ ; persistent identifier https://hdl.handle.net/10568/184572 . Full paper not retrieved; model assumptions not independently checked.
+
+وافق المستخدم على إضافة الدراستين بملخصات عربية وإنجليزية وروابط المصادر. تتناول الأولى مواصفات أصناف الذرة الرفيعة في شرق السودان، والثانية سيناريوهات تنمية الأرز. ملخص ورقة الأرز مستند إلى الملخص المفهرس فقط؛ لم يُراجع نصها الكامل. العدد المعدّ للمكتبة 557، ولا يُعدّ النشر مؤكداً حتى التحقق المباشر.
+
 ## Approved Library additions — 20 October 2026 / إضافات المكتبة المعتمدة
 
 VERIFIED LIVE, 20 October 2026 at 17:00 CDT: three approved bilingual catalogue records added — academic resilience in Sudanese higher education; Meroitic Kedurma; prehistoric Bayuda. Live count: 545. Content commit 5b0b2c6; Netlify deployment 6ad7e3efcc6538f713953352. No full article, release schedule, stored PDF or automation changes. Publication evidence: docs/library-refresh-2026-10-20.md. / نُشرت الدراسات الثلاث المعتمدة بملخصات عربية وإنجليزية وروابط المصادر، وتحقّقنا من النسختين مباشرة في 20 أكتوبر 2026 الساعة 17:00 بتوقيت شيكاغو. أصبح عدد مواد المكتبة المنشورة 545؛ دون تغيير المقالات أو جداول النشر أو ملفات الدراسات أو الأتمتة.

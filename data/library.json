@@ -1,6 +1,44 @@
 {
   "books": [
     {
+      "title": "Market-segmented target product profiles for realigning sorghum breeding, seed systems, and value chains in Eastern Sudan",
+      "title_ar": "مواصفات الأصناف المستهدفة بحسب شرائح السوق لمواءمة تحسين الذرة الرفيعة ونظم البذور وسلاسل القيمة في شرق السودان",
+      "author": "Aisha Abdalhady Ahmed Abdalla; Shamaa Abdo; Manhal Gobara Hamid; Fadulelmola Mohammed; Mahbubjon Rahmatov; Mohammed Elsafy; Tilal Abdelhalim",
+      "author_ar": "عائشة عبد الهادي أحمد عبد الله؛ شماء عبده؛ منهل جبارة حامد؛ فضل المولى محمد؛ محبوب جان رحمتوف؛ محمد الصافي؛ طلال عبد الحليم",
+      "year": "2026",
+      "tags": [
+        "Agriculture"
+      ],
+      "doi": "10.3389/fsufs.2026.1846994",
+      "source": "https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2026.1846994/full",
+      "citation": "Abdalhady Ahmed Abdalla et al. (2026). Frontiers in Sustainable Food Systems 10:1846994. Published 21 May 2026. DOI: 10.3389/fsufs.2026.1846994.",
+      "desc": "Published 21 May 2026. A participatory study in eastern Sudan links sorghum breeding and seed delivery to farmers’ and food processors’ differing priorities, including drought resilience and qualities needed for kisra, asida and fermented drinks. Workshop and focus-group evidence informs proposed product profiles; it is not a representative national survey or proof of yield or income gains. Open full text; abstract and methods reviewed.",
+      "desc_ar": "نُشرت في 21 مايو 2026. تربط دراسة تشاركية في شرق السودان تحسين الذرة الرفيعة وتوفير البذور بأولويات المزارعين ومجهّزي الأغذية، ومنها تحمل الجفاف والخصائص المناسبة للكسرة والعصيدة والمشروبات المخمّرة. تستند مواصفات الأصناف المقترحة إلى ورشة ومجموعات نقاش؛ وليست مسحاً وطنياً ممثلاً أو إثباتاً لتحسّن الإنتاج أو الدخل. النص الكامل مفتوح، وقد روجع الملخص والمنهج.",
+      "source_label_en": "Read open-access article",
+      "source_label_ar": "قراءة البحث المفتوح",
+      "rights_note": "Publisher identifies CC BY. Source-linked; no PDF uploaded."
+    },
+    {
+      "title": "Unlocking Sudan’s rice potential: Economywide impacts of rice sector expansion under alternative development pathways",
+      "title_ar": "إطلاق إمكانات الأرز في السودان: آثار التوسع في القطاع على الاقتصاد وفق مسارات تنموية بديلة",
+      "author": "Khalid Siddig; Abdelbagi Ismail; Zuhal Elnour; Zhe Guo",
+      "author_ar": "خالد صديق؛ عبد الباقي إسماعيل؛ زحل النور؛ تشه قوه",
+      "year": "2026",
+      "tags": [
+        "Agriculture",
+        "Economy & Development"
+      ],
+      "source": "https://www.gtap.agecon.purdue.edu/resources/res_display.asp?RecordID=7734",
+      "source_label_en": "View conference record",
+      "source_label_ar": "عرض سجل ورقة المؤتمر",
+      "citation": "Siddig, K.; Ismail, A.; Elnour, Z.; Guo, Z. (2026). Presented at the 29th Annual Conference on Global Economic Analysis, Kyoto, June 2026. GTAP record 7734; CGIAR handle 10568/184572.",
+      "reference_url": "https://www.gtap.agecon.purdue.edu/resources/res_display.asp?RecordID=7734",
+      "persistent_url": "https://hdl.handle.net/10568/184572",
+      "desc": "Conference paper presented in June 2026. Uses an economywide model to compare baseline trends, gradual rice expansion, self-sufficiency and export-oriented development, including implications for trade and household welfare. Useful scenario evidence, not a forecast or demonstration of realised benefits. Metadata and summary verified through IFPRI’s catalogue; the full paper was not retrieved and its modelling assumptions have not been independently checked.",
+      "desc_ar": "ورقة مؤتمر قُدّمت في يونيو 2026. تستخدم نموذجاً للاقتصاد ككل لمقارنة المسار الأساسي والتوسع التدريجي في الأرز والاكتفاء الذاتي والتوجه التصديري، مع بحث آثارها في التجارة ورفاه الأسر. تقدم سيناريوهات وليست تنبؤاً أو إثباتاً لمنافع تحققت فعلاً. تحققت البيانات والملخص عبر فهرس المعهد الدولي لبحوث السياسات الغذائية؛ لم يُسترجع النص الكامل ولم تُفحص افتراضات النموذج مستقلاً.",
+      "rights_note": "IFPRI catalogue marks Open Access; full-text access and specific reuse licence not independently verified. No PDF uploaded."
+    },
+    {
       "title": "The Agricultural Potential of Sudan",
       "title_ar": "الإمكانات الزراعية في السودان",
       "author": "Abdalla Ahmed Abdalla; Hassan Osman Abdel Nour",
