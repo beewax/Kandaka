@@ -1,5 +1,13 @@
 # Library Sources — Sudan Research Discovery
 
+
+## Verified publication / التحقق من النشر
+
+Production build and cover audit passed. Both local rendered editions and independently downloaded live pages passed the bilingual Library validation: 557 cards, complete matching titles/authors/summaries/source links, one canonical May 2025 World Bank report. Release commit 4c08989c498689fcff04c90047dd9804f10368ff; Netlify deployment 6adfe3194827168a5dfbca2a; actual publication 26 October 2026 23:33:37.650 UTC / 18:33:37.650 CDT; independent verification 23:33:57 UTC / 18:33:57 CDT. Live URLs: https://kandaka.com/library/ and https://kandaka.com/ar/library/ . Local work was prepared in an isolated latest-main archive; original working checkout preserved.
+
+نُشرت الإضافتان وتحققنا مباشرة من النسختين العربية والإنجليزية، بما يشمل العناوين والمؤلفين والملخصات وروابط المصادر وعدد المواد البالغ 557. النشر الفعلي في 26 أكتوبر 2026 الساعة 18:33:37 بتوقيت شيكاغو، والتحقق الساعة 18:33:57. لا تغيير في المقالات أو جداولها.
+
+
 ## Approved additions — 26 October 2026 / إضافات معتمدة
 
 User authorized adding both weekly recommendations with English and Arabic summaries and source links. Prepared catalogue count: 557; publication requires deployment verification.
