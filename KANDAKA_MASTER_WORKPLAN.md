@@ -1,5 +1,22 @@
 # KANDAKA WORKPLAN
 
+## 26 October 2026 — Current publication gate and approval reconciliation / ضبط بوابة النشر والاعتماد
+
+Owner explicitly requested auditing the live categories, Funj relocation and actual publication automation, and preparing A15 without early publication. This current instruction supersedes older blanket A16–A18 publication permissions and stale calendar targets. A13 and A14 are already published; do not republish them. A14's successful Netlify deployment 6ade71f17840a0c0a0468158 was independently rechecked: actual publication 2026-10-25T21:18:41.968Z / 16:18:41.968 CDT. Therefore A15 must not publish before **27 October 2026 16:18:42 America/Chicago / 21:18:42 UTC**.
+
+A15 retains its 25 October individual approval for the full English/Arabic text and exact `/images/uploads/gezira-farming-leonardo.jpg` cover, including localized alt text and AI disclosures. Keep both drafts protected until eligible and all final checks pass. After A15 is verified live, replace A13's forthcoming notes with the corresponding language related-reading links. The stored 22 October frontmatter date is an obsolete planning date, not a publication claim; set actual release metadata only during authorized release.
+
+**A16 Making a Living in Sudan, A17 Protecting Sudan's Memory, and A18 Miseeda: HOLD FOR ARTICLE-SPECIFIC OWNER APPROVAL.** Each must also follow the previous actual successful, independently verified article release by at least 48 hours; no fixed release dates are promised. Earlier queue-wide authorization or “no additional approval needed” wording cannot bypass this current instruction. Do not skip a held article or publish other material in its place. Food/coffee, everyday archaeology and wildlife drafts remain USER REVIEW only; P01–P07 and C26-01–C26-03 retain their existing IDEA/RESEARCH/review boundaries.
+
+Actual automation audit: existing `kandaka-six-article-publication-sequence` remains ACTIVE, with the same target chat and two-day cadence. No duplicate created. Its stale prompt was replaced with the current gate, exact cover, release verification requirements and A16–A18 individual approval holds. Scheduler database exposed that the former next run was 27 October 21:17:05 UTC, before the gate despite older prose describing a Chicago evening schedule. The same automation was adjusted to nominal 21:20 UTC every two days; current recorded next run is **27 October 2026 21:23:05 UTC / 16:23:05 CDT**, including jitter. This is a run time, not a guarantee of successful publication. Independently enforce absolute UTC and actual-release spacing across later jitter/DST changes. Separate progress, Library, artwork, photo and social automations are unchanged.
+
+Fresh live verification: bilingual History/Culture sections and category indexes (`/category/`, `/ar/category/`) return 200. Funj is live under History with the approved titles: “The Funj Sultanate: Three Centuries of Power on the Blue Nile” and “سلطنة الفونج: ثلاثة قرون من القوة على النيل الأزرق”. Old Ideas URLs return 200 HTML meta-refresh/canonical redirects to matching History editions; do not claim HTTP 301. Arabic RTL and translation links verified in HTML. A13/A14 return 200; A15–A18 return 404 in both languages. This supersedes the old unimplemented/blocked category status only for these verified items, not unrelated pending website work.
+
+Details and A15 preflight evidence: `docs/A15-preflight-2026-10-26.md`. Preparation and documentation do not authorize or constitute early publication.
+
+طلب المستخدم تدقيق الموقع والأتمتة الفعلية وتجهيز مقال صغار المزارعين دون نشر مبكر. يبقى موعده الأدنى ٢٧ أكتوبر ٢٠٢٦ الساعة ٤:١٨:٤٢ مساءً بتوقيت شيكاغو، بالنصين والغلاف المعتمدين. الأتمتة الحالية مفعّلة دون تكرار، وموعد تشغيلها المسجل بعد التصحيح ٤:٢٣:٠٥ مساءً؛ وهو موعد تشغيل لا وعد بنشر ناجح. تتطلب المقالات A16–A18 اعتماداً فردياً لكل مقال وفاصلاً لا يقل عن ٤٨ ساعة من النشر الفعلي السابق. تبقى مسودات المراجعة والأفكار والبحوث خارج الإذن بالنشر.
+
+
 
 ## Verified publication / التحقق من النشر
 
