@@ -1,0 +1,24 @@
+{{- $rss := .Site.Home.OutputFormats.Get "RSS" }}
+{{- if $rss }}
+<aside class="k-follow-feed" dir="{{ if eq .Lang "ar" }}rtl{{ else }}ltr{{ end }}">
+  <div>
+    <strong>{{ if eq .Lang "ar" }}تابع مقالات كاندكة{{ else }}Follow Kandaka{{ end }}</strong>
+    <span>{{ if eq .Lang "ar" }}أضف الخلاصة إلى قارئ الأخبار لتصلك المقالات الجديدة.{{ else }}Add the feed to your reader for new articles.{{ end }}</span>
+  </div>
+  <a href="{{ $rss.RelPermalink }}" data-feed-language="{{ .Lang }}">
+    {{ if eq .Lang "ar" }}خلاصة RSS{{ else }}RSS feed{{ end }}
+  </a>
+</aside>
+<script>
+  document.querySelectorAll('[data-feed-language]').forEach(function (link) {
+    link.addEventListener('click', function () {
+      if (typeof window.gtag !== 'function') return;
+      window.gtag('event', 'feed_click', {
+        language: link.dataset.feedLanguage,
+        feed_url: link.href,
+        transport_type: 'beacon'
+      });
+    });
+  });
+</script>
+{{- end }}
