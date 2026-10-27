@@ -1,11 +1,11 @@
 ---
 title: "What Sudan’s Small Farmers Need to Rebuild"
-date: '2026-10-22T12:00:00-05:00'
+date: '2026-10-27T16:25:00-05:00'
 author: 'Kandaka'
 category: 'Development'
 description: "A farmer-centred recovery needs more than seed deliveries: safe access, timely services, fair markets and support that lasts through a difficult season."
 tags: ['Sudan', 'agriculture', 'smallholders', 'food security', 'recovery']
-draft: true
+draft: false
 cover:
   image: '/images/uploads/gezira-farming-leonardo.jpg'
   alt: 'Illustrated farmers beside an earthen irrigation channel in a flat landscape inspired by Sudan’s Gezira plain.'

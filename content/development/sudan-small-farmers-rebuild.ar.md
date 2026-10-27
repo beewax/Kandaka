@@ -1,11 +1,11 @@
 ---
 title: "ما يحتاجه صغار المزارعين في السودان لإعادة البناء"
-date: '2026-10-22T12:00:00-05:00'
+date: '2026-10-27T16:25:00-05:00'
 author: 'Kandaka'
 category: 'Development'
 description: "تعافٍ يبدأ بالمزارع يحتاج إلى أكثر من توزيع البذور: وصول آمن وخدمات في موعدها وأسواق منصفة ودعم يستمر طوال الموسم."
 tags: ['Sudan', 'agriculture', 'smallholders', 'food security', 'recovery']
-draft: true
+draft: false
 cover:
   image: '/images/uploads/gezira-farming-leonardo.jpg'
   alt: 'رسم لمزارعين بجوار قناة ري ترابية في أرض منبسطة مستلهمة من سهل الجزيرة في السودان.'
