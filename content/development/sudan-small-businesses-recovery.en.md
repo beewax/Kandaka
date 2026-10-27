@@ -78,7 +78,7 @@ Count failures too. A machine that never operated, a route that became unsafe an
 
 Sudan needs large ambitions, but recovery also happens in an unremarkable moment: a mechanic finishes a repair, a processor pays a farmer, and a household buys food at a price it can manage. Rebuilding those ordinary transactions is not a lesser form of development. It is how development becomes real.
 
-*Forthcoming companion article: **What Sudan’s Small Farmers Need to Rebuild** looks at recovery from the farming household’s perspective—from timely inputs and irrigation to fair markets and safe access to land.*
+*Companion article: [What Sudan’s Small Farmers Need to Rebuild](/development/sudan-small-farmers-rebuild/) looks at recovery from the farming household’s perspective—from timely inputs and irrigation to fair markets and safe access to land.*
 
 ## Sources and reading notes
 

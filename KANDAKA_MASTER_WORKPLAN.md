@@ -1,5 +1,13 @@
 # KANDAKA WORKPLAN
 
+## A15 VERIFIED LIVE — 27 October 2026 / نُشر مقال صغار المزارعين
+
+Approved EN/AR pair published and independently verified, exact approved Gezira cover preserved. Release commit 0630ddb2e0456bfd452226a28af6d263e3d25fa8; matching successful Netlify deployment 6ae117e557288048fe632630; actual publication 2026-10-27T21:31:14.643Z / 16:31:14.643 CDT; verification 21:31:34 UTC. Complete live bodies match checked production, single cover per edition and matching SHA256. Source refresh required no substantive text changes. See docs/A15-release-2026-10-27.md. A13 forthcoming notes converted to corresponding related-reading links only after A15 verification.
+
+Next A16 Making a Living in Sudan remains HOLD FOR INDIVIDUAL OWNER APPROVAL. Earliest possible release 29 October 2026 21:31:15 UTC / 16:31:15 CDT, only if approved and fully checked; this is not a promised publication date. A17/A18 retain individual approval holds and 48-hour actual-release spacing. Never republish A15 or infer permission for review-only drafts.
+
+نُشر مقال صغار المزارعين وتحقّقنا من النصين والغلاف مباشرة. موعد النشر الفعلي ٢٧ أكتوبر ٢٠٢٦ الساعة ٤:٣١:١٤ مساءً بتوقيت شيكاغو. المقال التالي عن كسب العيش ينتظر اعتماداً فردياً، ولا يُنشر قبل ٢٩ أكتوبر الساعة ٤:٣١:١٥ مساءً وبعد الفحص. لا يغيّر ذلك حدود اعتماد المقالات الأخرى.
+
 ## 26 October 2026 — Current publication gate and approval reconciliation / ضبط بوابة النشر والاعتماد
 
 Owner explicitly requested auditing the live categories, Funj relocation and actual publication automation, and preparing A15 without early publication. This current instruction supersedes older blanket A16–A18 publication permissions and stale calendar targets. A13 and A14 are already published; do not republish them. A14's successful Netlify deployment 6ade71f17840a0c0a0468158 was independently rechecked: actual publication 2026-10-25T21:18:41.968Z / 16:18:41.968 CDT. Therefore A15 must not publish before **27 October 2026 16:18:42 America/Chicago / 21:18:42 UTC**.
