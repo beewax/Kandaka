@@ -1,0 +1,113 @@
+{
+  "timestamp": "2026-10-26T19:26:20-05:00",
+  "remote": {
+    "head": "c1c0e6ee36dd673184447cbb2ca2617be58d82ce",
+    "tree": "a0607fafa1cee6fa3d13ae5b76a8a3351de9c947"
+  },
+  "before_count": 557,
+  "after_count": 555,
+  "removed_false_duplicate_cards": [
+    {
+      "title": "Nile Basin Initiative",
+      "title_ar": "مبادرة حوض النيل",
+      "author": "Nile Basin Initiative Secretariat",
+      "year": "2009",
+      "tags": [
+        "Water & Nile"
+      ],
+      "desc_ar": "وثيقة تعريفية بمبادرة حوض النيل تشرح إطارها التعاوني بين دول الحوض العشر، وأهدافها في إدارة المياه المشتركة وتعزيز السلام والتنمية المشتركة.",
+      "download": "https://pub-a5e3b47fe87749f491660d68e2029284.r2.dev/nile-basin-initiative-nile-basin-initiative-secretari.pdf",
+      "desc": "Overview of intergovernmental cooperation on Nile water management, development projects, and benefit-sharing mechanisms.",
+      "source": "https://pub-a5e3b47fe87749f491660d68e2029284.r2.dev/nile-basin-initiative.epub"
+    },
+    {
+      "title": "Promoting Trade Between Central and Southern Africa: Burundi and Rwanda",
+      "title_ar": "تعزيز التجارة بين وسط وجنوب أفريقيا: بوروندي ورواندا",
+      "author": "UN Economic Commission for Africa",
+      "year": "2006",
+      "tags": [
+        "Regional & Geopolitics"
+      ],
+      "desc_ar": "دراسة تُحلل عوائق التجارة البينية بين دول وسط أفريقيا وجنوبها، مُقدّمةً نماذج لبوروندي ورواندا كدراستي حالة لتعزيز التكامل الاقتصادي الإقليمي.",
+      "download": "https://pub-a5e3b47fe87749f491660d68e2029284.r2.dev/promoting-trade-between-central-united-nations-economic-commiss.pdf",
+      "desc": "Regional integration study with lessons for Sudan's trade connectivity.",
+      "source": "https://pub-a5e3b47fe87749f491660d68e2029284.r2.dev/promoting-trade-between-central-and-southern-africa-burundi-.epub"
+    }
+  ],
+  "retained_water_unchanged": {
+    "title": "Best Practices for Water Harvesting and Irrigation in Sudan",
+    "title_ar": "أفضل الممارسات لحصاد المياه والري في السودان",
+    "author": "Mamoun Ibrahim Dawelbeit",
+    "tags": [
+      "Water & Nile",
+      "Agriculture"
+    ],
+    "desc": "Mamoun Ibrahim Dawelbeit’s complete 41-page Sudan country study on water harvesting and irrigation, EWUAP Project. The cover is dated March 2008; the publisher landing page gives 6 February 2008, so the verified year is 2008 and the date discrepancy is retained.",
+    "desc_ar": "دراسة مأمون إبراهيم دولبيت القطرية الكاملة عن حصاد المياه والري في السودان، ضمن مشروع EWUAP، في 41 صفحة. الغلاف مؤرخ في مارس 2008، بينما يسجل موقع الناشر 6 فبراير 2008؛ السنة المثبتة هي 2008 مع توثيق اختلاف التاريخين.",
+    "source": "https://nilebasin.org/node/12693",
+    "author_ar": "Mamoun Ibrahim Dawelbeit",
+    "citation": "Mamoun Ibrahim Dawelbeit. 2008. Best Practices for Water Harvesting and Irrigation in Sudan.",
+    "citation_ar": "Mamoun Ibrahim Dawelbeit. 2008. Best Practices for Water Harvesting and Irrigation in Sudan.",
+    "title_full": "Best Practices for Water Harvesting and Irrigation in Sudan",
+    "identifiers": {},
+    "source_format": "PDF",
+    "rights_note": "External publisher/repository link only; no rehosting or redistribution authorized by this repair.",
+    "source_label_en": "Read PDF",
+    "source_label_ar": "قراءة PDF",
+    "year": "2008",
+    "publication_date": "2008-03",
+    "edition": "Efficient Water Use for Agricultural Production (EWUAP) Project, Sudan country study, March 2008 cover",
+    "edition_note": null,
+    "download": "https://nilebasin.org/sites/default/files/2023-09/sudan_best_practices.pdf"
+  },
+  "railway_before": {
+    "title": "Southern Corridor Great Lakes Region Railway: Pre-Feasibility Study",
+    "title_ar": "السكة الحديدية لممر الجنوب ومنطقة البحيرات الكبرى: دراسة ما قبل الجدوى",
+    "author": "International Conference on the Great Lakes Region",
+    "tags": [
+      "Infrastructure",
+      "Regional & Geopolitics"
+    ],
+    "desc": "Pre-feasibility study for the Southern Corridor Great Lakes Region railway project connecting East and Central Africa.",
+    "desc_ar": "دراسة ما قبل الجدوى لمشروع سكة حديد ممر الجنوب ومنطقة البحيرات الكبرى الرابط بين شرق أفريقيا ووسطها.",
+    "source": "https://pub-a5e3b47fe87749f491660d68e2029284.r2.dev/southern-corridor-great-lakes-region-railway-pre-feasibility.epub",
+    "author_ar": "International Conference on the Great Lakes Region",
+    "citation": "International Conference on the Great Lakes Region. 2006. Southern Corridor (Great Lakes Region Railway) Project: Prefeasibility Study - Terms of Reference. Project3.3.4,March2006 amended August2006.",
+    "citation_ar": "International Conference on the Great Lakes Region. 2006. Southern Corridor (Great Lakes Region Railway) Project: Prefeasibility Study - Terms of Reference. Project3.3.4,March2006 amended August2006.",
+    "edition": "Project3.3.4,March2006 amended August2006",
+    "title_full": "Southern Corridor (Great Lakes Region Railway) Project: Prefeasibility Study - Terms of Reference",
+    "year": "2006"
+  },
+  "railway_after": {
+    "title": "Southern Corridor Great Lakes Region Railway: Pre-Feasibility Study",
+    "title_ar": "مشروع الممر الجنوبي (سكة حديد منطقة البحيرات الكبرى): الشروط المرجعية لدراسة ما قبل الجدوى",
+    "author": "International Conference on the Great Lakes Region",
+    "tags": [
+      "Infrastructure",
+      "Regional & Geopolitics"
+    ],
+    "desc": "Terms of reference for the Southern Corridor Great Lakes Region railway prefeasibility study, ICGLR Project 3.3.4. March 2006, amended August 2006; complete 15-page document including the final route map. This is a study brief, not a completed feasibility report.",
+    "desc_ar": "الشروط المرجعية لدراسة ما قبل الجدوى لمشروع الممر الجنوبي لسكة حديد منطقة البحيرات الكبرى، المشروع 3.3.4 للمؤتمر الدولي لمنطقة البحيرات الكبرى. صدرت في مارس 2006 وعُدّلت في أغسطس 2006؛ وثيقة كاملة من 15 صفحة تشمل خريطة المسار. وهي تكليف بإجراء الدراسة وليست تقريراً بنتائج دراسة جدوى مكتملة.",
+    "source": "https://www.icglr.org/images/pdf_files/project_3-3-4-southern_corridor_great_lakes_region_railway_project_-_prefeasibility_study_-_terms_of_reference.pdf",
+    "author_ar": "المؤتمر الدولي لمنطقة البحيرات الكبرى",
+    "citation": "International Conference on the Great Lakes Region. 2006. Southern Corridor (Great Lakes Region Railway) Project: Prefeasibility Study - Terms of Reference. Project3.3.4,March2006 amended August2006.",
+    "citation_ar": "International Conference on the Great Lakes Region. 2006. Southern Corridor (Great Lakes Region Railway) Project: Prefeasibility Study - Terms of Reference. Project3.3.4,March2006 amended August2006.",
+    "edition": "Project3.3.4,March2006 amended August2006",
+    "title_full": "Southern Corridor (Great Lakes Region Railway) Project: Prefeasibility Study - Terms of Reference",
+    "year": "2006",
+    "download": "https://www.icglr.org/images/pdf_files/project_3-3-4-southern_corridor_great_lakes_region_railway_project_-_prefeasibility_study_-_terms_of_reference.pdf",
+    "source_format": "PDF",
+    "source_label_en": "Read terms of reference (15-page PDF)",
+    "source_label_ar": "قراءة الشروط المرجعية (PDF، 15 صفحة)",
+    "rights_note": "External official ICGLR PDF link; no new rehosting or licence grant."
+  },
+  "evidence": "Prior six-source recovery decisions and ICGLR15-page visual review, plus NBI official41-page prior verification. Uploaded files preserved; only catalogue duplicates removed. No generic2009overview or separate UNECA trade paper claimed recovered.",
+  "remaining_four": [
+    "Sorghum Value Chain Analysis",
+    "Sudan and the Exploitation of the Waters of the Nile",
+    "Sudan & Nubia 10 (2006)",
+    "Water Resources and Freshwater Ecosystems in Sudan"
+  ],
+  "r2_writes": 0,
+  "publishing": "One batch after local bilingual QA; production evidence recorded separately."
+}

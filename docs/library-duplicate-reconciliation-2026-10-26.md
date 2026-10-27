@@ -1,0 +1,5 @@
+# Two mislabelled duplicate library entries consolidated
+
+Owner authorized removing the duplicate catalogue cards while preserving all uploaded files. Generic Nile Basin Initiative (Secretariat,2009) was an incorrect label for Dawelbeit2008 Best Practices for Water Harvesting and Irrigation in Sudan; its correctly titled record and official41-page link are retained unchanged. Alleged UNECA2006 Promoting Trade Between Central and Southern Africa was actually the ICGLR2006 Southern Corridor railway terms of reference; retain its existing correct-title record, now linked to the complete official15-page PDF and accurately described bilingually as study terms, not completed feasibility results.
+
+No R2 objects modified, moved or deleted. The removed cards and former asset URLs remain recorded in the accompanying JSON for provenance. Four completeness cases remain: sorghum, Conway, Sudan & Nubia10 and Omer. This consolidation does not claim their recovery. One consolidated publication, with deployment/live evidence tracked in canonical SHARED-WORK.md.
