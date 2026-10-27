@@ -1,5 +1,13 @@
 # KANDAKA WORKPLAN
 
+## 27 October 2026 — A16 individually approved / اعتماد A16
+
+User reviewed the full English draft and actual Omdurman market cover in chat and explicitly approved using this exact cover for BOTH English and Arabic and publishing Making a Living in Sudan as scheduled. This supersedes the A16 hold below ONLY; A17/A18 still need individual approval. Preserve /images/uploads/omdurman-livelihoods-2009.jpg, Petr Adam Dohnálek attribution, 14 August 2009 date, CC BY-SA 3.0 CZ/source links and localized historical-photo disclosure. Both complete draft editions currently reference that exact cover. Keep draft:true until the eligible release run and final source/bilingual/build/cover checks pass. Earliest release 29 October 2026 21:31:15 UTC / 16:31:15 CDT, at least48h after A15 actual publication. No additional approval needed within this scope; no early release.
+
+وافق المستخدم بعد مراجعة المسودة والغلاف على نشر مقال «كيف يكسب السودانيون عيشهم؟» باللغتين مع صورة سوق أم درمان نفسها المؤرخة في 14 أغسطس 2009، مع حفظ اسم المصور والترخيص والإفصاح عن تاريخ الصورة. يرفع هذا اعتماد A16 وحده؛ ويظل A17 وA18 بانتظار اعتماد فردي. لا نشر قبل 29 أكتوبر 2026 الساعة 4:31:15 مساءً بتوقيت شيكاغو وبعد الفحوص النهائية.
+
+Visibility check27October: A15 full English/Arabic pages, both homepages and both Development listings return200 and contain the article/link. No missing live listing reproduced; opened direct English article for user. No site-code change made.
+
 ## A15 VERIFIED LIVE — 27 October 2026 / نُشر مقال صغار المزارعين
 
 Approved EN/AR pair published and independently verified, exact approved Gezira cover preserved. Release commit 0630ddb2e0456bfd452226a28af6d263e3d25fa8; matching successful Netlify deployment 6ae117e557288048fe632630; actual publication 2026-10-27T21:31:14.643Z / 16:31:14.643 CDT; verification 21:31:34 UTC. Complete live bodies match checked production, single cover per edition and matching SHA256. Source refresh required no substantive text changes. See docs/A15-release-2026-10-27.md. A13 forthcoming notes converted to corresponding related-reading links only after A15 verification.
