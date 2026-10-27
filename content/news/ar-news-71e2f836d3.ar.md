@@ -17,12 +17,9 @@ geography:
 language: ar
 status: Reporting
 cluster_id: d0a72de9053c
-corroboration_count: 2
+corroboration_count: 1
 draft: false
 author: صحيفة التغيير
-related_sources:
-- source: Sudan Tribune Arabic
-  link: https://sudantribune.net/article/320460
 clabel: الحرب والأمن
 ---
 
