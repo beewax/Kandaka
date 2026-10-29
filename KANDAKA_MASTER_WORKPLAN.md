@@ -1,5 +1,14 @@
 # KANDAKA WORKPLAN
 
+## 29 October 2026 — A17 and A18 individually approved / اعتماد A17 وA18
+
+After the final bilingual A17 evidence review and A18 text/cover preview, the owner replied “Approved :)” to the explicit statement that Protecting Sudan’s Memory and Miseeda awaited approval. Approval covers both reviewed articles in English and Arabic and their reviewed covers. This supersedes their prior individual approval holds only. Preserve A17 /images/uploads/sudan-national-museum-2013.jpg (David Stanley, 12 February 2013, CC BY 2.0) and A18 /images/uploads/miseeda-church-lenarczyk.png (S. Lenarczyk, figure 2 of the 2026 Antiquity article, CC BY 4.0, capture date unspecified), with bilingual attribution, alt text and historical/access disclosures.
+
+Order remains A16 Making a Living in Sudan, A17 Protecting Sudan’s Memory, A18 Miseeda. Each release must follow the previous actual successfully deployed and independently verified article by at least 48 hours. Keep draft:true until eligible and final evidence/link/parity/build/cover checks pass. No immediate publication or calendar guarantee is implied. A17 uses the completed evidence-reviewed pair from be6d4eedbe04cafd7eb13782047687d17de4ba7d and docs/A17-evidence-review-2026-10-28.md; preserve its distinction between KCL summary coverage and full-report review. A18 preserves uncertainty over carving identity/date and oral memory limits. No further approval needed within this reviewed scope; material text/thesis/cover changes still require owner direction. Other review-only ideas/drafts are unaffected.
+
+وافق المالك على مقالي «حماية ذاكرة السودان» و«مسيدة» بنصيهما العربي والإنجليزي وغلافيهما المعروضين. يرفع ذلك تعليق الاعتماد الفردي لهذين المقالين فقط. يبقى الترتيب بعد مقال «كيف يكسب السودانيون عيشهم؟»، بفاصل لا يقل عن ٤٨ ساعة من النشر الفعلي المتحقق منه، وبعد الفحوص النهائية. لا يتضمن هذا الاعتماد نشراً فورياً أو تغييراً لوضع المسودات الأخرى.
+
+
 ## A17 evidence review completed — 28 October 2026 (America/Chicago)
 
 Owner requested the final bilingual evidence review and a preview BEFORE approval. Both complete Protecting Sudan’s Memory drafts now have aligned, explicitly cited treatments of Sudan Virtual Museum, Sudan Memory and community knowledge, with source limits and Kandaka proposals distinguished. Seven matching source notes; historical 2013 David Stanley cover preserved. See docs/A17-evidence-review-2026-10-28.md and content/culture/protecting-sudans-memory.{en,ar}.md. Status remains USER REVIEW / NOT APPROVED, both draft:true; no release or scheduling authorization inferred. Owner review is next; any eventual release still requires individual approval and normal final checks/48-hour cadence.
