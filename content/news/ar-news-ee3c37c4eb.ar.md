@@ -20,7 +20,7 @@ cluster_id: 6191db3862fe
 corroboration_count: 1
 draft: false
 author: علاء خيراوي
-image: https://sudanile.com/wp-content/uploads/2021/04/Sudanile-Logo-SQ-9.jpg
+image: https://sudanile.com/wp-content/uploads/2026/06/alakherawe.jpg
 media_source: https://sudanile.com/%d8%a7%d8%ae%d8%aa%d8%a7%d9%86%d8%a7-%d8%b3%d9%86%d9%88%d8%a7%d8%aa-%d8%a7%d9%84%d8%a8%d8%b1%d9%87%d8%a7%d9%86-%d8%a7%d9%84%d8%b9%d9%90%d8%ac%d8%a7%d9%81-%d9%a3
 media_reuse_basis: rss_metadata
 media_attribution: سودانايل

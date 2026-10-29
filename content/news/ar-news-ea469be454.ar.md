@@ -15,12 +15,9 @@ geography:
 language: ar
 status: Reporting
 cluster_id: 52e127584d5c
-corroboration_count: 2
+corroboration_count: 1
 draft: false
 author: Dabanga Sudan
-related_sources:
-- source: أخبار الأمم المتحدة
-  link: https://news.un.org/feed/view/ar/story/2026/10/1145613
 clabel: الحرب والأمن
 ---
 
