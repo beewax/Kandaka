@@ -1,11 +1,11 @@
 ---
 title: 'Making a Living in Sudan: Wages, Inequality and the Road to Recovery'
-date: '2026-10-24T12:00:00-05:00'
+date: '2026-10-29T16:31:25-05:00'
 author: 'Kandaka'
 category: 'Development'
 description: 'Recovery should be judged by what households can afford, not only by output: a critical look at income evidence and a practical agenda for decent livelihoods.'
 tags: ['Sudan', 'livelihoods', 'wages', 'recovery']
-draft: true
+draft: false
 cover:
   image: '/images/uploads/omdurman-livelihoods-2009.jpg'
   alt: 'Shoppers and traders among clothing and household-goods stalls in Omdurman market in 2009.'
