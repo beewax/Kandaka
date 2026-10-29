@@ -1,5 +1,14 @@
 # KANDAKA WORKPLAN
 
+## A16 VERIFIED LIVE — 29 October 2026 / نُشر مقال كسب العيش
+
+Making a Living in Sudan is published and independently verified in English and Arabic. Release commit584532d887e27840d8dfb7945a318537df16fcb0; matching Netlify deployment6ae3bbf2b8d1622b16271601. Actual publication2026-10-29T21:35:41.267Z /16:35:41.267CDT; verified by21:35:59UTC. Both complete bodies match checked build, single approved Omdurman cover/hash. Sources refreshed without substantive body changes. See docs/A16-release-2026-10-29.md. This supersedes older A16-next/draft statements.
+
+NEXT A17 Protecting Sudan’s Memory, individually approved29October, NOT BEFORE31October2026 21:35:42UTC /16:35:42CDT and final checks. Then approved A18 Miseeda, minimum48hours after A17 actual verified release. Preserve reviewed source limitations/covers. No permissions expanded to other drafts.
+
+نُشر مقال كسب العيش باللغتين وتحققنا من النصين والغلاف. التالي «حماية ذاكرة السودان» بعد48ساعة على الأقل، ثم «مسيدة»، وفق الاعتماد الفردي المسجل والفحوص النهائية.
+
+
 ## 29 October 2026 — A17 and A18 individually approved / اعتماد A17 وA18
 
 After the final bilingual A17 evidence review and A18 text/cover preview, the owner replied “Approved :)” to the explicit statement that Protecting Sudan’s Memory and Miseeda awaited approval. Approval covers both reviewed articles in English and Arabic and their reviewed covers. This supersedes their prior individual approval holds only. Preserve A17 /images/uploads/sudan-national-museum-2013.jpg (David Stanley, 12 February 2013, CC BY 2.0) and A18 /images/uploads/miseeda-church-lenarczyk.png (S. Lenarczyk, figure 2 of the 2026 Antiquity article, CC BY 4.0, capture date unspecified), with bilingual attribution, alt text and historical/access disclosures.
