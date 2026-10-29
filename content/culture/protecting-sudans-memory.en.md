@@ -12,12 +12,6 @@ cover:
   relative: false
 ---
 
-> **Evidence review in progress — October 2026:** This article is being updated with Sudanese-led research on community heritage and digital preservation.
-
-## October 2026 update: a distributed heritage network
-
-Recent Sudanese heritage research strengthens the case for a distributed preservation network involving museums, libraries, archives, universities and community custodians. Document oral histories, local names and context alongside digitized records; agree ownership and access rules in advance; train local staff; and keep geographically separate backups. Community testimony should be assessed alongside archaeological evidence, not assumed to prove an uninterrupted historical account. Digital copies complement, but cannot replace, physical heritage protection.
-
 *Sudan National Museum, Khartoum, 12 February 2013. Photograph: David Stanley, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sudan_National_Museum_(8625532907).jpg), [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/). Unmodified pre-war photograph; it does not establish the building’s present condition or visitor access.*
 
 ## More than a building full of objects
@@ -48,6 +42,12 @@ Training should solve an identified need and leave a usable capacity. A short wo
 
 A photograph is a beginning, not a complete inventory. Records need consistent identifiers, descriptions, dates, sources and a clear distinction between observation and uncertainty. A report that an object is missing is not the same as confirmation that it was destroyed. A photograph shared online is not, on its own, proof of ownership, location or an illicit sale.
 
+The Sudan Virtual Museum offers a concrete example. In an August 2026 project report, Ikhlas Abdllatief, Faïza Drici and Rennan Lemos describe digital access to museum galleries and the reconstructed tomb of Djehutyhotep, developed through collaboration with Sudan’s antiquities authority. This documents a particular initiative; it does not show that digitisation has secured every original object.[^5]
+
+A September 2026 King’s College London account of research by Laura Gibson, Sara El-Nager and Hannah Ishmael draws lessons from Sudan Memory: agree access and ownership with collection holders, support local skills, and retain oral histories and context alongside digital files. Its account of interviews with project contributors offers practical lessons, not an independent measure of national coverage or preservation success.[^6]
+
+Kandaka therefore proposes a distributed network linking museums, libraries, archives, universities and community custodians. Each participating collection would retain a clear say in access and interpretation, with compatible records and geographically separate backups. This is a proposed direction, not an existing nationwide service or a costed implementation plan. Digital copies should complement protection of original objects and places, never be treated as a replacement.
+
 Digital systems should have maintained backups and named responsibilities. They should also work under realistic constraints: unstable connectivity, staff turnover and limited equipment. A database that only its foreign contractor can operate is a fragile form of assistance. Paper and offline working copies can remain important even when digital records improve access.
 
 Not everything belongs on a public map. Detailed storage information, staff locations or vulnerable-site coordinates can create risks. Public transparency about spending and progress should coexist with controlled access to sensitive records. That is a governance decision, not a reason to hide all information.
@@ -57,6 +57,8 @@ Not everything belongs on a public map. Detailed storage information, staff loca
 Who decides which histories a rebuilt museum tells? A national institution should not reduce Sudan to one region, one religion or one celebrated era. Christian Nubia, Kushite history, Islamic traditions and the many other histories of Sudan belong within a plural account—not a contest in which recognising one requires erasing another.
 
 Community involvement also needs substance. Neal Spencer’s account of the Amara West project describes both shortcomings in its original research design and a later shift towards local participation, including the community-owned Beit Abri lil-Turath. It is a useful practitioner reflection, not a template guaranteed to work everywhere.[^4]
+
+Mohamed Bashir’s September 2026 study draws on the Third and Fifth Cataract regions to argue that oral traditions and local place names can help researchers locate and interpret sites. It supports taking community knowledge seriously, while testing historical interpretations against material evidence. A remembered name or story does not, by itself, establish an ancient date or uninterrupted continuity.[^7]
 
 For Kandaka, a meaningful approach would give communities influence over interpretation and access, not simply invite them to an opening ceremony. Contributions should be credited; participation should be voluntary; sensitive memories should not be collected on the assumption that everything recorded must be published. Women, younger people, displaced residents and minority groups may have different priorities from the most visible local representatives.
 
@@ -82,3 +84,7 @@ Sudan’s memory is not a luxury to be considered once development is complete. 
 [^2]: UNESCO, [Safeguarding Sudan’s Heritage in Times of Crisis](https://www.unesco.org/en/articles/safeguarding-sudans-heritage-times-crisis-unesco-leads-national-capacity-building-efforts), April 2026. Institutional activity report.
 [^3]: UNESCO, [Renewing Commitment to Sudan’s National Museum](https://www.unesco.org/en/articles/renewing-commitment-sudans-national-museum), 6 July 2026. Project reporting, not a present visitor-access advisory or independent assessment.
 [^4]: Neal Spencer, [ResearchSpace? Genesis, ownership and access to archaeological data](https://researchspace.org/blog/why-researchspace-n-spencer/), 4 May 2021. First-person project reflection. The priorities proposed in this article are Kandaka’s analysis, not evaluated programme results.
+
+[^5]: Ikhlas Abdllatief, Faïza Drici and Rennan Lemos, [Digitally preserving Sudan’s cultural heritage](https://www.cambridge.org/core/journals/antiquity/article/digitally-preserving-sudans-cultural-heritage/3F5A63ADF0FD10F7D1A6853BECB7CF3B), Antiquity, 25 August 2026. Project Gallery; DOI: 10.15184/aqy.2026.10409.
+[^6]: King’s College London, [New report offers lessons for preserving cultural heritage in crisis zones](https://www.kcl.ac.uk/news/new-report-offers-lessons-for-preserving-cultural-heritage-in-crisis-zones), 7 September 2026. Institutional summary of Laura Gibson, Sara El-Nager and Hannah Ishmael’s Sudan Memory research; the claims here rely on that summary, not a full-report review.
+[^7]: Mohamed Bashir, [Pluriversal Pasts: Decolonising Archaeological Practice in Sudan through the Integration of Folklore and Community Epistemologies](https://www.cambridge.org/core/journals/cambridge-archaeological-journal/article/pluriversal-pasts-decolonising-archaeological-practice-in-sudan-through-the-integration-of-folklore-and-community-epistemologies/62272546F3F541C6A95088EDA093DE25), Cambridge Archaeological Journal, 29 September 2026. Regional case studies and methodological argument, not a national impact evaluation.

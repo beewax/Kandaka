@@ -1,5 +1,12 @@
 # KANDAKA WORKPLAN
 
+## A17 evidence review completed — 28 October 2026 (America/Chicago)
+
+Owner requested the final bilingual evidence review and a preview BEFORE approval. Both complete Protecting Sudan’s Memory drafts now have aligned, explicitly cited treatments of Sudan Virtual Museum, Sudan Memory and community knowledge, with source limits and Kandaka proposals distinguished. Seven matching source notes; historical 2013 David Stanley cover preserved. See docs/A17-evidence-review-2026-10-28.md and content/culture/protecting-sudans-memory.{en,ar}.md. Status remains USER REVIEW / NOT APPROVED, both draft:true; no release or scheduling authorization inferred. Owner review is next; any eventual release still requires individual approval and normal final checks/48-hour cadence.
+
+اكتملت مراجعة الأدلة ومواءمة النصين العربي والإنجليزي لمقال «حماية ذاكرة السودان»، مع سبعة مراجع متطابقة وبيان حدود المصادر والفصل بينها وبين مقترحات كنداكة. حُفظ غلاف المتحف المؤرخ في 2013. يظل المقال مسودة بانتظار مراجعة المالك واعتماده الفردي؛ لم يُنشر ولم يُغيّر موعده.
+
+
 ## 27 October 2026 — A16 individually approved / اعتماد A16
 
 User reviewed the full English draft and actual Omdurman market cover in chat and explicitly approved using this exact cover for BOTH English and Arabic and publishing Making a Living in Sudan as scheduled. This supersedes the A16 hold below ONLY; A17/A18 still need individual approval. Preserve /images/uploads/omdurman-livelihoods-2009.jpg, Petr Adam Dohnálek attribution, 14 August 2009 date, CC BY-SA 3.0 CZ/source links and localized historical-photo disclosure. Both complete draft editions currently reference that exact cover. Keep draft:true until the eligible release run and final source/bilingual/build/cover checks pass. Earliest release 29 October 2026 21:31:15 UTC / 16:31:15 CDT, at least48h after A15 actual publication. No additional approval needed within this scope; no early release.
