@@ -1,5 +1,12 @@
 # KANDAKA WORKPLAN
 
+## 29 October 2026 — Expanded research scope: art, archaeology and urban planning
+
+**Status:** Research-source expansion approved; no article publication authorized. The full requirements and implementation tests are preserved in [the research addendum](docs/kandaka-research-scope-art-archaeology-urban-2026-10-29.md).
+
+Standing searches now explicitly include Sudanese visual art and creative industries; Nubian/Kushite/Funj archaeology, conservation and community-led heritage; and climate-adapted urban planning, housing, dedicated public transport, accessibility and 5–10-minute essential-services neighborhoods. Look for demonstrated low-cost projects from Africa, Asia, the Middle East and Latin America that Sudan could adapt using local skills and materials. Each example requires documented outcomes, cost/maintenance where available, institutional capacity, Sudan-specific adaptation, risks, cheaper alternatives and an implementation horizon. Screen Kandaka/Calibre for duplicates, confirm source/rights, and prepare bilingual editorial summaries and rights-cleared marketing images for review. Research findings do not change article-specific approval statuses or publication schedules.
+
+
 ## A16 VERIFIED LIVE — 29 October 2026 / نُشر مقال كسب العيش
 
 Making a Living in Sudan is published and independently verified in English and Arabic. Release commit584532d887e27840d8dfb7945a318537df16fcb0; matching Netlify deployment6ae3bbf2b8d1622b16271601. Actual publication2026-10-29T21:35:41.267Z /16:35:41.267CDT; verified by21:35:59UTC. Both complete bodies match checked build, single approved Omdurman cover/hash. Sources refreshed without substantive body changes. See docs/A16-release-2026-10-29.md. This supersedes older A16-next/draft statements.
