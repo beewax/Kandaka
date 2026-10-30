@@ -1,19 +1,19 @@
 {
-  "updated": "2026-10-30T00:38:57.053013+00:00",
+  "updated": "2026-10-30T09:41:24.517300+00:00",
   "window_days": 30,
   "en": {
     "balanced": [
       {
-        "Title": "War’s scars and hope for healing: Sudanese stories through the art of Amani Azhari",
+        "Title": "Sudan investigation maps commanders linked to wartime rape",
         "Lang": "en",
-        "Date": "2026-10-29T20:51:53+00:00",
-        "Permalink": "https://www.dabangasudan.org/en/all-news/article/wars-scars-and-hope-for-healing-sudanese-stories-through-the-art-of-amani-azhari",
+        "Date": "2026-10-30T08:20:40+00:00",
+        "Permalink": "https://www.aljazeera.com/features/2026/10/30/sudan-investigation-maps-commanders-linked-wartime-rape?traffic_source=rss",
         "Params": {
-          "description": "Through her series Healing Sessions, Sudanese visual artist Amani Azhari explores women’s experiences of war... The post War’s scars and hope for healing: Sudanese stories through the art of Amani Azhari appeared first on Dabanga Radio TV Online .",
-          "source": "Radio Dabanga",
-          "source_id": "dabanga-en",
-          "source_class": "sudanese_journalism",
-          "link": "https://www.dabangasudan.org/en/all-news/article/wars-scars-and-hope-for-healing-sudanese-stories-through-the-art-of-amani-azhari",
+          "description": "Investigative unit CIR identifies 25 commanders present at five sites during periods of reported sexual violence.",
+          "source": "Al Jazeera English",
+          "source_id": "aljazeera-en",
+          "source_class": "international_journalism",
+          "link": "https://www.aljazeera.com/features/2026/10/30/sudan-investigation-maps-commanders-linked-wartime-rape?traffic_source=rss",
           "status": "Reporting",
           "geography": [
             "National"
@@ -21,10 +21,34 @@
           "image": "",
           "media_reuse_basis": "",
           "related_sources": [],
+          "category": "International",
+          "clabel": "دولي",
+          "language": "en",
+          "media_attribution": "Al Jazeera English"
+        }
+      },
+      {
+        "Title": "Sudanese diaspora and human rights groups denounce UAE nominee for UN top job",
+        "Lang": "en",
+        "Date": "2026-10-30T05:00:45+00:00",
+        "Permalink": "https://www.theguardian.com/world/2026/oct/30/sudanese-diaspora-human-rights-groups-denounce-uae-nominee-un-top-job",
+        "Params": {
+          "description": "Critics cite Lana Nusseibeh’s denial of accusations the UAE is fuelling Sudan war by supporting paramilitary RSF Members of the Sudanese diaspora and international human rights monitors have denounced the candidature of an Emirati diplomat for the top job at the UN, citing her denial of accusations that the United Arab Emirates is fuelling the war in Sudan by supporting the paramilitary Rapid Support Forces. The UAE ",
+          "source": "The Guardian",
+          "source_id": "guardian-world",
+          "source_class": "international_journalism",
+          "link": "https://www.theguardian.com/world/2026/oct/30/sudanese-diaspora-human-rights-groups-denounce-uae-nominee-un-top-job",
+          "status": "Reporting",
+          "geography": [
+            "National"
+          ],
+          "image": "https://i.guim.co.uk/img/media/1a207f81e70f26c6fb300fd2353ecaa161bc7714/0_0_2895_2317/master/2895.jpg?width=140&quality=85&auto=format&fit=max&s=4b30b227f8f2e941aab03d70ddbb2708",
+          "media_reuse_basis": "rss_metadata",
+          "related_sources": [],
           "category": "War & Security",
           "clabel": "الحرب والأمن",
           "language": "en",
-          "media_attribution": "Radio Dabanga"
+          "media_attribution": "The Guardian"
         }
       },
       {
@@ -52,19 +76,19 @@
         }
       },
       {
-        "Title": "UAE sentences eight people to life over arms supplies to Sudan’s army",
+        "Title": "MSF calls for stronger security measures to protect its work in Central Darfur",
         "Lang": "en",
-        "Date": "2026-10-29T17:25:17+00:00",
-        "Permalink": "https://www.aljazeera.com/news/2026/10/29/uae-sentences-eight-people-to-life-over-arms-supplies-to-sudans-army?traffic_source=rss",
+        "Date": "2026-10-29T15:55:34+00:00",
+        "Permalink": "https://www.dabangasudan.org/en/all-news/article/msf-calls-for-stronger-security-measures-to-protect-its-work-in-central-darfur",
         "Params": {
-          "description": "Defendants handed ⁠life sentences amid tensions between Khartoum and Abu Dhabi over Sudan's war and the RSF.",
-          "source": "Al Jazeera English",
-          "source_id": "aljazeera-en",
-          "source_class": "international_journalism",
-          "link": "https://www.aljazeera.com/news/2026/10/29/uae-sentences-eight-people-to-life-over-arms-supplies-to-sudans-army?traffic_source=rss",
+          "description": "Médecins Sans Frontières (MSF) has called on authorities in Central Darfur to remove commercial sites... The post MSF calls for stronger security measures to protect its work in Central Darfur appeared first on Dabanga Radio TV Online .",
+          "source": "Radio Dabanga",
+          "source_id": "dabanga-en",
+          "source_class": "sudanese_journalism",
+          "link": "https://www.dabangasudan.org/en/all-news/article/msf-calls-for-stronger-security-measures-to-protect-its-work-in-central-darfur",
           "status": "Reporting",
           "geography": [
-            "Khartoum"
+            "Darfur"
           ],
           "image": "",
           "media_reuse_basis": "",
@@ -72,7 +96,7 @@
           "category": "War & Security",
           "clabel": "الحرب والأمن",
           "language": "en",
-          "media_attribution": "Al Jazeera English"
+          "media_attribution": "Radio Dabanga"
         }
       },
       {
@@ -101,25 +125,25 @@
         }
       },
       {
-        "Title": "Sudan: One year after the fall of El-Fasher",
+        "Title": "Chad hosts hundreds of thousands of Sudanese refugees as regional humanitarian crisis extends",
         "Lang": "en",
-        "Date": "2026-10-27T11:46:35+00:00",
-        "Permalink": "https://www.france24.com/en/video/20261027-sudan-one-year-after-the-fall-of-el-fasher",
+        "Date": "2026-10-27T11:13:55+00:00",
+        "Permalink": "https://www.france24.com/en/video/20261027-chad-hosts-hundreds-of-thousands-of-sudanese-refugees-as-regional-humanitarian-crisis-extends",
         "Params": {
-          "description": "It has been one year since the fall of El-Fasher in Sudan, a city in North Darfur, which was captured by the Rapid Support Forces. At least 6,000 civilians were killed by rebel troops as they entered this strategic city.",
+          "description": "Sudan’s war is spilling over into Chad. A drone strike killed at least four people last week in the border town of Bamina, and hundreds of thousands of Sudanese refugees have crossed over in search of safety. Many of those who survived the massacre in El Fasher are still deeply traumatised. FRANCE 24's correspondent Harold Girard has more.",
           "source": "France 24 Africa",
           "source_id": "france24-africa",
           "source_class": "international_journalism",
-          "link": "https://www.france24.com/en/video/20261027-sudan-one-year-after-the-fall-of-el-fasher",
+          "link": "https://www.france24.com/en/video/20261027-chad-hosts-hundreds-of-thousands-of-sudanese-refugees-as-regional-humanitarian-crisis-extends",
           "status": "Reporting",
           "geography": [
             "Darfur"
           ],
-          "image": "https://s.france24.com/media/display/406be9ce-d1ea-11f1-b8bf-bdb9616e85cf/w:1024/p:16x9/EN-20261026-214358-214533-CS.jpg",
+          "image": "https://s.france24.com/media/display/b861376e-d1ee-11f1-b904-bdb9616e85cf/w:1024/p:16x9/capture-4e39aeb0.jpg",
           "media_reuse_basis": "rss_metadata",
           "related_sources": [],
-          "category": "International",
-          "clabel": "دولي",
+          "category": "Humanitarian",
+          "clabel": "إنساني",
           "language": "en",
           "media_attribution": "France 24 Africa"
         }
@@ -221,30 +245,6 @@
         }
       },
       {
-        "Title": "UK sanctions Sudanese military leaders implicated in El Fasher ‘campaign of rape’",
-        "Lang": "en",
-        "Date": "2026-10-26T15:07:23+00:00",
-        "Permalink": "https://www.theguardian.com/global-development/2026/oct/26/uk-sanctions-sudanese-military-leaders-implicated-in-el-fasher-campaign-of",
-        "Params": {
-          "description": "Commanders suspected of sexual violence during the largest and fastest slaughter of civilians in more than 30 years have been subjected to travel ban and asset freeze Senior Sudanese commanders implicated in a “campaign of rape” have been targeted by the UK on the first anniversary of a mass atrocity that saw tens of thousands of civilians killed over several days. A year after the fall of El Fasher , the British gov",
-          "source": "The Guardian",
-          "source_id": "guardian-world",
-          "source_class": "international_journalism",
-          "link": "https://www.theguardian.com/global-development/2026/oct/26/uk-sanctions-sudanese-military-leaders-implicated-in-el-fasher-campaign-of",
-          "status": "Reporting",
-          "geography": [
-            "Darfur"
-          ],
-          "image": "https://i.guim.co.uk/img/media/c671810cd05b5ef573941d3edd85008c82d9bedf/687_437_3773_3019/master/3773.jpg?width=140&quality=85&auto=format&fit=max&s=af957effb5d8061ca35d33abdce49bd9",
-          "media_reuse_basis": "rss_metadata",
-          "related_sources": [],
-          "category": "International",
-          "clabel": "دولي",
-          "language": "en",
-          "media_attribution": "The Guardian"
-        }
-      },
-      {
         "Title": "New British Sanctions Target RSF, Sudanese Army Commanders",
         "Lang": "en",
         "Date": "2026-10-27T01:45:51+00:00",
@@ -293,25 +293,25 @@
         }
       },
       {
-        "Title": "Sudan’s war steals children’s future with school closures and displacement",
+        "Title": "UAE sentences eight people to life over arms supplies to Sudan’s army",
         "Lang": "en",
-        "Date": "2026-10-27T14:45:41+00:00",
-        "Permalink": "https://www.aljazeera.com/features/2026/10/27/sudans-war-steals-childrens-futures-with-school-closures-and-displacement?traffic_source=rss",
+        "Date": "2026-10-29T17:25:17+00:00",
+        "Permalink": "https://www.aljazeera.com/news/2026/10/29/uae-sentences-eight-people-to-life-over-arms-supplies-to-sudans-army?traffic_source=rss",
         "Params": {
-          "description": "The conflict in Sudan has left millions of children without education, as they work to help their families.",
+          "description": "Defendants handed ⁠life sentences amid tensions between Khartoum and Abu Dhabi over Sudan's war and the RSF.",
           "source": "Al Jazeera English",
           "source_id": "aljazeera-en",
           "source_class": "international_journalism",
-          "link": "https://www.aljazeera.com/features/2026/10/27/sudans-war-steals-childrens-futures-with-school-closures-and-displacement?traffic_source=rss",
+          "link": "https://www.aljazeera.com/news/2026/10/29/uae-sentences-eight-people-to-life-over-arms-supplies-to-sudans-army?traffic_source=rss",
           "status": "Reporting",
           "geography": [
-            "National"
+            "Khartoum"
           ],
           "image": "",
           "media_reuse_basis": "",
           "related_sources": [],
-          "category": "Education",
-          "clabel": "تعليم",
+          "category": "War & Security",
+          "clabel": "الحرب والأمن",
           "language": "en",
           "media_attribution": "Al Jazeera English"
         }
@@ -341,25 +341,25 @@
         }
       },
       {
-        "Title": "Chad hosts hundreds of thousands of Sudanese refugees as regional humanitarian crisis extends",
+        "Title": "Sudan: One year after the fall of El-Fasher",
         "Lang": "en",
-        "Date": "2026-10-27T11:13:55+00:00",
-        "Permalink": "https://www.france24.com/en/video/20261027-chad-hosts-hundreds-of-thousands-of-sudanese-refugees-as-regional-humanitarian-crisis-extends",
+        "Date": "2026-10-27T11:46:35+00:00",
+        "Permalink": "https://www.france24.com/en/video/20261027-sudan-one-year-after-the-fall-of-el-fasher",
         "Params": {
-          "description": "Sudan’s war is spilling over into Chad. A drone strike killed at least four people last week in the border town of Bamina, and hundreds of thousands of Sudanese refugees have crossed over in search of safety. Many of those who survived the massacre in El Fasher are still deeply traumatised. FRANCE 24's correspondent Harold Girard has more.",
+          "description": "It has been one year since the fall of El-Fasher in Sudan, a city in North Darfur, which was captured by the Rapid Support Forces. At least 6,000 civilians were killed by rebel troops as they entered this strategic city.",
           "source": "France 24 Africa",
           "source_id": "france24-africa",
           "source_class": "international_journalism",
-          "link": "https://www.france24.com/en/video/20261027-chad-hosts-hundreds-of-thousands-of-sudanese-refugees-as-regional-humanitarian-crisis-extends",
+          "link": "https://www.france24.com/en/video/20261027-sudan-one-year-after-the-fall-of-el-fasher",
           "status": "Reporting",
           "geography": [
             "Darfur"
           ],
-          "image": "https://s.france24.com/media/display/b861376e-d1ee-11f1-b904-bdb9616e85cf/w:1024/p:16x9/capture-4e39aeb0.jpg",
+          "image": "https://s.france24.com/media/display/406be9ce-d1ea-11f1-b8bf-bdb9616e85cf/w:1024/p:16x9/EN-20261026-214358-214533-CS.jpg",
           "media_reuse_basis": "rss_metadata",
           "related_sources": [],
-          "category": "Humanitarian",
-          "clabel": "إنساني",
+          "category": "International",
+          "clabel": "دولي",
           "language": "en",
           "media_attribution": "France 24 Africa"
         }
@@ -535,6 +535,54 @@
       }
     ],
     "latest": [
+      {
+        "Title": "Sudan investigation maps commanders linked to wartime rape",
+        "Lang": "en",
+        "Date": "2026-10-30T08:20:40+00:00",
+        "Permalink": "https://www.aljazeera.com/features/2026/10/30/sudan-investigation-maps-commanders-linked-wartime-rape?traffic_source=rss",
+        "Params": {
+          "description": "Investigative unit CIR identifies 25 commanders present at five sites during periods of reported sexual violence.",
+          "source": "Al Jazeera English",
+          "source_id": "aljazeera-en",
+          "source_class": "international_journalism",
+          "link": "https://www.aljazeera.com/features/2026/10/30/sudan-investigation-maps-commanders-linked-wartime-rape?traffic_source=rss",
+          "status": "Reporting",
+          "geography": [
+            "National"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "International",
+          "clabel": "دولي",
+          "language": "en",
+          "media_attribution": "Al Jazeera English"
+        }
+      },
+      {
+        "Title": "Sudanese diaspora and human rights groups denounce UAE nominee for UN top job",
+        "Lang": "en",
+        "Date": "2026-10-30T05:00:45+00:00",
+        "Permalink": "https://www.theguardian.com/world/2026/oct/30/sudanese-diaspora-human-rights-groups-denounce-uae-nominee-un-top-job",
+        "Params": {
+          "description": "Critics cite Lana Nusseibeh’s denial of accusations the UAE is fuelling Sudan war by supporting paramilitary RSF Members of the Sudanese diaspora and international human rights monitors have denounced the candidature of an Emirati diplomat for the top job at the UN, citing her denial of accusations that the United Arab Emirates is fuelling the war in Sudan by supporting the paramilitary Rapid Support Forces. The UAE ",
+          "source": "The Guardian",
+          "source_id": "guardian-world",
+          "source_class": "international_journalism",
+          "link": "https://www.theguardian.com/world/2026/oct/30/sudanese-diaspora-human-rights-groups-denounce-uae-nominee-un-top-job",
+          "status": "Reporting",
+          "geography": [
+            "National"
+          ],
+          "image": "https://i.guim.co.uk/img/media/1a207f81e70f26c6fb300fd2353ecaa161bc7714/0_0_2895_2317/master/2895.jpg?width=140&quality=85&auto=format&fit=max&s=4b30b227f8f2e941aab03d70ddbb2708",
+          "media_reuse_basis": "rss_metadata",
+          "related_sources": [],
+          "category": "War & Security",
+          "clabel": "الحرب والأمن",
+          "language": "en",
+          "media_attribution": "The Guardian"
+        }
+      },
       {
         "Title": "War’s scars and hope for healing: Sudanese stories through the art of Amani Azhari",
         "Lang": "en",
@@ -4096,54 +4144,6 @@
           "clabel": "أخبار السودان",
           "language": "en",
           "media_attribution": "Radio Tamazuj"
-        }
-      },
-      {
-        "Title": "STPT: ‘Sudan’s warring parties bypass sanctions through business networks’",
-        "Lang": "en",
-        "Date": "2026-10-13T18:19:17+00:00",
-        "Permalink": "https://www.dabangasudan.org/en/all-news/article/stpt-sudans-warring-parties-bypass-sanctions-through-business-networks",
-        "Params": {
-          "description": "A new report by the Sudan Transparency and Policy Tracker urges international governments to target... The post STPT: ‘Sudan’s warring parties bypass sanctions through business networks’ appeared first on Dabanga Radio TV Online .",
-          "source": "Radio Dabanga",
-          "source_id": "dabanga-en",
-          "source_class": "sudanese_journalism",
-          "link": "https://www.dabangasudan.org/en/all-news/article/stpt-sudans-warring-parties-bypass-sanctions-through-business-networks",
-          "status": "Reporting",
-          "geography": [
-            "National"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "Politics",
-          "clabel": "سياسة",
-          "language": "en",
-          "media_attribution": "Radio Dabanga"
-        }
-      },
-      {
-        "Title": "Two Egyptians killed in Khartoum as Sudan probes deadly strikes on miners by Egyptian forces",
-        "Lang": "en",
-        "Date": "2026-10-13T17:43:37+00:00",
-        "Permalink": "https://www.dabangasudan.org/en/all-news/article/two-egyptians-killed-in-khartoum-as-sudan-probes-deadly-strikes-on-miners-by-egyptian-forces",
-        "Params": {
-          "description": "Two Egyptian truck drivers were shot dead in Khartoum on Monday, days after reported Egyptian... The post Two Egyptians killed in Khartoum as Sudan probes deadly strikes on miners by Egyptian forces appeared first on Dabanga Radio TV Online .",
-          "source": "Radio Dabanga",
-          "source_id": "dabanga-en",
-          "source_class": "sudanese_journalism",
-          "link": "https://www.dabangasudan.org/en/all-news/article/two-egyptians-killed-in-khartoum-as-sudan-probes-deadly-strikes-on-miners-by-egyptian-forces",
-          "status": "Reporting",
-          "geography": [
-            "Khartoum"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "Sudan News",
-          "clabel": "أخبار السودان",
-          "language": "en",
-          "media_attribution": "Radio Dabanga"
         }
       }
     ],
