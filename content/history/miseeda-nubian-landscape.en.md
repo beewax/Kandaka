@@ -50,13 +50,13 @@ This is particularly important when telling Sudan’s history through objects th
 
 The project’s ethnographic work examines local understandings of archaeological places, changing names and sacred associations. The report describes shifts in the importance attached to the church and other locations, including the shrine of Sheikh Kuman.[^1] These accounts are valuable in their own right, not simply clues to be mined for an ancient answer.
 
-An oral tradition can tell us how people understood a place when the account was recorded. On its own, it cannot date a carving thousands of years earlier. Conversely, an excavated wall cannot tell us everything a present-day community values. The two forms of evidence answer different questions and become stronger when their limits remain visible.
+An oral tradition can tell us how people understood a place when the account was recorded. On its own, it cannot establish the date of the much older carving. Conversely, an excavated wall cannot tell us everything a present-day community values. The two forms of evidence answer different questions and become stronger when their limits remain visible.
 
 Researchers and writers should therefore avoid describing local beliefs as quaint additions to the “real” history. They also should not present one account as the view of every resident. Consent, attribution and the right to withhold sensitive knowledge matter as much as a compelling narrative.
 
 ## Who gets to interpret the landscape?
 
-A comparison from elsewhere in northern Sudan helps widen the discussion without pretending to confirm Miseeda’s chronology. Writing about Amara West, Neal Spencer acknowledges that the project initially gave Sudanese colleagues insufficient influence over its design. He describes a later development towards community engagement and the community-owned Beit Abri lil-Turath.[^2] That is a reflection on research practice at a different site, not independent archaeological proof for Miseeda.
+A comparison from elsewhere in northern Sudan helps widen the discussion without pretending to confirm Miseeda’s chronology. Writing about Amara West, Neal Spencer acknowledges that no Sudanese archaeologists or colleagues were consulted or involved in the project’s initial research design. He describes a later development towards community engagement and the community-owned Beit Abri lil-Turath.[^2] That is a reflection on research practice at a different site, not independent archaeological proof for Miseeda.
 
 The lesson Kandaka draws is institutional. Local participation should begin when questions are chosen, not only when workers are recruited or results are displayed. Sudanese researchers and communities should have meaningful access to records, opportunities to challenge interpretations, and visible credit for their contributions.
 

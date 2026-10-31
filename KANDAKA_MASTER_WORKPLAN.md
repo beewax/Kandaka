@@ -1,5 +1,12 @@
 # KANDAKA WORKPLAN
 
+## 30 October 2026 — A18 exact final-review package approved
+
+The owner explicitly approved Miseeda in both English and Arabic with the reviewed cover: “I approve Miseeda in both English and Arabic with this cover. Publish it in the agreed sequence and keep the shared work file updated so Claude knows.” This confirms the precision-edited A18-final-review-2026-10-29 pair, superseding its historical NOT APPROVED markers and resolving the version uncertainty identified in the 30 October audit. Earlier 29 October approval remains part of the history. Exact approved draft hashes and scope are recorded in docs/A18-approved-package-2026-10-30.md. Both editions remain draft:true until the release gate.
+
+A17 remains next, no earlier than 2026-10-31T21:35:42Z and after final checks. A18 follows at least 48 hours after A17's actual successfully deployed and independently verified publication; no fixed A18 publication date is promised. Preserve the reviewed full bilingual text, exact S. Lenarczyk cover, attribution, CC BY 4.0 licence and source limitations. Only release metadata/draft flags may change without further approval; substantive changes require owner direction. Batch preparation/documentation without an extra Netlify build; publish articles separately in the agreed sequence.
+
+
 ## 29 October 2026 — Expanded research scope: art, archaeology and urban planning
 
 **Status:** Research-source expansion approved; no article publication authorized. The full requirements and implementation tests are preserved in [the research addendum](docs/kandaka-research-scope-art-archaeology-urban-2026-10-29.md).
