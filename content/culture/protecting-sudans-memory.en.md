@@ -1,11 +1,11 @@
 ---
 title: 'Protecting Sudan’s Memory: Museums, Communities and Recovery'
-date: '2026-10-26T12:00:00-05:00'
+date: '2026-10-31T21:35:53.228952+00:00'
 author: 'Kandaka'
 category: 'Culture'
 description: 'Protecting Sudanese heritage means supporting its custodians, keeping trustworthy records and giving communities a voice—not simply rebuilding museum walls.'
 tags: ['Sudan', 'heritage', 'museums', 'recovery']
-draft: true
+draft: false
 cover:
   image: '/images/uploads/sudan-national-museum-2013.jpg'
   alt: 'The entrance of the Sudan National Museum in Khartoum, photographed in February 2013 before the war.'
