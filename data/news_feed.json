@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T21:59:32.990976+00:00",
+  "updated": "2026-10-31T04:27:33.934055+00:00",
   "window_days": 30,
   "en": {
     "balanced": [
@@ -4151,56 +4151,76 @@
   "ar": {
     "balanced": [
       {
-        "Title": "حلم العودة إلى ام دافوق والخرطوم … سراب النصر المطلق وانسداد أفق الحرب",
+        "Title": "الحرب تسحق الإنتاج وتضخّم ديون السودان",
         "Lang": "ar",
-        "Date": "2026-10-30T20:51:16+00:00",
-        "Permalink": "https://sudantribune.net/article/320671",
+        "Date": "2026-10-31T03:30:03+00:00",
+        "Permalink": "https://www.alaraby.co.uk/economy/%D8%A7%D9%84%D8%AD%D8%B1%D8%A8-%D8%AA%D8%B3%D8%AD%D9%82-%D8%A7%D9%84%D8%A5%D9%86%D8%AA%D8%A7%D8%AC-%D9%88%D8%AA%D8%B6%D8%AE%D9%91%D9%85-%D8%AF%D9%8A%D9%88%D9%86-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86",
         "Params": {
-          "description": "ياسر عرمان العودة إلى الجغرافيا أم إلى منصة التكوين يحلم قادة الجيش بالوصول للجنينة وام دافوق عند أقاصي الغرب الحبيب والبعيد معاً، ويحلم قادة الدعم السريع (اشوف نعيم دنيتى وسعوده امتى ارجع لى ام در واعوده) يحلمون بالعودة لضفاف النيل عند الطابية والرابية والقصر والقيادة العامة البعيدة، وفي ذلك يرى الطرفين تعريف حدي وجدي لمقولة “النصر المطلق”. حرب 15 أبريل وصلت لافق مسدود وجمود واضح لابد من كسره لمصلحة ملايين الجوعى وا",
-          "source": "Sudan Tribune Arabic",
-          "source_id": "sudan-tribune-ar",
+          "description": "يعكس تصدّر السودان قائمة أعلى ديون العالم بنسبة 334.4% قسوة اقتصاد الحرب. فبين تدمير الإنتاج وتراكم الفوائد، بات سداد الدين شبه مستحيل مع انكماش الناتج",
+          "source": "العربي الجديد",
+          "source_id": "alaraby-ar",
+          "source_class": "regional_journalism",
+          "link": "https://www.alaraby.co.uk/economy/%D8%A7%D9%84%D8%AD%D8%B1%D8%A8-%D8%AA%D8%B3%D8%AD%D9%82-%D8%A7%D9%84%D8%A5%D9%86%D8%AA%D8%A7%D8%AC-%D9%88%D8%AA%D8%B6%D8%AE%D9%91%D9%85-%D8%AF%D9%8A%D9%88%D9%86-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86",
+          "status": "Reporting",
+          "geography": [
+            "National"
+          ],
+          "image": "https://www.alaraby.co.uk/sites/default/files/styles/meduim_16_9/public/2026-10/GettyImages-1257483582.jpg?h=790be497&itok=Gng9zUcs",
+          "media_reuse_basis": "rss_metadata",
+          "related_sources": [],
+          "category": "War & Security",
+          "clabel": "الحرب والأمن",
+          "language": "ar",
+          "media_attribution": "العربي الجديد"
+        }
+      },
+      {
+        "Title": "مشروع الجزيرة عملاق الماضى المجيد ومستقبل نهضة السودان",
+        "Lang": "ar",
+        "Date": "2026-10-30T18:41:49+00:00",
+        "Permalink": "https://sudanile.com/%d9%85%d8%b4%d8%b1%d9%88%d8%b9-%d8%a7%d9%84%d8%ac%d8%b2%d9%8a%d8%b1%d8%a9-%d8%b9%d9%85%d9%84%d8%a7%d9%82-%d8%a7%d9%84%d9%85%d8%a7%d8%b6%d9%89-%d8%a7%d9%84%d9%85%d8%ac%d9%8a%d8%af-%d9%88%d9%85%d8%b3",
+        "Params": {
+          "description": "د. محمد حمدان عيسى، المنطقة الشرقية، السعودية يُعد مشروع الجزيرة أحد أكبر مشاريع الري في العالم وهو أكبر مشروع مروي في أفريقيا وأكبر مزرعة في العالم ذات إدارة واحدة ويمتد على نحو 2.2 مليون فدان بين النيلين الأزرق والأبيض. وتُعد منطقة الجزيرة ملائمةً بشكل خاص للري إذ تنحدر التربة مبتعدةً عن النيل الأزرق، مما يسمح […] The post مشروع الجزيرة عملاق الماضى المجيد ومستقبل نهضة السودان appeared first on سودانايل .",
+          "source": "سودانايل",
+          "source_id": "sudanile-ar",
+          "source_class": "sudanese_diaspora",
+          "link": "https://sudanile.com/%d9%85%d8%b4%d8%b1%d9%88%d8%b9-%d8%a7%d9%84%d8%ac%d8%b2%d9%8a%d8%b1%d8%a9-%d8%b9%d9%85%d9%84%d8%a7%d9%82-%d8%a7%d9%84%d9%85%d8%a7%d8%b6%d9%89-%d8%a7%d9%84%d9%85%d8%ac%d9%8a%d8%af-%d9%88%d9%85%d8%b3",
+          "status": "Reporting",
+          "geography": [
+            "Kordofan",
+            "Blue Nile"
+          ],
+          "image": "https://sudanile.com/wp-content/uploads/2023/05/hamdan.jpg",
+          "media_reuse_basis": "rss_metadata",
+          "related_sources": [],
+          "category": "Sudan News",
+          "clabel": "أخبار السودان",
+          "language": "ar",
+          "media_attribution": "سودانايل"
+        }
+      },
+      {
+        "Title": "أزمة انقطاع التيار الكهربائي تهدد حياة مرضى الفشل الكلوي بمستشفيات الخرطوم",
+        "Lang": "ar",
+        "Date": "2026-10-30T17:43:07+00:00",
+        "Permalink": "https://www.dabangasudan.org/ar/all-news/article/%d8%a3%d8%b2%d9%85%d8%a9-%d8%a7%d9%86%d9%82%d8%b7%d8%a7%d8%b9-%d8%a7%d9%84%d8%aa%d9%8a%d8%a7%d8%b1-%d8%a7%d9%84%d9%83%d9%87%d8%b1%d8%a8%d8%a7%d8%a6%d9%8a-%d8%aa%d9%87%d8%af%d8%af-%d8%ad%d9%8a%d8%a7",
+        "Params": {
+          "description": "الخرطوم:30 أكتوبر 2026: راديو دبنقا ​يعاني مرضى الفشل الكلوي في مستشفيات العاصمة السودانية الخرطوم من... The post أزمة انقطاع التيار الكهربائي تهدد حياة مرضى الفشل الكلوي بمستشفيات الخرطوم appeared first on Dabanga Radio TV Online .",
+          "source": "راديو دبنقا",
+          "source_id": "dabanga-ar",
           "source_class": "sudanese_journalism",
-          "link": "https://sudantribune.net/article/320671",
+          "link": "https://www.dabangasudan.org/ar/all-news/article/%d8%a3%d8%b2%d9%85%d8%a9-%d8%a7%d9%86%d9%82%d8%b7%d8%a7%d8%b9-%d8%a7%d9%84%d8%aa%d9%8a%d8%a7%d8%b1-%d8%a7%d9%84%d9%83%d9%87%d8%b1%d8%a8%d8%a7%d8%a6%d9%8a-%d8%aa%d9%87%d8%af%d8%af-%d8%ad%d9%8a%d8%a7",
           "status": "Reporting",
           "geography": [
             "Khartoum"
           ],
           "image": "",
           "media_reuse_basis": "",
-          "related_sources": [
-            {
-              "source": "سودانايل",
-              "link": "https://sudanile.com/%d8%ad%d9%84%d9%85-%d8%a7%d9%84%d8%b9%d9%88%d8%af%d8%a9-%d8%a5%d9%84%d9%89-%d8%a7%d9%85-%d8%af%d8%a7%d9%81%d9%88%d9%82-%d9%88%d8%a7%d9%84%d8%ae%d8%b1%d8%b7%d9%88%d9%85-%d8%b3%d8%b1%d8%a7%d8%a8"
-            }
-          ],
-          "category": "War & Security",
-          "clabel": "الحرب والأمن",
-          "language": "ar",
-          "media_attribution": "Sudan Tribune Arabic"
-        }
-      },
-      {
-        "Title": "دروس لليسار السوداني من تجربة انتخابات البرازيل وفوز لولا",
-        "Lang": "ar",
-        "Date": "2026-10-30T18:53:07+00:00",
-        "Permalink": "https://sudanile.com/%d8%af%d8%b1%d9%88%d8%b3-%d9%84%d9%84%d9%8a%d8%b3%d8%a7%d8%b1-%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86%d9%8a-%d9%85%d9%86-%d8%aa%d8%ac%d8%b1%d8%a8%d8%a9-%d8%a7%d9%86%d8%aa%d8%ae%d8%a7%d8%a8%d8%a7",
-        "Params": {
-          "description": "صديق الزيلعياثارت معركة الانتخابات الحامية، التي شهدتها البرازيل، وفاز بها القائد النقابي لولا دا سيلفا، اهتماما عالميا. وأشعلت روح من الفرح والتفاؤل، وسط القوى اليسارية والديمقراطية والوطنية، في مختلف انحاء العالم. وبرز خلال، الانتخابات، التدخل الفظ لإدارة الرئيس الأمريكي ترم. كما شهدت المعركة دور الشركات الضخمة المسيطرة على الأنشطة الاسفيرية، وكيف تتحكم عبر الخوارزميات في […] The post دروس لليسار السوداني من تجربة ",
-          "source": "سودانايل",
-          "source_id": "sudanile-ar",
-          "source_class": "sudanese_diaspora",
-          "link": "https://sudanile.com/%d8%af%d8%b1%d9%88%d8%b3-%d9%84%d9%84%d9%8a%d8%b3%d8%a7%d8%b1-%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86%d9%8a-%d9%85%d9%86-%d8%aa%d8%ac%d8%b1%d8%a8%d8%a9-%d8%a7%d9%86%d8%aa%d8%ae%d8%a7%d8%a8%d8%a7",
-          "status": "Reporting",
-          "geography": [
-            "National"
-          ],
-          "image": "https://sudanile.com/wp-content/uploads/2026/01/zailaaai.jpg",
-          "media_reuse_basis": "rss_metadata",
           "related_sources": [],
-          "category": "Politics",
-          "clabel": "سياسة",
+          "category": "Health",
+          "clabel": "صحة",
           "language": "ar",
-          "media_attribution": "سودانايل"
+          "media_attribution": "راديو دبنقا"
         }
       },
       {
@@ -4252,51 +4272,27 @@
         }
       },
       {
-        "Title": "أزمة انقطاع التيار الكهربائي تهدد حياة مرضى الفشل الكلوي بمستشفيات الخرطوم",
+        "Title": "مسيرات «الدعم السريع» في شندي.. قصف (11) محطة كهرباء خلال (10) أيام",
         "Lang": "ar",
-        "Date": "2026-10-30T17:43:07+00:00",
-        "Permalink": "https://www.dabangasudan.org/ar/all-news/article/%d8%a3%d8%b2%d9%85%d8%a9-%d8%a7%d9%86%d9%82%d8%b7%d8%a7%d8%b9-%d8%a7%d9%84%d8%aa%d9%8a%d8%a7%d8%b1-%d8%a7%d9%84%d9%83%d9%87%d8%b1%d8%a8%d8%a7%d8%a6%d9%8a-%d8%aa%d9%87%d8%af%d8%af-%d8%ad%d9%8a%d8%a7",
+        "Date": "2026-10-30T11:37:17+00:00",
+        "Permalink": "https://sudantribune.net/article/320660",
         "Params": {
-          "description": "الخرطوم:30 أكتوبر 2026: راديو دبنقا ​يعاني مرضى الفشل الكلوي في مستشفيات العاصمة السودانية الخرطوم من... The post أزمة انقطاع التيار الكهربائي تهدد حياة مرضى الفشل الكلوي بمستشفيات الخرطوم appeared first on Dabanga Radio TV Online .",
-          "source": "راديو دبنقا",
-          "source_id": "dabanga-ar",
+          "description": "شندي 30 أكتوبر 2026 – قصفت مسيّرات للدعم السريع، الجمعة، مقار عسكرية للجيش ومحطة الكهرباء التحويلية في مدينة شندي بولاية نهر النيل، شمالي السودان، ضمن سلسلة هجمات طالت محطات الكهرباء ومخزونات الوقود. وقالت اللجنة الأمنية لمحلية شندي بولاية نهر في بيان أن محطة كهرباء شندي التحويلية خرجت من الخدمة بصورة كاملة بعد الدمار الذي طال المحولات جراء قصفها بمسيرة صباح اليوم. وأفادت اللجنة لدى تفقدها الأضرار بالمحطة التحويلية أ",
+          "source": "Sudan Tribune Arabic",
+          "source_id": "sudan-tribune-ar",
           "source_class": "sudanese_journalism",
-          "link": "https://www.dabangasudan.org/ar/all-news/article/%d8%a3%d8%b2%d9%85%d8%a9-%d8%a7%d9%86%d9%82%d8%b7%d8%a7%d8%b9-%d8%a7%d9%84%d8%aa%d9%8a%d8%a7%d8%b1-%d8%a7%d9%84%d9%83%d9%87%d8%b1%d8%a8%d8%a7%d8%a6%d9%8a-%d8%aa%d9%87%d8%af%d8%af-%d8%ad%d9%8a%d8%a7",
+          "link": "https://sudantribune.net/article/320660",
           "status": "Reporting",
           "geography": [
-            "Khartoum"
+            "River Nile"
           ],
           "image": "",
           "media_reuse_basis": "",
           "related_sources": [],
-          "category": "Health",
-          "clabel": "صحة",
+          "category": "War & Security",
+          "clabel": "الحرب والأمن",
           "language": "ar",
-          "media_attribution": "راديو دبنقا"
-        }
-      },
-      {
-        "Title": "الإمارات تحكم بالسجن المؤبد على 8 متهمين بتهريب أسلحة للجيش السوداني",
-        "Lang": "ar",
-        "Date": "2026-10-30T12:38:04+00:00",
-        "Permalink": "https://www.radiotamazuj.org/ar/news/article/%d8%a7%d9%84%d8%a5%d9%85%d8%a7%d8%b1%d8%a7%d8%aa-%d8%aa%d8%ad%d9%83%d9%85-%d8%a8%d8%a7%d9%84%d8%b3%d8%ac%d9%86-%d8%a7%d9%84%d9%85%d8%a4%d8%a8%d8%af-%d8%b9%d9%84%d9%89-8-%d9%85%d8%aa%d9%87%d9%85%d9%8a",
-        "Params": {
-          "description": "قضت محكمة الاستئناف الاتحادية في أبوظبي بالسجن المؤبد على ثمانية متهمين في قضية تتعلق بتهريب The post الإمارات تحكم بالسجن المؤبد على 8 متهمين بتهريب أسلحة للجيش السوداني appeared first on Radio Tamazuj .",
-          "source": "راديو تمازج",
-          "source_id": "tamazuj-ar",
-          "source_class": "regional_journalism",
-          "link": "https://www.radiotamazuj.org/ar/news/article/%d8%a7%d9%84%d8%a5%d9%85%d8%a7%d8%b1%d8%a7%d8%aa-%d8%aa%d8%ad%d9%83%d9%85-%d8%a8%d8%a7%d9%84%d8%b3%d8%ac%d9%86-%d8%a7%d9%84%d9%85%d8%a4%d8%a8%d8%af-%d8%b9%d9%84%d9%89-8-%d9%85%d8%aa%d9%87%d9%85%d9%8a",
-          "status": "Reporting",
-          "geography": [
-            "National"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "Sudan News",
-          "clabel": "أخبار السودان",
-          "language": "ar",
-          "media_attribution": "راديو تمازج"
+          "media_attribution": "Sudan Tribune Arabic"
         }
       },
       {
@@ -4324,6 +4320,30 @@
         }
       },
       {
+        "Title": "الإمارات تحكم بالسجن المؤبد على 8 متهمين بتهريب أسلحة للجيش السوداني",
+        "Lang": "ar",
+        "Date": "2026-10-30T12:38:04+00:00",
+        "Permalink": "https://www.radiotamazuj.org/ar/news/article/%d8%a7%d9%84%d8%a5%d9%85%d8%a7%d8%b1%d8%a7%d8%aa-%d8%aa%d8%ad%d9%83%d9%85-%d8%a8%d8%a7%d9%84%d8%b3%d8%ac%d9%86-%d8%a7%d9%84%d9%85%d8%a4%d8%a8%d8%af-%d8%b9%d9%84%d9%89-8-%d9%85%d8%aa%d9%87%d9%85%d9%8a",
+        "Params": {
+          "description": "قضت محكمة الاستئناف الاتحادية في أبوظبي بالسجن المؤبد على ثمانية متهمين في قضية تتعلق بتهريب The post الإمارات تحكم بالسجن المؤبد على 8 متهمين بتهريب أسلحة للجيش السوداني appeared first on Radio Tamazuj .",
+          "source": "راديو تمازج",
+          "source_id": "tamazuj-ar",
+          "source_class": "regional_journalism",
+          "link": "https://www.radiotamazuj.org/ar/news/article/%d8%a7%d9%84%d8%a5%d9%85%d8%a7%d8%b1%d8%a7%d8%aa-%d8%aa%d8%ad%d9%83%d9%85-%d8%a8%d8%a7%d9%84%d8%b3%d8%ac%d9%86-%d8%a7%d9%84%d9%85%d8%a4%d8%a8%d8%af-%d8%b9%d9%84%d9%89-8-%d9%85%d8%aa%d9%87%d9%85%d9%8a",
+          "status": "Reporting",
+          "geography": [
+            "National"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "Sudan News",
+          "clabel": "أخبار السودان",
+          "language": "ar",
+          "media_attribution": "راديو تمازج"
+        }
+      },
+      {
         "Title": "الجفاف و«النينيو».. كيف يؤثران في الموسم الزراعي في أقاليم السودان المختلفة؟",
         "Lang": "ar",
         "Date": "2026-10-28T17:26:07+00:00",
@@ -4345,30 +4365,6 @@
           "clabel": "زراعة",
           "language": "ar",
           "media_attribution": "بيم ريبورتس"
-        }
-      },
-      {
-        "Title": "مسيّرات \"الدعم السريع\" تفاقم الأزمة بين الخرطوم وأديس أبابا",
-        "Lang": "ar",
-        "Date": "2026-10-29T23:00:05+00:00",
-        "Permalink": "https://www.alaraby.co.uk/politics/مسيّرات-الدعم-السريع-تفاقم-الأزمة-بين-الخرطوم-وأديس-أبابا",
-        "Params": {
-          "description": "فاقمت الهجمات بالمسيّرات التي تنفذها \"الدعم السريع\" الأزمة بين السودان وإثيوبيا، منبئة بالأسوأ، على وقع استمرار الحرب في الخرطوم، من دون وجود حلول قريبة.",
-          "source": "العربي الجديد",
-          "source_id": "alaraby-ar",
-          "source_class": "regional_journalism",
-          "link": "https://www.alaraby.co.uk/politics/مسيّرات-الدعم-السريع-تفاقم-الأزمة-بين-الخرطوم-وأديس-أبابا",
-          "status": "Reporting",
-          "geography": [
-            "Khartoum"
-          ],
-          "image": "https://www.alaraby.co.uk/sites/default/files/styles/meduim_16_9/public/2026-10/GettyImages-2301869152.jpg?h=8b38cdc6&itok=sBGlNQfv",
-          "media_reuse_basis": "rss_metadata",
-          "related_sources": [],
-          "category": "War & Security",
-          "clabel": "الحرب والأمن",
-          "language": "ar",
-          "media_attribution": "العربي الجديد"
         }
       },
       {
@@ -4444,26 +4440,25 @@
         }
       },
       {
-        "Title": "مشروع الجزيرة عملاق الماضى المجيد ومستقبل نهضة السودان",
+        "Title": "دروس لليسار السوداني من تجربة انتخابات البرازيل وفوز لولا",
         "Lang": "ar",
-        "Date": "2026-10-30T18:41:49+00:00",
-        "Permalink": "https://sudanile.com/%d9%85%d8%b4%d8%b1%d9%88%d8%b9-%d8%a7%d9%84%d8%ac%d8%b2%d9%8a%d8%b1%d8%a9-%d8%b9%d9%85%d9%84%d8%a7%d9%82-%d8%a7%d9%84%d9%85%d8%a7%d8%b6%d9%89-%d8%a7%d9%84%d9%85%d8%ac%d9%8a%d8%af-%d9%88%d9%85%d8%b3",
+        "Date": "2026-10-30T18:53:07+00:00",
+        "Permalink": "https://sudanile.com/%d8%af%d8%b1%d9%88%d8%b3-%d9%84%d9%84%d9%8a%d8%b3%d8%a7%d8%b1-%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86%d9%8a-%d9%85%d9%86-%d8%aa%d8%ac%d8%b1%d8%a8%d8%a9-%d8%a7%d9%86%d8%aa%d8%ae%d8%a7%d8%a8%d8%a7",
         "Params": {
-          "description": "د. محمد حمدان عيسى، المنطقة الشرقية، السعودية يُعد مشروع الجزيرة أحد أكبر مشاريع الري في العالم وهو أكبر مشروع مروي في أفريقيا وأكبر مزرعة في العالم ذات إدارة واحدة ويمتد على نحو 2.2 مليون فدان بين النيلين الأزرق والأبيض. وتُعد منطقة الجزيرة ملائمةً بشكل خاص للري إذ تنحدر التربة مبتعدةً عن النيل الأزرق، مما يسمح […] The post مشروع الجزيرة عملاق الماضى المجيد ومستقبل نهضة السودان appeared first on سودانايل .",
+          "description": "صديق الزيلعياثارت معركة الانتخابات الحامية، التي شهدتها البرازيل، وفاز بها القائد النقابي لولا دا سيلفا، اهتماما عالميا. وأشعلت روح من الفرح والتفاؤل، وسط القوى اليسارية والديمقراطية والوطنية، في مختلف انحاء العالم. وبرز خلال، الانتخابات، التدخل الفظ لإدارة الرئيس الأمريكي ترم. كما شهدت المعركة دور الشركات الضخمة المسيطرة على الأنشطة الاسفيرية، وكيف تتحكم عبر الخوارزميات في […] The post دروس لليسار السوداني من تجربة ",
           "source": "سودانايل",
           "source_id": "sudanile-ar",
           "source_class": "sudanese_diaspora",
-          "link": "https://sudanile.com/%d9%85%d8%b4%d8%b1%d9%88%d8%b9-%d8%a7%d9%84%d8%ac%d8%b2%d9%8a%d8%b1%d8%a9-%d8%b9%d9%85%d9%84%d8%a7%d9%82-%d8%a7%d9%84%d9%85%d8%a7%d8%b6%d9%89-%d8%a7%d9%84%d9%85%d8%ac%d9%8a%d8%af-%d9%88%d9%85%d8%b3",
+          "link": "https://sudanile.com/%d8%af%d8%b1%d9%88%d8%b3-%d9%84%d9%84%d9%8a%d8%b3%d8%a7%d8%b1-%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86%d9%8a-%d9%85%d9%86-%d8%aa%d8%ac%d8%b1%d8%a8%d8%a9-%d8%a7%d9%86%d8%aa%d8%ae%d8%a7%d8%a8%d8%a7",
           "status": "Reporting",
           "geography": [
-            "Kordofan",
-            "Blue Nile"
+            "National"
           ],
-          "image": "https://sudanile.com/wp-content/uploads/2023/05/hamdan.jpg",
+          "image": "https://sudanile.com/wp-content/uploads/2026/01/zailaaai.jpg",
           "media_reuse_basis": "rss_metadata",
           "related_sources": [],
-          "category": "Sudan News",
-          "clabel": "أخبار السودان",
+          "category": "Politics",
+          "clabel": "سياسة",
           "language": "ar",
           "media_attribution": "سودانايل"
         }
@@ -4518,30 +4513,6 @@
         }
       },
       {
-        "Title": "مسيّرات الدعم السريع تستهدف شندي وود الماحي وتطال منشآت مدنية ومحطة كهرباء",
-        "Lang": "ar",
-        "Date": "2026-10-30T12:35:38+00:00",
-        "Permalink": "https://www.altaghyeer.info/ar/2026/10/30/%d9%85%d8%b3%d9%8a%d9%91%d8%b1%d8%a7%d8%aa-%d8%a7%d9%84%d8%af%d8%b9%d9%85-%d8%a7%d9%84%d8%b3%d8%b1%d9%8a%d8%b9-%d8%aa%d8%b3%d8%aa%d9%87%d8%af%d9%81-%d8%b4%d9%86%d8%af%d9%8a-%d9%88%d9%88%d8%af-%d8%a7",
-        "Params": {
-          "description": "تعرضت مدينة شندي بولاية نهر النيل، شمالي السودان، لهجوم بطائرة مسيّرة استراتيجية تابعة لقوات الدعم السريع، أُطلقت خلال الهجوم ستة صواريخ استهدفت مناطق متفرقة بالمدينة، وسط دوي انفجارات متتالية وانقطاع كامل للتيار الكهربائي. شندي ــ التغيير قالت مصادر محلية إن الهجوم استهدف محطة كهرباء شندي، حيث شوهدت ألسنة اللهب تتصاعد من المنشأة عقب تعرضها …",
-          "source": "التغيير",
-          "source_id": "altaghyeer-ar",
-          "source_class": "sudanese_journalism",
-          "link": "https://www.altaghyeer.info/ar/2026/10/30/%d9%85%d8%b3%d9%8a%d9%91%d8%b1%d8%a7%d8%aa-%d8%a7%d9%84%d8%af%d8%b9%d9%85-%d8%a7%d9%84%d8%b3%d8%b1%d9%8a%d8%b9-%d8%aa%d8%b3%d8%aa%d9%87%d8%af%d9%81-%d8%b4%d9%86%d8%af%d9%8a-%d9%88%d9%88%d8%af-%d8%a7",
-          "status": "Reporting",
-          "geography": [
-            "River Nile"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "War & Security",
-          "clabel": "الحرب والأمن",
-          "language": "ar",
-          "media_attribution": "التغيير"
-        }
-      },
-      {
         "Title": "نازحو النيل الأزرق يواجهون نقص الغذاء والأدوية",
         "Lang": "ar",
         "Date": "2026-10-30T12:07:39+00:00",
@@ -4566,27 +4537,51 @@
         }
       },
       {
-        "Title": "السودان: حملة وطنية لحماية 11 مليوناً من شلل الأطفال وسط النزاع",
+        "Title": "من يدفع ثمن حرب السودان؟",
         "Lang": "ar",
-        "Date": "2026-10-29T22:19:04+00:00",
-        "Permalink": "https://www.alaraby.co.uk/society/السودان-حملة-وطنية-لحماية-11-مليوناً-من-شلل-الأطفال-وسط-النزاع",
+        "Date": "2026-10-31T00:02:45+00:00",
+        "Permalink": "https://www.alaraby.co.uk/opinion/%D9%85%D9%86-%D9%8A%D8%AF%D9%81%D8%B9-%D8%AB%D9%85%D9%86-%D8%AD%D8%B1%D8%A8-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86",
         "Params": {
-          "description": "أطلقت حملة تطعيم وطنية ضدّ شلل الأطفال في مختلف أنحاء السودان أخيراً، الهدف منها تحصين نحو 11 مليون طفل في وجه هذا المرض القاتل.",
+          "description": "في حرب السودان، لم يعد على المواطن فقط النجاة من الرصاصة، لكنه يحتاج أن ينجو من انعدام مياه الشرب، ومن مستشفى بلا كهرباء، ومن سوق تقصفه مسيّرة..",
           "source": "العربي الجديد",
           "source_id": "alaraby-ar",
           "source_class": "regional_journalism",
-          "link": "https://www.alaraby.co.uk/society/السودان-حملة-وطنية-لحماية-11-مليوناً-من-شلل-الأطفال-وسط-النزاع",
+          "link": "https://www.alaraby.co.uk/opinion/%D9%85%D9%86-%D9%8A%D8%AF%D9%81%D8%B9-%D8%AB%D9%85%D9%86-%D8%AD%D8%B1%D8%A8-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86",
           "status": "Reporting",
           "geography": [
             "National"
           ],
-          "image": "https://www.alaraby.co.uk/sites/default/files/styles/meduim_16_9/public/2026-10/%D8%AD%D9%85%D9%84%D8%A9%20%D8%AA%D8%B7%D8%B9%D9%8A%D9%85%20%D9%88%D8%B7%D9%86%D9%8A%D8%A9%20%D8%B6%D8%AF%20%D8%B4%D9%84%D9%84%20%D8%A7%D9%84%D8%A3%D8%B7%D9%81%D8%A7%D9%84%20-%20%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86%20-%2027%20%D8%A3%D9%83%D8%AA%D9%88%D8%A8%D8%B1%202026%20-%20%D9%8A%D9%88%D9%86%D9%8A%D8%B3%D9%81%20-%20%D9%81%D9%8A%D8%B3%D8%A8%D9%88%D9%83.jpg?h=636f5f42&itok=ObMBIlZz",
+          "image": "https://www.alaraby.co.uk/sites/default/files/styles/meduim_16_9/public/2026-10/%D8%A7%D9%85%D8%B1%D8%A7%D9%94%D8%A9%20%D8%B3%D9%88%D8%AF%D8%A7%D9%86%D9%8A%D8%A9.jpeg?h=d1cb525d&itok=FtCzLkER",
           "media_reuse_basis": "rss_metadata",
           "related_sources": [],
-          "category": "Health",
-          "clabel": "صحة",
+          "category": "War & Security",
+          "clabel": "الحرب والأمن",
           "language": "ar",
           "media_attribution": "العربي الجديد"
+        }
+      },
+      {
+        "Title": "مسيّرات الدعم السريع تستهدف شندي وود الماحي وتطال منشآت مدنية ومحطة كهرباء",
+        "Lang": "ar",
+        "Date": "2026-10-30T12:35:38+00:00",
+        "Permalink": "https://www.altaghyeer.info/ar/2026/10/30/%d9%85%d8%b3%d9%8a%d9%91%d8%b1%d8%a7%d8%aa-%d8%a7%d9%84%d8%af%d8%b9%d9%85-%d8%a7%d9%84%d8%b3%d8%b1%d9%8a%d8%b9-%d8%aa%d8%b3%d8%aa%d9%87%d8%af%d9%81-%d8%b4%d9%86%d8%af%d9%8a-%d9%88%d9%88%d8%af-%d8%a7",
+        "Params": {
+          "description": "تعرضت مدينة شندي بولاية نهر النيل، شمالي السودان، لهجوم بطائرة مسيّرة استراتيجية تابعة لقوات الدعم السريع، أُطلقت خلال الهجوم ستة صواريخ استهدفت مناطق متفرقة بالمدينة، وسط دوي انفجارات متتالية وانقطاع كامل للتيار الكهربائي. شندي ــ التغيير قالت مصادر محلية إن الهجوم استهدف محطة كهرباء شندي، حيث شوهدت ألسنة اللهب تتصاعد من المنشأة عقب تعرضها …",
+          "source": "التغيير",
+          "source_id": "altaghyeer-ar",
+          "source_class": "sudanese_journalism",
+          "link": "https://www.altaghyeer.info/ar/2026/10/30/%d9%85%d8%b3%d9%8a%d9%91%d8%b1%d8%a7%d8%aa-%d8%a7%d9%84%d8%af%d8%b9%d9%85-%d8%a7%d9%84%d8%b3%d8%b1%d9%8a%d8%b9-%d8%aa%d8%b3%d8%aa%d9%87%d8%af%d9%81-%d8%b4%d9%86%d8%af%d9%8a-%d9%88%d9%88%d8%af-%d8%a7",
+          "status": "Reporting",
+          "geography": [
+            "River Nile"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "War & Security",
+          "clabel": "الحرب والأمن",
+          "language": "ar",
+          "media_attribution": "التغيير"
         }
       },
       {
@@ -4686,30 +4681,6 @@
         }
       },
       {
-        "Title": "السودان – قلق أممي إزاء استمرار هجمات الطائرات المسيرة بعد تعرض محطات كهرباء للقصف",
-        "Lang": "ar",
-        "Date": "2026-10-27T12:00:00+00:00",
-        "Permalink": "https://news.un.org/feed/view/ar/story/2026/10/1145610",
-        "Params": {
-          "description": "أعرب مكتب الأمم المتحدة لتنسيق الشؤون الإنسانية (أوتشا) عن القلق إزاء استمرار هجمات الطائرات المسيرة في السودان، والتي تلحق الضرر بالبنية التحتية المدنية الحيوية وتعطل الخدمات الأساسية لملايين الأشخاص.",
-          "source": "أخبار الأمم المتحدة",
-          "source_id": "un-news-ar",
-          "source_class": "international_institution",
-          "link": "https://news.un.org/feed/view/ar/story/2026/10/1145610",
-          "status": "Institutional update",
-          "geography": [
-            "National"
-          ],
-          "image": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/15-08-2025-Avaaz-Sudan-Khartoum-15.jpg/image560x340cropped.jpg",
-          "media_reuse_basis": "rss_metadata",
-          "related_sources": [],
-          "category": "War & Security",
-          "clabel": "الحرب والأمن",
-          "language": "ar",
-          "media_attribution": "أخبار الأمم المتحدة"
-        }
-      },
-      {
         "Title": "قوات الدعم السريع في السودان \"تستهدف المستشفيات عمداً\"",
         "Lang": "ar",
         "Date": "2026-10-26T16:10:13+00:00",
@@ -4732,9 +4703,81 @@
           "language": "ar",
           "media_attribution": "بي بي سي عربي"
         }
+      },
+      {
+        "Title": "السودان – قلق أممي إزاء استمرار هجمات الطائرات المسيرة بعد تعرض محطات كهرباء للقصف",
+        "Lang": "ar",
+        "Date": "2026-10-27T12:00:00+00:00",
+        "Permalink": "https://news.un.org/feed/view/ar/story/2026/10/1145610",
+        "Params": {
+          "description": "أعرب مكتب الأمم المتحدة لتنسيق الشؤون الإنسانية (أوتشا) عن القلق إزاء استمرار هجمات الطائرات المسيرة في السودان، والتي تلحق الضرر بالبنية التحتية المدنية الحيوية وتعطل الخدمات الأساسية لملايين الأشخاص.",
+          "source": "أخبار الأمم المتحدة",
+          "source_id": "un-news-ar",
+          "source_class": "international_institution",
+          "link": "https://news.un.org/feed/view/ar/story/2026/10/1145610",
+          "status": "Institutional update",
+          "geography": [
+            "National"
+          ],
+          "image": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/15-08-2025-Avaaz-Sudan-Khartoum-15.jpg/image560x340cropped.jpg",
+          "media_reuse_basis": "rss_metadata",
+          "related_sources": [],
+          "category": "War & Security",
+          "clabel": "الحرب والأمن",
+          "language": "ar",
+          "media_attribution": "أخبار الأمم المتحدة"
+        }
       }
     ],
     "latest": [
+      {
+        "Title": "الحرب تسحق الإنتاج وتضخّم ديون السودان",
+        "Lang": "ar",
+        "Date": "2026-10-31T03:30:03+00:00",
+        "Permalink": "https://www.alaraby.co.uk/economy/%D8%A7%D9%84%D8%AD%D8%B1%D8%A8-%D8%AA%D8%B3%D8%AD%D9%82-%D8%A7%D9%84%D8%A5%D9%86%D8%AA%D8%A7%D8%AC-%D9%88%D8%AA%D8%B6%D8%AE%D9%91%D9%85-%D8%AF%D9%8A%D9%88%D9%86-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86",
+        "Params": {
+          "description": "يعكس تصدّر السودان قائمة أعلى ديون العالم بنسبة 334.4% قسوة اقتصاد الحرب. فبين تدمير الإنتاج وتراكم الفوائد، بات سداد الدين شبه مستحيل مع انكماش الناتج",
+          "source": "العربي الجديد",
+          "source_id": "alaraby-ar",
+          "source_class": "regional_journalism",
+          "link": "https://www.alaraby.co.uk/economy/%D8%A7%D9%84%D8%AD%D8%B1%D8%A8-%D8%AA%D8%B3%D8%AD%D9%82-%D8%A7%D9%84%D8%A5%D9%86%D8%AA%D8%A7%D8%AC-%D9%88%D8%AA%D8%B6%D8%AE%D9%91%D9%85-%D8%AF%D9%8A%D9%88%D9%86-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86",
+          "status": "Reporting",
+          "geography": [
+            "National"
+          ],
+          "image": "https://www.alaraby.co.uk/sites/default/files/styles/meduim_16_9/public/2026-10/GettyImages-1257483582.jpg?h=790be497&itok=Gng9zUcs",
+          "media_reuse_basis": "rss_metadata",
+          "related_sources": [],
+          "category": "War & Security",
+          "clabel": "الحرب والأمن",
+          "language": "ar",
+          "media_attribution": "العربي الجديد"
+        }
+      },
+      {
+        "Title": "من يدفع ثمن حرب السودان؟",
+        "Lang": "ar",
+        "Date": "2026-10-31T00:02:45+00:00",
+        "Permalink": "https://www.alaraby.co.uk/opinion/%D9%85%D9%86-%D9%8A%D8%AF%D9%81%D8%B9-%D8%AB%D9%85%D9%86-%D8%AD%D8%B1%D8%A8-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86",
+        "Params": {
+          "description": "في حرب السودان، لم يعد على المواطن فقط النجاة من الرصاصة، لكنه يحتاج أن ينجو من انعدام مياه الشرب، ومن مستشفى بلا كهرباء، ومن سوق تقصفه مسيّرة..",
+          "source": "العربي الجديد",
+          "source_id": "alaraby-ar",
+          "source_class": "regional_journalism",
+          "link": "https://www.alaraby.co.uk/opinion/%D9%85%D9%86-%D9%8A%D8%AF%D9%81%D8%B9-%D8%AB%D9%85%D9%86-%D8%AD%D8%B1%D8%A8-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86",
+          "status": "Reporting",
+          "geography": [
+            "National"
+          ],
+          "image": "https://www.alaraby.co.uk/sites/default/files/styles/meduim_16_9/public/2026-10/%D8%A7%D9%85%D8%B1%D8%A7%D9%94%D8%A9%20%D8%B3%D9%88%D8%AF%D8%A7%D9%86%D9%8A%D8%A9.jpeg?h=d1cb525d&itok=FtCzLkER",
+          "media_reuse_basis": "rss_metadata",
+          "related_sources": [],
+          "category": "War & Security",
+          "clabel": "الحرب والأمن",
+          "language": "ar",
+          "media_attribution": "العربي الجديد"
+        }
+      },
       {
         "Title": "عمار امون يلتقي المبعوث الخاص للامم المتحدة في العاصمة الكينية نيروبي و بحث تداعيات الحرب والانتهاكات بحق المدنيين",
         "Lang": "ar",
@@ -4786,6 +4829,54 @@
           "clabel": "الحرب والأمن",
           "language": "ar",
           "media_attribution": "Sudan Tribune Arabic"
+        }
+      },
+      {
+        "Title": "ملفات سودانية | 30-10-2026",
+        "Lang": "ar",
+        "Date": "2026-10-30T20:06:50+00:00",
+        "Permalink": "https://www.dabangasudan.org/ar/all-news/article/%d9%85%d9%84%d9%81%d8%a7%d8%aa-%d8%b3%d9%88%d8%af%d8%a7%d9%86%d9%8a%d8%a9-30-10-2026",
+        "Params": {
+          "description": "ملفات سودانية | الجمعة 30 أكتوبر 2026 م حول الراهن الامني في السودان وتصعيد المسيرات... The post ملفات سودانية | 30-10-2026 appeared first on Dabanga Radio TV Online .",
+          "source": "راديو دبنقا",
+          "source_id": "dabanga-ar",
+          "source_class": "sudanese_journalism",
+          "link": "https://www.dabangasudan.org/ar/all-news/article/%d9%85%d9%84%d9%81%d8%a7%d8%aa-%d8%b3%d9%88%d8%af%d8%a7%d9%86%d9%8a%d8%a9-30-10-2026",
+          "status": "Reporting",
+          "geography": [
+            "National"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "Sudan News",
+          "clabel": "أخبار السودان",
+          "language": "ar",
+          "media_attribution": "راديو دبنقا"
+        }
+      },
+      {
+        "Title": "جولة السودان اليوم | 30-10-2026",
+        "Lang": "ar",
+        "Date": "2026-10-30T19:14:43+00:00",
+        "Permalink": "https://www.dabangasudan.org/ar/all-news/article/%d8%ac%d9%88%d9%84%d8%a9-%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86-%d8%a7%d9%84%d9%8a%d9%88%d9%85-30-10-2026",
+        "Params": {
+          "description": "برنامج جولة السودان اليوم – الجمعة 30 أكتوبر 2026 1- لا لقهر النساء: حرب المسيّرات... The post جولة السودان اليوم | 30-10-2026 appeared first on Dabanga Radio TV Online .",
+          "source": "راديو دبنقا",
+          "source_id": "dabanga-ar",
+          "source_class": "sudanese_journalism",
+          "link": "https://www.dabangasudan.org/ar/all-news/article/%d8%ac%d9%88%d9%84%d8%a9-%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86-%d8%a7%d9%84%d9%8a%d9%88%d9%85-30-10-2026",
+          "status": "Reporting",
+          "geography": [
+            "National"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "War & Security",
+          "clabel": "الحرب والأمن",
+          "language": "ar",
+          "media_attribution": "راديو دبنقا"
         }
       },
       {
@@ -5223,12 +5314,12 @@
         }
       },
       {
-        "Title": "النيل الابيض بعد تدمير الكهرباء:الثلج يصل الى 30 ألف جنيه وألفي جنيه لشحن الموبايل",
+        "Title": "النيل الابيض بعد تدمير الكهرباء : الثلج يصل الى 30 ألف جنيه وألفي جنيه لشحن الموبايل",
         "Lang": "ar",
         "Date": "2026-10-30T16:54:40+00:00",
         "Permalink": "https://www.dabangasudan.org/ar/all-news/article/%d8%a7%d9%84%d9%86%d9%8a%d9%84-%d8%a7%d9%84%d8%a7%d8%a8%d9%8a%d8%b6-%d8%a8%d8%b9%d8%af-%d8%aa%d8%af%d9%85%d9%8a%d8%b1%d8%a7%d9%84%d9%83%d9%87%d8%b1%d8%a8%d8%a7%d8%a1-%d8%a7%d9%84%d8%ab%d9%84%d8%ac",
         "Params": {
-          "description": "الدويم: 30 اكتوبر 2026: راديو دبنقا قفز سعر الثلج في مدينة الدويم بولاية النيل الأبيض... The post النيل الابيض بعد تدمير الكهرباء:الثلج يصل الى 30 ألف جنيه وألفي جنيه لشحن الموبايل appeared first on Dabanga Radio TV Online .",
+          "description": "الدويم: 30 اكتوبر 2026: راديو دبنقا قفز سعر الثلج في مدينة الدويم بولاية النيل الأبيض... The post النيل الابيض بعد تدمير الكهرباء : الثلج يصل الى 30 ألف جنيه وألفي جنيه لشحن الموبايل appeared first on Dabanga Radio TV Online .",
           "source": "راديو دبنقا",
           "source_id": "dabanga-ar",
           "source_class": "sudanese_journalism",
@@ -6044,30 +6135,6 @@
           "clabel": "الحرب والأمن",
           "language": "ar",
           "media_attribution": "التغيير"
-        }
-      },
-      {
-        "Title": "جولة السودان اليوم | 29-10-2026",
-        "Lang": "ar",
-        "Date": "2026-10-29T17:46:31+00:00",
-        "Permalink": "https://www.dabangasudan.org/ar/all-news/article/%d8%ac%d9%88%d9%84%d8%a9-%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86-%d8%a7%d9%84%d9%8a%d9%88%d9%85-29-10-2026",
-        "Params": {
-          "description": "جولة السودان اليوم | 29 اكتوبر 2026 • تحالف القوي الثورية الديمقراطية صمود يتهم طرفي... The post جولة السودان اليوم | 29-10-2026 appeared first on Dabanga Radio TV Online .",
-          "source": "راديو دبنقا",
-          "source_id": "dabanga-ar",
-          "source_class": "sudanese_journalism",
-          "link": "https://www.dabangasudan.org/ar/all-news/article/%d8%ac%d9%88%d9%84%d8%a9-%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86-%d8%a7%d9%84%d9%8a%d9%88%d9%85-29-10-2026",
-          "status": "Reporting",
-          "geography": [
-            "National"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "Sudan News",
-          "clabel": "أخبار السودان",
-          "language": "ar",
-          "media_attribution": "راديو دبنقا"
         }
       },
       {
@@ -8297,78 +8364,6 @@
           "clabel": "سياسة",
           "language": "ar",
           "media_attribution": "Sudan Tribune Arabic"
-        }
-      },
-      {
-        "Title": "أربع منظمات حقوقية سودانية تطالب بكشف الحقيقة بشأن جرائم الفاشر",
-        "Lang": "ar",
-        "Date": "2026-10-27T14:59:55+00:00",
-        "Permalink": "https://www.dabangasudan.org/ar/all-news/article/%d8%a3%d8%b1%d8%a8%d8%b9-%d9%85%d9%86%d8%b8%d9%85%d8%a7%d8%aa-%d8%ad%d9%82%d9%88%d9%82%d9%8a%d8%a9-%d8%b3%d9%88%d8%af%d8%a7%d9%86%d9%8a%d8%a9-%d8%aa%d8%b7%d8%a7%d9%84%d8%a8-%d8%a8%d9%83%d8%b4%d9%81",
-        "Params": {
-          "description": "أمستردام – 27 أكتوبر 2026 – راديو دبنقا طالبت أربع منظمات حقوقية سودانية، في بيان... The post أربع منظمات حقوقية سودانية تطالب بكشف الحقيقة بشأن جرائم الفاشر appeared first on Dabanga Radio TV Online .",
-          "source": "راديو دبنقا",
-          "source_id": "dabanga-ar",
-          "source_class": "sudanese_journalism",
-          "link": "https://www.dabangasudan.org/ar/all-news/article/%d8%a3%d8%b1%d8%a8%d8%b9-%d9%85%d9%86%d8%b8%d9%85%d8%a7%d8%aa-%d8%ad%d9%82%d9%88%d9%82%d9%8a%d8%a9-%d8%b3%d9%88%d8%af%d8%a7%d9%86%d9%8a%d8%a9-%d8%aa%d8%b7%d8%a7%d9%84%d8%a8-%d8%a8%d9%83%d8%b4%d9%81",
-          "status": "Reporting",
-          "geography": [
-            "Darfur"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "Education",
-          "clabel": "تعليم",
-          "language": "ar",
-          "media_attribution": "راديو دبنقا"
-        }
-      },
-      {
-        "Title": "السودان في توقعات صندوق النقد الدولي.. قراءة في الأرقام وانتقادات حادة من خبراء",
-        "Lang": "ar",
-        "Date": "2026-10-27T14:40:24+00:00",
-        "Permalink": "https://www.dabangasudan.org/ar/all-news/article/%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86-%d9%81%d9%8a-%d8%aa%d9%88%d9%82%d8%b9%d8%a7%d8%aa-%d8%b5%d9%86%d8%af%d9%88%d9%82-%d8%a7%d9%84%d9%86%d9%82%d8%af-%d8%a7%d9%84%d8%af%d9%88%d9%84%d9%8a-%d9%82",
-        "Params": {
-          "description": "أمستردام: السبت 24 أكتوبر 2026م: راديو دبنقا تقرير: سليمان سري أصدر صندوق النقد الدولي تقريره... The post السودان في توقعات صندوق النقد الدولي.. قراءة في الأرقام وانتقادات حادة من خبراء appeared first on Dabanga Radio TV Online .",
-          "source": "راديو دبنقا",
-          "source_id": "dabanga-ar",
-          "source_class": "sudanese_journalism",
-          "link": "https://www.dabangasudan.org/ar/all-news/article/%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86-%d9%81%d9%8a-%d8%aa%d9%88%d9%82%d8%b9%d8%a7%d8%aa-%d8%b5%d9%86%d8%af%d9%88%d9%82-%d8%a7%d9%84%d9%86%d9%82%d8%af-%d8%a7%d9%84%d8%af%d9%88%d9%84%d9%8a-%d9%82",
-          "status": "Reporting",
-          "geography": [
-            "National"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "Sudan News",
-          "clabel": "أخبار السودان",
-          "language": "ar",
-          "media_attribution": "راديو دبنقا"
-        }
-      },
-      {
-        "Title": "بدء التحقق من بيانات اللاجئين في كمبالا الخميس واستمرار الإجراءات في المعسكرات",
-        "Lang": "ar",
-        "Date": "2026-10-27T14:29:46+00:00",
-        "Permalink": "https://www.dabangasudan.org/ar/all-news/article/%d8%a8%d8%af%d8%a1-%d8%a7%d9%84%d8%aa%d8%ad%d9%82%d9%82-%d9%85%d9%86-%d8%a8%d9%8a%d8%a7%d9%86%d8%a7%d8%aa-%d8%a7%d9%84%d9%84%d8%a7%d8%ac%d8%a6%d9%8a%d9%86-%d9%81%d9%8a-%d9%83%d9%85%d8%a8%d8%a7%d9%84",
-        "Params": {
-          "description": "أمستردام: الخرطوم: كمبالا / الثلاثاء 27 أكتوبر 2026: راديو دبنقا تبدأ بعد غدٍ الخميس إجراءات... The post بدء التحقق من بيانات اللاجئين في كمبالا الخميس واستمرار الإجراءات في المعسكرات appeared first on Dabanga Radio TV Online .",
-          "source": "راديو دبنقا",
-          "source_id": "dabanga-ar",
-          "source_class": "sudanese_journalism",
-          "link": "https://www.dabangasudan.org/ar/all-news/article/%d8%a8%d8%af%d8%a1-%d8%a7%d9%84%d8%aa%d8%ad%d9%82%d9%82-%d9%85%d9%86-%d8%a8%d9%8a%d8%a7%d9%86%d8%a7%d8%aa-%d8%a7%d9%84%d9%84%d8%a7%d8%ac%d8%a6%d9%8a%d9%86-%d9%81%d9%8a-%d9%83%d9%85%d8%a8%d8%a7%d9%84",
-          "status": "Reporting",
-          "geography": [
-            "Khartoum"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "Humanitarian",
-          "clabel": "إنساني",
-          "language": "ar",
-          "media_attribution": "راديو دبنقا"
         }
       }
     ],
