@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T04:27:33.934055+00:00",
+  "updated": "2026-10-31T11:48:33.342946+00:00",
   "sources": [
     {
       "id": "dabanga-en",
@@ -89,15 +89,15 @@
       "id": "alaraby-ar",
       "language": "ar",
       "status": "ok",
-      "items": 142,
+      "items": 140,
       "accepted": 2
     },
     {
       "id": "un-news-ar",
       "language": "ar",
-      "status": "invalid_feed",
-      "items": 0,
-      "accepted": 0
+      "status": "ok",
+      "items": 30,
+      "accepted": 4
     },
     {
       "id": "altaghyeer-en",
