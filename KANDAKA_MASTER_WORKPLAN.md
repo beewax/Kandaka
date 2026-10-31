@@ -1,5 +1,14 @@
 # KANDAKA WORKPLAN
 
+## A17 VERIFIED LIVE — 31 October 2026 / نُشر مقال حماية ذاكرة السودان
+
+Protecting Sudan’s Memory is published and independently verified in English and Arabic. Release commit3d6aa9435410e5a03aa7f7c6c87a7fa410aa343b; matching Netlify6ae66030774281fbc2353c35. Actual publication2026-10-31T21:40:58.737Z /16:40:58.737CDT; verified by21:41:12.610UTC. Complete live bodies match checked production; single exact David Stanley2013 cover/hash in each. Approved bodies unchanged; seven-source limitations preserved. See docs/A17-release-2026-10-31.md. Do not republish A17.
+
+NEXT ONLY A18 Miseeda, exact final bilingual package approved30October. NOT BEFORE2026-11-02T21:40:59Z /15:40:59America/Chicago(CST), and final checks; at least48hours after A17 actual release. DST changes local clock, not spacing. Preserve exact approved bodies/cover and30October hashes. Review-only drafts remain excluded.
+
+نُشر «حماية ذاكرة السودان» باللغتين وتحققنا من النصين والغلاف. التالي «مسيدة» بنسخته النهائية المعتمدة، لا قبل2نوفمبر2026 الساعة3:40:59مساءً بتوقيت شيكاغو الشتوي وبعد الفحوص النهائية. لا تغيير في اعتماد المسودات الأخرى.
+
+
 ## 30 October 2026 — A18 exact final-review package approved
 
 The owner explicitly approved Miseeda in both English and Arabic with the reviewed cover: “I approve Miseeda in both English and Arabic with this cover. Publish it in the agreed sequence and keep the shared work file updated so Claude knows.” This confirms the precision-edited A18-final-review-2026-10-29 pair, superseding its historical NOT APPROVED markers and resolving the version uncertainty identified in the 30 October audit. Earlier 29 October approval remains part of the history. Exact approved draft hashes and scope are recorded in docs/A18-approved-package-2026-10-30.md. Both editions remain draft:true until the release gate.
