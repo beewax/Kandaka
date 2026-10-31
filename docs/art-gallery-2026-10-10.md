@@ -31,3 +31,8 @@ User authorized adding artwork images with titles, artist names and source links
 - Local generated HTML checks: eight gallery images, three homepage images, separate source-only section and Arabic heading present; protected A02 article remains excluded from production output. No article-release flags or automation settings changed.
 
 Deployment verified: commit `ae5e327f8ab1ffc6fb3b8fa6c1f88838941a17fa`, Netlify deploy `6acaefc5aef43d000816fe97`, state ready, published 10 October 2026 at 21:09:53 America/Chicago (11 October 02:09:53 UTC). Live English browser verification confirmed all eight artwork images loaded, no horizontal overflow at the inspected viewport, and two source-only recommendations in their own section. Arabic live page confirmed the same gallery and localized section navigation. URLs: https://kandaka.com/images/ and https://kandaka.com/ar/images/ . Screenshot saved locally as `deliverables/kandaka-art-gallery-updated.png` outside the repository.
+
+
+## 31 October 2026 — Weekly additions verified live
+
+Added Faras painted jug (illustrated, public domain) and Mohammed Omar Khalil’s Sawakin (source only), both fully bilingual. Total 13 works: eight illustrated, five source only. Release d948ccfb58181cfbd440d94ccde45d5b50405d44; Netlify 6ae60379d0733085c01daf56 published 15:05:25.670 UTC; both live gallery editions and homepage previews independently checked. See docs/artwork-weekly-2026-10-31.md. No article/photo/schedule changes.
