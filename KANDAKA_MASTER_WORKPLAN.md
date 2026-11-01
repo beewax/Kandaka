@@ -1,5 +1,16 @@
 # KANDAKA WORKPLAN
 
+## 31 October 2026 — V26-01 bilingual video collection approved for preparation
+
+Owner requests adding videos to kandaka.com in the vein of the supplied @lmsatzool Kobernarti clip and agrees to Arabic/English presentation and translation. Working collection: Sudan in Focus / السودان عن قرب. Scope: original platform embeds with creator credit, translated title/introduction, verified filming dates when available, and translated speech only after actual audio/reliable transcript review. No rehosting, altered subtitles, creator outreach, recurring automation, or changes to article release cadence authorized by this exchange.
+
+V26-01 candidate: https://www.tiktok.com/@lmsatzool/video/7686927744877284630 (owner short link https://www.tiktok.com/t/ZPLPLy9yw/). Browser accessed original Arabic description: «كبرنارتي.. القرية السودانية التي أدهشتني بنظافتها!». English description translation prepared; complete playback, spoken transcript and filming date unverified. Do not invent spoken translation, claim an independent cleanliness ranking, or present footage as current. Source/platform viewing problems are recorded as access limits, not absence of content.
+
+Implementation prepared in project workspace kandaka-video-work: paired draft section and entry, reusable TikTok iframe shortcode with original-source fallback. Not committed or deployed. First candidate stays draft pending playback/transcript and embed review; no public publication claim. SUDIA YouTube and Living in Nubia are discovery leads, not reviewed/approved video entries. Preserve all existing article approvals and 48-hour publication rules.
+
+وافق المستخدم على إعداد مختارات فيديو لموقع كنداكة، مع تقديم عربي وإنجليزي وترجمة دقيقة. فيديو كبرنارتي هو المرشح الأول؛ أمكن قراءة وصفه الأصلي فقط، ولم يُتحقق من الصوت الكامل أو تاريخ التصوير. تبقى الصفحات مسودات حتى المراجعة، ولا تتغير قواعد نشر المقالات.
+
+
 ## A17 VERIFIED LIVE — 31 October 2026 / نُشر مقال حماية ذاكرة السودان
 
 Protecting Sudan’s Memory is published and independently verified in English and Arabic. Release commit3d6aa9435410e5a03aa7f7c6c87a7fa410aa343b; matching Netlify6ae66030774281fbc2353c35. Actual publication2026-10-31T21:40:58.737Z /16:40:58.737CDT; verified by21:41:12.610UTC. Complete live bodies match checked production; single exact David Stanley2013 cover/hash in each. Approved bodies unchanged; seven-source limitations preserved. See docs/A17-release-2026-10-31.md. Do not republish A17.
