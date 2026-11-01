@@ -1,6 +1,67 @@
 {
   "books": [
     {
+      "title": "Pluriversal Pasts: Decolonising Archaeological Practice in Sudan through the Integration of Folklore and Community Epistemologies",
+      "title_ar": "ماضٍ متعدد المعارف: إزالة الاستعمار من ممارسة الآثار في السودان بدمج الموروث الشعبي والمعرفة المجتمعية",
+      "author": "Mohamed Bashir",
+      "author_ar": "محمد بشير",
+      "year": "2026",
+      "tags": [
+        "Archaeology",
+        "Nubia",
+        "Heritage",
+        "Community"
+      ],
+      "doi": "10.1017/S0959774326100742",
+      "source": "https://doi.org/10.1017/S0959774326100742",
+      "source_label_en": "View publisher article and abstract",
+      "source_label_ar": "عرض المقال وملخص الناشر",
+      "citation": "Bashir, Mohamed (2026). “Pluriversal Pasts: Decolonising Archaeological Practice in Sudan through the Integration of Folklore and Community Epistemologies.” Cambridge Archaeological Journal. Published 29 September 2026. DOI: 10.1017/S0959774326100742.",
+      "desc": "Research around the Third and Fifth Cataracts argues for integrating community custodianship, place names and oral traditions into archaeological work while checking chronology against material and scientific evidence. Publisher abstract and metadata reviewed; full methods and results were not reviewed.",
+      "desc_ar": "بحث حول الشلالين الثالث والخامس يدعو إلى دمج معرفة أمناء التراث المحليين وأسماء الأماكن والروايات الشفوية في العمل الأثري، مع التحقق من التأريخ بالأدلة المادية والعلمية. روجع ملخص الناشر وبياناته؛ ولم تُراجع المنهجية والنتائج كاملة.",
+      "rights_note": "Publisher metadata indicates CC BY 4.0; full-text and image-rights review pending. Link only."
+    },
+    {
+      "title": "Pedagogy Under Fire: Teaching Archaeology with WhatsApp during Sudan’s Civil War",
+      "title_ar": "التدريس تحت النار: تعليم علم الآثار عبر واتساب أثناء الحرب في السودان",
+      "author": "Ahmed Hussein Abdelrahman Adam",
+      "author_ar": "أحمد حسين عبد الرحمن آدم",
+      "year": "2026",
+      "tags": [
+        "Archaeology",
+        "Education",
+        "Heritage"
+      ],
+      "doi": "10.1017/pub.2026.10190",
+      "source": "https://doi.org/10.1017/pub.2026.10190",
+      "source_label_en": "Read open-access paper",
+      "source_label_ar": "قراءة البحث المفتوح",
+      "citation": "Adam, Ahmed Hussein Abdelrahman (2026). “Pedagogy Under Fire: Teaching Archaeology with WhatsApp during Sudan’s Civil War.” Public Humanities. Published 18 June 2026. DOI: 10.1017/pub.2026.10190.",
+      "desc": "Sudanese lecturer's first-person account of low-bandwidth archaeology teaching through WhatsApp, compressed readings, audio and remote assessment amid war. Documents an implemented continuity method, not a controlled learning-outcome evaluation; practical field training remains indispensable. Full publisher HTML reviewed.",
+      "desc_ar": "شهادة مباشرة لمحاضر سوداني عن استمرار تدريس الآثار أثناء الحرب عبر واتساب والقراءات المضغوطة والتسجيلات الصوتية والتقييم عن بعد. توثق طريقة نُفذت فعلاً لاستمرار التعليم، لكنها ليست تقييماً تجريبياً لنتائج التعلم، ولا تغني عن التدريب الميداني. روجع النص الكامل لدى الناشر.",
+      "rights_note": "Publisher identifies CC BY 4.0. Catalogue links to publisher; no PDF or images rehosted."
+    },
+    {
+      "title": "UNICEF Sudan Humanitarian Mid-Year Situation Report 2026 (January–June)",
+      "title_ar": "تقرير اليونيسف الإنساني لنصف عام 2026 في السودان (يناير–يونيو)",
+      "author": "UNICEF Sudan",
+      "author_ar": "منظمة الأمم المتحدة للطفولة — السودان",
+      "year": "2026",
+      "tags": [
+        "Urban Planning",
+        "Water & Sanitation",
+        "Development",
+        "Humanitarian"
+      ],
+      "source": "https://www.unicef.org/sudan/reports/unicef-sudan-humanitarian-mid-year-situation-report-2026",
+      "source_label_en": "Read official UNICEF report",
+      "source_label_ar": "قراءة تقرير اليونيسف الرسمي",
+      "citation": "UNICEF Sudan (2026). Humanitarian Mid-Year Situation Report No. 44, January–June 2026; released August 2026.",
+      "desc": "Original operational monitoring report. Reports 120 urban water facilities built or rehabilitated and about 2.2 million people reached, with severe municipal staffing and operations-and-maintenance constraints. The figures are programme monitoring, not independent evidence of uninterrupted water supply. Publisher report sections reviewed; no separate impact evaluation established.",
+      "desc_ar": "تقرير أصلي لمتابعة العمليات. يفيد ببناء أو تأهيل 120 مرفقاً حضرياً للمياه ووصول الخدمات إلى نحو 2.2 مليون شخص، مع نقص حاد في الكوادر وتمويل التشغيل والصيانة. هذه أرقام متابعة للبرنامج وليست تقييماً مستقلاً لاستمرار إمدادات المياه. روجعت أقسام من التقرير الأصلي، ولم يثبت وجود تقييم أثر مستقل.",
+      "rights_note": "Official public report; reuse licence not independently verified. Link only; no PDF or images mirrored."
+    },
+    {
       "title": "Market-segmented target product profiles for realigning sorghum breeding, seed systems, and value chains in Eastern Sudan",
       "title_ar": "مواصفات الأصناف المستهدفة بحسب شرائح السوق لمواءمة تحسين الذرة الرفيعة ونظم البذور وسلاسل القيمة في شرق السودان",
       "author": "Aisha Abdalhady Ahmed Abdalla; Shamaa Abdo; Manhal Gobara Hamid; Fadulelmola Mohammed; Mahbubjon Rahmatov; Mohammed Elsafy; Tilal Abdelhalim",
@@ -9488,7 +9549,10 @@
       "author": "Hala Abushama; Nina Jovanovic; Kibrom A. Abay; Khalid Siddig; Guy Simbeko; Haruna Sekabira",
       "author_ar": "هالة أبو شامة؛ نينا يوفانوفيتش؛ كيبروم أ. أباي؛ خالد صديق؛ غاي سيمبيكو؛ هارونا سيكابيرا",
       "year": "2026",
-      "tags": ["Agriculture", "Economy & Development"],
+      "tags": [
+        "Agriculture",
+        "Economy & Development"
+      ],
       "desc": "IFPRI Sudan SSP Working Paper 29 presents a telephone-survey baseline of 100 agrifood SMEs shortlisted for THABAT support. It documents inflation, supply-chain shocks, unreliable electricity and financing constraints alongside ambitions to invest and expand. The project-specific sample includes enterprises selected and not selected for matching grants; it is neither nationally representative nor a completed evaluation of grant impacts.",
       "desc_ar": "تعرض ورقة العمل رقم 29 لبرنامج دعم استراتيجية السودان في المعهد الدولي لبحوث السياسات الغذائية مسحاً هاتفياً تأسيسياً شمل 100 منشأة زراعية وغذائية صغيرة ومتوسطة مدرجة في القائمة المختصرة لدعم مشروع ثبات. وتوثق التضخم وصدمات الإمداد وعدم انتظام الكهرباء وصعوبات التمويل، إلى جانب طموحات الاستثمار والتوسع. وتشمل العينة منشآت اختيرت للمنح المشروطة بمساهمة المستفيد وأخرى لم تُختر؛ وهي ليست ممثلة للسودان كله ولا تقييماً منجزاً لأثر المنح.",
       "source": "https://hdl.handle.net/10568/184053"
@@ -9499,7 +9563,10 @@
       "author": "Shima Mohamed; Oliver K. Kirui; Hala Abushama; Khalid Siddig; Halefom Yigzaw Nigus; Tarig Rakhy",
       "author_ar": "شيماء محمد؛ أوليفر ك. كيروي؛ هالة أبو شامة؛ خالد صديق؛ هاليفوم يغزاو نيغوس؛ طارق راخي",
       "year": "2026",
-      "tags": ["Agriculture", "Economy & Development"],
+      "tags": [
+        "Agriculture",
+        "Economy & Development"
+      ],
       "desc": "IFPRI Sudan SSP Working Paper 27 analyses the 2024 smallholder survey across 13 of Sudan's 18 states, covering the 2023/24 winter season and preparations for summer 2024. It examines displacement, losses of productive assets, food insecurity and barriers to inputs and finance. Findings support locally tailored agricultural assistance; the 2026 publication reports earlier survey conditions rather than measuring current recovery.",
       "desc_ar": "تحلل ورقة العمل رقم 27 لبرنامج دعم استراتيجية السودان في المعهد الدولي لبحوث السياسات الغذائية مسح صغار المزارعين لعام 2024 في 13 ولاية من أصل 18، شاملاً الموسم الشتوي 2023/2024 والاستعدادات لصيف 2024. وتبحث النزوح وفقدان الأصول الإنتاجية وانعدام الأمن الغذائي وعوائق الحصول على المدخلات والتمويل. وتدعم النتائج مساعدة زراعية تراعي الظروف المحلية؛ فالإصدار المنشور في 2026 يعرض أوضاع المسح السابق ولا يقيس التعافي الراهن.",
       "source": "https://hdl.handle.net/10568/182880"
@@ -9510,7 +9577,11 @@
       "author": "Shima Mohamed; Hala Abushama; Oliver K. Kirui; Gotada Suliman; Khalid Siddig",
       "author_ar": "شيماء محمد؛ هالة أبو شامة؛ أوليفر ك. كيروي؛ قتادة سليمان؛ خالد صديق",
       "year": "2026",
-      "tags": ["Economy & Development", "Agriculture", "Governance & Politics"],
+      "tags": [
+        "Economy & Development",
+        "Agriculture",
+        "Governance & Politics"
+      ],
       "desc": "IFPRI Sudan SSP Working Paper 28 synthesises research and policy discussions from the Cairo conference of 14–15 April 2026. It connects fragmented markets, food affordability, displacement and damage to health and education with recovery needs. Participants call for coordinated humanitarian and development responses, combining cash assistance with livelihoods and market support. These are conference proceedings, not a single causal impact study.",
       "desc_ar": "تلخص ورقة العمل رقم 28 لبرنامج دعم استراتيجية السودان في المعهد الدولي لبحوث السياسات الغذائية البحوث والمناقشات السياساتية لمؤتمر القاهرة يومي 14 و15 أبريل 2026. وتربط تجزؤ الأسواق وصعوبة تحمل كلفة الغذاء والنزوح وتضرر الصحة والتعليم باحتياجات التعافي. ويدعو المشاركون إلى تنسيق الاستجابة الإنسانية والتنموية ودمج المساعدات النقدية بدعم سبل العيش والأسواق. وهذه وقائع مؤتمر، وليست دراسة منفردة لقياس الأثر السببي.",
       "source": "https://hdl.handle.net/10568/183517"
@@ -9521,7 +9592,11 @@
       "author": "Karel C. Innemée; Agnieszka Jacobson-Cielecka; Magdalena Wozniak; Dobrochna Zielińska",
       "author_ar": "كارل ك. إينيمي؛ أغنيشكا ياكوبسون تشيليتسكا؛ ماغدالينا فوزنياك؛ دوبروخنا زيلينسكا",
       "year": "2026",
-      "tags": ["Archaeology & Heritage", "Arts & Culture", "History"],
+      "tags": [
+        "Archaeology & Heritage",
+        "Arts & Culture",
+        "History"
+      ],
       "desc": "This Antiquity project report explores dress and authority in Christian Nubia between the ninth and fourteenth centuries. The Costumes of Authority project reconstructed five outfits for kings, royal mothers and a bishop using visual and textile evidence. The reconstructions investigate how clothing conveyed status and presence; they are experimental interpretations, not intact surviving garments or definitive reproductions of every historical detail.",
       "desc_ar": "يبحث تقرير المشروع المنشور في مجلة أنتيكويتي العلاقة بين اللباس والسلطة في النوبة المسيحية بين القرنين التاسع والرابع عشر. وأعاد مشروع أزياء السلطة بناء خمسة أزياء لملوك وأمهات ملوك وأسقف، مستنداً إلى الأدلة التصويرية والنسيجية. وتستكشف النماذج كيف عبّر اللباس عن المكانة والحضور؛ وهي تفسيرات تجريبية، وليست ملابس أصلية باقية بحالتها أو نسخاً تحسم كل تفصيل تاريخي.",
       "source": "https://www.cambridge.org/core/journals/antiquity/article/costumes-of-prestige-and-authority-in-christian-nubia-insights-from-archaeological-reconstruction/E18904093E1C654A2F66572470D0C283"
@@ -9532,7 +9607,10 @@
       "author": "United Nations Development Programme (UNDP)",
       "author_ar": "برنامج الأمم المتحدة الإنمائي",
       "year": "2026",
-      "tags": ["Economy & Development", "Governance & Politics"],
+      "tags": [
+        "Economy & Development",
+        "Governance & Politics"
+      ],
       "desc": "Published on 22 June 2026, this annual report reviews UNDP Sudan's work during 2025. It reports reaching 4.9 million people in ten states through health services, agricultural livelihoods, solar energy, water access, women's empowerment and peacebuilding. It sets out the programme's contribution to recovery amid conflict. The reach figures are institutional reporting, not an independent impact evaluation or a count of newly recovered livelihoods.",
       "desc_ar": "صدر هذا التقرير السنوي في 22 يونيو 2026 ويستعرض عمل برنامج الأمم المتحدة الإنمائي في السودان خلال 2025. ويفيد بوصول أنشطته إلى 4.9 مليون شخص في عشر ولايات عبر الخدمات الصحية وسبل العيش الزراعية والطاقة الشمسية والمياه وتمكين المرأة وبناء السلام. ويعرض مساهمة البرنامج في التعافي وسط النزاع. وأرقام الوصول واردة في تقرير المؤسسة نفسها، وليست تقييماً مستقلاً للأثر أو حصراً لسبل عيش استعادت عافيتها حديثاً.",
       "source": "https://www.undp.org/arab-states/publications/laying-groundwork-recovery-undp-sudan-annual-report-2025"
@@ -9543,7 +9621,9 @@
       "author": "Khalid Eltayeb Elfaki; Elsadig Musa Ahmed",
       "author_ar": "خالد الطيب الفكي؛ الصادق موسى أحمد",
       "year": "2024",
-      "tags": ["Economy & Development"],
+      "tags": [
+        "Economy & Development"
+      ],
       "desc": "Published in Research in Globalization, this study uses Sudanese data for 1978–2021 and an autoregressive distributed lag model, with robustness checks, to examine growth, globalization and financial development. It reports positive long-run associations for globalization and negative ones for financial development within its model. These historical statistical relationships are not proof of causation and do not measure the economy after the war began in 2023.",
       "desc_ar": "تستخدم هذه الدراسة المنشورة في مجلة ريسيرش إن غلوبالايزيشن بيانات السودان للفترة 1978–2021 ونموذج الانحدار الذاتي للفجوات الزمنية الموزعة، مع اختبارات للمتانة، لفحص النمو والعولمة والتطور المالي. وتسجل ارتباطات طويلة الأجل إيجابية للعولمة وسلبية للتطور المالي ضمن نموذجها. وهذه العلاقات الإحصائية التاريخية ليست دليلاً على السببية، ولا تقيس الاقتصاد بعد اندلاع الحرب في 2023.",
       "source": "https://doi.org/10.1016/j.resglo.2024.100246"
@@ -9554,7 +9634,9 @@
       "author": "May Gadallah; Nesma Mamdouh Amer; Sara Ragab; Dalia Hany",
       "author_ar": "مي جاد الله؛ نسمة ممدوح عامر؛ سارة رجب؛ داليا هاني",
       "year": "2026",
-      "tags": ["Economy & Development"],
+      "tags": [
+        "Economy & Development"
+      ],
       "desc": "ERF Working Paper 1824, published in March 2026, examines household income sources, inequality and gender wage gaps in Sudan using 2022 conditions. It compares household characteristics, education, location and public/private employment. This is a pre-war baseline, not a measurement of present wartime incomes; this summary draws on the publisher’s abstract.",
       "desc_ar": "تبحث ورقة العمل رقم 1824 الصادرة عن منتدى البحوث الاقتصادية في مارس 2026 مصادر دخل الأسر والتفاوت وفجوات الأجور بين الجنسين في السودان استناداً إلى أوضاع عام 2022. وتقارن بحسب خصائص الأسر والتعليم والموقع والعمل في القطاعين العام والخاص. وهي خط أساس لما قبل الحرب، وليست قياساً للدخل خلال الحرب الراهنة؛ ويستند هذا الملخص إلى ملخص الناشر.",
       "source": "https://erf.org.eg/publications/the-main-features-of-sudans-income-and-wage-structure-in-2022/"
@@ -9565,7 +9647,10 @@
       "author": "Joanna A. Ciesielska; Mariusz Drzewiecki; Karel Christiaan Innemée; Maciej Kurcz; Katarzyna de Lellis-Danys; Piotr Osypiński; Paweł Lech Polkowski; Katarzyna Anna Rosa; Dobrochna Zielińska",
       "author_ar": "يوانا أ. تشيشيلسكا؛ ماريوش دجيفيتسكي؛ كارل كريستيان إينيمي؛ ماتشي كورتش؛ كاتاجينا دي ليليس دانيس؛ بيوتر أوسيبينسكي؛ بافِل ليخ بولكوفسكي؛ كاتاجينا آنا روزا؛ دوبروخنا زيلينسكا",
       "year": "2026",
-      "tags": ["Archaeology & Heritage", "History"],
+      "tags": [
+        "Archaeology & Heritage",
+        "History"
+      ],
       "desc": "This Antiquity project report, published on 24 September 2026, explores the Mahas region of northern Sudan through archaeological survey and ethnographic research. A church surrounding an older rock carving provides a focus for investigating religious and social change across centuries. It is a distinct landscape-history study, not the Library’s separate study of reconstructed Christian Nubian clothing.",
       "desc_ar": "يعرض هذا التقرير عن مشروع أثري، المنشور في مجلة أنتيكويتي في 24 سبتمبر 2026، بحثاً في منطقة المحس بشمال السودان يجمع المسح الأثري والدراسة الإثنوغرافية. وتتخذ الدراسة من كنيسة تحيط بنقش صخري أقدم محوراً لفهم التحولات الدينية والاجتماعية عبر القرون. وهو بحث مستقل في تاريخ المكان، وليس دراسة إعادة بناء الأزياء النوبية المسيحية الموجودة أيضاً في المكتبة.",
       "source": "https://www.cambridge.org/core/journals/antiquity/article/miseeda-between-kingdoms-through-epochsreconstructing-a-history-of-the-mahas-region-sudan/36228B78AF514630836ECEE46ECE7C52"
@@ -9576,7 +9661,10 @@
       "author": "Habab Idriss Ahmed; Geoff Emberling",
       "author_ar": "حباب إدريس أحمد؛ جيف إمبرلينغ",
       "year": "2025",
-      "tags": ["Archaeology & Heritage", "Arts & Culture"],
+      "tags": [
+        "Archaeology & Heritage",
+        "Arts & Culture"
+      ],
       "desc": "This Antiquity guest editorial documents threats to Sudan’s archaeological heritage and responses by the National Corporation for Antiquities and Museums, Sudanese professionals and international partners during 2023–2025. It includes an update covering March–July 2025. It is a historical account of protection efforts, not a current inventory of damage or an independent impact evaluation.",
       "desc_ar": "يوثّق هذا المقال الافتتاحي لضيفَي مجلة أنتيكويتي الأخطار التي تهدد التراث الأثري السوداني واستجابة الهيئة القومية للآثار والمتاحف والمهنيين السودانيين والشركاء الدوليين خلال 2023–2025. ويتضمن تحديثاً يغطي مارس–يوليو 2025. وهو عرض تاريخي لجهود الحماية، وليس حصراً راهناً للأضرار أو تقييماً مستقلاً لأثر تلك الجهود.",
       "source": "https://www.cambridge.org/core/journals/antiquity/article/archaeology-and-cultural-heritage-in-wartime-sudan-20232025/DF3E9D9EC1C8D76146648B96D49DE131"
