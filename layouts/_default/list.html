@@ -245,6 +245,12 @@ article.first-entry.home-info::before { display: none !important; }
 .k-section-head h2 { font-size: 1.25rem; margin: 0; color: var(--primary); }
 .k-section-head a { font-size: 13px; color: var(--secondary); text-decoration: none; }
 .k-section-head a:hover { color: var(--primary); }
+.k-update-badge {
+  display: inline-flex; align-items: center; min-height: 26px;
+  padding: 4px 9px; border: 1px solid rgba(184, 141, 0, 0.35);
+  border-radius: 999px; background: rgba(255, 199, 0, 0.12);
+  color: var(--primary); font-size: 11px; font-weight: 700; line-height: 1.3;
+}
 
 /* ── Latest editorial articles ── */
 .k-article-grid {
@@ -770,6 +776,7 @@ html[data-theme="dark"] .k-nile-home-kicker { color: #ffd84d; }
     <div>
       <p class="k-nile-home-kicker">{{ if $isAr }}مختارات رقمية{{ else }}Digital reading selections{{ end }}</p>
       <h2 id="nile-home-heading">{{ if $isAr }}من مكتبة النيل{{ else }}From Nile Bookstore{{ end }}</h2>
+      <span class="k-update-badge" data-daily-update-badge>{{ if $isAr }}المختارات التالية: غدًا{{ else }}Next selection: tomorrow{{ end }}</span>
     </div>
     <p class="k-nile-home-disclosure">{{ if $isAr }}مكتبة النيل مشروع منفصل عن تحرير كاندكة. الروابط التالية ترويجية وواضحة المصدر.{{ else }}Nile Bookstore is separate from Kandaka’s editorial work. These clearly identified links are promotional.{{ end }}</p>
   </div>
@@ -802,6 +809,16 @@ html[data-theme="dark"] .k-nile-home-kicker { color: #ffd84d; }
     cards.forEach((card, index) => {
       card.hidden = !visible.has(index);
     });
+
+    const badge = document.querySelector('[data-daily-update-badge]');
+    if (badge) {
+      const next = new Date((day + 1) * 86400000);
+      const isArabic = document.documentElement.lang === 'ar';
+      const date = new Intl.DateTimeFormat(isArabic ? 'ar' : 'en', {
+        month: 'short', day: 'numeric', timeZone: 'UTC'
+      }).format(next);
+      badge.textContent = `${isArabic ? 'المختارات التالية' : 'Next selection'}: ${date}`;
+    }
   })();
 </script>
 
@@ -810,7 +827,10 @@ html[data-theme="dark"] .k-nile-home-kicker { color: #ffd84d; }
 
   {{/* ── Sudan in Images (dynamic, from content/images/) ── */}}
   <section class="k-section" aria-labelledby="photos-heading">
-    <div class="k-section-head"><h2 id="photos-heading">{{ if $isAr }}السودان بالصور{{ else }}Sudan in Images{{ end }}</h2></div>
+    <div class="k-section-head">
+      <h2 id="photos-heading">{{ if $isAr }}السودان بالصور{{ else }}Sudan in Images{{ end }}</h2>
+      <span class="k-update-badge">{{ if $isAr }}التحديث المراجع التالي: السبت{{ else }}Next reviewed update: Saturday{{ end }}</span>
+    </div>
     {{ partial "photo-update-notice.html" . }}
     <div class="k-photo-stack">
     {{ range $homepagePhotos }}
