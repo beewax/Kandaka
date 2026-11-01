@@ -449,6 +449,7 @@ html[data-theme="dark"] .k-nile-home-kicker { color: #ffd84d; }
 .k-nile-home-disclosure { max-width: 42ch; margin: 0; color: var(--secondary); font-size: 12px; line-height: 1.5; text-align: end; }
 .k-nile-home-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
 .k-nile-home-card { display: flex; flex-direction: column; min-height: 190px; padding: 18px; border: 1px solid var(--border); border-radius: 10px; background: var(--theme); }
+.k-nile-home-card[hidden] { display: none; }
 .k-nile-home-cover { width: 100%; height: 180px; margin: 0 0 15px; border-radius: 7px; background: var(--entry); object-fit: contain; }
 .k-nile-home-card h3 { margin: 0 0 9px; font: 700 1.03rem/1.35 Georgia, serif; }
 .k-nile-home-card p { margin: 0 0 14px; color: var(--secondary); font-size: 13px; line-height: 1.55; }
@@ -764,8 +765,7 @@ html[data-theme="dark"] .k-nile-home-kicker { color: #ffd84d; }
 {{/* ══════════════════ NILE BOOKSTORE SHOWCASE ══════════════════ */}}
 {{- $nileConfig := hugo.Data.nile_promotions }}
 {{- $nilePool := $nileConfig.default_pool }}
-{{- $nileStart := mod (div now.Unix 86400) (len $nilePool) }}
-<section class="k-nile-home" aria-labelledby="nile-home-heading">
+<section class="k-nile-home" aria-labelledby="nile-home-heading" data-nile-rotation>
   <div class="k-nile-home-head">
     <div>
       <p class="k-nile-home-kicker">{{ if $isAr }}مختارات رقمية{{ else }}Digital reading selections{{ end }}</p>
@@ -773,13 +773,12 @@ html[data-theme="dark"] .k-nile-home-kicker { color: #ffd84d; }
     </div>
     <p class="k-nile-home-disclosure">{{ if $isAr }}مكتبة النيل مشروع منفصل عن تحرير كاندكة. الروابط التالية ترويجية وواضحة المصدر.{{ else }}Nile Bookstore is separate from Kandaka’s editorial work. These clearly identified links are promotional.{{ end }}</p>
   </div>
-  <div class="k-nile-home-grid">
-    {{- range seq 0 2 }}
-      {{- $offerID := index $nilePool (mod (add $nileStart .) (len $nilePool)) }}
+  <div class="k-nile-home-grid" data-nile-rotation-grid>
+    {{- range $i, $offerID := $nilePool }}
       {{- $offer := index $nileConfig.offers $offerID }}
       {{- $copy := index $offer $.Site.Language.Lang | default $offer.en }}
       {{- $url := printf "%s?%s" $offer.url (querify "utm_source" "kandaka" "utm_medium" "homepage" "utm_campaign" "store_showcase") }}
-      <article class="k-nile-home-card">
+      <article class="k-nile-home-card" data-nile-rotation-card{{ if ge $i 3 }} hidden{{ end }}>
         <img class="k-nile-home-cover" src="{{ $offer.cover }}" alt="{{ $copy.alt }}" width="320" height="480" loading="lazy" decoding="async">
         <h3>{{ $copy.title }}</h3>
         <p>{{ $copy.description }}</p>
@@ -788,6 +787,23 @@ html[data-theme="dark"] .k-nile-home-kicker { color: #ffd84d; }
     {{- end }}
   </div>
 </section>
+<script>
+  (() => {
+    const cards = Array.from(document.querySelectorAll('[data-nile-rotation-card]'));
+    if (cards.length <= 3) return;
+
+    // Use the UTC calendar day so English and Arabic visitors receive the
+    // same three selections. Unlike Hugo's `now`, this changes without a
+    // rebuild or deployment.
+    const day = Math.floor(Date.now() / 86400000);
+    const start = day % cards.length;
+    const visible = new Set([0, 1, 2].map(offset => (start + offset) % cards.length));
+
+    cards.forEach((card, index) => {
+      card.hidden = !visible.has(index);
+    });
+  })();
+</script>
 
 {{/* ══════════════════ PHOTOS + LIBRARY ══════════════════ */}}
 <div class="k-two-col">
