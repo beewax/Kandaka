@@ -109,3 +109,24 @@ Worth remembering while looking abroad for models: Sudan has already been the so
 *Beyond the Riverside: An Alternative Sustainable Vision for Khartoum Riverfront Development*, Ibrahim Zakaria Bahreldin.
 
 *Characterization of Urban Agricultural Activities in Khartoum State*, Sahar Babiker Ahmed Abdalla — on the urban farming discussed in the greening section above.
+
+## October 2026 research update: the 5–10-minute essential-service neighborhood
+
+A walkable neighborhood is not simply a place where a school, clinic, market or water point appears on a map. It is one where residents—including older people, disabled people, children and displaced households—can reach those essentials **safely, in shade, and with reliable service** within a climate-adjusted five-to-ten-minute journey. Where heat or disability makes walking impractical, accessible feeder transport must count as part of access.
+
+UNICEF's [Sudan humanitarian mid-year report, January–June 2026](https://www.unicef.org/sudan/reports/unicef-sudan-humanitarian-mid-year-situation-report-2026) reports **120 urban water facilities constructed or rehabilitated, reaching about 2.2 million people**. These are programme monitoring figures, not proof that water flows reliably all day. UNICEF also identifies damaged staffing capacity and serious gaps in recurrent operations and maintenance. Kandaka should therefore propose a municipal service dashboard recording **hours of safe water availability, accessible distance to services, drainage function, power backup, repair time, trained technicians, spare parts, and the maintenance budget**—not only new pipes, pumps or people nominally reached.
+
+### Tested international comparisons—not ready-made Sudanese blueprints
+
+**Kibera, Nairobi:** the [Kibera Public Space Project](https://african-cities-database.org/urc-record-index/KPSP/) reports twelve community-managed spaces combining drainage, sanitation and livelihoods. Its roughly **US$630,000 aggregate construction figure** excludes staff and long-term maintenance. A Sudanese pilot should start with one flood-prone block, community agreement on land rights, an accessible shaded path and drainage repairs. Cheaper alternative: de-silt drains and connect missing footpaths before constructing a new plaza. Local masons, a drainage engineer and an accountable maintenance group are essential.
+
+**Somalia:** the [Urban Resilience Project II results](https://www.worldbank.org/en/results/2026/06/10/building-resilient-cities-and-creating-jobs-in-somalia) report **39 km of roads and 45 km of sidewalks** delivered through 2025. The reported benefits are implementation monitoring, not proof of long-term outcomes, and comparable unit costs were not established. Sudanese municipalities should first repair short gaps in footpaths and crossings between homes, schools, markets and clinics, with inclusive hiring, public procurement and maintenance safeguards.
+
+**Santiago, Chile:** a [2026 study of the implemented Paseo Bandera pedestrianization](https://doi.org/10.4206/aus.2026.n39-02) found severe mid-afternoon pedestrian heat stress, including **physiological equivalent temperature above 41°C** at observed locations. This is a comfort index, not an ambient air-temperature reading. A beautiful pedestrian street can still be unusable without continuous shade. Start with removable shade, accessible crossings and measured comfort before committing to expensive streetscape art.
+
+**Bogotá, Colombia:** [Barrios Vitales](https://www.movilidadbogota.gov.co/barrios-vitales) demonstrates reversible neighborhood street reallocation, but [WRI's evaluation](https://es.wri.org/publicaciones/aire-limpio-en-barrios-vitales) does not establish a clean causal reduction in emissions. Sudanese pilots should measure safe access, footfall, loading and deliveries, dust, traffic displacement and resident experience—not presume success from paint or traffic restrictions.
+
+**Ahmedabad, India:** [cool-roof pilots](https://www.nrdc.org/stories/climate-strategy-india-scales) report treatment of roughly 3,000 roofs. The reported US$10,450 municipal outlay and US$0.50–2 per square foot coating estimates cover different cost scopes and must not be combined into an invented unit cost. Test locally suitable limewash or reflective finishes on a few structurally safe school and clinic roofs, measuring indoor temperatures, dust-related performance loss, leakage and recoating needs. A ventilated shade roof may be cheaper where coatings fail.
+
+**Decision sequence:** quick win—map one essential-service cell and repair shade, crossings and drainage; five-year investment—scale only measured improvements with municipal maintenance finance; long term—reconfigure land use and high-capacity transit where demand and institutions justify it. Avoid eviction, unsafe land acquisition, expensive imported components and projects that leave no local maintenance capacity.
+
