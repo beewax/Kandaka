@@ -1,5 +1,21 @@
 # Library Sources — Sudan Research Discovery
 
+## Research catalogue additions — 31 October 2026 / إضافات فهرس البحوث
+
+Three bilingual, **source-linked records** were added to `data/library.json` after title, DOI and source-URL duplicate checks against the current catalogue. No PDFs, photographs or film files were mirrored; no article release schedule or approval changed. Catalogue records are distinct from claims of successful Netlify deployment.
+
+| Source | Verification and rights | Editorial use |
+| --- | --- | --- |
+| [UNICEF Sudan Humanitarian Mid-Year Situation Report 2026](https://www.unicef.org/sudan/reports/unicef-sudan-humanitarian-mid-year-situation-report-2026) | Original operational report sections reviewed; licence to rehost not verified, link only | Urban services, 5–10-minute neighborhoods, water reliability and maintenance finance |
+| [Adam, *Pedagogy Under Fire* (2026)](https://doi.org/10.1017/pub.2026.10190) | Publisher full HTML reviewed; CC BY 4.0 indicated; no PDF mirrored | Sudanese archaeology training continuity and offline/low-bandwidth education |
+| [Bashir, *Pluriversal Pasts* (2026)](https://doi.org/10.1017/S0959774326100742) | Publisher abstract/metadata reviewed; CC BY 4.0 indicated; full methods/results still pending | Community archaeology, oral history, local custodianship; not proof of unbroken historical continuity |
+
+The six international urban adaptation cases (Kibera, Somalia urban resilience, Santiago Paseo Bandera, Bogotá Barrios Vitales, Ahmedabad cool roofs and Somalia Barwaaqo) remain in `docs/research-watch-2026-10-30-art-archaeology-urban.md` as **project and evaluation leads**, not automatically catalogued as Sudan-specific academic publications. The source ledger includes implementation status, cost scope, skills, maintenance, risks, cheaper alternatives and reuse restrictions.
+
+**العربية:** أُضيفت ثلاثة سجلات بحثية بروابط المصادر وملخصات عربية وإنجليزية بعد فحص التكرار بالعنوان والمعرّف والرابط. لم تُرفع ملفات PDF أو صور محمية. تبقى الأمثلة الدولية في سجل الحلول العملية، ويجب التحقق من نشر الفهرس على الموقع بصورة مستقلة.
+
+---
+
 
 ## Verified publication / التحقق من النشر
 
