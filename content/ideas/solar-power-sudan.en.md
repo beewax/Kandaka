@@ -12,6 +12,16 @@ cover:
   relative: false
 ---
 
+> **Research update — 2 November 2026:** Added Ahmedabad cool roofs, a proposed Sudanese cooling pilot and essential-service continuity requirements.
+
+## 2 November 2026: reduce heat demand and keep essential services running
+
+Solar investment should be paired with measures that reduce the load it must serve. NRDC reports an Ahmedabad pilot treating 3,000 roofs, with a city outlay of $10,450. Its separate $0.50–$2 per square foot coating estimate has a different scope; neither figure establishes a full installed cost per Sudanese home. [NRDC, 22 May 2023](https://www.nrdc.org/stories/climate-strategy-india-scales). Reflective roofs reduce absorbed heat; they do not generate electricity or replace reliable clinical refrigeration.
+
+A Sudanese pilot could compare locally suitable limewash, reflective coatings and ventilated shade at schools, clinics and low-income homes before buying larger solar systems. Qualified workers should check roof strength, waterproofing and drainage first. Measure indoor temperature against untreated comparable rooms, electricity use, installation labour, dust-related performance loss and recoating costs through hot and rainy periods. Residents and local painters should help choose maintainable materials. Cooling benefits and total savings must be measured locally rather than promised from a foreign example.
+
+UNICEF's 2026 water report documents rehabilitation and solarization of urban facilities alongside staffing, spare-parts and maintenance-funding constraints. [UNICEF, pp. 3–4](https://www.unicef.org/sudan/media/20026/file/Sudan%20Mid-year%20SitRep%202026.pdf.pdf). The Sudanese design test should therefore be a service: potable water delivered, a vaccine refrigerator within its required temperature range, or a clinic remaining operational during an outage. Specify critical loads, storage autonomy, safe backup arrangements, trained technicians, accessible spare parts and a recurrent maintenance budget before procurement. Report hours of functioning service and downtime as well as installed kilowatts. Panels alone cannot guarantee continuity.
+
 Sudan receives between 6 and 8 kilowatt-hours of solar energy per square metre per day -- among the highest figures anywhere on the planet. The Nubian Desert, the Butana Plain, the Bayuda steppe: vast, flat, cloudless, and bathed in sunlight for 300 or more days a year. This is not a marginal resource. It is one of the largest untapped solar endowments in the world, sitting in a country that has, for most of its modern history, been unable to keep the lights on.
 
 Before the 2023 war, fewer than 45% of Sudanese households had reliable electricity access. Rural areas were far lower -- many communities had no grid connection at all. The conflict has since destroyed much of what infrastructure existed: substations bombed, transmission lines severed, generating capacity offline. Rebuilding the old system wire by wire would take a decade and billions of dollars Sudan does not have.

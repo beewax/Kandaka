@@ -12,7 +12,15 @@ cover:
   relative: false
 ---
 
-> **Evidence update in progress — October 2026:** Humanitarian access, funding, food security and protection needs have changed since this guide’s September verification. Recheck each organization’s official donation route and current operating access before giving.
+> **Monitoring update — 2 November 2026:** Added service-continuity measures. This update does not reverify the September charity assessments or donation routes.
+
+## 2 November 2026: measure continuity after the first delivery
+
+The useful question is whether people can keep using essential services, not only whether a consignment arrived. UNICEF's mid-year WASH reporting distinguishes water access from quality, quantity and institutional capacity; these measures should not be collapsed into one success figure. [UNICEF, pp. 3–4](https://www.unicef.org/sudan/media/20026/file/Sudan%20Mid-year%20SitRep%202026.pdf.pdf).
+
+For a funded programme, ask separately how many distinct people received assistance at least once, how many received coordinated food, water, health and protection support, how often delivery recurred, and how many service days were lost. State the reporting period, geography, denominator and whether figures are agency-reported or independently checked; do not add overlapping sector totals. For water and clinics, include opening hours, quality checks, medicine stock-outs, safe referrals, electricity backup, paid maintenance staff and repair funds. A vaccine target is not completed coverage, and an announced grant is not money disbursed or care delivered.
+
+Sudanese partners and recipients should help define safe complaint channels and confirm interruptions without publishing names or sensitive locations. A modest pilot can compare promised and delivered service over several reporting cycles before expansion. These are monitoring recommendations, not a new ranking of charities: the organization-by-organization assessments and donation routes below remain dated 19 September and require fresh checks before a donation decision.
 
 ## October 2026 update: access, funding and continuity
 The September guide's organization assessments should not be treated as permanent endorsements. The October reporting on the Adré crossing and attacks on humanitarian transport shows why **administrative permission to enter is not the same as safe last-mile delivery**. Compare funding gaps, staff and supply capacity, corridor security, alternative routes and confirmed delivery separately; reduced distributions can reflect underfunding or insecurity rather than inefficiency.

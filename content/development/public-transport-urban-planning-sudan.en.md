@@ -14,7 +14,19 @@ cover:
 
 <p style="font-size:0.85rem;color:#888;margin-top:0.5rem;margin-bottom:1.5rem;">Cover: Original illustration commissioned by Kandaka, 2026.</p>
 
-> **Update in progress — October 2026:** Kandaka is incorporating newer Sudan-specific evidence on multi-hazard infrastructure risk, Port Sudan's water and coastal-engineering constraints, and explosive-ordnance risks at transport and utility sites.
+> **Research update — 2 November 2026:** Added reliable neighborhood services and implemented international comparisons. The earlier October hazard-screen update is retained below.
+
+## 2 November 2026: make nearby services usable
+
+A five-to-ten-minute neighborhood needs services that function when residents arrive. UNICEF's January–June 2026 report records 120 urban water facilities built or rehabilitated, reaching 2.2 million people; the approximately 600,000 in Nyala are included in that total. Its sector assessment also identifies serious staffing and maintenance-budget losses. These are operational reports, not an independent test of continuous supply. [UNICEF, WASH section, pp. 3–4](https://www.unicef.org/sudan/media/20026/file/Sudan%20Mid-year%20SitRep%202026.pdf.pdf).
+
+For Sudan, the planning test should therefore combine an accessible, shaded walk to school, clinic, market and water with hours of potable-water availability, working drainage and sanitation, backup electricity, named repair technicians, spare parts and a recurrent budget. Residents—including displaced people, women traders, older people and disabled people—should help measure the actual journey and service interruptions. This is a proposed Sudanese pilot standard, not a claim that these conditions already exist.
+
+Foreign projects offer methods rather than ready-made blueprints. Kibera's twelve community-designed public spaces combine drainage, basic services and livelihoods; their reported $630,000 construction budget excludes staff time and cannot price a complete Sudanese programme. [KDI/ACRC case record, 2025](https://african-cities-database.org/urc-record-index/KPSP/). Somalia's Urban Resilience Project II reports 39 km of roads and 45 km of walkways completed during 2020–2025, alongside municipal capacity building. Those outputs do not establish a transferable cost per kilometre or prove equitable access everywhere. [World Bank results](https://www.worldbank.org/en/results/2026/06/10/building-resilient-cities-and-creating-jobs-in-somalia).
+
+At Paseo Bandera in Santiago, a three-day field study found extreme pedestrian heat stress despite an acclaimed street conversion. Pedestrianization needs shade and thermal testing, not just attractive paving. [Cárdenas-Jirón and Elgueta-Strange, 2026](https://ausrevista.uach.cl/index.php/ausrevista/article/view/270). Bogotá's San Felipe monitoring likewise found air-quality changes confounded by traffic recovery, weather and other factors; it does not prove that street reallocation alone reduced emissions. [WRI, 2025](https://es.wri.org/publicaciones/aire-limpio-en-barrios-vitales).
+
+A Sudanese municipality could begin with one existing service corridor: clear drains, repair missing footpaths and accessible crossings, add removable shade and protect loading space and vendors. Engineers and neighborhood representatives should agree maintenance funding and tenure protections before construction, then compare heat exposure, safe travel time, service uptime and complaints with a baseline. Expansion should depend on results and affordable upkeep, with no forced displacement disguised as improvement.
 
 ## October 2026 evidence update: every corridor needs a hazard screen
 

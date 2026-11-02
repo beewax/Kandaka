@@ -14,7 +14,15 @@ cover:
 
 <p style="font-size:0.85rem;color:#888;margin-top:0.5rem;margin-bottom:1.5rem;">Cover: Original illustration commissioned by Kandaka, 2026.</p>
 
-> **Update in progress — October 2026:** Kandaka is incorporating newer Sudan-specific evidence on wartime herd losses, veterinary-capacity destruction, domestic vaccine production and drought resilience. The article remains available while this evidence refresh is completed.
+> **Research update — 2 November 2026:** Added the Barwaaqo comparison and a proposed water, grazing and veterinary-service pilot. The earlier October evidence is retained below.
+
+## 2 November 2026: water, pasture and veterinary care before expansion
+
+Somalia's Barwaaqo project offers a relevant implementation comparison. The World Bank's May 2026 account reports 40 new or rehabilitated multi-use water points, nearly 70,000 Farmer Field School participants and more than 630,000 animals treated. Women comprise 31 percent of trained community animal-health workers. These are project-reported outputs, not an independent estimate of income gains or proof of the same results in Sudan; no comparable unit cost is established. [World Bank, Barwaaqo](https://www.worldbank.org/en/news/feature/2026/05/08/turning-water-access-into-jobs-and-livelihoods-lessons-from-barwaaqo-in-somalia).
+
+For Sudan, the useful proposition is to join water, grazing governance and veterinary access rather than finance a borehole in isolation. Pastoral associations, women livestock keepers, mobile herders, water technicians and animal-health services should agree access, dry-season abstraction limits, grazing routes and a repair fund before investment. Solar pumping is suitable only where water quality, recharge and maintenance capacity support it; cheaper pumping must not encourage groundwater depletion or concentrate grazing beyond local capacity.
+
+An initial district pilot could rehabilitate an existing hafir and schedule mobile veterinary visits before commissioning new infrastructure. Its public, aggregated measures should include dry-season water yield and quality, pump downtime, treatment coverage, herd survival, feed availability, producer income and disputes over access. Near-term herd survival takes priority over expanding slaughter or processing capacity where drought, insecurity or feed shortages make supply unreliable. This is a proposed Sudanese sequence, not a costed or approved construction programme.
 
 ## October 2026 evidence update: rebuild the system, not only the herd
 
