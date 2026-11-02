@@ -1,5 +1,11 @@
 # KANDAKA WORKPLAN
 
+## 1 November 2026 — Library acquisition reconciliation
+
+Owner authorized continuation of the three-source Library acquisition. All three were already committed in 8ce2c61 and independently found live once in each language. Correct count: 558 (557 minus two reconciled duplicates plus three). This continuation corrects the stale introduction count, completes metadata and refines bilingual source limitations. See [acquisition verification](docs/library-acquisition-2026-11-01.md) for publisher evidence, rights, Calibre checks and Rewind Forward's later-candidate status. No article text, approval, cover, draft flag, release date or automation is changed. A18's existing gate remains in force.
+
+تحققنا من وجود المصادر الثلاثة باللغتين مرة واحدة لكل مصدر؛ العدد الصحيح 558. صُححت البيانات وحدود المراجعة، وبقيت مبادرة حفظ الأفلام مرشحاً لاحقاً. لا تغيير في المقالات أو اعتمادها أو تسلسل نشرها.
+
 ## 31 October 2026 — V26-01 bilingual video collection approved for preparation
 
 Owner requests adding videos to kandaka.com in the vein of the supplied @lmsatzool Kobernarti clip and agrees to Arabic/English presentation and translation. Working collection: Sudan in Focus / السودان عن قرب. Scope: original platform embeds with creator credit, translated title/introduction, verified filming dates when available, and translated speech only after actual audio/reliable transcript review. No rehosting, altered subtitles, creator outreach, recurring automation, or changes to article release cadence authorized by this exchange.

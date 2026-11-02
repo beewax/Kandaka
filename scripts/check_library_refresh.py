@@ -7,6 +7,9 @@ from html.parser import HTMLParser
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCES = [
+    "https://doi.org/10.1017/pub.2026.10190",
+    "https://doi.org/10.1017/S0959774326100742",
+    "https://www.unicef.org/sudan/reports/unicef-sudan-humanitarian-mid-year-situation-report-2026",
     "https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2026.1846994/full",
     "https://www.gtap.agecon.purdue.edu/resources/res_display.asp?RecordID=7734",
     "https://www.sciencedirect.com/science/article/pii/S0738059326001902",
