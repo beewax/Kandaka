@@ -29,3 +29,14 @@ Fresh direct production downloads returned 558 cards in each language, each sele
 ## Validation and publication
 
 Production build, rendered bilingual validation, cover audit and subsequent production verification are recorded after completion below. No browser window or Chrome session was changed.
+
+
+### Completed verification
+
+Release commit: f4594bd4d28ceeafd58692c8c3e5c3eb67051a45. Netlify production deployment: 6ae822a6b2640cc1bd3f339c, state ready, matching commit. Published 2026-11-02T05:42:56.906Z / 1 November 2026 at 23:42:56.906 CST (America/Chicago). Independent verification completed 2026-11-02T05:43:28.099298Z / 1 November at 23:43:28 CST.
+
+Hugo 0.160.0 production build completed successfully (4,348 pages across languages; local build 495.309 seconds). Existing bilingual validator passed against both rendered Library pages: 558 cards, 17 required source records, exact localized titles/descriptions/authors and one canonical May 2025 World Bank record. Cover audit passed against 3,609 Markdown files, run from repository root. Fresh HTTPS downloads of https://kandaka.com/library/ and https://kandaka.com/ar/library/ independently confirmed 558 cards each, each selected source exactly once, exact titles/authors/summaries/source links, and corrected count/date introductions. None of the three has a download/mirrored-file field. Local machine-readable live evidence: deliverables/research/library-acquisition-live-2026-11-01.json in the project workspace.
+
+The release diff touches only Library data/indexes/inventory, its existing validator, this audit and the master record. No article content, approval state, draft flag, cover, release metadata or automation changed. Netlify's existing build command refreshes news as usual; those generated news changes are separate from article editorial releases. This evidence-only follow-up commit skips a further Netlify build.
+
+تم النشر والتحقق المستقل في 1 نوفمبر 2026 الساعة 23:43 بتوقيت شيكاغو الشتوي. اجتاز البناء وفحص الأغلفة والتحقق من صفحتي المكتبة المنشورتين الاختبارات؛ العدد 558 في كل لغة، والمصادر الثلاثة موجودة مرة واحدة مع مطابقة العناوين والمؤلفين والملخصات والروابط. لا تغيير في اعتماد المقالات أو مسوداتها أو تسلسل نشرها.
