@@ -769,58 +769,7 @@ html[data-theme="dark"] .k-nile-home-kicker { color: #ffd84d; }
 </section>
 
 {{/* ══════════════════ NILE BOOKSTORE SHOWCASE ══════════════════ */}}
-{{- $nileConfig := hugo.Data.nile_promotions }}
-{{- $nilePool := $nileConfig.default_pool }}
-<section class="k-nile-home" aria-labelledby="nile-home-heading" data-nile-rotation>
-  <div class="k-nile-home-head">
-    <div>
-      <p class="k-nile-home-kicker">{{ if $isAr }}مختارات رقمية{{ else }}Digital reading selections{{ end }}</p>
-      <h2 id="nile-home-heading">{{ if $isAr }}من مكتبة النيل{{ else }}From Nile Bookstore{{ end }}</h2>
-      <span class="k-update-badge" data-daily-update-badge>{{ if $isAr }}المختارات التالية: غدًا{{ else }}Next selection: tomorrow{{ end }}</span>
-    </div>
-    <p class="k-nile-home-disclosure">{{ if $isAr }}مكتبة النيل مشروع منفصل عن تحرير كاندكة. الروابط التالية ترويجية وواضحة المصدر.{{ else }}Nile Bookstore is separate from Kandaka’s editorial work. These clearly identified links are promotional.{{ end }}</p>
-  </div>
-  <div class="k-nile-home-grid" data-nile-rotation-grid>
-    {{- range $i, $offerID := $nilePool }}
-      {{- $offer := index $nileConfig.offers $offerID }}
-      {{- $copy := index $offer $.Site.Language.Lang | default $offer.en }}
-      {{- $url := printf "%s?%s" $offer.url (querify "utm_source" "kandaka" "utm_medium" "homepage" "utm_campaign" "store_showcase") }}
-      <article class="k-nile-home-card" data-nile-rotation-card{{ if ge $i 3 }} hidden{{ end }}>
-        <img class="k-nile-home-cover" src="{{ $offer.cover }}" alt="{{ $copy.alt }}" width="320" height="480" loading="lazy" decoding="async">
-        <h3>{{ $copy.title }}</h3>
-        <p>{{ $copy.description }}</p>
-        <a class="k-nile-home-link" href="{{ $url }}" rel="sponsored">{{ $copy.button }} →</a>
-      </article>
-    {{- end }}
-  </div>
-</section>
-<script>
-  (() => {
-    const cards = Array.from(document.querySelectorAll('[data-nile-rotation-card]'));
-    if (cards.length <= 3) return;
-
-    // Use the UTC calendar day so English and Arabic visitors receive the
-    // same three selections. Unlike Hugo's `now`, this changes without a
-    // rebuild or deployment.
-    const day = Math.floor(Date.now() / 86400000);
-    const start = day % cards.length;
-    const visible = new Set([0, 1, 2].map(offset => (start + offset) % cards.length));
-
-    cards.forEach((card, index) => {
-      card.hidden = !visible.has(index);
-    });
-
-    const badge = document.querySelector('[data-daily-update-badge]');
-    if (badge) {
-      const next = new Date((day + 1) * 86400000);
-      const isArabic = document.documentElement.lang === 'ar';
-      const date = new Intl.DateTimeFormat(isArabic ? 'ar' : 'en', {
-        month: 'short', day: 'numeric', timeZone: 'UTC'
-      }).format(next);
-      badge.textContent = `${isArabic ? 'المختارات التالية' : 'Next selection'}: ${date}`;
-    }
-  })();
-</script>
+{{ partial "nile-home-books.html" . }}
 
 {{/* ══════════════════ PHOTOS + LIBRARY ══════════════════ */}}
 <div class="k-two-col">

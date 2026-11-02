@@ -1,0 +1,27 @@
+{{- $home := hugo.Data.nile_home_books -}}
+{{- $lang := .Site.Language.Lang -}}
+{{- $copy := index $home.copy $lang | default $home.copy.en -}}
+<section class="k-nile-home" aria-labelledby="nile-home-heading" data-book-selection data-book-locale="{{ $lang }}" data-book-next-label="{{ $copy.next }}">
+  <div class="k-nile-home-head">
+    <div>
+      <p class="k-nile-home-kicker">{{ $copy.kicker }}</p>
+      <h2 id="nile-home-heading">{{ $copy.heading }}</h2>
+      <span class="k-update-badge" data-book-next>{{ $copy.fallback }}</span>
+    </div>
+    <p class="k-nile-home-disclosure">{{ $copy.disclosure }}</p>
+  </div>
+  <div class="k-nile-home-grid">
+    {{- range $i, $book := $home.items -}}
+      {{- $text := index $book $lang | default $book.en -}}
+      {{- $url := printf "%s?%s" $book.product_url (querify "utm_source" "kandaka" "utm_medium" "homepage" "utm_campaign" "catalogue_books") -}}
+      <article class="k-nile-home-card" data-book-id="{{ $book.id }}" data-cover-key="{{ $book.cover_key }}"{{ if ge $i 3 }} hidden{{ end }}>
+        <img class="k-nile-home-cover" src="{{ $book.cover }}" alt="{{ $text.title }} - {{ $text.format }}" width="320" height="480" loading="lazy" decoding="async">
+        <p class="k-nile-book-format">{{ $text.format }}</p>
+        <h3>{{ $text.title }}</h3>
+        <p>{{ $text.description }}</p>
+        <a class="k-nile-home-link" href="{{ $url }}" rel="sponsored">{{ $copy.button }} {{ if eq $lang "ar" }}&larr;{{ else }}&rarr;{{ end }}</a>
+      </article>
+    {{- end -}}
+  </div>
+</section>
+<script src="{{ "js/nile-book-selection.js" | relURL }}" defer></script>
