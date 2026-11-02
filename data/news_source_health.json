@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-02T10:38:18.922535+00:00",
+  "updated": "2026-11-02T21:28:12.375129+00:00",
   "sources": [
     {
       "id": "dabanga-en",
@@ -26,7 +26,7 @@
       "id": "bbc-africa",
       "language": "en",
       "status": "ok",
-      "items": 31,
+      "items": 32,
       "accepted": 2
     },
     {
@@ -34,7 +34,7 @@
       "language": "en",
       "status": "ok",
       "items": 25,
-      "accepted": 0
+      "accepted": 1
     },
     {
       "id": "guardian-world",
@@ -69,7 +69,7 @@
       "language": "ar",
       "status": "ok",
       "items": 12,
-      "accepted": 8
+      "accepted": 7
     },
     {
       "id": "bbc-ar",
@@ -83,14 +83,14 @@
       "language": "ar",
       "status": "ok",
       "items": 24,
-      "accepted": 1
+      "accepted": 0
     },
     {
       "id": "alaraby-ar",
       "language": "ar",
       "status": "ok",
-      "items": 158,
-      "accepted": 2
+      "items": 182,
+      "accepted": 4
     },
     {
       "id": "un-news-ar",
@@ -111,7 +111,7 @@
       "language": "ar",
       "status": "ok",
       "items": 24,
-      "accepted": 13
+      "accepted": 16
     },
     {
       "id": "ayin-ar",
@@ -153,14 +153,14 @@
       "language": "en",
       "status": "ok",
       "items": 12,
-      "accepted": 3
+      "accepted": 4
     },
     {
       "id": "tamazuj-ar",
       "language": "ar",
       "status": "ok",
       "items": 12,
-      "accepted": 6
+      "accepted": 7
     }
   ]
 }
