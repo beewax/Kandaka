@@ -1,5 +1,11 @@
 # KANDAKA WORKPLAN
 
+## 3 November 2026 — Library direct-download-first policy
+
+**Owner preference approved:** When lawful and technically feasible, host eligible full-text documents in Kandaka's own Library storage and provide a direct on-site download, rather than relying solely on publisher hyperlinks. Preserve original publisher/DOI link, author, citation, provenance, rights and checksum. Eligible: public-domain works, appropriately licensed redistribution (verify third-party figures separately), or explicit permission. When rights are uncertain/restrictive or binary access/upload fails, retain the official source/download link and clearly label the blocker; do not imply a file has been archived. Use the dedicated Kandaka library storage path/bucket, not Nile Book Store storage. Audit existing source-only entries for rights, duplicates, downloadable full texts and priority; add PDFs only after actual storage and retrieval verification. Show 'Download PDF' only for a verified direct file; otherwise 'Read at source'. Keep English/Arabic summaries, original citation, and newly added entries first. No article publication authorization is implied.
+
+
+
 ## A18 VERIFIED LIVE — approved queue complete / اكتملت سلسلة النشر المعتمدة
 
 Miseeda is independently verified live in English and Arabic. Release 0f6fc626f9fbd894bb164cddf7cf6f20ac5f7134; matching Netlify 6ae93f3215ff2dea3cb93de8. Actual publication 2026-11-03T01:56:54.581Z / 2 November 19:56:54.581 CST. Verified by 2026-11-03T03:30:20Z: complete bodies match checked build, single exact approved S. Lenarczyk cover/hash each. Approved bodies unchanged; only release metadata changed. See docs/A18-release-2026-11-02.md. Do not republish A18 or completed queue items. The approved sequence through A18 is complete; remove only its publication automation. Other monitors and all review-only draft approval boundaries remain unchanged.
