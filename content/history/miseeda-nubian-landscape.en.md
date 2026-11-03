@@ -1,11 +1,11 @@
 ---
 title: 'Miseeda: Reading Sudan’s History in One Nubian Landscape'
-date: '2026-10-28T12:00:00-05:00'
+date: '2026-11-02T19:39:09-06:00'
 author: 'Kandaka'
 category: 'History'
 description: 'A church, an older rock carving and living local memory offer a way to understand Sudanese history without turning uncertain evidence into a simple story of continuity.'
 tags: ['Sudan', 'Nubia', 'Miseeda', 'heritage']
-draft: true
+draft: false
 cover:
   image: '/images/uploads/miseeda-church-lenarczyk.png'
   alt: 'The surviving church walls at Miseeda among granite rocks, with the older petroglyph on the rock behind them.'
