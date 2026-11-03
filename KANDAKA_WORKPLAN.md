@@ -1,5 +1,15 @@
 # Kandaka Workplan
 
+## 2 November 2026 — Research-to-publication operating rule
+
+**Current standing owner instruction:** Research watches must lead to source verification, bilingual summaries and new worthy Library entries, attempts to acquire legally reusable PDFs with verified storage, and substantive updates to editable article drafts—not merely repeated recommendations. Screen the existing Library and Calibre export for duplicates first; report unavailable PDF/Calibre/R2 access and link the original rather than inventing uploads. Update `KANDAKA_MASTER_WORKPLAN.md`, `LIBRARY_SOURCES.md` and a dated acquisition log each substantive pass. Preserve article-specific approval and release gates.
+
+Five source-linked bilingual research entries and four urban/transport language-file addenda committed 2 November; repository catalogue count **563**, live deployment unverified. PDF download and binary storage were not completed. See `docs/library-acquisition-2026-11-02.md` for sources, summaries, rights and blockers. Do not silently rewrite approved A17/A18 bodies.
+
+**العربية:** قاعدة دائمة: يُربط البحث بالمكتبة والمقالات الفعلية، مع فحص التكرار والحقوق ومحاولة تنزيل ملفات PDF المسموح بها، وإضافة ملخصات ثنائية اللغة وتحديث خطة العمل. لا يُدّعى حفظ الملفات أو النشر دون تحقق. تُحفظ قواعد اعتماد المقالات ومواعيدها.
+
+---
+
 ## Approved Library additions — 20 October 2026 / إضافات المكتبة المعتمدة
 
 VERIFIED LIVE, 20 October 2026 at 17:00 CDT: three approved bilingual catalogue records added — academic resilience in Sudanese higher education; Meroitic Kedurma; prehistoric Bayuda. Live count: 545. Content commit 5b0b2c6; Netlify deployment 6ad7e3efcc6538f713953352. No full article, release schedule, stored PDF or automation changes. Publication evidence: docs/library-refresh-2026-10-20.md. / نُشرت الدراسات الثلاث المعتمدة بملخصات عربية وإنجليزية وروابط المصادر، وتحقّقنا من النسختين مباشرة في 20 أكتوبر 2026 الساعة 17:00 بتوقيت شيكاغو. أصبح عدد مواد المكتبة المنشورة 545؛ دون تغيير المقالات أو جداول النشر أو ملفات الدراسات أو الأتمتة.
