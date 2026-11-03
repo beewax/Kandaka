@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-02T21:28:12.375129+00:00",
+  "updated": "2026-11-03T05:39:28.859380+00:00",
   "sources": [
     {
       "id": "dabanga-en",
@@ -34,7 +34,7 @@
       "language": "en",
       "status": "ok",
       "items": 25,
-      "accepted": 1
+      "accepted": 0
     },
     {
       "id": "guardian-world",
@@ -89,15 +89,15 @@
       "id": "alaraby-ar",
       "language": "ar",
       "status": "ok",
-      "items": 182,
-      "accepted": 4
+      "items": 181,
+      "accepted": 5
     },
     {
       "id": "un-news-ar",
       "language": "ar",
       "status": "ok",
       "items": 30,
-      "accepted": 5
+      "accepted": 4
     },
     {
       "id": "altaghyeer-en",
@@ -139,7 +139,7 @@
       "language": "en",
       "status": "ok",
       "items": 20,
-      "accepted": 16
+      "accepted": 17
     },
     {
       "id": "sudan-transparency",
