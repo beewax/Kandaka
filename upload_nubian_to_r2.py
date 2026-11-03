@@ -1,10 +1,10 @@
 import boto3, os
 from botocore.config import Config
 
-R2_ACCESS_KEY_ID     = "b1f53194ad1d18f9a2c76ed23c39682d"
-R2_SECRET_ACCESS_KEY = "85984c671385eef6067149ad7316e0a949f36e42fbf842a0909b098c5f2c0ac6"
-ACCOUNT_ID           = "971f88758f6c5f23f2e77a3aa3fb1663"
-R2_BUCKET_NAME       = "nilebookstore-books"
+R2_ACCESS_KEY_ID     = os.environ["R2_ACCESS_KEY_ID"]
+R2_SECRET_ACCESS_KEY = os.environ["R2_SECRET_ACCESS_KEY"]
+ACCOUNT_ID           = os.environ["CLOUDFLARE_ACCOUNT_ID"]
+R2_BUCKET_NAME       = "kandaka-library"
 ENDPOINT_URL         = "https://" + ACCOUNT_ID + ".r2.cloudflarestorage.com"
 BASE_URL             = "https://pub-0c3bb637d5f54b239fe4a4ef9b08bfe3.r2.dev"
 
