@@ -1,5 +1,12 @@
 # KANDAKA WORKPLAN
 
+## A18 VERIFIED LIVE — approved queue complete / اكتملت سلسلة النشر المعتمدة
+
+Miseeda is independently verified live in English and Arabic. Release 0f6fc626f9fbd894bb164cddf7cf6f20ac5f7134; matching Netlify 6ae93f3215ff2dea3cb93de8. Actual publication 2026-11-03T01:56:54.581Z / 2 November 19:56:54.581 CST. Verified by 2026-11-03T03:30:20Z: complete bodies match checked build, single exact approved S. Lenarczyk cover/hash each. Approved bodies unchanged; only release metadata changed. See docs/A18-release-2026-11-02.md. Do not republish A18 or completed queue items. The approved sequence through A18 is complete; remove only its publication automation. Other monitors and all review-only draft approval boundaries remain unchanged.
+
+نُشر «مسيدة» باللغتين مع الغلاف المعتمد وتحققنا من النصين كاملين. اكتملت سلسلة المقالات المعتمدة حتى A18؛ تُنهى أتمتة نشر هذه السلسلة وحدها، وتبقى المسودات غير المعتمدة والجداول الأخرى على حالها.
+
+
 ## 2 November 2026 — Standing research-to-Library and article workflow / قاعدة دائمة للبحث والمكتبة والمقالات
 
 **Automation:** Existing Kandaka Research Watch prompt updated 2 November 2026 to carry these same instructions on future scheduled runs; its Monday/Thursday schedule was preserved. This does not guarantee unattended PDF uploads when permissions or binary access are unavailable.
