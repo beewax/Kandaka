@@ -1,5 +1,17 @@
 # KANDAKA WORKPLAN
 
+## 2 November 2026 — Standing research-to-Library and article workflow / قاعدة دائمة للبحث والمكتبة والمقالات
+
+**Owner direction:** Do not stop at research recommendations. For every meaningful research watch, search for additional worthy original papers, datasets, official reports, art/cinema/heritage sources and implemented international comparators; screen current Library and Calibre export first; verify sources, dates, licenses, duplicates and whether the full text was actually reviewed. Where legally permitted and technically accessible, obtain and verify PDF files for Kandaka's library storage; otherwise link the official source, explain the blocker and never claim storage. Write substantive bilingual Library summaries, revise editable articles or create review-gated new article ideas, and update this master workplan and `LIBRARY_SOURCES.md` on each substantive pass. Preserve individual article approval, cover, translation and publication controls. Record real commit/deployment evidence separately.
+
+**Executed this pass:** Five new bilingual source-linked entries in `data/library.json`: SUM Middle Stone Age database; Sudan Nile flood susceptibility; Omdurman heat; World Bank *Urban Awakening*; Suakin urban regeneration. Repository catalogue count **563** (previously 558), live site not independently verified. Four urban/transport article language files received dated November evidence addenda. No PDFs were stored: official Nature PDF download failed and no verified binary upload path to Kandaka R2/Calibre was available. Full rights, source review level, download limitations, commits and next steps: [2 November acquisition log](docs/library-acquisition-2026-11-02.md). This is not authorization to alter A17's approved published text or the A18 release package.
+
+**Next editorial candidates:** Sudan cool-roofs pilot (original bilingual case-study draft, no automatic publication); Suakin heritage-led regeneration; safe archaeological data stewardship; local municipal finance and flood-safe 5–10-minute neighborhoods. For each, compare measured outcomes, implementation and maintenance costs, skills, cheaper alternatives and Sudan-specific risks. Verify Netlify live catalogue and article deployment separately.
+
+**العربية:** تعليمات دائمة: لا تتوقف المتابعة عند التوصيات. افحص المكتبة وفهرس كاليبر والتكرار والحقوق أولاً؛ ابحث عن أبحاث جديدة جديرة بالإضافة؛ حاول تنزيل ملفات PDF المسموح بها والتحقق منها وحفظها عند توفر مسار رفع موثوق، وإلا فاربط المصدر الأصلي. أضف ملخصات عربية وإنجليزية، وحدّث المقالات المسموح تعديلها، وسجّل ما تم وما تعذر في خطة العمل وسجل المصادر في كل دورة. أُضيفت خمسة سجلات بحثية وأربعة تحديثات للمقالات في المستودع؛ عدد السجلات 563، ولم يُثبت النشر الحي أو حفظ ملفات PDF. لا تتغير صلاحيات نشر المقالات المعتمدة.
+
+---
+
 ## 1 November 2026 — Library acquisition reconciliation
 
 Owner authorized continuation of the three-source Library acquisition. All three were already committed in 8ce2c61 and independently found live once in each language. Correct count: 558 (557 minus two reconciled duplicates plus three). This continuation corrects the stale introduction count, completes metadata and refines bilingual source limitations. See [acquisition verification](docs/library-acquisition-2026-11-01.md) for publisher evidence, rights, Calibre checks and Rewind Forward's later-candidate status. No article text, approval, cover, draft flag, release date or automation is changed. A18's existing gate remains in force.
