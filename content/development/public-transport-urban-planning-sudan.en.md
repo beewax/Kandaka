@@ -290,3 +290,12 @@ The objective is not a city without cars. It is a city in which a car is a choic
 - Morocco National Railways Office, [2025 train procurement and industrial-compensation commitments](https://www.oncf.ma/fr/Actualites/Attribution-des-marches-d-acquisition-de-trains).
 
 *Research was refreshed on 7 September 2026. No route shown or technology named here is a construction-ready proposal. Post-war settlement, demand, damage, accessibility and whole-life-cost evidence must be collected with residents and operators before a corridor is selected.*
+
+## November 2026 evidence update: safe corridors and accessible jobs
+
+The [June 2026 Sudan flood-susceptibility study](https://doi.org/10.1038/s41598-026-58194-7) reinforces the need to screen every proposed transit corridor, station, depot and pedestrian route for river flooding, blocked drains and safe evacuation access. Its reported 97% model classification accuracy does not certify a particular bridge or road; local flood records and engineering checks remain essential.
+
+The [Karary University Omdurman heat study](https://doi.org/10.5772/intechopen.1016887) supports mapping hot surfaces, but its air-temperature estimates need validation. For a real transit pilot, collect pedestrian-level shade, heat, dust and waiting-time observations, including wheelchair-accessible routes and sheltered stops. A stop within five minutes on a map is not accessible if the crossing is unsafe or the walk is unshaded in extreme heat.
+
+The World Bank's [2026 regional urban report](https://www.worldbank.org/en/publication/africa-urban-awakening) argues for connecting housing and workers to productive employment clusters and for financing urban maintenance. Kandaka should therefore evaluate transit by **reliable access to jobs and essential services per dollar**, not route length or vehicle purchases alone. Begin with low-cost crossings, bus-priority sections, drainage and shaded stops; reserve capital-intensive corridors for demonstrated demand and credible operations funding.
+
