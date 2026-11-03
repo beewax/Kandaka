@@ -18,16 +18,13 @@ geography:
 language: ar
 status: Reporting
 cluster_id: aa584c98f4b5
-corroboration_count: 2
+corroboration_count: 1
 draft: false
 author: طارق الجزولي
 image: https://sudanile.com/wp-content/uploads/2024/10/unnamed.jpg
 media_source: https://sudanile.com/%d9%87%d8%ac%d9%85%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%b3%d9%8a%d9%91%d8%b1%d8%a7%d8%aa-%d8%aa%d8%b9%d8%b7%d9%84-%d8%a7%d9%84%d8%ae%d8%af%d9%85%d8%a7%d8%aa-%d8%a7%d9%84%d8%a3%d8%b3%d8%a7%d8%b3%d9%8a
 media_reuse_basis: rss_metadata
 media_attribution: سودانايل
-related_sources:
-- source: أخبار الأمم المتحدة
-  link: https://news.un.org/feed/view/ar/story/2026/11/1145646
 clabel: إنساني
 ---
 
