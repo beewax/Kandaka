@@ -33,6 +33,10 @@ Owner authorized continuation of the three-source Library acquisition. All three
 
 تحققنا من وجود المصادر الثلاثة باللغتين مرة واحدة لكل مصدر؛ العدد الصحيح 558. صُححت البيانات وحدود المراجعة، وبقيت مبادرة حفظ الأفلام مرشحاً لاحقاً. لا تغيير في المقالات أو اعتمادها أو تسلسل نشرها.
 
+## 3 November 2026 — V26-01 on hold at owner's request
+
+Pause the bilingual video section and its first entry, كبرنارتي (Kobernarti), until the owner asks to resume. Preserve the existing drafts. Video sourcing, transcription, translation, site integration, and publication are on hold. The earlier preparation decision is retained below for context.
+
 ## 31 October 2026 — V26-01 bilingual video collection approved for preparation
 
 Owner requests adding videos to kandaka.com in the vein of the supplied @lmsatzool Kobernarti clip and agrees to Arabic/English presentation and translation. Working collection: Sudan in Focus / السودان عن قرب. Scope: original platform embeds with creator credit, translated title/introduction, verified filming dates when available, and translated speech only after actual audio/reliable transcript review. No rehosting, altered subtitles, creator outreach, recurring automation, or changes to article release cadence authorized by this exchange.
