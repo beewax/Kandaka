@@ -1,5 +1,23 @@
 # Library Sources — Sudan Research Discovery
 
+## 2 November 2026 — Five bilingual research acquisitions / خمس إضافات بحثية ثنائية اللغة
+
+**Repository-only status:** five DOI/title/URL-checked source-linked records added to `data/library.json`; total **563**. Full original PDFs were **not** uploaded to Kandaka R2 or Calibre. Production deploy not independently verified. Source, rights, review-level and PDF attempt log: [2 November acquisition report](docs/library-acquisition-2026-11-02.md).
+
+| Source | Access and summary verification | Reuse / PDF status |
+|---|---|---|
+| [SUM Sudan Middle Stone Age dataset](https://doi.org/10.5334/joad.215) | Full publisher HTML and dataset documentation; underlying OSF files inaccessible | CC BY 4.0; no coordinate tables mirrored |
+| [Sudan Nile flood susceptibility](https://www.nature.com/articles/s41598-026-58194-7.pdf) | Full article and 13-page official PDF text read; no independent model validation | CC BY 4.0 with third-party exceptions; binary download failed |
+| [Omdurman urban heat](https://www.intechopen.com/online-first/1254135) | Full HTML and methods read; unusual modeled temperatures flagged | CC BY 4.0 indicated; no PDF binary obtained |
+| [World Bank Urban Awakening](https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099092526225029466) | Official synopsis and findings reviewed; technical report not fully read | PDF available from official publisher; reuse scope unverified, link only |
+| [Suakin urban regeneration](https://doi.org/10.3389/fbuil.2026.1868485) | Full publisher HTML; 25 purposively selected interviewees, not representative survey | Frontiers CC BY; third-party figures require rights check, link only |
+
+**Standing rule:** Every meaningful watch screens existing Library and Calibre, seeks new worthy papers and datasets, checks rights and duplicates, tries to acquire PDFs where lawful and technically possible, adds qualified bilingual summaries and updates editable articles and the master workplan. Do not claim binary archiving, live deployment or article publication without independent verification.
+
+**العربية:** أُضيفت خمسة سجلات بروابطها وملخصاتها العربية والإنجليزية إلى المستودع بعد فحص التكرار. لم تُرفع ملفات PDF إلى التخزين ولم يُتحقق من النشر المباشر. يُسجّل التقرير المرتبط مستوى مراجعة كل مصدر وحقوقه وأسباب تعذر التنزيل.
+
+---
+
 ## Research catalogue additions — 31 October 2026 / إضافات فهرس البحوث
 
 Three bilingual, **source-linked records** were added to `data/library.json` after title, DOI and source-URL duplicate checks against the current catalogue. No PDFs, photographs or film files were mirrored; no article release schedule or approval changed. Catalogue records are distinct from claims of successful Netlify deployment.
