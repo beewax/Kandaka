@@ -50,6 +50,7 @@
 <header class="lib-header page-header">
   <h1>{{ .Title }}</h1>
   <div class="lib-intro">{{ .Content }}</div>
+  <p class="lib-count">{{ len site.Data.library.books }} {{ if $isAr }}وثيقة · أحدث الإضافات أولاً{{ else }}documents · Newest arrivals first{{ end }}</p>
 </header>
 
 <div class="lib-controls">
