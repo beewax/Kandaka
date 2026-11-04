@@ -1,5 +1,14 @@
 # Library Sources — Sudan Research Discovery
 
+## 3 November 2026 — Rewind Forward / الرجوع إلى الأمام
+
+Added one bilingual film preservation project profile. AFAC lists Cimatheque and Sudan Film Factory under its 2024 grant cycle. NACP confirms the 27-month project scope. The 2026 FIAF symposium identifies the Shariffe and Al-Abnoudy archival focus. The primary sources describe scope, with no final restoration inventory or public availability verified. AFAC reserves rights. The record links to the funder profile. No duplicate found in either live Library edition, repository data, inventory, Calibre export, live Calibre database or central reference catalog. Repository count is 564.
+
+أضيف سجل ثنائي اللغة لمبادرة «الرجوع إلى الأمام» لحفظ الأرشيف السينمائي. عام 2024 هو سنة المنحة. يربط السجل بصفحة المموّل، ويبيّن الملخص حدود التحقق من الترميم والإتاحة للجمهور.
+
+[AFAC project record](https://www.arabculturefund.org/Projects/7488) · [NACP project profile](https://na-cp.org/en/project/rewind-forward) · [FIAF symposium](https://www.fiafnet.org/pages/Events/2026-Rabat-Symposium-Session-3.html)
+
+
 ## 2 November 2026 — Five bilingual research acquisitions / خمس إضافات بحثية ثنائية اللغة
 
 **Repository-only status:** five DOI/title/URL-checked source-linked records added to `data/library.json`; total **563**. Full original PDFs were **not** uploaded to Kandaka R2 or Calibre. Production deploy not independently verified. Source, rights, review-level and PDF attempt log: [2 November acquisition report](docs/library-acquisition-2026-11-02.md).

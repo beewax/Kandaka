@@ -1,5 +1,14 @@
 # KANDAKA WORKPLAN
 
+## 3 November 2026 — Rewind Forward / الرجوع إلى الأمام
+
+Added one bilingual film preservation project profile. AFAC lists Cimatheque and Sudan Film Factory under its 2024 grant cycle. NACP confirms the 27-month project scope. The 2026 FIAF symposium identifies the Shariffe and Al-Abnoudy archival focus. The primary sources describe scope, with no final restoration inventory or public availability verified. AFAC reserves rights. The record links to the funder profile. No duplicate found in either live Library edition, repository data, inventory, Calibre export, live Calibre database or central reference catalog. Repository count is 564.
+
+أضيف سجل ثنائي اللغة لمبادرة «الرجوع إلى الأمام» لحفظ الأرشيف السينمائي. عام 2024 هو سنة المنحة. يربط السجل بصفحة المموّل، ويبيّن الملخص حدود التحقق من الترميم والإتاحة للجمهور.
+
+[AFAC project record](https://www.arabculturefund.org/Projects/7488) · [NACP project profile](https://na-cp.org/en/project/rewind-forward) · [FIAF symposium](https://www.fiafnet.org/pages/Events/2026-Rabat-Symposium-Session-3.html)
+
+
 ## 3 November 2026 — Library direct-download-first policy
 
 **Owner preference approved:** When lawful and technically feasible, host eligible full-text documents in Kandaka's own Library storage and provide a direct on-site download, rather than relying solely on publisher hyperlinks. Preserve original publisher/DOI link, author, citation, provenance, rights and checksum. Eligible: public-domain works, appropriately licensed redistribution (verify third-party figures separately), or explicit permission. When rights are uncertain/restrictive or binary access/upload fails, retain the official source/download link and clearly label the blocker; do not imply a file has been archived. Use the dedicated Kandaka library storage path/bucket, not Nile Book Store storage. Audit existing source-only entries for rights, duplicates, downloadable full texts and priority; add PDFs only after actual storage and retrieval verification. Show 'Download PDF' only for a verified direct file; otherwise 'Read at source'. Keep English/Arabic summaries, original citation, and newly added entries first. No article publication authorization is implied.

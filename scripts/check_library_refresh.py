@@ -7,6 +7,7 @@ from html.parser import HTMLParser
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCES = [
+    "https://www.arabculturefund.org/Projects/7488",
     "https://doi.org/10.1017/pub.2026.10190",
     "https://doi.org/10.1017/S0959774326100742",
     "https://www.unicef.org/sudan/reports/unicef-sudan-humanitarian-mid-year-situation-report-2026",
@@ -89,12 +90,13 @@ def main():
     assert wb[0]["source"].startswith("https://documents1.worldbank.org/")
     selected += wb
     for lang in ("en", "ar"):
-        intro = (ROOT / f"content/library/_index.{lang}.md").read_text(encoding="utf-8")
-        assert re.search(rf"\*{len(books)}\s", intro), "Displayed count differs from catalogue"
         if args.build:
             page = args.build / ("ar/library/index.html" if lang == "ar" else "library/index.html")
             parser = LibraryParser()
-            parser.feed(page.read_text(encoding="utf-8"))
+            html = page.read_text(encoding="utf-8")
+            unit = "وثيقة" if lang == "ar" else "documents"
+            assert f"{len(books)} {unit}" in html, "Displayed count differs from catalogue"
+            parser.feed(html)
             cards = parser.cards
             assert len(cards) == len(books), "Built card count mismatch"
             for book in selected:

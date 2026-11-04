@@ -1,6 +1,25 @@
 {
   "books": [
     {
+      "title": "Rewind Forward",
+      "title_ar": "الرجوع إلى الأمام",
+      "author": "Cimatheque – Alternative Film Center and Sudan Film Factory",
+      "author_ar": "سيماتك – مركز الفيلم البديل وسودان فيلم فاكتوري",
+      "year": "2024",
+      "tags": [
+        "Cinema",
+        "Heritage",
+        "Archives"
+      ],
+      "source": "https://www.arabculturefund.org/Projects/7488",
+      "source_label_en": "Read at source",
+      "source_label_ar": "القراءة في المصدر",
+      "citation": "Arab Fund for Arts and Culture. Rewind Forward. Regional Competitive Creativity Fund, 2024 grant cycle. Project profile.",
+      "desc": "Cimatheque and Sudan Film Factory describe a 27-month initiative to preserve the archives of underrepresented Arab filmmakers through digital restoration, training and creative reuse. A 2026 film archive symposium identifies material by Sudanese filmmaker Hussein Shariffe and Egyptian documentarian Atteyat Al-Abnoudy among its areas of focus. The funder lists 2024 as the grant year. The project profile and symposium description establish the scope. A final inventory of restored films and their public availability could not be verified.",
+      "desc_ar": "تصف سيماتك وسودان فيلم فاكتوري مبادرة مدتها 27 شهراً لصون أرشيفات سينمائيين عرب لم تحظ أعمالهم بتمثيل كافٍ، عبر الترميم الرقمي والتدريب وإعادة الاستخدام الإبداعي. وتشير ندوة لأرشيفات الأفلام في 2026 إلى أن المبادرة تهتم بمواد للسينمائي السوداني حسين شريف والمخرجة الوثائقية المصرية عطيات الأبنودي. يورد المموّل عام 2024 بوصفه سنة المنحة. يوضح سجل المشروع ووصف الندوة نطاق العمل، ولم يتسنّ التحقق من قائمة نهائية بالأفلام المرمّمة أو من إتاحتها للجمهور.",
+      "rights_note": "AFAC reserves rights. Film and image reuse permissions were not verified. Links to the project profile."
+    },
+    {
       "title": "Towards a sustainable urban regeneration: the case of the historical island of Suakin in Sudan",
       "title_ar": "نحو تجديد حضري مستدام: حالة جزيرة سواكن التاريخية في السودان",
       "author": "Hassan Abdelgadir Ahmed Mohamed; Muhammed Madandola; Djamel Boussaa; Jasim Azhar",
