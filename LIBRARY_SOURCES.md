@@ -2,7 +2,7 @@
 
 ## 3 November 2026 — Rewind Forward / الرجوع إلى الأمام
 
-Added one bilingual film preservation project profile. AFAC lists Cimatheque and Sudan Film Factory under its 2024 grant cycle. NACP confirms the 27-month project scope. The 2026 FIAF symposium identifies the Shariffe and Al-Abnoudy archival focus. The primary sources describe scope, with no final restoration inventory or public availability verified. AFAC reserves rights. The record links to the funder profile. No duplicate found in either live Library edition, repository data, inventory, Calibre export, live Calibre database or central reference catalog. Repository count is 564.
+Added one bilingual film preservation project profile. AFAC lists Cimatheque and Sudan Film Factory under its 2024 grant cycle. NACP confirms the 27-month project scope. The 2026 FIAF symposium identifies the Shariffe and Al-Abnoudy archival focus. The primary sources describe scope, with no final restoration inventory or public availability verified. AFAC reserves rights. The record links to the funder profile. No duplicate found in either live Library edition, repository data, inventory, Calibre export, live Calibre database or central reference catalog. Production deploy 6aea7770e500ed20ddbe46e4 published commit 3c1367a on 3 November at 6:09 p.m. CST. Fresh downloads verified 564 cards and one matching title, author, summary and source link in each language.
 
 أضيف سجل ثنائي اللغة لمبادرة «الرجوع إلى الأمام» لحفظ الأرشيف السينمائي. عام 2024 هو سنة المنحة. يربط السجل بصفحة المموّل، ويبيّن الملخص حدود التحقق من الترميم والإتاحة للجمهور.
 
