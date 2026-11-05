@@ -1,5 +1,12 @@
 # Library Sources — Sudan Research Discovery
 
+## 5 November 2026 — Rewind Forward viewing link
+
+DAFilms lists paid full-film streaming for Atteyat Al-Abnoudy's 12-minute Sad Song of Touha in Arabic with English subtitles. Arsenal confirms Cimatheque restored the title. The platform does not identify the streaming edition, and playback behind the paywall was not tested. The bilingual Library card now includes the DAFilms link. No current official stream was verified for The Dislocation of Amber.
+
+[DAFilms](https://dafilms.com/film/13768-sad-song-of-touha) · [Arsenal restoration credits](https://www.arsenal-berlin.de/en/news/forum-expanded-2026-unauthorised-versions/)
+
+
 ## 3 November 2026 — Rewind Forward / الرجوع إلى الأمام
 
 Added one bilingual film preservation project profile. AFAC lists Cimatheque and Sudan Film Factory under its 2024 grant cycle. NACP confirms the 27-month project scope. The 2026 FIAF symposium identifies the Shariffe and Al-Abnoudy archival focus. The primary sources describe scope, with no final restoration inventory or public availability verified. AFAC reserves rights. The record links to the funder profile. No duplicate found in either live Library edition, repository data, inventory, Calibre export, live Calibre database or central reference catalog. Production deploy 6aea7770e500ed20ddbe46e4 published commit 3c1367a on 3 November at 6:09 p.m. CST. Fresh downloads verified 564 cards and one matching title, author, summary and source link in each language.

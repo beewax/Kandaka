@@ -116,6 +116,9 @@
         <a class="lib-btn lib-btn-src" href="https://www.google.com/search?q={{ urlquery (printf "%q %s" $b.title $b.author) }}" target="_blank" rel="noopener noreferrer">{{ if $isAr }}ابحث عنه{{ else }}Find online{{ end }}</a>
         {{- end }}
       {{- end }}
+      {{- with $b.watch_url }}
+      <a class="lib-btn lib-btn-src" href="{{ . }}" target="_blank" rel="noopener noreferrer">{{ if $isAr }}{{ $b.watch_label_ar }}{{ else }}{{ $b.watch_label_en }}{{ end }}</a>
+      {{- end }}
     </div>
   </div>
   {{- end }}
