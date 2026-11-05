@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-04T19:27:34.817648+00:00",
+  "updated": "2026-11-05T01:19:33.675651+00:00",
   "sources": [
     {
       "id": "dabanga-en",
@@ -34,7 +34,7 @@
       "language": "en",
       "status": "ok",
       "items": 25,
-      "accepted": 0
+      "accepted": 2
     },
     {
       "id": "guardian-world",
@@ -48,7 +48,7 @@
       "language": "en",
       "status": "ok",
       "items": 30,
-      "accepted": 1
+      "accepted": 2
     },
     {
       "id": "african-arguments",
@@ -60,16 +60,16 @@
     {
       "id": "un-news-en",
       "language": "en",
-      "status": "ok",
-      "items": 30,
-      "accepted": 9
+      "status": "invalid_feed",
+      "items": 0,
+      "accepted": 0
     },
     {
       "id": "dabanga-ar",
       "language": "ar",
       "status": "ok",
       "items": 12,
-      "accepted": 7
+      "accepted": 8
     },
     {
       "id": "bbc-ar",
@@ -90,7 +90,7 @@
       "language": "ar",
       "status": "ok",
       "items": 163,
-      "accepted": 2
+      "accepted": 1
     },
     {
       "id": "un-news-ar",
@@ -153,7 +153,7 @@
       "language": "en",
       "status": "ok",
       "items": 12,
-      "accepted": 4
+      "accepted": 2
     },
     {
       "id": "tamazuj-ar",
