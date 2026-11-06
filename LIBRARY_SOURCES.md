@@ -1,3 +1,9 @@
+## 6 November 2026 — library access decision / قرار إتاحة المصادر
+
+**Owner direction:** Add useful nonduplicate research to the bilingual Kandaka Library immediately with a direct, working publisher/article link, citation, source-critical English/Arabic summary, and clearly stated rights status. **Do not defer inclusion to download, PDF conversion or R2 upload.** For the current three research additions the access method is an external original-article link. PDF archiving is an optional, separate rights-cleared task only if expressly requested, never an acquisition prerequisite. / **تُضاف المصادر غير المكررة إلى مكتبة كنداكة بروابط مباشرة إلى المقالات الأصلية، مع المراجع والملخصات بالعربية والإنجليزية وحالة الحقوق، دون انتظار تنزيل ملفات PDF أو رفعها.**
+
+The three 6 November records are flagged `access_type: external_article` in `data/library.json` and retain their original source URLs. This changes the catalogue workflow, not the approved article bodies or site deployment.
+
 ## 6 November 2026 — research acquisition / إضافة بحثية
 
 - **Urgent safeguarding measures for Sudanese cultural heritage / تدابير عاجلة لحماية التراث الثقافي السوداني** — https://www.unesco.org/en/culture-emergencies/heritage-emergency-fund/urgent-safeguarding-measures-sudanese-cultural-heritage. UNESCO official webpage; no explicit reuse licence for page or third-party museum photographs. Full webpage reviewed; no downloadable original report PDF identified or stored. Link only.
@@ -255,9 +261,9 @@ Sources marked "Free, direct PDF" above (RePEc-linked originals, SSRN, IMF, AERC
 
 1. Run the search patterns above for topics not yet well covered (see `data/library.json` tags for coverage gaps).
 2. Dedupe candidate titles/URLs against `data/library.json` (`source` and lowercased `title`).
-3. For each candidate, test with `curl -sL -o test.pdf "<url>" && file test.pdf` — if it returns a real PDF, host it on R2 (see `upload_new_batch.py` pattern); if not, add as link-only.
+3. Confirm the original publisher or article URL is directly accessible. Add the nonduplicate entry with `source`, `access_type: external_article`, English/Arabic link labels and rights note. Do not wait for PDF download, conversion or R2 upload; archive files only as a separate rights-cleared task when requested.
 4. Write bilingual (EN/AR) `title_ar`/`desc_ar` fields.
-5. Append to `data/library.json`, and to `library_inventory.csv` for any R2-hosted files. Record approved publication source links, verification date and duplicate decisions in this resource file (`LIBRARY_SOURCES.md`), and link the update from `KANDAKA_WORKPLAN.md`. Existing published resources above are not a fresh addition queue.
+5. Append to `data/library.json`; update `library_inventory.csv` only if a separate authorized R2 file archive is actually made. Record approved publication source links, verification date and duplicate decisions in this resource file (`LIBRARY_SOURCES.md`), and link the update from `KANDAKA_WORKPLAN.md`. Existing published resources above are not a fresh addition queue.
 6. Stage with `git add data/library.json library_inventory.csv` — do NOT `git add -A` (repo has unrelated line-ending noise across hundreds of files).
 7. User commits/pushes manually from PowerShell, then manually triggers the Netlify deploy (push alone does not auto-deploy).
 
