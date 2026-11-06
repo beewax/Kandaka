@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-06T10:28:26.785239+00:00",
+  "updated": "2026-11-06T18:58:34.725938+00:00",
   "sources": [
     {
       "id": "dabanga-en",
       "language": "en",
-      "status": "fetch_failed",
-      "items": 0,
-      "accepted": 0
+      "status": "ok",
+      "items": 12,
+      "accepted": 8
     },
     {
       "id": "sudan-tribune-ar",
@@ -26,7 +26,7 @@
       "id": "bbc-africa",
       "language": "en",
       "status": "ok",
-      "items": 34,
+      "items": 30,
       "accepted": 2
     },
     {
@@ -34,7 +34,7 @@
       "language": "en",
       "status": "ok",
       "items": 25,
-      "accepted": 0
+      "accepted": 1
     },
     {
       "id": "guardian-world",
@@ -55,7 +55,7 @@
       "language": "en",
       "status": "ok",
       "items": 10,
-      "accepted": 3
+      "accepted": 4
     },
     {
       "id": "un-news-en",
@@ -67,30 +67,30 @@
     {
       "id": "dabanga-ar",
       "language": "ar",
-      "status": "fetch_failed",
-      "items": 0,
-      "accepted": 0
+      "status": "ok",
+      "items": 12,
+      "accepted": 7
     },
     {
       "id": "bbc-ar",
       "language": "ar",
       "status": "ok",
-      "items": 24,
-      "accepted": 0
+      "items": 25,
+      "accepted": 1
     },
     {
       "id": "france24-ar",
       "language": "ar",
       "status": "ok",
       "items": 24,
-      "accepted": 0
+      "accepted": 1
     },
     {
       "id": "alaraby-ar",
       "language": "ar",
       "status": "ok",
-      "items": 174,
-      "accepted": 2
+      "items": 161,
+      "accepted": 4
     },
     {
       "id": "un-news-ar",
@@ -111,7 +111,7 @@
       "language": "ar",
       "status": "ok",
       "items": 24,
-      "accepted": 18
+      "accepted": 16
     },
     {
       "id": "ayin-ar",
@@ -139,7 +139,7 @@
       "language": "en",
       "status": "ok",
       "items": 20,
-      "accepted": 12
+      "accepted": 13
     },
     {
       "id": "sudan-transparency",
@@ -153,14 +153,14 @@
       "language": "en",
       "status": "ok",
       "items": 12,
-      "accepted": 4
+      "accepted": 1
     },
     {
       "id": "tamazuj-ar",
       "language": "ar",
       "status": "ok",
       "items": 12,
-      "accepted": 7
+      "accepted": 5
     }
   ]
 }
