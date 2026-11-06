@@ -1,5 +1,12 @@
 # KANDAKA WORKPLAN
 
+## 5 November 2026 — Kisra and Asida individually approved for bilingual publication
+
+Owner reviewed the complete English article and both actual photographs, then explicitly authorized final checks and publication in Arabic and English with those photos. Prepared culture/kisra-asida-sudan-food-history.{en,ar}.md from the existing full bilingual review drafts. Kisra photograph is the single cover; asida is the body image. Preserve source links, Evon2023 CC BY-SA 4.0 and Shiraz Shosho CC0, date/locality limits. Final source refresh supports the reviewed claims; no thesis change. Removed internal draft/review labels only and retained public source-scope disclosures. Other review drafts remain unapproved. Release/deployment/live verification recorded separately in docs/kisra-asida-release-2026-11-05.md.
+
+اعتمد المالك نشر مقال الكسرة والعصيدة باللغتين مع الصورتين المعروضتين. تُستخدم صورة الكسرة غلافاً وصورة العصيدة داخل النص، مع حفظ الاعتمادات والتراخيص وحدود التواريخ والمصادر. لا يشمل الاعتماد المسودات الأخرى.
+
+
 ## 3 November 2026 — Rewind Forward / الرجوع إلى الأمام
 
 Added one bilingual film preservation project profile. AFAC lists Cimatheque and Sudan Film Factory under its 2024 grant cycle. NACP confirms the 27-month project scope. The 2026 FIAF symposium identifies the Shariffe and Al-Abnoudy archival focus. The primary sources describe scope, with no final restoration inventory or public availability verified. AFAC reserves rights. The record links to the funder profile. No duplicate found in either live Library edition, repository data, inventory, Calibre export, live Calibre database or central reference catalog. Repository count is 564.
