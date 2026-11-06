@@ -1,5 +1,12 @@
 # KANDAKA WORKPLAN
 
+## Kisra and Asida VERIFIED LIVE — 5 November 2026
+
+Published English and Arabic with both approved, unmodified photographs. Release commit 95009e92e0919c9498756232db981b364814375e; matching successful Netlify deployment 6aed18f082a30d991b4457d1. Actual publication 2026-11-06T00:02:53.473Z / 5 November 18:02:53 CST. Complete live bodies match checked production: 5857 EN / 4456 AR characters, six sections, one cover and one asida image each. Both live image SHA256 hashes match reviewed originals; credits, licences, alt text and Arabic RTL retained. Receipt docs/kisra-asida-release-2026-11-05.md. No other draft approvals or schedules changed.
+
+نُشر مقال الكسرة والعصيدة باللغتين مع الصورتين المعتمدتين، وتحققنا من النصين كاملين والصورتين والاعتمادات والتراخيص. لا تغيير في اعتماد المسودات الأخرى.
+
+
 ## 5 November 2026 — Kisra and Asida individually approved for bilingual publication
 
 Owner reviewed the complete English article and both actual photographs, then explicitly authorized final checks and publication in Arabic and English with those photos. Prepared culture/kisra-asida-sudan-food-history.{en,ar}.md from the existing full bilingual review drafts. Kisra photograph is the single cover; asida is the body image. Preserve source links, Evon2023 CC BY-SA 4.0 and Shiraz Shosho CC0, date/locality limits. Final source refresh supports the reviewed claims; no thesis change. Removed internal draft/review labels only and retained public source-scope disclosures. Other review drafts remain unapproved. Release/deployment/live verification recorded separately in docs/kisra-asida-release-2026-11-05.md.
