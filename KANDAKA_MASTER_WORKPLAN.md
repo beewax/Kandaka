@@ -1,5 +1,11 @@
 # KANDAKA WORKPLAN
 
+## Research acquisition — 6 November 2026 / متابعة البحوث
+
+3 source-linked bilingual catalogue records prepared for Sudan museum collections, displaced living heritage and implemented East African community drainage. See docs/research-acquisition-2026-11-06.md for full critical review and new ART-ICH, ARCH-MUSEUM and URBAN-DRAINS editorial candidates. No PDF archived or protected article altered, and no live deployment verified. Local Calibre database reconciliation remains pending.
+
+
+
 ## Kisra and Asida VERIFIED LIVE — 5 November 2026
 
 Published English and Arabic with both approved, unmodified photographs. Release commit 95009e92e0919c9498756232db981b364814375e; matching successful Netlify deployment 6aed18f082a30d991b4457d1. Actual publication 2026-11-06T00:02:53.473Z / 5 November 18:02:53 CST. Complete live bodies match checked production: 5857 EN / 4456 AR characters, six sections, one cover and one asida image each. Both live image SHA256 hashes match reviewed originals; credits, licences, alt text and Arabic RTL retained. Receipt docs/kisra-asida-release-2026-11-05.md. No other draft approvals or schedules changed.
