@@ -1,3 +1,11 @@
+## 6 November 2026 — research acquisition / إضافة بحثية
+
+- **Urgent safeguarding measures for Sudanese cultural heritage / تدابير عاجلة لحماية التراث الثقافي السوداني** — https://www.unesco.org/en/culture-emergencies/heritage-emergency-fund/urgent-safeguarding-measures-sudanese-cultural-heritage. UNESCO official webpage; no explicit reuse licence for page or third-party museum photographs. Full webpage reviewed; no downloadable original report PDF identified or stored. Link only.
+- **UNESCO and Partners Strengthen Efforts to Safeguard the Living Heritage of Displaced Communities in Khartoum / اليونسكو وشركاؤها يعززون صون التراث الحي للمجتمعات النازحة في الخرطوم** — https://www.unesco.org/en/articles/unesco-and-partners-strengthen-efforts-safeguard-living-heritage-displaced-communities-khartoum. UNESCO editorial news and photographs not confirmed openly licensed; no original PDF offered on inspected page. Full HTML reviewed, source-linked only; no media stored.
+- **Realising urban nature-based solutions in Nairobi and Dar es Salaam / تنفيذ حلول حضرية قائمة على الطبيعة في نيروبي ودار السلام** — https://african-cities-database.org/urc-record-index/ruNBS/. ACRC case webpage; study and photographs have no independently confirmed rehosting licence. Original PDF download control visible but downloadable binary and page count not independently verified; no file stored. Link publisher only.
+
+Full metadata, bilingual source-critical summaries and implementation caveats are in data/library.json; 6 November research log: docs/research-acquisition-2026-11-06.md. No PDF binary hosted, no article release, and no production deploy verified. / لم يُحفظ أي PDF ولم تُنشر مقالات جديدة.
+
 # Library Sources — Sudan Research Discovery
 
 ## 5 November 2026 — Rewind Forward viewing link
