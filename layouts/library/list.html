@@ -103,6 +103,9 @@
       {{- end }}
     </div>
     <div class="lib-action">
+      {{- if eq $b.access_type "external_article" }}
+      <a class="lib-btn lib-btn-src" href="{{ $b.source }}" target="_blank" rel="noopener noreferrer">{{ if $isAr }}{{ $b.access_label_ar | default "قراءة المقال الأصلي (رابط خارجي)" }}{{ else }}{{ $b.access_label_en | default "Read original article (external link)" }}{{ end }}</a>
+      {{- else }}
       {{- with .download }}
       <a class="lib-btn lib-btn-dl" href="{{ . }}" target="_blank" rel="noopener">{{ partial "library-file-label.html" (dict "book" $b "isAr" $isAr) }}</a>
       {{- else }}
@@ -115,6 +118,7 @@
         {{- else }}
         <a class="lib-btn lib-btn-src" href="https://www.google.com/search?q={{ urlquery (printf "%q %s" $b.title $b.author) }}" target="_blank" rel="noopener noreferrer">{{ if $isAr }}ابحث عنه{{ else }}Find online{{ end }}</a>
         {{- end }}
+      {{- end }}
       {{- end }}
       {{- with $b.watch_url }}
       <a class="lib-btn lib-btn-src" href="{{ . }}" target="_blank" rel="noopener noreferrer">{{ if $isAr }}{{ $b.watch_label_ar }}{{ else }}{{ $b.watch_label_en }}{{ end }}</a>
