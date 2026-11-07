@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T17:30:51.792594+00:00",
+  "updated": "2026-11-07T21:31:24.666676+00:00",
   "window_days": 30,
   "en": {
     "balanced": [
@@ -4141,19 +4141,43 @@
   "ar": {
     "balanced": [
       {
-        "Title": "الجيش يسيطر على «عيال بخيت» ويسقط مسيّرة بغرب كردفان",
+        "Title": "نداء إنساني عاجل لإنقاذ آلاف النازحين في محلية «أمبرو» بشمال دارفور",
         "Lang": "ar",
-        "Date": "2026-11-07T17:12:45+00:00",
-        "Permalink": "https://sudantribune.net/article/320973",
+        "Date": "2026-11-07T19:45:35+00:00",
+        "Permalink": "https://sudantribune.net/article/320986",
         "Params": {
-          "description": "الأبيض 7 نوفمبر 2026 – أعلن الجيش السوداني، السبت، سيطرته على بلدة “عيال بخيت” الاستراتيجية بولاية غرب كردفان، بالتزامن مع إسقاطه طائرة مسيّرة طويلة المدى تابعة لقوات الدعم السريع في الولاية ذاتها. ومنذ منتصف الأسبوع الماضي استأنف الجيش السوداني والقوات المتحالفة معه عملياته العسكرية في إقليم كردفان، محققًا تقدمًا ميدانيًا مكّنه من السيطرة على مواقع استراتيجية جنوب وغرب مدينة الأبيض بولاية شمال كردفان. وتأتي هذه العم",
+          "description": "أمبرو 7 نوفمبر 2026 – أطلق ناشطون، السبت، نداءً إنسانيًا لإنقاذ مئات الأسر النازحة في مناطق متفرقة من ولاية شمال دارفور جراء هجمات شنتها قوات الدعم السريع. وكانت الدعم السريع هاجمت مطلع الأسبوع الماضي مناطق “مزبد، أروري، أم مراحيك وأبو حراز” التابعة لمحلية أمبرو بولاية شمال دارفور، والتي تقطنها غالبية من عرقية الزغاوة الأفريقية. وواجهت الدعم السريع خلال هجومها على هذه البلدات اتهامات بارتكاب انتهاكات واسعة بحق المدني",
           "source": "Sudan Tribune Arabic",
           "source_id": "sudan-tribune-ar",
           "source_class": "sudanese_journalism",
-          "link": "https://sudantribune.net/article/320973",
+          "link": "https://sudantribune.net/article/320986",
           "status": "Reporting",
           "geography": [
-            "Kordofan"
+            "Darfur"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "Humanitarian",
+          "clabel": "إنساني",
+          "language": "ar",
+          "media_attribution": "Sudan Tribune Arabic"
+        }
+      },
+      {
+        "Title": "ما حقيقة التقرير المنسوب إلى «الأناضول» بشأن مزاعم تمويل الإمارات منصات إعلامية لدعم «الدعم السريع»؟",
+        "Lang": "ar",
+        "Date": "2026-11-07T15:08:27+00:00",
+        "Permalink": "https://www.beamreports.com/2026/11/07/%d9%85%d8%a7-%d8%ad%d9%82%d9%8a%d9%82%d8%a9-%d8%a7%d9%84%d8%aa%d9%82%d8%b1%d9%8a%d8%b1-%d8%a7%d9%84%d9%85%d9%86%d8%b3%d9%88%d8%a8-%d8%a5%d9%84%d9%89-%d8%a7%d9%84%d8%a3%d9%86%d8%a7%d8%b6%d9%88",
+        "Params": {
+          "description": "ما حقيقة التقرير المنسوب إلى «الأناضول» بشأن مزاعم تمويل الإمارات منصات إعلامية لدعم «الدعم السريع»؟ مفبرك تداولت عدة حسابات على «فيسبوك» ادعاءً ينسب إلى وكالة «الأناضول» تقريرًا عن شبكة تضم 68 منصة إعلامية، يزعم أنها ممولة من الإمارات، وتعمل على دعم قوات الدعم السريع، عبر حملات إعلامية، تستهدف الجيش السوداني، بنشر الشائعات، وإعادة تدوير محتوى […] The post ما حقيقة التقرير المنسوب إلى «الأناضول» بشأن مزاعم تمويل الإم",
+          "source": "بيم ريبورتس",
+          "source_id": "beam-ar",
+          "source_class": "sudanese_journalism",
+          "link": "https://www.beamreports.com/2026/11/07/%d9%85%d8%a7-%d8%ad%d9%82%d9%8a%d9%82%d8%a9-%d8%a7%d9%84%d8%aa%d9%82%d8%b1%d9%8a%d8%b1-%d8%a7%d9%84%d9%85%d9%86%d8%b3%d9%88%d8%a8-%d8%a5%d9%84%d9%89-%d8%a7%d9%84%d8%a3%d9%86%d8%a7%d8%b6%d9%88",
+          "status": "Reporting",
+          "geography": [
+            "National"
           ],
           "image": "",
           "media_reuse_basis": "",
@@ -4161,31 +4185,7 @@
           "category": "War & Security",
           "clabel": "الحرب والأمن",
           "language": "ar",
-          "media_attribution": "Sudan Tribune Arabic"
-        }
-      },
-      {
-        "Title": "(مذبحة الضعين – الرق في السودان) لبلدو وعشاري: عن المذبحة التي لا تزال تتناسل فينا (1-2)",
-        "Lang": "ar",
-        "Date": "2026-11-07T14:27:50+00:00",
-        "Permalink": "https://sudanile.com/%d9%85%d8%b0%d8%a8%d8%ad%d8%a9-%d8%a7%d9%84%d8%b6%d8%b9%d9%8a%d9%86-%d8%a7%d9%84%d8%b1%d9%82-%d9%81%d9%8a-%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86-%d9%84%d8%a8%d9%84%d8%af%d9%88-%d9%88",
-        "Params": {
-          "description": "عرض ونقاش: الوليد محمد الأمين صدر هذا الكتاب أو قل الكتيب، أو التقرير- كما سماه واضعاه، في طبعته الأولى، وأظنها الوحيدة، في يوليو 1987م. وعلى الغلاف المبسط نجد ترويسة علوية، أو عنوانا فرعيا في الأعلى: (انتهاكات حقوق الانسان في السودان 1987م”). بينما العنوان الرئيس كان: (مذبحة الضعين- الرق في السودان). وعلى الرغم من أن الدار […] The post (مذبحة الضعين – الرق في السودان) لبلدو وعشاري: عن المذبحة التي لا تزال تتناسل فين",
-          "source": "سودانايل",
-          "source_id": "sudanile-ar",
-          "source_class": "sudanese_diaspora",
-          "link": "https://sudanile.com/%d9%85%d8%b0%d8%a8%d8%ad%d8%a9-%d8%a7%d9%84%d8%b6%d8%b9%d9%8a%d9%86-%d8%a7%d9%84%d8%b1%d9%82-%d9%81%d9%8a-%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86-%d9%84%d8%a8%d9%84%d8%af%d9%88-%d9%88",
-          "status": "Reporting",
-          "geography": [
-            "National"
-          ],
-          "image": "https://sudanile.com/wp-content/uploads/2022/06/profwalid.jpg",
-          "media_reuse_basis": "rss_metadata",
-          "related_sources": [],
-          "category": "Culture",
-          "clabel": "ثقافة",
-          "language": "ar",
-          "media_attribution": "سودانايل"
+          "media_attribution": "بيم ريبورتس"
         }
       },
       {
@@ -4210,6 +4210,30 @@
           "clabel": "أخبار السودان",
           "language": "ar",
           "media_attribution": "راديو دبنقا"
+        }
+      },
+      {
+        "Title": "(مذبحة الضعين – الرق في السودان) لبلدو وعشاري: عن المذبحة التي لا تزال تتناسل فينا (1-2)",
+        "Lang": "ar",
+        "Date": "2026-11-07T14:27:50+00:00",
+        "Permalink": "https://sudanile.com/%d9%85%d8%b0%d8%a8%d8%ad%d8%a9-%d8%a7%d9%84%d8%b6%d8%b9%d9%8a%d9%86-%d8%a7%d9%84%d8%b1%d9%82-%d9%81%d9%8a-%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86-%d9%84%d8%a8%d9%84%d8%af%d9%88-%d9%88",
+        "Params": {
+          "description": "عرض ونقاش: الوليد محمد الأمين صدر هذا الكتاب أو قل الكتيب، أو التقرير- كما سماه واضعاه، في طبعته الأولى، وأظنها الوحيدة، في يوليو 1987م. وعلى الغلاف المبسط نجد ترويسة علوية، أو عنوانا فرعيا في الأعلى: (انتهاكات حقوق الانسان في السودان 1987م”). بينما العنوان الرئيس كان: (مذبحة الضعين- الرق في السودان). وعلى الرغم من أن الدار […] The post (مذبحة الضعين – الرق في السودان) لبلدو وعشاري: عن المذبحة التي لا تزال تتناسل فين",
+          "source": "سودانايل",
+          "source_id": "sudanile-ar",
+          "source_class": "sudanese_diaspora",
+          "link": "https://sudanile.com/%d9%85%d8%b0%d8%a8%d8%ad%d8%a9-%d8%a7%d9%84%d8%b6%d8%b9%d9%8a%d9%86-%d8%a7%d9%84%d8%b1%d9%82-%d9%81%d9%8a-%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86-%d9%84%d8%a8%d9%84%d8%af%d9%88-%d9%88",
+          "status": "Reporting",
+          "geography": [
+            "National"
+          ],
+          "image": "https://sudanile.com/wp-content/uploads/2022/06/profwalid.jpg",
+          "media_reuse_basis": "rss_metadata",
+          "related_sources": [],
+          "category": "Culture",
+          "clabel": "ثقافة",
+          "language": "ar",
+          "media_attribution": "سودانايل"
         }
       },
       {
@@ -4309,30 +4333,6 @@
         }
       },
       {
-        "Title": "ما حقيقة التقرير المنسوب إلى «الأناضول» بشأن مزاعم تمويل الإمارات منصات إعلامية لدعم «الدعم السريع»؟",
-        "Lang": "ar",
-        "Date": "2026-11-07T15:08:27+00:00",
-        "Permalink": "https://www.beamreports.com/2026/11/07/%d9%85%d8%a7-%d8%ad%d9%82%d9%8a%d9%82%d8%a9-%d8%a7%d9%84%d8%aa%d9%82%d8%b1%d9%8a%d8%b1-%d8%a7%d9%84%d9%85%d9%86%d8%b3%d9%88%d8%a8-%d8%a5%d9%84%d9%89-%d8%a7%d9%84%d8%a3%d9%86%d8%a7%d8%b6%d9%88",
-        "Params": {
-          "description": "ما حقيقة التقرير المنسوب إلى «الأناضول» بشأن مزاعم تمويل الإمارات منصات إعلامية لدعم «الدعم السريع»؟ مفبرك تداولت عدة حسابات على «فيسبوك» ادعاءً ينسب إلى وكالة «الأناضول» تقريرًا عن شبكة تضم 68 منصة إعلامية، يزعم أنها ممولة من الإمارات، وتعمل على دعم قوات الدعم السريع، عبر حملات إعلامية، تستهدف الجيش السوداني، بنشر الشائعات، وإعادة تدوير محتوى […] The post ما حقيقة التقرير المنسوب إلى «الأناضول» بشأن مزاعم تمويل الإم",
-          "source": "بيم ريبورتس",
-          "source_id": "beam-ar",
-          "source_class": "sudanese_journalism",
-          "link": "https://www.beamreports.com/2026/11/07/%d9%85%d8%a7-%d8%ad%d9%82%d9%8a%d9%82%d8%a9-%d8%a7%d9%84%d8%aa%d9%82%d8%b1%d9%8a%d8%b1-%d8%a7%d9%84%d9%85%d9%86%d8%b3%d9%88%d8%a8-%d8%a5%d9%84%d9%89-%d8%a7%d9%84%d8%a3%d9%86%d8%a7%d8%b6%d9%88",
-          "status": "Reporting",
-          "geography": [
-            "National"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "War & Security",
-          "clabel": "الحرب والأمن",
-          "language": "ar",
-          "media_attribution": "بيم ريبورتس"
-        }
-      },
-      {
         "Title": "بين التعدين والنزاع الحدودي المصري السوداني، ماذا نعرف عن المنطقة التي قُتل فيها ضابطان مصريان؟",
         "Lang": "ar",
         "Date": "2026-11-06T17:02:32+00:00",
@@ -4357,6 +4357,30 @@
         }
       },
       {
+        "Title": "الدعم السريع يكثف طلعاته الجوية على محطات الوقود والمنشآت الحيوية",
+        "Lang": "ar",
+        "Date": "2026-11-05T11:01:21+00:00",
+        "Permalink": "https://sudanwarmonitor.com/p/843",
+        "Params": {
+          "description": "وطيران الجيش يستهدف ولايتي شمال وغرب كردفان ويخلف عشرات القتلى والاصابات",
+          "source": "Sudan War Monitor",
+          "source_id": "sudan-war-monitor",
+          "source_class": "analysis",
+          "link": "https://sudanwarmonitor.com/p/843",
+          "status": "Analysis",
+          "geography": [
+            "Kordofan"
+          ],
+          "image": "https://substackcdn.com/image/fetch/$s_!t7-X!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F53abf1f7-3afb-40d4-8091-622c46a78066_720x1280.jpeg",
+          "media_reuse_basis": "rss_metadata",
+          "related_sources": [],
+          "category": "War & Security",
+          "clabel": "الحرب والأمن",
+          "language": "ar",
+          "media_attribution": "Sudan War Monitor"
+        }
+      },
+      {
         "Title": "كيف تدمر المسيرات شرايين الحياة في السودان؟",
         "Lang": "ar",
         "Date": "2026-11-05T16:24:18+00:00",
@@ -4378,30 +4402,6 @@
           "clabel": "إنساني",
           "language": "ar",
           "media_attribution": "عاين"
-        }
-      },
-      {
-        "Title": "في ذكري سقوط الفاشر لم تنتهِ المعاناة يوم سقطت الفاشر ’’ شهادة طبيب ‘‘",
-        "Lang": "ar",
-        "Date": "2026-11-05T07:59:13+00:00",
-        "Permalink": "https://sudanwarmonitor.com/p/c30",
-        "Params": {
-          "description": "رحلة الخروج من السودان وذكروا العالم",
-          "source": "Sudan War Monitor",
-          "source_id": "sudan-war-monitor",
-          "source_class": "analysis",
-          "link": "https://sudanwarmonitor.com/p/c30",
-          "status": "Analysis",
-          "geography": [
-            "Darfur"
-          ],
-          "image": "https://substackcdn.com/image/fetch/$s_!s1U5!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F524498d3-42fd-464f-bbdb-16022aaaa937_1738x628.png",
-          "media_reuse_basis": "rss_metadata",
-          "related_sources": [],
-          "category": "Sudan News",
-          "clabel": "أخبار السودان",
-          "language": "ar",
-          "media_attribution": "Sudan War Monitor"
         }
       },
       {
@@ -4573,30 +4573,6 @@
         }
       },
       {
-        "Title": "«طويلة»: مركز نزوح رئيسي يعكس عمق الأزمة الإنسانية في دارفور",
-        "Lang": "ar",
-        "Date": "2026-11-05T16:04:38+00:00",
-        "Permalink": "https://www.beamreports.com/2026/11/05/%d8%b7%d9%88%d9%8a%d9%84%d8%a9-%d9%85%d8%b1%d9%83%d8%b2-%d9%86%d8%b2%d9%88%d8%ad-%d8%b1%d8%a6%d9%8a%d8%b3%d9%8a-%d9%8a%d8%b9%d9%83%d8%b3-%d8%b9%d9%85%d9%82-%d8%a7%d9%84%d8%a3%d8%b2%d9%85",
-        "Params": {
-          "description": "«إن الوضع في طويلة لا يمكن النظر إليه باعتباره مجرد أزمة نزوح فحسب، وإنما يعكس أزمة إنسانية مركبة، تتداخل فيها تداعيات الحرب مع الجوع والفقر وتدهور الخدمات الصحية، وارتفاع تكاليف المعيشة وشح المساعدات الإنسانية. كما أن استمرار وصول النازحين يضع المجتمعات المستضيفة والإمكانيات المحلية المحدودة أمام ضغوط متزايدة»، بهذه الكلمات وصف الناطق الرسمي باسم المنسقية […] The post «طويلة»: مركز نزوح رئيسي يعكس عمق الأزمة الإنسان",
-          "source": "بيم ريبورتس",
-          "source_id": "beam-ar",
-          "source_class": "sudanese_journalism",
-          "link": "https://www.beamreports.com/2026/11/05/%d8%b7%d9%88%d9%8a%d9%84%d8%a9-%d9%85%d8%b1%d9%83%d8%b2-%d9%86%d8%b2%d9%88%d8%ad-%d8%b1%d8%a6%d9%8a%d8%b3%d9%8a-%d9%8a%d8%b9%d9%83%d8%b3-%d8%b9%d9%85%d9%82-%d8%a7%d9%84%d8%a3%d8%b2%d9%85",
-          "status": "Reporting",
-          "geography": [
-            "Darfur"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "Humanitarian",
-          "clabel": "إنساني",
-          "language": "ar",
-          "media_attribution": "بيم ريبورتس"
-        }
-      },
-      {
         "Title": "الأمم المتحدة: بعثة يونيسفا تحقق نتائج ملموسة في أبيي، والوضع الأمني لا يزال هشا",
         "Lang": "ar",
         "Date": "2026-11-05T12:00:00+00:00",
@@ -4621,25 +4597,49 @@
         }
       },
       {
-        "Title": "الدعم السريع يكثف طلعاته الجوية على محطات الوقود والمنشآت الحيوية",
+        "Title": "«طويلة»: مركز نزوح رئيسي يعكس عمق الأزمة الإنسانية في دارفور",
         "Lang": "ar",
-        "Date": "2026-11-05T11:01:21+00:00",
-        "Permalink": "https://sudanwarmonitor.com/p/843",
+        "Date": "2026-11-05T16:04:38+00:00",
+        "Permalink": "https://www.beamreports.com/2026/11/05/%d8%b7%d9%88%d9%8a%d9%84%d8%a9-%d9%85%d8%b1%d9%83%d8%b2-%d9%86%d8%b2%d9%88%d8%ad-%d8%b1%d8%a6%d9%8a%d8%b3%d9%8a-%d9%8a%d8%b9%d9%83%d8%b3-%d8%b9%d9%85%d9%82-%d8%a7%d9%84%d8%a3%d8%b2%d9%85",
         "Params": {
-          "description": "وطيران الجيش يستهدف ولايتي شمال وغرب كردفان ويخلف عشرات القتلى والاصابات",
+          "description": "«إن الوضع في طويلة لا يمكن النظر إليه باعتباره مجرد أزمة نزوح فحسب، وإنما يعكس أزمة إنسانية مركبة، تتداخل فيها تداعيات الحرب مع الجوع والفقر وتدهور الخدمات الصحية، وارتفاع تكاليف المعيشة وشح المساعدات الإنسانية. كما أن استمرار وصول النازحين يضع المجتمعات المستضيفة والإمكانيات المحلية المحدودة أمام ضغوط متزايدة»، بهذه الكلمات وصف الناطق الرسمي باسم المنسقية […] The post «طويلة»: مركز نزوح رئيسي يعكس عمق الأزمة الإنسان",
+          "source": "بيم ريبورتس",
+          "source_id": "beam-ar",
+          "source_class": "sudanese_journalism",
+          "link": "https://www.beamreports.com/2026/11/05/%d8%b7%d9%88%d9%8a%d9%84%d8%a9-%d9%85%d8%b1%d9%83%d8%b2-%d9%86%d8%b2%d9%88%d8%ad-%d8%b1%d8%a6%d9%8a%d8%b3%d9%8a-%d9%8a%d8%b9%d9%83%d8%b3-%d8%b9%d9%85%d9%82-%d8%a7%d9%84%d8%a3%d8%b2%d9%85",
+          "status": "Reporting",
+          "geography": [
+            "Darfur"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "Humanitarian",
+          "clabel": "إنساني",
+          "language": "ar",
+          "media_attribution": "بيم ريبورتس"
+        }
+      },
+      {
+        "Title": "في ذكري سقوط الفاشر لم تنتهِ المعاناة يوم سقطت الفاشر ’’ شهادة طبيب ‘‘",
+        "Lang": "ar",
+        "Date": "2026-11-05T07:59:13+00:00",
+        "Permalink": "https://sudanwarmonitor.com/p/c30",
+        "Params": {
+          "description": "رحلة الخروج من السودان وذكروا العالم",
           "source": "Sudan War Monitor",
           "source_id": "sudan-war-monitor",
           "source_class": "analysis",
-          "link": "https://sudanwarmonitor.com/p/843",
+          "link": "https://sudanwarmonitor.com/p/c30",
           "status": "Analysis",
           "geography": [
-            "Kordofan"
+            "Darfur"
           ],
-          "image": "https://substackcdn.com/image/fetch/$s_!t7-X!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F53abf1f7-3afb-40d4-8091-622c46a78066_720x1280.jpeg",
+          "image": "https://substackcdn.com/image/fetch/$s_!s1U5!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F524498d3-42fd-464f-bbdb-16022aaaa937_1738x628.png",
           "media_reuse_basis": "rss_metadata",
           "related_sources": [],
-          "category": "War & Security",
-          "clabel": "الحرب والأمن",
+          "category": "Sudan News",
+          "clabel": "أخبار السودان",
           "language": "ar",
           "media_attribution": "Sudan War Monitor"
         }
@@ -4718,6 +4718,78 @@
       }
     ],
     "latest": [
+      {
+        "Title": "الديسمبريون: ظهور أحمد هارون محاولة لإعادة إنتاج منظومة النظام البائد",
+        "Lang": "ar",
+        "Date": "2026-11-07T21:08:13+00:00",
+        "Permalink": "https://www.altaghyeer.info/ar/2026/11/07/%d8%a7%d9%84%d8%af%d9%8a%d8%b3%d9%85%d8%a8%d8%b1%d9%8a%d9%88%d9%86-%d8%b8%d9%87%d9%88%d8%b1-%d8%a3%d8%ad%d9%85%d8%af-%d9%87%d8%a7%d8%b1%d9%88%d9%86-%d9%85%d8%ad%d8%a7%d9%88%d9%84%d8%a9-%d9%84%d8%a5",
+        "Params": {
+          "description": "اعتبر كيان «الديسمبريون» أن الظهور الإعلامي لأحمد محمد هارون، رئيس حزب المؤتمر الوطني المحلول، في مقابلة عبر منصة «السودان بودكاست»، يمثل مؤشراً مقلقاً على محاولات إعادة إنتاج منظومة النظام البائد وإعادة رموزها إلى المشهد السياسي والعام دون مساءلة قانونية. الخرطوم ــ التغيير وقال الكيان، في بيان بشأن الظهور العلني لهارون، إن الأمر لا يمكن …",
+          "source": "التغيير",
+          "source_id": "altaghyeer-ar",
+          "source_class": "sudanese_journalism",
+          "link": "https://www.altaghyeer.info/ar/2026/11/07/%d8%a7%d9%84%d8%af%d9%8a%d8%b3%d9%85%d8%a8%d8%b1%d9%8a%d9%88%d9%86-%d8%b8%d9%87%d9%88%d8%b1-%d8%a3%d8%ad%d9%85%d8%af-%d9%87%d8%a7%d8%b1%d9%88%d9%86-%d9%85%d8%ad%d8%a7%d9%88%d9%84%d8%a9-%d9%84%d8%a5",
+          "status": "Reporting",
+          "geography": [
+            "Khartoum"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "Politics",
+          "clabel": "سياسة",
+          "language": "ar",
+          "media_attribution": "التغيير"
+        }
+      },
+      {
+        "Title": "نداء إنساني عاجل لإنقاذ آلاف النازحين في محلية «أمبرو» بشمال دارفور",
+        "Lang": "ar",
+        "Date": "2026-11-07T19:45:35+00:00",
+        "Permalink": "https://sudantribune.net/article/320986",
+        "Params": {
+          "description": "أمبرو 7 نوفمبر 2026 – أطلق ناشطون، السبت، نداءً إنسانيًا لإنقاذ مئات الأسر النازحة في مناطق متفرقة من ولاية شمال دارفور جراء هجمات شنتها قوات الدعم السريع. وكانت الدعم السريع هاجمت مطلع الأسبوع الماضي مناطق “مزبد، أروري، أم مراحيك وأبو حراز” التابعة لمحلية أمبرو بولاية شمال دارفور، والتي تقطنها غالبية من عرقية الزغاوة الأفريقية. وواجهت الدعم السريع خلال هجومها على هذه البلدات اتهامات بارتكاب انتهاكات واسعة بحق المدني",
+          "source": "Sudan Tribune Arabic",
+          "source_id": "sudan-tribune-ar",
+          "source_class": "sudanese_journalism",
+          "link": "https://sudantribune.net/article/320986",
+          "status": "Reporting",
+          "geography": [
+            "Darfur"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "Humanitarian",
+          "clabel": "إنساني",
+          "language": "ar",
+          "media_attribution": "Sudan Tribune Arabic"
+        }
+      },
+      {
+        "Title": "انفراج أزمة الوقود بالخرطوم والسلطات تبدأ ضخ شحنات جديدة",
+        "Lang": "ar",
+        "Date": "2026-11-07T19:34:47+00:00",
+        "Permalink": "https://sudantribune.net/article/320982",
+        "Params": {
+          "description": "الخرطوم 7 نوفمبر 2026- شهدت أزمة الوقود في العاصمة السودانية الخرطوم، السبت، انفراجًا نسبيًا، خاصة في البنزين وبدرجة أقل في الجازولين، فيما أعلنت السلطات ضخ كميات مقدرة من الوقود لتغطية احتياجات العاصمة والولايات. ومنذ أسابيع، تشهد الخرطوم أزمة حادة في الوقود، انعكست على شح المواصلات وارتفاع تعرفتها، إلى جانب زيادة أسعار السلع الضرورية، ما فاقم من معاناة المواطنين. وقال المواطن أحمد عبد الرحمن إن ساعات الانتظار أمام ",
+          "source": "Sudan Tribune Arabic",
+          "source_id": "sudan-tribune-ar",
+          "source_class": "sudanese_journalism",
+          "link": "https://sudantribune.net/article/320982",
+          "status": "Reporting",
+          "geography": [
+            "Khartoum"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "Economy",
+          "clabel": "اقتصاد",
+          "language": "ar",
+          "media_attribution": "Sudan Tribune Arabic"
+        }
+      },
       {
         "Title": "السوبرانو المغربية سميرة قادري، من الغناء الأوبرالي إلى البحث في الذاكرة الموريسكية",
         "Lang": "ar",
@@ -4863,12 +4935,12 @@
         }
       },
       {
-        "Title": "الفنان التشكيلي وليد محمود يوثق الذاكرة السودانية عبر الفن من نيروبي",
+        "Title": "الفنان التشكيلي وليد محمد يوثق الذاكرة السودانية عبر الفن من نيروبي",
         "Lang": "ar",
         "Date": "2026-11-07T14:26:00+00:00",
         "Permalink": "https://www.dabangasudan.org/ar/all-news/article/%d8%a7%d9%84%d9%81%d9%86%d8%a7%d9%86-%d8%a7%d9%84%d8%aa%d8%b4%d9%83%d9%8a%d9%84%d9%8a-%d9%88%d9%84%d9%8a%d8%af-%d9%85%d8%ad%d9%85%d9%88%d8%af-%d9%8a%d9%88%d8%ab%d9%82-%d8%a7%d9%84%d8%b0%d8%a7%d9%83",
         "Params": {
-          "description": "نيروبي : 7 نوفمبر 2026 :راديو دبنقا يحاول الفنان التشكيلي السوداني وليد محمد توثيق الذاكرة... The post الفنان التشكيلي وليد محمود يوثق الذاكرة السودانية عبر الفن من نيروبي appeared first on Dabanga Radio TV Online .",
+          "description": "نيروبي : 7 نوفمبر 2026 :راديو دبنقا يحاول الفنان التشكيلي السوداني وليد محمد توثيق الذاكرة... The post الفنان التشكيلي وليد محمد يوثق الذاكرة السودانية عبر الفن من نيروبي appeared first on Dabanga Radio TV Online .",
           "source": "راديو دبنقا",
           "source_id": "dabanga-ar",
           "source_class": "sudanese_journalism",
@@ -8260,78 +8332,6 @@
           "clabel": "أخبار السودان",
           "language": "ar",
           "media_attribution": "راديو دبنقا"
-        }
-      },
-      {
-        "Title": "متحدث: (45) إصابة بالتهاب الكبد الوبائي في «كلما» وتدهور صحي بمعسكرات دارفور",
-        "Lang": "ar",
-        "Date": "2026-11-04T10:37:41+00:00",
-        "Permalink": "https://sudantribune.net/article/320874",
-        "Params": {
-          "description": "كلما، 4 نوفمبر 2026 – أعلنت المنسقية العامة للنازحين واللاجئين في إقليم دارفور، الأربعاء، تدهور الأوضاع الإنسانية والصحية في معسكرات النزوح بالإقليم ومناطق أخرى في السودان، وسط نقص حاد في الخدمات الطبية والأدوية، وتراجع وصول المساعدات الإنسانية بفعل استمرار الحرب. ويواجه النازحون تحديات متزايدة في الحصول على الرعاية الصحية والأدوية والغذاء، وسط مخاوف من تفاقم الأوضاع الصحية وانتشار الأمراض، لا سيما بين الأطفال والنسا",
-          "source": "Sudan Tribune Arabic",
-          "source_id": "sudan-tribune-ar",
-          "source_class": "sudanese_journalism",
-          "link": "https://sudantribune.net/article/320874",
-          "status": "Reporting",
-          "geography": [
-            "Darfur"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "Health",
-          "clabel": "صحة",
-          "language": "ar",
-          "media_attribution": "Sudan Tribune Arabic"
-        }
-      },
-      {
-        "Title": "مقتل امرأة وإصابة آخرين في هجوم بطائرات مسيّرة استهدف أحياء سكنية بمدينة الدمازين",
-        "Lang": "ar",
-        "Date": "2026-11-04T10:26:29+00:00",
-        "Permalink": "https://www.radiotamazuj.org/ar/news/article/%d9%85%d9%82%d8%aa%d9%84-%d8%a7%d9%85%d8%b1%d8%a3%d8%a9-%d9%88%d8%a5%d8%b5%d8%a7%d8%a8%d8%a9-%d8%a2%d8%ae%d8%b1%d9%8a%d9%86-%d9%81%d9%8a-%d9%87%d8%ac%d9%88%d9%85-%d8%a8%d8%b7%d8%a7%d8%a6%d8%b1%d8%a7",
-        "Params": {
-          "description": "شهدت مدينة الدمازين، عاصمة إقليم النيل الأزرق بالسودان، ليلة الثلاثاء، هجوماً بسرب من الطائرات المسيّرة، The post مقتل امرأة وإصابة آخرين في هجوم بطائرات مسيّرة استهدف أحياء سكنية بمدينة الدمازين appeared first on Radio Tamazuj .",
-          "source": "راديو تمازج",
-          "source_id": "tamazuj-ar",
-          "source_class": "regional_journalism",
-          "link": "https://www.radiotamazuj.org/ar/news/article/%d9%85%d9%82%d8%aa%d9%84-%d8%a7%d9%85%d8%b1%d8%a3%d8%a9-%d9%88%d8%a5%d8%b5%d8%a7%d8%a8%d8%a9-%d8%a2%d8%ae%d8%b1%d9%8a%d9%86-%d9%81%d9%8a-%d9%87%d8%ac%d9%88%d9%85-%d8%a8%d8%b7%d8%a7%d8%a6%d8%b1%d8%a7",
-          "status": "Reporting",
-          "geography": [
-            "Blue Nile"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "War & Security",
-          "clabel": "الحرب والأمن",
-          "language": "ar",
-          "media_attribution": "راديو تمازج"
-        }
-      },
-      {
-        "Title": "سياسي بارز يخسر الانتخابات التمهيدية للحركة الشعبية بمقاطعة أورور",
-        "Lang": "ar",
-        "Date": "2026-11-04T10:11:35+00:00",
-        "Permalink": "https://www.radiotamazuj.org/ar/news/article/%d8%b3%d9%8a%d8%a7%d8%b3%d9%8a-%d8%a8%d8%a7%d8%b1%d8%b2-%d9%8a%d8%ae%d8%b3%d8%b1-%d8%a7%d9%84%d8%a7%d9%86%d8%aa%d8%ae%d8%a7%d8%a8%d8%a7%d8%aa-%d8%a7%d9%84%d8%aa%d9%85%d9%87%d9%8a%d8%af%d9%8a%d8%a9",
-        "Params": {
-          "description": "تعرض سياسي بارز للهزيمة في الانتخابات التمهيدية للحركة الشعبية لتحرير السودان “الحاكمة” بمقاطعة أورور في The post سياسي بارز يخسر الانتخابات التمهيدية للحركة الشعبية بمقاطعة أورور appeared first on Radio Tamazuj .",
-          "source": "راديو تمازج",
-          "source_id": "tamazuj-ar",
-          "source_class": "regional_journalism",
-          "link": "https://www.radiotamazuj.org/ar/news/article/%d8%b3%d9%8a%d8%a7%d8%b3%d9%8a-%d8%a8%d8%a7%d8%b1%d8%b2-%d9%8a%d8%ae%d8%b3%d8%b1-%d8%a7%d9%84%d8%a7%d9%86%d8%aa%d8%ae%d8%a7%d8%a8%d8%a7%d8%aa-%d8%a7%d9%84%d8%aa%d9%85%d9%87%d9%8a%d8%af%d9%8a%d8%a9",
-          "status": "Reporting",
-          "geography": [
-            "National"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "Politics",
-          "clabel": "سياسة",
-          "language": "ar",
-          "media_attribution": "راديو تمازج"
         }
       }
     ],

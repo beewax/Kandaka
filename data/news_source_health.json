@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T17:30:51.792594+00:00",
+  "updated": "2026-11-07T21:31:24.666676+00:00",
   "sources": [
     {
       "id": "dabanga-en",
@@ -89,8 +89,8 @@
       "id": "alaraby-ar",
       "language": "ar",
       "status": "ok",
-      "items": 150,
-      "accepted": 2
+      "items": 143,
+      "accepted": 1
     },
     {
       "id": "un-news-ar",
@@ -130,9 +130,9 @@
     {
       "id": "beam-ar",
       "language": "ar",
-      "status": "ok",
-      "items": 10,
-      "accepted": 10
+      "status": "fetch_failed",
+      "items": 0,
+      "accepted": 0
     },
     {
       "id": "sudan-war-monitor",
