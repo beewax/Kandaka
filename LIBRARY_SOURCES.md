@@ -1,5 +1,11 @@
 ## 6 November 2026 — library access decision / قرار إتاحة المصادر
 
+## 7 November 2026 — C26-01 focused article source review
+
+Article research refreshed archive, family, training and exhibition sources. Reading coverage, conflicts and links are documented in [the article review note](docs/C26-01-amber-draft-review-2026-11-07.md). Central reference calibre-1391 supplied a verified partial-reading reference. This pass creates the review drafts and records their evidence.
+
+
+
 **Owner direction:** Add useful nonduplicate research to the bilingual Kandaka Library immediately with a direct, working publisher/article link, citation, source-critical English/Arabic summary, and clearly stated rights status. **Do not defer inclusion to download, PDF conversion or R2 upload.** For the current three research additions the access method is an external original-article link. PDF archiving is an optional, separate rights-cleared task only if expressly requested, never an acquisition prerequisite. / **تُضاف المصادر غير المكررة إلى مكتبة كنداكة بروابط مباشرة إلى المقالات الأصلية، مع المراجع والملخصات بالعربية والإنجليزية وحالة الحقوق، دون انتظار تنزيل ملفات PDF أو رفعها.**
 
 The three 6 November records are flagged `access_type: external_article` in `data/library.json` and retain their original source URLs. This changes the catalogue workflow, not the approved article bodies or site deployment.

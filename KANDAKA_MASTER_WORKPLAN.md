@@ -1,5 +1,13 @@
 # KANDAKA WORKPLAN
 
+## 7 November 2026 — C26-01 focused Amber article drafted for owner review
+
+Owner accepted the proposed focus on how The Dislocation of Amber survived, was restored and returned to audiences, and explicitly requested drafting. Completed English draft and full Arabic counterpart: content/culture/from-suakin-to-the-archive.{en,ar}.md. Working title: From Suakin to the Archive: How The Dislocation of Amber Survived / من سواكن إلى الأرشيف: كيف بقي «انتزاع الكهرمان» حياً. Focus and drafting are authorized. Status is USER REVIEW, draft:true. The wider C26-01 cinema history retains its research brief. Source coverage and outstanding checks are recorded in [the review note](docs/C26-01-amber-draft-review-2026-11-07.md).
+
+وافق المالك على التركيز على رحلة بقاء «انتزاع الكهرمان» وترميمه وعودته إلى الجمهور، وطلب كتابة المقال. أُعدّت المسودة الإنجليزية ونسختها العربية الكاملة للمراجعة، مع توثيق حدود المشاهدة والمصادر والحاجة إلى اعتماد الصور والنشر.
+
+
+
 ## Research acquisition — 6 November 2026 / متابعة البحوث
 
 3 source-linked bilingual catalogue records prepared for Sudan museum collections, displaced living heritage and implemented East African community drainage. See docs/research-acquisition-2026-11-06.md for full critical review and new ART-ICH, ARCH-MUSEUM and URBAN-DRAINS editorial candidates. No PDF archived or protected article altered, and no live deployment verified. Local Calibre database reconciliation remains pending.
