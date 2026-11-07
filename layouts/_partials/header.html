@@ -59,27 +59,41 @@
                 {{- end }}
                 
                 {{- if (not site.Params.disableLangToggle) }}
-                    {{- $lang := .Lang}}
-                    {{- with site.Home.Translations }}
-                    {{- $separator := or $label_text (not site.Params.disableThemeToggle)}}
+                    {{- $separator := or $label_text (not site.Params.disableThemeToggle) }}
                     {{- if $separator }}<span class="nav-sep">|</span>{{ end }}
                     <ul class="lang-menu">
-                        {{- range . -}}
-                        {{- if ne $lang .Lang }}
-                        <li>
-                            <a href="{{- .Permalink -}}" title="{{ .Language.Params.languageAltTitle | default (.Language.LanguageName | emojify) | default (.Lang | title) }}"
-                                aria-label="{{ .Language.LanguageName | default (.Lang | title) }}">
-                                {{- if (and site.Params.displayFullLangName (.Language.LanguageName)) }}
-                                {{- .Language.LanguageName | emojify -}}
+                        {{- $currentPage := . }}
+                        {{- $currentLang := $currentPage.Lang }}
+                        {{- $langTargets := slice }}
+                        {{- range site.Languages }}
+                            {{- $targetLang := .Lang }}
+                            {{- if ne $targetLang $currentLang }}
+                                {{- $targetPage := $currentPage }}
+                                {{- if $currentPage.IsHome }}
+                                    {{- $homeMatches := where site.Home.Translations "Lang" $targetLang }}
+                                    {{- if gt (len $homeMatches) 0 }}{{- $targetPage = index $homeMatches 0 }}{{- end }}
+                                {{- else if gt (len $currentPage.AllTranslations) 0 }}
+                                    {{- $pageMatches := where $currentPage.AllTranslations "Lang" $targetLang }}
+                                    {{- if gt (len $pageMatches) 0 }}{{- $targetPage = index $pageMatches 0 }}{{- else }}{{- $targetPage = site.Home }}{{- end }}
                                 {{- else }}
-                                {{- .Lang | title -}}
+                                    {{- $targetPage = site.Home }}
+                                {{- end }}
+                                {{- $langTargets = $langTargets | append (dict "lang" . "page" $targetPage) }}
+                            {{- end }}
+                        {{- end }}
+                        {{- range $langTargets }}
+                        <li>
+                            <a href="{{- .page.RelPermalink -}}" data-language-switch="{{ .lang.Lang }}" title="{{ .lang.LanguageName | default (.lang.Lang | title) }}"
+                                aria-label="{{ .lang.LanguageName | default (.lang.Lang | title) }}">
+                                {{- if eq $.Lang "ar" }}
+                                    {{- if eq .lang.Lang "en" }}English{{ else }}العربية{{ end -}}
+                                {{- else }}
+                                    {{- if eq .lang.Lang "en" }}English{{ else }}العربية{{ end -}}
                                 {{- end -}}
                             </a>
                         </li>
-                        {{- end -}}
-                        {{- end}}
+                        {{- end }}
                     </ul>
-                    {{- end }}
                 {{- end }}
             </div>
             {{- end }}
@@ -153,6 +167,18 @@
     var toggle = document.querySelector('.menu-toggle');
     var menu = document.getElementById('menu');
     if (!nav || !toggle || !menu) return;
+
+    nav.querySelectorAll('[data-language-switch]').forEach(function (link) {
+        link.addEventListener('click', function () {
+            if (typeof window.gtag !== 'function') return;
+            window.gtag('event', 'language_switch', {
+                source_language: document.documentElement.lang.split('-')[0],
+                target_language: link.dataset.languageSwitch,
+                link_url: link.href,
+                transport_type: 'beacon'
+            });
+        });
+    });
 
     nav.classList.add('k-menu-ready');
     toggle.addEventListener('click', function () {
