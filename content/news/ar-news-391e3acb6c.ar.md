@@ -17,7 +17,7 @@ geography:
 language: ar
 status: Reporting
 cluster_id: 19cba6420ebb
-corroboration_count: 3
+corroboration_count: 2
 draft: false
 author: طارق الجزولي
 image: https://sudanile.com/wp-content/uploads/2026/01/magaa.jpg
@@ -27,8 +27,6 @@ media_attribution: سودانايل
 related_sources:
 - source: Sudan War Monitor
   link: https://sudanwarmonitor.com/p/15-e88
-- source: أخبار الأمم المتحدة
-  link: https://news.un.org/feed/view/ar/story/2026/11/1145674
 clabel: إنساني
 ---
 
