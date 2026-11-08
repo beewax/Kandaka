@@ -1,5 +1,13 @@
 # KANDAKA WORKPLAN
 
+## 7 November 2026 — Amber English accepted, Arabic and cover under review
+
+Owner said “Looks good” after reading the full English draft and requested a suitable cover and the Arabic draft before publication. Preserve the reviewed English text. The full Arabic draft is presented for review alongside a visually inspected Bertramz Suakin location photograph (November 2008, CC BY 3.0). Exact asset and checksum: [review record](docs/C26-01-amber-draft-review-2026-11-07.md). Both article files retain draft:true while the Arabic and cover review is pending.
+
+استحسن المالك النص الإنجليزي، وطلب عرض المسودة العربية وصورة غلاف مناسبة قبل النشر. الصورة المقترحة لسواكن في نوفمبر 2008، بعدسة Bertramz وبترخيص CC BY 3.0. النسخة العربية والغلاف قيد المراجعة.
+
+
+
 ## 7 November 2026 — C26-01 focused Amber article drafted for owner review
 
 Owner accepted the proposed focus on how The Dislocation of Amber survived, was restored and returned to audiences, and explicitly requested drafting. Completed English draft and full Arabic counterpart: content/culture/from-suakin-to-the-archive.{en,ar}.md. Working title: From Suakin to the Archive: How The Dislocation of Amber Survived / من سواكن إلى الأرشيف: كيف بقي «انتزاع الكهرمان» حياً. Focus and drafting are authorized. Status is USER REVIEW, draft:true. The wider C26-01 cinema history retains its research brief. Source coverage and outstanding checks are recorded in [the review note](docs/C26-01-amber-draft-review-2026-11-07.md).

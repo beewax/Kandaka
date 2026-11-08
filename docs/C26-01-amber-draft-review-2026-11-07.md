@@ -33,3 +33,18 @@ This is the completed sourced draft for owner review. Its limits are editorial f
 ## Validation
 
 Both drafts rendered successfully with the site's Hugo 0.160.0 configuration in an isolated two-article preview. The English and Arabic source-link sets match. Rendered titles and the Arabic RTL setting passed verification. Both source files have draft:true, with no release date or cover. Approximate file counts including front matter and links: 1,223 English words and 1,050 Arabic words. Git whitespace check passed. Shared-record commit uses skip-netlify for this review-only preparation.
+
+
+## Owner review and proposed cover — 7 November 2026
+
+Owner responded “Looks good” to the complete English draft, then requested a suitable cover and the Arabic draft before publication. English wording remains the reviewed version. Arabic and cover are being presented for owner review.
+
+Selected candidate: docs/research/amber/cover-candidate-bertramz-suakin-2008.jpg. Original photograph by Bertramz, November 2008, of the ruined Egyptian National Bank building at Suakin, Sudan. Inspected visually. 1920 × 1286, JPEG, unmodified. SHA256 82d5c5e2cc7ca3196e6bbe023c00b1f46aa757deced7950a1d07740ac88fbe61.
+
+[Original file record](https://commons.wikimedia.org/wiki/File:Suakin,national_bank.jpg) · [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/).
+
+Proposed English credit: Suakin, Sudan, November 2008. Photograph by Bertramz, CC BY 3.0. Unmodified location photograph.
+
+Proposed Arabic credit: سواكن، السودان، نوفمبر 2008. تصوير Bertramz، بترخيص CC BY 3.0. صورة للمكان دون تعديل.
+
+This is location photography from 2008. Film still permissions remain unverified. The candidate is retained as a research asset pending review.
