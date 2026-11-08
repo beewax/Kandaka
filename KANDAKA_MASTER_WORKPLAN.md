@@ -1,5 +1,20 @@
 # KANDAKA WORKPLAN
 
+## 8 November 2026 — Inline bookstore rotation deployed; live visual checks complete
+
+**Status: APPROVED, DEPLOYED AND VERIFIED LIVE.** Supersedes the earlier pending-review and browser-timeout status for this change only. Owner explicitly approved the finished preview and instructed deployment.
+
+- Production commit: [`959e0044e8462bcc158882b78b65f1f852d1e38e`](https://github.com/beewax/Kandaka/commit/959e0044e8462bcc158882b78b65f1f852d1e38e).
+- Successful [Netlify production deployment `6af1019f3bd87b9897f4e486`](https://app.netlify.com/sites/7b3b219d-135d-4dc8-a000-0d041eca1e08/deploys/6af1019f3bd87b9897f4e486), published 8 November 2026 at **17:12:35 America/Chicago / 23:12:35 UTC**.
+- Inline offers now rotate automatically at midnight UTC, synchronized between article translations, and refresh on tab/page return. Existing placement, copy, covers, links, exclusions and no-JavaScript fallback remain intact.
+- Live HTML verification: English/Arabic Khartoum-in-1850 pages returned 200, with matching article seed, ten inert offers, one fallback and correct LTR/RTL directions. Served JavaScript exactly matched the reviewed implementation; aid-page exclusions passed. Midnight/lifecycle tests and full Hugo build passed before deployment.
+- **Live visual retry succeeded:** both [English article](https://kandaka.com/history/khartoum-in-1850/#nile-promotion-title) and [Arabic article](https://kandaka.com/ar/history/khartoum-in-1850/#nile-promotion-title) checked at **1280 × 900 desktop** and **390 × 844 mobile**. All four views displayed the Meroë offer with loaded cover, readable description and price, and visible call-to-action. No horizontal overflow or clipped advert content; mobile cards stacked correctly; Arabic alignment, cover placement and RTL layout correct. Both languages showed the same offer. No corrective changes were needed. Scope: these sampled live article translations and viewport sizes, not every article/device.
+
+Screenshot evidence: [English desktop](../deliverables/site-updates/inline-ad-rotation-2026-11-07/live-check/english-desktop.png) · [English mobile](../deliverables/site-updates/inline-ad-rotation-2026-11-07/live-check/english-mobile.png) · [Arabic desktop](../deliverables/site-updates/inline-ad-rotation-2026-11-07/live-check/arabic-desktop.png) · [Arabic mobile](../deliverables/site-updates/inline-ad-rotation-2026-11-07/live-check/arabic-mobile.png). Screenshots are local evidence outside the website repository; not public site assets.
+
+**العربية:** نُشر تدوير إعلانات مكتبة النيل داخل المقالات بنجاح بعد اعتماد المالك. اكتملت إعادة الفحص البصري على المقال الحي بالعربية والإنجليزية، بعرض ١٢٨٠ بكسل للحاسوب و٣٩٠ بكسل للهاتف. ظهرت الأغلفة والنصوص والأسعار والأزرار كاملة دون تجاوز أفقي أو قصّ، مع ترتيب صحيح للهاتف واتجاه RTL صحيح للعربية، والعرض نفسه في اللغتين. تجاوزت هذه النتيجة حالة تعذّر الفحص البصري السابقة، ولم تلزم تعديلات إضافية. لا يتغير اعتماد أي مقال أو مسودة أخرى.
+
+
 ## 8 November 2026 — R2 archive reconciliation requires urgent verification
 
 Read-only inspection confirmed `kandaka-library` exists in the connected Cloudflare account and its R2 object-list API returned **170 objects** (all 170 in the response). Current `data/library.json` has **567 records**, including **303 R2 source URLs**. An exact URL-path-to-object-key comparison found **zero matches** against that returned list. This is a serious discrepancy, **not yet proof that 303 public links are broken**: investigate API pagination, alternate bucket/domain provenance, encoded key names, and independent HTTP HEAD/GET checks before changing any source URLs or removing records. The current public r2.dev domain is `pub-0c3bb637d5f54b239fe4a4ef9b08bfe3.r2.dev`; older entries also refer to `pub-a5e3b47fe87749f491660d68e2029284.r2.dev`. Do not assume either hostname is a reliable archive without testing actual files.
