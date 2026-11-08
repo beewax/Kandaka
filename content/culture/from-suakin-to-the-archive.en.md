@@ -4,8 +4,15 @@ author: "Kandaka"
 category: "Culture"
 description: "The surviving prints, family work, restoration training and screenings that brought Hussein Shariffe’s film back to audiences."
 tags: ["Sudan", "cinema", "Suakin", "Hussein Shariffe", "film preservation"]
-draft: true
+draft: false
+date: "2026-11-08T03:47:43.002833+00:00"
+cover:
+  image: "/images/uploads/suakin-bertramz-2008.jpg"
+  alt: "Ruined Egyptian National Bank building beside Suakin harbour, Sudan, photographed in November 2008."
+  relative: false
 ---
+
+<p class="image-credit">Suakin, Sudan, November 2008. Photograph by Bertramz. Location photograph, unmodified. <a href="https://commons.wikimedia.org/wiki/File:Suakin,national_bank.jpg">Wikimedia Commons</a> · <a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
 
 A Swiss-held print, a restoration unit in Cairo, a distributor in Berlin and a Sudanese association in California all appear in the recent history of *The Dislocation of Amber*. The Roxie cinema’s September 2026 programme connects them. Hussein Shariffe’s film had reached another screen, half a century after it was made. [Roxie programme](https://roxie.com/film/revision-the-dislocation-of-amber/)
 

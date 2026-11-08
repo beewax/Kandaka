@@ -4,8 +4,15 @@ author: "كاندكة"
 category: "ثقافة"
 description: "رحلة النسخ الباقية والعمل العائلي والتدريب على الترميم والعروض التي أعادت فيلم حسين شريف إلى الجمهور."
 tags: ["السودان", "السينما", "سواكن", "حسين شريف", "حفظ الأفلام"]
-draft: true
+draft: false
+date: "2026-11-08T03:47:43.002833+00:00"
+cover:
+  image: "/images/uploads/suakin-bertramz-2008.jpg"
+  alt: "أنقاض مبنى بنك مصر القومي بجوار ميناء سواكن في السودان، في صورة التُقطت في نوفمبر 2008."
+  relative: false
 ---
+
+<p class="image-credit">سواكن، السودان، نوفمبر 2008. تصوير Bertramz. صورة للمكان دون تعديل. <a href="https://commons.wikimedia.org/wiki/File:Suakin,national_bank.jpg">Wikimedia Commons</a> · <a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
 
 نسخة محفوظة في سويسرا، ووحدة ترميم في القاهرة، وموزّع في برلين، وجمعية سودانية في كاليفورنيا. تجتمع هذه الجهات في تاريخ «انتزاع الكهرمان» الحديث، ويصل بينها برنامج سينما روكسي لشهر سبتمبر 2026. وصل فيلم حسين شريف إلى شاشة أخرى، بعد نصف قرن من إنجازه. [برنامج روكسي](https://roxie.com/film/revision-the-dislocation-of-amber/)
 

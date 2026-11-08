@@ -1,5 +1,13 @@
 # KANDAKA WORKPLAN
 
+## 7 November 2026 — Amber article and exact cover approved for bilingual release
+
+Owner explicitly approved the full Arabic draft and the displayed Bertramz Suakin cover and directed publication in English and Arabic, following earlier acceptance of the full English draft. Approved bodies are preserved. The unmodified November 2008 location photograph is the single cover in each edition, with localized alt text and CC BY 3.0 attribution. Publication metadata and release evidence: [release record](docs/amber-release-2026-11-07.md). The previous verified article release was Kisra and Asida on 6 November 00:02:53.473 UTC, more than 48 hours before this release preparation.
+
+اعتمد المالك المسودة العربية والغلاف المعروض، ووجّه بنشر المقال بالإنجليزية والعربية بعد استحسان النص الإنجليزي. حُفظ النصان المعتمدان، واستُخدمت صورة سواكن في نوفمبر 2008 غلافاً واحداً لكل نسخة مع النسبة والترخيص والوصف البديل.
+
+
+
 ## 7 November 2026 — Amber English accepted, Arabic and cover under review
 
 Owner said “Looks good” after reading the full English draft and requested a suitable cover and the Arabic draft before publication. Preserve the reviewed English text. The full Arabic draft is presented for review alongside a visually inspected Bertramz Suakin location photograph (November 2008, CC BY 3.0). Exact asset and checksum: [review record](docs/C26-01-amber-draft-review-2026-11-07.md). Both article files retain draft:true while the Arabic and cover review is pending.
