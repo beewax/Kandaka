@@ -1,5 +1,15 @@
 # KANDAKA WORKPLAN
 
+## 8 November 2026 — R2 archive reconciliation requires urgent verification
+
+Read-only inspection confirmed `kandaka-library` exists in the connected Cloudflare account and its R2 object-list API returned **170 objects** (all 170 in the response). Current `data/library.json` has **567 records**, including **303 R2 source URLs**. An exact URL-path-to-object-key comparison found **zero matches** against that returned list. This is a serious discrepancy, **not yet proof that 303 public links are broken**: investigate API pagination, alternate bucket/domain provenance, encoded key names, and independent HTTP HEAD/GET checks before changing any source URLs or removing records. The current public r2.dev domain is `pub-0c3bb637d5f54b239fe4a4ef9b08bfe3.r2.dev`; older entries also refer to `pub-a5e3b47fe87749f491660d68e2029284.r2.dev`. Do not assume either hostname is a reliable archive without testing actual files.
+
+The legacy scripts `find_and_upload_calibre.py` and `upload_nubian_to_r2.py` contain **hardcoded R2 credentials** and target `nilebookstore-books`, not `kandaka-library`. **Security action required:** revoke/rotate exposed keys, remove credentials from tracked code/history using a reviewed process, and replace with environment/secret-based Kandaka-specific upload configuration. Do not execute these legacy scripts or reuse the keys. No PDF files were downloaded or uploaded in this read-only investigation. Container network DNS for Nature PDF still fails.
+
+**Next:** confirm bucket inventory and source-link availability; reconcile R2 objects against the 303 records; establish a safe download-to-R2 workflow with verified source rights, PDF magic bytes/page counts, checksums, upload and retrieval verification. Then backfill permitted missing originals without overwriting existing records or changing article approvals. Preserve source-linked entries as fallback until their archive copies are proven accessible.
+
+---
+
 ## Amber VERIFIED LIVE — 7 November 2026 / نُشر انتزاع الكهرمان
 
 Published the individually approved English and Arabic article with the exact approved unmodified Bertramz Suakin photograph. Release commit 70355940af3cc5db42365977520c72df7040893e; matching Netlify 6aeff1b87d5e7b79333a7933. Actual publication 2026-11-08T03:52:25.895Z / 7 November 21:52:25.895 CST. Independent live verification matched both complete article bodies and the cover image hash. Both editions retain source links, reading limitations, localized alt text and CC BY 3.0 attribution. [Release evidence](docs/amber-release-2026-11-07.md).
