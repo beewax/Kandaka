@@ -26,13 +26,24 @@
     {{- end -}}
   {{- end -}}
   {{- if and (ge $paragraphs (int $config.minimum_paragraphs)) (gt $insertAt 0) -}}
-    {{- /* Advance every article's catalogue position once per UTC day. The article
-         hash staggers the starting point so every page does not show the same card. */ -}}
+    {{- /* Keep the build-time choice as the no-JavaScript fallback. Browser
+         rotation uses the same language-independent article hash and UTC day. */ -}}
     {{- $pool := $config.inline_pool | default $config.default_pool | default (slice $config.collection) -}}
-    {{- $day := div now.Unix 86400 -}}
-    {{- $selected := index $pool (mod (add (hash.FNV32a $key) $day) (len $pool)) -}}
-    {{- with index $config.offers $selected -}}
-      {{- $card := partial "nile-promotion.html" (dict "page" $ "offer" .) -}}
+    {{- $offers := slice -}}
+    {{- range $pool -}}
+      {{- with index $config.offers . -}}{{- $offers = $offers | append . -}}{{- end -}}
+    {{- end -}}
+    {{- if gt (len $offers) 0 -}}
+      {{- $seed := hash.FNV32a $key -}}
+      {{- $day := div now.Unix 86400 -}}
+      {{- $selected := mod (add $seed $day) (len $offers) -}}
+      {{- $fallback := partial "nile-promotion.html" (dict "page" $ "offer" (index $offers $selected)) -}}
+      {{- $templates := "" -}}
+      {{- range $offers -}}
+        {{- $card := partial "nile-promotion.html" (dict "page" $ "offer" .) -}}
+        {{- $templates = printf "%s<template data-nile-inline-offer>%s</template>" $templates $card -}}
+      {{- end -}}
+      {{- $card := printf `<div data-nile-inline data-nile-seed="%d" data-nile-selected="%d"><div data-nile-inline-slot>%s</div>%s</div><script src="%s" defer></script>` $seed $selected $fallback $templates ("js/nile-inline-selection.js" | relURL) -}}
       {{- $content = printf "%s%s%s" $before $card $after | safeHTML -}}
     {{- end -}}
   {{- end -}}
