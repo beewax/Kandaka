@@ -1,5 +1,13 @@
 # KANDAKA WORKPLAN
 
+## Amber VERIFIED LIVE — 7 November 2026 / نُشر انتزاع الكهرمان
+
+Published the individually approved English and Arabic article with the exact approved unmodified Bertramz Suakin photograph. Release commit 70355940af3cc5db42365977520c72df7040893e; matching Netlify 6aeff1b87d5e7b79333a7933. Actual publication 2026-11-08T03:52:25.895Z / 7 November 21:52:25.895 CST. Independent live verification matched both complete article bodies and the cover image hash. Both editions retain source links, reading limitations, localized alt text and CC BY 3.0 attribution. [Release evidence](docs/amber-release-2026-11-07.md).
+
+نُشر المقال المعتمد باللغتين مع صورة سواكن المعتمدة في 7 نوفمبر الساعة 21:52 بتوقيت شيكاغو الشتوي. تحققنا مستقلاً من النصين كاملين ومن تطابق صورة الغلاف وظهورها مرة واحدة في كل نسخة.
+
+
+
 ## 7 November 2026 — Amber article and exact cover approved for bilingual release
 
 Owner explicitly approved the full Arabic draft and the displayed Bertramz Suakin cover and directed publication in English and Arabic, following earlier acceptance of the full English draft. Approved bodies are preserved. The unmodified November 2008 location photograph is the single cover in each edition, with localized alt text and CC BY 3.0 attribution. Publication metadata and release evidence: [release record](docs/amber-release-2026-11-07.md). The previous verified article release was Kisra and Asida on 6 November 00:02:53.473 UTC, more than 48 hours before this release preparation.
