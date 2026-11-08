@@ -17,3 +17,6 @@ Completed verification: Hugo 0.160.0 full bilingual build passed (236 seconds; e
 Finished preview: ../../deliverables/site-updates/inline-ad-rotation-2026-11-07/preview.html (relative to checkout parent, or use local review URL http://localhost:8765/deliverables/site-updates/inline-ad-rotation-2026-11-07/preview.html). Desktop and mobile screenshots are saved alongside the preview.
 
 8 November 2026: Owner explicitly approved deployment of the finished preview. Production verification pending.
+## 8 November 2026 — Deployment verified
+
+Owner authorized deployment. Commit 959e0044e8462bcc158882b78b65f1f852d1e38e deployed successfully as Netlify production 6af1019f3bd87b9897f4e486 at 2026-11-08T23:12:35.763Z (17:12 Chicago). Live English/Arabic Khartoum article requests returned 200, each with one fallback, ten inert offers and matching article seed 203051704; directions LTR/RTL retained. Live runtime bytes exactly match reviewed code, and both aid-page exclusions pass. Midnight/browser lifecycle behavior passed deterministic tests before release. Post-deployment browser visual check timed out; the previously reviewed desktop/mobile preview remains the visual evidence.
