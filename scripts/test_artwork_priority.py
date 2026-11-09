@@ -61,6 +61,22 @@ class ArtworkPriorityTest(unittest.TestCase):
                                  capture_output=True, text=True)
             self.assertEqual(run.returncode, 0, run.stdout + run.stderr)
             results = json.loads((root / "public/index.html").read_text(encoding="utf-8"))
+        # The browser must show the same selection as Hugo, including small
+        # pools, unknown groups, new additions and both sides of DST.
+        node = shutil.which("node")
+        if node:
+            module = (REPO / "static/js/artwork-updates.mjs").as_uri()
+            program = (
+                f'import {{selectArtwork}} from {json.dumps(module)};'
+                'import {readFileSync} from "node:fs";'
+                'const cases=JSON.parse(readFileSync(0,"utf8"));'
+                'console.log(JSON.stringify(cases.map(c=>({name:c.name,'
+                'selected:selectArtwork(c.items,new Date(c.at)).map(i=>i.value)}))));'
+            )
+            browser = subprocess.run([node, "--input-type=module", "-e", program],
+                                     input=json.dumps(cases), capture_output=True, text=True)
+            self.assertEqual(browser.returncode, 0, browser.stderr)
+            self.assertEqual(json.loads(browser.stdout), results)
         if os.environ.get("ARTWORK_TEST_RESULTS"):
             Path(os.environ["ARTWORK_TEST_RESULTS"]).write_text(
                 json.dumps(results, ensure_ascii=False, indent=2), encoding="utf-8")
@@ -68,21 +84,24 @@ class ArtworkPriorityTest(unittest.TestCase):
         sources = lambda selection: [w["source"] for w in selection]
         self.assertEqual(result[times[0]], result[times[1]])
         self.assertEqual(result[times[2]], result[times[3]])
-        self.assertFalse(set(sources(result[times[0]])) & set(sources(result[times[2]])))
+        # Three regional cards advance two places, retaining one card between
+        # adjacent weeks. International works must never fill homepage slots.
+        self.assertNotEqual(result[times[0]], result[times[2]])
+        self.assertEqual(len(set(sources(result[times[0]])) &
+                             set(sources(result[times[2]]))), 1)
         self.assertEqual(result[times[4]], result[times[5]])
         self.assertEqual(result[times[5]], result[times[6]])
         self.assertNotEqual(result[times[6]], result[times[7]])
         for t in times:
             self.assertEqual([w["homepage_group"] for w in result[t]],
-                             ["sudan-nubia", "sudan-nubia", "international"])
+                             ["sudan-nubia", "sudan-nubia", "sudan-nubia"])
         for nr in range(5):
             for ni in range(5):
                 selected = result[f"small-{nr}-{ni}"]
-                self.assertEqual(len(selected), min(3, nr + ni), (nr, ni))
+                self.assertEqual(len(selected), min(3, nr), (nr, ni))
                 self.assertEqual(len(sources(selected)), len(set(sources(selected))))
-                if nr >= 2 and ni >= 1:
-                    self.assertEqual(sum(w["homepage_group"] == "sudan-nubia"
-                                         for w in selected), 2)
+                self.assertTrue(all(w["homepage_group"] == "sudan-nubia"
+                                    for w in selected))
         self.assertEqual(result["priority"][0]["source"], "new")
         self.assertEqual(result["priority"], result["priority-midweek"])
         self.assertNotIn("later", sources(result["priority-midweek"]))

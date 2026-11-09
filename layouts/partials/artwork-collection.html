@@ -14,6 +14,7 @@
 {{- end -}}
 {{- $works := where $catalogue "image" "!=" nil -}}
 {{- $links := where $catalogue "image" "==" nil -}}
+{{- $homePool := slice -}}
 {{- with .limit -}}
   {{- $items := slice -}}
   {{- range $works -}}
@@ -21,18 +22,24 @@
     {{- with .homepage_since -}}
       {{- if and $work.image (eq "sudan-nubia" $work.homepage_group) -}}
         {{- $items = $items | append (dict "id" $work.source "since" . "group" $work.homepage_group "value" $work) -}}
+        {{- $homePool = $homePool | append $work -}}
       {{- end -}}
     {{- end -}}
   {{- end -}}
   {{- $works = first . (partial "homepage-artwork-selection.html" (dict "items" $items)) -}}
 {{- end -}}
-<section class="art-collection" aria-labelledby="artwork-heading">
+{{- $selectedSources := slice -}}
+{{- range $works }}{{ $selectedSources = $selectedSources | append .source }}{{ end -}}
+{{- $renderWorks := $works -}}
+{{- if .limit }}{{ $renderWorks = $works | append (where $homePool "source" "not in" $selectedSources) }}{{ end -}}
+<section class="art-collection" aria-labelledby="artwork-heading" data-artwork-updates data-language="{{ if $isAr }}ar{{ else }}en{{ end }}"{{ if .limit }} data-artwork-homepage{{ end }}>
   <h2 id="artwork-heading">{{ if $isAr }}الفنون والتراث البصري{{ else }}Art & Visual Heritage{{ end }}</h2>
-  <p class="art-weekly-notice">{{ if $isAr }}<strong>مختارات فنية أسبوعية</strong> — نخطط لإضافة أعمال جديدة كل سبت، مع أولوية للفنانين السودانيين وذكر أسماء المبدعين وروابط المصادر.{{ else }}<strong>Weekly artwork selections</strong> — New additions are scheduled each Saturday, prioritizing Sudanese artists, with creator credits and source links.{{ end }}</p>
+  <p class="art-weekly-notice">{{ if $isAr }}<strong>مختارات فنية أسبوعية</strong> — نراجع المختارات كل سبت، مع أولوية للفنانين السودانيين وذكر أسماء المبدعين وروابط المصادر.{{ else }}<strong>Weekly artwork selections</strong> — Reviewed each Saturday, prioritizing Sudanese artists, with creator credits and source links.{{ end }}</p>
+  {{ partial "artwork-update-notice.html" (dict "isAr" $isAr "catalogue" $catalogue) }}
   <p>{{ if $isAr }}مجموعة مختارة من الفنون المعاصرة والتاريخية والتصوير والحرف والملصقات وفنون الكتاب، مع أولوية للسودان وروابط للمصادر الأصلية.{{ else }}A curated companion to the photo stream: contemporary and historical art, photography, crafts, posters and book arts, with Sudan first and room for the wider world.{{ end }}</p>
   <div class="art-grid">
-    {{ range $works }}
-    <article class="art-card">
+    {{ range $renderWorks }}
+    <article class="art-card" data-artwork-id="{{ .source }}"{{ with .homepage_since }} data-artwork-since="{{ . }}"{{ end }}{{ with .homepage_group }} data-artwork-group="{{ . }}"{{ end }}{{ if and $.limit (not (in $selectedSources .source)) }} hidden{{ end }}>
       <a href="{{ .source }}" target="_blank" rel="noopener noreferrer" class="art-image-wrap"><img src="{{ .image }}" alt="{{ .alt }}" loading="lazy" decoding="async" onerror="this.hidden=true;this.nextElementSibling.hidden=false"><span class="art-image-unavailable" hidden>{{ if $isAr }}تعذّر تحميل الصورة — شاهد العمل في المصدر ↗{{ else }}Image unavailable — view artwork at the source ↗{{ end }}</span></a>
       <div class="art-card-body">
         <p class="art-genre">{{ .genre }}</p>
@@ -46,6 +53,15 @@
     {{ end }}
   </div>
   {{ with .limit }}<p><a href="{{ if $isAr }}/ar/images/{{ else }}/images/{{ end }}#artwork-heading">{{ if $isAr }}استكشف المجموعة كاملة ←{{ else }}Explore the full collection →{{ end }}</a></p>{{ end }}
+  {{ if .limit }}
+  {{ with first 2 $links }}
+  <aside class="art-recent-links">
+    <h3>{{ if $isAr }}أحدث الأعمال المتاحة في مصادرها{{ else }}Latest works to explore at the source{{ end }}</h3>
+    <p>{{ if $isAr }}توصيات حديثة؛ تُعرض صورها في المواقع الأصلية.{{ else }}Recent recommendations; images are shown on the original websites.{{ end }}</p>
+    <ul>{{ range . }}<li><a href="{{ .source }}" target="_blank" rel="noopener noreferrer">{{ .title }} — {{ .artist }} ↗</a></li>{{ end }}</ul>
+  </aside>
+  {{ end }}
+  {{ end }}
   {{ if not .limit }}
   {{ with $links }}
   <section class="art-source-links" aria-labelledby="art-source-heading">
@@ -60,7 +76,9 @@
   {{ end }}
   {{ end }}
 </section>
+<script type="module" src="{{ "js/artwork-updates.mjs" | relURL }}"></script>
 <style>
+.art-card[hidden]{display:none}.art-update-status{padding:.8rem 1rem;background:var(--code-bg);border-radius:4px;line-height:1.65}.art-update-status p{margin:.3rem 0}.art-update-status small{display:block;color:var(--secondary)}.art-recent-links{margin-top:1.25rem}.art-recent-links h3{font-size:1rem}.art-recent-links p{font-size:.88rem;color:var(--secondary)}.art-recent-links ul{padding-inline-start:1.2rem}.art-recent-links li{margin:.4rem 0}
 .art-weekly-notice{padding:.8rem 1rem;border-inline-start:3px solid var(--primary);background:var(--code-bg);border-radius:4px;margin:1rem 0}
 .art-image-wrap img[hidden]{display:none}
 .art-collection{margin:2rem 0;padding-top:1rem;border-top:1px solid var(--border)}
