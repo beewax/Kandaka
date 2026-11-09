@@ -1,0 +1,12 @@
+{{/* Existing Library research cadence: Monday 10:00 America/Chicago. */}}
+{{- $at := now -}}
+{{- with .at }}{{ $at = time.AsTime . }}{{ end -}}
+{{- $local := time.In "America/Chicago" $at -}}
+{{- $days := mod (add (int $local.Weekday) 6) 7 -}}
+{{- $date := $local.AddDate 0 0 (int (mul -1 $days)) -}}
+{{- $start := time.AsTime (printf "%sT10:00:00" ($date.Format "2006-01-02")) "America/Chicago" -}}
+{{- if $at.Before $start }}{{ $start = $start.AddDate 0 0 -7 }}{{ end -}}
+{{- $day := time.AsTime ($start.Format "2006-01-02") "UTC" -}}
+{{- $epoch := time.AsTime "2026-10-12" "UTC" -}}
+{{- $index := int (div (sub $day.Unix $epoch.Unix) 604800) -}}
+{{- return (dict "start" $start "next" ($start.AddDate 0 0 7) "index" $index) -}}

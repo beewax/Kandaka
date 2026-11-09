@@ -1,0 +1,26 @@
+{{- $isAr := eq .Site.Language.Lang "ar" -}}
+{{- $pool := partial "library-home-pool.html" . -}}
+{{- $featured := partial "library-selection.html" (dict "items" $pool) -}}
+<section class="k-section" aria-labelledby="library-heading" data-library-home>
+  <div class="k-section-head">
+    <h2 id="library-heading">{{ if $isAr }}من المكتبة{{ else }}From the Library{{ end }}</h2>
+    <a href="{{ if $isAr }}/ar/library/{{ else }}/library/{{ end }}">{{ if $isAr }}كل الكتب ←{{ else }}All books →{{ end }}</a>
+  </div>
+  {{ partial "library-update-notice.html" . }}
+  <div class="k-lib-stack">
+    {{- $icons := slice "📖" "📊" "🗺️" -}}
+    {{- range $i, $book := $featured -}}
+    <div class="k-lib-card" data-library-id="{{ .id }}">
+      <div class="k-lib-icon">{{ index $icons $i }}</div>
+      <div class="k-lib-body">
+        <h3>{{ .title }}</h3>
+        <p>{{ .author }}{{ with .year }} · {{ . }}{{ end }}</p>
+        {{ with .desc }}<p class="k-lib-description">{{ . }}</p>{{ end }}
+        {{ if .href }}<a class="k-lib-btn {{ if .download }}k-lib-btn-dl{{ else }}k-lib-btn-src{{ end }}" href="{{ .href }}" target="_blank" rel="noopener noreferrer">{{ .label }}</a>{{ end }}
+      </div>
+    </div>
+    {{- end -}}
+  </div>
+  <script type="application/json" data-library-pool>{{ $pool | jsonify | safeJS }}</script>
+</section>
+<style>.k-lib-body .k-lib-description{font-size:11px;color:var(--secondary);margin:-4px 0 8px;line-height:1.5}</style>

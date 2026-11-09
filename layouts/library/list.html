@@ -53,6 +53,8 @@
   <p class="lib-count">{{ len site.Data.library.books }} {{ if $isAr }}وثيقة · أحدث الإضافات أولاً{{ else }}documents · Newest arrivals first{{ end }}</p>
 </header>
 
+{{ partial "library-update-notice.html" . }}
+
 <div class="lib-controls">
   <input type="text" id="lib-search" placeholder="{{ if $isAr }}ابحث بالعنوان أو المؤلف…{{ else }}Search by title or author…{{ end }}">
   <div class="lib-tags" id="lib-tags">

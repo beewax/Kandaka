@@ -1,0 +1,10 @@
+{{- $isAr := eq .Site.Language.Lang "ar" -}}
+{{- $week := partial "library-week.html" (dict) -}}
+<div class="library-update-status" data-library-updates data-language="{{ if $isAr }}ar{{ else }}en{{ end }}">
+  <p>{{ if $isAr }}بداية أسبوع المختارات الحالية:{{ else }}Current selection week begins:{{ end }} <time data-library-week datetime="{{ $week.start.Format "2006-01-02T15:04:05Z07:00" }}">{{ $week.start.Format "2006-01-02 · 3:04 PM MST" }}</time></p>
+  <p><strong>{{ if $isAr }}المراجعة البحثية المقبلة:{{ else }}Next research review:{{ end }}</strong> <time data-library-next-review datetime="{{ $week.next.Format "2006-01-02T15:04:05Z07:00" }}">{{ $week.next.Format "2006-01-02 · 3:04 PM MST" }}</time></p>
+  <p><strong>{{ if $isAr }}التبديل المقبل لمختارات الصفحة الرئيسية:{{ else }}Next homepage rotation:{{ end }}</strong> <time data-library-next-rotation datetime="{{ $week.next.Format "2006-01-02T15:04:05Z07:00" }}">{{ $week.next.Format "2006-01-02 · 3:04 PM MST" }}</time></p>
+  <small>{{ if $isAr }}جميع المواعيد بتوقيت شيكاغو، مع مراعاة التوقيت الصيفي. تتبدل مختارات الصفحة الرئيسية أسبوعيًا من الفهرس الحالي، وقد تتكرر. تقترح المراجعة الأسبوعية بحوثًا جديدة؛ ولا يعني موعدها إضافة مواد تلقائيًا إلى الفهرس.{{ else }}All times are in Chicago time, with daylight saving observed. Homepage selections rotate weekly from the existing catalogue and may repeat. The weekly research review recommends new material; its scheduled time does not mean automatic catalogue additions.{{ end }}</small>
+</div>
+<script type="module" src="{{ "js/library-updates.mjs" | relURL }}"></script>
+<style>.library-update-status{padding:.8rem 1rem;background:var(--code-bg);border-radius:4px;margin:1rem 0;line-height:1.65}.library-update-status p{margin:.3rem 0}.library-update-status small{display:block;color:var(--secondary)}</style>

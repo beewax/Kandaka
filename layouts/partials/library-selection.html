@@ -1,0 +1,17 @@
+{{- $week := partial "library-week.html" . -}}
+{{- $pool := slice -}}
+{{- $seen := slice -}}
+{{- range sort .items "id" -}}
+  {{- if not (in $seen .id) -}}
+    {{- $pool = $pool | append . -}}
+    {{- $seen = $seen | append .id -}}
+  {{- end -}}
+{{- end -}}
+{{- $selected := slice -}}
+{{- if $pool -}}
+  {{- $offset := mod (add (mod (mul $week.index 3) (len $pool)) (len $pool)) (len $pool) -}}
+  {{- range seq 0 (sub (int (math.Min 3 (len $pool))) 1) -}}
+    {{- $selected = $selected | append (index $pool (mod (add $offset .) (len $pool))) -}}
+  {{- end -}}
+{{- end -}}
+{{- return $selected -}}

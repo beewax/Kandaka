@@ -804,44 +804,8 @@ html[data-theme="dark"] .k-nile-home-kicker { color: #ffd84d; }
 
   {{ partial "artwork-collection.html" (dict "page" . "limit" 3) }}
 
-  {{/* ── Featured Library — 3 random books per build ── */}}
-  <section class="k-section" aria-labelledby="library-heading">
-    <div class="k-section-head">
-      <h2 id="library-heading">{{ if $isAr }}من المكتبة{{ else }}From the Library{{ end }}</h2>
-      <a href="{{ if $isAr }}/ar/library/{{ else }}/library/{{ end }}">{{ if $isAr }}كل الكتب ←{{ else }}All books →{{ end }}</a>
-    </div>
-    <div class="k-lib-stack">
-      {{- $icons := slice "📖" "📊" "🗺️" "⚔️" "🌍" "🏛️" "💧" "🌾" "🔬" "📜" }}
-      {{- $featured := first 3 (shuffle hugo.Data.library.books) }}
-      {{- range $i, $book := $featured }}
-      {{- $icon := index $icons (mod $i (len $icons)) }}
-      <div class="k-lib-card">
-        <div class="k-lib-icon">{{ $icon }}</div>
-        <div class="k-lib-body">
-          <h3>{{ if and $isAr $book.title_ar }}{{ $book.title_ar }}{{ else }}{{ $book.title }}{{ end }}</h3>
-          <p>{{ $book.author }}{{ with $book.year }} · {{ . }}{{ end }}</p>
-          {{- $desc := cond (and $isAr $book.desc_ar) $book.desc_ar $book.desc }}
-          {{- with $desc }}<p style="font-size:11px;color:var(--secondary);margin:-4px 0 8px;line-height:1.5;">{{ . | truncate 110 }}</p>{{- end }}
-          {{- if $book.download }}
-          <a class="k-lib-btn k-lib-btn-dl" href="{{ $book.download }}" target="_blank" rel="noopener">
-            {{ partial "library-file-label.html" (dict "book" $book "isAr" $isAr) }}
-          </a>
-          {{- else if $book.source }}
-            {{- if or (strings.HasSuffix $book.source ".pdf") (strings.HasSuffix $book.source ".epub") }}
-            <a class="k-lib-btn k-lib-btn-dl" href="{{ $book.source }}" target="_blank" rel="noopener">
-              {{ partial "library-file-label.html" (dict "book" $book "isAr" $isAr) }}
-            </a>
-            {{- else }}
-            <a class="k-lib-btn k-lib-btn-src" href="{{ $book.source }}" target="_blank" rel="noopener">
-              {{ if $isAr }}{{ $book.source_label_ar | default "عرض المصدر" }}{{ else }}{{ $book.source_label_en | default "View source" }}{{ end }}
-            </a>
-            {{- end }}
-          {{- end }}
-        </div>
-      </div>
-      {{- end }}
-    </div>
-  </section>
+  {{/* ── Weekly selections from the existing Library catalogue ── */}}
+  {{ partial "homepage-library.html" . }}
 
 </div>
 

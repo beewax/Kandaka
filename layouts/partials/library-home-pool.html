@@ -1,0 +1,30 @@
+{{- $isAr := eq .Site.Language.Lang "ar" -}}
+{{- $pool := slice -}}
+{{- $seen := slice -}}
+{{- range hugo.Data.library.books -}}
+  {{- $book := . -}}
+  {{- $id := crypto.SHA256 (printf "%s|%s|%v|%s|%s" .title .author (.year | default "") (.source | default "") (.download | default "")) -}}
+  {{- if not (in $seen $id) -}}
+    {{- $seen = $seen | append $id -}}
+    {{- $title := .title -}}
+    {{- $author := .author | default "" -}}
+    {{- $desc := .desc | default "" -}}
+    {{- if $isAr -}}
+      {{- $title = .title_ar | default $title -}}
+      {{- $author = .author_ar | default $author -}}
+      {{- $desc = .desc_ar | default $desc -}}
+    {{- end -}}
+    {{- $href := .download | default .source | default "" -}}
+    {{- $download := or .download (or (strings.HasSuffix $href ".pdf") (strings.HasSuffix $href ".epub")) -}}
+    {{- $label := "" -}}
+    {{- if $href -}}
+      {{- if $download -}}
+        {{- $label = partial "library-file-label.html" (dict "book" $book "isAr" $isAr) | plainify | htmlUnescape -}}
+      {{- else if $isAr -}}{{- $label = .source_label_ar | default "عرض المصدر" -}}
+      {{- else -}}{{- $label = .source_label_en | default "View source" -}}
+      {{- end -}}
+    {{- end -}}
+    {{- $pool = $pool | append (dict "id" $id "title" $title "author" $author "year" (.year | default "") "desc" ($desc | truncate 110 | htmlUnescape) "href" $href "label" $label "download" (not (not $download))) -}}
+  {{- end -}}
+{{- end -}}
+{{- return $pool -}}
