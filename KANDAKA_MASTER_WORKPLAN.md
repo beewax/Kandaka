@@ -1,5 +1,15 @@
 # KANDAKA WORKPLAN
 
+## 8 November 2026 — Tombos photograph restored; Kordofan still withheld
+
+Owner-requested deeper location research positively identified the Commons “Kerma Statue” photograph as the unfinished royal statue at Tombos, using inspected archaeological comparison photographs from Munich University and a Purdue thesis. Restored with corrected full English/Arabic captions, uncertain king identity, 2016 camera date, MustafaO credit and CC BY-SA 4.0. Original image preserved.
+
+Verified live EN/AR: [English](https://kandaka.com/images/2026-11-03-image-1-7911fa0c/) · [العربية](https://kandaka.com/ar/images/2026-11-03-image-1-7911fa0c/). Release f3c4094c3f0464216b17b54dd52fa6bf95ab5efa; Netlify 6af153b0fed3c12f1052dc25; actual publication 2026-11-09T05:02:40.636Z; independent complete-body/image verification 05:03:11Z. Full receipt: [photo-location-review-2026-11-08](docs/photo-location-review-2026-11-08.md).
+
+Kordofan steamer Af I 2523 remains withheld: conflicting museum geography, no identified landing place. Archive-study retrieval failed; not claimed read. Next evidence needed is the original inventory caption or independently located matching photograph. No museum outreach sent. Other queues unchanged.
+
+**العربية:** أُعيد نشر صورة التمثال الملكي غير المكتمل في تمبس بعد التحقق من الموقع، مع تصحيح نسبة الصورة السابقة إلى كرمة وإكمال النصوص العربية والإنجليزية وبيانات التصوير والرخصة. ما زالت صورة الباخرة كردفان محجوبة لعدم التحقق من موضع التصوير؛ اسم الباخرة لا يثبت الموقع.
+
 ## 8 November 2026 — Inline bookstore rotation deployed; live visual checks complete
 
 **Status: APPROVED, DEPLOYED AND VERIFIED LIVE.** Supersedes the earlier pending-review and browser-timeout status for this change only. Owner explicitly approved the finished preview and instructed deployment.

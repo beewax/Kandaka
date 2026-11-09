@@ -21,3 +21,13 @@ Searches included Czech/German/English vessel and archive terms and central refe
 Preparation only; tests, commit, deployment and independent verification to be recorded separately below. No articles, artwork, Library or automation changes.
 
 Local validation: nine photo tests passed; normal production Hugo build passed (778721 ms, 1178 English / 3590 Arabic pages). Both generated detail pages, gallery text, Arabic direction, exact image/source/licence links and existing three-card homepage photo records passed verification at 2026-11-09T04:58:31Z. Original image SHA256 a5d29ae5961c7d75370f34f17687a0ba7c5dbb367eaacec326f0b46e05ed145d. Publication still pending at this preparation commit.
+
+
+## Verified publication
+- Release commit: f3c4094c3f0464216b17b54dd52fa6bf95ab5efa.
+- Matching successful Netlify deployment: 6af153b0fed3c12f1052dc25.
+- Actual publication: 2026-11-09T05:02:40.636Z (8 November, 23:02:40 CST).
+- Independent verification: 2026-11-09T05:03:11.233909Z. Both full detail bodies match the checked build; title, description, credit, alt, licence/source links and gallery records passed. Arabic RTL passed. Single image per detail page and original image SHA256 matched. Existing three homepage photo records and all six image requests passed; homepage rotation was not forced to include this new restoration.
+- English: https://kandaka.com/images/2026-11-03-image-1-7911fa0c/
+- Arabic: https://kandaka.com/ar/images/2026-11-03-image-1-7911fa0c/
+- Kordofan remains draft-protected. No article publication flags or schedules changed.
