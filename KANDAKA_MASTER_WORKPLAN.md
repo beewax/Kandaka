@@ -1,5 +1,18 @@
 # KANDAKA WORKPLAN
 
+## 9 November 2026 — Cool-roofs article published and verified
+
+**Status: OWNER APPROVED, PUBLISHED AND VERIFIED LIVE.** Supersedes this article's earlier pending-review/release-in-preparation statuses. Owner instructed “Go ahead and publish” after reviewing the English/Arabic drafts and displayed Ideogram cover.
+
+- [English](https://kandaka.com/development/sudan-cool-roofs-pilot/) · [العربية](https://kandaka.com/ar/development/sudan-cool-roofs-pilot/).
+- Release commit `8193ae0592ba37ec8f99a9c56f2f711a4c2e63d0`; Netlify deployment `6af1f8a1fc60b3f6f3df5e20`, ready and published **9 November 2026 at 10:46:21 America/Chicago / 16:46:21 UTC**. Shared editorial release date 16:40:33 UTC; actual publication recorded separately here.
+- Full Hugo production build passed; duplicate-cover check passed across 4,021 Markdown files. EN/AR each HTTP 200; complete article bodies matched release output, with five section headings, translation links, Arabic RTL and both Development listings. The same approved 2560×1440 WebP cover matched SHA-256 `6a0f14a0e27e481f5f2e14426984d521e45882313780932483b4860d0498ca03` on public retrieval.
+- AI conceptual illustration disclosure and research access limits preserved. Substantive approved text unchanged; review-only captions removed. No other draft approvals, Library catalog edits or file uploads inferred. Existing dirty checkout work preserved.
+- Machine-readable receipt: [verification](docs/cool-roofs-publication-2026-11-09.json). Source/cover provenance: [research record](docs/cool-roofs-draft-2026-11-09.md).
+
+**العربية:** نُشر المقال بنسختيه مع الغلاف المعتمد، وتحقق التطابق الكامل للنصين والصورة على الموقع وظهورهما في قسم التنمية. حُفظ الإفصاح عن الرسم المولّد وحدود المصادر. لا يشمل الاعتماد أي مسودة أخرى.
+
+
 ## 9 November 2026 — Cool-roofs article approved for bilingual publication
 
 **Status: OWNER APPROVED; RELEASE IN PREPARATION.** Following review of both linked drafts and the displayed Ideogram cover, the owner instructed “Go ahead and publish”. Approval applies to this English/Arabic article pair and the exact cover only. Both draft flags changed to false, with a shared release timestamp `2026-11-09T16:40:33.959726+00:00`; review-only caption wording removed, substantive text preserved. Pages: `/development/sudan-cool-roofs-pilot/` and `/ar/development/sudan-cool-roofs-pilot/`. AI illustration disclosure and source-access limitations retained. No other article approval or Library change inferred. Live deployment verification will be recorded separately.

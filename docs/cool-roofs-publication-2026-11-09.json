@@ -1,0 +1,25 @@
+{
+  "en": {
+    "url": "https://kandaka.com/development/sudan-cool-roofs-pilot/",
+    "body_chars": 6319,
+    "headings": 5,
+    "body_sha256": "8fa8a704fa7ea2db255b8747972a0245ce51e7782268b3d8ffde609b7f7aa7bd",
+    "http_status": 200,
+    "live_body_matches": true
+  },
+  "ar": {
+    "url": "https://kandaka.com/ar/development/sudan-cool-roofs-pilot/",
+    "body_chars": 4815,
+    "headings": 5,
+    "body_sha256": "3104e9dd6495bd3fdf95cd2c82ae3760b0afdd8a3a561e25e23931ae195df907",
+    "http_status": 200,
+    "live_body_matches": true
+  },
+  "cover_sha256": "6a0f14a0e27e481f5f2e14426984d521e45882313780932483b4860d0498ca03",
+  "live_cover_matches": true,
+  "both_development_listings": true,
+  "deployment": "6af1f8a1fc60b3f6f3df5e20",
+  "release_commit": "8193ae0592ba37ec8f99a9c56f2f711a4c2e63d0",
+  "published_at": "2026-11-09T16:46:21.619Z",
+  "verified_at": "2026-11-09T16:47:03.761149+00:00"
+}
