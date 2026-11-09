@@ -1,5 +1,15 @@
 # KANDAKA WORKPLAN
 
+## 9 November 2026 — Cool roofs: bilingual article and Ideogram cover drafted
+
+**Status: DRAFT FOR OWNER REVIEW; NOT APPROVED FOR PUBLICATION.** Owner authorized starting the recommended cool-roofs focus and requested advertising-book-informed Leonardo/Ideogram artwork. English/Arabic drafts: `content/development/sudan-cool-roofs-pilot.{en,ar}.md`, both `draft: true`, no release date. Working title: “Can Cooler Roofs Make Sudanese Homes More Livable?” Category: Development / تنمية.
+
+Thesis: a modest Sudanese occupied-home pilot must measure indoor conditions, household cooling behaviour, local total costs and maintenance; do not promise imported temperature savings. Mukhtar's 1980 Khartoum model-hut research is acknowledged with abstract-only access. Delhi RCT institutional summary reports near-zero indoor temperature reductions; reduced water use is an attributed possible explanation. No fieldwork, Sudanese quotations or health benefits invented. Basher 2023 model paper screened out as numerical evidence due to locality/results limitations. Full source/access and cover provenance: [research record](docs/cool-roofs-draft-2026-11-09.md).
+
+One Ideogram 4.5 conceptual cover generated using 6 existing credits; no purchase. Same candidate in both languages, explicit AI illustration disclosure, no documentary/temperature-result claim. Applied existing partial notes for Ogilvy, visual storytelling, Marketing Made Simple and StoryBrand from the Nile/Kandaka work; no Nike branding. Cover and both article texts await owner review. No unapproved article published or Library catalog changed.
+
+**العربية:** أُعدّت مسودتان لمقال عن اختبار جدوى الأسقف العاكسة في البيوت السودانية، وغلاف تصوري باستخدام Ideogram. يميّز المقال بين حرارة السقف والغرفة، وبين خفض التعرّض للحرارة وتوفير موارد الأسرة، ويقترح قياسات وتكاليف وصيانة محلية. لم تُنفّذ تجربة أو تُجر مقابلات. المقال والغلاف قيد مراجعة المستخدم، ولا يوجد اعتماد للنشر.
+
 ## 8 November 2026 — Tombos photograph restored; Kordofan still withheld
 
 Owner-requested deeper location research positively identified the Commons “Kerma Statue” photograph as the unfinished royal statue at Tombos, using inspected archaeological comparison photographs from Munich University and a Purdue thesis. Restored with corrected full English/Arabic captions, uncertain king identity, 2016 camera date, MustafaO credit and CC BY-SA 4.0. Original image preserved.
