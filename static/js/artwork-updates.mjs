@@ -63,6 +63,9 @@ export function selectArtwork(items, at = new Date()) {
   const week = artworkWeek(at);
   return groupSelection(items.filter(item => item.group === 'sudan-nubia'), week, 2);
 }
+export function selectWeeklyVisuals(items, at = new Date(), stride = 3) {
+  return groupSelection(items, artworkWeek(at), stride);
+}
 export function refreshArtwork(section, at = new Date()) {
   const week = artworkWeek(at);
   const isAr = section.dataset.language === 'ar';

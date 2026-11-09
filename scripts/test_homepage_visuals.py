@@ -55,6 +55,21 @@ class WeeklyVisualsTest(unittest.TestCase):
             self.assertEqual(run.returncode, 0, run.stdout + run.stderr)
             result = {x["name"]: x for x in json.loads(
                 (root / "public/index.html").read_text(encoding="utf-8"))}
+        node = shutil.which("node")
+        if node:
+            module = (REPO / "static/js/artwork-updates.mjs").as_uri()
+            program = (
+                f'import {{selectWeeklyVisuals}} from {json.dumps(module)};'
+                'import {readFileSync} from "node:fs";'
+                'const cases=JSON.parse(readFileSync(0,"utf8"));'
+                'console.log(JSON.stringify(cases.map(c=>({name:c.name,'
+                'selected:selectWeeklyVisuals(c.items,new Date(c.at)).map(i=>i.value)}))));'
+            )
+            browser = subprocess.run([node, "--input-type=module", "-e", program],
+                                     input=json.dumps(cases), capture_output=True, text=True)
+            self.assertEqual(browser.returncode, 0, browser.stderr)
+            for case in json.loads(browser.stdout):
+                self.assertEqual(case["selected"], result[case["name"]]["selected"])
         picks = [result[t]["selected"] for t in times]
         self.assertEqual(picks[0], picks[1])
         self.assertEqual(picks[2], picks[3])

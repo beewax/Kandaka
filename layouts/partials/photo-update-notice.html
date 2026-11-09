@@ -1,1 +1,17 @@
 <p class="photo-update-notice">{{ if eq .Site.Language.Lang "ar" }}نبحث آلياً عن صور جديدة يومياً، ونراجع إضافات الصور أسبوعياً قبل نشرها بالعربية والإنجليزية. تواريخ الصور مذكورة في العناوين والتعليقات؛ والصور التاريخية لا تصف الأوضاع الحالية.{{ else }}New photographs are discovered daily; additions are reviewed weekly before publication in Arabic and English. Photo dates appear in titles and captions; historical images do not show current conditions.{{ end }}</p>
+{{- $isAr := eq .Site.Language.Lang "ar" -}}
+{{- $week := partial "visual-week.html" (dict) -}}
+{{- $next := $week.start.AddDate 0 0 7 -}}
+{{- $last := "" -}}
+{{- range partial "homepage-photo-pool.html" . -}}
+  {{- $reviewed := .value.Params.reviewed_on -}}
+  {{- if or (not $last) ((time.AsTime $reviewed).After (time.AsTime $last)) }}{{ $last = $reviewed }}{{ end -}}
+{{- end -}}
+<div class="photo-update-status" data-photo-updates data-language="{{ if $isAr }}ar{{ else }}en{{ end }}">
+  {{ with $last }}<p>{{ if $isAr }}آخر تحديث للصور جرت مراجعته:{{ else }}Latest reviewed photo update:{{ end }} <time datetime="{{ . }}">{{ (time.AsTime .).Format "2006-01-02" }}</time></p>{{ end }}
+  <p><strong>{{ if $isAr }}المراجعة المقبلة للصور:{{ else }}Next photo review:{{ end }}</strong> <time data-photo-next-review datetime="{{ $next.Format "2006-01-02T15:04:05Z07:00" }}">{{ $next.Format "2006-01-02 · 3:04 PM MST" }}</time></p>
+  <p><strong>{{ if $isAr }}التبديل المقبل لمختارات الصفحة الرئيسية:{{ else }}Next homepage rotation:{{ end }}</strong> <time data-photo-next-rotation datetime="{{ $next.Format "2006-01-02T15:04:05Z07:00" }}">{{ $next.Format "2006-01-02 · 3:04 PM MST" }}</time></p>
+  <small>{{ if $isAr }}جميع المواعيد بتوقيت شيكاغو، مع مراعاة التوقيت الصيفي. تتبدل مختارات الصفحة الرئيسية من الصور المراجَعة أسبوعيًا، وقد تتكرر. تُنشر الصور الجديدة بعد اكتمال التحقق من المصادر والحقوق والمراجعة بالعربية والإنجليزية؛ وقد لا تسفر المراجعة عن إضافة جديدة.{{ else }}All times are in Chicago time, with daylight saving observed. The homepage rotates reviewed photographs weekly; selections may repeat. New photographs follow source, rights and bilingual review, and a review may yield no additions.{{ end }}</small>
+</div>
+<script type="module" src="{{ "js/photo-updates.mjs" | relURL }}"></script>
+<style>.k-photo-card[hidden]{display:none}.photo-update-status{padding:.8rem 1rem;background:var(--code-bg);border-radius:4px;margin:1rem 0;line-height:1.65}.photo-update-status p{margin:.3rem 0}.photo-update-status small{display:block;color:var(--secondary)}</style>

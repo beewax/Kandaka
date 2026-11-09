@@ -533,7 +533,8 @@ html[data-theme="dark"] .k-nile-home-kicker { color: #ffd84d; }
 {{- $latestDevelopment := first 1 (sort (where .Site.RegularPages "Section" "development") "Date" "desc") }}
 {{- $latestHistory := first 1 (sort (where .Site.RegularPages "Section" "history") "Date" "desc") }}
 {{- $latestCulture := first 1 (sort (where .Site.RegularPages "Section" "culture") "Date" "desc") }}
-{{- $homepagePhotos := partial "homepage-photos.html" . }}
+{{- $homepagePhotoItems := partial "homepage-photo-pool.html" . }}
+{{- $homepagePhotos := partial "weekly-visual-selection.html" (dict "items" $homepagePhotoItems "limit" 3) }}
 {{- $carouselImageCandidates := first 1 $homepagePhotos }}
 
 <section class="k-featured" aria-labelledby="featured-heading" data-k-carousel>
@@ -592,7 +593,7 @@ html[data-theme="dark"] .k-nile-home-kicker { color: #ffd84d; }
     {{- end }}
 
     {{- range $carouselImageCandidates }}
-    <article class="k-featured-slide" data-k-slide aria-hidden="true">
+    <article class="k-featured-slide" data-k-slide data-photo-feature data-photo-id="{{ .File.TranslationBaseName }}" aria-hidden="true">
       <img class="k-featured-media" src="{{ .Params.image_url }}" alt="" loading="lazy" referrerpolicy="no-referrer">
       <div class="k-featured-content">
         <span class="k-featured-label">{{ if $isAr }}السودان بالصور{{ else }}Sudan in Images{{ end }}</span>
@@ -775,16 +776,22 @@ html[data-theme="dark"] .k-nile-home-kicker { color: #ffd84d; }
 <div class="k-two-col">
 
   {{/* ── Sudan in Images (dynamic, from content/images/) ── */}}
-  <section class="k-section" aria-labelledby="photos-heading">
+  <section class="k-section" aria-labelledby="photos-heading" data-photo-homepage>
     <div class="k-section-head">
       <h2 id="photos-heading">{{ if $isAr }}السودان بالصور{{ else }}Sudan in Images{{ end }}</h2>
-      <span class="k-update-badge">{{ if $isAr }}التحديث المراجع التالي: السبت{{ else }}Next reviewed update: Saturday{{ end }}</span>
+      <span class="k-update-badge">{{ if $isAr }}صور تخضع للمراجعة أسبوعيًا{{ else }}Weekly reviewed photographs{{ end }}</span>
     </div>
     {{ partial "photo-update-notice.html" . }}
     <div class="k-photo-stack">
-    {{ range $homepagePhotos }}
+    {{- $selectedPhotoIDs := slice -}}
+    {{- range $homepagePhotos }}{{ $selectedPhotoIDs = $selectedPhotoIDs | append .File.TranslationBaseName }}{{ end -}}
+    {{- $renderPhotos := $homepagePhotos -}}
+    {{- range $homepagePhotoItems -}}
+      {{- if not (in $selectedPhotoIDs .id) }}{{ $renderPhotos = $renderPhotos | append .value }}{{ end -}}
+    {{- end -}}
+    {{ range $renderPhotos }}
       {{ partial "photo-review-check.html" . }}
-      <div class="k-photo-card">
+      <div class="k-photo-card" data-photo-id="{{ .File.TranslationBaseName }}" data-photo-since="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}"{{ if not (in $selectedPhotoIDs .File.TranslationBaseName) }} hidden{{ end }}>
         <a href="{{ .RelPermalink }}"><img src="{{ .Params.image_url }}" alt="{{ .Params.alt }}" loading="lazy" decoding="async"></a>
         <div class="k-photo-caption"><strong><a href="{{ .RelPermalink }}">{{ .Title }}</a></strong>
         <p>{{ .Description }}</p>
