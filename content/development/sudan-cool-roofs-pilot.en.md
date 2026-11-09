@@ -1,17 +1,18 @@
 ---
 title: "Can Cooler Roofs Make Sudanese Homes More Livable?"
+date: "2026-11-09T16:40:33.959726+00:00"
 author: "Kandaka"
 category: "Development"
 description: "Reflective roofs deserve a careful Sudanese trial: measure the room, the household budget and the work of keeping a roof useful."
 tags: ["Sudan", "housing", "heat", "cool roofs"]
-draft: true
+draft: false
 cover:
   image: "/images/uploads/cool-roofs-ideogram-2026-11-09.webp"
   alt: "Conceptual illustration of a white roof above a brick home, with sunlight overhead and a resident reading below."
   relative: false
 ---
 
-Cover candidate: AI-generated conceptual illustration, Ideogram 4.5, 9 November 2026. It depicts an imagined home, not a completed Sudanese project or measured cooling result. Article and cover await review.
+Cover: AI-generated conceptual illustration, Ideogram 4.5, 9 November 2026. It depicts an imagined home, not a completed Sudanese project or measured cooling result.
 
 A roof is a large surface with a small audience. From the street, a fresh white coating may barely register. Inside the room below, its value would have to be felt in an ordinary afternoon: somewhere to sit, work or rest with less discomfort, or less expense keeping the room bearable.
 

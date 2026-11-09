@@ -1,5 +1,12 @@
 # KANDAKA WORKPLAN
 
+## 9 November 2026 — Cool-roofs article approved for bilingual publication
+
+**Status: OWNER APPROVED; RELEASE IN PREPARATION.** Following review of both linked drafts and the displayed Ideogram cover, the owner instructed “Go ahead and publish”. Approval applies to this English/Arabic article pair and the exact cover only. Both draft flags changed to false, with a shared release timestamp `2026-11-09T16:40:33.959726+00:00`; review-only caption wording removed, substantive text preserved. Pages: `/development/sudan-cool-roofs-pilot/` and `/ar/development/sudan-cool-roofs-pilot/`. AI illustration disclosure and source-access limitations retained. No other article approval or Library change inferred. Live deployment verification will be recorded separately.
+
+**العربية:** اعتمد المستخدم نشر المقال بنسختيه العربية والإنجليزية والغلاف المعروض. حُفظ النص الموضوعي وحدود المصادر والإفصاح عن الرسم المولّد بالذكاء الاصطناعي. يقتصر الاعتماد على هذا المقال وغلافه؛ ويُسجّل التحقق من النشر الفعلي لاحقاً.
+
+
 ## 9 November 2026 — Permanent Kandaka Library ingestion and continuity rules (owner instruction)
 
 **Owner direction: execute Kandaka Library PDF work to completion with minimal routine prompts; persist the workflow so future Kandaka tasks do not restart from zero.** These instructions apply to all future Kandaka Library tasks. Do not confuse Library acquisition with approval to publish editorial articles.
