@@ -1,5 +1,20 @@
 # KANDAKA WORKPLAN
 
+## 9 November 2026 — First-year economic reform bilingual review drafts
+
+**Status: USER REVIEW / DRAFT READY; NOT APPROVED FOR PUBLICATION.** Following the practical phased proposal and the owner's “Continue please”, developed full English and Arabic review drafts. Title: “Sudan’s First Year: Which Economic Reforms Must Come First?” Category Development / تنمية. Files: `content/development/sudan-first-year-economic-reform.{en,ar}.md`, both `draft: true`, no publication date or cover. This advances the earlier RESEARCH status for this topic only.
+
+Working scenario remains explicit: a new civilian government with a credible mandate, uneven security/access and damaged institutions. Earlier focus questions were not individually answered; do not describe this assumption as an endorsed constitutional scenario or fixed policy settlement. Thesis already presented in discussion: sequence essential-service protection, accountable finances and productive recovery; require readiness conditions for changes to essential prices, exchange-rate arrangements and public ownership. First 90 days, months four–six and months seven–twelve are responsibility/delivery horizons, not guarantees of national implementation.
+
+The full pair covers actual financing and fallback if grants fail, central-bank financing with narrow emergency limits, early civilian fiscal oversight of military-linked commercial entities, bank diagnosis before recapitalization, subsidy incidence/transfer delivery, public services alongside cash, debt re-engagement, alternative enterprise ownership outcomes and locally maintainable productive capacity. No rigid currency anchor chosen; preserve Article 5 preferences/research separately. No costed national budget, current installation quotation or invented numerical target claimed.
+
+New source pass: World Bank's 28 February 2025 Thamarat completion report reports approximately 1.5 million families paid; distinguish reach from duration or measured welfare impact. IMF March 2026 trust-resource review verifies the dated HIPC decision/completion distinction. Ali/Mann 2023 supplies Sudanese social-policy critique, with political-economy methods distinguished from impact evaluation. Existing Gmail-identified Eltahir study and central-library ERF partial reading remain bounded. Eight public source links match across languages. No personalized email links, PDF mirroring, catalog edits or R2 uploads.
+
+Scoped latest-main Hugo draft render passed in both languages; normal build excluded both pages; Arabic RTL, draft flags, missing release dates and matched citation lists checked. This is not a production or browser visual audit. Existing dirty checkout work preserved. [Draft/source review](docs/sudan-first-year-reform-draft-review-2026-11-09.md) · [checks](docs/sudan-first-year-reform-draft-checks.json). Owner review is next; research/drafting permission is not publication approval.
+
+**العربية:** أُعدّت مسودتان كاملتان للمراجعة عن أولويات الإصلاح خلال تسعين يوماً وستة أشهر وسنة. افتراض الحكومة المدنية وتفاوت الأمن معلن ولم يُعامل كقرار نهائي للمستخدم. يربط المقال حماية الخدمات والمساءلة المالية باستعادة الإنتاج، ويقيّد تغييرات الأسعار والصرف والملكية بالجاهزية والتمويل، مع خطة لتعثر المساعدات. تتطابق روابط المصادر الثمانية وتبقى حدود الدراسات واضحة. المسودتان محميتان من النشر، دون تاريخ أو غلاف أو اعتماد للنشر.
+
+
 ## 9 November 2026 — New government economic reform horizons
 
 **Status: RESEARCH / OWNER DISCUSSION; NOT APPROVED FOR ARTICLE PUBLICATION.** Owner requested thinking through structural adjustment needed in the first 90 days, six months and year, using the library, Gmail, a remembered meta-analysis and outside sources, following this workplan. Category: Development / تنمية. Proposed focus: sequencing stabilization, public accountability, social protection and productive recovery, including which reforms require readiness conditions rather than fixed dates. This is distinct from Article 5 on monetary stability; its existing currency preferences/questions remain intact.
@@ -1983,3 +1998,8 @@ These supplement existing RSR-002 (Finance), RSR-018 (CBOS), RSR-084 (World Bank
 ## 9 November 2026 — Three featured Library source links repaired
 
 Owner requested fixing the three current unavailable-file cards. Prepared replacement links to the historical New Sudan Penal Code 2003 archival PDF at ecoi.net, the original Stuart Tyson Smith Smarthistory Naga article, and the original French Kerma et Méroé PDF at kerma.ch. Two PDFs verified by response bytes/page counts and visual title/colophon checks; Smarthistory accessible in a normal browser after automatic security verification. Corrected Kerma's erroneous author and recorded the PDF's January 2006 colophon / legal-deposit 2005 distinction. No full-book reading, current-law assessment, R2 upload or rights expansion claimed. Exactly three catalogue/inventory records and verified PDF format/status entries change; existing homepage identities are retained so the repaired books stay visible this week. Research/rotation schedules and unrelated records are unchanged. Release verification: docs/featured-library-link-repair-2026-11-09.md.
+## Research registry addition for first-year reform drafts — 9 November 2026
+
+| ID | Institution / stream | Type | Country / region | Topics and why checked | Institutional locator | Publication / repository | Priority | Last check | Notes |
+|---|---|---|---|---|---|---|---|---|---|
+| RSR-179 | Development and Change / Wiley | Scholarly publisher | International / Sudan | Sudanese social-policy formation, cash transfers and distribution | https://onlinelibrary.wiley.com/journal/14677660 | https://doi.org/10.1111/dech.12784 | P1 for this topic | 2026-11-09 publisher text retrieved | Ali and Mann 2023; selected argument reviewed; first-online 7 August, July issue label retained; political-economy study, not causal comparison of all alternatives; link only |
