@@ -27,3 +27,11 @@ The three records retain their existing language-independent homepage IDs throug
 Source checks, downloaded reference-only PDFs, rendered first pages, publisher browser screenshot and exact before/after records are in project `tmp/featured-link-repair-2026-11-09/`: `source-checks.json`, `alternate-source-checks.json`, `record-changes.json`, `smarthistory-browser.png`, and PDF/front-page files. PDFs were inspected for identity/access, not read in full.
 
 All 37 Python tests and nine Node tests pass, including the actual-Hugo permanent-identity/localization/JSON checks. Cover audit passed across 4,021 Markdown files. Full normal Hugo production build passed in 189,095 ms (1,185 EN / 3,612 AR pages), with the existing `.Site.Data` deprecation warning only. At 19:58:02 UTC, all four homepage/Library routes passed the complete 567-record metadata/URL/label/selection/date/control checks; runtime bytes unchanged. Exact repaired-card/source verification and deployment/live receipts follow separately. Catalogue count and all 564 unrelated records remain unchanged; CSV has exactly three row replacements, format/status maps exactly two new verified PDF entries.
+
+## Published and independently verified
+
+Release commit `617b7c45075955dcd237653c1a7ec6b2f75f9f94` is deployed to production. Netlify deployment `6af226510a24eaa59609b5be` reached ready with no error and published at 2026-11-09T20:01:26.475Z (14:01 CST).
+
+Independent live checks completed at 20:02 UTC across English/Arabic homepages and full Library routes: complete catalogue metadata/control/selection/date checks and the exact three repaired identities, source URLs, labels and attribution checks passed. Both PDF sources were freshly downloaded again: HTTP 200, PDF signatures and byte hashes match the verified source copies. Evidence: `rendered-live.json` and `featured-live.json` in the evidence directory.
+
+Browser checks confirmed all three working source buttons on the English and Arabic homepages with no File unavailable label. Screenshots: `repaired-live-en.png` and `repaired-live-ar.png`. Console entries returned by the reused tab predate deployment and belong to the earlier external source security challenge; no new Kandaka error was observed. Desktop views checked; no separate mobile viewport certification.
