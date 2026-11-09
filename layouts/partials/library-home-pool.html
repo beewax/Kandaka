@@ -3,7 +3,7 @@
 {{- $seen := slice -}}
 {{- range hugo.Data.library.books -}}
   {{- $book := . -}}
-  {{- $id := crypto.SHA256 (printf "%s|%s|%v|%s|%s" .title .author (.year | default "") (.source | default "") (.download | default "")) -}}
+  {{- $id := .homepage_id | default (crypto.SHA256 (printf "%s|%s|%v|%s|%s" .title .author (.year | default "") (.source | default "") (.download | default ""))) -}}
   {{- if not (in $seen $id) -}}
     {{- $seen = $seen | append $id -}}
     {{- $title := .title -}}

@@ -29,6 +29,7 @@ class LibraryRotationTest(unittest.TestCase):
         cases += [dict(name='duplicate', at=times[5], items=items + items[:2]),
                   dict(name='reordered', at=times[5], items=list(reversed(items)))]
         sample = dict(title='</script><script>alert(1)</script>', title_ar='عنوان عربي',
+                      homepage_id='permanent-record-identity',
                       author='An Author', author_ar='مؤلف', year='2026',
                       desc="An author's description", desc_ar='وصف عربي', source='https://example.test/book')
         unavailable = dict(title='Unavailable file', author='Author', desc='An existing record',
@@ -61,6 +62,7 @@ class LibraryRotationTest(unittest.TestCase):
         self.assertEqual(en['cases'], ar['cases'])
         self.assertEqual([x['id'] for x in en['pool']], [x['id'] for x in ar['pool']])
         self.assertEqual(len(en['pool']), 2)
+        self.assertEqual(en['pool'][0]['id'], sample['homepage_id'])
         self.assertEqual(en['pool'][0]['title'], sample['title'])
         self.assertEqual(en['pool'][0]['desc'], sample['desc'])
         self.assertEqual(ar['pool'][0]['title'], sample['title_ar'])

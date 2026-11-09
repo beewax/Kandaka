@@ -276,3 +276,11 @@ Sources marked "Free, direct PDF" above (RePEc-linked originals, SSRN, IMF, AERC
 ## Monitoring
 
 A weekly scheduled check searches these sources for new Sudan papers not yet in `data/library.json` and reports candidates — no auto-add, review before batching them in.
+
+## 9 November 2026 — Three current homepage source repairs
+
+- Historical New Sudan Penal Code (2003): verified 125-page archival English PDF at https://www.ecoi.net/en/file/local/1286840/1504_1216568485_469e1f0a2.pdf . Title page confirms issuing Secretariat; historical document, not current-law guidance.
+- Stuart Tyson Smith, Pylon of the Nubian Lion Temple at Naga, Smarthistory (8 February 2023): original browser-accessible article at https://smarthistory.org/pylon-nubian-lion-temple-naga/ . Source article, not a hosted PDF; automated 403 differs from successful normal-browser verification.
+- Bonnet, Honegger, Lenoble, Rilly and Rondot, Kerma et Méroé: Cinq conférences d'archéologie soudanaise: original 55-page French PDF at https://kerma.ch/documents/Publications_PDF/Cinq_conferences.pdf . Colophon January 2006 / legal deposit 2005; earlier incorrect Donna Kornhaber attribution removed. All rights reserved; link only, no rehosting.
+
+Exactly three records and matching inventory rows repaired; 567-record catalogue preserved. Detailed source checks and pending/verified release status: docs/featured-library-link-repair-2026-11-09.md.
