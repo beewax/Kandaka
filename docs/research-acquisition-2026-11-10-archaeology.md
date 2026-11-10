@@ -54,3 +54,8 @@ Existing catalogue and cover checks run; full Hugo build and rendered bilingual 
 ## Next actions
 
 Obtain more independent household excavations and compare their methods/chronologies before drafting the new article. Seek rights clarification only through separately authorized outreach; none sent here. Revisit Khor Rafit only through a lawful available original or confirmed access route, rather than repeatedly downloading its error page. Live Calibre/central-catalogue access remains outstanding. Continue practical local-construction, museum and cultural-industry evaluations on the next broad pass, with costs and maintenance scope where actually reported.
+
+
+## 10 November 2026 — archaeology continuation deployed and verified
+
+Commit `484eb9f91d7615ad1b5d40617296f8008eb39864` deployed as Netlify `6af3402c14fabc3b10a361e8` at 16:04:16.530 UTC / 10:04:16 CST. All four updated English/Arabic article pages and both Library editions returned HTTP 200 with the expected evidence; both libraries contain 577 cards and both new source links. Original 32-page food-storage PDF archived in Kandaka and public bytes/hash verified; Hamadab linked only because rights unclear. Isotope commercial-use restriction recorded; no data export. Local Hugo build, 4,050-file cover audit, original-prefix preservation and exact 15-file remote-byte checks passed. No new article published; household-history candidate remains research-only. Full receipt: `docs/archaeology-publication-2026-11-10.json`. Remaining blockers are live Calibre/central catalogue access, Khor Rafit access/rights and additional independent household/construction evaluations.

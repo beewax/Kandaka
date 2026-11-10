@@ -1,0 +1,81 @@
+{
+  "date": "2026-11-10",
+  "commit": "484eb9f91d7615ad1b5d40617296f8008eb39864",
+  "deploy": "6af3402c14fabc3b10a361e8",
+  "published_at": "2026-11-10T16:04:16.530Z",
+  "published_at_chicago": "2026-11-10 10:04:16 CST",
+  "state": "ready",
+  "catalogue_records": 577,
+  "live_checks": [
+    {
+      "url": "https://kandaka.com/culture/kisra-asida-sudan-food-history/",
+      "http_status": 200,
+      "new_evidence": true,
+      "pass": true
+    },
+    {
+      "url": "https://kandaka.com/development/sudan-urban-planning-strategy/",
+      "http_status": 200,
+      "new_evidence": true,
+      "pass": true
+    },
+    {
+      "url": "https://kandaka.com/library/",
+      "http_status": 200,
+      "cards": 577,
+      "archive_link": true,
+      "hamadab_source": true,
+      "pass": true
+    },
+    {
+      "url": "https://kandaka.com/ar/culture/kisra-asida-sudan-food-history/",
+      "http_status": 200,
+      "new_evidence": true,
+      "rtl": true,
+      "pass": true
+    },
+    {
+      "url": "https://kandaka.com/ar/development/sudan-urban-planning-strategy/",
+      "http_status": 200,
+      "new_evidence": true,
+      "rtl": true,
+      "pass": true
+    },
+    {
+      "url": "https://kandaka.com/ar/library/",
+      "http_status": 200,
+      "cards": 577,
+      "archive_link": true,
+      "hamadab_source": true,
+      "pass": true
+    }
+  ],
+  "archive": {
+    "url": "https://pub-0c3bb637d5f54b239fe4a4ef9b08bfe3.r2.dev/2025/nasreldein-et-al-2025-nubian-diet-dongola.pdf",
+    "bytes": 3711355,
+    "pages": 32,
+    "sha256": "72bb5c63461bf8fd96dfdfb844d7cff7a3b85c3fbc88e843fde7bec1ca2b09fc",
+    "http_status": 200,
+    "license": "CC BY 4.0",
+    "unmodified": true
+  },
+  "hamadab": {
+    "downloaded_for_research": true,
+    "pages": 9,
+    "pdf_stored": false,
+    "reason": "Redistribution and third-party rights not verified; publisher link retained"
+  },
+  "isotope_terms": {
+    "reviewed": true,
+    "data_exported": false,
+    "commercial_use_requires_authorization": true
+  },
+  "build": {
+    "hugo": "0.160.0",
+    "en_pages": 1189,
+    "ar_pages": 3634,
+    "milliseconds": 8024,
+    "cover_audit_files": 4050
+  },
+  "new_article_published": false
+}
