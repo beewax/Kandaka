@@ -54,3 +54,8 @@ Prepared for owner-authorized production integration. The containing merge commi
 ## Remaining work
 
 Other original-PDF rehosting requires clear redistribution and third-party rights; publisher links remain. Resolve Khor Rafit full text/licence and isotope-portal export terms before rehosting. Live Calibre/central-catalogue checks and additional Sudanese-led Kush/Funj and independent housing/local-material evidence remain next-pass work. No new source discovery or full-film viewing was undertaken in this integration pass. No outreach sent.
+
+
+## 10 November 2026 — production research update verified
+
+Production commit `928ec40f789452d0a3c09f718a701e6ec2d9bee0` (PR #21 merged) deployed successfully as Netlify `6af316925412dfa7387e2a54` at 13:06:26.815 UTC / 07:06:26 CST. All eight English/Arabic article pages returned HTTP 200 with dated research additions and retained covers; Arabic RTL retained. Both live Library editions returned 200 with 575 cards, the archived original PDF and verified download labels. Repeated public PDF download returned HTTP 200 with application/pdf, 27 pages and byte-identical SHA256; one PDF archived, other rights-unclear sources linked. No new article released. Browser visual verification remains blocked by Chromium socket permissions; no visual inspection claimed. Full receipt: `docs/research-publication-2026-11-10.json`. Existing approved text, release dates/cadence and newer unrelated work preserved.

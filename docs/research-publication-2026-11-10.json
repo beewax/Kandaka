@@ -1,0 +1,109 @@
+{
+  "date": "2026-11-10",
+  "commit": "928ec40f789452d0a3c09f718a701e6ec2d9bee0",
+  "pr": 21,
+  "pr_merged": true,
+  "netlify_deploy": "6af316925412dfa7387e2a54",
+  "published_at": "2026-11-10T13:06:26.815Z",
+  "published_at_chicago": "2026-11-10 07:06:26 CST",
+  "state": "ready",
+  "pages": [
+    {
+      "url": "https://kandaka.com/development/public-transport-urban-planning-sudan/",
+      "http_status": 200,
+      "replacement_character": false,
+      "dated_update": true,
+      "cover_preserved": true,
+      "pass": true
+    },
+    {
+      "url": "https://kandaka.com/development/sudan-urban-planning-strategy/",
+      "http_status": 200,
+      "replacement_character": false,
+      "dated_update": true,
+      "cover_preserved": true,
+      "pass": true
+    },
+    {
+      "url": "https://kandaka.com/ideas/film-tv-theatre-industry-sudan/",
+      "http_status": 200,
+      "replacement_character": false,
+      "dated_update": true,
+      "cover_preserved": true,
+      "pass": true
+    },
+    {
+      "url": "https://kandaka.com/culture/protecting-sudans-memory/",
+      "http_status": 200,
+      "replacement_character": false,
+      "dated_update": true,
+      "cover_preserved": true,
+      "pass": true
+    },
+    {
+      "url": "https://kandaka.com/library/",
+      "http_status": 200,
+      "replacement_character": false,
+      "cards": 575,
+      "archive_url": true,
+      "download_label": true,
+      "pass": true
+    },
+    {
+      "url": "https://kandaka.com/ar/development/public-transport-urban-planning-sudan/",
+      "http_status": 200,
+      "replacement_character": false,
+      "dated_update": true,
+      "rtl": true,
+      "cover_preserved": true,
+      "pass": true
+    },
+    {
+      "url": "https://kandaka.com/ar/development/sudan-urban-planning-strategy/",
+      "http_status": 200,
+      "replacement_character": false,
+      "dated_update": true,
+      "rtl": true,
+      "cover_preserved": true,
+      "pass": true
+    },
+    {
+      "url": "https://kandaka.com/ar/ideas/film-tv-theatre-industry-sudan/",
+      "http_status": 200,
+      "replacement_character": false,
+      "dated_update": true,
+      "rtl": true,
+      "cover_preserved": true,
+      "pass": true
+    },
+    {
+      "url": "https://kandaka.com/ar/culture/protecting-sudans-memory/",
+      "http_status": 200,
+      "replacement_character": false,
+      "dated_update": true,
+      "rtl": true,
+      "cover_preserved": true,
+      "pass": true
+    },
+    {
+      "url": "https://kandaka.com/ar/library/",
+      "http_status": 200,
+      "replacement_character": false,
+      "cards": 575,
+      "archive_url": true,
+      "download_label": true,
+      "pass": true
+    }
+  ],
+  "archive": {
+    "url": "https://pub-0c3bb637d5f54b239fe4a4ef9b08bfe3.r2.dev/2026/musstafa-et-al-2026-multi-hazard-sudan.pdf",
+    "status": 200,
+    "content_type": "application/pdf",
+    "bytes": 8680814,
+    "pages": 27,
+    "sha256": "b7f92aca1d5e044686495e3327ad1b19adc2fdab7bd8705cf9b8de24fbfe39ee",
+    "licence": "CC BY 4.0",
+    "unmodified": true
+  },
+  "visual_browser_check": "Not completed: system Chromium socket permission failure; rendered HTML and live HTTP checks passed."
+}

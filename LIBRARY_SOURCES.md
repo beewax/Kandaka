@@ -307,3 +307,8 @@ Eight nonduplicate bilingual source-linked records added (567 → 575); older an
 ## 10 November 2026 — archive recovered and article evidence integrated
 
 The 27-page Musstafa et al. multi-hazard original (DOI 10.3390/su18168269), CC BY 4.0, is now stored in kandaka-library and its public download verified against the original SHA256. Catalogue/format/status maps and one inventory row updated. Eight bilingual acquisitions retained; older comparator labels preserved; other rights-unclear sources remain publisher links. Actual dated addenda integrated into four existing English/Arabic article pairs. See docs/research-acquisition-2026-11-10.md for exact provenance, review levels, original-prefix checks and remaining access gaps. Earlier zero-upload records are historical.
+
+
+## 10 November 2026 — production research update verified
+
+Production commit `928ec40f789452d0a3c09f718a701e6ec2d9bee0` (PR #21 merged) deployed successfully as Netlify `6af316925412dfa7387e2a54` at 13:06:26.815 UTC / 07:06:26 CST. All eight English/Arabic article pages returned HTTP 200 with dated research additions and retained covers; Arabic RTL retained. Both live Library editions returned 200 with 575 cards, the archived original PDF and verified download labels. Repeated public PDF download returned HTTP 200 with application/pdf, 27 pages and byte-identical SHA256; one PDF archived, other rights-unclear sources linked. No new article released. Browser visual verification remains blocked by Chromium socket permissions; no visual inspection claimed. Full receipt: `docs/research-publication-2026-11-10.json`. Existing approved text, release dates/cadence and newer unrelated work preserved.
