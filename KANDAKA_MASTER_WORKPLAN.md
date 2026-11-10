@@ -1,5 +1,15 @@
 # KANDAKA WORKPLAN
 
+## 10 November 2026 — Kandaka PDF uploader security repair and download test
+
+**Completed:** Patched `find_and_upload_calibre.py` and `upload_nubian_to_r2.py` on the default branch to remove embedded R2 key literals. Both now read `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`, and `CLOUDFLARE_ACCOUNT_ID` from environment, default to `kandaka-library` and use a configurable `KANDAKA_R2_PUBLIC_URL`. Existing scripts were **not executed**; their automatic catalogue updates and fuzzy title matching require a separate safety review before use. Previous secrets remain exposed in Git history and **must be revoked/rotated**; editing the latest file does not revoke credentials or purge history. Do not reuse old keys.
+
+**Verified:** The original Nature flood article PDF is readable as a 13-page PDF through publisher/web retrieval; direct HTTPS download from this execution container fails at DNS resolution. No PDF bytes reached Kandaka R2, so no new PDF was archived and no catalogue source URL was switched. Prior R2 inventory discrepancy remains unresolved: do not assume an object is missing merely because the inventory/key match fails; verify host, key, bucket and HTTP retrieval. Preserve original source links.
+
+**Next:** rotate R2 credentials, validate a non-destructive inventory and download pipeline with independent PDF byte/header/page-count and license checks, then upload only a single verified test PDF to `kandaka-library` and confirm retrieval before bulk migration. Check public deployment separately.
+
+---
+
 ## 9 November 2026 — First-year economic reform bilingual review drafts
 
 **Status: USER REVIEW / DRAFT READY; NOT APPROVED FOR PUBLICATION.** Following the practical phased proposal and the owner's “Continue please”, developed full English and Arabic review drafts. Title: “Sudan’s First Year: Which Economic Reforms Must Come First?” Category Development / تنمية. Files: `content/development/sudan-first-year-economic-reform.{en,ar}.md`, both `draft: true`, no publication date or cover. This advances the earlier RESEARCH status for this topic only.
