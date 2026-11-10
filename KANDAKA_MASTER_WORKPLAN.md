@@ -2026,3 +2026,12 @@ Owner said Go ahead after the remaining upload/integration work was explained. R
 ## 10 November 2026 — production research update verified
 
 Production commit `928ec40f789452d0a3c09f718a701e6ec2d9bee0` (PR #21 merged) deployed successfully as Netlify `6af316925412dfa7387e2a54` at 13:06:26.815 UTC / 07:06:26 CST. All eight English/Arabic article pages returned HTTP 200 with dated research additions and retained covers; Arabic RTL retained. Both live Library editions returned 200 with 575 cards, the archived original PDF and verified download labels. Repeated public PDF download returned HTTP 200 with application/pdf, 27 pages and byte-identical SHA256; one PDF archived, other rights-unclear sources linked. No new article released. Browser visual verification remains blocked by Chromium socket permissions; no visual inspection claimed. Full receipt: `docs/research-publication-2026-11-10.json`. Existing approved text, release dates/cadence and newer unrelated work preserved.
+
+
+## 10 November 2026 — household archaeology continuation
+
+Owner requested continuation. Checked current catalogue, source register, inventory, repository Calibre export, research logs and article/backlog corpus. Two nonduplicate bilingual records added: Nasreldein et al. 2025 (Old Dongola food storage, DOI 10.1007/s10437-025-09622-y) and Babiker’s Hamadab urbanism (2025 print issue / 2026 portal date). Catalogue now 577. Original 32-page CC BY 4.0 food-storage PDF archived in Kandaka and public hash verified; nine-page Hamadab original downloaded but publisher-linked only because rights unclear. Isotope Terms of Use resolved and catalogue corrected; Khor Rafit original routes still 403. No duplicate Napata/faience entry.
+
+Actual dated bilingual addenda appended to food-history and urban-planning articles, preserving original bytes, covers, metadata and cadence. Bilingual candidate ARCH-HOUSEHOLDS-2026-11 advanced in docs/household-history-candidate-2026-11-10-en-ar.md; no new article published. Full acquisition/review/rights/blocker log: docs/research-acquisition-2026-11-10-archaeology.md. Current live Calibre/central catalogue remain unavailable. Production verification will be recorded separately after deploy; containing Git commit is the work receipt.
+
+أُضيف مرجعان دون تكرار، وأُرشف أصل مرخّص من ٣٢ صفحة، بينما بقي مرجع الحماداب مرتبطاً بالناشر لعدم وضوح الحقوق. حُدّثت شروط بوابة النظائر، وأُدرجت إضافات مؤرخة في نسختي مقالين مع حفظ النصوص والأغلفة السابقة. مسار تاريخ البيوت قيد البحث فقط ولا يمثل مقالاً جديداً منشوراً.

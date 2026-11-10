@@ -10215,14 +10215,15 @@
       "source": "https://www.isotopes.pcma.uw.edu.pl/",
       "desc": "Institutional isotope database for Sudanese bioarchaeology. Homepage and record interface inspected; underlying export not downloaded or reanalysed. Homepage counters show six sites and 168 samples, not a national census. No publication date or DOI established; newly discovered here, not verified newly launched. Useful for tracing laboratory methods, baselines and sample provenance; isotope differences alone do not establish ethnic identity.",
       "desc_ar": "قاعدة مؤسسية لنظائر المواد الأثرية الحيوية بالسودان. فُحصت الصفحة وواجهة السجلات دون تنزيل البيانات أو إعادة تحليلها. تعرض العدادات ستة مواقع و١٦٨ عينة، لا حصراً وطنياً. لم يثبت تاريخ نشر أو معرّف دائم؛ اكتشاف جديد لهذه المراجعة وليس إطلاقاً جديداً مؤكداً. تفيد في تتبع المختبر وخطوط الأساس ومصدر العينات؛ اختلاف النظائر لا يثبت الهوية الإثنية.",
-      "rights_note": "Homepage says open access but footer all rights reserved; terms endpoint returned 403. No explicit data redistribution licence verified. No original PDF identified on homepage. No dataset, images, sensitive coordinates or PDF stored; source link only.",
-      "review_level": "Homepage and interface only; underlying dataset not audited",
-      "license": "Unconfirmed; all-rights-reserved footer",
+      "rights_note": "Terms successfully read 10 November 2026: academic/research use with citation; commercial use requires authorization; PCMA owns original content. No open dataset redistribution licence. Retrieved page says last updated August 2026, while search excerpt said September: retain as retrieval discrepancy, not launch date. No export, PDF, image or sensitive record stored. Publisher link only; no PDF identified on homepage.",
+      "review_level": "Homepage/interface plus full Terms of Use; underlying dataset/export not audited",
+      "license": "Academic/research access; commercial use requires authorization; no open redistribution grant verified",
       "pdf_stored": false,
-      "verified_on": "2026-11-09",
+      "verified_on": "2026-11-10",
       "access_type": "external_article",
       "access_label_en": "Read original source (external link)",
-      "access_label_ar": "قراءة المصدر الأصلي (رابط خارجي)"
+      "access_label_ar": "قراءة المصدر الأصلي (رابط خارجي)",
+      "terms_url": "https://isotopes.pcma.uw.edu.pl/legal/terms"
     },
     {
       "title": "Pastoralists, travellers and miners in the Atbai Desert (Sudan): surveys and excavations at Khor Rafit",
@@ -10349,6 +10350,65 @@
       "access_type": "external_article",
       "access_label_en": "Read original source (external link)",
       "access_label_ar": "قراءة المصدر الأصلي (رابط خارجي)"
+    },
+    {
+      "title": "A Window into the Nubian Diet: A Case Study of Food Crop Storage in the Kingdom of Dongola (Fourteenth to Eighteenth Centuries CE), Northern Sudan",
+      "title_ar": "نافذة على الغذاء النوبي: دراسة لتخزين المحاصيل في مملكة دنقلا من القرن الرابع عشر إلى الثامن عشر، شمال السودان",
+      "author": "Mohammed Nasreldein; Simone Riehl; Agata Deptuła; Lorenzo de Lellis; Artur Obłuski",
+      "author_ar": "محمد نصر الدين؛ سيمونه ريل؛ أغاتا ديبتوا؛ لورينزو دي ليليس؛ أرتور أوبوفسكي",
+      "year": "2025",
+      "publication_date": "2025-04-26",
+      "doi": "10.1007/s10437-025-09622-y",
+      "tags": [
+        "Archaeology & Heritage",
+        "Funj",
+        "Food History",
+        "Sudanese Research"
+      ],
+      "source": "https://pub-0c3bb637d5f54b239fe4a4ef9b08bfe3.r2.dev/2025/nasreldein-et-al-2025-nubian-diet-dongola.pdf",
+      "download": "https://pub-0c3bb637d5f54b239fe4a4ef9b08bfe3.r2.dev/2025/nasreldein-et-al-2025-nubian-diet-dongola.pdf",
+      "publisher_url": "https://link.springer.com/article/10.1007/s10437-025-09622-y",
+      "original_pdf_url": "https://link.springer.com/content/pdf/10.1007/s10437-025-09622-y.pdf",
+      "citation": "Nasreldein, Mohammed; Riehl, Simone; Deptuła, Agata; de Lellis, Lorenzo; Obłuski, Artur (2025). African Archaeological Review 42, 259–290. Published 26 April 2025. DOI 10.1007/s10437-025-09622-y.",
+      "desc": "Six botanical samples from two Old Dongola houses illuminate fifteenth–sixteenth-century food storage. Methods, selected results, discussion, conclusion and data statement reviewed; no replication. This Sudanese-led case cannot establish national diets or the origin of modern recipes. Raw data require a request. Newly added here, not newly published. Original PDF, CC BY 4.0.",
+      "desc_ar": "تضيء ست عينات نباتية من منزلين بدنقلا القديمة تخزين الغذاء في القرنين الخامس عشر والسادس عشر. رُوجعت أقسام المنهج والنتائج والنقاش والخاتمة والبيانات دون إعادة التحليل. لا تعمم الحالة التي يقودها باحث سوداني على الغذاء القومي أو أصل الوصفات الحديثة. البيانات الخام بالطلب. إضافة جديدة للفهرس لا نشر جديد؛ الأصل برخصة CC BY 4.0.",
+      "review_level": "Selected full-text sections; original 32-page PDF verified and first page visually inspected; no replication",
+      "rights_note": "CC BY 4.0 verified in original PDF and publisher article. Third-party material included unless credit line states otherwise; all eight figure captions screened, no separate exclusion identified. Original unchanged with attribution/DOI retained. Stored in Kandaka bucket, public HTTP 200 and SHA256 verified: 3,711,355 bytes; 32 pages; 72bb5c63461bf8fd96dfdfb844d7cff7a3b85c3fbc88e843fde7bec1ca2b09fc. Published figures remain within the original article; no separate site-coordinate export or public map created.",
+      "license": "CC BY 4.0",
+      "pdf_stored": true,
+      "stored_on": "2026-11-10",
+      "verified_on": "2026-11-10",
+      "access_type": "hosted_pdf",
+      "source_label_en": "Download PDF · CC BY 4.0",
+      "source_label_ar": "تنزيل PDF · رخصة CC BY 4.0"
+    },
+    {
+      "title": "Meroitic Urbanism and Settlement Patterns in the ‘Island of Meroe’: Discoveries from (Hammadab), Kabushiya",
+      "title_ar": "العمران المروي وأنماط الاستيطان في «جزيرة مروي»: اكتشافات من الحماداب، كبوشية",
+      "author": "Abdelmonim Ahmed Abdalla Babiker",
+      "author_ar": "عبد المنعم أحمد عبد الله بابكر",
+      "year": "2025",
+      "publication_date": "2026-01-11",
+      "date_note": "Print issue/PDF header January 2025; portal publication date 11 January 2026. No digitization day separately verified.",
+      "tags": [
+        "Archaeology & Heritage",
+        "Urban Planning",
+        "Kingdom of Kush",
+        "Sudanese Research"
+      ],
+      "source": "https://onlinejournals.uofk.edu/JFA/en/article/view/2066",
+      "original_pdf_url": "https://onlinejournals.uofk.edu/JFA/en/article/download/2066/1857/1958",
+      "citation": "Babiker, Abdelmonim Ahmed Abdalla. Meroitic Urbanism and Settlement Patterns in the Island of Meroe: Discoveries from (Hammadab), Kabushiya. Adab 52/2, January 2025 print issue; portal dated 11 January 2026. Nine-page original PDF; no DOI identified.",
+      "desc": "Sudanese-authored illustrated account of Hamadab housing, mud-brick construction and joint field training. Nine-page text reviewed; not an independently audited excavation dataset or modern thermal-performance trial. Architectural resemblance alone cannot establish military use. Print issue says January 2025; portal date is January 2026. No reuse licence confirmed; publisher PDF linked, no Kandaka copy stored.",
+      "desc_ar": "عرض سوداني التأليف للسكن والبناء باللبن والتدريب الميداني المشترك في الحماداب. رُوجع نص الصفحات التسع؛ ليس بيانات تنقيب مدققة مستقلاً أو تجربة أداء حراري حديثة. التشابه المعماري وحده لا يثبت الاستخدام العسكري. العدد المطبوع يناير ٢٠٢٥ وتاريخ البوابة يناير ٢٠٢٦. لم تثبت رخصة نسخ؛ رابط ملف الناشر دون تخزين بكنداكة.",
+      "review_level": "Full nine-page article text reviewed; title page visually inspected; figures not cleared for reuse",
+      "rights_note": "Publisher PDF downloaded and verified: 979,373 bytes; 9 pages; SHA256 f01246f1408840f27dd4ffe2f3bba7f3edae3a8016831bc6322cf01849fb1ff3. Article page, PDF and submissions policy provide no confirmed redistribution licence. Includes attributed maps, photographs and earlier reproductions; third-party clearance absent. No PDF or figure stored in Kandaka; link publisher article/PDF only.",
+      "license": "No explicit reuse licence verified",
+      "pdf_stored": false,
+      "verified_on": "2026-11-10",
+      "access_type": "external_article",
+      "access_label_en": "Read university article and original PDF",
+      "access_label_ar": "قراءة مقال الجامعة وملفه الأصلي"
     }
   ]
 }

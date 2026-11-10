@@ -62,3 +62,8 @@ For a future reader-submitted series, the most useful contribution would not be 
 - The Ernetta study is a local ethnographic account; its observations are not presented as Sudan-wide prevalence estimates.
 - The sorghum-domestication paper is used only for the distinction between crop history and dish history; no recipe continuity is inferred.
 - These are real photographs, not generated scenes. No interviews or recipe testing were conducted for this article.
+
+
+## Research update — 10 November 2026: evidence from a household pantry
+
+Nasreldein and colleagues’ 2025 study examines food-storage remains from two Old Dongola houses. It strengthens the distinction between evidence for ingredients and proof of a modern recipe’s origin. Sampling and preservation constrain generalization; raw data remain available on request. Selected full-text sections reviewed. [Study](https://doi.org/10.1007/s10437-025-09622-y); [unmodified original PDF, CC BY 4.0](https://pub-0c3bb637d5f54b239fe4a4ef9b08bfe3.r2.dev/2025/nasreldein-et-al-2025-nubian-diet-dongola.pdf).
