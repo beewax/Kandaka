@@ -1,12 +1,12 @@
 import boto3, os, json, re, shutil
 from botocore.config import Config
 
-R2_ACCESS_KEY_ID     = os.environ["R2_ACCESS_KEY_ID"]
+R2_ACCESS_KEY_ID = os.environ["R2_ACCESS_KEY_ID"]
 R2_SECRET_ACCESS_KEY = os.environ["R2_SECRET_ACCESS_KEY"]
-ACCOUNT_ID           = os.environ["CLOUDFLARE_ACCOUNT_ID"]
-R2_BUCKET_NAME       = "kandaka-library"
+ACCOUNT_ID = os.environ["CLOUDFLARE_ACCOUNT_ID"]
+R2_BUCKET_NAME = os.environ.get("KANDAKA_R2_BUCKET", "kandaka-library")
 ENDPOINT_URL         = "https://" + ACCOUNT_ID + ".r2.cloudflarestorage.com"
-BASE_URL             = "https://pub-0c3bb637d5f54b239fe4a4ef9b08bfe3.r2.dev"
+BASE_URL = os.environ.get("KANDAKA_R2_PUBLIC_URL", "https://pub-0c3bb637d5f54b239fe4a4ef9b08bfe3.r2.dev")
 CALIBRE_ROOT         = "D:\\New Caliber Library"
 SUDAN_PDFS           = "C:\\Users\\Abdulla\\Documents\\Sudan PDFs"
 
