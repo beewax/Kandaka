@@ -1,0 +1,25 @@
+{
+  "approved_library_file_id": "libfile_eff7f6ea8e6c81919a41e1412444349c",
+  "image_sha256": "1cca29873a9b017a7c20b6db3f3ce5e65f36629835b0ae50d11de19a8700cb90",
+  "image_bytes": 413368,
+  "source": "https://app.leonardo.ai/generation/image/professional-editorial-cover-illustration-economic-396fb21d-40c1-4220-b2ab-d69007ffd9ff",
+  "checks": {
+    "en": {
+      "body_unchanged": true,
+      "body_sha256": "b7ddac633bccaa2a0bc7b949bb22af9e01c44895c096ef434e4fb75a9e7361a9"
+    },
+    "ar": {
+      "body_unchanged": true,
+      "body_sha256": "071ddf99c07ce38d2639f1d2b282e5f5bb18ebe50dfa4e50fd1be1ffcd880fd2"
+    }
+  },
+  "validation": {
+    "hugo_production_build": "pass; 1215 EN pages, 3721 AR pages",
+    "duplicate_cover_audit": "pass; 4151 files",
+    "rendered_pages": "pass; one article cover and two matching homepage cards in each language",
+    "unchanged_article_prose_and_date": "pass",
+    "unit_tests": "38 Windows-compatible tests passed; 3 shell workflow fixtures passed under WSL",
+    "node_tests": "11 passed",
+    "git_diff_check": "pass"
+  }
+}

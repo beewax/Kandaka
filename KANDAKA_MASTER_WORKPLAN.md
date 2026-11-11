@@ -2096,3 +2096,8 @@ Commit `484eb9f91d7615ad1b5d40617296f8008eb39864` deployed as Netlify `6af3402c1
 ## Cinema source-registry check update — 11 November 2026
 
 For the existing C26-01 cinema sources (RSR-156–172 and relevant earlier institutional rows), the [dated source-specific review](docs/C26-01-cinema-history-draft-review-2026-11-11.md) records access depth, metadata, rights and outstanding conflicts. It supersedes October abstract-only access notes for the selected SUST and Tuttle/Duot passages only; it does not claim complete reading, universal institutional reliability or new Library acquisition. SFG catalogue dates Jamal to 1981, correcting the earlier research note's 1984 for subsequent use. New BFI viewing-page check supports a premise only; playback/territory not verified. Directors' Fortnight's 1977 Wedding of Zein record adds festival/credit evidence without settling production year. No source rights, media licence or publication permission inferred.
+
+
+## 11 November 2026 - Economic reform cover approved
+
+Owner approved the fresh Leonardo infrastructure illustration after reviewing it, superseding the rejected people-focused drafts. Apply exactly this image to both language editions of Sudan's First Year: Which Economic Reforms Must Come First?, with localized alt text and an AI-generated conceptual-illustration disclosure. Article prose and original publication date remain unchanged. Homepage latest-article and featured-carousel images inherit the same cover metadata. Scope excludes other articles and automation. Release evidence: docs/economic-reform-cover-2026-11-11.json.

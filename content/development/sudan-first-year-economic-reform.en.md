@@ -6,6 +6,11 @@ category: "Development"
 description: "A proposed sequence for a new government’s first 90 days, six months and year: protect essential services, make public finances accountable and rebuild productive capacity."
 tags: ["Sudan", "economic reform", "public finance", "social protection", "reconstruction"]
 draft: false
+cover:
+  image: "/images/uploads/sudan-first-year-economic-reform-leonardo.jpg"
+  alt: "Illustration of a Sudanese river town with irrigated fields, workshops, public buildings and connecting infrastructure."
+  caption: "AI-generated conceptual illustration created with Leonardo.Ai; not a photograph of an actual location."
+  relative: false
 ---
 
 A new government’s economic programme should be judged in places where its decisions become tangible: a clinic with medicines, a teacher receiving a salary, a farmer getting a broken pump repaired, a household able to buy food without exhausting its income.
