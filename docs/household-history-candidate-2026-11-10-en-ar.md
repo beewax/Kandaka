@@ -35,3 +35,16 @@ The intended contribution is methodological and human: make Sudanese researchers
 Two nonduplicate records and the original-file checks are in `archaeology-new-records-2026-11-10.json`. Use the exact catalogue citations and the acquisition log for review levels. These papers are newly found in Kandaka's checked corpus; the 2025 works are not advertised as newly published. Existing Nile/PNAS and faience/Sanam records are relevant companions and must not be duplicated. The Karanog/Dongola article and its separately reviewed package remain untouched. No film, image, map, oral testimony or interview is commissioned or reproduced by this brief.
 
 **Next action:** build a claim ledger with corroborating excavation publications, then develop the complete English/Arabic article for owner review. No release date is assigned.
+
+## 11 November follow-up · متابعة ١١ نوفمبر
+
+The comparison and complete bilingual review draft are ready locally. The original outline above records the earlier research stage. The new reader opens on radish seed reserved as possible planting stock. The independent comparisons establish the following limits.
+
+| Excavation | Evidence used | Limit |
+|---|---|---|
+| [Amara West](https://www.sag-online.de/wp-content/uploads/2018/06/Spencer2012_InsightsLifeOccupiedKushNewKingdomAmaraWest_MittSAG23.pdf) | Earlier E13.3 subdivided into two dwellings | Kinship and motives cannot be read from a wall |
+| [Hamadab](https://onlinejournals.uofk.edu/JFA/en/article/view/2066) | Modest houses and documentation in the field school | Building plans alone cannot establish household composition |
+| [Soba](https://en.uw.edu.pl/archaeological-research-in-soba/) | Storage/cooking complex and separate planted area | A single family cannot be assumed for the complex |
+| [Old Dongola](https://doi.org/10.1007/s10437-025-09622-y) | Six botanical samples from two houses, including a basket of radish seeds | Seed stock is an interpretation, no evidence for the subsequent harvest |
+
+تقارن المسوّدة تقسيم بيت في عمارة غرب ومساكن الحماداب ومرافق إعداد الطعام في سوبا وعينات نباتية من بيتين في دنقلا القديمة. لكلّ موقع تاريخه وحدود الاستدلال منه. النسختان للمراجعة فقط.

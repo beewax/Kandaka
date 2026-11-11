@@ -1,5 +1,11 @@
 # KANDAKA WORKPLAN
 
+## 11 November 2026 — Three bilingual manuscripts ready for owner review
+
+Everyday archaeology and wildlife completed a bilingual editorial pass. Archaeology now includes the published Old Dongola grinding-equipment figure and the study’s two-house sampling limits. Wildlife now distinguishes the dated Khor Abu Habil observations from present abundance. The separate household-history research outline has advanced to bilingual draft after comparison of Hamadab, Amara West, Soba and Old Dongola. See the updated household research brief. All three are USER REVIEW with no release date. Manuscripts and illustrated reader are in the local project deliverables/editorial-review-2026-11-11 folder.
+
+اكتملت المراجعة التحريرية لمسودّتَي آثار الحياة اليومية والحياة البرية بالعربية والإنجليزية. وأُعدّت مسوّدة مستقلة عن تاريخ البيوت بعد مقارنة أربع حفريات. المقالات الثلاثة بانتظار مراجعة المالك، ولم يُحدّد موعد لنشرها.
+
 ## 10 November 2026 — First-year economic reform published and verified
 
 **Status: OWNER APPROVED, PUBLISHED AND VERIFIED LIVE.** Supersedes the earlier USER REVIEW and release-in-preparation statuses for this article pair. Owner instructed “go ahead and publish please” after the full English and Arabic drafts were supplied.
