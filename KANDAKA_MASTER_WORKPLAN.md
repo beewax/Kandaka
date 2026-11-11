@@ -1,5 +1,18 @@
 # KANDAKA WORKPLAN
 
+## 10 November 2026 — First-year economic reform published and verified
+
+**Status: OWNER APPROVED, PUBLISHED AND VERIFIED LIVE.** Supersedes the earlier USER REVIEW and release-in-preparation statuses for this article pair. Owner instructed “go ahead and publish please” after the full English and Arabic drafts were supplied.
+
+- [English](https://kandaka.com/development/sudan-first-year-economic-reform/) · [العربية](https://kandaka.com/ar/development/sudan-first-year-economic-reform/).
+- Release commit `d5f4c765981c010c728daceb799e7e0a32900552`; Netlify production deployment `6af3f065171927c0fae97ef5`, ready and published **10 November 2026 at 22:35:55 America/Chicago / 11 November 2026 at 04:35:55 UTC**. Shared editorial release timestamp 04:24:06 UTC; actual publication separately recorded here.
+- Approved bodies retained exactly. Both pages independently returned HTTP 200 and matched complete local release text; five sections and eight source links each, reciprocal translation links, Arabic RTL, and both Development listings verified. No new cover added. Source limitations and scenario/financing qualifications remain intact.
+- Full Hugo production build passed: 1,205 EN and 3,686 AR pages; duplicate-cover check passed across 4,104 Markdown files. Existing unrelated dirty checkout files preserved. No Library catalog, source PDF or R2 change, and no other article approval inferred.
+- Direct instruction to publish now was applied to this release; routine spacing and the rest of the publication queue remain unchanged. [Machine-readable publication receipt](docs/sudan-first-year-reform-publication-2026-11-10.json) · [source and draft review](docs/sudan-first-year-reform-draft-review-2026-11-09.md).
+
+**العربية:** نُشر مقال إصلاحات السنة الأولى بالعربية والإنجليزية بعد اعتماد المستخدم. تحقق التطابق الكامل للنصين وروابط المصادر الثمانية، واتجاه العربية وروابط الترجمة وظهور المقال في قسم التنمية. حُفظت الافتراضات وحدود الأدلة دون إضافة غلاف أو اعتماد أي مسودة أخرى.
+
+
 ## 10 November 2026 — First-year economic reform approved for bilingual release
 
 **Status: OWNER APPROVED; RELEASE IN PREPARATION.** Owner reviewed the linked English/Arabic drafts and instructed “go ahead and publish please”. Approval applies to `content/development/sudan-first-year-economic-reform.{en,ar}.md` as reviewed. Both draft flags changed to false, sharing release timestamp `2026-11-11T04:24:06.448517+00:00`. Article bodies and eight public source links preserved exactly; no cover added. Current direct publication instruction takes precedence over the routine 48-hour spacing for this release only; no other queued article or standing cadence changed.

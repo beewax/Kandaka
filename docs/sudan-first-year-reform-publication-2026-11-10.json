@@ -1,0 +1,27 @@
+{
+  "en": {
+    "url": "https://kandaka.com/development/sudan-first-year-economic-reform/",
+    "body_chars": 13338,
+    "sections": 5,
+    "sources": 8,
+    "body_sha256": "6f96eccc4b45056163d6359b7ac59475757f7de39ba22f867c7e35bab2788600",
+    "http_status": 200,
+    "live_complete_body_matches": true
+  },
+  "ar": {
+    "url": "https://kandaka.com/ar/development/sudan-first-year-economic-reform/",
+    "body_chars": 10078,
+    "sections": 5,
+    "sources": 8,
+    "body_sha256": "fa9075805fe0833515da7b0b913133d13f0cedf8a9f5036b6132389b4e6ea1d7",
+    "http_status": 200,
+    "live_complete_body_matches": true
+  },
+  "both_development_listings": true,
+  "release_commit": "d5f4c765981c010c728daceb799e7e0a32900552",
+  "deploy_id": "6af3f065171927c0fae97ef5",
+  "published_at_utc": "2026-11-11T04:35:55.722Z",
+  "published_at_chicago": "2026-11-10T22:35:55.722-06:00",
+  "verified_at_utc": "2026-11-11T04:36:49.603316+00:00",
+  "approved_bodies_unchanged": true
+}
