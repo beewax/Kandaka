@@ -24,3 +24,7 @@ The earlier source record remains applicable: Eltahir et al. 2021 is a four-stud
 - Draft rendering and ordinary-build exclusion checked in an isolated latest-main theme/layout/config snapshot. This is a scoped draft check, not a full production build or browser visual audit.
 - Before publication: owner review of both languages, scenario and substantive recommendations; check any material new evidence; review a cover only if requested. Any quantified national budget would need current revenue, service costs, reserves, bank exposure and disbursement data not supplied by this article.
 
+
+## 10 November 2026 publication authorization
+
+Owner instructed publication of both reviewed drafts. Earlier USER REVIEW status is historical. Both bodies remain byte-for-byte unchanged; draft flags and shared release date are the only article edits. No cover. Release verification pending.

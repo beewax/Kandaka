@@ -1,10 +1,11 @@
 ---
 title: "Sudan’s First Year: Which Economic Reforms Must Come First?"
+date: "2026-11-11T04:24:06.448517+00:00"
 author: "Kandaka"
 category: "Development"
 description: "A proposed sequence for a new government’s first 90 days, six months and year: protect essential services, make public finances accountable and rebuild productive capacity."
 tags: ["Sudan", "economic reform", "public finance", "social protection", "reconstruction"]
-draft: true
+draft: false
 ---
 
 A new government’s economic programme should be judged in places where its decisions become tangible: a clinic with medicines, a teacher receiving a salary, a farmer getting a broken pump repaired, a household able to buy food without exhausting its income.

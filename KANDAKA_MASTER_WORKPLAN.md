@@ -1,5 +1,14 @@
 # KANDAKA WORKPLAN
 
+## 10 November 2026 — First-year economic reform approved for bilingual release
+
+**Status: OWNER APPROVED; RELEASE IN PREPARATION.** Owner reviewed the linked English/Arabic drafts and instructed “go ahead and publish please”. Approval applies to `content/development/sudan-first-year-economic-reform.{en,ar}.md` as reviewed. Both draft flags changed to false, sharing release timestamp `2026-11-11T04:24:06.448517+00:00`. Article bodies and eight public source links preserved exactly; no cover added. Current direct publication instruction takes precedence over the routine 48-hour spacing for this release only; no other queued article or standing cadence changed.
+
+Scenario remains explicit within the article: a new civilian government with uneven access and damaged institutions; no claim that this describes a settled present government or that the timetable guarantees delivery. Source limitations, funding contingencies and distinction from Article 5 currency research remain intact. Live verification pending.
+
+**العربية:** اعتمد المستخدم نشر النسختين المعروضتين من مقال إصلاحات السنة الأولى. حُفظ النصان وروابطهما وحدود الأدلة وافتراضاتهما كما روجعت، وأُضيف تاريخ مشترك. يخص توجيه النشر الحالي هذا المقال وحده، دون تغيير طابور المقالات أو اعتماد مسودات أخرى.
+
+
 ## 10 November 2026 — Kandaka PDF uploader security repair and download test
 
 **Completed:** Patched `find_and_upload_calibre.py` and `upload_nubian_to_r2.py` on the default branch to remove embedded R2 key literals. Both now read `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`, and `CLOUDFLARE_ACCOUNT_ID` from environment, default to `kandaka-library` and use a configurable `KANDAKA_R2_PUBLIC_URL`. Existing scripts were **not executed**; their automatic catalogue updates and fuzzy title matching require a separate safety review before use. Previous secrets remain exposed in Git history and **must be revoked/rotated**; editing the latest file does not revoke credentials or purge history. Do not reuse old keys.
