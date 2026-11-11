@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-10T22:55:14.639721+00:00",
+  "updated": "2026-11-11T05:00:13.237494+00:00",
   "sources": [
     {
       "id": "dabanga-en",
@@ -26,8 +26,8 @@
       "id": "bbc-africa",
       "language": "en",
       "status": "ok",
-      "items": 30,
-      "accepted": 1
+      "items": 32,
+      "accepted": 2
     },
     {
       "id": "aljazeera-en",
@@ -89,7 +89,7 @@
       "id": "alaraby-ar",
       "language": "ar",
       "status": "ok",
-      "items": 179,
+      "items": 177,
       "accepted": 4
     },
     {

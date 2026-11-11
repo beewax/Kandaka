@@ -1,8 +1,32 @@
 {
-  "updated": "2026-11-10T22:55:14.639721+00:00",
+  "updated": "2026-11-11T05:00:13.237494+00:00",
   "window_days": 30,
   "en": {
     "balanced": [
+      {
+        "Title": "Real Madrid's Vinícius Jr sends surprise message to boy who lost his legs in Sudan's war",
+        "Lang": "en",
+        "Date": "2026-11-11T00:19:42+00:00",
+        "Permalink": "https://www.bbc.co.uk/news/articles/cqm26mmpp2p1o?at_medium=RSS&at_campaign=rss",
+        "Params": {
+          "description": "Double amputee Zaher told the BBC last year about his favourite footballer and a dream of being able to walk again.",
+          "source": "BBC Africa",
+          "source_id": "bbc-africa",
+          "source_class": "international_journalism",
+          "link": "https://www.bbc.co.uk/news/articles/cqm26mmpp2p1o?at_medium=RSS&at_campaign=rss",
+          "status": "Reporting",
+          "geography": [
+            "National"
+          ],
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3eec/live/34923590-d870-11f1-a701-fddedf244c16.jpg",
+          "media_reuse_basis": "rss_metadata",
+          "related_sources": [],
+          "category": "War & Security",
+          "clabel": "الحرب والأمن",
+          "language": "en",
+          "media_attribution": "BBC Africa"
+        }
+      },
       {
         "Title": "South Darfur civilians face ‘dire conditions, suffering beyond endurance’",
         "Lang": "en",
@@ -28,25 +52,25 @@
         }
       },
       {
-        "Title": "RSF accused of abuses, market closure in West Kordofan",
+        "Title": "Blue Nile IDPs face relief shortages amid diversion allegations",
         "Lang": "en",
-        "Date": "2026-11-10T13:55:57+00:00",
-        "Permalink": "https://www.radiotamazuj.org/en/news/article/rsf-accused-of-abuses-market-closure-in-west-kordofan",
+        "Date": "2026-11-10T12:46:20+00:00",
+        "Permalink": "https://www.radiotamazuj.org/en/news/article/blue-nile-idps-face-relief-shortages-amid-diversion-allegations",
         "Params": {
-          "description": "The Dar Hamar Emergency Response Room has accused the Rapid Support Forces (RSF) of committing The post RSF accused of abuses, market closure in West Kordofan appeared first on Radio Tamazuj .",
+          "description": "The humanitarian situation facing displaced people in Sudan’s Blue Nile region is deteriorating as military The post Blue Nile IDPs face relief shortages amid diversion allegations appeared first on Radio Tamazuj .",
           "source": "Radio Tamazuj",
           "source_id": "tamazuj-en",
           "source_class": "regional_journalism",
-          "link": "https://www.radiotamazuj.org/en/news/article/rsf-accused-of-abuses-market-closure-in-west-kordofan",
+          "link": "https://www.radiotamazuj.org/en/news/article/blue-nile-idps-face-relief-shortages-amid-diversion-allegations",
           "status": "Reporting",
           "geography": [
-            "Kordofan"
+            "Blue Nile"
           ],
           "image": "",
           "media_reuse_basis": "",
           "related_sources": [],
-          "category": "War & Security",
-          "clabel": "الحرب والأمن",
+          "category": "Humanitarian",
+          "clabel": "إنساني",
           "language": "en",
           "media_attribution": "Radio Tamazuj"
         }
@@ -126,30 +150,6 @@
         }
       },
       {
-        "Title": "Blue Nile IDPs face relief shortages amid diversion allegations",
-        "Lang": "en",
-        "Date": "2026-11-10T12:46:20+00:00",
-        "Permalink": "https://www.radiotamazuj.org/en/news/article/blue-nile-idps-face-relief-shortages-amid-diversion-allegations",
-        "Params": {
-          "description": "The humanitarian situation facing displaced people in Sudan’s Blue Nile region is deteriorating as military The post Blue Nile IDPs face relief shortages amid diversion allegations appeared first on Radio Tamazuj .",
-          "source": "Radio Tamazuj",
-          "source_id": "tamazuj-en",
-          "source_class": "regional_journalism",
-          "link": "https://www.radiotamazuj.org/en/news/article/blue-nile-idps-face-relief-shortages-amid-diversion-allegations",
-          "status": "Reporting",
-          "geography": [
-            "Blue Nile"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "Humanitarian",
-          "clabel": "إنساني",
-          "language": "en",
-          "media_attribution": "Radio Tamazuj"
-        }
-      },
-      {
         "Title": "Darfur faces looming famine as emergency rooms report crop failure — Justice Africa Sudan calls for immediate ceasefire, humanitarian access",
         "Lang": "en",
         "Date": "2026-11-10T10:03:00+00:00",
@@ -219,6 +219,30 @@
           "clabel": "الحرب والأمن",
           "language": "en",
           "media_attribution": "African Arguments"
+        }
+      },
+      {
+        "Title": "RSF accused of abuses, market closure in West Kordofan",
+        "Lang": "en",
+        "Date": "2026-11-10T13:55:57+00:00",
+        "Permalink": "https://www.radiotamazuj.org/en/news/article/rsf-accused-of-abuses-market-closure-in-west-kordofan",
+        "Params": {
+          "description": "The Dar Hamar Emergency Response Room has accused the Rapid Support Forces (RSF) of committing The post RSF accused of abuses, market closure in West Kordofan appeared first on Radio Tamazuj .",
+          "source": "Radio Tamazuj",
+          "source_id": "tamazuj-en",
+          "source_class": "regional_journalism",
+          "link": "https://www.radiotamazuj.org/en/news/article/rsf-accused-of-abuses-market-closure-in-west-kordofan",
+          "status": "Reporting",
+          "geography": [
+            "Kordofan"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "War & Security",
+          "clabel": "الحرب والأمن",
+          "language": "en",
+          "media_attribution": "Radio Tamazuj"
         }
       },
       {
@@ -438,30 +462,6 @@
         }
       },
       {
-        "Title": "West warns of famine risk in Sudan as civil war grinds on",
-        "Lang": "en",
-        "Date": "2026-10-27T15:41:46+00:00",
-        "Permalink": "https://www.bbc.co.uk/news/articles/cj5ynkk6v3pzo?at_medium=RSS&at_campaign=rss",
-        "Params": {
-          "description": "Millions face acute hunger in Sudan as conflict, drought and funding cuts aggravate the humanitarian crisis.",
-          "source": "BBC Africa",
-          "source_id": "bbc-africa",
-          "source_class": "international_journalism",
-          "link": "https://www.bbc.co.uk/news/articles/cj5ynkk6v3pzo?at_medium=RSS&at_campaign=rss",
-          "status": "Reporting",
-          "geography": [
-            "National"
-          ],
-          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/609e/live/8fffe6c0-d208-11f1-b3b6-c1e79e957e40.jpg",
-          "media_reuse_basis": "rss_metadata",
-          "related_sources": [],
-          "category": "War & Security",
-          "clabel": "الحرب والأمن",
-          "language": "en",
-          "media_attribution": "BBC Africa"
-        }
-      },
-      {
         "Title": "Sudanese diaspora and human rights groups denounce UAE nominee for UN top job",
         "Lang": "en",
         "Date": "2026-10-30T05:00:45+00:00",
@@ -486,31 +486,55 @@
         }
       },
       {
-        "Title": "Doctors tell the BBC about the targeting of Sudanese hospitals by paramilitary fighters",
+        "Title": "West warns of famine risk in Sudan as civil war grinds on",
         "Lang": "en",
-        "Date": "2026-10-23T11:30:32+00:00",
-        "Permalink": "https://www.bbc.co.uk/news/videos/c8x23gegwz34o?at_medium=RSS&at_campaign=rss",
+        "Date": "2026-10-27T15:41:46+00:00",
+        "Permalink": "https://www.bbc.co.uk/news/articles/cj5ynkk6v3pzo?at_medium=RSS&at_campaign=rss",
         "Params": {
-          "description": "A BBC investigation has found evidence that Sudanese paramilitary fighters systematically destroyed el-Fasher's healthcare system.",
+          "description": "Millions face acute hunger in Sudan as conflict, drought and funding cuts aggravate the humanitarian crisis.",
           "source": "BBC Africa",
           "source_id": "bbc-africa",
           "source_class": "international_journalism",
-          "link": "https://www.bbc.co.uk/news/videos/c8x23gegwz34o?at_medium=RSS&at_campaign=rss",
+          "link": "https://www.bbc.co.uk/news/articles/cj5ynkk6v3pzo?at_medium=RSS&at_campaign=rss",
           "status": "Reporting",
           "geography": [
             "National"
           ],
-          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d87e/live/57440ff0-ceca-11f1-93e1-3b657b665bcf.jpg",
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/609e/live/8fffe6c0-d208-11f1-b3b6-c1e79e957e40.jpg",
           "media_reuse_basis": "rss_metadata",
           "related_sources": [],
-          "category": "Health",
-          "clabel": "صحة",
+          "category": "War & Security",
+          "clabel": "الحرب والأمن",
           "language": "en",
           "media_attribution": "BBC Africa"
         }
       }
     ],
     "latest": [
+      {
+        "Title": "Real Madrid's Vinícius Jr sends surprise message to boy who lost his legs in Sudan's war",
+        "Lang": "en",
+        "Date": "2026-11-11T00:19:42+00:00",
+        "Permalink": "https://www.bbc.co.uk/news/articles/cqm26mmpp2p1o?at_medium=RSS&at_campaign=rss",
+        "Params": {
+          "description": "Double amputee Zaher told the BBC last year about his favourite footballer and a dream of being able to walk again.",
+          "source": "BBC Africa",
+          "source_id": "bbc-africa",
+          "source_class": "international_journalism",
+          "link": "https://www.bbc.co.uk/news/articles/cqm26mmpp2p1o?at_medium=RSS&at_campaign=rss",
+          "status": "Reporting",
+          "geography": [
+            "National"
+          ],
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3eec/live/34923590-d870-11f1-a701-fddedf244c16.jpg",
+          "media_reuse_basis": "rss_metadata",
+          "related_sources": [],
+          "category": "War & Security",
+          "clabel": "الحرب والأمن",
+          "language": "en",
+          "media_attribution": "BBC Africa"
+        }
+      },
       {
         "Title": "South Darfur civilians face ‘dire conditions, suffering beyond endurance’",
         "Lang": "en",
@@ -4091,36 +4115,37 @@
           "language": "en",
           "media_attribution": "Radio Dabanga"
         }
-      },
-      {
-        "Title": "Sudan lifts ban on 46 imports as inflation rises and Dollar hits SDG 10,300",
-        "Lang": "en",
-        "Date": "2026-10-22T18:29:00+00:00",
-        "Permalink": "https://www.dabangasudan.org/en/all-news/article/sudan-lifts-ban-on-46-imports-as-inflation-rises-and-dollar-hits-sdg-10300",
-        "Params": {
-          "description": "Sudan has lifted import restrictions on 46 goods as the Dollar climbs to SDG 10,300... The post Sudan lifts ban on 46 imports as inflation rises and Dollar hits SDG 10,300 appeared first on Dabanga Radio TV Online .",
-          "source": "Radio Dabanga",
-          "source_id": "dabanga-en",
-          "source_class": "sudanese_journalism",
-          "link": "https://www.dabangasudan.org/en/all-news/article/sudan-lifts-ban-on-46-imports-as-inflation-rises-and-dollar-hits-sdg-10300",
-          "status": "Reporting",
-          "geography": [
-            "National"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "Sudan News",
-          "clabel": "أخبار السودان",
-          "language": "en",
-          "media_attribution": "Radio Dabanga"
-        }
       }
     ],
     "publishers": 11
   },
   "ar": {
     "balanced": [
+      {
+        "Title": "النيل الأبيض: قرار بحظر تحويل الطلاب للمدارس الخاصة",
+        "Lang": "ar",
+        "Date": "2026-11-11T01:30:20+00:00",
+        "Permalink": "https://www.dabangasudan.org/ar/all-news/article/%d8%a7%d9%84%d9%86%d9%8a%d9%84-%d8%a7%d9%84%d8%a3%d8%a8%d9%8a%d8%b6-%d9%82%d8%b1%d8%a7%d8%b1-%d8%a8%d8%ad%d8%b8%d8%b1-%d8%aa%d8%ad%d9%88%d9%8a%d9%84-%d8%a7%d9%84%d8%b7%d9%84%d8%a7%d8%a8-%d9%84%d9%84",
+        "Params": {
+          "description": "النيل الأبيض: 11 نوفمبر 2026: راديو دبنقا أثار قرار أصدرته وزارة التربية بولاية النيل الأبيض،... The post النيل الأبيض: قرار بحظر تحويل الطلاب للمدارس الخاصة appeared first on Dabanga Radio TV Online .",
+          "source": "راديو دبنقا",
+          "source_id": "dabanga-ar",
+          "source_class": "sudanese_journalism",
+          "link": "https://www.dabangasudan.org/ar/all-news/article/%d8%a7%d9%84%d9%86%d9%8a%d9%84-%d8%a7%d9%84%d8%a3%d8%a8%d9%8a%d8%b6-%d9%82%d8%b1%d8%a7%d8%b1-%d8%a8%d8%ad%d8%b8%d8%b1-%d8%aa%d8%ad%d9%88%d9%8a%d9%84-%d8%a7%d9%84%d8%b7%d9%84%d8%a7%d8%a8-%d9%84%d9%84",
+          "status": "Reporting",
+          "geography": [
+            "Kordofan",
+            "White Nile"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "Education",
+          "clabel": "تعليم",
+          "language": "ar",
+          "media_attribution": "راديو دبنقا"
+        }
+      },
       {
         "Title": "جوع السودان... عجز عن تأمين وجبة واحدة وبدائل غذائية قاسية للأسر",
         "Lang": "ar",
@@ -4195,16 +4220,16 @@
         }
       },
       {
-        "Title": "جولة السودان اليوم | 10-11-2026",
+        "Title": "فتح معبر “أم دافوق” أمام السودانيين بعد إغلاق استمر ساعات",
         "Lang": "ar",
-        "Date": "2026-11-10T19:18:56+00:00",
-        "Permalink": "https://www.dabangasudan.org/ar/all-news/article/%d8%ac%d9%88%d9%84%d8%a9-%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86-%d8%a7%d9%84%d9%8a%d9%88%d9%85-10-11-2026",
+        "Date": "2026-11-10T15:21:47+00:00",
+        "Permalink": "https://www.radiotamazuj.org/ar/news/article/%d9%81%d8%aa%d8%ad-%d9%85%d8%b9%d8%a8%d8%b1-%d8%a3%d9%85-%d8%af%d8%a7%d9%81%d9%88%d9%82-%d8%a3%d9%85%d8%a7%d9%85-%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86%d9%8a%d9%8a%d9%86-%d8%a8%d8%b9%d8%af",
         "Params": {
-          "description": "جولة السودان اليوم | الثلاثاء 10 نوفمبر 2026 Share article The post جولة السودان اليوم | 10-11-2026 appeared first on Dabanga Radio TV Online .",
-          "source": "راديو دبنقا",
-          "source_id": "dabanga-ar",
-          "source_class": "sudanese_journalism",
-          "link": "https://www.dabangasudan.org/ar/all-news/article/%d8%ac%d9%88%d9%84%d8%a9-%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86-%d8%a7%d9%84%d9%8a%d9%88%d9%85-10-11-2026",
+          "description": "أعلنت اللجان المشتركة للسلام بين القبائل السودانية وقبائل جمهورية إفريقيا الوسطى فتح معبر “أم دافوق” The post فتح معبر “أم دافوق” أمام السودانيين بعد إغلاق استمر ساعات appeared first on Radio Tamazuj .",
+          "source": "راديو تمازج",
+          "source_id": "tamazuj-ar",
+          "source_class": "regional_journalism",
+          "link": "https://www.radiotamazuj.org/ar/news/article/%d9%81%d8%aa%d8%ad-%d9%85%d8%b9%d8%a8%d8%b1-%d8%a3%d9%85-%d8%af%d8%a7%d9%81%d9%88%d9%82-%d8%a3%d9%85%d8%a7%d9%85-%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86%d9%8a%d9%8a%d9%86-%d8%a8%d8%b9%d8%af",
           "status": "Reporting",
           "geography": [
             "National"
@@ -4215,31 +4240,7 @@
           "category": "Sudan News",
           "clabel": "أخبار السودان",
           "language": "ar",
-          "media_attribution": "راديو دبنقا"
-        }
-      },
-      {
-        "Title": "التعليم والتدريب المستمر: كركيزة اساسية لاستراتيجية اعادة البناء في السودان.",
-        "Lang": "ar",
-        "Date": "2026-11-10T10:45:59+00:00",
-        "Permalink": "https://sudanile.com/%d8%a7%d9%84%d8%aa%d8%b9%d9%84%d9%8a%d9%85-%d9%88%d8%a7%d9%84%d8%aa%d8%af%d8%b1%d9%8a%d8%a8-%d8%a7%d9%84%d9%85%d8%b3%d8%aa%d9%85%d8%b1-%d9%83%d8%b1%d9%83%d9%8a%d8%b2%d8%a9-%d8%a7%d8%b3%d8%a7%d8%b3",
-        "Params": {
-          "description": "د. فضل محي الدين طاهر نعم، دُمّرت الجامعات، وأُحرقت المدارس، وتشرّد الأساتذة، وتوقف ملايين الأطفال والشباب السودانيين عن التعليم. لكن الخطر الأكبر ليس ما خسرناه في الحرب، بل ما قد نخسره بعدها إذا عدنا بالعقليات نفسها والشهادات نفسها والمهارات القديمة نفسها. السودان اليوم لا يحتاج إلى وقف الحرب فحسب، بل إلى ثورة تعليمية جديدة عنوانها: […] The post التعليم والتدريب المستمر: كركيزة اساسية لاستراتيجية اعادة البناء في الس",
-          "source": "سودانايل",
-          "source_id": "sudanile-ar",
-          "source_class": "sudanese_diaspora",
-          "link": "https://sudanile.com/%d8%a7%d9%84%d8%aa%d8%b9%d9%84%d9%8a%d9%85-%d9%88%d8%a7%d9%84%d8%aa%d8%af%d8%b1%d9%8a%d8%a8-%d8%a7%d9%84%d9%85%d8%b3%d8%aa%d9%85%d8%b1-%d9%83%d8%b1%d9%83%d9%8a%d8%b2%d8%a9-%d8%a7%d8%b3%d8%a7%d8%b3",
-          "status": "Reporting",
-          "geography": [
-            "National"
-          ],
-          "image": "https://sudanile.com/wp-content/uploads/2026/11/fadltahir.jpg",
-          "media_reuse_basis": "rss_metadata",
-          "related_sources": [],
-          "category": "Education",
-          "clabel": "تعليم",
-          "language": "ar",
-          "media_attribution": "سودانايل"
+          "media_attribution": "راديو تمازج"
         }
       },
       {
@@ -4267,30 +4268,6 @@
         }
       },
       {
-        "Title": "تحذيرات من تفاقم الأوضاع الإنسانية لنازحي باللعيت جار النبي بشمال دارفور",
-        "Lang": "ar",
-        "Date": "2026-11-10T15:18:51+00:00",
-        "Permalink": "https://www.radiotamazuj.org/ar/news/article/%d8%aa%d8%ad%d8%b0%d9%8a%d8%b1%d8%a7%d8%aa-%d9%85%d9%86-%d8%aa%d9%81%d8%a7%d9%82%d9%85-%d8%a7%d9%84%d8%a3%d9%88%d8%b6%d8%a7%d8%b9-%d8%a7%d9%84%d8%a5%d9%86%d8%b3%d8%a7%d9%86%d9%8a%d8%a9-%d9%84%d9%86",
-        "Params": {
-          "description": "حذّرت المنسقية العامة لمعسكرات النازحين واللاجئين من تدهور الأوضاع الإنسانية لنحو 571 أسرة نازحة بمنطقة The post تحذيرات من تفاقم الأوضاع الإنسانية لنازحي باللعيت جار النبي بشمال دارفور appeared first on Radio Tamazuj .",
-          "source": "راديو تمازج",
-          "source_id": "tamazuj-ar",
-          "source_class": "regional_journalism",
-          "link": "https://www.radiotamazuj.org/ar/news/article/%d8%aa%d8%ad%d8%b0%d9%8a%d8%b1%d8%a7%d8%aa-%d9%85%d9%86-%d8%aa%d9%81%d8%a7%d9%82%d9%85-%d8%a7%d9%84%d8%a3%d9%88%d8%b6%d8%a7%d8%b9-%d8%a7%d9%84%d8%a5%d9%86%d8%b3%d8%a7%d9%86%d9%8a%d8%a9-%d9%84%d9%86",
-          "status": "Reporting",
-          "geography": [
-            "Darfur"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "Humanitarian",
-          "clabel": "إنساني",
-          "language": "ar",
-          "media_attribution": "راديو تمازج"
-        }
-      },
-      {
         "Title": "إصلاح الجهاز المصرفي السوداني: التحول الرقمي وحماية بيانات العملاء.. السؤال الذي لا يجوز تأجيله",
         "Lang": "ar",
         "Date": "2026-11-10T19:00:10+00:00",
@@ -4312,6 +4289,30 @@
           "clabel": "اقتصاد",
           "language": "ar",
           "media_attribution": "التغيير"
+        }
+      },
+      {
+        "Title": "سيوفٌ بلا برنامج، المقاومة الأولى للحكم الثنائي في السودان",
+        "Lang": "ar",
+        "Date": "2026-11-10T10:27:42+00:00",
+        "Permalink": "https://sudanile.com/%d8%b3%d9%8a%d9%88%d9%81%d9%8c-%d8%a8%d9%84%d8%a7-%d8%a8%d8%b1%d9%86%d8%a7%d9%85%d8%ac%d8%8c-%d8%a7%d9%84%d9%85%d9%82%d8%a7%d9%88%d9%85%d8%a9-%d8%a7%d9%84%d8%a3%d9%88%d9%84%d9%89-%d9%84%d9%84%d8%ad",
+        "Params": {
+          "description": "سيوفٌ بلا برنامج، المقاومة الأولى للحكم الثنائي في السودانمن أم دبيكرات إلى هرم النوير، أربعون عاماً من الرفض قبل مؤتمر الخريجيند. الرشيد خليفةالرفضُ أقدمُ من البرنامجدخل كتشنر أم درمان في الثاني من سبتمبر 1898، وظنّت لندن أن ملف السودان قد أُغلق بختم الشمع الأحمر، وأن ما بقي ليس إلا أعمالاً إدارية من قبيل تعيين المفتشين، […] The post سيوفٌ بلا برنامج، المقاومة الأولى للحكم الثنائي في السودان appeared first on سودانا",
+          "source": "سودانايل",
+          "source_id": "sudanile-ar",
+          "source_class": "sudanese_diaspora",
+          "link": "https://sudanile.com/%d8%b3%d9%8a%d9%88%d9%81%d9%8c-%d8%a8%d9%84%d8%a7-%d8%a8%d8%b1%d9%86%d8%a7%d9%85%d8%ac%d8%8c-%d8%a7%d9%84%d9%85%d9%82%d8%a7%d9%88%d9%85%d8%a9-%d8%a7%d9%84%d8%a3%d9%88%d9%84%d9%89-%d9%84%d9%84%d8%ad",
+          "status": "Reporting",
+          "geography": [
+            "Khartoum"
+          ],
+          "image": "https://sudanile.com/wp-content/uploads/2026/09/Rasheeds.jpg",
+          "media_reuse_basis": "rss_metadata",
+          "related_sources": [],
+          "category": "Sudan News",
+          "clabel": "أخبار السودان",
+          "language": "ar",
+          "media_attribution": "سودانايل"
         }
       },
       {
@@ -4459,76 +4460,75 @@
         }
       },
       {
-        "Title": "سيوفٌ بلا برنامج، المقاومة الأولى للحكم الثنائي في السودان",
+        "Title": "مقتل (9) مدنيين في هجوم بطائرة مسيرة في النيل الأزرق",
         "Lang": "ar",
-        "Date": "2026-11-10T10:27:42+00:00",
-        "Permalink": "https://sudanile.com/%d8%b3%d9%8a%d9%88%d9%81%d9%8c-%d8%a8%d9%84%d8%a7-%d8%a8%d8%b1%d9%86%d8%a7%d9%85%d8%ac%d8%8c-%d8%a7%d9%84%d9%85%d9%82%d8%a7%d9%88%d9%85%d8%a9-%d8%a7%d9%84%d8%a3%d9%88%d9%84%d9%89-%d9%84%d9%84%d8%ad",
+        "Date": "2026-11-11T01:08:18+00:00",
+        "Permalink": "https://www.dabangasudan.org/ar/all-news/article/%d9%85%d9%82%d8%aa%d9%84-9-%d9%85%d8%af%d9%86%d9%8a%d9%8a%d9%86-%d9%81%d9%8a-%d9%87%d8%ac%d9%88%d9%85-%d8%a8%d8%b7%d8%a7%d8%a6%d8%b1%d8%a9-%d9%85%d8%b3%d9%8a%d8%b1%d8%a9-%d9%81%d9%8a-%d8%a7%d9%84",
         "Params": {
-          "description": "سيوفٌ بلا برنامج، المقاومة الأولى للحكم الثنائي في السودانمن أم دبيكرات إلى هرم النوير، أربعون عاماً من الرفض قبل مؤتمر الخريجيند. الرشيد خليفةالرفضُ أقدمُ من البرنامجدخل كتشنر أم درمان في الثاني من سبتمبر 1898، وظنّت لندن أن ملف السودان قد أُغلق بختم الشمع الأحمر، وأن ما بقي ليس إلا أعمالاً إدارية من قبيل تعيين المفتشين، […] The post سيوفٌ بلا برنامج، المقاومة الأولى للحكم الثنائي في السودان appeared first on سودانا",
-          "source": "سودانايل",
-          "source_id": "sudanile-ar",
-          "source_class": "sudanese_diaspora",
-          "link": "https://sudanile.com/%d8%b3%d9%8a%d9%88%d9%81%d9%8c-%d8%a8%d9%84%d8%a7-%d8%a8%d8%b1%d9%86%d8%a7%d9%85%d8%ac%d8%8c-%d8%a7%d9%84%d9%85%d9%82%d8%a7%d9%88%d9%85%d8%a9-%d8%a7%d9%84%d8%a3%d9%88%d9%84%d9%89-%d9%84%d9%84%d8%ad",
+          "description": "النيل الأزرق :11 نوفمبر 2026 : راديو دبنقا اعلن محافظ الكرمك عبد العاطي محمد الفكي... The post مقتل (9) مدنيين في هجوم بطائرة مسيرة في النيل الأزرق appeared first on Dabanga Radio TV Online .",
+          "source": "راديو دبنقا",
+          "source_id": "dabanga-ar",
+          "source_class": "sudanese_journalism",
+          "link": "https://www.dabangasudan.org/ar/all-news/article/%d9%85%d9%82%d8%aa%d9%84-9-%d9%85%d8%af%d9%86%d9%8a%d9%8a%d9%86-%d9%81%d9%8a-%d9%87%d8%ac%d9%88%d9%85-%d8%a8%d8%b7%d8%a7%d8%a6%d8%b1%d8%a9-%d9%85%d8%b3%d9%8a%d8%b1%d8%a9-%d9%81%d9%8a-%d8%a7%d9%84",
           "status": "Reporting",
           "geography": [
-            "Khartoum"
-          ],
-          "image": "https://sudanile.com/wp-content/uploads/2026/09/Rasheeds.jpg",
-          "media_reuse_basis": "rss_metadata",
-          "related_sources": [],
-          "category": "Sudan News",
-          "clabel": "أخبار السودان",
-          "language": "ar",
-          "media_attribution": "سودانايل"
-        }
-      },
-      {
-        "Title": "فتح معبر “أم دافوق” أمام السودانيين بعد إغلاق استمر ساعات",
-        "Lang": "ar",
-        "Date": "2026-11-10T15:21:47+00:00",
-        "Permalink": "https://www.radiotamazuj.org/ar/news/article/%d9%81%d8%aa%d8%ad-%d9%85%d8%b9%d8%a8%d8%b1-%d8%a3%d9%85-%d8%af%d8%a7%d9%81%d9%88%d9%82-%d8%a3%d9%85%d8%a7%d9%85-%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86%d9%8a%d9%8a%d9%86-%d8%a8%d8%b9%d8%af",
-        "Params": {
-          "description": "أعلنت اللجان المشتركة للسلام بين القبائل السودانية وقبائل جمهورية إفريقيا الوسطى فتح معبر “أم دافوق” The post فتح معبر “أم دافوق” أمام السودانيين بعد إغلاق استمر ساعات appeared first on Radio Tamazuj .",
-          "source": "راديو تمازج",
-          "source_id": "tamazuj-ar",
-          "source_class": "regional_journalism",
-          "link": "https://www.radiotamazuj.org/ar/news/article/%d9%81%d8%aa%d8%ad-%d9%85%d8%b9%d8%a8%d8%b1-%d8%a3%d9%85-%d8%af%d8%a7%d9%81%d9%88%d9%82-%d8%a3%d9%85%d8%a7%d9%85-%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86%d9%8a%d9%8a%d9%86-%d8%a8%d8%b9%d8%af",
-          "status": "Reporting",
-          "geography": [
-            "National"
+            "Blue Nile"
           ],
           "image": "",
           "media_reuse_basis": "",
           "related_sources": [],
-          "category": "Sudan News",
-          "clabel": "أخبار السودان",
+          "category": "War & Security",
+          "clabel": "الحرب والأمن",
+          "language": "ar",
+          "media_attribution": "راديو دبنقا"
+        }
+      },
+      {
+        "Title": "تحذيرات من تفاقم الأوضاع الإنسانية لنازحي باللعيت جار النبي بشمال دارفور",
+        "Lang": "ar",
+        "Date": "2026-11-10T15:18:51+00:00",
+        "Permalink": "https://www.radiotamazuj.org/ar/news/article/%d8%aa%d8%ad%d8%b0%d9%8a%d8%b1%d8%a7%d8%aa-%d9%85%d9%86-%d8%aa%d9%81%d8%a7%d9%82%d9%85-%d8%a7%d9%84%d8%a3%d9%88%d8%b6%d8%a7%d8%b9-%d8%a7%d9%84%d8%a5%d9%86%d8%b3%d8%a7%d9%86%d9%8a%d8%a9-%d9%84%d9%86",
+        "Params": {
+          "description": "حذّرت المنسقية العامة لمعسكرات النازحين واللاجئين من تدهور الأوضاع الإنسانية لنحو 571 أسرة نازحة بمنطقة The post تحذيرات من تفاقم الأوضاع الإنسانية لنازحي باللعيت جار النبي بشمال دارفور appeared first on Radio Tamazuj .",
+          "source": "راديو تمازج",
+          "source_id": "tamazuj-ar",
+          "source_class": "regional_journalism",
+          "link": "https://www.radiotamazuj.org/ar/news/article/%d8%aa%d8%ad%d8%b0%d9%8a%d8%b1%d8%a7%d8%aa-%d9%85%d9%86-%d8%aa%d9%81%d8%a7%d9%82%d9%85-%d8%a7%d9%84%d8%a3%d9%88%d8%b6%d8%a7%d8%b9-%d8%a7%d9%84%d8%a5%d9%86%d8%b3%d8%a7%d9%86%d9%8a%d8%a9-%d9%84%d9%86",
+          "status": "Reporting",
+          "geography": [
+            "Darfur"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "Humanitarian",
+          "clabel": "إنساني",
           "language": "ar",
           "media_attribution": "راديو تمازج"
         }
       },
       {
-        "Title": "14 يوماً بلا كهرباء :ارتفاع أسعار الثلج وشحن الهواتف وطحن الحبوب بالنيل الأبيض",
+        "Title": "التعليم والتدريب المستمر: كركيزة اساسية لاستراتيجية اعادة البناء في السودان.",
         "Lang": "ar",
-        "Date": "2026-11-09T15:32:28+00:00",
-        "Permalink": "https://www.dabangasudan.org/ar/all-news/article/14-%d9%8a%d9%88%d9%85%d8%a7%d9%8b-%d8%a8%d9%84%d8%a7-%d9%83%d9%87%d8%b1%d8%a8%d8%a7%d8%a1-%d8%a7%d8%b1%d8%aa%d9%81%d8%a7%d8%b9-%d8%a3%d8%b3%d8%b9%d8%a7%d8%b1-%d8%a7%d9%84%d8%ab%d9%84%d8%ac-%d9%88",
+        "Date": "2026-11-10T10:45:59+00:00",
+        "Permalink": "https://sudanile.com/%d8%a7%d9%84%d8%aa%d8%b9%d9%84%d9%8a%d9%85-%d9%88%d8%a7%d9%84%d8%aa%d8%af%d8%b1%d9%8a%d8%a8-%d8%a7%d9%84%d9%85%d8%b3%d8%aa%d9%85%d8%b1-%d9%83%d8%b1%d9%83%d9%8a%d8%b2%d8%a9-%d8%a7%d8%b3%d8%a7%d8%b3",
         "Params": {
-          "description": "ربك: 9 نوفمبر 2026: راديو دبنقا استمر انقطاع التيار الكهربائي بمدينة ربك، بولاية النيل الأبيض،... The post 14 يوماً بلا كهرباء :ارتفاع أسعار الثلج وشحن الهواتف وطحن الحبوب بالنيل الأبيض appeared first on Dabanga Radio TV Online .",
-          "source": "راديو دبنقا",
-          "source_id": "dabanga-ar",
-          "source_class": "sudanese_journalism",
-          "link": "https://www.dabangasudan.org/ar/all-news/article/14-%d9%8a%d9%88%d9%85%d8%a7%d9%8b-%d8%a8%d9%84%d8%a7-%d9%83%d9%87%d8%b1%d8%a8%d8%a7%d8%a1-%d8%a7%d8%b1%d8%aa%d9%81%d8%a7%d8%b9-%d8%a3%d8%b3%d8%b9%d8%a7%d8%b1-%d8%a7%d9%84%d8%ab%d9%84%d8%ac-%d9%88",
+          "description": "د. فضل محي الدين طاهر نعم، دُمّرت الجامعات، وأُحرقت المدارس، وتشرّد الأساتذة، وتوقف ملايين الأطفال والشباب السودانيين عن التعليم. لكن الخطر الأكبر ليس ما خسرناه في الحرب، بل ما قد نخسره بعدها إذا عدنا بالعقليات نفسها والشهادات نفسها والمهارات القديمة نفسها. السودان اليوم لا يحتاج إلى وقف الحرب فحسب، بل إلى ثورة تعليمية جديدة عنوانها: […] The post التعليم والتدريب المستمر: كركيزة اساسية لاستراتيجية اعادة البناء في الس",
+          "source": "سودانايل",
+          "source_id": "sudanile-ar",
+          "source_class": "sudanese_diaspora",
+          "link": "https://sudanile.com/%d8%a7%d9%84%d8%aa%d8%b9%d9%84%d9%8a%d9%85-%d9%88%d8%a7%d9%84%d8%aa%d8%af%d8%b1%d9%8a%d8%a8-%d8%a7%d9%84%d9%85%d8%b3%d8%aa%d9%85%d8%b1-%d9%83%d8%b1%d9%83%d9%8a%d8%b2%d8%a9-%d8%a7%d8%b3%d8%a7%d8%b3",
           "status": "Reporting",
           "geography": [
-            "Kordofan",
-            "White Nile"
+            "National"
           ],
-          "image": "",
-          "media_reuse_basis": "",
+          "image": "https://sudanile.com/wp-content/uploads/2026/11/fadltahir.jpg",
+          "media_reuse_basis": "rss_metadata",
           "related_sources": [],
-          "category": "Economy",
-          "clabel": "اقتصاد",
+          "category": "Education",
+          "clabel": "تعليم",
           "language": "ar",
-          "media_attribution": "راديو دبنقا"
+          "media_attribution": "سودانايل"
         }
       },
       {
@@ -4701,6 +4701,175 @@
       }
     ],
     "latest": [
+      {
+        "Title": "محامو الطواري : لا تأكيدات او ادلة مستقلة على اعتقال احمد هرون",
+        "Lang": "ar",
+        "Date": "2026-11-11T01:39:19+00:00",
+        "Permalink": "https://www.dabangasudan.org/ar/all-news/article/%d9%85%d8%ad%d8%a7%d9%85%d9%88-%d8%a7%d9%84%d8%b7%d9%88%d8%a7%d8%b1%d9%8a-%d9%84%d8%a7-%d8%aa%d8%a3%d9%83%d9%8a%d8%af%d8%a7%d8%aa-%d8%a7%d9%88-%d8%a7%d8%af%d9%84%d8%a9-%d9%85%d8%b3%d8%aa%d9%82%d9%84",
+        "Params": {
+          "description": "الخرطوم:11نوفمبر 2026: راديو دبنقا قال مجموعة محامي الطواري انه لاتوجد بعد أدلة أو تأكيدات رسمية... The post محامو الطواري : لا تأكيدات او ادلة مستقلة على اعتقال احمد هرون appeared first on Dabanga Radio TV Online .",
+          "source": "راديو دبنقا",
+          "source_id": "dabanga-ar",
+          "source_class": "sudanese_journalism",
+          "link": "https://www.dabangasudan.org/ar/all-news/article/%d9%85%d8%ad%d8%a7%d9%85%d9%88-%d8%a7%d9%84%d8%b7%d9%88%d8%a7%d8%b1%d9%8a-%d9%84%d8%a7-%d8%aa%d8%a3%d9%83%d9%8a%d8%af%d8%a7%d8%aa-%d8%a7%d9%88-%d8%a7%d8%af%d9%84%d8%a9-%d9%85%d8%b3%d8%aa%d9%82%d9%84",
+          "status": "Reporting",
+          "geography": [
+            "Khartoum"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "Sudan News",
+          "clabel": "أخبار السودان",
+          "language": "ar",
+          "media_attribution": "راديو دبنقا"
+        }
+      },
+      {
+        "Title": "النيل الأبيض: قرار بحظر تحويل الطلاب للمدارس الخاصة",
+        "Lang": "ar",
+        "Date": "2026-11-11T01:30:20+00:00",
+        "Permalink": "https://www.dabangasudan.org/ar/all-news/article/%d8%a7%d9%84%d9%86%d9%8a%d9%84-%d8%a7%d9%84%d8%a3%d8%a8%d9%8a%d8%b6-%d9%82%d8%b1%d8%a7%d8%b1-%d8%a8%d8%ad%d8%b8%d8%b1-%d8%aa%d8%ad%d9%88%d9%8a%d9%84-%d8%a7%d9%84%d8%b7%d9%84%d8%a7%d8%a8-%d9%84%d9%84",
+        "Params": {
+          "description": "النيل الأبيض: 11 نوفمبر 2026: راديو دبنقا أثار قرار أصدرته وزارة التربية بولاية النيل الأبيض،... The post النيل الأبيض: قرار بحظر تحويل الطلاب للمدارس الخاصة appeared first on Dabanga Radio TV Online .",
+          "source": "راديو دبنقا",
+          "source_id": "dabanga-ar",
+          "source_class": "sudanese_journalism",
+          "link": "https://www.dabangasudan.org/ar/all-news/article/%d8%a7%d9%84%d9%86%d9%8a%d9%84-%d8%a7%d9%84%d8%a3%d8%a8%d9%8a%d8%b6-%d9%82%d8%b1%d8%a7%d8%b1-%d8%a8%d8%ad%d8%b8%d8%b1-%d8%aa%d8%ad%d9%88%d9%8a%d9%84-%d8%a7%d9%84%d8%b7%d9%84%d8%a7%d8%a8-%d9%84%d9%84",
+          "status": "Reporting",
+          "geography": [
+            "Kordofan",
+            "White Nile"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "Education",
+          "clabel": "تعليم",
+          "language": "ar",
+          "media_attribution": "راديو دبنقا"
+        }
+      },
+      {
+        "Title": "عائدات صادر الذهب..أرقام تصطدم بواقع اقتصادي متردٍ ولا تظهر على “موائد الفقراء”",
+        "Lang": "ar",
+        "Date": "2026-11-11T01:23:42+00:00",
+        "Permalink": "https://www.dabangasudan.org/ar/all-news/article/%d8%b9%d8%a7%d8%a6%d8%af%d8%a7%d8%aa-%d8%b5%d8%a7%d8%af%d8%b1-%d8%a7%d9%84%d8%b0%d9%87%d8%a8-%d8%a3%d8%b1%d9%82%d8%a7%d9%85-%d8%aa%d8%b5%d8%b7%d8%af%d9%85-%d8%a8%d9%88%d8%a7%d9%82%d8%b9-%d8%a7%d9%82",
+        "Params": {
+          "description": "امستردام: 11 نوفمبر 2026م: راديو دبنقا تقرير: سليمان سريسجلت عائدات صادرات الذهب السوداني حصيلة بلغت... The post عائدات صادر الذهب..أرقام تصطدم بواقع اقتصادي متردٍ ولا تظهر على “موائد الفقراء” appeared first on Dabanga Radio TV Online .",
+          "source": "راديو دبنقا",
+          "source_id": "dabanga-ar",
+          "source_class": "sudanese_journalism",
+          "link": "https://www.dabangasudan.org/ar/all-news/article/%d8%b9%d8%a7%d8%a6%d8%af%d8%a7%d8%aa-%d8%b5%d8%a7%d8%af%d8%b1-%d8%a7%d9%84%d8%b0%d9%87%d8%a8-%d8%a3%d8%b1%d9%82%d8%a7%d9%85-%d8%aa%d8%b5%d8%b7%d8%af%d9%85-%d8%a8%d9%88%d8%a7%d9%82%d8%b9-%d8%a7%d9%82",
+          "status": "Reporting",
+          "geography": [
+            "National"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "Economy",
+          "clabel": "اقتصاد",
+          "language": "ar",
+          "media_attribution": "راديو دبنقا"
+        }
+      },
+      {
+        "Title": "لجنة تهيئة الحوار : رئيس بورندي والاتحاد الافريقي أكد دعمه للحوار السوداني",
+        "Lang": "ar",
+        "Date": "2026-11-11T01:17:45+00:00",
+        "Permalink": "https://www.dabangasudan.org/ar/all-news/article/%d9%84%d8%ac%d9%86%d8%a9-%d8%aa%d9%87%d9%8a%d8%a6%d8%a9-%d8%a7%d9%84%d8%ad%d9%88%d8%a7%d8%b1-%d8%b1%d8%a6%d9%8a%d8%b3-%d8%a8%d9%88%d8%b1%d9%86%d8%af%d9%8a-%d9%88%d8%a7%d9%84%d8%a7%d8%aa%d8%ad%d8%a7",
+        "Params": {
+          "description": "بورندي:11 نوفمبر 2026: راديو دبنقا أعلن رئيس وفد لجنة تهيئة الحوار السوداني – السوداني، نبيل... The post لجنة تهيئة الحوار : رئيس بورندي والاتحاد الافريقي أكد دعمه للحوار السوداني appeared first on Dabanga Radio TV Online .",
+          "source": "راديو دبنقا",
+          "source_id": "dabanga-ar",
+          "source_class": "sudanese_journalism",
+          "link": "https://www.dabangasudan.org/ar/all-news/article/%d9%84%d8%ac%d9%86%d8%a9-%d8%aa%d9%87%d9%8a%d8%a6%d8%a9-%d8%a7%d9%84%d8%ad%d9%88%d8%a7%d8%b1-%d8%b1%d8%a6%d9%8a%d8%b3-%d8%a8%d9%88%d8%b1%d9%86%d8%af%d9%8a-%d9%88%d8%a7%d9%84%d8%a7%d8%aa%d8%ad%d8%a7",
+          "status": "Reporting",
+          "geography": [
+            "National"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "Sudan News",
+          "clabel": "أخبار السودان",
+          "language": "ar",
+          "media_attribution": "راديو دبنقا"
+        }
+      },
+      {
+        "Title": "اليونيسف : الطائرات المسيرة “عدوان لم يشهد السودان مثيلا له من قبل”",
+        "Lang": "ar",
+        "Date": "2026-11-11T01:12:04+00:00",
+        "Permalink": "https://www.dabangasudan.org/ar/all-news/article/%d8%a7%d9%84%d9%8a%d9%88%d9%86%d9%8a%d8%b3%d9%81-%d8%a7%d9%84%d8%b7%d8%a7%d8%a6%d8%b1%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%b3%d9%8a%d8%b1%d8%a9-%d8%b9%d8%af%d9%88%d8%a7%d9%86-%d9%84%d9%85-%d9%8a",
+        "Params": {
+          "description": "أمستردام:11 نوفمبر 2026: راديو دبنقا قال المتحدث باسم منظمة اليونيسف جيمس إلدر إن هجمات الطائرات... The post اليونيسف : الطائرات المسيرة “عدوان لم يشهد السودان مثيلا له من قبل” appeared first on Dabanga Radio TV Online .",
+          "source": "راديو دبنقا",
+          "source_id": "dabanga-ar",
+          "source_class": "sudanese_journalism",
+          "link": "https://www.dabangasudan.org/ar/all-news/article/%d8%a7%d9%84%d9%8a%d9%88%d9%86%d9%8a%d8%b3%d9%81-%d8%a7%d9%84%d8%b7%d8%a7%d8%a6%d8%b1%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%b3%d9%8a%d8%b1%d8%a9-%d8%b9%d8%af%d9%88%d8%a7%d9%86-%d9%84%d9%85-%d9%8a",
+          "status": "Reporting",
+          "geography": [
+            "National"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "War & Security",
+          "clabel": "الحرب والأمن",
+          "language": "ar",
+          "media_attribution": "راديو دبنقا"
+        }
+      },
+      {
+        "Title": "مقتل (9) مدنيين في هجوم بطائرة مسيرة في النيل الأزرق",
+        "Lang": "ar",
+        "Date": "2026-11-11T01:08:18+00:00",
+        "Permalink": "https://www.dabangasudan.org/ar/all-news/article/%d9%85%d9%82%d8%aa%d9%84-9-%d9%85%d8%af%d9%86%d9%8a%d9%8a%d9%86-%d9%81%d9%8a-%d9%87%d8%ac%d9%88%d9%85-%d8%a8%d8%b7%d8%a7%d8%a6%d8%b1%d8%a9-%d9%85%d8%b3%d9%8a%d8%b1%d8%a9-%d9%81%d9%8a-%d8%a7%d9%84",
+        "Params": {
+          "description": "النيل الأزرق :11 نوفمبر 2026 : راديو دبنقا اعلن محافظ الكرمك عبد العاطي محمد الفكي... The post مقتل (9) مدنيين في هجوم بطائرة مسيرة في النيل الأزرق appeared first on Dabanga Radio TV Online .",
+          "source": "راديو دبنقا",
+          "source_id": "dabanga-ar",
+          "source_class": "sudanese_journalism",
+          "link": "https://www.dabangasudan.org/ar/all-news/article/%d9%85%d9%82%d8%aa%d9%84-9-%d9%85%d8%af%d9%86%d9%8a%d9%8a%d9%86-%d9%81%d9%8a-%d9%87%d8%ac%d9%88%d9%85-%d8%a8%d8%b7%d8%a7%d8%a6%d8%b1%d8%a9-%d9%85%d8%b3%d9%8a%d8%b1%d8%a9-%d9%81%d9%8a-%d8%a7%d9%84",
+          "status": "Reporting",
+          "geography": [
+            "Blue Nile"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "War & Security",
+          "clabel": "الحرب والأمن",
+          "language": "ar",
+          "media_attribution": "راديو دبنقا"
+        }
+      },
+      {
+        "Title": "مسح أممي: ثلث الاسر السودانية فقدت سبل كسب العيش",
+        "Lang": "ar",
+        "Date": "2026-11-11T00:53:08+00:00",
+        "Permalink": "https://www.dabangasudan.org/ar/all-news/article/%d9%85%d8%b3%d8%ad-%d8%a3%d9%85%d9%85%d9%8a-%d8%ab%d9%84%d8%ab-%d8%a7%d9%84%d8%a7%d8%b3%d8%b1-%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86%d9%8a%d8%a9-%d9%81%d9%82%d8%af%d8%aa-%d8%b3%d8%a8%d9%84-%d9%83",
+        "Params": {
+          "description": "أمستردام:11 نوفمبر 2026: راديو دبنقا كشف تقييم أممي واسع أن الأزمة الإنسانية في السودان لم... The post مسح أممي: ثلث الاسر السودانية فقدت سبل كسب العيش appeared first on Dabanga Radio TV Online .",
+          "source": "راديو دبنقا",
+          "source_id": "dabanga-ar",
+          "source_class": "sudanese_journalism",
+          "link": "https://www.dabangasudan.org/ar/all-news/article/%d9%85%d8%b3%d8%ad-%d8%a3%d9%85%d9%85%d9%8a-%d8%ab%d9%84%d8%ab-%d8%a7%d9%84%d8%a7%d8%b3%d8%b1-%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86%d9%8a%d8%a9-%d9%81%d9%82%d8%af%d8%aa-%d8%b3%d8%a8%d9%84-%d9%83",
+          "status": "Reporting",
+          "geography": [
+            "National"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "Humanitarian",
+          "clabel": "إنساني",
+          "language": "ar",
+          "media_attribution": "راديو دبنقا"
+        }
+      },
       {
         "Title": "جوع السودان... عجز عن تأمين وجبة واحدة وبدائل غذائية قاسية للأسر",
         "Lang": "ar",
@@ -5018,13 +5187,13 @@
         "Title": "السودان: 9 قتلى في هجوم مسيّرات لـ\"الدعم السريع\" على النيل الأزرق",
         "Lang": "ar",
         "Date": "2026-11-10T14:11:18+00:00",
-        "Permalink": "https://www.alaraby.co.uk/politics/%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86-9-%D9%82%D8%AA%D9%84%D9%89-%D9%81%D9%8A-%D9%87%D8%AC%D9%88%D9%85-%D9%85%D8%B3%D9%8A%D9%91%D8%B1%D8%A7%D8%AA-%D9%84%D9%80%D8%A7%D9%84%D8%AF%D8%B9%D9%85-%D8%A7%D9%84%D8%B3%D8%B1%D9%8A%D8%B9-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D9%86%D9%8A%D9%84-%D8%A7%D9%84%D8%A3%D8%B2%D8%B1%D9%82",
+        "Permalink": "https://www.alaraby.co.uk/politics/السودان-9-قتلى-في-هجوم-مسيّرات-لـالدعم-السريع-على-النيل-الأزرق",
         "Params": {
           "description": "أعلنت سلطات محلية في ولاية النيل الأزرق، جنوب شرقي السودان، الثلاثاء، مقتل 9 أشخاص جراء استهداف طائرات مسيّرة تابعة لقوات \"الدعم السريع\".",
           "source": "العربي الجديد",
           "source_id": "alaraby-ar",
           "source_class": "regional_journalism",
-          "link": "https://www.alaraby.co.uk/politics/%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86-9-%D9%82%D8%AA%D9%84%D9%89-%D9%81%D9%8A-%D9%87%D8%AC%D9%88%D9%85-%D9%85%D8%B3%D9%8A%D9%91%D8%B1%D8%A7%D8%AA-%D9%84%D9%80%D8%A7%D9%84%D8%AF%D8%B9%D9%85-%D8%A7%D9%84%D8%B3%D8%B1%D9%8A%D8%B9-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D9%86%D9%8A%D9%84-%D8%A7%D9%84%D8%A3%D8%B2%D8%B1%D9%82",
+          "link": "https://www.alaraby.co.uk/politics/السودان-9-قتلى-في-هجوم-مسيّرات-لـالدعم-السريع-على-النيل-الأزرق",
           "status": "Reporting",
           "geography": [
             "Blue Nile"
@@ -8162,174 +8331,6 @@
           "clabel": "سياسة",
           "language": "ar",
           "media_attribution": "سودانايل"
-        }
-      },
-      {
-        "Title": "صناعة القوى السياسية بعد إندلاع الحرب",
-        "Lang": "ar",
-        "Date": "2026-11-07T13:46:19+00:00",
-        "Permalink": "https://sudanile.com/%d8%b5%d9%86%d8%a7%d8%b9%d8%a9-%d8%a7%d9%84%d9%82%d9%88%d9%89-%d8%a7%d9%84%d8%b3%d9%8a%d8%a7%d8%b3%d9%8a%d8%a9-%d8%a8%d8%b9%d8%af-%d8%a5%d9%86%d8%af%d9%84%d8%a7%d8%b9-%d8%a7%d9%84%d8%ad%d8%b1%d8%a8",
-        "Params": {
-          "description": "زين العابدين صالح عبد الرحمنمواصلة للمقال الأخير الذي نشر بعنوان ” الديمقراطيون و ملف الانقلاب في السودان” نواصل توثيق ما جرى، كيف صنعت القوى السياسية الداعمة للميليشيا؟ و الهدف من هذه القوى؟عندما فشلت الميليشيا في استلام السلطة، رغم إنها كانت قد سيطرت على مؤسسات الدولة جميعها، و التي كانت تقوم بحراستها قبل الحرب، و فشلت […] The post صناعة القوى السياسية بعد إندلاع الحرب appeared first on سودانايل .",
-          "source": "سودانايل",
-          "source_id": "sudanile-ar",
-          "source_class": "sudanese_diaspora",
-          "link": "https://sudanile.com/%d8%b5%d9%86%d8%a7%d8%b9%d8%a9-%d8%a7%d9%84%d9%82%d9%88%d9%89-%d8%a7%d9%84%d8%b3%d9%8a%d8%a7%d8%b3%d9%8a%d8%a9-%d8%a8%d8%b9%d8%af-%d8%a5%d9%86%d8%af%d9%84%d8%a7%d8%b9-%d8%a7%d9%84%d8%ad%d8%b1%d8%a8",
-          "status": "Reporting",
-          "geography": [
-            "National"
-          ],
-          "image": "https://sudanile.com/wp-content/uploads/2026/01/zainsalih.jpg",
-          "media_reuse_basis": "rss_metadata",
-          "related_sources": [],
-          "category": "War & Security",
-          "clabel": "الحرب والأمن",
-          "language": "ar",
-          "media_attribution": "سودانايل"
-        }
-      },
-      {
-        "Title": "في الذكرى ٦١ لحل الحزب الشيوعي وتداعياتها",
-        "Lang": "ar",
-        "Date": "2026-11-07T13:43:25+00:00",
-        "Permalink": "https://sudanile.com/%d9%81%d9%8a-%d8%a7%d9%84%d8%b0%d9%83%d8%b1%d9%89-%d9%a6%d9%a1-%d9%84%d8%ad%d9%84-%d8%a7%d9%84%d8%ad%d8%b2%d8%a8-%d8%a7%d9%84%d8%b4%d9%8a%d9%88%d8%b9%d9%8a-%d9%88%d8%aa%d8%af%d8%a7%d8%b9%d9%8a%d8%a7",
-        "Params": {
-          "description": "بقلم: تاج السر عثمان تمر في شهر نوفمبر الجاري الذكرى ٦١ لحل الحزب الشيوعي السوداني’ ونتابع تداعياتها بإعادة نشر هذا المقال:أولا : كيف تمّ قرار حل الحزب الشيوعي وطرد نوابه من البرلمان؟.بعد ثورة أكتوبر 1964م ونجاح الإضراب السياسي والعصيان المدني، ضاقت القوي اليمينية ” الإخوان المسلمين، الأمة الاتحادي” بتنامي نفوذ الحزب الشيوعي، حيث فاز 11 […] The post في الذكرى ٦١ لحل الحزب الشيوعي وتداعياتها appeared first on سودانايل",
-          "source": "سودانايل",
-          "source_id": "sudanile-ar",
-          "source_class": "sudanese_diaspora",
-          "link": "https://sudanile.com/%d9%81%d9%8a-%d8%a7%d9%84%d8%b0%d9%83%d8%b1%d9%89-%d9%a6%d9%a1-%d9%84%d8%ad%d9%84-%d8%a7%d9%84%d8%ad%d8%b2%d8%a8-%d8%a7%d9%84%d8%b4%d9%8a%d9%88%d8%b9%d9%8a-%d9%88%d8%aa%d8%af%d8%a7%d8%b9%d9%8a%d8%a7",
-          "status": "Reporting",
-          "geography": [
-            "National"
-          ],
-          "image": "https://sudanile.com/wp-content/uploads/2026/01/elsir-1.jpg",
-          "media_reuse_basis": "rss_metadata",
-          "related_sources": [],
-          "category": "Politics",
-          "clabel": "سياسة",
-          "language": "ar",
-          "media_attribution": "سودانايل"
-        }
-      },
-      {
-        "Title": "الحوار السوداني.. التوافق أم المحاصصة؟",
-        "Lang": "ar",
-        "Date": "2026-11-07T13:42:16+00:00",
-        "Permalink": "https://sudanile.com/%d8%a7%d9%84%d8%ad%d9%88%d8%a7%d8%b1-%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86%d9%8a-%d8%a7%d9%84%d8%aa%d9%88%d8%a7%d9%81%d9%82-%d8%a3%d9%85-%d8%a7%d9%84%d9%85%d8%ad%d8%a7%d8%b5%d8%b5%d8%a9%d8%9f",
-        "Params": {
-          "description": "وجه الحقيقةد. إبراهيم شقلاوي بالأمس، تناول الأستاذ عثمان ميرغني، في عموده حديث المدينة بصحيفة التيار تحت عنوان “صناعة مؤتمر حوار مؤثر” مآلات الحوار السوداني–السوداني، مستعيناً باستعارة ناقل الحركة في السيارة الأوتوماتيكية، ليضع ثلاثة سيناريوهات أمام المؤتمر المرتقب، النجاح المؤثر (D)، والجمود (N)، والانفضاض (R). وجعل من الوصول إلى وثيقة توافق وطني وتشكيل هيئة تشريعية انتقالية […] The post الحوار السوداني.. التوافق أم",
-          "source": "سودانايل",
-          "source_id": "sudanile-ar",
-          "source_class": "sudanese_diaspora",
-          "link": "https://sudanile.com/%d8%a7%d9%84%d8%ad%d9%88%d8%a7%d8%b1-%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86%d9%8a-%d8%a7%d9%84%d8%aa%d9%88%d8%a7%d9%81%d9%82-%d8%a3%d9%85-%d8%a7%d9%84%d9%85%d8%ad%d8%a7%d8%b5%d8%b5%d8%a9%d8%9f",
-          "status": "Reporting",
-          "geography": [
-            "National"
-          ],
-          "image": "https://sudanile.com/wp-content/uploads/2025/09/shaglawi.jpg",
-          "media_reuse_basis": "rss_metadata",
-          "related_sources": [],
-          "category": "Sudan News",
-          "clabel": "أخبار السودان",
-          "language": "ar",
-          "media_attribution": "سودانايل"
-        }
-      },
-      {
-        "Title": "المثالية القومية عند محمود محمد طه: هل كانت المركزية السودانوية تعويضاً عن الغربة الفكرية؟",
-        "Lang": "ar",
-        "Date": "2026-11-07T13:40:52+00:00",
-        "Permalink": "https://sudanile.com/%d8%a7%d9%84%d9%85%d8%ab%d8%a7%d9%84%d9%8a%d8%a9-%d8%a7%d9%84%d9%82%d9%88%d9%85%d9%8a%d8%a9-%d8%b9%d9%86%d8%af-%d9%85%d8%ad%d9%85%d9%88%d8%af-%d9%85%d8%ad%d9%85%d8%af-%d8%b7%d9%87-%d9%87%d9%84-%d9%83",
-        "Params": {
-          "description": "طلعت محمد الطيب مقدمةمن القضايا التي تستحق التأمل النقدي في مشروع الأستاذ محمود محمد طه،مؤسس الحزب الجمهوري، العلاقة بين غربة أفكاره عن المجتمع السوداني وبين نزوعه إلى إضفاء طابع استثنائي على الذاتية السودانية. فمحمود الذي طرح مشروعاً دينياً وفلسفياً بالغ الاختلاف عن المألوف الاجتماعي، أقرّ بغربة فكره، لكنه في المقابل منح السودان والسودانيين موقعاً مركزياً […] The post المثالية القومية عند محمود محمد طه: هل كانت المر",
-          "source": "سودانايل",
-          "source_id": "sudanile-ar",
-          "source_class": "sudanese_diaspora",
-          "link": "https://sudanile.com/%d8%a7%d9%84%d9%85%d8%ab%d8%a7%d9%84%d9%8a%d8%a9-%d8%a7%d9%84%d9%82%d9%88%d9%85%d9%8a%d8%a9-%d8%b9%d9%86%d8%af-%d9%85%d8%ad%d9%85%d9%88%d8%af-%d9%85%d8%ad%d9%85%d8%af-%d8%b7%d9%87-%d9%87%d9%84-%d9%83",
-          "status": "Reporting",
-          "geography": [
-            "National"
-          ],
-          "image": "https://sudanile.com/wp-content/uploads/2026/05/talat.jpg",
-          "media_reuse_basis": "rss_metadata",
-          "related_sources": [],
-          "category": "Politics",
-          "clabel": "سياسة",
-          "language": "ar",
-          "media_attribution": "سودانايل"
-        }
-      },
-      {
-        "Title": "لماذا يفشل الحوار السوداني.. السوداني؟",
-        "Lang": "ar",
-        "Date": "2026-11-07T13:39:18+00:00",
-        "Permalink": "https://sudanile.com/%d9%84%d9%85%d8%a7%d8%b0%d8%a7-%d9%8a%d9%81%d8%b4%d9%84-%d8%a7%d9%84%d8%ad%d9%88%d8%a7%d8%b1-%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86%d9%8a-%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86%d9%8a%d8%9f",
-        "Params": {
-          "description": "ضد الانكسارأمل أحمد تبيديمدخلقيل(الحوار يكون لتقريب المسافات و كسب القلوب ، لا لكسب المواقف و لإدانة كل منا الآخر) تعددت و تفاقمت الأسباب التي تقود دوما الي فشل الحوار السوداني السوداني من الداخل، اولا انعدام الثقة إلتى تمثل أساس اي حوار، كيف نجلس على طاولة حوار وكل طرف بيده سلاح الحقد والغبن وقلبه مليء بالشك […] The post لماذا يفشل الحوار السوداني.. السوداني؟ appeared first on سودانايل .",
-          "source": "سودانايل",
-          "source_id": "sudanile-ar",
-          "source_class": "sudanese_diaspora",
-          "link": "https://sudanile.com/%d9%84%d9%85%d8%a7%d8%b0%d8%a7-%d9%8a%d9%81%d8%b4%d9%84-%d8%a7%d9%84%d8%ad%d9%88%d8%a7%d8%b1-%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86%d9%8a-%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86%d9%8a%d8%9f",
-          "status": "Reporting",
-          "geography": [
-            "National"
-          ],
-          "image": "https://sudanile.com/wp-content/uploads/2026/01/amaltabidi.jpg",
-          "media_reuse_basis": "rss_metadata",
-          "related_sources": [],
-          "category": "Sudan News",
-          "clabel": "أخبار السودان",
-          "language": "ar",
-          "media_attribution": "سودانايل"
-        }
-      },
-      {
-        "Title": "قوى مدنية تحذر من حملة عسكرية مصرية جديدة تستهدف المعدّنين السودانيين",
-        "Lang": "ar",
-        "Date": "2026-11-07T13:36:44+00:00",
-        "Permalink": "https://www.altaghyeer.info/ar/2026/11/07/%d9%82%d9%88%d9%89-%d9%85%d8%af%d9%86%d9%8a%d8%a9-%d8%aa%d8%ad%d8%b0%d8%b1-%d9%85%d9%86-%d8%ad%d9%85%d9%84%d8%a9-%d8%b9%d8%b3%d9%83%d8%b1%d9%8a%d8%a9-%d9%85%d8%b5%d8%b1%d9%8a%d8%a9-%d8%ac%d8%af%d9%8a",
-        "Params": {
-          "description": "حذّرت قوى إعلان المبادئ السوداني – نحو بناء وطن جديد، من بدء مرحلة جديدة من الحملة العسكرية المصرية ضد المعدّنين السودانيين، والمقرر انطلاقها السبت، معتبرة أن العمليات تثير مخاوف بشأن استهداف المدنيين والتوسع العسكري داخل الأراضي السودانية. الخرطوم ــ التغيير وقالت القوى، في بيان ، إنها تابعت بقلق إعلان المتحدث العسكري باسم القوات المسلحة …",
-          "source": "التغيير",
-          "source_id": "altaghyeer-ar",
-          "source_class": "sudanese_journalism",
-          "link": "https://www.altaghyeer.info/ar/2026/11/07/%d9%82%d9%88%d9%89-%d9%85%d8%af%d9%86%d9%8a%d8%a9-%d8%aa%d8%ad%d8%b0%d8%b1-%d9%85%d9%86-%d8%ad%d9%85%d9%84%d8%a9-%d8%b9%d8%b3%d9%83%d8%b1%d9%8a%d8%a9-%d9%85%d8%b5%d8%b1%d9%8a%d8%a9-%d8%ac%d8%af%d9%8a",
-          "status": "Reporting",
-          "geography": [
-            "Khartoum"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "Sudan News",
-          "clabel": "أخبار السودان",
-          "language": "ar",
-          "media_attribution": "التغيير"
-        }
-      },
-      {
-        "Title": "خالد عمر يوسف: أحمد هارون يسدل الستار على مسرحية البرهان بعودة الإسلاميين إلى السلطة",
-        "Lang": "ar",
-        "Date": "2026-11-07T13:19:24+00:00",
-        "Permalink": "https://www.altaghyeer.info/ar/2026/11/07/%d8%ae%d8%a7%d9%84%d8%af-%d8%b9%d9%85%d8%b1-%d9%8a%d9%88%d8%b3%d9%81-%d8%a3%d8%ad%d9%85%d8%af-%d9%87%d8%a7%d8%b1%d9%88%d9%86-%d9%8a%d8%b3%d8%af%d9%84-%d8%a7%d9%84%d8%b3%d8%aa%d8%a7%d8%b1-%d8%b9%d9%84",
-        "Params": {
-          "description": "قال نائب رئيس حزب المؤتمر السوداني والقيادي بتحالف “صمود”، خالد عمر يوسف، إن تصريحات رئيس حزب المؤتمر الوطني المحلول أحمد هارون، بشأن انتهاء مرحلة “الدسدسة والغتغيت” والانتقال إلى الدعوة العلنية، كشفت طبيعة المشروع السياسي للحركة الإسلامية وأهدافها من الحرب الدائرة في السودان. الخرطوم ــ التغيير واعتبر خالد عمر، في تصريح، أن ظهور هارون العلني …",
-          "source": "التغيير",
-          "source_id": "altaghyeer-ar",
-          "source_class": "sudanese_journalism",
-          "link": "https://www.altaghyeer.info/ar/2026/11/07/%d8%ae%d8%a7%d9%84%d8%af-%d8%b9%d9%85%d8%b1-%d9%8a%d9%88%d8%b3%d9%81-%d8%a3%d8%ad%d9%85%d8%af-%d9%87%d8%a7%d8%b1%d9%88%d9%86-%d9%8a%d8%b3%d8%af%d9%84-%d8%a7%d9%84%d8%b3%d8%aa%d8%a7%d8%b1-%d8%b9%d9%84",
-          "status": "Reporting",
-          "geography": [
-            "Khartoum"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "War & Security",
-          "clabel": "الحرب والأمن",
-          "language": "ar",
-          "media_attribution": "التغيير"
         }
       }
     ],
