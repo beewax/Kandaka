@@ -1,0 +1,48 @@
+{{- $current := . }}
+{{- $candidates := where site.RegularPages "Language.Lang" .Lang }}
+{{- $candidates = where $candidates "Permalink" "ne" .Permalink }}
+{{- $sameSection := where $candidates "Section" .Section }}
+{{- $related := slice }}
+{{- range $sameSection }}
+  {{- if and (ne .Section "news") (or (eq .Params.category $current.Params.category) (intersect .Params.tags $current.Params.tags)) }}
+    {{- $related = $related | append . }}
+  {{- end }}
+{{- end }}
+{{- if lt (len $related) 3 }}
+  {{- range $candidates }}
+    {{- if and (ne .Section "news") (not (in $related .)) (eq .Language.Lang $current.Lang) }}
+      {{- $related = $related | append . }}
+    {{- end }}
+  {{- end }}
+{{- end }}
+{{- $related = first 3 (sort $related "Date" "desc") }}
+{{- if $related }}
+<section class="k-related-articles" dir="{{ if eq .Lang "ar" }}rtl{{ else }}ltr{{ end }}" aria-labelledby="related-articles-title">
+  <h2 id="related-articles-title">{{ if eq .Lang "ar" }}مقالات ذات صلة{{ else }}Related articles{{ end }}</h2>
+  <div class="k-related-grid">
+    {{- range $related }}
+    <article class="k-related-card">
+      <a href="{{ .RelPermalink }}" data-related-article="{{ .RelPermalink }}">
+        <strong>{{ .Title }}</strong>
+        {{- with .Description }}<span>{{ . | truncate 150 }}</span>{{ end }}
+      </a>
+    </article>
+    {{- end }}
+  </div>
+</section>
+<script>
+  document.querySelectorAll('[data-related-article]').forEach(function (link) {
+    link.addEventListener('click', function () {
+      if (typeof window.gtag !== 'function') return;
+      var title = document.querySelector('.post-title');
+      window.gtag('event', 'related_article_click', {
+        source_language: document.documentElement.lang.split('-')[0],
+        source_article: title ? title.textContent.trim() : '',
+        target_article: link.dataset.relatedArticle,
+        position: Array.from(document.querySelectorAll('[data-related-article]')).indexOf(link) + 1,
+        transport_type: 'beacon'
+      });
+    });
+  });
+</script>
+{{- end }}
