@@ -1,5 +1,12 @@
 # KANDAKA WORKPLAN
 
+## 12 November 2026 — Broader cinema and exact cover approved for bilingual publication
+
+Owner accepted both reviewed texts, selected option 1 for BOTH languages, and explicitly instructed: “Let's use option 1 for both versions. Go ahead with the final checks and publish in English and Arabic.” Approval applies only to sudanese-cinema-history EN/AR and the exact British Council Sudan drive-in photograph from 3 March 2021. Preserve reviewed bodies and source qualifications; add localized cover/alt/credit and CC BY-SA 4.0 link. Original image unmodified, SHA256 258a783e5fbbc53d3297731c6a42142ea4c800f0994fe238c499fd61e5b0a69a. This supersedes earlier pending approval/cover markers for this pair. Both editions prepared with shared release metadata 2026-11-12T23:38:41.258517+00:00. Actual successful deployment and independent live verification must be recorded separately; preparation is not a publication claim. No other review draft or schedule approved.
+
+اعتمد المستخدم نصي مقال السينما الأوسع والغلاف الأول نفسه للنسختين، وطلب الفحص النهائي والنشر. تُحفظ حدود المصادر والنصوص المعتمدة، مع اعتماد الصورة المؤرخة واسم صاحبها وترخيصها. يُسجل النشر الفعلي والتحقق بصورة مستقلة.
+
+
 ## 12 November 2026 — Broader cinema text accepted; cover selection pending
 
 Owner reviewed the full English/Arabic cinema reader and replied: “The text looks good. Let's choose a cover for both versions—show me some suitable options.” Record acceptance of the reviewed bilingual text; cover selection is the next step. This does not authorize immediate publication. Preserve both draft:true flags, no release date, and reviewed text.

@@ -3,11 +3,19 @@ title: "Sudanese Cinema: The Films, the Filmmakers and the Search for an Audienc
 description: "A history of Sudanese filmmaking and filmgoing, and the practical work of connecting surviving films, working filmmakers and audiences."
 slug: sudanese-cinema-history
 translationKey: sudanese-cinema-history
-draft: true
+draft: false
+date: '2026-11-12T23:38:41.258517+00:00'
 author: "Kandaka"
 category: "Culture"
 tags: ["Sudan", "Cinema", "Cultural heritage"]
+cover:
+  image: '/images/uploads/sudanese-european-film-festival-2021.jpg'
+  alt: 'Cars facing an outdoor screen at a Sudanese European Film Festival drive-in screening in 2021.'
+  relative: false
 ---
+
+*Drive-in screening at the Sudanese European Film Festival, 3 March 2021. Photograph: British Council Sudan, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Cars_at_the_Sudanese_European_Film_Festival.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Original photograph reproduced without alteration. This is a dated festival photograph, not evidence of current venue availability.*
+
 
 A programme for Sudan's Independent Film Festival in January 2018 offers a useful starting point for a history usually told through famous directors and international prizes. Its screenings were spread across eight named venues in Khartoum, with free entry. This was a network of cultural spaces, not evidence of eight operating commercial cinemas. It nevertheless shows people organising places to encounter films before the international successes of 2019. [British Council programme](https://sudan.britishcouncil.org/en/events/sudan-independent-film-festival)
 
@@ -85,7 +93,7 @@ Continuation in exile is an achievement with costs, not a satisfactory substitut
 
 This history suggests a practical direction: support the connections between films, skills, rights and audiences. The proposals that follow are editorial recommendations, not a costed national programme or a claim that current operators have agreed to deliver them.
 
-Preservation should begin with custodians and an inventory of what actually survives. Families, filmmakers and institutions need a way to record formats, condition, ownership and permissions without surrendering control of their material. Originals, preservation masters and public access copies serve different purposes. A backup arrangement must say who maintains it, who can retrieve it and what happens if an organisation closes. The AFAC-supported Rewind Forward project provides a documented example linking restoration, training and reuse; its programme description is not proof that every planned output has been completed. [AFAC project record](https://www.arabculturefund.org/Projects/7488)
+Preservation should begin with custodians and an inventory of what actually survives. Families, filmmakers and institutions need a way to record formats, condition, ownership and permissions without surrendering control of their material. Originals, preservation masters and public access copies serve different purposes. A backup arrangement must say who maintains it, who can retrieve it and what happens if an organisation closes. The AFAC-supported Rewind Forward project provides a documented example linking restoration, training and reuse; its programme description is not proof that every planned output has been completed. [AFAC project record](https://www.arabculturefund.org/Grantees/12314)
 
 Public access needs its own agreement. A restoration partner's screening licence may not cover a school, a community festival or online viewing in Sudan. Each route needs clear terms, proper credits and a realistic payment arrangement. Catalogue descriptions should state what is available, in which territory, for how long and with which subtitles. A page about a film is not necessarily a way to watch it.
 
