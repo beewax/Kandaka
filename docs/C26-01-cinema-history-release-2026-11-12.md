@@ -22,8 +22,10 @@ Shared article metadata timestamp: 2026-11-12T23:38:41.258517+00:00. This marks 
 
 ## Live verification
 
-Pending until successful deployment. English: https://kandaka.com/culture/sudanese-cinema-history/ ; Arabic: https://kandaka.com/ar/culture/sudanese-cinema-history/ . Complete text and image hash must match checked build. Review-only archaeology, wildlife and household-history drafts remain unapproved and unchanged.
+VERIFIED LIVE, 12 November 2026. English: https://kandaka.com/culture/sudanese-cinema-history/ ; Arabic: https://kandaka.com/ar/culture/sudanese-cinema-history/ . Complete text and image hash must match checked build. Review-only archaeology, wildlife and household-history drafts remain unapproved and unchanged.
 
 ## Final local validation passed
 Normal production Hugo build passed in301049ms:1226English/3772Arabic pages; existing Site.Data deprecation only. Both complete rendered editions passed6-section, source parity, approved-body preservation (AFAC locator only), single exact cover, translation/RTL and Culture listing assertions. Normalized editorial text including localized caption:17664EN/14116AR characters, excluding rotating bookstore promotion. Render checks2026-11-12T23:43:41.843753Z. Cover audit4209files passed. No unapproved draft promoted.
 
+## Publication verified
+Release f9332848dfa118c44fb357ec848250a35aabb95e; Netlify6af64feecf3e4b8bc2881cac READY/noerror, exactcommit. Actual publication2026-11-12T23:47:54.687Z/17:47:54.687CST. Independentverification2026-11-12T23:48:17.114Z: bothHTTP200,completebodiesmatchcheckedproduction,6sections,oneexactcovereach,ArabicRTL,matchingCulturelistings. IndependentlydownloadedliveJPEGhash258a783e5fbbc53d3297731c6a42142ea4c800f0994fe238c499fd61e5b0a69a. Receipt C26-01-cinema-history-publication-2026-11-12.json. No fresh mobile/browser visual audit claimed.

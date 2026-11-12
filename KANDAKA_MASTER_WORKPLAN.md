@@ -1,5 +1,17 @@
 # KANDAKA WORKPLAN
 
+## 12 November 2026 — Broader Sudanese cinema history PUBLISHED AND VERIFIED
+
+Owner-approved English and Arabic article and exact option 1 cover are live. Release commit f9332848dfa118c44fb357ec848250a35aabb95e; matching Netlify deployment 6af64feecf3e4b8bc2881cac, ready, no error. Actual publication **12 November 2026 17:47:54.687 America/Chicago (CST) / 23:47:54.687 UTC**. Independent verification completed 23:48:17.114 UTC / 17:48:17.114 CST. English https://kandaka.com/culture/sudanese-cinema-history/ ; Arabic https://kandaka.com/ar/culture/sudanese-cinema-history/ .
+
+Both complete live editorial bodies match checked production (17664 EN / 14116 AR normalized characters, excluding rotating bookstore promotion), six sections each, single exact original British Council Sudan 3 March 2021 drive-in photograph each, working corresponding Culture listings, Arabic RTL and matched source links. Cover SHA256 258a783e5fbbc53d3297731c6a42142ea4c800f0994fe238c499fd61e5b0a69a matches independently downloaded live original. Bilingual credit, CC BY-SA 4.0/source links and historical-venue disclosure preserved. Reviewed bodies unchanged except AFAC now-404 detail URL replaced by working official Sudan Film Factory grantee locator; no thesis change. Full normal Hugo production build passed 301049ms, 1226 EN / 3772 AR; 4209-file cover audit passed. Evidence: docs/C26-01-cinema-history-release-2026-11-12.md and docs/C26-01-cinema-history-publication-2026-11-12.json.
+
+This supersedes earlier USER REVIEW, cover pending and release-in-preparation markers for this article pair only. No other pending draft approved or published; no queue automation changed. Canonical dirty checkout and synced sources preserved.
+
+نُشر المقال الأوسع عن السينما السودانية بالعربية والإنجليزية بالغلاف الأول المعتمد، وتحقق التطابق الكامل للنصين والصورة واعتماداتها وظهورهما في قسم الثقافة. النشر الفعلي في 12 نوفمبر 2026 الساعة 5:47:54 مساءً بتوقيت شيكاغو الشتوي. يخص الاعتماد والنشر هذا المقال وحده، وتبقى المسودات الأخرى قيد المراجعة.
+
+
+
 ## 12 November 2026 — Broader cinema and exact cover approved for bilingual publication
 
 Owner accepted both reviewed texts, selected option 1 for BOTH languages, and explicitly instructed: “Let's use option 1 for both versions. Go ahead with the final checks and publish in English and Arabic.” Approval applies only to sudanese-cinema-history EN/AR and the exact British Council Sudan drive-in photograph from 3 March 2021. Preserve reviewed bodies and source qualifications; add localized cover/alt/credit and CC BY-SA 4.0 link. Original image unmodified, SHA256 258a783e5fbbc53d3297731c6a42142ea4c800f0994fe238c499fd61e5b0a69a. This supersedes earlier pending approval/cover markers for this pair. Both editions prepared with shared release metadata 2026-11-12T23:38:41.258517+00:00. Actual successful deployment and independent live verification must be recorded separately; preparation is not a publication claim. No other review draft or schedule approved.
