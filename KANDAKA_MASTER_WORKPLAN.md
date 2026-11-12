@@ -1,5 +1,14 @@
 # KANDAKA WORKPLAN
 
+## 12 November 2026 — Broader cinema text accepted; cover selection pending
+
+Owner reviewed the full English/Arabic cinema reader and replied: “The text looks good. Let's choose a cover for both versions—show me some suitable options.” Record acceptance of the reviewed bilingual text; cover selection is the next step. This does not authorize immediate publication. Preserve both draft:true flags, no release date, and reviewed text.
+
+Cover shortlist for the SAME image in both editions: (1) British Council Sudan, Sudanese European Film Festival drive-in, 3 March 2021, Commons File:Cars at the Sudanese European Film Festival.jpg, CC BY-SA 4.0; (2) Neon Marketing Solutions via British Council Sudan, aerial drive-in festival photograph, 4 March 2021, Commons File:Drone image of cars at the Sudanese European Film Festival.jpg, CC BY-SA 4.0; (3) archival Tajouje crew photograph, Commons File:Film crew of Tajouje.jpg, uncertain creator/date. Commons applies PD-Sudan-Photo but this is a visual candidate only, NOT independently cleared for publication; verify original provenance and applicable rights before use. Preserve the article's conflicting Tajouj dates; do not infer an exact shoot year from this file.
+
+Recommended editorial direction: option 1 connects most directly to the article's audience/exhibition thesis; option 2 is an alternative composition from the same festival. No cover selected, downloaded to site assets, altered or deployed. Final chosen image needs exact bilingual caption/alt, credit, date, source/licence and owner selection. Historical photographs must not imply current venue availability.
+
+
 ## 11 November 2026 — Broader Sudanese cinema history: bilingual review drafts
 
 **Status: USER REVIEW / DRAFT READY; NOT APPROVED FOR PUBLICATION.** Owner explicitly instructed: “Go ahead with the broader Sudanese cinema article. Finish the research checks and draft it in English and Arabic for review, following the workplan.” This authorizes the broader C26-01 prose and translation, superseding its earlier no-drafting boundary. It does not authorize publication, cover reuse or original film reviews.
