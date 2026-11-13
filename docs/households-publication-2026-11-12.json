@@ -1,0 +1,40 @@
+{
+  "release_commit": "067180c4d024e091d6442f666408d2c384980a45",
+  "netlify_deploy_id": "6af68cd00062e7433ccb2cfa",
+  "state": "ready",
+  "error": null,
+  "published_at_utc": "2026-11-13T04:07:37.156Z",
+  "published_at_chicago": "2026-11-12T22:07:37.156-06:00",
+  "normal_local_build": {
+    "exit_code": 0,
+    "duration_ms": 892368,
+    "english_pages": 1243,
+    "arabic_pages": 3793,
+    "warning": "existing Site.Data deprecation"
+  },
+  "cover_audit_markdown_files": 4215,
+  "live_validation": {
+    "en": {
+      "sections": 4,
+      "cover_count": 1,
+      "body_characters": 6118,
+      "approved_text_preserved": true,
+      "rtl": false,
+      "listed": true,
+      "http_status": 200,
+      "live_body_matches": true
+    },
+    "ar": {
+      "sections": 4,
+      "cover_count": 1,
+      "body_characters": 4834,
+      "approved_text_preserved": true,
+      "rtl": true,
+      "listed": true,
+      "http_status": 200,
+      "live_body_matches": true
+    },
+    "live_cover_sha256": "d340d2d9498014084f33a4a48b0a43e0eec2aaae3f0daeff31f0f9f760a3cd9e",
+    "checked_at_utc": "2026-11-13T04:07:50.030441+00:00"
+  }
+}

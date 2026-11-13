@@ -1,5 +1,18 @@
 # KANDAKA WORKPLAN
 
+## 12 November 2026 — When a House Changes PUBLISHED AND VERIFIED
+
+Owner-approved revised English/Arabic texts and exact option-1 cover are live. Release 067180c4d024e091d6442f666408d2c384980a45; matching Netlify production 6af68cd00062e7433ccb2cfa ready, no error. Actual publication **12 November 2026 22:07:37.156 America/Chicago (CST) / 13 November 04:07:37.156 UTC**. Independent verification 04:07:50.030441 UTC / 22:07:50.030441 CST.
+
+English https://kandaka.com/history/when-a-house-changes-sudan/ ; Arabic https://kandaka.com/ar/history/when-a-house-changes-sudan/ . Complete live bodies match checked output (6118 EN / 4834 AR normalized characters including image credit; rotating bookstore promotion excluded). Four corresponding sections, one cover each, Arabic RTL, reciprocal translation links and both History listings verified. Approved substantive prose and source URLs unchanged; review markers/H1 removed, localized credit added.
+
+Exact complete reviewed U192 photograph figure 4 at Old Dongola, Agata Deptuła, Nasreldein et al. 2025, CC BY 4.0; no crop or generated image. Both captions distinguish Old Dongola cover from Amara West opening. Live image SHA256 d340d2d9498014084f33a4a48b0a43e0eec2aaae3f0daeff31f0f9f760a3cd9e matches approved source. Four primary article sources HTTP 200. Normal local Hugo build passed (892368 ms, 1243 EN / 3793 AR; existing deprecation warning); it finished after Git push but before successful hosted publication. Hosted production build succeeded, deploy time 55 seconds. 4215-file cover audit and scoped five-file release diff checks passed.
+
+Evidence docs/households-release-2026-11-12.md and docs/households-publication-2026-11-12.json. Revised review originals retained. Earlier review-only entries superseded for this pair only. No other draft approval, standing schedule, automation, Library/R2, synced source or unrelated canonical dirty edit changed.
+
+نُشر «حين يتغيّر البيت» باللغتين مع الخيار الأول كاملاً دون قصّ. تحقّق تطابق النصين والغلاف واعتماد المصورة والمصدر والترخيص واتجاه العربية وروابط الترجمة وظهور المقالين في قسم التاريخ. النشر الفعلي في 12 نوفمبر الساعة 10:07:37 مساءً بتوقيت شيكاغو الشتوي.
+
+
 ## 12 November 2026 — When a House Changes APPROVED for bilingual publication
 
 Owner explicitly approved the revised English and Arabic texts and option 1 for both versions, requesting final checks and publication. Approval applies to this article pair and the exact complete reviewed U192 photograph figure only. Stem when-a-house-changes-sudan, category History / التاريخ. Preserve all revised prose and source URLs, including uncertainty about occupants, motives, household relationships and later seed planting. Remove review markers and H1 only; add localized image credit. Direct publication instruction applies to this release only; no standing cadence or other approval is changed. Preparation 2026-11-13T03:50:39.517996+00:00, actual publication to be recorded separately.
