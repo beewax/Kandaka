@@ -1,5 +1,14 @@
 # KANDAKA WORKPLAN
 
+## 12 November 2026 — Golden Sparrow and Sea Cow individually approved for bilingual publication
+
+Owner reviewed full latest 11 November English/Arabic manuscripts and exact bird cover, then explicitly instructed: “The text and cover look good. Go ahead with the final checks and publish A Golden Sparrow and a Sea Cow in English and Arabic.” Approval applies to this pair and exact image only. Stem sudan-wild-neighbours-golden-sparrow-dugong, Ideas / أفكار with nature tag, following P06 category. Preserve reviewed prose, source links and source-date/current-abundance limitations. Remove only review labels/H1 and move inline image to cover metadata to avoid duplication. Metadata preparation 2026-11-13T03:17:21.993390+00:00; actual deployment/live verification recorded separately. Direct instruction to publish applies to this release only, not standing cadence or other draft approvals.
+
+Cover Christiaan Kooyman, male Passer luteus near Aiterba, Red Sea State, 10 March 2007, Commons File:Passer luteus Red Sea Sudan.jpg, CC BY-SA 3.0. Exact reviewed JPEG SHA256 8a290caa58aa57519df74b54898e55eecd1d8d81cd85341867c0a8d623d6cf64, unchanged; retain localized attribution/licence/date and not-current-abundance disclosure. Keep Khor Abu Habil 2010–2020 observation scope, World Heritage versus Tentative List distinction and species-level dugong facts separate from current local census. No fieldwork, travel safety or fresh population survey claim. Household-history manuscript remains USER REVIEW, not approved.
+
+اعتمد المستخدم مقال العصفور الذهبي وعروس البحر باللغتين وغلافه المعروض وطلب الفحص النهائي والنشر. تُحفظ حدود المصادر وتواريخ الرصد واعتماد الصورة وترخيصها، دون اعتماد مسودة تاريخ البيوت.
+
+
 ## 12 November 2026 — Beyond the Pyramids PUBLISHED AND VERIFIED
 
 Owner-approved English and Arabic texts and exact reviewed Old Dongola figure 7 cover are live. Release commit 09dba18dd976b8f3ec7ae82ecf90c38a73d743a7; matching Netlify production 6af654979d2db0fa3f44d73e, ready, no error. Actual publication **12 November 2026 18:07:43.211 America/Chicago (CST) / 13 November 00:07:43.211 UTC**. Independent verification 00:08:06.112696 UTC / 18:08:06.112696 CST. English https://kandaka.com/history/beyond-the-pyramids-sudan-archaeology/ ; Arabic https://kandaka.com/ar/history/beyond-the-pyramids-sudan-archaeology/ .
