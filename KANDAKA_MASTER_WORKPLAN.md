@@ -1,5 +1,14 @@
 # KANDAKA WORKPLAN
 
+## 12 November 2026 — When a House Changes APPROVED for bilingual publication
+
+Owner explicitly approved the revised English and Arabic texts and option 1 for both versions, requesting final checks and publication. Approval applies to this article pair and the exact complete reviewed U192 photograph figure only. Stem when-a-house-changes-sudan, category History / التاريخ. Preserve all revised prose and source URLs, including uncertainty about occupants, motives, household relationships and later seed planting. Remove review markers and H1 only; add localized image credit. Direct publication instruction applies to this release only; no standing cadence or other approval is changed. Preparation 2026-11-13T03:50:39.517996+00:00, actual publication to be recorded separately.
+
+Cover: complete unmodified figure 4, Nasreldein et al. 2025, U192 at Old Dongola, photo Agata Deptuła, CC BY 4.0. Exact option-1 URL https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs10437-025-09622-y/MediaObjects/10437_2025_9622_Fig4_HTML.jpg ; SHA256 d340d2d9498014084f33a4a48b0a43e0eec2aaae3f0daeff31f0f9f760a3cd9e. No crop or generated imagery. The cover depicts Old Dongola, not Amara West; disclose this in both captions. Attribution/source/licence and figure-credit exclusion check passed against primary paper. Original revised review copies preserved. Earlier review-only entry superseded for this pair.
+
+اعتمد المستخدم النص المنقح باللغتين والخيار الأول للغلاف وطلب الفحص النهائي والنشر. تُستخدم الصورة الكاملة دون قصّ، مع اعتماد المصورة والمصدر والترخيص وتوضيح أنها من دنقلا القديمة.
+
+
 ## 12 November 2026 — When a House Changes REVISED FOR USER REVIEW
 
 Owner authorized the recommended revisions in both languages and requested cover options. Adopted direction: open with Amara West house E13.3 becoming E13.3-N/S; centre household adaptation, entrances, movement, work and storage across Amara West, Soba, Old Dongola and Hamadab. Shorten the overlapping Old Dongola radish-seed discussion to distinguish this article from published Beyond the Pyramids. Preserve uncertainty about occupants, motives, family structure and subsequent seed planting; no timeless Sudanese household claim.
