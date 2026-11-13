@@ -41,4 +41,3 @@ The Soba team reports that discussions with residents raised the idea of a museu
 Change is part of what makes these houses historical evidence. A grinding stone helps us recognise a task. A moved installation, a divided house or a new entrance asks what happened when an existing arrangement no longer served in the same way. Sometimes the reason will remain beyond reach. The change itself can still be part of history.
 
 Return to the house at Amara West. The later plan shows two dwellings; the sequence shows that somebody made them so. Sudan’s domestic past includes that work of adaptation, alongside the decisions to build something new. A home was not finished simply because its first walls were standing.
-
