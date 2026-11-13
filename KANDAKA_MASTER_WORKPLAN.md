@@ -1,5 +1,14 @@
 # KANDAKA WORKPLAN
 
+## 12 November 2026 — Beyond the Pyramids individually approved for bilingual publication
+
+Owner reviewed the full latest 11 November English/Arabic pair with the Old Dongola figure 7 cover and explicitly instructed final checks and publication: “The text and cover look good. Go ahead with the final checks and publish Beyond the Pyramids in English and Arabic.” Approval applies only to this pair and exact cover. Article: beyond-the-pyramids-sudan-archaeology, History / التاريخ. Remove review-only markers and move the reviewed inline cover to standard cover metadata to avoid duplication; preserve all substantive text and image credit/source/licence. Shared preparation date 2026-11-12T23:59:05.988195+00:00, not actual deployment time. Direct instruction to publish this pair applies to this release; standing schedules and other draft approvals unchanged.
+
+Cover: Lorenzo de Lellis, quern emplacement F1417 and grinding stones FN912 inside U235, Old Dongola; figure 7, Nasreldein et al. 2025, DOI10.1007/s10437-025-09622-y. Publisher CC BY 4.0 includes images unless separately excluded; figure credit names L. de Lellis without an exclusion. Exact reviewed JPEG SHA256 4c7afc5a2d2d440b1bf6ba027487f1626103becaf474398b465aeaba1942dee8, unchanged original composite, no crop/AI. Findings limited to two domestic contexts; no claims of universal diet, certain ethnic identity from pottery, or invented household voices. Wildlife and household-history drafts remain USER REVIEW. Actual publication/live verification to be recorded separately.
+
+اعتمد المستخدم نصي «ما وراء الأهرامات» والغلاف المعروض وطلب الفحص النهائي والنشر باللغتين. يُحفظ النص الموضوعي واعتماد الصورة وترخيصها وحدود المصادر، دون اعتماد المسودات الأخرى.
+
+
 ## 12 November 2026 — Broader Sudanese cinema history PUBLISHED AND VERIFIED
 
 Owner-approved English and Arabic article and exact option 1 cover are live. Release commit f9332848dfa118c44fb357ec848250a35aabb95e; matching Netlify deployment 6af64feecf3e4b8bc2881cac, ready, no error. Actual publication **12 November 2026 17:47:54.687 America/Chicago (CST) / 23:47:54.687 UTC**. Independent verification completed 23:48:17.114 UTC / 17:48:17.114 CST. English https://kandaka.com/culture/sudanese-cinema-history/ ; Arabic https://kandaka.com/ar/culture/sudanese-cinema-history/ .
