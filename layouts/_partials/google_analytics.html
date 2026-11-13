@@ -1,0 +1,45 @@
+{{- /*
+  Overrides Hugo's built-in Google Analytics snippet (November 2026).
+
+  Why: a Nov 2026 GA4 review found that more than half of Kandaka's reported users
+  were automated. Singapore and China sent ~45% of October users with almost no engaged
+  sessions, and an Oct 10 burst of ~86 headless-Chrome "users" each landed on a different
+  deep page with zero engagement. Netlify firewall rules (geo/IP blocking) are
+  Enterprise-only, so instead of blocking anyone, this simply does NOT load GA for:
+    1. automated browsers  - navigator.webdriver is true (Puppeteer, Playwright,
+       Selenium) or the user agent says HeadlessChrome;
+    2. visitors whose browser time zone is Singapore or mainland China.
+  Everyone can still read the site, and search crawlers are unaffected. Visitors
+  referred by AI tools (chatgpt.com etc.) use normal browsers and are still counted.
+  The Do Not Track behaviour of Hugo's original snippet is kept.
+
+  To undo: delete this file and Hugo falls back to its built-in snippet.
+  To change the excluded time zones: edit the `skipTz` list below.
+*/ -}}
+{{- if not site.Config.Privacy.GoogleAnalytics.Disable }}
+{{- with site.Config.Services.GoogleAnalytics.ID }}
+<script>
+(function () {
+  var id = "{{ . }}";
+  var nav = window.navigator || {};
+  var dnt = nav.doNotTrack || window.doNotTrack || nav.msDoNotTrack;
+  if (dnt == "1" || dnt == "yes") return;
+  if (nav.webdriver === true) return;
+  if (/HeadlessChrome/i.test(nav.userAgent || "")) return;
+  var skipTz = ["Asia/Singapore", "Singapore", "Asia/Shanghai", "PRC", "Asia/Chongqing", "Asia/Chungking", "Asia/Harbin", "Asia/Urumqi"];
+  try {
+    var tz = Intl.DateTimeFormat().resolvedOptions().timeZone || "";
+    if (skipTz.indexOf(tz) !== -1) return;
+  } catch (e) {}
+  var s = document.createElement("script");
+  s.async = true;
+  s.src = "https://www.googletagmanager.com/gtag/js?id=" + id;
+  document.head.appendChild(s);
+  window.dataLayer = window.dataLayer || [];
+  window.gtag = function () { window.dataLayer.push(arguments); };
+  window.gtag("js", new Date());
+  window.gtag("config", id);
+})();
+</script>
+{{- end }}
+{{- end }}
