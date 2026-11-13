@@ -1,5 +1,17 @@
 # KANDAKA WORKPLAN
 
+## 12 November 2026 — Beyond the Pyramids PUBLISHED AND VERIFIED
+
+Owner-approved English and Arabic texts and exact reviewed Old Dongola figure 7 cover are live. Release commit 09dba18dd976b8f3ec7ae82ecf90c38a73d743a7; matching Netlify production 6af654979d2db0fa3f44d73e, ready, no error. Actual publication **12 November 2026 18:07:43.211 America/Chicago (CST) / 13 November 00:07:43.211 UTC**. Independent verification 00:08:06.112696 UTC / 18:08:06.112696 CST. English https://kandaka.com/history/beyond-the-pyramids-sudan-archaeology/ ; Arabic https://kandaka.com/ar/history/beyond-the-pyramids-sudan-archaeology/ .
+
+Full live bodies exactly match checked production (6182 English / 4676 Arabic normalized characters, excluding rotating bookstore promotion), six sections each, Arabic RTL, reciprocal translations and matching History listings. Single exact cover per page; independently downloaded live JPEG SHA256 4c7afc5a2d2d440b1bf6ba027487f1626103becaf474398b465aeaba1942dee8 matches owner-reviewed file. Lorenzo de Lellis credit, publisher figure source and CC BY 4.0 retained in both languages. Full normal Hugo build passed 392249ms, 1229 EN / 3779 AR; 4211-file cover audit and scoped diff checks passed. Substantive reviewed text preserved; only review markers/H1 removed and cover moved to metadata to avoid duplication. Source access challenges remain documented, not counted as fresh readings.
+
+Evidence: docs/beyond-pyramids-release-2026-11-12.md and docs/beyond-pyramids-publication-2026-11-12.json. This supersedes review-only status for Beyond the Pyramids only. Wildlife and household-history manuscripts remain USER REVIEW with no publication approval/date. No standing schedule or other article changed; canonical dirty edits and synced sources preserved.
+
+نُشر «ما وراء الأهرامات» باللغتين مع صورة أدوات الطحن المعتمدة من دنقلا القديمة، وتحقق تطابق النصين والصورة والاعتمادات وظهورهما في قسم التاريخ. النشر الفعلي في 12 نوفمبر 2026 الساعة 6:07:43 مساءً بتوقيت شيكاغو الشتوي. تبقى مسودتا الطبيعة وتاريخ البيوت قيد المراجعة.
+
+
+
 ## 12 November 2026 — Beyond the Pyramids individually approved for bilingual publication
 
 Owner reviewed the full latest 11 November English/Arabic pair with the Old Dongola figure 7 cover and explicitly instructed final checks and publication: “The text and cover look good. Go ahead with the final checks and publish Beyond the Pyramids in English and Arabic.” Approval applies only to this pair and exact cover. Article: beyond-the-pyramids-sudan-archaeology, History / التاريخ. Remove review-only markers and move the reviewed inline cover to standard cover metadata to avoid duplication; preserve all substantive text and image credit/source/licence. Shared preparation date 2026-11-12T23:59:05.988195+00:00, not actual deployment time. Direct instruction to publish this pair applies to this release; standing schedules and other draft approvals unchanged.

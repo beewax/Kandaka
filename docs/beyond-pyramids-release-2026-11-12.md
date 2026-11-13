@@ -21,3 +21,6 @@ Arabic: https://kandaka.com/ar/history/beyond-the-pyramids-sudan-archaeology/
 
 ## Final local checks passed
 NormalHugo0.160.0productionbuildPASS392249ms:1229EN/3779ARpages; existingSite.Datadeprecationonly. Coveraudit4211MarkdownfilesPASS. Bothfullrenderedreviewedbodiespreserved,6sections,oneexactcover,matchedsourceURLs,reciprocaltranslationlinks,ArabicRTL,HistorylistingsPASS. Bodycharacters6182EN/4676AR(excludingrotatingbookpromotion). Verification2026-11-13T00:03:01.433010Z. ExactscopeddiffcheckPASS.
+
+## Verified live publication
+Release09dba18dd976b8f3ec7ae82ecf90c38a73d743a7, exactNetlify6af654979d2db0fa3f44d73eREADY/noerror. Published2026-11-13T00:07:43.211Z/12November18:07:43.211CST. Independentlyverified2026-11-13T00:08:06.112696Z:bothHTTP200,completebodiesmatchcheckedbuild,6sectionseach,onecover,ArabicRTL,HistorylistingsandlivecoverhashPASS. Machine-readable receipt beyond-pyramids-publication-2026-11-12.json. No fresh browser/mobile visual claim. No unapproved draft/schedule changed.
