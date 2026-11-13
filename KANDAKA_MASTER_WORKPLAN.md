@@ -1,5 +1,18 @@
 # KANDAKA WORKPLAN
 
+## 12 November 2026 — When a House Changes REVISED FOR USER REVIEW
+
+Owner authorized the recommended revisions in both languages and requested cover options. Adopted direction: open with Amara West house E13.3 becoming E13.3-N/S; centre household adaptation, entrances, movement, work and storage across Amara West, Soba, Old Dongola and Hamadab. Shorten the overlapping Old Dongola radish-seed discussion to distinguish this article from published Beyond the Pyramids. Preserve uncertainty about occupants, motives, family structure and subsequent seed planting; no timeless Sudanese household claim.
+
+Full revised manuscripts: docs/households-review-2026-11-12.en.md and docs/households-review-2026-11-12.ar.md. Original 11 November local manuscripts preserved. Local full bilingual reader: http://127.0.0.1:8872/households-revised.html (English/Arabic/covers). Four sections in each edition, matching source-link sequence, Arabic RTL and reader HTTP 200 checked. Amara West opening checked against Spencer 2012, printed p.22; no invented motive or testimony.
+
+Cover shortlist, NOT selected: (1) Old Dongola U192 excavation views, A. Deptuła, Nasreldein et al. 2025 figure 4; (2) Old Dongola compound U213/215/228/229/235/245 plan, A. Wujec and A. Chlebowski, same paper figure 5. Source https://doi.org/10.1007/s10437-025-09622-y ; both included under the paper's CC BY 4.0 terms, no separate exclusion in figure credits. Preserve credit/source/licence; disclose any crop. Both depict Old Dongola, not Amara West. Full figures shown for review; any final cover crop still requires owner review. Prefer option 1 for a photographic cover or option 2 for architectural emphasis.
+
+STATUS: USER REVIEW ONLY. No text/cover publication approval, release date or schedule change. No site content or automation changed.
+
+نُقّح النصان بإذن المستخدم: يبدأ المقال بتقسيم بيت عمارة غرب، ويركز على تكييف الحيّز والمداخل والعمل والتخزين، مع تقليص تكرار مثال بذور دنقلا. يبقى النص والغلاف قيد المراجعة، ولا يوجد إذن بالنشر.
+
+
 ## 12 November 2026 — Golden Sparrow and Sea Cow PUBLISHED AND VERIFIED
 
 Owner-approved full English/Arabic article and exact reviewed Sudan golden sparrow cover are live. Release commit 19d7e4a7438a26a2669227d430c14e0e2154944f; matching successful Netlify production 6af68277d041a929896752c4, ready, no error. Actual publication **12 November 2026 21:23:36.199 America/Chicago (CST) / 13 November 03:23:36.199 UTC**. Independent verification 03:23:56.321383 UTC / 21:23:56.321383 CST. English https://kandaka.com/ideas/sudan-wild-neighbours-golden-sparrow-dugong/ ; Arabic https://kandaka.com/ar/ideas/sudan-wild-neighbours-golden-sparrow-dugong/ .
