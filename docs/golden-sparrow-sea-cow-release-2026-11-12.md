@@ -13,3 +13,6 @@ Arabic: https://kandaka.com/ar/ideas/sudan-wild-neighbours-golden-sparrow-dugong
 
 ## Final local validation passed
 NormalHugo0.160.0productionbuildPASS237973ms:1238EN/3788ARpages; existingSite.Datadeprecationonly.4213MarkdowncoverauditPASS. Both3-sectionfullreviewedbodiespreserved,matchedsourceURLs,singleexactcover,ArabicRTL,reciprocaltranslations,IdeaslistingsPASS. Normalizedbody4147EN/3355ARcharacters(excludingrotatingbookpromotion). Renderverification2026-11-13T03:19:43.292156Z. Scoped5-filediffcheckPASS.
+
+## Verified live
+Release19d7e4a7438a26a2669227d430c14e0e2154944f;matchingNetlify6af68277d041a929896752c4READY/noerror. Published2026-11-13T03:23:36.199Z/12November21:23:36.199CST. Independentverification03:23:56.321383Z:bothHTTP200,completebodiesmatchcheckedproduction,3sections,1exactcovereach,ArabicRTL/translation/IdeaslistingsPASS;liveimageSHA8a290caa58aa57519df74b54898e55eecd1d8d81cd85341867c0a8d623d6cf64matchesoriginal. Machine-readable receipt golden-sparrow-sea-cow-publication-2026-11-12.json. No fresh browser/mobile visual claim. HouseholdhistoryremainsUSERREVIEW.

@@ -1,5 +1,17 @@
 # KANDAKA WORKPLAN
 
+## 12 November 2026 — Golden Sparrow and Sea Cow PUBLISHED AND VERIFIED
+
+Owner-approved full English/Arabic article and exact reviewed Sudan golden sparrow cover are live. Release commit 19d7e4a7438a26a2669227d430c14e0e2154944f; matching successful Netlify production 6af68277d041a929896752c4, ready, no error. Actual publication **12 November 2026 21:23:36.199 America/Chicago (CST) / 13 November 03:23:36.199 UTC**. Independent verification 03:23:56.321383 UTC / 21:23:56.321383 CST. English https://kandaka.com/ideas/sudan-wild-neighbours-golden-sparrow-dugong/ ; Arabic https://kandaka.com/ar/ideas/sudan-wild-neighbours-golden-sparrow-dugong/ .
+
+Complete live texts match checked production (4147 EN / 3355 AR normalized editorial characters, excluding rotating bookstore promotion); three sections each, Arabic RTL, reciprocal translation links and both Ideas listings verified. Single exact approved image per page; live original JPEG SHA256 8a290caa58aa57519df74b54898e55eecd1d8d81cd85341867c0a8d623d6cf64 matches reviewed source. Christiaan Kooyman, Aiterba/Red Sea State, 10 March 2007, CC BY-SA 3.0 and historical-abundance disclosure retained in both editions. Reviewed substantive text/source URLs unchanged; only review markers/H1 removed and inline cover moved to metadata. Normal Hugo production passed 237973ms, 1238 EN / 3788 AR; 4213-file cover audit, rendered parity and scoped diff checks passed.
+
+Evidence: docs/golden-sparrow-sea-cow-release-2026-11-12.md and docs/golden-sparrow-sea-cow-publication-2026-11-12.json. This supersedes review-only status for this pair only. Household-history manuscript remains USER REVIEW, with no publication approval or date. No standing automation, other article, Library/R2 or synced source changed; canonical dirty edits preserved.
+
+نُشر «عصفور ذهبي وعروس بحر» باللغتين مع الصورة المعتمدة وتحقّق تطابق النصين والغلاف واعتماداته وظهورهما في قسم الأفكار. النشر الفعلي في 12 نوفمبر 2026 الساعة 9:23:36 مساءً بتوقيت شيكاغو الشتوي. تبقى مسودة تاريخ البيوت قيد المراجعة.
+
+
+
 ## 12 November 2026 — Golden Sparrow and Sea Cow individually approved for bilingual publication
 
 Owner reviewed full latest 11 November English/Arabic manuscripts and exact bird cover, then explicitly instructed: “The text and cover look good. Go ahead with the final checks and publish A Golden Sparrow and a Sea Cow in English and Arabic.” Approval applies to this pair and exact image only. Stem sudan-wild-neighbours-golden-sparrow-dugong, Ideas / أفكار with nature tag, following P06 category. Preserve reviewed prose, source links and source-date/current-abundance limitations. Remove only review labels/H1 and move inline image to cover metadata to avoid duplication. Metadata preparation 2026-11-13T03:17:21.993390+00:00; actual deployment/live verification recorded separately. Direct instruction to publish applies to this release only, not standing cadence or other draft approvals.

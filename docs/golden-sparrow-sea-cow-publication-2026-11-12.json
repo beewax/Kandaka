@@ -1,0 +1,27 @@
+{
+  "en": {
+    "sections": 3,
+    "cover_count": 1,
+    "body_characters": 4147,
+    "approved_text_preserved": true,
+    "rtl": false,
+    "listed": true,
+    "http_status": 200,
+    "live_body_matches": true
+  },
+  "ar": {
+    "sections": 3,
+    "cover_count": 1,
+    "body_characters": 3355,
+    "approved_text_preserved": true,
+    "rtl": true,
+    "listed": true,
+    "http_status": 200,
+    "live_body_matches": true
+  },
+  "live_cover_sha256": "8a290caa58aa57519df74b54898e55eecd1d8d81cd85341867c0a8d623d6cf64",
+  "checked_at_utc": "2026-11-12T21:23:56.321383-06:00",
+  "release_commit": "19d7e4a7438a26a2669227d430c14e0e2154944f",
+  "deployment_id": "6af68277d041a929896752c4",
+  "published_at_utc": "2026-11-13T03:23:36.199Z"
+}
