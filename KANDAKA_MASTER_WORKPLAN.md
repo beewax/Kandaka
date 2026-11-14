@@ -2206,3 +2206,10 @@ For the existing C26-01 cinema sources (RSR-156–172 and relevant earlier insti
 ## 11 November 2026 - Economic reform cover approved
 
 Owner approved the fresh Leonardo infrastructure illustration after reviewing it, superseding the rejected people-focused drafts. Apply exactly this image to both language editions of Sudan's First Year: Which Economic Reforms Must Come First?, with localized alt text and an AI-generated conceptual-illustration disclosure. Article prose and original publication date remain unchanged. Homepage latest-article and featured-carousel images inherit the same cover metadata. Scope excludes other articles and automation. Release evidence: docs/economic-reform-cover-2026-11-11.json.
+
+
+## 14 November 2026 — Weekly artwork additions verified live
+
+Hymns of Peace by Amel Bashier (2023) and In the Present by Ibrahim El-Salahi (1987) are published as complete bilingual source-only entries with links in both homepage editions. Catalogue now 17, nine illustrated and eight source-only. Release bcb49bdd2e71502abf23178a3b7cf0867df72708, Netlify 6af887c9392d9b942ebba5d2, actual publication 16:10:50.140 UTC, independent verification 16:11:04.199905 UTC. Evidence docs/artwork-weekly-2026-11-14.md. No article/photo/Library/schedule changes.
+
+نُشرت «ترانيم السلام» لأمل بشير و«في الحاضر» لإبراهيم الصلحي كنصوص عربية وإنجليزية وروابط للمصدر، وتحقّق ظهورهما في المعرض والصفحة الرئيسية.

@@ -609,3 +609,10 @@ These changes are approved or requested but must be implemented and tested in th
 Two bilingual source-linked works prepared, Hymns of Peace by Amel Bashier and In the Present by Ibrahim El-Salahi. Total 17 records, nine illustrated and eight source only. Build and live verification pending. Evidence docs/artwork-weekly-2026-11-14.md.
 
 عملان جديدان بنصوص عربية وإنجليزية وروابط المصدر، قيد فحص النشر.
+
+
+Verified publication on 14 November 2026. Release commit bcb49bdd2e71502abf23178a3b7cf0867df72708 matches ready Netlify deploy 6af887c9392d9b942ebba5d2, no error. Actual publication 2026-11-14T16:10:50.140Z (10:10:50.140 CST). Independent live checks completed 2026-11-14T16:11:04.199905Z.
+Both galleries contain complete localized additions in Explore at the source. Both homepages show their localized titles and artist names with direct collection links. Existing nine illustrated records pass image URL, localized alt, body, credit and rights checks. Arabic RTL and weekly notices pass.
+Live galleries https://kandaka.com/images/ and https://kandaka.com/ar/images/ ; homepages https://kandaka.com/ and https://kandaka.com/ar/ . Validation used rendered HTML, not a browser pixel-layout audit. No new images were reproduced. Local evidence tmp/artwork-2026-11-14-local.json and tmp/artwork-2026-11-14-live.json retained outside repository. This verified state supersedes the preparation-only statements above.
+
+نُشرت الإضافتان وتحقّق ظهورهما بالعربية والإنجليزية في قسم استكشاف الأعمال في مصادرها، مع روابطهما في الصفحة الرئيسية، في 14 نوفمبر الساعة 10:10 صباحاً بتوقيت شيكاغو. الصور معروضة في صفحات مؤسسة بارجيل.
