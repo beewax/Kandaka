@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-14T05:17:24.957830+00:00",
+  "updated": "2026-11-14T13:04:42.741130+00:00",
   "sources": [
     {
       "id": "dabanga-en",
       "language": "en",
-      "status": "ok",
-      "items": 12,
-      "accepted": 8
+      "status": "fetch_failed",
+      "items": 0,
+      "accepted": 0
     },
     {
       "id": "sudan-tribune-ar",
@@ -26,7 +26,7 @@
       "id": "bbc-africa",
       "language": "en",
       "status": "ok",
-      "items": 32,
+      "items": 29,
       "accepted": 3
     },
     {
@@ -67,9 +67,9 @@
     {
       "id": "dabanga-ar",
       "language": "ar",
-      "status": "ok",
-      "items": 12,
-      "accepted": 8
+      "status": "fetch_failed",
+      "items": 0,
+      "accepted": 0
     },
     {
       "id": "bbc-ar",
@@ -89,7 +89,7 @@
       "id": "alaraby-ar",
       "language": "ar",
       "status": "ok",
-      "items": 161,
+      "items": 164,
       "accepted": 6
     },
     {
@@ -153,7 +153,7 @@
       "language": "en",
       "status": "ok",
       "items": 12,
-      "accepted": 4
+      "accepted": 2
     },
     {
       "id": "tamazuj-ar",
