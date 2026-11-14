@@ -602,3 +602,10 @@ These changes are approved or requested but must be implemented and tested in th
 - **2026-09-19:** Published B15, *Karanog and Dongola's Throne Hall: Two Monuments, One Nubian History*, in English and Arabic through [PR #9](https://github.com/beewax/Kandaka/pull/9). Applied the academic audit and verified both live pages, History listings, 21 source notes per language, all eight active images, reciprocal language links and sharing metadata. The inaccurate architectural cutaway remains withheld.
 - **2026-09-19:** Published A09, *How Can You Actually Help Sudan?*, in complete English and Arabic editions. Rechecked every included organization and official donation route, replaced permanent trust labels with dated evidence levels, distinguished delivery inside Sudan from regional refugee support and unrestricted global giving, disclosed audit and access limits, and added an original privacy-conscious accountability illustration.
 - **2026-09-22:** Published and live-verified A10, *Women, Children and Security: Does Sudan Need a Specialized Protection Police Service?*, in complete English and Arabic editions. Refreshed the evidence on continued Family and Child Protection Unit activity, conflict-related sexual violence and current services; distinguished a specialized police service from the complete survivor-protection system it must sit within; required independent complaint routes when state or security personnel are accused; and added an original survivor-safe cover. This completes the authorized A05-A10 staggered publication sequence.
+
+
+## 14 November 2026 weekly artwork review
+
+Two bilingual source-linked works prepared, Hymns of Peace by Amel Bashier and In the Present by Ibrahim El-Salahi. Total 17 records, nine illustrated and eight source only. Build and live verification pending. Evidence docs/artwork-weekly-2026-11-14.md.
+
+عملان جديدان بنصوص عربية وإنجليزية وروابط المصدر، قيد فحص النشر.
