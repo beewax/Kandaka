@@ -2213,3 +2213,10 @@ Owner approved the fresh Leonardo infrastructure illustration after reviewing it
 Hymns of Peace by Amel Bashier (2023) and In the Present by Ibrahim El-Salahi (1987) are published as complete bilingual source-only entries with links in both homepage editions. Catalogue now 17, nine illustrated and eight source-only. Release bcb49bdd2e71502abf23178a3b7cf0867df72708, Netlify 6af887c9392d9b942ebba5d2, actual publication 16:10:50.140 UTC, independent verification 16:11:04.199905 UTC. Evidence docs/artwork-weekly-2026-11-14.md. No article/photo/Library/schedule changes.
 
 نُشرت «ترانيم السلام» لأمل بشير و«في الحاضر» لإبراهيم الصلحي كنصوص عربية وإنجليزية وروابط للمصدر، وتحقّق ظهورهما في المعرض والصفحة الرئيسية.
+
+
+## 14 November 2026 — Weekly bilingual photos verified live
+
+Two reviewed pairs published, Kerma Museum city model photographed by Matthias Gehricke on 27 December 2018, and Grand Hotel Khartoum pool courtyard credited to Grandhotelsudan with unknown capture date and confirmed 26 March 2023 upload. Original images, complete bilingual captions, alt, attribution and CC BY-SA 4.0 links verified. Release d231c97809ef86aa82673e177176e03bb35c8f78, matching ready Netlify 6af88ef96cd19ca6ed9ae835, actual 16:41:29.134 UTC, verified 16:41:40.872335 UTC. Evidence docs/photo-weekly-2026-11-14.md. Four candidates reviewed; Kordofan location still unresolved, Second Line Scene explicitly New Orleans and excluded. Article, artwork, Library and automation state unchanged.
+
+نُشرت صورتا مجسّم كرمة وفناء الفندق باللغتين، مع بيان عدم تأكد تاريخ التقاط صورة الفندق. بقيت باخرة كردفان قيد التحقق، ومشهد الموكب من نيو أورلينز خارج نطاق صور السودان.

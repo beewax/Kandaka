@@ -616,3 +616,10 @@ Both galleries contain complete localized additions in Explore at the source. Bo
 Live galleries https://kandaka.com/images/ and https://kandaka.com/ar/images/ ; homepages https://kandaka.com/ and https://kandaka.com/ar/ . Validation used rendered HTML, not a browser pixel-layout audit. No new images were reproduced. Local evidence tmp/artwork-2026-11-14-local.json and tmp/artwork-2026-11-14-live.json retained outside repository. This verified state supersedes the preparation-only statements above.
 
 نُشرت الإضافتان وتحقّق ظهورهما بالعربية والإنجليزية في قسم استكشاف الأعمال في مصادرها، مع روابطهما في الصفحة الرئيسية، في 14 نوفمبر الساعة 10:10 صباحاً بتوقيت شيكاغو. الصور معروضة في صفحات مؤسسة بارجيل.
+
+
+## 14 November 2026 — Weekly bilingual photos verified live
+
+Two reviewed pairs published, Kerma Museum city model photographed by Matthias Gehricke on 27 December 2018, and Grand Hotel Khartoum pool courtyard credited to Grandhotelsudan with unknown capture date and confirmed 26 March 2023 upload. Original images, complete bilingual captions, alt, attribution and CC BY-SA 4.0 links verified. Release d231c97809ef86aa82673e177176e03bb35c8f78, matching ready Netlify 6af88ef96cd19ca6ed9ae835, actual 16:41:29.134 UTC, verified 16:41:40.872335 UTC. Evidence docs/photo-weekly-2026-11-14.md. Four candidates reviewed; Kordofan location still unresolved, Second Line Scene explicitly New Orleans and excluded. Article, artwork, Library and automation state unchanged.
+
+نُشرت صورتا مجسّم كرمة وفناء الفندق باللغتين، مع بيان عدم تأكد تاريخ التقاط صورة الفندق. بقيت باخرة كردفان قيد التحقق، ومشهد الموكب من نيو أورلينز خارج نطاق صور السودان.

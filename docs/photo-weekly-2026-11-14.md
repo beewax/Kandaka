@@ -21,3 +21,15 @@ Prepared locally at 2026-11-14T16:36:36.079152+00:00. Build/tests and independen
 فُحصت أربعة مرشحين. أُعدّت صورتا مجسّم متحف كرمة وفناء مسبح غراند هوتيل بالخرطوم بنصوص عربية وإنجليزية. تاريخ التقاط صورة الفندق غير مؤكّد؛ تاريخ الرفع الموثّق مذكور بوضوح. بقيت صورة باخرة كردفان محجوبة لتعارض بيانات الموقع، واستُبعد مشهد الموكب لأنه مصوّر في نيو أورلينز.
 
 Local validation passed. Normal Hugo 0.160.0 build completed in 164114 ms, 1253 EN and 3852 AR pages. Nine fetch tests and three photo rotation tests passed. Four generated detail pages contain full captions, titles, alt text, creator and source/licence links. Both galleries contain both pairs and their images; both homepages contain photo notices and links. Arabic RTL passed. Both exact original file SHA256 values match rendered assets. git diff check passed. Publication and live verification pending.
+
+
+## Verified release
+
+Release commit d231c97809ef86aa82673e177176e03bb35c8f78 matches Netlify 6af88ef96cd19ca6ed9ae835, ready with no error. Actual publication 2026-11-14T16:41:29.134Z / 10:41:29.134 CST. Independent live verification completed 2026-11-14T16:41:40.872335Z. All four detail pages, complete localized captions, source/licence links, Arabic direction and single original image passed. Both galleries list both reviewed additions. Both homepages preserve photo notices and links; weekly rotation was not forced. Both live originals match source SHA256 values. Local inspection evidence is in tmp/photo-review-20261114/verification-live.json. This supersedes the pending publication statements above.
+
+- Kerma model English https://kandaka.com/images/2026-11-14-image-1-e3ee9607/
+- العربية https://kandaka.com/ar/images/2026-11-14-image-1-e3ee9607/
+- Grand Hotel English https://kandaka.com/images/2026-11-13-image-1-5146a910/
+- العربية https://kandaka.com/ar/images/2026-11-13-image-1-5146a910/
+
+نُشرت الصورتان وتحقّق النصّان العربي والإنجليزي وملفا الصورتين وروابط المصادر والرخص. تاريخ صورة الفندق مجهول صراحةً وتاريخ الرفع موضّح. بقيت صورة باخرة كردفان قيد التحقق من موقعها، واستُبعد مشهد نيو أورلينز من تدفّق صور السودان.
