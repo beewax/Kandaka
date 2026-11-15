@@ -1,5 +1,5 @@
 ---
-title: '"من السويس إلى هرمز: ما الذي تغير فعلاً خلال سبعين عاماً؟" - مقال في اللإندبندنت'
+title: '"من السويس إلى هرمز: ما الذي تغير فعلاً خلال سبعين عاماً؟" - مقال في الإندبندنت'
 date: '2026-11-15T09:41:45Z'
 description: تناولت الصحف البريطانية والأمريكية أوجه التشابه بين أزمة السويس عام 1956
   والحرب الأمريكية على إيران، واستراتيجية الرئيس دونالد ترامب القائمة على مواصلة الضغط
@@ -14,7 +14,7 @@ geography:
 - National
 language: ar
 status: Reporting
-cluster_id: 84b1704ff15e
+cluster_id: bca76666f537
 corroboration_count: 1
 draft: false
 image: https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/7053/live/fb586980-e0d4-11f1-93e1-3b657b665bcf.jpg
