@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-15T18:33:40.742435+00:00",
+  "updated": "2026-11-16T00:47:52.129958+00:00",
   "window_days": 30,
   "en": {
     "balanced": [
@@ -4122,88 +4122,16 @@
   "ar": {
     "balanced": [
       {
-        "Title": "نزوح 7 الف في منطقة السنطة بسبب اشتباكات قبيلية في جنوب دارفور",
+        "Title": "ارتفاع أسعار الذرة والدقيق يفاقم مخاوف المجاعة في السودان",
         "Lang": "ar",
-        "Date": "2026-11-15T18:07:03+00:00",
-        "Permalink": "https://sudanwarmonitor.com/p/7-cff",
+        "Date": "2026-11-15T23:28:21+00:00",
+        "Permalink": "https://www.altaghyeer.info/ar/2026/11/16/%d8%a7%d8%b1%d8%aa%d9%81%d8%a7%d8%b9-%d8%a3%d8%b3%d8%b9%d8%a7%d8%b1-%d8%a7%d9%84%d8%b0%d8%b1%d8%a9-%d9%88%d8%a7%d9%84%d8%af%d9%82%d9%8a%d9%82-%d9%8a%d9%81%d8%a7%d9%82%d9%85-%d9%85%d8%ae%d8%a7%d9%88",
         "Params": {
-          "description": "سودان وور مونيتور : ولاية جنوب دارفور",
-          "source": "Sudan War Monitor",
-          "source_id": "sudan-war-monitor",
-          "source_class": "analysis",
-          "link": "https://sudanwarmonitor.com/p/7-cff",
-          "status": "Analysis",
-          "geography": [
-            "Darfur"
-          ],
-          "image": "https://substackcdn.com/image/fetch/$s_!zqfa!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2374a30e-eba9-4fca-a7fa-b1e6c01cd3ed_1563x1318.png",
-          "media_reuse_basis": "rss_metadata",
-          "related_sources": [],
-          "category": "Sudan News",
-          "clabel": "أخبار السودان",
-          "language": "ar",
-          "media_attribution": "Sudan War Monitor"
-        }
-      },
-      {
-        "Title": "السودان: دعوات لوقف الحرب والجيش يحرز تقدماً في ولاية غرب كردفان",
-        "Lang": "ar",
-        "Date": "2026-11-15T17:24:37+00:00",
-        "Permalink": "https://www.alaraby.co.uk/politics/%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86-%D8%AF%D8%B9%D9%88%D8%A7%D8%AA-%D9%84%D9%88%D9%82%D9%81-%D8%A7%D9%84%D8%AD%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%AC%D9%8A%D8%B4-%D9%8A%D8%AD%D8%B1%D8%B2-%D8%AA%D9%82%D8%AF%D9%85%D8%A7%D9%8B-%D9%81%D9%8A-%D9%88%D9%84%D8%A7%D9%8A%D8%A9-%D8%BA%D8%B1%D8%A8-%D9%83%D8%B1%D8%AF%D9%81%D8%A7%D9%86",
-        "Params": {
-          "description": "دعت خمس منظمات دولية وإقليمية إلى الوقف الفوري للأعمال العدائية في السودان، وإنهاء الدعم الخارجي الذي يغذي الحرب، مدينة الهجمات على المدنيين.",
-          "source": "العربي الجديد",
-          "source_id": "alaraby-ar",
-          "source_class": "regional_journalism",
-          "link": "https://www.alaraby.co.uk/politics/%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86-%D8%AF%D8%B9%D9%88%D8%A7%D8%AA-%D9%84%D9%88%D9%82%D9%81-%D8%A7%D9%84%D8%AD%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%AC%D9%8A%D8%B4-%D9%8A%D8%AD%D8%B1%D8%B2-%D8%AA%D9%82%D8%AF%D9%85%D8%A7%D9%8B-%D9%81%D9%8A-%D9%88%D9%84%D8%A7%D9%8A%D8%A9-%D8%BA%D8%B1%D8%A8-%D9%83%D8%B1%D8%AF%D9%81%D8%A7%D9%86",
-          "status": "Reporting",
-          "geography": [
-            "Kordofan"
-          ],
-          "image": "https://www.alaraby.co.uk/sites/default/files/styles/meduim_16_9/public/2297789071.jpeg?h=a5f2f23a&itok=yFPr3J55",
-          "media_reuse_basis": "rss_metadata",
-          "related_sources": [],
-          "category": "War & Security",
-          "clabel": "الحرب والأمن",
-          "language": "ar",
-          "media_attribution": "العربي الجديد"
-        }
-      },
-      {
-        "Title": "محمد عثمان الميرغني: شيخ الطريقة الذي اعتلى منبر السياسة ونادى بـ \"وحدة السودان أرضاً وشعباً\"",
-        "Lang": "ar",
-        "Date": "2026-11-15T16:51:56+00:00",
-        "Permalink": "https://www.bbc.com/arabic/articles/cmz74w51j9xzo?at_medium=RSS&at_campaign=rss",
-        "Params": {
-          "description": "أسرة الزعيم السوداني محمد عثمان الميرغني تقرر إقامة مراسم عزاء في القاهرة، حيث يتوقع أن يشهد حضوراً رسمياً وشعبياً واسعاً تقديراً لمكانته الدينية والسياسية، قبل نقل جثمانه إلى بلاده.",
-          "source": "بي بي سي عربي",
-          "source_id": "bbc-ar",
-          "source_class": "international_journalism",
-          "link": "https://www.bbc.com/arabic/articles/cmz74w51j9xzo?at_medium=RSS&at_campaign=rss",
-          "status": "Reporting",
-          "geography": [
-            "National"
-          ],
-          "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/0815/live/88458e40-e102-11f1-a701-fddedf244c16.jpg",
-          "media_reuse_basis": "rss_metadata",
-          "related_sources": [],
-          "category": "International",
-          "clabel": "دولي",
-          "language": "ar",
-          "media_attribution": "بي بي سي عربي"
-        }
-      },
-      {
-        "Title": "الصحة العالمية تحذر من نفاد علاج سوء التغذية في (91) مركزًا بخمس ولايات سودانية",
-        "Lang": "ar",
-        "Date": "2026-11-15T15:58:31+00:00",
-        "Permalink": "https://sudantribune.net/article/321244",
-        "Params": {
-          "description": "الخرطوم 15 نوفمبر 2026 – كشفت منظمة الصحة العالمية، الأحد، عن نفاد مخزون مستلزمات علاج سوء التغذية الحاد في 91 مركزًا للاستقرار العلاجي في 5 ولايات سودانية؛ مما يهدد استمرار الخدمات المنقذة لحياة الأطفال. وفي 2 نوفمبر الحالي، أفادت منظمة الأمم المتحدة للطفولة “يونيسف” بأن 49% من مسوحات التغذية التي أُجريت في السودان خلال عام 2026 تجاوزت عتبة الطوارئ التي حددتها منظمة الصحة العالمية عند 15%. وقالت منظمة الصحة العالمية",
-          "source": "Sudan Tribune Arabic",
-          "source_id": "sudan-tribune-ar",
+          "description": "حذرت تقارير سودانية من تفاقم أزمة الغذاء في البلاد، في ظل الارتفاع الحاد في أسعار المحاصيل والسلع الأساسية، بعدما تجاوز سعر أردب الذرة مليوني جنيه سوداني، وبلغ سعر جوال الدقيق 200 ألف جنيه، وسط مخاوف من انعكاسات هذه الزيادات على توفر الغذاء واستمرار عمل المخابز. الخرطوم ــ التغيير ونقل موقع “صحيح السودان” عن متعاملين …",
+          "source": "التغيير",
+          "source_id": "altaghyeer-ar",
           "source_class": "sudanese_journalism",
-          "link": "https://sudantribune.net/article/321244",
+          "link": "https://www.altaghyeer.info/ar/2026/11/16/%d8%a7%d8%b1%d8%aa%d9%81%d8%a7%d8%b9-%d8%a3%d8%b3%d8%b9%d8%a7%d8%b1-%d8%a7%d9%84%d8%b0%d8%b1%d8%a9-%d9%88%d8%a7%d9%84%d8%af%d9%82%d9%8a%d9%82-%d9%8a%d9%81%d8%a7%d9%82%d9%85-%d9%85%d8%ae%d8%a7%d9%88",
           "status": "Reporting",
           "geography": [
             "Khartoum"
@@ -4211,148 +4139,47 @@
           "image": "",
           "media_reuse_basis": "",
           "related_sources": [],
-          "category": "Health",
-          "clabel": "صحة",
-          "language": "ar",
-          "media_attribution": "Sudan Tribune Arabic"
-        }
-      },
-      {
-        "Title": "الخماسية تدين هجمات المسيّرات في السودان",
-        "Lang": "ar",
-        "Date": "2026-11-15T15:36:47+00:00",
-        "Permalink": "https://www.dabangasudan.org/ar/all-news/article/%d8%a7%d9%84%d8%ae%d9%85%d8%a7%d8%b3%d9%8a%d8%a9-%d8%aa%d8%af%d9%8a%d9%86-%d9%87%d8%ac%d9%85%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%b3%d9%8a%d9%91%d8%b1%d8%a7%d8%aa-%d9%81%d9%8a-%d8%a7%d9%84%d8%b3%d9%88",
-        "Params": {
-          "description": "أمستردام- 15 نوفمبر 2026-راديو دبنقا ​أعربت الآلية الخماسية، التي تضم الاتحاد الأفريقي ومنظمة “إيقاد” وجامعة... The post الخماسية تدين هجمات المسيّرات في السودان appeared first on Dabanga Radio TV Online .",
-          "source": "راديو دبنقا",
-          "source_id": "dabanga-ar",
-          "source_class": "sudanese_journalism",
-          "link": "https://www.dabangasudan.org/ar/all-news/article/%d8%a7%d9%84%d8%ae%d9%85%d8%a7%d8%b3%d9%8a%d8%a9-%d8%aa%d8%af%d9%8a%d9%86-%d9%87%d8%ac%d9%85%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%b3%d9%8a%d9%91%d8%b1%d8%a7%d8%aa-%d9%81%d9%8a-%d8%a7%d9%84%d8%b3%d9%88",
-          "status": "Reporting",
-          "geography": [
-            "National"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "Education",
-          "clabel": "تعليم",
-          "language": "ar",
-          "media_attribution": "راديو دبنقا"
-        }
-      },
-      {
-        "Title": "كيف يهدد سد النهضة الإثيوبي حياة ملايين السودانيين على ضفاف النيل؟",
-        "Lang": "ar",
-        "Date": "2026-11-15T09:52:39+00:00",
-        "Permalink": "https://3ayin.com/ethiopian-renaissance-dam-",
-        "Params": {
-          "description": "عاين- 15 نوفمبر 2026 على مسافة لا تتجاوز 115 كيلومتراً من سد النهضة الإثيوبي، يقف سد الروصيرص السوداني مواجهاً حقبة هيدرولوجية غير مسبوقة؛ فمع تدفق المياه وافتتاح سد النهضة الإثيوبي رسمياً في سبتمبر 2025، تبدلت قواعد اللعبة المائية في حوض النيل الأزرق بشكل جذري، ولم يعد تشغيل المنشآت المائية السودانية مجرد عملية هندسية روتينية تحكمها […]",
-          "source": "عاين",
-          "source_id": "ayin-ar",
-          "source_class": "sudanese_journalism",
-          "link": "https://3ayin.com/ethiopian-renaissance-dam-",
-          "status": "Reporting",
-          "geography": [
-            "Blue Nile"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "Sudan News",
-          "clabel": "أخبار السودان",
-          "language": "ar",
-          "media_attribution": "عاين"
-        }
-      },
-      {
-        "Title": "رحيل الفنان والباحث في التراث السوداني يحيى أدروب",
-        "Lang": "ar",
-        "Date": "2026-11-13T18:14:51+00:00",
-        "Permalink": "https://www.altaghyeer.info/ar/2026/11/13/%d8%b1%d8%ad%d9%8a%d9%84-%d8%a7%d9%84%d9%81%d9%86%d8%a7%d9%86-%d9%88%d8%a7%d9%84%d8%a8%d8%a7%d8%ad%d8%ab-%d9%81%d9%8a-%d8%a7%d9%84%d8%aa%d8%b1%d8%a7%d8%ab-%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86",
-        "Params": {
-          "description": "غيّب الموت الفنان والموسيقي والباحث في التراث السوداني، يحيى إبراهيم أحمد أدروب، أحد الأسماء التي أسهمت في التعريف بالموروث الموسيقي لشرق السودان، ولا سيما التراث البجاوي والأغنية البجاوية، في رحيل يمثل خسارة للمشهد الثقافي والفني السوداني. الخرطوم _ التغيير وُلد الراحل عام 1963 في قرية قوز رجب شرق، بمنطقة نهر عطبرة في ولاية كسلا، …",
-          "source": "التغيير",
-          "source_id": "altaghyeer-ar",
-          "source_class": "sudanese_journalism",
-          "link": "https://www.altaghyeer.info/ar/2026/11/13/%d8%b1%d8%ad%d9%8a%d9%84-%d8%a7%d9%84%d9%81%d9%86%d8%a7%d9%86-%d9%88%d8%a7%d9%84%d8%a8%d8%a7%d8%ad%d8%ab-%d9%81%d9%8a-%d8%a7%d9%84%d8%aa%d8%b1%d8%a7%d8%ab-%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86",
-          "status": "Reporting",
-          "geography": [
-            "Khartoum",
-            "Kassala",
-            "River Nile"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "Culture",
-          "clabel": "ثقافة",
+          "category": "Economy",
+          "clabel": "اقتصاد",
           "language": "ar",
           "media_attribution": "التغيير"
         }
       },
       {
-        "Title": "السودان: حربٌ تلتهم الوطن واقتصادٌ يقتات على أنقاضه",
+        "Title": "دور العرق في مقاومة الأمراض: الحمى الصفراء والجنود السودانيين في المكسيك",
         "Lang": "ar",
-        "Date": "2026-11-13T15:01:05+00:00",
-        "Permalink": "https://sudanile.com/%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86-%d8%ad%d8%b1%d8%a8%d9%8c-%d8%aa%d9%84%d8%aa%d9%87%d9%85-%d8%a7%d9%84%d9%88%d8%b7%d9%86-%d9%88%d8%a7%d9%82%d8%aa%d8%b5%d8%a7%d8%af%d9%8c-%d9%8a%d9%82%d8%aa",
+        "Date": "2026-11-15T22:11:18+00:00",
+        "Permalink": "https://sudanile.com/%d8%af%d9%88%d8%b1-%d8%a7%d9%84%d8%b9%d8%b1%d9%82-%d9%81%d9%8a-%d9%85%d9%82%d8%a7%d9%88%d9%85%d8%a9-%d8%a7%d9%84%d8%a3%d9%85%d8%b1%d8%a7%d8%b6-%d8%a7%d9%84%d8%ad%d9%85%d9%89-%d8%a7%d9%84%d8%b5%d9%81",
         "Params": {
-          "description": "بينما ينشغل العالم بحرب روسيا وأوكرانيا، وتصاعد المواجهة مع إيران، وانتخابات الولايات المتحدة وما تثيره من تداعيات على النظام الدولي، تتراجع المأساة السودانية إلى هوامش الاهتمام العالمي. لكن الحرب في السودان لا تتراجع، بل تمضي في اتجاه أكثر دموية واتساعاً. ففي كردفان والنيل الأزرق ودارفور، تتصاعد المعارك، وتحلق الطائرات المسيّرة في سماء البلاد، حاملة الموت […] The post السودان: حربٌ تلتهم الوطن واقتصادٌ يقتات على أنق",
+          "description": "دور العرق في مقاومة الأمراض: الحمى الصفراء والجنود السودانيين في المكسيكRacial Resistance; yellow Fever and the Sudanese SoldiersHeather Sharkey هيذر شاركيترجمة: بدر الدين حامد الهاشمي تقديم: هذه ترجمة لجزء صغير من كتاب (299 صفحة من القطع الكبير) لهيذر شاركي، الأستاذة الدكتورة بجامعة بنسيلفانيا. صدر الكتاب عام 2026م تحت عنوان:Crossing Continents: Global Microhistory from Egypt and […] The post دور العرق في مقاومة الأ",
           "source": "سودانايل",
           "source_id": "sudanile-ar",
           "source_class": "sudanese_diaspora",
-          "link": "https://sudanile.com/%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86-%d8%ad%d8%b1%d8%a8%d9%8c-%d8%aa%d9%84%d8%aa%d9%87%d9%85-%d8%a7%d9%84%d9%88%d8%b7%d9%86-%d9%88%d8%a7%d9%82%d8%aa%d8%b5%d8%a7%d8%af%d9%8c-%d9%8a%d9%82%d8%aa",
+          "link": "https://sudanile.com/%d8%af%d9%88%d8%b1-%d8%a7%d9%84%d8%b9%d8%b1%d9%82-%d9%81%d9%8a-%d9%85%d9%82%d8%a7%d9%88%d9%85%d8%a9-%d8%a7%d9%84%d8%a3%d9%85%d8%b1%d8%a7%d8%b6-%d8%a7%d9%84%d8%ad%d9%85%d9%89-%d8%a7%d9%84%d8%b5%d9%81",
           "status": "Reporting",
           "geography": [
-            "Darfur",
-            "Kordofan",
-            "Blue Nile"
+            "National"
           ],
-          "image": "https://sudanile.com/wp-content/uploads/2023/03/ahmedmalik.jpg",
+          "image": "https://sudanile.com/wp-content/uploads/2024/06/badr.jpg",
           "media_reuse_basis": "rss_metadata",
           "related_sources": [],
-          "category": "Economy",
-          "clabel": "اقتصاد",
+          "category": "Education",
+          "clabel": "تعليم",
           "language": "ar",
           "media_attribution": "سودانايل"
         }
       },
       {
-        "Title": "النيل الأبيض تعلن نتيجة امتحانات المرحلة المتوسطة بنسبة نجاح 96%",
+        "Title": "غارات مكثفة للجيش السوداني وتقدم ميداني نحو النهود",
         "Lang": "ar",
-        "Date": "2026-11-13T09:45:06+00:00",
-        "Permalink": "https://www.radiotamazuj.org/ar/news/article/%d8%a7%d9%84%d9%86%d9%8a%d9%84-%d8%a7%d9%84%d8%a3%d8%a8%d9%8a%d8%b6-%d8%aa%d8%b9%d9%84%d9%86-%d9%86%d8%aa%d9%8a%d8%ac%d8%a9-%d8%a7%d9%85%d8%aa%d8%ad%d8%a7%d9%86%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%b1",
+        "Date": "2026-11-15T19:58:01+00:00",
+        "Permalink": "https://sudantribune.net/article/321253",
         "Params": {
-          "description": "أعلنت وزارة التربية والتعليم بولاية النيل الأبيض في السودان، نتيجة امتحانات المرحلة المتوسطة، بنسبة نجاح The post النيل الأبيض تعلن نتيجة امتحانات المرحلة المتوسطة بنسبة نجاح 96% appeared first on Radio Tamazuj .",
-          "source": "راديو تمازج",
-          "source_id": "tamazuj-ar",
-          "source_class": "regional_journalism",
-          "link": "https://www.radiotamazuj.org/ar/news/article/%d8%a7%d9%84%d9%86%d9%8a%d9%84-%d8%a7%d9%84%d8%a3%d8%a8%d9%8a%d8%b6-%d8%aa%d8%b9%d9%84%d9%86-%d9%86%d8%aa%d9%8a%d8%ac%d8%a9-%d8%a7%d9%85%d8%aa%d8%ad%d8%a7%d9%86%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%b1",
-          "status": "Reporting",
-          "geography": [
-            "Kordofan",
-            "White Nile"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "Education",
-          "clabel": "تعليم",
-          "language": "ar",
-          "media_attribution": "راديو تمازج"
-        }
-      },
-      {
-        "Title": "ما حقيقة الفيديو المتداول على أنه يوثق تحرك قوة من الجيش نحو كردفان؟",
-        "Lang": "ar",
-        "Date": "2026-11-13T10:32:26+00:00",
-        "Permalink": "https://www.beamreports.com/2026/11/13/%d9%85%d8%a7-%d8%ad%d9%82%d9%8a%d9%82%d8%a9-%d8%a7%d9%84%d9%81%d9%8a%d8%af%d9%8a%d9%88-%d8%a7%d9%84%d9%85%d8%aa%d8%af%d8%a7%d9%88%d9%84-%d8%b9%d9%84%d9%89-%d8%a3%d9%86%d9%87-%d9%8a%d9%88%d8%ab-25",
-        "Params": {
-          "description": "ما حقيقة الفيديو المتداول على أنه يوثق تحرك قوة من الجيش نحو كردفان؟ مضلل تداولت حسابات على منصة «فيسبوك» مقطع فيديو يُظهر مركبات عسكرية تسير في منطقة سهلية، مرفقًا بادعاء يفيد بأنه يوثق تقدّم رتل من القوات المسلحة نحو كردفان، صباح أمس الخميس، لمواجهة قوات الدعم السريع. وجاء نص الادعاء على النحو الآتي: «حشود القوات […] The post ما حقيقة الفيديو المتداول على أنه يوثق تحرك قوة من الجيش نحو كردفان؟ first appeared on Bea",
-          "source": "بيم ريبورتس",
-          "source_id": "beam-ar",
+          "description": "الخوي 15 نوفمبر 2026 – شن الطيران المسيّر التابع للجيش السوداني، الأحد، سلسلة غارات جوية مكثفة استهدفت مواقع تابعة لقوات الدعم السريع في عدد من مدن ومناطق ولاية غرب كردفان، بالتزامن مع تقدم ميداني باتجاه مدينة النهود، كبرى مدن الولاية. وكان الجيش وحلفاؤه من القوة المشتركة، سيطروا الجمعة الماضي على مدينة الخوي، بولاية غرب كردفان، وذلك ضمن مواصلة للعمليات العسكرية في إقليم كردفان والتي ابتدرها الجيش في نهايات يونيو الم",
+          "source": "Sudan Tribune Arabic",
+          "source_id": "sudan-tribune-ar",
           "source_class": "sudanese_journalism",
-          "link": "https://www.beamreports.com/2026/11/13/%d9%85%d8%a7-%d8%ad%d9%82%d9%8a%d9%82%d8%a9-%d8%a7%d9%84%d9%81%d9%8a%d8%af%d9%8a%d9%88-%d8%a7%d9%84%d9%85%d8%aa%d8%af%d8%a7%d9%88%d9%84-%d8%b9%d9%84%d9%89-%d8%a3%d9%86%d9%87-%d9%8a%d9%88%d8%ab-25",
+          "link": "https://sudantribune.net/article/321253",
           "status": "Reporting",
           "geography": [
             "Kordofan"
@@ -4363,49 +4190,26 @@
           "category": "War & Security",
           "clabel": "الحرب والأمن",
           "language": "ar",
-          "media_attribution": "بيم ريبورتس"
+          "media_attribution": "Sudan Tribune Arabic"
         }
       },
       {
-        "Title": "تصفيات أمم أفريقيا 2027: الكونغو الديمقراطية وساحل العاج تقتربان من التأهل والسودان يتعثر",
+        "Title": "نزوح 1515 شخصاً من ولايتي شمال دارفور والنيل الأزرق في يومين",
         "Lang": "ar",
-        "Date": "2026-11-12T23:28:48+00:00",
-        "Permalink": "https://www.france24.com/ar/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9/20261112-%D8%AA%D8%B5%D9%81%D9%8A%D8%A7%D8%AA-%D8%A3%D9%85%D9%85-%D8%A5%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7-2027-%D8%B3%D8%A7%D8%AD%D9%84-%D8%A7%D9%84%D8%B9%D8%A7%D8%AC-%D8%A7%D9%84%D9%83%D9%88%D9%86%D8%BA%D9%88-%D8%A7%D9%84%D8%AF%D9%8A%D9%85%D9%82%D8%B1%D8%A7%D8%B7%D9%8A%D8%A9-%D8%BA%D8%A7%D9%86%D8%A7-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86-%D8%A7%D9%84%D8%B3%D9%86%D8%BA%D8%A7%D9%84",
+        "Date": "2026-11-15T18:50:25+00:00",
+        "Permalink": "https://www.alaraby.co.uk/society/%D9%86%D8%B2%D9%88%D8%AD-1515-%D8%B4%D8%AE%D8%B5%D8%A7%D9%8B-%D9%85%D9%86-%D9%88%D9%84%D8%A7%D9%8A%D8%AA%D9%8A-%D8%B4%D9%85%D8%A7%D9%84-%D8%AF%D8%A7%D8%B1%D9%81%D9%88%D8%B1-%D9%88%D8%A7%D9%84%D9%86%D9%8A%D9%84-%D8%A7%D9%84%D8%A3%D8%B2%D8%B1%D9%82-%D9%81%D9%8A-%D9%8A%D9%88%D9%85%D9%8A%D9%86",
         "Params": {
-          "description": "في الجولة الثالثة من تصفيات كأس الأمم الأفريقية 2027، واصل منتخبا الكونغو الديمقراطية وساحل العاج عروضهما القوية بتحقيق الفوز الثالث تواليا، ليقتربا من حجز بطاقتي التأهل إلى النهائيات المقررة في كينيا وتنزانيا وأوغندا. في المقابل، استعادت غانا آمالها بفوزها الأول على الصومال 2-0 بعد خسارتين متتاليتين، بينما تكبد السودان هزيمة ثقيلة أمام السنغال 4-1. كما حققت الكاميرون وغينيا وبنين انتصارات عززت بها مواقعها في مجموعات",
-          "source": "فرانس 24 عربي",
-          "source_id": "france24-ar",
-          "source_class": "international_journalism",
-          "link": "https://www.france24.com/ar/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9/20261112-%D8%AA%D8%B5%D9%81%D9%8A%D8%A7%D8%AA-%D8%A3%D9%85%D9%85-%D8%A5%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7-2027-%D8%B3%D8%A7%D8%AD%D9%84-%D8%A7%D9%84%D8%B9%D8%A7%D8%AC-%D8%A7%D9%84%D9%83%D9%88%D9%86%D8%BA%D9%88-%D8%A7%D9%84%D8%AF%D9%8A%D9%85%D9%82%D8%B1%D8%A7%D8%B7%D9%8A%D8%A9-%D8%BA%D8%A7%D9%86%D8%A7-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86-%D8%A7%D9%84%D8%B3%D9%86%D8%BA%D8%A7%D9%84",
-          "status": "Reporting",
-          "geography": [
-            "National"
-          ],
-          "image": "https://s.france24.com/media/display/be5f5ba6-f12e-11f0-a2f5-005056bf30b7/w:1024/p:16x9/000-34EW3BR.jpg",
-          "media_reuse_basis": "rss_metadata",
-          "related_sources": [],
-          "category": "International",
-          "clabel": "دولي",
-          "language": "ar",
-          "media_attribution": "فرانس 24 عربي"
-        }
-      },
-      {
-        "Title": "يونيسف: تزامن غير مسبوق بين هجمات المسيّرات والجفاف في السودان",
-        "Lang": "ar",
-        "Date": "2026-11-15T09:31:14+00:00",
-        "Permalink": "https://www.alaraby.co.uk/society/يونيسف-تزامن-غير-مسبوق-بين-هجمات-المسيّرات-والجفاف-في-السودان",
-        "Params": {
-          "description": "أعلن المتحدث باسم منظمة الأمم المتحدة للطفولة (يونيسف) جيمس إلدر أن \"هجمات المسيّرات على محطات الكهرباء والجفاف تفاقمان أزمة المياه في السودان\".",
+          "description": "أعلنت المنظمة الدولية للهجرة، اليوم الأحد، نزوح 1515 شخصاً من ولايتي شمال دارفور، غربي السودان، والنيل الأزرق (جنوب)، بسبب انعدام الأمن، وذلك خلال يومين",
           "source": "العربي الجديد",
           "source_id": "alaraby-ar",
           "source_class": "regional_journalism",
-          "link": "https://www.alaraby.co.uk/society/يونيسف-تزامن-غير-مسبوق-بين-هجمات-المسيّرات-والجفاف-في-السودان",
+          "link": "https://www.alaraby.co.uk/society/%D9%86%D8%B2%D9%88%D8%AD-1515-%D8%B4%D8%AE%D8%B5%D8%A7%D9%8B-%D9%85%D9%86-%D9%88%D9%84%D8%A7%D9%8A%D8%AA%D9%8A-%D8%B4%D9%85%D8%A7%D9%84-%D8%AF%D8%A7%D8%B1%D9%81%D9%88%D8%B1-%D9%88%D8%A7%D9%84%D9%86%D9%8A%D9%84-%D8%A7%D9%84%D8%A3%D8%B2%D8%B1%D9%82-%D9%81%D9%8A-%D9%8A%D9%88%D9%85%D9%8A%D9%86",
           "status": "Reporting",
           "geography": [
-            "National"
+            "Darfur",
+            "Blue Nile"
           ],
-          "image": "https://www.alaraby.co.uk/sites/default/files/styles/meduim_16_9/public/2026-11/261.jpg?h=4ebb1b85&itok=9XpAdYc8",
+          "image": "https://www.alaraby.co.uk/sites/default/files/styles/meduim_16_9/public/2026-11/GettyImages-2299362348.jpg?h=199d8c1f&itok=Ott2-6_q",
           "media_reuse_basis": "rss_metadata",
           "related_sources": [],
           "category": "Analysis",
@@ -4440,45 +4244,45 @@
         }
       },
       {
-        "Title": "«الخماسية»قلقة من تصاعد هجمات المسيّرات في السودان وتدعو لهدنة إنسانية",
+        "Title": "محمد عثمان الميرغني: شيخ الطريقة الذي اعتلى منبر السياسة ونادى بـ \"وحدة السودان أرضاً وشعباً\"",
         "Lang": "ar",
-        "Date": "2026-11-14T18:57:31+00:00",
-        "Permalink": "https://sudantribune.net/article/321229",
+        "Date": "2026-11-15T16:51:56+00:00",
+        "Permalink": "https://www.bbc.com/arabic/articles/cmz74w51j9xzo?at_medium=RSS&at_campaign=rss",
         "Params": {
-          "description": "أديس أبابا 14 نوفمبر 2026 – أعربت الآلية الخماسية عن قلقها البالغ إزاء تصاعد هجمات الطائرات المسيّرة والغارات الجوية في السودان، محذّرةً من تداعياتها الخطيرة على المدنيين والبنية التحتية. وتضم الآلية الخماسية المعنية بالسودان، الأمم المتحدة والاتحاد الأفريقي ومنظمة إيقاد والجامعة العربية والاتحاد الأوروبي، ويهدف إطارها التنسيقي لتوحيد الجهود والوساطات الرامية إلى إنهاء الحرب في السودان وإطلاق عملية سياسية شاملة. وأدا",
-          "source": "Sudan Tribune Arabic",
-          "source_id": "sudan-tribune-ar",
-          "source_class": "sudanese_journalism",
-          "link": "https://sudantribune.net/article/321229",
+          "description": "أسرة الزعيم السوداني محمد عثمان الميرغني تقرر إقامة مراسم عزاء في القاهرة، حيث يتوقع أن يشهد حضوراً رسمياً وشعبياً واسعاً تقديراً لمكانته الدينية والسياسية، قبل نقل جثمانه إلى بلاده.",
+          "source": "بي بي سي عربي",
+          "source_id": "bbc-ar",
+          "source_class": "international_journalism",
+          "link": "https://www.bbc.com/arabic/articles/cmz74w51j9xzo?at_medium=RSS&at_campaign=rss",
           "status": "Reporting",
           "geography": [
             "National"
           ],
-          "image": "",
-          "media_reuse_basis": "",
+          "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/0815/live/88458e40-e102-11f1-a701-fddedf244c16.jpg",
+          "media_reuse_basis": "rss_metadata",
           "related_sources": [],
-          "category": "Humanitarian",
-          "clabel": "إنساني",
+          "category": "International",
+          "clabel": "دولي",
           "language": "ar",
-          "media_attribution": "Sudan Tribune Arabic"
+          "media_attribution": "بي بي سي عربي"
         }
       },
       {
-        "Title": "تقييم الاحتياجات متعدد القطاعات لعام 2026 في السودان",
+        "Title": "نزوح 7 الف في منطقة السنطة بسبب اشتباكات قبيلية في جنوب دارفور",
         "Lang": "ar",
-        "Date": "2026-11-15T15:56:32+00:00",
-        "Permalink": "https://sudanwarmonitor.com/p/2026-0dd",
+        "Date": "2026-11-15T18:07:03+00:00",
+        "Permalink": "https://sudanwarmonitor.com/p/7-cff",
         "Params": {
-          "description": "تشير أنماط استهلاك الغذاء إلى أن 31 في المائة من الأسر تعاني من مستوى استهلاك غذائي متوسط على الحدود",
+          "description": "سودان وور مونيتور : ولاية جنوب دارفور",
           "source": "Sudan War Monitor",
           "source_id": "sudan-war-monitor",
           "source_class": "analysis",
-          "link": "https://sudanwarmonitor.com/p/2026-0dd",
+          "link": "https://sudanwarmonitor.com/p/7-cff",
           "status": "Analysis",
           "geography": [
-            "National"
+            "Darfur"
           ],
-          "image": "https://substackcdn.com/image/fetch/$s_!HmpH!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd116da62-fa03-4cdb-b1c7-38c2a95f0e33_2718x1776.png",
+          "image": "https://substackcdn.com/image/fetch/$s_!zqfa!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2374a30e-eba9-4fca-a7fa-b1e6c01cd3ed_1563x1318.png",
           "media_reuse_basis": "rss_metadata",
           "related_sources": [],
           "category": "Sudan News",
@@ -4488,43 +4292,19 @@
         }
       },
       {
-        "Title": "كنيسة يسوع الكبرى في دنقلا.. حين تستعيد الأرض ذاكرة السودان المسيحية في زمن الحرب",
+        "Title": "ما حقيقة الفيديو المتداول بزعم أنه يوثق استسلام عناصر من «الدعم السريع» في كردفان؟",
         "Lang": "ar",
-        "Date": "2026-11-13T14:56:50+00:00",
-        "Permalink": "https://sudanile.com/%d9%83%d9%86%d9%8a%d8%b3%d8%a9-%d9%8a%d8%b3%d9%88%d8%b9-%d8%a7%d9%84%d9%83%d8%a8%d8%b1%d9%89-%d9%81%d9%8a-%d8%af%d9%86%d9%82%d9%84%d8%a7-%d8%ad%d9%8a%d9%86-%d8%aa%d8%b3%d8%aa%d8%b9%d9%8a%d8%af",
+        "Date": "2026-11-15T15:25:57+00:00",
+        "Permalink": "https://www.beamreports.com/2026/11/15/%d9%85%d8%a7-%d8%ad%d9%82%d9%8a%d9%82%d8%a9-%d8%a7%d9%84%d9%81%d9%8a%d8%af%d9%8a%d9%88-%d8%a7%d9%84%d9%85%d8%aa%d8%af%d8%a7%d9%88%d9%84-%d8%a8%d8%b2%d8%b9%d9%85-%d8%a3%d9%86%d9%87-%d9%8a%d9%88-11",
         "Params": {
-          "description": "زهير عثمان كنيسة يسوع الكبرى في دنقلا.. حين تستعيد الأرض ذاكرة السودان المسيحية في زمن الحرباكتشاف أثري يعيد قراءة مكانة مملكة المقرة، ويكشف المفارقة بين عظمة الحضارة النوبية ومحنة التراث السوداني تحت نيران الحرب والنهبفي خضم حرب تلتهم الحاضر السوداني منذ أبريل 2023، وتدفع ملايين السكان إلى النزوح والتشرد، يأتي الكشف الأثري الجديد في دنقلا […] The post كنيسة يسوع الكبرى في دنقلا.. حين تستعيد الأرض ذاكرة السودان المسي",
-          "source": "سودانايل",
-          "source_id": "sudanile-ar",
-          "source_class": "sudanese_diaspora",
-          "link": "https://sudanile.com/%d9%83%d9%86%d9%8a%d8%b3%d8%a9-%d9%8a%d8%b3%d9%88%d8%b9-%d8%a7%d9%84%d9%83%d8%a8%d8%b1%d9%89-%d9%81%d9%8a-%d8%af%d9%86%d9%82%d9%84%d8%a7-%d8%ad%d9%8a%d9%86-%d8%aa%d8%b3%d8%aa%d8%b9%d9%8a%d8%af",
-          "status": "Reporting",
-          "geography": [
-            "Northern"
-          ],
-          "image": "https://sudanile.com/wp-content/uploads/2026/01/zuher.jpg",
-          "media_reuse_basis": "rss_metadata",
-          "related_sources": [],
-          "category": "War & Security",
-          "clabel": "الحرب والأمن",
-          "language": "ar",
-          "media_attribution": "سودانايل"
-        }
-      },
-      {
-        "Title": "وفاة زعيم الاتحادي الديمقراطي ومرشد الختمية محمد عثمان الميرغني بالقاهرة وترتيبات لنقل جثمانه إلى الخرطوم",
-        "Lang": "ar",
-        "Date": "2026-11-13T18:30:31+00:00",
-        "Permalink": "https://www.altaghyeer.info/ar/2026/11/13/%d9%88%d9%81%d8%a7%d8%a9-%d8%b2%d8%b9%d9%8a%d9%85-%d8%a7%d9%84%d8%a7%d8%aa%d8%ad%d8%a7%d8%af%d9%8a-%d8%a7%d9%84%d8%af%d9%8a%d9%85%d9%82%d8%b1%d8%a7%d8%b7%d9%8a-%d9%88%d9%85%d8%b1%d8%b4%d8%af-%d8%a7",
-        "Params": {
-          "description": "غيب الموت، اليوم الجمعة، زعيم الحزب الاتحادي الديمقراطي الأصل ومرشد الطريقة الختمية في السودان، السيد محمد عثمان الميرغني، بمنزله في منطقة مصر الجديدة بالعاصمة المصرية القاهرة، بعد مسيرة سياسية ودينية امتدت لأكثر من خمسة عقود، ظل خلالها أحد أبرز مراكز التأثير في الحياة السودانية. القاهرة _ التغيير ومن المقرر نقل جثمان الراحل إلى العاصمة …",
-          "source": "التغيير",
-          "source_id": "altaghyeer-ar",
+          "description": "ما حقيقة الفيديو المتداول بزعم أنه يوثق استسلام عناصر من «الدعم السريع» في كردفان؟ مضلل تداولت حسابات على منصة «فيسبوك» مقطع فيديو يُظهر أشخاصًا متفرقين في حقل مفتوح، يصوّرون من داخل مركبة، ويرفع بعضهم يديه، فيما يُسمع صوت يأمرهم بوضع السلاح والاستسلام، مرفقًا بادعاء أنه يوثق استسلام عناصر من «الدعم السريع» للجيش السوداني في المعارك […] The post ما حقيقة الفيديو المتداول بزعم أنه يوثق استسلام عناصر من «الدعم السريع» ",
+          "source": "بيم ريبورتس",
+          "source_id": "beam-ar",
           "source_class": "sudanese_journalism",
-          "link": "https://www.altaghyeer.info/ar/2026/11/13/%d9%88%d9%81%d8%a7%d8%a9-%d8%b2%d8%b9%d9%8a%d9%85-%d8%a7%d9%84%d8%a7%d8%aa%d8%ad%d8%a7%d8%af%d9%8a-%d8%a7%d9%84%d8%af%d9%8a%d9%85%d9%82%d8%b1%d8%a7%d8%b7%d9%8a-%d9%88%d9%85%d8%b1%d8%b4%d8%af-%d8%a7",
+          "link": "https://www.beamreports.com/2026/11/15/%d9%85%d8%a7-%d8%ad%d9%82%d9%8a%d9%82%d8%a9-%d8%a7%d9%84%d9%81%d9%8a%d8%af%d9%8a%d9%88-%d8%a7%d9%84%d9%85%d8%aa%d8%af%d8%a7%d9%88%d9%84-%d8%a8%d8%b2%d8%b9%d9%85-%d8%a3%d9%86%d9%87-%d9%8a%d9%88-11",
           "status": "Reporting",
           "geography": [
-            "Khartoum"
+            "Kordofan"
           ],
           "image": "",
           "media_reuse_basis": "",
@@ -4532,7 +4312,251 @@
           "category": "War & Security",
           "clabel": "الحرب والأمن",
           "language": "ar",
+          "media_attribution": "بيم ريبورتس"
+        }
+      },
+      {
+        "Title": "كيف يهدد سد النهضة الإثيوبي حياة ملايين السودانيين على ضفاف النيل؟",
+        "Lang": "ar",
+        "Date": "2026-11-15T09:52:39+00:00",
+        "Permalink": "https://3ayin.com/ethiopian-renaissance-dam-",
+        "Params": {
+          "description": "عاين- 15 نوفمبر 2026 على مسافة لا تتجاوز 115 كيلومتراً من سد النهضة الإثيوبي، يقف سد الروصيرص السوداني مواجهاً حقبة هيدرولوجية غير مسبوقة؛ فمع تدفق المياه وافتتاح سد النهضة الإثيوبي رسمياً في سبتمبر 2025، تبدلت قواعد اللعبة المائية في حوض النيل الأزرق بشكل جذري، ولم يعد تشغيل المنشآت المائية السودانية مجرد عملية هندسية روتينية تحكمها […]",
+          "source": "عاين",
+          "source_id": "ayin-ar",
+          "source_class": "sudanese_journalism",
+          "link": "https://3ayin.com/ethiopian-renaissance-dam-",
+          "status": "Reporting",
+          "geography": [
+            "Blue Nile"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "Sudan News",
+          "clabel": "أخبار السودان",
+          "language": "ar",
+          "media_attribution": "عاين"
+        }
+      },
+      {
+        "Title": "النيل الأبيض تعلن نتيجة امتحانات المرحلة المتوسطة بنسبة نجاح 96%",
+        "Lang": "ar",
+        "Date": "2026-11-13T09:45:06+00:00",
+        "Permalink": "https://www.radiotamazuj.org/ar/news/article/%d8%a7%d9%84%d9%86%d9%8a%d9%84-%d8%a7%d9%84%d8%a3%d8%a8%d9%8a%d8%b6-%d8%aa%d8%b9%d9%84%d9%86-%d9%86%d8%aa%d9%8a%d8%ac%d8%a9-%d8%a7%d9%85%d8%aa%d8%ad%d8%a7%d9%86%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%b1",
+        "Params": {
+          "description": "أعلنت وزارة التربية والتعليم بولاية النيل الأبيض في السودان، نتيجة امتحانات المرحلة المتوسطة، بنسبة نجاح The post النيل الأبيض تعلن نتيجة امتحانات المرحلة المتوسطة بنسبة نجاح 96% appeared first on Radio Tamazuj .",
+          "source": "راديو تمازج",
+          "source_id": "tamazuj-ar",
+          "source_class": "regional_journalism",
+          "link": "https://www.radiotamazuj.org/ar/news/article/%d8%a7%d9%84%d9%86%d9%8a%d9%84-%d8%a7%d9%84%d8%a3%d8%a8%d9%8a%d8%b6-%d8%aa%d8%b9%d9%84%d9%86-%d9%86%d8%aa%d9%8a%d8%ac%d8%a9-%d8%a7%d9%85%d8%aa%d8%ad%d8%a7%d9%86%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%b1",
+          "status": "Reporting",
+          "geography": [
+            "Kordofan",
+            "White Nile"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "Education",
+          "clabel": "تعليم",
+          "language": "ar",
+          "media_attribution": "راديو تمازج"
+        }
+      },
+      {
+        "Title": "تصفيات أمم أفريقيا 2027: الكونغو الديمقراطية وساحل العاج تقتربان من التأهل والسودان يتعثر",
+        "Lang": "ar",
+        "Date": "2026-11-12T23:28:48+00:00",
+        "Permalink": "https://www.france24.com/ar/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9/20261112-%D8%AA%D8%B5%D9%81%D9%8A%D8%A7%D8%AA-%D8%A3%D9%85%D9%85-%D8%A5%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7-2027-%D8%B3%D8%A7%D8%AD%D9%84-%D8%A7%D9%84%D8%B9%D8%A7%D8%AC-%D8%A7%D9%84%D9%83%D9%88%D9%86%D8%BA%D9%88-%D8%A7%D9%84%D8%AF%D9%8A%D9%85%D9%82%D8%B1%D8%A7%D8%B7%D9%8A%D8%A9-%D8%BA%D8%A7%D9%86%D8%A7-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86-%D8%A7%D9%84%D8%B3%D9%86%D8%BA%D8%A7%D9%84",
+        "Params": {
+          "description": "في الجولة الثالثة من تصفيات كأس الأمم الأفريقية 2027، واصل منتخبا الكونغو الديمقراطية وساحل العاج عروضهما القوية بتحقيق الفوز الثالث تواليا، ليقتربا من حجز بطاقتي التأهل إلى النهائيات المقررة في كينيا وتنزانيا وأوغندا. في المقابل، استعادت غانا آمالها بفوزها الأول على الصومال 2-0 بعد خسارتين متتاليتين، بينما تكبد السودان هزيمة ثقيلة أمام السنغال 4-1. كما حققت الكاميرون وغينيا وبنين انتصارات عززت بها مواقعها في مجموعات",
+          "source": "فرانس 24 عربي",
+          "source_id": "france24-ar",
+          "source_class": "international_journalism",
+          "link": "https://www.france24.com/ar/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9/20261112-%D8%AA%D8%B5%D9%81%D9%8A%D8%A7%D8%AA-%D8%A3%D9%85%D9%85-%D8%A5%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7-2027-%D8%B3%D8%A7%D8%AD%D9%84-%D8%A7%D9%84%D8%B9%D8%A7%D8%AC-%D8%A7%D9%84%D9%83%D9%88%D9%86%D8%BA%D9%88-%D8%A7%D9%84%D8%AF%D9%8A%D9%85%D9%82%D8%B1%D8%A7%D8%B7%D9%8A%D8%A9-%D8%BA%D8%A7%D9%86%D8%A7-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86-%D8%A7%D9%84%D8%B3%D9%86%D8%BA%D8%A7%D9%84",
+          "status": "Reporting",
+          "geography": [
+            "National"
+          ],
+          "image": "https://s.france24.com/media/display/be5f5ba6-f12e-11f0-a2f5-005056bf30b7/w:1024/p:16x9/000-34EW3BR.jpg",
+          "media_reuse_basis": "rss_metadata",
+          "related_sources": [],
+          "category": "International",
+          "clabel": "دولي",
+          "language": "ar",
+          "media_attribution": "فرانس 24 عربي"
+        }
+      },
+      {
+        "Title": "“دار أبوك”… وإذا الموءودة سئلت .. كتاب السينمائي سامي الصاوي عن أم درمان رسالة شوق جديرة بالقراءة",
+        "Lang": "ar",
+        "Date": "2026-11-15T21:49:43+00:00",
+        "Permalink": "https://sudanile.com/%d8%af%d8%a7%d8%b1-%d8%a3%d8%a8%d9%88%d9%83-%d9%88%d8%a5%d8%b0%d8%a7-%d8%a7%d9%84%d9%85%d9%88%d8%a1%d9%88%d8%af%d8%a9-%d8%b3%d8%a6%d9%84%d8%aa-%d9%83%d8%aa%d8%a7%d8%a8-%d8%a7%d9%84%d8%b3",
+        "Params": {
+          "description": "صلاح حسن أحمد عرض كتاب:أم درمان عموم (دار أبوك)المؤلف: سامي الصاويالناشر: دار باركورد، 1926186 صفحة من القطع المتوسط حري بنا أن نحتفل بإصدار السينمائي الأديب سامي الصاوي كتابه “أم درمان عموم (دار أبوك)” هذا العام عن دار باركورد للنشر.هذا الكتاب رسالة شوق للبقعة المباركة وسحرها المدرج الآن في باب “خرج ولم يعد”. وهذه رسالة يمكن […] The post “دار أبوك”… وإذا الموءودة سئلت .. كتاب السينمائي سامي الصاوي عن أم درمان رسالة ",
+          "source": "سودانايل",
+          "source_id": "sudanile-ar",
+          "source_class": "sudanese_diaspora",
+          "link": "https://sudanile.com/%d8%af%d8%a7%d8%b1-%d8%a3%d8%a8%d9%88%d9%83-%d9%88%d8%a5%d8%b0%d8%a7-%d8%a7%d9%84%d9%85%d9%88%d8%a1%d9%88%d8%af%d8%a9-%d8%b3%d8%a6%d9%84%d8%aa-%d9%83%d8%aa%d8%a7%d8%a8-%d8%a7%d9%84%d8%b3",
+          "status": "Reporting",
+          "geography": [
+            "Khartoum"
+          ],
+          "image": "https://sudanile.com/wp-content/uploads/2026/11/sawii.jpg",
+          "media_reuse_basis": "rss_metadata",
+          "related_sources": [],
+          "category": "Culture",
+          "clabel": "ثقافة",
+          "language": "ar",
+          "media_attribution": "سودانايل"
+        }
+      },
+      {
+        "Title": "فرار آلاف الأشخاص جراء نزاع قبلي في جنوب دارفور",
+        "Lang": "ar",
+        "Date": "2026-11-15T19:11:10+00:00",
+        "Permalink": "https://sudantribune.net/article/321256",
+        "Params": {
+          "description": "الخرطوم 15 نوفمبر 2026 – كشفت منظمة الهجرة الدولية التابعة للأمم المتحدة، الأحد، عن فرار آلاف الأشخاص بسبب نزاع أهلي بين قبيلتي الهبانية والرزيقات في محلية السنطة بولاية جنوب دارفور غربي السودان. وتشهد قرى محلية السنطة مواجهات متفرقة بين مجموعتين من الهبانية والرزيقات منذ 8 نوفمبر الحالي، على خلفية اتهامات بسرقة ماشية، أسفرت عن مقتل عشرات الأشخاص وإحراق بلدات. وقالت منظمة الهجرة، في بيان، إن “نحو 7,065 شخصًا نزحوا يو",
+          "source": "Sudan Tribune Arabic",
+          "source_id": "sudan-tribune-ar",
+          "source_class": "sudanese_journalism",
+          "link": "https://sudantribune.net/article/321256",
+          "status": "Reporting",
+          "geography": [
+            "Khartoum",
+            "Darfur"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "Agriculture",
+          "clabel": "زراعة",
+          "language": "ar",
+          "media_attribution": "Sudan Tribune Arabic"
+        }
+      },
+      {
+        "Title": "يونيسف: تزامن غير مسبوق بين هجمات المسيّرات والجفاف في السودان",
+        "Lang": "ar",
+        "Date": "2026-11-15T09:31:14+00:00",
+        "Permalink": "https://www.alaraby.co.uk/society/يونيسف-تزامن-غير-مسبوق-بين-هجمات-المسيّرات-والجفاف-في-السودان",
+        "Params": {
+          "description": "أعلن المتحدث باسم منظمة الأمم المتحدة للطفولة (يونيسف) جيمس إلدر أن \"هجمات المسيّرات على محطات الكهرباء والجفاف تفاقمان أزمة المياه في السودان\".",
+          "source": "العربي الجديد",
+          "source_id": "alaraby-ar",
+          "source_class": "regional_journalism",
+          "link": "https://www.alaraby.co.uk/society/يونيسف-تزامن-غير-مسبوق-بين-هجمات-المسيّرات-والجفاف-في-السودان",
+          "status": "Reporting",
+          "geography": [
+            "National"
+          ],
+          "image": "https://www.alaraby.co.uk/sites/default/files/styles/meduim_16_9/public/2026-11/261.jpg?h=4ebb1b85&itok=9XpAdYc8",
+          "media_reuse_basis": "rss_metadata",
+          "related_sources": [],
+          "category": "Analysis",
+          "clabel": "تحليل",
+          "language": "ar",
+          "media_attribution": "العربي الجديد"
+        }
+      },
+      {
+        "Title": "بيان مشترك للمجموعة الخماسية بشأن تصاعد الأعمال العدائية في السودان",
+        "Lang": "ar",
+        "Date": "2026-11-15T21:06:26+00:00",
+        "Permalink": "https://sudanwarmonitor.com/p/0ea",
+        "Params": {
+          "description": "المجموعة الخماسية لا يوجد حل عسكري للحرب الدائرة وتدعو الي وقف الاعمال العدائية",
+          "source": "Sudan War Monitor",
+          "source_id": "sudan-war-monitor",
+          "source_class": "analysis",
+          "link": "https://sudanwarmonitor.com/p/0ea",
+          "status": "Analysis",
+          "geography": [
+            "National"
+          ],
+          "image": "https://substackcdn.com/image/fetch/$s_!m0P3!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe2362599-a4ac-4787-a223-077cc41d1996_949x713.jpeg",
+          "media_reuse_basis": "rss_metadata",
+          "related_sources": [],
+          "category": "Sudan News",
+          "clabel": "أخبار السودان",
+          "language": "ar",
+          "media_attribution": "Sudan War Monitor"
+        }
+      },
+      {
+        "Title": "الخماسية تدين هجمات المسيّرات في السودان",
+        "Lang": "ar",
+        "Date": "2026-11-15T15:36:47+00:00",
+        "Permalink": "https://www.dabangasudan.org/ar/all-news/article/%d8%a7%d9%84%d8%ae%d9%85%d8%a7%d8%b3%d9%8a%d8%a9-%d8%aa%d8%af%d9%8a%d9%86-%d9%87%d8%ac%d9%85%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%b3%d9%8a%d9%91%d8%b1%d8%a7%d8%aa-%d9%81%d9%8a-%d8%a7%d9%84%d8%b3%d9%88",
+        "Params": {
+          "description": "أمستردام- 15 نوفمبر 2026-راديو دبنقا ​أعربت الآلية الخماسية، التي تضم الاتحاد الأفريقي ومنظمة “إيقاد” وجامعة... The post الخماسية تدين هجمات المسيّرات في السودان appeared first on Dabanga Radio TV Online .",
+          "source": "راديو دبنقا",
+          "source_id": "dabanga-ar",
+          "source_class": "sudanese_journalism",
+          "link": "https://www.dabangasudan.org/ar/all-news/article/%d8%a7%d9%84%d8%ae%d9%85%d8%a7%d8%b3%d9%8a%d8%a9-%d8%aa%d8%af%d9%8a%d9%86-%d9%87%d8%ac%d9%85%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%b3%d9%8a%d9%91%d8%b1%d8%a7%d8%aa-%d9%81%d9%8a-%d8%a7%d9%84%d8%b3%d9%88",
+          "status": "Reporting",
+          "geography": [
+            "National"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "Education",
+          "clabel": "تعليم",
+          "language": "ar",
+          "media_attribution": "راديو دبنقا"
+        }
+      },
+      {
+        "Title": "رحيل الفنان والباحث في التراث السوداني يحيى أدروب",
+        "Lang": "ar",
+        "Date": "2026-11-13T18:14:51+00:00",
+        "Permalink": "https://www.altaghyeer.info/ar/2026/11/13/%d8%b1%d8%ad%d9%8a%d9%84-%d8%a7%d9%84%d9%81%d9%86%d8%a7%d9%86-%d9%88%d8%a7%d9%84%d8%a8%d8%a7%d8%ad%d8%ab-%d9%81%d9%8a-%d8%a7%d9%84%d8%aa%d8%b1%d8%a7%d8%ab-%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86",
+        "Params": {
+          "description": "غيّب الموت الفنان والموسيقي والباحث في التراث السوداني، يحيى إبراهيم أحمد أدروب، أحد الأسماء التي أسهمت في التعريف بالموروث الموسيقي لشرق السودان، ولا سيما التراث البجاوي والأغنية البجاوية، في رحيل يمثل خسارة للمشهد الثقافي والفني السوداني. الخرطوم _ التغيير وُلد الراحل عام 1963 في قرية قوز رجب شرق، بمنطقة نهر عطبرة في ولاية كسلا، …",
+          "source": "التغيير",
+          "source_id": "altaghyeer-ar",
+          "source_class": "sudanese_journalism",
+          "link": "https://www.altaghyeer.info/ar/2026/11/13/%d8%b1%d8%ad%d9%8a%d9%84-%d8%a7%d9%84%d9%81%d9%86%d8%a7%d9%86-%d9%88%d8%a7%d9%84%d8%a8%d8%a7%d8%ad%d8%ab-%d9%81%d9%8a-%d8%a7%d9%84%d8%aa%d8%b1%d8%a7%d8%ab-%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86",
+          "status": "Reporting",
+          "geography": [
+            "Khartoum",
+            "Kassala",
+            "River Nile"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "Culture",
+          "clabel": "ثقافة",
+          "language": "ar",
           "media_attribution": "التغيير"
+        }
+      },
+      {
+        "Title": "ما حقيقة الفيديو المتداول على أنه يوثق تحرك قوة من الجيش نحو كردفان؟",
+        "Lang": "ar",
+        "Date": "2026-11-13T10:32:26+00:00",
+        "Permalink": "https://www.beamreports.com/2026/11/13/%d9%85%d8%a7-%d8%ad%d9%82%d9%8a%d9%82%d8%a9-%d8%a7%d9%84%d9%81%d9%8a%d8%af%d9%8a%d9%88-%d8%a7%d9%84%d9%85%d8%aa%d8%af%d8%a7%d9%88%d9%84-%d8%b9%d9%84%d9%89-%d8%a3%d9%86%d9%87-%d9%8a%d9%88%d8%ab-25",
+        "Params": {
+          "description": "ما حقيقة الفيديو المتداول على أنه يوثق تحرك قوة من الجيش نحو كردفان؟ مضلل تداولت حسابات على منصة «فيسبوك» مقطع فيديو يُظهر مركبات عسكرية تسير في منطقة سهلية، مرفقًا بادعاء يفيد بأنه يوثق تقدّم رتل من القوات المسلحة نحو كردفان، صباح أمس الخميس، لمواجهة قوات الدعم السريع. وجاء نص الادعاء على النحو الآتي: «حشود القوات […] The post ما حقيقة الفيديو المتداول على أنه يوثق تحرك قوة من الجيش نحو كردفان؟ first appeared on Bea",
+          "source": "بيم ريبورتس",
+          "source_id": "beam-ar",
+          "source_class": "sudanese_journalism",
+          "link": "https://www.beamreports.com/2026/11/13/%d9%85%d8%a7-%d8%ad%d9%82%d9%8a%d9%82%d8%a9-%d8%a7%d9%84%d9%81%d9%8a%d8%af%d9%8a%d9%88-%d8%a7%d9%84%d9%85%d8%aa%d8%af%d8%a7%d9%88%d9%84-%d8%b9%d9%84%d9%89-%d8%a3%d9%86%d9%87-%d9%8a%d9%88%d8%ab-25",
+          "status": "Reporting",
+          "geography": [
+            "Kordofan"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "War & Security",
+          "clabel": "الحرب والأمن",
+          "language": "ar",
+          "media_attribution": "بيم ريبورتس"
         }
       },
       {
@@ -4608,30 +4632,6 @@
         }
       },
       {
-        "Title": "سلطات النيجر تمهل آلاف البدو من قبيلة المحاميد حتى نهاية العام لمغادرة البلاد",
-        "Lang": "ar",
-        "Date": "2026-11-15T17:06:21+00:00",
-        "Permalink": "https://www.france24.com/ar/%D8%A3%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7/20261115-%D8%A7%D9%84%D9%86%D9%8A%D8%AC%D8%B1-%D9%85%D9%87%D9%84%D8%A9-%D8%AA%D8%B4%D8%A7%D8%AF-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86-%D8%A7%D9%84%D8%A8%D8%AF%D9%88-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%82%D8%A8%D9%8A%D9%84%D8%A9-%D8%A7%D9%84%D9%85%D8%AD%D8%A7%D9%85%D9%8A%D8%AF-%D8%A7%D9%84%D8%A8%D9%84%D8%A7%D8%AF",
-        "Params": {
-          "description": "أفادت السلطات المحلية في النيجر الأحد، بأن آلاف البدو العرب من قبيلة المحاميد، المقيمين منذ عقود في جنوب شرق البلاد وتحديدا في منطقة ديفا، يواجهون مهلة تنتهي في 31 كانون الأول/ديسمبر 2026، لمغادرة الأراضي النيجرية والعودة إلى بلادهم، بناءً على تعليمات وُصفت بالحازمة من أعلى السلطات. ووصلت الموجة الأولى من المحاميد إلى النيجر في مطلع سبعينات القرن الماضي، هربا من جفاف مدمر ضرب موطنهم الأصلي في تشاد والسودان",
-          "source": "فرانس 24 عربي",
-          "source_id": "france24-ar",
-          "source_class": "international_journalism",
-          "link": "https://www.france24.com/ar/%D8%A3%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7/20261115-%D8%A7%D9%84%D9%86%D9%8A%D8%AC%D8%B1-%D9%85%D9%87%D9%84%D8%A9-%D8%AA%D8%B4%D8%A7%D8%AF-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86-%D8%A7%D9%84%D8%A8%D8%AF%D9%88-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%82%D8%A8%D9%8A%D9%84%D8%A9-%D8%A7%D9%84%D9%85%D8%AD%D8%A7%D9%85%D9%8A%D8%AF-%D8%A7%D9%84%D8%A8%D9%84%D8%A7%D8%AF",
-          "status": "Reporting",
-          "geography": [
-            "National"
-          ],
-          "image": "https://s.france24.com/media/display/ff3631ae-e0f7-11f1-b664-f71d22e7fea9/w:1024/p:16x9/4d329901812e5fc3e07eea41880bd6a9410188c3.jpg",
-          "media_reuse_basis": "rss_metadata",
-          "related_sources": [],
-          "category": "Education",
-          "clabel": "تعليم",
-          "language": "ar",
-          "media_attribution": "فرانس 24 عربي"
-        }
-      },
-      {
         "Title": "افتتاح مؤتمر كوب 31 في أنطاليا - هل تتحول الوعود المناخية أخيرا إلى نتائج؟",
         "Lang": "ar",
         "Date": "2026-11-09T12:00:00+00:00",
@@ -4656,27 +4656,27 @@
         }
       },
       {
-        "Title": "ما حقيقة التصريح المنسوب إلى طمبور بشأن تفويض المؤتمر الوطني للحكم مئة عام؟",
+        "Title": "سلطات النيجر تمهل آلاف البدو من قبيلة المحاميد حتى نهاية العام لمغادرة البلاد",
         "Lang": "ar",
-        "Date": "2026-11-11T14:38:01+00:00",
-        "Permalink": "https://www.beamreports.com/2026/11/11/%d9%85%d8%a7-%d8%ad%d9%82%d9%8a%d9%82%d8%a9-%d8%a7%d9%84%d8%aa%d8%b5%d8%b1%d9%8a%d8%ad-%d8%a7%d9%84%d9%85%d9%86%d8%b3%d9%88%d8%a8-%d8%a5%d9%84%d9%89-%d8%b7%d9%85%d8%a8%d9%88%d8%b1-%d8%a8%d8%b4%d8%a3",
+        "Date": "2026-11-15T17:06:21+00:00",
+        "Permalink": "https://www.france24.com/ar/%D8%A3%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7/20261115-%D8%A7%D9%84%D9%86%D9%8A%D8%AC%D8%B1-%D9%85%D9%87%D9%84%D8%A9-%D8%AA%D8%B4%D8%A7%D8%AF-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86-%D8%A7%D9%84%D8%A8%D8%AF%D9%88-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%82%D8%A8%D9%8A%D9%84%D8%A9-%D8%A7%D9%84%D9%85%D8%AD%D8%A7%D9%85%D9%8A%D8%AF-%D8%A7%D9%84%D8%A8%D9%84%D8%A7%D8%AF",
         "Params": {
-          "description": "ما حقيقة التصريح المنسوب إلى طمبور بشأن تفويض المؤتمر الوطني للحكم مئة عام؟ مفبرك تداولت عدة حسابات على «فيسبوك» تصريحًا منسوبًا إلى والي وسط دارفور ورئيس حركة تحرير السودان (فصيل طمبور) مصطفى طمبور، جاء فيه أن حزب المؤتمر الوطني مفوض من الشعب السوداني ويحظى بشرعية تتيح له الحكم مئة عام. وجاء نص الادعاء على النحو […] The post ما حقيقة التصريح المنسوب إلى طمبور بشأن تفويض المؤتمر الوطني للحكم مئة عام؟ first appeared o",
-          "source": "بيم ريبورتس",
-          "source_id": "beam-ar",
-          "source_class": "sudanese_journalism",
-          "link": "https://www.beamreports.com/2026/11/11/%d9%85%d8%a7-%d8%ad%d9%82%d9%8a%d9%82%d8%a9-%d8%a7%d9%84%d8%aa%d8%b5%d8%b1%d9%8a%d8%ad-%d8%a7%d9%84%d9%85%d9%86%d8%b3%d9%88%d8%a8-%d8%a5%d9%84%d9%89-%d8%b7%d9%85%d8%a8%d9%88%d8%b1-%d8%a8%d8%b4%d8%a3",
+          "description": "أفادت السلطات المحلية في النيجر الأحد، بأن آلاف البدو العرب من قبيلة المحاميد، المقيمين منذ عقود في جنوب شرق البلاد وتحديدا في منطقة ديفا، يواجهون مهلة تنتهي في 31 كانون الأول/ديسمبر 2026، لمغادرة الأراضي النيجرية والعودة إلى بلادهم، بناءً على تعليمات وُصفت بالحازمة من أعلى السلطات. ووصلت الموجة الأولى من المحاميد إلى النيجر في مطلع سبعينات القرن الماضي، هربا من جفاف مدمر ضرب موطنهم الأصلي في تشاد والسودان",
+          "source": "فرانس 24 عربي",
+          "source_id": "france24-ar",
+          "source_class": "international_journalism",
+          "link": "https://www.france24.com/ar/%D8%A3%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7/20261115-%D8%A7%D9%84%D9%86%D9%8A%D8%AC%D8%B1-%D9%85%D9%87%D9%84%D8%A9-%D8%AA%D8%B4%D8%A7%D8%AF-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86-%D8%A7%D9%84%D8%A8%D8%AF%D9%88-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%82%D8%A8%D9%8A%D9%84%D8%A9-%D8%A7%D9%84%D9%85%D8%AD%D8%A7%D9%85%D9%8A%D8%AF-%D8%A7%D9%84%D8%A8%D9%84%D8%A7%D8%AF",
           "status": "Reporting",
           "geography": [
-            "Darfur"
+            "National"
           ],
-          "image": "",
-          "media_reuse_basis": "",
+          "image": "https://s.france24.com/media/display/ff3631ae-e0f7-11f1-b664-f71d22e7fea9/w:1024/p:16x9/4d329901812e5fc3e07eea41880bd6a9410188c3.jpg",
+          "media_reuse_basis": "rss_metadata",
           "related_sources": [],
-          "category": "Politics",
-          "clabel": "سياسة",
+          "category": "Education",
+          "clabel": "تعليم",
           "language": "ar",
-          "media_attribution": "بيم ريبورتس"
+          "media_attribution": "فرانس 24 عربي"
         }
       },
       {
@@ -4705,6 +4705,658 @@
       }
     ],
     "latest": [
+      {
+        "Title": "ارتفاع أسعار الذرة والدقيق يفاقم مخاوف المجاعة في السودان",
+        "Lang": "ar",
+        "Date": "2026-11-15T23:28:21+00:00",
+        "Permalink": "https://www.altaghyeer.info/ar/2026/11/16/%d8%a7%d8%b1%d8%aa%d9%81%d8%a7%d8%b9-%d8%a3%d8%b3%d8%b9%d8%a7%d8%b1-%d8%a7%d9%84%d8%b0%d8%b1%d8%a9-%d9%88%d8%a7%d9%84%d8%af%d9%82%d9%8a%d9%82-%d9%8a%d9%81%d8%a7%d9%82%d9%85-%d9%85%d8%ae%d8%a7%d9%88",
+        "Params": {
+          "description": "حذرت تقارير سودانية من تفاقم أزمة الغذاء في البلاد، في ظل الارتفاع الحاد في أسعار المحاصيل والسلع الأساسية، بعدما تجاوز سعر أردب الذرة مليوني جنيه سوداني، وبلغ سعر جوال الدقيق 200 ألف جنيه، وسط مخاوف من انعكاسات هذه الزيادات على توفر الغذاء واستمرار عمل المخابز. الخرطوم ــ التغيير ونقل موقع “صحيح السودان” عن متعاملين …",
+          "source": "التغيير",
+          "source_id": "altaghyeer-ar",
+          "source_class": "sudanese_journalism",
+          "link": "https://www.altaghyeer.info/ar/2026/11/16/%d8%a7%d8%b1%d8%aa%d9%81%d8%a7%d8%b9-%d8%a3%d8%b3%d8%b9%d8%a7%d8%b1-%d8%a7%d9%84%d8%b0%d8%b1%d8%a9-%d9%88%d8%a7%d9%84%d8%af%d9%82%d9%8a%d9%82-%d9%8a%d9%81%d8%a7%d9%82%d9%85-%d9%85%d8%ae%d8%a7%d9%88",
+          "status": "Reporting",
+          "geography": [
+            "Khartoum"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "Economy",
+          "clabel": "اقتصاد",
+          "language": "ar",
+          "media_attribution": "التغيير"
+        }
+      },
+      {
+        "Title": "دور العرق في مقاومة الأمراض: الحمى الصفراء والجنود السودانيين في المكسيك",
+        "Lang": "ar",
+        "Date": "2026-11-15T22:11:18+00:00",
+        "Permalink": "https://sudanile.com/%d8%af%d9%88%d8%b1-%d8%a7%d9%84%d8%b9%d8%b1%d9%82-%d9%81%d9%8a-%d9%85%d9%82%d8%a7%d9%88%d9%85%d8%a9-%d8%a7%d9%84%d8%a3%d9%85%d8%b1%d8%a7%d8%b6-%d8%a7%d9%84%d8%ad%d9%85%d9%89-%d8%a7%d9%84%d8%b5%d9%81",
+        "Params": {
+          "description": "دور العرق في مقاومة الأمراض: الحمى الصفراء والجنود السودانيين في المكسيكRacial Resistance; yellow Fever and the Sudanese SoldiersHeather Sharkey هيذر شاركيترجمة: بدر الدين حامد الهاشمي تقديم: هذه ترجمة لجزء صغير من كتاب (299 صفحة من القطع الكبير) لهيذر شاركي، الأستاذة الدكتورة بجامعة بنسيلفانيا. صدر الكتاب عام 2026م تحت عنوان:Crossing Continents: Global Microhistory from Egypt and […] The post دور العرق في مقاومة الأ",
+          "source": "سودانايل",
+          "source_id": "sudanile-ar",
+          "source_class": "sudanese_diaspora",
+          "link": "https://sudanile.com/%d8%af%d9%88%d8%b1-%d8%a7%d9%84%d8%b9%d8%b1%d9%82-%d9%81%d9%8a-%d9%85%d9%82%d8%a7%d9%88%d9%85%d8%a9-%d8%a7%d9%84%d8%a3%d9%85%d8%b1%d8%a7%d8%b6-%d8%a7%d9%84%d8%ad%d9%85%d9%89-%d8%a7%d9%84%d8%b5%d9%81",
+          "status": "Reporting",
+          "geography": [
+            "National"
+          ],
+          "image": "https://sudanile.com/wp-content/uploads/2024/06/badr.jpg",
+          "media_reuse_basis": "rss_metadata",
+          "related_sources": [],
+          "category": "Education",
+          "clabel": "تعليم",
+          "language": "ar",
+          "media_attribution": "سودانايل"
+        }
+      },
+      {
+        "Title": "إسماعيل الأزهري، الزعيم وكتابه ورؤيته",
+        "Lang": "ar",
+        "Date": "2026-11-15T22:09:59+00:00",
+        "Permalink": "https://sudanile.com/%d8%a5%d8%b3%d9%85%d8%a7%d8%b9%d9%8a%d9%84-%d8%a7%d9%84%d8%a3%d8%b2%d9%87%d8%b1%d9%8a%d8%8c-%d8%a7%d9%84%d8%b2%d8%b9%d9%8a%d9%85-%d9%88%d9%83%d8%aa%d8%a7%d8%a8%d9%87-%d9%88%d8%b1%d8%a4%d9%8a%d8%aa",
+        "Params": {
+          "description": "إسماعيل الأزهري، الزعيم وكتابه ورؤيتهقراءة في سيرة رافع علم الاستقلال، وفي كتابه «الطريق إلى البرلمان»، وفي رؤيته لسودان ما بعد الاستقلالد. الرشيد خليفةالنسب والنشأة، بين الأزهر والجامعة الأمريكيةوُلد إسماعيل بن أحمد بن إسماعيل المفتي في مدينة أم درمان سنة 1900، لأسرةِ علمٍ وقضاء من قبيلة البديرية التي ترجع أصولها إلى إقليم كردفان، وتُنسب إلى جدّه […] The post إسماعيل الأزهري، الزعيم وكتابه ورؤيته appeared first on س",
+          "source": "سودانايل",
+          "source_id": "sudanile-ar",
+          "source_class": "sudanese_diaspora",
+          "link": "https://sudanile.com/%d8%a5%d8%b3%d9%85%d8%a7%d8%b9%d9%8a%d9%84-%d8%a7%d9%84%d8%a3%d8%b2%d9%87%d8%b1%d9%8a%d8%8c-%d8%a7%d9%84%d8%b2%d8%b9%d9%8a%d9%85-%d9%88%d9%83%d8%aa%d8%a7%d8%a8%d9%87-%d9%88%d8%b1%d8%a4%d9%8a%d8%aa",
+          "status": "Reporting",
+          "geography": [
+            "Khartoum",
+            "Kordofan"
+          ],
+          "image": "https://sudanile.com/wp-content/uploads/2026/09/Rasheeds.jpg",
+          "media_reuse_basis": "rss_metadata",
+          "related_sources": [],
+          "category": "Culture",
+          "clabel": "ثقافة",
+          "language": "ar",
+          "media_attribution": "سودانايل"
+        }
+      },
+      {
+        "Title": "البرهان والإسلاميون… علاقة مأزومة من وراء جُدر،",
+        "Lang": "ar",
+        "Date": "2026-11-15T22:08:52+00:00",
+        "Permalink": "https://sudanile.com/%d8%a7%d9%84%d8%a8%d8%b1%d9%87%d8%a7%d9%86-%d9%88%d8%a7%d9%84%d8%a5%d8%b3%d9%84%d8%a7%d9%85%d9%8a%d9%88%d9%86-%d8%b9%d9%84%d8%a7%d9%82%d8%a9-%d9%85%d8%a3%d8%b2%d9%88%d9%85%d8%a9-%d9%85%d9%86-%d9%88",
+        "Params": {
+          "description": "كتب الأستاذ الجامعي د.محمد عبد الحميدهناك انحياز معرفي يُعرف في علم النفس باسم Hindsight Bias، ويُترجم إلى الانحياز الإدراكي المتأخر، ويشير إلى ميل الإنسان، بعد وقوع حدث ومعرفة نتائجه، إلى الاعتقاد بأن تلك النتائج كانت متوقعة، وأن المؤشرات التي قادت إليها كانت واضحة منذ البداية. ويجد هذا المفهوم تطبيقاته في تحليل العلاقات الدولية والأحداث السياسية، […] The post البرهان والإسلاميون… علاقة مأزومة من وراء جُدر، appeared",
+          "source": "سودانايل",
+          "source_id": "sudanile-ar",
+          "source_class": "sudanese_diaspora",
+          "link": "https://sudanile.com/%d8%a7%d9%84%d8%a8%d8%b1%d9%87%d8%a7%d9%86-%d9%88%d8%a7%d9%84%d8%a5%d8%b3%d9%84%d8%a7%d9%85%d9%8a%d9%88%d9%86-%d8%b9%d9%84%d8%a7%d9%82%d8%a9-%d9%85%d8%a3%d8%b2%d9%88%d9%85%d8%a9-%d9%85%d9%86-%d9%88",
+          "status": "Reporting",
+          "geography": [
+            "National"
+          ],
+          "image": "https://sudanile.com/wp-content/uploads/2026/01/mohamedhamid.jpg",
+          "media_reuse_basis": "rss_metadata",
+          "related_sources": [],
+          "category": "Sudan News",
+          "clabel": "أخبار السودان",
+          "language": "ar",
+          "media_attribution": "سودانايل"
+        }
+      },
+      {
+        "Title": "متى وليس هل سوف تنتهي هذه الحرب الكارثية العبثية المنسية ؟ ( 2- 4 )",
+        "Lang": "ar",
+        "Date": "2026-11-15T22:06:29+00:00",
+        "Permalink": "https://sudanile.com/%d9%85%d8%aa%d9%89-%d9%88%d9%84%d9%8a%d8%b3-%d9%87%d9%84-%d8%b3%d9%88%d9%81-%d8%aa%d9%86%d8%aa%d9%87%d9%8a-%d9%87%d8%b0%d9%87-%d8%a7%d9%84%d8%ad%d8%b1%d8%a8-%d8%a7%d9%84%d9%83%d8%a7%d8%b1%d8%ab-2",
+        "Params": {
+          "description": "الحلقة الثانية عبدالله يوسف حمدالنيل Abdallhmad1951@gmail.com اخر الاخبار ؟ في يوم الاربعاء 11 نوفمبر 2026 ، طالبت مجموعة السبعة ( الولايات المتحدة + بريطانيا + فرنسا + المانيا + ايطاليا + كندا + واليابان ) بوقف اطلاق النار فورا ووقف الحرب باجراء حوار بين الجيش ويمثله الرئيس البرهان ، وبين قوات الدعم السريع ، ويمثلها […] The post متى وليس هل سوف تنتهي هذه الحرب الكارثية العبثية المنسية ؟ ( 2- 4 ) appeared first on سو",
+          "source": "سودانايل",
+          "source_id": "sudanile-ar",
+          "source_class": "sudanese_diaspora",
+          "link": "https://sudanile.com/%d9%85%d8%aa%d9%89-%d9%88%d9%84%d9%8a%d8%b3-%d9%87%d9%84-%d8%b3%d9%88%d9%81-%d8%aa%d9%86%d8%aa%d9%87%d9%8a-%d9%87%d8%b0%d9%87-%d8%a7%d9%84%d8%ad%d8%b1%d8%a8-%d8%a7%d9%84%d9%83%d8%a7%d8%b1%d8%ab-2",
+          "status": "Reporting",
+          "geography": [
+            "National"
+          ],
+          "image": "https://sudanile.com/wp-content/uploads/2021/04/Sudanile-Logo-SQ-11.jpg",
+          "media_reuse_basis": "rss_metadata",
+          "related_sources": [],
+          "category": "War & Security",
+          "clabel": "الحرب والأمن",
+          "language": "ar",
+          "media_attribution": "سودانايل"
+        }
+      },
+      {
+        "Title": "نحو عقد اجتماعي جديد رؤى لإعادة تأسيس الدولة السودانية .. المقال الثامن: أي نظام سياسي نريد؟",
+        "Lang": "ar",
+        "Date": "2026-11-15T22:05:18+00:00",
+        "Permalink": "https://sudanile.com/%d9%86%d8%ad%d9%88-%d8%b9%d9%82%d8%af-%d8%a7%d8%ac%d8%aa%d9%85%d8%a7%d8%b9%d9%8a-%d8%ac%d8%af%d9%8a%d8%af-%d8%b1%d8%a4%d9%89-%d9%84%d8%a5%d8%b9%d8%a7%d8%af%d8%a9-%d8%aa%d8%a3%d8%b3%d9%8a%d8%b3-%d8%a7",
+        "Params": {
+          "description": "نحو عقد اجتماعي جديد رؤى لإعادة تأسيس الدولة السودانية .. المقال الثامن: أي نظام سياسي نريد؟من التسويات المؤقتة إلى تأسيس نظام يحمي المواطنة ويمنع احتكار الدولةبقلم: د. يسن جعفر عبدالله عيسىرئيس هيئة حقوق الإنسانفي المقالات السابقة من هذه السلسلة انتقلنا من سؤال الانتصار في الحرب إلى سؤال الحوار ومن الحوار إلى المصالحة ومن المصالحة إلى […] The post نحو عقد اجتماعي جديد رؤى لإعادة تأسيس الدولة السودانية .. المقال الثا",
+          "source": "سودانايل",
+          "source_id": "sudanile-ar",
+          "source_class": "sudanese_diaspora",
+          "link": "https://sudanile.com/%d9%86%d8%ad%d9%88-%d8%b9%d9%82%d8%af-%d8%a7%d8%ac%d8%aa%d9%85%d8%a7%d8%b9%d9%8a-%d8%ac%d8%af%d9%8a%d8%af-%d8%b1%d8%a4%d9%89-%d9%84%d8%a5%d8%b9%d8%a7%d8%af%d8%a9-%d8%aa%d8%a3%d8%b3%d9%8a%d8%b3-%d8%a7",
+          "status": "Reporting",
+          "geography": [
+            "National"
+          ],
+          "image": "https://sudanile.com/wp-content/uploads/2026/08/YASSINEISA.jpg",
+          "media_reuse_basis": "rss_metadata",
+          "related_sources": [],
+          "category": "War & Security",
+          "clabel": "الحرب والأمن",
+          "language": "ar",
+          "media_attribution": "سودانايل"
+        }
+      },
+      {
+        "Title": "ثروات السودان و فقره .. ذهب المضطر نحاس",
+        "Lang": "ar",
+        "Date": "2026-11-15T22:03:59+00:00",
+        "Permalink": "https://sudanile.com/%d8%ab%d8%b1%d9%88%d8%a7%d8%aa-%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86-%d9%88-%d9%81%d9%82%d8%b1%d9%87-%d8%b0%d9%87%d8%a8-%d8%a7%d9%84%d9%85%d8%b6%d8%b7%d8%b1-%d9%86%d8%ad%d8%a7%d8%b3",
+        "Params": {
+          "description": "(ارض السودان غنية بالموارد المكتشفة وغير المكتشفة و السودان مؤهل لأن يكون من الدول العظمي اقتصادياً ..وكل المشكلة تكمن في الفساد و سوء التخطيط و الادارة): عبارة تتردد كثيراً من افواه الساسة والنخب المتعلمة و تجد هوي لدي العوام.سمعتها ذات مرة من شخص يعمل مستشاراً بالقصر! قلت له ان مشكلة السودان تكمن في فقر موارده […] The post ثروات السودان و فقره .. ذهب المضطر نحاس appeared first on سودانايل .",
+          "source": "سودانايل",
+          "source_id": "sudanile-ar",
+          "source_class": "sudanese_diaspora",
+          "link": "https://sudanile.com/%d8%ab%d8%b1%d9%88%d8%a7%d8%aa-%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86-%d9%88-%d9%81%d9%82%d8%b1%d9%87-%d8%b0%d9%87%d8%a8-%d8%a7%d9%84%d9%85%d8%b6%d8%b7%d8%b1-%d9%86%d8%ad%d8%a7%d8%b3",
+          "status": "Reporting",
+          "geography": [
+            "National"
+          ],
+          "image": "https://sudanile.com/wp-content/uploads/2021/04/Sudanile-Logo-SQ-11.jpg",
+          "media_reuse_basis": "rss_metadata",
+          "related_sources": [],
+          "category": "Economy",
+          "clabel": "اقتصاد",
+          "language": "ar",
+          "media_attribution": "سودانايل"
+        }
+      },
+      {
+        "Title": "هل انتصارنا على الكراهية مثل انتصارنا على الحرب؟",
+        "Lang": "ar",
+        "Date": "2026-11-15T22:01:27+00:00",
+        "Permalink": "https://sudanile.com/%d9%87%d9%84-%d8%a7%d9%86%d8%aa%d8%b5%d8%a7%d8%b1%d9%86%d8%a7-%d8%b9%d9%84%d9%89-%d8%a7%d9%84%d9%83%d8%b1%d8%a7%d9%87%d9%8a%d8%a9-%d9%85%d8%ab%d9%84-%d8%a7%d9%86%d8%aa%d8%b5%d8%a7%d8%b1%d9%86%d8%a7",
+        "Params": {
+          "description": "مختار العوض موسى ليست كل الحروب تلك التي تُخاض بالأسلحة وتُحسم في ميادين القتال، فثمة حروب أخرى قد تكون أكثر خطورة وأطول أمداً، تدور رحاها داخل النفوس والعقول، وتغذيها الكراهية والأحقاد ونزعات الانتقام، وتستهدف ما تبقى من جسور الثقة والعلاقات الإنسانية بين أبناء المجتمع الواحد.وإذا كانت الحرب التي يشهدها السودان منذ الخامس عشر من أبريل […] The post هل انتصارنا على الكراهية مثل انتصارنا على الحرب؟ appeared first on سو",
+          "source": "سودانايل",
+          "source_id": "sudanile-ar",
+          "source_class": "sudanese_diaspora",
+          "link": "https://sudanile.com/%d9%87%d9%84-%d8%a7%d9%86%d8%aa%d8%b5%d8%a7%d8%b1%d9%86%d8%a7-%d8%b9%d9%84%d9%89-%d8%a7%d9%84%d9%83%d8%b1%d8%a7%d9%87%d9%8a%d8%a9-%d9%85%d8%ab%d9%84-%d8%a7%d9%86%d8%aa%d8%b5%d8%a7%d8%b1%d9%86%d8%a7",
+          "status": "Reporting",
+          "geography": [
+            "National"
+          ],
+          "image": "https://sudanile.com/wp-content/uploads/2026/02/mokhtar.jpg",
+          "media_reuse_basis": "rss_metadata",
+          "related_sources": [],
+          "category": "War & Security",
+          "clabel": "الحرب والأمن",
+          "language": "ar",
+          "media_attribution": "سودانايل"
+        }
+      },
+      {
+        "Title": "في أربعينية المفكر السوداني حيدر إبراهيم بالقاهرة.. مفكرون ومثقفون مصريون وسودانيون يستعيدون مشروعه التنويري وإرثه الإنساني",
+        "Lang": "ar",
+        "Date": "2026-11-15T22:00:19+00:00",
+        "Permalink": "https://sudanile.com/%d9%81%d9%8a-%d8%a3%d8%b1%d8%a8%d8%b9%d9%8a%d9%86%d9%8a%d8%a9-%d8%a7%d9%84%d9%85%d9%81%d9%83%d8%b1-%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86%d9%8a-%d8%ad%d9%8a%d8%af%d8%b1-%d8%a5%d8%a8%d8%b1%d8%a7",
+        "Params": {
+          "description": "في أربعينية المفكر السوداني حيدر إبراهيم بالقاهرة.. مفكرون ومثقفون مصريون وسودانيون يستعيدون مشروعه التنويري وإرثه الإنسانيشهادات مؤثرة من الأصدقاء والتلاميذ والأسرة.. واللجنة العليا للتأبين تعلن مواصلة مشروعه الفكري ونقل إرثه إلى الأجيال الجديدةالقاهرة –في أمسية امتزجت فيها مشاعر الوفاء والحزن والاعتزاز بمسيرة أحد أبرز رموز الفكر السوداني المعاصر، أحيت العاصمة المصرية القاهرة أربعينية المفكر وعالم […] The post في أر",
+          "source": "سودانايل",
+          "source_id": "sudanile-ar",
+          "source_class": "sudanese_diaspora",
+          "link": "https://sudanile.com/%d9%81%d9%8a-%d8%a3%d8%b1%d8%a8%d8%b9%d9%8a%d9%86%d9%8a%d8%a9-%d8%a7%d9%84%d9%85%d9%81%d9%83%d8%b1-%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86%d9%8a-%d8%ad%d9%8a%d8%af%d8%b1-%d8%a5%d8%a8%d8%b1%d8%a7",
+          "status": "Reporting",
+          "geography": [
+            "National"
+          ],
+          "image": "https://sudanile.com/wp-content/uploads/2026/11/hayder.jpg",
+          "media_reuse_basis": "rss_metadata",
+          "related_sources": [],
+          "category": "Humanitarian",
+          "clabel": "إنساني",
+          "language": "ar",
+          "media_attribution": "سودانايل"
+        }
+      },
+      {
+        "Title": "هندسة الثقة والسيادة الاقتصادية",
+        "Lang": "ar",
+        "Date": "2026-11-15T21:56:47+00:00",
+        "Permalink": "https://sudanile.com/%d9%87%d9%86%d8%af%d8%b3%d8%a9-%d8%a7%d9%84%d8%ab%d9%82%d8%a9-%d9%88%d8%a7%d9%84%d8%b3%d9%8a%d8%a7%d8%af%d8%a9-%d8%a7%d9%84%d8%a7%d9%82%d8%aa%d8%b5%d8%a7%d8%af%d9%8a%d8%a9",
+        "Params": {
+          "description": "هندسة الثقة والسيادة الاقتصاديةنحو إطار حوكمي موحد لإعادة إعمار السوداناسامة علي عبد الحليمهذا المقال يلخص ورقة ستنشر لاحقا تحمل ذات العنوان اعلاه . ويمكن إرسالها كاملة لمن يرغب .ان إعادة إعمار السودان بعد الحرب ليست مجرد عملية لجمع التمويل وإعادة بناء ما دمرته الحرب، بل هي فرصة لإعادة التفكير في علاقة الدولة بالاقتصاد والاستثمار، وفي […] The post هندسة الثقة والسيادة الاقتصادية appeared first on سودانايل .",
+          "source": "سودانايل",
+          "source_id": "sudanile-ar",
+          "source_class": "sudanese_diaspora",
+          "link": "https://sudanile.com/%d9%87%d9%86%d8%af%d8%b3%d8%a9-%d8%a7%d9%84%d8%ab%d9%82%d8%a9-%d9%88%d8%a7%d9%84%d8%b3%d9%8a%d8%a7%d8%af%d8%a9-%d8%a7%d9%84%d8%a7%d9%82%d8%aa%d8%b5%d8%a7%d8%af%d9%8a%d8%a9",
+          "status": "Reporting",
+          "geography": [
+            "National"
+          ],
+          "image": "https://sudanile.com/wp-content/uploads/2026/06/osamahalim.jpg",
+          "media_reuse_basis": "rss_metadata",
+          "related_sources": [],
+          "category": "Economy",
+          "clabel": "اقتصاد",
+          "language": "ar",
+          "media_attribution": "سودانايل"
+        }
+      },
+      {
+        "Title": "بركة ساكن.. لا تحاكموا الأدب بمنطق الخصومة",
+        "Lang": "ar",
+        "Date": "2026-11-15T21:53:28+00:00",
+        "Permalink": "https://sudanile.com/%d8%a8%d8%b1%d9%83%d8%a9-%d8%b3%d8%a7%d9%83%d9%86-%d9%84%d8%a7-%d8%aa%d8%ad%d8%a7%d9%83%d9%85%d9%88%d8%a7-%d8%a7%d9%84%d8%a3%d8%af%d8%a8-%d8%a8%d9%85%d9%86%d8%b7%d9%82-%d8%a7%d9%84%d8%ae%d8%b5%d9%88",
+        "Params": {
+          "description": "بقلم: د. محمد بدوي مصطفى دفاعاً عن الأدب السوداني، ورفضا لثقافة تحطيم الناجحين ثمة ظاهرة مؤسفة يا سادتي تتكرر في حياتنا الثقافية السودانية، وهي عجزنا أحياناً عن الاحتفاء بنجاح أحد أبناء وطننا، خصوصاً حين يتجاوز حدودنا المحلية ويجد لنفسه مكاناً في المشهد الثقافي العالمي. فبدلاً من أن نرى في نجاحه إضافة إلى رصيد السودان الثقافي، […] The post بركة ساكن.. لا تحاكموا الأدب بمنطق الخصومة appeared first on سودانايل .",
+          "source": "سودانايل",
+          "source_id": "sudanile-ar",
+          "source_class": "sudanese_diaspora",
+          "link": "https://sudanile.com/%d8%a8%d8%b1%d9%83%d8%a9-%d8%b3%d8%a7%d9%83%d9%86-%d9%84%d8%a7-%d8%aa%d8%ad%d8%a7%d9%83%d9%85%d9%88%d8%a7-%d8%a7%d9%84%d8%a3%d8%af%d8%a8-%d8%a8%d9%85%d9%86%d8%b7%d9%82-%d8%a7%d9%84%d8%ae%d8%b5%d9%88",
+          "status": "Reporting",
+          "geography": [
+            "National"
+          ],
+          "image": "https://sudanile.com/wp-content/uploads/2026/01/badwii.jpg",
+          "media_reuse_basis": "rss_metadata",
+          "related_sources": [],
+          "category": "Culture",
+          "clabel": "ثقافة",
+          "language": "ar",
+          "media_attribution": "سودانايل"
+        }
+      },
+      {
+        "Title": "16 نوفمبر.. مولانا ويوم الهول",
+        "Lang": "ar",
+        "Date": "2026-11-15T21:52:11+00:00",
+        "Permalink": "https://sudanile.com/16-%d9%86%d9%88%d9%81%d9%85%d8%a8%d8%b1-%d9%85%d9%88%d9%84%d8%a7%d9%86%d8%a7-%d9%88%d9%8a%d9%88%d9%85-%d8%a7%d9%84%d9%87%d9%88%d9%84",
+        "Params": {
+          "description": "لبنى أحمد حسينومن كراماته، رحمه الله، أن يُوارى الثرى يوم الاثنين، 16 نوفمبر؛ التاريخ الذي ارتبط في ذاكرة السودان بمبادرة السلام السودانية، أو ما عُرف باتفاقية الميرغني–قرنق، التي جمعت فقيد البلاد مولانا السيد محمد عثمان الميرغني، مرشد الطريقة الختمية ورئيس الحزب الاتحادي الديمقراطي، مع الراحل د. جون قرنق، زعيم الحركة الشعبية لتحرير السودان، عام 1988، […] The post 16 نوفمبر.. مولانا ويوم الهول appeared first on سودان",
+          "source": "سودانايل",
+          "source_id": "sudanile-ar",
+          "source_class": "sudanese_diaspora",
+          "link": "https://sudanile.com/16-%d9%86%d9%88%d9%81%d9%85%d8%a8%d8%b1-%d9%85%d9%88%d9%84%d8%a7%d9%86%d8%a7-%d9%88%d9%8a%d9%88%d9%85-%d8%a7%d9%84%d9%87%d9%88%d9%84",
+          "status": "Reporting",
+          "geography": [
+            "National"
+          ],
+          "image": "https://sudanile.com/wp-content/uploads/2020/02/images_lubnna.PNG",
+          "media_reuse_basis": "rss_metadata",
+          "related_sources": [],
+          "category": "Politics",
+          "clabel": "سياسة",
+          "language": "ar",
+          "media_attribution": "سودانايل"
+        }
+      },
+      {
+        "Title": "الانتخابات الأمريكية النصفية وتداعياتها على الحرب فى السودان 3/3",
+        "Lang": "ar",
+        "Date": "2026-11-15T21:51:05+00:00",
+        "Permalink": "https://sudanile.com/%d8%a7%d9%84%d8%a7%d9%86%d8%aa%d8%ae%d8%a7%d8%a8%d8%a7%d8%aa-%d8%a7%d9%84%d8%a3%d9%85%d8%b1%d9%8a%d9%83%d9%8a%d8%a9-%d8%a7%d9%84%d9%86%d8%b5%d9%81%d9%8a%d8%a9-%d9%88%d8%aa%d8%af%d8%a7%d8%b9%d9%8a",
+        "Params": {
+          "description": "مواصلة للمقال السابق حول الانتخابات الأمريكية النصفية وتاثيرها على الحرب فى السودانإذا نظرنا للهزيمة الساحقة التي تلقاها الحزب الجمهورى وربطنا ذلك ببروز التيار الاشتراكى التقدمى فى الحزب الديمقراطى فإننا نستشعر بان رياح التغيير الحقيقة التى ملات أشرعة الحزب الديمقراطى ستقود ا لمركب الأمريكي فى اتجاه آخر.بدأ هذا الصراع داخل الحزب بقيادة الربان العتيق بيرنى ساندرز […] The post الانتخابات الأمريكية النصفية وتداعياتها عل",
+          "source": "سودانايل",
+          "source_id": "sudanile-ar",
+          "source_class": "sudanese_diaspora",
+          "link": "https://sudanile.com/%d8%a7%d9%84%d8%a7%d9%86%d8%aa%d8%ae%d8%a7%d8%a8%d8%a7%d8%aa-%d8%a7%d9%84%d8%a3%d9%85%d8%b1%d9%8a%d9%83%d9%8a%d8%a9-%d8%a7%d9%84%d9%86%d8%b5%d9%81%d9%8a%d8%a9-%d9%88%d8%aa%d8%af%d8%a7%d8%b9%d9%8a",
+          "status": "Reporting",
+          "geography": [
+            "National"
+          ],
+          "image": "https://sudanile.com/wp-content/uploads/2025/04/montasir.jpg",
+          "media_reuse_basis": "rss_metadata",
+          "related_sources": [],
+          "category": "War & Security",
+          "clabel": "الحرب والأمن",
+          "language": "ar",
+          "media_attribution": "سودانايل"
+        }
+      },
+      {
+        "Title": "“دار أبوك”… وإذا الموءودة سئلت .. كتاب السينمائي سامي الصاوي عن أم درمان رسالة شوق جديرة بالقراءة",
+        "Lang": "ar",
+        "Date": "2026-11-15T21:49:43+00:00",
+        "Permalink": "https://sudanile.com/%d8%af%d8%a7%d8%b1-%d8%a3%d8%a8%d9%88%d9%83-%d9%88%d8%a5%d8%b0%d8%a7-%d8%a7%d9%84%d9%85%d9%88%d8%a1%d9%88%d8%af%d8%a9-%d8%b3%d8%a6%d9%84%d8%aa-%d9%83%d8%aa%d8%a7%d8%a8-%d8%a7%d9%84%d8%b3",
+        "Params": {
+          "description": "صلاح حسن أحمد عرض كتاب:أم درمان عموم (دار أبوك)المؤلف: سامي الصاويالناشر: دار باركورد، 1926186 صفحة من القطع المتوسط حري بنا أن نحتفل بإصدار السينمائي الأديب سامي الصاوي كتابه “أم درمان عموم (دار أبوك)” هذا العام عن دار باركورد للنشر.هذا الكتاب رسالة شوق للبقعة المباركة وسحرها المدرج الآن في باب “خرج ولم يعد”. وهذه رسالة يمكن […] The post “دار أبوك”… وإذا الموءودة سئلت .. كتاب السينمائي سامي الصاوي عن أم درمان رسالة ",
+          "source": "سودانايل",
+          "source_id": "sudanile-ar",
+          "source_class": "sudanese_diaspora",
+          "link": "https://sudanile.com/%d8%af%d8%a7%d8%b1-%d8%a3%d8%a8%d9%88%d9%83-%d9%88%d8%a5%d8%b0%d8%a7-%d8%a7%d9%84%d9%85%d9%88%d8%a1%d9%88%d8%af%d8%a9-%d8%b3%d8%a6%d9%84%d8%aa-%d9%83%d8%aa%d8%a7%d8%a8-%d8%a7%d9%84%d8%b3",
+          "status": "Reporting",
+          "geography": [
+            "Khartoum"
+          ],
+          "image": "https://sudanile.com/wp-content/uploads/2026/11/sawii.jpg",
+          "media_reuse_basis": "rss_metadata",
+          "related_sources": [],
+          "category": "Culture",
+          "clabel": "ثقافة",
+          "language": "ar",
+          "media_attribution": "سودانايل"
+        }
+      },
+      {
+        "Title": "الحرب أم السلام في السودان؟",
+        "Lang": "ar",
+        "Date": "2026-11-15T21:46:40+00:00",
+        "Permalink": "https://sudanile.com/%d8%a7%d9%84%d8%ad%d8%b1%d8%a8-%d8%a3%d9%85-%d8%a7%d9%84%d8%b3%d9%84%d8%a7%d9%85-%d9%81%d9%8a-%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86%d8%9f",
+        "Params": {
+          "description": "الحرب أم السلام في السودان؟ دوافع وحجج المطالبين باستمرار الحرب للقضاء على قوات الدعم السريع، ومبررات الداعين إلى وقفها: مقارنة نقدية لجدوى الخيارين وتكاليفهما وشروط إنهاء الحرب وبناء الدولة د. عبد المنعم مختارأستاذ جامعي في مجال الصحة العامةالمدير العام للشركة الألمانية-السودانية للبحوث والاستشارات وبناء القدراتالمدير التنفيذي لمركز السياسات القائمة على الأدلة والبياناتmoniem.mukhtar@gmail.com الملخص يتناول المقال [",
+          "source": "سودانايل",
+          "source_id": "sudanile-ar",
+          "source_class": "sudanese_diaspora",
+          "link": "https://sudanile.com/%d8%a7%d9%84%d8%ad%d8%b1%d8%a8-%d8%a3%d9%85-%d8%a7%d9%84%d8%b3%d9%84%d8%a7%d9%85-%d9%81%d9%8a-%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86%d8%9f",
+          "status": "Reporting",
+          "geography": [
+            "National"
+          ],
+          "image": "https://sudanile.com/wp-content/uploads/2026/01/monemokhtar.jpeg",
+          "media_reuse_basis": "rss_metadata",
+          "related_sources": [],
+          "category": "War & Security",
+          "clabel": "الحرب والأمن",
+          "language": "ar",
+          "media_attribution": "سودانايل"
+        }
+      },
+      {
+        "Title": "انتهاكات مليشيا قبيلة المشتركة في كردفان طابعها عرقي",
+        "Lang": "ar",
+        "Date": "2026-11-15T21:42:42+00:00",
+        "Permalink": "https://sudanile.com/%d8%a7%d9%86%d8%aa%d9%87%d8%a7%d9%83%d8%a7%d8%aa-%d9%85%d9%84%d9%8a%d8%b4%d9%8a%d8%a7-%d9%82%d8%a8%d9%8a%d9%84%d8%a9-%d8%a7%d9%84%d9%85%d8%b4%d8%aa%d8%b1%d9%83%d8%a9-%d9%81%d9%8a-%d9%83%d8%b1%d8%af",
+        "Params": {
+          "description": "منذ أن انحازت مليشيا قبيلة المشتركة لجيش الاخوان في حربه الظالمة على المجتمعات السودانية، ومنذ أن قادت حرب بالوكالة عن هذا الجيش المجرم، وخاضت معارك كردفان، انخرط افراد هذه المليشيا في انتهاكات عرقية انتقائية موجهة ضد المكونات الاجتماعية التي يحسبها نظام بورتسودان حواضن لقوات الدعم السريع، ورأينا بالأمس كيف سحل افراد هذه المليشيا مواطناً أعزل […] The post انتهاكات مليشيا قبيلة المشتركة في كردفان طابعها عرقي appeared ",
+          "source": "سودانايل",
+          "source_id": "sudanile-ar",
+          "source_class": "sudanese_diaspora",
+          "link": "https://sudanile.com/%d8%a7%d9%86%d8%aa%d9%87%d8%a7%d9%83%d8%a7%d8%aa-%d9%85%d9%84%d9%8a%d8%b4%d9%8a%d8%a7-%d9%82%d8%a8%d9%8a%d9%84%d8%a9-%d8%a7%d9%84%d9%85%d8%b4%d8%aa%d8%b1%d9%83%d8%a9-%d9%81%d9%8a-%d9%83%d8%b1%d8%af",
+          "status": "Reporting",
+          "geography": [
+            "Kordofan",
+            "Red Sea"
+          ],
+          "image": "https://sudanile.com/wp-content/uploads/2026/01/ismail.jpg",
+          "media_reuse_basis": "rss_metadata",
+          "related_sources": [],
+          "category": "War & Security",
+          "clabel": "الحرب والأمن",
+          "language": "ar",
+          "media_attribution": "سودانايل"
+        }
+      },
+      {
+        "Title": "الدولار يتخطي حاجز ال ( عشرة آلاف جنيه سوداني ) !!..",
+        "Lang": "ar",
+        "Date": "2026-11-15T21:38:38+00:00",
+        "Permalink": "https://sudanile.com/%d8%a7%d9%84%d8%af%d9%88%d9%84%d8%a7%d8%b1-%d9%8a%d8%aa%d8%ae%d8%b7%d9%8a-%d8%ad%d8%a7%d8%ac%d8%b2-%d8%a7%d9%84-%d8%b9%d8%b4%d8%b1%d8%a9-%d8%a2%d9%84%d8%a7%d9%81-%d8%ac%d9%86%d9%8a%d9%87-%d8%b3",
+        "Params": {
+          "description": "الدولار يتخطي حاجز ال ( عشرة آلاف جنيه سوداني ) !!.. أمام الشعب شارة ربط الحزام فلا يرونها والطائرة تهوي بسرعة فائقة الي أسفل وحتي الارتطام المتوقع لا احد من الجمهور يراه راي العين وحتي أهل الاختصاص لا ندري أين هم ؟! ولماذا هذا الصمت المطبق من جانبهم ؟! وهم يتمثلون قول الزعيم سعد زغلول […] The post الدولار يتخطي حاجز ال ( عشرة آلاف جنيه سوداني ) !!.. appeared first on سودانايل .",
+          "source": "سودانايل",
+          "source_id": "sudanile-ar",
+          "source_class": "sudanese_diaspora",
+          "link": "https://sudanile.com/%d8%a7%d9%84%d8%af%d9%88%d9%84%d8%a7%d8%b1-%d9%8a%d8%aa%d8%ae%d8%b7%d9%8a-%d8%ad%d8%a7%d8%ac%d8%b2-%d8%a7%d9%84-%d8%b9%d8%b4%d8%b1%d8%a9-%d8%a2%d9%84%d8%a7%d9%81-%d8%ac%d9%86%d9%8a%d9%87-%d8%b3",
+          "status": "Reporting",
+          "geography": [
+            "National"
+          ],
+          "image": "https://sudanile.com/wp-content/uploads/2026/01/hamadnile.jpg",
+          "media_reuse_basis": "rss_metadata",
+          "related_sources": [],
+          "category": "Sudan News",
+          "clabel": "أخبار السودان",
+          "language": "ar",
+          "media_attribution": "سودانايل"
+        }
+      },
+      {
+        "Title": "في الذكرى ٦٨ لانقلاب ١٧ نوفمبر ١٩٥٨ (١/٢)",
+        "Lang": "ar",
+        "Date": "2026-11-15T21:29:42+00:00",
+        "Permalink": "https://sudanile.com/%d9%81%d9%8a-%d8%a7%d9%84%d8%b0%d9%83%d8%b1%d9%89-%d9%a6%d9%a8-%d9%84%d8%a7%d9%86%d9%82%d9%84%d8%a7%d8%a8-%d9%a1%d9%a7-%d9%86%d9%88%d9%81%d9%85%d8%a8%d8%b1-%d9%a1%d9%a9%d9%a5%d9%a8-%d9%a1-%d9%a2",
+        "Params": {
+          "description": "بقلم : تاج السر عثمان1مضي ٦٨ عاما على انقلاب ١٧ نوفمبر ١٩٥٨ الذي تم فيه تقويض تجربة الديمقراطية الأولي ، وكان أول تجربة مريرة لانقلاب عسكري مر به السودان بعد الاستقلال عام 1956 ، كان الانقلاب انتكاسة للتجربة الديمقراطية التي لم يمض عليها أكثر من ثلاث سنوات بعد الاستقلال.قطع الانقلاب التطور الديمقراطي والتجربة الديمقراطية الوليدة […] The post في الذكرى ٦٨ لانقلاب ١٧ نوفمبر ١٩٥٨ (١/٢) appeared first on سودانايل .",
+          "source": "سودانايل",
+          "source_id": "sudanile-ar",
+          "source_class": "sudanese_diaspora",
+          "link": "https://sudanile.com/%d9%81%d9%8a-%d8%a7%d9%84%d8%b0%d9%83%d8%b1%d9%89-%d9%a6%d9%a8-%d9%84%d8%a7%d9%86%d9%82%d9%84%d8%a7%d8%a8-%d9%a1%d9%a7-%d9%86%d9%88%d9%81%d9%85%d8%a8%d8%b1-%d9%a1%d9%a9%d9%a5%d9%a8-%d9%a1-%d9%a2",
+          "status": "Reporting",
+          "geography": [
+            "National"
+          ],
+          "image": "https://sudanile.com/wp-content/uploads/2026/01/elsir-1.jpg",
+          "media_reuse_basis": "rss_metadata",
+          "related_sources": [],
+          "category": "Sudan News",
+          "clabel": "أخبار السودان",
+          "language": "ar",
+          "media_attribution": "سودانايل"
+        }
+      },
+      {
+        "Title": "سِفْرُ الخلود والريادة ومضات من مسيرة الزعيم السوداني محمد عثمان الميرغني",
+        "Lang": "ar",
+        "Date": "2026-11-15T21:28:16+00:00",
+        "Permalink": "https://sudanile.com/%d8%b3%d9%90%d9%81%d9%92%d8%b1%d9%8f-%d8%a7%d9%84%d8%ae%d9%84%d9%88%d8%af-%d9%88%d8%a7%d9%84%d8%b1%d9%8a%d8%a7%d8%af%d8%a9-%d9%88%d9%85%d8%b6%d8%a7%d8%aa-%d9%85%d9%86-%d9%85%d8%b3%d9%8a%d8%b1%d8%a9",
+        "Params": {
+          "description": "بقلم: السر جميل تتمخض الذاكرة الوطنية السودانية بين الحين والآخر عن قامات شامخة، تتشابك فيها خيوط السياسة العميقة بنفحات التصوف الزاكي، لتخطّ تاريخاً مليئاً بالبذل والتجرد والعطاء المستمر. ويأتي في طليعة هذه العلامات الفارقة السيد محمد عثمان الميرغني، مرشد الطريقة الختمية وزعيم الحزب الاتحادي الديمقراطي، الذي غيّبه الموت تاركاً خلفه ارثاً مديداً من الحكمة، والاعتدال، […] The post سِفْرُ الخلود والريادة ومضات من مسيرة",
+          "source": "سودانايل",
+          "source_id": "sudanile-ar",
+          "source_class": "sudanese_diaspora",
+          "link": "https://sudanile.com/%d8%b3%d9%90%d9%81%d9%92%d8%b1%d9%8f-%d8%a7%d9%84%d8%ae%d9%84%d9%88%d8%af-%d9%88%d8%a7%d9%84%d8%b1%d9%8a%d8%a7%d8%af%d8%a9-%d9%88%d9%85%d8%b6%d8%a7%d8%aa-%d9%85%d9%86-%d9%85%d8%b3%d9%8a%d8%b1%d8%a9",
+          "status": "Reporting",
+          "geography": [
+            "National"
+          ],
+          "image": "https://sudanile.com/wp-content/uploads/2026/11/merganii.jpg",
+          "media_reuse_basis": "rss_metadata",
+          "related_sources": [],
+          "category": "War & Security",
+          "clabel": "الحرب والأمن",
+          "language": "ar",
+          "media_attribution": "سودانايل"
+        }
+      },
+      {
+        "Title": "مولانا السيد محمد عثمان الميرغني.. رحيل آخر حراس البيت الاتحادي الكبير",
+        "Lang": "ar",
+        "Date": "2026-11-15T21:23:42+00:00",
+        "Permalink": "https://sudanile.com/%d9%85%d9%88%d9%84%d8%a7%d9%86%d8%a7-%d8%a7%d9%84%d8%b3%d9%8a%d8%af-%d9%85%d8%ad%d9%85%d8%af-%d8%b9%d8%ab%d9%85%d8%a7%d9%86-%d8%a7%d9%84%d9%85%d9%8a%d8%b1%d8%ba%d9%86%d9%8a-%d8%b1%d8%ad%d9%8a%d9%84",
+        "Params": {
+          "description": "دكتور محمد عبداللهبرحيل مولانا السيد محمد عثمان الميرغني، في القاهرة، يطوي السودان صفحة من صفحات تاريخه السياسي والديني الحديث، ويغيب واحد من آخر رموز جيل ارتبطت أسماؤه بتشكّل الدولة الوطنية، وبالصراع الطويل بين السياسة والطائفة، وبين فكرة الحزب وميراث الزعامة العائلية.لم يكن مولانا الميرغني مجرد رئيس لحزب سياسي أو مرشد لطريقة صوفية واسعة الانتشار، بل […] The post مولانا السيد محمد عثمان الميرغني.. رحيل آخر حراس البي",
+          "source": "سودانايل",
+          "source_id": "sudanile-ar",
+          "source_class": "sudanese_diaspora",
+          "link": "https://sudanile.com/%d9%85%d9%88%d9%84%d8%a7%d9%86%d8%a7-%d8%a7%d9%84%d8%b3%d9%8a%d8%af-%d9%85%d8%ad%d9%85%d8%af-%d8%b9%d8%ab%d9%85%d8%a7%d9%86-%d8%a7%d9%84%d9%85%d9%8a%d8%b1%d8%ba%d9%86%d9%8a-%d8%b1%d8%ad%d9%8a%d9%84",
+          "status": "Reporting",
+          "geography": [
+            "National"
+          ],
+          "image": "https://sudanile.com/wp-content/uploads/2026/02/mohamedabdala.jpg",
+          "media_reuse_basis": "rss_metadata",
+          "related_sources": [],
+          "category": "Sport",
+          "clabel": "رياضة",
+          "language": "ar",
+          "media_attribution": "سودانايل"
+        }
+      },
+      {
+        "Title": "بيان مشترك للمجموعة الخماسية بشأن تصاعد الأعمال العدائية في السودان",
+        "Lang": "ar",
+        "Date": "2026-11-15T21:06:26+00:00",
+        "Permalink": "https://sudanwarmonitor.com/p/0ea",
+        "Params": {
+          "description": "المجموعة الخماسية لا يوجد حل عسكري للحرب الدائرة وتدعو الي وقف الاعمال العدائية",
+          "source": "Sudan War Monitor",
+          "source_id": "sudan-war-monitor",
+          "source_class": "analysis",
+          "link": "https://sudanwarmonitor.com/p/0ea",
+          "status": "Analysis",
+          "geography": [
+            "National"
+          ],
+          "image": "https://substackcdn.com/image/fetch/$s_!m0P3!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe2362599-a4ac-4787-a223-077cc41d1996_949x713.jpeg",
+          "media_reuse_basis": "rss_metadata",
+          "related_sources": [],
+          "category": "Sudan News",
+          "clabel": "أخبار السودان",
+          "language": "ar",
+          "media_attribution": "Sudan War Monitor"
+        }
+      },
+      {
+        "Title": "تفاقم أزمة سعر الصرف في السودان والدولار يلامس حاجز الـ (11) ألف جنيه",
+        "Lang": "ar",
+        "Date": "2026-11-15T21:06:13+00:00",
+        "Permalink": "https://sudantribune.net/article/321265",
+        "Params": {
+          "description": "الخرطوم 15 نوفمبر 2026 – واصل الجنيه السوداني تراجعه القياسي أمام العملات الأجنبية، مقتربًا من حاجز 11 ألف مقابل الدولار الواحد في السوق الموازي، وسط تصاعد الطلب على النقد الأجنبي، فيما شهدت أسعار السلع موجة جديدة من الارتفاع. ومنذ أسابيع، تشهد العملة المحلية في السودان تراجعًا غير مسبوق أمام العملات الأجنبية، وألقى هذا الانخفاض بظلاله على الأسواق. وقال متعاملون في سوق النقد الأجنبي لـ«سودان تربيون»، الأحد، إن سعر تد",
+          "source": "Sudan Tribune Arabic",
+          "source_id": "sudan-tribune-ar",
+          "source_class": "sudanese_journalism",
+          "link": "https://sudantribune.net/article/321265",
+          "status": "Reporting",
+          "geography": [
+            "Khartoum"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "Economy",
+          "clabel": "اقتصاد",
+          "language": "ar",
+          "media_attribution": "Sudan Tribune Arabic"
+        }
+      },
+      {
+        "Title": "قائد ميداني في الدعم السريع يعلن الالتحاق بالجيش السوداني",
+        "Lang": "ar",
+        "Date": "2026-11-15T20:06:13+00:00",
+        "Permalink": "https://sudantribune.net/article/321251",
+        "Params": {
+          "description": "الخرطوم 15 نوفمبر 2026 – أعلن قائد ميداني في الدعم السريع، الأحد، انشقاقه عن القوات وانضمامه إلى الجيش السوداني. وتأتي هذه الخطوة في سياق موجات من الانشقاقات التي شهدتها الدعم السريع خلال الأشهر الماضية، مع إعلان عدد من القادة الميدانيين والمقاتلين مغادرة صفوفها والانضمام إلى القوات المسلحة. وقال أحمد حسب الرسول قائد المجموعة الأولى سرف عمرة في فيديو: “أعلن انشقاقي رسميًا من مليشيا الدعم السريع والانضمام للقوات المسل",
+          "source": "Sudan Tribune Arabic",
+          "source_id": "sudan-tribune-ar",
+          "source_class": "sudanese_journalism",
+          "link": "https://sudantribune.net/article/321251",
+          "status": "Reporting",
+          "geography": [
+            "Khartoum"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "War & Security",
+          "clabel": "الحرب والأمن",
+          "language": "ar",
+          "media_attribution": "Sudan Tribune Arabic"
+        }
+      },
+      {
+        "Title": "غارات مكثفة للجيش السوداني وتقدم ميداني نحو النهود",
+        "Lang": "ar",
+        "Date": "2026-11-15T19:58:01+00:00",
+        "Permalink": "https://sudantribune.net/article/321253",
+        "Params": {
+          "description": "الخوي 15 نوفمبر 2026 – شن الطيران المسيّر التابع للجيش السوداني، الأحد، سلسلة غارات جوية مكثفة استهدفت مواقع تابعة لقوات الدعم السريع في عدد من مدن ومناطق ولاية غرب كردفان، بالتزامن مع تقدم ميداني باتجاه مدينة النهود، كبرى مدن الولاية. وكان الجيش وحلفاؤه من القوة المشتركة، سيطروا الجمعة الماضي على مدينة الخوي، بولاية غرب كردفان، وذلك ضمن مواصلة للعمليات العسكرية في إقليم كردفان والتي ابتدرها الجيش في نهايات يونيو الم",
+          "source": "Sudan Tribune Arabic",
+          "source_id": "sudan-tribune-ar",
+          "source_class": "sudanese_journalism",
+          "link": "https://sudantribune.net/article/321253",
+          "status": "Reporting",
+          "geography": [
+            "Kordofan"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "War & Security",
+          "clabel": "الحرب والأمن",
+          "language": "ar",
+          "media_attribution": "Sudan Tribune Arabic"
+        }
+      },
+      {
+        "Title": "فرار آلاف الأشخاص جراء نزاع قبلي في جنوب دارفور",
+        "Lang": "ar",
+        "Date": "2026-11-15T19:11:10+00:00",
+        "Permalink": "https://sudantribune.net/article/321256",
+        "Params": {
+          "description": "الخرطوم 15 نوفمبر 2026 – كشفت منظمة الهجرة الدولية التابعة للأمم المتحدة، الأحد، عن فرار آلاف الأشخاص بسبب نزاع أهلي بين قبيلتي الهبانية والرزيقات في محلية السنطة بولاية جنوب دارفور غربي السودان. وتشهد قرى محلية السنطة مواجهات متفرقة بين مجموعتين من الهبانية والرزيقات منذ 8 نوفمبر الحالي، على خلفية اتهامات بسرقة ماشية، أسفرت عن مقتل عشرات الأشخاص وإحراق بلدات. وقالت منظمة الهجرة، في بيان، إن “نحو 7,065 شخصًا نزحوا يو",
+          "source": "Sudan Tribune Arabic",
+          "source_id": "sudan-tribune-ar",
+          "source_class": "sudanese_journalism",
+          "link": "https://sudantribune.net/article/321256",
+          "status": "Reporting",
+          "geography": [
+            "Khartoum",
+            "Darfur"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "Agriculture",
+          "clabel": "زراعة",
+          "language": "ar",
+          "media_attribution": "Sudan Tribune Arabic"
+        }
+      },
+      {
+        "Title": "بعد خمس سنوات: ما أسباب انقلاب أكتوبر 2021 وهل مهّد لاندلاع الحرب؟",
+        "Lang": "ar",
+        "Date": "2026-11-15T18:57:27+00:00",
+        "Permalink": "https://www.beamreports.com/2026/11/15/%d8%a8%d8%b9%d8%af-%d8%ae%d9%85%d8%b3-%d8%b3%d9%86%d9%88%d8%a7%d8%aa-%d9%85%d8%a7-%d8%a3%d8%b3%d8%a8%d8%a7%d8%a8-%d8%a7%d9%86%d9%82%d9%84%d8%a7%d8%a8-%d8%a3%d9%83%d8%aa%d9%88%d8%a8%d8%b1-2021-%d9%88",
+        "Params": {
+          "description": "بعد مرور خمس سنوات على الانقلاب، في 25 أكتوبر الماضي، ما تزال الأسئلة تُطرح بشأن أسبابه ودوافعه وأهدافه ومن يقف خلفه والبيئة السياسية الداخلية والخارجية التي أنتجته، وما إن كان الانقلاب قد أدى إلى الصراع الدائر بين (الجيش والدعم السريع). في صبيحة يوم الاثنين الموافق 25 أكتوبر 2021، وقبل أسابيع قليلة من تولي المكون المدني […] The post بعد خمس سنوات: ما أسباب انقلاب أكتوبر 2021 وهل مهّد لاندلاع الحرب؟ first appeared on",
+          "source": "بيم ريبورتس",
+          "source_id": "beam-ar",
+          "source_class": "sudanese_journalism",
+          "link": "https://www.beamreports.com/2026/11/15/%d8%a8%d8%b9%d8%af-%d8%ae%d9%85%d8%b3-%d8%b3%d9%86%d9%88%d8%a7%d8%aa-%d9%85%d8%a7-%d8%a3%d8%b3%d8%a8%d8%a7%d8%a8-%d8%a7%d9%86%d9%82%d9%84%d8%a7%d8%a8-%d8%a3%d9%83%d8%aa%d9%88%d8%a8%d8%b1-2021-%d9%88",
+          "status": "Reporting",
+          "geography": [
+            "National"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "War & Security",
+          "clabel": "الحرب والأمن",
+          "language": "ar",
+          "media_attribution": "بيم ريبورتس"
+        }
+      },
+      {
+        "Title": "نزوح 1515 شخصاً من ولايتي شمال دارفور والنيل الأزرق في يومين",
+        "Lang": "ar",
+        "Date": "2026-11-15T18:50:25+00:00",
+        "Permalink": "https://www.alaraby.co.uk/society/%D9%86%D8%B2%D9%88%D8%AD-1515-%D8%B4%D8%AE%D8%B5%D8%A7%D9%8B-%D9%85%D9%86-%D9%88%D9%84%D8%A7%D9%8A%D8%AA%D9%8A-%D8%B4%D9%85%D8%A7%D9%84-%D8%AF%D8%A7%D8%B1%D9%81%D9%88%D8%B1-%D9%88%D8%A7%D9%84%D9%86%D9%8A%D9%84-%D8%A7%D9%84%D8%A3%D8%B2%D8%B1%D9%82-%D9%81%D9%8A-%D9%8A%D9%88%D9%85%D9%8A%D9%86",
+        "Params": {
+          "description": "أعلنت المنظمة الدولية للهجرة، اليوم الأحد، نزوح 1515 شخصاً من ولايتي شمال دارفور، غربي السودان، والنيل الأزرق (جنوب)، بسبب انعدام الأمن، وذلك خلال يومين",
+          "source": "العربي الجديد",
+          "source_id": "alaraby-ar",
+          "source_class": "regional_journalism",
+          "link": "https://www.alaraby.co.uk/society/%D9%86%D8%B2%D9%88%D8%AD-1515-%D8%B4%D8%AE%D8%B5%D8%A7%D9%8B-%D9%85%D9%86-%D9%88%D9%84%D8%A7%D9%8A%D8%AA%D9%8A-%D8%B4%D9%85%D8%A7%D9%84-%D8%AF%D8%A7%D8%B1%D9%81%D9%88%D8%B1-%D9%88%D8%A7%D9%84%D9%86%D9%8A%D9%84-%D8%A7%D9%84%D8%A3%D8%B2%D8%B1%D9%82-%D9%81%D9%8A-%D9%8A%D9%88%D9%85%D9%8A%D9%86",
+          "status": "Reporting",
+          "geography": [
+            "Darfur",
+            "Blue Nile"
+          ],
+          "image": "https://www.alaraby.co.uk/sites/default/files/styles/meduim_16_9/public/2026-11/GettyImages-2299362348.jpg?h=199d8c1f&itok=Ott2-6_q",
+          "media_reuse_basis": "rss_metadata",
+          "related_sources": [],
+          "category": "Analysis",
+          "clabel": "تحليل",
+          "language": "ar",
+          "media_attribution": "العربي الجديد"
+        }
+      },
       {
         "Title": "بركة ساكن... الأدب ليس محاكمة",
         "Lang": "ar",
@@ -5067,6 +5719,30 @@
         }
       },
       {
+        "Title": "ما حقيقة الفيديو المتداول بزعم أنه يوثق استسلام عناصر من «الدعم السريع» في كردفان؟",
+        "Lang": "ar",
+        "Date": "2026-11-15T15:25:57+00:00",
+        "Permalink": "https://www.beamreports.com/2026/11/15/%d9%85%d8%a7-%d8%ad%d9%82%d9%8a%d9%82%d8%a9-%d8%a7%d9%84%d9%81%d9%8a%d8%af%d9%8a%d9%88-%d8%a7%d9%84%d9%85%d8%aa%d8%af%d8%a7%d9%88%d9%84-%d8%a8%d8%b2%d8%b9%d9%85-%d8%a3%d9%86%d9%87-%d9%8a%d9%88-11",
+        "Params": {
+          "description": "ما حقيقة الفيديو المتداول بزعم أنه يوثق استسلام عناصر من «الدعم السريع» في كردفان؟ مضلل تداولت حسابات على منصة «فيسبوك» مقطع فيديو يُظهر أشخاصًا متفرقين في حقل مفتوح، يصوّرون من داخل مركبة، ويرفع بعضهم يديه، فيما يُسمع صوت يأمرهم بوضع السلاح والاستسلام، مرفقًا بادعاء أنه يوثق استسلام عناصر من «الدعم السريع» للجيش السوداني في المعارك […] The post ما حقيقة الفيديو المتداول بزعم أنه يوثق استسلام عناصر من «الدعم السريع» ",
+          "source": "بيم ريبورتس",
+          "source_id": "beam-ar",
+          "source_class": "sudanese_journalism",
+          "link": "https://www.beamreports.com/2026/11/15/%d9%85%d8%a7-%d8%ad%d9%82%d9%8a%d9%82%d8%a9-%d8%a7%d9%84%d9%81%d9%8a%d8%af%d9%8a%d9%88-%d8%a7%d9%84%d9%85%d8%aa%d8%af%d8%a7%d9%88%d9%84-%d8%a8%d8%b2%d8%b9%d9%85-%d8%a3%d9%86%d9%87-%d9%8a%d9%88-11",
+          "status": "Reporting",
+          "geography": [
+            "Kordofan"
+          ],
+          "image": "",
+          "media_reuse_basis": "",
+          "related_sources": [],
+          "category": "War & Security",
+          "clabel": "الحرب والأمن",
+          "language": "ar",
+          "media_attribution": "بيم ريبورتس"
+        }
+      },
+      {
         "Title": "القاهرة تحيي أربعينية حيدر إبراهيم وتستعيد مشروعه التنويري",
         "Lang": "ar",
         "Date": "2026-11-15T14:55:58+00:00",
@@ -5142,13 +5818,13 @@
         "Title": "فرقة \"أصوات المدينة\" السودانية تجتمع مجدداً في القاهرة",
         "Lang": "ar",
         "Date": "2026-11-15T10:59:14+00:00",
-        "Permalink": "https://www.alaraby.co.uk/entertainment_media/%D9%81%D8%B1%D9%82%D8%A9-%D8%A3%D8%B5%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D8%AF%D9%8A%D9%86%D8%A9-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86%D9%8A%D8%A9-%D8%AA%D8%AC%D8%AA%D9%85%D8%B9-%D9%85%D8%AC%D8%AF%D8%AF%D8%A7%D9%8B-%D9%81%D9%8A-%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9",
+        "Permalink": "https://www.alaraby.co.uk/entertainment_media/فرقة-أصوات-المدينة-السودانية-تجتمع-مجدداً-في-القاهرة",
         "Params": {
           "description": "بعد سنوات من التشتت بسبب الحرب في السودان، اجتمع أعضاء فرقة \"أصوات المدينة\" مجدداً في القاهرة، مستعيدين أغاني رافقت انتفاضة 2018.",
           "source": "العربي الجديد",
           "source_id": "alaraby-ar",
           "source_class": "regional_journalism",
-          "link": "https://www.alaraby.co.uk/entertainment_media/%D9%81%D8%B1%D9%82%D8%A9-%D8%A3%D8%B5%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D8%AF%D9%8A%D9%86%D8%A9-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86%D9%8A%D8%A9-%D8%AA%D8%AC%D8%AA%D9%85%D8%B9-%D9%85%D8%AC%D8%AF%D8%AF%D8%A7%D9%8B-%D9%81%D9%8A-%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9",
+          "link": "https://www.alaraby.co.uk/entertainment_media/فرقة-أصوات-المدينة-السودانية-تجتمع-مجدداً-في-القاهرة",
           "status": "Reporting",
           "geography": [
             "National"
@@ -5304,6 +5980,30 @@
           "clabel": "أخبار السودان",
           "language": "ar",
           "media_attribution": "Sudan War Monitor"
+        }
+      },
+      {
+        "Title": "السيد محمد عثمان الميرغني .. رحيل زعيم وأفول حقبة",
+        "Lang": "ar",
+        "Date": "2026-11-14T21:46:09+00:00",
+        "Permalink": "https://sudanile.com/%d8%a7%d9%84%d8%b3%d9%8a%d8%af-%d9%85%d8%ad%d9%85%d8%af-%d8%b9%d8%ab%d9%85%d8%a7%d9%86-%d8%a7%d9%84%d9%85%d9%8a%d8%b1%d8%ba%d9%86%d9%8a-%d8%b1%d8%ad%d9%8a%d9%84-%d8%b2%d8%b9%d9%8a%d9%85-%d9%88",
+        "Params": {
+          "description": "السيد محمد عثمان الميرغني (1936-2026)مرشد الطريقة الختمية ورئيس الحزب الاتحادي الديمقراطي الأصلرحيل زعيم وأفول حقبة أحمد إبراهيم أبوشوك (1)تُمثّل تجربة السيد محمد عثمان الميرغني، امتدادًا لتاريخ أسرة جمعت بين المرجعية الصوفية والتأثير الاجتماعي والمشاركة السياسية في السودان. وقد تولّى قيادة الطريقة الختمية بعد وفاة والده السيد علي الميرغني سنة 1968، ثم برز في قيادة الحزب […] The post السيد محمد عثمان الميرغني .. رحيل",
+          "source": "سودانايل",
+          "source_id": "sudanile-ar",
+          "source_class": "sudanese_diaspora",
+          "link": "https://sudanile.com/%d8%a7%d9%84%d8%b3%d9%8a%d8%af-%d9%85%d8%ad%d9%85%d8%af-%d8%b9%d8%ab%d9%85%d8%a7%d9%86-%d8%a7%d9%84%d9%85%d9%8a%d8%b1%d8%ba%d9%86%d9%8a-%d8%b1%d8%ad%d9%8a%d9%84-%d8%b2%d8%b9%d9%8a%d9%85-%d9%88",
+          "status": "Reporting",
+          "geography": [
+            "National"
+          ],
+          "image": "https://sudanile.com/wp-content/uploads/2021/05/aboshook.jpg",
+          "media_reuse_basis": "rss_metadata",
+          "related_sources": [],
+          "category": "Politics",
+          "clabel": "سياسة",
+          "language": "ar",
+          "media_attribution": "سودانايل"
         }
       },
       {
@@ -7243,7 +7943,7 @@
         "Date": "2026-11-12T14:28:14+00:00",
         "Permalink": "https://sudanile.com/%d8%a8%d9%8a%d9%86-%d8%a7%d9%84%d8%a8%d8%b0%d8%a7%d8%a1%d8%a9-%d9%88%d8%ae%d8%b1%d8%a7%d8%a8-%d8%a7%d9%84%d9%88%d8%b7%d9%86-%d8%aa%d9%8f%d9%87%d8%a7%d9%86-%d8%a7%d9%84%d8%a3%d9%85%d9%87%d8%a7%d8%aa",
         "Params": {
-          "description": "ليس أكثر قسوة على شعب منكوب من أن يرى جراحه تستباح مرتين، مرةً بالنار والرصاص ومرةً بالكلمات التي تهين وعيه وكرامته ووجدانه. وليس أشد إيلاماً على السودانيين اليوم من أن يستيقظوا كل صباح على أخبار الموت والنزوح والجوع والافتراق ثم يجدوا أنفسهم مضطرين في المساء لمناقشة مشهد من مشاهد البذاءة والانحطاط الأخلاقي صادر ممن يفترض […] The post بين البذاءة وخراب الوطن تُهان الأمهات ويُكافأ الانحدار في زمن الحرب appeared first ",
+          "description": "ليس أكثر قسوة على شعب منكوب من أن يرى جراحه تستباح مرتين، مرةً بالنار والرصاص ومرةً بالكلمات التي تهين وعيه وكرامته ووجدانه. وليس أشد إيلاماً على السودانيين اليوم من أن يستيقظوا كل صباح على أخبار الموت والنزوح والجوع والافتراق ثم يجدوا أنفسهم مضطرين في المساء لمناقشة مشهد من مشاهد البذاءة والانحطاط الأخلاقي صادر ممن يفترض […] The post بين البذاءة وخراب الوطن تُهان الأمهات ويُكافأ الانحدار في زمن الحرب appeared first",
           "source": "سودانايل",
           "source_id": "sudanile-ar",
           "source_class": "sudanese_diaspora",
@@ -7509,7 +8209,7 @@
         "Date": "2026-11-11T21:11:30+00:00",
         "Permalink": "https://sudanile.com/%d8%a7%d8%aa%d9%81%d8%a7%d9%82%d9%8a%d8%a9-%d8%a7%d9%84%d8%af%d9%81%d8%a7%d8%b9-%d8%a7%d9%84%d9%85%d8%b4%d8%aa%d8%b1%d9%83-%d8%a8%d9%8a%d9%86-%d9%85%d8%b5%d8%b1-%d9%88%d8%a7%d9%84%d8%b3%d9%88%d8%af",
         "Params": {
-          "description": "أسامة علي عبدالحليم تكتسب اتفاقية الدفاع المشترك بين جمهورية السودان وجمهورية مصر الموقعة في 15 يوليو 1976 أهمية متجددة في ظل الحرب السودانية والتطورات الأمنية المتسارعة على الحدود بين البلدين. وتتجاوز الإشكالية المطروحة مجرد عودة الحديث السياسي عن الاتفاقية لتطرح سؤالين جوهريين على المستوى القانوني:الأول:هل ما زالت الاتفاقية نافذة قانوناً حتى اليوم رغم إعلان رئيس […] The post اتفاقية الدفاع المشترك بين مصر والسودان ",
+          "description": "أسامة علي عبدالحليم تكتسب اتفاقية الدفاع المشترك بين جمهورية السودان وجمهورية مصر الموقعة في 15 يوليو 1976 أهمية متجددة في ظل الحرب السودانية والتطورات الأمنية المتسارعة على الحدود بين البلدين. وتتجاوز الإشكالية المطروحة مجرد عودة الحديث السياسي عن الاتفاقية لتطرح سؤالين جوهريين على المستوى القانوني:الأول:هل ما زالت الاتفاقية نافذة قانوناً حتى اليوم رغم إعلان رئيس […] The post اتفاقية الدفاع المشترك بين مصر والسودان",
           "source": "سودانايل",
           "source_id": "sudanile-ar",
           "source_class": "sudanese_diaspora",
@@ -7533,7 +8233,7 @@
         "Date": "2026-11-11T21:08:57+00:00",
         "Permalink": "https://sudanile.com/%d8%af%d9%86%d9%82%d9%84%d8%a7-%d8%a7%d9%84%d8%b9%d8%ac%d9%88%d8%b2-%d9%88%d9%83%d9%86%d9%8a%d8%b3%d8%a9-%d9%8a%d8%b3%d9%88%d8%b9-%d8%a7%d9%84%d9%83%d8%a8%d8%b1%d9%89-%d8%a5%d8%b9%d8%a7%d8%af%d8%a9",
         "Params": {
-          "description": "زهير عثمان في خضم حربٍ تلتهم الحاضر السوداني منذ أبريل 2023، وتُجبر ملايين السكان على النزوح، يبرز اكتشاف أثري في دنقلا العجوز ليطرح سؤالاً تاريخياً ملحاً – كيف يمكن قراءة ماضي السودان المسيحي لا كهامشٍ حضاري، بل كمركزٍ مستقلٍ ذي سيادة ثقافية ومعمارية، في وقتٍ تتعرض فيه ذاكرته المادية لأشرس عمليات التجريف المنظم؟كشفت البعثة الأثرية […] The post دنقلا العجوز وكنيسة يسوع الكبرى- إعادة قراءة الحضارة النوبية المسيحية في ",
+          "description": "زهير عثمان في خضم حربٍ تلتهم الحاضر السوداني منذ أبريل 2023، وتُجبر ملايين السكان على النزوح، يبرز اكتشاف أثري في دنقلا العجوز ليطرح سؤالاً تاريخياً ملحاً – كيف يمكن قراءة ماضي السودان المسيحي لا كهامشٍ حضاري، بل كمركزٍ مستقلٍ ذي سيادة ثقافية ومعمارية، في وقتٍ تتعرض فيه ذاكرته المادية لأشرس عمليات التجريف المنظم؟كشفت البعثة الأثرية […] The post دنقلا العجوز وكنيسة يسوع الكبرى- إعادة قراءة الحضارة النوبية المسيحية في",
           "source": "سودانايل",
           "source_id": "sudanile-ar",
           "source_class": "sudanese_diaspora",
@@ -7606,7 +8306,7 @@
         "Date": "2026-11-11T21:04:02+00:00",
         "Permalink": "https://sudanile.com/%d8%a7%d9%84%d8%a8%d8%b1%d9%87%d8%a7%d9%86-%d9%8a%d8%b7%d8%a7%d9%84%d8%a8-%d8%a8%d8%a5%d8%a8%d8%b9%d8%a7%d8%af-%d8%a3%d8%b3%d8%a7%d9%85%d8%a9-%d8%b9%d8%a8%d8%af%d8%a7%d9%84%d9%84%d9%87-%d8%a8%d8%b9",
         "Params": {
-          "description": "البرهان يطالب بإبعاد أسامة عبدالله بعد تحركاته لبناء مجموعة مستقلة بقيادة المصباح.. هل تهدد الانقسامات تماسك الحركة الإسلامية وتؤثر على سير العمليات العسكرية؟ أواب عزام البوشي كشفت تطورات جديدة داخل الحركة الإسلامية السودانية عن تصاعد الخلافات بين قياداتها، على خلفية صراع متزايد على النفوذ والمال والتشكيلات المسلحة، بعد وصول تقارير إلى قائد الجيش عبد الفتاح […] The post البرهان يطالب بإبعاد أسامة عبدالله بعد تحركاته ",
+          "description": "البرهان يطالب بإبعاد أسامة عبدالله بعد تحركاته لبناء مجموعة مستقلة بقيادة المصباح.. هل تهدد الانقسامات تماسك الحركة الإسلامية وتؤثر على سير العمليات العسكرية؟ أواب عزام البوشي كشفت تطورات جديدة داخل الحركة الإسلامية السودانية عن تصاعد الخلافات بين قياداتها، على خلفية صراع متزايد على النفوذ والمال والتشكيلات المسلحة، بعد وصول تقارير إلى قائد الجيش عبد الفتاح […] The post البرهان يطالب بإبعاد أسامة عبدالله بعد تحركاته",
           "source": "سودانايل",
           "source_id": "sudanile-ar",
           "source_class": "sudanese_diaspora",
@@ -7622,708 +8322,6 @@
           "clabel": "الحرب والأمن",
           "language": "ar",
           "media_attribution": "سودانايل"
-        }
-      },
-      {
-        "Title": "محاولات الاسلامويون للعودة للحكم ومسرحية اعتقال احمد هارون",
-        "Lang": "ar",
-        "Date": "2026-11-11T20:57:32+00:00",
-        "Permalink": "https://sudanile.com/%d9%85%d8%ad%d8%a7%d9%88%d9%84%d8%a7%d8%aa-%d8%a7%d9%84%d8%a7%d8%b3%d9%84%d8%a7%d9%85%d9%88%d9%8a%d9%88%d9%86-%d9%84%d9%84%d8%b9%d9%88%d8%af%d8%a9-%d9%84%d9%84%d8%ad%d9%83%d9%85-%d9%88%d9%85%d8%b3",
-        "Params": {
-          "description": "بقلم : تاج السر عثمان١وجد ظهور احمد هارون القيادي في المؤتمر الوطني في اللقاء الإعلامي الاخير عبر “بودكاست” استنكارا واسعا في الداخل والخارج ومن قوى ثورة ديسمبر والمطالبة بالعدالة من ضحايا دارفور وغيرهم ‘ فهو المطلوب مع عمر البشير ومن معهما للمحكمة الجنائية الدولية.. سرعان ما جاءت مسرحية اعتقاله من الجيش في محاولة للتنصل من […] The post محاولات الاسلامويون للعودة للحكم ومسرحية اعتقال احمد هارون appeared first on سودا",
-          "source": "سودانايل",
-          "source_id": "sudanile-ar",
-          "source_class": "sudanese_diaspora",
-          "link": "https://sudanile.com/%d9%85%d8%ad%d8%a7%d9%88%d9%84%d8%a7%d8%aa-%d8%a7%d9%84%d8%a7%d8%b3%d9%84%d8%a7%d9%85%d9%88%d9%8a%d9%88%d9%86-%d9%84%d9%84%d8%b9%d9%88%d8%af%d8%a9-%d9%84%d9%84%d8%ad%d9%83%d9%85-%d9%88%d9%85%d8%b3",
-          "status": "Reporting",
-          "geography": [
-            "Darfur"
-          ],
-          "image": "https://sudanile.com/wp-content/uploads/2026/01/elsir-1.jpg",
-          "media_reuse_basis": "rss_metadata",
-          "related_sources": [],
-          "category": "War & Security",
-          "clabel": "الحرب والأمن",
-          "language": "ar",
-          "media_attribution": "سودانايل"
-        }
-      },
-      {
-        "Title": "السودان.. كيف نفقد عقولنا؟",
-        "Lang": "ar",
-        "Date": "2026-11-11T20:55:27+00:00",
-        "Permalink": "https://sudanile.com/%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86-%d9%83%d9%8a%d9%81-%d9%86%d9%81%d9%82%d8%af-%d8%b9%d9%82%d9%88%d9%84%d9%86%d8%a7%d8%9f",
-        "Params": {
-          "description": "وجه الحقيقةد. إبراهيم شقلاوي بينما كنت أمضي فى إحدى أسفاري، وقع في يدي كتاب صغير لعلي شريعتي، اخترته من أحد الباعة المتجولين ليصلح لمرافقة الطريق، فالطرق لا تطوي المسافات وحدها، أحياناً تفتح طرقاً أخرى إلى العقل. كان الكتاب رشيق العبارة، كأنه اختار قارئه قبل أن يختاره، كما يقول أستاذنا عاطف العراقي. حمل عنوان النباهة والاستحمار، […] The post السودان.. كيف نفقد عقولنا؟ appeared first on سودانايل .",
-          "source": "سودانايل",
-          "source_id": "sudanile-ar",
-          "source_class": "sudanese_diaspora",
-          "link": "https://sudanile.com/%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86-%d9%83%d9%8a%d9%81-%d9%86%d9%81%d9%82%d8%af-%d8%b9%d9%82%d9%88%d9%84%d9%86%d8%a7%d8%9f",
-          "status": "Reporting",
-          "geography": [
-            "National"
-          ],
-          "image": "https://sudanile.com/wp-content/uploads/2025/09/shaglawi.jpg",
-          "media_reuse_basis": "rss_metadata",
-          "related_sources": [],
-          "category": "Culture",
-          "clabel": "ثقافة",
-          "language": "ar",
-          "media_attribution": "سودانايل"
-        }
-      },
-      {
-        "Title": "العميد محمد النور البكري (1906 -1996) (4-7)",
-        "Lang": "ar",
-        "Date": "2026-11-11T20:53:58+00:00",
-        "Permalink": "https://sudanile.com/%d8%a7%d9%84%d8%b9%d9%85%d9%8a%d8%af-%d9%85%d8%ad%d9%85%d8%af-%d8%a7%d9%84%d9%86%d9%88%d8%b1-%d8%a7%d9%84%d8%a8%d9%83%d8%b1%d9%8a-1906-1996-4-7",
-        "Params": {
-          "description": "محمد صالح عبدالله يس من الوجوه التي تابي ان تبارح الذاكرة فهو دينارٌ من الصك القديم وكوكبٌ لا ينطفئ ضياؤه العميد محمد النور البكري فهو حارس السجلات وأمين الذاكرة القضائية في شرق دارفور من الوجوه التي تابي ان تبارح الذاكرة فهو مازال يحتفظ بوهجه وما زال الدينار القديم يحتفظ برنينه و الكوكب يرسل ضياءه وإن […] The post العميد محمد النور البكري (1906 -1996) (4-7) appeared first on سودانايل .",
-          "source": "سودانايل",
-          "source_id": "sudanile-ar",
-          "source_class": "sudanese_diaspora",
-          "link": "https://sudanile.com/%d8%a7%d9%84%d8%b9%d9%85%d9%8a%d8%af-%d9%85%d8%ad%d9%85%d8%af-%d8%a7%d9%84%d9%86%d9%88%d8%b1-%d8%a7%d9%84%d8%a8%d9%83%d8%b1%d9%8a-1906-1996-4-7",
-          "status": "Reporting",
-          "geography": [
-            "Darfur"
-          ],
-          "image": "https://sudanile.com/wp-content/uploads/2019/02/images_myasin.JPG",
-          "media_reuse_basis": "rss_metadata",
-          "related_sources": [],
-          "category": "Sudan News",
-          "clabel": "أخبار السودان",
-          "language": "ar",
-          "media_attribution": "سودانايل"
-        }
-      },
-      {
-        "Title": "لا تشتموا الثورة يا أغبياء!",
-        "Lang": "ar",
-        "Date": "2026-11-11T20:52:14+00:00",
-        "Permalink": "https://sudanile.com/%d9%84%d8%a7-%d8%aa%d8%b4%d8%aa%d9%85%d9%88%d8%a7-%d8%a7%d9%84%d8%ab%d9%88%d8%b1%d8%a9-%d9%8a%d8%a7-%d8%a3%d8%ba%d8%a8%d9%8a%d8%a7%d8%a1",
-        "Params": {
-          "description": "تأمُلات كمال الهِدَي ينتابني غضب شديد حين أقرأ لكُتاب غير محترمين هجاءً في المدنية وثورة ديسمبر العظيمة. من حق أي سوداني أن يعبر عن رأي سلبي في أي شخص تولى منصباً في حكومة الثورة أو خلال أي حقبة زمنية، لكن المستفز هو محاولة بعض الأغبياء التذاكي على الآخرين، فيكتبون هجاءً في المدنية ويشتمون واحدة من […] The post لا تشتموا الثورة يا أغبياء! appeared first on سودانايل .",
-          "source": "سودانايل",
-          "source_id": "sudanile-ar",
-          "source_class": "sudanese_diaspora",
-          "link": "https://sudanile.com/%d9%84%d8%a7-%d8%aa%d8%b4%d8%aa%d9%85%d9%88%d8%a7-%d8%a7%d9%84%d8%ab%d9%88%d8%b1%d8%a9-%d9%8a%d8%a7-%d8%a3%d8%ba%d8%a8%d9%8a%d8%a7%d8%a1",
-          "status": "Reporting",
-          "geography": [
-            "National"
-          ],
-          "image": "https://sudanile.com/wp-content/uploads/2026/01/kamalhuda.jpg",
-          "media_reuse_basis": "rss_metadata",
-          "related_sources": [],
-          "category": "Politics",
-          "clabel": "سياسة",
-          "language": "ar",
-          "media_attribution": "سودانايل"
-        }
-      },
-      {
-        "Title": "السودان … مجاعة السلاح",
-        "Lang": "ar",
-        "Date": "2026-11-11T20:48:56+00:00",
-        "Permalink": "https://sudanile.com/%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86-%d9%85%d8%ac%d8%a7%d8%b9%d8%a9-%d8%a7%d9%84%d8%b3%d9%84%d8%a7%d8%ad",
-        "Params": {
-          "description": "ناصر السيد النورأخيراً وصلت الحرب أو نتائجها خلال سنوات الممتدة منذ اندلاعها المفاجئ في الخامس عشر من أبريل/نيسان 2023 إلى الظهور الكارثي لأكثر فواجعها الإنسانية المتمثلة في المجاعة التي استدعت من دول العالم الدعوة إلى التدخل الفوري لإنقاذ ملايين الجياع والمشردين بفعل الحرب نفسها.وانتقل الحديث من التوصل إلى الحل والسلام إلى معالجة المجاعة على الرغم […] The post السودان … مجاعة السلاح appeared first on سودانايل .",
-          "source": "سودانايل",
-          "source_id": "sudanile-ar",
-          "source_class": "sudanese_diaspora",
-          "link": "https://sudanile.com/%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86-%d9%85%d8%ac%d8%a7%d8%b9%d8%a9-%d8%a7%d9%84%d8%b3%d9%84%d8%a7%d8%ad",
-          "status": "Reporting",
-          "geography": [
-            "National"
-          ],
-          "image": "https://sudanile.com/wp-content/uploads/2026/01/nasir.jpeg",
-          "media_reuse_basis": "rss_metadata",
-          "related_sources": [],
-          "category": "Humanitarian",
-          "clabel": "إنساني",
-          "language": "ar",
-          "media_attribution": "سودانايل"
-        }
-      },
-      {
-        "Title": "كلمات سودانية معجمية مهجورة في لغة الكتابة (٢٣)",
-        "Lang": "ar",
-        "Date": "2026-11-11T20:47:36+00:00",
-        "Permalink": "https://sudanile.com/%d9%83%d9%84%d9%85%d8%a7%d8%aa-%d8%b3%d9%88%d8%af%d8%a7%d9%86%d9%8a%d8%a9-%d9%85%d8%b9%d8%ac%d9%85%d9%8a%d8%a9-%d9%85%d9%87%d8%ac%d9%88%d8%b1%d8%a9-%d9%81%d9%8a-%d9%84%d8%ba%d8%a9-%d8%a7%d9%84-24",
-        "Params": {
-          "description": "عبد المنعم عجب الفَيا حت:الحت معروف في كلامنا حت يحت وانحت حتا. ويغلب استعمالها في حت الشجر ورقه، وحت ثمار النبات متعدي، مثل حت حصاد السمسم وحت ثمر النبق من شجرته وما اشبه. وحت الثوب ونحوه من الغبار الخ. والحتيتة اول ما يحت من حصاد السمسم فيكون خاليا من ذرات التراب. والحتحات ما تبقى من […] The post كلمات سودانية معجمية مهجورة في لغة الكتابة (٢٣) appeared first on سودانايل .",
-          "source": "سودانايل",
-          "source_id": "sudanile-ar",
-          "source_class": "sudanese_diaspora",
-          "link": "https://sudanile.com/%d9%83%d9%84%d9%85%d8%a7%d8%aa-%d8%b3%d9%88%d8%af%d8%a7%d9%86%d9%8a%d8%a9-%d9%85%d8%b9%d8%ac%d9%85%d9%8a%d8%a9-%d9%85%d9%87%d8%ac%d9%88%d8%b1%d8%a9-%d9%81%d9%8a-%d9%84%d8%ba%d8%a9-%d8%a7%d9%84-24",
-          "status": "Reporting",
-          "geography": [
-            "National"
-          ],
-          "image": "https://sudanile.com/wp-content/uploads/2026/01/agabfaia.jpg",
-          "media_reuse_basis": "rss_metadata",
-          "related_sources": [],
-          "category": "Culture",
-          "clabel": "ثقافة",
-          "language": "ar",
-          "media_attribution": "سودانايل"
-        }
-      },
-      {
-        "Title": "إلى أين يتجه الوضع السياسي في السودان؟",
-        "Lang": "ar",
-        "Date": "2026-11-11T20:38:55+00:00",
-        "Permalink": "https://sudanile.com/%d8%a5%d9%84%d9%89-%d8%a3%d9%8a%d9%86-%d9%8a%d8%aa%d8%ac%d9%87-%d8%a7%d9%84%d9%88%d8%b6%d8%b9-%d8%a7%d9%84%d8%b3%d9%8a%d8%a7%d8%b3%d9%8a-%d9%81%d9%8a-%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86%d8%9f",
-        "Params": {
-          "description": "بقم د/ عادل عبد العزيز حامد يشهد السودان واحدة من أخطر المراحل في تاريخه الحديث، حيث تتداخل الحرب العسكرية مع الصراعات السياسية والانقسامات الاجتماعية والتدخلات الإقليمية والدولية، في ظل انهيار اقتصادي متسارع ومعاناة إنسانية غير مسبوقة. وقد أدت الحرب إلى تدمير واسع لمؤسسات الدولة والبنية التحتية، وتشريد الملايين، وتراجع فرص التنمية والاستقرار. والسؤال الذي يفرض […] The post إلى أين يتجه الوضع السياسي في السودان؟ appe",
-          "source": "سودانايل",
-          "source_id": "sudanile-ar",
-          "source_class": "sudanese_diaspora",
-          "link": "https://sudanile.com/%d8%a5%d9%84%d9%89-%d8%a3%d9%8a%d9%86-%d9%8a%d8%aa%d8%ac%d9%87-%d8%a7%d9%84%d9%88%d8%b6%d8%b9-%d8%a7%d9%84%d8%b3%d9%8a%d8%a7%d8%b3%d9%8a-%d9%81%d9%8a-%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86%d8%9f",
-          "status": "Reporting",
-          "geography": [
-            "National"
-          ],
-          "image": "https://sudanile.com/wp-content/uploads/2025/09/adill.jpg",
-          "media_reuse_basis": "rss_metadata",
-          "related_sources": [],
-          "category": "Economy",
-          "clabel": "اقتصاد",
-          "language": "ar",
-          "media_attribution": "سودانايل"
-        }
-      },
-      {
-        "Title": "السودان يرفع الحظر عن الشاي الكيني ويستأنف التجارة",
-        "Lang": "ar",
-        "Date": "2026-11-11T20:09:04+00:00",
-        "Permalink": "https://sudantribune.net/article/321121",
-        "Params": {
-          "description": "الخرطوم 11 نوفمبر 2026- قررت السلطات السودانية رفع الحظر المفروض على واردات الشاي الكيني، عقب تحركات ومحادثات دبلوماسية بين الخرطوم ونيروبي، أنهت قيوداً تجارية استمرت نحو 20 شهراً، وأثرت على حركة الصادرات الكينية إلى السودان، أحد الأسواق المهمة للشاي الكيني في المنطقة. وأصدرت وزارة الصناعة والتجارة السودانية الأمر الوزاري رقم (25) لسنة 2026، الذي قضى برفع الحظر المفروض على استيراد الشاي من كينيا، وفقاً لما أوردته صحي",
-          "source": "Sudan Tribune Arabic",
-          "source_id": "sudan-tribune-ar",
-          "source_class": "sudanese_journalism",
-          "link": "https://sudantribune.net/article/321121",
-          "status": "Reporting",
-          "geography": [
-            "Khartoum"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "Economy",
-          "clabel": "اقتصاد",
-          "language": "ar",
-          "media_attribution": "Sudan Tribune Arabic"
-        }
-      },
-      {
-        "Title": "ارتفاع أسعار القهوة والشاي وتذاكر أندية مشاهدة المباريات بالخرطوم",
-        "Lang": "ar",
-        "Date": "2026-11-11T19:24:49+00:00",
-        "Permalink": "https://www.dabangasudan.org/ar/all-news/article/%d8%a7%d8%b1%d8%aa%d9%81%d8%a7%d8%b9-%d8%a3%d8%b3%d8%b9%d8%a7%d8%b1-%d8%a7%d9%84%d9%82%d9%87%d9%88%d8%a9-%d9%88%d8%a7%d9%84%d8%b4%d8%a7%d9%8a-%d9%88%d8%aa%d8%b0%d8%a7%d9%83%d8%b1-%d8%a3%d9%86%d8%af",
-        "Params": {
-          "description": "الخرطوم:11 نوفمبر 2026: راديو دبنقاارتفعت أسعار المشروبات والخدمات الترفيهية في العاصمة الخرطوم، ، وشملت الارتفاعات... The post ارتفاع أسعار القهوة والشاي وتذاكر أندية مشاهدة المباريات بالخرطوم appeared first on Dabanga Radio TV Online .",
-          "source": "راديو دبنقا",
-          "source_id": "dabanga-ar",
-          "source_class": "sudanese_journalism",
-          "link": "https://www.dabangasudan.org/ar/all-news/article/%d8%a7%d8%b1%d8%aa%d9%81%d8%a7%d8%b9-%d8%a3%d8%b3%d8%b9%d8%a7%d8%b1-%d8%a7%d9%84%d9%82%d9%87%d9%88%d8%a9-%d9%88%d8%a7%d9%84%d8%b4%d8%a7%d9%8a-%d9%88%d8%aa%d8%b0%d8%a7%d9%83%d8%b1-%d8%a3%d9%86%d8%af",
-          "status": "Reporting",
-          "geography": [
-            "Khartoum"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "Economy",
-          "clabel": "اقتصاد",
-          "language": "ar",
-          "media_attribution": "راديو دبنقا"
-        }
-      },
-      {
-        "Title": "ارتفاع كبير في أسعار السلع وانعدام في المياه ببورتسودان",
-        "Lang": "ar",
-        "Date": "2026-11-11T18:33:54+00:00",
-        "Permalink": "https://www.dabangasudan.org/ar/all-news/article/%d8%a7%d8%b1%d8%aa%d9%81%d8%a7%d8%b9-%d9%83%d8%a8%d9%8a%d8%b1-%d9%81%d9%8a-%d8%a3%d8%b3%d8%b9%d8%a7%d8%b1-%d8%a7%d9%84%d8%b3%d9%84%d8%b9-%d9%88%d8%a7%d9%86%d8%b9%d8%af%d8%a7%d9%85-%d9%81%d9%8a-%d8%a7",
-        "Params": {
-          "description": "بورتسودان: 11 نوفمبر2026: راديو دبنقا تشهد مدينة بورتسودان حاضرة ولاية البحر الأحمر ارتفاعاً واسعاً في... The post ارتفاع كبير في أسعار السلع وانعدام في المياه ببورتسودان appeared first on Dabanga Radio TV Online .",
-          "source": "راديو دبنقا",
-          "source_id": "dabanga-ar",
-          "source_class": "sudanese_journalism",
-          "link": "https://www.dabangasudan.org/ar/all-news/article/%d8%a7%d8%b1%d8%aa%d9%81%d8%a7%d8%b9-%d9%83%d8%a8%d9%8a%d8%b1-%d9%81%d9%8a-%d8%a3%d8%b3%d8%b9%d8%a7%d8%b1-%d8%a7%d9%84%d8%b3%d9%84%d8%b9-%d9%88%d8%a7%d9%86%d8%b9%d8%af%d8%a7%d9%85-%d9%81%d9%8a-%d8%a7",
-          "status": "Reporting",
-          "geography": [
-            "Red Sea"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "Economy",
-          "clabel": "اقتصاد",
-          "language": "ar",
-          "media_attribution": "راديو دبنقا"
-        }
-      },
-      {
-        "Title": "المناقل: تخوفات من التغول على أرض مخصصة لخدمات 7 آلاف مواطن",
-        "Lang": "ar",
-        "Date": "2026-11-11T18:13:52+00:00",
-        "Permalink": "https://www.dabangasudan.org/ar/all-news/article/%d8%a7%d9%84%d9%85%d9%86%d8%a7%d9%82%d9%84-%d8%aa%d8%ae%d9%88%d9%81%d8%a7%d8%aa-%d9%85%d9%86-%d8%a7%d9%84%d8%aa%d8%ba%d9%88%d9%84-%d8%b9%d9%84%d9%89-%d8%a3%d8%b1%d8%b6-%d9%85%d8%ae%d8%b5%d8%b5%d8%a9",
-        "Params": {
-          "description": "المناقل: 11 نوفمبر 2026: راديو دبنقا اتهمت لجان شعبية بمدينة المناقل في ولاية الجزيرة جهات... The post المناقل: تخوفات من التغول على أرض مخصصة لخدمات 7 آلاف مواطن appeared first on Dabanga Radio TV Online .",
-          "source": "راديو دبنقا",
-          "source_id": "dabanga-ar",
-          "source_class": "sudanese_journalism",
-          "link": "https://www.dabangasudan.org/ar/all-news/article/%d8%a7%d9%84%d9%85%d9%86%d8%a7%d9%82%d9%84-%d8%aa%d8%ae%d9%88%d9%81%d8%a7%d8%aa-%d9%85%d9%86-%d8%a7%d9%84%d8%aa%d8%ba%d9%88%d9%84-%d8%b9%d9%84%d9%89-%d8%a3%d8%b1%d8%b6-%d9%85%d8%ae%d8%b5%d8%b5%d8%a9",
-          "status": "Reporting",
-          "geography": [
-            "Gezira"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "Sudan News",
-          "clabel": "أخبار السودان",
-          "language": "ar",
-          "media_attribution": "راديو دبنقا"
-        }
-      },
-      {
-        "Title": "فينيسيوس يدعو طفلاً سودانياً فقد ساقيه في الحرب لحضور مباراة لريال مدريد",
-        "Lang": "ar",
-        "Date": "2026-11-11T17:35:02+00:00",
-        "Permalink": "https://www.altaghyeer.info/ar/2026/11/11/%d9%81%d9%8a%d9%86%d9%8a%d8%b3%d9%8a%d9%88%d8%b3-%d9%8a%d8%af%d8%b9%d9%88-%d8%b7%d9%81%d9%84%d8%a7%d9%8b-%d8%b3%d9%88%d8%af%d8%a7%d9%86%d9%8a%d8%a7%d9%8b-%d9%81%d9%82%d8%af-%d8%b3%d8%a7%d9%82%d9%8a",
-        "Params": {
-          "description": "في لفتة إنسانية حملت كثيراً من المشاعر، وجّه نجم ريال مدريد والمنتخب البرازيلي فينيسيوس جونيور رسالة مصورة إلى الطفل السوداني زاهر (13 عاماً)، الذي فقد ساقيه في هجوم بطائرة مسيّرة بالعاصمة الخرطوم عام 2024، ودعاه لحضور إحدى مباريات الفريق وقضاء يوم معه في مدريد. التغيير ــ وكالات وجاءت الرسالة مفاجأة للطفل الذي طالما حلم بلقاء …",
-          "source": "التغيير",
-          "source_id": "altaghyeer-ar",
-          "source_class": "sudanese_journalism",
-          "link": "https://www.altaghyeer.info/ar/2026/11/11/%d9%81%d9%8a%d9%86%d9%8a%d8%b3%d9%8a%d9%88%d8%b3-%d9%8a%d8%af%d8%b9%d9%88-%d8%b7%d9%81%d9%84%d8%a7%d9%8b-%d8%b3%d9%88%d8%af%d8%a7%d9%86%d9%8a%d8%a7%d9%8b-%d9%81%d9%82%d8%af-%d8%b3%d8%a7%d9%82%d9%8a",
-          "status": "Reporting",
-          "geography": [
-            "Khartoum"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "War & Security",
-          "clabel": "الحرب والأمن",
-          "language": "ar",
-          "media_attribution": "التغيير"
-        }
-      },
-      {
-        "Title": "السويد تخصص 55 مليون دولار لدعم السودان على مدى خمس سنوات ونصف",
-        "Lang": "ar",
-        "Date": "2026-11-11T17:24:29+00:00",
-        "Permalink": "https://www.altaghyeer.info/ar/2026/11/11/%d8%a7%d9%84%d8%b3%d9%88%d9%8a%d8%af-%d8%aa%d8%ae%d8%b5%d8%b5-55-%d9%85%d9%84%d9%8a%d9%88%d9%86-%d8%af%d9%88%d9%84%d8%a7%d8%b1-%d9%84%d8%af%d8%b9%d9%85-%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86",
-        "Params": {
-          "description": "أعلنت السويد تخصيص 10 ملايين دولار سنوياً لدعم السودان، على مدى خمس سنوات ونصف، لتمويل برامج إنسانية وصحية تستهدف معالجة تداعيات الأزمة الراهنة، وتعزيز حماية حقوق الإنسان، والمساهمة في إعادة بناء وتأهيل النظام الصحي. الخرطوم ــ التغيير وقال المبعوث السويدي الخاص للسودان، ماغنوس غوليت، إن صندوق التعاون التابع لبلاده سيتولى تقديم التمويل، ضمن جهود …",
-          "source": "التغيير",
-          "source_id": "altaghyeer-ar",
-          "source_class": "sudanese_journalism",
-          "link": "https://www.altaghyeer.info/ar/2026/11/11/%d8%a7%d9%84%d8%b3%d9%88%d9%8a%d8%af-%d8%aa%d8%ae%d8%b5%d8%b5-55-%d9%85%d9%84%d9%8a%d9%88%d9%86-%d8%af%d9%88%d9%84%d8%a7%d8%b1-%d9%84%d8%af%d8%b9%d9%85-%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86",
-          "status": "Reporting",
-          "geography": [
-            "Khartoum"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "Health",
-          "clabel": "صحة",
-          "language": "ar",
-          "media_attribution": "التغيير"
-        }
-      },
-      {
-        "Title": "اكتشاف أثري في \"دنقلا العجوز\" بالسودان يكشف تفاصيل جديدة عن العمارة الدينية في أفريقيا",
-        "Lang": "ar",
-        "Date": "2026-11-11T17:03:38+00:00",
-        "Permalink": "https://www.bbc.com/arabic/articles/ckz743rv5525o?at_medium=RSS&at_campaign=rss",
-        "Params": {
-          "description": "كشفت بعثة أثرية سودانية بولندية عن تفاصيل معمارية جديدة لمبنى يُعتقد أنه \"كنيسة يسوع الكبرى\" في مدينة دنقلا العجوز شمالي السودان، التي كانت عاصمة لمملكة المقرة المسيحية في العصور الوسطى. وشملت الاكتشافات درجاً ضخماً وكنيسة علوية وقطعاً جصية تحمل نصوصاً دينية باللغة اليونانية القديمة. ويرى باحثون أن النتائج قد تغيّر فهم تاريخ العمارة الدينية في النوبة وشمال شرق أفريقيا، مع التأكيد على ضرورة استكمال الدراسات الأثرية لت",
-          "source": "بي بي سي عربي",
-          "source_id": "bbc-ar",
-          "source_class": "international_journalism",
-          "link": "https://www.bbc.com/arabic/articles/ckz743rv5525o?at_medium=RSS&at_campaign=rss",
-          "status": "Reporting",
-          "geography": [
-            "Northern"
-          ],
-          "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/529c/live/1a30bad0-dde0-11f1-b441-2b33b063138f.jpg",
-          "media_reuse_basis": "rss_metadata",
-          "related_sources": [],
-          "category": "International",
-          "clabel": "دولي",
-          "language": "ar",
-          "media_attribution": "بي بي سي عربي"
-        }
-      },
-      {
-        "Title": "السودان يرفع الحظر عن واردات الشاي الكيني بعد 20 شهراً",
-        "Lang": "ar",
-        "Date": "2026-11-11T16:49:38+00:00",
-        "Permalink": "https://www.radiotamazuj.org/ar/news/article/%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86-%d9%8a%d8%b1%d9%81%d8%b9-%d8%a7%d9%84%d8%ad%d8%b8%d8%b1-%d8%b9%d9%86-%d9%88%d8%a7%d8%b1%d8%af%d8%a7%d8%aa-%d8%a7%d9%84%d8%b4%d8%a7%d9%8a-%d8%a7%d9%84%d9%83",
-        "Params": {
-          "description": "رفع السودان الحظر المفروض على واردات الشاي من كينيا، مما أعاد فتح سوق هامة للمصدرين The post السودان يرفع الحظر عن واردات الشاي الكيني بعد 20 شهراً appeared first on Radio Tamazuj .",
-          "source": "راديو تمازج",
-          "source_id": "tamazuj-ar",
-          "source_class": "regional_journalism",
-          "link": "https://www.radiotamazuj.org/ar/news/article/%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86-%d9%8a%d8%b1%d9%81%d8%b9-%d8%a7%d9%84%d8%ad%d8%b8%d8%b1-%d8%b9%d9%86-%d9%88%d8%a7%d8%b1%d8%af%d8%a7%d8%aa-%d8%a7%d9%84%d8%b4%d8%a7%d9%8a-%d8%a7%d9%84%d9%83",
-          "status": "Reporting",
-          "geography": [
-            "National"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "Sudan News",
-          "clabel": "أخبار السودان",
-          "language": "ar",
-          "media_attribution": "راديو تمازج"
-        }
-      },
-      {
-        "Title": "البرهان يعيّن مساعد الرئيس المخلوع مستشاراً بمجلس السيادة ويكلفه بملف إعمار الشرق",
-        "Lang": "ar",
-        "Date": "2026-11-11T16:25:18+00:00",
-        "Permalink": "https://www.altaghyeer.info/ar/2026/11/11/%d8%a7%d9%84%d8%a8%d8%b1%d9%87%d8%a7%d9%86-%d9%8a%d8%b9%d9%8a%d9%91%d9%86-%d9%85%d8%b3%d8%a7%d8%b9%d8%af-%d8%a7%d9%84%d8%b1%d8%a6%d9%8a%d8%b3-%d8%a7%d9%84%d9%85%d8%ae%d9%84%d9%88%d8%b9-%d9%85%d8%b3",
-        "Params": {
-          "description": "عاد رئيس مؤتمر البجا السابق ومساعد الرئيس المعزول عمر البشير، موسى محمد أحمد، إلى مواقع السلطة من بوابة مجلس السيادة، بعد أن أصدر رئيس المجلس عبد الفتاح البرهان، في 10 نوفمبر الجاري، قراراً بتعيينه مستشاراً بدرجة وزير اتحادي، وتكليفه بالإشراف على صندوق تنمية وإعمار شرق السودان. الخرطوم ــ التغيير ويأتي القرار بالتزامن مع تغييرات إدارية …",
-          "source": "التغيير",
-          "source_id": "altaghyeer-ar",
-          "source_class": "sudanese_journalism",
-          "link": "https://www.altaghyeer.info/ar/2026/11/11/%d8%a7%d9%84%d8%a8%d8%b1%d9%87%d8%a7%d9%86-%d9%8a%d8%b9%d9%8a%d9%91%d9%86-%d9%85%d8%b3%d8%a7%d8%b9%d8%af-%d8%a7%d9%84%d8%b1%d8%a6%d9%8a%d8%b3-%d8%a7%d9%84%d9%85%d8%ae%d9%84%d9%88%d8%b9-%d9%85%d8%b3",
-          "status": "Reporting",
-          "geography": [
-            "Khartoum"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "Politics",
-          "clabel": "سياسة",
-          "language": "ar",
-          "media_attribution": "التغيير"
-        }
-      },
-      {
-        "Title": "رسالة من القلب.. فينيسيوس يحقق حلم طفل سوداني فقد ساقيه بالحرب",
-        "Lang": "ar",
-        "Date": "2026-11-11T15:43:09+00:00",
-        "Permalink": "https://www.alaraby.co.uk/sport/%D8%B1%D8%B3%D8%A7%D9%84%D8%A9-%D9%85%D9%86-%D8%A7%D9%84%D9%82%D9%84%D8%A8-%D9%81%D9%8A%D9%86%D9%8A%D8%B3%D9%8A%D9%88%D8%B3-%D9%8A%D8%AD%D9%82%D9%82-%D8%AD%D9%84%D9%85-%D8%B7%D9%81%D9%84-%D8%B3%D9%88%D8%AF%D8%A7%D9%86%D9%8A-%D9%81%D9%82%D8%AF-%D8%B3%D8%A7%D9%82%D9%8A%D9%87-%D8%A8%D8%A7%D9%84%D8%AD%D8%B1%D8%A8",
-        "Params": {
-          "description": "دعا النجم البرازيلي فينيسيوس جونيور فتى سودانياً فقد ساقيه في هجوم بطائرة مسيرة لحضور إحدى مباريات ريال مدريد، بحسب ما ذكر موقع \"آر أم سي\" الفرنسي الأربعاء.",
-          "source": "العربي الجديد",
-          "source_id": "alaraby-ar",
-          "source_class": "regional_journalism",
-          "link": "https://www.alaraby.co.uk/sport/%D8%B1%D8%B3%D8%A7%D9%84%D8%A9-%D9%85%D9%86-%D8%A7%D9%84%D9%82%D9%84%D8%A8-%D9%81%D9%8A%D9%86%D9%8A%D8%B3%D9%8A%D9%88%D8%B3-%D9%8A%D8%AD%D9%82%D9%82-%D8%AD%D9%84%D9%85-%D8%B7%D9%81%D9%84-%D8%B3%D9%88%D8%AF%D8%A7%D9%86%D9%8A-%D9%81%D9%82%D8%AF-%D8%B3%D8%A7%D9%82%D9%8A%D9%87-%D8%A8%D8%A7%D9%84%D8%AD%D8%B1%D8%A8",
-          "status": "Reporting",
-          "geography": [
-            "National"
-          ],
-          "image": "https://www.alaraby.co.uk/sites/default/files/styles/meduim_16_9/public/2026-11/GettyImages-2301376738.jpg?h=e44dd8b5&itok=LCykndfZ",
-          "media_reuse_basis": "rss_metadata",
-          "related_sources": [],
-          "category": "War & Security",
-          "clabel": "الحرب والأمن",
-          "language": "ar",
-          "media_attribution": "العربي الجديد"
-        }
-      },
-      {
-        "Title": "ما حقيقة التصريح المنسوب إلى طمبور بشأن تفويض المؤتمر الوطني للحكم مئة عام؟",
-        "Lang": "ar",
-        "Date": "2026-11-11T14:38:01+00:00",
-        "Permalink": "https://www.beamreports.com/2026/11/11/%d9%85%d8%a7-%d8%ad%d9%82%d9%8a%d9%82%d8%a9-%d8%a7%d9%84%d8%aa%d8%b5%d8%b1%d9%8a%d8%ad-%d8%a7%d9%84%d9%85%d9%86%d8%b3%d9%88%d8%a8-%d8%a5%d9%84%d9%89-%d8%b7%d9%85%d8%a8%d9%88%d8%b1-%d8%a8%d8%b4%d8%a3",
-        "Params": {
-          "description": "ما حقيقة التصريح المنسوب إلى طمبور بشأن تفويض المؤتمر الوطني للحكم مئة عام؟ مفبرك تداولت عدة حسابات على «فيسبوك» تصريحًا منسوبًا إلى والي وسط دارفور ورئيس حركة تحرير السودان (فصيل طمبور) مصطفى طمبور، جاء فيه أن حزب المؤتمر الوطني مفوض من الشعب السوداني ويحظى بشرعية تتيح له الحكم مئة عام. وجاء نص الادعاء على النحو […] The post ما حقيقة التصريح المنسوب إلى طمبور بشأن تفويض المؤتمر الوطني للحكم مئة عام؟ first appeared o",
-          "source": "بيم ريبورتس",
-          "source_id": "beam-ar",
-          "source_class": "sudanese_journalism",
-          "link": "https://www.beamreports.com/2026/11/11/%d9%85%d8%a7-%d8%ad%d9%82%d9%8a%d9%82%d8%a9-%d8%a7%d9%84%d8%aa%d8%b5%d8%b1%d9%8a%d8%ad-%d8%a7%d9%84%d9%85%d9%86%d8%b3%d9%88%d8%a8-%d8%a5%d9%84%d9%89-%d8%b7%d9%85%d8%a8%d9%88%d8%b1-%d8%a8%d8%b4%d8%a3",
-          "status": "Reporting",
-          "geography": [
-            "Darfur"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "Politics",
-          "clabel": "سياسة",
-          "language": "ar",
-          "media_attribution": "بيم ريبورتس"
-        }
-      },
-      {
-        "Title": "الفنان التشكيلي وليد محمد يوثق الذاكرة السودانية عبر الفن من نيروبي",
-        "Lang": "ar",
-        "Date": "2026-11-11T14:26:00+00:00",
-        "Permalink": "https://www.dabangasudan.org/ar/all-news/article/%d8%a7%d9%84%d9%81%d9%86%d8%a7%d9%86-%d8%a7%d9%84%d8%aa%d8%b4%d9%83%d9%8a%d9%84%d9%8a-%d9%88%d9%84%d9%8a%d8%af-%d9%85%d8%ad%d9%85%d9%88%d8%af-%d9%8a%d9%88%d8%ab%d9%82-%d8%a7%d9%84%d8%b0%d8%a7%d9%83",
-        "Params": {
-          "description": "نيروبي : 7 نوفمبر 2026 :راديو دبنقا يحاول الفنان التشكيلي السوداني وليد محمد توثيق الذاكرة... The post الفنان التشكيلي وليد محمد يوثق الذاكرة السودانية عبر الفن من نيروبي appeared first on Dabanga Radio TV Online .",
-          "source": "راديو دبنقا",
-          "source_id": "dabanga-ar",
-          "source_class": "sudanese_journalism",
-          "link": "https://www.dabangasudan.org/ar/all-news/article/%d8%a7%d9%84%d9%81%d9%86%d8%a7%d9%86-%d8%a7%d9%84%d8%aa%d8%b4%d9%83%d9%8a%d9%84%d9%8a-%d9%88%d9%84%d9%8a%d8%af-%d9%85%d8%ad%d9%85%d9%88%d8%af-%d9%8a%d9%88%d8%ab%d9%82-%d8%a7%d9%84%d8%b0%d8%a7%d9%83",
-          "status": "Reporting",
-          "geography": [
-            "National"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "Sudan News",
-          "clabel": "أخبار السودان",
-          "language": "ar",
-          "media_attribution": "راديو دبنقا"
-        }
-      },
-      {
-        "Title": "الجيش السوداني يتوسع في كردفان ويتقدم نحو دارفور",
-        "Lang": "ar",
-        "Date": "2026-11-11T13:19:24+00:00",
-        "Permalink": "https://www.alaraby.co.uk/politics/%D8%A7%D9%84%D8%AC%D9%8A%D8%B4-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86%D9%8A-%D9%8A%D8%AA%D9%88%D8%B3%D8%B9-%D9%81%D9%8A-%D9%83%D8%B1%D8%AF%D9%81%D8%A7%D9%86-%D9%88%D9%8A%D8%AA%D9%82%D8%AF%D9%85-%D9%86%D8%AD%D9%88-%D8%AF%D8%A7%D8%B1%D9%81%D9%88%D8%B1",
-        "Params": {
-          "description": "وسع الجيش السوداني، مدعوماً بمجموعات كبيرة من القوات المساندة له، سيطرته في إقليم كردفان، وسط البلاد، على حساب مليشيات الدعم السريع.",
-          "source": "العربي الجديد",
-          "source_id": "alaraby-ar",
-          "source_class": "regional_journalism",
-          "link": "https://www.alaraby.co.uk/politics/%D8%A7%D9%84%D8%AC%D9%8A%D8%B4-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86%D9%8A-%D9%8A%D8%AA%D9%88%D8%B3%D8%B9-%D9%81%D9%8A-%D9%83%D8%B1%D8%AF%D9%81%D8%A7%D9%86-%D9%88%D9%8A%D8%AA%D9%82%D8%AF%D9%85-%D9%86%D8%AD%D9%88-%D8%AF%D8%A7%D8%B1%D9%81%D9%88%D8%B1",
-          "status": "Reporting",
-          "geography": [
-            "Darfur",
-            "Kordofan"
-          ],
-          "image": "https://www.alaraby.co.uk/sites/default/files/styles/meduim_16_9/public/2026-11/2297789495.jpeg?h=a5f2f23a&itok=BzmRsJCr",
-          "media_reuse_basis": "rss_metadata",
-          "related_sources": [],
-          "category": "War & Security",
-          "clabel": "الحرب والأمن",
-          "language": "ar",
-          "media_attribution": "العربي الجديد"
-        }
-      },
-      {
-        "Title": "البرهان يعين مساعد البشير السابق «موسى محمد أحمد» مستشارًا بمجلس السيادة",
-        "Lang": "ar",
-        "Date": "2026-11-11T13:06:24+00:00",
-        "Permalink": "https://sudantribune.net/article/321113",
-        "Params": {
-          "description": "الخرطوم، 11 نوفمبر 2026 – عيّن رئيس مجلس السيادة الانتقالي، عبد الفتاح البرهان، الأربعاء، مساعد الرئيس المعزول عمر البشير السابق، موسى محمد أحمد، مستشاراً بمجلس السيادة بدرجة وزير اتحادي، وأسند إليه مسؤولية صندوق تنمية وإعمار شرق السودان. ويأتي تعيين أحمد بالتزامن مع قرار آخر أصدره البرهان قضى بإعفاء والي ولاية كسلا اللواء المتقاعد الصادق الأزرق وتعيين المفتش العام للقوات المسلحة الفريق رشاد عبد الحميد خلفاً له. وفي",
-          "source": "Sudan Tribune Arabic",
-          "source_id": "sudan-tribune-ar",
-          "source_class": "sudanese_journalism",
-          "link": "https://sudantribune.net/article/321113",
-          "status": "Reporting",
-          "geography": [
-            "Khartoum",
-            "Kassala"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "Politics",
-          "clabel": "سياسة",
-          "language": "ar",
-          "media_attribution": "Sudan Tribune Arabic"
-        }
-      },
-      {
-        "Title": "ذهب ونفط وثروات أخرى.. الموارد ترسم خارطة معارك حرب السودان",
-        "Lang": "ar",
-        "Date": "2026-11-11T11:09:35+00:00",
-        "Permalink": "https://3ayin.com/resources-and-the-war-in-sudan-",
-        "Params": {
-          "description": "عاين- 11 نوفمبر 2026 تزامن احتدام المعارك العسكرية بين الجيش السوداني وقوات الدعم السريع في إقليمي كردفان والنيل الأزرق مع مؤشرات على احتمال تشكّل واقع جديد في خريطة الصراع بالسودان، يقوم على التنافس من أجل السيطرة على المناطق الغنية بالموارد الاقتصادية. ففي الوقت الذي انسحبت فيه “الدعم السريع” من مواقع عدة شمال مدينة الأبيض، تمسكت […]",
-          "source": "عاين",
-          "source_id": "ayin-ar",
-          "source_class": "sudanese_journalism",
-          "link": "https://3ayin.com/resources-and-the-war-in-sudan-",
-          "status": "Reporting",
-          "geography": [
-            "Kordofan",
-            "Blue Nile"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "Economy",
-          "clabel": "اقتصاد",
-          "language": "ar",
-          "media_attribution": "عاين"
-        }
-      },
-      {
-        "Title": "الجيش السوداني يعلن إسقاط مسيرتين بكردفان ودارفور",
-        "Lang": "ar",
-        "Date": "2026-11-11T10:43:50+00:00",
-        "Permalink": "https://sudantribune.net/article/321111",
-        "Params": {
-          "description": "الخرطوم 11 نوفمبر 2026 – أعلن الجيش السوداني، الأربعاء، إسقاط طائرتين مسيّرتين في عمليتين منفصلتين بولايتي غرب كردفان وشرق دارفور، غربي السودان. وكثفت الدعم السريع خلال الفترة الماضية استخدام الطائرات المسيّرة المتطورة في إقليم كردفان، في مسعى لعرقلة تقدم الجيش نحو إقليم دارفور، واستهداف تحركاته وإمداداته العسكرية. وفي المقابل، تمكنت دفاعات الجيش الجوية والأرضية خلال الفترة الماضية من إسقاط أعداد كبيرة من هذه الطائرا",
-          "source": "Sudan Tribune Arabic",
-          "source_id": "sudan-tribune-ar",
-          "source_class": "sudanese_journalism",
-          "link": "https://sudantribune.net/article/321111",
-          "status": "Reporting",
-          "geography": [
-            "Khartoum",
-            "Darfur",
-            "Kordofan"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "War & Security",
-          "clabel": "الحرب والأمن",
-          "language": "ar",
-          "media_attribution": "Sudan Tribune Arabic"
-        }
-      },
-      {
-        "Title": "المحاماة.. رسالة العدالة وحصن الحقوق.. الحلقة التاسعة: من امتحان الحرب إلى استعادة البناء المهني",
-        "Lang": "ar",
-        "Date": "2026-11-11T10:30:00+00:00",
-        "Permalink": "https://www.altaghyeer.info/ar/2026/11/11/%d8%a7%d9%84%d9%85%d8%ad%d8%a7%d9%85%d8%a7%d8%a9-%d8%b1%d8%b3%d8%a7%d9%84%d8%a9-%d8%a7%d9%84%d8%b9%d8%af%d8%a7%d9%84%d8%a9-%d9%88%d8%ad%d8%b5%d9%86-%d8%a7%d9%84%d8%ad%d9%82%d9%88%d9%82-%d8%a7-9",
-        "Params": {
-          "description": "المحاماة.. رسالة العدالة وحصن الحقوق الحلقة التاسعة: من امتحان الحرب إلى استعادة البناء المهني ميرغنى الحبر/ المحامي لم تكن الحرب التي شهدها السودان امتحاناً للمحامين وحدهم، بل كانت امتحاناً للمحاماة بوصفها مهنة ومؤسسة وذاكرة مهنية متراكمة. فقد تضررت مكاتب المحامين، وضاعت ملفات ومستندات، وتعطلت المحاكم، وتفرقت الكوادر بين النزوح واللجوء، وفقد كثيرون مصادر عملهم واستقرارهم …",
-          "source": "التغيير",
-          "source_id": "altaghyeer-ar",
-          "source_class": "sudanese_journalism",
-          "link": "https://www.altaghyeer.info/ar/2026/11/11/%d8%a7%d9%84%d9%85%d8%ad%d8%a7%d9%85%d8%a7%d8%a9-%d8%b1%d8%b3%d8%a7%d9%84%d8%a9-%d8%a7%d9%84%d8%b9%d8%af%d8%a7%d9%84%d8%a9-%d9%88%d8%ad%d8%b5%d9%86-%d8%a7%d9%84%d8%ad%d9%82%d9%88%d9%82-%d8%a7-9",
-          "status": "Reporting",
-          "geography": [
-            "National"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "War & Security",
-          "clabel": "الحرب والأمن",
-          "language": "ar",
-          "media_attribution": "التغيير"
-        }
-      },
-      {
-        "Title": "غرفة طوارئ أبو جابرة تنفذ مشروعاً للطاقة الشمسية وإعادة شبكة المياه بمستشفى المدينة الريفي",
-        "Lang": "ar",
-        "Date": "2026-11-11T10:24:58+00:00",
-        "Permalink": "https://www.radiotamazuj.org/ar/news/article/%d8%ba%d8%b1%d9%81%d8%a9-%d8%b7%d9%88%d8%a7%d8%b1%d8%a6-%d8%a3%d8%a8%d9%88-%d8%ac%d8%a7%d8%a8%d8%b1%d8%a9-%d8%aa%d9%86%d9%81%d8%b0-%d9%85%d8%b4%d8%b1%d9%88%d8%b9%d8%a7%d9%8b-%d9%84%d9%84%d8%b7%d8%a7",
-        "Params": {
-          "description": "نفذت غرفة طوارئ أبو جابرة الإنسانية بتمويل من مجلس العمل القاعدي بشرق دارفور مشروع تشغيل The post غرفة طوارئ أبو جابرة تنفذ مشروعاً للطاقة الشمسية وإعادة شبكة المياه بمستشفى المدينة الريفي appeared first on Radio Tamazuj .",
-          "source": "راديو تمازج",
-          "source_id": "tamazuj-ar",
-          "source_class": "regional_journalism",
-          "link": "https://www.radiotamazuj.org/ar/news/article/%d8%ba%d8%b1%d9%81%d8%a9-%d8%b7%d9%88%d8%a7%d8%b1%d8%a6-%d8%a3%d8%a8%d9%88-%d8%ac%d8%a7%d8%a8%d8%b1%d8%a9-%d8%aa%d9%86%d9%81%d8%b0-%d9%85%d8%b4%d8%b1%d9%88%d8%b9%d8%a7%d9%8b-%d9%84%d9%84%d8%b7%d8%a7",
-          "status": "Reporting",
-          "geography": [
-            "Darfur"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "Health",
-          "clabel": "صحة",
-          "language": "ar",
-          "media_attribution": "راديو تمازج"
-        }
-      },
-      {
-        "Title": "مقتل 9 مدنيين وإصابة آخرين في هجوم بطائرة مسيّرة على نازحين بإقليم النيل الأزرق",
-        "Lang": "ar",
-        "Date": "2026-11-11T10:23:01+00:00",
-        "Permalink": "https://www.radiotamazuj.org/ar/news/article/%d9%85%d9%82%d8%aa%d9%84-9-%d9%85%d8%af%d9%86%d9%8a%d9%8a%d9%86-%d9%88%d8%a5%d8%b5%d8%a7%d8%a8%d8%a9-%d8%a2%d8%ae%d8%b1%d9%8a%d9%86-%d9%81%d9%8a-%d9%87%d8%ac%d9%88%d9%85-%d8%a8%d8%b7%d8%a7%d8%a6%d8%b1",
-        "Params": {
-          "description": "أعلن محافظ محافظة الكرمك بإقليم النيل الأزرق في السودان، عبد العاطي محمد الفكي، مقتل تسعة The post مقتل 9 مدنيين وإصابة آخرين في هجوم بطائرة مسيّرة على نازحين بإقليم النيل الأزرق appeared first on Radio Tamazuj .",
-          "source": "راديو تمازج",
-          "source_id": "tamazuj-ar",
-          "source_class": "regional_journalism",
-          "link": "https://www.radiotamazuj.org/ar/news/article/%d9%85%d9%82%d8%aa%d9%84-9-%d9%85%d8%af%d9%86%d9%8a%d9%8a%d9%86-%d9%88%d8%a5%d8%b5%d8%a7%d8%a8%d8%a9-%d8%a2%d8%ae%d8%b1%d9%8a%d9%86-%d9%81%d9%8a-%d9%87%d8%ac%d9%88%d9%85-%d8%a8%d8%b7%d8%a7%d8%a6%d8%b1",
-          "status": "Reporting",
-          "geography": [
-            "Blue Nile"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "War & Security",
-          "clabel": "الحرب والأمن",
-          "language": "ar",
-          "media_attribution": "راديو تمازج"
-        }
-      },
-      {
-        "Title": "جنوب كردفان: نفوق 65 رأساً من الضأن جراء التلوث بمادة السيانيد شرق تلودي",
-        "Lang": "ar",
-        "Date": "2026-11-11T10:20:13+00:00",
-        "Permalink": "https://www.radiotamazuj.org/ar/news/article/%d8%ac%d9%86%d9%88%d8%a8-%d9%83%d8%b1%d8%af%d9%81%d8%a7%d9%86-%d9%86%d9%81%d9%88%d9%82-65-%d8%b1%d8%a3%d8%b3%d8%a7%d9%8b-%d9%85%d9%86-%d8%a7%d9%84%d8%b6%d8%a3%d9%86-%d8%ac%d8%b1%d8%a7%d8%a1-%d8%a7",
-        "Params": {
-          "description": "أعلن محمد إبراهيم الخليفة، رئيس لجنة مناهضة مادة السيانيد في جبال النوبة، عن نفوق نحو The post جنوب كردفان: نفوق 65 رأساً من الضأن جراء التلوث بمادة السيانيد شرق تلودي appeared first on Radio Tamazuj .",
-          "source": "راديو تمازج",
-          "source_id": "tamazuj-ar",
-          "source_class": "regional_journalism",
-          "link": "https://www.radiotamazuj.org/ar/news/article/%d8%ac%d9%86%d9%88%d8%a8-%d9%83%d8%b1%d8%af%d9%81%d8%a7%d9%86-%d9%86%d9%81%d9%88%d9%82-65-%d8%b1%d8%a3%d8%b3%d8%a7%d9%8b-%d9%85%d9%86-%d8%a7%d9%84%d8%b6%d8%a3%d9%86-%d8%ac%d8%b1%d8%a7%d8%a1-%d8%a7",
-          "status": "Reporting",
-          "geography": [
-            "Kordofan"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "Sudan News",
-          "clabel": "أخبار السودان",
-          "language": "ar",
-          "media_attribution": "راديو تمازج"
-        }
-      },
-      {
-        "Title": "تفاقم أزمة مياه الشرب بمخيم “قوز السلام” للنازحين في كوستي",
-        "Lang": "ar",
-        "Date": "2026-11-11T10:18:39+00:00",
-        "Permalink": "https://www.radiotamazuj.org/ar/news/article/%d8%aa%d9%81%d8%a7%d9%82%d9%85-%d8%a3%d8%b2%d9%85%d8%a9-%d9%85%d9%8a%d8%a7%d9%87-%d8%a7%d9%84%d8%b4%d8%b1%d8%a8-%d8%a8%d9%85%d8%ae%d9%8a%d9%85-%d9%82%d9%88%d8%b2-%d8%a7%d9%84%d8%b3%d9%84%d8%a7%d9%85",
-        "Params": {
-          "description": "تفاقمت أزمة مياه الشرب بمخيم قوز السلام للنازحين بمدينة كوستي بولاية النيل الأبيض في السودان، The post تفاقم أزمة مياه الشرب بمخيم “قوز السلام” للنازحين في كوستي appeared first on Radio Tamazuj .",
-          "source": "راديو تمازج",
-          "source_id": "tamazuj-ar",
-          "source_class": "regional_journalism",
-          "link": "https://www.radiotamazuj.org/ar/news/article/%d8%aa%d9%81%d8%a7%d9%82%d9%85-%d8%a3%d8%b2%d9%85%d8%a9-%d9%85%d9%8a%d8%a7%d9%87-%d8%a7%d9%84%d8%b4%d8%b1%d8%a8-%d8%a8%d9%85%d8%ae%d9%8a%d9%85-%d9%82%d9%88%d8%b2-%d8%a7%d9%84%d8%b3%d9%84%d8%a7%d9%85",
-          "status": "Reporting",
-          "geography": [
-            "Kordofan",
-            "White Nile"
-          ],
-          "image": "",
-          "media_reuse_basis": "",
-          "related_sources": [],
-          "category": "Sudan News",
-          "clabel": "أخبار السودان",
-          "language": "ar",
-          "media_attribution": "راديو تمازج"
-        }
-      },
-      {
-        "Title": "طائرة مسيرة للجيش السوداني تستهدف مركبة مدنية وتقتل كل ركابها بغرب كردفان",
-        "Lang": "ar",
-        "Date": "2026-11-11T09:51:51+00:00",
-        "Permalink": "https://sudanwarmonitor.com/p/093",
-        "Params": {
-          "description": "تأسيس يدين استهداف المرافق المدنية بود بنده",
-          "source": "Sudan War Monitor",
-          "source_id": "sudan-war-monitor",
-          "source_class": "analysis",
-          "link": "https://sudanwarmonitor.com/p/093",
-          "status": "Analysis",
-          "geography": [
-            "Kordofan"
-          ],
-          "image": "https://substackcdn.com/image/fetch/$s_!qz0K!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe4e10ade-6df7-4495-a293-b63e21c4fe7b_905x1280.jpeg",
-          "media_reuse_basis": "rss_metadata",
-          "related_sources": [],
-          "category": "War & Security",
-          "clabel": "الحرب والأمن",
-          "language": "ar",
-          "media_attribution": "Sudan War Monitor"
         }
       }
     ],
