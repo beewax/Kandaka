@@ -34,8 +34,6 @@
 {{- if .limit }}{{ $renderWorks = $works | append (where $homePool "source" "not in" $selectedSources) }}{{ end -}}
 <section class="art-collection" aria-labelledby="artwork-heading" data-artwork-updates data-language="{{ if $isAr }}ar{{ else }}en{{ end }}"{{ if .limit }} data-artwork-homepage{{ end }}>
   <h2 id="artwork-heading">{{ if $isAr }}الفنون والتراث البصري{{ else }}Art & Visual Heritage{{ end }}</h2>
-  <p class="art-weekly-notice">{{ if $isAr }}<strong>مختارات فنية أسبوعية</strong> — نراجع المختارات كل سبت، مع أولوية للفنانين السودانيين وذكر أسماء المبدعين وروابط المصادر.{{ else }}<strong>Weekly artwork selections</strong> — Reviewed each Saturday, prioritizing Sudanese artists, with creator credits and source links.{{ end }}</p>
-  {{ partial "artwork-update-notice.html" (dict "isAr" $isAr "catalogue" $catalogue) }}
   <p>{{ if $isAr }}مجموعة مختارة من الفنون المعاصرة والتاريخية والتصوير والحرف والملصقات وفنون الكتاب، مع أولوية للسودان وروابط للمصادر الأصلية.{{ else }}A curated companion to the photo stream: contemporary and historical art, photography, crafts, posters and book arts, with Sudan first and room for the wider world.{{ end }}</p>
   <div class="art-grid">
     {{ range $renderWorks }}
@@ -98,4 +96,5 @@
 .art-collection .art-card[hidden]{display:none}
 .art-image-unavailable:not([hidden]){display:flex;align-items:center;justify-content:center;min-height:240px;padding:1rem;text-align:center}.art-source-links{margin-top:2rem;padding:1.5rem;border:1px solid var(--border);border-radius:10px}.art-source-links>p{color:var(--secondary);margin:.75rem 0}.art-source-links ul{padding-inline-start:1.2rem}.art-source-links li{padding:1rem 0}.art-source-links li+li{border-top:1px solid var(--border)}.art-source-links h3{font-size:1rem}.art-source-links p{font-size:.88rem;line-height:1.6}.art-source-links a{text-decoration:underline;text-underline-offset:3px}
 </style>
+
 
