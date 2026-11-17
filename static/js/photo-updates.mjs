@@ -5,8 +5,11 @@ import {artworkWeek, selectWeeklyVisuals} from './artwork-updates.mjs';
 export function refreshPhotos(notice, at = new Date(), root = globalThis.document) {
   const next = artworkWeek(at).nextRotation;
   const format = new Intl.DateTimeFormat(notice.dataset.language === 'ar' ? 'ar' : 'en-US', {
-    timeZone: 'America/Chicago', weekday: 'long', year: 'numeric', month: 'long',
-    day: 'numeric', hour: 'numeric', minute: '2-digit', timeZoneName: 'short',
+    timeZone: 'America/Chicago',
+    ...(notice.dataset.photoCompact === 'true'
+      ? {month: 'short', day: 'numeric'}
+      : {weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'}),
+    hour: 'numeric', minute: '2-digit', timeZoneName: 'short',
   });
   for (const selector of ['[data-photo-next-review]', '[data-photo-next-rotation]']) {
     const element = notice.querySelector(selector);
