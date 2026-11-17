@@ -32,9 +32,10 @@
 {{- range $works }}{{ $selectedSources = $selectedSources | append .source }}{{ end -}}
 {{- $renderWorks := $works -}}
 {{- if .limit }}{{ $renderWorks = $works | append (where $homePool "source" "not in" $selectedSources) }}{{ end -}}
-<section class="art-collection" aria-labelledby="artwork-heading" data-artwork-updates data-language="{{ if $isAr }}ar{{ else }}en{{ end }}"{{ if .limit }} data-artwork-homepage{{ end }}>
+<section class="art-collection" aria-labelledby="artwork-heading" data-artwork-updates data-artwork-compact="true" data-language="{{ if $isAr }}ar{{ else }}en{{ end }}"{{ if .limit }} data-artwork-homepage{{ end }}>
   <h2 id="artwork-heading">{{ if $isAr }}الفنون والتراث البصري{{ else }}Art & Visual Heritage{{ end }}</h2>
   <p>{{ if $isAr }}مجموعة مختارة من الفنون المعاصرة والتاريخية والتصوير والحرف والملصقات وفنون الكتاب، مع أولوية للسودان وروابط للمصادر الأصلية.{{ else }}A curated companion to the photo stream: contemporary and historical art, photography, crafts, posters and book arts, with Sudan first and room for the wider world.{{ end }}</p>
+  {{ partial "artwork-update-notice.html" (dict "isAr" $isAr) }}
   <div class="art-grid">
     {{ range $renderWorks }}
     <article class="art-card" data-artwork-id="{{ .source }}"{{ with .homepage_since }} data-artwork-since="{{ . }}"{{ end }}{{ with .homepage_group }} data-artwork-group="{{ . }}"{{ end }}{{ if and $.limit (not (in $selectedSources .source)) }} hidden{{ end }}>
@@ -76,11 +77,11 @@
 </section>
 <script type="module" src="{{ "js/artwork-updates.mjs" | relURL }}"></script>
 <style>
-.art-card[hidden]{display:none}.art-update-status{padding:.8rem 1rem;background:var(--code-bg);border-radius:4px;line-height:1.65}.art-update-status p{margin:.3rem 0}.art-update-status small{display:block;color:var(--secondary)}.art-recent-links{margin-top:1.25rem}.art-recent-links h3{font-size:1rem}.art-recent-links p{font-size:.88rem;color:var(--secondary)}.art-recent-links ul{padding-inline-start:1.2rem}.art-recent-links li{margin:.4rem 0}
+.art-card[hidden]{display:none}.art-recent-links{margin-top:1.25rem}.art-recent-links h3{font-size:1rem}.art-recent-links p{font-size:.88rem;color:var(--secondary)}.art-recent-links ul{padding-inline-start:1.2rem}.art-recent-links li{margin:.4rem 0}
 .art-weekly-notice{padding:.8rem 1rem;border-inline-start:3px solid var(--primary);background:var(--code-bg);border-radius:4px;margin:1rem 0}
 .art-image-wrap img[hidden]{display:none}
 .art-collection{margin:2rem 0;padding-top:1rem;border-top:1px solid var(--border)}
-.art-collection>p{color:var(--secondary);line-height:1.65}.art-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:1rem}
+.art-collection>p.art-update-status{font-size:12px;line-height:1.5;margin:0 0 12px}.art-collection>p{color:var(--secondary);line-height:1.65}.art-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:1rem}
 .art-card{background:var(--entry);border:1px solid var(--border);border-radius:10px;overflow:hidden}.art-image-wrap{display:block;background:var(--code-bg)}
 .art-image-wrap img{width:100%;height:240px;object-fit:contain;display:block;padding:12px}.art-card-body{padding:1rem}.art-card h3{font-size:1.1rem;margin:0 0 .5rem}.art-card p{font-size:.88rem;margin:.5rem 0;line-height:1.6}.art-card .art-genre{font-size:.75rem;color:var(--secondary)}
 .art-card a{text-decoration:underline;text-underline-offset:3px}.art-card small{display:block;margin-top:.7rem;color:var(--secondary);font-size:.72rem}.art-card a:focus-visible{outline:3px solid var(--primary);outline-offset:3px}

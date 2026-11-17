@@ -86,12 +86,32 @@ export function refreshArtwork(section, at = new Date()) {
     timeZone: zone, weekday: 'long', year: 'numeric', month: 'long', day: 'numeric',
     hour: 'numeric', minute: '2-digit', timeZoneName: 'short',
   });
+  const compact = section.dataset.artworkCompact === 'true';
+  const locale = isAr ? 'ar' : 'en-US';
+  const sameDay = new Intl.DateTimeFormat('en-CA', {timeZone: zone}).format(week.nextReview) ===
+    new Intl.DateTimeFormat('en-CA', {timeZone: zone}).format(week.nextRotation);
+  const shortDate = new Intl.DateTimeFormat(locale, {
+    timeZone: zone, weekday: 'short', month: 'short', day: 'numeric',
+  });
+  const hour = new Intl.DateTimeFormat(locale, {timeZone: zone, hour: 'numeric'});
+  const shortTime = new Intl.DateTimeFormat(locale, {
+    timeZone: zone, hour: 'numeric', minute: '2-digit', timeZoneName: 'short',
+  });
   for (const [selector, date] of [
     ['[data-artwork-next-review]', week.nextReview],
     ['[data-artwork-next-rotation]', week.nextRotation],
   ]) {
     const element = section.querySelector(selector);
-    if (element) { element.dateTime = date.toISOString(); element.textContent = format.format(date); }
+    if (element) {
+      element.dateTime = date.toISOString();
+      if (compact) element.setAttribute('aria-label', format.format(date));
+      element.textContent = compact && sameDay
+        ? (selector === '[data-artwork-next-review]'
+          ? shortDate.format(date) + (isAr ? '، ' : ', ') +
+            hour.formatToParts(date).filter(p => p.type === 'hour').map(p => p.value).join('')
+          : shortTime.format(date))
+        : format.format(date);
+    }
   }
   if (!section.hasAttribute('data-artwork-homepage')) return;
   const cards = [...section.querySelectorAll('.art-card')];

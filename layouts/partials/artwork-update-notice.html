@@ -2,16 +2,6 @@
 {{- $week := partial "visual-week.html" (dict) -}}
 {{- $rotation := $week.start.AddDate 0 0 7 -}}
 {{- $review := $rotation.Add (time.ParseDuration "-30m") -}}
-{{- if $review.After now }}{{ else }}{{ $review = $review.AddDate 0 0 7 }}{{ end -}}
-{{- $last := "" -}}
-{{- range .catalogue -}}
-  {{- with .homepage_since -}}
-    {{- if or (not $last) ((time.AsTime .).After (time.AsTime $last)) }}{{ $last = . }}{{ end -}}
-  {{- end -}}
-{{- end -}}
-<div class="art-update-status">
-  {{ with $last }}<p>{{ if $isAr }}آخر إضافة مصوّرة جرت مراجعتها:{{ else }}Latest reviewed illustrated addition:{{ end }} <time datetime="{{ . }}">{{ (time.In "America/Chicago" (time.AsTime .)).Format "2006-01-02" }}</time></p>{{ end }}
-  <p><strong>{{ if $isAr }}المراجعة الأسبوعية المقبلة:{{ else }}Next weekly review:{{ end }}</strong> <time data-artwork-next-review datetime="{{ $review.Format "2006-01-02T15:04:05Z07:00" }}">{{ $review.Format "2006-01-02 · 3:04 PM MST" }}</time></p>
-  <p><strong>{{ if $isAr }}التبديل المقبل لمختارات الصفحة الرئيسية:{{ else }}Next homepage rotation:{{ end }}</strong> <time data-artwork-next-rotation datetime="{{ $rotation.Format "2006-01-02T15:04:05Z07:00" }}">{{ $rotation.Format "2006-01-02 · 3:04 PM MST" }}</time></p>
-  <small>{{ if $isAr }}جميع المواعيد بتوقيت شيكاغو، مع مراعاة التوقيت الصيفي. تتبدل مختارات الصفحة الرئيسية أسبوعيًا من الأعمال المراجَعة، وقد تتكرر. تُنشر الإضافات الجديدة بعد اكتمال التحقق من المصادر والحقوق والمراجعة بالعربية والإنجليزية؛ وقد لا تسفر المراجعة عن إضافة جديدة.{{ else }}All times are in Chicago time, with daylight saving observed. The homepage rotates reviewed works weekly; selections may repeat. New additions follow source, rights and bilingual review, and a review may yield no additions.{{ end }}</small>
-</div>
+{{- if not ($review.After now) }}{{ $review = $review.AddDate 0 0 7 }}{{ end -}}
+{{- $sameDay := eq ($review.Format "2006-01-02") ($rotation.Format "2006-01-02") -}}
+<p class="art-update-status">{{ if $isAr }}مراجعة/تبديل:{{ else }}Review/rotation:{{ end }} <time dir="auto" data-artwork-next-review datetime="{{ $review.Format "2006-01-02T15:04:05Z07:00" }}" aria-label="{{ $review.Format "Mon, Jan 2, 3:04 PM MST" }}">{{ if not $sameDay }}{{ $review.Format "Mon, Jan 2, 3:04 PM MST" }}{{ else if $isAr }}{{ index (slice "الأحد" "الاثنين" "الثلاثاء" "الأربعاء" "الخميس" "الجمعة" "السبت") (int $review.Weekday) }}، {{ $review.Format "02/01، 15" }}{{ else }}{{ $review.Format "Mon, Jan 2, 3" }}{{ end }}</time> / <time dir="auto" data-artwork-next-rotation datetime="{{ $rotation.Format "2006-01-02T15:04:05Z07:00" }}">{{ if $sameDay }}{{ $rotation.Format "3:04 PM MST" }}{{ else }}{{ $rotation.Format "Mon, Jan 2, 3:04 PM MST" }}{{ end }}</time></p>
