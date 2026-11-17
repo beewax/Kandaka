@@ -1,0 +1,246 @@
+{
+  "release": "7c3b96070153d3efa223d92b692939ee646a54d3",
+  "deploy": "6afcbc7febe29516c9de2979",
+  "published_utc": "2026-11-17T20:44:44.909Z",
+  "checked_utc": "2026-11-17T20:46:25.405Z",
+  "browser": "CUA Chrome",
+  "viewport_restored": true,
+  "checks": [
+    {
+      "route": "home-en",
+      "width": 1280,
+      "bookCards": 3,
+      "historicalNote": "Historical photos show past conditions.",
+      "libraryCards": 0,
+      "notices": [
+        {
+          "date": "2026-11-21T16:30:00.000Z",
+          "noOverflow": true,
+          "oneLine": true,
+          "text": "Next review & rotation: Nov 21, 10:30 AM CST"
+        },
+        {
+          "date": "2026-11-23T16:00:00.000Z",
+          "noOverflow": true,
+          "oneLine": true,
+          "text": "Next review & rotation: Nov 23, 10:00 AM CST"
+        }
+      ],
+      "oldPhotoBadge": false,
+      "photoCards": 3,
+      "rtl": false
+    },
+    {
+      "route": "home-ar",
+      "width": 1280,
+      "bookCards": 3,
+      "historicalNote": "الصور التاريخية توثّق الماضي، لا الأوضاع الحالية.",
+      "libraryCards": 0,
+      "notices": [
+        {
+          "date": "2026-11-21T16:30:00.000Z",
+          "noOverflow": true,
+          "oneLine": true,
+          "text": "المراجعة والتبديل: 21 نوفمبر، 10:30 ص غرينتش-6"
+        },
+        {
+          "date": "2026-11-23T16:00:00.000Z",
+          "noOverflow": true,
+          "oneLine": true,
+          "text": "المراجعة والتبديل: 23 نوفمبر، 10:00 ص غرينتش-6"
+        }
+      ],
+      "oldPhotoBadge": false,
+      "photoCards": 3,
+      "rtl": true
+    },
+    {
+      "route": "photos-en",
+      "width": 1280,
+      "bookCards": null,
+      "historicalNote": "Historical photos show past conditions.",
+      "libraryCards": 0,
+      "notices": [
+        {
+          "date": "2026-11-21T16:30:00.000Z",
+          "noOverflow": true,
+          "oneLine": true,
+          "text": "Next review & rotation: Nov 21, 10:30 AM CST"
+        }
+      ],
+      "oldPhotoBadge": false,
+      "photoCards": null,
+      "rtl": false
+    },
+    {
+      "route": "photos-ar",
+      "width": 1280,
+      "bookCards": null,
+      "historicalNote": "الصور التاريخية توثّق الماضي، لا الأوضاع الحالية.",
+      "libraryCards": 0,
+      "notices": [
+        {
+          "date": "2026-11-21T16:30:00.000Z",
+          "noOverflow": true,
+          "oneLine": true,
+          "text": "المراجعة والتبديل: 21 نوفمبر، 10:30 ص غرينتش-6"
+        }
+      ],
+      "oldPhotoBadge": false,
+      "photoCards": null,
+      "rtl": true
+    },
+    {
+      "route": "library-en",
+      "width": 1280,
+      "bookCards": null,
+      "libraryCards": 577,
+      "notices": [
+        {
+          "date": "2026-11-23T16:00:00.000Z",
+          "noOverflow": true,
+          "oneLine": true,
+          "text": "Next review & rotation: Nov 23, 10:00 AM CST"
+        }
+      ],
+      "oldPhotoBadge": false,
+      "photoCards": null,
+      "rtl": false
+    },
+    {
+      "route": "library-ar",
+      "width": 1280,
+      "bookCards": null,
+      "libraryCards": 577,
+      "notices": [
+        {
+          "date": "2026-11-23T16:00:00.000Z",
+          "noOverflow": true,
+          "oneLine": true,
+          "text": "المراجعة والتبديل: 23 نوفمبر، 10:00 ص غرينتش-6"
+        }
+      ],
+      "oldPhotoBadge": false,
+      "photoCards": null,
+      "rtl": true
+    },
+    {
+      "route": "home-en",
+      "width": 320,
+      "bookCards": 3,
+      "historicalNote": "Historical photos show past conditions.",
+      "libraryCards": 0,
+      "notices": [
+        {
+          "date": "2026-11-21T16:30:00.000Z",
+          "noOverflow": true,
+          "oneLine": true,
+          "text": "Next review & rotation: Nov 21, 10:30 AM CST"
+        },
+        {
+          "date": "2026-11-23T16:00:00.000Z",
+          "noOverflow": true,
+          "oneLine": true,
+          "text": "Next review & rotation: Nov 23, 10:00 AM CST"
+        }
+      ],
+      "oldPhotoBadge": false,
+      "photoCards": 3,
+      "rtl": false
+    },
+    {
+      "route": "home-ar",
+      "width": 320,
+      "bookCards": 3,
+      "historicalNote": "الصور التاريخية توثّق الماضي، لا الأوضاع الحالية.",
+      "libraryCards": 0,
+      "notices": [
+        {
+          "date": "2026-11-21T16:30:00.000Z",
+          "noOverflow": true,
+          "oneLine": true,
+          "text": "المراجعة والتبديل: 21 نوفمبر، 10:30 ص غرينتش-6"
+        },
+        {
+          "date": "2026-11-23T16:00:00.000Z",
+          "noOverflow": true,
+          "oneLine": true,
+          "text": "المراجعة والتبديل: 23 نوفمبر، 10:00 ص غرينتش-6"
+        }
+      ],
+      "oldPhotoBadge": false,
+      "photoCards": 3,
+      "rtl": true
+    },
+    {
+      "route": "photos-en",
+      "width": 320,
+      "bookCards": null,
+      "historicalNote": "Historical photos show past conditions.",
+      "libraryCards": 0,
+      "notices": [
+        {
+          "date": "2026-11-21T16:30:00.000Z",
+          "noOverflow": true,
+          "oneLine": true,
+          "text": "Next review & rotation: Nov 21, 10:30 AM CST"
+        }
+      ],
+      "oldPhotoBadge": false,
+      "photoCards": null,
+      "rtl": false
+    },
+    {
+      "route": "photos-ar",
+      "width": 320,
+      "bookCards": null,
+      "historicalNote": "الصور التاريخية توثّق الماضي، لا الأوضاع الحالية.",
+      "libraryCards": 0,
+      "notices": [
+        {
+          "date": "2026-11-21T16:30:00.000Z",
+          "noOverflow": true,
+          "oneLine": true,
+          "text": "المراجعة والتبديل: 21 نوفمبر، 10:30 ص غرينتش-6"
+        }
+      ],
+      "oldPhotoBadge": false,
+      "photoCards": null,
+      "rtl": true
+    },
+    {
+      "route": "library-en",
+      "width": 320,
+      "bookCards": null,
+      "libraryCards": 577,
+      "notices": [
+        {
+          "date": "2026-11-23T16:00:00.000Z",
+          "noOverflow": true,
+          "oneLine": true,
+          "text": "Next review & rotation: Nov 23, 10:00 AM CST"
+        }
+      ],
+      "oldPhotoBadge": false,
+      "photoCards": null,
+      "rtl": false
+    },
+    {
+      "route": "library-ar",
+      "width": 320,
+      "bookCards": null,
+      "libraryCards": 577,
+      "notices": [
+        {
+          "date": "2026-11-23T16:00:00.000Z",
+          "noOverflow": true,
+          "oneLine": true,
+          "text": "المراجعة والتبديل: 23 نوفمبر، 10:00 ص غرينتش-6"
+        }
+      ],
+      "oldPhotoBadge": false,
+      "photoCards": null,
+      "rtl": true
+    }
+  ]
+}
