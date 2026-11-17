@@ -3,10 +3,11 @@
 {{- $featured := partial "library-selection.html" (dict "items" $pool) -}}
 <section class="k-section" aria-labelledby="library-heading" data-library-home>
   <div class="k-section-head">
-    <h2 id="library-heading">{{ if $isAr }}من المكتبة{{ else }}From the Library{{ end }}</h2>
+    <h2 id="library-heading">{{ if $isAr }}المكتبة{{ else }}Library{{ end }}</h2>
     <a href="{{ if $isAr }}/ar/library/{{ else }}/library/{{ end }}">{{ if $isAr }}كل الكتب ←{{ else }}All books →{{ end }}</a>
   </div>
-  {{ partial "library-update-notice.html" . }}
+  <span hidden data-library-updates data-language="{{ if $isAr }}ar{{ else }}en{{ end }}"></span>
+  <script type="module" src="{{ "js/library-updates.mjs" | relURL }}"></script>
   <div class="k-lib-stack">
     {{- $icons := slice "📖" "📊" "🗺️" -}}
     {{- range $i, $book := $featured -}}
