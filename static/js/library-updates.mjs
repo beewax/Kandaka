@@ -71,7 +71,7 @@ export function refreshLibrary(notice, at = new Date(), doc = notice.ownerDocume
   const format = new Intl.DateTimeFormat(notice.dataset.language === 'ar' ? 'ar' : 'en-US', {
     timeZone: zone,
     ...(notice.dataset.libraryCompact === 'true'
-      ? {month: 'short', day: 'numeric'}
+      ? {weekday: 'short', month: 'short', day: 'numeric'}
       : {weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'}),
     hour: 'numeric', minute: '2-digit', timeZoneName: 'short'});
   for (const [selector, date] of [['[data-library-week]', week.start],

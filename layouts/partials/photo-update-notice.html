@@ -1,7 +1,7 @@
 {{- $isAr := eq .Site.Language.Lang "ar" -}}
 {{- $week := partial "visual-week.html" (dict) -}}
 {{- $next := $week.start.AddDate 0 0 7 -}}
-<p class="photo-update-status" data-photo-updates data-photo-compact="true" data-language="{{ if $isAr }}ar{{ else }}en{{ end }}">{{ if $isAr }}المراجعة والتبديل:{{ else }}Next review & rotation:{{ end }} <time dir="auto" data-photo-next-review datetime="{{ $next.Format "2006-01-02T15:04:05Z07:00" }}">{{ if $isAr }}{{ $next.Format "02/01، 15:04 MST" }}{{ else }}{{ $next.Format "Jan 2, 3:04 PM MST" }}{{ end }}</time></p>
+<p class="photo-update-status" data-photo-updates data-photo-compact="true" data-language="{{ if $isAr }}ar{{ else }}en{{ end }}">{{ if $isAr }}مراجعة/تبديل:{{ else }}Review/rotation:{{ end }} <time dir="auto" data-photo-next-review datetime="{{ $next.Format "2006-01-02T15:04:05Z07:00" }}">{{ if $isAr }}{{ index (slice "الأحد" "الاثنين" "الثلاثاء" "الأربعاء" "الخميس" "الجمعة" "السبت") (int $next.Weekday) }}، {{ $next.Format "02/01، 15:04 MST" }}{{ else }}{{ $next.Format "Mon, Jan 2, 3:04 PM MST" }}{{ end }}</time></p>
 <p class="photo-history-note">{{ if $isAr }}الصور التاريخية توثّق الماضي، لا الأوضاع الحالية.{{ else }}Historical photos show past conditions.{{ end }}</p>
 <script type="module" src="{{ "js/photo-updates.mjs" | relURL }}"></script>
 <style>.k-photo-card[hidden]{display:none}.photo-update-status,.photo-history-note{font-size:12px;color:var(--secondary);line-height:1.5;margin:0 0 8px}.photo-history-note{margin-bottom:12px}</style>

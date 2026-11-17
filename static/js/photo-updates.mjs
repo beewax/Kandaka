@@ -7,7 +7,7 @@ export function refreshPhotos(notice, at = new Date(), root = globalThis.documen
   const format = new Intl.DateTimeFormat(notice.dataset.language === 'ar' ? 'ar' : 'en-US', {
     timeZone: 'America/Chicago',
     ...(notice.dataset.photoCompact === 'true'
-      ? {month: 'short', day: 'numeric'}
+      ? {weekday: 'short', month: 'short', day: 'numeric'}
       : {weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'}),
     hour: 'numeric', minute: '2-digit', timeZoneName: 'short',
   });
