@@ -21,12 +21,12 @@
     {{- $work := . -}}
     {{- with .homepage_since -}}
       {{- if and $work.image (eq "sudan-nubia" $work.homepage_group) -}}
-        {{- $items = $items | append (dict "id" $work.source "since" . "group" $work.homepage_group "featureUntil" ($work.homepage_featured_until | default "") "featureRank" ($work.homepage_featured_rank | default 0) "value" $work) -}}
+        {{- $items = $items | append (dict "id" $work.source "since" . "group" $work.homepage_group "value" $work) -}}
         {{- $homePool = $homePool | append $work -}}
       {{- end -}}
     {{- end -}}
   {{- end -}}
-  {{- $works = first . (partial "homepage-artwork-selection.html" (dict "items" $items)) -}}
+  {{- $works = partial "homepage-artwork-selection.html" (dict "items" $items) -}}
 {{- end -}}
 {{- $selectedSources := slice -}}
 {{- range $works }}{{ $selectedSources = $selectedSources | append .source }}{{ end -}}
@@ -37,7 +37,7 @@
   <p>{{ if $isAr }}مجموعة مختارة من الفنون المعاصرة والتاريخية والتصوير والحرف والملصقات وفنون الكتاب، مع أولوية للسودان وروابط للمصادر الأصلية.{{ else }}A curated companion to the photo stream: contemporary and historical art, photography, crafts, posters and book arts, with Sudan first and room for the wider world.{{ end }}</p>
   <div class="art-grid">
     {{ range $renderWorks }}
-    <article class="art-card" data-artwork-id="{{ .source }}"{{ with .homepage_since }} data-artwork-since="{{ . }}"{{ end }}{{ with .homepage_group }} data-artwork-group="{{ . }}"{{ end }}{{ with .homepage_featured_until }} data-artwork-featured-until="{{ . }}"{{ end }}{{ with .homepage_featured_rank }} data-artwork-featured-rank="{{ . }}"{{ end }}{{ if and $.limit (not (in $selectedSources .source)) }} hidden{{ end }}>
+    <article class="art-card" data-artwork-id="{{ .source }}"{{ with .homepage_since }} data-artwork-since="{{ . }}"{{ end }}{{ with .homepage_group }} data-artwork-group="{{ . }}"{{ end }}{{ if and $.limit (not (in $selectedSources .source)) }} hidden{{ end }}>
       <a href="{{ .source }}" target="_blank" rel="noopener noreferrer" class="art-image-wrap"><img src="{{ .image }}" alt="{{ .alt }}" loading="lazy" decoding="async" onerror="this.hidden=true;this.nextElementSibling.hidden=false"><span class="art-image-unavailable" hidden>{{ if $isAr }}تعذّر تحميل الصورة — شاهد العمل في المصدر ↗{{ else }}Image unavailable — view artwork at the source ↗{{ end }}</span></a>
       <div class="art-card-body">
         <p class="art-genre">{{ .genre }}</p>

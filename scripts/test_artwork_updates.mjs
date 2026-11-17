@@ -44,14 +44,18 @@ test('visible cards and dated notices advance together in both languages', () =>
     assert.deepEqual(visible(), after);
   }
 });
-test('the real catalogue changes on Saturday and stays stable midweek in both languages', () => {
+test('the real catalogue rotates weekly and adds newly published work immediately', () => {
   const catalogue = JSON.parse(readFileSync(new URL('../data/artworks.json', import.meta.url)));
   const items = catalogue.filter(work => work.image && work.homepage_since)
     .map(work => ({id: work.source, since: work.homepage_since, group: work.homepage_group}));
   const pick = at => selectArtwork(items, new Date(at)).map(item => item.id);
   assert.deepEqual(pick('2026-11-07T16:30:00Z'), pick('2026-11-14T16:29:59Z'));
   assert.notDeepEqual(pick('2026-11-14T16:29:59Z'), pick('2026-11-14T16:30:00Z'));
-  assert.deepEqual(pick('2026-11-14T16:30:00Z'), pick('2026-11-18T01:00:00Z'));
+  assert.deepEqual(pick('2026-11-14T16:30:00Z'), pick('2026-11-17T01:00:00Z'));
+  const published = pick('2026-11-17T04:00:00Z');
+  assert.ok(published.includes('https://www.metmuseum.org/art/collection/search/552295'));
+  assert.ok(published.includes('https://www.metmuseum.org/art/collection/search/544883'));
+  assert.deepEqual(published, pick('2026-11-18T01:00:00Z'));
   assert.equal(new Set(pick('2026-11-14T16:30:00Z')).size, 3);
   const sourceOnly = new Set(catalogue.filter(work => !work.image).map(work => work.source));
   assert.ok(pick('2026-11-14T16:30:00Z').every(id => !sourceOnly.has(id)));

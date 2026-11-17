@@ -1,22 +1,25 @@
-{{/* Explicit owner-approved features; all other slots retain weekly rotation. */}}
+{{/* All approved regional illustrated publications get 168 hours of immediate
+     homepage priority. Fill to three cards from the unchanged weekly rotation.
+     No future timestamps or source-only records enter this caller's pool. */}}
 {{- $regional := where .items "group" "sudan-nubia" -}}
 {{- $at := now -}}
 {{- with .at }}{{ $at = time.AsTime . }}{{ end -}}
-{{- $features := slice -}}
+{{- $recent := slice -}}
 {{- range $regional -}}
-  {{- $item := . -}}
-  {{- with .featureUntil -}}
-    {{- if and ((time.AsTime .).After $at) (not ((time.AsTime $item.since).After $at)) -}}
-      {{- $features = $features | append $item -}}
-    {{- end -}}
+  {{- $published := time.AsTime .since -}}
+  {{- $age := sub $at.UnixMilli $published.UnixMilli -}}
+  {{- if and (ge $age 0) (lt $age 604800000) -}}
+    {{- $key := printf "%020d:%s" (sub 9999999999999 $published.UnixMilli) .id -}}
+    {{- $recent = $recent | append (dict "key" $key "item" .) -}}
   {{- end -}}
 {{- end -}}
 {{- $selected := slice -}}
 {{- $ids := slice -}}
-{{- range first 3 (sort $features "featureRank") -}}
-  {{- if not (in $ids .id) -}}
-    {{- $selected = $selected | append .value -}}
-    {{- $ids = $ids | append .id -}}
+{{- range sort $recent "key" -}}
+  {{- $item := .item -}}
+  {{- if not (in $ids $item.id) -}}
+    {{- $selected = $selected | append $item.value -}}
+    {{- $ids = $ids | append $item.id -}}
   {{- end -}}
 {{- end -}}
 {{- $args := dict "items" $regional "limit" 3 "stride" 2 -}}
