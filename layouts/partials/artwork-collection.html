@@ -86,5 +86,15 @@
 .art-card{background:var(--entry);border:1px solid var(--border);border-radius:10px;overflow:hidden}.art-image-wrap{display:block;background:var(--code-bg)}
 .art-image-wrap img{width:100%;height:240px;object-fit:contain;display:block;padding:12px}.art-card-body{padding:1rem}.art-card h3{font-size:1.1rem;margin:0 0 .5rem}.art-card p{font-size:.88rem;margin:.5rem 0;line-height:1.6}.art-card .art-genre{font-size:.75rem;color:var(--secondary)}
 .art-card a{text-decoration:underline;text-underline-offset:3px}.art-card small{display:block;margin-top:.7rem;color:var(--secondary);font-size:.72rem}.art-card a:focus-visible{outline:3px solid var(--primary);outline-offset:3px}
+/* Share the text rows across each visual row of cards. Keep complete titles,
+   descriptions and credits, including when Arabic or zoom makes them longer. */
+.art-card{display:flex;flex-direction:column}.art-card-body{flex:1;display:flex;flex-direction:column;gap:.6rem}.art-card-body>p,.art-card-body>h3,.art-card-body>small{margin:0}.art-card-body>a{margin-top:auto}
+@supports (grid-template-rows:subgrid){
+  .art-card{display:grid;grid-row:span 7;grid-template-rows:subgrid;row-gap:0}
+  .art-card-body{display:grid;grid-row:span 6;grid-template-rows:subgrid;row-gap:0;padding-block:1rem}
+  .art-card-body>*{align-self:start;min-width:0;overflow-wrap:anywhere}
+  .art-card-body>p,.art-card-body>h3,.art-card-body>a{margin:0;padding-bottom:.6rem}
+}
 .art-image-unavailable:not([hidden]){display:flex;align-items:center;justify-content:center;min-height:240px;padding:1rem;text-align:center}.art-source-links{margin-top:2rem;padding:1.5rem;border:1px solid var(--border);border-radius:10px}.art-source-links>p{color:var(--secondary);margin:.75rem 0}.art-source-links ul{padding-inline-start:1.2rem}.art-source-links li{padding:1rem 0}.art-source-links li+li{border-top:1px solid var(--border)}.art-source-links h3{font-size:1rem}.art-source-links p{font-size:.88rem;line-height:1.6}.art-source-links a{text-decoration:underline;text-underline-offset:3px}
 </style>
+
