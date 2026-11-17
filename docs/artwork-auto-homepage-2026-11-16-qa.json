@@ -1,0 +1,928 @@
+{
+  "release": "c86a0a6481e840a50e0055c060a6b1cdbc4e7e7e",
+  "deploy": "6afbd1e8bff012ab8fdb19aa",
+  "published_utc": "2026-11-17T04:03:48.527Z",
+  "node_tests_passed": 7,
+  "hugo_python_regression_suites_passed": 2,
+  "actual_hugo_publication_cases": 14,
+  "fixture_languages": 2,
+  "four_new_record_homepage_render_passed": true,
+  "simulation_only_timestamps_not_published": true,
+  "card_css_unchanged": true,
+  "checked_utc": "2026-11-17T04:04:22.543536+00:00",
+  "browser": "Isolated headless installed Google Chrome; no existing user profile/window controlled",
+  "checks": [
+    {
+      "language": "en",
+      "viewport": [
+        1280,
+        900
+      ],
+      "featured_sources": [
+        "https://www.metmuseum.org/art/collection/search/544883",
+        "https://www.metmuseum.org/art/collection/search/552295"
+      ],
+      "visible_cards": 3,
+      "full_approved_text_and_credits": true,
+      "no_clipped_text_or_card_overflow": true,
+      "desktop_rows_aligned": true,
+      "approved_images_loaded_uncropped": true,
+      "rtl": false,
+      "screenshot": "en-desktop.png",
+      "geometry": [
+        {
+          "source": "https://www.metmuseum.org/art/collection/search/544883",
+          "card": {
+            "x": 114,
+            "y": 107.46875,
+            "width": 340,
+            "height": 670.078125,
+            "right": 454
+          },
+          "image": {
+            "x": 115,
+            "y": 108.46875,
+            "width": 338,
+            "height": 240,
+            "right": 453
+          },
+          "rows": [
+            {
+              "x": 131,
+              "y": 364.46875,
+              "width": 306,
+              "height": 28.78125,
+              "right": 437,
+              "clipped": false
+            },
+            {
+              "x": 131,
+              "y": 393.25,
+              "width": 306,
+              "height": 30.703125,
+              "right": 437,
+              "clipped": false
+            },
+            {
+              "x": 131,
+              "y": 445.0625,
+              "width": 306,
+              "height": 32.109375,
+              "right": 437,
+              "clipped": false
+            },
+            {
+              "x": 131,
+              "y": 499.6875,
+              "width": 306,
+              "height": 167.203125,
+              "right": 437,
+              "clipped": false
+            },
+            {
+              "x": 131,
+              "y": 666.890625,
+              "width": 306,
+              "height": 38.390625,
+              "right": 437,
+              "clipped": false
+            },
+            {
+              "x": 131,
+              "y": 705.28125,
+              "width": 306,
+              "height": 36.84375,
+              "right": 437,
+              "clipped": false
+            }
+          ],
+          "imageLoaded": true,
+          "objectFit": "contain"
+        },
+        {
+          "source": "https://www.metmuseum.org/art/collection/search/552295",
+          "card": {
+            "x": 470,
+            "y": 107.46875,
+            "width": 340,
+            "height": 670.078125,
+            "right": 810
+          },
+          "image": {
+            "x": 471,
+            "y": 108.46875,
+            "width": 338,
+            "height": 240,
+            "right": 809
+          },
+          "rows": [
+            {
+              "x": 487,
+              "y": 364.46875,
+              "width": 306,
+              "height": 28.78125,
+              "right": 793,
+              "clipped": false
+            },
+            {
+              "x": 487,
+              "y": 393.25,
+              "width": 306,
+              "height": 30.703125,
+              "right": 793,
+              "clipped": false
+            },
+            {
+              "x": 487,
+              "y": 445.0625,
+              "width": 306,
+              "height": 32.109375,
+              "right": 793,
+              "clipped": false
+            },
+            {
+              "x": 487,
+              "y": 499.6875,
+              "width": 306,
+              "height": 167.203125,
+              "right": 793,
+              "clipped": false
+            },
+            {
+              "x": 487,
+              "y": 666.890625,
+              "width": 306,
+              "height": 38.390625,
+              "right": 793,
+              "clipped": false
+            },
+            {
+              "x": 487,
+              "y": 705.28125,
+              "width": 306,
+              "height": 55.265625,
+              "right": 793,
+              "clipped": false
+            }
+          ],
+          "imageLoaded": true,
+          "objectFit": "contain"
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Nubian_painting.jpg",
+          "card": {
+            "x": 826,
+            "y": 107.46875,
+            "width": 340,
+            "height": 670.078125,
+            "right": 1166
+          },
+          "image": {
+            "x": 827,
+            "y": 108.46875,
+            "width": 338,
+            "height": 240,
+            "right": 1165
+          },
+          "rows": [
+            {
+              "x": 843,
+              "y": 364.46875,
+              "width": 306,
+              "height": 28.78125,
+              "right": 1149,
+              "clipped": false
+            },
+            {
+              "x": 843,
+              "y": 393.25,
+              "width": 306,
+              "height": 51.8125,
+              "right": 1149,
+              "clipped": false
+            },
+            {
+              "x": 843,
+              "y": 445.0625,
+              "width": 306,
+              "height": 54.625,
+              "right": 1149,
+              "clipped": false
+            },
+            {
+              "x": 843,
+              "y": 499.6875,
+              "width": 306,
+              "height": 122.171875,
+              "right": 1149,
+              "clipped": false
+            },
+            {
+              "x": 843,
+              "y": 666.890625,
+              "width": 306,
+              "height": 38.390625,
+              "right": 1149,
+              "clipped": false
+            },
+            {
+              "x": 843,
+              "y": 705.28125,
+              "width": 306,
+              "height": 36.84375,
+              "right": 1149,
+              "clipped": false
+            }
+          ],
+          "imageLoaded": true,
+          "objectFit": "contain"
+        }
+      ],
+      "page_errors": []
+    },
+    {
+      "language": "ar",
+      "viewport": [
+        1280,
+        900
+      ],
+      "featured_sources": [
+        "https://www.metmuseum.org/art/collection/search/544883",
+        "https://www.metmuseum.org/art/collection/search/552295"
+      ],
+      "visible_cards": 3,
+      "full_approved_text_and_credits": true,
+      "no_clipped_text_or_card_overflow": true,
+      "desktop_rows_aligned": true,
+      "approved_images_loaded_uncropped": true,
+      "rtl": true,
+      "screenshot": "ar-desktop.png",
+      "geometry": [
+        {
+          "source": "https://www.metmuseum.org/art/collection/search/544883",
+          "card": {
+            "x": 826,
+            "y": 78.3125,
+            "width": 340,
+            "height": 670.078125,
+            "right": 1166
+          },
+          "image": {
+            "x": 827,
+            "y": 79.3125,
+            "width": 338,
+            "height": 240,
+            "right": 1165
+          },
+          "rows": [
+            {
+              "x": 843,
+              "y": 335.3125,
+              "width": 306,
+              "height": 28.78125,
+              "right": 1149,
+              "clipped": false
+            },
+            {
+              "x": 843,
+              "y": 364.09375,
+              "width": 306,
+              "height": 30.703125,
+              "right": 1149,
+              "clipped": false
+            },
+            {
+              "x": 843,
+              "y": 415.90625,
+              "width": 306,
+              "height": 32.109375,
+              "right": 1149,
+              "clipped": false
+            },
+            {
+              "x": 843,
+              "y": 470.53125,
+              "width": 306,
+              "height": 167.203125,
+              "right": 1149,
+              "clipped": false
+            },
+            {
+              "x": 843,
+              "y": 637.734375,
+              "width": 306,
+              "height": 38.390625,
+              "right": 1149,
+              "clipped": false
+            },
+            {
+              "x": 843,
+              "y": 676.125,
+              "width": 306,
+              "height": 36.84375,
+              "right": 1149,
+              "clipped": false
+            }
+          ],
+          "imageLoaded": true,
+          "objectFit": "contain"
+        },
+        {
+          "source": "https://www.metmuseum.org/art/collection/search/552295",
+          "card": {
+            "x": 470,
+            "y": 78.3125,
+            "width": 340,
+            "height": 670.078125,
+            "right": 810
+          },
+          "image": {
+            "x": 471,
+            "y": 79.3125,
+            "width": 338,
+            "height": 240,
+            "right": 809
+          },
+          "rows": [
+            {
+              "x": 487,
+              "y": 335.3125,
+              "width": 306,
+              "height": 28.78125,
+              "right": 793,
+              "clipped": false
+            },
+            {
+              "x": 487,
+              "y": 364.09375,
+              "width": 306,
+              "height": 30.703125,
+              "right": 793,
+              "clipped": false
+            },
+            {
+              "x": 487,
+              "y": 415.90625,
+              "width": 306,
+              "height": 32.109375,
+              "right": 793,
+              "clipped": false
+            },
+            {
+              "x": 487,
+              "y": 470.53125,
+              "width": 306,
+              "height": 167.203125,
+              "right": 793,
+              "clipped": false
+            },
+            {
+              "x": 487,
+              "y": 637.734375,
+              "width": 306,
+              "height": 38.390625,
+              "right": 793,
+              "clipped": false
+            },
+            {
+              "x": 487,
+              "y": 676.125,
+              "width": 306,
+              "height": 55.265625,
+              "right": 793,
+              "clipped": false
+            }
+          ],
+          "imageLoaded": true,
+          "objectFit": "contain"
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Nubian_painting.jpg",
+          "card": {
+            "x": 114,
+            "y": 78.3125,
+            "width": 340,
+            "height": 670.078125,
+            "right": 454
+          },
+          "image": {
+            "x": 115,
+            "y": 79.3125,
+            "width": 338,
+            "height": 240,
+            "right": 453
+          },
+          "rows": [
+            {
+              "x": 131,
+              "y": 335.3125,
+              "width": 306,
+              "height": 28.78125,
+              "right": 437,
+              "clipped": false
+            },
+            {
+              "x": 131,
+              "y": 364.09375,
+              "width": 306,
+              "height": 51.8125,
+              "right": 437,
+              "clipped": false
+            },
+            {
+              "x": 131,
+              "y": 415.90625,
+              "width": 306,
+              "height": 54.625,
+              "right": 437,
+              "clipped": false
+            },
+            {
+              "x": 131,
+              "y": 470.53125,
+              "width": 306,
+              "height": 99.65625,
+              "right": 437,
+              "clipped": false
+            },
+            {
+              "x": 131,
+              "y": 637.734375,
+              "width": 306,
+              "height": 38.390625,
+              "right": 437,
+              "clipped": false
+            },
+            {
+              "x": 131,
+              "y": 676.125,
+              "width": 306,
+              "height": 36.84375,
+              "right": 437,
+              "clipped": false
+            }
+          ],
+          "imageLoaded": true,
+          "objectFit": "contain"
+        }
+      ],
+      "page_errors": []
+    },
+    {
+      "language": "en",
+      "viewport": [
+        390,
+        844
+      ],
+      "featured_sources": [
+        "https://www.metmuseum.org/art/collection/search/544883",
+        "https://www.metmuseum.org/art/collection/search/552295"
+      ],
+      "visible_cards": 3,
+      "full_approved_text_and_credits": true,
+      "no_clipped_text_or_card_overflow": true,
+      "desktop_rows_aligned": null,
+      "approved_images_loaded_uncropped": true,
+      "rtl": false,
+      "screenshot": "en-mobile.png",
+      "geometry": [
+        {
+          "source": "https://www.metmuseum.org/art/collection/search/544883",
+          "card": {
+            "x": 14,
+            "y": 196.375,
+            "width": 362,
+            "height": 585.515625,
+            "right": 376
+          },
+          "image": {
+            "x": 15,
+            "y": 197.375,
+            "width": 360,
+            "height": 240,
+            "right": 375
+          },
+          "rows": [
+            {
+              "x": 31,
+              "y": 453.375,
+              "width": 328,
+              "height": 28.78125,
+              "right": 359,
+              "clipped": false
+            },
+            {
+              "x": 31,
+              "y": 482.15625,
+              "width": 328,
+              "height": 30.703125,
+              "right": 359,
+              "clipped": false
+            },
+            {
+              "x": 31,
+              "y": 512.859375,
+              "width": 328,
+              "height": 32.109375,
+              "right": 359,
+              "clipped": false
+            },
+            {
+              "x": 31,
+              "y": 544.96875,
+              "width": 328,
+              "height": 144.6875,
+              "right": 359,
+              "clipped": false
+            },
+            {
+              "x": 31,
+              "y": 689.65625,
+              "width": 328,
+              "height": 38.390625,
+              "right": 359,
+              "clipped": false
+            },
+            {
+              "x": 31,
+              "y": 728.046875,
+              "width": 328,
+              "height": 36.84375,
+              "right": 359,
+              "clipped": false
+            }
+          ],
+          "imageLoaded": true,
+          "objectFit": "contain"
+        },
+        {
+          "source": "https://www.metmuseum.org/art/collection/search/552295",
+          "card": {
+            "x": 14,
+            "y": 797.890625,
+            "width": 362,
+            "height": 603.9375,
+            "right": 376
+          },
+          "image": {
+            "x": 15,
+            "y": 798.890625,
+            "width": 360,
+            "height": 240,
+            "right": 375
+          },
+          "rows": [
+            {
+              "x": 31,
+              "y": 1054.890625,
+              "width": 328,
+              "height": 28.78125,
+              "right": 359,
+              "clipped": false
+            },
+            {
+              "x": 31,
+              "y": 1083.671875,
+              "width": 328,
+              "height": 30.703125,
+              "right": 359,
+              "clipped": false
+            },
+            {
+              "x": 31,
+              "y": 1114.375,
+              "width": 328,
+              "height": 32.109375,
+              "right": 359,
+              "clipped": false
+            },
+            {
+              "x": 31,
+              "y": 1146.484375,
+              "width": 328,
+              "height": 144.6875,
+              "right": 359,
+              "clipped": false
+            },
+            {
+              "x": 31,
+              "y": 1291.171875,
+              "width": 328,
+              "height": 38.390625,
+              "right": 359,
+              "clipped": false
+            },
+            {
+              "x": 31,
+              "y": 1329.5625,
+              "width": 328,
+              "height": 55.265625,
+              "right": 359,
+              "clipped": false
+            }
+          ],
+          "imageLoaded": true,
+          "objectFit": "contain"
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Nubian_painting.jpg",
+          "card": {
+            "x": 14,
+            "y": 1417.828125,
+            "width": 362,
+            "height": 584.109375,
+            "right": 376
+          },
+          "image": {
+            "x": 15,
+            "y": 1418.828125,
+            "width": 360,
+            "height": 240,
+            "right": 375
+          },
+          "rows": [
+            {
+              "x": 31,
+              "y": 1674.828125,
+              "width": 328,
+              "height": 28.78125,
+              "right": 359,
+              "clipped": false
+            },
+            {
+              "x": 31,
+              "y": 1703.609375,
+              "width": 328,
+              "height": 51.8125,
+              "right": 359,
+              "clipped": false
+            },
+            {
+              "x": 31,
+              "y": 1755.421875,
+              "width": 328,
+              "height": 54.625,
+              "right": 359,
+              "clipped": false
+            },
+            {
+              "x": 31,
+              "y": 1810.046875,
+              "width": 328,
+              "height": 99.65625,
+              "right": 359,
+              "clipped": false
+            },
+            {
+              "x": 31,
+              "y": 1909.703125,
+              "width": 328,
+              "height": 38.390625,
+              "right": 359,
+              "clipped": false
+            },
+            {
+              "x": 31,
+              "y": 1948.09375,
+              "width": 328,
+              "height": 36.84375,
+              "right": 359,
+              "clipped": false
+            }
+          ],
+          "imageLoaded": true,
+          "objectFit": "contain"
+        }
+      ],
+      "page_errors": []
+    },
+    {
+      "language": "ar",
+      "viewport": [
+        390,
+        844
+      ],
+      "featured_sources": [
+        "https://www.metmuseum.org/art/collection/search/544883",
+        "https://www.metmuseum.org/art/collection/search/552295"
+      ],
+      "visible_cards": 3,
+      "full_approved_text_and_credits": true,
+      "no_clipped_text_or_card_overflow": true,
+      "desktop_rows_aligned": null,
+      "approved_images_loaded_uncropped": true,
+      "rtl": true,
+      "screenshot": "ar-mobile.png",
+      "geometry": [
+        {
+          "source": "https://www.metmuseum.org/art/collection/search/544883",
+          "card": {
+            "x": 14,
+            "y": 137.53125,
+            "width": 362,
+            "height": 585.515625,
+            "right": 376
+          },
+          "image": {
+            "x": 15,
+            "y": 138.53125,
+            "width": 360,
+            "height": 240,
+            "right": 375
+          },
+          "rows": [
+            {
+              "x": 31,
+              "y": 394.53125,
+              "width": 328,
+              "height": 28.78125,
+              "right": 359,
+              "clipped": false
+            },
+            {
+              "x": 31,
+              "y": 423.3125,
+              "width": 328,
+              "height": 30.703125,
+              "right": 359,
+              "clipped": false
+            },
+            {
+              "x": 31,
+              "y": 454.015625,
+              "width": 328,
+              "height": 32.109375,
+              "right": 359,
+              "clipped": false
+            },
+            {
+              "x": 31,
+              "y": 486.125,
+              "width": 328,
+              "height": 144.6875,
+              "right": 359,
+              "clipped": false
+            },
+            {
+              "x": 31,
+              "y": 630.8125,
+              "width": 328,
+              "height": 38.390625,
+              "right": 359,
+              "clipped": false
+            },
+            {
+              "x": 31,
+              "y": 669.203125,
+              "width": 328,
+              "height": 36.84375,
+              "right": 359,
+              "clipped": false
+            }
+          ],
+          "imageLoaded": true,
+          "objectFit": "contain"
+        },
+        {
+          "source": "https://www.metmuseum.org/art/collection/search/552295",
+          "card": {
+            "x": 14,
+            "y": 739.046875,
+            "width": 362,
+            "height": 603.9375,
+            "right": 376
+          },
+          "image": {
+            "x": 15,
+            "y": 740.046875,
+            "width": 360,
+            "height": 240,
+            "right": 375
+          },
+          "rows": [
+            {
+              "x": 31,
+              "y": 996.046875,
+              "width": 328,
+              "height": 28.78125,
+              "right": 359,
+              "clipped": false
+            },
+            {
+              "x": 31,
+              "y": 1024.828125,
+              "width": 328,
+              "height": 30.703125,
+              "right": 359,
+              "clipped": false
+            },
+            {
+              "x": 31,
+              "y": 1055.53125,
+              "width": 328,
+              "height": 32.109375,
+              "right": 359,
+              "clipped": false
+            },
+            {
+              "x": 31,
+              "y": 1087.640625,
+              "width": 328,
+              "height": 144.6875,
+              "right": 359,
+              "clipped": false
+            },
+            {
+              "x": 31,
+              "y": 1232.328125,
+              "width": 328,
+              "height": 38.390625,
+              "right": 359,
+              "clipped": false
+            },
+            {
+              "x": 31,
+              "y": 1270.71875,
+              "width": 328,
+              "height": 55.265625,
+              "right": 359,
+              "clipped": false
+            }
+          ],
+          "imageLoaded": true,
+          "objectFit": "contain"
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Nubian_painting.jpg",
+          "card": {
+            "x": 14,
+            "y": 1358.984375,
+            "width": 362,
+            "height": 584.109375,
+            "right": 376
+          },
+          "image": {
+            "x": 15,
+            "y": 1359.984375,
+            "width": 360,
+            "height": 240,
+            "right": 375
+          },
+          "rows": [
+            {
+              "x": 31,
+              "y": 1615.984375,
+              "width": 328,
+              "height": 28.78125,
+              "right": 359,
+              "clipped": false
+            },
+            {
+              "x": 31,
+              "y": 1644.765625,
+              "width": 328,
+              "height": 51.8125,
+              "right": 359,
+              "clipped": false
+            },
+            {
+              "x": 31,
+              "y": 1696.578125,
+              "width": 328,
+              "height": 54.625,
+              "right": 359,
+              "clipped": false
+            },
+            {
+              "x": 31,
+              "y": 1751.203125,
+              "width": 328,
+              "height": 99.65625,
+              "right": 359,
+              "clipped": false
+            },
+            {
+              "x": 31,
+              "y": 1850.859375,
+              "width": 328,
+              "height": 38.390625,
+              "right": 359,
+              "clipped": false
+            },
+            {
+              "x": 31,
+              "y": 1889.25,
+              "width": 328,
+              "height": 36.84375,
+              "right": 359,
+              "clipped": false
+            }
+          ],
+          "imageLoaded": true,
+          "objectFit": "contain"
+        }
+      ],
+      "page_errors": []
+    }
+  ]
+}
