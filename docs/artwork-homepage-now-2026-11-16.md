@@ -1,0 +1,9 @@
+
+
+## 16 November 2026 — Both approved new artworks featured on the homepage immediately
+
+Owner explicitly requested showing BOTH the approved Faras painted-vines jar552295 and Taharqo shabti544883 on the homepage now, with full reviewed Arabic/English descriptions/credits and aligned text/images. This supersedes the earlier wait-until-Saturday restriction for these two homepage features. Real publication timestamps remain unchanged. Dated feature metadata selects jar first, shabti second, and one item from the existing weekly rotation third. The override expires at the next normal Saturday boundary, 21November2026 10:30CST /16:30UTC, when ordinary selection resumes. No scheduler/automation or photo/Library selector changes. Both Hugo fallback and browser refresh read the same feature expiry/order; no-JavaScript visitors see the same approved works. Regional-only filter, source/licence metadata, uncropped image files, complete approved bilingual wording, concise introduction, scoped alignment and RTL retained. Existing17records and two approvedworks differ only by two feature metadata fields on the latter.
+
+Local actual-Hugo EN/AR homepage builds pass, existing rotation tests3/3 pass, and two focused tests cover immediate display, unique third card, explicit expiry, unchanged photo selection, static/browser parity and duplicate initialization in both languages. Work/evidence deliverables/artwork-homepage-now-2026-11-16. Browser visual/layout check and matching production/live results are recorded after release. Owner-approved image/content publication itself remains unchanged. No article/Nile/pricing/Worker changes.
+
+العربية: طلب المستخدم إظهار العملين المعتمدين فوراً في الصفحة الرئيسية مع الوصفين والاعتمادات كاملين. تتصدر الجرة وتمثال تهارقا البطاقات، وتبقى البطاقة الثالثة ضمن التدوير الأسبوعي. لم تتغير النصوص أو الصور أو تواريخ نشرها الحقيقية أو مواعيد الأتمتة.

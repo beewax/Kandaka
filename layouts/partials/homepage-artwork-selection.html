@@ -1,7 +1,30 @@
-{{/* Keep the homepage focused on Sudan, Nubia and Kush.
-     Shared curated groups and source IDs keep both languages synchronized. */}}
+{{/* Explicit owner-approved features; all other slots retain weekly rotation. */}}
 {{- $regional := where .items "group" "sudan-nubia" -}}
+{{- $at := now -}}
+{{- with .at }}{{ $at = time.AsTime . }}{{ end -}}
+{{- $features := slice -}}
+{{- range $regional -}}
+  {{- $item := . -}}
+  {{- with .featureUntil -}}
+    {{- if and ((time.AsTime .).After $at) (not ((time.AsTime $item.since).After $at)) -}}
+      {{- $features = $features | append $item -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- $selected := slice -}}
+{{- $ids := slice -}}
+{{- range first 3 (sort $features "featureRank") -}}
+  {{- if not (in $ids .id) -}}
+    {{- $selected = $selected | append .value -}}
+    {{- $ids = $ids | append .id -}}
+  {{- end -}}
+{{- end -}}
 {{- $args := dict "items" $regional "limit" 3 "stride" 2 -}}
 {{- with .at }}{{ $args = merge $args (dict "at" .) }}{{ end -}}
-{{- $selected := partial "weekly-visual-selection.html" $args -}}
+{{- range partial "weekly-visual-selection.html" $args -}}
+  {{- if and (lt (len $selected) 3) (not (in $ids .source)) -}}
+    {{- $selected = $selected | append . -}}
+    {{- $ids = $ids | append .source -}}
+  {{- end -}}
+{{- end -}}
 {{- return $selected -}}

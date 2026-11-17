@@ -61,7 +61,14 @@ function groupSelection(items, week, stride) {
 }
 export function selectArtwork(items, at = new Date()) {
   const week = artworkWeek(at);
-  return groupSelection(items.filter(item => item.group === 'sudan-nubia'), week, 2);
+  const regional = items.filter(item => item.group === 'sudan-nubia');
+  const features = regional.filter(item => Date.parse(item.featuredUntil) > +at &&
+    Date.parse(item.since) <= +at).sort((a, b) => (a.featuredRank || 0) - (b.featuredRank || 0));
+  const selected = [];
+  for (const item of [...features, ...groupSelection(regional, week, 2)]) {
+    if (selected.length < 3 && !selected.some(pick => pick.id === item.id)) selected.push(item);
+  }
+  return selected;
 }
 export function selectWeeklyVisuals(items, at = new Date(), stride = 3) {
   return groupSelection(items, artworkWeek(at), stride);
@@ -83,7 +90,9 @@ export function refreshArtwork(section, at = new Date()) {
   if (!section.hasAttribute('data-artwork-homepage')) return;
   const cards = [...section.querySelectorAll('.art-card')];
   const items = cards.map(card => ({ id: card.dataset.artworkId,
-    since: card.dataset.artworkSince, group: card.dataset.artworkGroup, card }));
+    since: card.dataset.artworkSince, group: card.dataset.artworkGroup,
+    featuredUntil: card.dataset.artworkFeaturedUntil,
+    featuredRank: Number(card.dataset.artworkFeaturedRank || 0), card }));
   const selected = selectArtwork(items, at);
   const grid = section.querySelector('.art-grid');
   const visible = cards.filter(card => !card.hidden).map(card => card.dataset.artworkId);
