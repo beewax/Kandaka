@@ -1,0 +1,189 @@
+{
+  "release": "55295ce85c35c797589f3cc9f84d7ae5c5827194",
+  "deploy": "6afcbe605667676e2a7e0f1d",
+  "published_utc": "2026-11-17T20:52:44.247Z",
+  "checked_utc": "2026-11-17T20:53:52.119Z",
+  "viewport_restored": true,
+  "checks": [
+    {
+      "route": "home-en",
+      "width": 1280,
+      "notices": [
+        {
+          "date": "2026-11-21T16:30:00.000Z",
+          "noOverflow": true,
+          "oneLine": true,
+          "text": "Review/rotation: Sat, Nov 21, 10:30 AM CST"
+        },
+        {
+          "date": "2026-11-23T16:00:00.000Z",
+          "noOverflow": true,
+          "oneLine": true,
+          "text": "Review/rotation: Mon, Nov 23, 10:00 AM CST"
+        }
+      ],
+      "rtl": false
+    },
+    {
+      "route": "home-ar",
+      "width": 1280,
+      "notices": [
+        {
+          "date": "2026-11-21T16:30:00.000Z",
+          "noOverflow": true,
+          "oneLine": true,
+          "text": "مراجعة/تبديل: السبت، 21 نوفمبر، 10:30 ص غرينتش-6"
+        },
+        {
+          "date": "2026-11-23T16:00:00.000Z",
+          "noOverflow": true,
+          "oneLine": true,
+          "text": "مراجعة/تبديل: الاثنين، 23 نوفمبر، 10:00 ص غرينتش-6"
+        }
+      ],
+      "rtl": true
+    },
+    {
+      "route": "photos-en",
+      "width": 1280,
+      "notices": [
+        {
+          "date": "2026-11-21T16:30:00.000Z",
+          "noOverflow": true,
+          "oneLine": true,
+          "text": "Review/rotation: Sat, Nov 21, 10:30 AM CST"
+        }
+      ],
+      "rtl": false
+    },
+    {
+      "route": "photos-ar",
+      "width": 1280,
+      "notices": [
+        {
+          "date": "2026-11-21T16:30:00.000Z",
+          "noOverflow": true,
+          "oneLine": true,
+          "text": "مراجعة/تبديل: السبت، 21 نوفمبر، 10:30 ص غرينتش-6"
+        }
+      ],
+      "rtl": true
+    },
+    {
+      "route": "library-en",
+      "width": 1280,
+      "notices": [
+        {
+          "date": "2026-11-23T16:00:00.000Z",
+          "noOverflow": true,
+          "oneLine": true,
+          "text": "Review/rotation: Mon, Nov 23, 10:00 AM CST"
+        }
+      ],
+      "rtl": false
+    },
+    {
+      "route": "library-ar",
+      "width": 1280,
+      "notices": [
+        {
+          "date": "2026-11-23T16:00:00.000Z",
+          "noOverflow": true,
+          "oneLine": true,
+          "text": "مراجعة/تبديل: الاثنين، 23 نوفمبر، 10:00 ص غرينتش-6"
+        }
+      ],
+      "rtl": true
+    },
+    {
+      "route": "home-en",
+      "width": 320,
+      "notices": [
+        {
+          "date": "2026-11-21T16:30:00.000Z",
+          "noOverflow": true,
+          "oneLine": true,
+          "text": "Review/rotation: Sat, Nov 21, 10:30 AM CST"
+        },
+        {
+          "date": "2026-11-23T16:00:00.000Z",
+          "noOverflow": true,
+          "oneLine": true,
+          "text": "Review/rotation: Mon, Nov 23, 10:00 AM CST"
+        }
+      ],
+      "rtl": false
+    },
+    {
+      "route": "home-ar",
+      "width": 320,
+      "notices": [
+        {
+          "date": "2026-11-21T16:30:00.000Z",
+          "noOverflow": true,
+          "oneLine": true,
+          "text": "مراجعة/تبديل: السبت، 21 نوفمبر، 10:30 ص غرينتش-6"
+        },
+        {
+          "date": "2026-11-23T16:00:00.000Z",
+          "noOverflow": true,
+          "oneLine": true,
+          "text": "مراجعة/تبديل: الاثنين، 23 نوفمبر، 10:00 ص غرينتش-6"
+        }
+      ],
+      "rtl": true
+    },
+    {
+      "route": "photos-en",
+      "width": 320,
+      "notices": [
+        {
+          "date": "2026-11-21T16:30:00.000Z",
+          "noOverflow": true,
+          "oneLine": true,
+          "text": "Review/rotation: Sat, Nov 21, 10:30 AM CST"
+        }
+      ],
+      "rtl": false
+    },
+    {
+      "route": "photos-ar",
+      "width": 320,
+      "notices": [
+        {
+          "date": "2026-11-21T16:30:00.000Z",
+          "noOverflow": true,
+          "oneLine": true,
+          "text": "مراجعة/تبديل: السبت، 21 نوفمبر، 10:30 ص غرينتش-6"
+        }
+      ],
+      "rtl": true
+    },
+    {
+      "route": "library-en",
+      "width": 320,
+      "notices": [
+        {
+          "date": "2026-11-23T16:00:00.000Z",
+          "noOverflow": true,
+          "oneLine": true,
+          "text": "Review/rotation: Mon, Nov 23, 10:00 AM CST"
+        }
+      ],
+      "rtl": false
+    },
+    {
+      "route": "library-ar",
+      "width": 320,
+      "notices": [
+        {
+          "date": "2026-11-23T16:00:00.000Z",
+          "noOverflow": true,
+          "oneLine": true,
+          "text": "مراجعة/تبديل: الاثنين، 23 نوفمبر، 10:00 ص غرينتش-6"
+        }
+      ],
+      "rtl": true
+    }
+  ]
+}
