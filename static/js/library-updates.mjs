@@ -69,7 +69,10 @@ const pools = new WeakMap();
 export function refreshLibrary(notice, at = new Date(), doc = notice.ownerDocument) {
   const week = libraryWeek(at);
   const format = new Intl.DateTimeFormat(notice.dataset.language === 'ar' ? 'ar' : 'en-US', {
-    timeZone: zone, weekday: 'long', year: 'numeric', month: 'long', day: 'numeric',
+    timeZone: zone,
+    ...(notice.dataset.libraryCompact === 'true'
+      ? {month: 'short', day: 'numeric'}
+      : {weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'}),
     hour: 'numeric', minute: '2-digit', timeZoneName: 'short'});
   for (const [selector, date] of [['[data-library-week]', week.start],
     ['[data-library-next-review]', week.next], ['[data-library-next-rotation]', week.next]]) {
