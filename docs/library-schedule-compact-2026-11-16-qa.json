@@ -1,0 +1,111 @@
+{
+  "release": "f4f20e78e355d927d5f6d90b96ddc8f8ad3f9131",
+  "deploy": "6afbd933d6176e627af981b0",
+  "published_utc": "2026-11-17T04:34:51.515Z",
+  "checked_utc": "2026-11-17T04:36:20.807488+00:00",
+  "browser": "isolated installed Chrome",
+  "checks": [
+    {
+      "language": "en",
+      "viewport": [
+        1280,
+        900
+      ],
+      "heading": "Library",
+      "schedule": "Next review & rotation: Nov 23, 10:00 AM CST",
+      "single_line": true,
+      "no_overflow": true,
+      "weekly_cards_and_date_advance_restore_pass": true,
+      "visible_books": 3,
+      "all_books_link_retained": true,
+      "rtl": false,
+      "page_errors": [],
+      "screenshot": "en-desktop.png"
+    },
+    {
+      "language": "en",
+      "viewport": [
+        390,
+        844
+      ],
+      "heading": "Library",
+      "schedule": "Next review & rotation: Nov 23, 10:00 AM CST",
+      "single_line": true,
+      "no_overflow": true,
+      "weekly_cards_and_date_advance_restore_pass": true,
+      "visible_books": 3,
+      "all_books_link_retained": true,
+      "rtl": false,
+      "page_errors": [],
+      "screenshot": "en-mobile.png"
+    },
+    {
+      "language": "en",
+      "viewport": [
+        320,
+        800
+      ],
+      "heading": "Library",
+      "schedule": "Next review & rotation: Nov 23, 10:00 AM CST",
+      "single_line": true,
+      "no_overflow": true,
+      "weekly_cards_and_date_advance_restore_pass": true,
+      "visible_books": 3,
+      "all_books_link_retained": true,
+      "rtl": false,
+      "page_errors": [],
+      "screenshot": "en-narrow.png"
+    },
+    {
+      "language": "ar",
+      "viewport": [
+        1280,
+        900
+      ],
+      "heading": "المكتبة",
+      "schedule": "المراجعة والتبديل المقبلان: 23 نوفمبر، 10:00 ص غرينتش-6",
+      "single_line": true,
+      "no_overflow": true,
+      "weekly_cards_and_date_advance_restore_pass": true,
+      "visible_books": 3,
+      "all_books_link_retained": true,
+      "rtl": true,
+      "page_errors": [],
+      "screenshot": "ar-desktop.png"
+    },
+    {
+      "language": "ar",
+      "viewport": [
+        390,
+        844
+      ],
+      "heading": "المكتبة",
+      "schedule": "المراجعة والتبديل المقبلان: 23 نوفمبر، 10:00 ص غرينتش-6",
+      "single_line": true,
+      "no_overflow": true,
+      "weekly_cards_and_date_advance_restore_pass": true,
+      "visible_books": 3,
+      "all_books_link_retained": true,
+      "rtl": true,
+      "page_errors": [],
+      "screenshot": "ar-mobile.png"
+    },
+    {
+      "language": "ar",
+      "viewport": [
+        320,
+        800
+      ],
+      "heading": "المكتبة",
+      "schedule": "المراجعة والتبديل المقبلان: 23 نوفمبر، 10:00 ص غرينتش-6",
+      "single_line": true,
+      "no_overflow": true,
+      "weekly_cards_and_date_advance_restore_pass": true,
+      "visible_books": 3,
+      "all_books_link_retained": true,
+      "rtl": true,
+      "page_errors": [],
+      "screenshot": "ar-narrow.png"
+    }
+  ]
+}
