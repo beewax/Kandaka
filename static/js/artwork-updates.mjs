@@ -91,7 +91,7 @@ export function refreshArtwork(section, at = new Date()) {
   const sameDay = new Intl.DateTimeFormat('en-CA', {timeZone: zone}).format(week.nextReview) ===
     new Intl.DateTimeFormat('en-CA', {timeZone: zone}).format(week.nextRotation);
   const shortDate = new Intl.DateTimeFormat(locale, {
-    timeZone: zone, weekday: 'short', month: 'short', day: 'numeric',
+    timeZone: zone, weekday: 'short', month: isAr ? 'numeric' : 'short', day: 'numeric',
   });
   const hour = new Intl.DateTimeFormat(locale, {timeZone: zone, hour: 'numeric'});
   const shortTime = new Intl.DateTimeFormat(locale, {
