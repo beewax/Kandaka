@@ -472,6 +472,7 @@ html[data-theme="dark"] .k-nile-home-kicker { color: #ffd84d; }
 
 /* ── SEO: visually hidden ── */
 .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
+.k-article-card.k-article-card--text-only { grid-template-columns: minmax(0, 1fr); }
 </style>
 
 {{/* ── SEO: JSON-LD WebSite schema ── */}}
@@ -581,8 +582,10 @@ html[data-theme="dark"] .k-nile-home-kicker { color: #ffd84d; }
 
     {{- range $latestCulture }}
     <article class="k-featured-slide" data-k-slide aria-hidden="true">
+      {{- if not .Params.text_only_images }}
       {{- $cultureImage := .Params.cover.image | default "/images/uploads/kandaka-nubian-queens.jpg" }}
       <img class="k-featured-media" src="{{ $cultureImage | relURL }}" alt="" loading="lazy">
+      {{- end }}
       <div class="k-featured-content">
         <span class="k-featured-label">{{ if $isAr }}الثقافة{{ else }}Culture{{ end }}</span>
         <h2 class="k-featured-title">{{ .Title }}</h2>
@@ -712,9 +715,11 @@ html[data-theme="dark"] .k-nile-home-kicker { color: #ffd84d; }
   </div>
   <div class="k-article-grid" role="list">
     {{- range $latestArticles }}
-    <article class="k-article-card" role="listitem">
+    <article class="k-article-card{{ if .Params.text_only_images }} k-article-card--text-only{{ end }}" role="listitem">
+      {{- if not .Params.text_only_images }}
       {{- $articleImage := .Params.cover.image | default "/images/uploads/kandaka-nubian-queens.jpg" }}
       <img class="k-article-image" src="{{ $articleImage | relURL }}" alt="" loading="lazy" decoding="async">
+      {{- end }}
       <div class="k-article-body">
         <span class="k-article-category">{{ .Params.category | default (.Section | title) }}</span>
         <h3 class="k-article-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>

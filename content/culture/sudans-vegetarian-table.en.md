@@ -5,6 +5,7 @@ category: Culture
 description: "Sudanese vegetarian cooking through lentils, breads, salads and the recipes of several cooks and communities."
 tags: [Sudan, food, vegetarian, heritage]
 draft: false
+text_only_images: true
 date: "2026-11-18T04:17:40.893497+00:00"
 ---
 
@@ -39,10 +40,6 @@ The yoghurt preparation has its own appeal. Al-Tijani keeps browned aubergine sl
 Separating these two versions helps readers picture what is on the plate, but household recipes can also combine ingredients. **Sara Abdalla of Omdurman**, contributing to *Tasty Dishes for a Thriving Planet*, uses peanuts, tahini and dairy-free yoghurt together. It is a specific plant-based version, showing how cooks adapt the dish to their preferences. [Recipe, printed pages 68–69](https://planetaryhealthalliance.org/wp-content/uploads/2025/02/Planet-Saving-Meals-Cookbook_-Tasty-Dishes-for-a-Thriving-Planet.pdf).
 
 ## Bread, something creamy, a little heat
-
-![A cook spreading kisra batter on a hotplate, with finished thin sheets in the foreground.](/images/uploads/kisra-evon2023.jpg)
-
-Photo: Evon2023, 11 June 2023. Sudanese kisra preparation; precise locality not supplied. [Original photograph](https://commons.wikimedia.org/wiki/File:Kissraa.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Unmodified.
 
 Bread gives these dishes company. **Gurasa**, a thick wheat bread, can take up a sauce or accompany a yoghurt mixture. Al-Tijani describes a yoghurt, garlic and onion pairing alongside his recipe. Kisra and asida bring further possibilities, with the character of the meal depending on the mullah or other accompaniment. [Gurasa](https://www.sudanese.kitchen/recipe/gurasa); [Kandaka’s Kisra and Asida article](https://kandaka.com/culture/kisra-asida-sudan-food-history/).
 
