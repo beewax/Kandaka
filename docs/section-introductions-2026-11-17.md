@@ -1,0 +1,8 @@
+
+## VERIFIED LIVE — Brief Library/photo introductions and compact Art schedule
+
+Final release560ab93253fab8d820ff955c9fed0b0fb5c6e953 matches ready Netlify6afcea28ee3da55397dfae77, published2026-11-17T23:59:35.896Z (17Nov17:59CST), no error. CUA Chrome verification completed2026-11-18T00:00:11.343Z (17Nov18:00CST). Eight route/viewport checks (EN/AR home and Images pages at1280/320px) pass: Library purpose sentence and inviting photo sentence correctly localized; every schedule one line/no overflow; ArabicRTL preserved. Art review remains21Nov10AM CST and rotation21Nov10:30AM CST; accessible labels give each full localized date/time, separate ISO timestamps preserved. Initial Arabic narrow wrap fixed by numeric month in Art compact date only, without shrinking type or hiding overflow. Library23Nov10AM and photos21Nov10:30AM unchanged. Existing new-art immediate display, image/content/credits and all catalogue data unchanged.
+
+Actual Hugo EN/AR shared templates build passes. Six existing Node artwork selection/update/DST tests pass; one optional pre-existing fixture parity test skipped. Focused compact-format check passes both languages and the Saturday10:15 boundary where next review and rotation fall on different dates. Diffcheck clean. Screenshotlibrary-proof.jpg and full LIVE-CUA-QA.json saved under deliverables/section-introductions-2026-11-17. Viewport reset. Records completed; no automation/Nile/book/Worker changes.
+
+العربية: أضيف وصف موجز للمكتبة: «اكتشف كتباً عن تاريخ السودان وثقافته وأفكاره»، واستُبدل تنبيه الصور بعبارة «اكتشف السودان عبر الزمن». بقي موعد مراجعة الفنون السبت10ص والتبديل10:30ص في سطر موجز، مع التحقق من العربية والإنجليزية على الحاسوب والشاشة الضيقة.
