@@ -2463,3 +2463,7 @@ Article remains draft:true, no commit/deployment/publication. Latest approval to
 ## 17 November 2026 — Revised vegetarian feature immediate release authorized
 Latest owner instruction explicitly authorizes publishing Arabic and English now without uncleared recipe photos, then asks for one free-to-use photograph. Release uses the approved broader-source text and one existing unmodified Sudanese kisra photograph inline (Evon2023, 11 June 2023, CC BY-SA 4.0; Commons record rechecked). Localized alt/credit/source/licence; exact locality unspecified. Four uncleared photos and captions excluded, along with prose describing the omitted ful photo. No AI replacement and no rejected photos. Photo-owner enquiries remain pending; later additions authorized only once rights confirmed. This supersedes the earlier publication hold pending all four images. Normal build and live verification pending; no publication claim yet.
 أذن المستخدم بالنشر الفوري للنصين مع صورة واحدة متاحة لإعادة الاستخدام. أُضيفت صورة إعداد الكسرة المرخصة مع نسبها وترخيصها باللغتين، وحُذفت الصور غير المأذونة وتعليقاتها. تُضاف الصور الأخرى لاحقاً بعد تأكيد الأذونات.
+
+## 17 November 2026 — Accurate brief Library introduction
+
+Owner explicitly approved changing homepage Library introduction to Research, reports and books on Sudan / أبحاث وتقارير وكتب عن السودان. Text-only replacement; existing shared size/spacing classes and all schedule/card logic unchanged. Current main04fd5013 read and preserved; live bilingual verification follows.
