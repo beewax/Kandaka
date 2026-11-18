@@ -34,7 +34,7 @@
 {{- if .limit }}{{ $renderWorks = $works | append (where $homePool "source" "not in" $selectedSources) }}{{ end -}}
 <section class="art-collection" aria-labelledby="artwork-heading" data-artwork-updates data-artwork-compact="true" data-language="{{ if $isAr }}ar{{ else }}en{{ end }}"{{ if .limit }} data-artwork-homepage{{ end }}>
   <h2 id="artwork-heading">{{ if $isAr }}الفنون والتراث البصري{{ else }}Art & Visual Heritage{{ end }}</h2>
-  <p class="k-section-description">{{ if $isAr }}مجموعة مختارة من الفنون المعاصرة والتاريخية والتصوير والحرف والملصقات وفنون الكتاب، مع أولوية للسودان وروابط للمصادر الأصلية.{{ else }}A curated companion to the photo stream: contemporary and historical art, photography, crafts, posters and book arts, with Sudan first and room for the wider world.{{ end }}</p>
+  <p class="k-section-description">{{ if $isAr }}فنون وتراث بصري من السودان والعالم{{ else }}Art and visual heritage from Sudan and beyond{{ end }}</p>
   {{ partial "artwork-update-notice.html" (dict "isAr" $isAr) }}
   <div class="art-grid">
     {{ range $renderWorks }}

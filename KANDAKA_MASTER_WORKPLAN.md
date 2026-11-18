@@ -2474,3 +2474,7 @@ https://kandaka.com/culture/sudans-vegetarian-table/
 https://kandaka.com/ar/culture/sudans-vegetarian-table/
 Four uncleared recipe photographs remain excluded; three owner-authorized enquiries sent and Simsimaya contact unresolved. User authorized adding photographs after permissions confirmed. No other publication or automation change. Evidence: deliverables/vegetarian-table-broader-sources-review/LIVE-CHECKS.json. Preparation, commit and actual deployment are distinct above.
 نُشر المقال المنقح باللغتين مع صورة إعداد الكسرة المرخصة، وتحقق تطابق النصين والصورة والاعتمادات على الموقع. تبقى صور الوصفات الأخرى خارج المقال حتى تأكيد أذونات استخدامها.
+
+## 17 November 2026 — Short Art & Visual Heritage introduction
+
+Owner requested shorter Arabic/English section descriptions with existing size/spacing. Shared Art partial intro changed to Art and visual heritage from Sudan and beyond / فنون وتراث بصري من السودان والعالم. Same k-section-description class; CSS, schedules, artwork descriptions and credits untouched. Applies to homepage and Images pages. Current main fdd87812 reconciled; production text verification follows.
