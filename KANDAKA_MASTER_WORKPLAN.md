@@ -2467,3 +2467,10 @@ Latest owner instruction explicitly authorizes publishing Arabic and English now
 ## 17 November 2026 — Accurate brief Library introduction
 
 Owner explicitly approved changing homepage Library introduction to Research, reports and books on Sudan / أبحاث وتقارير وكتب عن السودان. Text-only replacement; existing shared size/spacing classes and all schedule/card logic unchanged. Current main04fd5013 read and preserved; live bilingual verification follows.
+
+## Revised vegetarian feature — PUBLISHED AND VERIFIED
+Release commit 04fd50136abae7074c7b91fe307df9a1f1d83aec. Matching successful Netlify deployment 6afd2849ea838d861d971c0d; actual publication 2026-11-18T04:24:42.829Z / 17 November 22:24:42.829 CST. Independently verified after deployment: both full normalized article bodies match checked build, eight matching sections, Arabic RTL, one licensed kisra article photo each, localized credit/source/licence, live image SHA256 ba14104444cef51025646ea561d22b0f8e5899f7452c7c6b6212174f1e57876e matches repository. Existing Nile promotions excluded from article-photo count and left unchanged. Both public URLs HTTP200:
+https://kandaka.com/culture/sudans-vegetarian-table/
+https://kandaka.com/ar/culture/sudans-vegetarian-table/
+Four uncleared recipe photographs remain excluded; three owner-authorized enquiries sent and Simsimaya contact unresolved. User authorized adding photographs after permissions confirmed. No other publication or automation change. Evidence: deliverables/vegetarian-table-broader-sources-review/LIVE-CHECKS.json. Preparation, commit and actual deployment are distinct above.
+نُشر المقال المنقح باللغتين مع صورة إعداد الكسرة المرخصة، وتحقق تطابق النصين والصورة والاعتمادات على الموقع. تبقى صور الوصفات الأخرى خارج المقال حتى تأكيد أذونات استخدامها.
