@@ -7,8 +7,8 @@
     <h2 id="library-heading">{{ if $isAr }}المكتبة{{ else }}Library{{ end }}</h2>
     <a href="{{ if $isAr }}/ar/library/{{ else }}/library/{{ end }}">{{ if $isAr }}كل الكتب ←{{ else }}All books →{{ end }}</a>
   </div>
-  <p class="library-home-intro">{{ if $isAr }}اكتشف كتباً عن تاريخ السودان وثقافته وأفكاره.{{ else }}Explore books on Sudan’s history, culture and ideas.{{ end }}</p>
-  <p class="library-home-schedule" data-library-updates data-library-compact="true" data-language="{{ if $isAr }}ar{{ else }}en{{ end }}">{{ if $isAr }}مراجعة/تبديل:{{ else }}Review/rotation:{{ end }} <time dir="auto" data-library-next-review datetime="{{ $week.next.Format "2006-01-02T15:04:05Z07:00" }}">{{ if $isAr }}{{ index (slice "الأحد" "الاثنين" "الثلاثاء" "الأربعاء" "الخميس" "الجمعة" "السبت") (int $week.next.Weekday) }}، {{ $week.next.Format "02/01، 15:04 MST" }}{{ else }}{{ $week.next.Format "Mon, Jan 2, 3:04 PM MST" }}{{ end }}</time></p>
+  <p class="library-home-intro k-section-description">{{ if $isAr }}اكتشف كتباً عن تاريخ السودان وثقافته وأفكاره.{{ else }}Explore books on Sudan’s history, culture and ideas.{{ end }}</p>
+  <p class="library-home-schedule k-section-schedule" data-library-updates data-library-compact="true" data-language="{{ if $isAr }}ar{{ else }}en{{ end }}">{{ if $isAr }}مراجعة/تبديل:{{ else }}Review/rotation:{{ end }} <time dir="auto" data-library-next-review datetime="{{ $week.next.Format "2006-01-02T15:04:05Z07:00" }}">{{ if $isAr }}{{ index (slice "الأحد" "الاثنين" "الثلاثاء" "الأربعاء" "الخميس" "الجمعة" "السبت") (int $week.next.Weekday) }}، {{ $week.next.Format "02/01، 15:04 MST" }}{{ else }}{{ $week.next.Format "Mon, Jan 2, 3:04 PM MST" }}{{ end }}</time></p>
   <script type="module" src="{{ "js/library-updates.mjs" | relURL }}"></script>
   <div class="k-lib-stack">
     {{- $icons := slice "📖" "📊" "🗺️" -}}
@@ -26,4 +26,4 @@
   </div>
   <script type="application/json" data-library-pool>{{ $pool | jsonify | safeJS }}</script>
 </section>
-<style>.library-home-intro{font-size:12px;color:var(--secondary);line-height:1.5;margin:0 0 8px}.library-home-schedule{font-size:12px;color:var(--secondary);line-height:1.5;margin:0 0 12px}.k-lib-body .k-lib-description{font-size:11px;color:var(--secondary);margin:-4px 0 8px;line-height:1.5}</style>
+<style>.k-lib-body .k-lib-description{font-size:11px;color:var(--secondary);margin:-4px 0 8px;line-height:1.5}</style>

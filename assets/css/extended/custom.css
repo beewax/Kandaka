@@ -409,3 +409,18 @@ html[data-theme="dark"] .badge-default { background: #78350f !important; color: 
   .header-nav.k-menu-ready .category-menu a { min-height: 40px; font-size: 13px; }
   .menu-toggle:focus-visible { outline: 3px solid #ffc700; outline-offset: 2px; }
 }
+
+/* Shared bilingual section introductions and schedules.
+   Keep the compact date lines readable, with the same rhythm in both directions. */
+body p.k-section-description,
+body p.k-section-schedule {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--secondary);
+  padding: 0;
+  margin: 0 0 8px;
+}
+body p.k-section-schedule {
+  margin-bottom: 12px;
+}

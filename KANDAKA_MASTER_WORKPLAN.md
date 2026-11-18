@@ -2370,3 +2370,7 @@ Final release560ab93253fab8d820ff955c9fed0b0fb5c6e953 matches ready Netlify6afce
 Actual Hugo EN/AR shared templates build passes. Six existing Node artwork selection/update/DST tests pass; one optional pre-existing fixture parity test skipped. Focused compact-format check passes both languages and the Saturday10:15 boundary where next review and rotation fall on different dates. Diffcheck clean. Screenshotlibrary-proof.jpg and full LIVE-CUA-QA.json saved under deliverables/section-introductions-2026-11-17. Viewport reset. Records completed; no automation/Nile/book/Worker changes.
 
 العربية: أضيف وصف موجز للمكتبة: «اكتشف كتباً عن تاريخ السودان وثقافته وأفكاره»، واستُبدل تنبيه الصور بعبارة «اكتشف السودان عبر الزمن». بقي موعد مراجعة الفنون السبت10ص والتبديل10:30ص في سطر موجز، مع التحقق من العربية والإنجليزية على الحاسوب والشاشة الضيقة.
+
+## 17 November 2026 — Consistent section description and schedule typography
+
+Owner requested matching short description/schedule sizes and spacing across Library, Sudan in Images and Art & Visual Heritage in Arabic and English. Shared CSS classes now set12px normal-weight text,1.5lineheight,8px description-to-schedule gap and12px after schedule. Photo introduction moved above schedule to match Library and Art. Removed competing inline metadata styles; shared stylesheet applies to homepage and corresponding full-page notices. Original bilingual wording, headings, full art descriptions/credits/cards and actual times/selection logic preserved. Live computed-style and responsive verification follows.
