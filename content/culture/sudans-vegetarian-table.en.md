@@ -12,12 +12,12 @@ tags:
 - heritage
 draft: false
 cover:
-  image: /images/uploads/sudanese-tamiya-2025.jpg
-  alt: Golden Sudanese tamiya arranged on a metal tray.
+  image: /images/uploads/salatat-aswad-2025.jpg
+  alt: Aubergine salad with peanut paste, photographed in 2025.
   relative: false
 ---
 
-*Tamiya described by its photographer as made with cowpeas. Photograph: تسابيح بوحة (Tasabih Bouha), 20 April 2025, [source](https://commons.wikimedia.org/wiki/File:اكلة_سودانية.jpg), [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/). Exact location and full recipe are not recorded.*
+*Salatat aswad with dakwa. Photograph: إيناس سليمان أحمد علي (Enas Suleiman Ahmed Ali), 18 March 2025, [source](https://commons.wikimedia.org/wiki/File:سلطة_أسود.jpg), [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/). The contributor identifies the dish; the record does not specify the town or a complete ingredient list.*
 
 Put a bowl of ful beside bread, a sharp peanut salad and a plate of tamiya, and there is already plenty to look forward to. Soft beans, crisp edges, lemon, chilli and the richness of ground peanuts give each mouthful a different character. These are useful starting points for exploring the vegetarian possibilities of Sudanese cooking.
 
@@ -35,9 +35,7 @@ Dakwa, peanut paste, gives a salad substance. Al-Tijani’s salatat dakwa combin
 
 Another record comes from *Tales of Jewish Sudan*: its dakwa dip combines peanut butter, onion, lemon, cumin and chilli. That is a distinct preparation, not a second name for an identical recipe. Reading the two together opens a window onto different family and community records of Sudanese food. [Tales of Jewish Sudan: Dakwa](https://www.talesofjewishsudan.com/recipes/dakwa).
 
-![Aubergine salad with peanut paste, photographed in 2025.](/images/uploads/salatat-aswad-2025.jpg)
 
-*Salatat aswad with dakwa. Photograph: إيناس سليمان أحمد علي (Enas Suleiman Ahmed Ali), 18 March 2025, [source](https://commons.wikimedia.org/wiki/File:سلطة_أسود.jpg), [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/). The contributor identifies the dish; the record does not specify the town or a complete ingredient list.*
 
 Salatat aswad brings aubergine into the picture. The photographed example is identified as made with dakwa. Al-Tijani’s published mashed-aubergine recipe instead lists sesame paste and yoghurt, with peanut butter offered as an alternative to sesame paste. That variation matters: an aubergine salad may be meat-free without being vegan. Its ingredients, rather than its name alone, tell us which. [Salatat Aswad Mahrousa](https://www.sudanese.kitchen/recipe/salatat-aswad-mahrousa).
 
@@ -45,7 +43,7 @@ Salatat aswad brings aubergine into the picture. The photographed example is ide
 
 
 
-Al-Tijani documents chickpea tamiya seasoned with garlic, dill and spices. The accompanying photograph records a cowpea version. Together, they are a reminder to ask how a particular batch was made, rather than insist that every cook uses the same pulse. The browned surface and soft interior make these fritters an appealing companion to a salad or sauce. [The Sudanese Kitchen: Ta’mia](https://www.sudanese.kitchen/recipe/tamia).
+Al-Tijani documents chickpea tamiya seasoned with garlic, dill and spices, and lists fava beans or black-eyed peas as possible alternatives. These are documented recipe options, rather than evidence that every cook uses the same pulse. The browned surface and soft interior make these fritters an appealing companion to a salad or sauce. [The Sudanese Kitchen: Ta’mia](https://www.sudanese.kitchen/recipe/tamia).
 
 Vegetarian readers should still check the rest of the meal. A dish named for a vegetable may use meat stock: the same recipe collection includes vegetable soup and leaf stews prepared with lamb. Clear descriptions help people order confidently while preserving the recipes as their cooks actually make them. [Recipe collection](https://www.sudanese.kitchen/featured-recipes).
 
@@ -62,3 +60,5 @@ Writing in *Andariya*, Al-Tijani describes learning to record family recipes whi
 Kandaka’s proposal is simple: give this everyday knowledge room. Credit cooks and photographers, record variations, and explain ingredients clearly in Arabic and English. Restaurants, home cooks and food writers can make a cuisine easier to discover without smoothing away its differences. A bowl of beans, a peanut salad and a tray of tamiya offer a welcoming place to begin.
 
 *Related reading: [Kisra and Asida](https://kandaka.com/culture/kisra-asida-sudan-food-history/). Drinks and sweets are reserved for a separate article.*
+
+*Photo correction, 17 November 2026: We removed the original cover because its identification as Sudanese tamiya was insufficiently verified. The recipe discussion now relies on the cited recipe rather than that photograph.*

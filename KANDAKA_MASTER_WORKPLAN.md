@@ -1,5 +1,11 @@
 # KANDAKA WORKPLAN
 
+## 17 November 2026 — Vegetarian article photo correction
+
+Owner challenged the tamiya photograph as unfamiliar and unsuitable. Removed its use and the photo-based cowpea inference in BOTH editions; retained the file only as an unused audit asset, not approved for future reuse. Existing reviewed aswad photograph moved from inline to sole cover, with full unchanged bilingual credit and CC0 source. No new replacement asset selected. Tamiya paragraph now cites the actual Al-Tijani recipe for chickpea/fava/black-eyed-pea options. Added a concise bilingual public correction note. Original publication date unchanged. Any new replacement photo must be shown to owner first. Deployment verification pending.
+
+أُزيلت صورة الطعمية محل الاعتراض والاستدلال المبني عليها من النسختين، واستُخدمت صورة سلطة الأسود الموجودة غلافاً مع الاعتمادات الأصلية وإيضاح التصحيح.
+
 ## 17 November 2026 — Vegetarian Table PUBLISHED AND VERIFIED
 
 Sudan’s Vegetarian Table / المائدة السودانية النباتية is live in English and Arabic with the two reviewed, unmodified CC0 photos. Release commit 007eb22c0f1c2cf421902833868ecd088166603f; matching ready Netlify deployment 6afcef0dcdfd874856fb50f8, no error. Actual publication 2026-11-18T00:20:24.899Z / 17 November 18:20:24.899 CST; independent verification 00:21:38.547178 UTC / 18:21:38.547178 CST. Full live bodies match checked build (5766 EN / 4670 AR normalized chars), five corresponding sections, exactly one tamiya cover and one inline aswad photo per edition, Arabic RTL, original image hashes, EN/AR homepage and Culture listings verified. Both full normal production builds and 4471-file cover audit passed.
