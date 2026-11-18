@@ -1,5 +1,11 @@
 # KANDAKA WORKPLAN
 
+## 17 November 2026 — Vegetarian Table approved release preparation
+
+Owner replied “go ahead” to the bilingual Vegetarian Table review and publication next step. Proceeding with that article and the two reviewed CC0 photographs only. Full English/Arabic bodies preserved; review markers removed, tamiya image and its credit moved to cover position, aswad remains inline. Germany claim remains unsubstantiated nationally; Berlin examples only. Source refresh confirms recipe variation and current primary restaurant pages. No other article, Library addition, schedule or automation approval inferred. Preparation 2026-11-18T00:08:20.438587+00:00; actual publication and verification pending.
+
+اعتماد نشر «المائدة السودانية النباتية» باللغتين مع صورتي الطعمية وسلطة الأسود، مع الحفاظ على النصوص وحدود الأدلة وعدم تعميم أمثلة برلين على ألمانيا.
+
 ## 12 November 2026 — When a House Changes PUBLISHED AND VERIFIED
 
 Owner-approved revised English/Arabic texts and exact option-1 cover are live. Release 067180c4d024e091d6442f666408d2c384980a45; matching Netlify production 6af68cd00062e7433ccb2cfa ready, no error. Actual publication **12 November 2026 22:07:37.156 America/Chicago (CST) / 13 November 04:07:37.156 UTC**. Independent verification 04:07:50.030441 UTC / 22:07:50.030441 CST.
