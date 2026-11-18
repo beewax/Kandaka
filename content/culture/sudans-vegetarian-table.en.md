@@ -10,7 +10,7 @@ tags:
 - food
 - vegetarian
 - heritage
-draft: false
+draft: true
 ---
 
 Put a bowl of ful beside bread, a sharp peanut salad and a plate of tamiya, and there is already plenty to look forward to. Soft beans, crisp edges, lemon, chilli and the richness of ground peanuts give each mouthful a different character. These are useful starting points for exploring the vegetarian possibilities of Sudanese cooking.
