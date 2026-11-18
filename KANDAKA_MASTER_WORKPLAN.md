@@ -1,5 +1,15 @@
 # KANDAKA WORKPLAN
 
+## 18 November 2026 — Safe PDF acquisition uploader implemented (not yet executed)
+
+Replaced unsafe `find_and_upload_calibre.py` automatic fuzzy-title uploader with a **dry-run-by-default, explicit-manifest PDF uploader**. It requires a title, DOI, existing local PDF, documented licence evidence and affirmative redistribution permission for each file. It checks the PDF magic header and SHA-256, uses deterministic `research/<doi>-<hash>.pdf` keys, refuses uploads outside `kandaka-library`, checks for existing keys without overwriting, and verifies R2 object length and stored SHA-256 metadata after upload. The script does not automatically rewrite `data/library.json`; bilingual metadata must be reviewed separately. New R2 keys are only generated for source files actually present and cleared.
+
+**Blockers still open:** no new PDF downloaded or uploaded this session; direct publisher HTTP requests from the container still fail DNS resolution. The R2 account connection can list objects, but that does not supply publisher PDF bytes to the container or grant use of legacy keys. Rotate exposed credentials before any upload; Git history still contains them. Audit the separate hardcoded Nubian upload script before reuse; do not run it for new research. The earlier 303-reference/170-object mismatch is an unresolved audit finding, not proof of missing files. Check source URLs and bucket key mapping independently.
+
+**Next:** obtain a permitted original PDF through a browser/connected-file route, record its licence and DOI in a manifest, dry-run and review, then use newly rotated environment credentials for a single verified R2 upload. Only after successful retrieval and checksum verification should the corresponding English/Arabic Library entry gain a hosted-copy link. No publication schedule, existing archived objects or article approvals changed.
+
+---
+
 ## 17 November 2026 — Vegetarian Table WITHDRAWAL ordered by owner
 
 Owner says the food coverage is too narrow and asks to withdraw the article for now. This supersedes ALL earlier publication approval for this pair. Both English/Arabic content files are draft:true; both rejected photos already removed from content and cover metadata. Retain manuscripts for substantial expansion to a broader, well-sourced range of Sudanese vegetarian dishes and a new appetizing photo shortlist. Owner must review revised bilingual text and selected photos before any republication. No scheduled or automatic republication permitted. Live withdrawal verification pending. Other articles and automations unchanged.
