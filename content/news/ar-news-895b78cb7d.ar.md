@@ -14,9 +14,12 @@ geography:
 language: ar
 status: Reporting
 cluster_id: a46a550a4873
-corroboration_count: 1
+corroboration_count: 2
 draft: false
 author: Dabanga Sudan
+related_sources:
+- source: Sudan War Monitor
+  link: https://sudanwarmonitor.com/p/400-eec
 clabel: أخبار السودان
 ---
 
