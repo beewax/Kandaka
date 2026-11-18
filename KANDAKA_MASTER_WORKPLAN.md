@@ -2417,3 +2417,11 @@ Release d2dc62f1a56eeaf3c31002eb38cb260e0391380b matches ready Netlify6afcec7d89
 Actual Hugo EN/AR shared templates build and release diffcheck pass. No new unit tests for this reversible typography change. QA JSON and personally inspected correct artwork-section screenshot consistent-text-proof.jpg saved under deliverables/section-meta-consistency-2026-11-17. Initial screenshot caught top of page before hash navigation settled; final saved screenshot correctly shows Art title, introduction, schedule and cards. Viewport reset. Shared/master records updated; request complete.
 
 العربية: توحّد حجم أوصاف الأقسام ومواعيدها وتباعدها في المكتبة وصور السودان والفنون والتراث البصري، بالعربية والإنجليزية، مع التحقق من الحاسوب والشاشة الضيقة وبقاء المواعيد والنصوص والحقوق كما هي.
+
+## Withdrawal verified — 17 November 2026
+
+Withdrawal commit 024068fc5311bde7a0a0d769098fdf903bb9864b; matching ready Netlify 6afcf33c8d8b3ca41f729f2e, successful publication 2026-11-18T00:38:59.573Z / 17 November 18:38:59.573 CST. Independent live checks: both article URLs HTTP404; English/Arabic homepages, Culture and Articles listings HTTP200 with no article link. Manuscripts preserved draft:true, both photos withdrawn. Previous release approval revoked; no republication without owner review of expanded bilingual article and photos.
+
+Owner also recommends the Sudanese food site and the Jewish community in Sudan recipe blog. Likely identities verified as The Sudanese Kitchen (https://www.sudanese.kitchen/featured-recipes) and Tales of Jewish Sudan (https://www.talesofjewishsudan.com/recipes). Already cited narrowly in original; next revision should examine a broader selection, distinguish meat-free recipes from vegetarian adaptations, preserve community attribution, and independently check history/representativeness. Do not copy their photos without checking reuse terms. No new article or photo selection approved.
+
+تأكد سحب المقال من الصفحات والقوائم باللغتين. يبقى مسودة تحتاج إلى توسيع ومراجعة وصور جديدة يختارها صاحب الموقع قبل إعادة النشر.
