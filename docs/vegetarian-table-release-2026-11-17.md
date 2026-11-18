@@ -45,3 +45,19 @@ Browser downloads succeeded after direct HTTP attempts returned 403. Arabic sour
 Reviewed substantive prose matches both original review manuscripts exactly (five sections each), aside from moving the tamiya credit to cover position. Both original photo SHA256 hashes match the review packet. All twelve non-Commons source/licence/related-reading URLs return HTTP 200. Commons returned HTTP 403 to scripted requests; both original records were successfully read through web access, reconfirming descriptions, dates, authors and CC0. Photos inspected visually. No new substantive finding or thesis change. Full production build and cover audit pending.
 
 Cover audit PASS: 4471 Markdown files. Render checks PASS: five sections in each edition, full article bodies present, one cover plus one inline photo, localized alt text and credits, Arabic RTL, no review notices; EN/AR homepage and Culture listing include article. Original research and review packet remains unchanged.
+
+## Release committed and pushed
+
+Release commit 007eb22c0f1c2cf421902833868ecd088166603f, six scoped files. Preserved concurrent main typography updates through clean rebase. Both full normal builds passed: 243352ms initially and 258959ms on final combined main, 1287 EN / 4001 AR pages. Existing Site.Data deprecation warning only. Netlify deployment 6afcef0dcdfd874856fb50f8 building; actual publication and independent verification still pending.
+
+## 17 November 2026 — Vegetarian Table PUBLISHED AND VERIFIED
+
+Sudan’s Vegetarian Table / المائدة السودانية النباتية is live in English and Arabic with the two reviewed, unmodified CC0 photos. Release commit 007eb22c0f1c2cf421902833868ecd088166603f; matching ready Netlify deployment 6afcef0dcdfd874856fb50f8, no error. Actual publication 2026-11-18T00:20:24.899Z / 17 November 18:20:24.899 CST; independent verification 00:21:38.547178 UTC / 18:21:38.547178 CST. Full live bodies match checked build (5766 EN / 4670 AR normalized chars), five corresponding sections, exactly one tamiya cover and one inline aswad photo per edition, Arabic RTL, original image hashes, EN/AR homepage and Culture listings verified. Both full normal production builds and 4471-file cover audit passed.
+
+English: https://kandaka.com/culture/sudans-vegetarian-table/
+Arabic: https://kandaka.com/ar/culture/sudans-vegetarian-table/
+
+Germany nationwide dominance claim remains unsubstantiated; documented Berlin examples preserved. No substantive prose changes from review. Current primary source refresh did not require revisions. All non-Commons source links returned 200; Commons records verified via web after scripted access403. Review originals retained. Evidence docs/vegetarian-table-release-2026-11-17.md and docs/vegetarian-table-publication-2026-11-17.json. Library recommendations remain unadded; drinks/sweets remain separate idea. No other draft approval or schedule/automation change. Earlier local review-only labels are superseded for this article only.
+
+نُشر المقال باللغتين مع صورتي الطعمية وسلطة الأسود الأصليتين، وتحقق تطابق النصوص والصور والاعتمادات وظهوره في الصفحتين الرئيسيتين وقسم الثقافة. لا تعميم لأمثلة برلين على قطاع المطاعم في ألمانيا.
+

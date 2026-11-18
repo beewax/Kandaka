@@ -1,5 +1,16 @@
 # KANDAKA WORKPLAN
 
+## 17 November 2026 — Vegetarian Table PUBLISHED AND VERIFIED
+
+Sudan’s Vegetarian Table / المائدة السودانية النباتية is live in English and Arabic with the two reviewed, unmodified CC0 photos. Release commit 007eb22c0f1c2cf421902833868ecd088166603f; matching ready Netlify deployment 6afcef0dcdfd874856fb50f8, no error. Actual publication 2026-11-18T00:20:24.899Z / 17 November 18:20:24.899 CST; independent verification 00:21:38.547178 UTC / 18:21:38.547178 CST. Full live bodies match checked build (5766 EN / 4670 AR normalized chars), five corresponding sections, exactly one tamiya cover and one inline aswad photo per edition, Arabic RTL, original image hashes, EN/AR homepage and Culture listings verified. Both full normal production builds and 4471-file cover audit passed.
+
+English: https://kandaka.com/culture/sudans-vegetarian-table/
+Arabic: https://kandaka.com/ar/culture/sudans-vegetarian-table/
+
+Germany nationwide dominance claim remains unsubstantiated; documented Berlin examples preserved. No substantive prose changes from review. Current primary source refresh did not require revisions. All non-Commons source links returned 200; Commons records verified via web after scripted access403. Review originals retained. Evidence docs/vegetarian-table-release-2026-11-17.md and docs/vegetarian-table-publication-2026-11-17.json. Library recommendations remain unadded; drinks/sweets remain separate idea. No other draft approval or schedule/automation change. Earlier local review-only labels are superseded for this article only.
+
+نُشر المقال باللغتين مع صورتي الطعمية وسلطة الأسود الأصليتين، وتحقق تطابق النصوص والصور والاعتمادات وظهوره في الصفحتين الرئيسيتين وقسم الثقافة. لا تعميم لأمثلة برلين على قطاع المطاعم في ألمانيا.
+
 ## 17 November 2026 — Vegetarian Table approved release preparation
 
 Owner replied “go ahead” to the bilingual Vegetarian Table review and publication next step. Proceeding with that article and the two reviewed CC0 photographs only. Full English/Arabic bodies preserved; review markers removed, tamiya image and its credit moved to cover position, aswad remains inline. Germany claim remains unsubstantiated nationally; Berlin examples only. Source refresh confirms recipe variation and current primary restaurant pages. No other article, Library addition, schedule or automation approval inferred. Preparation 2026-11-18T00:08:20.438587+00:00; actual publication and verification pending.

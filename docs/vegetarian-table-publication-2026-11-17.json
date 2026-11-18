@@ -1,0 +1,28 @@
+{
+  "en": {
+    "url": "https://kandaka.com/culture/sudans-vegetarian-table/",
+    "status": 200,
+    "full_body_match": true,
+    "body_chars": 5766,
+    "photos": 2
+  },
+  "ar": {
+    "url": "https://kandaka.com/ar/culture/sudans-vegetarian-table/",
+    "status": 200,
+    "full_body_match": true,
+    "body_chars": 4670,
+    "photos": 2
+  },
+  "sudanese-tamiya-2025.jpg": {
+    "status": 200,
+    "sha256": "db6710c145f574f21ac79be19437004e8980157cee7ee9d82dd2e2a0263724bd"
+  },
+  "salatat-aswad-2025.jpg": {
+    "status": 200,
+    "sha256": "e0a877150e5a9348d254f5ff64514c4b3abf2ff4c38b4921aea57520923e9155"
+  },
+  "verified_at": "2026-11-18T00:21:38.547178+00:00",
+  "release_commit": "007eb22c0f1c2cf421902833868ecd088166603f",
+  "deployment": "6afcef0dcdfd874856fb50f8",
+  "published_at": "2026-11-18T00:20:24.899Z"
+}
