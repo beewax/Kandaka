@@ -11,13 +11,7 @@ tags:
 - vegetarian
 - heritage
 draft: false
-cover:
-  image: /images/uploads/salatat-aswad-2025.jpg
-  alt: Aubergine salad with peanut paste, photographed in 2025.
-  relative: false
 ---
-
-*Salatat aswad with dakwa. Photograph: إيناس سليمان أحمد علي (Enas Suleiman Ahmed Ali), 18 March 2025, [source](https://commons.wikimedia.org/wiki/File:سلطة_أسود.jpg), [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/). The contributor identifies the dish; the record does not specify the town or a complete ingredient list.*
 
 Put a bowl of ful beside bread, a sharp peanut salad and a plate of tamiya, and there is already plenty to look forward to. Soft beans, crisp edges, lemon, chilli and the richness of ground peanuts give each mouthful a different character. These are useful starting points for exploring the vegetarian possibilities of Sudanese cooking.
 
@@ -37,7 +31,7 @@ Another record comes from *Tales of Jewish Sudan*: its dakwa dip combines peanut
 
 
 
-Salatat aswad brings aubergine into the picture. The photographed example is identified as made with dakwa. Al-Tijani’s published mashed-aubergine recipe instead lists sesame paste and yoghurt, with peanut butter offered as an alternative to sesame paste. That variation matters: an aubergine salad may be meat-free without being vegan. Its ingredients, rather than its name alone, tell us which. [Salatat Aswad Mahrousa](https://www.sudanese.kitchen/recipe/salatat-aswad-mahrousa).
+Salatat aswad brings aubergine into the picture. Al-Tijani’s published mashed-aubergine recipe lists sesame paste and yoghurt, with peanut butter offered as an alternative to sesame paste. That variation matters: an aubergine salad may be meat-free without being vegan. Its ingredients, rather than its name alone, tell us which. [Salatat Aswad Mahrousa](https://www.sudanese.kitchen/recipe/salatat-aswad-mahrousa).
 
 ## Tamiya: let the cook’s version remain visible
 
@@ -61,4 +55,4 @@ Kandaka’s proposal is simple: give this everyday knowledge room. Credit cooks 
 
 *Related reading: [Kisra and Asida](https://kandaka.com/culture/kisra-asida-sudan-food-history/). Drinks and sweets are reserved for a separate article.*
 
-*Photo correction, 17 November 2026: We removed the original cover because its identification as Sudanese tamiya was insufficiently verified. The recipe discussion now relies on the cited recipe rather than that photograph.*
+*Photo correction, 17 November 2026: We removed the original cover because its identification as Sudanese tamiya was insufficiently verified, and withdrew both photographs during an editorial image review. The recipe discussion now relies on the cited recipe rather than that photograph.*
