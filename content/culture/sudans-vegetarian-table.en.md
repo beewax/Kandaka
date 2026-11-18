@@ -1,58 +1,71 @@
 ---
-title: 'Sudan’s Vegetarian Table: Ful, Dakwa and the Pleasure of Everyday Food'
-date: '2026-11-18T00:08:20.438587+00:00'
+title: "Sudan’s Vegetarian Table: Lentils, Breads, Salads and Shared Recipes"
 author: Kandaka
 category: Culture
-description: 'Ful, dakwa, aubergine and tamiya: Sudanese vegetarian cooking, recipe
-  variations and the evidence behind its Berlin connection.'
-tags:
-- Sudan
-- food
-- vegetarian
-- heritage
-draft: true
+description: "Sudanese vegetarian cooking through lentils, breads, salads and the recipes of several cooks and communities."
+tags: [Sudan, food, vegetarian, heritage]
+draft: false
+date: "2026-11-18T04:17:40.893497+00:00"
 ---
 
-Put a bowl of ful beside bread, a sharp peanut salad and a plate of tamiya, and there is already plenty to look forward to. Soft beans, crisp edges, lemon, chilli and the richness of ground peanuts give each mouthful a different character. These are useful starting points for exploring the vegetarian possibilities of Sudanese cooking.
+Warm bread, a generous plate of ful, a spoonful of lentils, something crisp and something sharp: there are many ways to build a satisfying Sudanese meal without meat. A peanut dressing can give aubergine richness; yoghurt can take it in another direction. A little shatta on the side lets everyone decide how much heat they want.
 
-The subject deserves more than a list of things that contain no meat. It is about how ingredients become recognisable dishes, how recipes vary between cooks, and how food travels with people. A small selection cannot represent every Sudanese region or household. It can, however, invite readers to discover a table that has much to offer.
+The pleasure is in the combination. Ful and tamiya deserve their familiar places, but they need not crowd out the vegetables, breads, dairy dishes and condiments around them. Following several cooks and family recipe collections reveals a table with room for different tastes—and different ways of making the same dish.
 
-## Ful: a bowl with room for personal taste
+## Ful and lentils: familiar food, personal touches
 
-Ful is shared across borders, and its Sudanese preparations belong in that wider conversation. In Omer Al-Tijani’s documented version, fava beans meet tomato, onion, cumin and lime, with sesame oil and white cheese added at the end. The beans provide a soft base; the finishing ingredients change the flavour and texture. For a vegan serving, the cheese can be left out. A recipe should say which version it means. [The Sudanese Kitchen: Fuul](https://www.sudanese.kitchen/recipe/fuul).
+For Sudanese-born cook **Monzir Hamdin**, ful carries the memory of eating together. In an interview with SBS Food, he recalls his mother preparing a large shared plate for the family. He still enjoys it for breakfast or dinner. [Monzir Hamdin’s account](https://www.sbs.com.au/food/article/the-refugee-story-behind-a-plate-of-monzir-hamdins-sudanese-ful/ecg4a3n7n).
 
-There is no need to claim exclusive ownership of an ingredient to appreciate what cooks do with it. The interesting questions are more intimate: how much acidity, which oil, what texture, and what goes beside the bowl? A family’s preferred answer is worth recording without turning it into a rule for the whole country.
+**Habi Makes** gives lentils another inviting treatment. Her cooked-lentil post combines onion, tomato and spices with lentils, oil and water. The result is thick enough to look at home beside bread. It is an everyday ingredient presented with care. The post is a commercial collaboration with Morouj, credited as such. [Habi Makes’ original post](https://www.instagram.com/p/DWBqHjajKL0/).
 
-## Dakwa and aubergine: richness, sharpness and variation
+Omer Al-Tijani’s **adas** offers a different texture: a smooth red-lentil soup finished with fried garlic, cumin and lime. These are two useful ways into lentils, one thicker and tomato-based, the other a soup with a fragrant finishing touch. [The Sudanese Kitchen: adas](https://www.sudanese.kitchen/recipe/adas).
 
-Dakwa, peanut paste, gives a salad substance. Al-Tijani’s salatat dakwa combines it with chopped vegetables and citrus, bringing a creamy dressing into contact with fresh crunch. It offers a useful introduction to savoury peanut cooking for readers who associate peanut butter mainly with sweet snacks. [Salatat Dakwa](https://www.sudanese.kitchen/recipe/peanut-salad).
+## Salads that deserve space on the table
 
-Another record comes from *Tales of Jewish Sudan*: its dakwa dip combines peanut butter, onion, lemon, cumin and chilli. That is a distinct preparation, not a second name for an identical recipe. Reading the two together opens a window onto different family and community records of Sudanese food. [Tales of Jewish Sudan: Dakwa](https://www.talesofjewishsudan.com/recipes/dakwa).
+The Arabic recipe archive **Simsimaya’s Kitchen** brings another home cook’s voice into the story. Her carrot salad starts with finely grated carrots briefly cooked with garlic and oil, then mixed with yoghurt, tahini and lemon. Sesame oil finishes the dish. It offers a creamy, colourful accompaniment; the yoghurt means this version contains dairy. [Simsimaya’s carrot salad](https://simsimaya.com/سلطة-الجزر/).
 
+Beetroot brings another colour and a sharper note. Al-Tijani links his **salatat banjar** to meals in his childhood home in Bahri. His account reminds us how a dish can be familiar in one household without appearing equally often in another. [Beetroot salad](https://www.sudanese.kitchen/recipe/beetroot-salad).
 
+### Eggplant with peanuts: salatat aswad bil-dakwa
 
-Salatat aswad brings aubergine into the picture. Al-Tijani’s published mashed-aubergine recipe lists sesame paste and yoghurt, with peanut butter offered as an alternative to sesame paste. That variation matters: an aubergine salad may be meat-free without being vegan. Its ingredients, rather than its name alone, tell us which. [Salatat Aswad Mahrousa](https://www.sudanese.kitchen/recipe/salatat-aswad-mahrousa).
+Simsimaya’s **salatat aswad** combines fried aubergine with tomato, ground peanuts, garlic, spring onion and green pepper. Lemon brightens the mixture, and chilli is optional. The peanuts give the softened aubergine body and richness. [Simsimaya’s peanut aubergine salad](https://simsimaya.com/سلطة-الأسود-الباذنجان/).
 
-## Tamiya: let the cook’s version remain visible
+**Asedo’s Kitchen** documents another peanut version with onion, tomato and lemon, suggesting it as a side dish or a filling for bread and wraps. The two recipes offer practical variations rather than a single compulsory formula. [Asedo’s Kitchen, first recipe](https://www.youtube.com/watch?v=Ye1u-1jcqkk).
 
+### Eggplant with yoghurt: salatat banzenjan bil-zabadi
 
+The yoghurt preparation has its own appeal. Al-Tijani keeps browned aubergine slices beneath a dressing of yoghurt, garlic, lime and cumin. The slices remain visible, and the dressing brings a cool, tangy contrast. This particular recipe contains no peanut butter. [The Sudanese Kitchen: yoghurt aubergine salad](https://www.sudanese.kitchen/recipe/aubergine-salad).
 
-Al-Tijani documents chickpea tamiya seasoned with garlic, dill and spices, and lists fava beans or black-eyed peas as possible alternatives. These are documented recipe options, rather than evidence that every cook uses the same pulse. The browned surface and soft interior make these fritters an appealing companion to a salad or sauce. [The Sudanese Kitchen: Ta’mia](https://www.sudanese.kitchen/recipe/tamia).
+Separating these two versions helps readers picture what is on the plate, but household recipes can also combine ingredients. **Sara Abdalla of Omdurman**, contributing to *Tasty Dishes for a Thriving Planet*, uses peanuts, tahini and dairy-free yoghurt together. It is a specific plant-based version, showing how cooks adapt the dish to their preferences. [Recipe, printed pages 68–69](https://planetaryhealthalliance.org/wp-content/uploads/2025/02/Planet-Saving-Meals-Cookbook_-Tasty-Dishes-for-a-Thriving-Planet.pdf).
 
-Vegetarian readers should still check the rest of the meal. A dish named for a vegetable may use meat stock: the same recipe collection includes vegetable soup and leaf stews prepared with lamb. Clear descriptions help people order confidently while preserving the recipes as their cooks actually make them. [Recipe collection](https://www.sudanese.kitchen/featured-recipes).
+## Bread, something creamy, a little heat
 
-## The Berlin connection—and the claim we could not confirm
+![A cook spreading kisra batter on a hotplate, with finished thin sheets in the foreground.](/images/uploads/kisra-evon2023.jpg)
 
-Sudanese food has a documented place in Berlin’s vegetarian-friendly street-food scene. Sahara presents falafel with peanut sauce as a speciality, while Sool lists a vegan plate alongside vegetarian and meat choices. Berlin WelcomeCard also describes Sool’s Sudanese vegetarian and vegan offerings. These are concrete examples of food finding an audience abroad. [Sahara](https://saharaimbiss.de/en/), [Sool](https://sool-imbiss.de/en), [Berlin WelcomeCard](https://www.berlin-welcomecard.de/en/partner/sool-imbiss).
+Photo: Evon2023, 11 June 2023. Sudanese kisra preparation; precise locality not supplied. [Original photograph](https://commons.wikimedia.org/wiki/File:Kissraa.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Unmodified.
 
-We could not verify the stronger claim that Sudanese businesses dominate Germany’s vegetarian restaurant industry. The sources checked do not establish a national market share by Sudanese ownership or cuisine. Restaurants offering vegan dishes are also not necessarily exclusively vegan restaurants. The defensible story is a recognisable Sudanese presence in Berlin, with peanut sauce among its signatures; a nationwide dominance claim would need different evidence.
+Bread gives these dishes company. **Gurasa**, a thick wheat bread, can take up a sauce or accompany a yoghurt mixture. Al-Tijani describes a yoghurt, garlic and onion pairing alongside his recipe. Kisra and asida bring further possibilities, with the character of the meal depending on the mullah or other accompaniment. [Gurasa](https://www.sudanese.kitchen/recipe/gurasa); [Kandaka’s Kisra and Asida article](https://kandaka.com/culture/kisra-asida-sudan-food-history/).
 
-## A food story worth keeping
+**Mish**, in the version recorded by The Sudanese Kitchen, combines yoghurt, white cheese, chilli and nigella seeds. **Shatta dakwa** brings peanut richness and chilli heat to the side of the plate. A small serving lets each diner adjust the meal. [Mish](https://www.sudanese.kitchen/recipe/spicy-yoghurt-dip); [shatta dakwa](https://www.sudanese.kitchen/recipe/spicy-peanut-chilli-dip).
 
-Writing in *Andariya*, Al-Tijani describes learning to record family recipes while living in Britain. Food documentation begins at that practical level: wanting to cook something familiar without losing the knowledge held by another person. His account is one cook’s experience, not a survey of every Sudanese household. [Al-Tijani’s account](https://andariya.com/post/the-sudanese-kitchen-new-cookbook-archives-traditions-and-flavors-2).
+Dakwa also appears as a salad or dip. **Tales of Jewish Sudan** records a preparation with peanut butter, onion, lemon and spices. Here, too, naming the cook’s version is more useful than assuming every bowl of dakwa contains the same ingredients. [Dakwa](https://www.talesofjewishsudan.com/recipes/dakwa).
 
-Kandaka’s proposal is simple: give this everyday knowledge room. Credit cooks and photographers, record variations, and explain ingredients clearly in Arabic and English. Restaurants, home cooks and food writers can make a cuisine easier to discover without smoothing away its differences. A bowl of beans, a peanut salad and a tray of tamiya offer a welcoming place to begin.
+## Kishri and a remembered Thursday table
 
-*Related reading: [Kisra and Asida](https://kandaka.com/culture/kisra-asida-sudan-food-history/). Drinks and sweets are reserved for a separate article.*
+Tales of Jewish Sudan describes **kishri**, rice and lentils with a cucumber-and-mint yoghurt accompaniment, and recalls meat-free Thursdays among many Jewish families in Sudan. Butter and yoghurt belong to this recorded version. The account gives the meal a place in community memory without turning that custom into a rule for the whole country. [Kishri](https://www.talesofjewishsudan.com/recipes/kishri).
 
-*Photo correction, 17 November 2026: We removed the original cover because its identification as Sudanese tamiya was insufficiently verified, and withdrew both photographs during an editorial image review. The recipe discussion now relies on the cited recipe rather than that photograph.*
+The same collection records **bamia** with lamb as an optional ingredient. Its meat-free option is another way to bring vegetables to the centre of a meal. Readers can follow the documented version rather than assume that every okra dish is automatically vegetarian. [Bamia](https://www.talesofjewishsudan.com/recipes/bamia-%28okra%29).
+
+## Tamiya: the pleasure of something crisp
+
+Tamiya supplies a contrast to soft beans and creamy salads. **Bakhita Emiliano’s** recipe, published by SBS Food, uses soaked broad beans, onion, chilli, garlic and allspice, fried and optionally served in bread with salad. The recipe also describes the enjoyment of making the dish together. [Bakhita Emiliano’s tamayya](https://www.sbs.com.au/food/recipe/broad-bean-balls-tamayya/g7nc3u7of).
+
+Al-Tijani records a chickpea version with dill and garlic. Putting the recipes side by side makes room for variation in the pulse itself, while keeping the attraction of a browned outside and a softer centre. Neither recipe needs to stand for every Sudanese family’s tamiya. [The Sudanese Kitchen: ta’mia](https://www.sudanese.kitchen/recipe/tamia).
+
+## Recipes worth passing on
+
+Simsimaya describes learning beside her mother, keeping her recipe notebooks and continuing to learn from other cooks. Habi Makes brings that sharing into the visual language of social media. A written method, a family recollection and a well-made cooking video each preserve something different: quantities, memories, texture, timing and the small gestures that make a recipe work. [Simsimaya’s own account](https://simsimaya.com/about/).
+
+For readers, the invitation is simple: try a dish, follow a cook, ask a relative how they make it, or put several small plates together. Some versions here contain dairy; others use no animal products. Their variety is part of the pleasure.
+
+For Kandaka, this is also a story of skill and cultural enterprise. Home cooks, recipe writers and food businesses can help more people discover Sudan through a meal they want to eat again. A table with ful, lentils, carrot salad, two different aubergine preparations and warm bread already offers plenty to talk about—and plenty to share.

@@ -2425,3 +2425,41 @@ Withdrawal commit 024068fc5311bde7a0a0d769098fdf903bb9864b; matching ready Netli
 Owner also recommends the Sudanese food site and the Jewish community in Sudan recipe blog. Likely identities verified as The Sudanese Kitchen (https://www.sudanese.kitchen/featured-recipes) and Tales of Jewish Sudan (https://www.talesofjewishsudan.com/recipes). Already cited narrowly in original; next revision should examine a broader selection, distinguish meat-free recipes from vegetarian adaptations, preserve community attribution, and independently check history/representativeness. Do not copy their photos without checking reuse terms. No new article or photo selection approved.
 
 تأكد سحب المقال من الصفحات والقوائم باللغتين. يبقى مسودة تحتاج إلى توسيع ومراجعة وصور جديدة يختارها صاحب الموقع قبل إعادة النشر.
+
+
+## 17 November 2026 — Expanded vegetarian feature and creator review, LOCAL ONLY
+
+Owner requested continuation after withdrawal: broader dishes and appetizing creator-based visuals, full EN/AR review before republication. Completed new local packet deliverables/vegetarian-table-expanded-review-2026-11-17/review.html, article.en.md, article.ar.md, SHORTLIST.md, RESEARCH.md and CHECKS.json. Six aligned sections and matching source-link sequence. Expanded adas, cooked lentils, beetroot, sliced/mashed aubergine, gurasa, mish, taheena, shatta dakwa, kishri and documented optional-meat bamia alongside ful/tamiya/dakwa and kisra/asida context. Germany claim no longer central. Regional coverage explicitly incomplete.
+
+Original Habi Makes Instagram cooked-lentil post /p/DWBqHjajKL0/ caption and finished-dish preview verified through browser; commercial Morouj co-authorship recorded. Three additional original recipe photographs visually inspected; four visual directions total. Rajaa and Taste of Sudan remain unverified-post leads; TikTok web access blocked. No outreach, image acquisition or publication. Both rejected original photos excluded. No site content/draft flags/date, commits, deployment or automation changed. Local review proposals only; withdrawn article stays draft:true. Fresh owner approval of expanded bilingual text AND images required before republishing.
+
+أُنجزت مسودة عربية وإنجليزية أوسع محلياً مع قائمة صور ومصادر وصناع محتوى للمراجعة. عُوين منشور العدس الأصلي لدى هابي ميكس وصور ثلاث وصفات أخرى، دون اعتمادها للنشر. يبقى المقال مسحوباً حتى مراجعة النصين والصور والموافقة الجديدة.
+
+
+## 17 November 2026 — Separate eggplant salads, local bilingual review
+Updated expanded vegetarian-table review packet with separate peanut/dakwa and yoghurt aubergine sections and two matching source-hosted photo candidates. Peanut photo credited explicitly to Noela Mogga / Taste of South Sudan (related South Sudanese version); yoghurt photo from The Sudanese Kitchen. Asedo’s Kitchen first recipe independently documents peanut preparation. Complete source/photo parity checked. Owner review and photo reuse clearance pending; withdrawal remains in force. No commit, deployment or publication. Review: deliverables/vegetarian-table-expanded-review-2026-11-17/review.html.
+فُصلت سلطة الأسود بالدكوة عن سلطة الباذنجان بالزبادي في المسودتين مع صورتين مقترحتين ونسبهما الصحيح. للمراجعة فقط؛ المقال ما زال مسحوباً ولم يُنشر مجدداً.
+
+
+## Vegetarian feature — broader-source bilingual review
+Owner requested substantive source diversity and inviting photographs before publication. Completed LOCAL deliverables/vegetarian-table-broader-sources-review/review.html and full EN/AR manuscripts, RESEARCH.md, CHECKS.json. Added Simsimaya carrot/peanut recipes, Monzir Hamdin shared-ful testimony and photo, Sara Abdalla variation, Bakhita Emiliano broad-bean tamayya. Four image candidates: Monzir ful, Simsimaya carrot, retained Noela peanut, retained Sudanese Kitchen yoghurt. Complete bilingual source/image parity; reuse permission pending. Not published/committed/deployed; withdrawn site article remains protected. Owner must review revised text and imagery.
+أُنجزت مراجعة محلية باللغتين بمصادر طهاة أوسع وأربع صور مقترحة. تبقى المسودة للمراجعة ولا تُنشر دون اعتماد النصوص والصور والتحقق من إعادة استخدامها.
+
+
+## Vegetarian feature — latest owner publication approval, photo clearance pending
+Owner explicitly approved the broader-source bilingual article and asked to finish checks, sort photo permissions and publish. Supersedes earlier text/image review holds. Four proposed images are approved editorially but reproduction permission remains unverified. SBS explicitly requires image licensing enquiry; source-supplied ful may be third-party owned. No blanket reuse terms found for Simsimaya, Taste of South Sudan or The Sudanese Kitchen. Prepared approved EN/AR site drafts locally with draft:true and no release date; fixed Arabic ful caption ambiguity (not peanuts). Complete link/image parity checked. Permission requests prepared locally, not sent. No commit, deployment or republication. Do not substitute rejected photos or infer source credit grants permission. See deliverables/vegetarian-table-broader-sources-review/PHOTO-PERMISSIONS.md and FINAL-CHECKS.json.
+وافق المستخدم على النصين والصور المقترحة وطلب النشر بعد الفحص وتسوية أذونات الصور. تبقى المسودتان محميتين حتى تأكيد إذن إعادة استخدام الصور الأربع؛ لا يلزم تكرار طلب اعتماد المقال. لم تُرسل طلبات الإذن ولم يحدث نشر.
+
+## 17 November 2026 — Authorized photo-owner outreach sent
+User explicitly authorized contacting owners on their behalf and publication of both editions once permissions are confirmed. Sent from bannaga@gmail.com and verified SENT messages:
+- SBS rights@sbs.com.au: 2026-11-18T04:14:27Z; Gmail thread/message 1a1ecdcfb2d79905.
+- Taste of South Sudan support@tasteofsouthsudan.com: 2026-11-18T04:14:30Z; 1a1ecdd0580f72a7.
+- The Sudanese Kitchen salam@sudanese.kitchen: 2026-11-18T04:14:33Z; 1a1ecdd119809849.
+Requests cover exact images, bilingual article and on-site previews, worldwide archive display, required credits and resizing only; no social reuse or automatic fee acceptance. Sent does not mean permission granted. No replies/permissions present on immediate thread check.
+Simsimaya: request NOT SENT. About page links to Facebook group 367324315943; no verified email found on home/about; Facebook returned temporarily blocked. Do not contact unrelated commenters or guess an address. Arabic request remains prepared in PHOTO-PERMISSIONS.md. Owner can supply direct contact to complete fourth enquiry.
+Article remains draft:true, no commit/deployment/publication. Latest approval to publish after all clearances is recorded; do not ask article approval again. Check these exact Gmail threads for replies on next continuation; no new automation was created and no background monitoring is claimed.
+أُرسلت ثلاثة طلبات إذن باسم المستخدم إلى SBS ومذاق جنوب السودان والمطبخ السوداني. طلب سمسماية لم يُرسل لعدم توفر وسيلة اتصال مؤكدة وتعذر الوصول إلى مجموعة فيسبوك. لم تصل موافقات ولم يُنشر المقال. اعتماد النشر باللغتين بعد استكمال الأذونات مسجل.
+
+## 17 November 2026 — Revised vegetarian feature immediate release authorized
+Latest owner instruction explicitly authorizes publishing Arabic and English now without uncleared recipe photos, then asks for one free-to-use photograph. Release uses the approved broader-source text and one existing unmodified Sudanese kisra photograph inline (Evon2023, 11 June 2023, CC BY-SA 4.0; Commons record rechecked). Localized alt/credit/source/licence; exact locality unspecified. Four uncleared photos and captions excluded, along with prose describing the omitted ful photo. No AI replacement and no rejected photos. Photo-owner enquiries remain pending; later additions authorized only once rights confirmed. This supersedes the earlier publication hold pending all four images. Normal build and live verification pending; no publication claim yet.
+أذن المستخدم بالنشر الفوري للنصين مع صورة واحدة متاحة لإعادة الاستخدام. أُضيفت صورة إعداد الكسرة المرخصة مع نسبها وترخيصها باللغتين، وحُذفت الصور غير المأذونة وتعليقاتها. تُضاف الصور الأخرى لاحقاً بعد تأكيد الأذونات.
