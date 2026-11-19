@@ -5,9 +5,14 @@ category: Culture
 description: "المائدة السودانية النباتية عبر العدس والخبز والسلطات ووصفات طهاة وأسر ومجتمعات متعددة."
 tags: [Sudan, food, vegetarian, heritage]
 draft: false
-text_only_images: true
 date: "2026-11-18T04:17:40.893497+00:00"
+cover:
+  image: /images/uploads/ful-medames-kym-perkins.png
+  alt: "فول مع البيض المسلوق والطماطم والأعشاب والخبز، تصوير كيم بيركنز لكتاب Healthy New Communities Cookbook."
+  relative: false
 ---
+
+*فول مع البيض والخبز: نسخة من جنوب السودان وردت في [كتاب Healthy New Communities Cookbook، ص 44](https://www.metrosouth.health.qld.gov.au/__data/assets/pdf_file/0039/476877/healthy-new-communites-complete-cookbook.pdf#page=54) (2025). التصوير وتنسيق الطعام: كيم بيركنز (Kym Perkins). © ولاية كوينزلاند (خدمة مستشفيات وصحة مترو ساوث)، بترخيص [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). استُخرجت الصورة من الكتاب دون تغيير؛ وهي توضح طبقاً مشتركاً، وليست صورة وصفة منذر حمدين.*
 
 خبز دافئ، وطبق فول سخي، وملعقة عدس، وشيء مقرمش وآخر حامض: طرق كثيرة تتيح إعداد وجبة سودانية مُرضية بلا لحم. تمنح الدكوة الباذنجان دسامةً، ويأخذه الزبادي إلى مذاق آخر. وقليل من الشطة إلى جانب الأطباق يترك لكل شخص اختيار ما يناسبه من الحرارة.
 

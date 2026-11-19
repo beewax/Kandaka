@@ -5,9 +5,14 @@ category: Culture
 description: "Sudanese vegetarian cooking through lentils, breads, salads and the recipes of several cooks and communities."
 tags: [Sudan, food, vegetarian, heritage]
 draft: false
-text_only_images: true
 date: "2026-11-18T04:17:40.893497+00:00"
+cover:
+  image: /images/uploads/ful-medames-kym-perkins.png
+  alt: "Ful with boiled eggs, tomatoes, herbs and flatbread, photographed by Kym Perkins for Healthy New Communities Cookbook."
+  relative: false
 ---
+
+*Ful with eggs and bread: a South Sudanese version featured in [Healthy New Communities Cookbook, p. 44](https://www.metrosouth.health.qld.gov.au/__data/assets/pdf_file/0039/476877/healthy-new-communites-complete-cookbook.pdf#page=54) (2025). Photography and food styling: Kym Perkins. © State of Queensland (Metro South Hospital and Health Service), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Photograph extracted unchanged from the cookbook; it illustrates a shared dish, not Monzir Hamdin’s recipe.*
 
 Warm bread, a generous plate of ful, a spoonful of lentils, something crisp and something sharp: there are many ways to build a satisfying Sudanese meal without meat. A peanut dressing can give aubergine richness; yoghurt can take it in another direction. A little shatta on the side lets everyone decide how much heat they want.
 
