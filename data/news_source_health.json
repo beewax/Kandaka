@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20T10:59:03.568466+00:00",
+  "updated": "2026-11-20T19:40:49.359904+00:00",
   "sources": [
     {
       "id": "dabanga-en",
@@ -89,7 +89,7 @@
       "id": "alaraby-ar",
       "language": "ar",
       "status": "ok",
-      "items": 163,
+      "items": 149,
       "accepted": 1
     },
     {
@@ -111,7 +111,7 @@
       "language": "ar",
       "status": "ok",
       "items": 24,
-      "accepted": 18
+      "accepted": 16
     },
     {
       "id": "ayin-ar",
@@ -132,7 +132,7 @@
       "language": "ar",
       "status": "ok",
       "items": 10,
-      "accepted": 9
+      "accepted": 8
     },
     {
       "id": "sudan-war-monitor",
@@ -153,14 +153,14 @@
       "language": "en",
       "status": "ok",
       "items": 12,
-      "accepted": 3
+      "accepted": 6
     },
     {
       "id": "tamazuj-ar",
       "language": "ar",
       "status": "ok",
       "items": 12,
-      "accepted": 5
+      "accepted": 4
     }
   ]
 }
