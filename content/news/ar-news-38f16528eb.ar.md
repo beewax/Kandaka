@@ -16,12 +16,9 @@ geography:
 language: ar
 status: Reporting
 cluster_id: db5703868f70
-corroboration_count: 2
+corroboration_count: 1
 draft: false
 author: صحيفة التغيير
-related_sources:
-- source: سودانايل
-  link: https://sudanile.com/%d9%85%d8%b3%d9%8a%d9%91%d8%b1%d8%a7%d8%aa-%d8%a3%d8%a8%d9%88-%d9%82%d9%84%d8%a8-%d9%88%d8%b7%d8%a7%d8%a6%d8%b1%d8%a9-%d8%a8%d9%88%d8%b1%d9%88%d9%86%d8%af%d9%8a
 clabel: أخبار السودان
 ---
 
