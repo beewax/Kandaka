@@ -20,7 +20,7 @@ cluster_id: 81667789971f
 corroboration_count: 1
 draft: false
 author: Ben Doherty in New York
-image: https://i.guim.co.uk/img/media/1a207f81e70f26c6fb300fd2353ecaa161bc7714/242_0_2895_2317/master/2895.jpg?width=140&quality=85&auto=format&fit=max&s=507c1075c87f28d4fa2f9ffbf0145db8
+image: https://i.guim.co.uk/img/media/9452c78dffd58fc7012a82b1561bf6fe0245986d/22_99_1629_1303/master/1629.jpg?width=140&quality=85&auto=format&fit=max&s=1006caf0833209e1605240740f8efa6c
 media_source: https://www.theguardian.com/world/2026/nov/20/uk-france-veto-uae-choice-lana-nusseibeh-next-un-secretary-general
 media_reuse_basis: rss_metadata
 media_attribution: The Guardian
