@@ -2509,3 +2509,13 @@ https://kandaka.com/culture/sudans-vegetarian-table/
 https://kandaka.com/ar/culture/sudans-vegetarian-table/
 Normal cover audit passed 4529 Markdown files. Initial C: build failed due disk space; incomplete output preserved by moving to D:/Kandaka-builds/vegetarian-ful-20261118-incomplete-preserved after automated review rejected deletion. Successful full production build at D:/Kandaka-builds/vegetarian-ful-20261118 (666.591 sec). No source files deleted. Permission requests for other food photographs remain pending; no other photos added. Evidence: deliverables/vegetarian-table-broader-sources-review/FUL-LIVE.json.
 نُشرت صورة الفول المعتمدة وتحقق ظهورها في النصين ومعايناتهما على الصفحة الرئيسية. أُثبت نسب الصورة إلى كيم بيركنز والناشر ورابط الترخيص، مع بيان أنها نسخة من جنوب السودان. الصور الأخرى ما زالت معلقة.
+
+
+## 21 November 2026 — Sai Island photo verified live
+
+Published the reviewed photograph of the Ottoman fort on Sai Island, taken 28 January 2016 by Valerian Guillot, CC BY2.0, with complete English/Arabic captions, alt text, date, credit and source/licence links. Release commit 891ffab0fc9d640f2f709c4b4be78e75023af07b (PR22); matching ready Netlify 6b01c96a4a3808ba849a4c05; actual publication 2026-11-21T16:41:13.030Z /10:41:13.030 CST. Independent six-route EN/AR detail/gallery/homepage and exact source-image hash checks passed by 2026-11-21 16:42:12 UTC. Source-provided 1024px JPEG SHA256 e9b648711d8d70b3c371327441aaf37059e0d37b8c64d349a7e1da197463cf01. Primary source and pixels inspected; historical-view disclosure retained. Kordofan steamer Af I2523 rechecked but remains held for conflicting capture geography. Two candidates reviewed; one published. Source/tests/build/preview/release evidence: docs/photo-weekly-2026-11-21.md. No article, artwork, Library or automation changes.
+
+English: https://kandaka.com/images/2026-11-19-image-1-b2077cfe/
+Arabic: https://kandaka.com/ar/images/2026-11-19-image-1-b2077cfe/
+
+نُشرت صورة قلعة صاي بالعربية والإنجليزية، مع اسم المصوّر وتاريخ الالتقاط وروابط المصدر والترخيص. تحقّقنا من الصفحتين والصورة ومعرض الصور باللغتين. بقيت صورة باخرة كردفان معلّقة لعدم حسم مكان التقاطها.
