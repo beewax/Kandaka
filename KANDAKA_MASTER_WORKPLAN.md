@@ -2532,3 +2532,38 @@ Research and visual plan: docs/sudan-hair-history-research-2026-11-21.md. Source
 Backlog reconciliation: current main feature-content scan found no draft:true non-news/non-photo articles. Earlier USER REVIEW labels for Beyond the Pyramids, A Golden Sparrow and a Sea Cow, When a House Changes, Amber and broader cinema history are superseded by their publication records. Archived docs/research/karanog-dongola/revised-article.en.md is a research draft, not proof of a separate unpublished commission; corresponding bilingual article is already draft:false in content/history. Do not count historical review copies as outstanding approvals. Other local/chat-only drafts could not be established from available records. Music/instruments, crafts, artist/architect spotlights, book/film reviews and drinks/sweets remain ideas/research where no later title-specific commission exists. Prioritize this hair feature next; then music/instruments, then drinks/sweets or a specific artist profile.
 
 طلب صاحب الموقع تحقيقاً مطوّلاً عن المشاط السوداني وتسريحات الرجال عبر العصور باللغتين. أُدرج بوصفه بحثاً وصياغة للمراجعة، لا إذناً بالنشر. يشمل تنوّع المجتمعات والفترات وأدوات الزينة والحلاقة وأصوات الممارسين، مع التمييز بين الشواهد الأثرية والروايات والتقاليد المعاصرة. تُعرض المسودتان والصور على صاحب الموقع قبل النشر. لا تُعاد إدراج المقالات المنشورة ضمن قائمة انتظار المراجعة بسبب بقاء نسخها القديمة في ملفات البحث.
+
+## 21 November 2026 — Joplin screenshot ideas reconciled with website / أفكار جوبلين بعد مراجعة الموقع
+
+Owner requested recording the visible ideas and continuing the bilingual hair feature for review. Screenshot shows 56 notes but only visible titles were supplied; no claim to have read all note bodies. All new topics below are IDEA/RESEARCH, not approved publication or scheduled releases. Preserve original Joplin notes. Website checked first: homepage plus Development, History and Culture listings; search engine section snapshots can lag, so absence here is not exhaustive proof of absence. Published coverage includes ports, universities, planning, Funj, medieval dress, Dongola, Miseeda, cinema and everyday archaeology.
+
+أُدرجت العناوين الظاهرة فقط بوصفها أفكاراً للبحث، لا موافقة على النشر. لم تُقرأ أجسام ملاحظات جوبلين ولا جميع الملاحظات الست والخمسين. تُراجع التغطية المنشورة قبل التكليف بأي متابعة.
+
+| Idea | العربية | Scope / overlap |
+|---|---|---|
+| Structural change in Sudan’s economy | التحول الهيكلي للاقتصاد السوداني | Distinct follow-up to First Year reforms and Sudan Planned Before: productivity, sector shifts and regional employment. |
+| Import substitution | إحلال الواردات | Test competitiveness, imported inputs, consumer costs and export capability; no assumption that all local production saves foreign exchange. |
+| What import and export reports miss | ما الذي تغفله تقارير الاستيراد والتصدير | Informal trade, coverage gaps, valuation and statistical uncertainty. |
+| Higher education gaps | الفجوات في التعليم العالي | Follow-up to existing universities article: specific skills, research and employer links rather than duplicate overview. |
+| Cities that need attention and why | مدن تحتاج إلى الاهتمام ولماذا | Regional centres and municipal services; distinguish from new megacity concepts. |
+| Historic Sudanese hotels | تاريخ الفنادق في السودان | Date documented hotels and predecessor hospitality forms separately; do not describe prehistoric accommodation as hotels. |
+| Wad Ban Naqa | ود بانقا | Site-specific archaeology; distinguish from existing Napata, Sanam and everyday archaeology coverage. |
+| Christian Nubian kingdoms; Makuria and Alodia | الممالك النوبية المسيحية؛ المقرة وعلوة | Merge overlapping screenshot ideas; follow up existing medieval Nubia, Dongola and Miseeda treatments with a distinct question. |
+| Funj and Hamaj; Nubian and Funj stories | الفونج والهمج؛ حكايات من تاريخ النوبة والفونج | Existing Funj Sultanate overview already published; prioritize Hamaj or a source-led focused story. |
+| Gold in Kordofan | الذهب في كردفان | Research deposits, labour, processing and governance; gold-rich is a question, not established commercial reserves. |
+| Iran’s self-sufficiency and innovation | الاكتفاء الذاتي والابتكار في إيران | Critical comparative research; costs, sanctions, institutions and transferability, no endorsement or assumed success. |
+| Reimagining cities, including The Line comparison | إعادة تصور المدن ومقارنة بمشروع ذا لاين | Compare with servicing existing Sudanese cities; refresh actual project status. |
+| A Ministry of Innovation | وزارة للابتكار | Examine institutional functions and alternatives before proposing a new ministry. |
+| 6G and satellite internet | الجيل السادس والإنترنت عبر الأقمار الصناعية | Assess affordability, spectrum, maturity and local capacity; do not assume skipping 5G is feasible. |
+| Sudanese and Arab streaming platform | منصة للمحتوى السوداني والعربي | Distinct business/distribution follow-up to published cinema history. |
+| Islamic Golden Age; ijtihad and reform | العصر الذهبي الإسلامي والاجتهاد والإصلاح | Combine overlapping ijtihad notes; historical evidence and competing interpretations. |
+| Minorities and Islam | الأقليات والإسلام | Research rights, citizenship and historically specific communities without generalization. |
+| New archaeological sites | مواقع واكتشافات أثرية جديدة | Verify excavation publications and avoid duplicates of published sites. |
+| Erkowit, Suakin and domestic tourism | أركويت وسواكن والسياحة الداخلية | Heritage and future possibilities; do not imply present safe access. |
+| Five-year plans and constitution | الخطط الخمسية والدستور | Cross-reference existing planning coverage; constitutional angle needs separately defined thesis. |
+| How to help Sudanese people | كيف نساند السودانيين | Define practical audience and verify organizations before any recommendation. |
+| Sudan wallpapers for iOS, Windows and Android | خلفيات سودانية للهواتف والحواسيب | Product/technical idea, separate from article queue; rights-cleared imagery. |
+| Comeuppance: criminals, rapists and money (screenshot wording uncertain) | المساءلة والجرائم والمال — عنوان يحتاج إلى توضيح | Preserve as unclear IDEA; do not infer allegations, named targets or publishable thesis. |
+| Deep Sea Ports / Deep Sea Port | الموانئ البحرية العميقة | Two screenshot entries consolidated as ALREADY COVERED by published ports article; no duplicate commission. |
+
+Priority economics development research: structural transformation, selective import substitution, trade-data gaps, regional cities and a narrowly focused university follow-up. Pair with current Library sources, independently checked; no automatic repetition of a starting paper. Hair feature remains the active full EN/AR drafting commission, historical and modern photo review required; no publication approval.
