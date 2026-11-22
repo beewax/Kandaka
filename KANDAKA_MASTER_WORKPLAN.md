@@ -1,5 +1,16 @@
 # KANDAKA WORKPLAN
 
+## 22 November 2026 — Five new bilingual illustrated features commissioned
+
+Owner requests all five proposed features, deeply researched but readable rather than academic-sounding, with references and images, staggered every two days. Order: (1) What Sudan’s Trade Figures Don’t Tell Us; (2) When a Transfer Fails: Making Digital Payments Work in Sudan; (3) Does Sudan Need a Ministry of Innovation—or Better Support for Inventors?; (4) Wad Ban Naqa: A Royal City Beyond the Familiar Pyramids; (5) Sudan’s Historic Hotels: Buildings, Visitors and Changing Cities.
+
+All five are commissioned RESEARCH/DRAFTING FOR OWNER REVIEW. Preserve the preceding promise to show full EN/AR text and photos before publication; unseen drafts/covers are not individually approved. Earliest release sequence is T, T+48h, T+96h, T+144h, T+192h, measured from actual successful releases and shifted for approval/readiness. T is not fixed yet. No automatic release job or public future-dated article created. Existing monitors unchanged.
+
+Primary-source discovery and research/overlap/image ledgers recorded in docs/five-article-series-2026-11-22.md. Trade asymmetries require valuation/timing/origin controls before fraud inference; UNDP payments sample is not national; innovation must examine delivery functions rather than assume a ministry solves them; Wad Ban Naqa must not be confused with Naqa and must credit earlier Sudanese excavations; hotels require independent founding dates and geographic breadth. Initial source checks and image leads exist, not completed five manuscripts or publication-ready images. Codex continues research and bilingual drafting from this record. Do not report this intake as publication or completed drafts.
+
+كُلّف إعداد خمسة مقالات مصوّرة بالعربية والإنجليزية، ببحث معمق وأسلوب واضح ومراجع، بالترتيب: أرقام التجارة، المدفوعات الرقمية، دعم الابتكار، ود بانقا، وفنادق السودان التاريخية. تُعرض النصوص والصور للمراجعة قبل النشر. يفصل بين كل إصدار والذي يليه ٤٨ ساعة على الأقل من النشر الفعلي، وتُحدد البداية بعد الموافقة والجاهزية. الحالة بحث وإعداد، وليست اعتماداً للنصوص أو الصور غير المعروضة.
+
+
 ## 22 November 2026 — Hair feature VERIFIED LIVE in English and Arabic
 
 Owner-approved expanded article and all seven reviewed photographs published through the existing Git-to-Netlify workflow. Release commit cabb80b6cf6885bb655917718afabad746e8dcc6; matching successful deployment 6b029fdcd4e487aa316d8881. Actual publication: 2026-11-22 07:56:12.578 UTC / 01:56:12.578 CST. Independent checks began 07:56:40 UTC and completed successfully: both full live bodies match the checked production build, 14 sections each, seven unique approved photos per article, all seven live image hashes match approved originals, language links work, and both homepages/Culture listings contain the article.
@@ -2655,3 +2666,13 @@ Release f0bf4388a35eecb9031679a87b1bd625329b040d; matching ready Netlify product
 Suakin and Pluriversal Pasts retain third-party-rights holds; flood original retrieval remains blocked. Two21November reports remain source-linked pending rights confirmation. Other catalog entries, articles, approved content, covers and automation preserved. Publication receipt: docs/pdf-archive-publication-2026-11-22.json. This supersedes deployment-pending wording for these five upgrades only.
 
 **العربية:** تحقق النشر الحي لخمسة روابط تنزيل جديدة بالعربية والإنجليزية. يبقى الفهرس٥٧٩ سجلاً؛ أُضيفت الملفات إلى سجلات قائمة دون تكرار. ظلت المواد المعلقة روابط للمصادر الأصلية دون ادعاء أرشفتها، ولم تتغير المقالات.
+
+## 22 November 2026 — Five first-draft pairs now prepared; research continues
+
+Supersedes intake-only status above: ten substantive first-pass manuscript files now exist under docs/five-series-review/, with an English/Arabic HTML review index, references, matching citation identifiers and explicit unfinished editorial checks. English drafts approximately 950–1146 words including references/notes; Arabic 730–919. These are initial drafts, not completion of the requested deep research. All remain outside content/ and unapproved for publication.
+
+Four proposed contextual cover images are included in the local review: existing approved harbour illustration (reuse explicitly proposed, not approved for this new article), historical Omdurman market, historical Atbara workshops and Grand Hotel courtyard. No image is automatically approved by prior use elsewhere. Wad Ban Naqa CC0 source identified, but original/thumbnail retrieval returned 403/429; no pixels inspected or substitute image invented. Both Wad pages display an explicit source-preview hold rather than a broken image. More subject-specific images and historical comparisons remain to be sourced. Hotel photo recovered from existing audited local asset and visually checked; uncertain capture date retained.
+
+Ten HTML pages checked: reference-number parity, EN LTR/AR RTL, desktop/mobile overflow, all included images load. Hotel Arabic preview visually inspected. These checks are for the local draft review only, not a production build or website verification. Further work: independent recent trade-data example; current provider/World Bank payment evidence; Sudan-specific innovation institutional/project evidence; full Wad excavation/object records; broader regional hotel documentation and original image checks. No article flags, dates, live content, Library entries or automations changed. Proposed publication spacing remains 48 hours after actual preceding release once each final bilingual/photo package is reviewed and approved. No dates or automatic releases are active.
+
+أُعدت عشر مسودات أولى فعلية باللغتين مع مراجع وصفحات مراجعة وصور سياقية مقترحة لأربعة موضوعات. صورة ود بانقا محددة المصدر لكن جلبها ومعاينتها لم يكتملَا. لم يكتمل البحث المعمق والتحقق النهائي أو اختيار جميع الصور، ولم يعتمد أي نص أو غلاف للنشر.
