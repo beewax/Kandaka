@@ -1,6 +1,81 @@
 {
   "books": [
     {
+      "title": "Atbai Enclosure Burials: Monumentalism, Pastoralism and Environmental Change in the Mid-Holocene East Nubian Deserts",
+      "title_ar": "المدافن المحوّطة في العتباي: العمارة الجنائزية الضخمة والرعي والتغير البيئي في صحارى شرق النوبة خلال الهولوسين الأوسط",
+      "author": "Julien Cooper, Marie Bourgeois, Maël Crépy and Maria Carmela Gatto",
+      "author_ar": "جوليان كوبر، ماري بورجوا، مايل كريبي وماريا كارميلا غاتو",
+      "year": "2026",
+      "publication_date": "2026-04-27",
+      "doi": "10.1007/s10437-026-09654-y",
+      "citation": "African Archaeological Review 43, pp. 191–216 (2026).",
+      "tags": [
+        "History",
+        "Sudan"
+      ],
+      "desc": "Using satellite imagery, the Atbai Survey Project mapped a recurring form of monumental burial across the desert between the Nile and the Red Sea, including eastern Sudan. Its circular stone walls enclose smaller graves. The authors propose a broad fourth- to third-millennium BCE chronology and relate the tradition to pastoral communities adapting to environmental change. The date range is the authors’ regional interpretation.",
+      "desc_ar": "رصد مشروع مسح العتباي باستخدام صور الأقمار الصناعية نمطاً متكرراً من المدافن الضخمة في الصحراء بين النيل والبحر الأحمر، بما فيها شرق السودان. وتحيط جدرانها الحجرية الدائرية بقبور أصغر. ويقترح الباحثون تأريخ هذا التقليد إجمالاً إلى الألفيتين الرابعة والثالثة قبل الميلاد ويربطونه بتكيّف المجتمعات الرعوية مع التغير البيئي. ويعبّر هذا التأريخ عن تفسير الباحثين للأدلة على مستوى الإقليم.",
+      "review_level": "Publisher HTML abstract and selected survey and interpretation sections checked.",
+      "rights_note": "Open access publisher HTML.",
+      "language": "English",
+      "source": "https://link.springer.com/article/10.1007/s10437-026-09654-y",
+      "pdf_stored": false,
+      "verified_on": "2026-11-22",
+      "access_type": "external_article",
+      "access_label_en": "Read original article",
+      "access_label_ar": "قراءة المقال الأصلي"
+    },
+    {
+      "title": "Urban Expansion Amplifies Hydro-Saline Processes and Infrastructure Vulnerability in an Arid Coastal City: A Long-Term, Field-Calibrated Remote-Sensing Assessment",
+      "title_ar": "التوسع العمراني وتفاقم ملوحة التربة ورطوبتها ومخاطرها على البنية التحتية في بورتسودان: تقييم طويل الأمد بالاستشعار عن بُعد والمعايرة الميدانية",
+      "author": "Abazar M. A. Daoud, Mahmoud M. Kazem, Tibor Novák and Péter Rózsa",
+      "author_ar": "أباذر م. أ. داود، محمود م. كاظم، تيبور نوفاك وبيتر روزا",
+      "year": "2026",
+      "publication_date": "2026-03-21",
+      "doi": "10.1007/s41748-026-01108-4",
+      "citation": "Earth Systems and Environment 10, pp. 9499–9539 (2026).",
+      "tags": [
+        "Economics & Development",
+        "Sudan"
+      ],
+      "desc": "The study combines satellite observations from 2008 to 2024 with field measurements in Port Sudan. It traces the inland spread of saline and moist soils into low-lying and reclaimed areas as the city expanded. Field observations included cracked foundations and corroded reinforcement. The study informs drainage and construction planning, and its projections to 2040 assume recent trends continue.",
+      "desc_ar": "تجمع الدراسة بين الرصد بالأقمار الصناعية خلال الفترة من ٢٠٠٨ إلى ٢٠٢٤ والقياسات الميدانية في بورتسودان. وتتتبّع امتداد التربة الملحية والرطبة نحو الداخل إلى المناطق المنخفضة والأراضي المستصلحة مع توسّع المدينة. وشملت المشاهدات الميدانية تشققات في الأساسات وتآكلاً في حديد التسليح. وتفيد الدراسة في تخطيط الصرف والبناء، وتفترض توقعاتها حتى ٢٠٤٠ استمرار الاتجاهات الأخيرة.",
+      "review_level": "Publisher HTML abstract, field results and conclusion checked.",
+      "rights_note": "Open access publisher HTML.",
+      "language": "English",
+      "source": "https://link.springer.com/article/10.1007/s41748-026-01108-4",
+      "pdf_stored": false,
+      "verified_on": "2026-11-22",
+      "access_type": "external_article",
+      "access_label_en": "Read original article",
+      "access_label_ar": "قراءة المقال الأصلي"
+    },
+    {
+      "title": "Integrating satellite remote sensing data and small-scale farmers’ perceptions to determine land use/ land cover changes and their driving factors in Gedaref state, Sudan",
+      "title_ar": "دمج بيانات الاستشعار عن بُعد وتصورات صغار المزارعين لرصد تغيّرات استخدام الأراضي والغطاء الأرضي وعواملها في ولاية القضارف بالسودان",
+      "author": "Maysoon A. A. Osman, Elfatih M. Abdel-Rahman, Joshua Orungo Onono, Muna M. Elhag, Lydia A. Olaka and Henri E. Z. Tonnang",
+      "author_ar": "ميسون أ. أ. عثمان، الفاتح م. عبد الرحمن، جوشوا أورونغو أونونو، منى م. الحاج، ليديا أ. أولاكا وهنري إ. ز. تونانغ",
+      "year": "2026",
+      "publication_date": "2025-01-20",
+      "doi": "10.1007/s10668-024-05689-w",
+      "citation": "Environment, Development and Sustainability 28, pp. 26403–26429 (2026). Published online 20 January 2025.",
+      "tags": [
+        "Economics & Development",
+        "Sudan"
+      ],
+      "desc": "The researchers compared land-cover maps for 1988–2018 with responses from 400 people in Gedaref. The maps show cropland and settlements expanding and forest cover declining, broadly in line with respondents’ observations. The study identifies agricultural expansion, firewood collection and charcoal production among the possible drivers. The evidence describes changes through 2018. The publisher provides a public abstract and requires subscription access for the full text.",
+      "desc_ar": "قارن الباحثون خرائط الغطاء الأرضي للفترة ١٩٨٨–٢٠١٨ بإجابات ٤٠٠ مشارك في القضارف. وأظهرت الخرائط توسّع الأراضي المزروعة والتجمعات السكانية وتراجع الغطاء الحرجي، بما يتوافق إجمالاً مع ملاحظات المشاركين. وتحدّد الدراسة التوسع الزراعي وجمع الحطب وإنتاج الفحم النباتي ضمن العوامل المحتملة. وتغطي الأدلة التغيرات حتى عام ٢٠١٨. ويتيح الناشر الملخص للعامة ويشترط الاشتراك للوصول إلى النص الكامل.",
+      "review_level": "Publisher metadata and public abstract checked.",
+      "rights_note": "Publisher HTML abstract is public. Full text requires subscription access.",
+      "language": "English",
+      "source": "https://link.springer.com/article/10.1007/s10668-024-05689-w",
+      "pdf_stored": false,
+      "verified_on": "2026-11-22",
+      "access_type": "external_article",
+      "access_label_en": "Read original article",
+      "access_label_ar": "قراءة المقال الأصلي"
+    },
+    {
       "title": "Wood or Soil? A Functional Analysis of Neolithic Rhyolite Gouges from Central Sudan Using Experimental Archaeology and Use Wear Study",
       "title_ar": "الخشب أم التربة؟ تحليل وظائف الأزاميل المقعّرة المصنوعة من الريوليت في العصر الحجري الحديث بوسط السودان",
       "author": "Katarína Kapustka, Malgorzata Winiarska-Kabacinska, Ikram Madani Ahmed, Karolína Pauknerová, Ladislav Varadzin and Lenka Varadzinová",
