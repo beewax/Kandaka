@@ -1,0 +1,60 @@
+{
+  "catalog_records": 579,
+  "new_records": 0,
+  "new_pdfs": 5,
+  "total_pdf_pages": 84,
+  "total_pdf_bytes": 30142442,
+  "objects": [
+    {
+      "doi": "10.1017/pub.2026.10190",
+      "public_verified": true,
+      "sha256_match": true,
+      "pages": 13
+    },
+    {
+      "doi": "10.15184/aqy.2026.10434",
+      "public_verified": true,
+      "sha256_match": true,
+      "pages": 20
+    },
+    {
+      "doi": "10.3389/fsufs.2026.1846994",
+      "public_verified": true,
+      "sha256_match": true,
+      "pages": 17
+    },
+    {
+      "doi": "10.5772/intechopen.1016887",
+      "public_verified": true,
+      "sha256_match": true,
+      "pages": 19
+    },
+    {
+      "doi": "10.3390/min16070713",
+      "public_verified": true,
+      "sha256_match": true,
+      "pages": 15
+    }
+  ],
+  "held": {
+    "10.3389/fbuil.2026.1868485": "Valid publisher PDF downloaded locally (31 pages). CC BY article; downstream scope of credited maps/plans/press and archival photographs not independently settled. No Kandaka mirror pending third-party-rights clarification.",
+    "10.1017/S0959774326100742": "Valid publisher PDF downloaded locally (13 pages). CC BY4.0 article; downstream scope of seven credited/adapted figures, including Crawford1951, not independently settled. No Kandaka mirror pending third-party-rights clarification.",
+    "10.1038/s41598-026-58194-7": "Publisher web PDF text available, but direct local Nature/Springer routes returned HTML, not PDF bytes. No valid original binary acquired or uploaded this pass; source link retained."
+  },
+  "rendered": {
+    "en": {
+      "cards": 579,
+      "five_downloads_once": true,
+      "localized_labels": true,
+      "rtl": false
+    },
+    "ar": {
+      "cards": 579,
+      "five_downloads_once": true,
+      "localized_labels": true,
+      "rtl": true
+    }
+  },
+  "baseline": "35f41cc8d6a0d7482e5dd340fdba983bb2cb96e6",
+  "article_files_changed": false
+}

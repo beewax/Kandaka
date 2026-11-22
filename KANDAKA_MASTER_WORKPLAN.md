@@ -2621,3 +2621,16 @@ Full provenance/rights/pending decisions: [acquisition log](docs/library-acquisi
 Release `5fdecae377cd9a0bde0716f4aed98d2c4476a8bf`; matching Netlify production `6b027fa9683df2378dda2837` ready, no error. Actual publication **21 November 2026 23:38:48.427 America/Chicago (CST) / 22 November05:38:48.427UTC**. Independent live checks at05:39:05UTC confirmed HTTP200, **579 cards** in each Library, each new source once, both complete localized summaries and Arabic RTL. UNDP financial literacy and World Bank October2026 Sudan outlook are official-source links; **zero PDFs archived**. Existing577 records preserved. No article content/cover/approval/schedule/automation change. Receipt: [machine-readable evidence](docs/library-acquisition-2026-11-21-publication.json). The earlier preparation-only status is superseded for these two additions; pending rights/access/archive tasks remain open.
 
 **العربية:** تحقق النشر الحي للإضافتين وعدد٥٧٩ سجلاً باللغتين وتطابق الملخصات والروابط واتجاه العربية. أُضيفت روابط المصدرين الرسميين دون أرشفة ملفات، ولم تُغيّر المقالات أو مواعيدها.
+
+
+## 22 November 2026 — Five pending Library PDFs archived and publicly verified
+
+Owner authorized pending PDF rights checks and legally permitted Kandaka archiving. **Five new PDFs, zero new records; catalog remains579.** Existing records upgraded: Pedagogy Under Fire (13pp), Crafting power in Kush (20pp), Eastern Sudan sorghum TPPs (17pp), Omdurman heat chapter (19pp), Sudan lustre ceramics (15pp). Total84pages /30,142,442bytes. CC BY4.0 evidence, caption screens, exact original metadata, PDF signatures, first-page visual checks and SHA256 recorded. All files unchanged; public GET200/application-pdf and byte/page-count matches verified before catalog links added.
+
+Suakin (31-page original acquired) and Pluriversal Pasts (13-page original acquired) remain source-linked pending downstream rights clarity for credited third-party material. Flood paper remains source-linked: local PDF routes supplied HTML, which was rejected. Yesterday's two official reports retain unconfirmed redistribution status. These are blockers, not fabricated permissions or archived copies.
+
+Repository safe explicit-manifest dry run passed. Actual uploads used installed Wrangler OAuth, not old embedded S3 keys; no temporary Worker. Legacy-key revocation remains separately unresolved and is not claimed completed. No existing object overwritten/deleted, no Nile bucket used. Five format/status-map and inventory updates; substantive bilingual summaries and source/DOI links preserved with localized archive notes.
+
+[Rights and acquisition log](docs/pdf-archive-rights-2026-11-22.md) · [exact manifest](docs/pdf-archive-manifest-2026-11-22.json) · [checks](docs/pdf-archive-checks-2026-11-22.json). Normal production deployment and live Library buttons are verified separately after commit. No article, cover, editorial approval, cadence or automation changed.
+
+**العربية:** أُضيفت خمسة ملفات PDF قابلة للتنزيل إلى سجلات موجودة؛ يبقى العدد٥٧٩. تحققت الحقوق والملفات والبصمات والصفحات وروابط التنزيل العامة. بقيت سواكن وماضيات متعددة معلقتين لحقوق المواد المعاد استخدامها، وبحث الفيضانات لتعذر الحصول على ملف صالح. لم تتغير المقالات أو مواعيدها.
