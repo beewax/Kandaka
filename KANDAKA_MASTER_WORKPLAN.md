@@ -2771,3 +2771,14 @@ Release 4f1a0942149fcf0dc04510a8659fd48f72135c39; matching ready Netlify 6b03442
 Earth-block source only pending reused-guide graphics/table rights; Pluriversal Pasts remains pending Cambridge reply. No additional outreach, no implied permission. No user download needed. No article/editorial/automation changes. Exact receipt: docs/library-next-2026-11-22-publication.json.
 
 **العربية:** تحقق النشر الحي لثلاثة ملخصات باللغتين ورابطي تنزيل مرخّصين. الفهرس٥٩١ سجلاً بعد حفظ الإضافات المتزامنة. بقي بحث كتل التربة رابطاً فقط، وبقي طلب كامبريدج معلقاً.
+
+
+## 22 November 2026 — Next Library sources: agrivoltaic review and water-energy scenarios
+
+Owner authorized continued Library intake, English/Arabic summaries and lawful PDF archives. Added two nonduplicate verified source-linked records: Altyeb Ali Abaker Omer's FAWEN agrivoltaic review (19March2026, DOI10.3389/fpos.2026.1758795), and Basheer/Elnour/Pérez/Liao/Siddig/Ringler's integrated hydropower-irrigation climate assessment (October2026 issue, DOI10.1016/j.jhydrol.2026.136135).591→593 records. Summaries distinguish international review benchmarks and conditional model scenarios from observed Sudanese project outcomes. Agrivoltaic full-text selected sections reviewed; water-energy metadata/abstract only, explicitly labelled. No article work.
+
+**Zero new public PDFs in this batch.** Agrivoltaic article is CC BY4.0, but graphical abstract credits Canva permission whose downstream scope was not verified; source-linked precautionary hold. Water-energy licence listed CC BY4.0 by CGSpace/IFPRI, but no original attached at repository and publisher access blocked; no unseen PDF/credit clearance claimed. No Cloudflare mutation, format-map or inventory change. Original22-page review retained as private research cache only. Existing588+3 records preserved. Cambridge Pluriversal Pasts still pending; no repeated outreach or permission implied.
+
+Live catalog, central CATALOG and active Calibre read-only DOI/title checks found no duplicate. Book content search consulted for context only, no quotations or page claims imported. Previously cataloged digital-heritage paper skipped as duplicate. Wadi Aribo university paper left as later candidate after direct source403; no metadata-only third addition invented. [Evidence and bilingual summaries](docs/library-followup-2026-11-22.md), [checks](docs/library-followup-2026-11-22-checks.json). Production receipt to follow after deployment.
+
+**العربية:** أضيف مصدران بملخصين عربي وإنجليزي، مع تمييز المراجعة والمحاكاة عن النتائج الميدانية. لم تُضف ملفات عامة: حقوق مادة كانفا لم تتضح، وأصل البحث الآخر غير متاح للتحقق. يبقى طلب كامبريدج معلقاً دون تغيير المقالات.

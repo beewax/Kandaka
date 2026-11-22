@@ -1,0 +1,24 @@
+{
+  "baseline": "b3ee79653be3af7ec9359a0745bde88ab24a4ff1",
+  "old_count": 591,
+  "new_count": 593,
+  "new_records": 2,
+  "new_public_pdfs": 0,
+  "existing_records_unchanged": true,
+  "duplicate_matches": 0,
+  "article_files_changed": false,
+  "render": {
+    "en": {
+      "cards": 593,
+      "complete_new_summaries": 2,
+      "original_source_links": true,
+      "rtl": false
+    },
+    "ar": {
+      "cards": 593,
+      "complete_new_summaries": 2,
+      "original_source_links": true,
+      "rtl": true
+    }
+  }
+}
