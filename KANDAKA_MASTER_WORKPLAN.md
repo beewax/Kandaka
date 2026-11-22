@@ -2744,3 +2744,10 @@ GitHub release `4fb604393dd377bc14def7d1b4386fe521d1bc65` was published by Netli
 Added original research on Atbai burial archaeology, Port Sudan soil salinity and infrastructure, and land cover in Gedaref. Both production pages had 582 records before this batch. The new catalogue contains 585 records. See the [acquisition log](docs/library-acquisition-2026-11-22-research-batch.md) for citations, deduplication and review scope. Production verification follows the GitHub push.
 
 **العربية:** أضيفت ثلاثة سجلات ثنائية اللغة عن مدافن العتباي وملوحة التربة في بورتسودان وتغيّر الغطاء الأرضي في القضارف، فأصبح الفهرس ٥٨٥ سجلاً، وجميع الإضافات روابط للمقالات الأصلية.
+
+
+### Production verification
+
+GitHub release `db97583e99a6b50260d96fc24d77c9e99d86ec80` was published by Netlify production deploy `6b0342ada6efc0655f639436` on 22 November 2026 at 13:30:57 CST (`2026-11-22T19:30:57.419Z`). Direct checks of the English and Arabic production pages returned HTTP 200. Each displays 585 documents and contains 585 Library cards. Each new original article link appears once with its complete localized title and description. Arabic is rendered right to left. [Verification receipt](docs/library-acquisition-2026-11-22-research-batch-live.json).
+
+**العربية:** تحقق النشر على الموقع، وظهر العدد ٥٨٥ في كل من صفحتي المكتبة. وتحققت العناوين والأوصاف المترجمة وروابط المقالات الأصلية واتجاه النص العربي.
