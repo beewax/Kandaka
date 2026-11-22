@@ -1,3 +1,11 @@
+## 22 November 2026 — Three direct-link bilingual Library additions (Tuti, Sennar, Sudan Memory)
+
+Owner reiterated continuation of the bilingual Library with article links instead of waiting for PDFs. Checked current 585-record catalogue for matching DOI/title/source; added 3 nonduplicate items to reach **588** in GitHub: Tuti Island community flood-risk study (published 2024), Sennar manuscript repository **proposal** (2026; not implemented project), and King's College London Sudan Memory preservation report overview (2026; 14 interview accounts and project-reported scale). Each has English/Arabic original summary, bibliographic metadata, publisher URL, explicit limited review coverage and rights note; no PDF downloaded, rehosted or copied.
+
+Research implications for future, separately approved editorial work: community-led nafeer must be paired with municipal drainage/early-warning accountability, Sennar archive should start with low-cost local stewardship and metadata rather than a prestige platform, and Sudan Memory's recommended decentralized training, consent and redundancy warrant comparative assessment. **No existing article approval, scheduling or publication status changed.** Source/review details in LIBRARY_SOURCES.md. Netlify deployment must be verified separately.
+
+**العربية:** أُضيفت ثلاث دراسات غير مكررة بروابط المقالات الأصلية وملخصات عربية وإنجليزية عن نفير توتي، ومقترح أرشيف سنار، ودروس «ذاكرة السودان». العدد في المستودع 588 سجلاً؛ لا تنزيل ملفات ولا نشر مقالات، والتحقق من الموقع الحي مستقل.
+
 # KANDAKA WORKPLAN
 
 ## 22 November 2026 — Five-feature deeper research and first bilingual review
