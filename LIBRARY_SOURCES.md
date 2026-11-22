@@ -327,3 +327,14 @@ Existing PCMA isotope portal record upgraded with verified Terms of Use: academi
 ## 10 November 2026 — archaeology continuation deployed and verified
 
 Commit `484eb9f91d7615ad1b5d40617296f8008eb39864` deployed as Netlify `6af3402c14fabc3b10a361e8` at 16:04:16.530 UTC / 10:04:16 CST. All four updated English/Arabic article pages and both Library editions returned HTTP 200 with the expected evidence; both libraries contain 577 cards and both new source links. Original 32-page food-storage PDF archived in Kandaka and public bytes/hash verified; Hamadab linked only because rights unclear. Isotope commercial-use restriction recorded; no data export. Local Hugo build, 4,050-file cover audit, original-prefix preservation and exact 15-file remote-byte checks passed. No new article published; household-history candidate remains research-only. Full receipt: `docs/archaeology-publication-2026-11-10.json`. Remaining blockers are live Calibre/central catalogue access, Khor Rafit access/rights and additional independent household/construction evaluations.
+
+
+## 21 November 2026 — Library-only verified source additions
+
+Owner authorized pending-source review and new bilingual Library acquisitions; no article work. Added UNDP Digital Financial Literacy in Sudan (page5November2026, launch12November) and World Bank Macro Poverty Outlook for Sudan: Annual Meetings2026 (document1October, disclosed16October). Two source-linked records, **577→579**, with exact official links, EN/AR summaries and explicit review/sample/forecast limits. Existing original batch, Rewind Forward, solar study and SAMRA are duplicates and were retained, not re-added.
+
+Active Calibre database checked read-only, central catalog and both live Library editions screened. No matching candidate titles. UNDP original31-page PDF selected passages reviewed; WB country brief both pages reviewed. Neither mirrored: document-specific redistribution rights unverified; binary GET403 / certificate failure recorded without bypass. No R2 or inventory change. MSNA2026 held after official access403; no guessed PDF URL. Prior PDF-archiving queue and Khor Rafit access/rights remain open. November10 successful archives supersede earlier zero-upload notes.
+
+Full provenance/rights/pending decisions: [acquisition log](docs/library-acquisition-2026-11-21.md); scoped bilingual checks: [verification](docs/library-acquisition-2026-11-21-checks.json). Actual deployment/live verification recorded separately after observation. No editorial article, cover, approval, release schedule or automation change.
+
+**العربية:** أضيف تقرير الثقافة المالية الرقمية وموجز آفاق الاقتصاد والفقر بملخصات عربية وإنجليزية، من٥٧٧ إلى٥٧٩ سجلاً. رُوعيت حدود العينة والتوقعات وتواريخ النشر والإفصاح، ولم تُكرر المواد الموجودة أو تُخزن ملفات دون حقوق مؤكدة. بقي تقييم الاحتياجات معلقاً لتعذر الوصول المباشر. لا تغيير في المقالات أو اعتمادها أو مواعيدها.

@@ -1,0 +1,34 @@
+{
+  "before": 577,
+  "after": 579,
+  "baseline": "771aff6b78083afc898f6e81d43ebad16df5b690",
+  "calibre_read_only_matches": [],
+  "new_records": [
+    {
+      "title": "Digital Financial Literacy in Sudan",
+      "source": "https://www.undp.org/sudan/publications/digital-financial-literacy-sudan",
+      "pdf_stored": false
+    },
+    {
+      "title": "Macro Poverty Outlook for Sudan: Annual Meetings 2026",
+      "source": "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099647210162618742",
+      "pdf_stored": false
+    }
+  ],
+  "rendered": {
+    "en": {
+      "cards": 579,
+      "new_records_once": true,
+      "complete_localized_summaries": true,
+      "source_links": true,
+      "rtl": false
+    },
+    "ar": {
+      "cards": 579,
+      "new_records_once": true,
+      "complete_localized_summaries": true,
+      "source_links": true,
+      "rtl": true
+    }
+  }
+}

@@ -2596,3 +2596,14 @@ Continued authorized drafting, not publication. Updated local D:/Kandaka-builds/
 Three prior inspected photographs retained; no new image or cover approved. HTML checks confirm complete EN/AR sections, RTL Arabic, three embedded images and numbered references1–13 in both. This is a developing review draft, not final release-ready extensive history. Remaining: stronger medieval hairstyle evidence, regional breadth, further practitioner testimony and dated twentieth-century men's photographs. No article flags, release schedules, deployment or live website content changed. Review assets local only; this master status committed separately.
 
 أضيفت إلى النسختين شهادة صحفية لصاحبة صالون وذكرى شخصية عن تقليد تسريحة إبراهيم عوض، مع بحث أكاديمي عن مهن التجميل ودراسة شعر كلوبنارتي التي تتعلق بالغذاء لا التسريحات. بقيت الصور الثلاث السابقة ولم يُعتمد غلاف. المسودة قيد التطوير والمراجعة، غير منشورة؛ ما زال توسيع التغطية الإقليمية وشواهد التسريحات المؤرخة مطلوباً.
+
+
+## 21 November 2026 — Library-only verified source additions
+
+Owner authorized pending-source review and new bilingual Library acquisitions; no article work. Added UNDP Digital Financial Literacy in Sudan (page5November2026, launch12November) and World Bank Macro Poverty Outlook for Sudan: Annual Meetings2026 (document1October, disclosed16October). Two source-linked records, **577→579**, with exact official links, EN/AR summaries and explicit review/sample/forecast limits. Existing original batch, Rewind Forward, solar study and SAMRA are duplicates and were retained, not re-added.
+
+Active Calibre database checked read-only, central catalog and both live Library editions screened. No matching candidate titles. UNDP original31-page PDF selected passages reviewed; WB country brief both pages reviewed. Neither mirrored: document-specific redistribution rights unverified; binary GET403 / certificate failure recorded without bypass. No R2 or inventory change. MSNA2026 held after official access403; no guessed PDF URL. Prior PDF-archiving queue and Khor Rafit access/rights remain open. November10 successful archives supersede earlier zero-upload notes.
+
+Full provenance/rights/pending decisions: [acquisition log](docs/library-acquisition-2026-11-21.md); scoped bilingual checks: [verification](docs/library-acquisition-2026-11-21-checks.json). Actual deployment/live verification recorded separately after observation. No editorial article, cover, approval, release schedule or automation change.
+
+**العربية:** أضيف تقرير الثقافة المالية الرقمية وموجز آفاق الاقتصاد والفقر بملخصات عربية وإنجليزية، من٥٧٧ إلى٥٧٩ سجلاً. رُوعيت حدود العينة والتوقعات وتواريخ النشر والإفصاح، ولم تُكرر المواد الموجودة أو تُخزن ملفات دون حقوق مؤكدة. بقي تقييم الاحتياجات معلقاً لتعذر الوصول المباشر. لا تغيير في المقالات أو اعتمادها أو مواعيدها.
