@@ -367,3 +367,16 @@ Release f0bf4388a35eecb9031679a87b1bd625329b040d; matching ready Netlify product
 Suakin and Pluriversal Pasts retain third-party-rights holds; flood original retrieval remains blocked. Two21November reports remain source-linked pending rights confirmation. Other catalog entries, articles, approved content, covers and automation preserved. Publication receipt: docs/pdf-archive-publication-2026-11-22.json. This supersedes deployment-pending wording for these five upgrades only.
 
 **العربية:** تحقق النشر الحي لخمسة روابط تنزيل جديدة بالعربية والإنجليزية. يبقى الفهرس٥٧٩ سجلاً؛ أُضيفت الملفات إلى سجلات قائمة دون تكرار. ظلت المواد المعلقة روابط للمصادر الأصلية دون ادعاء أرشفتها، ولم تتغير المقالات.
+
+
+## 22 November 2026 — Remaining PDF continuation: two further originals archived
+
+Owner authorized rechecking Suakin, Pluriversal Pasts and flood paper. **Two additional PDFs saved and publicly verified: Suakin31pages and Nile flood susceptibility13pages.**44pages /14,755,662bytes; original eight-paper batch now seven archived, one held. Catalog remains579 records. Frontiers' explicit complete-article redistribution policy (including supplied third-party graphics) resolves Suakin's precautionary hold; policy read in normal browser. Flood publisher PDF retrieved successfully through browser session, replacing previous failed HTML responses. Original final-page licence explicitly includes third-party material unless excluded; eight captions screened, Getty attribution retained, no exclusion notice found. No standalone photo licence invented.
+
+Pluriversal Pasts remains held: article CC BY4.0, but item-specific scope of adapted/credited illustrations not resolved after Cambridge policy checks. No permission correspondence sent. Neither a licence grant nor infringement inferred from missing evidence. Existing DOI and bilingual summaries preserved. Two21November reports remain source-linked pending their terms; no change to their records.
+
+Safe explicit-manifest dry run passed; authenticated Wrangler OAuth used, not legacy keys. Two unchanged originals publicly downloaded with HTTP200/application-pdf and exact page/byte/SHA256 matches before catalog updates. Source links retained, format/status maps and inventory rows updated. Two background research tabs closed; all prior Chrome tabs preserved. No article, cover, approval, cadence or automation change; concurrent other-chat work preserved.
+
+[Rights and retrieval continuation](docs/pdf-continuation-rights-2026-11-22.md) · [exact file manifest](docs/pdf-continuation-manifest-2026-11-22.json) · [checks](docs/pdf-continuation-checks-2026-11-22.json). Deployment/live Library verification recorded separately when observed. This supersedes earlier Suakin/flood storage holds only.
+
+**العربية:** أُرشف أصل سواكن وأصل بحث الفيضانات بعد حسم سياسة إعادة النشر واسترجاع الملف الصحيح والتحقق من البصمات. أصبحت الدفعة سبعة ملفات من ثمانية، ويبقى الفهرس٥٧٩. بقيت ماضيات متعددة معلقة لحقوق الرسوم المعاد استخدامها، دون اختلاق أذونات أو تغيير المقالات.

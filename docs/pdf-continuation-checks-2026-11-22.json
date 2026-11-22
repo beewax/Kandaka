@@ -1,0 +1,40 @@
+{
+  "baseline": "fdb813e8af88dff39078dac85d175402a7791d1e",
+  "new_pdfs": 2,
+  "new_records": 0,
+  "catalog_records": 579,
+  "cumulative_batch_archived": 7,
+  "batch_candidates": 8,
+  "total_new_pdf_pages": 44,
+  "total_new_pdf_bytes": 14755662,
+  "objects": [
+    {
+      "doi": "10.3389/fbuil.2026.1868485",
+      "pages": 31,
+      "bytes": 10686088,
+      "sha256_match": true
+    },
+    {
+      "doi": "10.1038/s41598-026-58194-7",
+      "pages": 13,
+      "bytes": 4069574,
+      "sha256_match": true
+    }
+  ],
+  "rendered": {
+    "en": {
+      "cards": 579,
+      "two_downloads_once": true,
+      "localized_labels": true,
+      "rtl": false
+    },
+    "ar": {
+      "cards": 579,
+      "two_downloads_once": true,
+      "localized_labels": true,
+      "rtl": true
+    }
+  },
+  "held": "Pluriversal Pasts: item-specific third-party illustration scope",
+  "article_files_changed": false
+}
