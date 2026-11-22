@@ -1,0 +1,26 @@
+{
+  "verified_utc": "2026-11-22T16:46:09.763533+00:00",
+  "live_checks": {
+    "en": {
+      "url": "https://kandaka.com/library/",
+      "http_status": 200,
+      "displayed_count": 582,
+      "cards": 582,
+      "localized_titles_and_descriptions": true,
+      "each_original_article_link_once": true,
+      "rtl": false
+    },
+    "ar": {
+      "url": "https://kandaka.com/ar/library/",
+      "http_status": 200,
+      "displayed_count": 582,
+      "cards": 582,
+      "localized_titles_and_descriptions": true,
+      "each_original_article_link_once": true,
+      "rtl": true
+    }
+  },
+  "commit": "4fb604393dd377bc14def7d1b4386fe521d1bc65",
+  "netlify_deploy": "6b031c0035e1c48cfef12810",
+  "published_utc": "2026-11-22T16:45:58.359Z"
+}

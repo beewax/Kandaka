@@ -2722,3 +2722,10 @@ Owner explicitly instructed contacting Cambridge about the remaining illustratio
 Added experimental archaeology of Neolithic rhyolite tools, a Sudanese manuscript digitization case study, and a Port Sudan rainwater harvesting siting study. The current production baseline was 579 records in each language, superseding the 567 recorded in the referenced chat. The new catalogue contains 582 records. See the [acquisition log](docs/library-acquisition-2026-11-22-source-links.md) for citations, deduplication and review scope. Production verification follows the GitHub push.
 
 **العربية:** أضيفت ثلاثة سجلات ثنائية اللغة عن أدوات العصر الحجري الحديث ورقمنة المخطوطات السودانية وحصاد مياه الأمطار في بورتسودان، فأصبح الفهرس ٥٨٢ سجلاً، وجميع الإضافات روابط للمقالات الأصلية.
+
+
+### Production verification
+
+GitHub release `4fb604393dd377bc14def7d1b4386fe521d1bc65` was published by Netlify production deploy `6b031c0035e1c48cfef12810` on 22 November 2026 at 10:45:58 CST (`2026-11-22T16:45:58.359Z`). Direct checks of the English and Arabic production pages returned HTTP 200. Each displays 582 documents and contains 582 Library cards. Each new original article link appears once with its complete localized title and description. Arabic is rendered right to left. [Verification receipt](docs/library-acquisition-2026-11-22-source-links-live.json).
+
+**العربية:** تحقق النشر على الموقع، وظهر العدد ٥٨٢ في كل من صفحتي المكتبة. وتحققت العناوين والأوصاف المترجمة وروابط المقالات الأصلية واتجاه النص العربي.
