@@ -1,3 +1,13 @@
+## 22 November 2026 — Tuti, Sennar and Sudan Memory original links / إضافات توتي وسنار وذاكرة السودان
+
+Three deduplicated bilingual research records added as original-article links; **no PDFs downloaded, copied or published**, and no article manuscript approved. Catalogue: 585 → 588. Review levels and rights recorded per entry.
+
+- [Tuti flood resilience and nafeer](https://onlinelibrary.wiley.com/doi/10.1111/jfr3.12966) — Tambal et al. 2024, DOI 10.1111/jfr3.12966; publisher full HTML sections inspected; case study, not causal proof.
+- [Proposed digital repository for Sennar Islamic heritage](https://journals.ajsrp.com/index.php/jhss/en/article/view/9898) — Isawi and Abdel-Magid 2026, DOI 10.26389/AJSRP.W111225; publisher metadata/abstract only, CC BY-NC-ND 4.0; no live repository verified.
+- [Sudan Memory preservation report overview](https://www.kcl.ac.uk/news/new-report-offers-lessons-for-preserving-cultural-heritage-in-crisis-zones) — Gibson, El-Nager and Ishmael 2026, King's College London news summary of report based on 14 interviews; [original publisher report](https://www.kcl.ac.uk/artshums/assets/research-impact/sudan-digitisation-report-iaa-2026.pdf) linked separately, PDF contents not reviewed.
+
+**Status:** Repository catalogue update; English/Arabic live visibility requires Netlify production deploy verification. No new editorial publication.
+
 ## 6 November 2026 — library access decision / قرار إتاحة المصادر
 
 ## 7 November 2026 — C26-01 focused article source review
