@@ -1,0 +1,34 @@
+{
+  "commit": "5fdecae377cd9a0bde0716f4aed98d2c4476a8bf",
+  "parent": "771aff6b78083afc898f6e81d43ebad16df5b690",
+  "catalog_count": 579,
+  "files": [
+    "data/library.json",
+    "LIBRARY_SOURCES.md",
+    "KANDAKA_MASTER_WORKPLAN.md",
+    "docs/library-acquisition-2026-11-21.md",
+    "docs/library-acquisition-2026-11-21-checks.json"
+  ],
+  "status": "PUBLISHED AND VERIFIED LIVE",
+  "no_article_files_changed": true,
+  "deploy_id": "6b027fa9683df2378dda2837",
+  "verified_utc": "2026-11-22T05:39:05.553462+00:00",
+  "live_checks": {
+    "en": {
+      "http_status": 200,
+      "cards": 579,
+      "complete_new_summaries": true,
+      "new_sources_once": true,
+      "rtl": false
+    },
+    "ar": {
+      "http_status": 200,
+      "cards": 579,
+      "complete_new_summaries": true,
+      "new_sources_once": true,
+      "rtl": true
+    }
+  },
+  "published_utc": "2026-11-22T05:38:48.427Z",
+  "published_america_chicago": "2026-11-21T23:38:48.427-06:00"
+}

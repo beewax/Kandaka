@@ -2607,3 +2607,10 @@ Active Calibre database checked read-only, central catalog and both live Library
 Full provenance/rights/pending decisions: [acquisition log](docs/library-acquisition-2026-11-21.md); scoped bilingual checks: [verification](docs/library-acquisition-2026-11-21-checks.json). Actual deployment/live verification recorded separately after observation. No editorial article, cover, approval, release schedule or automation change.
 
 **العربية:** أضيف تقرير الثقافة المالية الرقمية وموجز آفاق الاقتصاد والفقر بملخصات عربية وإنجليزية، من٥٧٧ إلى٥٧٩ سجلاً. رُوعيت حدود العينة والتوقعات وتواريخ النشر والإفصاح، ولم تُكرر المواد الموجودة أو تُخزن ملفات دون حقوق مؤكدة. بقي تقييم الاحتياجات معلقاً لتعذر الوصول المباشر. لا تغيير في المقالات أو اعتمادها أو مواعيدها.
+
+
+## 21 November 2026 — Two Library additions verified live
+
+Release `5fdecae377cd9a0bde0716f4aed98d2c4476a8bf`; matching Netlify production `6b027fa9683df2378dda2837` ready, no error. Actual publication **21 November 2026 23:38:48.427 America/Chicago (CST) / 22 November05:38:48.427UTC**. Independent live checks at05:39:05UTC confirmed HTTP200, **579 cards** in each Library, each new source once, both complete localized summaries and Arabic RTL. UNDP financial literacy and World Bank October2026 Sudan outlook are official-source links; **zero PDFs archived**. Existing577 records preserved. No article content/cover/approval/schedule/automation change. Receipt: [machine-readable evidence](docs/library-acquisition-2026-11-21-publication.json). The earlier preparation-only status is superseded for these two additions; pending rights/access/archive tasks remain open.
+
+**العربية:** تحقق النشر الحي للإضافتين وعدد٥٧٩ سجلاً باللغتين وتطابق الملخصات والروابط واتجاه العربية. أُضيفت روابط المصدرين الرسميين دون أرشفة ملفات، ولم تُغيّر المقالات أو مواعيدها.
