@@ -2762,3 +2762,12 @@ Two unchanged CC BY 4.0 PDFs archived: concrete 27 pages /3,064,452 bytes; gum-b
 Evidence: [acquisition](docs/library-next-2026-11-22.md), [PDF manifest](docs/library-next-2026-11-22-manifest.json), [checks](docs/library-next-2026-11-22-checks.json). Production verification to be recorded after deployment.
 
 **العربية:** أُضيفت ثلاثة مصادر بملخصات عربية وإنجليزية، وأُرشف أصلان مرخّصان عن الخرسانة وحزام الصمغ العربي، مع تمييز النسخة المقبولة المبكرة. بقي بحث كتل التربة رابطاً إلى الناشر لحين اتضاح حقوق المواد المعاد استخدامها، وبقي طلب كامبريدج معلقاً.
+
+
+## 22 November 2026 — Three Library additions VERIFIED LIVE
+
+Release 4f1a0942149fcf0dc04510a8659fd48f72135c39; matching ready Netlify 6b034423a6efc0655f63bf86; published 2026-11-22T13:37:08.560000-06:00 America/Chicago (CST). Independent production checks: HTTP200 and591 cards in each language; all three complete localized summaries; two new CC BY4.0 download links each once; earth-block publisher link; Arabic RTL and localized download labels. Two unchanged public originals:43pages /8,691,415bytes, exact SHA256/page/byte matches. Three new records added to latest588-record catalog, preserving concurrent updates. Original582 baseline was superseded by other Library work before this release.
+
+Earth-block source only pending reused-guide graphics/table rights; Pluriversal Pasts remains pending Cambridge reply. No additional outreach, no implied permission. No user download needed. No article/editorial/automation changes. Exact receipt: docs/library-next-2026-11-22-publication.json.
+
+**العربية:** تحقق النشر الحي لثلاثة ملخصات باللغتين ورابطي تنزيل مرخّصين. الفهرس٥٩١ سجلاً بعد حفظ الإضافات المتزامنة. بقي بحث كتل التربة رابطاً فقط، وبقي طلب كامبريدج معلقاً.

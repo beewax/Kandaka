@@ -1,0 +1,39 @@
+{
+  "release_commit": "4f1a0942149fcf0dc04510a8659fd48f72135c39",
+  "deploy_id": "6b034423a6efc0655f63bf86",
+  "deploy_state": "ready",
+  "published_utc": "2026-11-22T19:37:08.560Z",
+  "verified_utc": "2026-11-22T19:37:37.135309+00:00",
+  "new_records": 3,
+  "new_pdfs": 2,
+  "catalog_records": 591,
+  "pdf_pages": 43,
+  "pdf_bytes": 8691415,
+  "live": {
+    "en": {
+      "http_status": 200,
+      "cards": 591,
+      "complete_new_summaries": 3,
+      "new_downloads_once": 2,
+      "earth_block_source_link": true,
+      "localized_pdf_labels": true,
+      "rtl": false
+    },
+    "ar": {
+      "http_status": 200,
+      "cards": 591,
+      "complete_new_summaries": 3,
+      "new_downloads_once": 2,
+      "earth_block_source_link": true,
+      "localized_pdf_labels": true,
+      "rtl": true
+    }
+  },
+  "unchanged_existing_records": 588,
+  "held": [
+    "Earth-block reused guide diagrams/table: scope unresolved",
+    "Pluriversal Pasts: Cambridge response pending"
+  ],
+  "article_files_changed": false,
+  "published_america_chicago": "2026-11-22T13:37:08.560000-06:00"
+}
