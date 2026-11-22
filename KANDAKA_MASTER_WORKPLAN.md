@@ -1,5 +1,12 @@
 # KANDAKA WORKPLAN
 
+## 22 November 2026 — Hair feature individually APPROVED; release preparation
+
+Owner approved the expanded full English/Arabic article and seven displayed photographs, requesting final checks and publication now. This supersedes earlier review-only status for this package. First historical woman portrait is cover; six other approved photographs inline, original bytes and localized credits. No other article approvals or schedules changed. See docs/hair-feature-release-2026-11-22.md. Publication remains unverified until matching deployment and independent live checks.
+
+اعتمد صاحب الموقع المقال الموسع باللغتين والصور السبع وطلب نشره بعد الفحص النهائي. لا تشمل الموافقة أي مقالات أخرى. لا يُسجل منشوراً قبل التحقق من النسختين الحيتين والصور.
+
+
 ## 21 November 2026 — Hair history expanded bilingual review v3; NOT APPROVED
 
 Owner requested stronger regional coverage and men's hairstyles, additional historical/modern photographs and the full English/Arabic article in chat before publication. Expanded local review: D:/Kandaka-builds/hair-review-20261121/REVIEW.html, article.en.txt (2,605 words), article.ar.txt (2,071 words), sources.json, new-photo-records.json and REVIEW-NOTES.txt. Matching 58 paragraphs and all 18 source references in both editions. Earlier versions preserved.
