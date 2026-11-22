@@ -2646,3 +2646,12 @@ Repository safe explicit-manifest dry run passed. Actual uploads used installed 
 [Rights and acquisition log](docs/pdf-archive-rights-2026-11-22.md) · [exact manifest](docs/pdf-archive-manifest-2026-11-22.json) · [checks](docs/pdf-archive-checks-2026-11-22.json). Normal production deployment and live Library buttons are verified separately after commit. No article, cover, editorial approval, cadence or automation changed.
 
 **العربية:** أُضيفت خمسة ملفات PDF قابلة للتنزيل إلى سجلات موجودة؛ يبقى العدد٥٧٩. تحققت الحقوق والملفات والبصمات والصفحات وروابط التنزيل العامة. بقيت سواكن وماضيات متعددة معلقتين لحقوق المواد المعاد استخدامها، وبحث الفيضانات لتعذر الحصول على ملف صالح. لم تتغير المقالات أو مواعيدها.
+
+
+## 22 November 2026 — Five PDF download upgrades VERIFIED LIVE
+
+Release f0bf4388a35eecb9031679a87b1bd625329b040d; matching ready Netlify production6b02a0406e4491faf09cdd8f, no error. Actual publication **22November2026 01:57:47.607 America/Chicago (CST) /07:57:47.607UTC**. Independent EN/AR checks at07:58:26UTC confirmed HTTP200,579 Library cards each, all five corresponding PDF links once and localized CC BY4.0 download labels; Arabic RTL preserved. Public PDF responses already checked byte-for-byte and parsed with matching page counts. **Five new PDF files /84pages /30,142,442bytes; zero new bibliographic records.**
+
+Suakin and Pluriversal Pasts retain third-party-rights holds; flood original retrieval remains blocked. Two21November reports remain source-linked pending rights confirmation. Other catalog entries, articles, approved content, covers and automation preserved. Publication receipt: docs/pdf-archive-publication-2026-11-22.json. This supersedes deployment-pending wording for these five upgrades only.
+
+**العربية:** تحقق النشر الحي لخمسة روابط تنزيل جديدة بالعربية والإنجليزية. يبقى الفهرس٥٧٩ سجلاً؛ أُضيفت الملفات إلى سجلات قائمة دون تكرار. ظلت المواد المعلقة روابط للمصادر الأصلية دون ادعاء أرشفتها، ولم تتغير المقالات.

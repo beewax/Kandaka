@@ -1,0 +1,41 @@
+{
+  "commit": "f0bf4388a35eecb9031679a87b1bd625329b040d",
+  "parent": "cabb80b6cf6885bb655917718afabad746e8dcc6",
+  "new_pdfs": 5,
+  "new_records": 0,
+  "catalog_records": 579,
+  "status": "PUBLISHED AND VERIFIED LIVE",
+  "files": [
+    "KANDAKA_MASTER_WORKPLAN.md",
+    "library_inventory.csv",
+    "LIBRARY_SOURCES.md",
+    "data/library.json",
+    "data/library_file_formats.json",
+    "data/library_file_statuses.json",
+    "docs/pdf-archive-checks-2026-11-22.json",
+    "docs/pdf-archive-manifest-2026-11-22.json",
+    "docs/pdf-archive-rights-2026-11-22.md"
+  ],
+  "deploy_id": "6b02a0406e4491faf09cdd8f",
+  "verified_utc": "2026-11-22T07:58:26.791255+00:00",
+  "live_checks": {
+    "en": {
+      "http_status": 200,
+      "catalog_cards": 579,
+      "five_verified_pdf_links": true,
+      "localized_download_labels": true,
+      "rtl": false
+    },
+    "ar": {
+      "http_status": 200,
+      "catalog_cards": 579,
+      "five_verified_pdf_links": true,
+      "localized_download_labels": true,
+      "rtl": true
+    }
+  },
+  "published_utc": "2026-11-22T07:57:47.607Z",
+  "published_america_chicago": "2026-11-22T01:57:47.607-06:00",
+  "total_new_pdf_pages": 84,
+  "total_new_pdf_bytes": 30142442
+}
