@@ -1,0 +1,34 @@
+{
+  "release_commit": "16edeb7bc936a0c6b4acdedf809200585d60875d",
+  "deploy_id": "6b036b29b531788a80757b3c",
+  "deploy_state": "ready",
+  "published_utc": "2026-11-22T22:23:40.139Z",
+  "published_america_chicago": "2026-11-22T16:23:40.139000-06:00",
+  "verified_utc": "2026-11-22T22:23:57.230528+00:00",
+  "new_records": 2,
+  "new_public_pdfs": 0,
+  "catalog_records": 593,
+  "live": {
+    "en": {
+      "http_status": 200,
+      "cards": 593,
+      "complete_localized_summaries": 2,
+      "original_links": true,
+      "rtl": false
+    },
+    "ar": {
+      "http_status": 200,
+      "cards": 593,
+      "complete_localized_summaries": 2,
+      "original_links": true,
+      "rtl": true
+    }
+  },
+  "prior_records_preserved": 591,
+  "holds": [
+    "Agrivoltaic Canva graphical-abstract scope",
+    "Hydropower original PDF unavailable for verification",
+    "Cambridge Pluriversal Pasts pending"
+  ],
+  "article_files_changed": false
+}

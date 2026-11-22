@@ -2782,3 +2782,10 @@ Owner authorized continued Library intake, English/Arabic summaries and lawful P
 Live catalog, central CATALOG and active Calibre read-only DOI/title checks found no duplicate. Book content search consulted for context only, no quotations or page claims imported. Previously cataloged digital-heritage paper skipped as duplicate. Wadi Aribo university paper left as later candidate after direct source403; no metadata-only third addition invented. [Evidence and bilingual summaries](docs/library-followup-2026-11-22.md), [checks](docs/library-followup-2026-11-22-checks.json). Production receipt to follow after deployment.
 
 **العربية:** أضيف مصدران بملخصين عربي وإنجليزي، مع تمييز المراجعة والمحاكاة عن النتائج الميدانية. لم تُضف ملفات عامة: حقوق مادة كانفا لم تتضح، وأصل البحث الآخر غير متاح للتحقق. يبقى طلب كامبريدج معلقاً دون تغيير المقالات.
+
+
+## 22 November 2026 — Agrivoltaic and water-energy Library records VERIFIED LIVE
+
+Release 16edeb7bc936a0c6b4acdedf809200585d60875d; matching ready Netlify 6b036b29b531788a80757b3c, published 2026-11-22T16:23:40.139000-06:00 America/Chicago (CST). Independently fetched production pages returned HTTP200 and593 cards each, with both complete localized descriptions and exact original source links; Arabic RTL confirmed. Two new bibliographic records, zero new public PDFs; all591 earlier records preserved. Agrivoltaic Canva scope and water-energy original-PDF retrieval remain open; Cambridge pending, no inferred permissions or new correspondence. No article/editorial/automation changes. Receipt: docs/library-followup-2026-11-22-publication.json.
+
+**العربية:** تحقق النشر الحي للمصدرين وملخصيهما وروابطهما بالعربية والإنجليزية؛ الفهرس٥٩٣ سجلاً. لم تُضف ملفات عامة لعدم اكتمال حقوق المادة المعاد استخدامها أو التحقق من الأصل.
