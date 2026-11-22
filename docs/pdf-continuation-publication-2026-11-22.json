@@ -1,0 +1,44 @@
+{
+  "commit": "45205def526f7d15b727b9daa8eebe8c61bd9577",
+  "parent": "fdb813e8af88dff39078dac85d175402a7791d1e",
+  "new_pdfs": 2,
+  "new_records": 0,
+  "catalog_records": 579,
+  "cumulative_batch_archived": 7,
+  "status": "PUBLISHED AND VERIFIED LIVE",
+  "files": [
+    "KANDAKA_MASTER_WORKPLAN.md",
+    "library_inventory.csv",
+    "LIBRARY_SOURCES.md",
+    "data/library.json",
+    "data/library_file_formats.json",
+    "data/library_file_statuses.json",
+    "docs/pdf-continuation-checks-2026-11-22.json",
+    "docs/pdf-continuation-manifest-2026-11-22.json",
+    "docs/pdf-continuation-rights-2026-11-22.md"
+  ],
+  "deploy_id": "6b02a98cb24fe5974da70c2c",
+  "verified_utc": "2026-11-22T08:37:46.060797+00:00",
+  "live_checks": {
+    "en": {
+      "http_status": 200,
+      "catalog_cards": 579,
+      "new_downloads_once": 2,
+      "all_seven_batch_downloads_once": true,
+      "complete_new_summaries": true,
+      "rtl": false
+    },
+    "ar": {
+      "http_status": 200,
+      "catalog_cards": 579,
+      "new_downloads_once": 2,
+      "all_seven_batch_downloads_once": true,
+      "complete_new_summaries": true,
+      "rtl": true
+    }
+  },
+  "published_utc": "2026-11-22T08:37:31.857Z",
+  "published_america_chicago": "2026-11-22T02:37:31.857-06:00",
+  "total_new_pdf_pages": 44,
+  "total_new_pdf_bytes": 14755662
+}

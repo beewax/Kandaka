@@ -2697,3 +2697,12 @@ Safe explicit-manifest dry run passed; authenticated Wrangler OAuth used, not le
 [Rights and retrieval continuation](docs/pdf-continuation-rights-2026-11-22.md) · [exact file manifest](docs/pdf-continuation-manifest-2026-11-22.json) · [checks](docs/pdf-continuation-checks-2026-11-22.json). Deployment/live Library verification recorded separately when observed. This supersedes earlier Suakin/flood storage holds only.
 
 **العربية:** أُرشف أصل سواكن وأصل بحث الفيضانات بعد حسم سياسة إعادة النشر واسترجاع الملف الصحيح والتحقق من البصمات. أصبحت الدفعة سبعة ملفات من ثمانية، ويبقى الفهرس٥٧٩. بقيت ماضيات متعددة معلقة لحقوق الرسوم المعاد استخدامها، دون اختلاق أذونات أو تغيير المقالات.
+
+
+## 22 November 2026 — Suakin and flood PDF downloads VERIFIED LIVE
+
+Release45205def526f7d15b727b9daa8eebe8c61bd9577; matching ready Netlify6b02a98cb24fe5974da70c2c, no error. Actual publication **22November2026 02:37:31.857 America/Chicago (CST) /08:37:31.857UTC**. Independent live verification08:37:46UTC: HTTP200,579 cards in each Library, two new download links once, complete EN/AR summaries and localized CC BY4.0 labels, Arabic RTL; all five earlier batch downloads retained. Unchanged original PDFs publicly retrieved and SHA256/page/byte matched. **Two additional files /44pages /14,755,662bytes; cumulative seven of eight batch PDFs archived, zero new records.**
+
+Pluriversal Pasts remains source-linked pending item-specific rights scope for reused illustrations. No permission invented or outreach sent. No user download needed. Earlier Suakin/flood holds superseded by recorded publisher-policy and browser-retrieval evidence. Articles, cover approvals, release cadence and automation preserved. Full receipt: docs/pdf-continuation-publication-2026-11-22.json.
+
+**العربية:** تحقق النشر الحي لملفي سواكن والفيضانات وملخصيهما وروابط التنزيل باللغتين، مع بقاء الملفات الخمسة السابقة. أُرشف سبعة من ثمانية ملفات، والفهرس٥٧٩ سجلاً. بقيت ماضيات متعددة معلقة لحقوق الرسوم، دون تغيير المقالات أو طلب تنزيلات من المستخدم.
