@@ -1,5 +1,18 @@
 # KANDAKA WORKPLAN
 
+## 21 November 2026 — Hair history expanded bilingual review v3; NOT APPROVED
+
+Owner requested stronger regional coverage and men's hairstyles, additional historical/modern photographs and the full English/Arabic article in chat before publication. Expanded local review: D:/Kandaka-builds/hair-review-20261121/REVIEW.html, article.en.txt (2,605 words), article.ar.txt (2,071 words), sources.json, new-photo-records.json and REVIEW-NOTES.txt. Matching 58 paragraphs and all 18 source references in both editions. Earlier versions preserved.
+
+Added El Fasher men's and women's salon work from UNAMID's May 2014 report; two unmodified embedded photographs by Hamid Abdulsalam, dated 29 April 2014, visually inspected with original pages. Printed p.2 explicitly allows reprinting with attribution. Added modern groom photographed by Rahma Abdalla (25 September 2019, CC BY-SA 4.0), and NYPL-distributed Bisharin group at Wadi Halfa (broad 1860s–1920s range; no known copyright restrictions, source record via Commons because primary catalogue could not reopen). Seven review photographs now, with complete bilingual captions/credits and dates. NYPL upload year must never become capture year.
+
+Added Kau/Nuba Mountains example: SPK's 2024 community-assisted identification of Dawud Kuku Londi in 1975, locally associated hairstyle/face paint; copyrighted image remains source-linked, not reproduced. Expanded Beja grooming discussion with attributed historical tiffa/nape-plait description, and filmmaker Hafsa Borai's published first-person interview. Corrected Arabic film title to جدائل الهوية. No newly conducted interviews; Durham catalogue only; films/talk not claimed watched. Medieval evidence concerns surviving hair, not reconstructed fashions. Regional coverage is broader, not exhaustive; Blue Nile and other gaps remain explicit.
+
+**State:** manuscript/photos LOCAL REVIEW ONLY; this status record committed separately. No article content deployed, no publication approval/date, no cover approval. Show complete EN/AR text and image selection to owner; never infer approval from this work.
+
+**العربية:** وُسعت المسودة لتشمل الفاشر وكاو ووادي حلفا وشرق السودان، مع تعزيز شعر الرجال وإضافة أربع صور إلى الصور الثلاث السابقة. أُكملت التعليقات والاعتمادات باللغتين، وفُحصت الصور وسجلاتها. تظل المسودة للمراجعة فقط؛ لم يُنشر المقال ولم يُعتمد غلافه. الصورة المحمية من كاو رابط مصدر فقط. لا ندّعي تغطية كل الأقاليم أو إجراء مقابلات جديدة.
+
+
 ## 18 November 2026 — Safe PDF acquisition uploader implemented (not yet executed)
 
 Replaced unsafe `find_and_upload_calibre.py` automatic fuzzy-title uploader with a **dry-run-by-default, explicit-manifest PDF uploader**. It requires a title, DOI, existing local PDF, documented licence evidence and affirmative redistribution permission for each file. It checks the PDF magic header and SHA-256, uses deterministic `research/<doi>-<hash>.pdf` keys, refuses uploads outside `kandaka-library`, checks for existing keys without overwriting, and verifies R2 object length and stored SHA-256 metadata after upload. The script does not automatically rewrite `data/library.json`; bilingual metadata must be reviewed separately. New R2 keys are only generated for source files actually present and cleared.
