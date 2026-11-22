@@ -2715,3 +2715,10 @@ Owner explicitly instructed contacting Cambridge about the remaining illustratio
 **Status: AWAITING CLARIFICATION; NO PERMISSION OR DELIVERY/REPLY CLAIM.** Official-source link retained; no PDF stored or download field added. Sending/acknowledgement/silence is not permission. Evaluate any answer before archiving. Private exact Gmail receipt kept locally, not published. [Request and verification record](docs/pluriversal-cambridge-rights-request-2026-11-22.md). No automation or reply-monitoring job created. Catalog579; original batch seven of eight archived. No article, cover, editorial approval, cadence or other correspondence changed. This one-message authorization supersedes earlier no-outreach notes only for this enquiry.
 
 **العربية:** أُرسل طلب توضيح حقوق الرسوم إلى كامبريدج بتوجيه صريح من المستخدم، وتحقق من البريد المرسل. يبقى الملف معلقاً بانتظار جواب واضح؛ لا يُعد الإرسال أو السكوت إذناً. لا تغيير في الفهرس أو المقالات أو المواعيد.
+
+
+## 22 November 2026 — Three bilingual Library source links
+
+Added experimental archaeology of Neolithic rhyolite tools, a Sudanese manuscript digitization case study, and a Port Sudan rainwater harvesting siting study. The current production baseline was 579 records in each language, superseding the 567 recorded in the referenced chat. The new catalogue contains 582 records. See the [acquisition log](docs/library-acquisition-2026-11-22-source-links.md) for citations, deduplication and review scope. Production verification follows the GitHub push.
+
+**العربية:** أضيفت ثلاثة سجلات ثنائية اللغة عن أدوات العصر الحجري الحديث ورقمنة المخطوطات السودانية وحصاد مياه الأمطار في بورتسودان، فأصبح الفهرس ٥٨٢ سجلاً، وجميع الإضافات روابط للمقالات الأصلية.

@@ -1,6 +1,83 @@
 {
   "books": [
     {
+      "title": "Wood or Soil? A Functional Analysis of Neolithic Rhyolite Gouges from Central Sudan Using Experimental Archaeology and Use Wear Study",
+      "title_ar": "الخشب أم التربة؟ تحليل وظائف الأزاميل المقعّرة المصنوعة من الريوليت في العصر الحجري الحديث بوسط السودان",
+      "author": "Katarína Kapustka, Malgorzata Winiarska-Kabacinska, Ikram Madani Ahmed, Karolína Pauknerová, Ladislav Varadzin and Lenka Varadzinová",
+      "author_ar": "كاتارينا كابوستكا، مالغوجاتا فينيارسكا-كاباتشينسكا، إكرام مدني أحمد، كارولينا باوكنيروفا، لاديسلاف فارادزين ولينكا فارادزينوفا",
+      "year": "2026",
+      "publication_date": "2026-02-16",
+      "language": "English",
+      "doi": "10.1007/s10437-025-09648-2",
+      "citation": "African Archaeological Review 43 (June 2026), pp. 255–286. Version of record published 16 February 2026.",
+      "tags": [
+        "History",
+        "Sudan"
+      ],
+      "source": "https://link.springer.com/article/10.1007/s10437-025-09648-2",
+      "desc": "The researchers compared microscopic wear on 39 Neolithic tools from Fox Hill and Kadero with wear on replica tools made from Sabaloka rhyolite. Woodworking left the most frequent identifiable traces on the archaeological tools. The replicas also worked soil, and the poorer preservation of the Kadero finds limits what can be inferred about their use. The study offers experimental evidence for craft practices in Neolithic central Sudan.",
+      "desc_ar": "قارن الباحثون آثار التآكل المجهرية على ٣٩ أداة من العصر الحجري الحديث في موقعي فوكس هيل والكدرو بآثار مماثلة على أدوات صنعوها من ريوليت السبلوقة. وكانت آثار العمل بالخشب أكثر الآثار القابلة للتعرّف شيوعاً على الأدوات الأثرية. وأمكن استخدام الأدوات التجريبية في معالجة التربة أيضاً، فيما حدّ سوء حفظ لقى الكدرو من القدرة على تحديد استخداماتها. وتقدم الدراسة أدلة تجريبية على الممارسات الحرفية في وسط السودان خلال العصر الحجري الحديث.",
+      "review_level": "Publisher HTML abstract, selected results, discussion and conclusion checked.",
+      "rights_note": "Publisher lists CC BY 4.0, with exceptions where credited. Link to publisher HTML only.",
+      "license": "CC BY 4.0",
+      "pdf_stored": false,
+      "verified_on": "2026-11-22",
+      "access_type": "external_article",
+      "access_label_en": "Read original article",
+      "access_label_ar": "قراءة المقال الأصلي"
+    },
+    {
+      "title": "Digitization of Sudanese Manuscripts and Documents at the University of Bergen Library: The Khartoum Collection as a Case Study",
+      "title_ar": "رقمنة المخطوطات والوثائق السودانية بمكتبة جامعة بيرغن: مجموعة الخرطوم نموذجا",
+      "author": "Khalifa Mohammed Omer, Alexandros Tsakos and Marianne Paasche",
+      "author_ar": "خليفة محمد عمر، ألكسندروس تساكوس وماريان باشه",
+      "year": "2025",
+      "publication_date": "2026-01-12",
+      "date_note": "Volume dated 2025. Publisher records online posting on 12 January 2026.",
+      "language": "Arabic",
+      "citation": "Adab: Journal of the Faculty of Arts, University of Khartoum, vol. 53 (2025), pp. 211–229.",
+      "tags": [
+        "Culture",
+        "History",
+        "Sudan"
+      ],
+      "source": "https://onlinejournals.uofk.edu/JFA/en/article/view/2093",
+      "desc": "This Arabic case study documents how the University of Bergen Library catalogues and digitizes Sudanese manuscript and document copies associated with historian Rex Seán O’Fahey and his colleagues. It explains the provenance of the Khartoum Collection and the role of detailed catalogue records in helping researchers locate and study material held abroad. The evidence concerns this collection and its digitization.",
+      "desc_ar": "توثق دراسة الحالة هذه، المنشورة بالعربية، جهود مكتبة جامعة بيرغن في فهرسة ورقمنة نسخ من مخطوطات ووثائق سودانية ارتبط جمعها بالمؤرخ ريكس شون أوفاهي وزملائه. وتوضح نشأة مجموعة الخرطوم ودور بيانات الفهرسة المفصلة في مساعدة الباحثين على العثور على المواد المحفوظة في الخارج ودراستها. ويتركز نطاق الدراسة على هذه المجموعة وتجربة رقمنتها.",
+      "review_level": "University of Khartoum journal metadata and abstract checked against the CMI project publication record.",
+      "rights_note": "Public publisher landing page. Article-specific redistribution terms were not established. Link to publisher HTML only.",
+      "pdf_stored": false,
+      "verified_on": "2026-11-22",
+      "access_type": "external_article",
+      "access_label_en": "Read original article",
+      "access_label_ar": "قراءة المقال الأصلي"
+    },
+    {
+      "title": "Selecting Suitable Sites for Rainwater Harvesting using GIS & RS Technology in Port Sudan City, Sudan Through Hydrological Modeling",
+      "title_ar": "اختيار مواقع مناسبة لحصاد مياه الأمطار في بورتسودان باستخدام نظم المعلومات الجغرافية والاستشعار عن بُعد والنمذجة الهيدرولوجية",
+      "author": "Taiseer Musa Abdalla Ali, Awadelgeed Mohamed Awadelgeed and Abubakr Hassan",
+      "author_ar": "تيسير موسى عبد الله علي، عوض الجيد محمد عوض الجيد وأبو بكر حسن",
+      "year": "2024",
+      "publication_date": "2024-09-30",
+      "language": "English",
+      "doi": "10.54388/jkues.v3i2.267",
+      "citation": "Journal of Karary University for Engineering and Science 3(2), 30 September 2024.",
+      "tags": [
+        "Economics & Development",
+        "Sudan"
+      ],
+      "source": "https://journals.karary.edu.sd/index.php/JKUES/article/view/267",
+      "desc": "The authors used GIS-based hydrological modelling to map drainage around Port Sudan and screen sites for dams that could capture rainwater. They identified 27 main catchments and proposed ten dam sites, six with flood protection in mind. These are preliminary siting results for a city facing freshwater scarcity and flash floods. Field surveys and engineering and environmental assessments would be needed before construction.",
+      "desc_ar": "استخدم الباحثون النمذجة الهيدرولوجية بنظم المعلومات الجغرافية لرسم شبكة تصريف المياه حول بورتسودان وفرز المواقع المرشحة لسدود حصاد مياه الأمطار. وحددوا ٢٧ حوض تصريف رئيسياً واقترحوا عشرة مواقع للسدود، منها ستة تستهدف الحد من أخطار السيول. وتقدم الدراسة نتائج أولية لاختيار المواقع في مدينة تواجه شح المياه العذبة والسيول المفاجئة. ويتطلب الانتقال إلى التنفيذ مسوحات ميدانية وتقييمات هندسية وبيئية.",
+      "review_level": "Publisher article metadata and abstract checked. Model and proposed sites were not independently validated.",
+      "rights_note": "Public publisher landing page. Article-specific redistribution terms were not established. Link to publisher HTML only.",
+      "pdf_stored": false,
+      "verified_on": "2026-11-22",
+      "access_type": "external_article",
+      "access_label_en": "Read original article",
+      "access_label_ar": "قراءة المقال الأصلي"
+    },
+    {
       "title": "Digital Financial Literacy in Sudan",
       "title_ar": "الثقافة المالية الرقمية في السودان",
       "author": "United Nations Development Programme (UNDP)",
