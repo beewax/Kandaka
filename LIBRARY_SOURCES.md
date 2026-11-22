@@ -389,3 +389,12 @@ Release45205def526f7d15b727b9daa8eebe8c61bd9577; matching ready Netlify6b02a98cb
 Pluriversal Pasts remains source-linked pending item-specific rights scope for reused illustrations. No permission invented or outreach sent. No user download needed. Earlier Suakin/flood holds superseded by recorded publisher-policy and browser-retrieval evidence. Articles, cover approvals, release cadence and automation preserved. Full receipt: docs/pdf-continuation-publication-2026-11-22.json.
 
 **العربية:** تحقق النشر الحي لملفي سواكن والفيضانات وملخصيهما وروابط التنزيل باللغتين، مع بقاء الملفات الخمسة السابقة. أُرشف سبعة من ثمانية ملفات، والفهرس٥٧٩ سجلاً. بقيت ماضيات متعددة معلقة لحقوق الرسوم، دون تغيير المقالات أو طلب تنزيلات من المستخدم.
+
+
+## 22 November 2026 — Pluriversal Pasts: Cambridge illustration clarification requested
+
+Owner explicitly instructed contacting Cambridge about the remaining illustration-rights hold. One email sent **22November2026 10:42:20 America/Chicago (CST) /16:42:20UTC**, to permissions@cambridge.org, cc openaccess@cambridge.org, both verified official contacts. Sent message read back; recipients/subject/body and SENT label confirmed. Request identifies DOI10.1017/S0959774326100742 and all seven illustrations, asking whether CC BY4.0 covers redistribution of the unchanged complete English version-of-record PDF in Kandaka's public Library, including a website with advertising/bookstore promotions. Asked for figure-specific exclusions, rights holders and conditions if separate clearance is needed. No PDF attachment, standalone illustration reuse, paper translation, fee commitment or author outreach.
+
+**Status: AWAITING CLARIFICATION; NO PERMISSION OR DELIVERY/REPLY CLAIM.** Official-source link retained; no PDF stored or download field added. Sending/acknowledgement/silence is not permission. Evaluate any answer before archiving. Private exact Gmail receipt kept locally, not published. [Request and verification record](docs/pluriversal-cambridge-rights-request-2026-11-22.md). No automation or reply-monitoring job created. Catalog579; original batch seven of eight archived. No article, cover, editorial approval, cadence or other correspondence changed. This one-message authorization supersedes earlier no-outreach notes only for this enquiry.
+
+**العربية:** أُرسل طلب توضيح حقوق الرسوم إلى كامبريدج بتوجيه صريح من المستخدم، وتحقق من البريد المرسل. يبقى الملف معلقاً بانتظار جواب واضح؛ لا يُعد الإرسال أو السكوت إذناً. لا تغيير في الفهرس أو المقالات أو المواعيد.
