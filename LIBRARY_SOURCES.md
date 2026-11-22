@@ -444,3 +444,14 @@ Added original research on Atbai burial archaeology, Port Sudan soil salinity an
 GitHub release `db97583e99a6b50260d96fc24d77c9e99d86ec80` was published by Netlify production deploy `6b0342ada6efc0655f639436` on 22 November 2026 at 13:30:57 CST (`2026-11-22T19:30:57.419Z`). Direct checks of the English and Arabic production pages returned HTTP 200. Each displays 585 documents and contains 585 Library cards. Each new original article link appears once with its complete localized title and description. Arabic is rendered right to left. [Verification receipt](docs/library-acquisition-2026-11-22-research-batch-live.json).
 
 **العربية:** تحقق النشر على الموقع، وظهر العدد ٥٨٥ في كل من صفحتي المكتبة. وتحققت العناوين والأوصاف المترجمة وروابط المقالات الأصلية واتجاه النص العربي.
+
+
+## 22 November 2026 — Library continuation while Cambridge is pending
+
+Owner authorized next verified Library sources, bilingual summaries and licensed PDF archives. Added three nonduplicate records: Sudan concrete alternatives (Elshaikh/Mahmoud, 27 October 2026); Gum Arabic Belt monitoring (Mohammed/Ahmed/Musa, 18 September 2026, accepted Article in Press); compressed stabilized earth blocks (Ahmed et al., 25 February 2025, older work newly cataloged). Catalog 588 → 591. English/Arabic summaries distinguish methods, coverage, interpretation and limitations. Selected full-text review, not a claim to have audited all references or replicated findings.
+
+Two unchanged CC BY 4.0 PDFs archived: concrete 27 pages /3,064,452 bytes; gum-belt accepted version16 pages /5,626,963 bytes. All credits screened, public originals downloaded byte-for-byte and SHA256 verified before catalog insertion. Earth-block article linked only: publisher CC BY3.0 confirmed but downstream scope of attributed guide graphics/table unresolved; no permission presumed. Three DOIs/titles absent from actual live catalog, read-only active Calibre metadata and central CATALOG. Personal-library content search found only tangential gum value-chain context; no unverified book quotation used. Cambridge Pluriversal Pasts correspondence remains pending; no resend or mirrored PDF. No article/editorial/automation changes.
+
+Evidence: [acquisition](docs/library-next-2026-11-22.md), [PDF manifest](docs/library-next-2026-11-22-manifest.json), [checks](docs/library-next-2026-11-22-checks.json). Production verification to be recorded after deployment.
+
+**العربية:** أُضيفت ثلاثة مصادر بملخصات عربية وإنجليزية، وأُرشف أصلان مرخّصان عن الخرسانة وحزام الصمغ العربي، مع تمييز النسخة المقبولة المبكرة. بقي بحث كتل التربة رابطاً إلى الناشر لحين اتضاح حقوق المواد المعاد استخدامها، وبقي طلب كامبريدج معلقاً.

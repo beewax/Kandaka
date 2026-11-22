@@ -1,0 +1,28 @@
+{
+  "baseline": "bf937168647f7155886305a057b6eaca24661441",
+  "old_count": 588,
+  "new_count": 591,
+  "new_records": 3,
+  "new_pdfs": 2,
+  "pdf_pages": 43,
+  "pdf_bytes": 8691415,
+  "prior_records_unchanged": true,
+  "source_links_preserved": true,
+  "article_files_changed": false,
+  "render": {
+    "en": {
+      "cards": 591,
+      "three_full_summaries": true,
+      "two_downloads_once": true,
+      "source_links": true,
+      "rtl": false
+    },
+    "ar": {
+      "cards": 591,
+      "three_full_summaries": true,
+      "two_downloads_once": true,
+      "source_links": true,
+      "rtl": true
+    }
+  }
+}
