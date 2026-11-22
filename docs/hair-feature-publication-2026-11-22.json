@@ -1,0 +1,92 @@
+{
+  "verified_at_utc": "2026-11-22T07:56:40.445129+00:00",
+  "pages": [
+    {
+      "language": "en",
+      "url": "https://kandaka.com/culture/sudan-hair-braiding-mens-hairstyles/",
+      "http": 200,
+      "full_body_matches_build": true,
+      "text_chars": 19093,
+      "images": 7,
+      "sections": 14
+    },
+    {
+      "language": "ar",
+      "url": "https://kandaka.com/ar/culture/sudan-hair-braiding-mens-hairstyles/",
+      "http": 200,
+      "full_body_matches_build": true,
+      "text_chars": 14451,
+      "images": 7,
+      "sections": 14
+    }
+  ],
+  "images": [
+    {
+      "url": "https://kandaka.com/images/uploads/sudan-hair-bisharin-wadi-halfa.jpg",
+      "http": 200,
+      "sha256": "cf81a736b04ae9bc71e221492ca229e2802ae5c01033d69e73640a88fcd6db70",
+      "matches_approved_original": true
+    },
+    {
+      "url": "https://kandaka.com/images/uploads/sudan-hair-el-fasher-barber-2014.jpg",
+      "http": 200,
+      "sha256": "2c3982429ed493a1bdc4b63551e3c763dc0a2dfe842bc8ca25cde5dc061c9737",
+      "matches_approved_original": true
+    },
+    {
+      "url": "https://kandaka.com/images/uploads/sudan-hair-el-fasher-hairdresser-2014.jpg",
+      "http": 200,
+      "sha256": "9738e20ea0ef9865d4ad4320357ff1b753a1dc1ee6ff96b6581576bb1706deb8",
+      "matches_approved_original": true
+    },
+    {
+      "url": "https://kandaka.com/images/uploads/sudan-hair-hadendowa-1913.png",
+      "http": 200,
+      "sha256": "f8748c74d60af242a2b40d074002d7bdadaae83e9da8800b8eeb4779546435d8",
+      "matches_approved_original": true
+    },
+    {
+      "url": "https://kandaka.com/images/uploads/sudan-hair-historical-woman.jpg",
+      "http": 200,
+      "sha256": "39adf1e393641491719c8fa361d0695519540101e0aaccfccb60dcc8d4880505",
+      "matches_approved_original": true
+    },
+    {
+      "url": "https://kandaka.com/images/uploads/sudan-hair-modern-braids.jpg",
+      "http": 200,
+      "sha256": "2cd18c0277628fc4457a14fa3c1058d7864aca1390ec3d7da9ccc23cf2ccdc53",
+      "matches_approved_original": true
+    },
+    {
+      "url": "https://kandaka.com/images/uploads/sudan-hair-modern-groom.jpg",
+      "http": 200,
+      "sha256": "6a581efff49650ff8e17e7559056bab898daa3e06a695d6ba0fe74d422e6150b",
+      "matches_approved_original": true
+    }
+  ],
+  "listings": [
+    {
+      "url": "https://kandaka.com/",
+      "http": 200,
+      "article_present": true
+    },
+    {
+      "url": "https://kandaka.com/culture/",
+      "http": 200,
+      "article_present": true
+    },
+    {
+      "url": "https://kandaka.com/ar/",
+      "http": 200,
+      "article_present": true
+    },
+    {
+      "url": "https://kandaka.com/ar/culture/",
+      "http": 200,
+      "article_present": true
+    }
+  ],
+  "release_commit": "cabb80b6cf6885bb655917718afabad746e8dcc6",
+  "deployment": "6b029fdcd4e487aa316d8881",
+  "published_at_utc": "2026-11-22T07:56:12.578Z"
+}

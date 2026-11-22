@@ -1,5 +1,17 @@
 # KANDAKA WORKPLAN
 
+## 22 November 2026 — Hair feature VERIFIED LIVE in English and Arabic
+
+Owner-approved expanded article and all seven reviewed photographs published through the existing Git-to-Netlify workflow. Release commit cabb80b6cf6885bb655917718afabad746e8dcc6; matching successful deployment 6b029fdcd4e487aa316d8881. Actual publication: 2026-11-22 07:56:12.578 UTC / 01:56:12.578 CST. Independent checks began 07:56:40 UTC and completed successfully: both full live bodies match the checked production build, 14 sections each, seven unique approved photos per article, all seven live image hashes match approved originals, language links work, and both homepages/Culture listings contain the article.
+
+- English: https://kandaka.com/culture/sudan-hair-braiding-mens-hairstyles/
+- Arabic: https://kandaka.com/ar/culture/sudan-hair-braiding-mens-hairstyles/
+
+Evidence: docs/hair-feature-publication-2026-11-22.json and docs/hair-feature-release-2026-11-22.md. This supersedes earlier local-review/preparation-only labels for this exact article. No other drafts, approvals or schedules changed. Source refresh introduced no material thesis changes; source-access limitations remain documented in preflight.
+
+نُشر المقال المعتمد باللغتين مع الصور السبع، وتحقق تطابق النصين الحيين مع البناء المفحوص وتطابق ملفات الصور مع الأصول المعتمدة. تظهر المقالة في صفحتي البداية وقسمي الثقافة. تحل هذه الحالة محل سجلات المراجعة والتحضير السابقة لهذا المقال وحده، ولا تغير موافقات أو مواعيد أي مقالات أخرى.
+
+
 ## 22 November 2026 — Hair feature individually APPROVED; release preparation
 
 Owner approved the expanded full English/Arabic article and seven displayed photographs, requesting final checks and publication now. This supersedes earlier review-only status for this package. First historical woman portrait is cover; six other approved photographs inline, original bytes and localized credits. No other article approvals or schedules changed. See docs/hair-feature-release-2026-11-22.md. Publication remains unverified until matching deployment and independent live checks.
