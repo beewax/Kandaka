@@ -1,5 +1,13 @@
 # KANDAKA WORKPLAN
 
+## 22 November 2026 — Five-feature deeper research and first bilingual review
+
+Owner explicitly requests the first trade article and images in chat before publication. Revised EN/AR trade pair includes visually checked CBOS January–June2026 preliminary totals and C&F/FOB definitions, Comtrade shared-source caveat and explicitly hypothetical valuation example. Proposed real Port Sudan June2013 photograph (Bunks, CC BY-SA3.0) replaces synthetic harbour reuse; source date discrepancy recorded. Original bilingual explanatory graphics added. No publication approval inferred.
+
+Payments pair now correctly cites the FY2026 STARS annual-report summary, not an unseen standalone assessment. WIPO2025 profile visually checked; Wad2022 and2024 original reports selectively read; hotel1902 letterhead archival lead found. Last three manuscripts unchanged in this pass; institutional project checks, Wad image retrieval and regional hotel evidence remain open. See docs/five-series-review/RESEARCH-UPDATE-2026-11-22.md. All five remain review drafts; no dated schedule, deployment or publication. Intended spacing remains at least48h after each approved actual release.
+
+عُرضت مسودة التجارة المنقحة وصورها المقترحة للمراجعة قبل النشر. أُضيفت بيانات أولية للنصف الأول من٢٠٢٦ مع توضيح المنهج ومثال افتراضي، وصورة تاريخية حقيقية لبورتسودان ورسوم توضيحية باللغتين. صُحح توصيف مصدر المدفوعات، وتقدم التحقق في الابتكار وود بانقا والفنادق؛ لم تُعتمد المقالات الخمسة للنشر ولم تُحدد مواعيد فعلية.
+
 ## 22 November 2026 — Five new bilingual illustrated features commissioned
 
 Owner requests all five proposed features, deeply researched but readable rather than academic-sounding, with references and images, staggered every two days. Order: (1) What Sudan’s Trade Figures Don’t Tell Us; (2) When a Transfer Fails: Making Digital Payments Work in Sudan; (3) Does Sudan Need a Ministry of Innovation—or Better Support for Inventors?; (4) Wad Ban Naqa: A Royal City Beyond the Familiar Pyramids; (5) Sudan’s Historic Hotels: Buildings, Visitors and Changing Cities.

@@ -1,22 +1,22 @@
 [
   {
     "slug": "trade",
-    "image": "sudan-ports-classic-approved.png",
-    "source": "https://kandaka.com/development/sudan-deep-sea-ports/",
-    "licence": null,
-    "caption_en": "Port Sudan-inspired conceptual illustration, previously approved for the ports article. Fictional harbour, not a documentary photograph. Proposed reuse only; not approved for this new feature.",
-    "caption_ar": "رسم مفاهيمي مستلهم من بورتسودان، اعتُمد سابقاً لمقال الموانئ. مشهد متخيل لا صورة وثائقية. اقتراح لإعادة الاستخدام، غير معتمد لهذا المقال.",
-    "sha256": "dfc58aa97f901fc9cfb67aaab35012c6ebe6d10da564255b9729320264cf4733",
+    "image": "port-sudan-nct-2013.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:PortSudan_NCT.jpg",
+    "licence": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "caption_en": "Port Sudan container terminal, June 2013. Bunks, CC BY-SA 3.0. Wikimedia thumbnail, resized without cropping. Historical view, not current operating conditions. Source description says 23 June; camera metadata says 22 June.",
+    "caption_ar": "محطة الحاويات ببورتسودان، يونيو ٢٠١٣. تصوير Bunks، بترخيص CC BY-SA 3.0. نسخة مصغرة من ويكيميديا دون قص. منظر تاريخي لا يصف التشغيل الحالي. وصف المصدر يذكر ٢٣ يونيو وبيانات الكاميرا ٢٢ يونيو.",
+    "sha256": "50c3d871ba4314781189c27a841415ea9f54552b84c7bcddaee3c6d0ada946af",
     "image_status": "proposed, requires owner review",
     "editions": {
       "en": {
-        "words": 1146,
-        "paragraphs": 27,
+        "words": 1349,
+        "paragraphs": 31,
         "title": "What Sudan’s Trade Figures Don’t Tell Us"
       },
       "ar": {
-        "words": 919,
-        "paragraphs": 27,
+        "words": 1099,
+        "paragraphs": 31,
         "title": "ما الذي لا تخبرنا به أرقام تجارة السودان؟"
       }
     }
@@ -32,13 +32,13 @@
     "image_status": "proposed, requires owner review",
     "editions": {
       "en": {
-        "words": 1014,
-        "paragraphs": 25,
+        "words": 1074,
+        "paragraphs": 27,
         "title": "When a Transfer Fails: Making Digital Payments Work in Sudan"
       },
       "ar": {
-        "words": 831,
-        "paragraphs": 25,
+        "words": 888,
+        "paragraphs": 27,
         "title": "عندما يتعثر التحويل: كيف نجعل المدفوعات الرقمية تعمل في السودان؟"
       }
     }
