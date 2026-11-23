@@ -1,3 +1,9 @@
+## 22 November 2026 — Two-day publication cadence activated
+
+Owner said “go ahead” after being told automatic release was not configured. Created ACTIVE thread heartbeat kandaka-approved-bilingual-publication-cadence through the app Automations tool. Recurrence every two days at08:05 scheduler time; absolute release gate independently enforced: trade not before2026-11-24T07:56:13Z, and48h after any later actual article release. Target24November, subject to successful checks/build/deployment, not a claim it is live. Trade package alone is individually approved; payments, innovation, Wad Ban Naqa and hotels require owner review/approval. Read title-specific evidence, preserve reviewed bodies/images, verify both live editions before notification. Existing progress/Library/artwork/photo schedules unchanged.
+
+فُعّل جدول النشر كل يومين عبر أداة التطبيق. مقال التجارة وحده معتمد، وأقرب إصدار مستهدف٢٤ نوفمبر٢٠٢٦ بعد استيفاء الفاصل الزمني والفحوص. لا تُنشر المقالات الأربعة الأخرى قبل مراجعتها واعتمادها. لم يُنشر مقال التجارة بعد.
+
 
 ## 22 November 2026 — Trade article and images individually APPROVED
 
