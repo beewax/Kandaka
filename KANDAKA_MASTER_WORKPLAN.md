@@ -2802,3 +2802,8 @@ Live catalog, central CATALOG and active Calibre read-only DOI/title checks foun
 Release 16edeb7bc936a0c6b4acdedf809200585d60875d; matching ready Netlify 6b036b29b531788a80757b3c, published 2026-11-22T16:23:40.139000-06:00 America/Chicago (CST). Independently fetched production pages returned HTTP200 and593 cards each, with both complete localized descriptions and exact original source links; Arabic RTL confirmed. Two new bibliographic records, zero new public PDFs; all591 earlier records preserved. Agrivoltaic Canva scope and water-energy original-PDF retrieval remain open; Cambridge pending, no inferred permissions or new correspondence. No article/editorial/automation changes. Receipt: docs/library-followup-2026-11-22-publication.json.
 
 **العربية:** تحقق النشر الحي للمصدرين وملخصيهما وروابطهما بالعربية والإنجليزية؛ الفهرس٥٩٣ سجلاً. لم تُضف ملفات عامة لعدم اكتمال حقوق المادة المعاد استخدامها أو التحقق من الأصل.
+
+
+## 22 November 2026 — Digital payments bilingual review shown
+
+Owner requested full next article and images before approval. Full EN/AR payments drafts shown in chat with historical Omdurman2009 Petr Adam Dohnálek photograph, CC BY-SA3.0CZ, and original bilingual service-standards graphics. Market photograph does not prove digital usage. World Bank summary paragraph moved into evidence section; Arabic typo corrected. NOT APPROVED; existing publication automation must hold this item. Current provider complaint procedures remain a final check; no provider interviewed or service tested.
