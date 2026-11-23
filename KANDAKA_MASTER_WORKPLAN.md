@@ -1,3 +1,10 @@
+
+## 22 November 2026 — Trade article and images individually APPROVED
+
+Owner said “go ahead” immediately after full revised English/Arabic text, Port Sudan June2013 photo and both valuation graphics were shown. Approval covers that exact trade package only. Prepared content/development/sudan-trade-figures.{en,ar}.md with draft:true, reviewed bodies and localized image text. Other four remain review-only. Preserve at least48h after prior actual article release: hair article2026-11-22T07:56:12.578Z, therefore not before2026-11-24T07:56:13Z /01:56:13 CST, subject to any later article release and final verification. No release or automatic schedule claimed.
+
+اعتمد صاحب الموقع مقال أرقام التجارة باللغتين وصورة بورتسودان والرسمين بعد عرضها كاملة. لا تشمل الموافقة المقالات الأربعة الأخرى. أُعدت النسختان المحميتان من النشر؛ أقرب موعد مسموح ٢٤ نوفمبر٢٠٢٦ الساعة١:٥٦:١٣ صباحاً بتوقيت شيكاغو، مع مراعاة أي إصدار لاحق والفحص النهائي.
+
 ## 22 November 2026 — Three direct-link bilingual Library additions (Tuti, Sennar, Sudan Memory)
 
 Owner reiterated continuation of the bilingual Library with article links instead of waiting for PDFs. Checked current 585-record catalogue for matching DOI/title/source; added 3 nonduplicate items to reach **588** in GitHub: Tuti Island community flood-risk study (published 2024), Sennar manuscript repository **proposal** (2026; not implemented project), and King's College London Sudan Memory preservation report overview (2026; 14 interview accounts and project-reported scale). Each has English/Arabic original summary, bibliographic metadata, publisher URL, explicit limited review coverage and rights note; no PDF downloaded, rehosted or copied.
