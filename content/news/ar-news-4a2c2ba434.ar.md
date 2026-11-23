@@ -17,9 +17,12 @@ geography:
 language: ar
 status: Reporting
 cluster_id: 5eab8a3c2f79
-corroboration_count: 1
+corroboration_count: 2
 draft: false
 author: mozdapress
+related_sources:
+- source: سودانايل
+  link: https://sudanile.com/%d8%aa%d8%b5%d9%81%d9%8a%d8%a9-%d8%a7%d9%84%d8%a3%d8%b3%d8%b1%d9%89-%d8%ac%d8%b1%d9%8a%d9%85%d8%a9-%d8%a7%d9%85%d8%a7-%d8%a2%d9%86-%d9%84%d9%86%d8%a7-%d8%a7%d9%84%d8%ad%d8%af%d9%8a%d8%ab-%d8%a7
 clabel: الحرب والأمن
 ---
 
