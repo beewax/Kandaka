@@ -1,0 +1,36 @@
+{
+  "en": {
+    "reviewed_prose_preserved": true,
+    "draft_protected": true
+  },
+  "ar": {
+    "reviewed_prose_preserved": true,
+    "draft_protected": true
+  },
+  "links": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Bazaro_en_Omdurman_001.jpg",
+      "status": 403
+    },
+    {
+      "url": "https://creativecommons.org/licenses/by-sa/3.0/cz/",
+      "status": 200
+    },
+    {
+      "url": "https://documents1.worldbank.org/curated/en/099346011052631617/pdf/IDU-014db926-ab10-4468-928f-82179522ff2e.pdf",
+      "status": 200
+    },
+    {
+      "url": "https://documents1.worldbank.org/curated/en/251051616767309548/pdf/Sudan-Reengagement-and-Reform-Development-Policy-Financing-Project.pdf",
+      "status": 200
+    },
+    {
+      "url": "https://kandaka.com/ar/development/rebuild-trust-sudanese-pound/",
+      "status": 200
+    },
+    {
+      "url": "https://www.undp.org/sites/g/files/zskgke326/files/2026-11/dfl.pdf",
+      "status": 403
+    }
+  ]
+}

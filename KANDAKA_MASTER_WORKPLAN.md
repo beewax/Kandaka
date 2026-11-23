@@ -1,3 +1,11 @@
+## 22 November 2026 — Digital payments individually APPROVED for release after trade
+
+Owner explicitly approved full reviewed EN/AR digital-payments article and displayed images, requesting final checks and publication two days after trade. Prepared protected content/development/sudan-digital-payments.{en,ar}.md. Exact historical Omdurman2009 Petr Adam Dohnálek CC BY-SA3.0CZ cover and two original localized service graphics retained. No image substitutions or material prose changes. Review-only annotations removed; headings/citations formatted. Supersedes older payments approval holds only. Innovation, Wad Ban Naqa and hotels remain unapproved.
+
+Release only AFTER trade is independently verified live and at least48h after its actual successful deployment (and after latest other article release). Conditional planning date26November2026 if trade releases24November; shift with actual trade release, never calendar-only. Both currently draft-protected, not live. Existing cadence updated through app tool; no duplicate. Final cover audit, production build, protected-draft exclusion and bilingual preview image/reference checks passed. See docs/payments-approval-preflight-2026-11-22.md.
+
+اعتمد صاحب الموقع مقال المدفوعات الرقمية باللغتين والصور المعروضة، للنشر بعد مقال التجارة بيومين على الأقل من نشره الفعلي والتحقق منه. الموعد التخطيطي٢٦ نوفمبر مشروط بنشر التجارة٢٤ نوفمبر؛ يتأخر تلقائياً بتأخرها. لا تشمل الموافقة مقالات الابتكار وود بانقا والفنادق.
+
 ## 22 November 2026 — Two-day publication cadence activated
 
 Owner said “go ahead” after being told automatic release was not configured. Created ACTIVE thread heartbeat kandaka-approved-bilingual-publication-cadence through the app Automations tool. Recurrence every two days at08:05 scheduler time; absolute release gate independently enforced: trade not before2026-11-24T07:56:13Z, and48h after any later actual article release. Target24November, subject to successful checks/build/deployment, not a claim it is live. Trade package alone is individually approved; payments, innovation, Wad Ban Naqa and hotels require owner review/approval. Read title-specific evidence, preserve reviewed bodies/images, verify both live editions before notification. Existing progress/Library/artwork/photo schedules unchanged.

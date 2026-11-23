@@ -1,0 +1,16 @@
+{
+  "en": {
+    "production_excludes_protected_draft": true,
+    "cover_once": true,
+    "localized_graphic_loaded": true,
+    "four_reference_anchors": true,
+    "canonical_cover_preview_uses_same_local_build_asset": true
+  },
+  "ar": {
+    "production_excludes_protected_draft": true,
+    "cover_once": true,
+    "localized_graphic_loaded": true,
+    "four_reference_anchors": true,
+    "canonical_cover_preview_uses_same_local_build_asset": true
+  }
+}
