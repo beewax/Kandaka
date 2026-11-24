@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T23:29:21.103714+00:00",
+  "updated": "2026-11-24T08:46:27.119533+00:00",
   "sources": [
     {
       "id": "dabanga-en",
@@ -26,7 +26,7 @@
       "id": "bbc-africa",
       "language": "en",
       "status": "ok",
-      "items": 29,
+      "items": 31,
       "accepted": 2
     },
     {
@@ -83,20 +83,20 @@
       "language": "ar",
       "status": "ok",
       "items": 24,
-      "accepted": 1
+      "accepted": 0
     },
     {
       "id": "alaraby-ar",
       "language": "ar",
       "status": "ok",
-      "items": 158,
-      "accepted": 3
+      "items": 179,
+      "accepted": 5
     },
     {
       "id": "un-news-ar",
       "language": "ar",
-      "status": "ok",
-      "items": 30,
+      "status": "invalid_feed",
+      "items": 0,
       "accepted": 0
     },
     {
@@ -153,14 +153,14 @@
       "language": "en",
       "status": "ok",
       "items": 12,
-      "accepted": 3
+      "accepted": 4
     },
     {
       "id": "tamazuj-ar",
       "language": "ar",
       "status": "ok",
       "items": 12,
-      "accepted": 7
+      "accepted": 5
     }
   ]
 }
