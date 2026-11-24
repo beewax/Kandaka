@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24T08:46:27.119533+00:00",
+  "updated": "2026-11-24T19:59:19.605772+00:00",
   "sources": [
     {
       "id": "dabanga-en",
@@ -26,7 +26,7 @@
       "id": "bbc-africa",
       "language": "en",
       "status": "ok",
-      "items": 31,
+      "items": 30,
       "accepted": 2
     },
     {
@@ -34,7 +34,7 @@
       "language": "en",
       "status": "ok",
       "items": 25,
-      "accepted": 0
+      "accepted": 1
     },
     {
       "id": "guardian-world",
@@ -55,14 +55,14 @@
       "language": "en",
       "status": "ok",
       "items": 10,
-      "accepted": 1
+      "accepted": 0
     },
     {
       "id": "un-news-en",
       "language": "en",
-      "status": "invalid_feed",
-      "items": 0,
-      "accepted": 0
+      "status": "ok",
+      "items": 30,
+      "accepted": 7
     },
     {
       "id": "dabanga-ar",
@@ -75,7 +75,7 @@
       "id": "bbc-ar",
       "language": "ar",
       "status": "ok",
-      "items": 24,
+      "items": 25,
       "accepted": 0
     },
     {
@@ -89,7 +89,7 @@
       "id": "alaraby-ar",
       "language": "ar",
       "status": "ok",
-      "items": 179,
+      "items": 188,
       "accepted": 5
     },
     {
@@ -111,7 +111,7 @@
       "language": "ar",
       "status": "ok",
       "items": 24,
-      "accepted": 18
+      "accepted": 17
     },
     {
       "id": "ayin-ar",
@@ -139,7 +139,7 @@
       "language": "en",
       "status": "ok",
       "items": 20,
-      "accepted": 13
+      "accepted": 10
     },
     {
       "id": "sudan-transparency",
@@ -160,7 +160,7 @@
       "language": "ar",
       "status": "ok",
       "items": 12,
-      "accepted": 5
+      "accepted": 6
     }
   ]
 }
