@@ -1,8 +1,10 @@
 name: Daily News Refresh
 
 on:
-  schedule:
-    - cron: '0 6 * * *'
+  # PAUSED 2026-11-25 to save Netlify build minutes until Dec 1.
+  # To restore, uncomment the two lines below.
+  # schedule:
+  #   - cron: '0 6 * * *'
   workflow_dispatch:
 
 jobs:

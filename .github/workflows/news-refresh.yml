@@ -10,7 +10,9 @@ name: News Refresh (frequent)
 
 on:
   schedule:
-    - cron: '0 */3 * * *'
+    # TEMP 2026-11-25: every 12 hours to save Netlify build minutes until Dec 1.
+    # To restore, change back to '0 */3 * * *'.
+    - cron: '0 */12 * * *'
   workflow_dispatch:
 
 jobs:
