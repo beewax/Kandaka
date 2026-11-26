@@ -1,7 +1,7 @@
 """Validate inline promotions in a Hugo build: python scripts/check_inline_promotions.py."""
 from html.parser import HTMLParser
 from pathlib import Path
-from urllib.parse import urlparse, parse_qs
+from urllib.parse import unquote, urlparse, parse_qs
 
 
 class Article(HTMLParser):
@@ -52,49 +52,72 @@ collections = 0
 collection_handles = set()
 product_handles = set()
 for path in Path('public').rglob('*.html'):
+    html = path.read_text(encoding='utf-8')
+    if 'nile-promotion' not in html:
+        continue
     parser = Article()
-    parser.feed(path.read_text(encoding='utf-8'))
+    parser.feed(html)
     assert parser.cards <= 1, path
     if 'news' in path.parts or 'library' in path.parts:
         assert parser.cards == 0, path
     for link in parser.links:
         parsed = urlparse(link)
         assert parsed.hostname == 'nilebookstore.com', path
-        assert parse_qs(parsed.query) == {
+        expected = {
             'utm_source': ['kandaka'], 'utm_medium': ['inline'],
-            'utm_campaign': ['from_the_library']}, path
+            'utm_campaign': ['from_the_library']}
+        if 'kandaka-nubian-queens' in path.parts:
+            language = 'ar' if 'ar' in path.parts else 'en'
+            expected['utm_term'] = ['history-kandaka-nubian-queens']
+            expected['utm_content'] = [f'meroe-card-{language}']
+        assert parse_qs(parsed.query) == expected, path
         if '/collections/' in parsed.path:
             collections += 1
-            collection_handles.add(parsed.path.rstrip('/').split('/')[-1].lower())
+            collection_handles.add(unquote(parsed.path.rstrip('/').split('/')[-1]).lower())
         if '/products/' in parsed.path:
-            product_handles.add(parsed.path.rstrip('/').split('/')[-1].lower())
+            product_handles.add(unquote(parsed.path.rstrip('/').split('/')[-1]).lower())
     total += parser.cards
     if parser.cards:
-        html = path.read_text(encoding='utf-8')
         assert 'nile-promotion__cover' in html, f'Promotion has no image: {path}'
         assert 'nile-promotion--text' not in html, f'Text-only promotion: {path}'
 
-start = Path('public/history/kandaka-nubian-queens/index.html').read_text(encoding='utf-8')
-assert 'From Nile Book Store' in start and 'من مكتبة النيل' in start
 assert total > 0
-# A single build should visibly exercise both catalogue collections and books.
-assert len(collection_handles) >= 3, collection_handles
-assert len(product_handles) >= 3, product_handles
+# Curated products are exact; every unmatched inline card uses Sudan & the Nile.
+assert collection_handles == {'sudan-books-كتب-السودان'}, collection_handles
+expected_products = {
+    'history/kandaka-nubian-queens': 'meroe-the-city-of-the-ethiopians',
+    'history/funj-sultanate': 'tabaqat-wad-dayf-allah',
+    'ideas/illiteracy-sudan': 'النسائيات-ملك-حفني-ناصف',
+    'ideas/canals-irrigation-sudan': 'عشرة-أيام-في-السودان-محمد-حسين-هيكل',
+    'ideas/water-paradox-sudan': 'عشرة-أيام-في-السودان-محمد-حسين-هيكل',
+    'ideas/river-transportation-sudan': 'khartoum-and-the-blue-and-white-niles-volume-ii',
+}
 for language in ('', 'ar/'):
+    for article, handle in expected_products.items():
+        page = Path(f'public/{language}{article}/index.html')
+        parser = Article()
+        html = page.read_text(encoding='utf-8')
+        parser.feed(html)
+        assert parser.cards == 1, page
+        assert len(parser.links) == 1, page
+        parsed = urlparse(parser.links[0])
+        assert unquote(parsed.path).rstrip('/').endswith('/' + handle), page
+        assert 'data-nile-inline' not in html, page
+        assert 'nile-inline-selection.js' not in html, page
+        if language:
+            assert ('dir=rtl' in html or 'dir="rtl"' in html), page
+    kandakat = Path(f'public/{language}history/kandaka-nubian-queens/index.html')
+    kandakat_html = unquote(kandakat.read_text(encoding='utf-8'))
+    assert ('مروي، مدينة الإثيوبيين' if language else 'Meroë, the City of the Ethiopians') in kandakat_html, kandakat
+
     aid = Path(f'public/{language}ideas/how-to-help-sudan-aid-delivery/index.html')
     if aid.exists():
         assert 'nile-promotion' not in aid.read_text(encoding='utf-8'), aid
     home = Path(f'public/{language}index.html')
     home_html = home.read_text(encoding='utf-8')
-    assert home_html.count('<article class=k-nile-home-card>') == 3, home
+    assert home_html.count('class=k-nile-home-card') == 3, home
     assert home_html.count('class=k-nile-home-cover') == 3, home
     assert home_html.count('cdn.shopify.com/s/files/1/0802/4798/0280/files/') >= 3, home
-    assert 'utm_medium=homepage' in home_html and 'utm_campaign=store_showcase' in home_html, home
+    assert 'utm_medium=homepage' in home_html and 'utm_campaign=catalogue_books' in home_html, home
     assert ('من مكتبة النيل' if language else 'From Nile Bookstore') in home_html, home
-for article in ('history/funj-sultanate', 'ideas/illiteracy-sudan',
-                'ideas/canals-irrigation-sudan', 'ideas/river-transportation-sudan'):
-    en = Path(f'public/{article}/index.html').read_text(encoding='utf-8')
-    ar = Path(f'public/ar/{article}/index.html').read_text(encoding='utf-8')
-    assert 'nile-promotion' in en and 'nile-promotion' in ar
-    assert ('dir=rtl' in ar or 'dir="rtl"' in ar), article
-print(f'Passed: {total} cards across {len(collection_handles)} collection groups and {len(product_handles)} products; daily rotation, exclusions, bilingual rendering and UTMs checked.')
+print(f'Passed: {total} curated/fallback cards across {len(collection_handles)} collection group and {len(product_handles)} products; exact placements, Kandakat Meroë pairing, exclusions, bilingual rendering and UTMs checked.')
