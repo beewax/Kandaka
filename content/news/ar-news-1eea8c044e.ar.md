@@ -18,13 +18,16 @@ geography:
 language: ar
 status: Reporting
 cluster_id: 8f88b05c85c8
-corroboration_count: 1
+corroboration_count: 2
 draft: false
 author: طارق الجزولي
 image: https://sudanile.com/wp-content/uploads/2012/12/news_kurazrag.gif
 media_source: https://sudanile.com/%d8%a7%d9%84%d8%a3%d9%85%d9%85-%d8%a7%d9%84%d9%85%d8%aa%d8%ad%d8%af%d8%a9-%d9%86%d8%b2%d9%88%d8%ad-%d8%a2%d9%84%d8%a7%d9%81-%d8%a7%d9%84%d8%a3%d8%b4%d8%ae%d8%a7%d8%b5-%d9%81%d9%8a-%d9%88%d9%84%d8%a7
 media_reuse_basis: rss_metadata
 media_attribution: سودانايل
+related_sources:
+- source: أخبار الأمم المتحدة
+  link: https://news.un.org/feed/view/ar/story/2026/11/1145765
 clabel: الحرب والأمن
 ---
 
