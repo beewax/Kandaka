@@ -1,6 +1,11 @@
 {{- $offer := .offer -}}
 {{- $copy := index $offer .page.Language.Lang | default $offer.en -}}
+{{- $key := .key | default "" -}}
+{{- $offerID := .offerID | default "" -}}
 {{- $url := printf "%s?%s" $offer.url (querify "utm_source" "kandaka" "utm_medium" "inline" "utm_campaign" "from_the_library") -}}
+{{- if and (eq $key "history/kandaka-nubian-queens") (eq $offerID "meroe") -}}
+  {{- $url = printf "%s&%s" $url (querify "utm_term" "history-kandaka-nubian-queens" "utm_content" (printf "meroe-card-%s" .page.Language.Lang)) -}}
+{{- end -}}
 <aside class="nile-promotion{{ if not $offer.cover }} nile-promotion--text{{ end }}" aria-labelledby="nile-promotion-title" dir="{{ .page.Language.LanguageDirection }}">
   <div class="nile-promotion__label" dir="ltr"><span lang="en">From Nile Book Store</span> · <span lang="ar" dir="rtl">من مكتبة النيل</span></div>
   {{- with $offer.cover }}
