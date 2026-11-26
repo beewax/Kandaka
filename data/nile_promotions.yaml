@@ -4,10 +4,15 @@ minimum_words: 400
 minimum_paragraphs: 7
 after_paragraph: 5
 collection: sudan-nile
-default_pool: [sudan-nile, arabic-books, english-comics, arabic-comics, audio-bundles]
-# In-article cards rotate daily through collections and individual English and
-# Arabic titles. The article hash staggers the choice across the site.
-inline_pool: [sudan-nile, arabic-books, tabaqat, english-comics, nisaiyat, audio-bundles, khartoum-niles, arabic-comics, ten-days, meroe]
+# Curated article matches take precedence. Unmatched articles use the collection
+# fallback rather than rotating unrelated titles.
+placements:
+  history/kandaka-nubian-queens: meroe
+  history/funj-sultanate: tabaqat
+  ideas/illiteracy-sudan: nisaiyat
+  ideas/canals-irrigation-sudan: ten-days
+  ideas/water-paradox-sudan: ten-days
+  ideas/river-transportation-sudan: khartoum-niles
 # Commercial cards do not belong inside urgent aid guidance or similarly
 # sensitive pages. Add future exclusions here rather than editing Markdown.
 excluded_pages:
